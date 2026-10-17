@@ -1,0 +1,309 @@
+
+md5                     d30fe0e576de819fcd65b3896c9c7c84                        
+sha1                    e2d873e4e0851735efda9a91fb9097c2f4133c42                
+sha256                  486088fb662ce27da71a925c2e200843034b6b6b525a90e070e619c…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 09:36:23.022186                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    i386                                                    
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x10000000                                              
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          8802                                                    
+library function count  1930                                                    
+total feature count     430284                                                  
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+check for software breakpoints (2 matches)
+namespace  anti-analysis/anti-debugging/debugger-detection
+scope      function                                       
+matches    0x100E3E30                                     
+           0x100E3F20                                     
+
+parse credit card information
+namespace  collection/credit-card
+scope      function              
+matches    0x100C3C20            
+
+compute adler32 checksum
+namespace  data-manipulation/checksum/adler32
+scope      function                          
+matches    0x10183D30                        
+
+hash data with CRC32
+namespace  data-manipulation/checksum/crc32
+scope      function                        
+matches    0x101838D0                      
+
+compress data via ZLIB inflate or deflate
+namespace  data-manipulation/compression
+scope      function                     
+matches    0x1017FBA0                   
+
+encode data using Base64
+namespace  data-manipulation/encoding/base64
+scope      function                         
+matches    0x1000F130                       
+
+encode data using XOR (63 matches)
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x10046830                    
+           0x100468D3                    
+           0x10046972                    
+           0x10046A15                    
+           0x10046B25                    
+           0x10046BA3                    
+           0x10046C50                    
+           0x10046CD0                    
+           0x10046DE7                    
+           0x10046E60                    
+           0x10046F02                    
+           0x10046F80                    
+           0x10047210                    
+           0x10047290                    
+           0x10047526                    
+           0x100475B0                    
+           0x1004D363                    
+           0x1004D3E0                    
+           0x1004EDF0                    
+           0x1004EE90                    
+           0x1004EF21                    
+           0x1004F080                    
+           0x1004F461                    
+           0x1004F507                    
+           0x1004F781                    
+           0x1004F827                    
+           0x100509D4                    
+           0x10050A53                    
+           0x10050F45                    
+           0x10050FD1                    
+           0x100511F5                    
+           0x10051282                    
+           0x10051810                    
+           0x100519A0                    
+           0x100523D0                    
+           0x10052420                    
+           0x10052AA0                    
+           0x10052B10                    
+           0x10052B60                    
+           0x10052C30                    
+           0x10052C71                    
+           0x10055EF0                    
+           0x10055F70                    
+           0x10056040                    
+           0x100560C0                    
+           0x10056360                    
+           0x100563A0                    
+           0x10056470                    
+           0x100564B1                    
+           0x100905B7                    
+           0x100973B0                    
+           0x100C1880                    
+           0x100C3AA0                    
+           0x100EAFB0                    
+           0x100EB060                    
+           0x100FC710                    
+           0x1011DBC0                    
+           0x1013A351                    
+           0x1014A316                    
+           0x10181B57                    
+           0x10183934                    
+           0x10183B40                    
+           0x10183B90                    
+
+encrypt data using RC4 KSA
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x100F2D10                      
+
+encrypt data using RC4 PRGA (7 matches)
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x100B6D40                      
+           0x100B6EC0                      
+           0x100B9A00                      
+           0x100EB000                      
+           0x100FC810                      
+           0x10127ED0                      
+           0x1012E580                      
+
+hash data using murmur2
+namespace  data-manipulation/hashing/murmur
+scope      instruction                     
+matches    0x10032118                      
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+get common file path
+namespace  host-interaction/file-system
+scope      function                    
+matches    0x10019E50                  
+
+delete file (2 matches)
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x10019E50                         
+           0x101AA73D                         
+
+get file size (2 matches)
+namespace  host-interaction/file-system/meta
+scope      function                         
+matches    0x101162D0                       
+           0x10116450                       
+
+read file on Windows (9 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x1008BA50                       
+           0x10098DB0                       
+           0x100E3230                       
+           0x100E3340                       
+           0x100E87E0                       
+           0x10102B20                       
+           0x10116360                       
+           0x1012FFF0                       
+           0x10130050                       
+
+read file via mapping
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x101162D0                       
+
+write file on Windows (12 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x1008B4E0                        
+           0x100920E0                        
+           0x10098F00                        
+           0x100E3100                        
+           0x100E31C0                        
+           0x100E8850                        
+           0x10102A50                        
+           0x10116480                        
+           0x10130010                        
+           0x1013DE60                        
+           0x10164810                        
+           0x10165170                        
+
+get number of processors (4 matches)
+namespace  host-interaction/hardware/cpu
+scope      function                     
+matches    0x1016BB90                   
+           0x1016C4A0                   
+           0x1016CBF0                   
+           0x1016EC70                   
+
+print debug messages
+namespace  host-interaction/log/debug/write-event
+scope      function                              
+matches    0x101AFC19                            
+
+get process heap flags (8 matches)
+namespace  host-interaction/process
+scope      basic block             
+matches    0x1000A7B0              
+           0x1000ADA0              
+           0x1000B370              
+           0x1000B530              
+           0x1000B6E0              
+           0x1005AA00              
+           0x1005C010              
+           0x100B4B20              
+
+get thread local storage value (2 matches)
+namespace  host-interaction/process
+scope      function                
+matches    0x10191907              
+           0x1019A0EB              
+
+terminate process (4 matches)
+namespace  host-interaction/process/terminate
+scope      function                          
+matches    0x100E2720                        
+           0x100F9CA0                        
+           0x100FAB50                        
+           0x100FC020                        
+
+create thread (2 matches)
+namespace  host-interaction/thread/create
+scope      basic block                   
+matches    0x1017B9D0                    
+           0x1019153A                    
+
+set thread local storage value
+namespace  host-interaction/thread/tls
+scope      function                   
+matches    0x10191915                 
+
+access PEB ldr_data (12 matches)
+namespace  linking/runtime-linking
+scope      basic block            
+matches    0x1000A7B0             
+           0x1000ADA0             
+           0x1000B370             
+           0x1000B530             
+           0x1000B6E0             
+           0x1001444C             
+           0x1005AA00             
+           0x1005C010             
+           0x10090420             
+           0x100B4B20             
+           0x100C1120             
+           0x1016CDB5             
+
+link function at runtime on Windows (5 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x101AFC9F             
+           0x101AFCBB             
+           0x101AFCCF             
+           0x101AFCE3             
+           0x101AFCFB             
+
+link many functions at runtime
+namespace  linking/runtime-linking
+scope      function               
+matches    0x101AFC19             
+
+linked against CPP standard library
+namespace  linking/static
+scope      file          
+
+linked against ZLIB
+namespace  linking/static/zlib
+scope      file               
+
+enumerate PE sections (4 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x100EB6B0  
+           0x100EBA90  
+           0x10137B70  
+           0x1017B730  
+
+parse PE header (2 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x1000F130  
+           0x100C3C20  
+
+resolve function by parsing PE exports (5 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x100E1C60  
+           0x100FB660  
+           0x1010CFF0  
+           0x101605F0  
+           0x1016CE50  
+
+
+

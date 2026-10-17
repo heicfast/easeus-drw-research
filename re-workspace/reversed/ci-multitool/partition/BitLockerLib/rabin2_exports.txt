@@ -1,0 +1,44 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib              name                                                                                        demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00023750 0x180024350 GLOBAL FUNC 0    BitLockerLib.dll ??0BitLockerManager@@QEAA@XZ
+2   0x00026330 0x180026f30 GLOBAL FUNC 0    BitLockerLib.dll ??1BitLockerManager@@QEAA@XZ
+3   0x00028c00 0x180029800 GLOBAL FUNC 0    BitLockerLib.dll ?AdjustInformationOffset@BitLockerManager@@UEAA_NQEB_K_K@Z
+4   0x00028cc0 0x1800298c0 GLOBAL FUNC 0    BitLockerLib.dll ?AesDecryptSectors@BitLockerManager@@UEAA_NPEAX_K1@Z
+5   0x00029260 0x180029e60 GLOBAL FUNC 0    BitLockerLib.dll ?AesEncryptSectors@BitLockerManager@@UEAA_NPEAX_K1@Z
+6   0x000297d0 0x18002a3d0 GLOBAL FUNC 0    BitLockerLib.dll ?BackupBootSectors@BitLockerManager@@UEAA_NPEAXPEA_K@Z
+7   0x000182c0 0x180018ec0 GLOBAL FUNC 0    BitLockerLib.dll ?BuildMetadataEOWInformation@BitLockerManager@@UEBAXXZ
+8   0x000182c0 0x180018ec0 GLOBAL FUNC 0    BitLockerLib.dll ?BuildMetadataInformation@BitLockerManager@@UEBAXXZ
+9   0x00029960 0x18002a560 GLOBAL FUNC 0    BitLockerLib.dll ?CancelEncryption@BitLockerManager@@UEAA?B_NXZ
+10  0x000299a0 0x18002a5a0 GLOBAL FUNC 0    BitLockerLib.dll ?Convert2BitLocker2@BitLockerManager@@UEAAXXZ
+11  0x00029a10 0x18002a610 GLOBAL FUNC 0    BitLockerLib.dll ?Convert2BitLocker@BitLockerManager@@UEAAXXZ
+12  0x0002a6f0 0x18002b2f0 GLOBAL FUNC 0    BitLockerLib.dll ?Convert2BitLockerAndPause@BitLockerManager@@UEAAXXZ
+13  0x0002a750 0x18002b350 GLOBAL FUNC 0    BitLockerLib.dll ?Convert2Normal@BitLockerManager@@UEAAXXZ
+14  0x0002ace0 0x18002b8e0 GLOBAL FUNC 0    BitLockerLib.dll ?CreateBitLockerFveControl@BitLockerManager@@UEAA?B_NXZ
+15  0x0002b020 0x18002bc20 GLOBAL FUNC 0    BitLockerLib.dll ?Decryption@BitLockerManager@@UEAAXP6A_N_K0PEAX@Z1@Z
+16  0x0002b930 0x18002c530 GLOBAL FUNC 0    BitLockerLib.dll ?DestroyBitLockerMgr@@YAXPEAVBitLockerManager@@@Z
+17  0x0002b9c0 0x18002c5c0 GLOBAL FUNC 0    BitLockerLib.dll ?Encryption@BitLockerManager@@UEAAXP6A_N_K0PEAX@Z1@Z
+18  0x0002c080 0x18002cc80 GLOBAL FUNC 0    BitLockerLib.dll ?GenerateKeys@BitLockerManager@@UEAA?B_NPEBD@Z
+19  0x0002c180 0x18002cd80 GLOBAL FUNC 0    BitLockerLib.dll ?GetAutoUnlockKey@BitLockerManager@@UEAA?B_NPEAEPEA_K@Z
+20  0x0002c240 0x18002ce40 GLOBAL FUNC 0    BitLockerLib.dll ?GetBackupBootOffset@BitLockerManager@@UEAA_KXZ
+21  0x0002c280 0x18002ce80 GLOBAL FUNC 0    BitLockerLib.dll ?GetBitLockerMgr@@YAPEAVBitLockerManager@@XZ
+22  0x0002c2e0 0x18002cee0 GLOBAL FUNC 0    BitLockerLib.dll ?GetBitLockerStatus@BitLockerManager@@UEAA?BW4fve_status_t@bitlocker@@XZ
+23  0x0002c430 0x18002d030 GLOBAL FUNC 0    BitLockerLib.dll ?GetFullVolumeEncryptionKey@BitLockerManager@@UEAA?B_NPEAEPEA_K@Z
+24  0x0002c520 0x18002d120 GLOBAL FUNC 0    BitLockerLib.dll ?GetInformationOffset@BitLockerManager@@UEAA_NQEA_K@Z
+25  0x0002c660 0x18002d260 GLOBAL FUNC 0    BitLockerLib.dll ?GetProtectors@BitLockerManager@@UEAA?B_NW4protector_type_t@bitlocker@@QEAUprotector_t@3@@Z
+26  0x0002cab0 0x18002d6b0 GLOBAL FUNC 0    BitLockerLib.dll ?GetProtectorsCount@BitLockerManager@@UEAA?B_KW4protector_type_t@bitlocker@@@Z
+27  0x0002cd10 0x18002d910 GLOBAL FUNC 0    BitLockerLib.dll ?GetVolumeIdentifier@BitLockerManager@@UEAA?B_NPEADPEA_K@Z
+28  0x0002ce30 0x18002da30 GLOBAL FUNC 0    BitLockerLib.dll ?IsBitLockerEncrypted@BitLockerManager@@SA?B_NPEBD@Z
+29  0x0002d010 0x18002dc10 GLOBAL FUNC 0    BitLockerLib.dll ?IsBitLockerLocked@BitLockerManager@@SA?B_NPEBD@Z
+30  0x0002d1e0 0x18002dde0 GLOBAL FUNC 0    BitLockerLib.dll ?LockVolume@BitLockerManager@@UEAA?B_NXZ
+31  0x0002d280 0x18002de80 GLOBAL FUNC 0    BitLockerLib.dll ?PSUnlockBitLocker@BitLockerManager@@SA?B_NPEBD0@Z
+32  0x0002d4a0 0x18002e0a0 GLOBAL FUNC 0    BitLockerLib.dll ?ParserBitLocker@BitLockerManager@@UEAA?B_NXZ
+33  0x0002e300 0x18002ef00 GLOBAL FUNC 0    BitLockerLib.dll ?PercentageEncrypted@BitLockerManager@@UEAAXPEA_K0@Z
+34  0x0002e420 0x18002f020 GLOBAL FUNC 0    BitLockerLib.dll ?ReadRawData@BitLockerManager@@UEAA_NPEAX_K1@Z
+35  0x0002e490 0x18002f090 GLOBAL FUNC 0    BitLockerLib.dll ?SectorSize@BitLockerManager@@UEAA?B_KXZ
+36  0x0002e510 0x18002f110 GLOBAL FUNC 0    BitLockerLib.dll ?SetProcessProtectorKey@BitLockerManager@@UEAA?B_NUprotector_t@bitlocker@@@Z
+37  0x0002e8c0 0x18002f4c0 GLOBAL FUNC 0    BitLockerLib.dll ?SetProcessProtectorKeyFromBEK@BitLockerManager@@UEAA?B_NPEBD@Z
+38  0x0002ebf0 0x18002f7f0 GLOBAL FUNC 0    BitLockerLib.dll ?SetVolume@BitLockerManager@@UEAAXPEBD_K@Z
+39  0x0002ef00 0x18002fb00 GLOBAL FUNC 0    BitLockerLib.dll ?UnlockVolumeAndRefresh@BitLockerManager@@UEAA?B_NXZ
+40  0x0002f560 0x180030160 GLOBAL FUNC 0    BitLockerLib.dll ?VolumeSize@BitLockerManager@@UEAA?B_KXZ
+41  0x0002f750 0x180030350 GLOBAL FUNC 0    BitLockerLib.dll ?WriteRawData@BitLockerManager@@UEAA_NPEBX_K1@Z

@@ -1,0 +1,68 @@
+
+md5                     64c79b8aad2330a9bfc9b703bb380eb9                        
+sha1                    b3fb4972364842d293c955a5831fd53275d7bbe1                
+sha256                  461f8e0c7e6d118be0d6483969c6d73821aef31db5975b29825263d…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 10:27:53.512182                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          357                                                     
+library function count  556                                                     
+total feature count     19895                                                   
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+create pipe
+namespace  communication/named-pipe/create
+scope      function                       
+matches    0x1800014D0                    
+
+create two anonymous pipes
+namespace  communication/named-pipe/create
+scope      function                       
+matches    0x1800014D0                    
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+manipulate boot configuration
+namespace  host-interaction/bootloader
+scope      function                   
+matches    0x180001760                
+
+read file on Windows
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x180001640                      
+
+write file on Windows
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x1800012F0                       
+
+create process on Windows
+namespace  host-interaction/process/create
+scope      instruction                    
+matches    0x180001415                    
+
+link function at runtime on Windows (6 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x180012370            
+           0x180012370            
+           0x180012370            
+           0x180021A40            
+           0x180021A40            
+           0x180021A40            
+
+
+

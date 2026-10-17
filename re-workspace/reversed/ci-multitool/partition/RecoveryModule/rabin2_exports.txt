@@ -1,0 +1,42 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib                name                                                         demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00001e45 0x180002a45 GLOBAL FUNC 0    RecoveryModule.dll ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00000d6a 0x18000196a GLOBAL FUNC 0    RecoveryModule.dll ??0IObject@@QEAA@AEBU0@@Z
+3   0x00002507 0x180003107 GLOBAL FUNC 0    RecoveryModule.dll ??0IObject@@QEAA@XZ
+4   0x0000442e 0x18000502e GLOBAL FUNC 0    RecoveryModule.dll ??0IPartitionDevice@@QEAA@AEBV0@@Z
+5   0x0000276e 0x18000336e GLOBAL FUNC 0    RecoveryModule.dll ??0IPartitionDevice@@QEAA@XZ
+6   0x000044c4 0x1800050c4 GLOBAL FUNC 0    RecoveryModule.dll ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+7   0x00004762 0x180005362 GLOBAL FUNC 0    RecoveryModule.dll ??0IStorageDevice@@QEAA@AEBU0@@Z
+8   0x00001b57 0x180002757 GLOBAL FUNC 0    RecoveryModule.dll ??0IStorageDevice@@QEAA@XZ
+9   0x00003105 0x180003d05 GLOBAL FUNC 0    RecoveryModule.dll ??1IPartitionDevice@@UEAA@XZ
+10  0x00002f02 0x180003b02 GLOBAL FUNC 0    RecoveryModule.dll ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+11  0x00001030 0x180001c30 GLOBAL FUNC 0    RecoveryModule.dll ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+12  0x000043a2 0x180004fa2 GLOBAL FUNC 0    RecoveryModule.dll ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+13  0x000017fb 0x1800023fb GLOBAL FUNC 0    RecoveryModule.dll ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+14  0x000015ad 0x1800021ad GLOBAL FUNC 0    RecoveryModule.dll ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+15  0x0000143b 0x18000203b GLOBAL FUNC 0    RecoveryModule.dll ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+16  0x000041cc 0x180004dcc GLOBAL FUNC 0    RecoveryModule.dll ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+17  0x00000cd4 0x1800018d4 GLOBAL FUNC 0    RecoveryModule.dll ??4IObject@@QEAAAEAU0@AEBU0@@Z
+18  0x000044e7 0x1800050e7 GLOBAL FUNC 0    RecoveryModule.dll ??4IPartitionDevice@@QEAAAEAV0@AEBV0@@Z
+19  0x00003ecf 0x180004acf GLOBAL FUNC 0    RecoveryModule.dll ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+20  0x00001ff3 0x180002bf3 GLOBAL FUNC 0    RecoveryModule.dll ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+21  0x000c0bf0 0x1800c25f0 GLOBAL FUNC 0    RecoveryModule.dll ??_7IObject@@6B@
+22  0x000d06a0 0x1800d20a0 GLOBAL FUNC 0    RecoveryModule.dll ??_7IPartitionDevice@@6B@
+23  0x000c0d28 0x1800c2728 GLOBAL FUNC 0    RecoveryModule.dll ??_7IStorageDevice@@6BIBlockDevice@@@
+24  0x000c0c88 0x1800c2688 GLOBAL FUNC 0    RecoveryModule.dll ??_7IStorageDevice@@6BIObject@@@
+25  0x0000050e 0x18000110e GLOBAL FUNC 0    RecoveryModule.dll ?AddRef@IObject@@QEBAKXZ
+26  0x00003c31 0x180004831 GLOBAL FUNC 0    RecoveryModule.dll ?ConvertVolume@IStorageDevice@@UEAAHXZ
+27  0x0000216a 0x180002d6a GLOBAL FUNC 0    RecoveryModule.dll ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+28  0x00005199 0x180005d99 GLOBAL FUNC 0    RecoveryModule.dll ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+29  0x00001bb1 0x1800027b1 GLOBAL FUNC 0    RecoveryModule.dll ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+30  0x00000c84 0x180001884 GLOBAL FUNC 0    RecoveryModule.dll ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+31  0x00000b8a 0x18000178a GLOBAL FUNC 0    RecoveryModule.dll ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+32  0x00001f99 0x180002b99 GLOBAL FUNC 0    RecoveryModule.dll ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+33  0x00001ee0 0x180002ae0 GLOBAL FUNC 0    RecoveryModule.dll ?Release@IObject@@QEBAKXZ
+34  0x000007b1 0x1800013b1 GLOBAL FUNC 0    RecoveryModule.dll ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+35  0x00000e87 0x180001a87 GLOBAL FUNC 0    RecoveryModule.dll ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+36  0x00001d4b 0x18000294b GLOBAL FUNC 0    RecoveryModule.dll ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+37  0x0000413b 0x180004d3b GLOBAL FUNC 0    RecoveryModule.dll ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+38  0x00004690 0x180005290 GLOBAL FUNC 0    RecoveryModule.dll CreateObject
+39  0x0000436b 0x180004f6b GLOBAL FUNC 0    RecoveryModule.dll GetModule

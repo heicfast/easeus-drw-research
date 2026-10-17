@@ -1,0 +1,83 @@
+
+md5                     ab725bc44f3b4d2fcb603b9b6e771def                        
+sha1                    324b76240c70ef963f878636cf94a97481a8ae49                
+sha256                  fac72f89535ee6905e6274c1a35b26fce802276f231b58d22a01e46…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 09:38:57.590687                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          2709                                                    
+library function count  762                                                     
+total feature count     121553                                                  
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+interact with driver via IOCTL
+namespace  host-interaction/driver
+scope      instruction            
+matches    0x180004785            
+
+create directory
+namespace  host-interaction/file-system/create
+scope      function                           
+matches    0x18006C660                        
+
+delete file
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x180004450                        
+
+check if file exists
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x18006C5B0                        
+
+get file attributes
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x18006C5B0                      
+
+read file on Windows
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x180015770                      
+
+write file on Windows (4 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x180015620                       
+           0x180019AA0                       
+           0x180039060                       
+           0x18006DB80                       
+
+link function at runtime on Windows
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x180069733            
+
+linked against XZip
+namespace  linking/static/xzip
+scope      file               
+
+resolve function by parsing PE exports (4 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x180005730 
+           0x180007750 
+           0x180008010 
+           0x180012410 
+
+
+

@@ -1,0 +1,2998 @@
+INFO: floss: extracting static strings
+.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing programfinding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 0 library functions]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 1 library functions (0%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 2 library functions (0%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 3 library functions (0%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 4 library functions (0%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 5 library functions (1%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 6 library functions (1%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 7 library functions (1%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 8 library functions (1%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 9 library functions (1%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 10 library functions (2%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 11 library functions (2%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 12 library functions (2%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 13 library functions (2%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 14 library functions (2%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 15 library functions (3%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 16 library functions (3%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 17 library functions (3%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 18 library functions (3%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 19 library functions (3%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 20 library functions (4%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 21 library functions (4%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 22 library functions (4%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 23 library functions (4%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 24 library functions (5%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 25 library functions (5%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 26 library functions (5%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 27 library functions (5%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 28 library functions (5%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 29 library functions (6%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 30 library functions (6%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 31 library functions (6%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 32 library functions (6%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 33 library functions (6%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 34 library functions (7%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 35 library functions (7%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 36 library functions (7%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 37 library functions (7%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 38 library functions (7%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 39 library functions (8%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 40 library functions (8%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 41 library functions (8%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 42 library functions (8%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 43 library functions (8%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 44 library functions (9%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 45 library functions (9%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 46 library functions (9%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 47 library functions (9%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 48 library functions (10%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 49 library functions (10%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 50 library functions (10%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 51 library functions (10%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 52 library functions (10%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 53 library functions (11%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 54 library functions (11%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 55 library functions (11%)]finding decoding function features:   0%|          | 0/480 [00:00<?, ? functions/s, skipped 56 library functions (11%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 56 library functions (11%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 57 library functions (11%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 58 library functions (12%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 59 library functions (12%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 60 library functions (12%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 61 library functions (12%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 62 library functions (12%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 63 library functions (13%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 64 library functions (13%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 65 library functions (13%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 66 library functions (13%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 67 library functions (13%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 68 library functions (14%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 69 library functions (14%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 70 library functions (14%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 71 library functions (14%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 72 library functions (15%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 73 library functions (15%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 74 library functions (15%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 75 library functions (15%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 76 library functions (15%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 77 library functions (16%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 78 library functions (16%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 79 library functions (16%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 80 library functions (16%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 81 library functions (16%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 82 library functions (17%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 83 library functions (17%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 84 library functions (17%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 85 library functions (17%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 86 library functions (17%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 87 library functions (18%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 88 library functions (18%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 89 library functions (18%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 90 library functions (18%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 91 library functions (18%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 92 library functions (19%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 93 library functions (19%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 94 library functions (19%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 95 library functions (19%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 96 library functions (20%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 97 library functions (20%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 98 library functions (20%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 99 library functions (20%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 100 library functions (20%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 101 library functions (21%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 102 library functions (21%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 103 library functions (21%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 104 library functions (21%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 105 library functions (21%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 106 library functions (22%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 107 library functions (22%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 108 library functions (22%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 109 library functions (22%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 110 library functions (22%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 111 library functions (23%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 112 library functions (23%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 113 library functions (23%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 114 library functions (23%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 115 library functions (23%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 116 library functions (24%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 117 library functions (24%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 118 library functions (24%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 119 library functions (24%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 120 library functions (25%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 121 library functions (25%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 122 library functions (25%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 123 library functions (25%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 124 library functions (25%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 125 library functions (26%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 126 library functions (26%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 127 library functions (26%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 128 library functions (26%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 129 library functions (26%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 130 library functions (27%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 131 library functions (27%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 132 library functions (27%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 133 library functions (27%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 134 library functions (27%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 135 library functions (28%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 136 library functions (28%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 137 library functions (28%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 138 library functions (28%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 139 library functions (28%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 140 library functions (29%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 141 library functions (29%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 142 library functions (29%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 143 library functions (29%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 144 library functions (30%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 145 library functions (30%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 146 library functions (30%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 147 library functions (30%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 148 library functions (30%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 149 library functions (31%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 150 library functions (31%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 151 library functions (31%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 152 library functions (31%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 153 library functions (31%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 154 library functions (32%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 155 library functions (32%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 156 library functions (32%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 157 library functions (32%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 158 library functions (32%)]finding decoding function features:  55%|█████▍    | 262/480 [00:00<00:00, 2595.09 functions/s, skipped 159 library functions (33%)]finding decoding function features: 100%|██████████| 480/480 [00:00<00:00, 3106.26 functions/s, skipped 159 library functions (33%)]
+INFO: floss.stackstrings: extracting stackstrings from 292 functions
+extracting stackstrings:   0%|          | 0/292 [00:00<?, ? functions/s]extracting stackstrings:   0%|          | 1/292 [00:00<00:34,  8.53 functions/s]extracting stackstrings:   2%|▏         | 6/292 [00:00<00:09, 28.86 functions/s]extracting stackstrings:   4%|▍         | 11/292 [00:00<00:07, 36.19 functions/s]extracting stackstrings:   5%|▌         | 15/292 [00:00<00:07, 36.20 functions/s]extracting stackstrings:   7%|▋         | 20/292 [00:00<00:07, 38.06 functions/s]extracting stackstrings:   9%|▊         | 25/292 [00:00<00:06, 40.24 functions/s]                                                                                 INFO: floss.results: CMBK
+extracting stackstrings:   9%|▊         | 25/292 [00:00<00:06, 40.24 functions/s]extracting stackstrings:  10%|█         | 30/292 [00:00<00:07, 35.64 functions/s]extracting stackstrings:  12%|█▏        | 35/292 [00:00<00:06, 38.09 functions/s]extracting stackstrings:  13%|█▎        | 39/292 [00:01<00:06, 37.36 functions/s]extracting stackstrings:  15%|█▌        | 44/292 [00:01<00:06, 38.36 functions/s]extracting stackstrings:  17%|█▋        | 49/292 [00:01<00:06, 39.77 functions/s]extracting stackstrings:  18%|█▊        | 54/292 [00:01<00:06, 38.68 functions/s]extracting stackstrings:  20%|██        | 59/292 [00:01<00:05, 40.09 functions/s]extracting stackstrings:  22%|██▏       | 64/292 [00:01<00:05, 41.38 functions/s]extracting stackstrings:  24%|██▎       | 69/292 [00:01<00:05, 39.70 functions/s]extracting stackstrings:  25%|██▌       | 74/292 [00:01<00:05, 40.66 functions/s]extracting stackstrings:  27%|██▋       | 79/292 [00:02<00:05, 40.02 functions/s]extracting stackstrings:  29%|██▉       | 84/292 [00:02<00:05, 40.81 functions/s]extracting stackstrings:  30%|███       | 89/292 [00:02<00:05, 37.71 functions/s]extracting stackstrings:  32%|███▏      | 93/292 [00:02<00:05, 34.32 functions/s]extracting stackstrings:  33%|███▎      | 97/292 [00:02<00:05, 35.23 functions/s]extracting stackstrings:  35%|███▍      | 102/292 [00:02<00:05, 37.61 functions/s]extracting stackstrings:  36%|███▋      | 106/292 [00:02<00:05, 37.08 functions/s]extracting stackstrings:  38%|███▊      | 111/292 [00:02<00:04, 38.13 functions/s]extracting stackstrings:  39%|███▉      | 115/292 [00:03<00:04, 38.61 functions/s]extracting stackstrings:  41%|████      | 119/292 [00:03<00:04, 36.02 functions/s]extracting stackstrings:  42%|████▏     | 123/292 [00:03<00:04, 34.68 functions/s]extracting stackstrings:  43%|████▎     | 127/292 [00:03<00:04, 35.59 functions/s]extracting stackstrings:  45%|████▍     | 131/292 [00:03<00:04, 34.34 functions/s]extracting stackstrings:  46%|████▌     | 135/292 [00:03<00:04, 34.25 functions/s]extracting stackstrings:  48%|████▊     | 139/292 [00:03<00:04, 35.26 functions/s]extracting stackstrings:  49%|████▉     | 144/292 [00:03<00:03, 37.48 functions/s]extracting stackstrings:  51%|█████     | 148/292 [00:03<00:03, 36.49 functions/s]extracting stackstrings:  52%|█████▏    | 153/292 [00:04<00:03, 38.48 functions/s]extracting stackstrings:  54%|█████▍    | 158/292 [00:04<00:03, 39.97 functions/s]extracting stackstrings:  56%|█████▌    | 163/292 [00:04<00:03, 38.40 functions/s]extracting stackstrings:  58%|█████▊    | 168/292 [00:04<00:03, 39.72 functions/s]extracting stackstrings:  59%|█████▉    | 173/292 [00:04<00:03, 38.52 functions/s]extracting stackstrings:  61%|██████    | 178/292 [00:04<00:02, 39.29 functions/s]extracting stackstrings:  63%|██████▎   | 183/292 [00:04<00:02, 40.49 functions/s]extracting stackstrings:  64%|██████▍   | 188/292 [00:04<00:02, 38.96 functions/s]extracting stackstrings:  66%|██████▌   | 192/292 [00:05<00:02, 38.64 functions/s]extracting stackstrings:  67%|██████▋   | 197/292 [00:05<00:02, 39.53 functions/s]extracting stackstrings:  69%|██████▉   | 201/292 [00:05<00:02, 36.16 functions/s]extracting stackstrings:  70%|███████   | 205/292 [00:05<00:02, 36.89 functions/s]extracting stackstrings:  72%|███████▏  | 209/292 [00:05<00:02, 37.25 functions/s]extracting stackstrings:  73%|███████▎  | 213/292 [00:05<00:02, 36.75 functions/s]extracting stackstrings:  75%|███████▍  | 218/292 [00:05<00:01, 38.08 functions/s]extracting stackstrings:  76%|███████▋  | 223/292 [00:05<00:01, 39.80 functions/s]extracting stackstrings:  78%|███████▊  | 227/292 [00:06<00:01, 38.37 functions/s]extracting stackstrings:  79%|███████▉  | 231/292 [00:06<00:01, 32.70 functions/s]extracting stackstrings:  80%|████████  | 235/292 [00:06<00:01, 33.57 functions/s]extracting stackstrings:  82%|████████▏ | 239/292 [00:06<00:01, 34.38 functions/s]extracting stackstrings:  84%|████████▎ | 244/292 [00:06<00:01, 36.75 functions/s]extracting stackstrings:  85%|████████▌ | 249/292 [00:06<00:01, 39.01 functions/s]extracting stackstrings:  87%|████████▋ | 253/292 [00:06<00:01, 38.09 functions/s]extracting stackstrings:  88%|████████▊ | 258/292 [00:06<00:00, 39.69 functions/s]extracting stackstrings:  90%|█████████ | 263/292 [00:06<00:00, 41.00 functions/s]extracting stackstrings:  92%|█████████▏| 268/292 [00:07<00:00, 39.10 functions/s]extracting stackstrings:  93%|█████████▎| 273/292 [00:07<00:00, 40.68 functions/s]extracting stackstrings:  95%|█████████▌| 278/292 [00:07<00:00, 41.64 functions/s]extracting stackstrings:  97%|█████████▋| 283/292 [00:07<00:00, 40.00 functions/s]extracting stackstrings:  99%|█████████▊| 288/292 [00:07<00:00, 41.41 functions/s]extracting stackstrings: 100%|██████████| 292/292 [00:07<00:00, 37.99 functions/s]
+INFO: floss.tightstrings: extracting tightstrings from 9 functions...
+extracting tightstrings:   0%|          | 0/9 [00:00<?, ? functions/s]extracting tightstrings from function 0x1800024e0:   0%|          | 0/9 [00:00<?, ? functions/s]extracting tightstrings from function 0x1800038a0:   0%|          | 0/9 [00:00<?, ? functions/s]extracting tightstrings from function 0x1800038a0:  22%|██▏       | 2/9 [00:00<00:00, 11.34 functions/s]extracting tightstrings from function 0x180008fc0:  22%|██▏       | 2/9 [00:00<00:00, 11.34 functions/s]extracting tightstrings from function 0x18000bc60:  22%|██▏       | 2/9 [00:00<00:00, 11.34 functions/s]extracting tightstrings from function 0x18000bc60:  44%|████▍     | 4/9 [00:00<00:00,  8.47 functions/s]extracting tightstrings from function 0x18000c6b0:  44%|████▍     | 4/9 [00:00<00:00,  8.47 functions/s]extracting tightstrings from function 0x18000cfd0:  44%|████▍     | 4/9 [00:00<00:00,  8.47 functions/s]extracting tightstrings from function 0x18000cfd0:  67%|██████▋   | 6/9 [00:00<00:00, 10.40 functions/s]extracting tightstrings from function 0x18000dae0:  67%|██████▋   | 6/9 [00:00<00:00, 10.40 functions/s]extracting tightstrings from function 0x18000df20:  67%|██████▋   | 6/9 [00:00<00:00, 10.40 functions/s]extracting tightstrings from function 0x18000df20:  89%|████████▉ | 8/9 [00:00<00:00, 12.20 functions/s]extracting tightstrings from function 0x18000ec50:  89%|████████▉ | 8/9 [00:00<00:00, 12.20 functions/s]extracting tightstrings from function 0x18000ec50: 100%|██████████| 9/9 [00:00<00:00, 11.76 functions/s]
+INFO: floss.string_decoder: decoding strings
+decoding strings:   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x180004af0 (call 1/1):   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x180004af0 (call 1/1):   5%|▌         | 1/20 [00:00<00:02,  7.22 functions/s]emulating function 0x18000bc60 (call 1/1):   5%|▌         | 1/20 [00:00<00:02,  7.22 functions/s]emulating function 0x18000bc60 (call 1/1):  20%|██        | 4/20 [00:00<00:00, 16.59 functions/s]emulating function 0x18000dae0 (call 1/1):  20%|██        | 4/20 [00:00<00:00, 16.59 functions/s]emulating function 0x18000dae0 (call 1/1):  30%|███       | 6/20 [00:00<00:01, 13.11 functions/s]emulating function 0x1800038a0 (call 1/5):  30%|███       | 6/20 [00:00<00:01, 13.11 functions/s]emulating function 0x1800038a0 (call 2/5):  30%|███       | 6/20 [00:00<00:01, 13.11 functions/s]emulating function 0x1800038a0 (call 3/5):  30%|███       | 6/20 [00:00<00:01, 13.11 functions/s]emulating function 0x1800038a0 (call 4/5):  30%|███       | 6/20 [00:00<00:01, 13.11 functions/s]emulating function 0x1800038a0 (call 5/5):  30%|███       | 6/20 [00:00<00:01, 13.11 functions/s]emulating function 0x1800038a0 (call 5/5):  40%|████      | 8/20 [00:01<00:01,  6.28 functions/s]emulating function 0x18000df20 (call 1/1):  40%|████      | 8/20 [00:01<00:01,  6.28 functions/s]emulating function 0x18000df20 (call 1/1):  50%|█████     | 10/20 [00:01<00:01,  8.17 functions/s]emulating function 0x1800053c0 (call 1/1):  50%|█████     | 10/20 [00:01<00:01,  8.17 functions/s]emulating function 0x1800053c0 (call 1/1):  60%|██████    | 12/20 [00:01<00:00,  9.47 functions/s]emulating function 0x180005f90 (call 1/1):  60%|██████    | 12/20 [00:01<00:00,  9.47 functions/s]emulating function 0x180008fc0 (call 1/5):  60%|██████    | 12/20 [00:01<00:00,  9.47 functions/s]emulating function 0x180008fc0 (call 2/5):  60%|██████    | 12/20 [00:01<00:00,  9.47 functions/s]emulating function 0x180008fc0 (call 3/5):  60%|██████    | 12/20 [00:01<00:00,  9.47 functions/s]emulating function 0x180008fc0 (call 4/5):  60%|██████    | 12/20 [00:01<00:00,  9.47 functions/s]emulating function 0x180008fc0 (call 5/5):  60%|██████    | 12/20 [00:01<00:00,  9.47 functions/s]emulating function 0x180008fc0 (call 5/5):  75%|███████▌  | 15/20 [00:01<00:00,  8.13 functions/s]emulating function 0x180005900 (call 1/2):  75%|███████▌  | 15/20 [00:01<00:00,  8.13 functions/s]emulating function 0x180005900 (call 2/2):  75%|███████▌  | 15/20 [00:01<00:00,  8.13 functions/s]emulating function 0x180005900 (call 2/2):  85%|████████▌ | 17/20 [00:01<00:00,  8.96 functions/s]emulating function 0x180005730 (call 1/2):  85%|████████▌ | 17/20 [00:02<00:00,  8.96 functions/s]emulating function 0x180005730 (call 2/2):  85%|████████▌ | 17/20 [00:02<00:00,  8.96 functions/s]emulating function 0x180005730 (call 2/2):  95%|█████████▌| 19/20 [00:02<00:00,  9.30 functions/s]emulating function 0x18000e3f0 (call 1/2):  95%|█████████▌| 19/20 [00:02<00:00,  9.30 functions/s]emulating function 0x18000e3f0 (call 2/2):  95%|█████████▌| 19/20 [00:02<00:00,  9.30 functions/s]emulating function 0x18000e3f0 (call 2/2): 100%|██████████| 20/20 [00:02<00:00,  8.84 functions/s]
+INFO: floss: finished execution after 27.67 seconds
+INFO: floss: rendering results
+
+
+FLARE FLOSS RESULTS (version 3.2.0)
+
++------------------------+-----------------------------------------------------+
+| file path              | og-codebase/PartitionRecovery/BootDriver.dll        |
+| identified language    | unknown                                             |
+| extracted strings      |                                                     |
+|  static strings        | 2936 (27916 characters)                             |
+|   language strings     |    0 (    0 characters)                             |
+|  stack strings         | 1                                                   |
+|  tight strings         | 0                                                   |
+|  decoded strings       | 0                                                   |
++------------------------+-----------------------------------------------------+
+
+
+ ───────────────────────────── 
+  FLOSS STATIC STRINGS (2936)  
+ ───────────────────────────── 
+
++------------------------------------+
+| FLOSS STATIC STRINGS: ASCII (2527) |
++------------------------------------+
+
+!This program cannot be run in DOS mode.
+,Richw
+.text
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+D$0H
+D$0H
+D$0H
+D$0H
+D$ H
+D$(H
+L$ H
+D$(H
+CMBK3
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+L$ L
+D$0H
+D$0H
+D$@H
+L$p9H
+D$ \t
+D$`H
+D$`H
+D$(H
+D$`H
+D$0H
+D$`H
+L$0H
+D$`H
+D$pH
+L$`H
+D$ H
+D$@H
+D$@H
+D$@H
+D$@H
+D$ H
+D$@H
+D$8H
+D$HH
+D$HH
+L$ L
+D$`H
+D$0\t
+D$8H
+D$PH
+D$PH
+D$0)
+D$0)
+D$`CMBK
+D$8H
+D$8H
+D$8H
+D$8H
+D$ A
+D$0%
+D$XH
+D$XH
+L$ L
+D$0%
+D$@H
+L$ L
+D$pH
+D$0H
+D$0H
+D$0H
+D$0H
+D$ D
+L$hL
+T$XH
+L$PH
+D$0H
+D$0H
+D$0H
+D$PH
+D$PH
+D$ H
+D$ H
+D$(H
+D$0H
+D$0H
+D$8H
+D$8H
+D$@H
+D$ H
+D$ H
+D$@H
+D$ H
+D$ H
+D$PH
+T$HH
+L$ D
+D$@H
+D$(H
+D$(H
+L$XD
+D$PH
+T$HH
+D$ H
+D$@H
+D$ H
+D$ H
+T$HH
+D$(H
+D$(H
+D$ %
+D$(H
+D$$H
+T$@H
+D$ H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+D$`H
+D$`H
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+D$`H
+D$`H
+D$0H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$pH
+T$xH
+D$pH
+L$pH
+T$pH
+T$HL
+D$pH
+L$pH
+T$pH
+T$PL
+D$pH
+L$pH
+T$pH
+T$XL
+D$0H
+L$ D
+D$PH
+L$PH
+D$ L
+L$PH
+D$0%
+D$XH
+L$XH
+D$ L
+L$XH
+D$`H
+D$`H
+D$0\t
+D$hH
+L$hH
+D$ L
+L$hH
+D$8H
+D$pH
+L$pH
+D$ L
+L$pH
+D$xH
+D$xH
+L$(H
+L$ L
+D$8H
+D$HH
+L$Hf
+D$0%
+D$ L
+D$0%
+D$ L
+L$ L
+D$0H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+L$PH
+L$XH
+L$`H
+D$0%
+D$@H
+L$@H
+D$ L
+L$@H
+D$0H
+D$@H
+D$ H
+D$ H
+D$@H
+D$ H
+D$ H
+D$@H
+D$pH
+L$pH
+T$xH
+D$pH
+L$pH
+T$xH
+D$0%
+D$8H
+L$8H
+D$ L
+L$8H
+D$0H
+D$@H
+D$0H
+L$8H
+D$0H
+D$0H
+D$0H
+D$8H
+D$8H
+D$(H
+D$@H
+D$@H
+D$0H
+D$HH
+D$HH
+D$ H
+D$ H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$PH
+D$PH
+D$(H
+D$(H
+D$ H
+D$ H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$8H
+D$8H
+D$8H
+D$@H
+D$HH
+D$HH
+L$pH
+L$ L
+D$8H
+D$8H
+D$8H
+D$P3
+D$@H
+D$PH
+T$(H
+D$ H
+T$(H
+D$ H
+D$0H
+D$0H
+L$0H
+D$0H
+@ BSBFH
+D$@H
+L$ H+
+D$@H
+L$ H
+D$@H
+T$h3
+D$hH
+D$@H
+D$0H
+D$@H
+L$0f
+D$ HcD$ H
+HcD$ 3
+T$hf
+D$`H
+D$HH
+D$8H
+D$HH
+L$8f
+D$8HcL$ H
+L$pH;
+D$hH
+D$(H
+D$(f
+D$(H
+L$`3
+|$(dw)H
+@49D$(v\t
+|$(ds
+|$(dw)H
+@89D$(v\t
+|$(ds
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+L$hH
+D$`H
+L$pH
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+D$`H
+D$`H
+D$`H
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+D$0H
+D$0\t
+D$@H
+L$@H
+D$ L
+L$@H
+D$8H
+D$0\t
+D$HH
+L$HH
+D$ L
+L$HH
+D$0%
+D$0H
+D$PH
+L$PH
+D$ L
+L$PH
+D$XH
+L$XH
+D$ L
+L$XH
+D$0%
+D$`H
+L$`H
+D$ L
+L$`H
+T$8H
+D$0%
+D$hH
+L$hH
+D$ L
+L$hH
+T$8H
+D$0%
+D$pH
+L$pH
+D$ L
+L$pH
+T$0H
+T$4H
+D$xH
+D$xH
+L$ L
+D$0H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$0%
+D$@H
+L$@H
+D$ L
+L$@H
+D$0H
+D$pH
+D$8H
+L$8H
+D$ L
+L$8H
+D$pH
+L$pH
+D$0%
+D$@H
+L$@H
+D$ L
+L$@H
+D$0H
+D$PH
+D$`H
+D$4)
+D$@H
+L$@H
+D$ L
+L$@H
+|$0ds
+D$8d
+T$8H
+|$0ds
+D$<d
+T$<H
+T$`H
+D$4H
+D$PH
+L$PH
+D$ L
+L$PH
+D$@\t
+D$XH
+L$XH
+D$ L
+L$XH
+D$@%
+D$`H
+L$`H
+D$ L
+L$`H
+D$@%
+D$hH
+L$hH
+D$ L
+L$hH
+T$ L
+L$HL
+D$LH
+D$@H
+D$pH
+D$pH
+L$ L
+D$@%
+D$xH
+L$xH
+D$ L
+L$xH
+D$@A
+T$HH
+D$@H
+D$@%
+D$ L
+T$ L
+L$HL
+D$LH
+D$@%
+D$ L
+D$@A
+D$ L
+D$@A
+D$ L
+D$@%
+D$@%
+D$@H
+D$@%
+D$ L
+D$@%
+D$@%
+D$@H
+D$PH
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$TL
+L$PA
+D$0H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$@H
+L$@H
+D$ L
+L$@H
+T$`H
+L$hE3
+D$`H
+D$0H
+D$0%
+D$HH
+L$HH
+D$ L
+L$HH
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+T$PH
+D$0H
+L$ D
+D$8H
+L$8H
+D$ L
+L$8H
+D$@H
+D$@H
+L$ L
+D$0%
+D$HH
+L$HH
+D$ L
+L$HH
+D$PH
+D$PH
+L$ L
+D$0H
+D$`H
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+L$`H
+D$0H
+D$HH
+D$HH
+L$pH
+L$ L
+D$8H
+D$8H
+D$8H
+D$P3
+D$@H
+D$PH
+T$(H
+D$ H
+L$ L
+L$pH
+L$(H
+L$hH
+L$ L
+L$`L
+D$XH
+T$PH
+D$4H
+L$ L
+D$XH
+D$ E3
+D$PH
+T$HH
+L$ L
+L$pH
+L$(H
+L$hH
+L$ L
+L$`L
+D$XH
+T$PH
+D$4H
+L$ H
+D$hH
+D$8H
+D$8H
+D$ E3
+D$`H
+T$XH
+D$0H
+D$0H
+L$ H
+D$PH
+D$(L
+L$(L
+D$ H
+D$ H
+D$(H
+t$ H
+D$@H
+T$8H
+L$ L
+L$XH
+L$ L
+L$PL
+D$HH
+T$@H
+L$ H
+D$HH
+L$(E3
+T$@H
+D$ H
+D$ H
+D$XH
+L$XH
+D$PH
+L$0H
+D$(H
+D$PH
+L$(H
+D$ H
+|$ 'w
+D$PH
+L$(H
+D$pH
+D$ph
+D$PH
+D$PH
+D$HH
+D$pH
+D$@H
+D$ H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$@H
+D$@H
+D$@H
+D$@H
+L$pH
+D$pH
+D$HH
+D$HH
+L$ L
+D$pH
+L$pH
+D$pH
+L$pH
+D$pH
+L$pH
+D$pH
+L$pH
+D$pH
+L$pH
+D$pH
+D$pH
+D$pH
+D$pH
+D$pH
+D$PH
+D$PH
+L$ L
+D$@H
+D$@%
+D$HH
+D$HH
+L$ L
+D$PH
+D$PH
+L$ L
+D$XH
+T$XH
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$@H
+D$ H
+D$@H
+D$D)
+D$@%
+D$PH
+D$PH
+L$ L
+D$@H
+D$H)
+D$@%
+D$XH
+D$XH
+L$ L
+D$@H
+D$L)
+D$@%
+D$`H
+D$`H
+L$ L
+D$@H
+D$@%
+D$HH
+D$HH
+L$ L
+D$@%
+D$PH
+D$PH
+L$ L
+D$XH
+D$hH
+D$xH
+D$`H
+D$`H
+D$pH
+D$pH
+D$ A
+D$@H
+D$@H
+D$HH
+D$PH
+L$HH
+L$PH
+D$XH
+T$XH
+D$8H
+D$8H
+L$ L
+D$`H
+D$hH
+L$`H
+L$hH
+D$pH
+T$pH
+D$@H
+D$@H
+L$ L
+D$0H
+D$@%
+D$HH
+D$HH
+D$(.
+L$ L
+D$@%
+D$PH
+D$PH
+D$(1
+L$ L
+D$XH
+D$hH
+D$xH
+D$`H
+D$`H
+D$pH
+D$pH
+D$ E3
+D$@H
+D$@H
+L$ L
+D$pH
+D$PH
+L$PH
+D$ L
+L$PH
+D$8X
+D$0H
+D$0H
+D$<H
+D$`H
+L$`H
+L$ D
+|$4\tt
+D$XH
+D$XH
+L$ L
+D$hL
+D$hH
+D$0H
+|$4\tu
+D$@)
+D$8H
+T$HH
+T$8H
+D$LH
+D$LH
+D$ H
+9D$ }RH
+HcD$ H
+HcD$ H
+D$$H
+D$$H
+D$@H
+D$H%
+D$ L
+D$ H
+D$(L
+D$(H
+D$`H
+D$0H
+D$0H
+D$0H
+D$0H
+D$@H
+D$@H
+D$8H
+T$HH
+D$0H
+D$8H9D$Hu
+D$ H
+9D$ }
+D$ H
+D$0H
+D$@%
+D$HH
+D$HH
+L$ L
+T$xH
+D$XH
+D$`H
+L$XH
+L$`H
+D$hH
+T$hH
+D$PH
+D$PH
+L$ L
+D$@H
+D$HH
+L$HH
+D$ L
+L$HH
+D$XH
+D$hH
+D$xH
+D$`H
+D$`H
+D$pH
+D$pH
+D$ L
+D$@H
+D$HH
+L$HH
+D$ L
+L$HH
+D$XH
+D$hH
+D$xH
+D$`H
+D$`H
+D$pH
+D$pH
+D$ L
+D$@H
+L$ L
+.t@L
+D$(H
+T$(H
+D$0H
+D$0H
+D$8L
+T$8H
+D$@H
+T$@H
+T$ H
+D$HH
+D$HH
+D$XL
+D$PH
+D$PH
+D$`L
+D$XH
+T$`H
+D$hH
+D$hH
+D$pL
+T$pH
+D$xH
+T$xH
+D$ 3
+D$$H
+D$0H
+T$0H
+D$ H
+L$ L
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+L$hH
+D$`H
+L$pH
+D$`H
+L$xH
+D$`H
+D$`H
+D$0H
+D$@H
+L$@E3
+T$@H
+D$03
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+T$PH
+D$0H
+L$ D
+D$8H
+L$8H
+D$ L
+L$8H
+D$@H
+D$@H
+L$ L
+D$0%
+D$HH
+L$HH
+D$ L
+L$HH
+D$PH
+D$PH
+L$ L
+D$0H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$pH
+|$xH
+D$0H
+D$@%
+D$`H
+D$`H
+L$ L
+D$HH
+D$hH
+D$hH
+L$ L
+L$HH
+L$HH
+D$@%
+D$pH
+D$pH
+L$ L
+D$HH
+T$PH
+D$@%
+D$xH
+D$xH
+L$ L
+D$DH
+D$HH
+D$HH
+D$@%
+D$@H
+D$@H
+D$HH
+L$HH
+D$ L
+L$HH
+D$`H
+D$8H
+D$`H
+L$8f
+D$0HcD$0
+\t0HcD$0H
+D$PH
+L$Pf
+D$hH
+T$hH
+D$4H
+D$@%
+D$HH
+D$HH
+L$ L
+D$`H
+L$`H
+L$PA
+D$hH
+L$hH
+D$XH
+L$XH
+D$ L
+L$XH
+D$@H
+D$@%
+D$HH
+D$HH
+L$ L
+T$hH
+D$PL
+D$PH
+T$hH
+D$XH
+T$XH
+D$@H
+L$ L
+D$X%
+D$ L
+D$@H
+D$H)
+D$@%
+D$`H
+D$`H
+D$(0
+L$ L
+D$@H
+D$L)
+D$@%
+D$hH
+D$hH
+D$(4
+L$ L
+D$@H
+D$P)
+D$@%
+D$pH
+D$pH
+D$(8
+L$ L
+D$T)
+D$@H
+D$ H
+D$ H
+L$HH
+T$8H
+H9D$@tTH
+D$ H
+D$ H
+D$@H
+D$ H
+D$ H
+D$@H
+T$HH
+D$@H
+D$@H
+T$HH
+D$@H
+D$0H
+D$0H
+D$0H
+D$@H
+D$ H
+D$@H
+D$ H
+D$ H
+D$0H
+T$8H
+T$ H
+D$@H
+D$(H
+D$(H
+D$8H
+D$0H
+D$(H
+D$(H
+T$8H
+D$(H
+D$(H
+L$(H
+T$ H
+D$(H
+D$(H
+D$(H
+L$(H
+T$ H
+D$(3
+D$ H
+D$(H
+L$HH
+L$HH
+T$ H
+T$8H
+D$(H
+D$(H
+H9D$`wZH
+D$0H
+D$(H
+L$`H
+D$`H
+T$XH
+D$"H
+D$0H
+L$`H
+T$"H
+D$ H
+L$XD
+D$ H
+T$`H
+L$ L
+D$PH
+T$XH
+D$ H
+D$HH
+L$PH
+T$ H
+T$8H
+T$8H
+D$ H
+D$0H
+D$0H
+D$(H
+D$HH
+D$ A
+T$HH
+D$ H
+L$(H
+D$ H
+D$8H
+D$XH
+D$(H
+D$`H
+T$XH
+D$PH
+D$PH
+D$@H
+D$ H
+D$@H
+D$(H
+D$hH
+L$hL
+T$HH
+D$ H
+L$(H
+D$ H
+L$PH
+D$ H
+D$(H
+D$0H
+|$(H
+D$ H
+D$ H
+D$ H
+L$(H
+D$(H
+D$ H
+D$@H
+T$8H
+D$ H
+D$(H
+T$ H
+D$0H
+D$0H
+D$@H
+T$8H
+D$8H
+D$8H
+D$@H
+D$8H
+L$@H
+H9D$pw|H
+D$pH
+L$@H
+L$8H
+D$HH
+D$HH
+L$@H
+D$pH
+T$hH
+D$2H
+D$pH
+L$@H
+L$HH
+T$2H
+D$0H
+D$pH
+D$ L
+L$hD
+D$0H
+T$pH
+L$ L
+D$XH
+T$PH
+D$HH
+L$XH
+D$hH
+T$`H
+D$ H
+D$hH
+L$XH
+L$HH
+T$ H
+D$ H
+L$ L
+D$@H
+D$@H
+T$8H
+D$ H
+D$0H
+L$8H9H
+D$(H
+L$ H
+D$(H
+D$ H
+D$0H
+D$(H
+L$(H+
+L$0H;
+D$8H
+L$8H+
+D$@H
+L$@H;
+T$pH
+D$ H
+D$h3
+D$ H
+D$`H
+T$PH
+D$ H
+D$@H
+D$(H
+L$(H
+T$xH
+T$8H
+D$ H
+D$pH
+L$XH3
+D$(H
+L$(H
+T$xH
+T$8H
+D$ H
+D$pH
+L$XH3
+D$(H
+L$(H
+T$xH
+T$8H
+D$ H
+D$pH
+L$XH3
+L$@L
+D$@H
+D$ H
+T$HH
+D$0H
+D$0H
+L$ D
+H9D$hv
+D$ H
+D$ H
+D$@H
+T$hH
+D$8H
+D$0H
+D$8H
+D$(H
+D$ H
+L$hH
+D$ H
+L$8H
+L$xL
+D$hH
+D$@H
+D$ H
+D$ H
+L$(H
+D$ H
+D$(H
+D$`H
+D$ H
+L$ H
+T$8H
+T$8H
+L$ D
+D$0H
+D$0H
+D$8H
+H+D$8H;
+L$8H
+D$PH
+D$0H
+D$`H
+T$PH
+D$XH
+D$HH
+D$XH
+D$@H
+D$0H
+L$PH
+D$0H
+L$XH
+D$pH
+D$0H
+D$hH
+L$(H
+L$ L
+L$8L
+T$pH
+D$`H
+T$hH
+D$0H
+L$@H
+D$0H
+L$(H
+L$ L
+L$8L
+T$pH
+D$0H
+D$@H
+D$ H
+H9D$ v
+D$0H
+D$0H
+D$0H
+D$0H
+D$ H
+D$8H
+D$hH
+D$0H
+D$ H9D$0v
+D$8H
+D$(3
+L$ H+
+H9D$(v
+L$(H
+D$@H
+T$@H
+D$(H
+D$(H
+L$XH9H
+D$(H
+L$XH9H
+D$(H
+L$XH9H
+D$(H
+D$0H
+D$ H
+D$0H
+L$XH+
+D$ H
+D$(H
+L$0H
+L$ L
+D$HH
+T$@H
+D$ H
+L$ L
+T$HH
+D$ H
+D$ H
+D$(H
+D$0H
+D$ H
+D$ H
+D$8H
+L$ H
+T$8L
+D$ H
+T$(H
+D$ H
+L$ L
+D$HH
+D$HH
+D$PH
+D$HH
+L$PH
+L$PH
+L$HH
+D$XH
+D$XH
+D$8H
+HH;D$8v
+D$XH
+L$PH
+H9D$8w
+L$8H+
+D$@H
+L$PH+
+L$8H
+D$@H
+D$@H
+T$@H
+T$8L
+D$@J
+T$`L
+D$`H
+D$0H
+D$(H
+D$ L
+D$0H
+L$ L
+D$`H
+T$PH
+D$HH
+L$`H
+D$pH
+T$hH
+D$`H
+L$XH+
+L$PH
+T$`H
+T$HL
+D$`J
+D$pJ
+T$ L
+D$ H
+D$0H
+D$0H
+D$PH
+D$ H
+D$PH9D$ w\tH
+D$(H
+D$(H
+L$0H
+T$(H
+D$0H
+D$ H
+D$ H
+D$(H
+H+D$(H;
+L$(H
+D$@H
+D$ H
+D$PH
+T$@H
+D$HH
+D$8H
+D$HH
+D$0H
+D$ H
+L$@H
+D$ H
+L$HH
+D$`H
+D$ H
+D$XH
+L$(L
+T$`H
+D$PH
+T$XH
+D$ H
+L$0H
+D$ L
+L$(L
+T$`H
+D$ H
+D$0H
+L$ D
+D$@H
+D$@H
+D$HH
+H+D$HH;
+L$HH
+D$`H
+D$@H
+D$pH
+T$`H
+D$hH
+D$XH
+D$hH
+D$PH
+D$@H
+L$`H
+D$@H
+L$hH
+D$@H
+D$xH
+L$0H
+L$(H
+L$ L
+L$HL
+D$pH
+T$xH
+D$@H
+L$PH
+D$@H
+L$0H
+L$(H
+L$ L
+L$HL
+D$@H
+D$PH
+T$8H
+D$pH
+D$HH
+D$pH
+L$Hf
+D$$HcD$$H
+HcD$$3
+D$`H
+D$PH
+D$PH
+D$xH
+D$ H
+L$ f
+D$`H
+D$`H
+D$PH
+D$Pf
+D$(H
+D$(f
+D$(H
+D$hH
+D$XH
+D$XH
+D$"H
+L$"f
+D$hH
+D$hH
+D$XH
+D$Xf
+D$0H
+D$0f
+D$0H
+D$8H
+D$8f
+D$8H
+D$ I
+D$8H
+T$8H
+D$ H
+D$(H
+L$(f
+D$(H
+D$(H
+D$(3
+L$(f
+D$@H
+D$@H
+D$HL
+D$`H
+T$HH
+D$PH
+T$PH
+D$0H
+D$ H
+D$ H
+L$HH3
+L$ L
+*D$H
+*L$@
+T$ H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+L$hH
+D$`H
+L$pH
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+D$`H
+D$`H
+D$`H
+L$`H
+D$`H
+D$`H
+L$`H
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+D$0H
+D$0\t
+D$XH
+L$XH
+D$ L
+L$XH
+D$@H
+D$0\t
+D$`H
+L$`H
+D$ L
+L$`H
+D$0%
+D$0H
+D$hH
+L$hH
+D$ L
+L$hH
+T$@H
+D$0%
+D$pH
+L$pH
+D$ L
+L$pH
+D$4H
+D$@H
+D$PH
+L$Pf
+D$P9D$4s"
+D$4H
+D$0%
+D$xH
+L$xH
+D$ L
+L$xH
+D$@H
+L$@H
+D$ L
+D$@H
+L$@H
+D$(H
+L$ L
+D$0%
+D$ L
+T$0H
+T$LH
+L$ L
+D$0H
+D$8H
+D$pH
+D$ph
+D$PH
+D$PH
+D$HH
+D$pH
+D$@H
+D$ H
+T$ H
+D$4\t
+D$4\t
+D$4\t
+D$4E
+L$PA
+D$@H
+D$hH
+D$xH
+D$4H
+D$4H
+L$ L
+T$`H
+D$ H
+T$`H
+L$ E3
+D$0H
+D$0H
+D$8H
+T$8H
+L$ H
+D$@H
+T$@H
+D$ H
+L$ E3
+D$HH
+D$HH
+D$PH
+T$PH
+D$(H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$pH
+|$xH
+D$0H
+D$pH
+D$8H
+D$pH
+L$8f
+D$4H
+D$0\t
+D$HH
+L$HH
+D$ L
+L$HH
+D$0\t
+D$PH
+L$PH
+D$ L
+L$PH
+D$@H
+L$@f
+D$0%
+D$XH
+L$XH
+D$ L
+L$XH
+HcD$4H
+HcD$4H
+D$0\t
+D$`H
+L$`H
+D$ L
+L$`H
+D$0%
+D$hH
+L$hH
+D$ L
+L$hH
+D$0H
+D$@H
+D$0\t
+D$@H
+L$@H
+D$ L
+L$@H
+D$hH
+D$8H
+D$hH
+L$8f
+D$0\t
+D$HH
+L$HH
+D$ L
+L$HH
+D$0%
+D$PH
+L$PH
+D$ L
+L$PH
+D$XH
+L$XH
+D$ L
+L$XH
+D$0H
+D$PH
+D$8H
+L$8H
+D$ L
+L$8H
+L$PA
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+T$PH
+D$0H
+L$ D
+D$8H
+L$8H
+D$ L
+L$8H
+D$@H
+D$@H
+L$ L
+D$0%
+D$HH
+L$HH
+D$ L
+L$HH
+D$PH
+D$PH
+L$ L
+D$0H
+D$ H
+D$@H
+D$(H
+D$@H
+T$HH
+D$@H
+T$PH
+D$@H
+T$PH
+D$ )
+D$ H
+L$ L
+T$0H
+D$ L
+L$hL
+D$`H
+T$PH
+D$4H
+D$XH
+D$ H
+L$HL
+D$PH
+L$ H
+T$8H
+H9D$@tV3
+D$ H
+L$ L
+D$@H
+T$8H
+D$8H
+L$ L
+T$`H
+L$XL
+D$PH
+T$HH
+D$@H
+L$ L
+D$ H
+T$PH
+D$XH
+T$PH
+D$XH
+L$PH
+D$XH
+D$@H
+L$HH
+D$ H
+T$ H
+D$HH
+D$HH
+L$pH
+L$ L
+D$8H
+D$8H
+D$8H
+D$P3
+D$@H
+D$PH
+L$ L
+D$HH9D$PsMH
+D$PH
+L$HH+
+L$@H
+T$PH
+D$XH
+D$ H
+D$@H
+L$ H+
+D$ H
+T$HH
+D$8H
+T$(H
+D$ H
+D$XH
+T$P3
+D$PH
+D$0H
+D$(H
+D$0H
+L$(f
+D$ HcD$ H
+HcD$ 3
+T$Pf
+HcD$ 3
+T$Pf
+D$@H
+T$HH
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+L$hH
+D$`H
+L$pH
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+D$`H
+D$`H
+D$0H
+D$8H
+L$8H
+D$ L
+L$8H
+D$0H
+L$ D
+D$@\t
+D$hH
+L$hH
+D$ L
+L$hH
+D$pH
+D$pH
+D$HH
+D$xH
+L$xH
+D$ L
+L$xH
+D$@%
+D$@H
+D$ L
+D$ L
+D$@%
+D$ L
+D$HH
+D$@H
+D$P)
+D$@%
+D$ L
+D$HH
+D$DH
+D$@H
+D$T)
+D$@%
+D$@%
+D$@%
+D$XH
+D$@H
+D$\)
+D$@%
+D$ L
+D$HH
+D$DH
+D$@%
+D$@%
+D$ L
+T$(H
+T$ D
+D$DH
+D$@H
+D$`)
+D$@%
+D$ L
+T$@H
+T$dH
+L$ L
+D$@H
+D$0\t
+D$8H
+L$8H
+D$ L
+L$8H
+D$pH
+|$xH
+D$0H
+D$@H
+D$(H
+D$@H
+T$HH
+D$@H
+T$PH
+D$@H
+T$PH
+D$ )
+D$ H
+D$8H
+L$8H
+D$ L
+L$8H
+D$PH
+T$PH
+D$0H
+L$ D
+D$8H
+L$8H
+D$ L
+L$8H
+D$@H
+D$@H
+L$ L
+D$0%
+D$HH
+L$HH
+D$ L
+L$HH
+D$PH
+D$PH
+L$ L
+D$0H
+D$ H
+\$@H
+\$@H
+t$HH
+t!eH
+L$PH
+\$0H
+l$8H
+t$@H
+D$ H
+D$ H
+D$ H
+D$ H
+uyHc
+uTL+
+D$8H
+D$8H
+D$@H
+D$(H
+D$(H
+T$0H
+\$ WH
+T$PH
+L$XH
+T$PL
+L$0L
+L$`H
+L$(3
+\$hH
+@SVWH
+T$`H
+L$hH
+T$`L
+L$0L
+L$pH
+L$(3
+@_^[
+|$ AVH
+\$0H
+t$8H
+|$HH
+D$@@
+\$0H
+t$@H
+VWAVH
+\$xH
+@A^_^
+\$0H
+t$8H
+L$0L
+L$(H
+L$ 3
+L$PH
+D$PH
+D$@H
+D$H3
+\$0H
+ntelA
+GenuD
+ineI
+t(=`
+t!=p
+ w$H
+T$ H
+D$ $
+\$(3
+t$0H
+\$ UH
+M H1E
+ H3E H3E
+\$HH
+\$0H
+\$0H
+x AVH
+\$0H
+l$8H
+t$@H
+|$HH
+T$ L
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+.dll
+TBCreateObject
+Kernel32.dll
+GetNativeSystemInfo
+Boot
+CodeLog
+GetNativeSystemInfo
+GetNativeSystemInfo
+Burn
+CodeLog
+GetNativeSystemInfo
+GetNativeSystemInfo
+eud_get_progress
+Kernel32.dll
+Kernel32.dll
+Boot
+CD001
+CD001
+CodeLog
+GetNativeSystemInfo
+CD001
+GetNativeSystemInfo
+Kernel32.dll
+Kernel32.dll
+CreateProcess failed (%d)
+eud_download
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+eud_init
+eud_uninit
+eud_cancel
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+Options
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+Boot
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+Kernel32.dll
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+Kernel32.dll
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+CodeLog
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+Kernel32.dll
+GetNativeSystemInfo
+CreateProcess failed (%d)
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+CodeLog
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+invalid string position
+string too long
+RSDS
+C4ty
+5Wmb
+K:\_EPM_RE_main\Output\x64\Release_NoDriver\BootDriver.pdb
+GCTL
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data
+.data$r
+.bss
+.pdata
+.rsrc$01
+.rsrc$02
+BootDriver.dll
+BootDriverExcute
+BootDriverGetProgressInfo
+CheckFormat
+DeleteGetBootDriverImp
+GetBootDriverImp
+SetBootDriverCallBack
+TBCanUnloadNow
+TBCreateObject
+EnterCriticalSection
+LeaveCriticalSection
+InitializeCriticalSection
+Sleep
+LoadLibraryA
+GetProcAddress
+DeleteCriticalSection
+FreeLibrary
+GetModuleFileNameW
+GetPrivateProfileStringW
+CreateFileW
+CloseHandle
+WaitForSingleObject
+GetFileAttributesW
+SetFileAttributesW
+GetLastError
+GetCurrentThread
+DeleteFileW
+LoadLibraryW
+CreateThread
+CreateProcessW
+CopyFileW
+GetPrivateProfileIntW
+CopyFileExW
+KERNEL32.dll
+OpenThreadToken
+ImpersonateLoggedOnUser
+RevertToSelf
+DuplicateTokenEx
+LogonUserW
+ADVAPI32.dll
+PathFileExistsW
+SHLWAPI.dll
+?_Xout_of_range@std@@YAXPEBD@Z
+?_Xlength_error@std@@YAXPEBD@Z
+MSVCP140.dll
+WNetAddConnection2W
+WNetCancelConnection2W
+MPR.dll
+__CxxFrameHandler3
+_purecall
+__std_terminate
+wcsrchr
+__C_specific_handler
+memset
+__std_exception_copy
+__std_exception_destroy
+_CxxThrowException
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+strcpy_s
+strcat_s
+_time64
+wcscpy_s
+__stdio_common_vswprintf_s
+__acrt_iob_func
+__stdio_common_vfprintf
+__stdio_common_vswprintf
+_invalid_parameter_noinfo_noreturn
+free
+malloc
+wcscat_s
+_callnewh
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+_initterm
+_initterm_e
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+InitializeCriticalSectionAndSpinCount
+SetEvent
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+InitializeSListHead
+__RTDynamicCast
+memmove
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AV?$CTbCreator@VIOperate@@VCBootDriver@@@@
+.?AVCUICallBack@@
+.?AVITBCommon@@
+.?AV?$CTbBaseCreator@VIOperate@@@@
+.?AV?$CInterfaceImpl@VIOperate@@@@
+.?AVIOperate@@
+.?AV?$CTbBaseCreator@VILog@@@@
+.?AVCBootDriver@@
+.?AV?$CTbBaseCreator@VIBoot@@@@
+.?AVITbCreator@@
+.?AVCBurnBootCD@@
+.?AV?$CTbBaseCreator@VIBurn@@@@
+.?AVCDownLoadLinuxPEISO@@
+.?AV?$CTbBaseCreator@VIOptions@@@@
+.?AVCIsoBoot@@
+.?AVCUsbBoot@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+N0L0
+0L1 0
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+\t7=gl
+Bng~B
+tsg1z
+~FoM
+5WG~
+PvtY
+n0l0-
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+/0-0+
+%http://crl.globalsign.com/root-r3.crl0G
+@0>0<
+0402
+&https://www.globalsign.com/repository/0
+{Z3n
+9Pv7
+b wul
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+{hew
+Pg,%MV
+bL}}
+_4[Qh1c
+h8@>
+SgNc
+jPeNS
+RNjOT
+~rZ*{
+}UN"
+(y0E
+JmZ6,/
+!h'o
+!gdv
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+:0806
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+O0M0A
+20402
+&https://www.globalsign.com/repository/0
+8i_A@g
+LG&e
+mKY,
+X67d
+_&P+
+r)5S
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
++IE~
+x-tU
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+O0M0A
+20402
+&https://www.globalsign.com/repository/0
+>0<0:
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+!gdv
+1^1k
+xEU/
+/.<o
+YI7xj
+QeAn
+Y\+w
+U5@D<Y</
+w:WI
+tW2)
+/*MU
+0i0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+{&9q
+[vI71=E{
+Y!Ju4_
+70OM
+3CL@
+20261013061247Z
+3O~EN
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+W3E)
+et~H
+?eq"
+wq}V
+lTl"
+, P|
+ms8B
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+X0V0T
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+~}(@
+kxXgMt
+W!yi
+rDN6
+8m)Y
+=+lu
+:"A#
+j\t\t6
+.@C"
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+P]&G
+"9<x:
+|4^o
+q)5U
+h`i<
+TxF4
+k cS
+q]dL
+k0i0$
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+<0:08
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+Dwj|
+:U|r*C
+o84s[
+a:m1&
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+t;mq
+u]xf
+v=Y]Bv
+p,A`
+RQGt
+|Lu?c
+ Qko
+q]dL
+m0k0$
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+>0<0:
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Jz/-
+5FjiT
+wZ\T
+~qj#k"
+T-'~
+0}0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+3O~EN
+261013061247Z0+
+ $ 6
+/1(0&0$0"
+~S*<|l!
+Y.8_
+ky:ko
+0^} s
+
+
++--------------------------------------+
+| FLOSS STATIC STRINGS: UTF-16LE (409) |
++--------------------------------------+
+
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+BootDriver: Error = 0x%x, Line = %d
+CBootDriver Execute Start!
+BootDriver: Error = 0x%x, Line = %d
+CBootDriver Execute Start!
+BootDriver: Error = 0x%x, Line = %d
+gBootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+DsBackupConfig.ini
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+CDSuccess
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+DsBackupConfig.ini
+BootDriver: Error = 0x%x, Line = %d
+gBootDriver: Error = 0x%x, Line = %d
+CBootDriver BootType:%d, nDriver:%d
+CBootDriver BootType:%d, nDriver:%d
+LinuxPEimageTemp
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+CBootDriver Execute End! Err = 0x%x
+%S %d nRes=0x%x
+CBootDriver Execute End! Err = 0x%x
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d ecRet=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d ecRet=0x%x
+BootDriver: Error = 0x%x, Line = %d
+DsBackupConfig.ini
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+CDInit
+../res/urls.ini
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+GetSorURLandMD5 fail %S %d
+BootDriver: Error = 0x%x, Line = %d
+GetSorURLandMD5 fail %S %d
+BootDriver: Error = 0x%x, Line = %d
+GetSorURLandMD5 fail %S %d
+BootDriver: Error = 0x%x, Line = %d
+GetSorURLandMD5 fail %S %d
+BootDriver: Error = 0x%x, Line = %d
+StartDownloadConfig
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+CDBurnRuning
+CBurnBootCD CallBack Type : %d
+EuNetConfigTemp
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+CBurnBootCD Execute End! Err = %d
+BootDriver
+CBurnBootCD Execute End! Err = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+DownloadConfigFileSuccess
+BootDriver: Error = 0x%x, Line = %d
+DownloadPESuccess
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+image.iso
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BurnBootCD GetDiscInfo : nIsBlank=%d, nIsWritable=%d, DiskType=%d
+BurnBootCD GetDiscInfo : nIsBlank=%d, nIsWritable=%d, DiskType=%d
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+image.iso
+BootDriver: Error = 0x%x, Line = %d
+image.iso
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+%S %d nRes=0x%x
+BootDriver: Error = 0x%x, Line = %d
+gBootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+..\res\UIConfig.ini
+BootDriver: Error = 0x%x, Line = %d
+OpenNetworkOptimize
+BootDriver: Error = 0x%x, Line = %d
+TB_NETPATH_TOKEN
+BootDriver: Error = 0x%x, Line = %d
+TB_NETPATH_TOKEN1
+BootDriver: Error = 0x%x, Line = %d
+TB_NETPATH_USER1
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+TB_NETPATH_TOKEN
+BootDriver: Error = 0x%x, Line = %d
+TB_NETPATH_TOKEN1
+BootDriver: Error = 0x%x, Line = %d
+CBurnBootCD CallBack Type : %d
+StartDownloadPE
+TB_NETPATH_USER1
+BootDriver: Error = 0x%x, Line = %d
+TB_NETPATH_TOKEN
+BootDriver: Error = 0x%x, Line = %d
+TB_NETPATH_TOKEN1
+CBurnBootCD CallBack Result : %d
+EuDownload.dll
+TB_NETPATH_USER
+Microsoft Windows Network
+CBurnBootCD CallBack Result : %d
+LinuxPEWebLink
+TB_NETPATH_PWS1
+Agent.exe
+BootDriver: Error = 0x%x, Line = %d
+ExchangePipeServer64.exe
+BootDriver: Error = 0x%x, Line = %d
+ConfigFileURL
+Windows_Trial_English
+.ini
+.iso
+LinuxPEImageDownload
+LinuxPEFileMD5
+DownloadConfigFileFailTryAgain
+TB_NETPATH_USER
+ExchangePipeServer32.exe
+cmd /c echo y|Cacls "%s" /G everyone:F
+NoFindISONeedDownload
+DownloadPEFailTryAgain
+TB_NETPATH_PWS1
+DownloadConfigFileFail
+TBConsoleUI.exe
+DsBackupConfig.ini
+DownloadPEFail
+BootDriver
+imageLinux.iso
+ISOInit
+BootDriver
+imageLinux.iso
+WinPEISOBurnRuning
+FixBug
+BootDriver
+TB_NETPATH_PWS
+BootDriver
+NetworkService
+WinPEISOSuccess
+BootDriver
+TB_NETPATH_PWS
+ISOSuccess
+TbService.exe
+BootDriver
+zl : CDownLoadLinuxPEISO::DownloadFile CreateThread fail error = %d
+zl : CDownLoadLinuxPEISO::DownloadFile CreateThread fail error = %d
+zl : CDownLoadLinuxPEISO::DownloadFileerror m_fp_eud_download = %d
+Microsoft Windows Network
+zl : CDownLoadLinuxPEISO::DownloadFileerror m_fp_eud_download = %d
+image.iso
+zl : GetDownloadProgressThreadProc Cancle now
+zl : GetDownloadProgressThreadProc Cancle now
+TbService.exe
+NetworkService
+CIsoBoot CallBack Type : %d
+GetNetConfigFileURL fail %S %d
+EmailPipeServer64.exe
+CIsoBoot CallBack Type : %d
+GetNetConfigFileURL fail %S %d
+GetLinuxPEImageTempDownLoadPath fail %S %d lastError=%d
+TodoBackupService.exe
+WinPEISOInit
+ISOBurnRuning
+GetLinuxPEImageTempDownLoadPath fail %S %d lastError=%d
+CIsoBoot CallBack Result : %d
+DsBackupConfig.ini
+GetNetConfigFileTempDownLoadPath fail %S %d lastError=%d
+CUsbBoot Execute Start!
+BootDriver
+CIsoBoot CallBack Result : %d
+CUsbBoot Execute Start!
+BootDriver
+GetNetConfigFileTempDownLoadPath fail %S %d lastError=%d
+USBInit
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+USBSuccess
+BootDriver: Error = 0x%x, Line = %d
+BootDriver
+BootDriver: Error = 0x%x, Line = %d
+CUsbBoot CallBack Type : %d
+BootDriver: Error = 0x%x, Line = %d
+CUsbBoot CallBack Type : %d
+BootDriver: Error = 0x%x, Line = %d
+gCDownLoadLinuxPEISO CallBack Type : %d
+CDownLoadLinuxPEISO CallBack Type : %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+CDownLoadLinuxPEISO CallBack Result : %d
+CDownLoadLinuxPEISO CallBack Result : %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+zl IsNoExistImageLinuxISO GetModuleFileNameW fail LastError = %d
+zl IsNoExistImageLinuxISO GetModuleFileNameW fail LastError = %d
+%S %d CopyFileW fail ,lastError = %d
+%S %d CopyFileW fail ,lastError = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+CIsoBoot CopyFileExW Err = 0x%x
+CIsoBoot CopyFileExW Err = 0x%x
+CIsoBoot iso.szPath = %s,
+Target.szPath  = %s
+CIsoBoot iso.szPath = %s,
+Target.szPath  = %s
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+CIsoBoot Execute End! Err = 0x%x
+CIsoBoot Execute End! Err = 0x%x
+cmd /c echo y|Cacls "%s" /G everyone:F
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+CIsoBoot DeleteFileW Err = 0x%x, szFilePath:%s
+CIsoBoot DeleteFileW Err = 0x%x, szFilePath:%s
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+CUsbBoot Execute Init!
+CUsbBoot Execute Init!
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+CUsbBoot Init!
+CUsbBoot Init!
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+USBEraseRuning
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+USBEraseFinish
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+USBBurnRuning
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+CUsbBoot Execute End! Err = %d
+CUsbBoot Execute End! Err = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+BootDriver: Error = 0x%x, Line = %d
+CUsbBoot CallBack Result : %d
+CUsbBoot CallBack Result : %d
+UiCallBack: type 0x%x.
+UiCallBack: silent mode, return default.
+UiCallBack: func return 0x%x, ui response 0x%x.
+Failed to Load lib (Err=0x%x) %S
+imageLinux.iso
+image.iso
+VS_VERSION_INFO
+StringFileInfo
+080404b0
+CompanyName
+CHENGDU YIWO Tech Development Co., Ltd
+FileDescription
+EaseUS Todo Backup BootDriver Dynamic Link Library
+FileVersion
+5.8.0.0
+InternalName
+BootDriver
+LegalCopyright
+Copyright (C) 2005-2011 CHENGDU YIWO Tech Development Co., Ltd. All rights reserved.
+OriginalFilename
+BootDriver.dll
+ProductName
+EaseUS Todo Backup BootDriver Dynamic Link Library
+ProductVersion
+5.8.0.0
+VarFileInfo
+Translation
+
+
+ ───────────────────────── 
+  FLOSS STACK STRINGS (1)  
+ ───────────────────────── 
+
+CMBK
+
+
+ ───────────────────────── 
+  FLOSS TIGHT STRINGS (0)  
+ ───────────────────────── 
+
+
+
+ ─────────────────────────── 
+  FLOSS DECODED STRINGS (0)  
+ ─────────────────────────── 
+
+
+

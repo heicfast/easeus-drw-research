@@ -1,0 +1,42 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib          name                                                                            demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000d40 0x180001940 GLOBAL FUNC 0    RawFixer.dll ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00000d40 0x180001940 GLOBAL FUNC 0    RawFixer.dll ??0IObject@@QEAA@AEBU0@@Z
+3   0x00000d20 0x180001920 GLOBAL FUNC 0    RawFixer.dll ??0IObject@@QEAA@XZ
+4   0x00000e60 0x180001a60 GLOBAL FUNC 0    RawFixer.dll ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+5   0x00000e60 0x180001a60 GLOBAL FUNC 0    RawFixer.dll ??0IStorageDevice@@QEAA@AEBU0@@Z
+6   0x00000df0 0x1800019f0 GLOBAL FUNC 0    RawFixer.dll ??0IStorageDevice@@QEAA@XZ
+7   0x000377c0 0x1800383c0 GLOBAL FUNC 0    RawFixer.dll ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+8   0x000377c0 0x1800383c0 GLOBAL FUNC 0    RawFixer.dll ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+9   0x00000d60 0x180001960 GLOBAL FUNC 0    RawFixer.dll ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+10  0x00000d60 0x180001960 GLOBAL FUNC 0    RawFixer.dll ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+11  0x00000d60 0x180001960 GLOBAL FUNC 0    RawFixer.dll ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+12  0x00000d60 0x180001960 GLOBAL FUNC 0    RawFixer.dll ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+13  0x00000d60 0x180001960 GLOBAL FUNC 0    RawFixer.dll ??4CRawFixer@@QEAAAEAV0@$$QEAV0@@Z
+14  0x00000d60 0x180001960 GLOBAL FUNC 0    RawFixer.dll ??4CRawFixer@@QEAAAEAV0@AEBV0@@Z
+15  0x00000d60 0x180001960 GLOBAL FUNC 0    RawFixer.dll ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+16  0x00000d60 0x180001960 GLOBAL FUNC 0    RawFixer.dll ??4IObject@@QEAAAEAU0@AEBU0@@Z
+17  0x00000ee0 0x180001ae0 GLOBAL FUNC 0    RawFixer.dll ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+18  0x00000ee0 0x180001ae0 GLOBAL FUNC 0    RawFixer.dll ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+19  0x0007e758 0x18007fb58 GLOBAL FUNC 0    RawFixer.dll ??_7IObject@@6B@
+20  0x0007e788 0x18007fb88 GLOBAL FUNC 0    RawFixer.dll ??_7IStorageDevice@@6BIBlockDevice@@@
+21  0x0007e6d8 0x18007fad8 GLOBAL FUNC 0    RawFixer.dll ??_7IStorageDevice@@6BIObject@@@
+22  0x00000d00 0x180001900 GLOBAL FUNC 0    RawFixer.dll ?AddRef@IObject@@QEBAKXZ
+23  0x0006a6d0 0x18006b2d0 GLOBAL FUNC 0    RawFixer.dll ?CheckPartition@CRawFixer@@QEAAKPEAUIManagerItem@@AEAW4enumFILE_SYSTEM_TYPE@@@Z
+24  0x00000da0 0x1800019a0 GLOBAL FUNC 0    RawFixer.dll ?ConvertVolume@IStorageDevice@@UEAAHXZ
+25  0x00000d70 0x180001970 GLOBAL FUNC 0    RawFixer.dll ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+26  0x00000da0 0x1800019a0 GLOBAL FUNC 0    RawFixer.dll ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+27  0x00000de0 0x1800019e0 GLOBAL FUNC 0    RawFixer.dll ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+28  0x0006a920 0x18006b520 GLOBAL FUNC 0    RawFixer.dll ?GetErrorInfo@CRawFixer@@QEAA_KPEAD_K@Z
+29  0x00000d90 0x180001990 GLOBAL FUNC 0    RawFixer.dll ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+30  0x00000cb0 0x1800018b0 GLOBAL FUNC 0    RawFixer.dll ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+31  0x00000da0 0x1800019a0 GLOBAL FUNC 0    RawFixer.dll ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+32  0x00000ce0 0x1800018e0 GLOBAL FUNC 0    RawFixer.dll ?Release@IObject@@QEBAKXZ
+33  0x00000af0 0x1800016f0 GLOBAL FUNC 0    RawFixer.dll ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+34  0x00000dd0 0x1800019d0 GLOBAL FUNC 0    RawFixer.dll ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+35  0x00000d90 0x180001990 GLOBAL FUNC 0    RawFixer.dll ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+36  0x00000db0 0x1800019b0 GLOBAL FUNC 0    RawFixer.dll ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+37  0x0006a480 0x18006b080 GLOBAL FUNC 0    RawFixer.dll ?Start@CRawFixer@@QEAAKPEAUIManagerItem@@P6AKPEAUOC_PARAM@@PEAX@Z2@Z
+38  0x00003c30 0x180004830 GLOBAL FUNC 0    RawFixer.dll ?__autoclassinit2@CCallBackOperate@@QEAAX_K@Z
+39  0x00003c30 0x180004830 GLOBAL FUNC 0    RawFixer.dll ?__autoclassinit2@CLogInBootICE@@QEAAX_K@Z

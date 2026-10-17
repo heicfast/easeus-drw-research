@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x180000000
+binsz    722152
+bintype  pe
+bits     64
+canary   false
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x000b2900
+compiled Sat Oct  8 19:12:42 2039
+crypto   false
+dbg_file T:\source\repos\_EPM_main\legacy_mod\BitLockerLib\out\bin\x64-release\BitLockerLib.pdb
+endian   little
+havecode true
+hdr.csum 0x000b2900
+guid     73511EDA2DF84A939F6716D26343D4F22
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

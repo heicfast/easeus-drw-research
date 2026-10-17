@@ -1,0 +1,211 @@
+{
+ "machine": "0x14c",
+ "timestamp": 1743669248,
+ "subsystem": 3,
+ "entrypoint_rva": "0x267ce",
+ "image_base": "0x400000",
+ "sections": [
+  {
+   "name": ".text",
+   "vaddr": "0x1000",
+   "vsize": 160897,
+   "rawsize": 161280,
+   "entropy": 6.53,
+   "characteristics": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "vaddr": "0x29000",
+   "vsize": 18028,
+   "rawsize": 18432,
+   "entropy": 4.751,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "vaddr": "0x2e000",
+   "vsize": 8488,
+   "rawsize": 5632,
+   "entropy": 4.901,
+   "characteristics": "0xc0000040"
+  },
+  {
+   "name": ".rsrc",
+   "vaddr": "0x31000",
+   "vsize": 480,
+   "rawsize": 512,
+   "entropy": 4.718,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "vaddr": "0x32000",
+   "vsize": 4564,
+   "rawsize": 4608,
+   "entropy": 6.592,
+   "characteristics": "0x42000040"
+  }
+ ],
+ "imports": {
+  "KERNEL32.dll": [
+   "DeleteCriticalSection",
+   "EnterCriticalSection",
+   "LeaveCriticalSection",
+   "UnmapViewOfFile",
+   "CreateFileMappingA",
+   "MapViewOfFile",
+   "CreateEventA",
+   "GetExitCodeThread",
+   "SetEvent",
+   "ResetEvent",
+   "Sleep",
+   "CreateToolhelp32Snapshot",
+   "Process32Next",
+   "WaitForMultipleObjects",
+   "GetModuleFileNameA",
+   "GetPrivateProfileIntA",
+   "LoadLibraryA",
+   "GetProcAddress",
+   "FreeLibrary",
+   "InitializeCriticalSection",
+   "GetModuleFileNameW",
+   "CreateProcessW",
+   "GetExitCodeProcess",
+   "GetTickCount",
+   "WaitForSingleObjectEx",
+   "CreateEventW",
+   "GetModuleHandleW",
+   "UnhandledExceptionFilter",
+   "SetUnhandledExceptionFilter",
+   "GetCurrentProcess",
+   "TerminateProcess",
+   "IsProcessorFeaturePresent",
+   "IsDebuggerPresent",
+   "QueryPerformanceCounter",
+   "GetCurrentProcessId",
+   "InitializeCriticalSectionAndSpinCount",
+   "GetCurrentThreadId",
+   "GetSystemTimeAsFileTime",
+   "InitializeSListHead",
+   "WaitForSingleObject",
+   "CloseHandle",
+   "CreateThread",
+   "ReleaseMutex",
+   "CreateMutexA",
+   "MultiByteToWideChar",
+   "SetErrorMode"
+  ],
+  "USER32.dll": [
+   "FindWindowExA",
+   "LoadIconA",
+   "LoadCursorA",
+   "RegisterClassExA",
+   "CreateWindowExA",
+   "ShowWindow",
+   "UpdateWindow",
+   "GetMessageA",
+   "TranslateMessage",
+   "DispatchMessageA",
+   "DestroyWindow",
+   "PostQuitMessage",
+   "DefWindowProcA",
+   "SendMessageA",
+   "PostMessageA"
+  ],
+  "GDI32.dll": [
+   "GetStockObject"
+  ],
+  "ADVAPI32.dll": [
+   "RegCloseKey",
+   "RegCreateKeyExW",
+   "RegOpenKeyExW",
+   "RegSetValueExW"
+  ],
+  "MSVCP140.dll": [
+   "?_Xout_of_range@std@@YAXPBD@Z",
+   "?_Xlength_error@std@@YAXPBD@Z"
+  ],
+  "VCRUNTIME140.dll": [
+   "memmove",
+   "_except_handler4_common",
+   "_CxxThrowException",
+   "__std_exception_destroy",
+   "__std_exception_copy",
+   "memcpy",
+   "memset",
+   "wcsrchr",
+   "longjmp",
+   "_purecall",
+   "__CxxFrameHandler3",
+   "_setjmp3"
+  ],
+  "api-ms-win-crt-runtime-l1-1-0.dll": [
+   "_crt_atexit",
+   "_initialize_onexit_table",
+   "_cexit",
+   "_configure_narrow_argv",
+   "_set_app_type",
+   "_register_onexit_function",
+   "_get_initial_narrow_environment",
+   "_initterm",
+   "_initterm_e",
+   "_exit",
+   "_register_thread_local_exe_atexit_callback",
+   "__p___argc",
+   "__p___argv",
+   "_c_exit",
+   "_initialize_narrow_environment",
+   "_invalid_parameter_noinfo",
+   "exit",
+   "terminate",
+   "_controlfp_s",
+   "_errno",
+   "_invalid_parameter_noinfo_noreturn",
+   "_seh_filter_exe"
+  ],
+  "api-ms-win-crt-stdio-l1-1-0.dll": [
+   "__p__commode",
+   "fwrite",
+   "__stdio_common_vsscanf",
+   "ftell",
+   "fseek",
+   "__stdio_common_vsprintf",
+   "_wfopen_s",
+   "__stdio_common_vsprintf_s",
+   "__stdio_common_vswprintf_s",
+   "fclose",
+   "__acrt_iob_func",
+   "_set_fmode",
+   "__stdio_common_vfprintf",
+   "fread_s"
+  ],
+  "api-ms-win-crt-filesystem-l1-1-0.dll": [
+   "_splitpath_s",
+   "_wsplitpath_s"
+  ],
+  "api-ms-win-crt-string-l1-1-0.dll": [
+   "strncmp",
+   "_strnicmp",
+   "toupper",
+   "strncpy",
+   "_wcsicmp"
+  ],
+  "api-ms-win-crt-environment-l1-1-0.dll": [
+   "getenv"
+  ],
+  "api-ms-win-crt-heap-l1-1-0.dll": [
+   "_callnewh",
+   "free",
+   "malloc",
+   "_set_new_mode"
+  ],
+  "api-ms-win-crt-math-l1-1-0.dll": [
+   "__setusermatherr"
+  ],
+  "api-ms-win-crt-locale-l1-1-0.dll": [
+   "_configthreadlocale"
+  ]
+ },
+ "exports": [],
+ "imphash": "1027691d74412499ffdeec8b7ed717af"
+}

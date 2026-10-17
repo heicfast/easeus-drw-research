@@ -56,7 +56,7 @@
 | `ghidra-repair/` | 17 repair binaries: 4.02M lines |
 | `ghidra-misc/` | 22 binaries (cloud, firebase, aliyun, viewers, unin…): 2.82M lines |
 | `ghidra-local/` | local Ghidra runs (DRW.exe, DRWService.exe, InfoForSetup) |
-| `ci-multitool/` | capa+FLOSS+rabin2+RetDec per batch (drivers, searchdll, core…) |
+| `ci-multitool/` | capa+FLOSS+rabin2+pefile per batch: drivers, searchdll, core, **repair (10 bins: EUVideoRepair, EUArchiveRepair, EUAdobeRepair, EUImageEnhance, EuOfficeRepairWin32, EuOfficeTools, EuRepairHost, EURawImg, EUImgRepair, EUUnZip), partition (13 bins: MainModule, CloneModule, RawFixer, BitLockerLib, Boot, BootDriver, RecoveryModule, ToolsModule, UILogic, PartitionRecovery, Win32Bcd, libvmdk)** — all waves COMPLETE and ingested |
 | `<binary>/` | per-binary rabin2/strings/pefile round-1 outputs (89 binaries) |
 
 ## Inventories & tooling

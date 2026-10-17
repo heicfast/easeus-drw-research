@@ -1,0 +1,159 @@
+
+md5                     96c355a3fcd003f994cf465e92ecf84b                        
+sha1                    efd10f10ac8325a2fe691ccc6c2eb57638e2313e                
+sha256                  fbb25a7c7acb2c88cc0d84b48cb60099fa441f07c32c11f6e8545e8…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 10:32:43.960538                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          1333                                                    
+library function count  42                                                      
+total feature count     127182                                                  
+
+reference anti-VM strings targeting VMWare
+namespace  anti-analysis/anti-vm/vm-detection
+scope      file                              
+
+validate payment card number using luhn algorithm (6 matches)
+namespace  data-manipulation/checksum/luhn
+scope      function                       
+matches    0x18000115E                    
+           0x180001253                    
+           0x180001884                    
+           0x18005E6F0                    
+           0x18005F360                    
+           0x18005FF80                    
+
+reference Base64 string
+namespace  data-manipulation/encoding/base64
+scope      file                             
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+interact with driver via IOCTL (10 matches)
+namespace  host-interaction/driver
+scope      instruction            
+matches    0x18006DA67            
+           0x18006D6AC            
+           0x18006D77A            
+           0x18006BE74            
+           0x18006C42D            
+           0x18006BE74            
+           0x18006C42D            
+           0x18006D6AC            
+           0x18006D77A            
+           0x18006DA67            
+
+get common file path (4 matches)
+namespace  host-interaction/file-system
+scope      function                    
+matches    0x180001924                 
+           0x180001C76                 
+           0x180043BE0                 
+           0x1800445C0                 
+
+set current directory (4 matches)
+namespace  host-interaction/file-system
+scope      function                    
+matches    0x180001186                 
+           0x180001B40                 
+           0x180043A80                 
+           0x180043B30                 
+
+create directory (2 matches)
+namespace  host-interaction/file-system/create
+scope      function                           
+matches    0x180049210                        
+           0x1800492D0                        
+
+delete file (4 matches)
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x180042A60                        
+           0x180042B40                        
+           0x180042C20                        
+           0x180042D10                        
+
+check if file exists (7 matches)
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x180001A9B                        
+           0x180001C5D                        
+           0x180001FC3                        
+           0x1800424F0                        
+           0x1800427A0                        
+           0x18006BB80                        
+           0x18006C140                        
+
+get file attributes (3 matches)
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x18004293E                      
+           0x180042687                      
+           0x18004293E                      
+
+get file size (2 matches)
+namespace  host-interaction/file-system/meta
+scope      function                         
+matches    0x180001A2D                      
+           0x18006D560                      
+
+read file on Windows (2 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x18000150F                      
+           0x18006DB30                      
+
+clear file content
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x18006CBB0                       
+
+write file on Windows (3 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x180001208                       
+           0x18006D1D0                       
+           0x18006D3A0                       
+
+get disk size (2 matches)
+namespace  host-interaction/hardware/storage
+scope      function                         
+matches    0x180001A2D                      
+           0x18006D560                      
+
+terminate process
+namespace  host-interaction/process/terminate
+scope      function                          
+matches    0x1800012D5                       
+
+enumerate PE sections (3 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x18000126C 
+           0x180001A87 
+           0x18000AB40 
+
+inspect section memory permissions
+namespace    load-code/pe                                                       
+description  translate section memory permissions (specified in the             
+             'Characteristics' field of the image section header) into page     
+             protection constants                                               
+scope        function                                                           
+matches      0x18002E280                                                        
+
+parse PE header
+namespace  load-code/pe
+scope      function    
+matches    0x180001A87 
+
+
+

@@ -1,0 +1,322 @@
+
+md5                     35b9a5618af4f7a61040274797ab75bc                        
+sha1                    800ba5a0057ec94c83a7df0574de984f17ea354f                
+sha256                  0d8296833de2ea7fff0c9c7db68ea6f5323622929472a29f47dbda1…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 09:48:48.200387                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          1146                                                    
+library function count  983                                                     
+total feature count     71716                                                   
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+hash data with CRC32
+namespace  data-manipulation/checksum/crc32
+scope      function                        
+matches    0x1800393A0                     
+
+encode data using XOR (107 matches)
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x1800012B0                   
+           0x180001690                   
+           0x1800020A0                   
+           0x180002130                   
+           0x1800021B0                   
+           0x180002210                   
+           0x180002290                   
+           0x180002310                   
+           0x180002390                   
+           0x1800023D0                   
+           0x180002410                   
+           0x180002890                   
+           0x180002E00                   
+           0x180003160                   
+           0x1800034E0                   
+           0x180003AD0                   
+           0x180004B40                   
+           0x180004BD0                   
+           0x180004C50                   
+           0x180005E60                   
+           0x1800066E2                   
+           0x180006750                   
+           0x1800067D0                   
+           0x18000DA00                   
+           0x180008FD0                   
+           0x1800090C0                   
+           0x180009140                   
+           0x1800091C0                   
+           0x180009410                   
+           0x180009470                   
+           0x1800094E0                   
+           0x180009550                   
+           0x1800095B0                   
+           0x180009620                   
+           0x180004B40                   
+           0x180004BD0                   
+           0x180004C50                   
+           0x180003160                   
+           0x180002890                   
+           0x180002E00                   
+           0x180014750                   
+           0x1800147B0                   
+           0x180014820                   
+           0x180014880                   
+           0x180014900                   
+           0x180014980                   
+           0x180015A80                   
+           0x1800160E0                   
+           0x180016140                   
+           0x1800161B0                   
+           0x180016210                   
+           0x180016290                   
+           0x180016310                   
+           0x1800154C0                   
+           0x180010BB0                   
+           0x1800114E0                   
+           0x1800119A0                   
+           0x180011E60                   
+           0x180011180                   
+           0x180011200                   
+           0x180011280                   
+           0x180011300                   
+           0x180011360                   
+           0x1800113D0                   
+           0x180012430                   
+           0x1800124B0                   
+           0x180012530                   
+           0x1800125B0                   
+           0x180012610                   
+           0x180012680                   
+           0x18000ADD0                   
+           0x18000AE50                   
+           0x18000AEE0                   
+           0x18000DA00                   
+           0x18000F370                   
+           0x18000F4D0                   
+           0x180010BB0                   
+           0x180011180                   
+           0x180011200                   
+           0x180011280                   
+           0x180011300                   
+           0x180011360                   
+           0x1800113D0                   
+           0x1800114E0                   
+           0x1800119A0                   
+           0x180011E60                   
+           0x180012430                   
+           0x1800124B0                   
+           0x180012530                   
+           0x1800125B0                   
+           0x180012610                   
+           0x180012680                   
+           0x180014750                   
+           0x1800147B0                   
+           0x180014820                   
+           0x180014880                   
+           0x180014900                   
+           0x180014980                   
+           0x180015140                   
+           0x1800154C0                   
+           0x180015A80                   
+           0x1800160E0                   
+           0x180016140                   
+           0x1800161B0                   
+           0x180016210                   
+           0x180016290                   
+           0x180016310                   
+
+decrypt data using AES via x86 extensions (2 matches)
+namespace  data-manipulation/encryption/aes
+scope      function                        
+matches    0x180003FF0                     
+           0x180009EC0                     
+
+encrypt data using AES via x86 extensions (17 matches)
+namespace  data-manipulation/encryption/aes
+scope      function                        
+matches    0x180003020                     
+           0x180003FF0                     
+           0x180004250                     
+           0x180004540                     
+           0x180004780                     
+           0x180004970                     
+           0x180006590                     
+           0x180006BB0                     
+           0x180007000                     
+           0x1800075A0                     
+           0x1800077D0                     
+           0x180007A70                     
+           0x180009EC0                     
+           0x180009EE0                     
+           0x180009EF0                     
+           0x180009F00                     
+           0x180009F30                     
+
+manually build AES constants
+namespace  data-manipulation/encryption/aes
+scope      function                        
+matches    0x180002340                     
+
+encrypt data using DES (8 matches)
+namespace  data-manipulation/encryption/des
+scope      basic block                     
+matches    0x180010BB0                     
+           0x1800114E0                     
+           0x1800119A0                     
+           0x180011E60                     
+           0x180010BB0                     
+           0x1800114E0                     
+           0x1800119A0                     
+           0x180011E60                     
+
+encrypt data using RC4 PRGA (5 matches)
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x1800150D0                     
+           0x18003A160                     
+           0x18003A390                     
+           0x18003A5C0                     
+           0x18003A7E0                     
+
+encrypt data using speck
+namespace  data-manipulation/encryption/speck
+scope      function                          
+matches    0x18000F210                       
+
+hash data with MD5
+namespace  data-manipulation/hashing/md5
+scope      function                     
+matches    0x18000D2B0                  
+
+hash data using murmur3 (2 matches)
+namespace  data-manipulation/hashing/murmur
+scope      function                        
+matches    0x1800011A0                     
+           0x18000AF70                     
+
+hash data using RIPEMD128
+namespace  data-manipulation/hashing/ripemd128
+scope      file                               
+
+hash data using SHA1 (4 matches)
+namespace  data-manipulation/hashing/sha1
+scope      function                      
+matches    0x180008830                   
+           0x180008B10                   
+           0x18000C7E0                   
+           0x18000DD70                   
+
+hash data using SHA224 (2 matches)
+namespace  data-manipulation/hashing/sha224
+scope      function                        
+matches    0x1800010D0                     
+           0x180008830                     
+
+hash data using SHA256 (2 matches)
+namespace  data-manipulation/hashing/sha256
+scope      function                        
+matches    0x1800010D0                     
+           0x180008830                     
+
+hash data using SHA384 (2 matches)
+namespace  data-manipulation/hashing/sha384
+scope      function                        
+matches    0x180008830                     
+           0x18000F0E0                     
+
+hash data using SHA512 (2 matches)
+namespace  data-manipulation/hashing/sha512
+scope      function                        
+matches    0x180008830                     
+           0x18000F0E0                     
+
+generate random numbers via WinAPI
+namespace  data-manipulation/prng
+scope      function              
+matches    0x180008440           
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+interact with driver via IOCTL (7 matches)
+namespace  host-interaction/driver
+scope      instruction            
+matches    0x180024A6C            
+           0x180024D40            
+           0x18002FED2            
+           0x18003AA99            
+           0x18003AEFF            
+           0x1800484C4            
+           0x180048703            
+
+read file on Windows
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x1800459B0                      
+
+write file on Windows (2 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x180032070                       
+           0x180049560                       
+
+get disk information via IOCTL
+namespace  host-interaction/hardware/storage
+scope      basic block                      
+matches    0x18003AEA6                      
+
+get storage device properties
+namespace  host-interaction/hardware/storage
+scope      function                         
+matches    0x180024650                      
+
+get hostname
+namespace  host-interaction/os/hostname
+scope      function                    
+matches    0x180041490                 
+
+create process on Windows (2 matches)
+namespace  host-interaction/process/create
+scope      instruction                    
+matches    0x18002E067                    
+           0x18002FD9C                    
+
+link function at runtime on Windows (8 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x18000103B            
+           0x18003D66B            
+           0x18004F494            
+           0x18004F494            
+           0x18004F494            
+           0x180062818            
+           0x180062818            
+           0x180062818            
+
+linked against CPP standard library
+namespace  linking/static
+scope      file          
+
+resolve function by parsing PE exports (5 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x180002710 
+           0x180009F40 
+           0x180039840 
+           0x18003B280 
+           0x180048D70 
+
+
+

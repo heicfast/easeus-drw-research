@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x400000
+binsz    434408
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x000789bf
+compiled Sat Jun  8 09:52:45 2041
+crypto   false
+dbg_file D:\Fixo\01_Project\00_Source\_main\UI\bin\Release\Win32\EUAdobeRepair.pdb
+endian   little
+havecode true
+hdr.csum 0x000789bf
+guid     01D8B760E1D3434F8EFAA8D43F234FA31
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows CUI
+va       true

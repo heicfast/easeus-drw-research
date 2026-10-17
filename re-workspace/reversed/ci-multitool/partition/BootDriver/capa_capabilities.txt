@@ -1,0 +1,103 @@
+
+md5                     36778a716332de56f2a9d875b2e2a438                        
+sha1                    0d9fda0e914f007df4223928c6e93079a6705cb7                
+sha256                  318ba425e309f0e0b55f5960a2b3c066d2d817ff234f230509259bc…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 09:44:51.729166                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          319                                                     
+library function count  161                                                     
+total feature count     16285                                                   
+
+connect network resource
+namespace    communication/http               
+description  connect to disk or print resource
+scope        function                         
+matches      0x18000D200                      
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+copy file (2 matches)
+namespace  host-interaction/file-system/copy
+scope      function                         
+matches    0x180009160                      
+           0x18000D200                      
+
+delete file (2 matches)
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x1800061C0                        
+           0x18000DF20                        
+
+check if file exists (4 matches)
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x180008110                        
+           0x180008B40                        
+           0x180009450                        
+           0x18000BC60                        
+
+get file attributes (2 matches)
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x18000824B                      
+           0x18000831B                      
+
+set file attributes
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x1800061C0                      
+
+read .ini file (7 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x180003EF0                      
+           0x180006E50                      
+           0x180007A70                      
+           0x180008690                      
+           0x18000C1F0                      
+           0x18000C6B0                      
+           0x18000F070                      
+
+create process on Windows (2 matches)
+namespace  host-interaction/process/create
+scope      instruction                    
+matches    0x1800060E2                    
+           0x18000D127                    
+
+create thread
+namespace  host-interaction/thread/create
+scope      basic block                   
+matches    0x1800073AF                   
+
+impersonate user
+namespace  host-interaction/user
+scope      function             
+matches    0x18000D200          
+
+link function at runtime on Windows (6 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x18000137E            
+           0x1800064B4            
+           0x1800064D3            
+           0x1800064F2            
+           0x180006511            
+           0x180006530            
+
+link many functions at runtime
+namespace  linking/runtime-linking
+scope      function               
+matches    0x180006400            
+
+
+

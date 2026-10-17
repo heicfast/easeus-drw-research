@@ -1,0 +1,11 @@
+[Sections]
+
+nth paddr          size vaddr          vsize perm type name
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000400  0x3dc00 0x180001000  0x3e000 -r-x ---- .text
+1   0x0003e000  0x1ee00 0x18003f000  0x1f000 -r-- ---- .rdata
+2   0x0005ce00  0x5fa00 0x18005e000  0x60000 -rw- ---- .data
+3   0x000bc800   0x2400 0x1800be000   0x3000 -r-- ---- .pdata
+4   0x000bec00    0x200 0x1800c1000   0x1000 -r-- ---- .rsrc
+5   0x000bee00    0x200 0x1800c2000   0x1000 -r-- ---- .reloc
+

@@ -1,0 +1,173 @@
+
+md5                     55be6aae3c55f6e1ad194cfc310e0f57                        
+sha1                    0ee22ab361f10851955771510d5adfe58ae21dc7                
+sha256                  1999bb1d2dee08e0c5556cd5f562f97179c5e69c4529bf8b83c8eac…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 09:58:23.797037                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x140000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          1808                                                    
+library function count  145                                                     
+total feature count     128367                                                  
+
+contain obfuscated stackstrings (4 matches)
+namespace  anti-analysis/obfuscation/string/stackstring
+scope      basic block                                 
+matches    0x140005800                                 
+           0x1400059B0                                 
+           0x140006590                                 
+           0x140014A50                                 
+
+parse credit card information
+namespace  collection/credit-card
+scope      function              
+matches    0x140032310           
+
+hash data with CRC32
+namespace  data-manipulation/checksum/crc32
+scope      function                        
+matches    0x140075A30                     
+
+encode data using XOR (22 matches)
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x140022E90                   
+           0x140027380                   
+           0x140028D20                   
+           0x14002D1C0                   
+           0x14002D3D0                   
+           0x14002D5E0                   
+           0x14002D7F0                   
+           0x14002E430                   
+           0x14002E680                   
+           0x14002EA50                   
+           0x14002ECA0                   
+           0x14002EF30                   
+           0x14002F030                   
+           0x14002F270                   
+           0x14002F480                   
+           0x140030CF0                   
+           0x14003D480                   
+           0x140043A20                   
+           0x14004BFB0                   
+           0x14004E3F0                   
+           0x140075A60                   
+           0x140075AD0                   
+
+encrypt data using RC4 PRGA (4 matches)
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x140087250                     
+           0x140087610                     
+           0x140087A70                     
+           0x140088200                     
+
+hash data using fnv (65 matches)
+namespace    data-manipulation/hashing/fnv                                      
+description  can be any Fowler-Noll-Vo (FNV) hash variant, including FNV-1,     
+             FNV-1a, FNV-0                                                      
+scope        function                                                           
+matches      0x140027290                                                        
+             0x140028CC0                                                        
+             0x14002D160                                                        
+             0x14002D370                                                        
+             0x14002D580                                                        
+             0x14002D790                                                        
+             0x14002E3C0                                                        
+             0x14002E610                                                        
+             0x14002E9E0                                                        
+             0x14002EC30                                                        
+             0x14002EEE0                                                        
+             0x14002EFE0                                                        
+             0x14002F220                                                        
+             0x14002F430                                                        
+             0x140030CD0                                                        
+             0x14003A470                                                        
+             0x14003AF50                                                        
+             0x14003C9D0                                                        
+             0x14003D2F0                                                        
+             0x14003E850                                                        
+             0x14003EB60                                                        
+             0x14003EC10                                                        
+             0x14003F710                                                        
+             0x1400439C0                                                        
+             0x1400449F0                                                        
+             0x140044C10                                                        
+             0x140045DF0                                                        
+             0x140046740                                                        
+             0x140046850                                                        
+             0x140047030                                                        
+             0x140048EA0                                                        
+             0x1400492A0                                                        
+             0x14004AB90                                                        
+             0x14004BE80                                                        
+             0x14004C220                                                        
+             0x14004C460                                                        
+             0x14004CEA0                                                        
+             0x14004CFD0                                                        
+             0x14004E170                                                        
+             0x14004E390                                                        
+             0x14004EB00                                                        
+             0x14004EC50                                                        
+             0x14004EE70                                                        
+             0x14004F120                                                        
+             0x14004F3A0                                                        
+             0x14004F490                                                        
+             0x14004F580                                                        
+             0x140057010                                                        
+             0x140057140                                                        
+             0x140057200                                                        
+             0x14005D4A0                                                        
+             0x14005F4A0                                                        
+             0x1400603D0                                                        
+             0x1400604F0                                                        
+             0x140060620                                                        
+             0x1400606D0                                                        
+             0x140061280                                                        
+             0x140061650                                                        
+             0x140061BA0                                                        
+             0x140062710                                                        
+             0x140062E50                                                        
+             0x140067FD0                                                        
+             0x1400683E0                                                        
+             0x14006B010                                                        
+             0x14006E1E0                                                        
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+read file on Windows (2 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x1400187E0                      
+           0x1400784C0                      
+
+write file on Windows (4 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x140018700                       
+           0x140018CE0                       
+           0x140019E50                       
+           0x14007BA00                       
+
+enumerate PE sections
+namespace  load-code/pe
+scope      function    
+matches    0x1400786A0 
+
+resolve function by parsing PE exports (3 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x14003B510 
+           0x140059930 
+           0x140067FD0 
+
+
+

@@ -1,0 +1,459 @@
+
+md5                     3266a3cab0aabe2ba30b72756f351258                        
+sha1                    a13cf65da093d329c3f7bd957c2d84919c9f17a0                
+sha256                  b2eceebc82f781886266771df327e21fe34e7789aea6117f37c97b7…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 08:27:35.422278                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          7073                                                    
+library function count  952                                                     
+total feature count     255599                                                  
+
+check for time delay via GetTickCount (2 matches)
+namespace  anti-analysis/anti-debugging/debugger-detection
+scope      function                                       
+matches    0x180001D9D                                    
+           0x180045480                                    
+
+reference anti-VM strings
+namespace  anti-analysis/anti-vm/vm-detection
+scope      file                              
+
+contain obfuscated stackstrings
+namespace  anti-analysis/obfuscation/string/stackstring
+scope      basic block                                 
+matches    0x180060137                                 
+
+create pipe (2 matches)
+namespace  communication/named-pipe/create
+scope      function                       
+matches    0x18000459D                    
+           0x180095BE0                    
+
+create two anonymous pipes (2 matches)
+namespace  communication/named-pipe/create
+scope      function                       
+matches    0x18000459D                    
+           0x180095BE0                    
+
+encrypt data using RC4 PRGA (2 matches)
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x180001591                     
+           0x180004EDF                     
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+contain a thread local storage (.tls) section
+namespace  executable/pe/section/tls
+scope      file                     
+
+manipulate boot configuration (4 matches)
+namespace  host-interaction/bootloader
+scope      function                   
+matches    0x180002A77                
+           0x180004E6C                
+           0x180095E90                
+           0x1800A4AC0                
+
+interact with driver via IOCTL (51 matches)
+namespace  host-interaction/driver
+scope      instruction            
+matches    0x18009FE7E            
+           0x1800954C5            
+           0x180045A97            
+           0x1800AB6DE            
+           0x18006E356            
+           0x18006E40E            
+           0x180055DCD            
+           0x18007FC0E            
+           0x18007FC70            
+           0x18007FD26            
+           0x18007FE12            
+           0x18007FE5A            
+           0x18007FEAA            
+           0x18005F146            
+           0x180044DDC            
+           0x180044E22            
+           0x18009553A            
+           0x18005EC72            
+           0x18005EEE3            
+           0x18005EFA8            
+           0x180043F88            
+           0x180043FF3            
+           0x180044056            
+           0x180044DDC            
+           0x180044E22            
+           0x180045A97            
+           0x180055DCD            
+           0x1800597AF            
+           0x1800599D3            
+           0x18005EC72            
+           0x18005EEE3            
+           0x18005EFA8            
+           0x18005F146            
+           0x18005F5D8            
+           0x18006E356            
+           0x18006E40E            
+           0x18007FC0E            
+           0x18007FC70            
+           0x18007FD26            
+           0x18007FE12            
+           0x18007FE5A            
+           0x18007FEAA            
+           0x180085B7A            
+           0x180085C5D            
+           0x180085DCE            
+           0x180085ED3            
+           0x1800954C5            
+           0x18009553A            
+           0x18009FDBB            
+           0x18009FE7E            
+           0x1800AB6DE            
+
+get common file path (3 matches)
+namespace  host-interaction/file-system
+scope      function                    
+matches    0x180003AA8                 
+           0x180049950                 
+           0x180055B00                 
+
+copy file (4 matches)
+namespace  host-interaction/file-system/copy
+scope      function                         
+matches    0x18000317F                      
+           0x180003B7F                      
+           0x18009EA40                      
+           0x1800AAC90                      
+
+create directory (4 matches)
+namespace  host-interaction/file-system/create
+scope      function                           
+matches    0x18000277A                        
+           0x180002EDC                        
+           0x18009EB00                        
+           0x1800AAD60                        
+
+delete file (4 matches)
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x180002365                        
+           0x18000317F                        
+           0x1800A3840                        
+           0x1800AAC90                        
+
+check if file exists (6 matches)
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x1800024DC                        
+           0x180005CE0                        
+           0x18005DA60                        
+           0x18005DF00                        
+           0x18009FCC0                        
+           0x1800AB370                        
+
+enumerate files on Windows (4 matches)
+namespace  host-interaction/file-system/files/list
+scope      function                               
+matches    0x180003486                            
+           0x180005597                            
+           0x18009ECB0                            
+           0x1800AAF10                            
+
+enumerate files recursively (2 matches)
+namespace  host-interaction/file-system/files/list
+scope      function                               
+matches    0x180003486                            
+           0x180005597                            
+
+get file attributes (6 matches)
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x1800AB370                      
+           0x18009FCC0                      
+           0x18005DDA6                      
+           0x18005E251                      
+           0x18009FCC0                      
+           0x1800AB370                      
+
+get file size
+namespace  host-interaction/file-system/meta
+scope      function                         
+matches    0x1800A9C60                      
+
+set file attributes (2 matches)
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x1800AACA8                      
+           0x1800AACA8                      
+
+read file on Windows (11 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x180001CA8                      
+           0x1800033AA                      
+           0x1800035C1                      
+           0x180003EFE                      
+           0x180004688                      
+           0x180095D70                      
+           0x1800A32E0                      
+           0x1800A8C40                      
+           0x1800A8F90                      
+           0x1800A99A0                      
+           0x1800A9A90                      
+
+write file on Windows (18 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x180001131                       
+           0x18000213F                       
+           0x180002365                       
+           0x180002BBC                       
+           0x1800032D3                       
+           0x18000411F                       
+           0x180004688                       
+           0x180004877                       
+           0x180045BC0                       
+           0x180055EA0                       
+           0x180095A30                       
+           0x18009F0E0                       
+           0x18009F3E0                       
+           0x1800A32E0                       
+           0x1800A3840                       
+           0x1800A9170                       
+           0x1800A9A00                       
+           0x1800A9B70                       
+
+get number of processors
+namespace  host-interaction/hardware/cpu
+scope      function                     
+matches    0x180057430                  
+
+enumerate disk volumes (3 matches)
+namespace  host-interaction/hardware/storage
+scope      function                         
+matches    0x180003FDF                      
+           0x18007FA80                      
+           0x180085960                      
+
+get disk information (4 matches)
+namespace  host-interaction/hardware/storage
+scope      function                         
+matches    0x180003FDF                      
+           0x180045B40                      
+           0x18007FA80                      
+           0x180085960                      
+
+get disk information via IOCTL (4 matches)
+namespace  host-interaction/hardware/storage
+scope      basic block                      
+matches    0x18007FBB8                      
+           0x180043F50                      
+           0x18007FBB8                      
+           0x180085B42                      
+
+get disk size
+namespace  host-interaction/hardware/storage
+scope      function                         
+matches    0x180060D60                      
+
+get storage device properties (2 matches)
+namespace  host-interaction/hardware/storage
+scope      function                         
+matches    0x1800039CC                      
+           0x18006E220                      
+
+unmount volume via IOCTL (2 matches)
+namespace  host-interaction/hardware/storage
+scope      function                         
+matches    0x180003FDF                      
+           0x18007FA80                      
+
+print debug messages (3 matches)
+namespace  host-interaction/log/debug/write-event
+scope      function                              
+matches    0x180002252                           
+           0x180004705                           
+           0x18008F980                           
+
+create or open mutex on Windows (2 matches)
+namespace  host-interaction/mutex
+scope      instruction           
+matches    0x18007EE4C           
+           0x18007EE4C           
+
+get system information on Windows
+namespace  host-interaction/os/info
+scope      function                
+matches    0x180057430             
+
+check OS version (7 matches)
+namespace  host-interaction/os/version
+scope      function                   
+matches    0x180002FB3                
+           0x180003DEB                
+           0x1800047EB                
+           0x180084A50                
+           0x1800866D0                
+           0x18009DF70                
+           0x1800AAAC0                
+
+create process on Windows (3 matches)
+namespace  host-interaction/process/create
+scope      instruction                    
+matches    0x180095B43                    
+           0x18003F56B                    
+           0x180095B43                    
+
+modify access privileges (3 matches)
+namespace  host-interaction/process/modify
+scope      instruction                    
+matches    0x1800A7C4B                    
+           0x1800A7C4B                    
+           0x1800AC0B6                    
+
+terminate process
+namespace  host-interaction/process/terminate
+scope      function                          
+matches    0x180001EB0                       
+
+query or enumerate registry value (11 matches)
+namespace  host-interaction/registry
+scope      function                 
+matches    0x180001F3C              
+           0x18000230B              
+           0x18000473C              
+           0x180005E3E              
+           0x18005FEC0              
+           0x18005FF50              
+           0x180064AB0              
+           0x1800AA0E0              
+           0x1800AA1B0              
+           0x1800ABC00              
+           0x1800ABCA0              
+
+set registry value (8 matches)
+namespace  host-interaction/registry/create
+scope      function                        
+matches    0x1800037BF                     
+           0x180003EAE                     
+           0x180004C73                     
+           0x180044F40                     
+           0x18005FD90                     
+           0x18005FE30                     
+           0x1800AA140                     
+           0x1800ABD10                     
+
+get session user name (3 matches)
+namespace  host-interaction/session
+scope      function                
+matches    0x180005B0A             
+           0x1800AC910             
+           0x1800ACA10             
+
+get user security identifier (4 matches)
+namespace  host-interaction/session
+scope      basic block             
+matches    0x1800AD4C0             
+           0x1800AD56C             
+           0x1800AD4C0             
+           0x1800AD56C             
+
+create thread (8 matches)
+namespace  host-interaction/thread/create
+scope      basic block                   
+matches    0x18009C160                   
+           0x180095340                   
+           0x180095210                   
+           0x1800585C3                   
+           0x18007E298                   
+           0x180095210                   
+           0x180095340                   
+           0x18009C160                   
+
+resume thread (4 matches)
+namespace  host-interaction/thread/resume
+scope      basic block                   
+matches    0x1800953A6                   
+           0x180095276                   
+           0x180095276                   
+           0x1800953A6                   
+
+delete volume shadow copies
+namespace  impact/inhibit-system-recovery
+scope      function                      
+matches    0x18003F410                   
+
+delete drive layout via IOCTL (8 matches)
+namespace  impact/wipe-disk
+scope      basic block     
+matches    0x180084FCB     
+           0x18005F112     
+           0x180084B70     
+           0x18005EC3E     
+           0x18005EC3E     
+           0x18005F112     
+           0x180084B70     
+           0x180084FCB     
+
+link function at runtime on Windows (27 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x18001D003            
+           0x180056E89            
+           0x1800565D8            
+           0x18007E9A9            
+           0x18009D8D6            
+           0x18009D8FA            
+           0x18009DDDD            
+           0x18009DDFB            
+           0x1800AA991            
+           0x1800AA9B2            
+           0x180057533            
+           0x18001D003            
+           0x18003F4D4            
+           0x18003F5B3            
+           0x1800565D8            
+           0x180056E89            
+           0x180057533            
+           0x18005C4A7            
+           0x18007E9A9            
+           0x18009745E            
+           0x180097586            
+           0x18009D8D6            
+           0x18009D8FA            
+           0x18009DDDD            
+           0x18009DDFB            
+           0x1800AA991            
+           0x1800AA9B2            
+
+enumerate PE sections
+namespace  load-code/pe
+scope      function    
+matches    0x18000424B 
+
+parse PE header (4 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x180003A26 
+           0x18000424B 
+           0x1800A0480 
+           0x1800ABD80 
+
+resolve function by parsing PE exports (2 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x180005966 
+           0x180080ED0 
+
+
+

@@ -1,0 +1,162 @@
+WARN: Relocs has not been applied. Please use `-e bin.relocs.apply=true` or `-e bin.cache=true` next time
+Resource 0
+  name: 1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14028a510
+  size: 744
+  type: ICON
+  language: LANG_CHINESE
+Resource 1
+  name: 2
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14028a7f8
+  size: 296
+  type: ICON
+  language: LANG_CHINESE
+Resource 2
+  name: 3
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14028a920
+  size: 3.7K
+  type: ICON
+  language: LANG_CHINESE
+Resource 3
+  name: 4
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14028b7c8
+  size: 2.2K
+  type: ICON
+  language: LANG_CHINESE
+Resource 4
+  name: 5
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14028c070
+  size: 1.4K
+  type: ICON
+  language: LANG_CHINESE
+Resource 5
+  name: 6
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14028c5d8
+  size: 9.4K
+  type: ICON
+  language: LANG_CHINESE
+Resource 6
+  name: 7
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14028eb80
+  size: 4.2K
+  type: ICON
+  language: LANG_CHINESE
+Resource 7
+  name: 8
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14028fc28
+  size: 1.1K
+  type: ICON
+  language: LANG_CHINESE
+Resource 8
+  name: 9
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140290108
+  size: 744
+  type: ICON
+  language: LANG_CHINESE
+Resource 9
+  name: 10
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x1402903f0
+  size: 296
+  type: ICON
+  language: LANG_CHINESE
+Resource 10
+  name: 11
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140290518
+  size: 3.7K
+  type: ICON
+  language: LANG_CHINESE
+Resource 11
+  name: 12
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x1402913c0
+  size: 2.2K
+  type: ICON
+  language: LANG_CHINESE
+Resource 12
+  name: 13
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140291c68
+  size: 1.4K
+  type: ICON
+  language: LANG_CHINESE
+Resource 13
+  name: 14
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x1402921d0
+  size: 9.4K
+  type: ICON
+  language: LANG_CHINESE
+Resource 14
+  name: 15
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140294778
+  size: 4.2K
+  type: ICON
+  language: LANG_CHINESE
+Resource 15
+  name: 16
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140295820
+  size: 1.1K
+  type: ICON
+  language: LANG_CHINESE
+Resource 16
+  name: 109
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140295d00
+  size: 80
+  type: MENU
+  language: LANG_CHINESE
+Resource 17
+  name: 103
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140295d60
+  size: 324
+  type: DIALOG
+  language: LANG_CHINESE
+Resource 18
+  name: 7
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140295ea8
+  size: 100
+  type: STRING
+  language: LANG_CHINESE
+Resource 19
+  name: 109
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140295d50
+  size: 16
+  type: ACCELERATOR
+  language: LANG_CHINESE
+Resource 20
+  name: 107
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140290090
+  size: 118
+  type: GROUP_ICON
+  language: LANG_CHINESE
+Resource 21
+  name: 108
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140295c88
+  size: 118
+  type: GROUP_ICON
+  language: LANG_CHINESE
+Resource 22
+  name: 1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140295f10
+  size: 548
+  type: MANIFEST
+  language: LANG_ENGLISH

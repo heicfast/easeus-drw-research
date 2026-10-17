@@ -1,0 +1,127 @@
+
+md5                     316cfea4cbba8d92460bd95d5a0e9073                        
+sha1                    3e2f0f7bc79009ac178af0177ef23d29bbf53145                
+sha256                  ec4c6eaa0b900f4f3f681f7527c552308e8b693eb8ce188e9061437…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 07:47:20.451378                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    i386                                                    
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x400000                                                
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          621                                                     
+library function count  53                                                      
+total feature count     40211                                                   
+
+check for software breakpoints (2 matches)
+namespace  anti-analysis/anti-debugging/debugger-detection
+scope      function                                       
+matches    0x40C380                                       
+           0x40C470                                       
+
+check for time delay via GetTickCount
+namespace  anti-analysis/anti-debugging/debugger-detection
+scope      function                                       
+matches    0x409D10                                       
+
+encrypt data using RC4 KSA
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x417220                        
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+query environment variable
+namespace  host-interaction/environment-variable
+scope      function                             
+matches    0x40FF80                             
+
+read .ini file
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x4076A0                         
+
+write file on Windows
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x4097E0                          
+
+find graphical window (3 matches)
+namespace  host-interaction/gui/window/find
+scope      instruction                     
+matches    0x4078D7                        
+           0x407ABA                        
+           0x40B77E                        
+
+hide graphical window
+namespace  host-interaction/gui/window/hide
+scope      basic block                     
+matches    0x4012B3                        
+
+check mutex on Windows
+namespace  host-interaction/mutex
+scope      function              
+matches    0x4011C0              
+
+create or open mutex on Windows (2 matches)
+namespace  host-interaction/mutex
+scope      instruction           
+matches    0x4010EF              
+           0x40125F              
+
+create process on Windows
+namespace  host-interaction/process/create
+scope      instruction                    
+matches    0x408C1E                       
+
+set registry value
+namespace  host-interaction/registry/create
+scope      function                        
+matches    0x401390                        
+
+create thread (4 matches)
+namespace  host-interaction/thread/create
+scope      basic block                   
+matches    0x4012B3                      
+           0x4014DB                      
+           0x4017BF                      
+           0x401F72                      
+
+link function at runtime on Windows (3 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x4087FD               
+           0x408809               
+           0x408815               
+
+enumerate PE sections (2 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x40DD40    
+           0x40DEEC    
+
+resolve function by parsing PE exports (14 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x411980    
+           0x418700    
+           0x419DA0    
+           0x41B0A0    
+           0x41BAA0    
+           0x41C710    
+           0x41FBC0    
+           0x420370    
+           0x420E00    
+           0x4215E0    
+           0x421ED0    
+           0x4229F0    
+           0x422EB0    
+           0x424830    
+
+
+

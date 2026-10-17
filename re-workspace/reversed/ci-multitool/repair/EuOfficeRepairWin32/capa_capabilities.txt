@@ -1,0 +1,191 @@
+
+md5                     d2e93dc1976c89e7b3d255b1c3f5b2de                        
+sha1                    8a072bbf49b4dc302d36773480c671c40ce55539                
+sha256                  678e8cd9364217aa8b479a8248c809425246f06806ad535bc4d73a8…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 08:41:35.564158                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x140000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          1523                                                    
+library function count  6624                                                    
+total feature count     77706                                                   
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+compress data via ZLIB inflate or deflate (2 matches)
+namespace  data-manipulation/compression
+scope      function                     
+matches    0x14000E080                  
+           0x140010D40                  
+
+encode data using XOR
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x14000CCC0                   
+
+generate random numbers using the Delphi LCG
+namespace  data-manipulation/prng/lcg
+scope      basic block               
+matches    0x14000CCC0               
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+extract resource via kernel32 functions (7 matches)
+namespace  executable/resource
+scope      function           
+matches    0x14001F280        
+           0x140020068        
+           0x14002B35C        
+           0x14002B364        
+           0x14002B400        
+           0x14002E020        
+           0x14005C730        
+
+get common file path
+namespace  host-interaction/file-system
+scope      function                    
+matches    0x14013A088                 
+
+copy file
+namespace  host-interaction/file-system/copy
+scope      function                         
+matches    0x1400095D0                      
+
+delete file
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x1400095D0                        
+
+check if file exists
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x14013A088                        
+
+get file attributes
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x14013A0BA                      
+
+get file size
+namespace  host-interaction/file-system/meta
+scope      function                         
+matches    0x140009E40                      
+
+set file attributes
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x14000A26F                      
+
+read file on Windows
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x140009E40                      
+
+read file via mapping (2 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x140008060                      
+           0x140008320                      
+
+write file on Windows (2 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x1400067F0                       
+           0x14000A3A0                       
+
+get graphical window text (3 matches)
+namespace  host-interaction/gui/window/get-text
+scope      function                            
+matches    0x14001B180                         
+           0x14001C4BC                         
+           0x1400210B4                         
+
+check mutex on Windows (3 matches)
+namespace  host-interaction/mutex
+scope      function              
+matches    0x140008060           
+           0x140008320           
+           0x1400086E0           
+
+create or open mutex on Windows (3 matches)
+namespace  host-interaction/mutex
+scope      instruction           
+matches    0x14000810B           
+           0x1400083CC           
+           0x140008706           
+
+query or enumerate registry value (2 matches)
+namespace  host-interaction/registry
+scope      function                 
+matches    0x1400E8080              
+           0x1400E84FC              
+
+set registry value (2 matches)
+namespace  host-interaction/registry/create
+scope      function                        
+matches    0x1400E88A4                     
+           0x1400E88EC                     
+
+delete registry key (2 matches)
+namespace  host-interaction/registry/delete
+scope      function                        
+matches    0x140025A60                     
+           0x14002E8C4                     
+
+delete registry value
+namespace  host-interaction/registry/delete
+scope      function                        
+matches    0x1400E7F30                     
+
+create thread (2 matches)
+namespace  host-interaction/thread/create
+scope      basic block                   
+matches    0x1400077A9                   
+           0x140007AA8                   
+
+link function at runtime on Windows (20 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x14001D4F4            
+           0x1400250A9            
+           0x14002596E            
+           0x140025A9A            
+           0x140025B32            
+           0x14002A84E            
+           0x14002A8C2            
+           0x14002AE9C            
+           0x14002AFA9            
+           0x14002E78D            
+           0x14002E90F            
+           0x14002F03A            
+           0x14002FAE9            
+           0x140033CAB            
+           0x14019BB64            
+           0x14019BB64            
+           0x14019BB64            
+           0x1401B2868            
+           0x1401B2868            
+           0x1401B2868            
+
+parse PE header
+namespace  load-code/pe
+scope      function    
+matches    0x1401AE2C0 
+
+resolve function by parsing PE exports
+namespace  load-code/pe
+scope      function    
+matches    0x140010D40 
+
+
+

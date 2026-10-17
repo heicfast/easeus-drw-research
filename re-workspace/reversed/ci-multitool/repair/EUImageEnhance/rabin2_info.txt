@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x10000000
+binsz    3056872
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x002f7821
+compiled Mon May 28 17:33:58 2035
+crypto   false
+dbg_file D:\drw\DRW_MAIN\DRWIntelligentScan\bin\Release\ImageEnhance.pdb
+endian   little
+havecode true
+hdr.csum 0x002f7821
+guid     A9B4DB8339D441A092F1B425B4DA4D091
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x400000
+binsz    203496
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x00040ad8
+compiled Wed Feb 22 00:23:08 2040
+crypto   false
+dbg_file D:\WorkSpace\_drw_main_code\DRWIntelligentScan\bin\Release\Win32\EUImgRepair.pdb
+endian   little
+havecode true
+hdr.csum 0x00040ad8
+guid     21589AA9C92A44FEA9D2023D1B44BF5F2
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows CUI
+va       true

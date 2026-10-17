@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x180000000
+binsz    1108712
+bintype  pe
+bits     64
+canary   true
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x001152e6
+compiled Tue Aug 31 22:40:58 2038
+crypto   false
+dbg_file J:\test\win\libvmdk\vs2017\Release\x64\libvmdk.pdb
+endian   little
+havecode true
+hdr.csum 0x001152e6
+guid     A6D34838C3AB4A468423E25BA070DE644
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

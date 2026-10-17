@@ -1,0 +1,411 @@
+INFO: floss: extracting static strings
+.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing programfinding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 0 library functions]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 1 library functions (1%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 2 library functions (3%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 3 library functions (5%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 4 library functions (7%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 5 library functions (8%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 6 library functions (10%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 7 library functions (12%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 8 library functions (14%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 9 library functions (16%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 10 library functions (17%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 11 library functions (19%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 12 library functions (21%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 13 library functions (23%)]finding decoding function features:   0%|          | 0/56 [00:00<?, ? functions/s, skipped 14 library functions (25%)]finding decoding function features: 100%|██████████| 56/56 [00:00<00:00, 6551.59 functions/s, skipped 14 library functions (25%)]
+INFO: floss.stackstrings: extracting stackstrings from 23 functions
+extracting stackstrings:   0%|          | 0/23 [00:00<?, ? functions/s]extracting stackstrings:  17%|█▋        | 4/23 [00:00<00:00, 30.14 functions/s]extracting stackstrings:  35%|███▍      | 8/23 [00:00<00:00, 29.74 functions/s]extracting stackstrings:  52%|█████▏    | 12/23 [00:00<00:00, 31.98 functions/s]extracting stackstrings:  70%|██████▉   | 16/23 [00:00<00:00, 33.24 functions/s]extracting stackstrings:  87%|████████▋ | 20/23 [00:00<00:00, 31.43 functions/s]extracting stackstrings: 100%|██████████| 23/23 [00:00<00:00, 31.85 functions/s]
+INFO: floss.tightstrings: extracting tightstrings from 0 functions...
+extracting tightstrings: 0 functions [00:00, ? functions/s]extracting tightstrings: 0 functions [00:00, ? functions/s]
+INFO: floss.string_decoder: decoding strings
+decoding strings:   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x401100 (call 1/2):   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x401100 (call 2/2):   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x401100 (call 2/2):   5%|▌         | 1/20 [00:00<00:01,  9.99 functions/s]emulating function 0x4015f0 (call 1/1):   5%|▌         | 1/20 [00:00<00:01,  9.99 functions/s]emulating function 0x4015f0 (call 1/1):  20%|██        | 4/20 [00:00<00:00, 19.83 functions/s]emulating function 0x401c9e (call 1/1):  20%|██        | 4/20 [00:00<00:00, 19.83 functions/s]emulating function 0x401c9e (call 1/1):  30%|███       | 6/20 [00:00<00:00, 19.35 functions/s]emulating function 0x4015a0 (call 1/2):  30%|███       | 6/20 [00:00<00:00, 19.35 functions/s]emulating function 0x4015a0 (call 2/2):  30%|███       | 6/20 [00:00<00:00, 19.35 functions/s]emulating function 0x4015a0 (call 2/2):  40%|████      | 8/20 [00:00<00:00, 18.24 functions/s]emulating function 0x401170 (call 1/1):  40%|████      | 8/20 [00:00<00:00, 18.24 functions/s]emulating function 0x4013f0 (call 1/1):  40%|████      | 8/20 [00:00<00:00, 18.24 functions/s]emulating function 0x4013f0 (call 1/1):  55%|█████▌    | 11/20 [00:00<00:00, 19.06 functions/s]emulating function 0x40165c (call 1/4):  55%|█████▌    | 11/20 [00:00<00:00, 19.06 functions/s]emulating function 0x40165c (call 2/4):  55%|█████▌    | 11/20 [00:00<00:00, 19.06 functions/s]emulating function 0x40165c (call 3/4):  55%|█████▌    | 11/20 [00:00<00:00, 19.06 functions/s]emulating function 0x40165c (call 4/4):  55%|█████▌    | 11/20 [00:00<00:00, 19.06 functions/s]emulating function 0x401000 (call 1/1):  55%|█████▌    | 11/20 [00:00<00:00, 19.06 functions/s]emulating function 0x401000 (call 1/1):  65%|██████▌   | 13/20 [00:00<00:00, 13.35 functions/s]emulating function 0x4017e1 (call 1/1):  65%|██████▌   | 13/20 [00:00<00:00, 13.35 functions/s]emulating function 0x4017e1 (call 1/1):  80%|████████  | 16/20 [00:00<00:00, 16.55 functions/s]emulating function 0x401718 (call 1/1):  80%|████████  | 16/20 [00:01<00:00, 16.55 functions/s]emulating function 0x401718 (call 1/1):  95%|█████████▌| 19/20 [00:01<00:00, 19.07 functions/s]emulating function 0x401e75 (call 1/1):  95%|█████████▌| 19/20 [00:01<00:00, 19.07 functions/s]emulating function 0x401e75 (call 1/1): 100%|██████████| 20/20 [00:01<00:00, 17.64 functions/s]
+INFO: floss: finished execution after 7.69 seconds
+INFO: floss: rendering results
+
+
+FLARE FLOSS RESULTS (version 3.2.0)
+
++------------------------+-----------------------------------------------------+
+| file path              | og-codebase/EuRepairHost.exe                        |
+| identified language    | unknown                                             |
+| extracted strings      |                                                     |
+|  static strings        | 351 (5435 characters)                               |
+|   language strings     |   0 (   0 characters)                               |
+|  stack strings         | 0                                                   |
+|  tight strings         | 0                                                   |
+|  decoded strings       | 0                                                   |
++------------------------+-----------------------------------------------------+
+
+
+ ──────────────────────────── 
+  FLOSS STATIC STRINGS (351)  
+ ──────────────────────────── 
+
++-----------------------------------+
+| FLOSS STATIC STRINGS: ASCII (347) |
++-----------------------------------+
+
+!This program cannot be run in DOS mode.
+Rich
+.text
+`.rdata
+@.data
+.rsrc
+@.reloc
+$h(@@
+h(@@
+h(@@
+)@A;
+D$4SUVW
+D$Ld
+VVVQ
+T$,RPWQ
+D$$VSP
+T$$RPWQ
+D$$PQUR
+L$Ld
+Y_^][
+L$43
+D$(SUVW
+D$@d
+T$ RPUQ
+L$@d
+Y_^][
+L$(3
+VPh(@@
+8csm
+$DB@
+5xE@
+h4B@
+h8B@
+h0B@
+5LB@
+54B@
+58B@
+50B@
+5HC@
+=DC@
+%8C@
+-4C@
+h<1@
+Y__^[
+8csm
+%x0@
+_^[]
+h 3@
+Y_^[
+Y_^[
+VVVVV
+%l0@
+%l0@
+%l0@
+%l0@
+%l0@
+h`1@
+hT1@
+bad allocation
+216.92.61.7
+aaa100cd68bbe03f3.awsglobalaccelerator.com
+activation.easeus.com
+activation.easeus.com.cn
+RSDS
+i:\_drw_main_\RepairHost\Release\EuRepairHost.pdb
+GetSystemDirectoryW
+GetFileAttributesW
+SetFileAttributesW
+CreateFileW
+GetFileSize
+SetFilePointer
+ReadFile
+WriteFile
+SetEndOfFile
+CloseHandle
+lstrcmpW
+KERNEL32.dll
+\t?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB
+?find@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z
+??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ
+??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z
+MSVCP90.dll
+??_V@YAXPAX@Z
+??2@YAPAXI@Z
+MSVCR90.dll
+_unlock
+__dllonexit
+_encode_pointer
+_lock
+_onexit
+_decode_pointer
+?terminate@@YAXXZ
+_amsg_exit
+__wgetmainargs
+_cexit
+_exit
+_XcptFilter
+exit
+__winitenv
+_initterm
+_initterm_e
+_configthreadlocale
+__setusermatherr
+_adjust_fdiv
+__p__commode
+__p__fmode
+__set_app_type
+_crt_debugger_hook
+_except_handler4_common
+_invoke_watson
+_controlfp_s
+InterlockedExchange
+Sleep
+InterlockedCompareExchange
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+QueryPerformanceCounter
+GetTickCount
+GetCurrentThreadId
+GetCurrentProcessId
+GetSystemTimeAsFileTime
+memset
+__CxxFrameHandler3
+memcpy
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Microsoft.VC90.CRT" version="9.0.21022.8" processorArchitecture="x86" publicKeyToken="1fc8b3b9a1e18e3b"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING
+0:0C0I0O0Y0^0d0{0
+2)2.242G2Y2
+3!3=3C3T3Z3`3z3
+4#4;4U4h4
+575<5a5
+6?6i6x6
+8 8%8+838G8b8k8
+9+90969>9D9J9W9]9f9
+:":*:1:6:<:B:J:P:W:^:n:v:|:
+;+;4;9;?;I;R;];i;n;~;
+;/<4<D<
+=@>F>
+?"?(?.?4?E?h?
+0!0&0,01060D0I0N0Y0^0c0n0s0
+1<1@1
+34383@3L3l3x3
+N0L0
+*VA{
+0L1 0
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+\t7=gl
+Bng~B
+tsg1z
+~FoM
+5WG~
+PvtY
+n0l0-
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+/0-0+
+%http://crl.globalsign.com/root-r3.crl0G
+@0>0<
+0402
+&https://www.globalsign.com/repository/0
+{Z3n
+9Pv7
+b wul
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+{hew
+Pg,%MV
+bL}}
+_4[Qh1c
+h8@>
+SgNc
+jPeNS
+RNjOT
+~rZ*{
+}UN"
+(y0E
+JmZ6,/
+!h'o
+!gdv
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+:0806
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+O0M0A
+20402
+&https://www.globalsign.com/repository/0
+8i_A@g
+LG&e
+mKY,
+X67d
+_&P+
+r)5S
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
++IE~
+x-tU
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+O0M0A
+20402
+&https://www.globalsign.com/repository/0
+>0<0:
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+!gdv
+1^1k
+xEU/
+/.<o
+YI7xj
+QeAn
+Y\+w
+U5@D<Y</
+w:WI
+tW2)
+/*MU
+0i0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+KT}J?n
+mt{r"K
+20261013060546Z
+3O~EN
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+W3E)
+et~H
+?eq"
+wq}V
+lTl"
+, P|
+ms8B
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+X0V0T
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+~}(@
+kxXgMt
+W!yi
+rDN6
+8m)Y
+=+lu
+:"A#
+j\t\t6
+.@C"
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+P]&G
+"9<x:
+|4^o
+q)5U
+h`i<
+TxF4
+k cS
+q]dL
+k0i0$
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+<0:08
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+Dwj|
+:U|r*C
+o84s[
+a:m1&
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+t;mq
+u]xf
+v=Y]Bv
+p,A`
+RQGt
+|Lu?c
+ Qko
+q]dL
+m0k0$
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+>0<0:
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Jz/-
+5FjiT
+wZ\T
+~qj#k"
+T-'~
+0}0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+3O~EN
+261013060546Z0+
+/1(0&0$0"
+EQSz
+>vZJ 
+,l"?
+\4q|1(\
+Hbh{
+_$DRz
+hCbg
+5t@w[
+<}7h
+SuC~
+
+
++------------------------------------+
+| FLOSS STATIC STRINGS: UTF-16LE (4) |
++------------------------------------+
+
+@jjj
+repair
+check
+C:\Windows\System32\drivers\etc\hosts
+
+
+ ───────────────────────── 
+  FLOSS STACK STRINGS (0)  
+ ───────────────────────── 
+
+
+
+ ───────────────────────── 
+  FLOSS TIGHT STRINGS (0)  
+ ───────────────────────── 
+
+
+
+ ─────────────────────────── 
+  FLOSS DECODED STRINGS (0)  
+ ─────────────────────────── 
+
+
+

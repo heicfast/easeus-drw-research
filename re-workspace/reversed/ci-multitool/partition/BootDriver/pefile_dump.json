@@ -1,0 +1,181 @@
+{
+ "machine": "0x8664",
+ "timestamp": 1744879240,
+ "subsystem": 2,
+ "entrypoint_rva": "0x10fd4",
+ "image_base": "0x180000000",
+ "sections": [
+  {
+   "name": ".text",
+   "vaddr": "0x1000",
+   "vsize": 69701,
+   "rawsize": 70144,
+   "entropy": 5.542,
+   "characteristics": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "vaddr": "0x13000",
+   "vsize": 41450,
+   "rawsize": 41472,
+   "entropy": 3.961,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "vaddr": "0x1e000",
+   "vsize": 2984,
+   "rawsize": 1024,
+   "entropy": 3.891,
+   "characteristics": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "vaddr": "0x1f000",
+   "vsize": 4632,
+   "rawsize": 5120,
+   "entropy": 4.526,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "vaddr": "0x21000",
+   "vsize": 1592,
+   "rawsize": 2048,
+   "entropy": 3.437,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "vaddr": "0x22000",
+   "vsize": 312,
+   "rawsize": 512,
+   "entropy": 3.751,
+   "characteristics": "0x42000040"
+  }
+ ],
+ "imports": {
+  "KERNEL32.dll": [
+   "DeleteCriticalSection",
+   "FreeLibrary",
+   "GetModuleFileNameW",
+   "GetPrivateProfileStringW",
+   "CreateFileW",
+   "CloseHandle",
+   "WaitForSingleObject",
+   "GetProcAddress",
+   "SetFileAttributesW",
+   "GetLastError",
+   "GetCurrentThread",
+   "DeleteFileW",
+   "LoadLibraryW",
+   "CreateThread",
+   "CreateProcessW",
+   "CopyFileW",
+   "GetPrivateProfileIntW",
+   "CopyFileExW",
+   "SetEvent",
+   "LoadLibraryA",
+   "Sleep",
+   "InitializeCriticalSection",
+   "LeaveCriticalSection",
+   "GetFileAttributesW",
+   "EnterCriticalSection",
+   "ResetEvent",
+   "WaitForSingleObjectEx",
+   "CreateEventW",
+   "InitializeCriticalSectionAndSpinCount",
+   "GetModuleHandleW",
+   "RtlCaptureContext",
+   "RtlLookupFunctionEntry",
+   "RtlVirtualUnwind",
+   "UnhandledExceptionFilter",
+   "SetUnhandledExceptionFilter",
+   "GetCurrentProcess",
+   "TerminateProcess",
+   "IsProcessorFeaturePresent",
+   "IsDebuggerPresent",
+   "QueryPerformanceCounter",
+   "GetCurrentProcessId",
+   "GetCurrentThreadId",
+   "GetSystemTimeAsFileTime",
+   "InitializeSListHead"
+  ],
+  "ADVAPI32.dll": [
+   "DuplicateTokenEx",
+   "RevertToSelf",
+   "ImpersonateLoggedOnUser",
+   "OpenThreadToken",
+   "LogonUserW"
+  ],
+  "SHLWAPI.dll": [
+   "PathFileExistsW"
+  ],
+  "MSVCP140.dll": [
+   "?_Xout_of_range@std@@YAXPEBD@Z",
+   "?_Xlength_error@std@@YAXPEBD@Z"
+  ],
+  "MPR.dll": [
+   "WNetAddConnection2W",
+   "WNetCancelConnection2W"
+  ],
+  "VCRUNTIME140.dll": [
+   "__std_terminate",
+   "__std_exception_copy",
+   "__CxxFrameHandler3",
+   "wcsrchr",
+   "_CxxThrowException",
+   "__std_type_info_destroy_list",
+   "__C_specific_handler",
+   "__RTDynamicCast",
+   "__std_exception_destroy",
+   "memset",
+   "_purecall",
+   "memmove"
+  ],
+  "api-ms-win-crt-string-l1-1-0.dll": [
+   "strcpy_s",
+   "wcscat_s",
+   "wcscpy_s",
+   "strcat_s"
+  ],
+  "api-ms-win-crt-time-l1-1-0.dll": [
+   "_time64"
+  ],
+  "api-ms-win-crt-stdio-l1-1-0.dll": [
+   "__stdio_common_vfprintf",
+   "__acrt_iob_func",
+   "__stdio_common_vswprintf",
+   "__stdio_common_vswprintf_s"
+  ],
+  "api-ms-win-crt-runtime-l1-1-0.dll": [
+   "_initterm",
+   "_invalid_parameter_noinfo_noreturn",
+   "_cexit",
+   "_initterm_e",
+   "_execute_onexit_table",
+   "_register_onexit_function",
+   "_initialize_onexit_table",
+   "_initialize_narrow_environment",
+   "_configure_narrow_argv",
+   "_seh_filter_dll",
+   "_crt_atexit"
+  ],
+  "api-ms-win-crt-heap-l1-1-0.dll": [
+   "free",
+   "malloc",
+   "_callnewh"
+  ]
+ },
+ "exports": [
+  "BootDriverExcute",
+  "BootDriverGetProgressInfo",
+  "CheckFormat",
+  "DeleteGetBootDriverImp",
+  "GetBootDriverImp",
+  "SetBootDriverCallBack",
+  "TBCanUnloadNow",
+  "TBCreateObject"
+ ],
+ "imphash": "6cb40ad4fcfdbeca5a39d1464d167872"
+}

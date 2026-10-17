@@ -1,0 +1,149 @@
+
+md5                     4ef365ca350681ca395043410df10fe8                        
+sha1                    9f68390a228aad13f1d1a6fa9d13a04c73f22764                
+sha256                  105bb22fac9cc24d67884d1d4bcdc8bed8165fad4b3e90d0c7a7cf3…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 09:06:29.114146                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    i386                                                    
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x400000                                                
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          602                                                     
+library function count  900                                                     
+total feature count     23498                                                   
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+compute adler32 checksum
+namespace  data-manipulation/checksum/adler32
+scope      function                          
+matches    0x403900                          
+
+hash data with CRC32 (4 matches)
+namespace  data-manipulation/checksum/crc32
+scope      function                        
+matches    0x403730                        
+           0x403840                        
+           0x403890                        
+           0x406650                        
+
+encode data using XOR (4 matches)
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x403110                      
+           0x403750                      
+           0x403820                      
+           0x4066B0                      
+
+generate random numbers using the Delphi LCG (3 matches)
+namespace  data-manipulation/prng/lcg
+scope      basic block               
+matches    0x403840                  
+           0x403890                  
+           0x4066B0                  
+
+extract resource via kernel32 functions
+namespace  executable/resource
+scope      function           
+matches    0x401320           
+
+accept command line arguments
+namespace  host-interaction/cli
+scope      function            
+matches    0x401000            
+
+get common file path
+namespace  host-interaction/file-system
+scope      function                    
+matches    0x405220                    
+
+create directory (2 matches)
+namespace  host-interaction/file-system/create
+scope      function                           
+matches    0x405900                           
+           0x406D60                           
+
+check if file exists
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x405900                           
+
+get file attributes (2 matches)
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x40592F                         
+           0x4059FC                         
+
+read file on Windows (3 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x404040                         
+           0x4040A0                         
+           0x4041B0                         
+
+write file on Windows (2 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x405A40                          
+           0x406650                          
+
+terminate process
+namespace  host-interaction/process/terminate
+scope      function                          
+matches    0x415136                          
+
+query or enumerate registry value
+namespace  host-interaction/registry
+scope      function                 
+matches    0x409101                 
+
+delete registry key
+namespace  host-interaction/registry/delete
+scope      function                        
+matches    0x40D55C                        
+
+allocate thread local storage
+namespace  host-interaction/thread/tls
+scope      function                   
+matches    0x419712                   
+
+link function at runtime on Windows (8 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x40FC96               
+           0x40FD39               
+           0x41128D               
+           0x4224C2               
+           0x4224DF               
+           0x4224F4               
+           0x422509               
+           0x422521               
+
+link many functions at runtime
+namespace  linking/runtime-linking
+scope      function               
+matches    0x42247E               
+
+linked against ZLIB
+namespace  linking/static/zlib
+scope      file               
+
+enumerate PE sections
+namespace  load-code/pe
+scope      function    
+matches    0x406020    
+
+resolve function by parsing PE exports (2 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x402D30    
+           0x404D30    
+
+
+

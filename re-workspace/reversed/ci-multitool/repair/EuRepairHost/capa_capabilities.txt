@@ -1,0 +1,66 @@
+
+md5                     7ce7c28301b76396ab799ec7d12fc620                        
+sha1                    041dcea00a8a7a61fecbe9205622c26bba1e0722                
+sha256                  405e71b8448f46056d738de6491b034ecaca90ca65aeb5c459703a7…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 08:55:34.450341                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    i386                                                    
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x400000                                                
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          40                                                      
+library function count  16                                                      
+total feature count     1425                                                    
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+get common file path
+namespace  host-interaction/file-system
+scope      function                    
+matches    0x401000                    
+
+check if file exists
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x401000                           
+
+get file attributes
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x401000                         
+
+get file size
+namespace  host-interaction/file-system/meta
+scope      function                         
+matches    0x401000                         
+
+set file attributes (2 matches)
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x401000                         
+           0x4015A0                         
+
+read file on Windows (2 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x401170                         
+           0x4013F0                         
+
+write file on Windows
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x401170                          
+
+terminate process
+namespace  host-interaction/process/terminate
+scope      function                          
+matches    0x401667                          
+
+
+

@@ -1,0 +1,14 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib      name                                      demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x0000c9a0 0x18000d5a0 GLOBAL FUNC 0    Boot.dll ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x0000c9a0 0x18000d5a0 GLOBAL FUNC 0    Boot.dll ??0IObject@@QEAA@AEBU0@@Z
+3   0x0000c980 0x18000d580 GLOBAL FUNC 0    Boot.dll ??0IObject@@QEAA@XZ
+4   0x00001330 0x180001f30 GLOBAL FUNC 0    Boot.dll ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+5   0x00001330 0x180001f30 GLOBAL FUNC 0    Boot.dll ??4IObject@@QEAAAEAU0@AEBU0@@Z
+6   0x00056180 0x180057180 GLOBAL FUNC 0    Boot.dll ??_7IObject@@6B@
+7   0x0000c960 0x18000d560 GLOBAL FUNC 0    Boot.dll ?AddRef@IObject@@QEBAKXZ
+8   0x0000c910 0x18000d510 GLOBAL FUNC 0    Boot.dll ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+9   0x0000c940 0x18000d540 GLOBAL FUNC 0    Boot.dll ?Release@IObject@@QEBAKXZ
+10  0x00009b90 0x18000a790 GLOBAL FUNC 0    Boot.dll TBCanUnloadNow
+11  0x00009bc0 0x18000a7c0 GLOBAL FUNC 0    Boot.dll TBCreateObject

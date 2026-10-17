@@ -1,0 +1,11 @@
+WARN: Warning: read (delay import directory)
+[Sections]
+
+nth paddr          size vaddr         vsize perm type name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000400  0x27a00 0x00401000  0x28000 -r-x ---- .text
+1   0x00027e00   0xa400 0x00429000   0xb000 -r-- ---- .rdata
+2   0x00032200   0x2200 0x00434000   0x6000 -rw- ---- .data
+3   0x00034400    0x200 0x0043a000   0x1000 -r-- ---- .rsrc
+4   0x00034600   0x7000 0x0043b000   0x7000 -r-- ---- .reloc
+

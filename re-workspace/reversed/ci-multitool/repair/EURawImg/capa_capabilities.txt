@@ -1,0 +1,268 @@
+
+md5                     05ce64028701f4eb79714191544cdd8a                        
+sha1                    00dae9fb63d2407222f69de98102673fbd201397                
+sha256                  b134e0fda795450f8d2df3754541055107c03f0a9621ac85eceb1a4…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 09:00:20.410123                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x140000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          722                                                     
+library function count  91                                                      
+total feature count     78706                                                   
+
+parse credit card information (2 matches)
+namespace  collection/credit-card
+scope      function              
+matches    0x14002AEF0           
+           0x140057310           
+
+check HTTP status code
+namespace  communication/http/client
+scope      function                 
+matches    0x14006F9F0              
+
+encode data using Base64 (2 matches)
+namespace  data-manipulation/encoding/base64
+scope      function                         
+matches    0x14002AEF0                      
+           0x1400673F0                      
+
+encode data using XOR (138 matches)
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x140034D70                   
+           0x14003C5E0                   
+           0x14003D560                   
+           0x140045401                   
+           0x14004F152                   
+           0x14004F194                   
+           0x14004F213                   
+           0x14004F580                   
+           0x140054A00                   
+           0x140056C50                   
+           0x140056E0F                   
+           0x140056F71                   
+           0x14005A2C7                   
+           0x14005B950                   
+           0x14005B9B8                   
+           0x14005BA40                   
+           0x14005BC80                   
+           0x14005BCB0                   
+           0x14005BE70                   
+           0x14005CC20                   
+           0x14005CC70                   
+           0x14005CD20                   
+           0x14005CD70                   
+           0x14005CE20                   
+           0x14005CE70                   
+           0x14005CF20                   
+           0x14005CF70                   
+           0x14005D020                   
+           0x14005D070                   
+           0x14005D120                   
+           0x14005D170                   
+           0x14005D220                   
+           0x14005D270                   
+           0x14005D320                   
+           0x14005D370                   
+           0x14005D420                   
+           0x14005D470                   
+           0x14005D520                   
+           0x14005D570                   
+           0x14005D690                   
+           0x14005D6F0                   
+           0x14005D7E0                   
+           0x14005D830                   
+           0x14005D940                   
+           0x14005D990                   
+           0x140063D80                   
+           0x140063DB0                   
+           0x140063F64                   
+           0x140063F92                   
+           0x140064180                   
+           0x1400641B0                   
+           0x140064240                   
+           0x140064270                   
+           0x140064300                   
+           0x140064330                   
+           0x1400643C0                   
+           0x1400643F0                   
+           0x140064480                   
+           0x1400644B0                   
+           0x140064540                   
+           0x140064570                   
+           0x140064600                   
+           0x140064630                   
+           0x1400646C0                   
+           0x1400646F0                   
+           0x140064780                   
+           0x1400647B0                   
+           0x140064840                   
+           0x140064870                   
+           0x140064935                   
+           0x140064965                   
+           0x140066660                   
+           0x140066696                   
+           0x14006C810                   
+           0x14006C8D3                   
+           0x14006D003                   
+           0x14006D048                   
+           0x14006D090                   
+           0x14006D0D3                   
+           0x14006D116                   
+           0x14006D153                   
+           0x14006DF31                   
+           0x14006E157                   
+           0x14006E192                   
+           0x14006E1C4                   
+           0x14006E360                   
+           0x14006E3A0                   
+           0x14006E3F0                   
+           0x14006E431                   
+           0x14006E472                   
+           0x14006E514                   
+           0x14006E560                   
+           0x14006E5A0                   
+           0x14006E5E0                   
+           0x14006E6B3                   
+           0x14006E6F0                   
+           0x14006E722                   
+           0x14006E763                   
+           0x14006E7A4                   
+           0x14006E7E5                   
+           0x14006E826                   
+           0x14006EB61                   
+           0x14006EBA0                   
+           0x14006EBD2                   
+           0x14006ED77                   
+           0x14006EDB2                   
+           0x14006EDE4                   
+           0x14006EFA7                   
+           0x14006EFE2                   
+           0x14006F014                   
+           0x14006F108                   
+           0x14006F143                   
+           0x14006F175                   
+           0x14006F262                   
+           0x14006F2C1                   
+           0x14006F306                   
+           0x14006F343                   
+           0x14006F3A5                   
+           0x14006F420                   
+           0x14006F452                   
+           0x14006F484                   
+           0x14006F528                   
+           0x14006F563                   
+           0x14006F595                   
+           0x14006F640                   
+           0x14006F717                   
+           0x140073750                   
+           0x1400752B4                   
+           0x140075800                   
+           0x1400752B4                   
+           0x140075800                   
+           0x1400766D0                   
+           0x140076716                   
+           0x140077AE0                   
+           0x140077B30                   
+           0x140077BA6                   
+           0x140077C16                   
+           0x140077CE0                   
+
+encrypt data using RC4 KSA
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x14003DEA0                     
+
+encrypt data using RC4 PRGA (10 matches)
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x140011850                     
+           0x140016700                     
+           0x14002ADE0                     
+           0x1400341C0                     
+           0x14003BB90                     
+           0x14003C520                     
+           0x14003D470                     
+           0x140041F20                     
+           0x140056EF0                     
+           0x1400734D0                     
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+get file size (3 matches)
+namespace  host-interaction/file-system/meta
+scope      function                         
+matches    0x14000A2E0                      
+           0x14000A580                      
+           0x14000ADE0                      
+
+read file on Windows (2 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x14000B460                      
+           0x14000B540                      
+
+read file via mapping
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x14000ADE0                      
+
+write file on Windows (3 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x140030220                       
+           0x140031130                       
+           0x14003F020                       
+
+check mutex on Windows
+namespace  host-interaction/mutex
+scope      function              
+matches    0x140001240           
+
+create or open mutex on Windows (3 matches)
+namespace  host-interaction/mutex
+scope      instruction           
+matches    0x140001020           
+           0x1400012AA           
+           0x1400013B1           
+
+create thread (3 matches)
+namespace  host-interaction/thread/create
+scope      basic block                   
+matches    0x140001483                   
+           0x140001613                   
+           0x140001779                   
+
+reference cryptocurrency strings
+namespace  impact/cryptocurrency
+scope      file                 
+
+enumerate PE sections (3 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x140024560 
+           0x140039400 
+           0x1400673F0 
+
+resolve function by parsing PE exports (7 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x140004D40 
+           0x140023310 
+           0x1400548B0 
+           0x1400698C0 
+           0x14006D240 
+           0x140073A60 
+           0x140074970 
+
+
+

@@ -1,0 +1,67 @@
+WARN: Relocs has not been applied. Please use `-e bin.relocs.apply=true` or `-e bin.cache=true` next time
+[Relocations]
+
+vaddr      paddr      type   ntype name
+―――――――――――――――――――――――――――――――――――――――
+0x00003518 0x00001600 SET_32 3     KERNEL32.dll_GetSystemDirectoryW
+0x0000352e 0x00001604 SET_32 3     KERNEL32.dll_GetFileAttributesW
+0x00003544 0x00001608 SET_32 3     KERNEL32.dll_SetFileAttributesW
+0x0000355a 0x0000160c SET_32 3     KERNEL32.dll_CreateFileW
+0x00003568 0x00001610 SET_32 3     KERNEL32.dll_GetFileSize
+0x00003576 0x00001614 SET_32 3     KERNEL32.dll_SetFilePointer
+0x00003588 0x00001618 SET_32 3     KERNEL32.dll_ReadFile
+0x00003594 0x0000161c SET_32 3     KERNEL32.dll_WriteFile
+0x000035a0 0x00001620 SET_32 3     KERNEL32.dll_SetEndOfFile
+0x000035b0 0x00001624 SET_32 3     KERNEL32.dll_CloseHandle
+0x000035be 0x00001628 SET_32 3     KERNEL32.dll_lstrcmpW
+0x000035d8 0x00001664 SET_32 3     MSVCP90.dll_?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB
+0x00003622 0x00001668 SET_32 3     MSVCP90.dll_?find@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z
+0x00003672 0x0000166c SET_32 3     MSVCP90.dll_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ
+0x000036bc 0x00001670 SET_32 3     MSVCP90.dll_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z
+0x00003714 0x000016c4 SET_32 3     MSVCR90.dll_??_V@YAXPAX@Z
+0x00003724 0x000016c0 SET_32 3     MSVCR90.dll_??2@YAPAXI@Z
+0x00003740 0x000016bc SET_32 3     MSVCR90.dll__unlock
+0x0000374a 0x000016b8 SET_32 3     MSVCR90.dll___dllonexit
+0x00003758 0x000016b4 SET_32 3     MSVCR90.dll__encode_pointer
+0x0000376a 0x000016c8 SET_32 3     MSVCR90.dll__lock
+0x00003772 0x000016e0 SET_32 3     MSVCR90.dll__onexit
+0x0000377c 0x000016d8 SET_32 3     MSVCR90.dll__decode_pointer
+0x0000378e 0x000016d4 SET_32 3     MSVCR90.dll_?terminate@@YAXXZ
+0x000037a2 0x000016d0 SET_32 3     MSVCR90.dll__amsg_exit
+0x000037b0 0x000016cc SET_32 3     MSVCR90.dll___wgetmainargs
+0x000037c2 0x000016e4 SET_32 3     MSVCR90.dll__cexit
+0x000037cc 0x000016a0 SET_32 3     MSVCR90.dll__exit
+0x000037d4 0x00001678 SET_32 3     MSVCR90.dll__XcptFilter
+0x000037e2 0x0000167c SET_32 3     MSVCR90.dll_exit
+0x000037ea 0x00001680 SET_32 3     MSVCR90.dll___winitenv
+0x000037f8 0x00001684 SET_32 3     MSVCR90.dll__initterm
+0x00003804 0x00001688 SET_32 3     MSVCR90.dll__initterm_e
+0x00003812 0x0000168c SET_32 3     MSVCR90.dll__configthreadlocale
+0x00003828 0x00001690 SET_32 3     MSVCR90.dll___setusermatherr
+0x0000383c 0x00001694 SET_32 3     MSVCR90.dll__adjust_fdiv
+0x0000384c 0x00001698 SET_32 3     MSVCR90.dll___p__commode
+0x0000385c 0x0000169c SET_32 3     MSVCR90.dll___p__fmode
+0x0000386a 0x000016dc SET_32 3     MSVCR90.dll___set_app_type
+0x0000387c 0x000016a4 SET_32 3     MSVCR90.dll__crt_debugger_hook
+0x00003892 0x000016a8 SET_32 3     MSVCR90.dll__except_handler4_common
+0x000038ac 0x000016ac SET_32 3     MSVCR90.dll__invoke_watson
+0x000038be 0x000016b0 SET_32 3     MSVCR90.dll__controlfp_s
+0x000038ce 0x00001658 SET_32 3     KERNEL32.dll_InterlockedExchange
+0x000038e4 0x00001654 SET_32 3     KERNEL32.dll_Sleep
+0x000038ec 0x00001650 SET_32 3     KERNEL32.dll_InterlockedCompareExchange
+0x0000390a 0x0000164c SET_32 3     KERNEL32.dll_TerminateProcess
+0x0000391e 0x00001648 SET_32 3     KERNEL32.dll_GetCurrentProcess
+0x00003932 0x00001644 SET_32 3     KERNEL32.dll_UnhandledExceptionFilter
+0x0000394e 0x00001640 SET_32 3     KERNEL32.dll_SetUnhandledExceptionFilter
+0x0000396c 0x0000163c SET_32 3     KERNEL32.dll_IsDebuggerPresent
+0x00003980 0x00001638 SET_32 3     KERNEL32.dll_QueryPerformanceCounter
+0x0000399a 0x00001634 SET_32 3     KERNEL32.dll_GetTickCount
+0x000039aa 0x00001630 SET_32 3     KERNEL32.dll_GetCurrentThreadId
+0x000039c0 0x0000162c SET_32 3     KERNEL32.dll_GetCurrentProcessId
+0x000039d6 0x0000165c SET_32 3     KERNEL32.dll_GetSystemTimeAsFileTime
+0x000039f0 0x000016e8 SET_32 3     MSVCR90.dll_memset
+0x000039fa 0x000016ec SET_32 3     MSVCR90.dll___CxxFrameHandler3
+0x00003a10 0x000016f0 SET_32 3     MSVCR90.dll_memcpy
+
+
+59 relocations

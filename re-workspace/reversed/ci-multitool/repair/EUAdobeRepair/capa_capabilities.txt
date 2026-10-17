@@ -1,0 +1,302 @@
+
+md5                     a2d0aa0f278397f71cd34897125fcaa3                        
+sha1                    d86fde073fe2d076ae4f61d5bf2be1c523b85bee                
+sha256                  70f247e59c99549960975130d844fba222a0502716583a50ace3bae…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 08:18:58.913802                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    i386                                                    
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x400000                                                
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          2142                                                    
+library function count  247                                                     
+total feature count     109467                                                  
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+contain obfuscated stackstrings
+namespace  anti-analysis/obfuscation/string/stackstring
+scope      basic block                                 
+matches    0x43D5D0                                    
+
+get geographical location
+namespace  collection
+scope      function  
+matches    0x4483D0  
+
+parse credit card information
+namespace  collection/credit-card
+scope      function              
+matches    0x409410              
+
+receive data
+namespace    communication                                                     
+description  all known techniques for receiving data from a potential C2 server
+scope        function                                                          
+matches      0x42E150                                                          
+
+send data
+namespace    communication                                                 
+description  all known techniques for sending data to a potential C2 server
+scope        function                                                      
+matches      0x42D570                                                      
+
+convert IP address from string
+namespace  communication/ip
+scope      basic block     
+matches    0x42C065        
+
+connect socket
+namespace    communication/socket                                               
+description  Detects socket connection attempts using common APIs or ConnectEx  
+             setup.                                                             
+scope        basic block                                                        
+matches      0x42C065                                                           
+
+initialize Winsock library
+namespace  communication/socket
+scope      function            
+matches    0x437A50            
+
+receive data on socket
+namespace  communication/socket/receive
+scope      function                    
+matches    0x42E150                    
+
+send data on socket
+namespace  communication/socket/send
+scope      function                 
+matches    0x42D570                 
+
+connect TCP socket
+namespace  communication/socket/tcp
+scope      function                
+matches    0x42BEA0                
+
+create TCP socket
+namespace  communication/socket/tcp
+scope      basic block             
+matches    0x42BEA0                
+
+act as TCP client
+namespace  communication/tcp/client
+scope      function                
+matches    0x42BEA0                
+
+encode data using Base64 (6 matches)
+namespace  data-manipulation/encoding/base64
+scope      function                         
+matches    0x431A10                         
+           0x431C4D                         
+           0x432C80                         
+           0x432D03                         
+           0x432D9F                         
+           0x433044                         
+
+encode data using XOR (14 matches)
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x406CB0                      
+           0x41ECA8                      
+           0x423560                      
+           0x423601                      
+           0x4246C0                      
+           0x424780                      
+           0x424B88                      
+           0x424C90                      
+           0x426D85                      
+           0x426FB7                      
+           0x4272F5                      
+           0x427FD5                      
+           0x4281B5                      
+           0x428CE5                      
+
+hash data using fnv (30 matches)
+namespace    data-manipulation/hashing/fnv                                      
+description  can be any Fowler-Noll-Vo (FNV) hash variant, including FNV-1,     
+             FNV-1a, FNV-0                                                      
+scope        function                                                           
+matches      0x406C90                                                           
+             0x41B190                                                           
+             0x41EC50                                                           
+             0x420270                                                           
+             0x423530                                                           
+             0x4235C0                                                           
+             0x423BA0                                                           
+             0x424670                                                           
+             0x424B30                                                           
+             0x424E70                                                           
+             0x425290                                                           
+             0x4253B0                                                           
+             0x425780                                                           
+             0x4258A0                                                           
+             0x425990                                                           
+             0x425A90                                                           
+             0x4264F0                                                           
+             0x426760                                                           
+             0x426860                                                           
+             0x426AE0                                                           
+             0x426D30                                                           
+             0x426F70                                                           
+             0x4272A0                                                           
+             0x427F30                                                           
+             0x428110                                                           
+             0x4282F0                                                           
+             0x428470                                                           
+             0x428650                                                           
+             0x428980                                                           
+             0x428C90                                                           
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+query environment variable (2 matches)
+namespace  host-interaction/environment-variable
+scope      function                             
+matches    0x41B880                             
+           0x41B950                             
+
+get common file path (3 matches)
+namespace  host-interaction/file-system
+scope      function                    
+matches    0x406170                    
+           0x428F90                    
+           0x445A80                    
+
+create directory (2 matches)
+namespace  host-interaction/file-system/create
+scope      function                           
+matches    0x414470                           
+           0x41B3B0                           
+
+delete file (4 matches)
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x43FF70                           
+           0x440560                           
+           0x440B60                           
+           0x441250                           
+
+check if file exists (4 matches)
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x414300                           
+           0x4143C0                           
+           0x417480                           
+           0x41B3B0                           
+
+get file attributes (4 matches)
+namespace  host-interaction/file-system/meta
+scope      basic block                      
+matches    0x41432D                         
+           0x4143ED                         
+           0x4174D5                         
+           0x41B3F7                         
+
+get file size (3 matches)
+namespace  host-interaction/file-system/meta
+scope      function                         
+matches    0x415140                         
+           0x429890                         
+           0x42A150                         
+
+read file on Windows (23 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x415210                         
+           0x422AB0                         
+           0x43D220                         
+           0x43D5D0                         
+           0x43DB40                         
+           0x43E490                         
+           0x43EB80                         
+           0x43ED70                         
+           0x43EF20                         
+           0x43F130                         
+           0x43F490                         
+           0x43FBA0                         
+           0x441250                         
+           0x4419A0                         
+           0x441B80                         
+           0x442D40                         
+           0x444280                         
+           0x444420                         
+           0x444600                         
+           0x444780                         
+           0x4450D0                         
+           0x445490                         
+           0x4455F0                         
+
+write file on Windows (4 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x4152B0                          
+           0x4229B0                          
+           0x422F40                          
+           0x4241A0                          
+
+get number of processors
+namespace  host-interaction/hardware/cpu
+scope      function                     
+matches    0x42AE50                     
+
+get process heap flags (3 matches)
+namespace  host-interaction/process
+scope      basic block             
+matches    0x401530                
+           0x41FB80                
+           0x447260                
+
+create thread (2 matches)
+namespace  host-interaction/thread/create
+scope      basic block                   
+matches    0x42C251                      
+           0x42C2B4                      
+
+access PEB ldr_data (4 matches)
+namespace  linking/runtime-linking
+scope      basic block            
+matches    0x401530               
+           0x41FB80               
+           0x42AE50               
+           0x447260               
+
+link function at runtime on Windows (11 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x445B17               
+           0x445B2A               
+           0x445B3D               
+           0x445B50               
+           0x445B63               
+           0x445B76               
+           0x445B89               
+           0x445B9C               
+           0x445BAF               
+           0x446082               
+           0x446090               
+
+link many functions at runtime
+namespace  linking/runtime-linking
+scope      function               
+matches    0x445A80               
+
+parse PE header
+namespace  load-code/pe
+scope      function    
+matches    0x449857    
+
+resolve function by parsing PE exports
+namespace  load-code/pe
+scope      function    
+matches    0x428650    
+
+
+
