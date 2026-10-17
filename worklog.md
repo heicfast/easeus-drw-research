@@ -633,3 +633,59 @@ Stage Summary:
 - Remaining for next session: PreviewMainDialog standalone-window capture (Preview BUTTON),
   filter-dropdown menu contents (needs bar button pixel-map), repair-wizard dynamic via DRWUI,
   107 widget-kind-only objectNames owner upgrade
+
+---
+Task ID: resume-6 (core-in-depth wave: drivers, engines, algorithms)
+Agent: Main RE Session
+Task: Kernel drivers/modules/engines/algorithms special-focus deep-dives + IFileProperties walkthroughs
+
+Work Log:
+- Toolchain reinstalled from fresh env (r2 5.9.8, RetDec v5.0, DIE 3.21 w/ Qt5 deb
+  extraction, pefile/capstone/yara/py7zr, 7zz); env.sh layout restored under workspace/tools
+- IFLEPROPERTIES WALKTHROUGHS parts 1-3 (10 classes): 23-slot vtable interface fully
+  mapped (dump_props_vtables.py), NTFS/FAT/exFAT census-backed semantics (size/created/
+  modified/accessed FILETIMEs, parent-anchor bands, type-registry IDs feeding Type column
+  + filter buckets 0x100-0x105/0x1000-0x1004), EXT4/HFS+/ReFS code walkthroughs
+  (HFSPlusFileDataRun + red-black-tree extent flatten, std::list Xlength guards), Btrfs
+  DUAL-RUNLIST compressed-extent encoding (+0xB5 switch), zfs_struct::ZfsDataRunlist
+  polymorphic container, RAW census (12,147 carved records, flags=0x20 const),
+  CGeneric folder wrapper; 2 CORRECTIONS to rsf-format 5.4.5 (CRAW +0x1A=size not
+  FILETIME; ZFS single-u64 grammar) + 3rd refinement (NTFS +0x40 parent-anchor, not FRN)
+- KERNEL DRIVERS 4 artifacts: (a) epmntdrv internals v2 — FltReadWriteSectorsCompletion
+  contract (context layout, KeSetEvent, STATUS_MORE_PROCESSING_REQUIRED), GetProcName/
+  GetFileObjName identity IOCTLs (ZwQueryInformationProcess 0x1B, ObQueryNameString),
+  \Volume\N full resolution chain, DriverUnload, GS/bugcheck-0xF7, VS2019 CRT;
+  (b) trio naming+PID-handshake — runtime device names from UPPERCASE(service-name)
+  (explains setupdrvx64 %s%d multi-instance upgrades), PID-token byte-transform
+  [b0,b1+b0,b2+b1,b3+b2] verified byte-exact BOTH sides (driver + Device.mo
+  \\.\EPRDTDRV\%d\Volume\%d), disk.sys stack verification loop w/ Partition0->DR%u
+  retry, IRP_MJ_DIRECTORY_CONTROL stub discovery, HarddiskVolume fallback;
+  (c) EUDCPEPM/EUEDKEPM v2 — DrvHK hook framework (vendor mangled names), IRP
+  interceptor on READ/WRITE/FLUSH/DEVCTL/SHUTDOWN, \Driver\VolSnap targeting,
+  ext contract (magic 0xD2C8E4C5 + hook-installer slot at +0x38), urgent COW cache
+  (CSession/CBitmap/CacheSrcData/CacheTransmitData), FAT32/NTFS boot-label detection,
+  PAGEFILE.SYS watcher, EUEDKEPM="EaseUS Todo Backup" registry-DeviceName variant;
+  (d) EuMrx RDBSS internals — w7rtm linkage (assert paths), DriverEntry self-start,
+  MINIRDR_DISPATCH header (0xEBFF/0x218/42 entries) + all slots disassembled
+  (STATUS_SUCCESS/NOT_IMPLEMENTED stubs + 20 real targets incl. 2 LowIO callbacks),
+  MrxUnload work-queue draining, RDBSS census
+- ENGINE ALGORITHMS v2 (all 9): NTFS deleted-record viability scoring ($-filter,
+  <1KB fast-path, $Bitmap ALL-reused destroy rule, fixup chain, $ATTRIBUTE_LIST
+  detector), FAT IFATTable/CDoubleFATTable + FAT32 chain walker (RB-tree cycle guard,
+  '.' self-entry) + exFAT dentry triples (0x7F InUse-mask deleted detection),
+  shared-props-in-engines discovery, EXT4 superblock rules + HFS+ H+/HX gates + catalog
+  leaf walker, ReFS refs:: MSB chain (SUPB/CHKP/MSB+ReFSFSRS), Btrfs newest-generation,
+  ZFS 0xBAB10C txg-gated uberblock walk, newest-transaction-wins synthesis
+- MODULES wave2: LDM VMDB/TOCBLOCK parser chain (v4.10, config/log bitmaps, 3-TOC
+  search, size cross-check), RegLib hive engine (regf+checksum, hbin WRITER),
+  CTbFile/ITbFile; RAW dual registry (39 u16 magic-keys + analyser IDs);
+  deepening batch 3 (8 stubs: send_dmp/PubLog/BootDriver-builder/AutoUpdate/
+  firebasefetch/AliyunWrapExe/EUUnZip/EuOfficeTools); per-engine function map census
+
+Stage Summary:
+- Artifacts 256 -> 268 (+12 this session); all committed/pushed to heicfast
+- Cross-cutting discoveries: props classes statically linked into EVERY engine;
+  two registry key-families in RAW; device naming = service-name-derived (trio)
+  vs registry-derived (EPM backup family); PID-token handshake
+- Open: per-slot MRx callback names (RDBSS table order unlabeled in-binary),
+  RAW u16 registry dispatch order, deeper VBLK composition walk (LDM)
