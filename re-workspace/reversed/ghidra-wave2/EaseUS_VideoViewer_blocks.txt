@@ -1,0 +1,7 @@
+Headers	00400000	004003ff	1024	--I
+.text	00401000	00413fff	77824	X-I
+.rdata	00414000	0041a3ff	25600	--I
+.data	0041b000	0041d637	9784	-WI
+.rsrc	0041e000	0041e1ff	512	--I
+.reloc	0041f000	0041fbff	3072	--I
+tdb	ffdff000	ffdfffff	4096	-WI
