@@ -136,6 +136,16 @@ Left sidebar (text rows pixel-verified):
 
 Section headers (lighter gray): "Data Recovery" (~90), "Advanced Features" (~290), "File Backup" (~420).
 
+**Sidebar destination pages** (all captured, round-6):
+
+| Page | Content |
+|---|---|
+| SD Card | "Connect Your Memory Card to Recover Lost Photos & Videos" coaching + device illustration + 3 feature tiles (**Fix SD card access / Photos that open / Video that play**) + "Show all external devices" + "Get Help" links |
+| More Recovery Tools | **6 tool cards: Crashed PC Rescue · NAS and Linux · RAID Recovery · Cloud Recovery · Image Recovery · Disk Health** (icon + title + description each) |
+| File Repair | 3 repair options — **Repair corrupted or unplayable videos / Repair damaged or partially missing photos / Repair damaged or cannot be opened documents** + blue **Start** CTA |
+| Lost Partition Rescue (DrwLostDiskPage) | 3 scenario cards — **Partition Missing / Partition Cannot Be Opened / BitLocker Partition Missing/Damaged** + hard-drive platter graphic + **Start** CTA |
+| ChronoSnap Backup | "Time Machine for Windows" + feature cards (**Automatic Protection / Point-in-Time Recovery / Powerful and Independent**) + mascot illustration + **Start** CTA |
+
 Center content:
 
 | Element | Bounds | Click center |
