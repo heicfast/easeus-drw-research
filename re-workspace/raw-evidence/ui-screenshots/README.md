@@ -23,6 +23,12 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `landing-hamburger-menu-open.png` — Drw_More_Menu OPEN: panel x 748-972, 13 items + 3 separators (Language/Help submenus, Activate, Check for Updates, Share submenu, Refer Friends, File Repair, Todo Backup, ChatPDF, Settings submenu, User Survey +red-dot, About)
 - `landing-after-activate-close.png` — Clean landing after activate-dialog X-close (return-to-state reference)
 - `landing-activate-input-focus.png` — Activate dialog with license input focused
+- `landing-sidebar-sdcard-page.png` — SD Card page: "Connect Your Memory Card to Recover Lost Photos & Videos" coaching + camera-icon states
+- `landing-sidebar-moretools-page.png` — More Recovery Tools page: the peripheral/tool tile grid
+- `landing-sidebar-filerepair-page.png` — File Repair page: repair-tool entry (add-file flow UI)
+- `landing-sidebar-lostpartition-page.png` — Lost Partition Rescue page (DrwLostDiskPage): lost-disk selection UI
+- `landing-sidebar-chronosnap-page.png` — ChronoSnap Backup page: disk-image/backup feature UI
+- `landing-desktop-tile-clicked.png` — Desktop tile clicked (selection state)
 
 ## 03-scan-phase
 

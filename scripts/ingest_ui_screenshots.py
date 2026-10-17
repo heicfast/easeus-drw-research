@@ -132,6 +132,19 @@ MANIFEST = [
      'Live preview panel rendering TEXT/HTML content (index.html source) + Recovery Chances: High + Existing + full file details'),
     ('/tmp/atlas-results5/shot_25_icon_view.png', '07-recovery', 'recovery-retention-gate-recurrent.png',
      'RECURRENCE proof: retention gate re-fires during results browsing (timed nag behavior)'),
+    # ---- round-6 atlas captures (sidebar pages - ALL captured) ----
+    ('/tmp/atlas-landing6/shot_24_sidebar_sdcard.png', '02-landing', 'landing-sidebar-sdcard-page.png',
+     'SD Card page: "Connect Your Memory Card to Recover Lost Photos & Videos" coaching + camera-icon states'),
+    ('/tmp/atlas-landing6/shot_25_sidebar_moretools.png', '02-landing', 'landing-sidebar-moretools-page.png',
+     'More Recovery Tools page: the peripheral/tool tile grid'),
+    ('/tmp/atlas-landing6/shot_26_sidebar_filerepair.png', '02-landing', 'landing-sidebar-filerepair-page.png',
+     'File Repair page: repair-tool entry (add-file flow UI)'),
+    ('/tmp/atlas-landing6/shot_28_sidebar_lostpartition.png', '02-landing', 'landing-sidebar-lostpartition-page.png',
+     'Lost Partition Rescue page (DrwLostDiskPage): lost-disk selection UI'),
+    ('/tmp/atlas-landing6/shot_29_sidebar_chronosnap.png', '02-landing', 'landing-sidebar-chronosnap-page.png',
+     'ChronoSnap Backup page: disk-image/backup feature UI'),
+    ('/tmp/atlas-landing6/shot_32_desktop_tile.png', '02-landing', 'landing-desktop-tile-clicked.png',
+     'Desktop tile clicked (selection state)'),
 ]
 
 def main():
