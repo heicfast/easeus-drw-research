@@ -689,3 +689,33 @@ Stage Summary:
   vs registry-derived (EPM backup family); PID-token handshake
 - Open: per-slot MRx callback names (RDBSS table order unlabeled in-binary),
   RAW u16 registry dispatch order, deeper VBLK composition walk (LDM)
+
+---
+Task ID: resume-7 (core wave 2+3: subsystems + granular + resilience chains)
+Agent: Main RE Session
+Task: DRWUI intelligence layer, RawFixer v2, granular analysers, ZFS vdev + MFTMirr
+
+Work Log:
+- RawFixer v2: complete 33-method vendor inventory (CheckDBR/FixFromDBR/UpdateDBR/
+  FixByScanSector/Undo per fixer + per-FS validators), ENTER/EXIT trace framework w/
+  source-line map, CheckMFT PPL-agent + MFT-record log2 sizing, exFAT
+  TryFixFromSectorsPerCluster/ChecksumDBR/CopySectors undo-log
+- DRWUI subsystems: RecoveryAssistant category-ID table (5=Graphics/6=Document/
+  7=Archive/8=Video/9=Audio/0xB=Other — SAME ID space as IFileProperties +0x60,
+  closing the categorization chain), CRecoverability per-node grading (FS codes
+  3/10/0xB, ZFS special-grade-2, ICheckRecoverable), CRecoveryMgr trace anchors +
+  Preview_Click_{,Nas,Linux,SD} telemetry, VAPreviewListener protocol (602B MediaInfo
+  header + <=1MiB BMP thumbnail, socket + events, HGLOBAL handoff, 10s bound)
+- Analyser granular batch 1: PST (0x0E/0x17 ANSI/Unicode dual size offsets, 0x38),
+  RAR4 ("Rar!"+071A+00, 0x3A, entry iterator w/ 272B names), MKV (full EBML vint
+  mask-descent parser + DocType webm), HEIC (brand 0x68656963 -> 0x7C, HEIF sibling),
+  consolidated type-ID table (12 formats)
+- ZFS vdev nvlist parser (0x1C000 label read, type-9 vdev_tree recursion, BE u64),
+  NTFS $MFTMirr resilience (record-1 $DATA runlist fallback), CalcPartition census
+
+Stage Summary:
+- Artifacts 268 -> 274 (+6); cumulative session: 256 -> 274 (+18)
+- All committed/pushed to heicfast/easeus-drw-research
+- Open for next wave: LDM VBLK composition walk, WinPE module deep reads, capa
+  cross-verification, EPMNtDrv WRITE walk, exFAT CalcPartition scoring internals,
+  SQLite/DWG/DMG analysers, CTbFile format internals
