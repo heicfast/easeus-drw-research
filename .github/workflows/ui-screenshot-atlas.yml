@@ -46,10 +46,14 @@ jobs:
   atlas:
     runs-on: windows-latest
     timeout-minutes: 40
+    if: contains(inputs.variants, matrix.variant)
     strategy:
       fail-fast: false
       matrix:
-        variant: ${{ fromJSON(format('["{0}"]', join(split(inputs.variants, ','), '","'))) }}
+        include:
+          - variant: "landing-menus"
+          - variant: "results-context"
+          - variant: "scan-phase-ui"
     steps:
       - name: Checkout (sparse)
         uses: actions/checkout@v4
