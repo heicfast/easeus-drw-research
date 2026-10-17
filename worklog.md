@@ -375,3 +375,45 @@ Stage Summary:
 - Remaining for next sessions: DRWUI RTTI class-by-class depth (980 classes), GIF/BMP/
   TIFF/SVG AnalysisData walks, .rsf stat-qword semantics naming, verify parallel
   agent's newest dynamic-ground-truth artifacts (24-25)
+
+---
+Task ID: resume-1 (post-migration session)
+Agent: Main RE Session (recovery of context + account migration + new artifacts)
+Task: Migrate repo to heicfast account (quota), resume artifact pipeline from interrupted Todo 10
+
+Work Log:
+- Environment was RESET (fresh disk): mirror-cloned heictojpgpics/easeus-drw-research (370MiB, full
+  history) with old token, created heicfast/easeus-drw-research (PUBLIC => unmetered standard
+  runners — old repo was private hence quota exhaustion), pushed mirror as-is; working clone on new
+  remote; all 3 workflows active
+- WinPE deep artifacts (was interrupted Todo 10): boot-config (winpeshl launch list, auto.bat
+  6-phase decode incl OEM Mainland branch + GetDriver USB tools + Chrome-as-viewer, regdrv.reg
+  driver table, software.reg, Unattend 1024x768 floor) + PE payload census (180 files, PE-vs-live
+  diff: 0 .mo/0 .rsf in PE => no partition search/NAS/license in bootable edition; PE-only D3D
+  shims+EuSendMessage+qoffscreen; UCRT self-carriage 49 forwarders); arch/03 §6 added
+- RAWSearchDLL analyser registry census: 182 RTTI types, 106 analyser classes, 70 magic keys
+  byte-decoded, developer namespaces (BruteForce/RawSpeed/RawFormat_xjq/Brance = author attribution),
+  two-generation chain design; + ZIP carving deep-dive (CD-walk + zero-padding extension 5.24MB cap)
+- UI ground-truth saga (was blocked by old account quota): 6 workflow iterations (Wine matrix +
+  Windows-native by parallel session); final capture = SPLASH SCREEN screenshot + VLM decode:
+  "Reading the disk information, please wait..." = CStartWindow (StartWindowIconLabel/
+  TitelLabel/bg_downloader.png static-correlated), 640x480 window = splash not modal; direct-launch
+  zero-window in 3 environments => DRWUI requires DRWLoader (verified); netsh Network Discovery
+  dual-locale + fsutil + WMI + IOCTL startup sequence documented; 3 dynamic artifacts (v1/v2/v3)
+- rsf record-4 grammar artifact (group framing + factory type codes + datarun + progress mapping),
+  reconciled with parallel session's byte-exact-validated CFileNodeRS::SaveFileTree decode
+- ImageRepair state machines: CPngInfo::BasisRepair staged pipeline (20/30/50/80%),
+  APNG sample path, Work/Info dual-class architecture, 31-format census, TIFF 4-tier repair,
+  CScanJepgInfo shared JPEG-salvage backbone
+- Runtime-family artifact set: 10 families covering all 218 un-decompiled binaries with consumer
+  maps (Qt5 x2, OpenSSL trio, UCRT, D3D shims, VC generations, codecs, ImageMagick, network libs,
+  system shims) + cpprest/libcurl per-binary (dynamic-load anomaly verified)
+- Workflow fixes: PS here-string col-0, capture-dir bug ($GITHUB_WORKSPACE/gtcap), matchbox WM,
+  always-upload; all committed
+
+Stage Summary:
+- Repo live on heicfast (public, quota-free); ~23 commits this session; artifact count ~210
+- Dynamic ground truth COMPLETE for boot phase (Wine); Windows-native loader run dispatched
+- Coverage: decompilation effectively complete (218 "missing" are redistributables, now covered by
+  runtime families); open items remaining: Windows-native loader capture, scan-phase dynamic
+  (xdotool), per-FS IFileProperties body schemas, X3f Section checkers
