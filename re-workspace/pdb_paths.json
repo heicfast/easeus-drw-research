@@ -1,0 +1,1523 @@
+{
+ "AliyunWrap.dll": [
+  "H:\\AWork\\UserInfoCollect\\x64\\Release\\AliyunWrap.pdb"
+ ],
+ "AliyunWrapExe.exe": [
+  "H:\\AWork\\UserInfoCollect\\x64\\Release\\AliyunWrapExe.pdb"
+ ],
+ "BtrfsSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BtrfsSearchDLL.pdb"
+ ],
+ "DRW.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\DRWLoader\\x64\\Release\\DRWLoader.pdb"
+ ],
+ "DRWReport.exe": [
+  "E:\\AWork\\DRW_VS17_Main\\DRWIntelligentScan\\DRWReport\\Release\\XCrashReport.pdb"
+ ],
+ "DRWService.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BitlockerReadFVEService.pdb"
+ ],
+ "DRWUI.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\DRWUI.pdb"
+ ],
+ "EUAdobeRepair.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EUAdobeRepair.pdb"
+ ],
+ "EUArchiveRepair.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EUArchiveRepair.pdb"
+ ],
+ "EUHwpFilePathCheckerModule.dll": [
+  "e:\\AWork\\DRW16.2.1-QT\\DRWIntelligentScan\\bin\\Release\\ShareBin\\EUHwpFilePathCheckerModule.pdb"
+ ],
+ "EUHwpViewer.exe": [
+  "e:\\AWork\\DRW16.2.1-QT\\DRWIntelligentScan\\bin\\Release\\ShareBin\\EUHwpViewer.pdb"
+ ],
+ "EUImageEnhance.dll": [
+  "D:\\drw\\DRW_MAIN\\DRWIntelligentScan\\bin\\Release\\ImageEnhance.pdb"
+ ],
+ "EUImgRepair.exe": [
+  "D:\\WorkSpace\\_drw_main_code\\DRWIntelligentScan\\bin\\Release\\Win32\\EUImgRepair.pdb"
+ ],
+ "EUOfficeViewer.exe": [
+  "E:\\AWork\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EUOfficeViewer.pdb"
+ ],
+ "EURawImg.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EURawImg.pdb"
+ ],
+ "EUVideoRepair.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EUVideoRepair.pdb"
+ ],
+ "EUinApp.exe": [
+  "e:\\AWork\\share_lib\\99_PublicLibrary\\EUSetWebCtrlIEVersion\\x86\\EUinApp.pdb"
+ ],
+ "EXT4SearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EXT4SearchDLL.pdb"
+ ],
+ "EuDownloader.exe": [
+  "E:\\AWork\\DRW15.8AB3\\sharelib\\EuDownloadPublicLibrary\\x86\\exe\\EuDownload.pdb"
+ ],
+ "EuICloudRecovery.dll": [
+  "H:\\VS_SPACE\\es_icloud_recovery\\build\\Release\\EuICloudRecovery.pdb"
+ ],
+ "EuOfficeRepairWin32.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\OfficeRepairWin32.pdb"
+ ],
+ "EuOfficeTools.exe": [
+  "H:\\DRW15.8AB3\\DRWIntelligentScan\\bin\\Release\\x64\\EuOfficeTools.pdb"
+ ],
+ "EuRepairHost.exe": [
+  "i:\\_drw_main_\\RepairHost\\Release\\EuRepairHost.pdb"
+ ],
+ "EuUserRate.dll": [
+  "E:\\AWork\\share_lib\\99_PublicLibrary\\userrate\\source\\Output\\Release\\EuUserRate.pdb"
+ ],
+ "FATSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\FATSearchDLL.pdb"
+ ],
+ "GDIPLUS.DLL": [
+  "c:\\postbuild\\opt\\microsoftwindowsgdiplus-1100-gdiplus.pdb"
+ ],
+ "HFSPlusSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\HFSPlusSearchDLL.pdb"
+ ],
+ "InfoForSetup.exe": [
+  "H:\\AWork\\UserInfoCollect\\x64\\Release\\InfoForSetup.pdb"
+ ],
+ "Japanese.dll": [
+  "D:\\drw\\drw_main\\MultLanguage\\Japanese\\Release\\Japanese.pdb"
+ ],
+ "NTFSSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\NTFSSearchDLL.pdb"
+ ],
+ "PDFViewer.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PDFViewer.pdb"
+ ],
+ "PE_Tools.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PE_Tools.pdb"
+ ],
+ "PubLog.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PubLog.pdb"
+ ],
+ "Qt5Core.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Core.pdb"
+ ],
+ "Qt5Gui.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Gui.pdb"
+ ],
+ "Qt5Network.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Network.pdb"
+ ],
+ "Qt5Svg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\lib\\Qt5Svg.pdb"
+ ],
+ "Qt5Widgets.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Widgets.pdb"
+ ],
+ "Qt5WinExtras.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtwinextras\\lib\\Qt5WinExtras.pdb"
+ ],
+ "RAWSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\RAWSearchDLL.pdb"
+ ],
+ "ReFSSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ReFSSearchDLL.pdb"
+ ],
+ "SetupUE.exe": [
+  "E:\\AWork\\_drw_main\\SetupUE\\Release\\SetupUE.pdb"
+ ],
+ "ZfsSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ZfsSearchDLL.pdb"
+ ],
+ "api-ms-win-core-console-l1-1-0.dll": [
+  "api-ms-win-core-console-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-datetime-l1-1-0.dll": [
+  "api-ms-win-core-datetime-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-debug-l1-1-0.dll": [
+  "api-ms-win-core-debug-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-errorhandling-l1-1-0.dll": [
+  "api-ms-win-core-errorhandling-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-file-l1-1-0.dll": [
+  "api-ms-win-core-file-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-file-l1-2-0.dll": [
+  "api-ms-win-core-file-l1-2-0.pdb"
+ ],
+ "api-ms-win-core-file-l2-1-0.dll": [
+  "api-ms-win-core-file-l2-1-0.pdb"
+ ],
+ "api-ms-win-core-handle-l1-1-0.dll": [
+  "api-ms-win-core-handle-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-heap-l1-1-0.dll": [
+  "api-ms-win-core-heap-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-interlocked-l1-1-0.dll": [
+  "api-ms-win-core-interlocked-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-libraryloader-l1-1-0.dll": [
+  "api-ms-win-core-libraryloader-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-localization-l1-2-0.dll": [
+  "api-ms-win-core-localization-l1-2-0.pdb"
+ ],
+ "api-ms-win-core-memory-l1-1-0.dll": [
+  "api-ms-win-core-memory-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-namedpipe-l1-1-0.dll": [
+  "api-ms-win-core-namedpipe-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-processenvironment-l1-1-0.dll": [
+  "api-ms-win-core-processenvironment-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-processthreads-l1-1-0.dll": [
+  "api-ms-win-core-processthreads-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-processthreads-l1-1-1.dll": [
+  "api-ms-win-core-processthreads-l1-1-1.pdb"
+ ],
+ "api-ms-win-core-profile-l1-1-0.dll": [
+  "api-ms-win-core-profile-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-rtlsupport-l1-1-0.dll": [
+  "api-ms-win-core-rtlsupport-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-string-l1-1-0.dll": [
+  "api-ms-win-core-string-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-synch-l1-1-0.dll": [
+  "api-ms-win-core-synch-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-synch-l1-2-0.dll": [
+  "api-ms-win-core-synch-l1-2-0.pdb"
+ ],
+ "api-ms-win-core-sysinfo-l1-1-0.dll": [
+  "api-ms-win-core-sysinfo-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-timezone-l1-1-0.dll": [
+  "api-ms-win-core-timezone-l1-1-0.pdb"
+ ],
+ "api-ms-win-core-util-l1-1-0.dll": [
+  "api-ms-win-core-util-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-conio-l1-1-0.dll": [
+  "api-ms-win-crt-conio-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-convert-l1-1-0.dll": [
+  "api-ms-win-crt-convert-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-environment-l1-1-0.dll": [
+  "api-ms-win-crt-environment-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-filesystem-l1-1-0.dll": [
+  "api-ms-win-crt-filesystem-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-heap-l1-1-0.dll": [
+  "api-ms-win-crt-heap-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-locale-l1-1-0.dll": [
+  "api-ms-win-crt-locale-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-math-l1-1-0.dll": [
+  "api-ms-win-crt-math-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-multibyte-l1-1-0.dll": [
+  "api-ms-win-crt-multibyte-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-private-l1-1-0.dll": [
+  "api-ms-win-crt-private-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-process-l1-1-0.dll": [
+  "api-ms-win-crt-process-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-runtime-l1-1-0.dll": [
+  "api-ms-win-crt-runtime-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-stdio-l1-1-0.dll": [
+  "api-ms-win-crt-stdio-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-string-l1-1-0.dll": [
+  "api-ms-win-crt-string-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-time-l1-1-0.dll": [
+  "api-ms-win-crt-time-l1-1-0.pdb"
+ ],
+ "api-ms-win-crt-utility-l1-1-0.dll": [
+  "api-ms-win-crt-utility-l1-1-0.pdb"
+ ],
+ "cloud_session.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\cloud_session.pdb"
+ ],
+ "concrt140.dll": [
+  "d:\\agent\\_work\\2\\s\\binaries\\amd64ret\\bin\\amd64\\\\concrt140.amd64.pdb"
+ ],
+ "dbghelp.dll": [
+  "dbghelp.pdb"
+ ],
+ "de265.dll": [
+  "C:\\heic\\vcpkg\\buildtrees\\libde265\\x64-windows-rel\\libde265\\de265.pdb"
+ ],
+ "exFATSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\exFATSearchDLL.pdb"
+ ],
+ "firebasefetch.exe": [
+  "F:\\share_lib\\99_PublicLibrary\\_HistoryVersion\\FireBaseOnlineConfig\\1.1\\x64\\Release\\firebasefetch.pdb"
+ ],
+ "firebaseonlineconfig.dll": [
+  "F:\\share_lib\\99_PublicLibrary\\_HistoryVersion\\FireBaseOnlineConfig\\1.1\\x64\\Release\\firebaseonlineconfig.pdb"
+ ],
+ "heif.dll": [
+  "C:\\heic\\vcpkg\\buildtrees\\libheif\\x64-windows-rel\\libheif\\heif.pdb"
+ ],
+ "legacy.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\openssl\\x64-windows-rel\\providers\\legacy.pdb"
+ ],
+ "libcrypto-1_1-x64.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.1.0h\\libcrypto-1_1-x64.pdb"
+ ],
+ "libcrypto-1_1.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.1.0h\\libcrypto-1_1.pdb"
+ ],
+ "libcrypto-3-x64.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\openssl\\x64-windows-rel\\libcrypto-3-x64.pdb"
+ ],
+ "libeay32.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.0.2o\\out32dll\\libeay32.pdb"
+ ],
+ "libeay32MD.dll": [
+  "D:\\opensource\\openssl-1.0.1u\\out32dll\\libeay32MD.pdb"
+ ],
+ "libssh2.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\libssh2\\x64-windows-rel\\src\\libssh2.pdb"
+ ],
+ "libssl-1_1-x64.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.1.0h\\libssl-1_1-x64.pdb"
+ ],
+ "libssl-1_1.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.1.0h\\libssl-1_1.pdb"
+ ],
+ "libssl-3-x64.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\openssl\\x64-windows-rel\\libssl-3-x64.pdb"
+ ],
+ "libssl32.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.0.2o\\out32dll\\ssleay32.pdb"
+ ],
+ "libx265.dll": [
+  "C:\\heic\\vcpkg\\buildtrees\\x265\\x64-windows-rel\\libx265.pdb"
+ ],
+ "libzmq-mt-4_3_5.dll": [
+  "D:\\vcpkg-master\\buildtrees\\zeromq\\x64-windows-rel\\bin\\libzmq-mt-4_3_5.pdb"
+ ],
+ "msvcm90.dll": [
+  "msvcm90.i386.pdb"
+ ],
+ "msvcp120.dll": [
+  "msvcp120.amd64.pdb"
+ ],
+ "msvcp140.dll": [
+  "d:\\agent\\_work\\2\\s\\binaries\\amd64ret\\bin\\amd64\\\\msvcp140.amd64.pdb"
+ ],
+ "msvcp90.dll": [
+  "msvcp90.amd64.pdb"
+ ],
+ "msvcr120.dll": [
+  "msvcr120.amd64.pdb"
+ ],
+ "msvcr90.dll": [
+  "msvcr90.amd64.pdb"
+ ],
+ "pdfium.dll": [
+  "D:\\pdfium\\pdfium\\output\\pdfium.dll.pdb"
+ ],
+ "send_dmp_with_aliyun.exe": [
+  "d:\\svn\\Tools\\SendDmpWithAliyun\\x64\\Release\\send_dmp_with_aliyun.pdb"
+ ],
+ "ssleay32.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.0.2o\\out32dll\\ssleay32.pdb"
+ ],
+ "ssleay32MD.dll": [
+  "D:\\opensource\\openssl-1.0.1u\\out32dll\\ssleay32MD.pdb"
+ ],
+ "ucrtbase.dll": [
+  "ucrtbase.pdb"
+ ],
+ "vcruntime140.dll": [
+  "d:\\agent\\_work\\2\\s\\binaries\\amd64ret\\bin\\amd64\\\\vcruntime140.amd64.pdb"
+ ],
+ "zlib1.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\zlib\\x64-windows-rel\\zlib.pdb"
+ ],
+ "VideoViewer/EaseUS_MediaGraph.dll": [
+  "D:\\WorkSpace\\_drw_main\\DRWIntelligentScan\\bin\\Release\\VideoViewer\\EaseUS_MediaGraph.pdb"
+ ],
+ "VideoViewer/EaseUS_VideoViewer.exe": [
+  "D:\\WorkSpace\\_drw_main\\DRWIntelligentScan\\bin\\Release\\VideoViewer\\EaseUS_VideoViewer.pdb"
+ ],
+ "VideoViewer/VideoFileRepairer.exe": [
+  "D:\\WorkSpace\\fix_main_code\\UI\\bin\\Release\\Win32\\VideoFileRepairer.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-console-l1-1-0.dll": [
+  "api-ms-win-core-console-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-datetime-l1-1-0.dll": [
+  "api-ms-win-core-datetime-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-debug-l1-1-0.dll": [
+  "api-ms-win-core-debug-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-errorhandling-l1-1-0.dll": [
+  "api-ms-win-core-errorhandling-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-file-l1-1-0.dll": [
+  "api-ms-win-core-file-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-file-l1-2-0.dll": [
+  "api-ms-win-core-file-l1-2-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-file-l2-1-0.dll": [
+  "api-ms-win-core-file-l2-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-handle-l1-1-0.dll": [
+  "api-ms-win-core-handle-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-heap-l1-1-0.dll": [
+  "api-ms-win-core-heap-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-interlocked-l1-1-0.dll": [
+  "api-ms-win-core-interlocked-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-libraryloader-l1-1-0.dll": [
+  "api-ms-win-core-libraryloader-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-localization-l1-2-0.dll": [
+  "api-ms-win-core-localization-l1-2-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-memory-l1-1-0.dll": [
+  "api-ms-win-core-memory-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-namedpipe-l1-1-0.dll": [
+  "api-ms-win-core-namedpipe-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-processenvironment-l1-1-0.dll": [
+  "api-ms-win-core-processenvironment-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-processthreads-l1-1-0.dll": [
+  "api-ms-win-core-processthreads-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-processthreads-l1-1-1.dll": [
+  "api-ms-win-core-processthreads-l1-1-1.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-profile-l1-1-0.dll": [
+  "api-ms-win-core-profile-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-rtlsupport-l1-1-0.dll": [
+  "api-ms-win-core-rtlsupport-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-string-l1-1-0.dll": [
+  "api-ms-win-core-string-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-synch-l1-1-0.dll": [
+  "api-ms-win-core-synch-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-synch-l1-2-0.dll": [
+  "api-ms-win-core-synch-l1-2-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-sysinfo-l1-1-0.dll": [
+  "api-ms-win-core-sysinfo-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-timezone-l1-1-0.dll": [
+  "api-ms-win-core-timezone-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-core-util-l1-1-0.dll": [
+  "api-ms-win-core-util-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-conio-l1-1-0.dll": [
+  "api-ms-win-crt-conio-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-convert-l1-1-0.dll": [
+  "api-ms-win-crt-convert-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-environment-l1-1-0.dll": [
+  "api-ms-win-crt-environment-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-filesystem-l1-1-0.dll": [
+  "api-ms-win-crt-filesystem-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-heap-l1-1-0.dll": [
+  "api-ms-win-crt-heap-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-locale-l1-1-0.dll": [
+  "api-ms-win-crt-locale-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-math-l1-1-0.dll": [
+  "api-ms-win-crt-math-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-multibyte-l1-1-0.dll": [
+  "api-ms-win-crt-multibyte-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-private-l1-1-0.dll": [
+  "api-ms-win-crt-private-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-process-l1-1-0.dll": [
+  "api-ms-win-crt-process-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-runtime-l1-1-0.dll": [
+  "api-ms-win-crt-runtime-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-stdio-l1-1-0.dll": [
+  "api-ms-win-crt-stdio-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-string-l1-1-0.dll": [
+  "api-ms-win-crt-string-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-time-l1-1-0.dll": [
+  "api-ms-win-crt-time-l1-1-0.pdb"
+ ],
+ "VideoViewer/api-ms-win-crt-utility-l1-1-0.dll": [
+  "api-ms-win-crt-utility-l1-1-0.pdb"
+ ],
+ "VideoViewer/libzmq-mt-4_3_5.dll": [
+  "D:\\vcpkg-master\\buildtrees\\zeromq\\x86-windows-rel\\bin\\libzmq-mt-4_3_5.pdb"
+ ],
+ "VideoViewer/msvcp140.dll": [
+  "D:\\a\\_work\\1\\s\\binaries\\x86ret\\bin\\i386\\\\msvcp140.i386.pdb"
+ ],
+ "VideoViewer/ucrtbase.dll": [
+  "ucrtbase.pdb"
+ ],
+ "VideoViewer/vcruntime140.dll": [
+  "d:\\agent\\_work\\2\\s\\binaries\\x86ret\\bin\\i386\\\\vcruntime140.i386.pdb"
+ ],
+ "EUFileRepair/EUAdobeRepair.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EUAdobeRepair.pdb"
+ ],
+ "EUFileRepair/EUArchiveRepair.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EUArchiveRepair.pdb"
+ ],
+ "EUFileRepair/EUImgRepairFile.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EUImgRepair.pdb"
+ ],
+ "EUFileRepair/EuOfficeRepairFile.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EuOfficeRepair.pdb"
+ ],
+ "EUFileRepair/EuPDFRepairFile.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EuPDFRepair.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-console-l1-1-0.dll": [
+  "api-ms-win-core-console-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-datetime-l1-1-0.dll": [
+  "api-ms-win-core-datetime-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-debug-l1-1-0.dll": [
+  "api-ms-win-core-debug-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-errorhandling-l1-1-0.dll": [
+  "api-ms-win-core-errorhandling-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-file-l1-1-0.dll": [
+  "api-ms-win-core-file-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-file-l1-2-0.dll": [
+  "api-ms-win-core-file-l1-2-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-file-l2-1-0.dll": [
+  "api-ms-win-core-file-l2-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-handle-l1-1-0.dll": [
+  "api-ms-win-core-handle-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-heap-l1-1-0.dll": [
+  "api-ms-win-core-heap-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-interlocked-l1-1-0.dll": [
+  "api-ms-win-core-interlocked-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-libraryloader-l1-1-0.dll": [
+  "api-ms-win-core-libraryloader-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-localization-l1-2-0.dll": [
+  "api-ms-win-core-localization-l1-2-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-memory-l1-1-0.dll": [
+  "api-ms-win-core-memory-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-namedpipe-l1-1-0.dll": [
+  "api-ms-win-core-namedpipe-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-processenvironment-l1-1-0.dll": [
+  "api-ms-win-core-processenvironment-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-processthreads-l1-1-0.dll": [
+  "api-ms-win-core-processthreads-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-processthreads-l1-1-1.dll": [
+  "api-ms-win-core-processthreads-l1-1-1.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-profile-l1-1-0.dll": [
+  "api-ms-win-core-profile-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-rtlsupport-l1-1-0.dll": [
+  "api-ms-win-core-rtlsupport-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-string-l1-1-0.dll": [
+  "api-ms-win-core-string-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-synch-l1-1-0.dll": [
+  "api-ms-win-core-synch-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-synch-l1-2-0.dll": [
+  "api-ms-win-core-synch-l1-2-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-sysinfo-l1-1-0.dll": [
+  "api-ms-win-core-sysinfo-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-timezone-l1-1-0.dll": [
+  "api-ms-win-core-timezone-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-core-util-l1-1-0.dll": [
+  "api-ms-win-core-util-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-conio-l1-1-0.dll": [
+  "api-ms-win-crt-conio-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-convert-l1-1-0.dll": [
+  "api-ms-win-crt-convert-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-environment-l1-1-0.dll": [
+  "api-ms-win-crt-environment-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-filesystem-l1-1-0.dll": [
+  "api-ms-win-crt-filesystem-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-heap-l1-1-0.dll": [
+  "api-ms-win-crt-heap-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-locale-l1-1-0.dll": [
+  "api-ms-win-crt-locale-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-math-l1-1-0.dll": [
+  "api-ms-win-crt-math-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-multibyte-l1-1-0.dll": [
+  "api-ms-win-crt-multibyte-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-private-l1-1-0.dll": [
+  "api-ms-win-crt-private-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-process-l1-1-0.dll": [
+  "api-ms-win-crt-process-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-runtime-l1-1-0.dll": [
+  "api-ms-win-crt-runtime-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-stdio-l1-1-0.dll": [
+  "api-ms-win-crt-stdio-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-string-l1-1-0.dll": [
+  "api-ms-win-crt-string-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-time-l1-1-0.dll": [
+  "api-ms-win-crt-time-l1-1-0.pdb"
+ ],
+ "EUFileRepair/api-ms-win-crt-utility-l1-1-0.dll": [
+  "api-ms-win-crt-utility-l1-1-0.pdb"
+ ],
+ "EUFileRepair/concrt140.dll": [
+  "concrt140.i386.pdb"
+ ],
+ "EUFileRepair/libcrypto-3.dll": [
+  "D:\\Users\\admin\\Desktop\\openssl-3.3.2\\openssl-3.3.2\\libcrypto-3.pdb"
+ ],
+ "EUFileRepair/libssl-3.dll": [
+  "D:\\Users\\admin\\Desktop\\openssl-3.3.2\\openssl-3.3.2\\libssl-3.pdb"
+ ],
+ "EUFileRepair/msvcp140.dll": [
+  "D:\\a\\_work\\1\\s\\binaries\\x86ret\\bin\\i386\\\\msvcp140.i386.pdb"
+ ],
+ "EUFileRepair/ucrtbase.dll": [
+  "ucrtbase.pdb"
+ ],
+ "EUFileRepair/vcruntime140.dll": [
+  "D:\\a\\_work\\1\\s\\binaries\\x86ret\\bin\\i386\\\\vcruntime140.i386.pdb"
+ ],
+ "imageformats/qgif.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\imageformats\\qgif.pdb"
+ ],
+ "imageformats/qjpeg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\imageformats\\qjpeg.pdb"
+ ],
+ "imageformats/qsvg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\plugins\\imageformats\\qsvg.pdb"
+ ],
+ "iconengines/qsvgicon.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\plugins\\iconengines\\qsvgicon.pdb"
+ ],
+ "platforms/qminimal.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\platforms\\qminimal.pdb"
+ ],
+ "platforms/qoffscreen.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\platforms\\qoffscreen.pdb"
+ ],
+ "platforms/qwindows.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\platforms\\qwindows.pdb"
+ ],
+ "PartitionRecovery/AutoUpdate.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\AutoUpdate.pdb"
+ ],
+ "PartitionRecovery/BitLockerLib.dll": [
+  "T:\\source\\repos\\_EPM_main\\legacy_mod\\BitLockerLib\\out\\bin\\x64-release\\BitLockerLib.pdb"
+ ],
+ "PartitionRecovery/Boot.dll": [
+  "K:\\_EPM_RE_main\\Output\\x64\\Release_NoDriver\\Boot.pdb"
+ ],
+ "PartitionRecovery/BootDriver.dll": [
+  "K:\\_EPM_RE_main\\Output\\x64\\Release_NoDriver\\BootDriver.pdb"
+ ],
+ "PartitionRecovery/Burn.dll": [
+  "K:\\_EPM_RE_main\\Output\\x64\\Release_NoDriver\\Burn.pdb"
+ ],
+ "PartitionRecovery/CallbackOperator.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\CallbackOperator.pdb"
+ ],
+ "PartitionRecovery/CheckVersion.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\CheckVersion.pdb"
+ ],
+ "PartitionRecovery/CloneModule.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\CloneModule.pdb"
+ ],
+ "PartitionRecovery/Common.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Common.pdb"
+ ],
+ "PartitionRecovery/Config.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Config.pdb"
+ ],
+ "PartitionRecovery/Device.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Device.pdb"
+ ],
+ "PartitionRecovery/DeviceAdapter.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\DeviceAdapter.pdb"
+ ],
+ "PartitionRecovery/DeviceManager.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\DeviceManager.pdb"
+ ],
+ "PartitionRecovery/EFIBoot.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\EFIBoot.pdb"
+ ],
+ "PartitionRecovery/Error.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Error.pdb"
+ ],
+ "PartitionRecovery/ExFatFileSystemAnalyser.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\ExFatFileSystemAnalyser.pdb"
+ ],
+ "PartitionRecovery/ExtFileSystemAnalyser.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\ExtFileSystemAnalyser.pdb"
+ ],
+ "PartitionRecovery/FATFileSystemAnalyser.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\FATFileSystemAnalyser.pdb"
+ ],
+ "PartitionRecovery/FatFormat.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\FatFormat.pdb"
+ ],
+ "PartitionRecovery/FatLib.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\FatLib.pdb"
+ ],
+ "PartitionRecovery/FileSystem.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\FileSystem.pdb"
+ ],
+ "PartitionRecovery/FileSystemAnalyser.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\FileSystemAnalyser.pdb"
+ ],
+ "PartitionRecovery/FileSystemCheck.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\FileSystemCheck.pdb"
+ ],
+ "PartitionRecovery/Fixup.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Fixup.pdb"
+ ],
+ "PartitionRecovery/GetDriverInfo.dll": [
+  "K:\\_EPM_RE_main\\Output\\x64\\Release_NoDriver\\GetDriverInfo.pdb"
+ ],
+ "PartitionRecovery/LdmManager.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\LdmManager.pdb"
+ ],
+ "PartitionRecovery/Log.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Log.pdb"
+ ],
+ "PartitionRecovery/Logger.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Logger.pdb"
+ ],
+ "PartitionRecovery/MainModule.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\MainModule.pdb"
+ ],
+ "PartitionRecovery/Mom.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Mom.pdb"
+ ],
+ "PartitionRecovery/NTFSFileSystemAnalyser.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\NTFSFileSystemAnalyser.pdb"
+ ],
+ "PartitionRecovery/NTFSLib.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\NTFSLib.pdb"
+ ],
+ "PartitionRecovery/NTFSUtil.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\NTFSUtil.pdb"
+ ],
+ "PartitionRecovery/Partition.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Partition.pdb"
+ ],
+ "PartitionRecovery/PartitionRecovery.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\PartitionRecovery.pdb"
+ ],
+ "PartitionRecovery/PartitionRecoveryD.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\PartitionRecoveryD.pdb"
+ ],
+ "PartitionRecovery/Qt5Core.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Core.pdb"
+ ],
+ "PartitionRecovery/RawFixer.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\RawFixer.pdb"
+ ],
+ "PartitionRecovery/RecoveryModule.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\RecoveryModule.pdb"
+ ],
+ "PartitionRecovery/RefsFileSystemAnalyser.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\RefsFileSystemAnalyser.pdb"
+ ],
+ "PartitionRecovery/RegLib.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\RegLib.pdb"
+ ],
+ "PartitionRecovery/Thread.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Thread.pdb"
+ ],
+ "PartitionRecovery/ToolsModule.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\ToolsModule.pdb"
+ ],
+ "PartitionRecovery/UILogic.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\UILogic.pdb"
+ ],
+ "PartitionRecovery/Win32Bcd.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\Win32Bcd.pdb"
+ ],
+ "PartitionRecovery/WinChkdsk.exe": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\WinChkdsk.pdb"
+ ],
+ "PartitionRecovery/bitlockerhelp.mo": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\bitlockerhelp.pdb"
+ ],
+ "PartitionRecovery/eprdtdrv.sys": [
+  "d:\\project_application\\_epm_main_\\mod.windiskaccessdriver\\windiskaccessdriver\\objfre_wlh_amd64\\amd64\\epmntdrv.pdb"
+ ],
+ "PartitionRecovery/eprdtdrv_win7older.sys": [
+  "d:\\project_application\\_epm_main_\\mod.windiskaccessdriver\\windiskaccessdriver\\objfre_wlh_amd64\\amd64\\epmntdrv.pdb"
+ ],
+ "PartitionRecovery/libvmdk.dll": [
+  "J:\\test\\win\\libvmdk\\vs2017\\Release\\x64\\libvmdk.pdb"
+ ],
+ "PartitionRecovery/peformat.dll": [
+  "I:\\_drw_main\\PartitionRecovery\\Output\\Release_x64\\peformat.pdb"
+ ],
+ "PartitionRecovery/setupdrvx64.exe": [
+  "D:\\Project_Application\\_EPM_Main_\\mod.WinDiskAccessDriverSetup\\setupempdrv03\\x64\\Release\\setupempdrvx64.pdb"
+ ],
+ "PartitionRecovery/zlib.dll": [
+  "J:\\test\\win\\libvmdk\\vs2017\\Release\\x64\\zlib.pdb"
+ ],
+ "styles/qwindowsvistastyle.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\styles\\qwindowsvistastyle.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/BtrfsSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BtrfsSearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/DRW.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\DRWLoader\\x64\\Release\\DRWLoader.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/DRWReport.exe": [
+  "E:\\AWork\\DRW_VS17_Main\\DRWIntelligentScan\\DRWReport\\Release\\XCrashReport.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/DRWService.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BitlockerReadFVEService.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/DRWUI.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\DRWUI.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUAdobeRepair.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EUAdobeRepair.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUArchiveRepair.exe": [
+  "D:\\Fixo\\01_Project\\00_Source\\_main\\UI\\bin\\Release\\Win32\\EUArchiveRepair.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUHwpFilePathCheckerModule.dll": [
+  "e:\\AWork\\DRW16.2.1-QT\\DRWIntelligentScan\\bin\\Release\\ShareBin\\EUHwpFilePathCheckerModule.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUHwpViewer.exe": [
+  "e:\\AWork\\DRW16.2.1-QT\\DRWIntelligentScan\\bin\\Release\\ShareBin\\EUHwpViewer.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUImageEnhance.dll": [
+  "D:\\drw\\DRW_MAIN\\DRWIntelligentScan\\bin\\Release\\ImageEnhance.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUImgRepair.exe": [
+  "D:\\WorkSpace\\_drw_main_code\\DRWIntelligentScan\\bin\\Release\\Win32\\EUImgRepair.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUOfficeViewer.exe": [
+  "E:\\AWork\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EUOfficeViewer.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EURawImg.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EURawImg.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUVideoRepair.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EUVideoRepair.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EUinApp.exe": [
+  "e:\\AWork\\share_lib\\99_PublicLibrary\\EUSetWebCtrlIEVersion\\x86\\EUinApp.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EXT4SearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EXT4SearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EuDownloader.exe": [
+  "E:\\AWork\\DRW15.8AB3\\sharelib\\EuDownloadPublicLibrary\\x86\\exe\\EuDownload.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EuICloudRecovery.dll": [
+  "H:\\VS_SPACE\\es_icloud_recovery\\build\\Release\\EuICloudRecovery.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EuOfficeRepairWin32.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\OfficeRepairWin32.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EuOfficeTools.exe": [
+  "H:\\DRW15.8AB3\\DRWIntelligentScan\\bin\\Release\\x64\\EuOfficeTools.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EuRepairHost.exe": [
+  "i:\\_drw_main_\\RepairHost\\Release\\EuRepairHost.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/EuSendMessage.exe": [
+  "E:\\AWork\\DRW_MAIN\\EuSendMessage_toInstaller\\Release\\EuSendMessage.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/FATSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\FATSearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/GDIPLUS.DLL": [
+  "c:\\postbuild\\opt\\microsoftwindowsgdiplus-1100-gdiplus.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/HFSPlusSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\HFSPlusSearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/Japanese.dll": [
+  "D:\\drw\\drw_main\\MultLanguage\\Japanese\\Release\\Japanese.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/NTFSSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\NTFSSearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/PDFViewer.exe": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PDFViewer.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/PE_Tools.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PE_Tools.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/PubLog.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PubLog.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/Qt5Core.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Core.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/Qt5Gui.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Gui.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/Qt5Network.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Network.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/Qt5Svg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\lib\\Qt5Svg.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/Qt5Widgets.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Widgets.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/Qt5WinExtras.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtwinextras\\lib\\Qt5WinExtras.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/RAWSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\RAWSearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/ReFSSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ReFSSearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/ZfsSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ZfsSearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-console-l1-1-0.dll": [
+  "api-ms-win-core-console-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-datetime-l1-1-0.dll": [
+  "api-ms-win-core-datetime-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-debug-l1-1-0.dll": [
+  "api-ms-win-core-debug-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-errorhandling-l1-1-0.dll": [
+  "api-ms-win-core-errorhandling-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-file-l1-1-0.dll": [
+  "api-ms-win-core-file-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-file-l1-2-0.dll": [
+  "api-ms-win-core-file-l1-2-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-file-l2-1-0.dll": [
+  "api-ms-win-core-file-l2-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-handle-l1-1-0.dll": [
+  "api-ms-win-core-handle-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-heap-l1-1-0.dll": [
+  "api-ms-win-core-heap-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-interlocked-l1-1-0.dll": [
+  "api-ms-win-core-interlocked-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-libraryloader-l1-1-0.dll": [
+  "api-ms-win-core-libraryloader-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-localization-l1-2-0.dll": [
+  "api-ms-win-core-localization-l1-2-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-memory-l1-1-0.dll": [
+  "api-ms-win-core-memory-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-namedpipe-l1-1-0.dll": [
+  "api-ms-win-core-namedpipe-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-processenvironment-l1-1-0.dll": [
+  "api-ms-win-core-processenvironment-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-processthreads-l1-1-0.dll": [
+  "api-ms-win-core-processthreads-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-processthreads-l1-1-1.dll": [
+  "api-ms-win-core-processthreads-l1-1-1.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-profile-l1-1-0.dll": [
+  "api-ms-win-core-profile-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-rtlsupport-l1-1-0.dll": [
+  "api-ms-win-core-rtlsupport-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-string-l1-1-0.dll": [
+  "api-ms-win-core-string-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-synch-l1-1-0.dll": [
+  "api-ms-win-core-synch-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-synch-l1-2-0.dll": [
+  "api-ms-win-core-synch-l1-2-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-sysinfo-l1-1-0.dll": [
+  "api-ms-win-core-sysinfo-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-timezone-l1-1-0.dll": [
+  "api-ms-win-core-timezone-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-core-util-l1-1-0.dll": [
+  "api-ms-win-core-util-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-conio-l1-1-0.dll": [
+  "api-ms-win-crt-conio-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-convert-l1-1-0.dll": [
+  "api-ms-win-crt-convert-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-environment-l1-1-0.dll": [
+  "api-ms-win-crt-environment-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-filesystem-l1-1-0.dll": [
+  "api-ms-win-crt-filesystem-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-heap-l1-1-0.dll": [
+  "api-ms-win-crt-heap-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-locale-l1-1-0.dll": [
+  "api-ms-win-crt-locale-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-math-l1-1-0.dll": [
+  "api-ms-win-crt-math-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-multibyte-l1-1-0.dll": [
+  "api-ms-win-crt-multibyte-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-private-l1-1-0.dll": [
+  "api-ms-win-crt-private-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-process-l1-1-0.dll": [
+  "api-ms-win-crt-process-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-runtime-l1-1-0.dll": [
+  "api-ms-win-crt-runtime-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-stdio-l1-1-0.dll": [
+  "api-ms-win-crt-stdio-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-string-l1-1-0.dll": [
+  "api-ms-win-crt-string-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-time-l1-1-0.dll": [
+  "api-ms-win-crt-time-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/api-ms-win-crt-utility-l1-1-0.dll": [
+  "api-ms-win-crt-utility-l1-1-0.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/concrt140.dll": [
+  "d:\\agent\\_work\\2\\s\\binaries\\amd64ret\\bin\\amd64\\\\concrt140.amd64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/d3d11.dll": [
+  "d3d11.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/d3d8thk.dll": [
+  "d3d8thk.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/d3d9.dll": [
+  "d3d9.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/dbghelp.dll": [
+  "dbghelp.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/de265.dll": [
+  "C:\\heic\\vcpkg\\buildtrees\\libde265\\x64-windows-rel\\libde265\\de265.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/dxgi.dll": [
+  "dxgi.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/exFATSearchDLL.dll": [
+  "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\exFATSearchDLL.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/firebasefetch.exe": [
+  "F:\\share_lib\\99_PublicLibrary\\_HistoryVersion\\FireBaseOnlineConfig\\1.1\\x64\\Release\\firebasefetch.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/firebaseonlineconfig.dll": [
+  "F:\\share_lib\\99_PublicLibrary\\_HistoryVersion\\FireBaseOnlineConfig\\1.1\\x64\\Release\\firebaseonlineconfig.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/heif.dll": [
+  "C:\\heic\\vcpkg\\buildtrees\\libheif\\x64-windows-rel\\libheif\\heif.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/legacy.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\openssl\\x64-windows-rel\\providers\\legacy.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libcrypto-1_1-x64.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.1.0h\\libcrypto-1_1-x64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libcrypto-3-x64.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\openssl\\x64-windows-rel\\libcrypto-3-x64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libeay32.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.0.2o\\out32dll\\libeay32.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libssh2.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\libssh2\\x64-windows-rel\\src\\libssh2.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libssl-1_1-x64.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.1.0h\\libssl-1_1-x64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libssl-3-x64.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\openssl\\x64-windows-rel\\libssl-3-x64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libssl32.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.0.2o\\out32dll\\ssleay32.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libx265.dll": [
+  "C:\\heic\\vcpkg\\buildtrees\\x265\\x64-windows-rel\\libx265.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/libzmq-mt-4_3_5.dll": [
+  "D:\\vcpkg-master\\buildtrees\\zeromq\\x64-windows-rel\\bin\\libzmq-mt-4_3_5.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/mfc90u.dll": [
+  "mfc90u.amd64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/msvcp120.dll": [
+  "msvcp120.amd64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/msvcp140.dll": [
+  "d:\\agent\\_work\\2\\s\\binaries\\amd64ret\\bin\\amd64\\\\msvcp140.amd64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/msvcp90.dll": [
+  "msvcp90.amd64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/msvcr120.dll": [
+  "msvcr120.amd64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/msvcr90.dll": [
+  "msvcr90.amd64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/pdfium.dll": [
+  "D:\\pdfium\\pdfium\\output\\pdfium.dll.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/ssleay32.dll": [
+  "D:\\CFILES\\Projects\\WinSSL\\openssl-1.0.2o\\out32dll\\ssleay32.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/ucrtbase.dll": [
+  "ucrtbase.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/vcruntime140.dll": [
+  "d:\\agent\\_work\\2\\s\\binaries\\amd64ret\\bin\\amd64\\\\vcruntime140.amd64.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/zlib1.dll": [
+  "F:\\git\\vcpkg\\buildtrees\\zlib\\x64-windows-rel\\zlib.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/imageformats/qgif.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\imageformats\\qgif.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/imageformats/qjpeg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\imageformats\\qjpeg.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/imageformats/qsvg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\plugins\\imageformats\\qsvg.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/iconengines/qsvgicon.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\plugins\\iconengines\\qsvgicon.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/platforms/qminimal.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\platforms\\qminimal.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/platforms/qoffscreen.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\platforms\\qoffscreen.pdb"
+ ],
+ "BUILDPE/EaseUS-x64/platforms/qwindows.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\platforms\\qwindows.pdb"
+ ],
+ "BUILDPE/x64/Windows/SysWOW64/msi.dll": [
+  "msi.pdb"
+ ],
+ "BUILDPE/x64/Windows/SysWOW64/oledlg.dll": [
+  "oledlg.pdb"
+ ],
+ "BUILDPE/x64/Windows/system32/ebrntdrv.sys": [
+  "d:\\project_application\\_epm_main_\\mod.windiskaccessdriver\\windiskaccessdriver\\objfre_wlh_amd64\\amd64\\epmntdrv.pdb"
+ ],
+ "BUILDPE/x64/Windows/system32/epmdkdrv.sys": [
+  "d:\\project_application\\_epm_main_\\mod.windiskaccessdriver\\windiskaccessdriver\\objfre_wlh_amd64\\amd64\\epmntdrv.pdb"
+ ],
+ "BUILDPE/x64/Windows/system32/msi.dll": [
+  "msi.pdb"
+ ],
+ "BUILDPE/x64/Windows/system32/oledlg.dll": [
+  "oledlg.pdb"
+ ],
+ "BUILDPE/x64/Windows/system32/drivers/EUDCPEPM.sys": [
+  "d:\\epm\\_epm_main\\sharelib\\dc\\Output\\sys\\fre_wlh_amd64\\amd64\\EuBackup.pdb"
+ ],
+ "BUILDPE/x64/Windows/system32/drivers/EUEDKEPM.sys": [
+  "d:\\epm\\_epm_main\\sharelib\\dc\\Output\\sys\\fre_wlh_amd64\\amd64\\EuDskAcs.pdb"
+ ],
+ "diskhealth/DiskHealth.exe": [
+  "F:\\drw_backup\\Output\\Release_Win32\\DiskHealth.pdb"
+ ],
+ "diskhealth/Qt5Core.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Core.pdb"
+ ],
+ "diskhealth/Qt5Gui.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Gui.pdb"
+ ],
+ "diskhealth/Qt5Network.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Network.pdb"
+ ],
+ "diskhealth/Qt5Qml.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\lib\\Qt5Qml.pdb"
+ ],
+ "diskhealth/Qt5QmlModels.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\lib\\Qt5QmlModels.pdb"
+ ],
+ "diskhealth/Qt5QmlWorkerScript.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\lib\\Qt5QmlWorkerScript.pdb"
+ ],
+ "diskhealth/Qt5Quick.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\lib\\Qt5Quick.pdb"
+ ],
+ "diskhealth/Qt5QuickControls2.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols2\\lib\\Qt5QuickControls2.pdb"
+ ],
+ "diskhealth/Qt5QuickShapes.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\lib\\Qt5QuickShapes.pdb"
+ ],
+ "diskhealth/Qt5QuickTemplates2.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols2\\lib\\Qt5QuickTemplates2.pdb"
+ ],
+ "diskhealth/Qt5RemoteObjects.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtremoteobjects\\lib\\Qt5RemoteObjects.pdb"
+ ],
+ "diskhealth/Qt5Svg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\lib\\Qt5Svg.pdb"
+ ],
+ "diskhealth/Qt5Widgets.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\lib\\Qt5Widgets.pdb"
+ ],
+ "diskhealth/api-ms-win-core-console-l1-1-0.dll": [
+  "api-ms-win-core-console-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-datetime-l1-1-0.dll": [
+  "api-ms-win-core-datetime-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-debug-l1-1-0.dll": [
+  "api-ms-win-core-debug-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-errorhandling-l1-1-0.dll": [
+  "api-ms-win-core-errorhandling-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-file-l1-1-0.dll": [
+  "api-ms-win-core-file-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-file-l1-2-0.dll": [
+  "api-ms-win-core-file-l1-2-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-file-l2-1-0.dll": [
+  "api-ms-win-core-file-l2-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-handle-l1-1-0.dll": [
+  "api-ms-win-core-handle-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-heap-l1-1-0.dll": [
+  "api-ms-win-core-heap-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-interlocked-l1-1-0.dll": [
+  "api-ms-win-core-interlocked-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-libraryloader-l1-1-0.dll": [
+  "api-ms-win-core-libraryloader-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-localization-l1-2-0.dll": [
+  "api-ms-win-core-localization-l1-2-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-memory-l1-1-0.dll": [
+  "api-ms-win-core-memory-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-namedpipe-l1-1-0.dll": [
+  "api-ms-win-core-namedpipe-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-processenvironment-l1-1-0.dll": [
+  "api-ms-win-core-processenvironment-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-processthreads-l1-1-0.dll": [
+  "api-ms-win-core-processthreads-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-processthreads-l1-1-1.dll": [
+  "api-ms-win-core-processthreads-l1-1-1.pdb"
+ ],
+ "diskhealth/api-ms-win-core-profile-l1-1-0.dll": [
+  "api-ms-win-core-profile-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-rtlsupport-l1-1-0.dll": [
+  "api-ms-win-core-rtlsupport-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-string-l1-1-0.dll": [
+  "api-ms-win-core-string-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-synch-l1-1-0.dll": [
+  "api-ms-win-core-synch-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-synch-l1-2-0.dll": [
+  "api-ms-win-core-synch-l1-2-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-sysinfo-l1-1-0.dll": [
+  "api-ms-win-core-sysinfo-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-timezone-l1-1-0.dll": [
+  "api-ms-win-core-timezone-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-core-util-l1-1-0.dll": [
+  "api-ms-win-core-util-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-conio-l1-1-0.dll": [
+  "api-ms-win-crt-conio-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-convert-l1-1-0.dll": [
+  "api-ms-win-crt-convert-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-environment-l1-1-0.dll": [
+  "api-ms-win-crt-environment-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-filesystem-l1-1-0.dll": [
+  "api-ms-win-crt-filesystem-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-heap-l1-1-0.dll": [
+  "api-ms-win-crt-heap-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-locale-l1-1-0.dll": [
+  "api-ms-win-crt-locale-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-math-l1-1-0.dll": [
+  "api-ms-win-crt-math-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-multibyte-l1-1-0.dll": [
+  "api-ms-win-crt-multibyte-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-private-l1-1-0.dll": [
+  "api-ms-win-crt-private-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-process-l1-1-0.dll": [
+  "api-ms-win-crt-process-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-runtime-l1-1-0.dll": [
+  "api-ms-win-crt-runtime-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-stdio-l1-1-0.dll": [
+  "api-ms-win-crt-stdio-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-string-l1-1-0.dll": [
+  "api-ms-win-crt-string-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-time-l1-1-0.dll": [
+  "api-ms-win-crt-time-l1-1-0.pdb"
+ ],
+ "diskhealth/api-ms-win-crt-utility-l1-1-0.dll": [
+  "api-ms-win-crt-utility-l1-1-0.pdb"
+ ],
+ "diskhealth/mfc140u.dll": [
+  "d:\\agent\\_work\\1\\s\\binaries\\x86ret\\bin\\i386\\mfc140u.i386.pdb"
+ ],
+ "diskhealth/msvcp140.dll": [
+  "D:\\a\\_work\\1\\s\\binaries\\x86ret\\bin\\i386\\\\msvcp140.i386.pdb"
+ ],
+ "diskhealth/msvcp140_1.dll": [
+  "D:\\a\\_work\\1\\s\\binaries\\x86ret\\bin\\i386\\\\msvcp140_1.i386.pdb"
+ ],
+ "diskhealth/ucrtbase.dll": [
+  "ucrtbase.pdb"
+ ],
+ "diskhealth/vcruntime140.dll": [
+  "D:\\a\\_work\\1\\s\\binaries\\x86ret\\bin\\i386\\\\vcruntime140.i386.pdb"
+ ],
+ "diskhealth/imageformats/qgif.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\imageformats\\qgif.pdb"
+ ],
+ "diskhealth/imageformats/qicns.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtimageformats\\plugins\\imageformats\\qicns.pdb"
+ ],
+ "diskhealth/imageformats/qico.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\imageformats\\qico.pdb"
+ ],
+ "diskhealth/imageformats/qjpeg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\imageformats\\qjpeg.pdb"
+ ],
+ "diskhealth/imageformats/qsvg.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\plugins\\imageformats\\qsvg.pdb"
+ ],
+ "diskhealth/imageformats/qtga.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtimageformats\\plugins\\imageformats\\qtga.pdb"
+ ],
+ "diskhealth/imageformats/qtiff.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtimageformats\\plugins\\imageformats\\qtiff.pdb"
+ ],
+ "diskhealth/imageformats/qwbmp.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtimageformats\\plugins\\imageformats\\qwbmp.pdb"
+ ],
+ "diskhealth/imageformats/qwebp.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtimageformats\\plugins\\imageformats\\qwebp.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_debugger.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_debugger.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_inspector.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_inspector.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_local.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_local.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_messages.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_messages.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_native.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_native.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_nativedebugger.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_nativedebugger.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_preview.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_preview.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_profiler.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_profiler.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_quickprofiler.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_quickprofiler.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_server.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_server.pdb"
+ ],
+ "diskhealth/qmltooling/qmldbg_tcp.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\qmltooling\\qmldbg_tcp.pdb"
+ ],
+ "diskhealth/iconengines/qsvgicon.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtsvg\\plugins\\iconengines\\qsvgicon.pdb"
+ ],
+ "diskhealth/platforms/qwindows.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\platforms\\qwindows.pdb"
+ ],
+ "diskhealth/QtGraphicalEffects/qtgraphicaleffectsplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtgraphicaleffects\\qml\\QtGraphicalEffects\\qtgraphicaleffectsplugin.pdb"
+ ],
+ "diskhealth/QtGraphicalEffects/private/qtgraphicaleffectsprivate.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtgraphicaleffects\\qml\\QtGraphicalEffects\\private\\qtgraphicaleffectsprivate.pdb"
+ ],
+ "diskhealth/QtQuick/Controls/qtquickcontrolsplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols\\qml\\QtQuick\\Controls\\qtquickcontrolsplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Controls/Styles/Flat/qtquickextrasflatplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols\\qml\\QtQuick\\Controls\\Styles\\Flat\\qtquickextrasflatplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Templates.2/qtquicktemplates2plugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols2\\qml\\QtQuick\\Templates.2\\qtquicktemplates2plugin.pdb"
+ ],
+ "diskhealth/QtQuick/Shapes/qmlshapesplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\QtQuick\\Shapes\\qmlshapesplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Extras/qtquickextrasplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols\\qml\\QtQuick\\Extras\\qtquickextrasplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Layouts/qquicklayoutsplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\QtQuick\\Layouts\\qquicklayoutsplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Window.2/windowplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\QtQuick\\Window.2\\windowplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Controls.2/qtquickcontrols2plugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols2\\qml\\QtQuick\\Controls.2\\qtquickcontrols2plugin.pdb"
+ ],
+ "diskhealth/QtQuick/Controls.2/Universal/qtquickcontrols2universalstyleplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols2\\qml\\QtQuick\\Controls.2\\Universal\\qtquickcontrols2universalstyleplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Controls.2/Fusion/qtquickcontrols2fusionstyleplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols2\\qml\\QtQuick\\Controls.2\\Fusion\\qtquickcontrols2fusionstyleplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Controls.2/Imagine/qtquickcontrols2imaginestyleplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols2\\qml\\QtQuick\\Controls.2\\Imagine\\qtquickcontrols2imaginestyleplugin.pdb"
+ ],
+ "diskhealth/QtQuick/Controls.2/Material/qtquickcontrols2materialstyleplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtquickcontrols2\\qml\\QtQuick\\Controls.2\\Material\\qtquickcontrols2materialstyleplugin.pdb"
+ ],
+ "diskhealth/scenegraph/qsgd3d12backend.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\plugins\\scenegraph\\qsgd3d12backend.pdb"
+ ],
+ "diskhealth/bearer/qgenericbearer.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\bearer\\qgenericbearer.pdb"
+ ],
+ "diskhealth/Qt/labs/settings/qmlsettingsplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\Qt\\labs\\settings\\qmlsettingsplugin.pdb"
+ ],
+ "diskhealth/QtQml/qmlplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\QtQml\\qmlplugin.pdb"
+ ],
+ "diskhealth/QtQml/RemoteObjects/qtqmlremoteobjects.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtremoteobjects\\qml\\QtQml\\RemoteObjects\\qtqmlremoteobjects.pdb"
+ ],
+ "diskhealth/QtQml/StateMachine/qtqmlstatemachine.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\QtQml\\StateMachine\\qtqmlstatemachine.pdb"
+ ],
+ "diskhealth/QtQml/WorkerScript.2/workerscriptplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\QtQml\\WorkerScript.2\\workerscriptplugin.pdb"
+ ],
+ "diskhealth/QtQml/Models.2/modelsplugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\QtQml\\Models.2\\modelsplugin.pdb"
+ ],
+ "diskhealth/QtQuick.2/qtquick2plugin.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtdeclarative\\qml\\QtQuick.2\\qtquick2plugin.pdb"
+ ],
+ "diskhealth/styles/qwindowsvistastyle.dll": [
+  "C:\\Users\\qt\\work\\qt\\qtbase\\plugins\\styles\\qwindowsvistastyle.pdb"
+ ]
+}

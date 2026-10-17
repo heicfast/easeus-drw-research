@@ -1,0 +1,216 @@
+name: RE Round - Ghidra Headless Decompilation
+
+# Batch decompilation of EaseUS core binaries with Ghidra headless on CI runners.
+# Trigger manually with batch key, or via workflow_call. Artifacts per-batch.
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: 'Batch key: core | searchdll | partition | repair | drivers | misc | all'
+        required: true
+        default: 'core'
+  workflow_call:
+    inputs:
+      batch:
+        required: true
+        type: string
+        default: 'core'
+
+permissions:
+  contents: read
+
+jobs:
+  ghidra-decompile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - batch: core
+            files: DRW.exe DRWService.exe DRWReport.exe InfoForSetup.exe SetupUE.exe
+          - batch: drwui
+            files: DRWUI.exe
+          - batch: searchdll
+            files: NTFSSearchDLL.dll FATSearchDLL.dll exFATSearchDLL.dll EXT4SearchDLL.dll HFSPlusSearchDLL.dll RAWSearchDLL.dll ReFSSearchDLL.dll BtrfsSearchDLL.dll ZfsSearchDLL.dll
+          - batch: partition
+            files: PartitionRecovery/PartitionRecovery.dll PartitionRecovery/MainModule.dll PartitionRecovery/RecoveryModule.dll PartitionRecovery/ToolsModule.dll PartitionRecovery/UILogic.dll PartitionRecovery/RawFixer.dll PartitionRecovery/Boot.dll PartitionRecovery/BootDriver.dll PartitionRecovery/BitLockerLib.dll PartitionRecovery/CloneModule.dll PartitionRecovery/Win32Bcd.dll PartitionRecovery/libvmdk.dll PartitionRecovery/AutoUpdate.dll PartitionRecovery/GetDriverInfo.dll PartitionRecovery/Logger.dll PartitionRecovery/peformat.dll PartitionRecovery/WinChkdsk.exe PartitionRecovery/Burn.dll PartitionRecovery/setupdrvx64.exe
+          - batch: repair
+            files: EUImgRepair.exe EUVideoRepair.dll EUArchiveRepair.exe EUAdobeRepair.exe EuOfficeRepairWin32.exe EuRepairHost.exe EURawImg.exe EUUnZip.exe EUImageEnhance.dll EUHwpFilePathCheckerModule.dll EuOfficeTools.exe EUFileRepair/EUAdobeRepair.exe EUFileRepair/EUArchiveRepair.exe EUFileRepair/EUImgRepairFile.exe EUFileRepair/EuOfficeRepairFile.exe EUFileRepair/EuPDFRepairFile.exe EUFileRepair/EUZipRepairFile.exe EUFileRepair/EURarRepairFile.exe EUFileRepair/EUVideoRepairFile.exe
+          - batch: drivers
+            files: PartitionRecovery/eprdtdrv.sys PartitionRecovery/eprdtdrv_win7older.sys BUILDPE/x64/Windows/system32/ebrntdrv.sys BUILDPE/x64/Windows/system32/epmdkdrv.sys BUILDPE/x64/Windows/system32/drivers/EUDCPEPM.sys BUILDPE/x64/Windows/system32/drivers/EUEDKEPM.sys EuShare/EuMrx.sys
+          - batch: misc
+            files: PE_Tools.dll PubLog.dll Japanese.dll legacy.dll archive.dll cloud_session.dll firebaseonlineconfig.dll AliyunWrap.dll AliyunWrapExe.exe EuDownloader.exe EuICloudRecovery.dll EuUserRate.dll EUinApp.exe firebasefetch.exe send_dmp_with_aliyun.exe EUHwpViewer.exe EuSendMessage.exe unins000.exe EUOfficeViewer.exe PDFViewer.exe EUVideoRepair.dll
+          - batch: mo-modules
+            files: PartitionRecovery/NTFSLib.mo PartitionRecovery/NTFSUtil.mo PartitionRecovery/FatLib.mo PartitionRecovery/FatFormat.mo PartitionRecovery/NTFSFileSystemAnalyser.mo PartitionRecovery/FATFileSystemAnalyser.mo PartitionRecovery/ExFatFileSystemAnalyser.mo PartitionRecovery/ExtFileSystemAnalyser.mo PartitionRecovery/RefsFileSystemAnalyser.mo PartitionRecovery/FileSystemAnalyser.mo PartitionRecovery/FileSystem.mo PartitionRecovery/FileSystemCheck.mo PartitionRecovery/Device.mo PartitionRecovery/DeviceManager.mo PartitionRecovery/DeviceAdapter.mo PartitionRecovery/Partition.mo PartitionRecovery/PartitionRecoveryD.mo PartitionRecovery/LdmManager.mo PartitionRecovery/Boot.mo PartitionRecovery/EFIBoot.mo PartitionRecovery/Common.mo PartitionRecovery/Config.mo PartitionRecovery/CallbackOperator.mo PartitionRecovery/CheckVersion.mo PartitionRecovery/Error.mo PartitionRecovery/Log.mo PartitionRecovery/Mom.mo PartitionRecovery/RegLib.mo PartitionRecovery/Thread.mo PartitionRecovery/Fixup.mo PartitionRecovery/bitlockerhelp.mo PartitionRecovery/Tool.mo
+    env:
+      GHIDRA_VERSION: "11.3.2_PUBLIC_20250415"
+    steps:
+      - name: Determine whether this matrix job should run
+        id: sel
+        run: |
+          INPUT_BATCH="${{ inputs.batch || github.event.inputs.batch }}"
+          MATRIX_BATCH="${{ matrix.batch }}"
+          if [ "$INPUT_BATCH" = "all" ] || [ -z "$INPUT_BATCH" ] || [ "$INPUT_BATCH" = "$MATRIX_BATCH" ]; then
+            echo "run=true" >> $GITHUB_OUTPUT
+          else
+            echo "run=false" >> $GITHUB_OUTPUT
+            echo "Skipping batch $MATRIX_BATCH (requested: $INPUT_BATCH)"
+          fi
+
+      - name: Checkout repository
+        if: steps.sel.outputs.run == 'true'
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            og-codebase
+
+      - name: Setup Java 21
+        if: steps.sel.outputs.run == 'true'
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Download and install Ghidra
+        if: steps.sel.outputs.run == 'true'
+        run: |
+          curl -sL --retry 3 -o ghidra.zip "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.3.2_build/ghidra_11.3.2_PUBLIC_20250415.zip"
+          unzip -q ghidra.zip -d "$HOME/"
+          echo "GHIDRA_HOME=$HOME/ghidra_11.3.2_PUBLIC" >> "$GITHUB_ENV"
+          rm ghidra.zip
+          "$HOME/ghidra_11.3.2_PUBLIC/support/analyzeHeadless" --version || true
+
+      - name: Write Ghidra export script
+        if: steps.sel.outputs.run == 'true'
+        run: |
+          mkdir -p ghidra_scripts
+          cat > ghidra_scripts/ExportAll.java << 'JAVA_EOF'
+          import ghidra.app.script.GhidraScript;
+          import ghidra.app.decompiler.*;
+          import ghidra.program.model.listing.*;
+          import ghidra.program.model.symbol.*;
+          import ghidra.program.model.mem.MemoryBlock;
+          import java.io.*;
+          import java.util.*;
+
+          public class ExportAll extends GhidraScript {
+              @Override
+              public void run() throws Exception {
+                  String outDir = getScriptArgs().length > 0 ? getScriptArgs()[0] : "/tmp/out";
+                  new File(outDir).mkdirs();
+                  String progName = currentProgram.getName().replaceAll("\\.[^.]+$", "");
+
+                  // 1. Function inventory
+                  PrintWriter fw = new PrintWriter(new BufferedWriter(new FileWriter(outDir + "/" + progName + "_functions.txt")));
+                  for (Function f : currentProgram.getFunctionManager().getFunctions(true)) {
+                      fw.println(f.getEntryPoint() + "\t" + f.getBody().getNumAddresses() + "\t" + f.getSignature(true).toString());
+                  }
+                  fw.close();
+
+                  // 2. Memory blocks / sections
+                  PrintWriter mw = new PrintWriter(new BufferedWriter(new FileWriter(outDir + "/" + progName + "_blocks.txt")));
+                  for (MemoryBlock b : currentProgram.getMemory().getBlocks()) {
+                      mw.println(b.getName() + "\t" + b.getStart() + "\t" + b.getEnd() + "\t" + b.getSize() + "\t" + (b.isExecute() ? "X" : "-") + (b.isWrite() ? "W" : "-") + (b.isInitializedMemory() ? "I" : "-"));
+                  }
+                  mw.close();
+
+                  // 3. Imports
+                  PrintWriter iw = new PrintWriter(new BufferedWriter(new FileWriter(outDir + "/" + progName + "_imports.txt")));
+                  for (Symbol s : currentProgram.getSymbolTable().getExternalSymbols()) {
+                      iw.println(s.getName(true));
+                  }
+                  iw.close();
+
+                  // 4. Full decompilation of defined functions (skip thunks/externals)
+                  DecompInterface di = new DecompInterface();
+                  DecompileOptions opts = new DecompileOptions();
+                  opts.setMaxPayloadMBytes(64);
+                  di.setOptions(opts);
+                  di.openProgram(currentProgram);
+                  PrintWriter dw = new PrintWriter(new BufferedWriter(new FileWriter(outDir + "/" + progName + "_decompiled.c")));
+                  int count = 0;
+                  for (Function f : currentProgram.getFunctionManager().getFunctions(true)) {
+                      if (monitor.isCancelled()) break;
+                      if (f.isThunk() || f.isExternal()) continue;
+                      try {
+                          DecompileResults res = di.decompileFunction(f, 120, monitor);
+                          if (res != null && res.deCompileCompleted() && res.getDecompiledFunction() != null) {
+                              dw.println(res.getDecompiledFunction().getC());
+                              dw.println();
+                              count++;
+                          }
+                      } catch (Exception e) { /* keep going */ }
+                  }
+                  dw.close();
+                  di.dispose();
+                  println("Decompiled " + count + " functions for " + progName);
+              }
+          }
+          JAVA_EOF
+          # de-indent (heredoc keeps leading spaces; Ghidra needs valid Java)
+          sed -i 's/^[[:space:]]*//' ghidra_scripts/ExportAll.java
+          head -5 ghidra_scripts/ExportAll.java
+
+      - name: Run Ghidra headless per file
+        if: steps.sel.outputs.run == 'true'
+        env:
+          GHIDRA: ${{ env.GHIDRA_HOME }}
+          BATCH_FILES: ${{ matrix.files }}
+        run: |
+          mkdir -p out/ghidra/${{ matrix.batch }} ghidra_proj
+          export GHIDRA_INSTALL_DIR="$GHIDRA"
+          for f in $BATCH_FILES; do
+            SRC="og-codebase/$f"
+            if [ ! -f "$SRC" ]; then echo "::warning::file-missing $SRC"; continue; fi
+            NAME=$(basename "$f" | sed 's/\.[^.]*$//')
+            echo "=== Ghidra analyzing: $f ==="
+            set +e
+            timeout 2700 "$GHIDRA/support/analyzeHeadless" "$PWD/ghidra_proj" "prj_${{ matrix.batch }}" \
+              -import "$SRC" \
+              -scriptPath "$PWD/ghidra_scripts" \
+              -postScript ExportAll.java "$PWD/out/ghidra/${{ matrix.batch }}" \
+              -deleteProject \
+              -analysisTimeoutPerFile 2100 \
+              > "/tmp/ghidra_${NAME}.log" 2>&1
+            RC=$?
+            set -e
+            if [ $RC -ne 0 ]; then
+              echo "::warning::ghidra-failed rc=$RC on $f"
+              tail -30 "/tmp/ghidra_${NAME}.log" || true
+            fi
+            ls -la "out/ghidra/${{ matrix.batch }}/" | head -5
+          done
+
+      - name: Verification report
+        if: steps.sel.outputs.run == 'true'
+        env:
+          BATCH_FILES: ${{ matrix.files }}
+        run: |
+          {
+            echo "# Ghidra batch: ${{ matrix.batch }}"
+            echo "Generated: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo ""
+            for f in $BATCH_FILES; do
+              NAME=$(basename "$f" | sed 's/\.[^.]*$//')
+              DECOMP="out/ghidra/${{ matrix.batch }}/${NAME}_decompiled.c"
+              FUNCS="out/ghidra/${{ matrix.batch }}/${NAME}_functions.txt"
+              if [ -f "$DECOMP" ] && [ -s "$DECOMP" ]; then
+                echo "- **$f**: $(wc -l < "$FUNCS") functions, $(wc -l < "$DECOMP") lines decompiled ($(du -h "$DECOMP" | cut -f1))"
+              elif [ -f "$FUNCS" ]; then
+                echo "- **$f**: functions listed ($(wc -l < "$FUNCS")) but decompilation missing"
+              else
+                echo "- **$f**: NO OUTPUT (check warnings)"
+              fi
+            done
+          } > out/ghidra/${{ matrix.batch }}/REPORT.md
+          cat out/ghidra/${{ matrix.batch }}/REPORT.md
+
+      - name: Upload batch artifacts
+        if: steps.sel.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ghidra-${{ matrix.batch }}
+          path: out/
+          retention-days: 90
+          if-no-files-found: warn

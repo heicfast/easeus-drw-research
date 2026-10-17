@@ -1,0 +1,201 @@
+name: RE Round - Multi-Tool Static Analysis
+
+# Runs FLOSS (stack strings), capa (capabilities), radare2 (imports/exports/sections/strings),
+# RetDec (C decompilation of small/medium binaries) across EaseUS binaries.
+# Complements the Ghidra workflow with different extraction techniques.
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: 'Batch key: core | searchdll | drivers | partition | repair | all'
+        required: true
+        default: 'all'
+  workflow_call:
+    inputs:
+      batch:
+        required: true
+        type: string
+        default: 'all'
+
+permissions:
+  contents: read
+
+jobs:
+  multitool:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - batch: core
+            files: DRW.exe DRWService.exe DRWReport.exe InfoForSetup.exe SetupUE.exe DRWUI.exe
+          - batch: searchdll
+            files: NTFSSearchDLL.dll FATSearchDLL.dll exFATSearchDLL.dll EXT4SearchDLL.dll HFSPlusSearchDLL.dll RAWSearchDLL.dll ReFSSearchDLL.dll BtrfsSearchDLL.dll ZfsSearchDLL.dll
+          - batch: drivers
+            files: PartitionRecovery/eprdtdrv.sys PartitionRecovery/eprdtdrv_win7older.sys BUILDPE/x64/Windows/system32/ebrntdrv.sys BUILDPE/x64/Windows/system32/epmdkdrv.sys BUILDPE/x64/Windows/system32/drivers/EUDCPEPM.sys BUILDPE/x64/Windows/system32/drivers/EUEDKEPM.sys EuShare/EuMrx.sys
+          - batch: partition
+            files: PartitionRecovery/PartitionRecovery.dll PartitionRecovery/MainModule.dll PartitionRecovery/RecoveryModule.dll PartitionRecovery/ToolsModule.dll PartitionRecovery/UILogic.dll PartitionRecovery/RawFixer.dll PartitionRecovery/Boot.dll PartitionRecovery/BootDriver.dll PartitionRecovery/BitLockerLib.dll PartitionRecovery/CloneModule.dll PartitionRecovery/Win32Bcd.dll PartitionRecovery/libvmdk.dll
+          - batch: repair
+            files: EUImgRepair.exe EUVideoRepair.dll EUArchiveRepair.exe EUAdobeRepair.exe EuOfficeRepairWin32.exe EuRepairHost.exe EURawImg.exe EUUnZip.exe EUImageEnhance.dll EuOfficeTools.exe
+    steps:
+      - name: Should this matrix job run?
+        id: sel
+        run: |
+          INPUT_BATCH="${{ inputs.batch || github.event.inputs.batch }}"
+          if [ "$INPUT_BATCH" = "all" ] || [ -z "$INPUT_BATCH" ] || [ "$INPUT_BATCH" = "${{ matrix.batch }}" ]; then
+            echo "run=true" >> $GITHUB_OUTPUT
+          else
+            echo "run=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Checkout repository
+        if: steps.sel.outputs.run == 'true'
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            og-codebase
+
+      - name: Setup Python
+        if: steps.sel.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python RE tools
+        if: steps.sel.outputs.run == 'true'
+        run: |
+          pip install pefile capstone flare-floss flare-capa yara-python dnfile
+
+      - name: Install radare2
+        if: steps.sel.outputs.run == 'true'
+        run: |
+          curl -sL --retry 3 -o r2.tar.xz "https://github.com/radareorg/radare2/releases/download/5.9.8/radare2-5.9.8-static.tar.xz"
+          mkdir -p r2 && tar -xf r2.tar.xz -C r2
+          echo "$PWD/r2/r2-static/usr/bin" >> $GITHUB_PATH
+          echo "LD_LIBRARY_PATH=$PWD/r2/r2-static/usr/lib" >> $GITHUB_ENV
+          r2 -v
+
+      - name: Install RetDec
+        if: steps.sel.outputs.run == 'true'
+        run: |
+          curl -sL --retry 3 -o retdec.tar.xz "https://github.com/avast/retdec/releases/download/v5.0/RetDec-v5.0-Linux-Release.tar.xz"
+          mkdir -p retdec && tar -xf retdec.tar.xz -C retdec
+          echo "$PWD/retdec/bin" >> $GITHUB_PATH
+          echo "RETDEC_SHARE_DIR=$PWD/retdec/share/retdec" >> $GITHUB_ENV
+          retdec-decompiler --version
+
+      - name: Run analysis suite
+        if: steps.sel.outputs.run == 'true'
+        env:
+          BATCH_FILES: ${{ matrix.files }}
+          BATCH: ${{ matrix.batch }}
+        run: |
+          set +e
+          mkdir -p out/multitool/$BATCH
+          for f in $BATCH_FILES; do
+            SRC="og-codebase/$f"
+            [ -f "$SRC" ] || { echo "::warning::missing $SRC"; continue; }
+            NAME=$(basename "$f" | sed 's/\.[^.]*$//')
+            OUT="out/multitool/$BATCH/$NAME"
+            mkdir -p "$OUT"
+            echo "============ ANALYZING: $f ============"
+
+            # 1. radare2: full binary info
+            rabin2 -I "$SRC"   > "$OUT/rabin2_info.txt" 2>&1
+            rabin2 -e "$SRC"   > "$OUT/rabin2_entry.txt" 2>&1
+            rabin2 -ee "$SRC"  > "$OUT/rabin2_ctors_dtors.txt" 2>&1
+            rabin2 -i "$SRC"   > "$OUT/rabin2_imports.txt" 2>&1
+            rabin2 -E "$SRC"   > "$OUT/rabin2_exports.txt" 2>&1
+            rabin2 -S "$SRC"   > "$OUT/rabin2_sections.txt" 2>&1
+            rabin2 -SS "$SRC"  > "$OUT/rabin2_segments.txt" 2>&1
+            rabin2 -z "$SRC"   > "$OUT/rabin2_strings_data.txt" 2>&1
+            rabin2 -zz "$SRC"  > "$OUT/rabin2_strings_all.txt" 2>&1
+            rabin2 -s "$SRC"   > "$OUT/rabin2_symbols.txt" 2>&1
+            rabin2 -R "$SRC"   > "$OUT/rabin2_relocs.txt" 2>&1
+            rabin2 -H "$SRC"   > "$OUT/rabin2_header_fields.txt" 2>&1
+            # resources via r2 command
+            r2 -q -c "iR" "$SRC" > "$OUT/rabin2_resources.txt" 2>&1
+
+            # 2. FLOSS: deobfuscated strings (stack, tight, decoded)
+            timeout 900 floss "$SRC" > "$OUT/floss_strings.txt" 2>&1
+
+            # 3. capa: capabilities
+            timeout 900 capa -v "$SRC" > "$OUT/capa_capabilities.txt" 2>&1
+            # capabilities as rules matched list
+            timeout 900 capa -v --json "$SRC" > "$OUT/capa_capabilities.json" 2>&1
+
+            # 4. RetDec decompilation for files < 8MB (bigger ones -> Ghidra batch)
+            SZ=$(stat -c%s "$SRC")
+            if [ $SZ -lt 8388608 ]; then
+              timeout 2400 retdec-decompiler "$SRC" -o "$OUT/retdec_decompiled.c" \
+                -c "$OUT/retdec_config.json" --cleanup > "$OUT/retdec.log" 2>&1
+              [ -f "$OUT/retdec_decompiled.c" ] && echo "retdec OK: $(wc -l < $OUT/retdec_decompiled.c) lines" || echo "::warning::retdec failed on $f"
+            else
+              echo "skipped retdec (size $SZ bytes >= 8MB) - handled by Ghidra" > "$OUT/retdec_skipped.txt"
+            fi
+
+            # 5. Python pefile deep dump
+            python3 - "$SRC" "$OUT" << 'PYEOF'
+          import sys, json, pefile
+          src, out = sys.argv[1], sys.argv[2]
+          try:
+              pe = pefile.PE(src)
+              d = {
+                  "machine": hex(pe.FILE_HEADER.Machine),
+                  "timestamp": pe.FILE_HEADER.TimeDateStamp,
+                  "subsystem": pe.OPTIONAL_HEADER.Subsystem,
+                  "entrypoint_rva": hex(pe.OPTIONAL_HEADER.AddressOfEntryPoint),
+                  "image_base": hex(pe.OPTIONAL_HEADER.ImageBase),
+                  "sections": [{"name": s.Name.decode(errors='replace').rstrip('\x00'),
+                                "vaddr": hex(s.VirtualAddress), "vsize": s.Misc_VirtualSize,
+                                "rawsize": s.SizeOfRawData, "entropy": round(s.get_entropy(),3),
+                                "characteristics": hex(s.Characteristics)} for s in pe.sections],
+                  "imports": {e.dll.decode(errors='replace'): [imp.name.decode(errors='replace') if imp.name else f"ord{imp.ordinal}" for imp in e.imports]
+                              for e in getattr(pe, 'DIRECTORY_ENTRY_IMPORT', [])},
+                  "exports": [s.name.decode(errors='replace') for s in getattr(getattr(pe,'DIRECTORY_ENTRY_EXPORT',None),'symbols',[]) if s.name],
+                  "imphash": None,
+              }
+              try: d["imphash"] = pe.get_imphash()
+              except: pass
+              try:
+                  if hasattr(pe, 'VS_FIXEDFILEINFO'):
+                      d["version"] = {k: v for k,v in pe.parse_version_information().items()} if hasattr(pe, 'parse_version_information') else {}
+              except: pass
+              json.dump(d, open(out + "/pefile_dump.json", "w"), indent=1)
+          except Exception as e:
+              print(f"pefile error: {e}")
+          PYEOF
+          done
+
+      - name: Verification report
+        if: steps.sel.outputs.run == 'true'
+        env:
+          BATCH_FILES: ${{ matrix.files }}
+          BATCH: ${{ matrix.batch }}
+        run: |
+          {
+            echo "# Multi-tool batch: $BATCH"
+            echo "Generated: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            for f in $BATCH_FILES; do
+              NAME=$(basename "$f" | sed 's/\.[^.]*$//')
+              OUT="out/multitool/$BATCH/$NAME"
+              echo ""
+              echo "## $f"
+              echo "- rabin2 info: $([ -s $OUT/rabin2_info.txt ] && echo OK || echo MISSING)"
+              echo "- FLOSS strings: $([ -s $OUT/floss_strings.txt ] && echo "$(wc -l < $OUT/floss_strings.txt) lines" || echo MISSING)"
+              echo "- capa: $([ -s $OUT/capa_capabilities.txt ] && echo "$(grep -c 'scope' $OUT/capa_capabilities.txt) matches" || echo MISSING)"
+              echo "- retdec: $([ -s $OUT/retdec_decompiled.c ] && echo "$(wc -l < $OUT/retdec_decompiled.c) lines" || echo 'n/a')"
+              echo "- pefile: $([ -s $OUT/pefile_dump.json ] && echo OK || echo MISSING)"
+            done
+          } > out/multitool/$BATCH/REPORT.md
+          cat out/multitool/$BATCH/REPORT.md
+
+      - name: Upload artifacts
+        if: steps.sel.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: multitool-${{ matrix.batch }}
+          path: out/
+          retention-days: 90
+          if-no-files-found: warn
