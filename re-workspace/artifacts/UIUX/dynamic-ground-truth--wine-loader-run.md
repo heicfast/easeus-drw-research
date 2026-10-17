@@ -75,3 +75,10 @@ then exits before 60s. Decoded meaning: DRWUI parses `google-services.json` (shi
 - Device enumeration static: DRWUI device classes (`CEnumNasDevice`, drive lists) in `DRWUI-exe--main-ui-architecture.md`
 - Window census static: `UIUX/` artifacts (view manager 4 pages, 141 window classes)
 - Follow-up: v3 re-run with matchbox WM (screenshots expected once windows map)
+
+---
+
+*Cross-link (session 4): the follow-up successful runs (39033262731 Windows-native, 39033264252
+Wine loader/direct matrix) are ingested in `24-dynamic-ground-truth-ingestion.md` — window census
+(maximized 1600×1000 "DRWUI" + tile-row children + 640×480 central child), loader-vs-direct
+differential, and i18n-aware NAS firewall prep (netsh EN + GBK 网络发现).*

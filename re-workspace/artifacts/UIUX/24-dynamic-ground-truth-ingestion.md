@@ -3,6 +3,10 @@
 > Scope: ingestion of the first **successful** dynamic ground-truth CI runs into the UIUX doc set —
 > runtime confirmation of statically-decoded behaviors, plus new runtime facts not visible in static
 > analysis.
+> Companion artifact: `dynamic-ground-truth--wine-loader-run.md` (parallel session) analyzes the
+> earlier salvaged loader run's **process tree** (DRW idle-supervisor / DRWUI alive at 452 MB RSS /
+> AliyunWrapExe telemetry spawned eagerly at 25.8% CPU / SCM service stack) — this artifact ingests
+> the subsequent **successful** runs' window censuses + runtime behavior; the two are complementary.
 > Runs (2026-10-17 12:37–12:40 UTC): Windows-native 39033262731 (success), Wine loader 39033264252
 > (success), Wine direct 39033264252/direct leg (success-with-empty-census — the finding itself).
 > Workflows: `ui-ground-truth.yml` (Windows) + `ui-ground-truth-wine.yml` (loader/direct matrix,
