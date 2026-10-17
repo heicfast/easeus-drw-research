@@ -41,7 +41,7 @@ jobs:
         run: |
           sudo dpkg --add-architecture i386 || true
           sudo apt-get update -qq
-          sudo apt-get install -y -qq wine64 xvfb x11-utils imagemagick wmctrl x11-apps fonts-dejavu procps || true
+          sudo apt-get install -y -qq wine64 xvfb x11-utils imagemagick wmctrl x11-apps fonts-dejavu procps matchbox-window-manager || true
           wine --version || /usr/lib/wine/wine64 --version || true
 
       - name: Launch and observe
@@ -54,6 +54,9 @@ jobs:
           Xvfb :99 -screen 0 1600x1000x24 > /tmp/xvfb.log 2>&1 &
           XVFB_PID=$!
           sleep 3
+          # lightweight WM so X clients map windows and _NET_CLIENT_LIST exists
+          (DISPLAY=:99 matchbox-window-manager > /tmp/mwm.log 2>&1 &) || true
+          sleep 2
           cd og-codebase
           wineserver -k 2>/dev/null
           echo "=== EXPERIMENT: ${{ matrix.tag }} (${{ matrix.launch }}) ==="
@@ -63,8 +66,9 @@ jobs:
           for t in 8 20 35 50 70 90; do
             if [ "$t" -gt "${{ inputs.wait_seconds }}" ]; then break; fi
             sleep $(( t - prev ))
-            wmctrl -l > "census_t${t}.txt" 2>&1
+            { wmctrl -l; echo "--- xwininfo children ---"; xwininfo -root -children 2>/dev/null | head -40; } > "census_t${t}.txt" 2>&1
             import -window root "screen_t${t}.png" 2>/dev/null || { xwd -root -out "/tmp/r${t}.xwd" 2>/dev/null && convert "/tmp/r${t}.xwd" "screen_t${t}.png" 2>/dev/null; }
+            echo "===== census at t=${t}s ====="; cat "census_t${t}.txt"
             prev=$t
           done
           echo "=== alive check ==="
@@ -89,9 +93,11 @@ jobs:
           for f in og-codebase/*.log; do cp "$f" "applog_$(basename "$f")" 2>/dev/null; done
           # new logs the app may have written into its own tree or prefix
           find "$HOME/.wine32prefix/drive_c" -name "*.log" -newer /tmp/wine_out.log -exec cp {} ./prefix_newlog_$(basename {}) \; 2>/dev/null
-          ls -la *.log *.txt *.png 2>/dev/null
+          ls -la 2>/dev/null | grep -E '\.(log|txt|png)$' || true
+          exit 0
 
       - name: Upload ground truth
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: ui-ground-truth-${{ matrix.tag }}

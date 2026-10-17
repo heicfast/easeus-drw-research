@@ -55,35 +55,35 @@ jobs:
           $ErrorActionPreference = 'Continue'
           try {
             Add-Type -TypeDefinition @"
-            using System;
-            using System.Runtime.InteropServices;
-            using System.Text;
-            using System.Collections.Generic;
-            public class WinEnum2 {
-              [DllImport("user32.dll")] static extern bool EnumWindows(EnumWindowsProc cb, IntPtr lp);
-              [DllImport("user32.dll")] static extern int GetWindowText(IntPtr h, StringBuilder sb, int n);
-              [DllImport("user32.dll")] static extern int GetClassName(IntPtr h, StringBuilder sb, int n);
-              [DllImport("user32.dll")] static extern bool IsWindowVisible(IntPtr h);
-              [DllImport("user32.dll")] static extern uint GetWindowThreadProcessId(IntPtr h, out uint pid);
-              [DllImport("user32.dll")] static extern bool GetWindowRect(IntPtr h, out RECT r);
-              [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
-              delegate bool EnumWindowsProc(IntPtr h, IntPtr lp);
-              public static List<string> Results = new List<string>();
-              static bool Cb(IntPtr h, IntPtr lp) {
-                uint pid; GetWindowThreadProcessId(h, out pid);
-                if (IsWindowVisible(h)) {
-                  var t = new StringBuilder(256); GetWindowText(h, t, 256);
-                  var c = new StringBuilder(256); GetClassName(h, c, 256);
-                  RECT r; GetWindowRect(h, out r);
-                  if (t.Length > 0)
-                    Results.Add(string.Format("pid={0} hwnd=0x{1:X} class={2} title={3} rect=({4},{5})-({6},{7})",
-                      pid, h.ToInt64(), c, t, r.L, r.T, r.R, r.B));
-                }
-                return true;
+          using System;
+          using System.Runtime.InteropServices;
+          using System.Text;
+          using System.Collections.Generic;
+          public class WinEnum2 {
+            [DllImport("user32.dll")] static extern bool EnumWindows(EnumWindowsProc cb, IntPtr lp);
+            [DllImport("user32.dll")] static extern int GetWindowText(IntPtr h, StringBuilder sb, int n);
+            [DllImport("user32.dll")] static extern int GetClassName(IntPtr h, StringBuilder sb, int n);
+            [DllImport("user32.dll")] static extern bool IsWindowVisible(IntPtr h);
+            [DllImport("user32.dll")] static extern uint GetWindowThreadProcessId(IntPtr h, out uint pid);
+            [DllImport("user32.dll")] static extern bool GetWindowRect(IntPtr h, out RECT r);
+            [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
+            delegate bool EnumWindowsProc(IntPtr h, IntPtr lp);
+            public static List<string> Results = new List<string>();
+            static bool Cb(IntPtr h, IntPtr lp) {
+              uint pid; GetWindowThreadProcessId(h, out pid);
+              if (IsWindowVisible(h)) {
+                var t = new StringBuilder(256); GetWindowText(h, t, 256);
+                var c = new StringBuilder(256); GetClassName(h, c, 256);
+                RECT r; GetWindowRect(h, out r);
+                if (t.Length > 0)
+                  Results.Add(string.Format("pid={0} hwnd=0x{1:X} class={2} title={3} rect=({4},{5})-({6},{7})",
+                    pid, h.ToInt64(), c, t, r.L, r.T, r.R, r.B));
               }
-              public static void Go() { EnumWindows(Cb, IntPtr.Zero); }
+              return true;
             }
-            "@
+            public static void Go() { EnumWindows(Cb, IntPtr.Zero); }
+          }
+          "@
             [WinEnum2]::Go()
             [WinEnum2]::Results | ForEach-Object { Write-Host $_ }
             [WinEnum2]::Results | Out-File windows_census.txt -Encoding utf8
@@ -137,6 +137,7 @@ jobs:
           Get-ChildItem "HKCU:\SOFTWARE" -ErrorAction SilentlyContinue | Where-Object {$_.Name -match 'EaseUS|Foxit'} | Out-File reg_hkcu.txt -Append -Encoding utf8
 
       - name: Upload ground truth
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: ui-ground-truth
