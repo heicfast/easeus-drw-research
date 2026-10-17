@@ -203,10 +203,18 @@ All three wave-4 "suggested next steps" executed, plus the workflow hardening:
 - Corrections recorded: completion modal = OS window not overlay; "Go to Recover" lands in results
   (destination dialog only via sub-selection under the free limit); 1,677→1,710 QSS targets.
 
-Open for next session: scripted clicks INSIDE the results view (post-Go-to-Recover) for filter
-dropdown / Type-tab switch / preview-window captures; the 304-owner loop can extend the remaining
-Qt-kind-context attributions via enclosing-ctor analysis; repair-wizard dynamic capture (separate
-launch path EUFileRepair).
+**v2 run addendum (39050387183)**: the results-phase interactions are now CAPTURED — 7 distinct
+states: the filter row appears below the toolbar; the **Type-tab switch is ASYNC** (tab highlights
+while the classify tree rebuilds — captured mid-transition, slotListInsertFinish is the completion
+path); the **live preview panel renders on double-click** (`video-001.221212.jpeg` thumbnail +
+"Recovery Chances: High" circular gauge = the CCheckNodeThread grading visualized + "Existing"
+status); per-selection re-grading telemetry; run-1 vs run-2 cross-validation (identical funnel on
+two runners/disks). EUFileRepair/ = console engines only (repair UI lives in DRWUI).
+
+Open for next session: the standalone PreviewMainDialog window capture (via the Preview BUTTON,
+not double-click); filter-dropdown menu contents (the (600,118) click needs a position fix — the
+bar's button row must be pixel-mapped first); repair-wizard dynamic capture via DRWUI's repair
+entry; the 107 widget-kind-only objectNames can gain owners via deeper enclosing-ctor analysis.
 - **34 — Results-view chrome contracts**: CNavigateBar (50-string toolbar surface: back/up/home
   group, address breadcrumb, list⇄icon toggle, Filter funnel, 9-type search state machine, NAS
   reconnect slots, onBeforeFreeze participation) + CBottomArea (15-string status-bar surface:

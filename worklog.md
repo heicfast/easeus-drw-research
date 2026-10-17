@@ -582,3 +582,54 @@ Stage Summary:
   the 19 unresolved multiline connect statements, DRWUI per-class wiring owners, iWork IWA
   reference-graph repair walk (deeper than message census), QA-log forensics cross-check vs
   new dynamic runs, EuPDFRepairFile MFC previewer island walk
+
+---
+Task ID: uiux-5 (interaction driver + filter/repair/objectName waves)
+Agent: UI/UX Specialist Session (heicfast repo)
+Task: Execute wave-4's three next steps: (a) scripted interaction driver past the home page,
+(b) mid-size dispatcher decode (CFilterButton family, repair item rows), (c) objectName loop
+closure (1,677 QSS targets <-> 900 classes)
+
+Work Log:
+- Fresh-session context recovery: cloned heicfast repo (new token), read worklogs, verified
+  remote sync + CI state (all prior ground-truth runs completed)
+- (a) ui-interaction-driver.yml built (2-variant Windows matrix): pixel-verified click coords
+  (Go-to-Recover blue-blob 494,473; Recover-All 916,685; Filter 755,70; Type/Path tabs 234/140,117),
+  per-step screenshots, ESC via keybd_event, fault-tolerant steps
+- Run 1 (39048461922): recovery-flow captured the RETENTION GATE ("Wait! You are at risk of
+  losing data!" + Get-Up-to-40%-Off/Online-Service/Quit = RetentionExitDlg family) on Recover-All
+  (1.1M files, Free); Go-to-Recover -> results + "AI Recommend available." toast + AI FAB;
+  celebration modal = STANDALONE 540x380 OS window (census-proven, no reject-on-ESC);
+  telemetry goldmine: Freeze -> auto_*.rsf auto-save -> Unfreeze -> CScanMgr::ScanFinished:636 ->
+  bottomarea.cpp:838/856 (nStatus=4, m_iScanType 3->4) -> recoverability passes
+- (b) Filter system decoded (artifact 31): 5 filter buttons share ONE moc surface (template
+  siblings); onActionChanged action-IDs 0x1a/0x105/0x1006; TWO CFilterBars (Path/Type modes,
+  lazy+hidden); 0x48-byte AdvanceFilterCondition -> CRightContent::onFilterChanged ->
+  CSetFilterThread::run() (view-indexed model singleton switch, SetFilter vtable +0x10 or NULL);
+  CCheckNodeThread @ TimeCriticalPriority
+- (b) Repair rows decoded (artifact 32): CRepairVideoItem/CRepairPDFItem identical 22-method
+  moc blobs; row contract (Repair/Preview/Save/Stop/Advanced[bFromChange]/Change/FeedBack);
+  FileRepairWidgetsMgr page flow (Home->Add->List); FileRepairAddThread @ priority 7; DataMgr
+  task queue (sigDoNextRepairTask)
+- (c) objectName loop closure (artifact 33, v2): QSS census BUGFIX (every #name indexed:
+  1,677->1,710); binary lea-xref scanner + 3-hop caller walk THROUGH Qt-bases + parent-context
+  inheritance -> 1,330/1,710 (77.8%) to OWNING app classes, 313 owners; 273 unmatched =
+  runtime-composed names + type-selectors
+- Artifact 34: CNavigateBar (50-string toolbar) + CBottomArea (sigScanFinished = the
+  bottomarea.cpp telemetry anchor; Auto-Recover slots; buy-guide family)
+- v2 run (39050387183) after workflow fix (dismiss celebration via CTA): results-phase
+  interactions CAPTURED - 7 states incl. filter row, ASYNC Type-tab switch (mid-transition),
+  LIVE preview panel (thumbnail + "Recovery Chances: High" gauge = CCheckNodeThread visualized),
+  per-selection re-grading; run1-vs-run2 cross-validation
+- 3 clean rebases with the parallel session (their 25-connect-wiring-graph collided with my
+  numbering -> my artifacts renumbered 30-34 + cross-links added; their 722-pair connect graph
+  independently cross-validates my low-32 RVA truncation technique)
+
+Stage Summary:
+- 5 new artifacts (30-34) + 2 dynamic runs + 3 new/validated tools (objectname_loop.py,
+  qss census v2, moc decodes for 27 classes); the dynamic user flow is now COMPLETE end-to-end
+  with double-verification (splash->landing->scan->complete->results->retention gate->preview)
+- All committed/pushed to heicfast/easeus-drw-research (7 commits this session)
+- Remaining for next session: PreviewMainDialog standalone-window capture (Preview BUTTON),
+  filter-dropdown menu contents (needs bar button pixel-map), repair-wizard dynamic via DRWUI,
+  107 widget-kind-only objectNames owner upgrade
