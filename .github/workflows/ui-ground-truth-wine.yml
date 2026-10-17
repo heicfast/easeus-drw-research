@@ -1,0 +1,106 @@
+name: UI Dynamic Ground-Truth - Wine experiments (loader vs direct)
+
+# Runs DRW under Wine + Xvfb on an Ubuntu runner in two experiment variants:
+#   launch = DRW.exe   (production path: DRWLoader supervises/restarts DRWUI)
+#   direct = DRWUI.exe (standalone control; previous run showed it exits after
+#                       Firebase Remote-Config init, so captures must be EARLY)
+# Captures periodic window censuses + screenshots while the app may be alive.
+# All steps are fault-tolerant: a dead app is a finding, not a job failure.
+on:
+  workflow_dispatch:
+    inputs:
+      wait_seconds:
+        description: 'Total seconds to observe before final capture'
+        required: true
+        default: '90'
+
+permissions:
+  contents: read
+
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - launch: "DRW.exe"
+            tag: "loader"
+          - launch: "DRWUI.exe"
+            tag: "direct"
+    steps:
+      - name: Checkout (sparse)
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            og-codebase
+
+      - name: Install Wine + Xvfb + tools
+        shell: bash
+        run: |
+          sudo dpkg --add-architecture i386 || true
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq wine64 xvfb x11-utils imagemagick wmctrl x11-apps fonts-dejavu procps || true
+          wine --version || /usr/lib/wine/wine64 --version || true
+
+      - name: Launch and observe
+        shell: bash
+        run: |
+          set +e
+          export WINEPREFIX="$HOME/.wine32prefix"
+          export WINEDEBUG="err+seh,err+module"
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1600x1000x24 > /tmp/xvfb.log 2>&1 &
+          XVFB_PID=$!
+          sleep 3
+          cd og-codebase
+          wineserver -k 2>/dev/null
+          echo "=== EXPERIMENT: ${{ matrix.tag }} (${{ matrix.launch }}) ==="
+          (wine ${{ matrix.launch }} > /tmp/wine_out.log 2>&1 &)
+          # periodic census + screenshots WHILE the app may be alive
+          prev=0
+          for t in 8 20 35 50 70 90; do
+            if [ "$t" -gt "${{ inputs.wait_seconds }}" ]; then break; fi
+            sleep $(( t - prev ))
+            wmctrl -l > "census_t${t}.txt" 2>&1
+            import -window root "screen_t${t}.png" 2>/dev/null || { xwd -root -out "/tmp/r${t}.xwd" 2>/dev/null && convert "/tmp/r${t}.xwd" "screen_t${t}.png" 2>/dev/null; }
+            prev=$t
+          done
+          echo "=== alive check ==="
+          ps aux | grep -iE 'wine|DRW' | grep -v grep | head -20 > alive.txt 2>&1
+          cat alive.txt
+          echo "=== wine stdout/stderr (tail 80) ==="
+          tail -80 /tmp/wine_out.log
+
+      - name: Final window census
+        shell: bash
+        run: |
+          set +e
+          export DISPLAY=:99
+          { echo "=== wmctrl -l ==="; wmctrl -l; echo; echo "=== xwininfo -root -tree ==="; xwininfo -root -tree; } > windows_census.txt 2>&1
+          head -150 windows_census.txt
+
+      - name: Collect app logs
+        shell: bash
+        run: |
+          set +e
+          cp /tmp/wine_out.log wine_out.log
+          for f in og-codebase/*.log; do cp "$f" "applog_$(basename "$f")" 2>/dev/null; done
+          # new logs the app may have written into its own tree or prefix
+          find "$HOME/.wine32prefix/drive_c" -name "*.log" -newer /tmp/wine_out.log -exec cp {} ./prefix_newlog_$(basename {}) \; 2>/dev/null
+          ls -la *.log *.txt *.png 2>/dev/null
+
+      - name: Upload ground truth
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-ground-truth-${{ matrix.tag }}
+          path: |
+            census_*.txt
+            screen_*.png
+            windows_census.txt
+            wine_out.log
+            applog_*.log
+            alive.txt
+            prefix_newlog_*
+          if-no-files-found: ignore

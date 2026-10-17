@@ -1,27 +1,34 @@
-name: UI Dynamic Ground-Truth (Windows screenshot + window census)
+name: UI Dynamic Ground-Truth (Wine screenshot + window census)
 
-# Runs DRWUI.exe on a real Windows runner, enumerates all top-level windows
-# (titles + classes) and captures screenshots. Verifies the decoded UI flow
-# (landing page, window titles, dialog inventory) against runtime ground truth.
+# Runs DRW under Wine + Xvfb on an Ubuntu runner in two experiment variants:
+#   launch = DRW.exe   (production path: DRWLoader supervises/restarts DRWUI)
+#   direct = DRWUI.exe (standalone control; previous run showed it exits after
+#                       Firebase Remote-Config init, so captures must be EARLY)
+# Captures periodic window censuses + screenshots while the app may be alive.
+# All steps are fault-tolerant: a dead app is a finding, not a job failure.
 on:
   workflow_dispatch:
     inputs:
-      app:
-        description: 'App to run: drwui | drw | none'
-        required: true
-        default: 'drwui'
       wait_seconds:
-        description: 'Seconds to let the app run before capture'
+        description: 'Total seconds to observe before final capture'
         required: true
-        default: '45'
+        default: '90'
 
 permissions:
   contents: read
 
 jobs:
   screenshot:
-    runs-on: windows-latest
-    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - launch: "DRW.exe"
+            tag: "loader"
+          - launch: "DRWUI.exe"
+            tag: "direct"
     steps:
       - name: Checkout (sparse)
         uses: actions/checkout@v4
@@ -29,126 +36,71 @@ jobs:
           sparse-checkout: |
             og-codebase
 
-      - name: Launch app
-        shell: pwsh
+      - name: Install Wine + Xvfb + tools
+        shell: bash
         run: |
-          $ErrorActionPreference = 'Continue'
-          $app = '${{ inputs.app }}'
-          $wait = [int]'${{ inputs.wait_seconds }}'
-          Push-Location og-codebase
-          if ($app -eq 'drw') {
-            $proc = Start-Process -FilePath ".\DRW.exe" -PassThru
-          } else {
-            $proc = Start-Process -FilePath ".\DRWUI.exe" -WorkingDirectory (Get-Location) -PassThru
-          }
-          Pop-Location
-          "launched pid=$($proc.Id) exe=$($proc.ProcessName)" | Out-File launch.txt -Encoding utf8
-          Start-Sleep -Seconds $wait
-          Get-Process | Where-Object {$_.ProcessName -match 'DRW|EaseUS|EU'} |
-            Select-Object Id,ProcessName,MainWindowTitle,MainWindowHandle |
-            Format-Table -AutoSize | Out-File processes.txt -Encoding utf8
-          Get-Process | Out-File all_processes.txt -Encoding utf8
+          sudo dpkg --add-architecture i386 || true
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq wine64 xvfb x11-utils imagemagick wmctrl x11-apps fonts-dejavu procps || true
+          wine --version || /usr/lib/wine/wine64 --version || true
 
-      - name: Window census (user32)
-        shell: pwsh
+      - name: Launch and observe
+        shell: bash
         run: |
-          $ErrorActionPreference = 'Continue'
-          try {
-            Add-Type -TypeDefinition @"
-            using System;
-            using System.Runtime.InteropServices;
-            using System.Text;
-            using System.Collections.Generic;
-            public class WinEnum2 {
-              [DllImport("user32.dll")] static extern bool EnumWindows(EnumWindowsProc cb, IntPtr lp);
-              [DllImport("user32.dll")] static extern int GetWindowText(IntPtr h, StringBuilder sb, int n);
-              [DllImport("user32.dll")] static extern int GetClassName(IntPtr h, StringBuilder sb, int n);
-              [DllImport("user32.dll")] static extern bool IsWindowVisible(IntPtr h);
-              [DllImport("user32.dll")] static extern uint GetWindowThreadProcessId(IntPtr h, out uint pid);
-              [DllImport("user32.dll")] static extern bool GetWindowRect(IntPtr h, out RECT r);
-              [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
-              delegate bool EnumWindowsProc(IntPtr h, IntPtr lp);
-              public static List<string> Results = new List<string>();
-              static bool Cb(IntPtr h, IntPtr lp) {
-                uint pid; GetWindowThreadProcessId(h, out pid);
-                if (IsWindowVisible(h)) {
-                  var t = new StringBuilder(256); GetWindowText(h, t, 256);
-                  var c = new StringBuilder(256); GetClassName(h, c, 256);
-                  RECT r; GetWindowRect(h, out r);
-                  if (t.Length > 0)
-                    Results.Add(string.Format("pid={0} hwnd=0x{1:X} class={2} title={3} rect=({4},{5})-({6},{7})",
-                      pid, h.ToInt64(), c, t, r.L, r.T, r.R, r.B));
-                }
-                return true;
-              }
-              public static void Go() { EnumWindows(Cb, IntPtr.Zero); }
-            }
-            "@
-            [WinEnum2]::Go()
-            [WinEnum2]::Results | ForEach-Object { Write-Host $_ }
-            [WinEnum2]::Results | Out-File windows_census.txt -Encoding utf8
-          } catch {
-            Write-Host "user32 enum failed: $_"
-            "user32-enum-failed: $_" | Out-File windows_census.txt -Encoding utf8
-          }
+          set +e
+          export WINEPREFIX="$HOME/.wine32prefix"
+          export WINEDEBUG="err+seh,err+module"
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1600x1000x24 > /tmp/xvfb.log 2>&1 &
+          XVFB_PID=$!
+          sleep 3
+          cd og-codebase
+          wineserver -k 2>/dev/null
+          echo "=== EXPERIMENT: ${{ matrix.tag }} (${{ matrix.launch }}) ==="
+          (wine ${{ matrix.launch }} > /tmp/wine_out.log 2>&1 &)
+          # periodic census + screenshots WHILE the app may be alive
+          prev=0
+          for t in 8 20 35 50 70 90; do
+            if [ "$t" -gt "${{ inputs.wait_seconds }}" ]; then break; fi
+            sleep $(( t - prev ))
+            wmctrl -l > "census_t${t}.txt" 2>&1
+            import -window root "screen_t${t}.png" 2>/dev/null || { xwd -root -out "/tmp/r${t}.xwd" 2>/dev/null && convert "/tmp/r${t}.xwd" "screen_t${t}.png" 2>/dev/null; }
+            prev=$t
+          done
+          echo "=== alive check ==="
+          ps aux | grep -iE 'wine|DRW' | grep -v grep | head -20 > alive.txt 2>&1
+          cat alive.txt
+          echo "=== wine stdout/stderr (tail 80) ==="
+          tail -80 /tmp/wine_out.log
 
-      - name: Screenshots
-        shell: pwsh
+      - name: Final window census
+        shell: bash
         run: |
-          $ErrorActionPreference = 'Continue'
-          try {
-            Add-Type -AssemblyName System.Windows.Forms,System.Drawing
-            $b = [System.Windows.Forms.SystemInformation]::VirtualScreen
-            "screen: $($b.Width)x$($b.Height)" | Write-Host
-            $bmp = New-Object System.Drawing.Bitmap($b.Width, $b.Height)
-            $g = [System.Drawing.Graphics]::FromImage($bmp)
-            $g.CopyFromScreen($b.X, $b.Y, 0, 0, $bmp.Size)
-            $bmp.Save("screen_main.png", [System.Drawing.Imaging.ImageFormat]::Png)
-            $g.Dispose(); $bmp.Dispose()
-            "main screenshot ok" | Out-File shot_status.txt -Encoding utf8
-          } catch {
-            Write-Host "screenshot failed: $_"
-            "screenshot-failed: $_" | Out-File shot_status.txt -Encoding utf8
-          }
-          Start-Sleep -Seconds 15
-          try {
-            Add-Type -AssemblyName System.Windows.Forms,System.Drawing
-            $b = [System.Windows.Forms.SystemInformation]::VirtualScreen
-            $bmp = New-Object System.Drawing.Bitmap($b.Width, $b.Height)
-            $g = [System.Drawing.Graphics]::FromImage($bmp)
-            $g.CopyFromScreen($b.X, $b.Y, 0, 0, $bmp.Size)
-            $bmp.Save("screen_late.png", [System.Drawing.Imaging.ImageFormat]::Png)
-            $g.Dispose(); $bmp.Dispose()
-          } catch { Write-Host "late shot failed: $_" }
+          set +e
+          export DISPLAY=:99
+          { echo "=== wmctrl -l ==="; wmctrl -l; echo; echo "=== xwininfo -root -tree ==="; xwininfo -root -tree; } > windows_census.txt 2>&1
+          head -150 windows_census.txt
 
-      - name: Process crash info + app logs
-        shell: pwsh
+      - name: Collect app logs
+        shell: bash
         run: |
-          $ErrorActionPreference = 'Continue'
-          Get-EventLog -LogName Application -Newest 30 -ErrorAction SilentlyContinue |
-            Where-Object {$_.Message -match 'DRW|EaseUS'} |
-            Select-Object TimeGenerated,EntryType,Message |
-            Out-File eventlog.txt -Encoding utf8
-          Get-ChildItem "og-codebase/*.log" -ErrorAction SilentlyContinue |
-            ForEach-Object { Copy-Item $_.FullName ("applog_" + $_.Name) -ErrorAction Continue }
-          if (Test-Path "og-codebase/Eaolog.log") { Copy-Item "og-codebase/Eaolog.log" applog_Eaolog.log }
-          if (Test-Path "og-codebase/EPMLOG.log") { Copy-Item "og-codebase/EPMLOG.log" applog_EPMLOG.log }
-          "HKCU EaseUS:" | Out-File reg_hkcu.txt -Encoding utf8
-          Get-ChildItem "HKCU:\SOFTWARE" -ErrorAction SilentlyContinue | Where-Object {$_.Name -match 'EaseUS|Foxit'} | Out-File reg_hkcu.txt -Append -Encoding utf8
+          set +e
+          cp /tmp/wine_out.log wine_out.log
+          for f in og-codebase/*.log; do cp "$f" "applog_$(basename "$f")" 2>/dev/null; done
+          # new logs the app may have written into its own tree or prefix
+          find "$HOME/.wine32prefix/drive_c" -name "*.log" -newer /tmp/wine_out.log -exec cp {} ./prefix_newlog_$(basename {}) \; 2>/dev/null
+          ls -la *.log *.txt *.png 2>/dev/null
 
       - name: Upload ground truth
         uses: actions/upload-artifact@v4
         with:
-          name: ui-ground-truth
+          name: ui-ground-truth-${{ matrix.tag }}
           path: |
-            launch.txt
-            processes.txt
-            all_processes.txt
+            census_*.txt
+            screen_*.png
             windows_census.txt
-            screen_main.png
-            screen_late.png
-            shot_status.txt
-            eventlog.txt
+            wine_out.log
             applog_*.log
-            reg_hkcu.txt
+            alive.txt
+            prefix_newlog_*
           if-no-files-found: ignore
