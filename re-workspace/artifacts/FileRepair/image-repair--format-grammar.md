@@ -161,12 +161,127 @@ DRWUI CImgRepairClient::doGetClickImgBuffer (DRWUI line 691676)
   fuji 533150-533280; JXL 185830-186050; AVIF/ffmpeg 257640-257720; scanJpeg 223840+;
   buildpitm/buildhdlr 255100-255600)
 
+## 12. PNG / WebP / HEIC — per-format AnalysisData state machines (decoded this session)
+
+> Companion to §4 (JPEG). All evidence: EUImgRepairFile_decompiled.c line-cited; vtable
+> slots resolved from raw PE (32-bit; vftables: IImageInfo `0x7f921c`, CPngInfo `0x7fdd04`,
+> CHeicInfo `0x8044e8`, CWebpInfo `0x809ce8` — ctor `movl $vft,(%edi)` disassembly).
+> **AnalysisData runs as a PPL async task** (`Concurrency::task<unsigned_char>` wrapping
+> `_Fake_no_copy_callable_adapter<CPngInfo::AnalysisData lambda>` — mangled-symbol
+> evidence @228770+) with `_MsgData` progress callback into the host.
+
+### 12.1 The IImageInfo 5-slot virtual contract (identical across all 29 classes)
+
+| slot | CPngInfo impl | role |
+|---|---|---|
+| +0x00 | FUN_00524ea0 | destructor (frees per-chunk lists) |
+| +0x04 | FUN_00525250 | **`AnalysisData(void*, void*, string const&, _WORK_PARAMSEX, string const&, function<int(_MsgData const&)>, string&)`** — async-dispatched analysis+repair entry |
+| +0x08 | FUN_00525540 | **CheckMagic(buf, len)** — validates the format signature (PNG: `0x474e5089 0xa1a0a0d` = 89 50 4E 47 0D 0A 1A 0A) |
+| +0x0C | FUN_005255a0 | **CreateInstance()** — `new(sizeof 0x2A8)` + ctor (class factory for the repair queue) |
+| +0x10 | FUN_00525620 | **SaveData()** — writes the repaired output ("save data" trace, progress 100, calls the format's rebuild fn) |
+
+Object model: **C\<Format\>Info** (analysis + format knowledge) pairs with **C\<Format\>Work**
+(rebuild) — CHeicWork/CWebpWork/CJxlWork/CNefWork… (trace-string census §3); PNG is
+self-contained in CPngInfo (png.cpp only), WebP = CWebpInfo + libWebpInfo.cpp
+(LIBWEBP_OP_INFO) + webpWork.cpp, HEIC = CHeicInfo + raw/heic/heicWork.cpp.
+
+### 12.2 CPngInfo — object model (ctor FUN_00524870 @224514-224750, png.cpp)
+
+- **Format tables embedded in the object** (NOT sequential parsing):
+  +0x140/+0x148: two copies of the 8-byte PNG signature;
+  +0x153: u16 **13 = known-chunk count**;
+  +0x158: chunk-name table — **IHDR, PLTE, IDAT, sRGB, fcTL, acTL, fdAT** (+ the
+  terminator pair at +0x168: "IEND" + **its canonical CRC `0xAE426082`** — the driver
+  searches for the *literal end-of-PNG 12 bytes*, not a parsed IEND);
+  **APNG is first-class** (acTL/fcTL/fdAT animate chunks in the core table).
+- **Per-chunk result buckets**: 10 `std::list` headers created at +0x188..+0x1D4
+  (24-byte sentinel nodes, tag 0x101) — every scan hit is filed into its chunk's list.
+- Animation counters at +0x1C0/+0x1C8/+0x1D0 (acTL/fcTL hits), `m_idatFlagsOffsetList`
+  at +0x1A0, IHDR-derived fields at +0x89/+0x8C/+0x8E.
+
+**ScanCriticalChunks (FUN_00526ac0 @226284)** — *corruption-tolerant parallel pattern
+search*, not a chunk walk: 5-9 simultaneous byte-pattern scans via FUN_00529740
+({pattern, 4, file, result-list, flags}) — one per critical chunk (IHDR@+0x194→list
++0x19C, IDAT@+0x160→**m_idatFlagsOffsetList +0x1A0**, IEND@+0x17C→+0x1BC,
+acTL@+0x180→+0x1C4, fcTL@+0x184→+0x1CC; conditional PLTE scan when +0x188 == -1;
+3 optional scans when +0x198 == 0 for lists +0x1A4/+0x1AC/+0x1B4). A damaged header or
+interleaved garbage cannot defeat analysis because chunk *positions* are located by
+content, then validated by the hand functions.
+
+**BasisRepair (FUN_00525720 @225263, png.cpp:141/148/158 traces)** — full-structure path:
+1. progress 20 → `ScanCriticalChunks()` (fail log @png.cpp:141)
+2. progress 30 → `HandCriticalChunks()` = FUN_00527110 (fail @148)
+3. progress 50 → if animation counters: `HandCheckAnimationInfo()` = FUN_005287a0
+   (fail @158) — validates APNG frame chains
+4. progress 80 → FUN_005277c0(buf, 8): IHDR validation — width/height nonzero,
+   bit-depth ∈ {1,5,≥7?}, color-type/interlace combos; color model copied to +0x89 via
+   FUN_00529130 (color-type name string)
+5. FUN_005278d0() — rebuild phase
+Any failure logs via EasyLogging++ (`el::base::Writer` vftable stack objects, severity 2)
+with **source file + line + method name** — the logging layout doubles as our map.
+
+**SampleRepair (FUN_00525af0 @225452, png.cpp:189/207 traces)** — salvage path when the
+critical-chunk scan fails: requires `m_idatFlagsOffsetList` non-empty (png.cpp:189
+fail trace `"!ScanCriticalChunks() && m_idatFlagsOffsetList.size() == 0"`), then
+`HandCriticalSampleChunks()` = FUN_005272c0 → `HandCheckAnimationSampleInfo()` =
+FUN_00528880 (@207) → **FUN_00527d50**: reconstructs a viewable PNG by synthesizing a
+header around the salvaged zlib IDAT stream — the "extract what's decodable" strategy
+mirroring the product's carving philosophy.
+
+### 12.3 CHeicInfo / CHeicWork (HEIC/HEIF — raw/heic/heicWork.cpp)
+
+- Scan patterns stored in-object: **"hdlr" (+0x1B0), "pict" (+0x1BC), "infe" (+0x22F)**
+  (@325274-325340); "meta" literal 0x6174656d in the analysis body (@326206).
+- **Box-walk engine** (shared, inlined twice @253983/@260467 for HEIC/AVIF variants):
+  reads {u32 size, u32 type} headers; `meta` → skip 0xC (version/flags) and recurse;
+  `moov` → skip 8; bound-checked against region start/end (+0xB0/+0xB4).
+- **Property dispatch** (@255684-255740): `ipco` (byte-wise 'i','p','c','o') →
+  FUN_005a6d10 = ipco property-container parser (per-property records; resets 8
+  property-flag bytes +0xBC..+0xC3 on entry); `ipma` → FUN_005a72d0 = item-property
+  association parser (essential flags at +9/+10 of the box payload, followed by
+  {itemId, propertyIndex} pairs).
+- Rebuild: **`CHeicWork::CreateNewFile(string const&)`** (heicWork.cpp:0x66=102 trace
+  @325928) — reassembles a playable file from the located boxes.
+- Bound discipline: every walk is range-checked against the mapped region — corrupted
+  sizes cannot walk off the buffer.
+
+### 12.4 CWebpInfo / CWebpWork (webp/libWebpInfo.cpp + webp/webpWork.cpp)
+
+- **Validation = full decode**: `LIBWEBP_OP_INFO::ValidateWebP(const unsigned char*,
+  unsigned int)` (libWebpInfo.cpp:18 trace @422876) calls **FUN_00742800 = the
+  statically-linked libwebp `WebPDecode`** — a WebP file is "valid" iff the actual
+  decoder accepts it; failures log `WebPDecode error = <code>` (streaming `<<`).
+- CWebpInfo keeps **two memory-mapped file views** (+0x1A0/+0x1B0 and +0x1E0/+0x1F0
+  handle+view pairs, unmapped in the dtor @424101) and two 0x290-byte work objects
+  (+0x1A4/+0x1A8) — analysis operates directly on mapped bytes.
+- Rebuild: **`CWebpWork::CreateNewFile`** (webpWork.cpp:0x9a=154 trace @426208).
+- RIFF/VP8 chunk handling in `CWebpInfo::AnalysisData` (FUN_00611e70) + the
+  LIBWEBP_OP_INFO helper family (same file).
+
+### 12.5 Cross-format architecture findings
+
+1. **Scan-then-validate, never trust structure**: all three formats locate elements by
+   content search (chunk names / box types / decoder acceptance), then hand-validate
+   — the same corruption-first philosophy as the scan engines' carving (RAWSearchDLL
+   RB-tree signature registry).
+2. **Two-tier repair**: BasisRepair (structure intact → revalidate + patch) vs
+   SampleRepair (structure broken → salvage the payload stream and synthesize a new
+   container). This mirrors the "File Path Lost" vs "Reconstructed" result-tree roots
+   in the .rsf session format (SaveScan artifact §5.4.6).
+3. **Logging = ground truth**: every decision point emits an EasyLogging++ record with
+   the original `D:\Fixo\01_Project\...` path, line number, and method name — the
+   release binary ships its own source map (37 .cpp files, §1).
+4. **Progress contract**: per-stage LOCK-guarded progress byte (5→8→20→30→50→80→100)
+   with "analysis data"/"save data" stage labels — the same _MsgData funnel the DRWUI
+   progress UI consumes.
+
 ## 11. Confidence
 
 Format matrix, source tree, class names, log census counts, JXL event constants, JPEG
 skeleton bytes (FFD8/FF01/D9), LibRaw exports, ffmpeg AVIF path, window-IPC names, and
-registry keys are byte-exact from decompilation/strings. Algorithm semantics (repair
-splicing order, exact scan-reassembly heuristics) are evidenced by trace strings and
-control flow but the complete per-format grammar walk (marker-by-marker state machines
-for PNG/WebP/GIF/BMP/TIFF/HEIC) is summarized at the structural level; a future session
-can walk each `AnalysisData` case-by-case the way §4 does for JPEG.
+registry keys are byte-exact from decompilation/strings. **PNG (§12.2), HEIC (§12.3)
+and WebP (§12.4) state machines are now decoded at the same depth as JPEG §4** — vtable
+slot contracts raw-dumped from the PE, chunk/box pattern tables, the parallel
+ScanCriticalChunks engine, BasisRepair/SampleRepair phase pipelines with source-line
+citations, the ipco/ipma property dispatch, and libwebp-decode-as-validation. Remaining
+soft: GIF/BMP/TIFF/SVG AnalysisData walks (structural level only).

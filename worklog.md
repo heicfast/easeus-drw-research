@@ -292,3 +292,86 @@ Stage Summary:
 - ALL 4 §7 open items RESOLVED (3 with premise/role corrections: moc dispatchers, EUinApp; 1 via ingestion: dynamic confirmation) + RTTI class census (worklog remaining item)
 - Artifacts 20-24 + 4 new tools + 4 evidence JSONs; master doc §7 resolved + §11 wave-4; INDEX updated; correction addenda in artifacts 03/09/13/17; 6 commits pushed conflict-free
 - Remaining for next sessions: mid-size dispatchers (CFilterButton family, repair item rows), PreviewDataSource/SearchDataSource non-Qt hierarchies, QSS-target↔class objectName closure (1,677↔900), scripted interaction driver (xdotool) for past-home ground truth
+
+---
+Task ID: doc-4
+Agent: Documentation Enhancement & Verification Agent (session 4 — algorithms + kernel drivers)
+Task: Focus session on core algorithms and kernel drivers; repo migrated to heicfast/easeus-drw-research (new token)
+
+Work Log:
+- Fresh clone from new account heicfast/easeus-drw-research (77+ commits intact, 1.7GB);
+  synced with parallel UIUX session's dynamic ground-truth pushes (rebased cleanly, 2x)
+- ALGO-1 (INDEX open item CLOSED): record-4 per-node tree grammar FULLY DECODED from
+  CFileNodeRS::SaveFileTree (FUN_1400d40c0) / RestoreFileTree (FUN_1400d4870):
+  * Object model: CFileNode (0x93 B) lightweight node = 99.99% of tree; CFileSystemNode
+    (0x290 B, derives CFileNode) = roots + volume shortcuts; CHN = legacy typedef
+    (module tree container is std::vector<CHN*>)
+  * Child-list marker u32 = node-CLASS selector (0=CFileNode base-34B grammar,
+    1=CFileSystemNode full grammar); 0xFFFFFFFF end-of-children sentinel; BFS queue
+    driven by IFileProperties FLAGS u16 bit 4 (has-children; getter assembly-verified
+    movzwl 0x23(%rcx) for CNTFS)
+  * 34-byte base grammar (incl. a DUPLICATE +0x72-bit7 byte and a dead u32 reserved
+    field), derived: type qword re-serialization + 40B zeroed-high-dword stat blob +
+    10 fixed fields + name[u32 len] + INLINE vector<CHN*> recursion (no marker/content)
+  * Content objects = IFileProperties family, ALL 10 persisted type codes resolved to
+    RTTI classes: 0=CNTFSFileProperties 1=CFAT 3=CRAW (timestamp string via
+    FileTimeToSystemTime "%d-%d-%d %d-%d-%d") 4=CExFat 5=HFS+{File,SystemNode} (variant
+    by node marker) 6=Refs 7=CBtrfsFileProerties(sic) 8=CEXT4 9=CGeneric(GetType=9
+    literal) 0xC=Zfs; type 0xB NEVER persisted (writer filters GetType()==0xB children)
+  * DataRunList = [u32 len][raw NTFS-style runlist bytes (nibble-coded
+    offset/length fields)][u16 flags]; CNTFS adds {u64,u64} extent-pair list
+  * EMPIRICAL VALIDATION: scripts/rsf_record4_grammar.py walks ALL 3 samples to exact
+    EOF (36,001,842 / 29,894,861 / 226,686,612 decompressed bytes; 1,986,806 nodes
+    total; roots "Local Disk(I:)" / "File Path Lost" / "Reconstructed"; content census
+    I_ 248,727 NTFS + 12,147 RAW + 6,959 Generic + 39 FAT; H_ 1.5M nodes)
+  * Tooling bug found+fixed: map_rtti_vtables.py collected methods as a SET (slot order
+    lost) — CFileSystemNode vtable slot mapping was wrong; fixed to ordered list +
+    slotmaps; raw PE vtable dump added (scripts/dump_fsn_vtable.py)
+- DRV-1: EUDCPEPM custom IOCTL protocol FULLY ENUMERATED (MainDispatch FUN_000120f8,
+  15 commands, IoctlBase-relative 0x800C2AC8-0x800C2B38): GET_VERSION ("EASEUS Todo
+  Backup Driver" v1.1.0 + 0x2E-char identity string), OpenSession/CloseSession with
+  CSession (0x840 B) = bitmap-driven copy-engine state machine (ctor trace
+  DataFirstSec/tSecs/spb; 0x800-B block bitmap; spb heuristics tSecs<0x20?1:16+tail;
+  1 MiB transfer buffer; 0x1b580 secondary buffer; pool tag ECLU; magic 0x74534298),
+  IOCTL_GETNEXTBLOCK async data pump (SL_PENDING_RETURNED + spinlock pending-IRP queue
+  + bounded worker kick 0x12D=301 + AddUrgentIRP priority head-insert variant),
+  GET_PROGRESS (bytesDone*100/totalBytes), direct MDL sector R/W pairs (0xB0A/0xB12),
+  sized transfers (0xB2A/0xB2E), mode 3/4 pair (0xB18/0xB20), CANCEL (session+0x38:=3);
+  SCSI/ATA/IDE PASS_THROUGH + STORAGE_MANAGE_DATA_SET_ATTRIBUTES(Trim) passthrough
+  traced; doc 02 + hook-drivers artifact deepened
+- ALGO-2: PNG/WebP/HEIC AnalysisData state machines decoded (image-repair artifact §12):
+  * IImageInfo 5-slot virtual contract (dtor / AnalysisData / CheckMagic / CreateInstance
+    / SaveData) — vtables raw-dumped from the 32-bit PE (CPngInfo 0x7fdd04, CHeicInfo
+    0x8044e8, CWebpInfo 0x809ce8); AnalysisData runs as a PPL async task with _MsgData
+    progress funnel
+  * PNG: embedded chunk table (IHDR/PLTE/IDAT/sRGB/fcTL/acTL/fdAT + IEND with canonical
+    CRC 0xAE426082 — searches literal end-of-file bytes), 10 per-chunk std::list
+    buckets, ScanCriticalChunks = CORRUPTION-TOLERANT parallel byte-pattern scans (not
+    sequential parsing), BasisRepair (ScanCriticalChunks->HandCriticalChunks->
+    HandCheckAnimationInfo->IHDR validation @png.cpp:141/148/158) vs SampleRepair
+    (salvage from m_idatFlagsOffsetList when structure is broken @png.cpp:189/207,
+    FUN_00527d50 synthesizes container around the zlib stream)
+  * HEIC: scan patterns hdlr/pict/infe in-object + "meta" walk (skip 0xC version/flags),
+    shared inlined box-walk engine (2 copies), ipco->FUN_005a6d10 property-container
+    parser + ipma->FUN_005a72d0 association parser (essential flags), bound-checked
+    walks; CHeicWork::CreateNewFile rebuild (heicWork.cpp:102)
+  * WebP: ValidateWebP = full static-libwebp WebPDecode as validity oracle
+    (FUN_00742800; "WebPDecode error=" streaming log), two memory-mapped file views in
+    CWebpInfo, CWebpWork::CreateNewFile (webpWork.cpp:154)
+  * Cross-format findings: scan-then-validate philosophy (mirrors carving engine),
+    two-tier Basis/Sample repair (mirrors "File Path Lost"/"Reconstructed" rsf roots),
+    EasyLogging++ ships source map (D:\Fixo\01_Project\...)
+
+Stage Summary:
+- 3 tracked deliverables completed: record-4 tree grammar (byte-exact validated,
+  INDEX item closed), EUDCPEPM protocol (last kernel-driver gap), PNG/WebP/HEIC repair
+  state machines (completes the format-grammar artifact)
+- 4 commits pushed conflict-free to heicfast/easeus-drw-research (cca4b5a, c47055e,
+  f180a1e line + doc02 fix; all rebased over parallel UIUX session's dynamic
+  ground-truth commits)
+- New scripts: rsf_record4_grammar.py (validated parser), dump_fsn_vtable.py,
+  resolve_content_classes.py, resolve_content_classes2.py, resolve_imgrepair_vtables.py,
+  dump_props_flags.py
+- Remaining for next sessions: DRWUI RTTI class-by-class depth (980 classes), GIF/BMP/
+  TIFF/SVG AnalysisData walks, .rsf stat-qword semantics naming, verify parallel
+  agent's newest dynamic-ground-truth artifacts (24-25)
