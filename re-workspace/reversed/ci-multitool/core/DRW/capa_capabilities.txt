@@ -1,0 +1,87 @@
+
+md5                     ef5cef95979c2a08af5cd88193cc4f15                        
+sha1                    751cbbf062911ce914c6a68d45414e230522e017                
+sha256                  de9ec62af4ba5bbe98de54d10e4bb720372579b1ca982c90b571f6a…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 07:46:05.068418                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x140000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          103                                                     
+library function count  54                                                      
+total feature count     5879                                                    
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+extract resource via kernel32 functions
+namespace  executable/resource
+scope      function           
+matches    0x140001AA0        
+
+set environment variable
+namespace  host-interaction/environment-variable
+scope      function                             
+matches    0x140004400                          
+
+create directory
+namespace  host-interaction/file-system/create
+scope      function                           
+matches    0x140004400                        
+
+read .ini file
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x140001290                      
+
+write file on Windows
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x140004400                       
+
+print debug messages (2 matches)
+namespace  host-interaction/log/debug/write-event
+scope      function                              
+matches    0x1400010B0                           
+           0x140004400                           
+
+check mutex on Windows
+namespace  host-interaction/mutex
+scope      function              
+matches    0x140004400           
+
+create or open mutex on Windows
+namespace  host-interaction/mutex
+scope      instruction           
+matches    0x1400045D1           
+
+create process on Windows (3 matches)
+namespace  host-interaction/process/create
+scope      instruction                    
+matches    0x1400022AE                    
+           0x1400043BF                    
+           0x1400046E3                    
+
+query or enumerate registry value (2 matches)
+namespace  host-interaction/registry
+scope      function                 
+matches    0x140001620              
+           0x140001ED0              
+
+compare security identifiers
+namespace  host-interaction/sid
+scope      basic block         
+matches    0x140005430         
+
+
+

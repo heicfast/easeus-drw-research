@@ -1,0 +1,87 @@
+WARN: Relocs has not been applied. Please use `-e bin.relocs.apply=true` or `-e bin.cache=true` next time
+[Relocations]
+
+vaddr      paddr      type   ntype name
+―――――――――――――――――――――――――――――――――――――――
+0x0001c0e4 0x00014250 SET_32 3     KERNEL32.dll_GetSystemInfo
+0x0001c0f4 0x00014248 SET_32 3     KERNEL32.dll_GetVersionExW
+0x0001c104 0x00014244 SET_32 3     KERNEL32.dll_FreeLibrary
+0x0001c112 0x00014228 SET_32 3     KERNEL32.dll_GetModuleHandleW
+0x0001c126 0x00014210 SET_32 3     KERNEL32.dll_GetProcAddress
+0x0001c138 0x00014214 SET_32 3     KERNEL32.dll_LoadLibraryA
+0x0001c148 0x00014218 SET_32 3     KERNEL32.dll_GetTimeZoneInformation
+0x0001c162 0x0001421c SET_32 3     KERNEL32.dll_GetLocaleInfoW
+0x0001c174 0x00014220 SET_32 3     KERNEL32.dll_GetCommandLineW
+0x0001c186 0x00014224 SET_32 3     KERNEL32.dll_CloseHandle
+0x0001c194 0x0001424c SET_32 3     KERNEL32.dll_WaitForSingleObject
+0x0001c1aa 0x0001422c SET_32 3     KERNEL32.dll_CreateProcessW
+0x0001c1bc 0x00014230 SET_32 3     KERNEL32.dll_GetModuleFileNameW
+0x0001c1d2 0x00014234 SET_32 3     KERNEL32.dll_LocalFree
+0x0001c1ec 0x00014348 SET_32 3     USER32.dll_GetSystemMetrics
+0x0001c20c 0x00014204 SET_32 3     ADVAPI32.dll_RegCloseKey
+0x0001c21a 0x00014200 SET_32 3     ADVAPI32.dll_RegOpenKeyExW
+0x0001c22a 0x00014208 SET_32 3     ADVAPI32.dll_RegQueryValueExW
+0x0001c24c 0x00014340 SET_32 3     SHELL32.dll_CommandLineToArgvW
+0x0001c26e 0x00014334 SET_32 3     NETAPI32.dll_NetWkstaGetInfo
+0x0001c280 0x00014338 SET_32 3     NETAPI32.dll_NetApiBufferFree
+0x0001c2a2 0x00014268 SET_32 3     KERNEL32.dll_UnhandledExceptionFilter
+0x0001c2be 0x0001426c SET_32 3     KERNEL32.dll_SetUnhandledExceptionFilter
+0x0001c2dc 0x00014270 SET_32 3     KERNEL32.dll_GetCurrentProcess
+0x0001c2f0 0x00014274 SET_32 3     KERNEL32.dll_TerminateProcess
+0x0001c304 0x00014278 SET_32 3     KERNEL32.dll_IsProcessorFeaturePresent
+0x0001c320 0x0001427c SET_32 3     KERNEL32.dll_QueryPerformanceCounter
+0x0001c33a 0x00014280 SET_32 3     KERNEL32.dll_GetCurrentProcessId
+0x0001c350 0x00014284 SET_32 3     KERNEL32.dll_GetCurrentThreadId
+0x0001c366 0x00014288 SET_32 3     KERNEL32.dll_GetSystemTimeAsFileTime
+0x0001c380 0x0001428c SET_32 3     KERNEL32.dll_InitializeSListHead
+0x0001c396 0x00014290 SET_32 3     KERNEL32.dll_IsDebuggerPresent
+0x0001c3aa 0x00014294 SET_32 3     KERNEL32.dll_GetStartupInfoW
+0x0001c3bc 0x00014298 SET_32 3     KERNEL32.dll_RtlUnwind
+0x0001c3c8 0x0001429c SET_32 3     KERNEL32.dll_RaiseException
+0x0001c3da 0x000142a0 SET_32 3     KERNEL32.dll_GetLastError
+0x0001c3ea 0x000142a4 SET_32 3     KERNEL32.dll_SetLastError
+0x0001c3fa 0x000142a8 SET_32 3     KERNEL32.dll_EncodePointer
+0x0001c40a 0x000142ac SET_32 3     KERNEL32.dll_EnterCriticalSection
+0x0001c422 0x000142b0 SET_32 3     KERNEL32.dll_LeaveCriticalSection
+0x0001c43a 0x000142b4 SET_32 3     KERNEL32.dll_DeleteCriticalSection
+0x0001c452 0x000142b8 SET_32 3     KERNEL32.dll_InitializeCriticalSectionAndSpinCount
+0x0001c47a 0x000142bc SET_32 3     KERNEL32.dll_TlsAlloc
+0x0001c486 0x000142c0 SET_32 3     KERNEL32.dll_TlsGetValue
+0x0001c494 0x000142c4 SET_32 3     KERNEL32.dll_TlsSetValue
+0x0001c4a2 0x000142c8 SET_32 3     KERNEL32.dll_TlsFree
+0x0001c4ac 0x000142cc SET_32 3     KERNEL32.dll_LoadLibraryExW
+0x0001c4be 0x000142d0 SET_32 3     KERNEL32.dll_GetStdHandle
+0x0001c4ce 0x000142d4 SET_32 3     KERNEL32.dll_WriteFile
+0x0001c4da 0x000142d8 SET_32 3     KERNEL32.dll_MultiByteToWideChar
+0x0001c4f0 0x000142dc SET_32 3     KERNEL32.dll_WideCharToMultiByte
+0x0001c506 0x000142e0 SET_32 3     KERNEL32.dll_ExitProcess
+0x0001c514 0x000142e4 SET_32 3     KERNEL32.dll_GetModuleHandleExW
+0x0001c52a 0x000142e8 SET_32 3     KERNEL32.dll_GetACP
+0x0001c534 0x000142ec SET_32 3     KERNEL32.dll_HeapFree
+0x0001c540 0x000142f0 SET_32 3     KERNEL32.dll_HeapAlloc
+0x0001c54c 0x000142f4 SET_32 3     KERNEL32.dll_GetFileType
+0x0001c55a 0x000142f8 SET_32 3     KERNEL32.dll_FindClose
+0x0001c566 0x000142fc SET_32 3     KERNEL32.dll_FindFirstFileExW
+0x0001c57a 0x00014300 SET_32 3     KERNEL32.dll_FindNextFileW
+0x0001c58a 0x00014304 SET_32 3     KERNEL32.dll_IsValidCodePage
+0x0001c59c 0x00014308 SET_32 3     KERNEL32.dll_GetOEMCP
+0x0001c5a8 0x0001430c SET_32 3     KERNEL32.dll_GetCPInfo
+0x0001c5b4 0x00014310 SET_32 3     KERNEL32.dll_GetCommandLineA
+0x0001c5c6 0x00014314 SET_32 3     KERNEL32.dll_GetEnvironmentStringsW
+0x0001c5e0 0x00014318 SET_32 3     KERNEL32.dll_FreeEnvironmentStringsW
+0x0001c5fa 0x0001431c SET_32 3     KERNEL32.dll_LCMapStringW
+0x0001c60a 0x00014320 SET_32 3     KERNEL32.dll_SetStdHandle
+0x0001c61a 0x00014324 SET_32 3     KERNEL32.dll_GetStringTypeW
+0x0001c62c 0x00014328 SET_32 3     KERNEL32.dll_GetProcessHeap
+0x0001c63e 0x00014264 SET_32 3     KERNEL32.dll_HeapSize
+0x0001c64a 0x00014260 SET_32 3     KERNEL32.dll_HeapReAlloc
+0x0001c658 0x0001425c SET_32 3     KERNEL32.dll_GetConsoleCP
+0x0001c668 0x00014258 SET_32 3     KERNEL32.dll_GetConsoleMode
+0x0001c67a 0x00014254 SET_32 3     KERNEL32.dll_SetFilePointerEx
+0x0001c68e 0x00014240 SET_32 3     KERNEL32.dll_FlushFileBuffers
+0x0001c6a2 0x0001423c SET_32 3     KERNEL32.dll_DecodePointer
+0x0001c6b2 0x00014238 SET_32 3     KERNEL32.dll_WriteConsoleW
+0x0001c6c2 0x0001432c SET_32 3     KERNEL32.dll_CreateFileW
+
+
+79 relocations

@@ -1,0 +1,174 @@
+{
+ "machine": "0x8664",
+ "timestamp": 1791869325,
+ "subsystem": 2,
+ "entrypoint_rva": "0x37c8",
+ "image_base": "0x140000000",
+ "sections": [
+  {
+   "name": ".text",
+   "vaddr": "0x1000",
+   "vsize": 13926,
+   "rawsize": 14336,
+   "entropy": 6.03,
+   "characteristics": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "vaddr": "0x5000",
+   "vsize": 9368,
+   "rawsize": 9728,
+   "entropy": 4.357,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "vaddr": "0x8000",
+   "vsize": 1800,
+   "rawsize": 512,
+   "entropy": 1.974,
+   "characteristics": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "vaddr": "0x9000",
+   "vsize": 1056,
+   "rawsize": 1536,
+   "entropy": 3.113,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "vaddr": "0xa000",
+   "vsize": 480,
+   "rawsize": 512,
+   "entropy": 4.702,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "vaddr": "0xb000",
+   "vsize": 68,
+   "rawsize": 512,
+   "entropy": 0.92,
+   "characteristics": "0x42000040"
+  }
+ ],
+ "imports": {
+  "KERNEL32.dll": [
+   "RtlLookupFunctionEntry",
+   "CreateEventA",
+   "CloseHandle",
+   "lstrcpyA",
+   "SetEvent",
+   "CreateFileA",
+   "WaitForSingleObject",
+   "OutputDebugStringA",
+   "WriteFile",
+   "WaitNamedPipeA",
+   "SetNamedPipeHandleState",
+   "GetModuleFileNameA",
+   "RtlVirtualUnwind",
+   "UnhandledExceptionFilter",
+   "SetUnhandledExceptionFilter",
+   "GetCurrentProcess",
+   "TerminateProcess",
+   "IsProcessorFeaturePresent",
+   "QueryPerformanceCounter",
+   "GetCurrentProcessId",
+   "RtlCaptureContext",
+   "GetCurrentThreadId",
+   "GetSystemTimeAsFileTime",
+   "InitializeSListHead",
+   "IsDebuggerPresent",
+   "GetStartupInfoW",
+   "GetModuleHandleW"
+  ],
+  "ADVAPI32.dll": [
+   "RegQueryValueExA",
+   "CreateServiceA",
+   "StartServiceCtrlDispatcherA",
+   "QueryServiceStatus",
+   "CloseServiceHandle",
+   "SetServiceStatus",
+   "RegisterServiceCtrlHandlerA",
+   "OpenSCManagerA",
+   "DeleteService",
+   "ControlService",
+   "StartServiceA",
+   "ChangeServiceConfig2A",
+   "RegEnumKeyExA",
+   "RegOpenKeyExA",
+   "RegQueryInfoKeyA",
+   "RegCloseKey",
+   "OpenServiceA"
+  ],
+  "MSVCP140.dll": [
+   "?_Xlength_error@std@@YAXPEBD@Z",
+   "?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A",
+   "?uncaught_exception@std@@YA_NXZ",
+   "?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ",
+   "?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+   "?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z",
+   "?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z",
+   "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z",
+   "?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z",
+   "?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ",
+   "?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z"
+  ],
+  "VCRUNTIME140.dll": [
+   "memset",
+   "_CxxThrowException",
+   "memcpy",
+   "__std_exception_copy",
+   "__C_specific_handler",
+   "__std_terminate",
+   "__CxxFrameHandler3",
+   "__std_exception_destroy",
+   "memcmp",
+   "memmove"
+  ],
+  "api-ms-win-crt-string-l1-1-0.dll": [
+   "_strupr_s",
+   "strncpy_s",
+   "_stricmp"
+  ],
+  "api-ms-win-crt-runtime-l1-1-0.dll": [
+   "_c_exit",
+   "_invalid_parameter_noinfo_noreturn",
+   "_initialize_onexit_table",
+   "terminate",
+   "_crt_atexit",
+   "_register_thread_local_exe_atexit_callback",
+   "_seh_filter_exe",
+   "_exit",
+   "exit",
+   "_initterm_e",
+   "_initterm",
+   "_get_narrow_winmain_command_line",
+   "_initialize_narrow_environment",
+   "_configure_narrow_argv",
+   "_register_onexit_function",
+   "_set_app_type",
+   "_cexit"
+  ],
+  "api-ms-win-crt-heap-l1-1-0.dll": [
+   "_callnewh",
+   "free",
+   "_set_new_mode",
+   "malloc"
+  ],
+  "api-ms-win-crt-math-l1-1-0.dll": [
+   "__setusermatherr"
+  ],
+  "api-ms-win-crt-stdio-l1-1-0.dll": [
+   "__p__commode",
+   "_set_fmode"
+  ],
+  "api-ms-win-crt-locale-l1-1-0.dll": [
+   "_configthreadlocale"
+  ]
+ },
+ "exports": [],
+ "imphash": "341df685ec69ac57381425310c235bac"
+}

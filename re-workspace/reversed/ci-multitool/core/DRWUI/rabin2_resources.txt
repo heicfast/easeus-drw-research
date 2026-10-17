@@ -1,0 +1,36 @@
+WARN: Relocs has not been applied. Please use `-e bin.relocs.apply=true` or `-e bin.cache=true` next time
+Resource 0
+  name: 1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x142781180
+  size: 1.3K
+  type: ICON
+  language: LANG_CHINESE
+Resource 1
+  name: 2
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x1427816a8
+  size: 5.0K
+  type: ICON
+  language: LANG_CHINESE
+Resource 2
+  name: IDI_ICON1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x142782ad0
+  size: 34
+  type: GROUP_ICON
+  language: LANG_CHINESE
+Resource 3
+  name: 1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x142782af8
+  size: 912
+  type: VERSION
+  language: LANG_CHINESE
+Resource 4
+  name: 1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x142782e88
+  size: 392
+  type: MANIFEST
+  language: LANG_ENGLISH

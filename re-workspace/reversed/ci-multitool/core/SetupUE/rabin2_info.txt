@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x400000
+binsz    177384
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x0002f7b2
+compiled Wed May 25 16:56:22 2039
+crypto   false
+dbg_file E:\AWork\_drw_main\SetupUE\Release\SetupUE.pdb
+endian   little
+havecode true
+hdr.csum 0x0002f7b2
+guid     7C09CFFCAE214F798BF1FB45D04598BA2
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      false
+relocs   true
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

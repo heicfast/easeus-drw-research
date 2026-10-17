@@ -1,0 +1,2 @@
+INFO: floss: extracting static strings
+ERROR: floss: cannot deobfuscate strings from files larger than 0x1000000 bytes

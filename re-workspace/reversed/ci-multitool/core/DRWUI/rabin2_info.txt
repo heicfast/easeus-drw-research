@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x140000000
+binsz    30571752
+bintype  pe
+bits     64
+canary   true
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x01d2c292
+compiled Sun Sep  1 21:28:11 2041
+crypto   false
+dbg_file E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\DRWUI.pdb
+endian   little
+havecode true
+hdr.csum 0x01d2c292
+guid     2352C4E740FA4EA89DFC871ACED745A41
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

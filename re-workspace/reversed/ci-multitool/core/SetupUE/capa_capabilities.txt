@@ -1,0 +1,66 @@
+
+md5                     877e5cc721f98c7000e03008d83806ce                        
+sha1                    6c0be5a1ec16c8f095a8eaaafe3e11e8eaf84f90                
+sha256                  4e3f9305ef976d66f344a8f031fdfaf80b27f9002cd55d79af3e8e8…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 08:35:17.516374                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    i386                                                    
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x400000                                                
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          239                                                     
+library function count  430                                                     
+total feature count     8953                                                    
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+get geographical location
+namespace  collection
+scope      function  
+matches    0x401000  
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+accept command line arguments
+namespace  host-interaction/cli
+scope      function            
+matches    0x402A10            
+
+get system information on Windows
+namespace  host-interaction/os/info
+scope      function                
+matches    0x401080                
+
+check OS version
+namespace  host-interaction/os/version
+scope      function                   
+matches    0x401080                   
+
+create process on Windows
+namespace  host-interaction/process/create
+scope      instruction                    
+matches    0x4030DF                       
+
+query or enumerate registry value
+namespace  host-interaction/registry
+scope      function                 
+matches    0x403170                 
+
+link function at runtime on Windows (4 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x4011A1               
+           0x401268               
+           0x40D70F               
+           0x40D70F               
+
+
+

@@ -1,0 +1,73 @@
+
+md5                     7b398f88f59168b2c13d11889f688090                        
+sha1                    99c9f63fcfc7b82c807d7e44abb7e8ebe5cf98c2                
+sha256                  245c869cc195c47c98ba8b379ad8e3c64ba03061fcdd4fcbff8c0b0…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 08:33:41.533553                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x140000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          129                                                     
+library function count  259                                                     
+total feature count     7253                                                    
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+accept command line arguments
+namespace  host-interaction/cli
+scope      function            
+matches    0x1400029A0         
+
+link function at runtime on Windows (21 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x140001112            
+           0x140001130            
+           0x14000114E            
+           0x14000116C            
+           0x14000118A            
+           0x1400011A8            
+           0x1400011C6            
+           0x1400011E4            
+           0x140001202            
+           0x140001220            
+           0x14000123E            
+           0x14000125C            
+           0x14000127A            
+           0x140001298            
+           0x1400012B6            
+           0x1400012D4            
+           0x140005D38            
+           0x140005D38            
+           0x140005D38            
+           0x14000898E            
+           0x14000898E            
+
+link many functions at runtime
+namespace  linking/runtime-linking
+scope      function               
+matches    0x1400010B0            
+
+parse PE header
+namespace  load-code/pe
+scope      function    
+matches    0x140006DF0 
+
+resolve function by parsing PE exports
+namespace  load-code/pe
+scope      function    
+matches    0x1400021A0 
+
+
+

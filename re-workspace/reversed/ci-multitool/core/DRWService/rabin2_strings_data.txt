@@ -1,0 +1,179 @@
+[Strings]
+nth paddr      vaddr       len size section type  string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00003fc8 0x1400053c8 17  18   .rdata  ascii Unknown exception
+1   0x00003ff8 0x1400053f8 14  15   .rdata  ascii bad allocation
+2   0x00004020 0x140005420 20  21   .rdata  ascii bad array new length
+3   0x00004048 0x140005448 46  47   .rdata  ascii SYSTEM\CurrentControlSet\Control\FVEAutoUnlock
+4   0x00004078 0x140005478 4   5    .rdata  ascii Data
+5   0x00004080 0x140005480 15  16   .rdata  ascii string too long
+6   0x00004090 0x140005490 19  20   .rdata  ascii map/set<T> too long
+7   0x000040a8 0x1400054a8 15  16   .rdata  ascii Read FVE Server
+8   0x000040b8 0x1400054b8 25  26   .rdata  ascii Service already installed
+9   0x000040d8 0x1400054d8 20  21   .rdata  ascii OpenSCManager failed
+10  0x000040f0 0x1400054f0 20  21   .rdata  ascii CreateService failed
+11  0x00004108 0x140005508 28  29   .rdata  ascii DRW read registry key value.
+12  0x00004128 0x140005528 19  20   .rdata  ascii StartService failed
+13  0x00004140 0x140005540 23  24   .rdata  ascii Install service succeed
+14  0x00004158 0x140005558 21  22   .rdata  ascii Service not installed
+15  0x00004170 0x140005570 18  19   .rdata  ascii OpenService failed
+16  0x00004188 0x140005588 25  26   .rdata  ascii QueryServiceStatus failed
+17  0x000041a8 0x1400055a8 19  20   .rdata  ascii Stop Service failed
+18  0x000041c0 0x1400055c0 25  26   .rdata  ascii Uninstall service succeed
+19  0x000041e0 0x1400055e0 24  25   .rdata  ascii Uninstall service failed
+20  0x00004200 0x140005600 19  20   .rdata  ascii Service stopping...
+21  0x00004218 0x140005618 33  34   .rdata  ascii RegisterServiceCtrlHandler failed
+22  0x00004240 0x140005640 34  35   .rdata  ascii RegisterServiceCtrlHandler succeed
+23  0x00004268 0x140005668 19  20   .rdata  ascii Service starting...
+24  0x00004280 0x140005680 15  16   .rdata  ascii Service stopped
+25  0x00004290 0x140005690 18  19   .rdata  ascii Service running...
+26  0x000042a8 0x1400056a8 21  22   .rdata  ascii \\.\Pipe\DRWBitlocker
+27  0x000042c0 0x1400056c0 8   9    .rdata  ascii /install
+28  0x000042d0 0x1400056d0 10  11   .rdata  ascii /uninstall
+29  0x000042e0 0x1400056e0 33  34   .rdata  ascii StartServiceCtrlDispatcher failed
+30  0x00004814 0x140005c14 4   5    .rdata  ascii RSDS
+31  0x0000482c 0x140005c2c 79  80   .rdata  ascii E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\BitlockerReadFVEService.pdb
+32  0x00004890 0x140005c90 4   5    .rdata  ascii GCTL
+33  0x0000489c 0x140005c9c 8   9    .rdata  ascii .text$mn
+34  0x000048b0 0x140005cb0 11  12   .rdata  ascii .text$mn$00
+35  0x000048c4 0x140005cc4 7   8    .rdata  ascii .text$x
+36  0x000048d4 0x140005cd4 8   9    .rdata  ascii .idata$5
+37  0x000048e8 0x140005ce8 6   7    .rdata  ascii .00cfg
+38  0x000048f8 0x140005cf8 8   9    .rdata  ascii .CRT$XCA
+39  0x0000490c 0x140005d0c 9   10   .rdata  ascii .CRT$XCAA
+40  0x00004920 0x140005d20 8   9    .rdata  ascii .CRT$XCZ
+41  0x00004934 0x140005d34 8   9    .rdata  ascii .CRT$XIA
+42  0x00004948 0x140005d48 9   10   .rdata  ascii .CRT$XIAA
+43  0x0000495c 0x140005d5c 9   10   .rdata  ascii .CRT$XIAC
+44  0x00004970 0x140005d70 8   9    .rdata  ascii .CRT$XIZ
+45  0x00004984 0x140005d84 8   9    .rdata  ascii .CRT$XPA
+46  0x00004998 0x140005d98 8   9    .rdata  ascii .CRT$XPZ
+47  0x000049ac 0x140005dac 8   9    .rdata  ascii .CRT$XTA
+48  0x000049c0 0x140005dc0 8   9    .rdata  ascii .CRT$XTZ
+49  0x000049d4 0x140005dd4 6   7    .rdata  ascii .rdata
+50  0x000049e4 0x140005de4 8   9    .rdata  ascii .rdata$r
+51  0x000049f8 0x140005df8 13  14   .rdata  ascii .rdata$zzzdbg
+52  0x00004a10 0x140005e10 8   9    .rdata  ascii .rtc$IAA
+53  0x00004a24 0x140005e24 8   9    .rdata  ascii .rtc$IZZ
+54  0x00004a38 0x140005e38 8   9    .rdata  ascii .rtc$TAA
+55  0x00004a4c 0x140005e4c 8   9    .rdata  ascii .rtc$TZZ
+56  0x00004a60 0x140005e60 6   7    .rdata  ascii .xdata
+57  0x00004a70 0x140005e70 8   9    .rdata  ascii .xdata$x
+58  0x00004a84 0x140005e84 8   9    .rdata  ascii .idata$2
+59  0x00004a98 0x140005e98 8   9    .rdata  ascii .idata$3
+60  0x00004aac 0x140005eac 8   9    .rdata  ascii .idata$4
+61  0x00004ac0 0x140005ec0 8   9    .rdata  ascii .idata$6
+62  0x00004ad4 0x140005ed4 5   6    .rdata  ascii .data
+63  0x00004ae4 0x140005ee4 7   8    .rdata  ascii .data$r
+64  0x00004af4 0x140005ef4 4   5    .rdata  ascii .bss
+65  0x00004b04 0x140005f04 6   7    .rdata  ascii .pdata
+66  0x00004b14 0x140005f14 8   9    .rdata  ascii .rsrc$01
+67  0x00004b28 0x140005f28 8   9    .rdata  ascii .rsrc$02
+68  0x000056ca 0x140006aca 18  19   .rdata  ascii GetModuleFileNameA
+69  0x000056e0 0x140006ae0 23  24   .rdata  ascii SetNamedPipeHandleState
+70  0x000056fa 0x140006afa 14  15   .rdata  ascii WaitNamedPipeA
+71  0x0000570c 0x140006b0c 9   10   .rdata  ascii WriteFile
+72  0x00005718 0x140006b18 18  19   .rdata  ascii OutputDebugStringA
+73  0x0000572e 0x140006b2e 19  20   .rdata  ascii WaitForSingleObject
+74  0x00005744 0x140006b44 11  12   .rdata  ascii CreateFileA
+75  0x00005752 0x140006b52 8   9    .rdata  ascii SetEvent
+76  0x0000575e 0x140006b5e 8   9    .rdata  ascii lstrcpyA
+77  0x0000576a 0x140006b6a 11  12   .rdata  ascii CloseHandle
+78  0x00005778 0x140006b78 12  13   .rdata  ascii CreateEventA
+79  0x00005786 0x140006b86 12  13   .rdata  ascii KERNEL32.dll
+80  0x00005796 0x140006b96 13  14   .rdata  ascii RegEnumKeyExA
+81  0x000057a6 0x140006ba6 13  14   .rdata  ascii RegOpenKeyExA
+82  0x000057b6 0x140006bb6 16  17   .rdata  ascii RegQueryInfoKeyA
+83  0x000057ca 0x140006bca 16  17   .rdata  ascii RegQueryValueExA
+84  0x000057de 0x140006bde 11  12   .rdata  ascii RegCloseKey
+85  0x000057ec 0x140006bec 12  13   .rdata  ascii OpenServiceA
+86  0x000057fc 0x140006bfc 21  22   .rdata  ascii ChangeServiceConfig2A
+87  0x00005814 0x140006c14 13  14   .rdata  ascii StartServiceA
+88  0x00005824 0x140006c24 14  15   .rdata  ascii ControlService
+89  0x00005836 0x140006c36 13  14   .rdata  ascii DeleteService
+90  0x00005846 0x140006c46 14  15   .rdata  ascii OpenSCManagerA
+91  0x00005858 0x140006c58 27  28   .rdata  ascii RegisterServiceCtrlHandlerA
+92  0x00005876 0x140006c76 16  17   .rdata  ascii SetServiceStatus
+93  0x0000588a 0x140006c8a 18  19   .rdata  ascii CloseServiceHandle
+94  0x000058a0 0x140006ca0 18  19   .rdata  ascii QueryServiceStatus
+95  0x000058b6 0x140006cb6 27  28   .rdata  ascii StartServiceCtrlDispatcherA
+96  0x000058d4 0x140006cd4 14  15   .rdata  ascii CreateServiceA
+97  0x000058e4 0x140006ce4 12  13   .rdata  ascii ADVAPI32.dll
+98  0x000058f4 0x140006cf4 30  31   .rdata  ascii ?_Xlength_error@std@@YAXPEBD@Z
+99  0x00005916 0x140006d16 56  57   .rdata  ascii ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+100 0x00005952 0x140006d52 31  32   .rdata  ascii ?uncaught_exception@std@@YA_NXZ
+101 0x00005974 0x140006d74 59  60   .rdata  ascii ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+102 0x000059b2 0x140006db2 61  62   .rdata  ascii ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+103 0x000059f2 0x140006df2 56  57   .rdata  ascii ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+104 0x00005a2e 0x140006e2e 68  69   .rdata  ascii ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+105 0x00005a76 0x140006e76 64  65   .rdata  ascii ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+106 0x00005aba 0x140006eba 65  66   .rdata  ascii ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+107 0x00005afe 0x140006efe 62  63   .rdata  ascii ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+108 0x00005b40 0x140006f40 80  81   .rdata  ascii ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+109 0x00005b92 0x140006f92 12  13   .rdata  ascii MSVCP140.dll
+110 0x00005ba2 0x140006fa2 18  19   .rdata  ascii __CxxFrameHandler3
+111 0x00005bb8 0x140006fb8 15  16   .rdata  ascii __std_terminate
+112 0x00005bca 0x140006fca 20  21   .rdata  ascii __C_specific_handler
+113 0x00005be2 0x140006fe2 20  21   .rdata  ascii __std_exception_copy
+114 0x00005bfa 0x140006ffa 23  24   .rdata  ascii __std_exception_destroy
+115 0x00005c14 0x140007014 18  19   .rdata  ascii _CxxThrowException
+116 0x00005c2a 0x14000702a 6   7    .rdata  ascii memset
+117 0x00005c32 0x140007032 16  17   .rdata  ascii VCRUNTIME140.dll
+118 0x00005c46 0x140007046 9   10   .rdata  ascii _strupr_s
+119 0x00005c52 0x140007052 34  35   .rdata  ascii _invalid_parameter_noinfo_noreturn
+120 0x00005c78 0x140007078 9   10   .rdata  ascii strncpy_s
+121 0x00005c84 0x140007084 8   9    .rdata  ascii _stricmp
+122 0x00005c90 0x140007090 9   10   .rdata  ascii _callnewh
+123 0x00005c9c 0x14000709c 6   7    .rdata  ascii malloc
+124 0x00005ca6 0x1400070a6 15  16   .rdata  ascii _seh_filter_exe
+125 0x00005cb8 0x1400070b8 13  14   .rdata  ascii _set_app_type
+126 0x00005cc8 0x1400070c8 16  17   .rdata  ascii __setusermatherr
+127 0x00005cdc 0x1400070dc 22  23   .rdata  ascii _configure_narrow_argv
+128 0x00005cf6 0x1400070f6 30  31   .rdata  ascii _initialize_narrow_environment
+129 0x00005d18 0x140007118 32  33   .rdata  ascii _get_narrow_winmain_command_line
+130 0x00005d3c 0x14000713c 9   10   .rdata  ascii _initterm
+131 0x00005d48 0x140007148 11  12   .rdata  ascii _initterm_e
+132 0x00005d56 0x140007156 4   5    .rdata  ascii exit
+133 0x00005d5e 0x14000715e 5   6    .rdata  ascii _exit
+134 0x00005d66 0x140007166 10  11   .rdata  ascii _set_fmode
+135 0x00005d74 0x140007174 6   7    .rdata  ascii _cexit
+136 0x00005d7e 0x14000717e 7   8    .rdata  ascii _c_exit
+137 0x00005d88 0x140007188 42  43   .rdata  ascii _register_thread_local_exe_atexit_callback
+138 0x00005db6 0x1400071b6 19  20   .rdata  ascii _configthreadlocale
+139 0x00005dcc 0x1400071cc 13  14   .rdata  ascii _set_new_mode
+140 0x00005ddc 0x1400071dc 12  13   .rdata  ascii __p__commode
+141 0x00005dec 0x1400071ec 4   5    .rdata  ascii free
+142 0x00005df4 0x1400071f4 24  25   .rdata  ascii _initialize_onexit_table
+143 0x00005e10 0x140007210 25  26   .rdata  ascii _register_onexit_function
+144 0x00005e2c 0x14000722c 11  12   .rdata  ascii _crt_atexit
+145 0x00005e3a 0x14000723a 9   10   .rdata  ascii terminate
+146 0x00005e44 0x140007244 32  33   .rdata  ascii api-ms-win-crt-string-l1-1-0.dll
+147 0x00005e66 0x140007266 33  34   .rdata  ascii api-ms-win-crt-runtime-l1-1-0.dll
+148 0x00005e88 0x140007288 30  31   .rdata  ascii api-ms-win-crt-heap-l1-1-0.dll
+149 0x00005ea8 0x1400072a8 30  31   .rdata  ascii api-ms-win-crt-math-l1-1-0.dll
+150 0x00005ec8 0x1400072c8 31  32   .rdata  ascii api-ms-win-crt-stdio-l1-1-0.dll
+151 0x00005ee8 0x1400072e8 32  33   .rdata  ascii api-ms-win-crt-locale-l1-1-0.dll
+152 0x00005f0c 0x14000730c 17  18   .rdata  ascii RtlCaptureContext
+153 0x00005f20 0x140007320 22  23   .rdata  ascii RtlLookupFunctionEntry
+154 0x00005f3a 0x14000733a 16  17   .rdata  ascii RtlVirtualUnwind
+155 0x00005f4e 0x14000734e 24  25   .rdata  ascii UnhandledExceptionFilter
+156 0x00005f6a 0x14000736a 27  28   .rdata  ascii SetUnhandledExceptionFilter
+157 0x00005f88 0x140007388 17  18   .rdata  ascii GetCurrentProcess
+158 0x00005f9c 0x14000739c 16  17   .rdata  ascii TerminateProcess
+159 0x00005fb0 0x1400073b0 25  26   .rdata  ascii IsProcessorFeaturePresent
+160 0x00005fcc 0x1400073cc 23  24   .rdata  ascii QueryPerformanceCounter
+161 0x00005fe6 0x1400073e6 19  20   .rdata  ascii GetCurrentProcessId
+162 0x00005ffc 0x1400073fc 18  19   .rdata  ascii GetCurrentThreadId
+163 0x00006012 0x140007412 23  24   .rdata  ascii GetSystemTimeAsFileTime
+164 0x0000602c 0x14000742c 19  20   .rdata  ascii InitializeSListHead
+165 0x00006042 0x140007442 17  18   .rdata  ascii IsDebuggerPresent
+166 0x00006056 0x140007456 15  16   .rdata  ascii GetStartupInfoW
+167 0x00006068 0x140007468 16  17   .rdata  ascii GetModuleHandleW
+168 0x0000607c 0x14000747c 6   7    .rdata  ascii memcmp
+169 0x00006086 0x140007486 6   7    .rdata  ascii memcpy
+170 0x00006090 0x140007490 7   8    .rdata  ascii memmove
+171 0x00006248 0x140008048 19  20   .data   ascii .?AVbad_alloc@std@@
+172 0x00006270 0x140008070 19  20   .data   ascii .?AVexception@std@@
+173 0x00006298 0x140008098 30  31   .data   ascii .?AVbad_array_new_length@std@@
+174 0x000062c8 0x1400080c8 15  16   .data   ascii .?AVtype_info@@
+175 0x00006a60 0x14000a060 381 382  .rsrc   ascii <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

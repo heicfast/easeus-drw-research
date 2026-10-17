@@ -1,0 +1,71 @@
+WARN: Relocs has not been applied. Please use `-e bin.relocs.apply=true` or `-e bin.cache=true` next time
+Resource 0
+  name: 1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14000e600
+  size: 1.3K
+  type: ICON
+  language: LANG_CHINESE
+Resource 1
+  name: 2
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14000eb28
+  size: 5.0K
+  type: ICON
+  language: LANG_CHINESE
+Resource 2
+  name: 3
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14000ff50
+  size: 11.3K
+  type: ICON
+  language: LANG_CHINESE
+Resource 3
+  name: 4
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x140012c78
+  size: 47.5K
+  type: ICON
+  language: LANG_CHINESE
+Resource 4
+  name: 22
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14001eb30
+  size: 86
+  type: STRING
+  language: LANG_CHINESE
+Resource 5
+  name: 28
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14001eac0
+  size: 108
+  type: STRING
+  language: LANG_CHINESE
+Resource 6
+  name: 30
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14001eb88
+  size: 330
+  type: STRING
+  language: LANG_CHINESE
+Resource 7
+  name: 132
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14001ea80
+  size: 62
+  type: GROUP_ICON
+  language: LANG_CHINESE
+Resource 8
+  name: 1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14000e270
+  size: 912
+  type: VERSION
+  language: LANG_CHINESE
+Resource 9
+  name: 1
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x14001ecd8
+  size: 392
+  type: MANIFEST
+  language: LANG_ENGLISH

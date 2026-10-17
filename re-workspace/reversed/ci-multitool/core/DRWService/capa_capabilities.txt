@@ -1,0 +1,82 @@
+
+md5                     542939524e5a520cfd08db8cdff56408                        
+sha1                    ac0d3f480c7245b7fd125df94203b97810fafc65                
+sha256                  ae897ab4f0d21e0ddd7a8d35cac08a6afd57adfd849fe3f9865f9dc…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 07:46:43.469179                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x140000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          90                                                      
+library function count  36                                                      
+total feature count     3927                                                    
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+write file on Windows
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x140002A60                       
+
+print debug messages (5 matches)
+namespace  host-interaction/log/debug/write-event
+scope      function                              
+matches    0x140002550                           
+           0x1400027B0                           
+           0x140002970                           
+           0x140002A60                           
+           0x140003110                           
+
+query or enumerate registry key
+namespace  host-interaction/registry
+scope      function                 
+matches    0x140001260              
+
+query or enumerate registry value
+namespace  host-interaction/registry
+scope      function                 
+matches    0x140001260              
+
+query service status
+namespace  host-interaction/service
+scope      function                
+matches    0x1400027B0             
+
+run as service
+namespace  host-interaction/service
+scope      file                    
+
+create service
+namespace  host-interaction/service/create
+scope      function                       
+matches    0x140002550                    
+
+delete service
+namespace  host-interaction/service/delete
+scope      function                       
+matches    0x1400027B0                    
+
+modify service
+namespace  host-interaction/service/modify
+scope      function                       
+matches    0x140002550                    
+
+start service
+namespace  host-interaction/service/start
+scope      function                      
+matches    0x140002550                   
+
+persist via Windows service
+namespace  persistence/service
+scope      function           
+matches    0x140002550        
+
+
+
