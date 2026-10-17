@@ -1,0 +1,39 @@
+[Imports]
+nth vaddr      bind type lib          name
+――――――――――――――――――――――――――――――――――――――――――
+1   0x00013000 NONE FUNC ntoskrnl.exe ExAllocatePoolWithTag
+2   0x00013008 NONE FUNC ntoskrnl.exe IoGetLowerDeviceObject
+3   0x00013010 NONE FUNC ntoskrnl.exe IoBuildDeviceIoControlRequest
+4   0x00013018 NONE FUNC ntoskrnl.exe IoDeleteSymbolicLink
+5   0x00013020 NONE FUNC ntoskrnl.exe ExFreePoolWithTag
+6   0x00013028 NONE FUNC ntoskrnl.exe RtlInitUnicodeString
+7   0x00013030 NONE FUNC ntoskrnl.exe IoDeleteDevice
+8   0x00013038 NONE FUNC ntoskrnl.exe KeSetEvent
+9   0x00013040 NONE FUNC ntoskrnl.exe KeInitializeEvent
+10  0x00013048 NONE FUNC ntoskrnl.exe IoFreeMdl
+11  0x00013050 NONE FUNC ntoskrnl.exe RtlFreeUnicodeString
+12  0x00013058 NONE FUNC ntoskrnl.exe MmMapLockedPagesSpecifyCache
+13  0x00013060 NONE FUNC ntoskrnl.exe IoGetDeviceObjectPointer
+14  0x00013068 NONE FUNC ntoskrnl.exe IoBuildAsynchronousFsdRequest
+15  0x00013070 NONE FUNC ntoskrnl.exe ZwQueryValueKey
+16  0x00013078 NONE FUNC ntoskrnl.exe ExAllocatePool
+17  0x00013080 NONE FUNC ntoskrnl.exe ZwClose
+18  0x00013088 NONE FUNC ntoskrnl.exe IofCompleteRequest
+19  0x00013090 NONE FUNC ntoskrnl.exe KeWaitForSingleObject
+20  0x00013098 NONE FUNC ntoskrnl.exe IoFreeIrp
+21  0x000130a0 NONE FUNC ntoskrnl.exe IoGetAttachedDeviceReference
+22  0x000130a8 NONE FUNC ntoskrnl.exe RtlCompareUnicodeString
+23  0x000130b0 NONE FUNC ntoskrnl.exe MmUnlockPages
+24  0x000130b8 NONE FUNC ntoskrnl.exe ObfReferenceObject
+25  0x000130c0 NONE FUNC ntoskrnl.exe IoCreateSymbolicLink
+26  0x000130c8 NONE FUNC ntoskrnl.exe PsGetCurrentProcessId
+27  0x000130d0 NONE FUNC ntoskrnl.exe ObfDereferenceObject
+28  0x000130d8 NONE FUNC ntoskrnl.exe RtlUnicodeStringToInteger
+29  0x000130e0 NONE FUNC ntoskrnl.exe IoCreateDevice
+30  0x000130e8 NONE FUNC ntoskrnl.exe DbgPrint
+31  0x000130f0 NONE FUNC ntoskrnl.exe ObDereferenceObjectDeferDelete
+32  0x000130f8 NONE FUNC ntoskrnl.exe IofCallDriver
+33  0x00013100 NONE FUNC ntoskrnl.exe ZwOpenKey
+34  0x00013108 NONE FUNC ntoskrnl.exe KeBugCheckEx
+35  0x00013110 NONE FUNC ntoskrnl.exe RtlAnsiCharToUnicodeChar
+

@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x10000
+binsz    19408
+bintype  pe
+bits     64
+canary   false
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x0000b7c4
+compiled Sat Dec 25 08:57:30 2038
+crypto   false
+dbg_file d:\epm\_epm_main\sharelib\dc\Output\sys\fre_wlh_amd64\amd64\EuDskAcs.pdb
+endian   little
+havecode true
+hdr.csum 0x0000b7c4
+guid     B85CE6414B0A4453AEB60363ACD0D4FC1
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       false
+os       native
+overlay  true
+cc       ms
+pic      false
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Native
+va       true

@@ -140,7 +140,7 @@ jobs:
             SZ=$(stat -c%s "$SRC")
             if [ $SZ -lt 8388608 ]; then
               timeout 2400 retdec-decompiler "$SRC" -o "$OUT/retdec_decompiled.c" \
-                -c "$OUT/retdec_config.json" --cleanup > "$OUT/retdec.log" 2>&1
+                --cleanup > "$OUT/retdec.log" 2>&1
               [ -f "$OUT/retdec_decompiled.c" ] && echo "retdec OK: $(wc -l < $OUT/retdec_decompiled.c) lines" || echo "::warning::retdec failed on $f"
             else
               echo "skipped retdec (size $SZ bytes >= 8MB) - handled by Ghidra" > "$OUT/retdec_skipped.txt"

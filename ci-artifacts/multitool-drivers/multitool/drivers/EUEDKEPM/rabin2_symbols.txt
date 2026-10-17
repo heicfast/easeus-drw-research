@@ -1,0 +1,38 @@
+[Symbols]
+nth paddr      vaddr      bind type size lib          name                               demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00002400 0x00013000 NONE FUNC 0    ntoskrnl.exe imp.ExAllocatePoolWithTag
+2   0x00002408 0x00013008 NONE FUNC 0    ntoskrnl.exe imp.IoGetLowerDeviceObject
+3   0x00002410 0x00013010 NONE FUNC 0    ntoskrnl.exe imp.IoBuildDeviceIoControlRequest
+4   0x00002418 0x00013018 NONE FUNC 0    ntoskrnl.exe imp.IoDeleteSymbolicLink
+5   0x00002420 0x00013020 NONE FUNC 0    ntoskrnl.exe imp.ExFreePoolWithTag
+6   0x00002428 0x00013028 NONE FUNC 0    ntoskrnl.exe imp.RtlInitUnicodeString
+7   0x00002430 0x00013030 NONE FUNC 0    ntoskrnl.exe imp.IoDeleteDevice
+8   0x00002438 0x00013038 NONE FUNC 0    ntoskrnl.exe imp.KeSetEvent
+9   0x00002440 0x00013040 NONE FUNC 0    ntoskrnl.exe imp.KeInitializeEvent
+10  0x00002448 0x00013048 NONE FUNC 0    ntoskrnl.exe imp.IoFreeMdl
+11  0x00002450 0x00013050 NONE FUNC 0    ntoskrnl.exe imp.RtlFreeUnicodeString
+12  0x00002458 0x00013058 NONE FUNC 0    ntoskrnl.exe imp.MmMapLockedPagesSpecifyCache
+13  0x00002460 0x00013060 NONE FUNC 0    ntoskrnl.exe imp.IoGetDeviceObjectPointer
+14  0x00002468 0x00013068 NONE FUNC 0    ntoskrnl.exe imp.IoBuildAsynchronousFsdRequest
+15  0x00002470 0x00013070 NONE FUNC 0    ntoskrnl.exe imp.ZwQueryValueKey
+16  0x00002478 0x00013078 NONE FUNC 0    ntoskrnl.exe imp.ExAllocatePool
+17  0x00002480 0x00013080 NONE FUNC 0    ntoskrnl.exe imp.ZwClose
+18  0x00002488 0x00013088 NONE FUNC 0    ntoskrnl.exe imp.IofCompleteRequest
+19  0x00002490 0x00013090 NONE FUNC 0    ntoskrnl.exe imp.KeWaitForSingleObject
+20  0x00002498 0x00013098 NONE FUNC 0    ntoskrnl.exe imp.IoFreeIrp
+21  0x000024a0 0x000130a0 NONE FUNC 0    ntoskrnl.exe imp.IoGetAttachedDeviceReference
+22  0x000024a8 0x000130a8 NONE FUNC 0    ntoskrnl.exe imp.RtlCompareUnicodeString
+23  0x000024b0 0x000130b0 NONE FUNC 0    ntoskrnl.exe imp.MmUnlockPages
+24  0x000024b8 0x000130b8 NONE FUNC 0    ntoskrnl.exe imp.ObfReferenceObject
+25  0x000024c0 0x000130c0 NONE FUNC 0    ntoskrnl.exe imp.IoCreateSymbolicLink
+26  0x000024c8 0x000130c8 NONE FUNC 0    ntoskrnl.exe imp.PsGetCurrentProcessId
+27  0x000024d0 0x000130d0 NONE FUNC 0    ntoskrnl.exe imp.ObfDereferenceObject
+28  0x000024d8 0x000130d8 NONE FUNC 0    ntoskrnl.exe imp.RtlUnicodeStringToInteger
+29  0x000024e0 0x000130e0 NONE FUNC 0    ntoskrnl.exe imp.IoCreateDevice
+30  0x000024e8 0x000130e8 NONE FUNC 0    ntoskrnl.exe imp.DbgPrint
+31  0x000024f0 0x000130f0 NONE FUNC 0    ntoskrnl.exe imp.ObDereferenceObjectDeferDelete
+32  0x000024f8 0x000130f8 NONE FUNC 0    ntoskrnl.exe imp.IofCallDriver
+33  0x00002500 0x00013100 NONE FUNC 0    ntoskrnl.exe imp.ZwOpenKey
+34  0x00002508 0x00013108 NONE FUNC 0    ntoskrnl.exe imp.KeBugCheckEx
+35  0x00002510 0x00013110 NONE FUNC 0    ntoskrnl.exe imp.RtlAnsiCharToUnicodeChar

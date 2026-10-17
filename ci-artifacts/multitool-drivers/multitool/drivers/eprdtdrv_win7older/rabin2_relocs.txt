@@ -1,0 +1,49 @@
+WARN: Relocs has not been applied. Please use `-e bin.relocs.apply=true` or `-e bin.cache=true` next time
+[Relocations]
+
+vaddr      paddr      type   ntype name
+―――――――――――――――――――――――――――――――――――――――
+0x00007200 0x00003200 SET_64 3     ntoskrnl.exe_ExAllocatePoolWithTag
+0x00007218 0x00003208 SET_64 3     ntoskrnl.exe_IoGetLowerDeviceObject
+0x00007232 0x00003210 SET_64 3     ntoskrnl.exe_IoBuildDeviceIoControlRequest
+0x00007252 0x00003218 SET_64 3     ntoskrnl.exe_IoDeleteSymbolicLink
+0x0000726a 0x00003220 SET_64 3     ntoskrnl.exe_ExFreePoolWithTag
+0x0000727e 0x00003228 SET_64 3     ntoskrnl.exe_RtlInitUnicodeString
+0x00007296 0x00003230 SET_64 3     ntoskrnl.exe_IoDeleteDevice
+0x000072a8 0x00003238 SET_64 3     ntoskrnl.exe_KeSetEvent
+0x000072b6 0x00003240 SET_64 3     ntoskrnl.exe_KeInitializeEvent
+0x000072ca 0x00003248 SET_64 3     ntoskrnl.exe_IoFreeMdl
+0x000072d6 0x00003250 SET_64 3     ntoskrnl.exe_RtlFreeUnicodeString
+0x000072ee 0x00003258 SET_64 3     ntoskrnl.exe_ObQueryNameString
+0x00007302 0x00003260 SET_64 3     ntoskrnl.exe_IoFileObjectType
+0x00007316 0x00003268 SET_64 3     ntoskrnl.exe_wcsstr
+0x00007320 0x00003270 SET_64 3     ntoskrnl.exe_MmMapLockedPagesSpecifyCache
+0x00007340 0x00003278 SET_64 3     ntoskrnl.exe_IoGetDeviceObjectPointer
+0x0000735c 0x00003280 SET_64 3     ntoskrnl.exe_IoBuildAsynchronousFsdRequest
+0x0000737c 0x00003288 SET_64 3     ntoskrnl.exe_ExAllocatePool
+0x0000738e 0x00003290 SET_64 3     ntoskrnl.exe_ZwClose
+0x00007398 0x00003298 SET_64 3     ntoskrnl.exe_RtlAppendUnicodeStringToString
+0x000073ba 0x000032a0 SET_64 3     ntoskrnl.exe_IofCompleteRequest
+0x000073d0 0x000032a8 SET_64 3     ntoskrnl.exe_ObReferenceObjectByHandle
+0x000073ec 0x000032b0 SET_64 3     ntoskrnl.exe_KeWaitForSingleObject
+0x00007404 0x000032b8 SET_64 3     ntoskrnl.exe_IoFreeIrp
+0x00007410 0x000032c0 SET_64 3     ntoskrnl.exe_IoGetAttachedDeviceReference
+0x00007430 0x000032c8 SET_64 3     ntoskrnl.exe_RtlCompareUnicodeString
+0x0000744a 0x000032d0 SET_64 3     ntoskrnl.exe_MmUnlockPages
+0x0000745a 0x000032d8 SET_64 3     ntoskrnl.exe_ZwQueryInformationProcess
+0x00007476 0x000032e0 SET_64 3     ntoskrnl.exe_ObfReferenceObject
+0x0000748c 0x000032e8 SET_64 3     ntoskrnl.exe_IoCreateSymbolicLink
+0x000074a4 0x000032f0 SET_64 3     ntoskrnl.exe_PsGetCurrentProcessId
+0x000074bc 0x000032f8 SET_64 3     ntoskrnl.exe_ObfDereferenceObject
+0x000074d4 0x00003300 SET_64 3     ntoskrnl.exe_RtlUnicodeStringToInteger
+0x000074f0 0x00003308 SET_64 3     ntoskrnl.exe_IoCreateDevice
+0x00007502 0x00003310 SET_64 3     ntoskrnl.exe_NtOpenProcess
+0x00007512 0x00003318 SET_64 3     ntoskrnl.exe_RtlUpcaseUnicodeChar
+0x0000752a 0x00003320 SET_64 3     ntoskrnl.exe_DbgPrint
+0x00007536 0x00003328 SET_64 3     ntoskrnl.exe_ObDereferenceObjectDeferDelete
+0x00007558 0x00003330 SET_64 3     ntoskrnl.exe_IofCallDriver
+0x00007568 0x00003338 SET_64 3     ntoskrnl.exe_KeBugCheckEx
+0x00007586 0x00003340 SET_64 3     ntoskrnl.exe_RtlAnsiCharToUnicodeChar
+
+
+41 relocations
