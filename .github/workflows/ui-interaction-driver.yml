@@ -1,0 +1,300 @@
+name: UI Interaction Driver (post-scan-complete ground truth)
+
+# Drives the app PAST the scan-complete modal into the two remaining
+# dynamic cells:
+#   recovery-flow        = click "Go to Recover" -> capture the recovery/
+#                          destination dialog, then "Recover All" path
+#   results-interactions = dismiss modal (ESC) -> Filter dropdown, Type/Path
+#                          tab switch, file-row select + double-click preview
+#
+# Coordinates are window-relative fractions, pixel-verified against the
+# captured scan-phase/complete screenshots (see UIUX artifacts):
+#   scan_btn   0.90w/0.92h  (proven in run 39035483108)
+#   go_recover 494,473      (pixel blob of the blue button)
+#   recover_all ~916,685    (bottom bar right)
+#   filter     ~755,70      (toolbar cluster)
+#   type/path  234/140,117  (sidebar tabs)
+# All steps fault-tolerant: a dead app or missed click is a finding, not
+# a job failure. Screenshots after EVERY step.
+on:
+  workflow_dispatch:
+    inputs:
+      wait_seconds:
+        description: 'Seconds to wait for landing page'
+        required: true
+        default: '45'
+      scan_wait:
+        description: 'Seconds to wait for scan completion (880s measured on 149GB runner disk)'
+        required: true
+        default: '940'
+
+permissions:
+  contents: read
+
+jobs:
+  drive:
+    runs-on: windows-latest
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - variant: "recovery-flow"
+          - variant: "results-interactions"
+    steps:
+      - name: Checkout (sparse)
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            og-codebase
+
+      - name: Launch app and start scan
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Continue'
+          Add-Type -TypeDefinition @"
+          using System;
+          using System.Runtime.InteropServices;
+          public class ClickHelper {
+            [DllImport("user32.dll")] public static extern bool SetCursorPos(int x, int y);
+            [DllImport("user32.dll")] public static extern void mouse_event(uint dwFlags, uint dx, uint dy, uint dwData, UIntPtr dwExtraInfo);
+            [DllImport("user32.dll")] public static extern void keybd_event(byte vk, byte scan, uint flags, UIntPtr extra);
+            [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr h, out RECT r);
+            [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
+            public static void Click(int x, int y) {
+              SetCursorPos(x, y);
+              mouse_event(0x0002, 0, 0, 0, UIntPtr.Zero);
+              mouse_event(0x0004, 0, 0, 0, UIntPtr.Zero);
+            }
+            public static void DblClick(int x, int y) { Click(x, y); Click(x, y); }
+            public static void Esc() {
+              keybd_event(0x1B, 0, 0, UIntPtr.Zero);
+              keybd_event(0x1B, 0, 2, UIntPtr.Zero);
+            }
+          }
+          "@
+          Push-Location og-codebase
+          $proc = Start-Process -FilePath ".\DRW.exe" -WorkingDirectory (Get-Location) -PassThru
+          Pop-Location
+          "launched pid=$($proc.Id)" | Out-File interaction_launch.txt -Encoding utf8
+          Start-Sleep -Seconds ${{ inputs.wait_seconds }}
+          # click "Search for Lost Data" (bottom-right of landing, proven)
+          $drw = Get-Process DRWUI -ErrorAction SilentlyContinue | Where-Object {$_.MainWindowHandle -ne 0} | Select-Object -First 1
+          if ($drw) {
+            $r = New-Object ClickHelper+RECT
+            [ClickHelper]::GetWindowRect($drw.MainWindowHandle, [ref]$r) | Out-Null
+            $w = $r.R - $r.L; $h = $r.B - $r.T
+            $cx = $r.L + [int]($w * 0.90); $cy = $r.T + [int]($h * 0.92)
+            [ClickHelper]::Click($cx, $cy)
+            "scan click at ($cx,$cy) window ${w}x${h}" | Out-File interaction_launch.txt -Append -Encoding utf8
+          } else { "no DRWUI window at scan click" | Out-File interaction_launch.txt -Append -Encoding utf8 }
+
+      - name: Wait for scan completion
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Continue'
+          Start-Sleep -Seconds ${{ inputs.scan_wait }}
+          "waited ${{ inputs.scan_wait }}s" | Out-File scan_wait.txt -Encoding utf8
+
+      - name: Interaction sequence
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Continue'
+          $V = '${{ matrix.variant }}'
+          Add-Type -TypeDefinition @"
+          using System;
+          using System.Runtime.InteropServices;
+          public class ClickHelper2 {
+            [DllImport("user32.dll")] public static extern bool SetCursorPos(int x, int y);
+            [DllImport("user32.dll")] public static extern void mouse_event(uint dwFlags, uint dx, uint dy, uint dwData, UIntPtr dwExtraInfo);
+            [DllImport("user32.dll")] public static extern void keybd_event(byte vk, byte scan, uint flags, UIntPtr extra);
+            [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr h, out RECT r);
+            [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
+            public static void Click(int x, int y) {
+              SetCursorPos(x, y);
+              mouse_event(0x0002, 0, 0, 0, UIntPtr.Zero);
+              mouse_event(0x0004, 0, 0, 0, UIntPtr.Zero);
+            }
+            public static void DblClick(int x, int y) { Click(x, y); Click(x, y); }
+            public static void Esc() {
+              keybd_event(0x1B, 0, 0, UIntPtr.Zero);
+              keybd_event(0x1B, 0, 2, UIntPtr.Zero);
+            }
+          }
+          "@
+          function Shot($name) {
+            try {
+              Add-Type -AssemblyName System.Windows.Forms,System.Drawing
+              $b = [System.Windows.Forms.SystemInformation]::VirtualScreen
+              $bmp = New-Object System.Drawing.Bitmap($b.Width, $b.Height)
+              $g = [System.Drawing.Graphics]::FromImage($bmp)
+              $g.CopyFromScreen($b.X, $b.Y, 0, 0, $bmp.Size)
+              $bmp.Save("shot_$name.png", [System.Drawing.Imaging.ImageFormat]::Png)
+              $g.Dispose(); $bmp.Dispose()
+              "captured shot_$name.png" | Write-Host
+            } catch { "shot $name FAILED: $_" | Write-Host }
+          }
+          function WinRect() {
+            $drw = Get-Process DRWUI -ErrorAction SilentlyContinue | Where-Object {$_.MainWindowHandle -ne 0} | Select-Object -First 1
+            if (-not $drw) { return $null }
+            $r = New-Object ClickHelper2+RECT
+            [ClickHelper2]::GetWindowRect($drw.MainWindowHandle, [ref]$r) | Out-Null
+            return $r
+          }
+          function WClick($fx, $fy) {
+            $r = WinRect
+            if ($r) {
+              $w = $r.R - $r.L; $h = $r.B - $r.T
+              $cx = $r.L + [int]($w * $fx); $cy = $r.T + [int]($h * $fy)
+              [ClickHelper2]::Click($cx, $cy)
+              "click ($cx,$cy) = ${fx}w/${fy}h" | Write-Host
+            } else { "WClick: no window" | Write-Host }
+          }
+          $log = @()
+          $log += "=== variant: $V ==="
+
+          # baseline: scan-complete modal should be up
+          Shot "10_complete_modal"
+          $log += "baseline complete-modal captured"
+
+          if ($V -eq 'recovery-flow') {
+            # 1) Go to Recover (blue button center, pixel-verified 494,473 of 1024x720)
+            Start-Sleep -Seconds 2
+            WClick 0.4824 0.6569
+            Start-Sleep -Seconds 5
+            Shot "20_after_go_to_recover"
+            $log += "clicked Go to Recover"
+            # 2) ESC attempt to close whatever dialog opened
+            [ClickHelper2]::Esc()
+            Start-Sleep -Seconds 2
+            Shot "21_after_esc"
+            $log += "ESC after go-to-recover"
+            # 3) Recover All bottom-bar button (0.895w/0.951h)
+            WClick 0.8945 0.9514
+            Start-Sleep -Seconds 5
+            Shot "22_after_recover_all"
+            $log += "clicked Recover All"
+            # 4) ESC again
+            [ClickHelper2]::Esc()
+            Start-Sleep -Seconds 2
+            Shot "23_after_esc2"
+            $log += "ESC after recover-all"
+          } else {
+            # results-interactions: dismiss modal first
+            [ClickHelper2]::Esc()
+            Start-Sleep -Seconds 2
+            Shot "20_after_esc_modal"
+            $log += "ESC to dismiss complete modal"
+            # Filter button (toolbar cluster ~755,70)
+            WClick 0.7373 0.0972
+            Start-Sleep -Seconds 2
+            Shot "21_after_filter_click"
+            $log += "clicked Filter"
+            [ClickHelper2]::Esc()
+            Start-Sleep -Seconds 1
+            # Type tab (234,117)
+            WClick 0.2285 0.1625
+            Start-Sleep -Seconds 3
+            Shot "22_after_type_tab"
+            $log += "clicked Type tab"
+            # Path tab back (140,117)
+            WClick 0.1367 0.1625
+            Start-Sleep -Seconds 2
+            Shot "23_after_path_tab"
+            $log += "clicked Path tab"
+            # single-click a file row (list area ~600,200)
+            WClick 0.5859 0.2778
+            Start-Sleep -Seconds 2
+            Shot "24_after_row_click"
+            $log += "single-clicked file row"
+            # double-click for preview window
+            WClick 0.5859 0.2778
+            Start-Sleep -Milliseconds 120
+            WClick 0.5859 0.2778
+            Start-Sleep -Seconds 5
+            Shot "25_after_row_dblclick"
+            $log += "double-clicked file row (preview attempt)"
+          }
+          $log | Out-File interaction_log.txt -Encoding utf8
+          Get-Content interaction_log.txt
+
+      - name: Window census (user32)
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Continue'
+          try {
+            Add-Type -TypeDefinition @"
+          using System;
+          using System.Runtime.InteropServices;
+          using System.Text;
+          using System.Collections.Generic;
+          public class WinEnum3 {
+            [DllImport("user32.dll")] static extern bool EnumWindows(EnumWindowsProc cb, IntPtr lp);
+            [DllImport("user32.dll")] static extern int GetWindowText(IntPtr h, StringBuilder sb, int n);
+            [DllImport("user32.dll")] static extern int GetClassName(IntPtr h, StringBuilder sb, int n);
+            [DllImport("user32.dll")] static extern bool IsWindowVisible(IntPtr h);
+            [DllImport("user32.dll")] static extern uint GetWindowThreadProcessId(IntPtr h, out uint pid);
+            [DllImport("user32.dll")] static extern bool GetWindowRect(IntPtr h, out RECT r);
+            [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
+            delegate bool EnumWindowsProc(IntPtr h, IntPtr lp);
+            public static List<string> Results = new List<string>();
+            static bool Cb(IntPtr h, IntPtr lp) {
+              uint pid; GetWindowThreadProcessId(h, out pid);
+              if (IsWindowVisible(h)) {
+                var t = new StringBuilder(256); GetWindowText(h, t, 256);
+                var c = new StringBuilder(256); GetClassName(h, c, 256);
+                RECT r; GetWindowRect(h, out r);
+                if (t.Length > 0)
+                  Results.Add(string.Format("pid={0} hwnd=0x{1:X} class={2} title={3} rect=({4},{5})-({6},{7})",
+                    pid, h.ToInt64(), c, t, r.L, r.T, r.R, r.B));
+              }
+              return true;
+            }
+            public static void Go() { EnumWindows(Cb, IntPtr.Zero); }
+          }
+          "@
+            [WinEnum3]::Go()
+            [WinEnum3]::Results | ForEach-Object { Write-Host $_ }
+            [WinEnum3]::Results | Out-File windows_census.txt -Encoding utf8
+          } catch {
+            Write-Host "user32 enum failed: $_"
+            "user32-enum-failed: $_" | Out-File windows_census.txt -Encoding utf8
+          }
+          Get-Process | Where-Object {$_.ProcessName -match 'DRW|EaseUS|EU'} |
+            Select-Object Id,ProcessName,MainWindowTitle,MainWindowHandle |
+            Format-Table -AutoSize | Out-File processes.txt -Encoding utf8
+
+      - name: Late screenshot + app logs
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Continue'
+          try {
+            Add-Type -AssemblyName System.Windows.Forms,System.Drawing
+            $b = [System.Windows.Forms.SystemInformation]::VirtualScreen
+            $bmp = New-Object System.Drawing.Bitmap($b.Width, $b.Height)
+            $g = [System.Drawing.Graphics]::FromImage($bmp)
+            $g.CopyFromScreen($b.X, $b.Y, 0, 0, $bmp.Size)
+            $bmp.Save("shot_30_late.png", [System.Drawing.Imaging.ImageFormat]::Png)
+            $g.Dispose(); $bmp.Dispose()
+          } catch { Write-Host "late shot failed: $_" }
+          Get-ChildItem "og-codebase/*.log" -ErrorAction SilentlyContinue |
+            ForEach-Object { Copy-Item $_.FullName ("applog_" + $_.Name) -ErrorAction Continue }
+          Get-ChildItem "og-codebase/Eaolog*" -ErrorAction SilentlyContinue |
+            ForEach-Object { Copy-Item $_.FullName ("applog_" + $_.Name) -ErrorAction Continue }
+          Get-ChildItem "og-codebase/log" -ErrorAction SilentlyContinue |
+            ForEach-Object { Copy-Item $_.FullName ("applog_log_" + $_.Name) -ErrorAction Continue }
+
+      - name: Upload interaction evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-interaction-${{ matrix.variant }}
+          path: |
+            interaction_launch.txt
+            interaction_log.txt
+            scan_wait.txt
+            windows_census.txt
+            processes.txt
+            shot_*.png
+            applog_*
+          if-no-files-found: ignore
