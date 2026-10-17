@@ -93,39 +93,38 @@ jobs:
           import ghidra.program.model.mem.MemoryBlock;
           import java.io.*;
           import java.util.*;
-
+          
           public class ExportAll extends GhidraScript {
               @Override
               public void run() throws Exception {
                   String outDir = getScriptArgs().length > 0 ? getScriptArgs()[0] : "/tmp/out";
                   new File(outDir).mkdirs();
                   String progName = currentProgram.getName().replaceAll("\\.[^.]+$", "");
-
+          
                   // 1. Function inventory
                   PrintWriter fw = new PrintWriter(new BufferedWriter(new FileWriter(outDir + "/" + progName + "_functions.txt")));
                   for (Function f : currentProgram.getFunctionManager().getFunctions(true)) {
                       fw.println(f.getEntryPoint() + "\t" + f.getBody().getNumAddresses() + "\t" + f.getSignature(true).toString());
                   }
                   fw.close();
-
+          
                   // 2. Memory blocks / sections
                   PrintWriter mw = new PrintWriter(new BufferedWriter(new FileWriter(outDir + "/" + progName + "_blocks.txt")));
                   for (MemoryBlock b : currentProgram.getMemory().getBlocks()) {
-                      mw.println(b.getName() + "\t" + b.getStart() + "\t" + b.getEnd() + "\t" + b.getSize() + "\t" + (b.isExecute() ? "X" : "-") + (b.isWrite() ? "W" : "-") + (b.isInitializedMemory() ? "I" : "-"));
+                      mw.println(b.getName() + "\t" + b.getStart() + "\t" + b.getEnd() + "\t" + b.getSize() + "\t" + (b.isExecute() ? "X" : "-") + (b.isWrite() ? "W" : "-") + (b.isInitialized() ? "I" : "-"));
                   }
                   mw.close();
-
+          
                   // 3. Imports
                   PrintWriter iw = new PrintWriter(new BufferedWriter(new FileWriter(outDir + "/" + progName + "_imports.txt")));
                   for (Symbol s : currentProgram.getSymbolTable().getExternalSymbols()) {
                       iw.println(s.getName(true));
                   }
                   iw.close();
-
+          
                   // 4. Full decompilation of defined functions (skip thunks/externals)
                   DecompInterface di = new DecompInterface();
                   DecompileOptions opts = new DecompileOptions();
-                  opts.setMaxPayloadMBytes(64);
                   di.setOptions(opts);
                   di.openProgram(currentProgram);
                   PrintWriter dw = new PrintWriter(new BufferedWriter(new FileWriter(outDir + "/" + progName + "_decompiled.c")));
@@ -135,7 +134,7 @@ jobs:
                       if (f.isThunk() || f.isExternal()) continue;
                       try {
                           DecompileResults res = di.decompileFunction(f, 120, monitor);
-                          if (res != null && res.deCompileCompleted() && res.getDecompiledFunction() != null) {
+                          if (res != null && res.decompileCompleted() && res.getDecompiledFunction() != null) {
                               dw.println(res.getDecompiledFunction().getC());
                               dw.println();
                               count++;
@@ -147,6 +146,7 @@ jobs:
                   println("Decompiled " + count + " functions for " + progName);
               }
           }
+          
           JAVA_EOF
           # de-indent (heredoc keeps leading spaces; Ghidra needs valid Java)
           sed -i 's/^[[:space:]]*//' ghidra_scripts/ExportAll.java
@@ -178,6 +178,9 @@ jobs:
             if [ $RC -ne 0 ]; then
               echo "::warning::ghidra-failed rc=$RC on $f"
               tail -30 "/tmp/ghidra_${NAME}.log" || true
+            else
+              # Always show script/decompile result line + any errors
+              grep -E "SCRIPT ERROR|Decompiled [0-9]+ functions|error:" "/tmp/ghidra_${NAME}.log" | head -5 || true
             fi
             ls -la "out/ghidra/${{ matrix.batch }}/" | head -5
           done
