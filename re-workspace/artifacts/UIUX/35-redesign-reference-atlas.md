@@ -58,9 +58,31 @@ Behavioral notes: the panel **auto-opens ~60–75 s after landing** and persists
 
 ---
 
-## 4. Drw_More_Menu (hamburger dropdown) — static inventory
+## 4. Drw_More_Menu (hamburger dropdown) — captured open + static inventory
 
-Built by `FUN_140842c40` (QAction + `QVariant::setData(id)`); icons under `Resource/Titlebar/Menu/`:
+**Dynamic capture (round-5)**: panel **x 748–972 (right-aligned under the button), y 64–634** — 13 visible items + 3 separators, items ≈ 42 px tall. Visible order:
+
+| # | Item | Submenu | Note |
+|---|---|---|---|
+| 1 | Language | ▸ | language list |
+| 2 | Help | ▸ | Video Tutorial / Online Help / Contact Support / Feedback / Logs |
+| — | *separator* | | |
+| 3 | Activate | | opens CEnterLicenceDlg (§4b) |
+| 4 | Check for Updates | | |
+| 5 | Share EaseUS to | ▸ | |
+| 6 | Refer Friends | | |
+| — | *separator* | | |
+| 7 | EaseUS File Repair | | product link |
+| 8 | EaseUS Todo Backup Free | | product link |
+| 9 | ChatPDF | | product link |
+| — | *separator* | | |
+| 10 | Settings | ▸ | quick-settings submenu (theme/DPI family) |
+| 11 | User Survey | | **red-dot notification badge** |
+| 12 | About | | |
+
+(Item centers: x=860; y = 87/131/177/221/275/319/375/429/473/529/573/607.)
+
+Static inventory (built by `FUN_140842c40`, QAction + `QVariant::setData(id)`; icons under `Resource/Titlebar/Menu/`) — items not visible in the Free-build landing state are conditional (Add Driver 0xC, Import/Save Scan Result 0x10/0xF appear in scan/results states):
 
 | Item | Action ID | Icon | Behavior |
 |---|---|---|---|
@@ -169,13 +191,15 @@ Toolbar row (y ≈ 55–105):
 | **Filter** (funnel + label) | 695–780 | **(737, 80)** |
 | **Search** ("Search files or folders") | 792–980 | **(886, 80)** |
 
-Filter bar (toggle-visible, y ≈ 120–180): **Path dropdown** center **(72, 160)**, **Type dropdown** center **(200, 160)**.
+Filter bar (toggle-visible, y ≈ 120–180): **Path dropdown** center **(72, 160)**, **Type dropdown** center **(200, 160)**. Captured layout (round-5): **Show / File Type / Date Modified / File Size** dropdowns + **AI Recommend toggle** at right; the Path dropdown opens the location tree (Windows (C:) 1.1M / File Path Lost / …).
 
 List header (y ≈ 215–265): select-all checkbox (~297,240) + sortable columns Name / Date Modified / Type (Size) with sort indicators (`CListHeaderView`, artifact 20 §5).
 
 Bottom bar: checkmark-circle icon (18–74, 618–712) + "Scan Completed, Files Found: N (size)" + **Recover All...** → contextual **Recover...** on selection (box 808–976 × 615–720, center **(892, 668)**).
 
-**Row-selection dynamics** (dynamic-verified): single-click → checkbox fills blue + details pane updates (name/size/path) + bottom CTA changes "Recover All ..." → "Recover ..." + view-toggle icon state; double-click → live preview panel (below).
+**Row-selection dynamics** (dynamic-verified): single-click → checkbox fills blue + details pane updates (name/size/path) + bottom CTA changes "Recover All ..." → "Recover ..." + view-toggle icon state; double-click → live preview panel.
+
+**Search state** (captured): breadcrumb becomes **"Search results for system"** + a removable filter chip with ✕ next to the Filter button.
 
 **Right-click context menu** (CShowContextMenu; captured ×3 runs):
 
@@ -227,7 +251,7 @@ Menu geometry (measured): panel x 300–734, y 375–636 for a mid-list right-cl
 
 ## 11. Preview subsystem (visible surfaces)
 
-- **Live preview panel** (double-click row): thumbnail + "Recovery Chances: High" circular gauge (the `CCheckNodeThread` grading visualized) + Existing status + name/size/path/date fields
+- **Live preview panel** (double-click row): thumbnail + "Recovery Chances: High" circular gauge (the `CCheckNodeThread` grading visualized) + Existing status + name/size/path/date fields. **Content rendering captured**: HTML/text files render their SOURCE inline (index.html doctype/head visible in-panel) — the RtfTxt stub path; images render as thumbnails (prior capture)
 - **PreviewMainDialog** (context-menu Preview item, 2nd at (715,395)): modal `exec()` under the Freeze protocol, `PreviewWindowStackedWidget` hosts per-format windows (Image/Video/RtfTxt/Archive), 15 s free-tier video cap, Loading→Failure/Content tri-states, repair compare mode (`RepairPreviewCompareWnd` before/after)
 - Free-tier banner copy: "Preview only. Unlock Pro to enjoy full features and unlimited recovery."
 
@@ -249,6 +273,7 @@ Menu geometry (measured): panel x 300–734, y 375–636 for a mid-list right-cl
 12. **The main window can spontaneously minimize** (census: rect −32000,−32000) — a restore-resilient driver (ShowWindow SW_RESTORE + SetForegroundWindow before every shot/click) is mandatory.
 13. **Context-menu Recover on huge selections → retention gate**, not destination dialog — select a single row for the real destination flow.
 14. **Space check precedes recovery**: Save with insufficient destination → the space gate (Continue = proceed anyway / Reselect = back).
+15. **The retention gate RECURS during results browsing** (timed nag with 1.1M unrecovered files — re-fired repeatedly in round-5) — a redesign must model it as a recurring interruption, not a one-shot.
 
 ---
 
