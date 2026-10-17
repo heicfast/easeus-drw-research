@@ -17,8 +17,10 @@ All files at install root / config/ — what each does, parsed contents, and whi
 - Includes offset-based checks (e.g. `"doc": ["0,0D444F43", "0,CF11E0A1B11AE100", "512,ECA5C100"]` — OLE + Word6 + others)
 - Consumer: file-type identification for preview + repair routing
 
-### Dict (~8KB) — password brute-force dictionary
-- ~350 common passwords ("12345678", "password", "iloveyou", "1qaz2wsx", corporate-style entries, celebrity/cartoon names) — classic leaked-credential-list derivative
+### Dict (2,742 B, 228 entries — byte-verified) — password brute-force dictionary
+- 228 comma-terminated password lines ("12345678", "11111111", "00000000", "123123123",
+  "1234567890", … numeric-first then common word passwords; corporate-style entries,
+  celebrity/cartoon names) — classic leaked-credential-list derivative
 - Consumer: encrypted-file recovery (BitLocker password unlock via BitLockerLib, encrypted HWPX via EuOfficeRepairFile's aesOperate, protected archives)
 
 ## Filtering & categorization
@@ -83,3 +85,14 @@ All files at install root / config/ — what each does, parsed contents, and whi
 - raw_signs.json + EUUserData + RawConfig.ini + FileFilter.xml + usefullostfiles.xml together define the full classification/recovery pipeline from signature detection to UI presentation
 - Dict ties to BitLockerLib (manage-bde -Password) + EuOfficeRepairFile (encrypted HWPX)
 - dlconfig.xml + PEtools.xml + PE_Tools.dll + EuDownloader.exe + Burn.dll = the bootable-media subsystem
+
+---
+
+## Independent verification note (doc-session)
+
+Counts re-verified byte-for-byte against the shipped files: raw_signs.json = **139
+extensions** (46 with tail signs) ✓; FileFilter.xml = **8 FileCategory / 1489
+`<Extention>` elements** (the "Extention" typo is in the XML tag itself) ✓; Dict =
+2,742 bytes / **228 comma-terminated entries** (corrected from earlier "~8KB / ~350"
+estimate) ✓; EUUserData = 16,891 B ✓. Verification script: direct json/ElementTree
+parse of `og-codebase/` files.
