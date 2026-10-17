@@ -446,3 +446,29 @@ Stage Summary:
   100% string-verified); workflows hardened through 6 iterations
 - Remaining queue: per-binary deepening second passes, driver per-IRP artifacts, results-
   interaction dynamic capture, X3f section checkers, deeper WinPE module reads
+
+---
+Task ID: resume-3 (verification + expansion wave 2)
+Agent: Main RE Session
+Task: Verification artifacts + long-scan ground truth + remaining subsystem families
+
+Work Log:
+- Long-scan ground truth addendum (420s run): 34%/7min, Reconstructed 1->16 = LIVE CARVING FEED
+  runtime-verified, Pause/Stop + Recover-All controls, remaining-time + sector ticker verbatim
+- EPMNtDrv trio byte-diff verification: same source family, THREE separate compilations
+  (2907/9703 diff bytes, 456B eprdtdrv appendix, code register variance) — claim refined
+- GetDriverInfo decode: TB-MOM module, drive-LETTER topology (naming trap documented)
+- DRWUI thread-architecture: 45 named threads by subsystem, _ThreadImg loader handshake,
+  CommonThreadPoolMgr, connector-triple pattern (NAS/Linux/SBackup)
+- X3f section-checker walk (SECi/SECe/SECm/SECp/SECc grammar, 12-site type taxonomy)
+- SetupUE+InfoForSetup installer pair (16-OS gate, Inno lineage, /SendInfo telemetry,
+  DRW_Installer window identified as EuSendMessage target)
+- HWP path-checker, Burn IMAPI2 + real-time streaming mode, DiskHealth CrystalDiskInfo
+  lineage, EUArchiveRepair 7z engine, language family (Mainland OEM set-analysis),
+  filtering-priority config layer (5-file pipeline)
+- INDEX refreshed (14 family rows); all pushed
+
+Stage Summary:
+- 247 artifacts total; dynamic ground truth spans splash->landing->scan(9%)->scan(34%, 7min)
+- All work committed to heicfast/easeus-drw-research (single active session now)
+- Next: results-interaction capture, engine cross-verification matrix, deeper per-binary passes
