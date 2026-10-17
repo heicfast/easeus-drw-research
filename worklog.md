@@ -170,3 +170,20 @@ Session deliverables (all committed & pushed, conflict-free via pull --rebase):
   record-1/3 bitfield mapping, FileRepair/repair-architecture per-engine deep-dives
   (ImageRepair per-format grammar walks), EuShare exact SSH-forward port from
   libssh2 dynamic call sites, DRWUI RTTI-class-by-class documentation depth
+
+---
+Task ID: uiux-2 (session completion)
+Agent: UI/UX Research Agent (session 2)
+Task: UI/UX deep-dive completion — artifacts + top-level architecture doc
+
+Work Log:
+- Mined DRWUI decompiled code with class attribution toolchain (vtable map 980 classes/8022 methods; binary ctor scan 2364; symbol ctors 1383; callgraph propagation)
+- Decoded DrwMainViewManagerWizard completely: QStackedWidget with 4 pages [DrwHomePage, DrwLostDiskPage, PeripheralHomeView(default idx 2), CDetailPage], 17 moc slots, scanClickedSlot transition chain with CVersionCtrl/service/telemetry hops
+- Decoded CDetailPage: 42-slot dispatcher, 30-signal contract, setScanDevice chain (orchestrator vft+0x18 = scan start)
+- Extracted per-class UI text (tr callsites): home tiles (14), scan dialogs (CScanCommonPopDlg 25 strings), 5 special tree branches with coaching copy, recovery funnel strings, Free-vs-Pro matrices, VIP copy
+- Analyzed styling: 118-slot themdark.ini palette (light #0560fd / dark #5094fd), window sizes 1240x840/800x600/max, font stacks, QSS layout metrics
+- Wrote 13 UIUX artifacts + architecture/05-uiux-architecture.md
+
+Stage Summary:
+- COMPLETE UI/UX documentation set: visual (7,400 assets), strings (1,556x25 langs + 18,939 binary strings), classes (141 windows), userflow (view manager + scan chain), styling (palette+geometry), dialogs (51 classes + 195 telemetry events), per-phase deep dives (home/scan/results/preview/recovery/repair), UI-to-core wiring (singletons, signals, threads, state)
+- All committed and pushed; scripts persisted in scripts/ for re-runs
