@@ -20,25 +20,23 @@ CCheckExFatPartition, CCheckBitlockerPartition in DRWUI RTTI pair with these fix
 ### CRawFixer (facade, rawfixer.cpp)
 | Method | Role |
 |---|---|
-| `Start` | begin fix session |
+| `Start` | begin fix session (trace: rawfixer.cpp:0x169; "Fix failed: {}\n" error-catch at 0x191) |
 | `CheckPartition` | probe FS type + damage assessment → dispatch to per-FS fixer |
 
-### NTFSFixer (ntfsfixer.cpp)
-| Method | Role |
+### Complete method inventory (extracted from scoped-logger strings — byte-exact, supersedes partial lists)
+
+| Fixer | Methods (all verified in RawFixer_decompiled.c) |
 |---|---|
-| `CheckDBR` / `FixDBR` / `FixFromDBR` / `UpdateDBR` | validate/repair/restore-from/rebuild the NTFS boot sector (DBR). FixFromDBR = restore using the NTFS backup boot sector (sector 65537-ish mirror) or a rebuilt one |
-| `CheckMFT` | validate $MFT header/records reachable from DBR values |
-| `IsValidRootDir` | root directory sanity |
-| `FixByScanSector` | **sector-scan fallback**: when boot metadata is unrecoverable, scan the disk to relocate the MFT / key structures by content |
-| `CheckSector` | sector-level validation during scans |
-| `Undo` | rollback all writes |
+| **NTFSFixer** | CheckDBR, CheckMFT, CheckSector, FixByScanSector, FixDBR, FixFromDBR, IsValidRootDir, UpdateDBR, Undo |
+| **FATFixer** | CheckBackupDBR, CheckCluster, CheckDBR, CheckFatTable, CheckRootDir, CheckSector, FixByScanSector, FixFromDBR, IsValidDBR, UpdateDBR, Undo |
+| **ExFATFixer** | CheckDBR, CheckMustBeZero, CheckRoot, CheckSector, **ChecksumDBR**, **CopySectors**, FixByScanSector, FixDBR, FixFromDBR, ReadCluster, **TryFixFromSectorsPerCluster**, UpdateDBR |
 
-### FATFixer (fatfixer.cpp)
-`CheckDBR`, `IsValidDBR`, `CheckFatTable` (FAT1/FAT2 consistency), `CheckRootDir`,
-`CheckCluster`, `CheckBackupDBR` (backup boot sector), `FixFromDBR`, `UpdateDBR`, `Undo`.
-
-### ExFATFixer (exfatfixer.cpp)
-`FixFromDBR`, `FixDBR`, `UpdateDBR`, `ReadCluster` (cluster-chain access during fix), `Undo`.
+Newly documented vs. prior version: FATFixer::FixByScanSector + CheckSector (FAT has the deep
+sector-scan fallback too, not just NTFS); ExFATFixer::CheckMustBeZero (exFAT's must-be-zero
+DBR fields validation), ChecksumDBR (exFAT boot-sector **CRC32 checksum** verification —
+exFAT is the only fixer with a self-verifying boot sector), CopySectors (sector image
+snapshot for Undo), TryFixFromSectorsPerCluster (heuristic repair when the sectors-per-
+cluster field is corrupt — derives geometry from content scan).
 
 ### RawInfoCollector (rawinfocollector.cpp)
 Gathers disk/volume geometry + raw sector evidence used by the fixers (sector sizes,
