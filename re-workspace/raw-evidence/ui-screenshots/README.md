@@ -29,6 +29,7 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `landing-sidebar-lostpartition-page.png` — Lost Partition Rescue page (DrwLostDiskPage): lost-disk selection UI
 - `landing-sidebar-chronosnap-page.png` — ChronoSnap Backup page: disk-image/backup feature UI
 - `landing-desktop-tile-clicked.png` — Desktop tile clicked (selection state)
+- `landing-sidebar-moretools-confirm.png` — More Recovery Tools page (round-8 confirmation capture)
 
 ## 03-scan-phase
 
@@ -83,4 +84,5 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `recovery-insufficient-space-gate.png` — INSUFFICIENT SPACE GATE (Save with 146GB need on 3.9GB-free D:): "Need an additional 146.41 GB" + Continue/Reselect
 - `recovery-retention-gate-v2.png` — Retention gate via context-menu Recover on 1.1M files (round-4 variant)
 - `recovery-retention-gate-recurrent.png` — RECURRENCE proof: retention gate re-fires during results browsing (timed nag behavior)
+- `retention-gate-landing-nag.png` — RetentionActiveDlg firing ON THE LANDING PAGE (no scan) - periodic-nag proof: interrupts menu-item clicks
 

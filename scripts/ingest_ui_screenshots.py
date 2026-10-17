@@ -145,6 +145,11 @@ MANIFEST = [
      'ChronoSnap Backup page: disk-image/backup feature UI'),
     ('/tmp/atlas-landing6/shot_32_desktop_tile.png', '02-landing', 'landing-desktop-tile-clicked.png',
      'Desktop tile clicked (selection state)'),
+    # ---- rounds 7-8 (retention periodic proof + sidebar confirmation) ----
+    ('/tmp/atlas-landing7/shot_10_language.png', '07-recovery', 'retention-gate-landing-nag.png',
+     'RetentionActiveDlg firing ON THE LANDING PAGE (no scan) - periodic-nag proof: interrupts menu-item clicks'),
+    ('/tmp/atlas-landing8/shot_25_sidebar_moretools.png', '02-landing', 'landing-sidebar-moretools-confirm.png',
+     'More Recovery Tools page (round-8 confirmation capture)'),
 ]
 
 def main():

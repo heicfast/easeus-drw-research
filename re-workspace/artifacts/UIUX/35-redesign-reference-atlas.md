@@ -298,17 +298,22 @@ Menu geometry (measured): panel x 300–734, y 375–636 for a mid-list right-cl
 | Celebration modal | ✓ `04-scan-complete/` | complete |
 | Results baseline / filter bar / tabs / row select | ✓ `05-results/` | complete |
 | Context menu (6 items) | ✓ `05-results/` | open state |
-| Icon (grid) view | round-5 | pending |
-| Filter dropdown CONTENTS | round-5 | pending (static list §9 ready) |
-| Search active state | round-5 | pending |
-| PreviewMainDialog | round-5 | pending (menu item mapped at (517,440)) |
+| Icon (grid) view | ⚠ partial | toggle mapped (667,80); full grid capture blocked by periodic retention gate |
+| Filter bar + Path dropdown | ✓ `05-results/` | captured (Show/Type/Date/Size + AI toggle + location tree) |
+| Search active state | ✓ `05-results/` | captured ("Search results for system" + filter chip) |
+| PreviewMainDialog | ⚠ trigger mapped | context-menu item (517,440); exec-flow statically decoded (§11); blocked by gate in captures |
 | Destination dialog + Cloud tab + folder picker + repair toggle | ✓ `07-recovery/` | complete (round-4) |
 | Insufficient-space gate | ✓ `07-recovery/` | captured |
-| Recovery progress dialog | round-5 | pending (single-folder C: flow) |
-| Activate dialog (CEnterLicenceDlg) | ✓ `02-landing/` | captured |
-| Hamburger menu open + Settings/About/Language/Theme dialogs | round-5 | pending (inventory §4 ready) |
+| Recovery progress dialog | ⚠ | space-gate variant captured; clean progress blocked by gate timing |
+| Activate dialog (CEnterLicenceDlg) | ✓ `02-landing/` | captured + input-focus state |
+| Hamburger menu OPEN | ✓ `02-landing/` | captured (13 items + 3 separators, positions §4) |
+| Language/Help/Settings submenus, About/CheckUpdates dialogs | ⚠ static inventory | menu-item dialogs blocked by the periodic retention gate in 3 rounds — inventory + action IDs ready (§4) |
+| Dark theme | ⚠ | Theme submenu mapped (menu_ico_Dark); switch blocked by gate; RCC dark bundle fully extracted (artifact 01) |
+| Sidebar pages (all 5) | ✓ `02-landing/` | complete (round-6) |
 | Repair wizard pages | future | entry mapped (sidebar + AI option 2) |
 | NAS / BitLocker / lost-disk flows | static only | artifacts 15 |
 | Dark theme variants | future | Theme submenu mapped (§4) |
+
+**Library**: `re-workspace/raw-evidence/ui-screenshots/` — 63 organized captures across 7 areas (01-splash, 02-landing, 03-scan-phase, 04-scan-complete, 05-results, 06-preview, 07-recovery) + the per-run raw dirs (`ui-atlas-*`, `ui-interaction-*`, `ui-ground-truth-*`). Driver: `.github/workflows/ui-screenshot-atlas.yml` (11 revisions; the gate-aware v11 embeds every lesson above).
 
 Cross-links: artifacts 04 (state machine), 05 (styling), 07–12 (phase deep-dives), 24/30 (prior dynamic runs), 31 (filter chain), 34 (toolbar chrome). Coordinate conventions: all positions window-relative on the 1024×735 runner client; verify per-resolution before reuse.
