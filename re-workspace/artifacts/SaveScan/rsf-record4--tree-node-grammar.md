@@ -1,8 +1,20 @@
 # .rsf Record 4 — Result-Tree Serialization Grammar (per-node format)
 
-**Binary**: DRWUI.exe — `FUN_1400d40c0` (group serializer), `FUN_1400d6fa0` (data-node writer), node factory `switchD_1400d6e9c`, `FUN_1405f5150` (ReFS/NTFS DataRunList deserializer)
-**Evidence**: Ghidra decompilation lines 186446–186680, 188930–188999, 992809–992890; builds on `rsf-format--scan-session.md` §5.4 (writer chain) and doc-3's record-1/2/3 field schemas
-**Role**: Closes the worklog open item "record-4 per-node tree grammar" — the exact byte grammar of the 36 MB expanded result-tree blob that `Load Scan Session` re-materializes without rescanning.
+> **RECONCILIATION (supersedes the preliminary reading below)**: the writer `FUN_1400d40c0` is
+> trace-string-identified as **`CFileNodeRS::SaveFileTree`** (BFS, marker=class selector:
+> 0=`CFileNode` 147B / 1=`CFileSystemNode` 0x290B, end-of-children sentinel 0xFFFFFFFF), and the
+> full grammar is **byte-exact-validated against all 3 shipped samples** by
+> `scripts/rsf_record4_grammar.py` in `rsf-format--scan-session.md` §5.4 (36.0/29.9/226.7 MB,
+> 1,986,806 nodes total; roots: 'Local Disk(I:)', 'File Path Lost', 'Reconstructed').
+> The IFileProperties content family resolves to 10 per-FS classes (NTFS/FAT/RAW/exFAT/HFS+×2/
+> ReFS/Btrfs/EXT4/Generic/Zfs; type 0xB never persisted). The artifact below remains valid as the
+> **group-framing + factory + progress companion decode** — its type-code table and datarun
+> reading match the validated grammar; treat `rsf-format--scan-session.md` §5.4 as the
+> authoritative node-grammar reference.
+
+**Binary**: DRWUI.exe — `FUN_1400d40c0` (group serializer = `CFileNodeRS::SaveFileTree`), `FUN_1400d6fa0` (IFileProperties writer), node factory `switchD_1400d6e9c`, `FUN_1405f5150` (ReFS/NTFS DataRunList deserializer)
+**Evidence**: Ghidra decompilation lines 186446–186680, 188930–188999, 992809–992890; builds on `rsf-format--scan-session.md` §5.4 (writer chain + validated parser) and doc-3's record-1/2/3 field schemas
+**Role**: Companion decode for the record-4 tree blob — group framing, node-type factory, extent encoding, and progress mapping; the .rsf blob that `Load Scan Session` re-materializes without rescanning.
 
 ---
 
