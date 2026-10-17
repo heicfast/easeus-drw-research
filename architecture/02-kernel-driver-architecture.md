@@ -12,8 +12,8 @@
 | `PartitionRecovery/eprdtdrv_win7older.sys` | 27,272 | epmntdrv.pdb | same | Same driver built for Win7 and older |
 | `BUILDPE/.../system32/ebrntdrv.sys` | 27,272 | epmntdrv.pdb | same | Same driver, WinPE deployment, renamed "ebrntdrv" (E(u) BR NT DRV) |
 | `BUILDPE/.../system32/epmdkdrv.sys` | 27,272 | epmntdrv.pdb | same | Same driver, WinPE deployment, renamed "epmdkdrv" (EPM DK DRV) |
-| `BUILDPE/.../drivers/EUDCPEPM.sys` | 72,144 | `_epm_main_/sharelib/dc` (disk-copy sharelib) | `\Device\%s` dynamic | **Device-stack HOOK driver** (disk copy / volume lock) |
-| `BUILDPE/.../drivers/EUEDKEPM.sys` | 19,408 | same sharelib | `\Device\%s` dynamic | Smaller hook variant (EDK = EaseUS Deploy Kit) |
+| `BUILDPE/.../drivers/EUDCPEPM.sys` | 72,144 | `_epm_main_/sharelib/dc` (EuBackup.pdb) | `\Device\%s` dynamic | **Device-stack HOOK driver** (disk copy / volume lock) |
+| `BUILDPE/.../drivers/EUEDKEPM.sys` | 19,408 | same sharelib (EuDskAcs.pdb) | `\Device\EUDKEPM` (reg DeviceName) | **Named raw-disk access door** (PID-token gated, direct \Driver\Disk forwarding; NOT a hook) |
 | `EuShare/EuMrx.sys` | 248KB | EuMrx | `\Device\EuRdr` | **Network redirector mini-driver** (NAS access) |
 
 All are WDK `fre_wlh_amd64` (free/retail, Vista+ ABI, x64) builds, Authenticode-signed (EaseUS = "Chengdu Yiwo Tech Development Co., Ltd").
@@ -58,7 +58,11 @@ Imports `PsGetCurrentProcessId`, `ObReferenceObjectByHandle`, `ZwQueryInformatio
 - "create device object" (2 sites) — control device + per-target devices
 - "print debug messages" (9 sites) — DbgPrint trace logging
 
-## 3. EUDCPEPM / EUEDKEPM — device-stack hook drivers
+## 3. EUDCPEPM / EUEDKEPM — WinPE driver pair from the disk-copy sharelib
+
+(NB: only EUDCPEPM is a *hook* driver — see the EUEDKEPM internals section below for
+its true identity as an independent raw-disk access door, fully decompiled in
+`artifacts/PartitionRecovery/eudcpepm-euedkepm--hook-drivers.md`.)
 
 From strings:
 ```
@@ -110,5 +114,6 @@ DRWUI.exe / PartitionRecovery modules (user mode)
 | How EPMNtDrv maps `EPRDTDRV\{d}\{p}` to devices | **RESOLVED** | `\Volume\{N}` → `IoGetDeviceObjectPointer(\Device\HarddiskVolume{N})` + top-of-stack; `{d}\{p}` → `\Device\Harddisk{d}\Partition0` with `\Device\Harddisk{d}\DR{p}` fallback, then walk-down (`IoGetLowerDeviceObject`) to the disk-class device. 16-byte "esdr" context in FsContext2. §2 of the same artifact. |
 | EuMrx wire protocol | **PARTIALLY RESOLVED** | EuMrx is RDBSS-only (no wire protocol itself); the userspace side tunnels via libssh2 (agent on NAS at /tmp/EaseUS) and EuMrx rewrites opens to `\\127.0.0.1\...` (FileNameInformation handler). Data-channel ports for the *preview* subsystem are 20171/20172 (DRWUI VAPreviewListener — different subsystem). See `artifacts/EuShare/eumrx-nas-architecture.md`. |
 | EUDCPEPM IRP-hook semantics | **RESOLVED (doc-session)** | EUDCPEPM (176 fns, 10,057 lines decompiled) overwrites **ALL 28 MajorFunction slots** with generic hook stub FUN_000120c4, then overrides IRP_MJ_CREATE (FUN_00011f94), IRP_MJ_PNP (FUN_00012f88), IRP_MJ_POWER (FUN_00013170); DriverExtension->AddDevice = FUN_00012014 (the DrvHK attach); DriverUnload = FUN_00011fb4. The stub routes IOCTL-class requests through a decoder that subtracts the registry `IoctlBase` (0x10000 per regdrv.reg) and dispatches a custom code range (0x800C2B00+; trace `"MainDispatch %d code=0x%X"`); non-IOCTL IRPs take the forward path (FUN_00012b70). **Additionally hooks `\Driver\VolSnap`** (VSS volume-snapshot driver — FUN_00018bd0 with `L"\\Driver\\VolSnap"`) for snapshot/volume-lock coordination. |
+| **EUEDKEPM dispatch + identity** | **RESOLVED (this session, line-cited)** | EUEDKEPM = **EuDskAcs.sys** ("Disk Access Driver", EaseUS Todo Backup 5.8 lineage, rebuilt 2024-02-04). Dispatch: CREATE=FUN_000110f8 (PID-token gate + `\Device\Harddisk%u\Partition0` binding, FsContext2 = \Driver\Disk dev from stack walk), READ=FUN_00011858 / WRITE=FUN_000116f4 (async FSD forward, `Information = sectors<<9`), DEVICE_CONTROL=FUN_00011594 (clean pass-through, no custom codes — regdrv `IoctlBase` unused), CLEANUP/CLOSE complete+deref, Unload deletes symlink+device. Service: `Start=1 SYSTEM_START`, `DeviceName="EUDKEPM"` → `\Device\EUDKEPM`. Open-path token = `b0\|(b0+b1)<<8\|(b1+b2)<<16\|(b2+b3)<<24` of caller PID (anti-hijack). **No in-tree opener** — dormant deployment from the EPM/Todo-Backup disk-copy lineage. Full detail: `artifacts/PartitionRecovery/eudcpepm-euedkepm--hook-drivers.md` §EUEDKEPM. |
 
 Remaining open items are tracked in the worklog and the per-driver artifacts.
