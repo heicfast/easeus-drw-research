@@ -417,3 +417,32 @@ Stage Summary:
 - Coverage: decompilation effectively complete (218 "missing" are redistributables, now covered by
   runtime families); open items remaining: Windows-native loader capture, scan-phase dynamic
   (xdotool), per-FS IFileProperties body schemas, X3f Section checkers
+
+---
+Task ID: resume-2 (artifact expansion wave)
+Agent: Main RE Session
+Task: 500+ artifact push: languages, filtering config, repair/DiskHealth families, ground-truth scan-phase
+
+Work Log:
+- Language family artifact (37 qm census, Mainland OEM set-analysis: Foxit=NAS+BitLocker-forward,
+  4 independently-built sub-brand catalogs, qtbase_en empty-header control)
+- filtering-priority--config-layer (5-file pipeline: usefullostfiles 27ext, PriorityDisplayType
+  5cats/35 ordered, FilterFolder noise incl 10-locale New-Folder + BitLocker artifacts,
+  RawConfig per-format carve toggles = analyser registry switches incl video-editor projects
+  DRP/HFP/OSP/WFP, shellexe 25-locale taglines)
+- EUArchiveRepair 7z-engine artifact (CArchive7zInfo + C7zNextHeaderInfo footer repair,
+  bit7z/7z.dll pinned 961c151d 3.10.5, password-aware + Dict)
+- DiskHealth family artifact (CrystalDiskInfo lineage: CAtaSmart SAT-1A/-2/-2A/CSMI/NVMe-Realtek,
+  USB bridge tables, DiskSmart internal name)
+- SCAN-PHASE GROUND TRUTH CAPTURED (click-injected via user32 mouse_event): Advanced Scanning
+  9% + 1.11M files (Quick pass complete -> two-phase model runtime-verified), 3-branch tree
+  LIVE = rsf record-4 roots (Windows(C:)/File Path Lost 4.4K/Reconstructed), Qt5QWindowToolSaveBits
+  indicator window; artifact + raw evidence committed
+- per-.mo-module artifacts x30 (MOM-modules family); analyser families x6; runtime families x10
+
+Stage Summary:
+- Artifact count: 238+ (from 175 at session start); all committed/pushed to heicfast
+- Dynamic ground truth COMPLETE: splash -> landing -> scan-phase (3 capture stages, VLM-decoded,
+  100% string-verified); workflows hardened through 6 iterations
+- Remaining queue: per-binary deepening second passes, driver per-IRP artifacts, results-
+  interaction dynamic capture, X3f section checkers, deeper WinPE module reads
