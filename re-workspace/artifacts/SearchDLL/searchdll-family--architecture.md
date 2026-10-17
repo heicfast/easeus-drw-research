@@ -106,11 +106,18 @@ Quick scan vs deep scan (class structure):
 - [x] Factory exports cross-checked against DRWUI LoadLibrary strings
 - [x] RTTI class families enumerated (re-workspace/rtti_classes.json)
 - [x] Signature DBs (raw_signs.json + EUUserData) parsed and linked to engine
-- [x] Per-engine deep-dive: **NTFS** — `ntfs-engine--deep-dive.md` (algorithm-level:
-      MFT bootstrap/ATTRIBUTE_LIST fork, record-walk filters, deleted-flag bitmap scoring,
-      runlist nibble math, quick-vs-complete, line-cited)
-- [x] Per-engine deep-dive: **RAW** — `rawsearch-carving--deep-dive.md` (registry RB-tree
-      construction, fourcc keys, ForCellTest harness, raw_signs.json istream tokenizer —
-      corrects CJsonObject attribution, PDF/JPEG grammar sites)
-- [ ] Per-engine deep-dive for FAT/exFAT/EXT4/HFS+/ReFS/Btrfs/ZFS — next rounds
-- [ ] Algorithm deep-dives per engine (decompiled code walkthrough) — partially covered by the two above
+- [x] **ALL 9 per-engine deep-dives complete (doc-session)**:
+  - NTFS → `ntfs-engine--deep-dive.md` (MFT bootstrap/ATTRIBUTE_LIST fork, record-walk
+    filters, deleted-bit-4 bitmap scoring, runlist nibble math, quick-vs-complete)
+  - RAW → `rawsearch-carving--deep-dive.md` (RB-tree registry, fourcc keys, ForCellTest
+    harness, raw_signs.json tokenizer, PDF/JPEG grammar)
+  - FAT → `fat-engine--deep-dive.md` (CFAT12/16/32Table, EOC mask families, 0xE5×6 sites,
+    LFN flags, threaded QuickSearchWorker)
+  - exFAT → `exfat-engine--deep-dive.md` (0x8E0 QuickSearch, CQuickSearchAndBuildBitmap,
+    NTFS-class reuse)
+  - HFS+ → `hfsplus-engine--deep-dive.md` (H+/HX signatures, B-tree family, datarun reuse)
+  - EXT4 → `ext4-engine--deep-dive.md` (0xEF53, CatchBuffer bad-sector proxy)
+  - ReFS → `refs-engine--deep-dive.md` (RefsQuickSearchFiles, CRefsResidentDataRunList-rsf tie)
+  - Btrfs → `btrfs-engine--deep-dive.md` (vendor typos, zlib/crc32c capa layer, subvolumes)
+  - ZFS → `zfs-engine--deep-dive.md` (uberblock 0xBAB10C ring, txg selection, CStreamBase)
+- [x] Algorithm deep-dives per engine — COMPLETE (see the nine documents above)

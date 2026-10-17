@@ -68,7 +68,7 @@
 ## Coverage status
 
 - [x] All 7 kernel drivers decompiled + documented (EUDCPEPM IRP-hook semantics RESOLVED — all-28-slots generic hook + VolSnap attach)
-- [x] All 9 FS engines decompiled + documented (NTFS + RAW at algorithm level; FAT/exFAT/EXT4/HFS+/ReFS/Btrfs/ZFS deep-dives pending)
+- [x] All 9 FS engines decompiled + documented at ALGORITHM level (deep-dive per engine in artifacts/SearchDLL/)
 - [x] All 30 .mo MOM modules decompiled + mapped
 - [x] All 19 PartitionRecovery DLLs decompiled (RawFixer + BitLockerLib + pending-ops deep-dived)
 - [x] DRWUI (2.38M lines) + core EXEs + repair chain (17) + misc (22)
@@ -76,7 +76,6 @@
 - [x] Cloud + NAS + BitLocker chains documented
 - [x] Per-binary artifacts generated for every in-tree binary (110+)
 - [x] wave2 CI batch (EuSendMessage, DiskHealth, VideoFileRepairer, MediaGraph, libssh2) ingested
-- [ ] Per-engine algorithm deep-dives for the remaining 7 engines
 - [x] EuICloudRecovery SRP handshake instruction-level verified (authenticate_with_srp + libsrp + idmsa.apple.com/appleauth/auth)
 - [ ] EUEDKEPM dispatch enumeration (35 fns)
 - [ ] Full .rsf record-1/3 bitfield mapping (fields observed, schema partial)
