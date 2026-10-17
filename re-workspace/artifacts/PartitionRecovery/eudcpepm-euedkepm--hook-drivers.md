@@ -6,7 +6,6 @@
 > EUEDKEPM = `d:\epm\_epm_main\sharelib\dc\Output\sys\fre_wlh_amd64\amd64\EuDskAcs.pdb`
 > → both built from the **EPM (Partition Master) solution's shared disk-copy library**
 > (`sharelib/dc`); "fre_wlh" = free/WLH(Vista+) build config.
-
 ## Identity & deployment
 
 - EUDCPEPM = "EuBackup" — the WinPE **disk copy/backup filter**; per BUILDPE regdrv.reg it
@@ -39,6 +38,102 @@ Named exports of the hooking layer (mangled-name strings in binary — ground tr
 - Sector-accurate IO through the attached stack (direct-IO MDL) — this is the engine that
   gives CloneModule (CCopyDisk*) and the WinPE disk-copy UI **exclusive, consistent,
   sector-level access** to disks being duplicated in PE.
+
+## EUDCPEPM — custom IOCTL protocol (MainDispatch decoder, fully enumerated this session)
+
+**Entry**: FUN_000120f8 (decompiled lines 840–1226) — the dispatch installed over the hook
+stubs. IRP major-function byte read from the current stack location (`IRP+0xB8`):
+CREATE (0x00) → immediate success; CLOSE (0x02) and CLEANUP (0x12) → FUN_00012aa0 (session
+teardown on handle death); DEVICE_CONTROL (0x0E) → the decoder below; anything else →
+`STATUS_INVALID_DEVICE_REQUEST (0xC000000D)`.
+
+**Code normalization**: `custom = IOCTL_code − IoctlBase` where IoctlBase = `_DAT_00020144`
+(the registry value `IoctlBase=0x10000` from regdrv.reg — confirmed in use here, unlike
+EUEDKEPM). Custom range observed: **0x800C2AC8 … 0x800C2B38**. Every handler validates the
+caller's session object via the magic **`0x74534298`** at session+0x28 ("tSB\x98" —
+Todo-Backup-Session tag); failures return `0xC0000008` (STATUS_INVALID_HANDLE) or hit
+`DbgBreakPointWithStatus(1)` on the GETNEXTBLOCK path.
+
+### Command table (custom code → semantics, line-cited)
+
+| custom code | name/role | handler | contract |
+|---|---|---|---|
+| 0x800C2AC8 | **GET_VERSION** | inline @908-917 | out ≥ 0x84 B: writes `0x00010100` (v1.1.0) + 0x2E-char string `"EASEUS Todo Backup Driver (c) Ea…"` (s_00020150) — the driver's identity card |
+| 0x800C2AD0 | **OpenSession** | FUN_00011734, trace `"OpenSession"` @923 | out ≥ 0x840 B: creates the **CSession** object (ctor trace @2985); returns it to user mode |
+| 0x800C2AD8 | session op | FUN_0001590c @936 | in ≥ 8 B: session handle → per-session control (e.g. run/pause) |
+| 0x800C2AE0 | session op 2 | FUN_0001601c @954 | in ≥ 0x28 B: parameterized session command |
+| 0x800C2AE8 | **IOCTL_GETNEXTBLOCK** (named in trace) | FUN_00015628 @974 | in ≥ 0x1E B — the **async data pump**; returns STATUS_PENDING and completes the IRP later (see below) |
+| 0x800C2AF0 | session status | inline @987-996 | in ≥ 8 B: returns dword at session+0x100 (state code) |
+| 0x800C2AF8 | **GET_PROGRESS** | FUN_00016490 + inline @1000-1021 | in > 0xB B: out+8 = `percent = (bytesDone(session+0xE8) × 100) / totalBytes(session+0xF0)` |
+| 0x800C2B00 | **CloseSession** | FUN_000152c4 + ExFreePool @892-903 | in ≥ 8 B: magic check at session+0x28, runs session destructor, frees the pool, returns 0 |
+| 0x800C2B0A | **direct sector read** | FUN_000141f8 @1050 | in > 0x10 B: user MDL buffer `{u32 diskId, u32 sectorCount, u64 offset, data…}`; target device resolved by FUN_000131c0; bounds check `devSectorSize(+0x98)×count+0x10 ≤ outLen` |
+| 0x800C2B12 | **direct sector write** | FUN_00014300 @1081 | twin of 0xB0A (write direction) |
+| 0x800C2B18 | op mode 4 | FUN_00013fe4(irp, 4) @1093 | out ≥ 0x1C B, in > 3 B — mode-4 control (e.g. flush/unlock family) |
+| 0x800C2B20 | op mode 3 | FUN_00013fe4(irp, 3) @1103 | twin with mode 3 (lock/hold family — 3/4 pair matches the volume-lock/unlock idiom used elsewhere in the product) |
+| 0x800C2B2A | **sized sector transfer** | FUN_00014508 @1132 | MDL buffer; size probe via FUN_00014748(dev, &bytesPerUnit), then `unit×count+0x10 ≤ outLen` check — sized variant of 0xB0A |
+| 0x800C2B2E | **sized sector transfer 2** | FUN_000143f8 @1163 | twin of 0xB2A |
+| 0x800C2B38 | **CANCEL/ABORT** | inline @1171-1195 | in ≥ 8 B: spinlock; `session+0x38 = 3` (abort state); bounded kick counter `session+0x80 < 0x12D (301)` — worker-notify with **retry budget of 301** |
+
+Anything else in the 0xE branch: forwarded (transparent proxy to the attached disk stack).
+Standard storage IOCTLs get traced by name in the forward path @1377-1434:
+`IOCTL_SCSI_PASS_THROUGH{,_DIRECT}`, `IOCTL_IDE_PASS_THROUGH`, `IOCTL_ATA_PASS_THROUGH{,_DIRECT}`,
+`IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES` (with `Action=Trim` specially logged) — i.e. the
+hook driver is a **pass-through + trace + session-aware filter**, not a blocker.
+
+### CSession — the copy/backup session object (0x840 B, ctor @2950-3050, trace @2985)
+
+```
+OpenSession input buffer (in=param_4, also 0x840 B out):
+  +0x04  u64  DataFirstSec     (first data sector of the copy range)
+  +0x0C  u64  tSecs            (total sectors)
+  +0x14  u64  extent param     (→ FUN_00017b48 block-map builder)
+  +0x1C  u64  extent param 2
+  +0x24  u64  bitmap size      (must be ≠ 0)
+  +0x2C  u32  bitmap count     (must be ≠ 0)
+  +0x30  u32  spb              (sectors-per-block; 0 → driver picks: tSecs < 0x20 → 1,
+                                else 0x10 + tail remainder stored at session+0xD0)
+  +0x34  0x800 B block bitmap  (copied into session+0x20 object; bit per copy-block)
+  +0x83C u32  out: sector size (echoed from the target device +0x98)
+  +0x838 u32  out: effective spb
+CSession fields:
+  +0x18 target device object   +0x19 sector size   +0x28 magic 0x74534298
+  +0xD8 DataFirstSec  +0xE0 tSecs  +0xCC spb  +0xD0 tail sectors
+  +0x150 = 0x100000 (1 MiB transfer buffer → allocated at +0x148)
+  +0x1b580 (111,744 B) secondary buffer   pool tag 0x4C435545 "ECLU"
+  +0x30 state (0x38 after init)  +0x38 abort state (3 = cancel)
+  +0x80 worker-kick counter (cap 0x12D)   +0xE8 bytesDone  +0xF0 totalBytes
+  +0x40/0x48 pending-IRP queue (spinlock +0x50)   +0x158 IRP-context lookaside
+```
+Invalid input (tSecs/bitmapSize/bitmapCount == 0) → `STATUS_INVALID_DEVICE_REQUEST`.
+The session wires up: block-map/extent object (FUN_00017b48 from the bitmap), a worker with
+completion callback FUN_0001664c (FUN_0001820c), and the 1 MiB transfer buffer — a
+**bitmap-driven, block-granular disk-copy state machine** shared by EPM clone and Todo
+Backup image paths.
+
+### GETNEXTBLOCK — the asynchronous data pump (FUN_00015628 @3241-3299)
+
+1. Allocates an IRP-context node from the session lookaside (FUN_0001bfb8 @3254);
+   failure → `STATUS_INSUFFICIENT_RESOURCES (0xC0000017)`.
+2. Marks the caller's IRP pending: sets `SL_PENDING_RETURNED` bit (byte at current-stack+3)
+   and `Irp->IoStatus.Status = 0x103` (@3260-3263) — **the IRP is NOT completed here**.
+3. Inserts the context {irp, fileObject} into the session's doubly-linked pending queue
+   under spinlock (`dev+0x40` head; insert-after-tail via FUN_00015868 walk @3272-3287).
+4. Kicks the worker: `if (kickCounter++ < 0x12D) { spinlock; FUN_00013454(dev); }`
+   — bounded to **301 outstanding kicks** to avoid runaway DPC storms (@3289-3295).
+5. Returns STATUS_PENDING; the driver's read path completes queued IRPs as copy blocks
+   become available (completion bookkeeping at session+0xE8 bytesDone drives GET_PROGRESS).
+
+`AddUrgentIRP` (FUN_0001573c @3304-3353, named by its trace `"AddUrgentIRP %d ns=%I64u,
+secs=%u,secsize=%u pDisk=%I64u"`) is the priority variant: carries explicit
+(startSector, sectorCount, sectorSize), inserts at the queue HEAD, same bounded kick —
+used for out-of-band reads that must overtake the sequential copy stream.
+
+**Architecture read**: EUDCPEPM is not merely a hook — it is a **kernel-side copy engine**
+(Todo Backup/EPM lineage): user mode opens a session describing the copy range + block
+bitmap, then either pumps GETNEXTBLOCK IRPs (async, queue-completed) or issues direct
+sized sector read/write IOCTLs, while all foreign storage traffic passes through
+unmolested (and traced). The VolSnap attach (FUN_00018bd0) exists so volume-snapshot
+state stays coherent during the copy window.
 
 ## EUEDKEPM — full driver internals (decompiled, line-cited)
 
