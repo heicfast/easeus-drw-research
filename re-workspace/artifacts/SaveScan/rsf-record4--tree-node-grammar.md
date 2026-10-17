@@ -58,20 +58,23 @@ data_node:
   [   ...  ] body       = data-vt slot 0x98 (node, RSData) — polymorphic
 ```
 
-The `node_type` int is the SAME type code consumed by the deserialization factory (`switchD_1400d6e9c`, verified cases):
+The `node_type` int is the SAME type code consumed by the deserialization factory (`switchD_1400d6e9c`, verified cases). **Attribution per the byte-exact-validated table in `rsf-format--scan-session.md` §5.4.5** (my earlier per-case FS guesses are superseded):
 
-| type | factory ctor | alloc | FS attribution (from engine type-code map, doc 04) |
+| type | class (validated) | factory ctor | alloc |
 |---|---|---|---|
-| 3 | `FUN_140c40ce0` | — | NTFS-family node |
-| 4 | `FUN_14058c350` | — | FAT-family node |
-| 5 | `FUN_1405e3d40` / `FUN_1405e46d0`(2-arg, param-dependent) | 0x40 | variant node (two ctor forms) |
-| 6 | `FUN_1405f4e00` → `FUN_1405f4a40` | **0x8B** | ReFS-family node (CRefsResidentDataRunList companion) |
-| 7 | `FUN_1404f91b0` | **0xB6** | exFAT/EXT-family larger node |
-| 8 | `FUN_1405abbf0` | — | HFS+-family node |
-| 9 | `FUN_140322e30` | — | EXT4-family node |
-| 0xC | `FUN_1400d69d0` | — | RAW/carved node |
+| 0 | CNTFSFileProperties | — | — |
+| 1 | CFATFileProperties | — | — |
+| 3 | CRAWFileProperties | `FUN_140c40ce0` | — |
+| 4 | CExFatFileProperties | `FUN_14058c350` | — |
+| 5 | HFSPlusFileProperties / HFSPlusSystemNodeProperties (marker pair) | `FUN_1405e3d40` / `FUN_1405e46d0` | 0x40 |
+| 6 | RefsFileProperties | `FUN_1405f4e00` → `FUN_1405f4a40` | 0x8B |
+| 7 | CBtrfsFileProerties *(vendor typo preserved)* | `FUN_1404f91b0` | 0xB6 |
+| 8 | CEXT4FileProperties | `FUN_1405abbf0` | — |
+| 9 | CGenericFileProperties | `FUN_140322e30` | — |
+| 0xB | runtime-only (never persisted — filtered by writer) | — | — |
+| 0xC | ZfsFileProperties | `FUN_1400d69d0` | — |
 
-(Attribution of each case to a concrete FS is by ctor companion classes + the engine FS-code map; type-5's dual ctor and exact class identities remain open items — see §7.)
+*(Full per-class field grammars, FLAGS bit-0x10 has-children semantics, runlist sub-format, and the 374K-name statistics: see the validated §5.4.5.)*
 
 ## 4. Extent (DataRun) encoding — FUN_1405f5150 (ReFS path, NTFS-shared container)
 
