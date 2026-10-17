@@ -1,0 +1,5056 @@
+[
+ {
+  "line": 1048466,
+  "wiring_fn": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)",
+  "signal": "clicked()",
+  "slot": "1onClickedActvateBtn()",
+  "kind": "slot"
+ },
+ {
+  "line": 1048789,
+  "wiring_fn": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)",
+  "signal": "clicked()",
+  "slot": "1onClickEnterLicense()",
+  "kind": "slot"
+ },
+ {
+  "line": 1048874,
+  "wiring_fn": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)",
+  "signal": "sigResizeWidth()",
+  "slot": "1onDelayResizeWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1049140,
+  "wiring_fn": "void FUN_14064aa20(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)",
+  "signal": "clicked()",
+  "slot": "1onClickedActvateBtn()",
+  "kind": "slot"
+ },
+ {
+  "line": 1050003,
+  "wiring_fn": "void FUN_14064cbe0(QObject *param_1)",
+  "signal": "onLinkURLClicked(const QString&,const QString&)",
+  "slot": "1onMessageBoxUlrClick(const QString&,const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1055306,
+  "wiring_fn": "void FUN_1406564f0(char *param_1)",
+  "signal": "clicked(bool)",
+  "slot": "2sigClickRetry()",
+  "kind": "relay"
+ },
+ {
+  "line": 1059550,
+  "wiring_fn": "void FUN_14065e890(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "signal": "beforeNavigate2(const QString&, bool&)",
+  "slot": "1beforeNavigate2Slot(const QString&, bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1059554,
+  "wiring_fn": "void FUN_14065e890(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "signal": "navigateComplete(const QString&)",
+  "slot": "1navigateCompleteSlot(const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1067277,
+  "wiring_fn": "void FUN_14066cf80(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1070882,
+  "wiring_fn": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "signal": "beforeNavigate2(const QString&, bool&)",
+  "slot": "1beforeNavigate2Slot(const QString&, bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1070886,
+  "wiring_fn": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "signal": "navigateComplete(const QString&)",
+  "slot": "1navigateCompleteSlot(const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1070889,
+  "wiring_fn": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "signal": "navigateError(const unsigned long, const QString&)",
+  "slot": "1navigateFailSlot(const unsigned long, const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1075155,
+  "wiring_fn": "void FUN_14067cab0(undefined8 param_1,void *param_2,longlong param_3)",
+  "signal": "ClickClose()",
+  "slot": "1closeTipDlg()",
+  "kind": "slot"
+ },
+ {
+  "line": 1075157,
+  "wiring_fn": "void FUN_14067cab0(undefined8 param_1,void *param_2,longlong param_3)",
+  "signal": "ClickBuy()",
+  "slot": "1mouseClickedBuySlot()",
+  "kind": "slot"
+ },
+ {
+  "line": 1075798,
+  "wiring_fn": "undefined4 FUN_14067e280(longlong param_1)",
+  "signal": "beforeNavigate2(const QString&, bool&)",
+  "slot": "1beforeNavigate2Slot(const QString&, bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1075802,
+  "wiring_fn": "undefined4 FUN_14067e280(longlong param_1)",
+  "signal": "navigateComplete(const QString&)",
+  "slot": "1navigateCompleteSlot(const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1076926,
+  "wiring_fn": "void FUN_14067f8a0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotOpenSetting()",
+  "kind": "slot"
+ },
+ {
+  "line": 1076985,
+  "wiring_fn": "void FUN_14067f8a0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotCloseWnd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1077673,
+  "wiring_fn": "void FUN_140680f90(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotShowSettingWnd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1077678,
+  "wiring_fn": "void FUN_140680f90(QWidget *param_1)",
+  "signal": "sigUpdateBlueContentWidth()",
+  "slot": "1slotUpdateBlueContentWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1082847,
+  "wiring_fn": "void FUN_14068b160(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotOpenSetting()",
+  "kind": "slot"
+ },
+ {
+  "line": 1082889,
+  "wiring_fn": "void FUN_14068b160(QWidget *param_1)",
+  "signal": "sigUpdateBlueContentWidth()",
+  "slot": "1slotUpdateBlueContentWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1082910,
+  "wiring_fn": "void FUN_14068b160(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotCloseWnd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1083326,
+  "wiring_fn": "void FUN_14068ca80(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotCloseWnd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1085097,
+  "wiring_fn": "void FUN_14068f760(longlong param_1)",
+  "signal": "clicked()",
+  "slot": "1slotSwitchClick()",
+  "kind": "slot"
+ },
+ {
+  "line": 1085259,
+  "wiring_fn": "void FUN_14068f760(longlong param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnChoseFiles()",
+  "kind": "slot"
+ },
+ {
+  "line": 1085346,
+  "wiring_fn": "void FUN_14068f760(longlong param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnChoseFiles()",
+  "kind": "slot"
+ },
+ {
+  "line": 1085676,
+  "wiring_fn": "void FUN_14068f760(longlong param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnBrowser()",
+  "kind": "slot"
+ },
+ {
+  "line": 1085956,
+  "wiring_fn": "void FUN_14068f760(longlong param_1)",
+  "signal": "textChanged(const QString &)",
+  "slot": "1slotMailTextChange(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1086201,
+  "wiring_fn": "void FUN_14068f760(longlong param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnConfirmClick()",
+  "kind": "slot"
+ },
+ {
+  "line": 1086844,
+  "wiring_fn": "void FUN_140693730(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotCloseWnd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1087952,
+  "wiring_fn": "void FUN_1406964f0(char *param_1)",
+  "signal": "linkActivated(const QString &)",
+  "slot": "1onClickRetrySolt(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1090294,
+  "wiring_fn": "void FUN_140699d40(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1090406,
+  "wiring_fn": "void FUN_140699d40(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnOfflineClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1090642,
+  "wiring_fn": "void FUN_14069bcd0(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1slotTimerUpdateProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1090680,
+  "wiring_fn": "void FUN_14069bcd0(QObject *param_1)",
+  "signal": "finished()",
+  "slot": "1slotDownloadThreadFinish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1090682,
+  "wiring_fn": "void FUN_14069bcd0(QObject *param_1)",
+  "signal": "sigDownloadError()",
+  "slot": "1slotDownloadFailed()",
+  "kind": "slot"
+ },
+ {
+  "line": 1093905,
+  "wiring_fn": "void FUN_1406a0f40(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnNextClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1095216,
+  "wiring_fn": "void FUN_1406a3410(QWidget *param_1)",
+  "signal": "doDispatchMessage(int, void *, int&)",
+  "slot": "1onReceiveData(int, void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1095945,
+  "wiring_fn": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "signal": "clicked()",
+  "slot": "1slotBtnAutoRecover()",
+  "kind": "slot"
+ },
+ {
+  "line": 1096012,
+  "wiring_fn": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "signal": "sigRefresh()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1096016,
+  "wiring_fn": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "signal": "sigFinished()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1096062,
+  "wiring_fn": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "signal": "sigAllFinished()",
+  "slot": "1slotDoAutoRecover()",
+  "kind": "slot"
+ },
+ {
+  "line": 1096087,
+  "wiring_fn": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "signal": "sigShowBuyGuide()",
+  "slot": "1slotShowBuyGuide()",
+  "kind": "slot"
+ },
+ {
+  "line": 1096542,
+  "wiring_fn": "void FUN_1406a6a20(longlong *param_1)",
+  "signal": "loopPlayed()",
+  "slot": "1onPlayGifFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1096659,
+  "wiring_fn": "void FUN_1406a6f20(undefined8 param_1)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1097419,
+  "wiring_fn": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)",
+  "signal": "sigProgressUpdated(CProgressInfo)",
+  "slot": "1onProgressUpdated(CProgressInfo)",
+  "kind": "slot"
+ },
+ {
+  "line": 1097682,
+  "wiring_fn": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)",
+  "signal": "clicked()",
+  "slot": "1onBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1097713,
+  "wiring_fn": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)",
+  "signal": "clicked()",
+  "slot": "1onBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1097777,
+  "wiring_fn": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1098534,
+  "wiring_fn": "void FUN_1406aaa30(QObject *param_1)",
+  "signal": "sigIsStopping(bool&)",
+  "slot": "1onIsStopping(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1098537,
+  "wiring_fn": "void FUN_1406aaa30(QObject *param_1)",
+  "signal": "finished()",
+  "slot": "1onStopThreadFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1101630,
+  "wiring_fn": "void FUN_1406b1c70(longlong param_1,double param_2,char param_3)",
+  "signal": "clicked()",
+  "slot": "1onRecovery()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106046,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigChangeTreeView(bool)",
+  "slot": "1onTreeViewChange(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106058,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1setHidden(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106143,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigListIconChanged(int)",
+  "slot": "2sigListIconChanged(int)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106147,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigSwitchSearch(int)",
+  "slot": "1setCurrentIndex(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106151,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "2sigShowSearch(bool)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106155,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigClearSearch()",
+  "slot": "1onAutoSelect()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106159,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigClearSearch()",
+  "slot": "1onHideNoResult()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106163,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigShowFilterBar(bool)",
+  "slot": "2sigShowFilterBar(bool)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106167,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigSwitchNavigate(bool,bool)",
+  "slot": "1onSwitch2Search(bool,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106171,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigIsFilterBtnToggled(bool&)",
+  "slot": "1IsFilterBtnToggled(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106177,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigAboutToGrabPixmap()",
+  "slot": "1shotscreenForFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106181,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigValueChanged(bool,int,bool,QVariant)",
+  "slot": "1clearFilter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106186,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigValueChanged(bool,int,bool,QVariant)",
+  "slot": "1clearFilter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106191,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigFilterChange(const AdvanceFilterCondition&,bool,bool)",
+  "slot": "1slotUpdateCount(const AdvanceFilterCondition&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106197,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigFilterChange(const AdvanceFilterCondition&,bool,bool)",
+  "slot": "1slotUpdateCount(const AdvanceFilterCondition&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106203,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigClearSearchFilter()",
+  "slot": "1slotClearSearchFilter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106207,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigLeftTreeClickTag(bool)",
+  "slot": "1onCloseExpendFilterBtn(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106211,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigFilterNltSearchClicked()",
+  "slot": "1onFilterNltClickedSearch()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106215,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigUpdateNavigateBarPath(const QString&, const QString&)",
+  "slot": "1onUpdateRootPathName(const QString&, const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106220,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigGetRightIndex(int&, int&)",
+  "slot": "1onGetRightIndex(int&, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106224,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigSelectRightIndex(int, int)",
+  "slot": "1onSelectRightIndex(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106476,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106484,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigScanFinished()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106490,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigScanFinished()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106493,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigIsStopping(bool&)",
+  "slot": "2sigIsStopping(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106498,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigIsStopping(bool&)",
+  "slot": "2sigIsStopping(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106503,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigLoadFinished(bool)",
+  "slot": "1onLoadScanRetFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106508,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigSwitchNavigate(bool,bool)",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106513,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigLoadFinished(bool)",
+  "slot": "1onFinished(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106538,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigScanFinished()",
+  "slot": "2sigScanFinished()",
+  "kind": "relay"
+ },
+ {
+  "line": 1106543,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigQuickScanFinished(int)",
+  "slot": "1onQuickScanCompleted(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106548,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigIsSearch(bool&)",
+  "slot": "1onIsSearch(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106553,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigShowAutoRecoverBtn()",
+  "slot": "1slotShowAutoRecover()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106557,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigRecoverBtnClicked()",
+  "slot": "1onBtnRecoverAllClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106562,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigClearTreeModel()",
+  "slot": "1clearTreeModel()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106566,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigFilterFinished()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106571,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigSearchResetSort()",
+  "slot": "1slotResetSearchSort()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106575,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "sigQuickScanFinished(int)",
+  "slot": "1onQuickScanCompleted(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106595,
+  "wiring_fn": "undefined8 FUN_1406b86d0(void)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1106924,
+  "wiring_fn": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "signal": "sigIsStopping(bool&)",
+  "slot": "2sigIsStopping(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106928,
+  "wiring_fn": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "signal": "sigIsStopping(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106933,
+  "wiring_fn": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "signal": "sigIsStopping(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106936,
+  "wiring_fn": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "signal": "sigIsStopping(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1106951,
+  "wiring_fn": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "signal": "sigBeforeFreeze()",
+  "slot": "1onBeforeFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1106954,
+  "wiring_fn": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "signal": "finished()",
+  "slot": "1accept()",
+  "kind": "slot"
+ },
+ {
+  "line": 1107085,
+  "wiring_fn": "void FUN_1406bbeb0(longlong param_1,char param_2)",
+  "signal": "sigFilterChange(const AdvanceFilterCondition&,bool,bool)",
+  "slot": "1onFilterChanged(const AdvanceFilterCondition&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107089,
+  "wiring_fn": "void FUN_1406bbeb0(longlong param_1,char param_2)",
+  "signal": "sigFilterChange(const AdvanceFilterCondition&,bool,bool)",
+  "slot": "1onFilterChanged(const AdvanceFilterCondition&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107123,
+  "wiring_fn": "void FUN_1406bbfe0(char *param_1)",
+  "signal": "sigResize(const QPoint&)",
+  "slot": "1slotMoveNasErrorTips(const QPoint&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107126,
+  "wiring_fn": "void FUN_1406bbfe0(char *param_1)",
+  "signal": "sigWndShow(bool)",
+  "slot": "1slotNasNetTipsShow(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107894,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigTreeNodeTypeChanged(bool)",
+  "slot": "1onTreeNodeTypeChanged(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107897,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1onSwitch2Search(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107900,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1onSwitch2Search(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107903,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1onShowSearch(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107906,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigNodeSelEx(const QModelIndex&, CFileNode*)",
+  "slot": "1onFileNodeChanged(const QModelIndex &, CFileNode*)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107910,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigShowOrHideGuideWnd(bool)",
+  "slot": "1slotShowActivateBtn(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1107913,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigRecoverAll()",
+  "slot": "1onRecovery()",
+  "kind": "slot"
+ },
+ {
+  "line": 1107917,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigCheckRecoverAll()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1107921,
+  "wiring_fn": "void FUN_1406bd630(char *param_1)",
+  "signal": "sigCheckRecoverAll()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108051,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1setHidden(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1108054,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigBeforeFreeze()",
+  "slot": "1onBeforeFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108057,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigBeforeFreeze()",
+  "slot": "1onBeforeFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108060,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigFreezeDone()",
+  "slot": "1onFreezeDone()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108063,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigRefresh(bool)",
+  "slot": "1onCheckFinished(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1108066,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigRefresh()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108070,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigNodeSel(const QModelIndex&)",
+  "slot": "1onAutoSelect()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108077,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigNodeSel(const QModelIndex&)",
+  "slot": "1onAddressChanged()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108081,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigBeforeClick()",
+  "slot": "1onBeforeClick()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108084,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigRefresh()",
+  "slot": "1onDoUpdateNewListUI()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108087,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigRecoverAll()",
+  "slot": "1onRecovery()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108091,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigCheckRecoverAll()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1108095,
+  "wiring_fn": "void FUN_1406bd930(QObject *param_1)",
+  "signal": "sigGetRightIndex(int&, int&)",
+  "slot": "1onGetRightIndex(int&, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1109986,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigRefresh()",
+  "slot": "1onCheckFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1109994,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "modelReset()",
+  "slot": "1onAddressChanged()",
+  "kind": "slot"
+ },
+ {
+  "line": 1109998,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigRefresh()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1110005,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigResetStartIdx(int)",
+  "slot": "1onPreviewChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1110011,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigNodeSel(const QModelIndex&)",
+  "slot": "1onFileNodeChanged(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1110017,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigAddressChanged()",
+  "slot": "1onRefreshData()",
+  "kind": "slot"
+ },
+ {
+  "line": 1110022,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigRefresh()",
+  "slot": "1onCheckFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1110029,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "modelReset()",
+  "slot": "1onAddressChanged()",
+  "kind": "slot"
+ },
+ {
+  "line": 1110034,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigRefresh()",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1110040,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigResetStartIdx(int)",
+  "slot": "1onPreviewChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1110046,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigNodeSel(const QModelIndex&)",
+  "slot": "1onFileNodeChanged(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1110053,
+  "wiring_fn": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "signal": "sigAddressChanged()",
+  "slot": "1onRefreshData()",
+  "kind": "slot"
+ },
+ {
+  "line": 1110542,
+  "wiring_fn": "void FUN_1406c2fc0(char *param_1,undefined8 param_2)",
+  "signal": "sigCloseWaitDialog()",
+  "slot": "1accept()",
+  "kind": "slot"
+ },
+ {
+  "line": 1110579,
+  "wiring_fn": "void FUN_1406c2fc0(char *param_1,undefined8 param_2)",
+  "signal": "sigResizeWidth()",
+  "slot": "1slotResizeFilterTips()",
+  "kind": "slot"
+ },
+ {
+  "line": 1115158,
+  "wiring_fn": "FUN_1406caad0(undefined8 *param_1,undefined1 *param_2,undefined8 param_3,undefined8 *param_4)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1135881,
+  "wiring_fn": "void FUN_1406ee950(longlong param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4,",
+  "signal": "sigClicked(int)",
+  "slot": "1onItemClickedSolt(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1136003,
+  "wiring_fn": "void FUN_1406eedb0(QObject *param_1)",
+  "signal": "sigValueChanged(int)",
+  "slot": "1onMenuChangedSolt(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1136008,
+  "wiring_fn": "void FUN_1406eedb0(QObject *param_1)",
+  "signal": "sigClickedClose()",
+  "slot": "1onMenudHide()",
+  "kind": "slot"
+ },
+ {
+  "line": 1142543,
+  "wiring_fn": "void FUN_1406f95a0(longlong param_1,int param_2)",
+  "signal": "sigBtnPressed()",
+  "slot": "1onBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1142708,
+  "wiring_fn": "void FUN_1406f9cf0(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1142847,
+  "wiring_fn": "void FUN_1406f9cf0(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)",
+  "signal": "stateChanged(int)",
+  "slot": "1onActionChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1143332,
+  "wiring_fn": "void FUN_1406fb270(char *param_1,char param_2)",
+  "signal": "sigUpdateCount(int)",
+  "slot": "1slotUpdateCount(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1144481,
+  "wiring_fn": "void FUN_1406fda00(QObject *param_1,char param_2)",
+  "signal": "stateChanged(int)",
+  "slot": "1onActionChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1144966,
+  "wiring_fn": "void FUN_1406fe420(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)",
+  "signal": "doDispatchMessage(int, void *, int&)",
+  "slot": "1onReceiveData(int, void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1145206,
+  "wiring_fn": "void FUN_1406fe420(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)",
+  "signal": "stateChanged(int)",
+  "slot": "1onActionChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1145260,
+  "wiring_fn": "undefined8 FUN_1406ff1f0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "2sigCustom()",
+  "kind": "relay"
+ },
+ {
+  "line": 1145262,
+  "wiring_fn": "undefined8 FUN_1406ff1f0(char *param_1)",
+  "signal": "returnPressed()",
+  "slot": "2sigCustom()",
+  "kind": "relay"
+ },
+ {
+  "line": 1145711,
+  "wiring_fn": "void FUN_1406ffe00(longlong param_1)",
+  "signal": "sigDateChanged(const QDate &)",
+  "slot": "2sigCustom()",
+  "kind": "relay"
+ },
+ {
+  "line": 1147706,
+  "wiring_fn": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)",
+  "signal": "sigValueChanged(bool,int,bool,QVariant)",
+  "slot": "1onValueChanged(bool,int,bool,QVariant)",
+  "kind": "slot"
+ },
+ {
+  "line": 1147709,
+  "wiring_fn": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)",
+  "signal": "sigCustom()",
+  "slot": "1onCustom()",
+  "kind": "slot"
+ },
+ {
+  "line": 1147713,
+  "wiring_fn": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)",
+  "signal": "sigMenuHide()",
+  "slot": "1onMenuHide()",
+  "kind": "slot"
+ },
+ {
+  "line": 1147939,
+  "wiring_fn": "void FUN_140704c10(QObject *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnClickReset()",
+  "kind": "slot"
+ },
+ {
+  "line": 1148584,
+  "wiring_fn": "void FUN_140706aa0(QObject *param_1,QObject *param_2,char param_3)",
+  "signal": "sigValueChanged(bool,int,bool,QVariant)",
+  "slot": "1onValueChanged(bool,int,bool,QVariant)",
+  "kind": "slot"
+ },
+ {
+  "line": 1149180,
+  "wiring_fn": "void FUN_1407077b0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1149199,
+  "wiring_fn": "void FUN_1407077b0(QWidget *param_1)",
+  "signal": "sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1154245,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "buttonClicked(int)",
+  "slot": "1onBtnClicked(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1154446,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "buttonClicked(int)",
+  "slot": "1onBtnClicked(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1154542,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "clicked()",
+  "slot": "1onIconListBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1154588,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "toggled(bool)",
+  "slot": "2sigShowFilterBar(bool)",
+  "kind": "relay"
+ },
+ {
+  "line": 1154608,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "toggled(bool)",
+  "slot": "1setVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1154698,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "toggled(bool)",
+  "slot": "1setVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1154702,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "toggled(bool)",
+  "slot": "2sigShowFilterBar(bool)",
+  "kind": "relay"
+ },
+ {
+  "line": 1154712,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1onPageChange(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1154729,
+  "wiring_fn": "void FUN_14070efb0(void)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1155293,
+  "wiring_fn": "void FUN_140711b20(QObject *param_1)",
+  "signal": "clicked()",
+  "slot": "1onSearchBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1155318,
+  "wiring_fn": "void FUN_140711b20(QObject *param_1)",
+  "signal": "textEdited(const QString &)",
+  "slot": "1onSearchEditChanged(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1155321,
+  "wiring_fn": "void FUN_140711b20(QObject *param_1)",
+  "signal": "textChanged(const QString &)",
+  "slot": "1onSearchTextChanged(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1155324,
+  "wiring_fn": "void FUN_140711b20(QObject *param_1)",
+  "signal": "sigFocusOut()",
+  "slot": "1onSearchFocusout()",
+  "kind": "slot"
+ },
+ {
+  "line": 1156411,
+  "wiring_fn": "void FUN_140714250(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,",
+  "signal": "sigMouseEnter()",
+  "slot": "1onBtnMouseEnter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1156429,
+  "wiring_fn": "void FUN_140714250(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,",
+  "signal": "sigTranslate(int)",
+  "slot": "1onBtnTranslate(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1157118,
+  "wiring_fn": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "signal": "finished()",
+  "slot": "2sigAddressChanged()",
+  "kind": "relay"
+ },
+ {
+  "line": 1157120,
+  "wiring_fn": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "signal": "finished()",
+  "slot": "1onAddressChanged()",
+  "kind": "slot"
+ },
+ {
+  "line": 1157122,
+  "wiring_fn": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "signal": "finished()",
+  "slot": "2sigSearchResetSort()",
+  "kind": "relay"
+ },
+ {
+  "line": 1157124,
+  "wiring_fn": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "signal": "sigGetListIndex(int&, int&)",
+  "slot": "2sigGetRightIndex(int&, int&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1157127,
+  "wiring_fn": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "signal": "sigSelectRightIndex(int, int)",
+  "slot": "2sigSelectRightIndex(int, int)",
+  "kind": "relay"
+ },
+ {
+  "line": 1157820,
+  "wiring_fn": "void FUN_140717830(QObject *param_1)",
+  "signal": "sigNasPathItemClicked(const QString&)",
+  "slot": "1slotNasReconnectVolume(const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1157826,
+  "wiring_fn": "void FUN_140717830(QObject *param_1)",
+  "signal": "sigCloseNotify()",
+  "slot": "1slotNasVolumeMenuClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1158869,
+  "wiring_fn": "longlong FUN_140718f20(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1160694,
+  "wiring_fn": "undefined8 FUN_14071b770(undefined8 param_1)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1160718,
+  "wiring_fn": "undefined8 FUN_14071b770(undefined8 param_1)",
+  "signal": "clicked()",
+  "slot": "1onHandleBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1160850,
+  "wiring_fn": "undefined8 FUN_14071b770(undefined8 param_1)",
+  "signal": "clicked()",
+  "slot": "1onPreview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1163476,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigRefresh(bool)",
+  "slot": "1OnSinkRefresh(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163480,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigRefreshRoot()",
+  "slot": "1OnSinkRefreshRoot()",
+  "kind": "slot"
+ },
+ {
+  "line": 1163484,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigRefreshLeftTree()",
+  "slot": "1onAutoSelect()",
+  "kind": "slot"
+ },
+ {
+  "line": 1163531,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigShowRlt(int)",
+  "slot": "1onShowNoResult(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163549,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1163574,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163577,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigFilterChange(const AdvanceFilterCondition&,bool,bool, bool)",
+  "slot": "1onFilterChanged(const AdvanceFilterCondition&,bool,bool,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163582,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigFilterChange(const AdvanceFilterCondition&,bool,bool, bool)",
+  "slot": "1onFilterChanged(const AdvanceFilterCondition&,bool,bool,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163587,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1onShowFilterBar(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163655,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigTabChange(int)",
+  "slot": "1onClassifyTabChange(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163659,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigItemClicked(int)",
+  "slot": "1onTabGroupClicked(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163662,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigClassifyChange(int)",
+  "slot": "1onClassifyClassChange(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163665,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigClassifyType(int)",
+  "slot": "1onClassifyTypeChange(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163668,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigSortMenu(int, bool)",
+  "slot": "1onSortMenu(int, bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163671,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigCheckBox(int)",
+  "slot": "1onClassifyCheckBoxChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163674,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigCheckBoxClicked(int)",
+  "slot": "1onCheckBoxChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1163679,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigDoBeforeFreeze()",
+  "slot": "1OnSinkDoBeforeFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1163684,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigScanFinished()",
+  "slot": "1OnSinkDoBeforeFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1163687,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigStopFreshTimer()",
+  "slot": "1onStopFreshTimer()",
+  "kind": "slot"
+ },
+ {
+  "line": 1163692,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigScanFinished()",
+  "slot": "1onScanFinishRefreshUI()",
+  "kind": "slot"
+ },
+ {
+  "line": 1163697,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigScanFinished()",
+  "slot": "1onDoAutoRecover()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164123,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigBtnSearchClicked()",
+  "slot": "2sigFilterNltSearchClicked()",
+  "kind": "relay"
+ },
+ {
+  "line": 1164163,
+  "wiring_fn": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "signal": "sigShowRlt(int)",
+  "slot": "1retranslate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164575,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigHeaderColText(QStringList&)",
+  "slot": "1onGetSectionText(QStringList&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1164579,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "modelReset()",
+  "slot": "1onRefreshIconViewSelectAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164581,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigClickLeftTree(bool)",
+  "slot": "1onLeftTreeClickTag(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1164595,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigInsertFinish()",
+  "slot": "1slotListInsertFinish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164616,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigHeaderColText(QStringList&)",
+  "slot": "1onGetSectionText(QStringList&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1164620,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "modelReset()",
+  "slot": "1onRefreshIconViewSelectAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164622,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigClickLeftTree(bool)",
+  "slot": "1onLeftTreeClickTag(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1164636,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigInsertFinish()",
+  "slot": "1slotListInsertFinish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164650,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onRefreshRightTimeout()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164658,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigDoBeforeFreeze()",
+  "slot": "1onScanFinish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164663,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigScanFinished()",
+  "slot": "1onScanFinish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1164665,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigGetRightIndex(int&, int&)",
+  "slot": "1onGetRightIndex(int&, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1164668,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigGetRightIndex(int&, int&)",
+  "slot": "1onGetRightIndex(int&, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1164671,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigSelectRightIndex(int, int)",
+  "slot": "1onSelectRightIndex(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1164674,
+  "wiring_fn": "void FUN_1407244a0(QObject *param_1)",
+  "signal": "sigSelectRightIndex(int, int)",
+  "slot": "1onSelectRightIndex(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1165013,
+  "wiring_fn": "void FUN_140725780(QObject *param_1,undefined8 param_2)",
+  "signal": "timeout()",
+  "slot": "1onCheckVideoTips()",
+  "kind": "slot"
+ },
+ {
+  "line": 1165015,
+  "wiring_fn": "void FUN_140725780(QObject *param_1,undefined8 param_2)",
+  "signal": "sigClose()",
+  "slot": "1onCloseVideoTips()",
+  "kind": "slot"
+ },
+ {
+  "line": 1165125,
+  "wiring_fn": "void FUN_140725ae0(QObject *param_1,char param_2)",
+  "signal": "sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1165134,
+  "wiring_fn": "void FUN_140725ae0(QObject *param_1,char param_2)",
+  "signal": "sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1166836,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigCloseWnd()",
+  "slot": "1slotTagTipsClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1167048,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "clicked()",
+  "slot": "1onHeaderSelectAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1167051,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigCanClicked(bool&)",
+  "slot": "1onSelectAllCanClicked(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1167250,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "clicked()",
+  "slot": "1onClassifyHeaderSelectAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1167253,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigCanClicked(bool&)",
+  "slot": "1onSelectAllCanClicked(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1167324,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigDataType(int&)",
+  "slot": "1onGetDataType(int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1167329,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigDataType(int&)",
+  "slot": "1onGetDataType(int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1167336,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigSelectAll()",
+  "slot": "1onHeaderSelectAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1167343,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigSelectAll()",
+  "slot": "1onClassifyHeaderSelectAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1167348,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigShowSearch(bool)",
+  "slot": "1onRefreshIconViewSelectAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1167353,
+  "wiring_fn": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "signal": "sigListIconChanged(int)",
+  "slot": "1onIconListSwitch(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1167916,
+  "wiring_fn": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)",
+  "signal": "sigFinished(bool)",
+  "slot": "1onFilterFinished(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1167923,
+  "wiring_fn": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)",
+  "signal": "finished()",
+  "slot": "1accept()",
+  "kind": "slot"
+ },
+ {
+  "line": 1167926,
+  "wiring_fn": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)",
+  "signal": "sigFilterFreezeFinished(bool)",
+  "slot": "1onFilterFinished(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1168401,
+  "wiring_fn": "void FUN_14072c6a0(QWidget *param_1)",
+  "signal": "sigIsStopping(bool&)",
+  "slot": "2sigIsStopping(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1168429,
+  "wiring_fn": "void FUN_14072c850(QObject *param_1,char param_2)",
+  "signal": "sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1168438,
+  "wiring_fn": "void FUN_14072c850(QObject *param_1,char param_2)",
+  "signal": "sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1170581,
+  "wiring_fn": "void FUN_140730150(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotCloseWnd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1170584,
+  "wiring_fn": "void FUN_140730150(QWidget *param_1)",
+  "signal": "sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1171589,
+  "wiring_fn": "void FUN_140732ac0(QObject *param_1)",
+  "signal": "linkActivated(const QString &)",
+  "slot": "1onClickContactsupport(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1171832,
+  "wiring_fn": "void FUN_140733110(QObject *param_1)",
+  "signal": "linkActivated(const QString &)",
+  "slot": "1onClickContactsupport(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1172011,
+  "wiring_fn": "undefined8 FUN_140733490(undefined8 param_1,undefined8 param_2)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1173692,
+  "wiring_fn": "void FUN_140735790(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnLearnMore()",
+  "kind": "slot"
+ },
+ {
+  "line": 1173726,
+  "wiring_fn": "void FUN_140735790(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnGotIt()",
+  "kind": "slot"
+ },
+ {
+  "line": 1173758,
+  "wiring_fn": "void FUN_140735790(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1175113,
+  "wiring_fn": "int FUN_140738b80(QPushButton *param_1)",
+  "signal": "sigClicked(int)",
+  "slot": "1onItemClickedSolt(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1175422,
+  "wiring_fn": "void FUN_14073a270(QObject *param_1,int param_2)",
+  "signal": "sigValueChanged(int, bool)",
+  "slot": "1onMenuItemChanged(int,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1175428,
+  "wiring_fn": "void FUN_14073a270(QObject *param_1,int param_2)",
+  "signal": "sigClickedClose()",
+  "slot": "1onMenuClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1175633,
+  "wiring_fn": "void FUN_14073a6f0(char *param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4,",
+  "signal": "sigClicked(int)",
+  "slot": "1onItemClickedSolt(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1178710,
+  "wiring_fn": "void FUN_14073fee0(undefined8 param_1)",
+  "signal": "released()",
+  "slot": "1onUserClosedWnd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1179970,
+  "wiring_fn": "void FUN_140742060(undefined8 param_1,undefined4 param_2)",
+  "signal": "doDispatchMessage(int, void *, int&)",
+  "slot": "1onReceiveData(int, void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1221124,
+  "wiring_fn": "void FUN_140786930(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1trimOnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1221127,
+  "wiring_fn": "void FUN_140786930(QWidget *param_1)",
+  "signal": "refreshClicked()",
+  "slot": "1click_refresh()",
+  "kind": "slot"
+ },
+ {
+  "line": 1221130,
+  "wiring_fn": "void FUN_140786930(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1click_support()",
+  "kind": "slot"
+ },
+ {
+  "line": 1221133,
+  "wiring_fn": "void FUN_140786930(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1click_info()",
+  "kind": "slot"
+ },
+ {
+  "line": 1223828,
+  "wiring_fn": "void FUN_14078b4a0(QWidget *param_1)",
+  "signal": "sigBtnClicked()",
+  "slot": "1onLearnMoreBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1299229,
+  "wiring_fn": "void FUN_140813f60(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1299306,
+  "wiring_fn": "void FUN_140813f60(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnRefreshClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1299339,
+  "wiring_fn": "void FUN_140813f60(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnOfflineClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1299603,
+  "wiring_fn": "void FUN_140815960(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1slotTimerUpdateProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1299642,
+  "wiring_fn": "void FUN_140815960(QObject *param_1)",
+  "signal": "finished()",
+  "slot": "1slotDownloadThreadFinish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1299645,
+  "wiring_fn": "void FUN_140815960(QObject *param_1)",
+  "signal": "sigDownloadError()",
+  "slot": "1slotDownloadFailed()",
+  "kind": "slot"
+ },
+ {
+  "line": 1301274,
+  "wiring_fn": "void FUN_1408194b0(longlong param_1)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1302253,
+  "wiring_fn": "void FUN_14081abc0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnBackClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1302285,
+  "wiring_fn": "void FUN_14081abc0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnConnectClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1302306,
+  "wiring_fn": "void FUN_14081abc0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1302380,
+  "wiring_fn": "void FUN_14081abc0(QWidget *param_1)",
+  "signal": "timeout()",
+  "slot": "1slotTimerCheckConnectState()",
+  "kind": "slot"
+ },
+ {
+  "line": 1303063,
+  "wiring_fn": "void FUN_14081d5a0(char *param_1)",
+  "signal": "sigCancelRet(bool)",
+  "slot": "1slotOnCancelRet(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1303229,
+  "wiring_fn": "void FUN_14081d6d0(QWidget *param_1,char param_2)",
+  "signal": "sigConnectRet(int)",
+  "slot": "1slotOnConnectRet(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1305750,
+  "wiring_fn": "void FUN_140822080(char *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "kind": "slot"
+ },
+ {
+  "line": 1305855,
+  "wiring_fn": "void FUN_140822080(char *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "kind": "slot"
+ },
+ {
+  "line": 1305932,
+  "wiring_fn": "void FUN_140822080(char *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "kind": "slot"
+ },
+ {
+  "line": 1306010,
+  "wiring_fn": "void FUN_140822080(char *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "kind": "slot"
+ },
+ {
+  "line": 1306060,
+  "wiring_fn": "void FUN_140822080(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnChangePwdState()",
+  "kind": "slot"
+ },
+ {
+  "line": 1310503,
+  "wiring_fn": "void FUN_14082bd20(char *param_1)",
+  "signal": "sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1310506,
+  "wiring_fn": "void FUN_14082bd20(char *param_1)",
+  "signal": "sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1310509,
+  "wiring_fn": "void FUN_14082bd20(char *param_1)",
+  "signal": "sigEnableWidget(bool)",
+  "slot": "2sigEnableWidget(bool)",
+  "kind": "relay"
+ },
+ {
+  "line": 1310543,
+  "wiring_fn": "void FUN_14082bd20(char *param_1)",
+  "signal": "sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1310546,
+  "wiring_fn": "void FUN_14082bd20(char *param_1)",
+  "signal": "sigAutoConnect()",
+  "slot": "1slotAutoConnect()",
+  "kind": "slot"
+ },
+ {
+  "line": 1314000,
+  "wiring_fn": "void FUN_140833f10(char *param_1)",
+  "signal": "refreshFinished()",
+  "slot": "1accept()",
+  "kind": "slot"
+ },
+ {
+  "line": 1314668,
+  "wiring_fn": "void FUN_1408351a0(QStackedWidget *param_1)",
+  "signal": "finished()",
+  "slot": "1deviceEnumFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1314671,
+  "wiring_fn": "void FUN_1408351a0(QStackedWidget *param_1)",
+  "signal": "startScanDevice(const ScanDeviceInfo&)",
+  "slot": "1scanClickedSlot(const ScanDeviceInfo&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1314675,
+  "wiring_fn": "void FUN_1408351a0(QStackedWidget *param_1)",
+  "signal": "sigScanNasDevice(IStorageDevice*)",
+  "slot": "1scanClickedSlot(IStorageDevice*)",
+  "kind": "slot"
+ },
+ {
+  "line": 1314856,
+  "wiring_fn": "void FUN_140835910(QStackedWidget *param_1)",
+  "signal": "sigScanFinished()",
+  "slot": "2sigScanFinished()",
+  "kind": "relay"
+ },
+ {
+  "line": 1316982,
+  "wiring_fn": "void FUN_140839630(char *param_1)",
+  "signal": "timeout()",
+  "slot": "1onQuit()",
+  "kind": "slot"
+ },
+ {
+  "line": 1317017,
+  "wiring_fn": "void FUN_140839630(char *param_1)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1320667,
+  "wiring_fn": "void FUN_1408412c0(QWidget *param_1)",
+  "signal": "itemClicked(const quint64)",
+  "slot": "1titleBarItemClicked(const quint64)",
+  "kind": "slot"
+ },
+ {
+  "line": 1320670,
+  "wiring_fn": "void FUN_1408412c0(QWidget *param_1)",
+  "signal": "sigEnterOrLeaveTitleButton(const quint64, bool )",
+  "slot": "1enterOrLeaveTitleButton(const quint64, bool )",
+  "kind": "slot"
+ },
+ {
+  "line": 1320674,
+  "wiring_fn": "void FUN_1408412c0(QWidget *param_1)",
+  "signal": "currentChanged(int)",
+  "slot": "1currentShowPageChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1320677,
+  "wiring_fn": "void FUN_1408412c0(QWidget *param_1)",
+  "signal": "sigScanFinished()",
+  "slot": "1scanFreezeFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1323020,
+  "wiring_fn": "void FUN_140846e70(QWidget *param_1)",
+  "signal": "sigUpdateTaskBarProgress(int)",
+  "slot": "1setValue(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1323023,
+  "wiring_fn": "void FUN_140846e70(QWidget *param_1)",
+  "signal": "sigUpdateTaskBarProgress(int)",
+  "slot": "1show()",
+  "kind": "slot"
+ },
+ {
+  "line": 1323026,
+  "wiring_fn": "void FUN_140846e70(QWidget *param_1)",
+  "signal": "sigTaskBarStop()",
+  "slot": "1hide()",
+  "kind": "slot"
+ },
+ {
+  "line": 1323029,
+  "wiring_fn": "void FUN_140846e70(QWidget *param_1)",
+  "signal": "sigTaskBarResume()",
+  "slot": "1resume()",
+  "kind": "slot"
+ },
+ {
+  "line": 1323032,
+  "wiring_fn": "void FUN_140846e70(QWidget *param_1)",
+  "signal": "sigTaskBarResume()",
+  "slot": "1hide()",
+  "kind": "slot"
+ },
+ {
+  "line": 1323035,
+  "wiring_fn": "void FUN_140846e70(QWidget *param_1)",
+  "signal": "sigTaskBarPaused(bool)",
+  "slot": "1setPaused(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1329235,
+  "wiring_fn": "undefined8 FUN_140851780(longlong param_1)",
+  "signal": "textChanged(const QString&)",
+  "slot": "1refreshTipText(const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1329547,
+  "wiring_fn": "int FUN_140852300(QDialog *param_1)",
+  "signal": "initFinished()",
+  "slot": "1accept()",
+  "kind": "slot"
+ },
+ {
+  "line": 1329697,
+  "wiring_fn": "void FUN_140852830(QWidget *param_1,QPaintEvent *param_2)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1340712,
+  "wiring_fn": "void FUN_140864c10(QWidget *param_1)",
+  "signal": "sigClickScan(const NasDeviceInfo&)",
+  "slot": "1slotClickScan(const NasDeviceInfo&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1340716,
+  "wiring_fn": "void FUN_140864c10(QWidget *param_1)",
+  "signal": "sigClickConnect()",
+  "slot": "1slotClickConnect()",
+  "kind": "slot"
+ },
+ {
+  "line": 1341187,
+  "wiring_fn": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "signal": "sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1341196,
+  "wiring_fn": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "signal": "sigItemClickScan(const NasDeviceInfo&)",
+  "slot": "1slotItemClickScan(const NasDeviceInfo&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1341218,
+  "wiring_fn": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "signal": "sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1341223,
+  "wiring_fn": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "signal": "sigItemClickConnect()",
+  "slot": "1slotItemClickConnect()",
+  "kind": "slot"
+ },
+ {
+  "line": 1341238,
+  "wiring_fn": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "signal": "sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1341242,
+  "wiring_fn": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "signal": "sigItemClickSupport()",
+  "slot": "1slotItemClickSupport()",
+  "kind": "slot"
+ },
+ {
+  "line": 1343919,
+  "wiring_fn": "void FUN_140869b40(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1343996,
+  "wiring_fn": "void FUN_140869b40(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnRefreshClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1344309,
+  "wiring_fn": "void FUN_14086b870(longlong *param_1)",
+  "signal": "finished()",
+  "slot": "1slotDownloadThreadFinish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1344311,
+  "wiring_fn": "void FUN_14086b870(longlong *param_1)",
+  "signal": "sigDownloadError()",
+  "slot": "1slotDownloadFailed()",
+  "kind": "slot"
+ },
+ {
+  "line": 1346543,
+  "wiring_fn": "void FUN_14086fe30(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnSupportClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1346576,
+  "wiring_fn": "void FUN_14086fe30(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnConnectClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1347341,
+  "wiring_fn": "void FUN_140871880(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1347374,
+  "wiring_fn": "void FUN_140871880(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnConnectClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1347894,
+  "wiring_fn": "void FUN_1408730f0(longlong param_1)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1348894,
+  "wiring_fn": "void FUN_140874890(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnBackClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1348929,
+  "wiring_fn": "void FUN_140874890(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnConnectClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1348950,
+  "wiring_fn": "void FUN_140874890(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1349037,
+  "wiring_fn": "void FUN_140874890(QWidget *param_1)",
+  "signal": "timeout()",
+  "slot": "1slotTimerCheckConnectState()",
+  "kind": "slot"
+ },
+ {
+  "line": 1349736,
+  "wiring_fn": "void FUN_1408774b0(char *param_1)",
+  "signal": "sigCancelRet(bool)",
+  "slot": "1slotOnCancelRet(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1349907,
+  "wiring_fn": "void FUN_1408775e0(QWidget *param_1,char param_2)",
+  "signal": "sigConnectRet(int)",
+  "slot": "1slotOnConnectRet(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1352600,
+  "wiring_fn": "void FUN_14087c440(char *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "kind": "slot"
+ },
+ {
+  "line": 1352746,
+  "wiring_fn": "void FUN_14087c440(char *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "kind": "slot"
+ },
+ {
+  "line": 1352824,
+  "wiring_fn": "void FUN_14087c440(char *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "kind": "slot"
+ },
+ {
+  "line": 1352904,
+  "wiring_fn": "void FUN_14087c440(char *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "kind": "slot"
+ },
+ {
+  "line": 1352956,
+  "wiring_fn": "void FUN_14087c440(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnChangePwdState()",
+  "kind": "slot"
+ },
+ {
+  "line": 1354188,
+  "wiring_fn": "void FUN_140880f80(longlong param_1)",
+  "signal": "selectionChanged()",
+  "slot": "1slotEditSelectChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1354191,
+  "wiring_fn": "void FUN_140880f80(longlong param_1)",
+  "signal": "textChanged(const QString &)",
+  "slot": "1slotTextChange(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1358186,
+  "wiring_fn": "void FUN_140886a50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnBackClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1358211,
+  "wiring_fn": "void FUN_140886a50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnNextClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1362039,
+  "wiring_fn": "void FUN_14088fac0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnStartClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1362073,
+  "wiring_fn": "void FUN_14088fac0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "2sigBtnLinuxClicked()",
+  "kind": "relay"
+ },
+ {
+  "line": 1363088,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "SigEnumRet(bool)",
+  "slot": "1slotEnumDeviceRet(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363100,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363154,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363168,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363182,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363185,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigSetDeviceInfo(const NasDeviceInfo&)",
+  "slot": "1slotSetDeviceInfo(const NasDeviceInfo&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363200,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363203,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1363217,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363220,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1363223,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigEnableWidget(bool)",
+  "slot": "2sigEnableWidget(bool)",
+  "kind": "relay"
+ },
+ {
+  "line": 1363237,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoPage(int, int)",
+  "slot": "1gotoPage(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1363240,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1363243,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigAutoConnect()",
+  "slot": "1slotAutoConnect()",
+  "kind": "slot"
+ },
+ {
+  "line": 1363247,
+  "wiring_fn": "void FUN_140892900(char *param_1)",
+  "signal": "sigEnableWidget(bool)",
+  "slot": "2sigEnableWidget(bool)",
+  "kind": "relay"
+ },
+ {
+  "line": 1366417,
+  "wiring_fn": "FUN_140899280(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "SigEnumRet(bool)",
+  "slot": "1SlotEnumRet(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1368246,
+  "wiring_fn": "void FUN_14089c320(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1368862,
+  "wiring_fn": "void FUN_14089d760(QWidget *param_1)",
+  "signal": "sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1369249,
+  "wiring_fn": "void FUN_14089e280(QWidget *param_1)",
+  "signal": "sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1369866,
+  "wiring_fn": "void FUN_14089fa80(longlong param_1)",
+  "signal": "dispatch(int, void*,int&)",
+  "slot": "2doDispatchMessage(int, void*,int&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1369872,
+  "wiring_fn": "void FUN_14089fa80(longlong param_1)",
+  "signal": "dispatch(int, void*,int&)",
+  "slot": "2doDispatchMessage(int, void*,int&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1370336,
+  "wiring_fn": "void FUN_1408a0720(QAbstractItemModel *param_1,QString *param_2)",
+  "signal": "sigPushPixmapGetIndex(int)",
+  "slot": "1PushNewIndex(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1370339,
+  "wiring_fn": "void FUN_1408a0720(QAbstractItemModel *param_1,QString *param_2)",
+  "signal": "sigFinished(int, QPixmap)",
+  "slot": "1slotGetPixmapRet(int, QPixmap)",
+  "kind": "slot"
+ },
+ {
+  "line": 1371071,
+  "wiring_fn": "void FUN_1408a1970(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1371455,
+  "wiring_fn": "void FUN_1408a1970(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnSave()",
+  "kind": "slot"
+ },
+ {
+  "line": 1373902,
+  "wiring_fn": "void FUN_1408a73b0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedBtnAdd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1374467,
+  "wiring_fn": "void FUN_1408a81c0(QWidget *param_1)",
+  "signal": "sigEditOnFocus()",
+  "slot": "1onCursorInPwdEdit()",
+  "kind": "slot"
+ },
+ {
+  "line": 1374499,
+  "wiring_fn": "void FUN_1408a81c0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedBtnDecrypt()",
+  "kind": "slot"
+ },
+ {
+  "line": 1374573,
+  "wiring_fn": "void FUN_1408a81c0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedBtnClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1374851,
+  "wiring_fn": "void FUN_1408a9a30(char *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetPasswordRet()",
+  "kind": "slot"
+ },
+ {
+  "line": 1376222,
+  "wiring_fn": "void FUN_1408aae50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedBtnAdd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1377552,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedPreview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1378150,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRemove()",
+  "kind": "slot"
+ },
+ {
+  "line": 1378185,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedPreview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1378320,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1378364,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedSave()",
+  "kind": "slot"
+ },
+ {
+  "line": 1378408,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedAdvancedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1378452,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1378499,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedStopRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1378544,
+  "wiring_fn": "void FUN_1408aeb00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedFeedBack()",
+  "kind": "slot"
+ },
+ {
+  "line": 1379628,
+  "wiring_fn": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "signal": "sigRemove()",
+  "slot": "1onItemClickedRemove()",
+  "kind": "slot"
+ },
+ {
+  "line": 1379630,
+  "wiring_fn": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "signal": "sigStartRepair()",
+  "slot": "1onItemClickedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1379632,
+  "wiring_fn": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "signal": "sigClickedAdvancedRepair()",
+  "slot": "1onItemClickedAdvancedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1379634,
+  "wiring_fn": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "signal": "sigStartAdvancedRepair()",
+  "slot": "1onItemStartAdvancedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1379636,
+  "wiring_fn": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "signal": "sigStopRepair()",
+  "slot": "1onItemClickedStop()",
+  "kind": "slot"
+ },
+ {
+  "line": 1379638,
+  "wiring_fn": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "signal": "sigStartSave(bool)",
+  "slot": "1onItemStartSave(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1379640,
+  "wiring_fn": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "signal": "sigSaveActivateSuccess()",
+  "slot": "2sigSaveActivateSuccess()",
+  "kind": "relay"
+ },
+ {
+  "line": 1379643,
+  "wiring_fn": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "signal": "sigPreview()",
+  "slot": "1onItemClickPreview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380416,
+  "wiring_fn": "void FUN_1408b50b0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnTipsCloseClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380499,
+  "wiring_fn": "void FUN_1408b50b0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedAddVideos()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380644,
+  "wiring_fn": "void FUN_1408b50b0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRemoveAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380678,
+  "wiring_fn": "void FUN_1408b50b0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRepairAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380709,
+  "wiring_fn": "void FUN_1408b50b0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedStopAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380743,
+  "wiring_fn": "void FUN_1408b50b0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedSaveAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380807,
+  "wiring_fn": "void FUN_1408b6bc0(QObject *param_1,QObject *param_2)",
+  "signal": "timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380810,
+  "wiring_fn": "void FUN_1408b6bc0(QObject *param_1,QObject *param_2)",
+  "signal": "timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380851,
+  "wiring_fn": "void FUN_1408b6dd0(QObject *param_1,QObject *param_2)",
+  "signal": "timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1380854,
+  "wiring_fn": "void FUN_1408b6dd0(QObject *param_1,QObject *param_2)",
+  "signal": "timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1382948,
+  "wiring_fn": "void FUN_1408bb570(QObject *param_1)",
+  "signal": "sigClickedSave(bool)",
+  "slot": "1onClickedSave(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1382951,
+  "wiring_fn": "void FUN_1408bb570(QObject *param_1)",
+  "signal": "sigSaveActivateSuccess()",
+  "slot": "1close()",
+  "kind": "slot"
+ },
+ {
+  "line": 1382954,
+  "wiring_fn": "void FUN_1408bb570(QObject *param_1)",
+  "signal": "sigRefreshActivate()",
+  "slot": "2sigRefreshActivate()",
+  "kind": "relay"
+ },
+ {
+  "line": 1383401,
+  "wiring_fn": "void FUN_1408bc6b0(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1doNextRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1383741,
+  "wiring_fn": "void FUN_1408bcc10(QWidget *param_1)",
+  "signal": "sigBtnAddClicked()",
+  "slot": "2sigBtnAddClicked()",
+  "kind": "relay"
+ },
+ {
+  "line": 1383744,
+  "wiring_fn": "void FUN_1408bcc10(QWidget *param_1)",
+  "signal": "sigRemoveAll()",
+  "slot": "1onItemsRemoveAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1383747,
+  "wiring_fn": "void FUN_1408bcc10(QWidget *param_1)",
+  "signal": "sigRefreshActivate()",
+  "slot": "1onActivateRefresh()",
+  "kind": "slot"
+ },
+ {
+  "line": 1383762,
+  "wiring_fn": "void FUN_1408bcc10(QWidget *param_1)",
+  "signal": "sigClickBtnAdd()",
+  "slot": "2sigBtnAddClicked()",
+  "kind": "relay"
+ },
+ {
+  "line": 1383791,
+  "wiring_fn": "void FUN_1408bcc10(QWidget *param_1)",
+  "signal": "sigUpdateItemCount(int)",
+  "slot": "1onUpdateVideosCount(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1386758,
+  "wiring_fn": "void FUN_1408c1ea0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1386965,
+  "wiring_fn": "void FUN_1408c2e60(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetAddProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1387138,
+  "wiring_fn": "void FUN_1408c3260(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetAddProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1387924,
+  "wiring_fn": "void FUN_1408c4950(QWidget *param_1)",
+  "signal": "sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1388652,
+  "wiring_fn": "void FUN_1408c5660(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnView()",
+  "kind": "slot"
+ },
+ {
+  "line": 1389338,
+  "wiring_fn": "void FUN_1408c7cb0(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetSaveProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1389493,
+  "wiring_fn": "void FUN_1408c8270(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetSaveProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1391387,
+  "wiring_fn": "void FUN_1408cc110(char *param_1)",
+  "signal": "sigGotoAddPage()",
+  "slot": "1onGotoAddPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1391390,
+  "wiring_fn": "void FUN_1408cc110(char *param_1)",
+  "signal": "sigGotoItemsPage()",
+  "slot": "1onGotoItmesPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1391393,
+  "wiring_fn": "void FUN_1408cc110(char *param_1)",
+  "signal": "sigClearAll()",
+  "slot": "1onClearAllItems()",
+  "kind": "slot"
+ },
+ {
+  "line": 1391407,
+  "wiring_fn": "void FUN_1408cc110(char *param_1)",
+  "signal": "sigBtnAddClicked()",
+  "slot": "1onClickedBtnAdd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1392616,
+  "wiring_fn": "void FUN_1408ce9b0(char *param_1)",
+  "signal": "sigBtnStartClicked()",
+  "slot": "1slotBtnStartClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1393385,
+  "wiring_fn": "void FUN_1408cfae0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotCloseWnd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1393388,
+  "wiring_fn": "void FUN_1408cfae0(QWidget *param_1)",
+  "signal": "resizeBtnWidth()",
+  "slot": "1slotResizeBtnWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1393743,
+  "wiring_fn": "void FUN_1408d0390(char *param_1,int param_2)",
+  "signal": "clicked()",
+  "slot": "1slotClickRegionBtn()",
+  "kind": "slot"
+ },
+ {
+  "line": 1399023,
+  "wiring_fn": "void FUN_1408da710(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1hide()",
+  "kind": "slot"
+ },
+ {
+  "line": 1399414,
+  "wiring_fn": "void FUN_1408da710(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1hide()",
+  "kind": "slot"
+ },
+ {
+  "line": 1399449,
+  "wiring_fn": "void FUN_1408da710(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1hide()",
+  "kind": "slot"
+ },
+ {
+  "line": 1403318,
+  "wiring_fn": "void FUN_1408e2790(QFrame *param_1,undefined8 param_2,char param_3,char param_4)",
+  "signal": "buttonPressed(int)",
+  "slot": "1slotButtonItemPressed(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1403514,
+  "wiring_fn": "void FUN_1408e37b0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,",
+  "signal": "checkboxStateChanged(int)",
+  "slot": "2itemCheckedChanged(int)",
+  "kind": "relay"
+ },
+ {
+  "line": 1404533,
+  "wiring_fn": "void FUN_1408e54e0(QPoint *param_1,int param_2)",
+  "signal": "finished()",
+  "slot": "1slotAnimationFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1423051,
+  "wiring_fn": "void FUN_140905970(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnStopClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1423109,
+  "wiring_fn": "void FUN_140905970(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnRecoverClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1431537,
+  "wiring_fn": "void FUN_140917b30(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnStartClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1452164,
+  "wiring_fn": "int FUN_14093be80(longlong param_1)",
+  "signal": "sigEnableWidget(bool)",
+  "slot": "1slotEnableWidget(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1452294,
+  "wiring_fn": "int FUN_14093be80(longlong param_1)",
+  "signal": "sigEnableWidget(bool)",
+  "slot": "1slotEnableWidget(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1452465,
+  "wiring_fn": "int FUN_14093be80(longlong param_1)",
+  "signal": "sigSetLeftNavigateBarVisible(bool)",
+  "slot": "1slotLeftNavigationVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1453279,
+  "wiring_fn": "void FUN_14093e570(QWidget *param_1)",
+  "signal": "sigAnimationFinished()",
+  "slot": "1slotRightAnimationFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1458929,
+  "wiring_fn": "void FUN_140949180(char *param_1)",
+  "signal": "sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1459012,
+  "wiring_fn": "void FUN_140949460(char *param_1)",
+  "signal": "sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1459460,
+  "wiring_fn": "void FUN_14094a0e0(char *param_1,longlong param_2,int param_3,QLayout *param_4)",
+  "signal": "sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "kind": "slot"
+ },
+ {
+  "line": 1462853,
+  "wiring_fn": "void FUN_14094ff80(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBuy()",
+  "kind": "slot"
+ },
+ {
+  "line": 1462876,
+  "wiring_fn": "void FUN_14094ff80(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1464987,
+  "wiring_fn": "void FUN_1409550e0(char *param_1)",
+  "signal": "sigPercentChange(int,double)",
+  "slot": "1slotPercentChange(int, double)",
+  "kind": "slot"
+ },
+ {
+  "line": 1464990,
+  "wiring_fn": "void FUN_1409550e0(char *param_1)",
+  "signal": "sigDeviceChange()",
+  "slot": "1slotDeviceChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1465745,
+  "wiring_fn": "void FUN_1409551e0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnBack()",
+  "kind": "slot"
+ },
+ {
+  "line": 1465788,
+  "wiring_fn": "void FUN_1409551e0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnCreateClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1466540,
+  "wiring_fn": "void FUN_140956da0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnRetry()",
+  "kind": "slot"
+ },
+ {
+  "line": 1467488,
+  "wiring_fn": "void FUN_140958a50(char *param_1)",
+  "signal": "linkActivated(const QString&)",
+  "slot": "1slotLabelLink(const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1468437,
+  "wiring_fn": "void FUN_14095c890(char *param_1)",
+  "signal": "sigGetInfoRet()",
+  "slot": "1slotGetInfoRet()",
+  "kind": "slot"
+ },
+ {
+  "line": 1468877,
+  "wiring_fn": "void FUN_14095d230(char *param_1,char param_2)",
+  "signal": "sigCreateRet(int, int)",
+  "slot": "1slotCreateRet(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1468931,
+  "wiring_fn": "void FUN_14095d230(char *param_1,char param_2)",
+  "signal": "sigCreateRet(int, int)",
+  "slot": "1slotCreateRet(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1471641,
+  "wiring_fn": "void FUN_140961be0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotBtnNextClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1472494,
+  "wiring_fn": "void FUN_1409641f0(char *param_1)",
+  "signal": "sigBtnNextClick()",
+  "slot": "1slotBtnNextClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1472497,
+  "wiring_fn": "void FUN_1409641f0(char *param_1)",
+  "signal": "sigBtnBack()",
+  "slot": "1slotBtnBackClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1472513,
+  "wiring_fn": "void FUN_1409641f0(char *param_1)",
+  "signal": "sigResetConnectView()",
+  "slot": "1slotResetUI()",
+  "kind": "slot"
+ },
+ {
+  "line": 1480692,
+  "wiring_fn": "void FUN_140972cb0(void)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1481914,
+  "wiring_fn": "void FUN_140976430(char *param_1)",
+  "signal": "sigRefresh()",
+  "slot": "1refreshUI()",
+  "kind": "slot"
+ },
+ {
+  "line": 1484853,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484856,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484885,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484888,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484906,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484909,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484927,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484930,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484948,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1484951,
+  "wiring_fn": "void FUN_14097c270(char *param_1)",
+  "signal": "sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1491637,
+  "wiring_fn": "longlong FUN_140986e80(longlong param_1,longlong param_2)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1505524,
+  "wiring_fn": "undefined8 FUN_14099eed0(QWidget *param_1)",
+  "signal": "sigRecoverClicked(int)",
+  "slot": "2sigRecoverOriginal(int)",
+  "kind": "relay"
+ },
+ {
+  "line": 1505840,
+  "wiring_fn": "undefined8 FUN_14099f840(char *param_1)",
+  "signal": "sigRecoverClicked(int)",
+  "slot": "2sigRecoverRepaired(int)",
+  "kind": "relay"
+ },
+ {
+  "line": 1505843,
+  "wiring_fn": "undefined8 FUN_14099f840(char *param_1)",
+  "signal": "sigRecoverClicked(int)",
+  "slot": "2sigRecoverRepaired(int)",
+  "kind": "relay"
+ },
+ {
+  "line": 1507051,
+  "wiring_fn": "void FUN_1409a1f30(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnClickClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1507285,
+  "wiring_fn": "void FUN_1409a1f30(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnClickedSave()",
+  "kind": "slot"
+ },
+ {
+  "line": 1507314,
+  "wiring_fn": "void FUN_1409a1f30(QWidget *param_1)",
+  "signal": "sigCloseParent()",
+  "slot": "1onBtnClickedSave()",
+  "kind": "slot"
+ },
+ {
+  "line": 1507317,
+  "wiring_fn": "void FUN_1409a1f30(QWidget *param_1)",
+  "signal": "sigRefreshActivate()",
+  "slot": "2sigRefreshActivate()",
+  "kind": "relay"
+ },
+ {
+  "line": 1507353,
+  "wiring_fn": "void FUN_1409a1f30(QWidget *param_1)",
+  "signal": "timeout()",
+  "slot": "1onCheckShowShadaow()",
+  "kind": "slot"
+ },
+ {
+  "line": 1507423,
+  "wiring_fn": "void FUN_1409a33f0(QDialog *param_1,QShowEvent *param_2)",
+  "signal": "timeout()",
+  "slot": "1onGetCacheProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1508494,
+  "wiring_fn": "void FUN_1409a54c0(QWidget *param_1)",
+  "signal": "sigResizeWidth()",
+  "slot": "1onDelayResizeWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1526564,
+  "wiring_fn": "void FUN_1409c8ef0(QWidget *param_1)",
+  "signal": "beforeNavigate2(const QString&, bool&)",
+  "slot": "1beforeNavigate2Slot(const QString&, bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1526568,
+  "wiring_fn": "void FUN_1409c8ef0(QWidget *param_1)",
+  "signal": "navigateComplete(const QString&)",
+  "slot": "1navigateCompleteSlot(const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1529179,
+  "wiring_fn": "void FUN_1409cd9e0(char *param_1,QBoxLayout *param_2)",
+  "signal": "returnPressed()",
+  "slot": "1bitlockerUnlockSlot()",
+  "kind": "slot"
+ },
+ {
+  "line": 1529229,
+  "wiring_fn": "void FUN_1409cd9e0(char *param_1,QBoxLayout *param_2)",
+  "signal": "clicked()",
+  "slot": "1slotBtnChangePwdState()",
+  "kind": "slot"
+ },
+ {
+  "line": 1532664,
+  "wiring_fn": "longlong FUN_1409d5a20(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1534210,
+  "wiring_fn": "void FUN_1409d85b0(QDialog *param_1)",
+  "signal": "checkFinsh(int, const QString&,const QString&)",
+  "slot": "1checkFinished(int, const QString&, const QString&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1534956,
+  "wiring_fn": "FUN_1409d9e50(undefined8 param_1,undefined1 param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1537053,
+  "wiring_fn": "int FUN_1409ddb70(undefined4 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,",
+  "signal": "onLinkURL(const QString&,const QString&)",
+  "slot": "2onLinkURLClicked(const QString&,const QString&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1555089,
+  "wiring_fn": "void FUN_1409fcf10(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onSelectBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1555180,
+  "wiring_fn": "void FUN_1409fd640(QWidget *param_1,QWidget *param_2)",
+  "signal": "clicked()",
+  "slot": "1onBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1569428,
+  "wiring_fn": "void FUN_140a19040(longlong param_1)",
+  "signal": "progressChanged(const int)",
+  "slot": "1upgradeUIProgress(const int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1569531,
+  "wiring_fn": "void FUN_140a19830(longlong *param_1,undefined8 param_2)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1569534,
+  "wiring_fn": "void FUN_140a19830(longlong *param_1,undefined8 param_2)",
+  "signal": "saveRestoreThFinshed()",
+  "slot": "1restoreFinshedClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1581502,
+  "wiring_fn": "void FUN_140a2db30(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClickUpgrade()",
+  "kind": "slot"
+ },
+ {
+  "line": 1583190,
+  "wiring_fn": "void FUN_140a31480(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1583225,
+  "wiring_fn": "void FUN_140a31480(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClickUpgrade()",
+  "kind": "slot"
+ },
+ {
+  "line": 1583340,
+  "wiring_fn": "void FUN_140a31480(QWidget *param_1)",
+  "signal": "sigUpdateBtnWidth()",
+  "slot": "1slotUpdateBtnWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1583363,
+  "wiring_fn": "void FUN_140a31480(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1584473,
+  "wiring_fn": "void FUN_140a34ba0(longlong param_1,undefined8 param_2)",
+  "signal": "doDispatchMessage(int, void*, int&)",
+  "slot": "1doReceivedEvent(int, void*, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1584850,
+  "wiring_fn": "void FUN_140a35c40(QObject *param_1)",
+  "signal": "doDispatchMessage(int, void*, int&)",
+  "slot": "1doReceivedEvent(int, void*, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1586491,
+  "wiring_fn": "void FUN_140a398b0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1closeBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1586601,
+  "wiring_fn": "void FUN_140a398b0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1closeBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1586603,
+  "wiring_fn": "void FUN_140a398b0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1activateClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1586605,
+  "wiring_fn": "void FUN_140a398b0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1retryBtnClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1589485,
+  "wiring_fn": "longlong FUN_140a40380(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1589502,
+  "wiring_fn": "longlong FUN_140a40380(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1593427,
+  "wiring_fn": "void FUN_140a484d0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClickClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1593879,
+  "wiring_fn": "void FUN_140a484d0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1viewRecoveredClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1593882,
+  "wiring_fn": "void FUN_140a484d0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1UserClickedviewRecovered()",
+  "kind": "slot"
+ },
+ {
+  "line": 1616518,
+  "wiring_fn": "void FUN_140a74f00(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedScan()",
+  "kind": "slot"
+ },
+ {
+  "line": 1617383,
+  "wiring_fn": "void FUN_140a77380(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRefresh()",
+  "kind": "slot"
+ },
+ {
+  "line": 1617679,
+  "wiring_fn": "void FUN_140a77380(QWidget *param_1)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1618478,
+  "wiring_fn": "void FUN_140a797e0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1slotClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1618481,
+  "wiring_fn": "void FUN_140a797e0(QWidget *param_1)",
+  "signal": "sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "kind": "slot"
+ },
+ {
+  "line": 1620148,
+  "wiring_fn": "void FUN_140a7c3f0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedSubmit()",
+  "kind": "slot"
+ },
+ {
+  "line": 1620167,
+  "wiring_fn": "void FUN_140a7c3f0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1620674,
+  "wiring_fn": "void FUN_140a7d8e0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1622134,
+  "wiring_fn": "void FUN_140a7f7a0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1624288,
+  "wiring_fn": "void FUN_140a85150(char *param_1)",
+  "signal": "refreshClicked()",
+  "slot": "2refreshClicked()",
+  "kind": "relay"
+ },
+ {
+  "line": 1624334,
+  "wiring_fn": "void FUN_140a85150(char *param_1)",
+  "signal": "sigResize(const QPoint&)",
+  "slot": "1slotMoveSDCardHelpTips(const QPoint&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1632762,
+  "wiring_fn": "void FUN_140a91b50(undefined8 *param_1,QObject *param_2)",
+  "signal": "clicked()",
+  "slot": "1close()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635123,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigIsScrolling(bool&)",
+  "slot": "1onIsScrolling(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635146,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigScrollToLastIdx()",
+  "slot": "1scrollToLastIndex()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635150,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigShowFreeze()",
+  "slot": "1onShowFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635156,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigBeforeFreeze()",
+  "slot": "1onFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635159,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigCurrentChanged(void *, bool)",
+  "slot": "1onSelFileNode(void *, bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635162,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigExpandTree()",
+  "slot": "1expandTreeview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635166,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigSelectFileNode(void *)",
+  "slot": "1onSelFileNode(void *)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635169,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigShowTip(const QModelIndex &,const QPoint &)",
+  "slot": "1showToolTip(const QModelIndex&,const QPoint&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635173,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "collapsed(const QModelIndex &)",
+  "slot": "1onCollapseItem(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635176,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "expanded(const QModelIndex &)",
+  "slot": "1onExpandItem(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635179,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigRefreshCache()",
+  "slot": "1start()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635182,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "timeout()",
+  "slot": "1onRefreshCache()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635194,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sliderReleased()",
+  "slot": "1onSliderReleased()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635198,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635201,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigPathItemExpand()",
+  "slot": "1OnExpandPathItem()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635204,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigCorrectCurIndex()",
+  "slot": "1onCorrectCurIndex()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635207,
+  "wiring_fn": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "signal": "sigRecordVirtualIndex()",
+  "slot": "1onRecordVirtualIndex()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635612,
+  "wiring_fn": "void FUN_140a9baf0(char *param_1)",
+  "signal": "sigRefresh(bool)",
+  "slot": "1OnSinkRefresh(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635616,
+  "wiring_fn": "void FUN_140a9baf0(char *param_1)",
+  "signal": "sigRefreshRoot()",
+  "slot": "1OnSinkRefreshRoot()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635676,
+  "wiring_fn": "void FUN_140a9baf0(char *param_1)",
+  "signal": "sigSelectItem(CFileNode *)",
+  "slot": "1OnSinkSelectItem(CFileNode *)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635680,
+  "wiring_fn": "void FUN_140a9baf0(char *param_1)",
+  "signal": "sigInsertNode(CFileNode *,CFileNode *)",
+  "slot": "1OnSinkInsertNode(CFileNode *,CFileNode *)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635685,
+  "wiring_fn": "void FUN_140a9baf0(char *param_1)",
+  "signal": "sigDoBeforeFreeze()",
+  "slot": "1OnSinkDoBeforeFreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635689,
+  "wiring_fn": "void FUN_140a9baf0(char *param_1)",
+  "signal": "sigUnfreeze()",
+  "slot": "1OnSinkUnfreeze()",
+  "kind": "slot"
+ },
+ {
+  "line": 1635693,
+  "wiring_fn": "void FUN_140a9baf0(char *param_1)",
+  "signal": "sigRemoveItem(CFileNode*)",
+  "slot": "1OnSinkRemoveItem(CFileNode*)",
+  "kind": "slot"
+ },
+ {
+  "line": 1635697,
+  "wiring_fn": "void FUN_140a9baf0(char *param_1)",
+  "signal": "sigExpandPathItem(std::vector<CFileNode*>)",
+  "slot": "1OnSinkExpandPathItem(std::vector<CFileNode*>)",
+  "kind": "slot"
+ },
+ {
+  "line": 1636456,
+  "wiring_fn": "void FUN_140a9d2a0(QObject *param_1,QPaintEvent *param_2)",
+  "signal": "expanded(const QModelIndex &)",
+  "slot": "1onExpandItem(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1636876,
+  "wiring_fn": "void FUN_140a9dda0(QAbstractItemView *param_1)",
+  "signal": "sigFreezeDone()",
+  "slot": "1accept()",
+  "kind": "slot"
+ },
+ {
+  "line": 1637246,
+  "wiring_fn": "void FUN_140a9eac0(longlong param_1)",
+  "signal": "finished()",
+  "slot": "1insertNodes()",
+  "kind": "slot"
+ },
+ {
+  "line": 1637997,
+  "wiring_fn": "longlong FUN_140a9f9d0(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1640903,
+  "wiring_fn": "void FUN_140aa4b40(undefined8 param_1)",
+  "signal": "sigUpdate()",
+  "slot": "2sigModelRefresh()",
+  "kind": "relay"
+ },
+ {
+  "line": 1641278,
+  "wiring_fn": "undefined1 FUN_140aa55d0(void)",
+  "signal": "sigGotoIndex(int, int)",
+  "slot": "1GotoSelectIndex(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1641338,
+  "wiring_fn": "void FUN_140aa5710(QObject *param_1)",
+  "signal": "sigSort(int,bool)",
+  "slot": "1onDoSort(int,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1642149,
+  "wiring_fn": "void FUN_140aa72b0(QObject *param_1,char param_2)",
+  "signal": "rangeChanged(int,int)",
+  "slot": "1onRangeChanged()",
+  "kind": "slot"
+ },
+ {
+  "line": 1642152,
+  "wiring_fn": "void FUN_140aa72b0(QObject *param_1,char param_2)",
+  "signal": "valueChanged(int)",
+  "slot": "1onValueChanged(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1642239,
+  "wiring_fn": "void FUN_140aa75f0(char *param_1)",
+  "signal": "sigSort(int,bool)",
+  "slot": "1onDoSort(int,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1642308,
+  "wiring_fn": "void FUN_140aa7850(char *param_1)",
+  "signal": "sigHighLightString(const QModelIndex &,QString &)",
+  "slot": "1onHighLightString(const QModelIndex &,QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1642312,
+  "wiring_fn": "void FUN_140aa7850(char *param_1)",
+  "signal": "sigSort(int,bool)",
+  "slot": "1onDoSort(int,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1643326,
+  "wiring_fn": "void FUN_140aa93d0(longlong *param_1,int param_2,int param_3)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1643379,
+  "wiring_fn": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "sigShowAnimation()",
+  "slot": "1onShowAnimation()",
+  "kind": "slot"
+ },
+ {
+  "line": 1643381,
+  "wiring_fn": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "sigAsyncSortRet(int, bool, bool)",
+  "slot": "1onAsyncSortRet(int, bool, bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1643384,
+  "wiring_fn": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "sigBeforeSort()",
+  "slot": "1StopUpdateUI()",
+  "kind": "slot"
+ },
+ {
+  "line": 1643386,
+  "wiring_fn": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "signal": "sigFinishSort()",
+  "slot": "1ResetUpdateUI()",
+  "kind": "slot"
+ },
+ {
+  "line": 1643661,
+  "wiring_fn": "void FUN_140aaa5f0(longlong *param_1,undefined4 param_2,undefined4 param_3,undefined1 param_4,",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1643664,
+  "wiring_fn": "void FUN_140aaa5f0(longlong *param_1,undefined4 param_2,undefined4 param_3,undefined1 param_4,",
+  "signal": "sigFinished(bool, bool)",
+  "slot": "1onSetClassifyFinished(bool, bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1643711,
+  "wiring_fn": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "signal": "finished()",
+  "slot": "1onRefreshData()",
+  "kind": "slot"
+ },
+ {
+  "line": 1643713,
+  "wiring_fn": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "signal": "finished()",
+  "slot": "1show()",
+  "kind": "slot"
+ },
+ {
+  "line": 1643715,
+  "wiring_fn": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "signal": "sigFinished()",
+  "slot": "1onSortFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1643718,
+  "wiring_fn": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "signal": "sigAsyncSortRet(int, bool, bool)",
+  "slot": "1AsyncSortRet(int, bool, bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1643721,
+  "wiring_fn": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1643898,
+  "wiring_fn": "void FUN_140aab430(QObject *param_1,int param_2,char param_3,char param_4)",
+  "signal": "sigSort(int,bool)",
+  "slot": "1onDoSort(int,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1651778,
+  "wiring_fn": "void FUN_140ab9e60(QObject *param_1,char param_2)",
+  "signal": "clicked()",
+  "slot": "1slotClickTreeBtnChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1651788,
+  "wiring_fn": "void FUN_140ab9e60(QObject *param_1,char param_2)",
+  "signal": "clicked()",
+  "slot": "1slotClickTreeBtnChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1651862,
+  "wiring_fn": "ulonglong FUN_140aba0a0(QObject *param_1,longlong param_2,undefined8 param_3)",
+  "signal": "clicked()",
+  "slot": "1slotClickTreeBtnChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1652755,
+  "wiring_fn": "void FUN_140abbc00(QWidget *param_1,QEvent *param_2)",
+  "signal": "sigClickedClose()",
+  "slot": "1close()",
+  "kind": "slot"
+ },
+ {
+  "line": 1658146,
+  "wiring_fn": "void FUN_140ac5e80(QWidget *param_1)",
+  "signal": "timeout()",
+  "slot": "1onTimeout()",
+  "kind": "slot"
+ },
+ {
+  "line": 1659037,
+  "wiring_fn": "void FUN_140ac7830(void)",
+  "signal": "sigSectionMinWidth(QPoint,int)",
+  "slot": "1onGetMinSectionWidth(QPoint,int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1659441,
+  "wiring_fn": "void FUN_140ac8850(QHeaderView *param_1,undefined8 param_2,undefined4 param_3)",
+  "signal": "sigChangeCurQSS(int, int)",
+  "slot": "1onChangeCurQSS(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1660232,
+  "wiring_fn": "void FUN_140ac9fe0(QWidget *param_1,QContextMenuEvent *param_2)",
+  "signal": "sigDataType(int&)",
+  "slot": "2sigDataType(int&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1660514,
+  "wiring_fn": "void FUN_140aca9e0(QWidget *param_1,QContextMenuEvent *param_2)",
+  "signal": "sigDataType(int&)",
+  "slot": "2sigDataType(int&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1664572,
+  "wiring_fn": "void FUN_140ad16a0(char *param_1,undefined8 param_2)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1664574,
+  "wiring_fn": "void FUN_140ad16a0(char *param_1,undefined8 param_2)",
+  "signal": "sigFinished(bool)",
+  "slot": "1finish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1664576,
+  "wiring_fn": "void FUN_140ad16a0(char *param_1,undefined8 param_2)",
+  "signal": "sigFinished(bool)",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1664653,
+  "wiring_fn": "void FUN_140ad1950(char *param_1,undefined8 param_2)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1664655,
+  "wiring_fn": "void FUN_140ad1950(char *param_1,undefined8 param_2)",
+  "signal": "sigFinished(bool)",
+  "slot": "1finish()",
+  "kind": "slot"
+ },
+ {
+  "line": 1664657,
+  "wiring_fn": "void FUN_140ad1950(char *param_1,undefined8 param_2)",
+  "signal": "sigFinished(bool)",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1664870,
+  "wiring_fn": "void FUN_140ad1b80(longlong param_1)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1664909,
+  "wiring_fn": "void FUN_140ad2210(longlong param_1)",
+  "signal": "finished()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666242,
+  "wiring_fn": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "signal": "sigIsCachingPixmap(bool&)",
+  "slot": "1onIsRunning(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1666245,
+  "wiring_fn": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "signal": "sigGetFileNode(pixmapInfoKey&)",
+  "slot": "1onGetCacheFileNode(pixmapInfoKey&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1666248,
+  "wiring_fn": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "signal": "sigUpdate()",
+  "slot": "2sigUpdate()",
+  "kind": "relay"
+ },
+ {
+  "line": 1666250,
+  "wiring_fn": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "signal": "finished()",
+  "slot": "2sigUpdate()",
+  "kind": "relay"
+ },
+ {
+  "line": 1666338,
+  "wiring_fn": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "signal": "timeout()",
+  "slot": "1onTimeout()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666341,
+  "wiring_fn": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "signal": "sigStartTimer()",
+  "slot": "1start()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666445,
+  "wiring_fn": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "signal": "rowsInserted(const QModelIndex &,int,int)",
+  "slot": "1onRowInserted(const QModelIndex &,int,int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1666449,
+  "wiring_fn": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "signal": "sigModelRefresh()",
+  "slot": "1slotModelRefresh()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666466,
+  "wiring_fn": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "signal": "clicked(const QModelIndex &)",
+  "slot": "1onMouseClicked(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1666469,
+  "wiring_fn": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "signal": "doubleClicked(const QModelIndex &)",
+  "slot": "1onMouseDblClick(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1666472,
+  "wiring_fn": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "signal": "destroyed()",
+  "slot": "1onViewDestoryed()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666476,
+  "wiring_fn": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "signal": "destroyed()",
+  "slot": "1onViewDestoryed()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666573,
+  "wiring_fn": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1666576,
+  "wiring_fn": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)",
+  "signal": "sigFinished(bool)",
+  "slot": "1onCheckFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666579,
+  "wiring_fn": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)",
+  "signal": "sigGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)",
+  "slot": "1onGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)",
+  "kind": "slot"
+ },
+ {
+  "line": 1666620,
+  "wiring_fn": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1666623,
+  "wiring_fn": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,",
+  "signal": "sigFinished(bool)",
+  "slot": "1onCheckFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666626,
+  "wiring_fn": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,",
+  "signal": "sigGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)",
+  "slot": "1onGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)",
+  "kind": "slot"
+ },
+ {
+  "line": 1666631,
+  "wiring_fn": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,",
+  "signal": "sigGetIgnoreIndexs(QVector<int>&)",
+  "slot": "1onGetIgnoreList(QVector<int>&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1666670,
+  "wiring_fn": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1666673,
+  "wiring_fn": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)",
+  "signal": "sigFinished(bool)",
+  "slot": "1onCheckFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1666676,
+  "wiring_fn": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)",
+  "signal": "sigFinished(bool)",
+  "slot": "2sigRecoverAll()",
+  "kind": "relay"
+ },
+ {
+  "line": 1666848,
+  "wiring_fn": "void FUN_140ad64d0(QObject *param_1,char param_2)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1667311,
+  "wiring_fn": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "signal": "finished()",
+  "slot": "1onRefreshData()",
+  "kind": "slot"
+ },
+ {
+  "line": 1667313,
+  "wiring_fn": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "signal": "finished()",
+  "slot": "1show()",
+  "kind": "slot"
+ },
+ {
+  "line": 1667315,
+  "wiring_fn": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "signal": "finished()",
+  "slot": "2sigFinishSort()",
+  "kind": "relay"
+ },
+ {
+  "line": 1667317,
+  "wiring_fn": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "signal": "sigAsyncSortRet(int, bool, bool)",
+  "slot": "1AsyncSortRet(int, bool, bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1667320,
+  "wiring_fn": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1667881,
+  "wiring_fn": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1667884,
+  "wiring_fn": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "signal": "sigGetListIndex(int&, int&)",
+  "slot": "2sigGetRightIndex(int&, int&)",
+  "kind": "relay"
+ },
+ {
+  "line": 1667887,
+  "wiring_fn": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "signal": "sigSelFinished(const QModelIndex&,bool)",
+  "slot": "1onSelNodeFinished(const QModelIndex &,bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1667890,
+  "wiring_fn": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "signal": "sigSelectRightIndex(int, int)",
+  "slot": "2sigSelectRightIndex(int, int)",
+  "kind": "relay"
+ },
+ {
+  "line": 1667896,
+  "wiring_fn": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "signal": "modelReset()",
+  "slot": "1start()",
+  "kind": "slot"
+ },
+ {
+  "line": 1668543,
+  "wiring_fn": "void FUN_140ad9c50(longlong *param_1,QObject *param_2)",
+  "signal": "actionTriggered(int)",
+  "slot": "1onVSBTriggered(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1668552,
+  "wiring_fn": "void FUN_140ad9c50(longlong *param_1,QObject *param_2)",
+  "signal": "rangeChanged(int,int)",
+  "slot": "1onRangeChanged()",
+  "kind": "slot"
+ },
+ {
+  "line": 1668989,
+  "wiring_fn": "undefined1 FUN_140ada7b0(longlong *param_1)",
+  "signal": "doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1669428,
+  "wiring_fn": "void FUN_140adb4c0(longlong param_1,undefined8 param_2)",
+  "signal": "sigVisible(bool)",
+  "slot": "1onScrollbarVisible(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1678348,
+  "wiring_fn": "void FUN_140aeac10(char *param_1,undefined8 param_2,QAbstractItemView *param_3)",
+  "signal": "collapsed(const QModelIndex &)",
+  "slot": "1onCollapsed(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1678351,
+  "wiring_fn": "void FUN_140aeac10(char *param_1,undefined8 param_2,QAbstractItemView *param_3)",
+  "signal": "expanded(const QModelIndex &)",
+  "slot": "1onExpand(const QModelIndex &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1678724,
+  "wiring_fn": "void FUN_140aeb6c0(char *param_1)",
+  "signal": "sigInTooltip(QModelIndex,bool&)",
+  "slot": "1onInToolTip(QModelIndex,bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1678727,
+  "wiring_fn": "void FUN_140aeb6c0(char *param_1)",
+  "signal": "sigWillShowTip(QModelIndex,bool&)",
+  "slot": "1onWillShowTip(QModelIndex,bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1682134,
+  "wiring_fn": "void FUN_140af1b40(QObject *param_1,QBoxLayout *param_2,ulonglong param_3,undefined8 param_4)",
+  "signal": "clicked()",
+  "slot": "1buttonClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1683215,
+  "wiring_fn": "longlong FUN_140af3760(longlong *param_1)",
+  "signal": "timeout()",
+  "slot": "1onTimeout()",
+  "kind": "slot"
+ },
+ {
+  "line": 1683219,
+  "wiring_fn": "longlong FUN_140af3760(longlong *param_1)",
+  "signal": "started()",
+  "slot": "1start()",
+  "kind": "slot"
+ },
+ {
+  "line": 1683222,
+  "wiring_fn": "longlong FUN_140af3760(longlong *param_1)",
+  "signal": "finished()",
+  "slot": "1onThreadFinished()",
+  "kind": "slot"
+ },
+ {
+  "line": 1683224,
+  "wiring_fn": "longlong FUN_140af3760(longlong *param_1)",
+  "signal": "sigDeleteMask()",
+  "slot": "1deleteLater()",
+  "kind": "slot"
+ },
+ {
+  "line": 1683228,
+  "wiring_fn": "longlong FUN_140af3760(longlong *param_1)",
+  "signal": "sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1683231,
+  "wiring_fn": "longlong FUN_140af3760(longlong *param_1)",
+  "signal": "sigBusy(bool)",
+  "slot": "1onBusy(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1684495,
+  "wiring_fn": "void FUN_140af5920(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "2clicked()",
+  "kind": "relay"
+ },
+ {
+  "line": 1687240,
+  "wiring_fn": "undefined8 FUN_140afac60(longlong param_1)",
+  "signal": "timeout()",
+  "slot": "1refushPixtureFrame()",
+  "kind": "slot"
+ },
+ {
+  "line": 1687245,
+  "wiring_fn": "undefined8 FUN_140afac60(longlong param_1)",
+  "signal": "timeout()",
+  "slot": "1resizeUpdateAnimal()",
+  "kind": "slot"
+ },
+ {
+  "line": 1688712,
+  "wiring_fn": "void FUN_140afd544(longlong param_1)",
+  "signal": "textEdited(const QString &)",
+  "slot": "1onTextChanged(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1701608,
+  "wiring_fn": "void FUN_140b16648(longlong param_1)",
+  "signal": "textChanged(const QString &)",
+  "slot": "1onTextChanged(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1701618,
+  "wiring_fn": "void FUN_140b16648(longlong param_1)",
+  "signal": "selectionChanged()",
+  "slot": "1onSelectionChanged()",
+  "kind": "slot"
+ },
+ {
+  "line": 1701621,
+  "wiring_fn": "void FUN_140b16648(longlong param_1)",
+  "signal": "returnPressed()",
+  "slot": "1onReturnPressed()",
+  "kind": "slot"
+ },
+ {
+  "line": 1701624,
+  "wiring_fn": "void FUN_140b16648(longlong param_1)",
+  "signal": "clicked()",
+  "slot": "1onClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1701712,
+  "wiring_fn": "void FUN_140b16cb0(QObject *param_1,QString *param_2)",
+  "signal": "textChanged(const QString &)",
+  "slot": "1onTextChanged(const QString &)",
+  "kind": "slot"
+ },
+ {
+  "line": 1701934,
+  "wiring_fn": "void FUN_140b16fb0(char *param_1,undefined8 param_2)",
+  "signal": "clicked()",
+  "slot": "1onMenuItemClicked()",
+  "kind": "slot"
+ },
+ {
+  "line": 1702155,
+  "wiring_fn": "void FUN_140b17900(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1hideMenu()",
+  "kind": "slot"
+ },
+ {
+  "line": 1702663,
+  "wiring_fn": "void FUN_140b189f0(QLineEdit *param_1)",
+  "signal": "sigIsValid(const QString&,const int&,bool&)",
+  "slot": "1onIsValid(const QString&,const int&,bool&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1702910,
+  "wiring_fn": "void FUN_140b18ec0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1popupMenu()",
+  "kind": "slot"
+ },
+ {
+  "line": 1702993,
+  "wiring_fn": "void FUN_140b18ec0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1onSizeup()",
+  "kind": "slot"
+ },
+ {
+  "line": 1703013,
+  "wiring_fn": "void FUN_140b18ec0(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1onSizedown()",
+  "kind": "slot"
+ },
+ {
+  "line": 1703299,
+  "wiring_fn": "void FUN_140b19ac0(char *param_1,undefined8 param_2)",
+  "signal": "clicked()",
+  "slot": "1onItemSel()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704083,
+  "wiring_fn": "State FUN_140b1b3c0(QDoubleValidator *param_1,QString *param_2,int *param_3)",
+  "signal": "timeout()",
+  "slot": "1popupMenu()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704089,
+  "wiring_fn": "State FUN_140b1b3c0(QDoubleValidator *param_1,QString *param_2,int *param_3)",
+  "signal": "timeout()",
+  "slot": "1applyDate()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704464,
+  "wiring_fn": "void FUN_140b1be50(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1onChangeDateDisplay()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704466,
+  "wiring_fn": "void FUN_140b1be50(char *param_1)",
+  "signal": "clicked()",
+  "slot": "1onChangeDateDisplay()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704736,
+  "wiring_fn": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)",
+  "signal": "clicked()",
+  "slot": "1showNextYear()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704739,
+  "wiring_fn": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)",
+  "signal": "clicked()",
+  "slot": "1showPreviousYear()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704742,
+  "wiring_fn": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)",
+  "signal": "clicked()",
+  "slot": "1onChangeDateDisplay()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704744,
+  "wiring_fn": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)",
+  "signal": "clicked()",
+  "slot": "1onChangeDateDisplay()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704814,
+  "wiring_fn": "void FUN_140b1ceb0(char *param_1,undefined8 param_2)",
+  "signal": "clicked(const QDate &)",
+  "slot": "1onDateChanged()",
+  "kind": "slot"
+ },
+ {
+  "line": 1704817,
+  "wiring_fn": "void FUN_140b1ceb0(char *param_1,undefined8 param_2)",
+  "signal": "currentPageChanged(int, int)",
+  "slot": "1onCurrentPageChanged(int, int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1712761,
+  "wiring_fn": "void FUN_140b2b7b0(QObject *param_1)",
+  "signal": "valueChanged(const QVariant&)",
+  "slot": "1valueChangedSlot(const QVariant&)",
+  "kind": "slot"
+ },
+ {
+  "line": 1715029,
+  "wiring_fn": "void FUN_140b303d0(QWidget *param_1)",
+  "signal": "itemClicked(const quint64)",
+  "slot": "1titleItemClicked(const quint64)",
+  "kind": "slot"
+ },
+ {
+  "line": 1715629,
+  "wiring_fn": "void FUN_140b31880(longlong param_1,undefined8 param_2)",
+  "signal": "timeout()",
+  "slot": "1onClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1716957,
+  "wiring_fn": "void FUN_140b33ba0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1717164,
+  "wiring_fn": "void FUN_140b34b60(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetAddProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1717337,
+  "wiring_fn": "void FUN_140b34f60(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetAddProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1718605,
+  "wiring_fn": "void FUN_140b37480(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedBtnAdd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1719341,
+  "wiring_fn": "void FUN_140b38410(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedChangedPath()",
+  "kind": "slot"
+ },
+ {
+  "line": 1719376,
+  "wiring_fn": "void FUN_140b38410(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedConfirm()",
+  "kind": "slot"
+ },
+ {
+  "line": 1719408,
+  "wiring_fn": "void FUN_140b38410(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1720551,
+  "wiring_fn": "void FUN_140b3a3f0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1720593,
+  "wiring_fn": "void FUN_140b3a3f0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1720635,
+  "wiring_fn": "void FUN_140b3a3f0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1720673,
+  "wiring_fn": "void FUN_140b3a3f0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1721179,
+  "wiring_fn": "void FUN_140b3d190(char *param_1)",
+  "signal": "timeout()",
+  "slot": "1onParserSampleFile()",
+  "kind": "slot"
+ },
+ {
+  "line": 1722482,
+  "wiring_fn": "void FUN_140b3f080(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1723738,
+  "wiring_fn": "void FUN_140b40de0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedBtnAdd()",
+  "kind": "slot"
+ },
+ {
+  "line": 1724979,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "sigDoubleClicked()",
+  "slot": "1onClickedPreview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1725010,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedPreview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1725607,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRemove()",
+  "kind": "slot"
+ },
+ {
+  "line": 1725642,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedPreview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1725680,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedFeedBack()",
+  "kind": "slot"
+ },
+ {
+  "line": 1725820,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1725866,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedSave()",
+  "kind": "slot"
+ },
+ {
+  "line": 1725910,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedAdvancedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1725954,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1726001,
+  "wiring_fn": "void FUN_140b44b50(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedStopRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727116,
+  "wiring_fn": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "signal": "sigRemove()",
+  "slot": "1onItemClickedRemove()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727118,
+  "wiring_fn": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "signal": "sigStartRepair()",
+  "slot": "1onItemClickedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727120,
+  "wiring_fn": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "signal": "sigClickedAdvancedRepair()",
+  "slot": "1onItemClickedAdvancedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727122,
+  "wiring_fn": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "signal": "sigStartAdvancedRepair()",
+  "slot": "1onItemStartAdvancedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727124,
+  "wiring_fn": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "signal": "sigStopRepair()",
+  "slot": "1onItemClickedStop()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727126,
+  "wiring_fn": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "signal": "sigStartSave(bool)",
+  "slot": "1onItemStartSave(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1727128,
+  "wiring_fn": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "signal": "sigSaveActivateSuccess()",
+  "slot": "2sigSaveActivateSuccess()",
+  "kind": "relay"
+ },
+ {
+  "line": 1727131,
+  "wiring_fn": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "signal": "sigPreview()",
+  "slot": "1onItemClickPreview()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727808,
+  "wiring_fn": "void FUN_140b4b140(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedAddVideos()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727953,
+  "wiring_fn": "void FUN_140b4b140(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRemoveAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1727987,
+  "wiring_fn": "void FUN_140b4b140(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedRepairAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1728018,
+  "wiring_fn": "void FUN_140b4b140(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedStopAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1728052,
+  "wiring_fn": "void FUN_140b4b140(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onClickedSaveAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1728112,
+  "wiring_fn": "void FUN_140b4c5f0(QObject *param_1,QObject *param_2)",
+  "signal": "timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1728115,
+  "wiring_fn": "void FUN_140b4c5f0(QObject *param_1,QObject *param_2)",
+  "signal": "timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1728156,
+  "wiring_fn": "void FUN_140b4c800(QObject *param_1,QObject *param_2)",
+  "signal": "timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1728159,
+  "wiring_fn": "void FUN_140b4c800(QObject *param_1,QObject *param_2)",
+  "signal": "timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1730507,
+  "wiring_fn": "void FUN_140b51910(QObject *param_1)",
+  "signal": "sigClickedAdvancedRepair()",
+  "slot": "1onClickedAdvancedRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1730510,
+  "wiring_fn": "void FUN_140b51910(QObject *param_1)",
+  "signal": "sigClickedFeedBack()",
+  "slot": "1onClickedFeedBack()",
+  "kind": "slot"
+ },
+ {
+  "line": 1730513,
+  "wiring_fn": "void FUN_140b51910(QObject *param_1)",
+  "signal": "sigClickedChangeSample()",
+  "slot": "1onClickedChange()",
+  "kind": "slot"
+ },
+ {
+  "line": 1730516,
+  "wiring_fn": "void FUN_140b51910(QObject *param_1)",
+  "signal": "sigClickedSave(bool)",
+  "slot": "1onClickedSave(bool)",
+  "kind": "slot"
+ },
+ {
+  "line": 1730519,
+  "wiring_fn": "void FUN_140b51910(QObject *param_1)",
+  "signal": "sigSaveActivateSuccess()",
+  "slot": "1close()",
+  "kind": "slot"
+ },
+ {
+  "line": 1730522,
+  "wiring_fn": "void FUN_140b51910(QObject *param_1)",
+  "signal": "sigRefreshActivate()",
+  "slot": "2sigRefreshActivate()",
+  "kind": "relay"
+ },
+ {
+  "line": 1730991,
+  "wiring_fn": "void FUN_140b52ba0(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1doNextRepair()",
+  "kind": "slot"
+ },
+ {
+  "line": 1731317,
+  "wiring_fn": "void FUN_140b530c0(QWidget *param_1)",
+  "signal": "sigBtnAddClicked()",
+  "slot": "2sigBtnAddClicked()",
+  "kind": "relay"
+ },
+ {
+  "line": 1731320,
+  "wiring_fn": "void FUN_140b530c0(QWidget *param_1)",
+  "signal": "sigRemoveAll()",
+  "slot": "1onItemsRemoveAll()",
+  "kind": "slot"
+ },
+ {
+  "line": 1731323,
+  "wiring_fn": "void FUN_140b530c0(QWidget *param_1)",
+  "signal": "sigRefreshActivate()",
+  "slot": "1onActivateRefresh()",
+  "kind": "slot"
+ },
+ {
+  "line": 1731338,
+  "wiring_fn": "void FUN_140b530c0(QWidget *param_1)",
+  "signal": "sigClickBtnAdd()",
+  "slot": "2sigBtnAddClicked()",
+  "kind": "relay"
+ },
+ {
+  "line": 1731367,
+  "wiring_fn": "void FUN_140b530c0(QWidget *param_1)",
+  "signal": "sigUpdateItemCount(int)",
+  "slot": "1onUpdateVideosCount(int)",
+  "kind": "slot"
+ },
+ {
+  "line": 1733314,
+  "wiring_fn": "void FUN_140b562c0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnView()",
+  "kind": "slot"
+ },
+ {
+  "line": 1733333,
+  "wiring_fn": "void FUN_140b562c0(QWidget *param_1)",
+  "signal": "clicked()",
+  "slot": "1onBtnClose()",
+  "kind": "slot"
+ },
+ {
+  "line": 1733955,
+  "wiring_fn": "void FUN_140b58500(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetSaveProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1734110,
+  "wiring_fn": "void FUN_140b58ac0(QObject *param_1)",
+  "signal": "timeout()",
+  "slot": "1onGetSaveProgress()",
+  "kind": "slot"
+ },
+ {
+  "line": 1735776,
+  "wiring_fn": "void FUN_140b5c420(char *param_1)",
+  "signal": "sigGotoAddPage()",
+  "slot": "1onGotoAddPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1735779,
+  "wiring_fn": "void FUN_140b5c420(char *param_1)",
+  "signal": "sigGotoItemsPage()",
+  "slot": "1onGotoItmesPage()",
+  "kind": "slot"
+ },
+ {
+  "line": 1735782,
+  "wiring_fn": "void FUN_140b5c420(char *param_1)",
+  "signal": "sigClearAll()",
+  "slot": "1onClearAllItems()",
+  "kind": "slot"
+ },
+ {
+  "line": 1735796,
+  "wiring_fn": "void FUN_140b5c420(char *param_1)",
+  "signal": "sigBtnAddClicked()",
+  "slot": "1onClickedBtnAdd()",
+  "kind": "slot"
+ }
+]

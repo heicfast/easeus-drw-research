@@ -1,0 +1,5930 @@
+[
+ {
+  "line": 1048466,
+  "stmt": "QObject::connect(local_3e8,*(char **)(param_1 + 0x18),(QObject *)\"2clicked()\",param_1, 0x40dcfbd8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)"
+ },
+ {
+  "line": 1048789,
+  "stmt": "QObject::connect(local_190,*(char **)(param_1 + 0x28), (QObject *)\"2clicked()\",param_1,0x40dcfc30);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)"
+ },
+ {
+  "line": 1048874,
+  "stmt": "QObject::connect(local_1c8,param_1,(QObject *)\"2sigResizeWidth()\",param_1, 0x40dcfc68);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)"
+ },
+ {
+  "line": 1049140,
+  "stmt": "QObject::connect(local_230,*(char **)(param_1 + 0x18),(QObject *)\"2clicked()\",param_1, 0x40dcfcf0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14064aa20(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)"
+ },
+ {
+  "line": 1050003,
+  "stmt": "QObject::connect(local_210,pcVar3,(QObject *)\"2onLinkURLClicked(const QString&,const QString&)\", (char *)param_1,0x40dcff20);",
+  "lits": [
+   "2onLinkURLClicked(const QString&,const QString&)"
+  ],
+  "func": "void FUN_14064cbe0(QObject *param_1)"
+ },
+ {
+  "line": 1055306,
+  "stmt": "QObject::connect(local_178,(char *)local_370,(QObject *)\"2clicked(bool)\",param_1 ,0x40dd2c58);",
+  "lits": [
+   "2clicked(bool)"
+  ],
+  "func": "void FUN_1406564f0(char *param_1)"
+ },
+ {
+  "line": 1059550,
+  "stmt": "QObject::connect(local_4e0,*(char **)(param_1 + 0x30), (QObject *)\"2beforeNavigate2(const QString&, bool&)\",(char *)param_1,0x40dd42d0 );",
+  "lits": [
+   "2beforeNavigate2(const QString&, bool&)"
+  ],
+  "func": "void FUN_14065e890(QWidget *param_1,QString *param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1059554,
+  "stmt": "QObject::connect(local_4d8,*(char **)(param_1 + 0x30), (QObject *)\"2navigateComplete(const QString&)\",(char *)param_1,0x40dd4328);",
+  "lits": [
+   "2navigateComplete(const QString&)"
+  ],
+  "func": "void FUN_14065e890(QWidget *param_1,QString *param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1067277,
+  "stmt": "QObject::connect(local_2c0,*(char **)(param_1 + 0x78),(QObject *)\"2clicked()\", (char *)param_1,0x40dd7bb8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14066cf80(QWidget *param_1)"
+ },
+ {
+  "line": 1070882,
+  "stmt": "QObject::connect(local_290,*(char **)(param_1 + 0x30), (QObject *)\"2beforeNavigate2(const QString&, bool&)\",(char *)param_1,0x40dd9e28 );",
+  "lits": [
+   "2beforeNavigate2(const QString&, bool&)"
+  ],
+  "func": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1070886,
+  "stmt": "QObject::connect(local_288,*(char **)(param_1 + 0x30), (QObject *)\"2navigateComplete(const QString&)\",(char *)param_1,0x40dd9e80);",
+  "lits": [
+   "2navigateComplete(const QString&)"
+  ],
+  "func": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1070889,
+  "stmt": "QObject::connect(local_280,*(char **)(param_1 + 0x30), (QObject *)\"2navigateError(const unsigned long, const QString&)\", (char *)param_1,0x40dd9ed0);",
+  "lits": [
+   "2navigateError(const unsigned long, const QString&)"
+  ],
+  "func": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1075155,
+  "stmt": "QObject::connect(local_60,param_1,(QObject *)\"2ClickClose()\",param_1,0x40ddb660);",
+  "lits": [
+   "2ClickClose()"
+  ],
+  "func": "void FUN_14067cab0(undefined8 param_1,void *param_2,longlong param_3)"
+ },
+ {
+  "line": 1075157,
+  "stmt": "QObject::connect(local_58,param_1,(QObject *)\"2ClickBuy()\",param_1,0x40ddb680);",
+  "lits": [
+   "2ClickBuy()"
+  ],
+  "func": "void FUN_14067cab0(undefined8 param_1,void *param_2,longlong param_3)"
+ },
+ {
+  "line": 1075798,
+  "stmt": "QObject::connect(local_50,*(char **)(param_1 + 0x30), (QObject *)\"2beforeNavigate2(const QString&, bool&)\",(char *)param_1,0x40ddc3e0 );",
+  "lits": [
+   "2beforeNavigate2(const QString&, bool&)"
+  ],
+  "func": "undefined4 FUN_14067e280(longlong param_1)"
+ },
+ {
+  "line": 1075802,
+  "stmt": "QObject::connect(local_48,*(char **)(param_1 + 0x30), (QObject *)\"2navigateComplete(const QString&)\",(char *)param_1,0x40ddc438);",
+  "lits": [
+   "2navigateComplete(const QString&)"
+  ],
+  "func": "undefined4 FUN_14067e280(longlong param_1)"
+ },
+ {
+  "line": 1076926,
+  "stmt": "QObject::connect(local_138,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\", (char *)param_1,0x40ddd0c0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14067f8a0(QWidget *param_1)"
+ },
+ {
+  "line": 1076985,
+  "stmt": "QObject::connect(local_e8,*(char **)(param_1 + 0x58), (QObject *)\"2clicked()\",(char *)param_1,0x40ddd118);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14067f8a0(QWidget *param_1)"
+ },
+ {
+  "line": 1077673,
+  "stmt": "QObject::connect(local_170,*(char **)(param_1 + 0x50), (QObject *)\"2clicked()\",(char *)param_1,0x40ddd9a8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140680f90(QWidget *param_1)"
+ },
+ {
+  "line": 1077678,
+  "stmt": "QObject::connect(local_168,(char *)param_1, (QObject *)\"2sigUpdateBlueContentWidth()\", (char *)param_1,0x40ddd9d0);",
+  "lits": [
+   "2sigUpdateBlueContentWidth()"
+  ],
+  "func": "void FUN_140680f90(QWidget *param_1)"
+ },
+ {
+  "line": 1077738,
+  "stmt": "QObject::connect(local_118,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1,0x40ddda40)",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140680f90(QWidget *param_1)"
+ },
+ {
+  "line": 1082847,
+  "stmt": "QObject::connect(local_e0,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\", (char *)param_1,0x40ddf858);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14068b160(QWidget *param_1)"
+ },
+ {
+  "line": 1082889,
+  "stmt": "QObject::connect(local_108,(char *)param_1, (QObject *)\"2sigUpdateBlueContentWidth()\",(char *)param_1, 0x40ddf898);",
+  "lits": [
+   "2sigUpdateBlueContentWidth()"
+  ],
+  "func": "void FUN_14068b160(QWidget *param_1)"
+ },
+ {
+  "line": 1082910,
+  "stmt": "QObject::connect(local_f0,*(char **)(param_1 + 0x58), (QObject *)\"2clicked()\",(char *)param_1,0x40ddf8f0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14068b160(QWidget *param_1)"
+ },
+ {
+  "line": 1083326,
+  "stmt": "QObject::connect((QObject *)param_1,local_60,*(char **)(param_1 + 0x40),\"2clicked()\", 0x40de0720);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14068ca80(QWidget *param_1)"
+ },
+ {
+  "line": 1085097,
+  "stmt": "QObject::connect(local_5d0,*(char **)(param_1 + 0x50),(QObject *)\"2clicked()\",param_1, 0x40ddfe68);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14068f760(longlong param_1)"
+ },
+ {
+  "line": 1085259,
+  "stmt": "QObject::connect(local_560,*(char **)(param_1 + 0x88),(QObject *)\"2clicked()\", param_1,0x40ddfee8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14068f760(longlong param_1)"
+ },
+ {
+  "line": 1085346,
+  "stmt": "QObject::connect(local_530,*(char **)(param_1 + 0x90), (QObject *)\"2clicked()\",param_1,0x40ddff50);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14068f760(longlong param_1)"
+ },
+ {
+  "line": 1085676,
+  "stmt": "QObject::connect(local_478,*(char **)(param_1 + 0xb0), (QObject *)\"2clicked()\",param_1, 0x40de0028);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14068f760(longlong param_1)"
+ },
+ {
+  "line": 1085956,
+  "stmt": "QObject::connect(local_410, *(char **)(param_1 + 200), (QObject *)  \"2textChanged(const QString &)\",param_1,0x40de00c8 );",
+  "lits": [
+   "2textChanged(const QString &)"
+  ],
+  "func": "void FUN_14068f760(longlong param_1)"
+ },
+ {
+  "line": 1086201,
+  "stmt": "QObject::connect(local_368, *(char **)(param_1 + 0xe8), (QObject *)\"2clicked()\", param_1,0x40de0188);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14068f760(longlong param_1)"
+ },
+ {
+  "line": 1086844,
+  "stmt": "QObject::connect(local_f0,*(char **)(param_1 + 0x58), (QObject *)\"2clicked()\",(char *)param_1,0x40de1660);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140693730(QWidget *param_1)"
+ },
+ {
+  "line": 1087952,
+  "stmt": "QObject::connect(local_60,(char *)local_180,(QObject *)\"2linkActivated(const QString &)\", param_1,0x40de2430);",
+  "lits": [
+   "2linkActivated(const QString &)"
+  ],
+  "func": "void FUN_1406964f0(char *param_1)"
+ },
+ {
+  "line": 1090294,
+  "stmt": "QObject::connect(local_2e8,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1,0x40de3880);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140699d40(QWidget *param_1)"
+ },
+ {
+  "line": 1090371,
+  "stmt": "QObject::connect(local_2a0,*(char **)(param_1 + 0x70), (QObject *)\"2clicked()\",(char *)param_1,0x40de38d8)",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140699d40(QWidget *param_1)"
+ },
+ {
+  "line": 1090406,
+  "stmt": "QObject::connect(local_288,*(char **)(param_1 + 0x78), (QObject *)\"2clicked()\",(char *)param_1, 0x40de3920);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140699d40(QWidget *param_1)"
+ },
+ {
+  "line": 1090642,
+  "stmt": "QObject::connect(local_e0,*(char **)(param_1 + 0xa0),(QObject *)\"2timeout()\",(char *)param_1, 0x40de39f8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_14069bcd0(QObject *param_1)"
+ },
+ {
+  "line": 1090680,
+  "stmt": "QObject::connect(local_68,(char *)this,(QObject *)\"2finished()\",(char *)param_1,0x40de3a28);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_14069bcd0(QObject *param_1)"
+ },
+ {
+  "line": 1090682,
+  "stmt": "QObject::connect(local_60,(char *)this,(QObject *)\"2sigDownloadError()\",(char *)param_1, 0x40de3a58);",
+  "lits": [
+   "2sigDownloadError()"
+  ],
+  "func": "void FUN_14069bcd0(QObject *param_1)"
+ },
+ {
+  "line": 1093905,
+  "stmt": "QObject::connect(local_128,*(char **)(param_1 + 0x70),(QObject *)\"2clicked()\", (char *)param_1,0x40de5578);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1406a0f40(QWidget *param_1)"
+ },
+ {
+  "line": 1095216,
+  "stmt": "QObject::connect(local_178,pcVar5, (QObject *)\"2doDispatchMessage(int, void *, int&)\", (char *)param_1,0x40de62c0);",
+  "lits": [
+   "2doDispatchMessage(int, void *, int&)"
+  ],
+  "func": "void FUN_1406a3410(QWidget *param_1)"
+ },
+ {
+  "line": 1095945,
+  "stmt": "QObject::connect(local_288,*(char **)(param_1 + 0x58),(QObject *)\"2clicked()\", (char *)param_1,0x40de7c90);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1096012,
+  "stmt": "QObject::connect(local_228,*(char **)(param_1 + 0x30),(QObject *)\"2sigRefresh()\", *(char **)(param_1 + 0x38),0x40de7cd8);",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1096016,
+  "stmt": "QObject::connect(local_220,*(char **)(param_1 + 0x30),(QObject *)\"2sigFinished()\", *(char **)(param_1 + 0x38),0x40de7d00);",
+  "lits": [
+   "2sigFinished()"
+  ],
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1096062,
+  "stmt": "QObject::connect(local_1f0,*(char **)(param_1 + 0x30), (QObject *)\"2sigAllFinished()\",(char *)param_1,0x40de7d20);",
+  "lits": [
+   "2sigAllFinished()"
+  ],
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1096087,
+  "stmt": "QObject::connect(local_1c8,*(char **)(param_1 + 0x30), (QObject *)\"2sigShowBuyGuide()\",(char *)param_1,0x40de7d50);",
+  "lits": [
+   "2sigShowBuyGuide()"
+  ],
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1096542,
+  "stmt": "QObject::connect(local_20,(char *)local_d8,(QObject *)\"2loopPlayed()\",(char *)param_1, 0x40de7078);",
+  "lits": [
+   "2loopPlayed()"
+  ],
+  "func": "void FUN_1406a6a20(longlong *param_1)"
+ },
+ {
+  "line": 1096659,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40de70a0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_1406a6f20(undefined8 param_1)"
+ },
+ {
+  "line": 1097419,
+  "stmt": "QObject::connect(local_4d0,(char *)param_1,(QObject *)\"2sigProgressUpdated(CProgressInfo)\", (char *)param_1,0x40de71c8);",
+  "lits": [
+   "2sigProgressUpdated(CProgressInfo)"
+  ],
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1097422,
+  "stmt": "QObject::connect(local_4c8,(char *)param_1,(QObject *)\"2sigFinished()\",(char *)param_1,0x40de7218)",
+  "lits": [
+   "2sigFinished()"
+  ],
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1097682,
+  "stmt": "QObject::connect(local_428,*(char **)(param_1 + 0x58),(QObject *)\"2clicked()\", (char *)param_1,0x40de72c8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1097713,
+  "stmt": "QObject::connect(local_410,*(char **)(param_1 + 0x60),(QObject *)\"2clicked()\", (char *)param_1,0x40de72f8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1097777,
+  "stmt": "QObject::connect(local_3c0,pcVar5,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40de7328);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1098534,
+  "stmt": "QObject::connect(local_1a0,(char *)param_1,(QObject *)\"2sigIsStopping(bool&)\", (char *)local_2c8,0x40de7878);",
+  "lits": [
+   "2sigIsStopping(bool&)"
+  ],
+  "func": "void FUN_1406aaa30(QObject *param_1)"
+ },
+ {
+  "line": 1098537,
+  "stmt": "QObject::connect(local_198,(char *)local_308,(QObject *)\"2finished()\",(char *)param_1, 0x40de78a8);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_1406aaa30(QObject *param_1)"
+ },
+ {
+  "line": 1101630,
+  "stmt": "QObject::connect(local_60,*(char **)(param_1 + 0x30),(QObject *)\"2clicked()\",(char *)param_1, 0x40de6f28);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1406b1c70(longlong param_1,double param_2,char param_3)"
+ },
+ {
+  "line": 1106014,
+  "stmt": "QObject::connect(local_5c8,*(char **)(param_1 + 0xe0), (QObject *)\"2splitterMoved(int, int)\",(char *)param_1,0x40deb5f0)",
+  "lits": [
+   "2splitterMoved(int, int)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106046,
+  "stmt": "QObject::connect(local_5a8,*(char **)(param_1 + 0x38), (QObject *)\"2sigChangeTreeView(bool)\",(char *)param_1, 0x40deb640);",
+  "lits": [
+   "2sigChangeTreeView(bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106058,
+  "stmt": "QObject::connect(local_598,*(char **)(param_1 + 0x58), (QObject *)\"2sigShowSearch(bool)\",*(char **)(param_1 + 0x38), 0x40deb690);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106143,
+  "stmt": "QObject::connect(local_580,*(char **)(param_1 + 0x58), (QObject *)\"2sigListIconChanged(int)\", *(char **)(param_1 + 0x48),0x40deb6d8);",
+  "lits": [
+   "2sigListIconChanged(int)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106147,
+  "stmt": "QObject::connect(local_578,*(char **)(param_1 + 0x58), (QObject *)\"2sigSwitchSearch(int)\", *(char **)(param_1 + 0x48),0x40deb718);",
+  "lits": [
+   "2sigSwitchSearch(int)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106151,
+  "stmt": "QObject::connect(local_570,*(char **)(param_1 + 0x58), (QObject *)\"2sigShowSearch(bool)\", *(char **)(param_1 + 0x48),0x40deb748);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106155,
+  "stmt": "QObject::connect(local_568,*(char **)(param_1 + 0x58), (QObject *)\"2sigClearSearch()\",*(char **)(param_1 + 0x48), 0x40deb778);",
+  "lits": [
+   "2sigClearSearch()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106159,
+  "stmt": "QObject::connect(local_560,*(char **)(param_1 + 0x58), (QObject *)\"2sigClearSearch()\",*(char **)(param_1 + 0x48), 0x40deb7a0);",
+  "lits": [
+   "2sigClearSearch()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106163,
+  "stmt": "QObject::connect(local_558,*(char **)(param_1 + 0x58), (QObject *)\"2sigShowFilterBar(bool)\", *(char **)(param_1 + 0x48),0x40deb7d0);",
+  "lits": [
+   "2sigShowFilterBar(bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106167,
+  "stmt": "QObject::connect(local_550,(char *)param_1, (QObject *)\"2sigSwitchNavigate(bool,bool)\", *(char **)(param_1 + 0x58),0x40deb800);",
+  "lits": [
+   "2sigSwitchNavigate(bool,bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106171,
+  "stmt": "QObject::connect(local_548,*(char **)(param_1 + 0x48), (QObject *)\"2sigIsFilterBtnToggled(bool&)\", *(char **)(param_1 + 0x58),0x40deb840);",
+  "lits": [
+   "2sigIsFilterBtnToggled(bool&)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106177,
+  "stmt": "QObject::connect(local_540,pcVar10,(QObject *)\"2sigAboutToGrabPixmap()\", (char *)param_1,0x40deb880);",
+  "lits": [
+   "2sigAboutToGrabPixmap()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106181,
+  "stmt": "QObject::connect(local_538,*(char **)(*(longlong *)(param_1 + 0x58) + 0x30), (QObject *)\"2sigValueChanged(bool,int,bool,QVariant)\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x68),0x40deb8b0 );",
+  "lits": [
+   "2sigValueChanged(bool,int,bool,QVariant)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106186,
+  "stmt": "QObject::connect(local_530,*(char **)(*(longlong *)(param_1 + 0x58) + 0x38), (QObject *)\"2sigValueChanged(bool,int,bool,QVariant)\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x70),0x40deb8f0 );",
+  "lits": [
+   "2sigValueChanged(bool,int,bool,QVariant)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106191,
+  "stmt": "QObject::connect(local_528,*(char **)(*(longlong *)(param_1 + 0x48) + 0x68), (QObject *) \"2sigFilterChange(const AdvanceFilterCondition&,bool,bool)\" ,*(char **)(*(longlong *)(param_1 + 0x58) + 0x30), 0x40deb930);",
+  "lits": [
+   "2sigFilterChange(const AdvanceFilterCondition&,bool,bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106197,
+  "stmt": "QObject::connect(local_520,*(char **)(*(longlong *)(param_1 + 0x48) + 0x70), (QObject *) \"2sigFilterChange(const AdvanceFilterCondition&,bool,bool)\" ,*(char **)(*(longlong *)(param_1 + 0x58) + 0x38), 0x40deb9a0);",
+  "lits": [
+   "2sigFilterChange(const AdvanceFilterCondition&,bool,bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106203,
+  "stmt": "QObject::connect(local_518,*(char **)(param_1 + 0x58), (QObject *)\"2sigClearSearchFilter()\",(char *)param_1, 0x40deba10);",
+  "lits": [
+   "2sigClearSearchFilter()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106207,
+  "stmt": "QObject::connect(local_510,*(char **)(param_1 + 0x48), (QObject *)\"2sigLeftTreeClickTag(bool)\", *(char **)(param_1 + 0x58),0x40deba48);",
+  "lits": [
+   "2sigLeftTreeClickTag(bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106211,
+  "stmt": "QObject::connect(local_508,*(char **)(param_1 + 0x48), (QObject *)\"2sigFilterNltSearchClicked()\", *(char **)(param_1 + 0x58),0x40deba88);",
+  "lits": [
+   "2sigFilterNltSearchClicked()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106215,
+  "stmt": "QObject::connect(local_500,*(char **)(*(longlong *)(param_1 + 0x48) + 0xb8), (QObject *) \"2sigUpdateNavigateBarPath(const QString&, const QString&)\" ,*(char **)(param_1 + 0x58),0x40debac8);",
+  "lits": [
+   "2sigUpdateNavigateBarPath(const QString&, const QString&)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106220,
+  "stmt": "QObject::connect(local_4f8,*(char **)(param_1 + 0x58), (QObject *)\"2sigGetRightIndex(int&, int&)\", *(char **)(param_1 + 0x48),0x40debb40);",
+  "lits": [
+   "2sigGetRightIndex(int&, int&)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106224,
+  "stmt": "QObject::connect(local_4f0,*(char **)(param_1 + 0x58), (QObject *)\"2sigSelectRightIndex(int, int)\", *(char **)(param_1 + 0x48),0x40debb80);",
+  "lits": [
+   "2sigSelectRightIndex(int, int)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106476,
+  "stmt": "QObject::connect(local_430,*(char **)(param_1 + 0x58), (QObject *)\"2sigShowSearch(bool)\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40debc00);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106484,
+  "stmt": "QObject::connect(local_418,local_420,(QObject *)\"2sigScanFinished()\", local_428,0x40debc28);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106490,
+  "stmt": "QObject::connect(local_400,local_408,(QObject *)\"2sigScanFinished()\", local_410,0x40debc50);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106493,
+  "stmt": "QObject::connect(local_3f8,(char *)param_1, (QObject *)\"2sigIsStopping(bool&)\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x30), 0x40debc78);",
+  "lits": [
+   "2sigIsStopping(bool&)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106498,
+  "stmt": "QObject::connect(local_3f0,*(char **)(param_1 + 0x48), (QObject *)\"2sigIsStopping(bool&)\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x30), 0x40debca8);",
+  "lits": [
+   "2sigIsStopping(bool&)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106503,
+  "stmt": "QObject::connect(local_3e8,(char *)param_1, (QObject *)\"2sigLoadFinished(bool)\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40debcd8);",
+  "lits": [
+   "2sigLoadFinished(bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106508,
+  "stmt": "QObject::connect(local_3e0,(char *)param_1, (QObject *)\"2sigSwitchNavigate(bool,bool)\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40debd10);",
+  "lits": [
+   "2sigSwitchNavigate(bool,bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106513,
+  "stmt": "QObject::connect(local_3d8,(char *)param_1, (QObject *)\"2sigLoadFinished(bool)\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x30), 0x40debd40);",
+  "lits": [
+   "2sigLoadFinished(bool)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106538,
+  "stmt": "QObject::connect(local_3c0, *(char **)(*(longlong *)(param_1 + 0x68) + 0x30), (QObject *)\"2sigScanFinished()\",(char *)param_1, 0x40debd70);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106543,
+  "stmt": "QObject::connect(local_3b8, *(char **)(*(longlong *)(param_1 + 0x68) + 0x30), (QObject *)\"2sigQuickScanFinished(int)\",(char *)param_1, 0x40debda0);",
+  "lits": [
+   "2sigQuickScanFinished(int)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106548,
+  "stmt": "QObject::connect(local_3b0, *(char **)(*(longlong *)(param_1 + 0x68) + 0x38), (QObject *)\"2sigIsSearch(bool&)\",(char *)param_1, 0x40debde0);",
+  "lits": [
+   "2sigIsSearch(bool&)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106553,
+  "stmt": "QObject::connect(local_3a8,(char *)param_1, (QObject *)\"2sigShowAutoRecoverBtn()\", *(char **)(param_1 + 0x68),0x40debe10);",
+  "lits": [
+   "2sigShowAutoRecoverBtn()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106557,
+  "stmt": "QObject::connect(local_3a0, *(char **)(*(longlong *)(param_1 + 0x68) + 0x38), (QObject *)\"2sigRecoverBtnClicked()\",(char *)param_1, 0x40debe48);",
+  "lits": [
+   "2sigRecoverBtnClicked()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106562,
+  "stmt": "QObject::connect(local_398,*(char **)(param_1 + 0x48), (QObject *)\"2sigClearTreeModel()\",(char *)param_1, 0x40debe80);",
+  "lits": [
+   "2sigClearTreeModel()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106566,
+  "stmt": "QObject::connect(local_390,*(char **)(param_1 + 0x48), (QObject *)\"2sigFilterFinished()\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40debeb0);",
+  "lits": [
+   "2sigFilterFinished()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106571,
+  "stmt": "QObject::connect(local_388,*(char **)(param_1 + 0x58), (QObject *)\"2sigSearchResetSort()\",(char *)param_1, 0x40debed8);",
+  "lits": [
+   "2sigSearchResetSort()"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106575,
+  "stmt": "QObject::connect(local_380, *(char **)(*(longlong *)(param_1 + 0x68) + 0x30), (QObject *)\"2sigQuickScanFinished(int)\", *(char **)(param_1 + 0x60),0x40debf08);",
+  "lits": [
+   "2sigQuickScanFinished(int)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106595,
+  "stmt": "QObject::connect(local_378,pcVar10,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40debf48);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "undefined8 FUN_1406b86d0(void)"
+ },
+ {
+  "line": 1106924,
+  "stmt": "QObject::connect(local_d8,(char *)local_f0,(QObject *)\"2sigIsStopping(bool&)\",(char *)param_1, 0x40de9c50);",
+  "lits": [
+   "2sigIsStopping(bool&)"
+  ],
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)"
+ },
+ {
+  "line": 1106928,
+  "stmt": "QObject::connect(local_d0,(char *)local_f0,(QObject *)\"2sigIsStopping(bool&)\", *(char **)(*(longlong *)(param_1 + 0x40) + 0x38),0x40de9c80);",
+  "lits": [
+   "2sigIsStopping(bool&)"
+  ],
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)"
+ },
+ {
+  "line": 1106933,
+  "stmt": "QObject::connect(local_c8,(char *)local_f0,(QObject *)\"2sigIsStopping(bool&)\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x38),0x40de9cb8);",
+  "lits": [
+   "2sigIsStopping(bool&)"
+  ],
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)"
+ },
+ {
+  "line": 1106936,
+  "stmt": "QObject::connect(local_c0,(char *)local_f0,(QObject *)\"2sigIsStopping(bool&)\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x40),0x40de9ce8);",
+  "lits": [
+   "2sigIsStopping(bool&)"
+  ],
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)"
+ },
+ {
+  "line": 1106951,
+  "stmt": "QObject::connect(local_98,(char *)local_f0,(QObject *)\"2sigBeforeFreeze()\",(char *)param_1, 0x40de9d18);",
+  "lits": [
+   "2sigBeforeFreeze()"
+  ],
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)"
+ },
+ {
+  "line": 1106954,
+  "stmt": "QObject::connect(local_90,(char *)local_f0,(QObject *)\"2finished()\",(char *)local_78,0x40de9d50);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)"
+ },
+ {
+  "line": 1107085,
+  "stmt": "QObject::connect(local_18,*(char **)(*(longlong *)(param_1 + 0x48) + 0x68), (QObject *)\"2sigFilterChange(const AdvanceFilterCondition&,bool,bool)\", *(char **)(param_1 + 0x58),0x40deb390);",
+  "lits": [
+   "2sigFilterChange(const AdvanceFilterCondition&,bool,bool)"
+  ],
+  "func": "void FUN_1406bbeb0(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1107089,
+  "stmt": "QObject::connect(local_10,*(char **)(*(longlong *)(param_1 + 0x48) + 0x70), (QObject *)\"2sigFilterChange(const AdvanceFilterCondition&,bool,bool)\", *(char **)(param_1 + 0x58),0x40deb400);",
+  "lits": [
+   "2sigFilterChange(const AdvanceFilterCondition&,bool,bool)"
+  ],
+  "func": "void FUN_1406bbeb0(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1107123,
+  "stmt": "QObject::connect(local_20,*(char **)(param_1 + 0x48),(QObject *)\"2sigResize(const QPoint&)\", (char *)local_30,0x40deb550);",
+  "lits": [
+   "2sigResize(const QPoint&)"
+  ],
+  "func": "void FUN_1406bbfe0(char *param_1)"
+ },
+ {
+  "line": 1107126,
+  "stmt": "QObject::connect(local_18,(char *)local_30,(QObject *)\"2sigWndShow(bool)\",param_1,0x40deb598);",
+  "lits": [
+   "2sigWndShow(bool)"
+  ],
+  "func": "void FUN_1406bbfe0(char *param_1)"
+ },
+ {
+  "line": 1107894,
+  "stmt": "QObject::connect(local_58,*(char **)(param_1 + 0x48),(QObject *)\"2sigTreeNodeTypeChanged(bool)\", param_1,0x40de9de8);",
+  "lits": [
+   "2sigTreeNodeTypeChanged(bool)"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1107897,
+  "stmt": "QObject::connect(local_50,*(char **)(param_1 + 0x58),(QObject *)\"2sigShowSearch(bool)\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x38),0x40de9e28);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1107900,
+  "stmt": "QObject::connect(local_48,*(char **)(param_1 + 0x58),(QObject *)\"2sigShowSearch(bool)\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x40),0x40de9e58);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1107903,
+  "stmt": "QObject::connect(local_40,*(char **)(param_1 + 0x58),(QObject *)\"2sigShowSearch(bool)\",param_1, 0x40de9e88);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1107906,
+  "stmt": "QObject::connect(local_38,*(char **)(*(longlong *)(param_1 + 0x48) + 0x40), (QObject *)\"2sigNodeSelEx(const QModelIndex&, CFileNode*)\", *(char **)(param_1 + 0x60),0x40de9eb8);",
+  "lits": [
+   "2sigNodeSelEx(const QModelIndex&, CFileNode*)"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1107910,
+  "stmt": "QObject::connect(local_30,*(char **)(param_1 + 0x68),(QObject *)\"2sigShowOrHideGuideWnd(bool)\", param_1,0x40de9f20);",
+  "lits": [
+   "2sigShowOrHideGuideWnd(bool)"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1107913,
+  "stmt": "QObject::connect(local_28,*(char **)(*(longlong *)(param_1 + 0x48) + 0x38), (QObject *)\"2sigRecoverAll()\",*(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40de9f60);",
+  "lits": [
+   "2sigRecoverAll()"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1107917,
+  "stmt": "QObject::connect(local_20,*(char **)(*(longlong *)(param_1 + 0x48) + 0x38), (QObject *)\"2sigCheckRecoverAll()\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x38),0x40de9f90);",
+  "lits": [
+   "2sigCheckRecoverAll()"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1107921,
+  "stmt": "QObject::connect(local_18,*(char **)(*(longlong *)(param_1 + 0x48) + 0x40), (QObject *)\"2sigCheckRecoverAll()\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x38),0x40de9fb8);",
+  "lits": [
+   "2sigCheckRecoverAll()"
+  ],
+  "func": "void FUN_1406bd630(char *param_1)"
+ },
+ {
+  "line": 1108051,
+  "stmt": "QObject::connect(local_1d8,*(char **)(param_1 + 0x58),(QObject *)\"2sigShowSearch(bool)\", *(char **)(param_1 + 0x40),0x40dea8e8);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108054,
+  "stmt": "QObject::connect(local_1d0,*(char **)(param_1 + 0x40),(QObject *)\"2sigBeforeFreeze()\", *(char **)(param_1 + 0x58),0x40dea938);",
+  "lits": [
+   "2sigBeforeFreeze()"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108057,
+  "stmt": "QObject::connect(local_1c8,*(char **)(param_1 + 0x40),(QObject *)\"2sigBeforeFreeze()\", (char *)param_1,0x40dea968);",
+  "lits": [
+   "2sigBeforeFreeze()"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108060,
+  "stmt": "QObject::connect(local_1c0,*(char **)(param_1 + 0x40),(QObject *)\"2sigFreezeDone()\", (char *)param_1,0x40dea998);",
+  "lits": [
+   "2sigFreezeDone()"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108063,
+  "stmt": "QObject::connect(local_1b8,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigRefresh(bool)\",(char *)param_1,0x40dea9c0);",
+  "lits": [
+   "2sigRefresh(bool)"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108066,
+  "stmt": "QObject::connect(local_1b0,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigRefresh()\",*(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40dea9f0);",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108070,
+  "stmt": "QObject::connect(local_1a8,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigNodeSel(const QModelIndex&)\",*(char **)(param_1 + 0x48), 0x40deaa10);",
+  "lits": [
+   "2sigNodeSel(const QModelIndex&)"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108077,
+  "stmt": "QObject::connect(local_1a0,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigNodeSel(const QModelIndex&)\",*(char **)(param_1 + 0x58), 0x40deaa90);",
+  "lits": [
+   "2sigNodeSel(const QModelIndex&)"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108081,
+  "stmt": "QObject::connect(local_198,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigBeforeClick()\",*(char **)(param_1 + 0x48),0x40deaac8);",
+  "lits": [
+   "2sigBeforeClick()"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108084,
+  "stmt": "QObject::connect(local_190,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigRefresh()\",*(char **)(param_1 + 0x48),0x40deaaf8);",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108087,
+  "stmt": "QObject::connect(local_188,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigRecoverAll()\",*(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40deab20);",
+  "lits": [
+   "2sigRecoverAll()"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108091,
+  "stmt": "QObject::connect(local_180,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigCheckRecoverAll()\", *(char **)(*(longlong *)(param_1 + 0x68) + 0x38),0x40deab48);",
+  "lits": [
+   "2sigCheckRecoverAll()"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1108095,
+  "stmt": "QObject::connect(local_178,*(char **)(*(longlong *)(param_1 + 0x40) + 0x38), (QObject *)\"2sigGetRightIndex(int&, int&)\",*(char **)(param_1 + 0x48), 0x40deab70);",
+  "lits": [
+   "2sigGetRightIndex(int&, int&)"
+  ],
+  "func": "void FUN_1406bd930(QObject *param_1)"
+ },
+ {
+  "line": 1109986,
+  "stmt": "QObject::connect(local_58,*(char **)(*(longlong *)(param_1 + 0x48) + 0x40), (QObject *)\"2sigRefresh()\",*(char **)(param_1 + 0x48),0x40deb148);",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1109994,
+  "stmt": "QObject::connect(local_30,local_38,(QObject *)\"2modelReset()\",local_40,0x40deb198);",
+  "lits": [
+   "2modelReset()"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1109998,
+  "stmt": "QObject::connect(local_28,*(char **)(*(longlong *)(param_1 + 0x48) + 0x40), (QObject *)\"2sigRefresh()\",*(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40deb1e0);",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110005,
+  "stmt": "QObject::connect(local_20,*(char **)(param_1 + 0x60),(QObject *)\"2sigResetStartIdx(int)\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x40),0x40deb250);",
+  "lits": [
+   "2sigResetStartIdx(int)"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110011,
+  "stmt": "QObject::connect(local_18,*(char **)(*(longlong *)(param_1 + 0x48) + 0x40), (QObject *)\"2sigNodeSel(const QModelIndex&)\",*(char **)(param_1 + 0x60), 0x40deb2c8);",
+  "lits": [
+   "2sigNodeSel(const QModelIndex&)"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110017,
+  "stmt": "QObject::connect(local_10,*(char **)(param_1 + 0x58),(QObject *)\"2sigAddressChanged()\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x40),0x40deb340);",
+  "lits": [
+   "2sigAddressChanged()"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110022,
+  "stmt": "QObject::connect(local_a8,*(char **)(*(longlong *)(param_1 + 0x48) + 0x38), (QObject *)\"2sigRefresh()\",*(char **)(param_1 + 0x48),0x40deaef0);",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110029,
+  "stmt": "QObject::connect(local_90,local_98,(QObject *)\"2modelReset()\",local_a0,0x40deaf40);",
+  "lits": [
+   "2modelReset()"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110034,
+  "stmt": "QObject::connect(local_78,*(char **)(*(longlong *)(param_1 + 0x48) + 0x38), (QObject *)\"2sigRefresh()\",*(char **)(*(longlong *)(param_1 + 0x68) + 0x38), 0x40deaf90);",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110040,
+  "stmt": "QObject::connect(local_70,*(char **)(param_1 + 0x60),(QObject *)\"2sigResetStartIdx(int)\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x38),0x40deafd0);",
+  "lits": [
+   "2sigResetStartIdx(int)"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110046,
+  "stmt": "QObject::connect(local_68,*(char **)(*(longlong *)(param_1 + 0x48) + 0x38), (QObject *)\"2sigNodeSel(const QModelIndex&)\",*(char **)(param_1 + 0x60), 0x40deb030);",
+  "lits": [
+   "2sigNodeSel(const QModelIndex&)"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110053,
+  "stmt": "QObject::connect(local_60,*(char **)(param_1 + 0x58),(QObject *)\"2sigAddressChanged()\", *(char **)(*(longlong *)(param_1 + 0x48) + 0x38),0x40deb0c0);",
+  "lits": [
+   "2sigAddressChanged()"
+  ],
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)"
+ },
+ {
+  "line": 1110542,
+  "stmt": "QObject::connect(local_b8,param_1,(QObject *)\"2sigCloseWaitDialog()\",(char *)local_78,0x40debf98);",
+  "lits": [
+   "2sigCloseWaitDialog()"
+  ],
+  "func": "void FUN_1406c2fc0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1110579,
+  "stmt": "QObject::connect(local_88,*(char **)(param_1 + 0x30),(QObject *)\"2sigResizeWidth()\", *(char **)(param_1 + 0x58),0x40debfc0);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_1406c2fc0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1115158,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40dee1b0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "FUN_1406caad0(undefined8 *param_1,undefined1 *param_2,undefined8 param_3,undefined8 *param_4)"
+ },
+ {
+  "line": 1135881,
+  "stmt": "QObject::connect(local_68,local_f8,(QObject *)\"2sigClicked(int)\",param_1,0x40df3878);",
+  "lits": [
+   "2sigClicked(int)"
+  ],
+  "func": "void FUN_1406ee950(longlong param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4,"
+ },
+ {
+  "line": 1136003,
+  "stmt": "QObject::connect(local_40,pcVar6,(QObject *)\"2sigValueChanged(int)\",(char *)param_1,0x40df32a8);",
+  "lits": [
+   "2sigValueChanged(int)"
+  ],
+  "func": "void FUN_1406eedb0(QObject *param_1)"
+ },
+ {
+  "line": 1136008,
+  "stmt": "QObject::connect(local_38,pcVar6,(QObject *)\"2sigClickedClose()\",(char *)param_1,0x40df3300);",
+  "lits": [
+   "2sigClickedClose()"
+  ],
+  "func": "void FUN_1406eedb0(QObject *param_1)"
+ },
+ {
+  "line": 1142543,
+  "stmt": "QObject::connect(local_68,(char *)param_1,(QObject *)\"2sigBtnPressed()\",(char *)param_1,0x40df63f0 );",
+  "lits": [
+   "2sigBtnPressed()"
+  ],
+  "func": "void FUN_1406f95a0(longlong param_1,int param_2)"
+ },
+ {
+  "line": 1142708,
+  "stmt": "QObject::connect(local_140,pcVar3,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40df64b0);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "void FUN_1406f9cf0(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)"
+ },
+ {
+  "line": 1142847,
+  "stmt": "QObject::connect(local_90,(char *)local_218,(QObject *)\"2stateChanged(int)\",(char *)param_1, 0x40df6580);",
+  "lits": [
+   "2stateChanged(int)"
+  ],
+  "func": "void FUN_1406f9cf0(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)"
+ },
+ {
+  "line": 1143332,
+  "stmt": "QObject::connect(local_20,param_1,(QObject *)\"2sigUpdateCount(int)\",*(char **)(param_1 + 0xa0), 0x40df6b50);",
+  "lits": [
+   "2sigUpdateCount(int)"
+  ],
+  "func": "void FUN_1406fb270(char *param_1,char param_2)"
+ },
+ {
+  "line": 1144481,
+  "stmt": "QObject::connect(local_40,(char *)pQVar1,(QObject *)\"2stateChanged(int)\",(char *)param_1, 0x40df6a78);",
+  "lits": [
+   "2stateChanged(int)"
+  ],
+  "func": "void FUN_1406fda00(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1144966,
+  "stmt": "QObject::connect(local_1d0,pcVar3,(QObject *)\"2doDispatchMessage(int, void *, int&)\", (char *)param_1,0x40df6bd0);",
+  "lits": [
+   "2doDispatchMessage(int, void *, int&)"
+  ],
+  "func": "void FUN_1406fe420(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)"
+ },
+ {
+  "line": 1145206,
+  "stmt": "QObject::connect(local_108,(char *)local_348,(QObject *)\"2stateChanged(int)\",(char *)param_1, 0x40df6cc8);",
+  "lits": [
+   "2stateChanged(int)"
+  ],
+  "func": "void FUN_1406fe420(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)"
+ },
+ {
+  "line": 1145260,
+  "stmt": "QObject::connect(local_20,pcVar3,(QObject *)\"2clicked()\",param_1,0x40df6d10);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "undefined8 FUN_1406ff1f0(char *param_1)"
+ },
+ {
+  "line": 1145262,
+  "stmt": "QObject::connect(local_18,*(char **)(param_1 + 0xe0),(QObject *)\"2returnPressed()\",param_1, 0x40df6d30);",
+  "lits": [
+   "2returnPressed()"
+  ],
+  "func": "undefined8 FUN_1406ff1f0(char *param_1)"
+ },
+ {
+  "line": 1145711,
+  "stmt": "QObject::connect(local_28,local_38,(QObject *)\"2sigDateChanged(const QDate &)\",param_1, 0x40df6e38);",
+  "lits": [
+   "2sigDateChanged(const QDate &)"
+  ],
+  "func": "void FUN_1406ffe00(longlong param_1)"
+ },
+ {
+  "line": 1147706,
+  "stmt": "QObject::connect(local_98,(char *)*param_2, (QObject *)\"2sigValueChanged(bool,int,bool,QVariant)\",param_1,0x40df7110);",
+  "lits": [
+   "2sigValueChanged(bool,int,bool,QVariant)"
+  ],
+  "func": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1147709,
+  "stmt": "QObject::connect(local_90,(char *)*param_2,(QObject *)\"2sigCustom()\",param_1,0x40df7170);",
+  "lits": [
+   "2sigCustom()"
+  ],
+  "func": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1147713,
+  "stmt": "QObject::connect(local_88,(char *)*param_2,(QObject *)\"2sigMenuHide()\",param_1,0x40df7198);",
+  "lits": [
+   "2sigMenuHide()"
+  ],
+  "func": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1147939,
+  "stmt": "QObject::connect(local_100,*(char **)(param_1 + 0x60),(QObject *)\"2clicked()\", (char *)param_1,0x40df7220);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140704c10(QObject *param_1)"
+ },
+ {
+  "line": 1148584,
+  "stmt": "QObject::connect(local_18,(char *)param_2,(QObject *)\"2sigValueChanged(bool,int,bool,QVariant)\", (char *)param_1,0x40df62d0);",
+  "lits": [
+   "2sigValueChanged(bool,int,bool,QVariant)"
+  ],
+  "func": "void FUN_140706aa0(QObject *param_1,QObject *param_2,char param_3)"
+ },
+ {
+  "line": 1149180,
+  "stmt": "QObject::connect(local_c0,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\", (char *)param_1,0x40df6f98);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1407077b0(QWidget *param_1)"
+ },
+ {
+  "line": 1149199,
+  "stmt": "QObject::connect(local_b0,(char *)param_1,(QObject *)\"2sigResizeWidth()\", (char *)param_1,0x40df6fc8);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_1407077b0(QWidget *param_1)"
+ },
+ {
+  "line": 1154245,
+  "stmt": "QObject::connect(local_410,*(char **)(param_1 + 0x78),(QObject *)\"2buttonClicked(int)\", (char *)param_1,0x40dfaa70);",
+  "lits": [
+   "2buttonClicked(int)"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1154446,
+  "stmt": "QObject::connect(local_360,*(char **)(param_1 + 0x58),(QObject *)\"2buttonClicked(int)\", (char *)param_1,0x40dfaae8);",
+  "lits": [
+   "2buttonClicked(int)"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1154542,
+  "stmt": "QObject::connect(local_2f0,*(char **)(param_1 + 0x80),(QObject *)\"2clicked()\", (char *)param_1,0x40dfab98);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1154588,
+  "stmt": "QObject::connect(local_280,*(char **)(param_1 + 0x38),(QObject *)\"2toggled(bool)\", (char *)param_1,0x40dfac00);",
+  "lits": [
+   "2toggled(bool)"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1154608,
+  "stmt": "QObject::connect(local_270,*(char **)(param_1 + 0x38),(QObject *)\"2toggled(bool)\", *(char **)(param_1 + 0xb0),0x40dfac40);",
+  "lits": [
+   "2toggled(bool)"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1154698,
+  "stmt": "QObject::connect(local_1a0,*(char **)(param_1 + 0x30), (QObject *)\"2toggled(bool)\",*(char **)(param_1 + 0xb0), 0x40dfaca8);",
+  "lits": [
+   "2toggled(bool)"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1154702,
+  "stmt": "QObject::connect(local_208,*(char **)(param_1 + 0x30), (QObject *)\"2toggled(bool)\",(char *)param_1,0x40dfacd0);",
+  "lits": [
+   "2toggled(bool)"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1154712,
+  "stmt": "QObject::connect(local_1d8,(char *)param_1,(QObject *)\"2sigShowSearch(bool)\" ,(char *)param_1,0x40dfad18);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1154729,
+  "stmt": "QObject::connect(local_1d0,pcVar5,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40dfad48);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "void FUN_14070efb0(void)"
+ },
+ {
+  "line": 1155293,
+  "stmt": "QObject::connect(local_130,*(char **)(param_1 + 0x90),(QObject *)\"2clicked()\",(char *)param_1, 0x40df9fd8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140711b20(QObject *param_1)"
+ },
+ {
+  "line": 1155318,
+  "stmt": "QObject::connect(local_108,*(char **)(param_1 + 0x88), (QObject *)\"2textEdited(const QString &)\",(char *)param_1,0x40dfa000);",
+  "lits": [
+   "2textEdited(const QString &)"
+  ],
+  "func": "void FUN_140711b20(QObject *param_1)"
+ },
+ {
+  "line": 1155321,
+  "stmt": "QObject::connect(local_100,*(char **)(param_1 + 0x88), (QObject *)\"2textChanged(const QString &)\",(char *)param_1,0x40dfa048);",
+  "lits": [
+   "2textChanged(const QString &)"
+  ],
+  "func": "void FUN_140711b20(QObject *param_1)"
+ },
+ {
+  "line": 1155324,
+  "stmt": "QObject::connect(local_f8,*(char **)(param_1 + 0x88),(QObject *)\"2sigFocusOut()\", (char *)param_1,0x40dfa090);",
+  "lits": [
+   "2sigFocusOut()"
+  ],
+  "func": "void FUN_140711b20(QObject *param_1)"
+ },
+ {
+  "line": 1156411,
+  "stmt": "QObject::connect(local_68,(char *)local_e0,(QObject *)\"2sigMouseEnter()\",param_1,0x40df9f08);",
+  "lits": [
+   "2sigMouseEnter()"
+  ],
+  "func": "void FUN_140714250(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,"
+ },
+ {
+  "line": 1156429,
+  "stmt": "QObject::connect(local_50,(char *)local_e0,(QObject *)\"2sigTranslate(int)\",param_1,0x40df9f40);",
+  "lits": [
+   "2sigTranslate(int)"
+  ],
+  "func": "void FUN_140714250(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,"
+ },
+ {
+  "line": 1157118,
+  "stmt": "QObject::connect(local_78,(char *)local_d8,(QObject *)\"2finished()\",(char *)param_1,0x40dfa5a0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)"
+ },
+ {
+  "line": 1157120,
+  "stmt": "QObject::connect(local_70,(char *)local_d8,(QObject *)\"2finished()\",(char *)param_1,0x40dfa5c8);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)"
+ },
+ {
+  "line": 1157122,
+  "stmt": "QObject::connect(local_68,(char *)local_d8,(QObject *)\"2finished()\",(char *)param_1,0x40dfa5f0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)"
+ },
+ {
+  "line": 1157124,
+  "stmt": "QObject::connect(local_60,(char *)local_d8,(QObject *)\"2sigGetListIndex(int&, int&)\", (char *)param_1,0x40dfa618);",
+  "lits": [
+   "2sigGetListIndex(int&, int&)"
+  ],
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)"
+ },
+ {
+  "line": 1157127,
+  "stmt": "QObject::connect(local_58,(char *)local_d8,(QObject *)\"2sigSelectRightIndex(int, int)\", (char *)param_1,0x40dfa658);",
+  "lits": [
+   "2sigSelectRightIndex(int, int)"
+  ],
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)"
+ },
+ {
+  "line": 1157820,
+  "stmt": "QObject::connect(local_38,pcVar9,(QObject *)\"2sigNasPathItemClicked(const QString&)\", (char *)param_1,0x40dfa728);",
+  "lits": [
+   "2sigNasPathItemClicked(const QString&)"
+  ],
+  "func": "void FUN_140717830(QObject *param_1)"
+ },
+ {
+  "line": 1157826,
+  "stmt": "QObject::connect(local_30,pcVar9,(QObject *)\"2sigCloseNotify()\",(char *)param_1, 0x40dfa7b0);",
+  "lits": [
+   "2sigCloseNotify()"
+  ],
+  "func": "void FUN_140717830(QObject *param_1)"
+ },
+ {
+  "line": 1158869,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40dee1b0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "longlong FUN_140718f20(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1160694,
+  "stmt": "QObject::connect(local_288,pcVar2,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40dfcb28);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "undefined8 FUN_14071b770(undefined8 param_1)"
+ },
+ {
+  "line": 1160718,
+  "stmt": "QObject::connect(local_260,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\",(char *)param_1, 0x40dfcb98);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "undefined8 FUN_14071b770(undefined8 param_1)"
+ },
+ {
+  "line": 1160850,
+  "stmt": "QObject::connect(local_1e0,*(char **)(param_1 + 0x58),(QObject *)\"2clicked()\", (char *)param_1,0x40dfcc30);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "undefined8 FUN_14071b770(undefined8 param_1)"
+ },
+ {
+  "line": 1163476,
+  "stmt": "QObject::connect(local_7b8,pcVar2,(QObject *)\"2sigRefresh(bool)\",(char *)param_1,0x40dfd388);",
+  "lits": [
+   "2sigRefresh(bool)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163480,
+  "stmt": "QObject::connect(local_7b0,pcVar2,(QObject *)\"2sigRefreshRoot()\",(char *)param_1,0x40dfd3b8);",
+  "lits": [
+   "2sigRefreshRoot()"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163484,
+  "stmt": "QObject::connect(local_7a8,pcVar2,(QObject *)\"2sigRefreshLeftTree()\",(char *)param_1,0x40dfd3e8);",
+  "lits": [
+   "2sigRefreshLeftTree()"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163531,
+  "stmt": "QObject::connect(local_788,*(char **)(param_1 + 0xb8),(QObject *)\"2sigShowRlt(int)\", (char *)param_1,0x40dfd410);",
+  "lits": [
+   "2sigShowRlt(int)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163549,
+  "stmt": "QObject::connect(local_778,(char *)param_1,(QObject *)\"2sigShowSearch(bool)\", *(char **)(param_1 + 0xb8),0x40dfd448);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163574,
+  "stmt": "QObject::connect(local_760,(char *)param_1,(QObject *)\"2sigShowFilterBar(bool)\", *(char **)(param_1 + 0x68),0x40dfd470);",
+  "lits": [
+   "2sigShowFilterBar(bool)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163577,
+  "stmt": "QObject::connect(local_758,*(char **)(param_1 + 0x68), (QObject *) \"2sigFilterChange(const AdvanceFilterCondition&,bool,bool, bool)\", (char *)param_1,0x40dfd4a0);",
+  "lits": [
+   "2sigFilterChange(const AdvanceFilterCondition&,bool,bool, bool)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163582,
+  "stmt": "QObject::connect(local_750,*(char **)(param_1 + 0x70), (QObject *) \"2sigFilterChange(const AdvanceFilterCondition&,bool,bool, bool)\", (char *)param_1,0x40dfd520);",
+  "lits": [
+   "2sigFilterChange(const AdvanceFilterCondition&,bool,bool, bool)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163587,
+  "stmt": "QObject::connect(local_748,(char *)param_1,(QObject *)\"2sigShowSearch(bool)\", (char *)param_1,0x40dfd5a0);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163655,
+  "stmt": "QObject::connect(local_720,(char *)param_1,(QObject *)\"2sigTabChange(int)\", (char *)param_1,0x40dfd5d0);",
+  "lits": [
+   "2sigTabChange(int)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163659,
+  "stmt": "QObject::connect(local_718,pcVar2,(QObject *)\"2sigItemClicked(int)\",(char *)param_1, 0x40dfd608);",
+  "lits": [
+   "2sigItemClicked(int)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163662,
+  "stmt": "QObject::connect(local_710,(char *)param_1,(QObject *)\"2sigClassifyChange(int)\", (char *)param_1,0x40dfd638);",
+  "lits": [
+   "2sigClassifyChange(int)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163665,
+  "stmt": "QObject::connect(local_708,(char *)param_1,(QObject *)\"2sigClassifyType(int)\", (char *)param_1,0x40dfd670);",
+  "lits": [
+   "2sigClassifyType(int)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163668,
+  "stmt": "QObject::connect(local_700,(char *)param_1,(QObject *)\"2sigSortMenu(int, bool)\", (char *)param_1,0x40dfd6a8);",
+  "lits": [
+   "2sigSortMenu(int, bool)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163671,
+  "stmt": "QObject::connect(local_6f8,(char *)param_1,(QObject *)\"2sigCheckBox(int)\", (char *)param_1,0x40dfd6d8);",
+  "lits": [
+   "2sigCheckBox(int)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163674,
+  "stmt": "QObject::connect(local_6f0,*(char **)(param_1 + 0x78), (QObject *)\"2sigCheckBoxClicked(int)\",(char *)param_1,0x40dfd710);",
+  "lits": [
+   "2sigCheckBoxClicked(int)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163679,
+  "stmt": "QObject::connect(local_6e8,pcVar2,(QObject *)\"2sigDoBeforeFreeze()\",(char *)param_1, 0x40dfd748);",
+  "lits": [
+   "2sigDoBeforeFreeze()"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163684,
+  "stmt": "QObject::connect(local_6e0,pcVar2,(QObject *)\"2sigScanFinished()\",(char *)param_1, 0x40dfd778);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163687,
+  "stmt": "QObject::connect(local_6d8,(char *)param_1,(QObject *)\"2sigStopFreshTimer()\", (char *)param_1,0x40dfd7a8);",
+  "lits": [
+   "2sigStopFreshTimer()"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163692,
+  "stmt": "QObject::connect(local_6d0,pcVar2,(QObject *)\"2sigScanFinished()\",(char *)param_1, 0x40dfd7d8);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1163697,
+  "stmt": "QObject::connect(local_6c8,pcVar2,(QObject *)\"2sigScanFinished()\",(char *)param_1, 0x40dfd810);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1164123,
+  "stmt": "QObject::connect(local_520,*(char **)(param_1 + 0x138), (QObject *)\"2sigBtnSearchClicked()\", (char *)param_1,0x40dfd910);",
+  "lits": [
+   "2sigBtnSearchClicked()"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1164163,
+  "stmt": "QObject::connect(local_500,*(char **)(param_1 + 0xb8), (QObject *)\"2sigShowRlt(int)\", *(char **)(*(longlong *) (param_1 + 0x90) + 0x38), 0x40dfd948);",
+  "lits": [
+   "2sigShowRlt(int)"
+  ],
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1164575,
+  "stmt": "QObject::connect(local_148,pcVar2,(QObject *)\"2sigHeaderColText(QStringList&)\",pcVar3,0x40dfdba0 );",
+  "lits": [
+   "2sigHeaderColText(QStringList&)"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164579,
+  "stmt": "QObject::connect(local_140,pcVar3,(QObject *)\"2modelReset()\",(char *)param_1,0x40dfdbe0);",
+  "lits": [
+   "2modelReset()"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164581,
+  "stmt": "QObject::connect(local_138,*(char **)(param_1 + 0x38),(QObject *)\"2sigClickLeftTree(bool)\", (char *)param_1,0x40dfdc10);",
+  "lits": [
+   "2sigClickLeftTree(bool)"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164595,
+  "stmt": "QObject::connect(local_128,*(char **)(param_1 + 0x38),(QObject *)\"2sigInsertFinish()\", (char *)param_1,0x40dfdc48);",
+  "lits": [
+   "2sigInsertFinish()"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164616,
+  "stmt": "QObject::connect(local_f0,local_f8,(QObject *)\"2sigHeaderColText(QStringList&)\",local_100, 0x40dfdc78);",
+  "lits": [
+   "2sigHeaderColText(QStringList&)"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164620,
+  "stmt": "QObject::connect(local_e8,pcVar3,(QObject *)\"2modelReset()\",(char *)param_1,0x40dfdcb8);",
+  "lits": [
+   "2modelReset()"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164622,
+  "stmt": "QObject::connect(local_e0,*(char **)(param_1 + 0x40),(QObject *)\"2sigClickLeftTree(bool)\", (char *)param_1,0x40dfdce8);",
+  "lits": [
+   "2sigClickLeftTree(bool)"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164636,
+  "stmt": "QObject::connect(local_d0,*(char **)(param_1 + 0x40),(QObject *)\"2sigInsertFinish()\", (char *)param_1,0x40dfdd20);",
+  "lits": [
+   "2sigInsertFinish()"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164650,
+  "stmt": "QObject::connect(local_c0,*(char **)(param_1 + 0xd8),(QObject *)\"2timeout()\",(char *)param_1 ,0x40dfdd50);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164658,
+  "stmt": "QObject::connect(local_a0,local_a8,(QObject *)\"2sigDoBeforeFreeze()\",local_b0,0x40dfdd80);",
+  "lits": [
+   "2sigDoBeforeFreeze()"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164663,
+  "stmt": "QObject::connect(local_88,local_90,(QObject *)\"2sigScanFinished()\",local_98,0x40dfdda8);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164665,
+  "stmt": "QObject::connect(local_80,*(char **)(param_1 + 0x38), (QObject *)\"2sigGetRightIndex(int&, int&)\",(char *)param_1,0x40dfddd0);",
+  "lits": [
+   "2sigGetRightIndex(int&, int&)"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164668,
+  "stmt": "QObject::connect(local_78,*(char **)(param_1 + 0x40), (QObject *)\"2sigGetRightIndex(int&, int&)\",(char *)param_1,0x40dfde10);",
+  "lits": [
+   "2sigGetRightIndex(int&, int&)"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164671,
+  "stmt": "QObject::connect(local_70,*(char **)(param_1 + 0x38), (QObject *)\"2sigSelectRightIndex(int, int)\",(char *)param_1,0x40dfde50);",
+  "lits": [
+   "2sigSelectRightIndex(int, int)"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1164674,
+  "stmt": "QObject::connect(local_68,*(char **)(param_1 + 0x40), (QObject *)\"2sigSelectRightIndex(int, int)\",(char *)param_1,0x40dfde90);",
+  "lits": [
+   "2sigSelectRightIndex(int, int)"
+  ],
+  "func": "void FUN_1407244a0(QObject *param_1)"
+ },
+ {
+  "line": 1165013,
+  "stmt": "QObject::connect(param_1,local_28,(char *)(param_1 + 0xe0),\"2timeout()\",0x40dfe760);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140725780(QObject *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1165015,
+  "stmt": "QObject::connect(param_1,local_20,*(char **)(param_1 + 0xc0),\"2sigClose()\",0x40dfe788);",
+  "lits": [
+   "2sigClose()"
+  ],
+  "func": "void FUN_140725780(QObject *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1165125,
+  "stmt": "QObject::connect(local_10,(char *)param_1,(QObject *)\"2sigShowFilterBar(bool)\", *(char **)(param_1 + 0x68),0x40dfe840);",
+  "lits": [
+   "2sigShowFilterBar(bool)"
+  ],
+  "func": "void FUN_140725ae0(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1165134,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2sigShowFilterBar(bool)\", *(char **)(param_1 + 0x70),0x40dfe7e0);",
+  "lits": [
+   "2sigShowFilterBar(bool)"
+  ],
+  "func": "void FUN_140725ae0(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1166836,
+  "stmt": "QObject::connect(local_390,*(char **)(param_1 + 0xa8),(QObject *)\"2sigCloseWnd()\",param_1, 0x40dfe278);",
+  "lits": [
+   "2sigCloseWnd()"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167048,
+  "stmt": "QObject::connect(local_2f8,*(char **)(param_1 + 0x118),(QObject *)\"2clicked()\" ,param_1,0x40dfe2e8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167051,
+  "stmt": "QObject::connect(local_2f0,*(char **)(param_1 + 0x118), (QObject *)\"2sigCanClicked(bool&)\",param_1,0x40dfe310);",
+  "lits": [
+   "2sigCanClicked(bool&)"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167250,
+  "stmt": "QObject::connect(local_268,*(char **)(param_1 + 0x120), (QObject *)\"2clicked()\",param_1,0x40dfe3b0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167253,
+  "stmt": "QObject::connect(local_260,*(char **)(param_1 + 0x120), (QObject *)\"2sigCanClicked(bool&)\",param_1, 0x40dfe3e0);",
+  "lits": [
+   "2sigCanClicked(bool&)"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167324,
+  "stmt": "QObject::connect(local_230,*(char **)(param_1 + 0x48), (QObject *)\"2sigDataType(int&)\",param_1, 0x40dfe430);",
+  "lits": [
+   "2sigDataType(int&)"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167329,
+  "stmt": "QObject::connect(local_228,*(char **)(param_1 + 0x50), (QObject *)\"2sigDataType(int&)\",param_1, 0x40dfe460);",
+  "lits": [
+   "2sigDataType(int&)"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167336,
+  "stmt": "QObject::connect(local_220,(char *)pQVar6, (QObject *)\"2sigSelectAll()\",param_1, 0x40dfe490);",
+  "lits": [
+   "2sigSelectAll()"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167343,
+  "stmt": "QObject::connect(local_218,(char *)pQVar6, (QObject *)\"2sigSelectAll()\",param_1, 0x40dfe4b8);",
+  "lits": [
+   "2sigSelectAll()"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167348,
+  "stmt": "QObject::connect(local_210,param_1, (QObject *)\"2sigShowSearch(bool)\",param_1 ,0x40dfe4e8);",
+  "lits": [
+   "2sigShowSearch(bool)"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167353,
+  "stmt": "QObject::connect(local_208,param_1, (QObject *)\"2sigListIconChanged(int)\", param_1,0x40dfe520);",
+  "lits": [
+   "2sigListIconChanged(int)"
+  ],
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1167818,
+  "stmt": "QObject::connect(local_18,(char *)local_38,(QObject *)\"2sigFinished(bool)\",param_1,0x40dfe650)",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_14072b580(char *param_1)"
+ },
+ {
+  "line": 1167916,
+  "stmt": "QObject::connect(local_138,(char *)local_178,(QObject *)\"2sigFinished(bool)\",param_1, 0x40dfe6d8);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1167923,
+  "stmt": "QObject::connect(local_148,(char *)local_178,(QObject *)\"2finished()\",(char *)local_128, 0x40dfe680);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1167926,
+  "stmt": "QObject::connect(local_140,param_1,(QObject *)\"2sigFilterFreezeFinished(bool)\",param_1, 0x40dfe6a0);",
+  "lits": [
+   "2sigFilterFreezeFinished(bool)"
+  ],
+  "func": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1168398,
+  "stmt": "QObject::connect(local_98,(char *)local_b0,(QObject *)\"2finished()\",(char *)local_78,0x40dfe228)",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_14072c6a0(QWidget *param_1)"
+ },
+ {
+  "line": 1168401,
+  "stmt": "QObject::connect(local_90,(char *)local_b0,(QObject *)\"2sigIsStopping(bool&)\",(char *)param_1, 0x40dfe248);",
+  "lits": [
+   "2sigIsStopping(bool&)"
+  ],
+  "func": "void FUN_14072c6a0(QWidget *param_1)"
+ },
+ {
+  "line": 1168429,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2sigShowFilterBar(bool)\", *(char **)(param_1 + 0x68),0x40dfe620);",
+  "lits": [
+   "2sigShowFilterBar(bool)"
+  ],
+  "func": "void FUN_14072c850(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1168438,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2sigShowFilterBar(bool)\", *(char **)(param_1 + 0x70),0x40dfe5c0);",
+  "lits": [
+   "2sigShowFilterBar(bool)"
+  ],
+  "func": "void FUN_14072c850(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1170581,
+  "stmt": "QObject::connect(local_b0,*(char **)(param_1 + 0x50),(QObject *)\"2clicked()\", (char *)param_1,0x40e00658);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140730150(QWidget *param_1)"
+ },
+ {
+  "line": 1170584,
+  "stmt": "QObject::connect(local_d0,(char *)param_1,(QObject *)\"2sigResizeWidth()\", (char *)param_1,0x40e00678);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_140730150(QWidget *param_1)"
+ },
+ {
+  "line": 1171589,
+  "stmt": "QObject::connect(local_28,*(char **)(lVar1 + 0x30), (QObject *)\"2linkActivated(const QString &)\",(char *)param_1,0x40e00cb0);",
+  "lits": [
+   "2linkActivated(const QString &)"
+  ],
+  "func": "void FUN_140732ac0(QObject *param_1)"
+ },
+ {
+  "line": 1171832,
+  "stmt": "QObject::connect(local_28,*(char **)(lVar1 + 0x30), (QObject *)\"2linkActivated(const QString &)\",(char *)param_1,0x40e013d8);",
+  "lits": [
+   "2linkActivated(const QString &)"
+  ],
+  "func": "void FUN_140733110(QObject *param_1)"
+ },
+ {
+  "line": 1172011,
+  "stmt": "QObject::connect(local_68,pcVar2,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40e00a00);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "undefined8 FUN_140733490(undefined8 param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1173692,
+  "stmt": "QObject::connect(local_148,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1,0x40e022b0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140735790(QWidget *param_1)"
+ },
+ {
+  "line": 1173726,
+  "stmt": "QObject::connect(local_130,*(char **)(param_1 + 0x68), (QObject *)\"2clicked()\",(char *)param_1,0x40e022f0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140735790(QWidget *param_1)"
+ },
+ {
+  "line": 1173758,
+  "stmt": "QObject::connect(local_118,*(char **)(param_1 + 0x38), (QObject *)\"2clicked()\",(char *)param_1,0x40e02328);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140735790(QWidget *param_1)"
+ },
+ {
+  "line": 1175113,
+  "stmt": "QObject::connect(local_270,*(char **)(param_1 + 0x48),(QObject *)\"2sigClicked(int)\", (char *)param_1,0x40e03210);",
+  "lits": [
+   "2sigClicked(int)"
+  ],
+  "func": "int FUN_140738b80(QPushButton *param_1)"
+ },
+ {
+  "line": 1175422,
+  "stmt": "QObject::connect(local_68,pcVar7,(QObject *)\"2sigValueChanged(int, bool)\",(char *)param_1, 0x40e033b0);",
+  "lits": [
+   "2sigValueChanged(int, bool)"
+  ],
+  "func": "void FUN_14073a270(QObject *param_1,int param_2)"
+ },
+ {
+  "line": 1175428,
+  "stmt": "QObject::connect(local_60,pcVar7,(QObject *)\"2sigClickedClose()\",(char *)param_1,0x40e03418);",
+  "lits": [
+   "2sigClickedClose()"
+  ],
+  "func": "void FUN_14073a270(QObject *param_1,int param_2)"
+ },
+ {
+  "line": 1175633,
+  "stmt": "QObject::connect(local_110,local_268,(QObject *)\"2sigClicked(int)\",param_1,0x40e03248);",
+  "lits": [
+   "2sigClicked(int)"
+  ],
+  "func": "void FUN_14073a6f0(char *param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4,"
+ },
+ {
+  "line": 1178710,
+  "stmt": "QObject::connect(local_b0,*(char **)(*(longlong *)(param_1 + 0x38) + 0x30), (QObject *)\"2released()\",(char *)param_1,0x40e04278);",
+  "lits": [
+   "2released()"
+  ],
+  "func": "void FUN_14073fee0(undefined8 param_1)"
+ },
+ {
+  "line": 1179970,
+  "stmt": "QObject::connect(local_b8,pcVar2,(QObject *)\"2doDispatchMessage(int, void *, int&)\", (char *)param_1,0x40e056b8);",
+  "lits": [
+   "2doDispatchMessage(int, void *, int&)"
+  ],
+  "func": "void FUN_140742060(undefined8 param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1221124,
+  "stmt": "QObject::connect(local_d8,*(char **)(param_1 + 0x58),(QObject *)\"2clicked()\", (char *)param_1,0x40e124c8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140786930(QWidget *param_1)"
+ },
+ {
+  "line": 1221127,
+  "stmt": "QObject::connect(local_d0,(char *)param_1,(QObject *)\"2refreshClicked()\",(char *)param_1, 0x40e124f0);",
+  "lits": [
+   "2refreshClicked()"
+  ],
+  "func": "void FUN_140786930(QWidget *param_1)"
+ },
+ {
+  "line": 1221130,
+  "stmt": "QObject::connect(local_c8,*(char **)(param_1 + 0x50),(QObject *)\"2clicked()\", (char *)param_1,0x40e12520);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140786930(QWidget *param_1)"
+ },
+ {
+  "line": 1221133,
+  "stmt": "QObject::connect(local_c0,*(char **)(param_1 + 0x70),(QObject *)\"2clicked()\", (char *)param_1,0x40e12548);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140786930(QWidget *param_1)"
+ },
+ {
+  "line": 1223828,
+  "stmt": "QObject::connect(local_330,local_690,(QObject *)\"2sigBtnClicked()\",(char *)param_1 ,0x40e13a80);",
+  "lits": [
+   "2sigBtnClicked()"
+  ],
+  "func": "void FUN_14078b4a0(QWidget *param_1)"
+ },
+ {
+  "line": 1299229,
+  "stmt": "QObject::connect(local_270,*(char **)(param_1 + 0x58),(QObject *)\"2clicked()\", (char *)param_1,0x40e2d0a8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140813f60(QWidget *param_1)"
+ },
+ {
+  "line": 1299306,
+  "stmt": "QObject::connect(local_228,*(char **)(param_1 + 0x68), (QObject *)\"2clicked()\",(char *)param_1,0x40e2d100);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140813f60(QWidget *param_1)"
+ },
+ {
+  "line": 1299339,
+  "stmt": "QObject::connect(local_188,*(char **)(param_1 + 0x70), (QObject *)\"2clicked()\",(char *)param_1,0x40e2d148);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140813f60(QWidget *param_1)"
+ },
+ {
+  "line": 1299603,
+  "stmt": "QObject::connect(local_100,*(char **)(param_1 + 0x90),(QObject *)\"2timeout()\",(char *)param_1, 0x40e2c920);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140815960(QObject *param_1)"
+ },
+ {
+  "line": 1299642,
+  "stmt": "QObject::connect(local_88,(char *)local_188,(QObject *)\"2finished()\",(char *)param_1, 0x40e2c950);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140815960(QObject *param_1)"
+ },
+ {
+  "line": 1299645,
+  "stmt": "QObject::connect(local_80,(char *)local_188,(QObject *)\"2sigDownloadError()\",(char *)param_1, 0x40e2c980);",
+  "lits": [
+   "2sigDownloadError()"
+  ],
+  "func": "void FUN_140815960(QObject *param_1)"
+ },
+ {
+  "line": 1301274,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",local_28,0x40e2dd18);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_1408194b0(longlong param_1)"
+ },
+ {
+  "line": 1302253,
+  "stmt": "QObject::connect(local_1c0,*(char **)(param_1 + 0x38),(QObject *)\"2clicked()\", (char *)param_1,0x40e2dd88);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14081abc0(QWidget *param_1)"
+ },
+ {
+  "line": 1302285,
+  "stmt": "QObject::connect(local_1a8,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40e2ddc8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14081abc0(QWidget *param_1)"
+ },
+ {
+  "line": 1302306,
+  "stmt": "QObject::connect(local_198,*(char **)(param_1 + 0x128), (QObject *)\"2clicked()\",(char *)param_1,0x40e2de18);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14081abc0(QWidget *param_1)"
+ },
+ {
+  "line": 1302380,
+  "stmt": "QObject::connect(local_168,*(char **)(param_1 + 0x168), (QObject *)\"2timeout()\",(char *)param_1,0x40e2de58);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_14081abc0(QWidget *param_1)"
+ },
+ {
+  "line": 1303063,
+  "stmt": "QObject::connect(local_18,(char *)local_30,(QObject *)\"2sigCancelRet(bool)\",param_1,0x40e2deb8);",
+  "lits": [
+   "2sigCancelRet(bool)"
+  ],
+  "func": "void FUN_14081d5a0(char *param_1)"
+ },
+ {
+  "line": 1303229,
+  "stmt": "QObject::connect(local_88,(char *)local_190,(QObject *)\"2sigConnectRet(int)\", (char *)param_1,0x40e2dee8);",
+  "lits": [
+   "2sigConnectRet(int)"
+  ],
+  "func": "void FUN_14081d6d0(QWidget *param_1,char param_2)"
+ },
+ {
+  "line": 1305750,
+  "stmt": "QObject::connect(local_2e0,*(char **)(param_1 + 0x80), (QObject *)\"2sigEditOnFocus()\",param_1,0x40e2d8b8);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_140822080(char *param_1)"
+ },
+ {
+  "line": 1305855,
+  "stmt": "QObject::connect(local_278,*(char **)(param_1 + 0x88), (QObject *)\"2sigEditOnFocus()\",param_1, 0x40e2d930);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_140822080(char *param_1)"
+ },
+ {
+  "line": 1305932,
+  "stmt": "QObject::connect(local_250,*(char **)(param_1 + 0x90), (QObject *)\"2sigEditOnFocus()\",param_1, 0x40e2d990);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_140822080(char *param_1)"
+ },
+ {
+  "line": 1306010,
+  "stmt": "QObject::connect(local_228,*(char **)(param_1 + 0x98), (QObject *)\"2sigEditOnFocus()\",param_1, 0x40e2d9f0);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_140822080(char *param_1)"
+ },
+ {
+  "line": 1306060,
+  "stmt": "QObject::connect(local_208, *(char **)(param_1 + 0x48), (QObject *)\"2clicked()\",param_1, 0x40e2da30);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140822080(char *param_1)"
+ },
+ {
+  "line": 1310503,
+  "stmt": "QObject::connect(local_98,*(char **)(param_1 + 0x1a8),(QObject *)\"2sigGotoPage(int,int)\", param_1,0x40e2fea0);",
+  "lits": [
+   "2sigGotoPage(int,int)"
+  ],
+  "func": "void FUN_14082bd20(char *param_1)"
+ },
+ {
+  "line": 1310506,
+  "stmt": "QObject::connect(local_90,*(char **)(param_1 + 0x1a8),(QObject *)\"2sigGotoLastPage()\",param_1, 0x40e2fed0);",
+  "lits": [
+   "2sigGotoLastPage()"
+  ],
+  "func": "void FUN_14082bd20(char *param_1)"
+ },
+ {
+  "line": 1310509,
+  "stmt": "QObject::connect(local_88,*(char **)(param_1 + 0x1a8),(QObject *)\"2sigEnableWidget(bool)\", param_1,0x40e2ff00);",
+  "lits": [
+   "2sigEnableWidget(bool)"
+  ],
+  "func": "void FUN_14082bd20(char *param_1)"
+ },
+ {
+  "line": 1310543,
+  "stmt": "QObject::connect(local_70,*(char **)(param_1 + 0x1b0),(QObject *)\"2sigGotoLastPage()\", param_1,0x40e2ff30);",
+  "lits": [
+   "2sigGotoLastPage()"
+  ],
+  "func": "void FUN_14082bd20(char *param_1)"
+ },
+ {
+  "line": 1310546,
+  "stmt": "QObject::connect(local_68,*(char **)(param_1 + 0x1b0),(QObject *)\"2sigAutoConnect()\", *(char **)(param_1 + 0x1a8),0x40e2ff60);",
+  "lits": [
+   "2sigAutoConnect()"
+  ],
+  "func": "void FUN_14082bd20(char *param_1)"
+ },
+ {
+  "line": 1314000,
+  "stmt": "QObject::connect(local_98,param_1,(QObject *)\"2refreshFinished()\",(char *)local_78,0x40e318f0);",
+  "lits": [
+   "2refreshFinished()"
+  ],
+  "func": "void FUN_140833f10(char *param_1)"
+ },
+ {
+  "line": 1314518,
+  "stmt": "QObject::connect(local_88,param_1,(QObject *)\"2refreshFinished()\",(char *)local_78,0x40e31c40)",
+  "lits": [
+   "2refreshFinished()"
+  ],
+  "func": "void FUN_140834fc0(char *param_1)"
+ },
+ {
+  "line": 1314668,
+  "stmt": "QObject::connect(local_220,pcVar1,(QObject *)\"2finished()\",(char *)param_1,0x40e31cc8);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_1408351a0(QStackedWidget *param_1)"
+ },
+ {
+  "line": 1314671,
+  "stmt": "QObject::connect(local_218,pcVar1,(QObject *)\"2startScanDevice(const ScanDeviceInfo&)\", (char *)param_1,0x40e31cf0);",
+  "lits": [
+   "2startScanDevice(const ScanDeviceInfo&)"
+  ],
+  "func": "void FUN_1408351a0(QStackedWidget *param_1)"
+ },
+ {
+  "line": 1314675,
+  "stmt": "QObject::connect(local_210,pcVar1,(QObject *)\"2sigScanNasDevice(IStorageDevice*)\", (char *)param_1,0x40e31d40);",
+  "lits": [
+   "2sigScanNasDevice(IStorageDevice*)"
+  ],
+  "func": "void FUN_1408351a0(QStackedWidget *param_1)"
+ },
+ {
+  "line": 1314856,
+  "stmt": "QObject::connect(local_28,*(char **)(param_1 + 0x40),(QObject *)\"2sigScanFinished()\", (char *)param_1,0x40e31d90);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "void FUN_140835910(QStackedWidget *param_1)"
+ },
+ {
+  "line": 1316982,
+  "stmt": "QObject::connect(local_1f8,param_1 + 0x100,(QObject *)\"2timeout()\",param_1,0x40e33da0);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140839630(char *param_1)"
+ },
+ {
+  "line": 1317017,
+  "stmt": "QObject::connect(local_1d0,pcVar6,(QObject *)\"2doDispatchMessage(int,void *, int&)\",param_1, 0x40e33dc0);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "void FUN_140839630(char *param_1)"
+ },
+ {
+  "line": 1320667,
+  "stmt": "QObject::connect(local_170,*(char **)(param_1 + 0x98), (QObject *)\"2itemClicked(const quint64)\",(char *)param_1,0x40e32910);",
+  "lits": [
+   "2itemClicked(const quint64)"
+  ],
+  "func": "void FUN_1408412c0(QWidget *param_1)"
+ },
+ {
+  "line": 1320670,
+  "stmt": "QObject::connect(local_168,*(char **)(param_1 + 0x98), (QObject *)\"2sigEnterOrLeaveTitleButton(const quint64, bool )\", (char *)param_1,0x40e32958);",
+  "lits": [
+   "2sigEnterOrLeaveTitleButton(const quint64, bool )"
+  ],
+  "func": "void FUN_1408412c0(QWidget *param_1)"
+ },
+ {
+  "line": 1320674,
+  "stmt": "QObject::connect(local_160,*(char **)(param_1 + 0xc0),(QObject *)\"2currentChanged(int)\", (char *)param_1,0x40e329c0);",
+  "lits": [
+   "2currentChanged(int)"
+  ],
+  "func": "void FUN_1408412c0(QWidget *param_1)"
+ },
+ {
+  "line": 1320677,
+  "stmt": "QObject::connect(local_158,*(char **)(param_1 + 0xc0),(QObject *)\"2sigScanFinished()\", (char *)param_1,0x40e329f8);",
+  "lits": [
+   "2sigScanFinished()"
+  ],
+  "func": "void FUN_1408412c0(QWidget *param_1)"
+ },
+ {
+  "line": 1321112,
+  "stmt": "QObject::connect(local_b8,(char *)local_2a8,(QObject *)\"2finished()\",(char *)local_2a8,0x40e32b00)",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140842400(QWidget *param_1)"
+ },
+ {
+  "line": 1323020,
+  "stmt": "QObject::connect(local_40,(char *)param_1,(QObject *)\"2sigUpdateTaskBarProgress(int)\", (char *)this,0x40e33730);",
+  "lits": [
+   "2sigUpdateTaskBarProgress(int)"
+  ],
+  "func": "void FUN_140846e70(QWidget *param_1)"
+ },
+ {
+  "line": 1323023,
+  "stmt": "QObject::connect(local_38,(char *)param_1,(QObject *)\"2sigUpdateTaskBarProgress(int)\", (char *)this,0x40e33760);",
+  "lits": [
+   "2sigUpdateTaskBarProgress(int)"
+  ],
+  "func": "void FUN_140846e70(QWidget *param_1)"
+ },
+ {
+  "line": 1323026,
+  "stmt": "QObject::connect(local_30,(char *)param_1,(QObject *)\"2sigTaskBarStop()\",(char *)this,0x40e33788 );",
+  "lits": [
+   "2sigTaskBarStop()"
+  ],
+  "func": "void FUN_140846e70(QWidget *param_1)"
+ },
+ {
+  "line": 1323029,
+  "stmt": "QObject::connect(local_28,(char *)param_1,(QObject *)\"2sigTaskBarResume()\",(char *)this, 0x40e337a8);",
+  "lits": [
+   "2sigTaskBarResume()"
+  ],
+  "func": "void FUN_140846e70(QWidget *param_1)"
+ },
+ {
+  "line": 1323032,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2sigTaskBarResume()\",(char *)this, 0x40e337d0);",
+  "lits": [
+   "2sigTaskBarResume()"
+  ],
+  "func": "void FUN_140846e70(QWidget *param_1)"
+ },
+ {
+  "line": 1323035,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2sigTaskBarPaused(bool)\",(char *)this, 0x40e337f0);",
+  "lits": [
+   "2sigTaskBarPaused(bool)"
+  ],
+  "func": "void FUN_140846e70(QWidget *param_1)"
+ },
+ {
+  "line": 1329235,
+  "stmt": "QObject::connect(local_190,(char *)(param_1 + 0x30),(QObject *)\"2textChanged(const QString&)\", (char *)param_1,0x40e36068);",
+  "lits": [
+   "2textChanged(const QString&)"
+  ],
+  "func": "undefined8 FUN_140851780(longlong param_1)"
+ },
+ {
+  "line": 1329547,
+  "stmt": "QObject::connect(local_78,(char *)local_e8,(QObject *)\"2initFinished()\",(char *)param_1,0x40e36228 );",
+  "lits": [
+   "2initFinished()"
+  ],
+  "func": "int FUN_140852300(QDialog *param_1)"
+ },
+ {
+  "line": 1329697,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40e362c0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140852830(QWidget *param_1,QPaintEvent *param_2)"
+ },
+ {
+  "line": 1340712,
+  "stmt": "QObject::connect(local_d0,*(char **)(param_1 + 0x40), (QObject *)\"2sigClickScan(const NasDeviceInfo&)\",(char *)param_1, 0x40e3a018);",
+  "lits": [
+   "2sigClickScan(const NasDeviceInfo&)"
+  ],
+  "func": "void FUN_140864c10(QWidget *param_1)"
+ },
+ {
+  "line": 1340716,
+  "stmt": "QObject::connect(local_c8,*(char **)(param_1 + 0x40),(QObject *)\"2sigClickConnect()\", (char *)param_1,0x40e3a068);",
+  "lits": [
+   "2sigClickConnect()"
+  ],
+  "func": "void FUN_140864c10(QWidget *param_1)"
+ },
+ {
+  "line": 1341187,
+  "stmt": "QObject::connect(local_118,(char *)local_160,(QObject *)\"2sigMouseEnter()\",param_1, 0x40e3a1f8);",
+  "lits": [
+   "2sigMouseEnter()"
+  ],
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1341196,
+  "stmt": "QObject::connect(local_110,(char *)pQVar1, (QObject *)\"2sigItemClickScan(const NasDeviceInfo&)\",param_1,0x40e3a228);",
+  "lits": [
+   "2sigItemClickScan(const NasDeviceInfo&)"
+  ],
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1341218,
+  "stmt": "QObject::connect(local_150,(char *)local_190,(QObject *)\"2sigMouseEnter()\",param_1, 0x40e3a120);",
+  "lits": [
+   "2sigMouseEnter()"
+  ],
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1341223,
+  "stmt": "QObject::connect(local_148,(char *)local_190,(QObject *)\"2sigItemClickConnect()\",param_1, 0x40e3a150);",
+  "lits": [
+   "2sigItemClickConnect()"
+  ],
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1341238,
+  "stmt": "QObject::connect(local_138,(char *)pQVar1,(QObject *)\"2sigMouseEnter()\",param_1,0x40e3a198);",
+  "lits": [
+   "2sigMouseEnter()"
+  ],
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1341242,
+  "stmt": "QObject::connect(local_130,(char *)pQVar1,(QObject *)\"2sigItemClickSupport()\",param_1, 0x40e3a1c8);",
+  "lits": [
+   "2sigItemClickSupport()"
+  ],
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)"
+ },
+ {
+  "line": 1343919,
+  "stmt": "QObject::connect(local_2d8,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1,0x40e3ae10);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140869b40(QWidget *param_1)"
+ },
+ {
+  "line": 1343996,
+  "stmt": "QObject::connect(local_290,*(char **)(param_1 + 0x70), (QObject *)\"2clicked()\",(char *)param_1,0x40e3ae68);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140869b40(QWidget *param_1)"
+ },
+ {
+  "line": 1344029,
+  "stmt": "QObject::connect(local_278,*(char **)(param_1 + 0x78), (QObject *)\"2clicked()\",(char *)param_1,0x40e3aeb0)",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140869b40(QWidget *param_1)"
+ },
+ {
+  "line": 1344309,
+  "stmt": "QObject::connect(local_c8,(char *)this,(QObject *)\"2finished()\",(char *)param_1,0x40e3af98);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_14086b870(longlong *param_1)"
+ },
+ {
+  "line": 1344311,
+  "stmt": "QObject::connect(local_c0,(char *)this,(QObject *)\"2sigDownloadError()\",(char *)param_1, 0x40e3afc8);",
+  "lits": [
+   "2sigDownloadError()"
+  ],
+  "func": "void FUN_14086b870(longlong *param_1)"
+ },
+ {
+  "line": 1346543,
+  "stmt": "QObject::connect(local_b0,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\", (char *)param_1,0x40e3bd48);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14086fe30(QWidget *param_1)"
+ },
+ {
+  "line": 1346576,
+  "stmt": "QObject::connect(local_c8,*(char **)(param_1 + 0x50),(QObject *)\"2clicked()\", (char *)param_1,0x40e3bd90);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14086fe30(QWidget *param_1)"
+ },
+ {
+  "line": 1347341,
+  "stmt": "QObject::connect(local_d0,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\", (char *)param_1,0x40e3cd08);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140871880(QWidget *param_1)"
+ },
+ {
+  "line": 1347374,
+  "stmt": "QObject::connect(local_b8,*(char **)(param_1 + 0x50),(QObject *)\"2clicked()\", (char *)param_1,0x40e3cd48);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140871880(QWidget *param_1)"
+ },
+ {
+  "line": 1347894,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",local_28,0x40e3dfc0);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_1408730f0(longlong param_1)"
+ },
+ {
+  "line": 1348894,
+  "stmt": "QObject::connect(local_1e0,*(char **)(param_1 + 0x38),(QObject *)\"2clicked()\", (char *)param_1,0x40e3de98);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140874890(QWidget *param_1)"
+ },
+ {
+  "line": 1348929,
+  "stmt": "QObject::connect(local_1b8,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40e3ded8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140874890(QWidget *param_1)"
+ },
+ {
+  "line": 1348950,
+  "stmt": "QObject::connect(local_1a8,*(char **)(param_1 + 0x138), (QObject *)\"2clicked()\",(char *)param_1,0x40e3df20);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140874890(QWidget *param_1)"
+ },
+ {
+  "line": 1349037,
+  "stmt": "QObject::connect(local_170,*(char **)(param_1 + 0x178), (QObject *)\"2timeout()\",(char *)param_1,0x40e3df68);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140874890(QWidget *param_1)"
+ },
+ {
+  "line": 1349736,
+  "stmt": "QObject::connect(local_18,(char *)local_30,(QObject *)\"2sigCancelRet(bool)\",param_1,0x40e3e138);",
+  "lits": [
+   "2sigCancelRet(bool)"
+  ],
+  "func": "void FUN_1408774b0(char *param_1)"
+ },
+ {
+  "line": 1349907,
+  "stmt": "QObject::connect(local_98,(char *)local_1a0,(QObject *)\"2sigConnectRet(int)\", (char *)param_1,0x40e3e1c0);",
+  "lits": [
+   "2sigConnectRet(int)"
+  ],
+  "func": "void FUN_1408775e0(QWidget *param_1,char param_2)"
+ },
+ {
+  "line": 1352600,
+  "stmt": "QObject::connect(local_358,*(char **)(param_1 + 0x88), (QObject *)\"2sigEditOnFocus()\",param_1,0x40e3d8e0);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_14087c440(char *param_1)"
+ },
+ {
+  "line": 1352746,
+  "stmt": "QObject::connect(local_2e8,*(char **)(param_1 + 0x90), (QObject *)\"2sigEditOnFocus()\",param_1, 0x40e3d968);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_14087c440(char *param_1)"
+ },
+ {
+  "line": 1352824,
+  "stmt": "QObject::connect(local_2c0,*(char **)(param_1 + 0x98), (QObject *)\"2sigEditOnFocus()\",param_1, 0x40e3d9c8);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_14087c440(char *param_1)"
+ },
+ {
+  "line": 1352904,
+  "stmt": "QObject::connect(local_1f8,*(char **)(param_1 + 0xa0), (QObject *)\"2sigEditOnFocus()\", param_1,0x40e3da48);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_14087c440(char *param_1)"
+ },
+ {
+  "line": 1352956,
+  "stmt": "QObject::connect(local_278, *(char **)(param_1 + 0x48), (QObject *)\"2clicked()\",param_1, 0x40e3dab0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14087c440(char *param_1)"
+ },
+ {
+  "line": 1354188,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2selectionChanged()\",(char *)param_1, 0x40e3de08);",
+  "lits": [
+   "2selectionChanged()"
+  ],
+  "func": "void FUN_140880f80(longlong param_1)"
+ },
+ {
+  "line": 1354191,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2textChanged(const QString &)\", (char *)param_1,0x40e3de38);",
+  "lits": [
+   "2textChanged(const QString &)"
+  ],
+  "func": "void FUN_140880f80(longlong param_1)"
+ },
+ {
+  "line": 1358186,
+  "stmt": "QObject::connect(local_2c0,*(char **)(param_1 + 0x70), (QObject *)\"2clicked()\",(char *)param_1,0x40e40348);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140886a50(QWidget *param_1)"
+ },
+ {
+  "line": 1358211,
+  "stmt": "QObject::connect(local_2a0,*(char **)(param_1 + 0x78), (QObject *)\"2clicked()\",(char *)param_1,0x40e40388);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140886a50(QWidget *param_1)"
+ },
+ {
+  "line": 1362039,
+  "stmt": "QObject::connect(local_138,*(char **)(param_1 + 0x30),(QObject *)\"2clicked()\", (char *)param_1,0x40e42460);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14088fac0(QWidget *param_1)"
+ },
+ {
+  "line": 1362073,
+  "stmt": "QObject::connect(local_120,*(char **)(param_1 + 0x38), (QObject *)\"2clicked()\",(char *)param_1,0x40e42498);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14088fac0(QWidget *param_1)"
+ },
+ {
+  "line": 1363088,
+  "stmt": "QObject::connect(local_160,pcVar3,(QObject *)\"2SigEnumRet(bool)\",param_1,0x40e434c8);",
+  "lits": [
+   "2SigEnumRet(bool)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363100,
+  "stmt": "QObject::connect(local_150,*(char **)(param_1 + 0x1a8),(QObject *)\"2sigGotoPage(int,int)\", param_1,0x40e43508);",
+  "lits": [
+   "2sigGotoPage(int,int)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363154,
+  "stmt": "QObject::connect(local_130,*(char **)(param_1 + 0x1b0),(QObject *)\"2sigGotoPage(int,int)\", param_1,0x40e43538);",
+  "lits": [
+   "2sigGotoPage(int,int)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363168,
+  "stmt": "QObject::connect(local_120,*(char **)(param_1 + 0x1b8),(QObject *)\"2sigGotoPage(int,int)\", param_1,0x40e43568);",
+  "lits": [
+   "2sigGotoPage(int,int)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363182,
+  "stmt": "QObject::connect(local_110,*(char **)(param_1 + 0x1c0), (QObject *)\"2sigGotoPage(int,int)\",param_1,0x40e43598);",
+  "lits": [
+   "2sigGotoPage(int,int)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363185,
+  "stmt": "QObject::connect(local_108,*(char **)(param_1 + 0x1c0), (QObject *)\"2sigSetDeviceInfo(const NasDeviceInfo&)\",param_1,0x40e435c8 );",
+  "lits": [
+   "2sigSetDeviceInfo(const NasDeviceInfo&)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363200,
+  "stmt": "QObject::connect(local_f8,*(char **)(param_1 + 0x1d0), (QObject *)\"2sigGotoPage(int,int)\",param_1,0x40e43628);",
+  "lits": [
+   "2sigGotoPage(int,int)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363203,
+  "stmt": "QObject::connect(local_f0,*(char **)(param_1 + 0x1d0),(QObject *)\"2sigGotoLastPage()\", param_1,0x40e43658);",
+  "lits": [
+   "2sigGotoLastPage()"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363217,
+  "stmt": "QObject::connect(local_e0,*(char **)(param_1 + 0x1c8), (QObject *)\"2sigGotoPage(int,int)\",param_1,0x40e43688);",
+  "lits": [
+   "2sigGotoPage(int,int)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363220,
+  "stmt": "QObject::connect(local_d8,*(char **)(param_1 + 0x1c8), (QObject *)\"2sigGotoLastPage()\",param_1,0x40e436b8);",
+  "lits": [
+   "2sigGotoLastPage()"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363223,
+  "stmt": "QObject::connect(local_d0,*(char **)(param_1 + 0x1c8), (QObject *)\"2sigEnableWidget(bool)\",param_1,0x40e436e8);",
+  "lits": [
+   "2sigEnableWidget(bool)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363237,
+  "stmt": "QObject::connect(local_c0,*(char **)(param_1 + 0x1d8), (QObject *)\"2sigGotoPage(int, int)\",param_1,0x40e43718);",
+  "lits": [
+   "2sigGotoPage(int, int)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363240,
+  "stmt": "QObject::connect(local_b8,*(char **)(param_1 + 0x1d8), (QObject *)\"2sigGotoLastPage()\",param_1,0x40e43748);",
+  "lits": [
+   "2sigGotoLastPage()"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363243,
+  "stmt": "QObject::connect(local_b0,*(char **)(param_1 + 0x1d8), (QObject *)\"2sigAutoConnect()\",*(char **)(param_1 + 0x1c8), 0x40e43778);",
+  "lits": [
+   "2sigAutoConnect()"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1363247,
+  "stmt": "QObject::connect(local_a8,*(char **)(param_1 + 0x1d8), (QObject *)\"2sigEnableWidget(bool)\",param_1,0x40e437a8);",
+  "lits": [
+   "2sigEnableWidget(bool)"
+  ],
+  "func": "void FUN_140892900(char *param_1)"
+ },
+ {
+  "line": 1366417,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2SigEnumRet(bool)\",(char *)param_1, 0x40e451e8);",
+  "lits": [
+   "2SigEnumRet(bool)"
+  ],
+  "func": "FUN_140899280(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1368246,
+  "stmt": "QObject::connect(local_110,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40e466e8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14089c320(QWidget *param_1)"
+ },
+ {
+  "line": 1368862,
+  "stmt": "QObject::connect(local_78,(char *)param_1,(QObject *)\"2sigResizeWidth()\",(char *)param_1 ,0x40e46b28);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_14089d760(QWidget *param_1)"
+ },
+ {
+  "line": 1369249,
+  "stmt": "QObject::connect(local_a8,(char *)param_1,(QObject *)\"2sigResizeWidth()\", (char *)param_1,0x40e46c78);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_14089e280(QWidget *param_1)"
+ },
+ {
+  "line": 1369866,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2dispatch(int, void*,int&)\",pcVar2, 0x40e474d0);",
+  "lits": [
+   "2dispatch(int, void*,int&)"
+  ],
+  "func": "void FUN_14089fa80(longlong param_1)"
+ },
+ {
+  "line": 1369872,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2dispatch(int, void*,int&)\",pcVar2, 0x40e47488);",
+  "lits": [
+   "2dispatch(int, void*,int&)"
+  ],
+  "func": "void FUN_14089fa80(longlong param_1)"
+ },
+ {
+  "line": 1370336,
+  "stmt": "QObject::connect(local_38,param_1,(QObject *)\"2sigPushPixmapGetIndex(int)\",param_1 + 0x28, 0x40e47a50);",
+  "lits": [
+   "2sigPushPixmapGetIndex(int)"
+  ],
+  "func": "void FUN_1408a0720(QAbstractItemModel *param_1,QString *param_2)"
+ },
+ {
+  "line": 1370339,
+  "stmt": "QObject::connect(local_30,param_1 + 0x28,(QObject *)\"2sigFinished(int, QPixmap)\",param_1, 0x40e47a88);",
+  "lits": [
+   "2sigFinished(int, QPixmap)"
+  ],
+  "func": "void FUN_1408a0720(QAbstractItemModel *param_1,QString *param_2)"
+ },
+ {
+  "line": 1371071,
+  "stmt": "QObject::connect((QObject *)param_1,local_368,*(char **)(param_1 + 0x38),\"2clicked()\", 0x40e477a8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408a1970(QWidget *param_1)"
+ },
+ {
+  "line": 1371455,
+  "stmt": "QObject::connect(local_200,*(char **)(param_1 + 0x40), (QObject *)\"2clicked()\",(char *)param_1, 0x40e478a0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408a1970(QWidget *param_1)"
+ },
+ {
+  "line": 1373902,
+  "stmt": "QObject::connect(local_98,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40e48f28);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408a73b0(QWidget *param_1)"
+ },
+ {
+  "line": 1374467,
+  "stmt": "QObject::connect(local_310,*(char **)(param_1 + 0x40), (QObject *)\"2sigEditOnFocus()\",(char *)param_1,0x40e494b8);",
+  "lits": [
+   "2sigEditOnFocus()"
+  ],
+  "func": "void FUN_1408a81c0(QWidget *param_1)"
+ },
+ {
+  "line": 1374499,
+  "stmt": "QObject::connect(local_2f8,*(char **)(param_1 + 0x50),(QObject *)\"2clicked()\", (char *)param_1,0x40e49530);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408a81c0(QWidget *param_1)"
+ },
+ {
+  "line": 1374573,
+  "stmt": "QObject::connect((QObject *)param_1,local_2d0,*(char **)(param_1 + 0x48), \"2clicked()\",0x40e49588);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408a81c0(QWidget *param_1)"
+ },
+ {
+  "line": 1374851,
+  "stmt": "QObject::connect(local_1e8,param_1 + 0x260,(QObject *)\"2timeout()\",param_1,0x40e49880);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408a9a30(char *param_1)"
+ },
+ {
+  "line": 1376222,
+  "stmt": "QObject::connect(local_1d8,*(char **)(param_1 + 0x70), (QObject *)\"2clicked()\", (char *)param_1,0x40e4a8d8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aae50(QWidget *param_1)"
+ },
+ {
+  "line": 1377552,
+  "stmt": "QObject::connect(local_500,*(char **)(param_1 + 0xf0),(QObject *)\"2clicked()\", (char *)param_1,0x40e4acd0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1378150,
+  "stmt": "QObject::connect(local_410,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1, 0x40e4aec8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1378185,
+  "stmt": "QObject::connect(local_3f8,*(char **)(param_1 + 0xa8), (QObject *)\"2clicked()\",(char *)param_1, 0x40e4af08);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1378320,
+  "stmt": "QObject::connect(local_3b8, *(char **)(param_1 + 0x68), (QObject *)\"2clicked()\", (char *)param_1,0x40e4af98);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1378364,
+  "stmt": "QObject::connect(local_318, *(char **)(param_1 + 0xb0), (QObject *)\"2clicked()\", (char *)param_1,0x40e4afd8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1378408,
+  "stmt": "QObject::connect(local_388, *(char **)(param_1 + 0xc0), (QObject *)\"2clicked()\", (char *)param_1,0x40e4b028);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1378452,
+  "stmt": "QObject::connect(local_370, *(char **)(param_1 + 0xe8), (QObject *)\"2clicked()\", (char *)param_1,0x40e4b078);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1378499,
+  "stmt": "QObject::connect(local_358, *(char **)(param_1 + 0x88), (QObject *)\"2clicked()\", (char *)param_1,0x40e4b0c0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1378544,
+  "stmt": "QObject::connect(local_340, *(char **)(param_1 + 0xe0), (QObject *)\"2clicked()\", (char *)param_1,0x40e4b110);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408aeb00(QWidget *param_1)"
+ },
+ {
+  "line": 1379628,
+  "stmt": "QObject::connect(local_80,pcVar1,(QObject *)\"2sigRemove()\",param_1,0x40e4b480);",
+  "lits": [
+   "2sigRemove()"
+  ],
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1379630,
+  "stmt": "QObject::connect(local_78,pcVar1,(QObject *)\"2sigStartRepair()\",param_1,0x40e4b4a8);",
+  "lits": [
+   "2sigStartRepair()"
+  ],
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1379632,
+  "stmt": "QObject::connect(local_70,pcVar1,(QObject *)\"2sigClickedAdvancedRepair()\",param_1,0x40e4b4d8);",
+  "lits": [
+   "2sigClickedAdvancedRepair()"
+  ],
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1379634,
+  "stmt": "QObject::connect(local_68,pcVar1,(QObject *)\"2sigStartAdvancedRepair()\",param_1,0x40e4b518);",
+  "lits": [
+   "2sigStartAdvancedRepair()"
+  ],
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1379636,
+  "stmt": "QObject::connect(local_60,pcVar1,(QObject *)\"2sigStopRepair()\",param_1,0x40e4b558);",
+  "lits": [
+   "2sigStopRepair()"
+  ],
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1379638,
+  "stmt": "QObject::connect(local_58,pcVar1,(QObject *)\"2sigStartSave(bool)\",param_1,0x40e4b588);",
+  "lits": [
+   "2sigStartSave(bool)"
+  ],
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1379640,
+  "stmt": "QObject::connect(local_50,param_1,(QObject *)\"2sigSaveActivateSuccess()\",pcVar1,0x40e4b5b8);",
+  "lits": [
+   "2sigSaveActivateSuccess()"
+  ],
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1379643,
+  "stmt": "QObject::connect(local_48,pcVar1,(QObject *)\"2sigPreview()\",param_1,0x40e4b5f8);",
+  "lits": [
+   "2sigPreview()"
+  ],
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1380416,
+  "stmt": "QObject::connect(local_2a0,*(char **)(param_1 + 0x88),(QObject *)\"2clicked()\", (char *)param_1,0x40e4b718);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408b50b0(QWidget *param_1)"
+ },
+ {
+  "line": 1380499,
+  "stmt": "QObject::connect(local_278,*(char **)(param_1 + 0x38),(QObject *)\"2clicked()\", (char *)param_1,0x40e4b790);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408b50b0(QWidget *param_1)"
+ },
+ {
+  "line": 1380644,
+  "stmt": "QObject::connect(local_1f0,*(char **)(param_1 + 0x30), (QObject *)\"2clicked()\",(char *)param_1,0x40e4b848);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408b50b0(QWidget *param_1)"
+ },
+ {
+  "line": 1380678,
+  "stmt": "QObject::connect(local_1d8,*(char **)(param_1 + 0x40), (QObject *)\"2clicked()\",(char *)param_1,0x40e4b890);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408b50b0(QWidget *param_1)"
+ },
+ {
+  "line": 1380709,
+  "stmt": "QObject::connect(local_1c0,*(char **)(param_1 + 0x58), (QObject *)\"2clicked()\",(char *)param_1,0x40e4b8d8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408b50b0(QWidget *param_1)"
+ },
+ {
+  "line": 1380743,
+  "stmt": "QObject::connect(local_1a8,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1,0x40e4b920);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408b50b0(QWidget *param_1)"
+ },
+ {
+  "line": 1380807,
+  "stmt": "QObject::connect(local_1e0,(char *)(param_1 + 0xa8),(QObject *)\"2timeout()\",(char *)param_1, 0x40e4b9a8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408b6bc0(QObject *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1380810,
+  "stmt": "QObject::connect(local_1d8,(char *)(param_1 + 0xa8),(QObject *)\"2timeout()\",(char *)param_2, 0x40e4b9d8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408b6bc0(QObject *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1380851,
+  "stmt": "QObject::connect(local_1e0,(char *)(param_1 + 0xa8),(QObject *)\"2timeout()\",(char *)param_1, 0x40e4bab0);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408b6dd0(QObject *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1380854,
+  "stmt": "QObject::connect(local_1d8,(char *)(param_1 + 0xa8),(QObject *)\"2timeout()\",(char *)param_2, 0x40e4bae0);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408b6dd0(QObject *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1382948,
+  "stmt": "QObject::connect(local_310,(char *)local_2e8,(QObject *)\"2sigClickedSave(bool)\",pcVar5, 0x40e4c3c0);",
+  "lits": [
+   "2sigClickedSave(bool)"
+  ],
+  "func": "void FUN_1408bb570(QObject *param_1)"
+ },
+ {
+  "line": 1382951,
+  "stmt": "QObject::connect(local_308,pcVar5,(QObject *)\"2sigSaveActivateSuccess()\",(char *)local_2e8, 0x40e4c3f0);",
+  "lits": [
+   "2sigSaveActivateSuccess()"
+  ],
+  "func": "void FUN_1408bb570(QObject *param_1)"
+ },
+ {
+  "line": 1382954,
+  "stmt": "QObject::connect(local_300,(char *)local_2e8,(QObject *)\"2sigRefreshActivate()\",(char *)param_1, 0x40e4c420);",
+  "lits": [
+   "2sigRefreshActivate()"
+  ],
+  "func": "void FUN_1408bb570(QObject *param_1)"
+ },
+ {
+  "line": 1383401,
+  "stmt": "QObject::connect(local_50,(char *)(param_1 + 0xd0),(QObject *)\"2timeout()\",(char *)param_1, 0x40e4ba28);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408bc6b0(QObject *param_1)"
+ },
+ {
+  "line": 1383741,
+  "stmt": "QObject::connect(local_f8,*(char **)(param_1 + 0x48),(QObject *)\"2sigBtnAddClicked()\", (char *)param_1,0x40e4b148);",
+  "lits": [
+   "2sigBtnAddClicked()"
+  ],
+  "func": "void FUN_1408bcc10(QWidget *param_1)"
+ },
+ {
+  "line": 1383744,
+  "stmt": "QObject::connect(local_f0,*(char **)(param_1 + 0x48),(QObject *)\"2sigRemoveAll()\", (char *)param_1,0x40e4b178);",
+  "lits": [
+   "2sigRemoveAll()"
+  ],
+  "func": "void FUN_1408bcc10(QWidget *param_1)"
+ },
+ {
+  "line": 1383747,
+  "stmt": "QObject::connect(local_e8,*(char **)(param_1 + 0x48),(QObject *)\"2sigRefreshActivate()\", (char *)param_1,0x40e4b1a0);",
+  "lits": [
+   "2sigRefreshActivate()"
+  ],
+  "func": "void FUN_1408bcc10(QWidget *param_1)"
+ },
+ {
+  "line": 1383762,
+  "stmt": "QObject::connect(local_d0,*(char **)(param_1 + 0x40),(QObject *)\"2sigClickBtnAdd()\", (char *)param_1,0x40e4b1d0);",
+  "lits": [
+   "2sigClickBtnAdd()"
+  ],
+  "func": "void FUN_1408bcc10(QWidget *param_1)"
+ },
+ {
+  "line": 1383791,
+  "stmt": "QObject::connect(local_c0,*(char **)(param_1 + 0x48),(QObject *)\"2sigUpdateItemCount(int)\" ,(char *)param_1,0x40e4b218);",
+  "lits": [
+   "2sigUpdateItemCount(int)"
+  ],
+  "func": "void FUN_1408bcc10(QWidget *param_1)"
+ },
+ {
+  "line": 1386758,
+  "stmt": "QObject::connect((QObject *)param_1,local_e8,*(char **)(param_1 + 0x48), \"2clicked()\",0x40e4d8b0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408c1ea0(QWidget *param_1)"
+ },
+ {
+  "line": 1386965,
+  "stmt": "QObject::connect(local_1f8,(char *)(param_1 + 0x70),(QObject *)\"2timeout()\",(char *)param_1, 0x40e4d710);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408c2e60(QObject *param_1)"
+ },
+ {
+  "line": 1387138,
+  "stmt": "QObject::connect(local_3e8,(char *)(param_1 + 0x70),(QObject *)\"2timeout()\",(char *)param_1, 0x40e4d7c8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408c3260(QObject *param_1)"
+ },
+ {
+  "line": 1387924,
+  "stmt": "QObject::connect(local_88,(char *)param_1,(QObject *)\"2sigResizeWidth()\",(char *)param_1 ,0x40e4e668);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_1408c4950(QWidget *param_1)"
+ },
+ {
+  "line": 1388652,
+  "stmt": "QObject::connect(local_170,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1,0x40e4e278);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408c5660(QWidget *param_1)"
+ },
+ {
+  "line": 1388671,
+  "stmt": "QObject::connect((QObject *)param_1,local_160, *(char **)(param_1 + 0x68),\"2clicked()\",0x40e4e2b8)",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408c5660(QWidget *param_1)"
+ },
+ {
+  "line": 1389338,
+  "stmt": "QObject::connect(local_1d8,(char *)(param_1 + 0xa0),(QObject *)\"2timeout()\",(char *)param_1, 0x40e4e3b0);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408c7cb0(QObject *param_1)"
+ },
+ {
+  "line": 1389493,
+  "stmt": "QObject::connect(local_1d8,(char *)(param_1 + 0xa0),(QObject *)\"2timeout()\",(char *)param_1, 0x40e4e4b8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1408c8270(QObject *param_1)"
+ },
+ {
+  "line": 1391387,
+  "stmt": "QObject::connect(local_48,*(char **)(param_1 + 0xc0),(QObject *)\"2sigGotoAddPage()\",param_1, 0x40e4f8e0);",
+  "lits": [
+   "2sigGotoAddPage()"
+  ],
+  "func": "void FUN_1408cc110(char *param_1)"
+ },
+ {
+  "line": 1391390,
+  "stmt": "QObject::connect(local_40,*(char **)(param_1 + 0xc0),(QObject *)\"2sigGotoItemsPage()\",param_1, 0x40e4f910);",
+  "lits": [
+   "2sigGotoItemsPage()"
+  ],
+  "func": "void FUN_1408cc110(char *param_1)"
+ },
+ {
+  "line": 1391393,
+  "stmt": "QObject::connect(local_38,*(char **)(param_1 + 0xc0),(QObject *)\"2sigClearAll()\",param_1, 0x40e4f940);",
+  "lits": [
+   "2sigClearAll()"
+  ],
+  "func": "void FUN_1408cc110(char *param_1)"
+ },
+ {
+  "line": 1391407,
+  "stmt": "QObject::connect(local_28,*(char **)(param_1 + 200),(QObject *)\"2sigBtnAddClicked()\", *(char **)(param_1 + 0xc0),0x40e4f968);",
+  "lits": [
+   "2sigBtnAddClicked()"
+  ],
+  "func": "void FUN_1408cc110(char *param_1)"
+ },
+ {
+  "line": 1392616,
+  "stmt": "QObject::connect(local_c0,*(char **)(param_1 + 0xc0),(QObject *)\"2sigBtnStartClicked()\",param_1, 0x40e500e0);",
+  "lits": [
+   "2sigBtnStartClicked()"
+  ],
+  "func": "void FUN_1408ce9b0(char *param_1)"
+ },
+ {
+  "line": 1393385,
+  "stmt": "QObject::connect(local_a8,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\", (char *)param_1,0x40e50ef0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408cfae0(QWidget *param_1)"
+ },
+ {
+  "line": 1393388,
+  "stmt": "QObject::connect(local_a0,(char *)param_1,(QObject *)\"2resizeBtnWidth()\",(char *)param_1 ,0x40e50f10);",
+  "lits": [
+   "2resizeBtnWidth()"
+  ],
+  "func": "void FUN_1408cfae0(QWidget *param_1)"
+ },
+ {
+  "line": 1393743,
+  "stmt": "QObject::connect(local_130,(char *)local_2d0,(QObject *)\"2clicked()\",param_1, 0x40e50fe8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408d0390(char *param_1,int param_2)"
+ },
+ {
+  "line": 1399023,
+  "stmt": "QObject::connect(local_300,local_308,(QObject *)\"2clicked()\",(char *)local_310,0x40e53300);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408da710(QWidget *param_1)"
+ },
+ {
+  "line": 1399414,
+  "stmt": "QObject::connect(local_238,local_240,(QObject *)\"2clicked()\", (char *)local_248,0x40e533f8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408da710(QWidget *param_1)"
+ },
+ {
+  "line": 1399449,
+  "stmt": "QObject::connect(local_210,local_218,(QObject *)\"2clicked()\", (char *)local_220,0x40e53430);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1408da710(QWidget *param_1)"
+ },
+ {
+  "line": 1403318,
+  "stmt": "QObject::connect(local_190,*(char **)(param_1 + 0x50),(QObject *)\"2buttonPressed(int)\", (char *)param_1,0x40e55980);",
+  "lits": [
+   "2buttonPressed(int)"
+  ],
+  "func": "void FUN_1408e2790(QFrame *param_1,undefined8 param_2,char param_3,char param_4)"
+ },
+ {
+  "line": 1403514,
+  "stmt": "QObject::connect(local_80,(char *)local_118,(QObject *)\"2checkboxStateChanged(int)\",param_1, 0x40e55ad8);",
+  "lits": [
+   "2checkboxStateChanged(int)"
+  ],
+  "func": "void FUN_1408e37b0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,"
+ },
+ {
+  "line": 1404533,
+  "stmt": "QObject::connect(local_c0,(char *)local_1f8,(QObject *)\"2finished()\", (char *)param_1,0x40e55f60);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_1408e54e0(QPoint *param_1,int param_2)"
+ },
+ {
+  "line": 1423051,
+  "stmt": "QObject::connect(local_608, *(char **)(param_1 + 0x38 ), (QObject *)\"2clicked()\", (char *)param_1, 0x40e5ce38);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140905970(QWidget *param_1)"
+ },
+ {
+  "line": 1423109,
+  "stmt": "QObject::connect(local_5f0, *(char **)(param_1 + 0x40), (QObject *)\"2clicked()\" ,(char *)param_1, 0x40e5ce78);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140905970(QWidget *param_1)"
+ },
+ {
+  "line": 1431537,
+  "stmt": "QObject::connect(local_120,*(char **)(param_1 + 0x70),(QObject *)\"2clicked()\", (char *)param_1,0x40e5eec0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140917b30(QWidget *param_1)"
+ },
+ {
+  "line": 1452164,
+  "stmt": "QObject::connect(local_490,*(char **)(param_1 + 0x60),(QObject *)\"2sigEnableWidget(bool)\", param_1,0x40e64f90);",
+  "lits": [
+   "2sigEnableWidget(bool)"
+  ],
+  "func": "int FUN_14093be80(longlong param_1)"
+ },
+ {
+  "line": 1452294,
+  "stmt": "QObject::connect(local_438,*(char **)(param_1 + 0x68),(QObject *)\"2sigEnableWidget(bool)\", param_1,0x40e64fc0);",
+  "lits": [
+   "2sigEnableWidget(bool)"
+  ],
+  "func": "int FUN_14093be80(longlong param_1)"
+ },
+ {
+  "line": 1452465,
+  "stmt": "QObject::connect(local_420,*(char **)(param_1 + 0x78), (QObject *)\"2sigSetLeftNavigateBarVisible(bool)\",param_1,0x40e65000);",
+  "lits": [
+   "2sigSetLeftNavigateBarVisible(bool)"
+  ],
+  "func": "int FUN_14093be80(longlong param_1)"
+ },
+ {
+  "line": 1453279,
+  "stmt": "QObject::connect(local_1e8,*(char **)(param_1 + 0x38),(QObject *)\"2sigAnimationFinished()\", *(char **)(param_1 + 0x30),0x40e65590);",
+  "lits": [
+   "2sigAnimationFinished()"
+  ],
+  "func": "void FUN_14093e570(QWidget *param_1)"
+ },
+ {
+  "line": 1458929,
+  "stmt": "QObject::connect(local_c0,(char *)local_d8,(QObject *)\"2sigMouseEnter()\",param_1, 0x40e66670);",
+  "lits": [
+   "2sigMouseEnter()"
+  ],
+  "func": "void FUN_140949180(char *param_1)"
+ },
+ {
+  "line": 1459012,
+  "stmt": "QObject::connect(local_70,(char *)local_88,(QObject *)\"2sigMouseEnter()\",param_1,0x40e666a0);",
+  "lits": [
+   "2sigMouseEnter()"
+  ],
+  "func": "void FUN_140949460(char *param_1)"
+ },
+ {
+  "line": 1459460,
+  "stmt": "QObject::connect(local_a0,(char *)pQVar2,(QObject *)\"2sigMouseEnter()\",param_1,0x40e66820);",
+  "lits": [
+   "2sigMouseEnter()"
+  ],
+  "func": "void FUN_14094a0e0(char *param_1,longlong param_2,int param_3,QLayout *param_4)"
+ },
+ {
+  "line": 1462853,
+  "stmt": "QObject::connect(local_e8,*(char **)(param_1 + 0x88),(QObject *)\"2clicked()\", (char *)param_1,0x40e681a0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14094ff80(QWidget *param_1)"
+ },
+ {
+  "line": 1462876,
+  "stmt": "QObject::connect(local_c8,*(char **)(param_1 + 0x30),(QObject *)\"2clicked()\", (char *)param_1,0x40e681d8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_14094ff80(QWidget *param_1)"
+ },
+ {
+  "line": 1464987,
+  "stmt": "QObject::connect(local_20,local_30,(QObject *)\"2sigPercentChange(int,double)\",param_1,0x40e694d0 );",
+  "lits": [
+   "2sigPercentChange(int,double)"
+  ],
+  "func": "void FUN_1409550e0(char *param_1)"
+ },
+ {
+  "line": 1464990,
+  "stmt": "QObject::connect(local_18,local_30,(QObject *)\"2sigDeviceChange()\",param_1,0x40e69510);",
+  "lits": [
+   "2sigDeviceChange()"
+  ],
+  "func": "void FUN_1409550e0(char *param_1)"
+ },
+ {
+  "line": 1465284,
+  "stmt": "QObject::connect(local_2b8,(char *)local_4c0,(QObject *)\"2clicked()\",param_1,0x40e69560)",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1409551e0(char *param_1)"
+ },
+ {
+  "line": 1465745,
+  "stmt": "QObject::connect(local_228,*(char **)(param_1 + 0x50), (QObject *)\"2clicked()\",param_1, 0x40e69698);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1409551e0(char *param_1)"
+ },
+ {
+  "line": 1465788,
+  "stmt": "QObject::connect(local_200, *(char **)(param_1 + 0x58), (QObject *)\"2clicked()\",param_1, 0x40e696d0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1409551e0(char *param_1)"
+ },
+ {
+  "line": 1466540,
+  "stmt": "QObject::connect(local_240,*(char **)(param_1 + 0xa0), (QObject *)\"2clicked()\",param_1,0x40e69868);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140956da0(char *param_1)"
+ },
+ {
+  "line": 1466573,
+  "stmt": "QObject::connect(local_228,*(char **)(param_1 + 0xa8), (QObject *)\"2clicked()\",param_1,0x40e698a0)",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140956da0(char *param_1)"
+ },
+ {
+  "line": 1467488,
+  "stmt": "QObject::connect(local_230, *(char **)(param_1 + 0xe0), (QObject *) \"2linkActivated(const QString&)\", param_1,0x40e69a90);",
+  "lits": [
+   "2linkActivated(const QString&)"
+  ],
+  "func": "void FUN_140958a50(char *param_1)"
+ },
+ {
+  "line": 1468437,
+  "stmt": "QObject::connect(local_20,*(char **)(param_1 + 0x348),(QObject *)\"2sigGetInfoRet()\",param_1, 0x40e68a68);",
+  "lits": [
+   "2sigGetInfoRet()"
+  ],
+  "func": "void FUN_14095c890(char *param_1)"
+ },
+ {
+  "line": 1468877,
+  "stmt": "QObject::connect(local_130,(char *)local_210,(QObject *)\"2sigCreateRet(int, int)\",param_1, 0x40e68c30);",
+  "lits": [
+   "2sigCreateRet(int, int)"
+  ],
+  "func": "void FUN_14095d230(char *param_1,char param_2)"
+ },
+ {
+  "line": 1468931,
+  "stmt": "QObject::connect(local_1a8,(char *)local_228,(QObject *)\"2sigCreateRet(int, int)\",param_1, 0x40e68be8);",
+  "lits": [
+   "2sigCreateRet(int, int)"
+  ],
+  "func": "void FUN_14095d230(char *param_1,char param_2)"
+ },
+ {
+  "line": 1471641,
+  "stmt": "QObject::connect(local_120,*(char **)(param_1 + 0x70),(QObject *)\"2clicked()\", (char *)param_1,0x40e6b120);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140961be0(QWidget *param_1)"
+ },
+ {
+  "line": 1472494,
+  "stmt": "QObject::connect(local_40,*(char **)(param_1 + 0xc0),(QObject *)\"2sigBtnNextClick()\",param_1, 0x40e6b770);",
+  "lits": [
+   "2sigBtnNextClick()"
+  ],
+  "func": "void FUN_1409641f0(char *param_1)"
+ },
+ {
+  "line": 1472497,
+  "stmt": "QObject::connect(local_38,*(char **)(param_1 + 0xc0),(QObject *)\"2sigBtnBack()\",param_1,0x40e6b7a0 );",
+  "lits": [
+   "2sigBtnBack()"
+  ],
+  "func": "void FUN_1409641f0(char *param_1)"
+ },
+ {
+  "line": 1472510,
+  "stmt": "QObject::connect(local_28,*(char **)(param_1 + 200),(QObject *)\"2sigBtnBack()\",param_1,0x40e6b7c8)",
+  "lits": [
+   "2sigBtnBack()"
+  ],
+  "func": "void FUN_1409641f0(char *param_1)"
+ },
+ {
+  "line": 1472513,
+  "stmt": "QObject::connect(local_20,param_1,(QObject *)\"2sigResetConnectView()\",*(char **)(param_1 + 200), 0x40e6b7f0);",
+  "lits": [
+   "2sigResetConnectView()"
+  ],
+  "func": "void FUN_1409641f0(char *param_1)"
+ },
+ {
+  "line": 1480692,
+  "stmt": "QObject::connect(local_380,pcVar3,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40e6ff78);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "void FUN_140972cb0(void)"
+ },
+ {
+  "line": 1481914,
+  "stmt": "QObject::connect(local_a8,param_1 + 0x70,(QObject *)\"2sigRefresh()\",param_1,0x40e701d0);",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_140976430(char *param_1)"
+ },
+ {
+  "line": 1484853,
+  "stmt": "QObject::connect(local_1d8,(char *)local_2a8,(QObject *)\"2sigRecoverOriginal(int)\",param_1, 0x40e6fca8);",
+  "lits": [
+   "2sigRecoverOriginal(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484856,
+  "stmt": "QObject::connect(local_1d0,(char *)local_2a8,(QObject *)\"2sigRecoverRepaired(int)\",param_1, 0x40e6fce0);",
+  "lits": [
+   "2sigRecoverRepaired(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484885,
+  "stmt": "QObject::connect(local_198,(char *)local_2a8,(QObject *)\"2sigRecoverOriginal(int)\",param_1, 0x40e6fd18);",
+  "lits": [
+   "2sigRecoverOriginal(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484888,
+  "stmt": "QObject::connect(local_190,(char *)local_2a8,(QObject *)\"2sigRecoverRepaired(int)\",param_1, 0x40e6fd50);",
+  "lits": [
+   "2sigRecoverRepaired(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484906,
+  "stmt": "QObject::connect(local_170,(char *)local_2a8,(QObject *)\"2sigRecoverOriginal(int)\",param_1, 0x40e6fd88);",
+  "lits": [
+   "2sigRecoverOriginal(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484909,
+  "stmt": "QObject::connect(local_168,(char *)local_2a8,(QObject *)\"2sigRecoverRepaired(int)\",param_1, 0x40e6fdc0);",
+  "lits": [
+   "2sigRecoverRepaired(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484927,
+  "stmt": "QObject::connect(local_148,(char *)local_2a8,(QObject *)\"2sigRecoverOriginal(int)\",param_1, 0x40e6fdf8);",
+  "lits": [
+   "2sigRecoverOriginal(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484930,
+  "stmt": "QObject::connect(local_140,(char *)local_2a8,(QObject *)\"2sigRecoverRepaired(int)\",param_1, 0x40e6fe30);",
+  "lits": [
+   "2sigRecoverRepaired(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484948,
+  "stmt": "QObject::connect(local_120,(char *)local_2a8,(QObject *)\"2sigRecoverOriginal(int)\",param_1, 0x40e6fe68);",
+  "lits": [
+   "2sigRecoverOriginal(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1484951,
+  "stmt": "QObject::connect(local_118,(char *)local_2a8,(QObject *)\"2sigRecoverRepaired(int)\",param_1, 0x40e6fea0);",
+  "lits": [
+   "2sigRecoverRepaired(int)"
+  ],
+  "func": "void FUN_14097c270(char *param_1)"
+ },
+ {
+  "line": 1491637,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40dee1b0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "longlong FUN_140986e80(longlong param_1,longlong param_2)"
+ },
+ {
+  "line": 1505524,
+  "stmt": "QObject::connect(local_a8,*(char **)(param_1 + 0xc0),(QObject *)\"2sigRecoverClicked(int)\", (char *)param_1,0x40e785a0);",
+  "lits": [
+   "2sigRecoverClicked(int)"
+  ],
+  "func": "undefined8 FUN_14099eed0(QWidget *param_1)"
+ },
+ {
+  "line": 1505840,
+  "stmt": "QObject::connect(local_a8,*(char **)(param_1 + 0x40),(QObject *)\"2sigRecoverClicked(int)\", param_1,0x40e78698);",
+  "lits": [
+   "2sigRecoverClicked(int)"
+  ],
+  "func": "undefined8 FUN_14099f840(char *param_1)"
+ },
+ {
+  "line": 1505843,
+  "stmt": "QObject::connect(local_a0,*(char **)(param_1 + 0x48),(QObject *)\"2sigRecoverClicked(int)\", param_1,0x40e786d0);",
+  "lits": [
+   "2sigRecoverClicked(int)"
+  ],
+  "func": "undefined8 FUN_14099f840(char *param_1)"
+ },
+ {
+  "line": 1507051,
+  "stmt": "QObject::connect(local_258,*(char **)(param_1 + 0x38),(QObject *)\"2clicked()\", (char *)param_1,0x40e79a48);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1409a1f30(QWidget *param_1)"
+ },
+ {
+  "line": 1507285,
+  "stmt": "QObject::connect(local_1e8,*(char **)(param_1 + 0x48), (QObject *)\"2clicked()\",(char *)param_1,0x40e79b28);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1409a1f30(QWidget *param_1)"
+ },
+ {
+  "line": 1507314,
+  "stmt": "QObject::connect(local_1c8,*(char **)(param_1 + 0x58), (QObject *)\"2sigCloseParent()\",(char *)param_1,0x40e79b50);",
+  "lits": [
+   "2sigCloseParent()"
+  ],
+  "func": "void FUN_1409a1f30(QWidget *param_1)"
+ },
+ {
+  "line": 1507317,
+  "stmt": "QObject::connect(local_1c0,*(char **)(param_1 + 0x58), (QObject *)\"2sigRefreshActivate()\",(char *)param_1, 0x40e79b80);",
+  "lits": [
+   "2sigRefreshActivate()"
+  ],
+  "func": "void FUN_1409a1f30(QWidget *param_1)"
+ },
+ {
+  "line": 1507353,
+  "stmt": "QObject::connect(local_1a8,(char *)(param_1 + 0x90),(QObject *)\"2timeout()\", (char *)param_1,0x40e79bb0);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1409a1f30(QWidget *param_1)"
+ },
+ {
+  "line": 1507423,
+  "stmt": "QObject::connect(local_150,(char *)(param_1 + 0x250),(QObject *)\"2timeout()\",(char *)param_1, 0x40e79cd8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_1409a33f0(QDialog *param_1,QShowEvent *param_2)"
+ },
+ {
+  "line": 1508494,
+  "stmt": "QObject::connect(local_c0,(char *)param_1,(QObject *)\"2sigResizeWidth()\",(char *)param_1, 0x40e79760);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_1409a54c0(QWidget *param_1)"
+ },
+ {
+  "line": 1526564,
+  "stmt": "QObject::connect(local_140,*(char **)(param_1 + 0x50), (QObject *)\"2beforeNavigate2(const QString&, bool&)\",(char *)param_1, 0x40e85398);",
+  "lits": [
+   "2beforeNavigate2(const QString&, bool&)"
+  ],
+  "func": "void FUN_1409c8ef0(QWidget *param_1)"
+ },
+ {
+  "line": 1526568,
+  "stmt": "QObject::connect(local_138,*(char **)(param_1 + 0x50), (QObject *)\"2navigateComplete(const QString&)\",(char *)param_1,0x40e853f0);",
+  "lits": [
+   "2navigateComplete(const QString&)"
+  ],
+  "func": "void FUN_1409c8ef0(QWidget *param_1)"
+ },
+ {
+  "line": 1529179,
+  "stmt": "QObject::connect(local_6f8,*(char **)(param_1 + 0x48),(QObject *)\"2returnPressed()\", param_1,0x40e86d68);",
+  "lits": [
+   "2returnPressed()"
+  ],
+  "func": "void FUN_1409cd9e0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1529229,
+  "stmt": "QObject::connect(local_6d8,*(char **)(param_1 + 0xb8),(QObject *)\"2clicked()\",param_1, 0x40e86db0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1409cd9e0(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1532664,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40dee1b0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "longlong FUN_1409d5a20(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1534210,
+  "stmt": "QObject::connect(local_20,(char *)local_30, (QObject *)\"2checkFinsh(int, const QString&,const QString&)\",(char *)param_1, 0x40e88658);",
+  "lits": [
+   "2checkFinsh(int, const QString&,const QString&)"
+  ],
+  "func": "void FUN_1409d85b0(QDialog *param_1)"
+ },
+ {
+  "line": 1534956,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40dee1b0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "FUN_1409d9e50(undefined8 param_1,undefined1 param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1537053,
+  "stmt": "QObject::connect(local_100,(char *)local_d8,(QObject *)\"2onLinkURL(const QString&,const QString&)\" ,pcVar5,0x40e8a068);",
+  "lits": [
+   "2onLinkURL(const QString&,const QString&)"
+  ],
+  "func": "int FUN_1409ddb70(undefined4 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,"
+ },
+ {
+  "line": 1555089,
+  "stmt": "QObject::connect(local_a0,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\",(char *)param_1, 0x40e8eed8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1409fcf10(QWidget *param_1)"
+ },
+ {
+  "line": 1555180,
+  "stmt": "QObject::connect(local_d8,local_110,(QObject *)\"2clicked()\",(char *)param_1,0x40e8ef00);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_1409fd640(QWidget *param_1,QWidget *param_2)"
+ },
+ {
+  "line": 1569428,
+  "stmt": "QObject::connect(local_28,param_1,(QObject *)\"2progressChanged(const int)\",param_1,0x40e938f0);",
+  "lits": [
+   "2progressChanged(const int)"
+  ],
+  "func": "void FUN_140a19040(longlong param_1)"
+ },
+ {
+  "line": 1569430,
+  "stmt": "QObject::connect(local_20,param_1,(QObject *)\"2saveRestorefinished(const int)\",param_1,0x40e93930)",
+  "lits": [
+   "2saveRestorefinished(const int)"
+  ],
+  "func": "void FUN_140a19040(longlong param_1)"
+ },
+ {
+  "line": 1569531,
+  "stmt": "QObject::connect(local_40,(char *)param_1[0x1d],(QObject *)\"2finished()\",(char *)param_1[0x1d], 0x40e93970);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140a19830(longlong *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1569534,
+  "stmt": "QObject::connect(local_38,(char *)param_1[0x1d],(QObject *)\"2saveRestoreThFinshed()\", (char *)param_1,0x40e93990);",
+  "lits": [
+   "2saveRestoreThFinshed()"
+  ],
+  "func": "void FUN_140a19830(longlong *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1581502,
+  "stmt": "QObject::connect(local_1d0,*(char **)(param_1 + 200),(QObject *)\"2clicked()\",param_1 ,0x40e9a0c8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a2db30(char *param_1)"
+ },
+ {
+  "line": 1583190,
+  "stmt": "QObject::connect(local_228,*(char **)(param_1 + 0x68), (QObject *)\"2clicked()\",(char *)param_1, 0x40e9b180);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a31480(QWidget *param_1)"
+ },
+ {
+  "line": 1583225,
+  "stmt": "QObject::connect(local_278,*(char **)(param_1 + 0x70), (QObject *)\"2clicked()\",(char *)param_1, 0x40e9b1c0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a31480(QWidget *param_1)"
+ },
+ {
+  "line": 1583340,
+  "stmt": "QObject::connect(local_248,(char *)param_1, (QObject *)\"2sigUpdateBtnWidth()\", (char *)param_1,0x40e9b220);",
+  "lits": [
+   "2sigUpdateBtnWidth()"
+  ],
+  "func": "void FUN_140a31480(QWidget *param_1)"
+ },
+ {
+  "line": 1583363,
+  "stmt": "QObject::connect(local_238,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\", (char *)param_1,0x40e9b268);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a31480(QWidget *param_1)"
+ },
+ {
+  "line": 1584473,
+  "stmt": "QObject::connect(local_1a8,pcVar6,(QObject *)\"2doDispatchMessage(int, void*, int&)\",param_1, 0x40e9b758);",
+  "lits": [
+   "2doDispatchMessage(int, void*, int&)"
+  ],
+  "func": "void FUN_140a34ba0(longlong param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1584850,
+  "stmt": "QObject::connect(local_198,pcVar10,(QObject *)\"2doDispatchMessage(int, void*, int&)\", (char *)param_1,0x40e9b938);",
+  "lits": [
+   "2doDispatchMessage(int, void*, int&)"
+  ],
+  "func": "void FUN_140a35c40(QObject *param_1)"
+ },
+ {
+  "line": 1586491,
+  "stmt": "QObject::connect(local_1d0,*(char **)(param_1 + 0x98),(QObject *)\"2clicked()\",param_1,0x40e9c1c8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a398b0(char *param_1)"
+ },
+ {
+  "line": 1586545,
+  "stmt": "QObject::connect(local_118,*(char **)(param_1 + 0x178),(QObject *)\"2clicked()\",param_1,0x40e9c200)",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a398b0(char *param_1)"
+ },
+ {
+  "line": 1586601,
+  "stmt": "QObject::connect(local_70,*(char **)(param_1 + 0x168),(QObject *)\"2clicked()\",param_1,0x40e9c2a0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a398b0(char *param_1)"
+ },
+ {
+  "line": 1586603,
+  "stmt": "QObject::connect(local_68,*(char **)(param_1 + 0x180),(QObject *)\"2clicked()\",param_1,0x40e9c2c8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a398b0(char *param_1)"
+ },
+ {
+  "line": 1586605,
+  "stmt": "QObject::connect(local_60,*(char **)(param_1 + 0x170),(QObject *)\"2clicked()\",param_1,0x40e9c2f0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a398b0(char *param_1)"
+ },
+ {
+  "line": 1589485,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40dee1b0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "longlong FUN_140a40380(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1589502,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40dee1b0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "longlong FUN_140a40380(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1593427,
+  "stmt": "QObject::connect(local_720,*(char **)(param_1 + 0x70),(QObject *)\"2clicked()\", (char *)param_1,0x40e9e590);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a484d0(QWidget *param_1)"
+ },
+ {
+  "line": 1593879,
+  "stmt": "QObject::connect(local_458,*(char **)(param_1 + 0x80),(QObject *)\"2clicked()\", (char *)param_1,0x40e9e630);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a484d0(QWidget *param_1)"
+ },
+ {
+  "line": 1593882,
+  "stmt": "QObject::connect(local_450,*(char **)(param_1 + 0x80),(QObject *)\"2clicked()\", (char *)param_1,0x40e9e658);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a484d0(QWidget *param_1)"
+ },
+ {
+  "line": 1616518,
+  "stmt": "QObject::connect(local_168,*(char **)(param_1 + 0x58),(QObject *)\"2clicked()\", (char *)param_1,0x40ea7750);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a74f00(QWidget *param_1)"
+ },
+ {
+  "line": 1617383,
+  "stmt": "QObject::connect(local_268,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40ea7850);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a77380(QWidget *param_1)"
+ },
+ {
+  "line": 1617679,
+  "stmt": "QObject::connect(local_1c0,pcVar10,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40ea7910);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "void FUN_140a77380(QWidget *param_1)"
+ },
+ {
+  "line": 1618478,
+  "stmt": "QObject::connect(local_e8,*(char **)(param_1 + 0x38),(QObject *)\"2clicked()\", (char *)param_1,0x40ea6fe0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a797e0(QWidget *param_1)"
+ },
+ {
+  "line": 1618481,
+  "stmt": "QObject::connect(local_e0,(char *)param_1,(QObject *)\"2sigResizeWidth()\", (char *)param_1,0x40ea7000);",
+  "lits": [
+   "2sigResizeWidth()"
+  ],
+  "func": "void FUN_140a797e0(QWidget *param_1)"
+ },
+ {
+  "line": 1620101,
+  "stmt": "QObject::connect(local_118,*(char **)(param_1 + 0x40), (QObject *)\"2textChanged(const QString&)\",(char *)param_1,0x40ea8b18)",
+  "lits": [
+   "2textChanged(const QString&)"
+  ],
+  "func": "void FUN_140a7c3f0(QWidget *param_1)"
+ },
+ {
+  "line": 1620148,
+  "stmt": "QObject::connect(local_f8,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\", (char *)param_1,0x40ea8ca8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a7c3f0(QWidget *param_1)"
+ },
+ {
+  "line": 1620167,
+  "stmt": "QObject::connect(local_e8,*(char **)(param_1 + 0x50),(QObject *)\"2clicked()\", (char *)param_1,0x40ea8ce8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a7c3f0(QWidget *param_1)"
+ },
+ {
+  "line": 1620674,
+  "stmt": "QObject::connect(local_f0,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40ea88b0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a7d8e0(QWidget *param_1)"
+ },
+ {
+  "line": 1622134,
+  "stmt": "QObject::connect(local_1e0,*(char **)(param_1 + 0x58), (QObject *)\"2clicked()\",(char *)param_1, 0x40ea9878);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a7f7a0(QWidget *param_1)"
+ },
+ {
+  "line": 1624288,
+  "stmt": "QObject::connect(local_120,*(char **)(param_1 + 0xc0),(QObject *)\"2refreshClicked()\",param_1, 0x40eabbb8);",
+  "lits": [
+   "2refreshClicked()"
+  ],
+  "func": "void FUN_140a85150(char *param_1)"
+ },
+ {
+  "line": 1624334,
+  "stmt": "QObject::connect(local_e8,param_1,(QObject *)\"2sigResize(const QPoint&)\", *(char **)(param_1 + 0xd0),0x40eabbe8);",
+  "lits": [
+   "2sigResize(const QPoint&)"
+  ],
+  "func": "void FUN_140a85150(char *param_1)"
+ },
+ {
+  "line": 1632762,
+  "stmt": "QObject::connect(local_240,(char *)param_1[3],(QObject *)\"2clicked()\",(char *)param_2,0x40eae538);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140a91b50(undefined8 *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1635123,
+  "stmt": "QObject::connect(local_c8,(char *)(local_128 + 0x18),(QObject *)\"2sigIsScrolling(bool&)\", (char *)param_1,0x40eafb18);",
+  "lits": [
+   "2sigIsScrolling(bool&)"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635146,
+  "stmt": "QObject::connect(local_b0,(char *)local_128,(QObject *)\"2sigScrollToLastIdx()\", *(char **)(param_1 + 0x38),0x40eafb48);",
+  "lits": [
+   "2sigScrollToLastIdx()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635150,
+  "stmt": "QObject::connect(local_a8,(char *)param_1,(QObject *)\"2sigShowFreeze()\",(char *)param_1,0x40eafb78 );",
+  "lits": [
+   "2sigShowFreeze()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635156,
+  "stmt": "QObject::connect(local_98,(char *)param_1,(QObject *)\"2sigBeforeFreeze()\", *(char **)(param_1 + 0x38),0x40eafba0);",
+  "lits": [
+   "2sigBeforeFreeze()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635159,
+  "stmt": "QObject::connect(local_90,*(char **)(param_1 + 0x38), (QObject *)\"2sigCurrentChanged(void *, bool)\",(char *)param_1,0x40eafbc8);",
+  "lits": [
+   "2sigCurrentChanged(void *, bool)"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635162,
+  "stmt": "QObject::connect(local_88,*(char **)(param_1 + 0x38),(QObject *)\"2sigExpandTree()\", (char *)param_1,0x40eafc10);",
+  "lits": [
+   "2sigExpandTree()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635166,
+  "stmt": "QObject::connect(local_80,(char *)param_1,(QObject *)\"2sigSelectFileNode(void *)\",(char *)param_1, 0x40eafc40);",
+  "lits": [
+   "2sigSelectFileNode(void *)"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635169,
+  "stmt": "QObject::connect(local_78,(char *)(local_128 + 0x18), (QObject *)\"2sigShowTip(const QModelIndex &,const QPoint &)\", *(char **)(param_1 + 0x38),0x40eafc78);",
+  "lits": [
+   "2sigShowTip(const QModelIndex &,const QPoint &)"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635173,
+  "stmt": "QObject::connect(local_70,(char *)param_1,(QObject *)\"2collapsed(const QModelIndex &)\", (char *)param_1,0x40eafcd8);",
+  "lits": [
+   "2collapsed(const QModelIndex &)"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635176,
+  "stmt": "QObject::connect(local_68,(char *)param_1,(QObject *)\"2expanded(const QModelIndex &)\", (char *)param_1,0x40eafd20);",
+  "lits": [
+   "2expanded(const QModelIndex &)"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635179,
+  "stmt": "QObject::connect(local_60,(char *)param_1,(QObject *)\"2sigRefreshCache()\", *(char **)(param_1 + 0x78),0x40eafd68);",
+  "lits": [
+   "2sigRefreshCache()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635182,
+  "stmt": "QObject::connect(local_58,*(char **)(param_1 + 0x78),(QObject *)\"2timeout()\",(char *)param_1, 0x40eafd90);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635191,
+  "stmt": "QObject::connect(local_48,(char *)pQVar3,(QObject *)\"2sliderPressed()\",(char *)param_1,0x40eafdb8)",
+  "lits": [
+   "2sliderPressed()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635194,
+  "stmt": "QObject::connect(local_40,(char *)pQVar3,(QObject *)\"2sliderReleased()\",(char *)param_1,0x40eafde8 );",
+  "lits": [
+   "2sliderReleased()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635198,
+  "stmt": "QObject::connect(local_38,pcVar4,(QObject *)\"2doDispatchMessage(int,void *, int&)\",(char *)param_1 ,0x40eafe18);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635201,
+  "stmt": "QObject::connect(local_30,(char *)param_1,(QObject *)\"2sigPathItemExpand()\",(char *)param_1, 0x40eafe68);",
+  "lits": [
+   "2sigPathItemExpand()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635204,
+  "stmt": "QObject::connect(local_28,(char *)param_1,(QObject *)\"2sigCorrectCurIndex()\",(char *)param_1, 0x40eafe98);",
+  "lits": [
+   "2sigCorrectCurIndex()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635207,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2sigRecordVirtualIndex()\",(char *)param_1, 0x40eafec8);",
+  "lits": [
+   "2sigRecordVirtualIndex()"
+  ],
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1635612,
+  "stmt": "QObject::connect(local_118,pcVar2,(QObject *)\"2sigRefresh(bool)\",param_1,0x40eaffa0);",
+  "lits": [
+   "2sigRefresh(bool)"
+  ],
+  "func": "void FUN_140a9baf0(char *param_1)"
+ },
+ {
+  "line": 1635616,
+  "stmt": "QObject::connect(local_110,pcVar2,(QObject *)\"2sigRefreshRoot()\",param_1,0x40eaffd0);",
+  "lits": [
+   "2sigRefreshRoot()"
+  ],
+  "func": "void FUN_140a9baf0(char *param_1)"
+ },
+ {
+  "line": 1635676,
+  "stmt": "QObject::connect(local_f0,pcVar2,(QObject *)\"2sigSelectItem(CFileNode *)\",param_1,0x40eb0018);",
+  "lits": [
+   "2sigSelectItem(CFileNode *)"
+  ],
+  "func": "void FUN_140a9baf0(char *param_1)"
+ },
+ {
+  "line": 1635680,
+  "stmt": "QObject::connect(local_e8,pcVar2,(QObject *)\"2sigInsertNode(CFileNode *,CFileNode *)\",param_1, 0x40eb0058);",
+  "lits": [
+   "2sigInsertNode(CFileNode *,CFileNode *)"
+  ],
+  "func": "void FUN_140a9baf0(char *param_1)"
+ },
+ {
+  "line": 1635685,
+  "stmt": "QObject::connect(local_e0,pcVar2,(QObject *)\"2sigDoBeforeFreeze()\",param_1,0x40eb00b0);",
+  "lits": [
+   "2sigDoBeforeFreeze()"
+  ],
+  "func": "void FUN_140a9baf0(char *param_1)"
+ },
+ {
+  "line": 1635689,
+  "stmt": "QObject::connect(local_d8,pcVar2,(QObject *)\"2sigUnfreeze()\",param_1,0x40eb00e0);",
+  "lits": [
+   "2sigUnfreeze()"
+  ],
+  "func": "void FUN_140a9baf0(char *param_1)"
+ },
+ {
+  "line": 1635693,
+  "stmt": "QObject::connect(local_d0,pcVar2,(QObject *)\"2sigRemoveItem(CFileNode*)\",param_1,0x40eb0108);",
+  "lits": [
+   "2sigRemoveItem(CFileNode*)"
+  ],
+  "func": "void FUN_140a9baf0(char *param_1)"
+ },
+ {
+  "line": 1635697,
+  "stmt": "QObject::connect(local_c8,pcVar2,(QObject *)\"2sigExpandPathItem(std::vector<CFileNode*>)\",param_1, 0x40eb0148);",
+  "lits": [
+   "2sigExpandPathItem(std::vector<CFileNode*>)"
+  ],
+  "func": "void FUN_140a9baf0(char *param_1)"
+ },
+ {
+  "line": 1636456,
+  "stmt": "QObject::connect(local_68,(char *)param_1,(QObject *)\"2expanded(const QModelIndex &)\", (char *)param_1,0x40eb05c0);",
+  "lits": [
+   "2expanded(const QModelIndex &)"
+  ],
+  "func": "void FUN_140a9d2a0(QObject *param_1,QPaintEvent *param_2)"
+ },
+ {
+  "line": 1636876,
+  "stmt": "QObject::connect(local_260,(char *)param_1,(QObject *)\"2sigFreezeDone()\",local_288,0x40eaf828);",
+  "lits": [
+   "2sigFreezeDone()"
+  ],
+  "func": "void FUN_140a9dda0(QAbstractItemView *param_1)"
+ },
+ {
+  "line": 1637246,
+  "stmt": "QObject::connect(local_20,(char *)local_70,(QObject *)\"2finished()\",pcVar2,0x40eafa60);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140a9eac0(longlong param_1)"
+ },
+ {
+  "line": 1637997,
+  "stmt": "QObject::connect(local_28,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40dee1b0);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "longlong FUN_140a9f9d0(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1640903,
+  "stmt": "QObject::connect(local_18,local_30,(QObject *)\"2sigUpdate()\",param_1,0x40eb1c08);",
+  "lits": [
+   "2sigUpdate()"
+  ],
+  "func": "void FUN_140aa4b40(undefined8 param_1)"
+ },
+ {
+  "line": 1641278,
+  "stmt": "QObject::connect(local_18,param_1,(QObject *)\"2sigGotoIndex(int, int)\",param_1,0x40eb1c30);",
+  "lits": [
+   "2sigGotoIndex(int, int)"
+  ],
+  "func": "undefined1 FUN_140aa55d0(void)"
+ },
+ {
+  "line": 1641338,
+  "stmt": "QObject::connect(local_18,(char *)pQVar3,(QObject *)\"2sigSort(int,bool)\",(char *)param_1, 0x40eb1ce0);",
+  "lits": [
+   "2sigSort(int,bool)"
+  ],
+  "func": "void FUN_140aa5710(QObject *param_1)"
+ },
+ {
+  "line": 1642149,
+  "stmt": "QObject::connect(local_48,(char *)pQVar2,(QObject *)\"2rangeChanged(int,int)\",(char *)param_1 ,0x40eb1d58);",
+  "lits": [
+   "2rangeChanged(int,int)"
+  ],
+  "func": "void FUN_140aa72b0(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1642152,
+  "stmt": "QObject::connect(local_40,(char *)pQVar2,(QObject *)\"2valueChanged(int)\",(char *)param_1, 0x40eb1d88);",
+  "lits": [
+   "2valueChanged(int)"
+  ],
+  "func": "void FUN_140aa72b0(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1642239,
+  "stmt": "QObject::connect(local_58,(char *)plVar1,(QObject *)\"2sigSort(int,bool)\",param_1,0x40eb1fc8);",
+  "lits": [
+   "2sigSort(int,bool)"
+  ],
+  "func": "void FUN_140aa75f0(char *param_1)"
+ },
+ {
+  "line": 1642308,
+  "stmt": "QObject::connect(local_18,*(char **)(param_1 + 0x20), (QObject *)\"2sigHighLightString(const QModelIndex &,QString &)\",param_1, 0x40eb2090);",
+  "lits": [
+   "2sigHighLightString(const QModelIndex &,QString &)"
+  ],
+  "func": "void FUN_140aa7850(char *param_1)"
+ },
+ {
+  "line": 1642312,
+  "stmt": "QObject::connect(local_10,*(char **)(param_1 + 0x20),(QObject *)\"2sigSort(int,bool)\",param_1, 0x40eb2100);",
+  "lits": [
+   "2sigSort(int,bool)"
+  ],
+  "func": "void FUN_140aa7850(char *param_1)"
+ },
+ {
+  "line": 1643326,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",local_28,0x40eb1be0);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140aa93d0(longlong *param_1,int param_2,int param_3)"
+ },
+ {
+  "line": 1643379,
+  "stmt": "QObject::connect(local_38,param_1,(QObject *)\"2sigShowAnimation()\",param_1,0x40eb1858);",
+  "lits": [
+   "2sigShowAnimation()"
+  ],
+  "func": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643381,
+  "stmt": "QObject::connect(local_30,param_1,(QObject *)\"2sigAsyncSortRet(int, bool, bool)\",param_1, 0x40eb1888);",
+  "lits": [
+   "2sigAsyncSortRet(int, bool, bool)"
+  ],
+  "func": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643384,
+  "stmt": "QObject::connect(local_28,param_1,(QObject *)\"2sigBeforeSort()\",param_1,0x40eb18d8);",
+  "lits": [
+   "2sigBeforeSort()"
+  ],
+  "func": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643386,
+  "stmt": "QObject::connect(local_20,param_1,(QObject *)\"2sigFinishSort()\",param_1,0x40eb1900);",
+  "lits": [
+   "2sigFinishSort()"
+  ],
+  "func": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643661,
+  "stmt": "QObject::connect(local_28,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",(char *)local_40, 0x40eb1a88);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140aaa5f0(longlong *param_1,undefined4 param_2,undefined4 param_3,undefined1 param_4,"
+ },
+ {
+  "line": 1643664,
+  "stmt": "QObject::connect(local_20,(char *)local_40,(QObject *)\"2sigFinished(bool, bool)\", (char *)param_1,0x40eb1ab8);",
+  "lits": [
+   "2sigFinished(bool, bool)"
+  ],
+  "func": "void FUN_140aaa5f0(longlong *param_1,undefined4 param_2,undefined4 param_3,undefined1 param_4,"
+ },
+ {
+  "line": 1643711,
+  "stmt": "QObject::connect(local_40,(char *)local_68,(QObject *)\"2finished()\",(char *)param_1,0x40eb1b00);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643713,
+  "stmt": "QObject::connect(local_38,(char *)local_68,(QObject *)\"2finished()\",(char *)plVar5,0x40eb1b28);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643715,
+  "stmt": "QObject::connect(local_30,(char *)local_68,(QObject *)\"2sigFinished()\",(char *)param_1, 0x40eb1b40);",
+  "lits": [
+   "2sigFinished()"
+  ],
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643718,
+  "stmt": "QObject::connect(local_28,(char *)local_68,(QObject *)\"2sigAsyncSortRet(int, bool, bool)\", (char *)param_1,0x40eb1b68);",
+  "lits": [
+   "2sigAsyncSortRet(int, bool, bool)"
+  ],
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643721,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",(char *)local_68, 0x40eb1bb0);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1643898,
+  "stmt": "QObject::connect(local_18,*(char **)(param_1 + 0x20),(QObject *)\"2sigSort(int,bool)\", (char *)param_1,0x40eb1970);",
+  "lits": [
+   "2sigSort(int,bool)"
+  ],
+  "func": "void FUN_140aab430(QObject *param_1,int param_2,char param_3,char param_4)"
+ },
+ {
+  "line": 1651778,
+  "stmt": "QObject::connect(local_18,*(char **)(param_1 + 0x50),(QObject *)\"2clicked()\",(char *)param_1, 0x40eb60e8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140ab9e60(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1651788,
+  "stmt": "QObject::connect(local_28,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\",(char *)param_1, 0x40eb6088);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140ab9e60(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1651862,
+  "stmt": "QObject::connect(local_38,*(char **)(param_1 + 0x48),(QObject *)\"2clicked()\",(char *)param_1, 0x40eb6198);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "ulonglong FUN_140aba0a0(QObject *param_1,longlong param_2,undefined8 param_3)"
+ },
+ {
+  "line": 1652755,
+  "stmt": "QObject::connect(local_48,(char *)param_1,(QObject *)\"2sigClickedClose()\",(char *)param_1, 0x40eb6c10);",
+  "lits": [
+   "2sigClickedClose()"
+  ],
+  "func": "void FUN_140abbc00(QWidget *param_1,QEvent *param_2)"
+ },
+ {
+  "line": 1658146,
+  "stmt": "QObject::connect(local_40,(char *)(param_1 + 0x10),(QObject *)\"2timeout()\",(char *)param_1, 0x40eb8ae0);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140ac5e80(QWidget *param_1)"
+ },
+ {
+  "line": 1659037,
+  "stmt": "QObject::connect(local_190,*(char **)(param_1 + 0x40),(QObject *)\"2sigSectionMinWidth(QPoint,int)\" ,(char *)param_1,0x40eb8c70);",
+  "lits": [
+   "2sigSectionMinWidth(QPoint,int)"
+  ],
+  "func": "void FUN_140ac7830(void)"
+ },
+ {
+  "line": 1659441,
+  "stmt": "QObject::connect(local_30,*(char **)(param_1 + 0x40),(QObject *)\"2sigChangeCurQSS(int, int)\", param_1,0x40eb8f68);",
+  "lits": [
+   "2sigChangeCurQSS(int, int)"
+  ],
+  "func": "void FUN_140ac8850(QHeaderView *param_1,undefined8 param_2,undefined4 param_3)"
+ },
+ {
+  "line": 1660232,
+  "stmt": "QObject::connect(local_c0,local_100,(QObject *)\"2sigDataType(int&)\",(char *)param_1,0x40eb8a58);",
+  "lits": [
+   "2sigDataType(int&)"
+  ],
+  "func": "void FUN_140ac9fe0(QWidget *param_1,QContextMenuEvent *param_2)"
+ },
+ {
+  "line": 1660514,
+  "stmt": "QObject::connect(local_c0,local_100,(QObject *)\"2sigDataType(int&)\",(char *)param_1,0x40eb8ab0);",
+  "lits": [
+   "2sigDataType(int&)"
+  ],
+  "func": "void FUN_140aca9e0(QWidget *param_1,QContextMenuEvent *param_2)"
+ },
+ {
+  "line": 1664572,
+  "stmt": "QObject::connect(local_28,param_1,(QObject *)\"2sigIsBusy(bool&)\",local_38,0x40ebd5b0);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140ad16a0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1664574,
+  "stmt": "QObject::connect(local_20,param_1,(QObject *)\"2sigFinished(bool)\",local_38,0x40ebd5d8);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_140ad16a0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1664576,
+  "stmt": "QObject::connect(local_18,param_1,(QObject *)\"2sigFinished(bool)\",local_38,0x40ebd600);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_140ad16a0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1664653,
+  "stmt": "QObject::connect(local_28,param_1,(QObject *)\"2sigIsBusy(bool&)\",local_38,0x40ebd938);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140ad1950(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1664655,
+  "stmt": "QObject::connect(local_20,param_1,(QObject *)\"2sigFinished(bool)\",local_38,0x40ebd960);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_140ad1950(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1664657,
+  "stmt": "QObject::connect(local_18,param_1,(QObject *)\"2sigFinished(bool)\",local_38,0x40ebd988);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_140ad1950(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1664870,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",local_28,0x40ebd8e8);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140ad1b80(longlong param_1)"
+ },
+ {
+  "line": 1664909,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2finished()\",(char *)param_1,0x40ebd918);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140ad2210(longlong param_1)"
+ },
+ {
+  "line": 1666242,
+  "stmt": "QObject::connect(local_38,param_1,(QObject *)\"2sigIsCachingPixmap(bool&)\",(char *)local_50, 0x40ebd628);",
+  "lits": [
+   "2sigIsCachingPixmap(bool&)"
+  ],
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1666245,
+  "stmt": "QObject::connect(local_30,(char *)local_60,(QObject *)\"2sigGetFileNode(pixmapInfoKey&)\", param_1,0x40ebd660);",
+  "lits": [
+   "2sigGetFileNode(pixmapInfoKey&)"
+  ],
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1666248,
+  "stmt": "QObject::connect(local_28,(char *)local_60,(QObject *)\"2sigUpdate()\",param_1,0x40ebd6a8);",
+  "lits": [
+   "2sigUpdate()"
+  ],
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1666250,
+  "stmt": "QObject::connect(local_20,(char *)local_60,(QObject *)\"2finished()\",param_1,0x40ebd6c8);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1666338,
+  "stmt": "QObject::connect(local_98,*(char **)(param_1 + 0x28),(QObject *)\"2timeout()\",(char *)param_1, 0x40ebd6e8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1666341,
+  "stmt": "QObject::connect(local_90,(char *)param_1,(QObject *)\"2sigStartTimer()\",*(char **)(param_1 + 0x28) ,0x40ebd708);",
+  "lits": [
+   "2sigStartTimer()"
+  ],
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1666445,
+  "stmt": "QObject::connect(local_60,*(char **)(param_1 + 0x20), (QObject *)\"2rowsInserted(const QModelIndex &,int,int)\",(char *)param_1, 0x40ebc490);",
+  "lits": [
+   "2rowsInserted(const QModelIndex &,int,int)"
+  ],
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1666449,
+  "stmt": "QObject::connect(local_58,*(char **)(param_1 + 0x20),(QObject *)\"2sigModelRefresh()\", (char *)param_1,0x40ebc508);",
+  "lits": [
+   "2sigModelRefresh()"
+  ],
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1666452,
+  "stmt": "QObject::connect(local_50,(char *)param_1,(QObject *)\"2sigRefresh()\",(char *)param_1,0x40ebc538)",
+  "lits": [
+   "2sigRefresh()"
+  ],
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1666466,
+  "stmt": "QObject::connect(local_40,(char *)this,(QObject *)\"2clicked(const QModelIndex &)\", (char *)param_1,0x40ebc560);",
+  "lits": [
+   "2clicked(const QModelIndex &)"
+  ],
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1666469,
+  "stmt": "QObject::connect(local_38,(char *)this,(QObject *)\"2doubleClicked(const QModelIndex &)\", (char *)param_1,0x40ebc5a8);",
+  "lits": [
+   "2doubleClicked(const QModelIndex &)"
+  ],
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1666472,
+  "stmt": "QObject::connect(local_30,(char *)this,(QObject *)\"2destroyed()\",(char *)param_1, 0x40ebc5f8);",
+  "lits": [
+   "2destroyed()"
+  ],
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1666476,
+  "stmt": "QObject::connect(local_28,(char *)pQVar2,(QObject *)\"2destroyed()\",(char *)param_1, 0x40ebc620);",
+  "lits": [
+   "2destroyed()"
+  ],
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)"
+ },
+ {
+  "line": 1666573,
+  "stmt": "QObject::connect(local_80,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",(char *)local_120, 0x40ebcfa0);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)"
+ },
+ {
+  "line": 1666576,
+  "stmt": "QObject::connect(local_78,(char *)local_120,(QObject *)\"2sigFinished(bool)\",(char *)param_1, 0x40ebcfd0);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)"
+ },
+ {
+  "line": 1666579,
+  "stmt": "QObject::connect(local_70,(char *)local_120, (QObject *)\"2sigGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)\", (char *)param_1,0x40ebd000);",
+  "lits": [
+   "2sigGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)"
+  ],
+  "func": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)"
+ },
+ {
+  "line": 1666620,
+  "stmt": "QObject::connect(local_58,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",(char *)local_98, 0x40ebd0b8);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,"
+ },
+ {
+  "line": 1666623,
+  "stmt": "QObject::connect(local_50,(char *)local_98,(QObject *)\"2sigFinished(bool)\",(char *)param_1, 0x40ebd0e8);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,"
+ },
+ {
+  "line": 1666626,
+  "stmt": "QObject::connect(local_48,(char *)local_98, (QObject *)\"2sigGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)\", (char *)param_1,0x40ebd118);",
+  "lits": [
+   "2sigGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)"
+  ],
+  "func": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,"
+ },
+ {
+  "line": 1666631,
+  "stmt": "QObject::connect(local_40,(char *)local_98,(QObject *)\"2sigGetIgnoreIndexs(QVector<int>&)\", (char *)param_1,0x40ebd198);",
+  "lits": [
+   "2sigGetIgnoreIndexs(QVector<int>&)"
+  ],
+  "func": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,"
+ },
+ {
+  "line": 1666670,
+  "stmt": "QObject::connect(local_50,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",(char *)local_b0, 0x40ebd210);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)"
+ },
+ {
+  "line": 1666673,
+  "stmt": "QObject::connect(local_48,(char *)local_b0,(QObject *)\"2sigFinished(bool)\",(char *)param_1, 0x40ebd240);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)"
+ },
+ {
+  "line": 1666676,
+  "stmt": "QObject::connect(local_40,(char *)local_b0,(QObject *)\"2sigFinished(bool)\",(char *)param_1, 0x40ebd270);",
+  "lits": [
+   "2sigFinished(bool)"
+  ],
+  "func": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)"
+ },
+ {
+  "line": 1666848,
+  "stmt": "QObject::connect(local_20,pcVar2,(QObject *)\"2doDispatchMessage(int,void *, int&)\", (char *)param_1,0x40ebc700);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "void FUN_140ad64d0(QObject *param_1,char param_2)"
+ },
+ {
+  "line": 1667311,
+  "stmt": "QObject::connect(local_40,(char *)local_68,(QObject *)\"2finished()\",(char *)param_1,0x40ebc9d8);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)"
+ },
+ {
+  "line": 1667313,
+  "stmt": "QObject::connect(local_38,(char *)local_68,(QObject *)\"2finished()\",(char *)plVar5,0x40ebca00);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)"
+ },
+ {
+  "line": 1667315,
+  "stmt": "QObject::connect(local_30,(char *)local_68,(QObject *)\"2finished()\",(char *)param_1,0x40ebca18);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)"
+ },
+ {
+  "line": 1667317,
+  "stmt": "QObject::connect(local_28,(char *)local_68,(QObject *)\"2sigAsyncSortRet(int, bool, bool)\", (char *)param_1,0x40ebca40);",
+  "lits": [
+   "2sigAsyncSortRet(int, bool, bool)"
+  ],
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)"
+ },
+ {
+  "line": 1667320,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",(char *)local_68, 0x40ebca88);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)"
+ },
+ {
+  "line": 1667881,
+  "stmt": "QObject::connect(local_c8,(char *)param_1,(QObject *)\"2sigIsBusy(bool&)\",(char *)local_f0, 0x40ebcbb0);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)"
+ },
+ {
+  "line": 1667884,
+  "stmt": "QObject::connect(local_c0,(char *)local_f0,(QObject *)\"2sigGetListIndex(int&, int&)\", (char *)param_1,0x40ebcbe0);",
+  "lits": [
+   "2sigGetListIndex(int&, int&)"
+  ],
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)"
+ },
+ {
+  "line": 1667887,
+  "stmt": "QObject::connect(local_b8,(char *)local_f0,(QObject *)\"2sigSelFinished(const QModelIndex&,bool)\" ,(char *)param_1,0x40ebcc20);",
+  "lits": [
+   "2sigSelFinished(const QModelIndex&,bool)"
+  ],
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)"
+ },
+ {
+  "line": 1667890,
+  "stmt": "QObject::connect(local_b0,(char *)local_f0,(QObject *)\"2sigSelectRightIndex(int, int)\", (char *)param_1,0x40ebcca0);",
+  "lits": [
+   "2sigSelectRightIndex(int, int)"
+  ],
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)"
+ },
+ {
+  "line": 1667896,
+  "stmt": "QObject::connect(local_a8,(char *)param_1[4],(QObject *)\"2modelReset()\",(char *)local_f0, 0x40ebcd58);",
+  "lits": [
+   "2modelReset()"
+  ],
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)"
+ },
+ {
+  "line": 1668543,
+  "stmt": "QObject::connect(local_48,local_58,(QObject *)\"2actionTriggered(int)\",(char *)param_1, 0x40ebce00);",
+  "lits": [
+   "2actionTriggered(int)"
+  ],
+  "func": "void FUN_140ad9c50(longlong *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1668546,
+  "stmt": "QObject::connect(local_40,local_58,(QObject *)\"2valueChanged(int)\",(char *)param_1,0x40ebce30)",
+  "lits": [
+   "2valueChanged(int)"
+  ],
+  "func": "void FUN_140ad9c50(longlong *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1668552,
+  "stmt": "QObject::connect(local_38,local_58,(QObject *)\"2rangeChanged(int,int)\",(char *)param_1, 0x40ebce78);",
+  "lits": [
+   "2rangeChanged(int,int)"
+  ],
+  "func": "void FUN_140ad9c50(longlong *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1668989,
+  "stmt": "QObject::connect(local_18,pcVar1,(QObject *)\"2doDispatchMessage(int,void *, int&)\",(char *)param_1 ,0x40ebcec0);",
+  "lits": [
+   "2doDispatchMessage(int,void *, int&)"
+  ],
+  "func": "undefined1 FUN_140ada7b0(longlong *param_1)"
+ },
+ {
+  "line": 1669428,
+  "stmt": "QObject::connect(local_20,param_1,(QObject *)\"2sigVisible(bool)\",(char *)pQVar1,0x40ebd890);",
+  "lits": [
+   "2sigVisible(bool)"
+  ],
+  "func": "void FUN_140adb4c0(longlong param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1678348,
+  "stmt": "QObject::connect(local_18,(char *)this,(QObject *)\"2collapsed(const QModelIndex &)\",param_1, 0x40ec1138);",
+  "lits": [
+   "2collapsed(const QModelIndex &)"
+  ],
+  "func": "void FUN_140aeac10(char *param_1,undefined8 param_2,QAbstractItemView *param_3)"
+ },
+ {
+  "line": 1678351,
+  "stmt": "QObject::connect(local_10,(char *)this,(QObject *)\"2expanded(const QModelIndex &)\",param_1, 0x40ec1180);",
+  "lits": [
+   "2expanded(const QModelIndex &)"
+  ],
+  "func": "void FUN_140aeac10(char *param_1,undefined8 param_2,QAbstractItemView *param_3)"
+ },
+ {
+  "line": 1678724,
+  "stmt": "QObject::connect(local_18,*(char **)(param_1 + 0x20),(QObject *)\"2sigInTooltip(QModelIndex,bool&)\" ,param_1,0x40ec0b70);",
+  "lits": [
+   "2sigInTooltip(QModelIndex,bool&)"
+  ],
+  "func": "void FUN_140aeb6c0(char *param_1)"
+ },
+ {
+  "line": 1678727,
+  "stmt": "QObject::connect(local_10,*(char **)(param_1 + 0x20), (QObject *)\"2sigWillShowTip(QModelIndex,bool&)\",param_1,0x40ec0bd8);",
+  "lits": [
+   "2sigWillShowTip(QModelIndex,bool&)"
+  ],
+  "func": "void FUN_140aeb6c0(char *param_1)"
+ },
+ {
+  "line": 1682134,
+  "stmt": "QObject::connect(local_50,(char *)local_128,(QObject *)\"2clicked()\",(char *)param_1,0x40ec30b8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140af1b40(QObject *param_1,QBoxLayout *param_2,ulonglong param_3,undefined8 param_4)"
+ },
+ {
+  "line": 1683215,
+  "stmt": "QObject::connect(local_68,(char *)(param_1 + 0x10),(QObject *)\"2timeout()\",(char *)param_1, 0x40ec38a8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "longlong FUN_140af3760(longlong *param_1)"
+ },
+ {
+  "line": 1683219,
+  "stmt": "QObject::connect(local_60,param_3,(QObject *)\"2started()\",(char *)(param_1 + 0x10), 0x40ec38d0);",
+  "lits": [
+   "2started()"
+  ],
+  "func": "longlong FUN_140af3760(longlong *param_1)"
+ },
+ {
+  "line": 1683222,
+  "stmt": "QObject::connect(local_58,param_3,(QObject *)\"2finished()\",(char *)param_1,0x40ec3908);",
+  "lits": [
+   "2finished()"
+  ],
+  "func": "longlong FUN_140af3760(longlong *param_1)"
+ },
+ {
+  "line": 1683224,
+  "stmt": "QObject::connect(local_50,(char *)param_1,(QObject *)\"2sigDeleteMask()\", *(char **)(param_1 + 0x38),0x40ec3948);",
+  "lits": [
+   "2sigDeleteMask()"
+  ],
+  "func": "longlong FUN_140af3760(longlong *param_1)"
+ },
+ {
+  "line": 1683228,
+  "stmt": "QObject::connect(local_48,pcVar1,(QObject *)\"2sigIsBusy(bool&)\",(char *)param_1,0x40ec3980);",
+  "lits": [
+   "2sigIsBusy(bool&)"
+  ],
+  "func": "longlong FUN_140af3760(longlong *param_1)"
+ },
+ {
+  "line": 1683231,
+  "stmt": "QObject::connect(local_40,(char *)param_1,(QObject *)\"2sigBusy(bool)\",pcVar1,0x40ec39a8);",
+  "lits": [
+   "2sigBusy(bool)"
+  ],
+  "func": "longlong FUN_140af3760(longlong *param_1)"
+ },
+ {
+  "line": 1684495,
+  "stmt": "QObject::connect(local_88,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40ec4a00);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140af5920(QWidget *param_1)"
+ },
+ {
+  "line": 1687240,
+  "stmt": "QObject::connect(local_50,(char *)(param_1 + 0x50),(QObject *)\"2timeout()\",(char *)param_1, 0x40ec6488);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "undefined8 FUN_140afac60(longlong param_1)"
+ },
+ {
+  "line": 1687245,
+  "stmt": "QObject::connect(local_40,(char *)(param_1 + 0x78),(QObject *)\"2timeout()\",(char *)param_1, 0x40ec64b0);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "undefined8 FUN_140afac60(longlong param_1)"
+ },
+ {
+  "line": 1688712,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2textEdited(const QString &)\", (char *)param_1,0x40ec7498);",
+  "lits": [
+   "2textEdited(const QString &)"
+  ],
+  "func": "void FUN_140afd544(longlong param_1)"
+ },
+ {
+  "line": 1701608,
+  "stmt": "QObject::connect(local_48,(char *)param_1,(QObject *)\"2textChanged(const QString &)\", (char *)param_1,0x40eccda8);",
+  "lits": [
+   "2textChanged(const QString &)"
+  ],
+  "func": "void FUN_140b16648(longlong param_1)"
+ },
+ {
+  "line": 1701618,
+  "stmt": "QObject::connect(local_30,(char *)param_1,(QObject *)\"2selectionChanged()\",(char *)param_1, 0x40eccde8);",
+  "lits": [
+   "2selectionChanged()"
+  ],
+  "func": "void FUN_140b16648(longlong param_1)"
+ },
+ {
+  "line": 1701621,
+  "stmt": "QObject::connect(local_28,(char *)param_1,(QObject *)\"2returnPressed()\",(char *)param_1,0x40ecce18 );",
+  "lits": [
+   "2returnPressed()"
+  ],
+  "func": "void FUN_140b16648(longlong param_1)"
+ },
+ {
+  "line": 1701624,
+  "stmt": "QObject::connect(local_20,(char *)param_1,(QObject *)\"2clicked()\",(char *)param_1,0x40ecce50);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b16648(longlong param_1)"
+ },
+ {
+  "line": 1701712,
+  "stmt": "QObject::connect(local_18,(char *)param_1,(QObject *)\"2textChanged(const QString &)\", (char *)param_1,0x40ecceb0);",
+  "lits": [
+   "2textChanged(const QString &)"
+  ],
+  "func": "void FUN_140b16cb0(QObject *param_1,QString *param_2)"
+ },
+ {
+  "line": 1701934,
+  "stmt": "QObject::connect(local_80,(char *)local_150,(QObject *)\"2clicked()\",param_1,0x40ecd3b0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b16fb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1702155,
+  "stmt": "QObject::connect(local_48,*(char **)(param_1 + 0x80),(QObject *)\"2clicked()\",param_1, 0x40ecd400);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b17900(char *param_1)"
+ },
+ {
+  "line": 1702663,
+  "stmt": "QObject::connect(local_10,(char *)pQVar1,(QObject *)\"2sigIsValid(const QString&,const int&,bool&)\" ,(char *)param_1,0x40ecd158);",
+  "lits": [
+   "2sigIsValid(const QString&,const int&,bool&)"
+  ],
+  "func": "void FUN_140b189f0(QLineEdit *param_1)"
+ },
+ {
+  "line": 1702910,
+  "stmt": "QObject::connect(local_b0,(char *)this,(QObject *)\"2clicked()\",param_1,0x40ecd448);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b18ec0(char *param_1)"
+ },
+ {
+  "line": 1702993,
+  "stmt": "QObject::connect(local_88,(char *)local_178,(QObject *)\"2clicked()\",param_1,0x40ecd498);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b18ec0(char *param_1)"
+ },
+ {
+  "line": 1703013,
+  "stmt": "QObject::connect(local_80,(char *)pQVar1,(QObject *)\"2clicked()\",param_1,0x40ecd4d0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b18ec0(char *param_1)"
+ },
+ {
+  "line": 1703299,
+  "stmt": "QObject::connect(local_60,(char *)local_f0,(QObject *)\"2clicked()\",param_1,0x40ecd500);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b19ac0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1704083,
+  "stmt": "QObject::connect(local_40,param_1 + 0xc0,(QObject *)\"2timeout()\",param_1,0x40ecd558);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "State FUN_140b1b3c0(QDoubleValidator *param_1,QString *param_2,int *param_3)"
+ },
+ {
+  "line": 1704089,
+  "stmt": "QObject::connect(local_28,param_1 + 0x138,(QObject *)\"2timeout()\",param_1,0x40ecd578);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "State FUN_140b1b3c0(QDoubleValidator *param_1,QString *param_2,int *param_3)"
+ },
+ {
+  "line": 1704464,
+  "stmt": "QObject::connect(local_e8,local_190,(QObject *)\"2clicked()\",param_1,0x40ecd748);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b1be50(char *param_1)"
+ },
+ {
+  "line": 1704466,
+  "stmt": "QObject::connect(local_e0,local_188,(QObject *)\"2clicked()\",param_1,0x40ecd770);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b1be50(char *param_1)"
+ },
+ {
+  "line": 1704736,
+  "stmt": "QObject::connect(local_c8,(char *)pQVar2,(QObject *)\"2clicked()\",*(char **)(param_1 + 0x120), 0x40eccb50);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1704739,
+  "stmt": "QObject::connect(local_c0,(char *)pQVar3,(QObject *)\"2clicked()\",*(char **)(param_1 + 0x120), 0x40eccb70);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1704742,
+  "stmt": "QObject::connect(local_b8,(char *)pQVar2,(QObject *)\"2clicked()\",param_1,0x40eccb98);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1704744,
+  "stmt": "QObject::connect(local_b0,(char *)pQVar3,(QObject *)\"2clicked()\",param_1,0x40eccbc0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)"
+ },
+ {
+  "line": 1704814,
+  "stmt": "QObject::connect(local_60,*(char **)(param_1 + 0x120),(QObject *)\"2clicked(const QDate &)\", param_1,0x40ecd5a8);",
+  "lits": [
+   "2clicked(const QDate &)"
+  ],
+  "func": "void FUN_140b1ceb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1704817,
+  "stmt": "QObject::connect(local_58,*(char **)(param_1 + 0x120),(QObject *)\"2currentPageChanged(int, int)\" ,param_1,0x40ecd5d8);",
+  "lits": [
+   "2currentPageChanged(int, int)"
+  ],
+  "func": "void FUN_140b1ceb0(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1712761,
+  "stmt": "QObject::connect(local_50,*(char **)(param_1 + 0x38),(QObject *)\"2valueChanged(const QVariant&)\", (char *)param_1,0x40ed04b8);",
+  "lits": [
+   "2valueChanged(const QVariant&)"
+  ],
+  "func": "void FUN_140b2b7b0(QObject *param_1)"
+ },
+ {
+  "line": 1715029,
+  "stmt": "QObject::connect(local_48,*(char **)(param_1 + 0x40), (QObject *)\"2itemClicked(const quint64)\",(char *)param_1,0x40ed0e10);",
+  "lits": [
+   "2itemClicked(const quint64)"
+  ],
+  "func": "void FUN_140b303d0(QWidget *param_1)"
+ },
+ {
+  "line": 1715629,
+  "stmt": "QObject::connect(local_18,(char *)(param_1 + 0x90),(QObject *)\"2timeout()\",(char *)param_1, 0x40ed22c8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b31880(longlong param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1716957,
+  "stmt": "QObject::connect((QObject *)param_1,local_e8,*(char **)(param_1 + 0x48), \"2clicked()\",0x40ed2650);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b33ba0(QWidget *param_1)"
+ },
+ {
+  "line": 1717164,
+  "stmt": "QObject::connect(local_1f8,(char *)(param_1 + 0x70),(QObject *)\"2timeout()\",(char *)param_1, 0x40ed2ba8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b34b60(QObject *param_1)"
+ },
+ {
+  "line": 1717337,
+  "stmt": "QObject::connect(local_3e8,(char *)(param_1 + 0x70),(QObject *)\"2timeout()\",(char *)param_1, 0x40ed2568);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b34f60(QObject *param_1)"
+ },
+ {
+  "line": 1718605,
+  "stmt": "QObject::connect(local_98,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40ed3100);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b37480(QWidget *param_1)"
+ },
+ {
+  "line": 1719341,
+  "stmt": "QObject::connect(local_190,*(char **)(param_1 + 0x48), (QObject *)\"2clicked()\",(char *)param_1,0x40ed34f8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b38410(QWidget *param_1)"
+ },
+ {
+  "line": 1719376,
+  "stmt": "QObject::connect(local_178,*(char **)(param_1 + 0x50), (QObject *)\"2clicked()\",(char *)param_1,0x40ed3540);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b38410(QWidget *param_1)"
+ },
+ {
+  "line": 1719408,
+  "stmt": "QObject::connect(local_160,*(char **)(param_1 + 0x58), (QObject *)\"2clicked()\",(char *)param_1,0x40ed3580);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b38410(QWidget *param_1)"
+ },
+ {
+  "line": 1720551,
+  "stmt": "QObject::connect(local_170,*(char **)(param_1 + 0xa8), (QObject *)\"2clicked()\",(char *)param_1, 0x40ed39c8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b3a3f0(QWidget *param_1)"
+ },
+ {
+  "line": 1720593,
+  "stmt": "QObject::connect(local_1e8,*(char **)(param_1 + 0xb8), (QObject *)\"2clicked()\",(char *)param_1, 0x40ed3a18);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b3a3f0(QWidget *param_1)"
+ },
+ {
+  "line": 1720635,
+  "stmt": "QObject::connect(local_1c0,*(char **)(param_1 + 0xc0), (QObject *)\"2clicked()\",(char *)param_1, 0x40ed3a68);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b3a3f0(QWidget *param_1)"
+ },
+ {
+  "line": 1720673,
+  "stmt": "QObject::connect(local_1a0,*(char **)(param_1 + 0xa0), (QObject *)\"2clicked()\",(char *)param_1 ,0x40ed3aa8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b3a3f0(QWidget *param_1)"
+ },
+ {
+  "line": 1721179,
+  "stmt": "QObject::connect(local_220,param_1 + 0xd0,(QObject *)\"2timeout()\",param_1,0x40ed3bb8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b3d190(char *param_1)"
+ },
+ {
+  "line": 1722482,
+  "stmt": "QObject::connect(local_168,*(char **)(param_1 + 0x50), (QObject *)\"2clicked()\",(char *)param_1,0x40ed3f38);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b3f080(QWidget *param_1)"
+ },
+ {
+  "line": 1723738,
+  "stmt": "QObject::connect(local_1d8,*(char **)(param_1 + 0x70), (QObject *)\"2clicked()\", (char *)param_1,0x40ed57e8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b40de0(QWidget *param_1)"
+ },
+ {
+  "line": 1724979,
+  "stmt": "QObject::connect(local_508,*(char **)(param_1 + 0x38),(QObject *)\"2sigDoubleClicked()\", (char *)param_1,0x40ed5d78);",
+  "lits": [
+   "2sigDoubleClicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1725010,
+  "stmt": "QObject::connect(local_4f0,*(char **)(param_1 + 0xf0),(QObject *)\"2clicked()\", (char *)param_1,0x40ed5dd0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1725607,
+  "stmt": "QObject::connect(local_400,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1, 0x40ed5fe0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1725642,
+  "stmt": "QObject::connect(local_3e8,*(char **)(param_1 + 0xa8), (QObject *)\"2clicked()\",(char *)param_1, 0x40ed6038);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1725680,
+  "stmt": "QObject::connect(local_3d0,*(char **)(param_1 + 0xe0), (QObject *)\"2clicked()\",(char *)param_1 ,0x40ed60d8);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1725820,
+  "stmt": "QObject::connect(local_390, *(char **)(param_1 + 0x68), (QObject *)\"2clicked()\", (char *)param_1,0x40ed6220);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1725866,
+  "stmt": "QObject::connect(local_378, *(char **)(param_1 + 0xb0), (QObject *)\"2clicked()\", (char *)param_1,0x40ed6280);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1725910,
+  "stmt": "QObject::connect(local_360, *(char **)(param_1 + 0xc0), (QObject *)\"2clicked()\", (char *)param_1,0x40ed62d0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1725954,
+  "stmt": "QObject::connect(local_348, *(char **)(param_1 + 0xe8), (QObject *)\"2clicked()\", (char *)param_1,0x40ed6320);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1726001,
+  "stmt": "QObject::connect(local_330, *(char **)(param_1 + 0x88), (QObject *)\"2clicked()\", (char *)param_1,0x40ed6378);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b44b50(QWidget *param_1)"
+ },
+ {
+  "line": 1727116,
+  "stmt": "QObject::connect(local_80,pcVar1,(QObject *)\"2sigRemove()\",param_1,0x40ed65e0);",
+  "lits": [
+   "2sigRemove()"
+  ],
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1727118,
+  "stmt": "QObject::connect(local_78,pcVar1,(QObject *)\"2sigStartRepair()\",param_1,0x40ed6608);",
+  "lits": [
+   "2sigStartRepair()"
+  ],
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1727120,
+  "stmt": "QObject::connect(local_70,pcVar1,(QObject *)\"2sigClickedAdvancedRepair()\",param_1,0x40ed6638);",
+  "lits": [
+   "2sigClickedAdvancedRepair()"
+  ],
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1727122,
+  "stmt": "QObject::connect(local_68,pcVar1,(QObject *)\"2sigStartAdvancedRepair()\",param_1,0x40ed6678);",
+  "lits": [
+   "2sigStartAdvancedRepair()"
+  ],
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1727124,
+  "stmt": "QObject::connect(local_60,pcVar1,(QObject *)\"2sigStopRepair()\",param_1,0x40ed66b8);",
+  "lits": [
+   "2sigStopRepair()"
+  ],
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1727126,
+  "stmt": "QObject::connect(local_58,pcVar1,(QObject *)\"2sigStartSave(bool)\",param_1,0x40ed66e8);",
+  "lits": [
+   "2sigStartSave(bool)"
+  ],
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1727128,
+  "stmt": "QObject::connect(local_50,param_1,(QObject *)\"2sigSaveActivateSuccess()\",pcVar1,0x40ed6718);",
+  "lits": [
+   "2sigSaveActivateSuccess()"
+  ],
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1727131,
+  "stmt": "QObject::connect(local_48,pcVar1,(QObject *)\"2sigPreview()\",param_1,0x40ed6758);",
+  "lits": [
+   "2sigPreview()"
+  ],
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)"
+ },
+ {
+  "line": 1727808,
+  "stmt": "QObject::connect(local_220,*(char **)(param_1 + 0x38),(QObject *)\"2clicked()\", (char *)param_1,0x40ed68c0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b4b140(QWidget *param_1)"
+ },
+ {
+  "line": 1727953,
+  "stmt": "QObject::connect(local_198,*(char **)(param_1 + 0x30),(QObject *)\"2clicked()\", (char *)param_1,0x40ed6978);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b4b140(QWidget *param_1)"
+ },
+ {
+  "line": 1727987,
+  "stmt": "QObject::connect(local_180,*(char **)(param_1 + 0x40),(QObject *)\"2clicked()\", (char *)param_1,0x40ed69c0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b4b140(QWidget *param_1)"
+ },
+ {
+  "line": 1728018,
+  "stmt": "QObject::connect(local_168,*(char **)(param_1 + 0x58),(QObject *)\"2clicked()\", (char *)param_1,0x40ed6a08);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b4b140(QWidget *param_1)"
+ },
+ {
+  "line": 1728052,
+  "stmt": "QObject::connect(local_150,*(char **)(param_1 + 0x60),(QObject *)\"2clicked()\", (char *)param_1,0x40ed6a50);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b4b140(QWidget *param_1)"
+ },
+ {
+  "line": 1728112,
+  "stmt": "QObject::connect(local_1e0,(char *)(param_1 + 0x90),(QObject *)\"2timeout()\",(char *)param_1, 0x40ed6ad8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b4c5f0(QObject *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1728115,
+  "stmt": "QObject::connect(local_1d8,(char *)(param_1 + 0x90),(QObject *)\"2timeout()\",(char *)param_2, 0x40ed6b08);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b4c5f0(QObject *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1728156,
+  "stmt": "QObject::connect(local_1e0,(char *)(param_1 + 0x90),(QObject *)\"2timeout()\",(char *)param_1, 0x40ed6bd8);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b4c800(QObject *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1728159,
+  "stmt": "QObject::connect(local_1d8,(char *)(param_1 + 0x90),(QObject *)\"2timeout()\",(char *)param_2, 0x40ed6c08);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b4c800(QObject *param_1,QObject *param_2)"
+ },
+ {
+  "line": 1730507,
+  "stmt": "QObject::connect(local_468,(char *)local_288,(QObject *)\"2sigClickedAdvancedRepair()\",pcVar5, 0x40ed7488);",
+  "lits": [
+   "2sigClickedAdvancedRepair()"
+  ],
+  "func": "void FUN_140b51910(QObject *param_1)"
+ },
+ {
+  "line": 1730510,
+  "stmt": "QObject::connect(local_460,(char *)local_288,(QObject *)\"2sigClickedFeedBack()\",pcVar5, 0x40ed74c8);",
+  "lits": [
+   "2sigClickedFeedBack()"
+  ],
+  "func": "void FUN_140b51910(QObject *param_1)"
+ },
+ {
+  "line": 1730513,
+  "stmt": "QObject::connect(local_458,(char *)local_288,(QObject *)\"2sigClickedChangeSample()\",pcVar5, 0x40ed74f8);",
+  "lits": [
+   "2sigClickedChangeSample()"
+  ],
+  "func": "void FUN_140b51910(QObject *param_1)"
+ },
+ {
+  "line": 1730516,
+  "stmt": "QObject::connect(local_450,(char *)local_288,(QObject *)\"2sigClickedSave(bool)\",pcVar5, 0x40ed7530);",
+  "lits": [
+   "2sigClickedSave(bool)"
+  ],
+  "func": "void FUN_140b51910(QObject *param_1)"
+ },
+ {
+  "line": 1730519,
+  "stmt": "QObject::connect(local_448,pcVar5,(QObject *)\"2sigSaveActivateSuccess()\",(char *)local_288, 0x40ed7560);",
+  "lits": [
+   "2sigSaveActivateSuccess()"
+  ],
+  "func": "void FUN_140b51910(QObject *param_1)"
+ },
+ {
+  "line": 1730522,
+  "stmt": "QObject::connect(local_440,(char *)local_288,(QObject *)\"2sigRefreshActivate()\",(char *)param_1, 0x40ed7590);",
+  "lits": [
+   "2sigRefreshActivate()"
+  ],
+  "func": "void FUN_140b51910(QObject *param_1)"
+ },
+ {
+  "line": 1730991,
+  "stmt": "QObject::connect(local_50,(char *)(param_1 + 0xb8),(QObject *)\"2timeout()\",(char *)param_1, 0x40ed6b58);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b52ba0(QObject *param_1)"
+ },
+ {
+  "line": 1731317,
+  "stmt": "QObject::connect(local_f8,*(char **)(param_1 + 0x48),(QObject *)\"2sigBtnAddClicked()\", (char *)param_1,0x40ed6060);",
+  "lits": [
+   "2sigBtnAddClicked()"
+  ],
+  "func": "void FUN_140b530c0(QWidget *param_1)"
+ },
+ {
+  "line": 1731320,
+  "stmt": "QObject::connect(local_f0,*(char **)(param_1 + 0x48),(QObject *)\"2sigRemoveAll()\", (char *)param_1,0x40ed6090);",
+  "lits": [
+   "2sigRemoveAll()"
+  ],
+  "func": "void FUN_140b530c0(QWidget *param_1)"
+ },
+ {
+  "line": 1731323,
+  "stmt": "QObject::connect(local_e8,*(char **)(param_1 + 0x48),(QObject *)\"2sigRefreshActivate()\", (char *)param_1,0x40ed60f0);",
+  "lits": [
+   "2sigRefreshActivate()"
+  ],
+  "func": "void FUN_140b530c0(QWidget *param_1)"
+ },
+ {
+  "line": 1731338,
+  "stmt": "QObject::connect(local_d0,*(char **)(param_1 + 0x40),(QObject *)\"2sigClickBtnAdd()\", (char *)param_1,0x40ed6130);",
+  "lits": [
+   "2sigClickBtnAdd()"
+  ],
+  "func": "void FUN_140b530c0(QWidget *param_1)"
+ },
+ {
+  "line": 1731367,
+  "stmt": "QObject::connect(local_c0,*(char **)(param_1 + 0x48),(QObject *)\"2sigUpdateItemCount(int)\" ,(char *)param_1,0x40ed61c0);",
+  "lits": [
+   "2sigUpdateItemCount(int)"
+  ],
+  "func": "void FUN_140b530c0(QWidget *param_1)"
+ },
+ {
+  "line": 1733314,
+  "stmt": "QObject::connect(local_140,*(char **)(param_1 + 0x60), (QObject *)\"2clicked()\",(char *)param_1,0x40ed8c78);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b562c0(QWidget *param_1)"
+ },
+ {
+  "line": 1733333,
+  "stmt": "QObject::connect((QObject *)param_1,local_130,*(char **)(param_1 + 0x68) ,\"2clicked()\",0x40ed8cb0);",
+  "lits": [
+   "2clicked()"
+  ],
+  "func": "void FUN_140b562c0(QWidget *param_1)"
+ },
+ {
+  "line": 1733955,
+  "stmt": "QObject::connect(local_1d8,(char *)(param_1 + 0x90),(QObject *)\"2timeout()\",(char *)param_1, 0x40ed8f28);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b58500(QObject *param_1)"
+ },
+ {
+  "line": 1734110,
+  "stmt": "QObject::connect(local_1d8,(char *)(param_1 + 0x90),(QObject *)\"2timeout()\",(char *)param_1, 0x40ed8f88);",
+  "lits": [
+   "2timeout()"
+  ],
+  "func": "void FUN_140b58ac0(QObject *param_1)"
+ },
+ {
+  "line": 1735776,
+  "stmt": "QObject::connect(local_48,*(char **)(param_1 + 0xc0),(QObject *)\"2sigGotoAddPage()\",param_1, 0x40ed96d0);",
+  "lits": [
+   "2sigGotoAddPage()"
+  ],
+  "func": "void FUN_140b5c420(char *param_1)"
+ },
+ {
+  "line": 1735779,
+  "stmt": "QObject::connect(local_40,*(char **)(param_1 + 0xc0),(QObject *)\"2sigGotoItemsPage()\",param_1, 0x40ed9700);",
+  "lits": [
+   "2sigGotoItemsPage()"
+  ],
+  "func": "void FUN_140b5c420(char *param_1)"
+ },
+ {
+  "line": 1735782,
+  "stmt": "QObject::connect(local_38,*(char **)(param_1 + 0xc0),(QObject *)\"2sigClearAll()\",param_1, 0x40ed9730);",
+  "lits": [
+   "2sigClearAll()"
+  ],
+  "func": "void FUN_140b5c420(char *param_1)"
+ },
+ {
+  "line": 1735796,
+  "stmt": "QObject::connect(local_28,*(char **)(param_1 + 200),(QObject *)\"2sigBtnAddClicked()\", *(char **)(param_1 + 0xc0),0x40ed9758);",
+  "lits": [
+   "2sigBtnAddClicked()"
+  ],
+  "func": "void FUN_140b5c420(char *param_1)"
+ }
+]

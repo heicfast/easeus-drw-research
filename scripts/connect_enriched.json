@@ -1,0 +1,8034 @@
+[
+ {
+  "line": 1048466,
+  "func": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)",
+  "sig": "2clicked()",
+  "slot": "1onClickedActvateBtn()",
+  "other_lits": [],
+  "hexes": [
+   "40dcfbd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1048789,
+  "func": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)",
+  "sig": "2clicked()",
+  "slot": "1onClickEnterLicense()",
+  "other_lits": [],
+  "hexes": [
+   "40dcfc30"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1048874,
+  "func": "void FUN_140649000(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1onDelayResizeWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40dcfc68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1049140,
+  "func": "void FUN_14064aa20(char *param_1,undefined8 param_2,QBoxLayout *param_3,QString *param_4)",
+  "sig": "2clicked()",
+  "slot": "1onClickedActvateBtn()",
+  "other_lits": [],
+  "hexes": [
+   "40dcfcf0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1050003,
+  "func": "void FUN_14064cbe0(QObject *param_1)",
+  "sig": "2onLinkURLClicked(const QString&,const QString&)",
+  "slot": "1onMessageBoxUlrClick(const QString&,const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40dcff20"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1055306,
+  "func": "void FUN_1406564f0(char *param_1)",
+  "sig": "2clicked(bool)",
+  "slot": "2sigClickRetry()",
+  "other_lits": [],
+  "hexes": [
+   "40dd2c58"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1059550,
+  "func": "void FUN_14065e890(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "sig": "2beforeNavigate2(const QString&, bool&)",
+  "slot": "1beforeNavigate2Slot(const QString&, bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40dd42d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1059554,
+  "func": "void FUN_14065e890(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "sig": "2navigateComplete(const QString&)",
+  "slot": "1navigateCompleteSlot(const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40dd4328"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1067277,
+  "func": "void FUN_14066cf80(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClose()",
+  "other_lits": [],
+  "hexes": [
+   "40dd7bb8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1070882,
+  "func": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "sig": "2beforeNavigate2(const QString&, bool&)",
+  "slot": "1beforeNavigate2Slot(const QString&, bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40dd9e28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1070886,
+  "func": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "sig": "2navigateComplete(const QString&)",
+  "slot": "1navigateCompleteSlot(const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40dd9e80"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1070889,
+  "func": "void FUN_140674e20(QWidget *param_1,QString *param_2,undefined8 param_3)",
+  "sig": "2navigateError(const unsigned long, const QString&)",
+  "slot": "1navigateFailSlot(const unsigned long, const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40dd9ed0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1075155,
+  "func": "void FUN_14067cab0(undefined8 param_1,void *param_2,longlong param_3)",
+  "sig": "2ClickClose()",
+  "slot": "1closeTipDlg()",
+  "other_lits": [],
+  "hexes": [
+   "40ddb660"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1075157,
+  "func": "void FUN_14067cab0(undefined8 param_1,void *param_2,longlong param_3)",
+  "sig": "2ClickBuy()",
+  "slot": "1mouseClickedBuySlot()",
+  "other_lits": [],
+  "hexes": [
+   "40ddb680"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1075798,
+  "func": "undefined4 FUN_14067e280(longlong param_1)",
+  "sig": "2beforeNavigate2(const QString&, bool&)",
+  "slot": "1beforeNavigate2Slot(const QString&, bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ddc3e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1075802,
+  "func": "undefined4 FUN_14067e280(longlong param_1)",
+  "sig": "2navigateComplete(const QString&)",
+  "slot": "1navigateCompleteSlot(const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40ddc438"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1076926,
+  "func": "void FUN_14067f8a0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotOpenSetting()",
+  "other_lits": [],
+  "hexes": [
+   "40ddd0c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1076985,
+  "func": "void FUN_14067f8a0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotCloseWnd()",
+  "other_lits": [],
+  "hexes": [
+   "40ddd118"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1077673,
+  "func": "void FUN_140680f90(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotShowSettingWnd()",
+  "other_lits": [],
+  "hexes": [
+   "40ddd9a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1077678,
+  "func": "void FUN_140680f90(QWidget *param_1)",
+  "sig": "2sigUpdateBlueContentWidth()",
+  "slot": "1slotUpdateBlueContentWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40ddd9d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1082847,
+  "func": "void FUN_14068b160(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotOpenSetting()",
+  "other_lits": [],
+  "hexes": [
+   "40ddf858"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1082889,
+  "func": "void FUN_14068b160(QWidget *param_1)",
+  "sig": "2sigUpdateBlueContentWidth()",
+  "slot": "1slotUpdateBlueContentWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40ddf898"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1082910,
+  "func": "void FUN_14068b160(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotCloseWnd()",
+  "other_lits": [],
+  "hexes": [
+   "40ddf8f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1083326,
+  "func": "void FUN_14068ca80(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotCloseWnd()",
+  "other_lits": [],
+  "hexes": [
+   "40de0720"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1085097,
+  "func": "void FUN_14068f760(longlong param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotSwitchClick()",
+  "other_lits": [],
+  "hexes": [
+   "40ddfe68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1085259,
+  "func": "void FUN_14068f760(longlong param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnChoseFiles()",
+  "other_lits": [],
+  "hexes": [
+   "40ddfee8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1085346,
+  "func": "void FUN_14068f760(longlong param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnChoseFiles()",
+  "other_lits": [],
+  "hexes": [
+   "40ddff50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1085676,
+  "func": "void FUN_14068f760(longlong param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnBrowser()",
+  "other_lits": [],
+  "hexes": [
+   "40de0028"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1085956,
+  "func": "void FUN_14068f760(longlong param_1)",
+  "sig": "2textChanged(const QString &)",
+  "slot": "1slotMailTextChange(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40de00c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1086201,
+  "func": "void FUN_14068f760(longlong param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnConfirmClick()",
+  "other_lits": [],
+  "hexes": [
+   "40de0188"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1086844,
+  "func": "void FUN_140693730(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotCloseWnd()",
+  "other_lits": [],
+  "hexes": [
+   "40de1660"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1087952,
+  "func": "void FUN_1406964f0(char *param_1)",
+  "sig": "2linkActivated(const QString &)",
+  "slot": "1onClickRetrySolt(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40de2430"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1090294,
+  "func": "void FUN_140699d40(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40de3880"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1090406,
+  "func": "void FUN_140699d40(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnOfflineClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40de3920"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1090642,
+  "func": "void FUN_14069bcd0(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1slotTimerUpdateProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40de39f8"
+  ],
+  "classes": [
+   "QTimer"
+  ]
+ },
+ {
+  "line": 1090680,
+  "func": "void FUN_14069bcd0(QObject *param_1)",
+  "sig": "2finished()",
+  "slot": "1slotDownloadThreadFinish()",
+  "other_lits": [],
+  "hexes": [
+   "40de3a28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1090682,
+  "func": "void FUN_14069bcd0(QObject *param_1)",
+  "sig": "2sigDownloadError()",
+  "slot": "1slotDownloadFailed()",
+  "other_lits": [],
+  "hexes": [
+   "40de3a58"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1093905,
+  "func": "void FUN_1406a0f40(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnNextClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40de5578"
+  ],
+  "classes": [
+   "QPushButton"
+  ]
+ },
+ {
+  "line": 1095216,
+  "func": "void FUN_1406a3410(QWidget *param_1)",
+  "sig": "2doDispatchMessage(int, void *, int&)",
+  "slot": "1onReceiveData(int, void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40de62c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1095945,
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnAutoRecover()",
+  "other_lits": [],
+  "hexes": [
+   "40de7c90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1096012,
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "sig": "2sigRefresh()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40de7cd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1096016,
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "sig": "2sigFinished()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40de7d00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1096062,
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "sig": "2sigAllFinished()",
+  "slot": "1slotDoAutoRecover()",
+  "other_lits": [],
+  "hexes": [
+   "40de7d20"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1096087,
+  "func": "void FUN_1406a5120(longlong param_1,undefined4 param_2)",
+  "sig": "2sigShowBuyGuide()",
+  "slot": "1slotShowBuyGuide()",
+  "other_lits": [],
+  "hexes": [
+   "40de7d50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1096542,
+  "func": "void FUN_1406a6a20(longlong *param_1)",
+  "sig": "2loopPlayed()",
+  "slot": "1onPlayGifFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40de7078"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1096659,
+  "func": "void FUN_1406a6f20(undefined8 param_1)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40de70a0"
+  ],
+  "classes": [
+   "CStopScanThread"
+  ]
+ },
+ {
+  "line": 1097419,
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)",
+  "sig": "2sigProgressUpdated(CProgressInfo)",
+  "slot": "1onProgressUpdated(CProgressInfo)",
+  "other_lits": [],
+  "hexes": [
+   "40de71c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1097682,
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40de72c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1097713,
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40de72f8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1097777,
+  "func": "void FUN_1406a70e0(QWidget *param_1,undefined8 param_2)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40de7328"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1098534,
+  "func": "void FUN_1406aaa30(QObject *param_1)",
+  "sig": "2sigIsStopping(bool&)",
+  "slot": "1onIsStopping(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40de7878"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1098537,
+  "func": "void FUN_1406aaa30(QObject *param_1)",
+  "sig": "2finished()",
+  "slot": "1onStopThreadFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40de78a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1101630,
+  "func": "void FUN_1406b1c70(longlong param_1,double param_2,char param_3)",
+  "sig": "2clicked()",
+  "slot": "1onRecovery()",
+  "other_lits": [],
+  "hexes": [
+   "40de6f28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106046,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigChangeTreeView(bool)",
+  "slot": "1onTreeViewChange(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40deb640"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106058,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1setHidden(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40deb690"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106143,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigListIconChanged(int)",
+  "slot": "2sigListIconChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40deb6d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106147,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigSwitchSearch(int)",
+  "slot": "1setCurrentIndex(int)",
+  "other_lits": [],
+  "hexes": [
+   "40deb718"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106151,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "2sigShowSearch(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40deb748"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106155,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigClearSearch()",
+  "slot": "1onAutoSelect()",
+  "other_lits": [],
+  "hexes": [
+   "40deb778"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106159,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigClearSearch()",
+  "slot": "1onHideNoResult()",
+  "other_lits": [],
+  "hexes": [
+   "40deb7a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106163,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigShowFilterBar(bool)",
+  "slot": "2sigShowFilterBar(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40deb7d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106167,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigSwitchNavigate(bool,bool)",
+  "slot": "1onSwitch2Search(bool,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40deb800"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106171,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigIsFilterBtnToggled(bool&)",
+  "slot": "1IsFilterBtnToggled(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40deb840"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106177,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigAboutToGrabPixmap()",
+  "slot": "1shotscreenForFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40deb880"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106181,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigValueChanged(bool,int,bool,QVariant)",
+  "slot": "1clearFilter()",
+  "other_lits": [],
+  "hexes": [
+   "40deb8b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106186,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigValueChanged(bool,int,bool,QVariant)",
+  "slot": "1clearFilter()",
+  "other_lits": [],
+  "hexes": [
+   "40deb8f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106191,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigFilterChange(const AdvanceFilterCondition&,bool,bool)",
+  "slot": "1slotUpdateCount(const AdvanceFilterCondition&)",
+  "other_lits": [],
+  "hexes": [
+   "40deb930"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106197,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigFilterChange(const AdvanceFilterCondition&,bool,bool)",
+  "slot": "1slotUpdateCount(const AdvanceFilterCondition&)",
+  "other_lits": [],
+  "hexes": [
+   "40deb9a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106203,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigClearSearchFilter()",
+  "slot": "1slotClearSearchFilter()",
+  "other_lits": [],
+  "hexes": [
+   "40deba10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106207,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigLeftTreeClickTag(bool)",
+  "slot": "1onCloseExpendFilterBtn(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40deba48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106211,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigFilterNltSearchClicked()",
+  "slot": "1onFilterNltClickedSearch()",
+  "other_lits": [],
+  "hexes": [
+   "40deba88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106215,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigUpdateNavigateBarPath(const QString&, const QString&)",
+  "slot": "1onUpdateRootPathName(const QString&, const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40debac8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106220,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigGetRightIndex(int&, int&)",
+  "slot": "1onGetRightIndex(int&, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40debb40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106224,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigSelectRightIndex(int, int)",
+  "slot": "1onSelectRightIndex(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40debb80"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106476,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40debc00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106484,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigScanFinished()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40debc28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106490,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigScanFinished()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40debc50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106493,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigIsStopping(bool&)",
+  "slot": "2sigIsStopping(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40debc78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106498,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigIsStopping(bool&)",
+  "slot": "2sigIsStopping(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40debca8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106503,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigLoadFinished(bool)",
+  "slot": "1onLoadScanRetFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40debcd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106508,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigSwitchNavigate(bool,bool)",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40debd10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106513,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigLoadFinished(bool)",
+  "slot": "1onFinished(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40debd40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106538,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigScanFinished()",
+  "slot": "2sigScanFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40debd70"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106543,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigQuickScanFinished(int)",
+  "slot": "1onQuickScanCompleted(int)",
+  "other_lits": [],
+  "hexes": [
+   "40debda0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106548,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigIsSearch(bool&)",
+  "slot": "1onIsSearch(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40debde0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106553,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigShowAutoRecoverBtn()",
+  "slot": "1slotShowAutoRecover()",
+  "other_lits": [],
+  "hexes": [
+   "40debe10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106557,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigRecoverBtnClicked()",
+  "slot": "1onBtnRecoverAllClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40debe48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106562,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigClearTreeModel()",
+  "slot": "1clearTreeModel()",
+  "other_lits": [],
+  "hexes": [
+   "40debe80"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106566,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigFilterFinished()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40debeb0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106571,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigSearchResetSort()",
+  "slot": "1slotResetSearchSort()",
+  "other_lits": [],
+  "hexes": [
+   "40debed8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106575,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2sigQuickScanFinished(int)",
+  "slot": "1onQuickScanCompleted(int)",
+  "other_lits": [],
+  "hexes": [
+   "40debf08"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106595,
+  "func": "undefined8 FUN_1406b86d0(void)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40debf48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106924,
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "sig": "2sigIsStopping(bool&)",
+  "slot": "2sigIsStopping(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40de9c50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106928,
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "sig": "2sigIsStopping(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40de9c80"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106933,
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "sig": "2sigIsStopping(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40de9cb8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106936,
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "sig": "2sigIsStopping(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40de9ce8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106951,
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "sig": "2sigBeforeFreeze()",
+  "slot": "1onBeforeFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40de9d18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1106954,
+  "func": "void FUN_1406bb8c0(QWidget *param_1,char param_2)",
+  "sig": "2finished()",
+  "slot": "1accept()",
+  "other_lits": [],
+  "hexes": [
+   "40de9d50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107085,
+  "func": "void FUN_1406bbeb0(longlong param_1,char param_2)",
+  "sig": "2sigFilterChange(const AdvanceFilterCondition&,bool,bool)",
+  "slot": "1onFilterChanged(const AdvanceFilterCondition&)",
+  "other_lits": [],
+  "hexes": [
+   "40deb390"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107089,
+  "func": "void FUN_1406bbeb0(longlong param_1,char param_2)",
+  "sig": "2sigFilterChange(const AdvanceFilterCondition&,bool,bool)",
+  "slot": "1onFilterChanged(const AdvanceFilterCondition&)",
+  "other_lits": [],
+  "hexes": [
+   "40deb400"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107123,
+  "func": "void FUN_1406bbfe0(char *param_1)",
+  "sig": "2sigResize(const QPoint&)",
+  "slot": "1slotMoveNasErrorTips(const QPoint&)",
+  "other_lits": [],
+  "hexes": [
+   "40deb550"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107126,
+  "func": "void FUN_1406bbfe0(char *param_1)",
+  "sig": "2sigWndShow(bool)",
+  "slot": "1slotNasNetTipsShow(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40deb598"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107894,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigTreeNodeTypeChanged(bool)",
+  "slot": "1onTreeNodeTypeChanged(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40de9de8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107897,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1onSwitch2Search(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40de9e28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107900,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1onSwitch2Search(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40de9e58"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107903,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1onShowSearch(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40de9e88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107906,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigNodeSelEx(const QModelIndex&, CFileNode*)",
+  "slot": "1onFileNodeChanged(const QModelIndex &, CFileNode*)",
+  "other_lits": [],
+  "hexes": [
+   "40de9eb8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107910,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigShowOrHideGuideWnd(bool)",
+  "slot": "1slotShowActivateBtn(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40de9f20"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107913,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigRecoverAll()",
+  "slot": "1onRecovery()",
+  "other_lits": [],
+  "hexes": [
+   "40de9f60"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107917,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigCheckRecoverAll()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40de9f90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1107921,
+  "func": "void FUN_1406bd630(char *param_1)",
+  "sig": "2sigCheckRecoverAll()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40de9fb8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108051,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1setHidden(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dea8e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108054,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigBeforeFreeze()",
+  "slot": "1onBeforeFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40dea938"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108057,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigBeforeFreeze()",
+  "slot": "1onBeforeFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40dea968"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108060,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigFreezeDone()",
+  "slot": "1onFreezeDone()",
+  "other_lits": [],
+  "hexes": [
+   "40dea998"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108063,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigRefresh(bool)",
+  "slot": "1onCheckFinished(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dea9c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108066,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigRefresh()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40dea9f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108070,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigNodeSel(const QModelIndex&)",
+  "slot": "1onAutoSelect()",
+  "other_lits": [],
+  "hexes": [
+   "40deaa10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108077,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigNodeSel(const QModelIndex&)",
+  "slot": "1onAddressChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40deaa90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108081,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigBeforeClick()",
+  "slot": "1onBeforeClick()",
+  "other_lits": [],
+  "hexes": [
+   "40deaac8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108084,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigRefresh()",
+  "slot": "1onDoUpdateNewListUI()",
+  "other_lits": [],
+  "hexes": [
+   "40deaaf8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108087,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigRecoverAll()",
+  "slot": "1onRecovery()",
+  "other_lits": [],
+  "hexes": [
+   "40deab20"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108091,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigCheckRecoverAll()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40deab48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1108095,
+  "func": "void FUN_1406bd930(QObject *param_1)",
+  "sig": "2sigGetRightIndex(int&, int&)",
+  "slot": "1onGetRightIndex(int&, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40deab70"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1109986,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigRefresh()",
+  "slot": "1onCheckFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40deb148"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1109994,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2modelReset()",
+  "slot": "1onAddressChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40deb198"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1109998,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigRefresh()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40deb1e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110005,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigResetStartIdx(int)",
+  "slot": "1onPreviewChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40deb250"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110011,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigNodeSel(const QModelIndex&)",
+  "slot": "1onFileNodeChanged(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40deb2c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110017,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigAddressChanged()",
+  "slot": "1onRefreshData()",
+  "other_lits": [],
+  "hexes": [
+   "40deb340"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110022,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigRefresh()",
+  "slot": "1onCheckFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40deaef0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110029,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2modelReset()",
+  "slot": "1onAddressChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40deaf40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110034,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigRefresh()",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40deaf90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110040,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigResetStartIdx(int)",
+  "slot": "1onPreviewChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40deafd0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110046,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigNodeSel(const QModelIndex&)",
+  "slot": "1onFileNodeChanged(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40deb030"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110053,
+  "func": "void FUN_1406c1b30(longlong param_1,char param_2)",
+  "sig": "2sigAddressChanged()",
+  "slot": "1onRefreshData()",
+  "other_lits": [],
+  "hexes": [
+   "40deb0c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110542,
+  "func": "void FUN_1406c2fc0(char *param_1,undefined8 param_2)",
+  "sig": "2sigCloseWaitDialog()",
+  "slot": "1accept()",
+  "other_lits": [],
+  "hexes": [
+   "40debf98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1110579,
+  "func": "void FUN_1406c2fc0(char *param_1,undefined8 param_2)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1slotResizeFilterTips()",
+  "other_lits": [],
+  "hexes": [
+   "40debfc0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1115158,
+  "func": "FUN_1406caad0(undefined8 *param_1,undefined1 *param_2,undefined8 param_3,undefined8 *param_4)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40dee1b0"
+  ],
+  "classes": [
+   "CGoHomeThread"
+  ]
+ },
+ {
+  "line": 1135881,
+  "func": "void FUN_1406ee950(longlong param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4,",
+  "sig": "2sigClicked(int)",
+  "slot": "1onItemClickedSolt(int)",
+  "other_lits": [],
+  "hexes": [
+   "40df3878"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1136003,
+  "func": "void FUN_1406eedb0(QObject *param_1)",
+  "sig": "2sigValueChanged(int)",
+  "slot": "1onMenuChangedSolt(int)",
+  "other_lits": [],
+  "hexes": [
+   "40df32a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1136008,
+  "func": "void FUN_1406eedb0(QObject *param_1)",
+  "sig": "2sigClickedClose()",
+  "slot": "1onMenudHide()",
+  "other_lits": [],
+  "hexes": [
+   "40df3300"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1142543,
+  "func": "void FUN_1406f95a0(longlong param_1,int param_2)",
+  "sig": "2sigBtnPressed()",
+  "slot": "1onBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40df63f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1142708,
+  "func": "void FUN_1406f9cf0(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40df64b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1142847,
+  "func": "void FUN_1406f9cf0(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)",
+  "sig": "2stateChanged(int)",
+  "slot": "1onActionChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40df6580"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1143332,
+  "func": "void FUN_1406fb270(char *param_1,char param_2)",
+  "sig": "2sigUpdateCount(int)",
+  "slot": "1slotUpdateCount(int)",
+  "other_lits": [],
+  "hexes": [
+   "40df6b50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1144481,
+  "func": "void FUN_1406fda00(QObject *param_1,char param_2)",
+  "sig": "2stateChanged(int)",
+  "slot": "1onActionChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40df6a78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1144966,
+  "func": "void FUN_1406fe420(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)",
+  "sig": "2doDispatchMessage(int, void *, int&)",
+  "slot": "1onReceiveData(int, void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40df6bd0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1145206,
+  "func": "void FUN_1406fe420(QPushButton *param_1,QString *param_2,int param_3,QString *param_4)",
+  "sig": "2stateChanged(int)",
+  "slot": "1onActionChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40df6cc8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1145260,
+  "func": "undefined8 FUN_1406ff1f0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "2sigCustom()",
+  "other_lits": [],
+  "hexes": [
+   "40df6d10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1145262,
+  "func": "undefined8 FUN_1406ff1f0(char *param_1)",
+  "sig": "2returnPressed()",
+  "slot": "2sigCustom()",
+  "other_lits": [],
+  "hexes": [
+   "40df6d30"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1145711,
+  "func": "void FUN_1406ffe00(longlong param_1)",
+  "sig": "2sigDateChanged(const QDate &)",
+  "slot": "2sigCustom()",
+  "other_lits": [],
+  "hexes": [
+   "40df6e38"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1147706,
+  "func": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)",
+  "sig": "2sigValueChanged(bool,int,bool,QVariant)",
+  "slot": "1onValueChanged(bool,int,bool,QVariant)",
+  "other_lits": [],
+  "hexes": [
+   "40df7110"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1147709,
+  "func": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)",
+  "sig": "2sigCustom()",
+  "slot": "1onCustom()",
+  "other_lits": [],
+  "hexes": [
+   "40df7170"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1147713,
+  "func": "void FUN_140704740(char *param_1,longlong *param_2,undefined8 param_3)",
+  "sig": "2sigMenuHide()",
+  "slot": "1onMenuHide()",
+  "other_lits": [],
+  "hexes": [
+   "40df7198"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1147939,
+  "func": "void FUN_140704c10(QObject *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClickReset()",
+  "other_lits": [],
+  "hexes": [
+   "40df7220"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1148584,
+  "func": "void FUN_140706aa0(QObject *param_1,QObject *param_2,char param_3)",
+  "sig": "2sigValueChanged(bool,int,bool,QVariant)",
+  "slot": "1onValueChanged(bool,int,bool,QVariant)",
+  "other_lits": [],
+  "hexes": [
+   "40df62d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1149180,
+  "func": "void FUN_1407077b0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClose()",
+  "other_lits": [],
+  "hexes": [
+   "40df6f98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1149199,
+  "func": "void FUN_1407077b0(QWidget *param_1)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40df6fc8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1154245,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2buttonClicked(int)",
+  "slot": "1onBtnClicked(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfaa70"
+  ],
+  "classes": [
+   "QButtonGroup"
+  ]
+ },
+ {
+  "line": 1154446,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2buttonClicked(int)",
+  "slot": "1onBtnClicked(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfaae8"
+  ],
+  "classes": [
+   "QButtonGroup"
+  ]
+ },
+ {
+  "line": 1154542,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2clicked()",
+  "slot": "1onIconListBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40dfab98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1154588,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2toggled(bool)",
+  "slot": "2sigShowFilterBar(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfac00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1154608,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2toggled(bool)",
+  "slot": "1setVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfac40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1154698,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2toggled(bool)",
+  "slot": "1setVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfaca8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1154702,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2toggled(bool)",
+  "slot": "2sigShowFilterBar(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfacd0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1154712,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1onPageChange(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfad18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1154729,
+  "func": "void FUN_14070efb0(void)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfad48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1155293,
+  "func": "void FUN_140711b20(QObject *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onSearchBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40df9fd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1155318,
+  "func": "void FUN_140711b20(QObject *param_1)",
+  "sig": "2textEdited(const QString &)",
+  "slot": "1onSearchEditChanged(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40dfa000"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1155321,
+  "func": "void FUN_140711b20(QObject *param_1)",
+  "sig": "2textChanged(const QString &)",
+  "slot": "1onSearchTextChanged(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40dfa048"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1155324,
+  "func": "void FUN_140711b20(QObject *param_1)",
+  "sig": "2sigFocusOut()",
+  "slot": "1onSearchFocusout()",
+  "other_lits": [],
+  "hexes": [
+   "40dfa090"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1156411,
+  "func": "void FUN_140714250(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,",
+  "sig": "2sigMouseEnter()",
+  "slot": "1onBtnMouseEnter()",
+  "other_lits": [],
+  "hexes": [
+   "40df9f08"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1156429,
+  "func": "void FUN_140714250(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,",
+  "sig": "2sigTranslate(int)",
+  "slot": "1onBtnTranslate(int)",
+  "other_lits": [],
+  "hexes": [
+   "40df9f40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1157118,
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "sig": "2finished()",
+  "slot": "2sigAddressChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40dfa5a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1157120,
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "sig": "2finished()",
+  "slot": "1onAddressChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40dfa5c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1157122,
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "sig": "2finished()",
+  "slot": "2sigSearchResetSort()",
+  "other_lits": [],
+  "hexes": [
+   "40dfa5f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1157124,
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "sig": "2sigGetListIndex(int&, int&)",
+  "slot": "2sigGetRightIndex(int&, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfa618"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1157127,
+  "func": "void FUN_140715f20(QObject *param_1,int param_2)",
+  "sig": "2sigSelectRightIndex(int, int)",
+  "slot": "2sigSelectRightIndex(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfa658"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1157820,
+  "func": "void FUN_140717830(QObject *param_1)",
+  "sig": "2sigNasPathItemClicked(const QString&)",
+  "slot": "1slotNasReconnectVolume(const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfa728"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1157826,
+  "func": "void FUN_140717830(QObject *param_1)",
+  "sig": "2sigCloseNotify()",
+  "slot": "1slotNasVolumeMenuClose()",
+  "other_lits": [],
+  "hexes": [
+   "40dfa7b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1158869,
+  "func": "longlong FUN_140718f20(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40dee1b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1160694,
+  "func": "undefined8 FUN_14071b770(undefined8 param_1)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfcb28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1160718,
+  "func": "undefined8 FUN_14071b770(undefined8 param_1)",
+  "sig": "2clicked()",
+  "slot": "1onHandleBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40dfcb98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1160850,
+  "func": "undefined8 FUN_14071b770(undefined8 param_1)",
+  "sig": "2clicked()",
+  "slot": "1onPreview()",
+  "other_lits": [],
+  "hexes": [
+   "40dfcc30"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163476,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigRefresh(bool)",
+  "slot": "1OnSinkRefresh(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd388"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163480,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigRefreshRoot()",
+  "slot": "1OnSinkRefreshRoot()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd3b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163484,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigRefreshLeftTree()",
+  "slot": "1onAutoSelect()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd3e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163531,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigShowRlt(int)",
+  "slot": "1onShowNoResult(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd410"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163549,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd448"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163574,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd470"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163577,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigFilterChange(const AdvanceFilterCondition&,bool,bool, bool)",
+  "slot": "1onFilterChanged(const AdvanceFilterCondition&,bool,bool,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd4a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163582,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigFilterChange(const AdvanceFilterCondition&,bool,bool, bool)",
+  "slot": "1onFilterChanged(const AdvanceFilterCondition&,bool,bool,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd520"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163587,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1onShowFilterBar(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd5a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163655,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigTabChange(int)",
+  "slot": "1onClassifyTabChange(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd5d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163659,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigItemClicked(int)",
+  "slot": "1onTabGroupClicked(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd608"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163662,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigClassifyChange(int)",
+  "slot": "1onClassifyClassChange(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd638"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163665,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigClassifyType(int)",
+  "slot": "1onClassifyTypeChange(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd670"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163668,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigSortMenu(int, bool)",
+  "slot": "1onSortMenu(int, bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd6a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163671,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigCheckBox(int)",
+  "slot": "1onClassifyCheckBoxChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd6d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163674,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigCheckBoxClicked(int)",
+  "slot": "1onCheckBoxChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfd710"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163679,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigDoBeforeFreeze()",
+  "slot": "1OnSinkDoBeforeFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd748"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163684,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigScanFinished()",
+  "slot": "1OnSinkDoBeforeFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd778"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163687,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigStopFreshTimer()",
+  "slot": "1onStopFreshTimer()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd7a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163692,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigScanFinished()",
+  "slot": "1onScanFinishRefreshUI()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd7d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1163697,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigScanFinished()",
+  "slot": "1onDoAutoRecover()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd810"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164123,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigBtnSearchClicked()",
+  "slot": "2sigFilterNltSearchClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd910"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164163,
+  "func": "void FUN_140720f30(QAbstractButton *param_1,QEvent *param_2)",
+  "sig": "2sigShowRlt(int)",
+  "slot": "1retranslate()",
+  "other_lits": [],
+  "hexes": [
+   "40dfd948"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164575,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigHeaderColText(QStringList&)",
+  "slot": "1onGetSectionText(QStringList&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfdba0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164579,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2modelReset()",
+  "slot": "1onRefreshIconViewSelectAll()",
+  "other_lits": [],
+  "hexes": [
+   "40dfdbe0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164581,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigClickLeftTree(bool)",
+  "slot": "1onLeftTreeClickTag(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfdc10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164595,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigInsertFinish()",
+  "slot": "1slotListInsertFinish()",
+  "other_lits": [],
+  "hexes": [
+   "40dfdc48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164616,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigHeaderColText(QStringList&)",
+  "slot": "1onGetSectionText(QStringList&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfdc78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164620,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2modelReset()",
+  "slot": "1onRefreshIconViewSelectAll()",
+  "other_lits": [],
+  "hexes": [
+   "40dfdcb8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164622,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigClickLeftTree(bool)",
+  "slot": "1onLeftTreeClickTag(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfdce8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164636,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigInsertFinish()",
+  "slot": "1slotListInsertFinish()",
+  "other_lits": [],
+  "hexes": [
+   "40dfdd20"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164650,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onRefreshRightTimeout()",
+  "other_lits": [],
+  "hexes": [
+   "40dfdd50"
+  ],
+  "classes": [
+   "QTimer"
+  ]
+ },
+ {
+  "line": 1164658,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigDoBeforeFreeze()",
+  "slot": "1onScanFinish()",
+  "other_lits": [],
+  "hexes": [
+   "40dfdd80"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164663,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigScanFinished()",
+  "slot": "1onScanFinish()",
+  "other_lits": [],
+  "hexes": [
+   "40dfdda8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164665,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigGetRightIndex(int&, int&)",
+  "slot": "1onGetRightIndex(int&, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfddd0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164668,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigGetRightIndex(int&, int&)",
+  "slot": "1onGetRightIndex(int&, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfde10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164671,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigSelectRightIndex(int, int)",
+  "slot": "1onSelectRightIndex(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfde50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1164674,
+  "func": "void FUN_1407244a0(QObject *param_1)",
+  "sig": "2sigSelectRightIndex(int, int)",
+  "slot": "1onSelectRightIndex(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfde90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1165013,
+  "func": "void FUN_140725780(QObject *param_1,undefined8 param_2)",
+  "sig": "2timeout()",
+  "slot": "1onCheckVideoTips()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe760"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1165015,
+  "func": "void FUN_140725780(QObject *param_1,undefined8 param_2)",
+  "sig": "2sigClose()",
+  "slot": "1onCloseVideoTips()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe788"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1165125,
+  "func": "void FUN_140725ae0(QObject *param_1,char param_2)",
+  "sig": "2sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe840"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1165134,
+  "func": "void FUN_140725ae0(QObject *param_1,char param_2)",
+  "sig": "2sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe7e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1166836,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigCloseWnd()",
+  "slot": "1slotTagTipsClose()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe278"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167048,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2clicked()",
+  "slot": "1onHeaderSelectAll()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe2e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167051,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigCanClicked(bool&)",
+  "slot": "1onSelectAllCanClicked(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe310"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167250,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2clicked()",
+  "slot": "1onClassifyHeaderSelectAll()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe3b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167253,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigCanClicked(bool&)",
+  "slot": "1onSelectAllCanClicked(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe3e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167324,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigDataType(int&)",
+  "slot": "1onGetDataType(int&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe430"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167329,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigDataType(int&)",
+  "slot": "1onGetDataType(int&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe460"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167336,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigSelectAll()",
+  "slot": "1onHeaderSelectAll()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe490"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167343,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigSelectAll()",
+  "slot": "1onClassifyHeaderSelectAll()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe4b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167348,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigShowSearch(bool)",
+  "slot": "1onRefreshIconViewSelectAll()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe4e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167353,
+  "func": "void FUN_140728bf0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2sigListIconChanged(int)",
+  "slot": "1onIconListSwitch(int)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe520"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167916,
+  "func": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)",
+  "sig": "2sigFinished(bool)",
+  "slot": "1onFilterFinished(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe6d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167923,
+  "func": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)",
+  "sig": "2finished()",
+  "slot": "1accept()",
+  "other_lits": [],
+  "hexes": [
+   "40dfe680"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1167926,
+  "func": "void FUN_14072b730(char *param_1,undefined1 *param_2,char param_3,char param_4,char param_5)",
+  "sig": "2sigFilterFreezeFinished(bool)",
+  "slot": "1onFilterFinished(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe6a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1168401,
+  "func": "void FUN_14072c6a0(QWidget *param_1)",
+  "sig": "2sigIsStopping(bool&)",
+  "slot": "2sigIsStopping(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe248"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1168429,
+  "func": "void FUN_14072c850(QObject *param_1,char param_2)",
+  "sig": "2sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe620"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1168438,
+  "func": "void FUN_14072c850(QObject *param_1,char param_2)",
+  "sig": "2sigShowFilterBar(bool)",
+  "slot": "1setVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40dfe5c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1170581,
+  "func": "void FUN_140730150(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotCloseWnd()",
+  "other_lits": [],
+  "hexes": [
+   "40e00658"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1170584,
+  "func": "void FUN_140730150(QWidget *param_1)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40e00678"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1171589,
+  "func": "void FUN_140732ac0(QObject *param_1)",
+  "sig": "2linkActivated(const QString &)",
+  "slot": "1onClickContactsupport(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40e00cb0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1171832,
+  "func": "void FUN_140733110(QObject *param_1)",
+  "sig": "2linkActivated(const QString &)",
+  "slot": "1onClickContactsupport(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40e013d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1172011,
+  "func": "undefined8 FUN_140733490(undefined8 param_1,undefined8 param_2)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40e00a00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1173692,
+  "func": "void FUN_140735790(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnLearnMore()",
+  "other_lits": [],
+  "hexes": [
+   "40e022b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1173726,
+  "func": "void FUN_140735790(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnGotIt()",
+  "other_lits": [],
+  "hexes": [
+   "40e022f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1173758,
+  "func": "void FUN_140735790(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e02328"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1175113,
+  "func": "int FUN_140738b80(QPushButton *param_1)",
+  "sig": "2sigClicked(int)",
+  "slot": "1onItemClickedSolt(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e03210"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1175422,
+  "func": "void FUN_14073a270(QObject *param_1,int param_2)",
+  "sig": "2sigValueChanged(int, bool)",
+  "slot": "1onMenuItemChanged(int,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e033b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1175428,
+  "func": "void FUN_14073a270(QObject *param_1,int param_2)",
+  "sig": "2sigClickedClose()",
+  "slot": "1onMenuClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e03418"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1175633,
+  "func": "void FUN_14073a6f0(char *param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4,",
+  "sig": "2sigClicked(int)",
+  "slot": "1onItemClickedSolt(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e03248"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1178710,
+  "func": "void FUN_14073fee0(undefined8 param_1)",
+  "sig": "2released()",
+  "slot": "1onUserClosedWnd()",
+  "other_lits": [],
+  "hexes": [
+   "40e04278"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1179970,
+  "func": "void FUN_140742060(undefined8 param_1,undefined4 param_2)",
+  "sig": "2doDispatchMessage(int, void *, int&)",
+  "slot": "1onReceiveData(int, void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40e056b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1221124,
+  "func": "void FUN_140786930(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1trimOnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e124c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1221127,
+  "func": "void FUN_140786930(QWidget *param_1)",
+  "sig": "2refreshClicked()",
+  "slot": "1click_refresh()",
+  "other_lits": [],
+  "hexes": [
+   "40e124f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1221130,
+  "func": "void FUN_140786930(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1click_support()",
+  "other_lits": [],
+  "hexes": [
+   "40e12520"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1221133,
+  "func": "void FUN_140786930(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1click_info()",
+  "other_lits": [],
+  "hexes": [
+   "40e12548"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1223828,
+  "func": "void FUN_14078b4a0(QWidget *param_1)",
+  "sig": "2sigBtnClicked()",
+  "slot": "1onLearnMoreBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e13a80"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1299229,
+  "func": "void FUN_140813f60(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e2d0a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1299306,
+  "func": "void FUN_140813f60(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnRefreshClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e2d100"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1299339,
+  "func": "void FUN_140813f60(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnOfflineClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e2d148"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1299603,
+  "func": "void FUN_140815960(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1slotTimerUpdateProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e2c920"
+  ],
+  "classes": [
+   "QTimer"
+  ]
+ },
+ {
+  "line": 1299642,
+  "func": "void FUN_140815960(QObject *param_1)",
+  "sig": "2finished()",
+  "slot": "1slotDownloadThreadFinish()",
+  "other_lits": [],
+  "hexes": [
+   "40e2c950"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1299645,
+  "func": "void FUN_140815960(QObject *param_1)",
+  "sig": "2sigDownloadError()",
+  "slot": "1slotDownloadFailed()",
+  "other_lits": [],
+  "hexes": [
+   "40e2c980"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1301274,
+  "func": "void FUN_1408194b0(longlong param_1)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40e2dd18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1302253,
+  "func": "void FUN_14081abc0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnBackClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e2dd88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1302285,
+  "func": "void FUN_14081abc0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnConnectClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e2ddc8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1302306,
+  "func": "void FUN_14081abc0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e2de18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1302380,
+  "func": "void FUN_14081abc0(QWidget *param_1)",
+  "sig": "2timeout()",
+  "slot": "1slotTimerCheckConnectState()",
+  "other_lits": [],
+  "hexes": [
+   "40e2de58"
+  ],
+  "classes": [
+   "QTimer"
+  ]
+ },
+ {
+  "line": 1303063,
+  "func": "void FUN_14081d5a0(char *param_1)",
+  "sig": "2sigCancelRet(bool)",
+  "slot": "1slotOnCancelRet(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e2deb8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1303229,
+  "func": "void FUN_14081d6d0(QWidget *param_1,char param_2)",
+  "sig": "2sigConnectRet(int)",
+  "slot": "1slotOnConnectRet(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e2dee8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1305750,
+  "func": "void FUN_140822080(char *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "other_lits": [],
+  "hexes": [
+   "40e2d8b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1305855,
+  "func": "void FUN_140822080(char *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "other_lits": [],
+  "hexes": [
+   "40e2d930"
+  ],
+  "classes": [
+   "QRegExpValidator"
+  ]
+ },
+ {
+  "line": 1305932,
+  "func": "void FUN_140822080(char *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "other_lits": [],
+  "hexes": [
+   "40e2d990"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1306010,
+  "func": "void FUN_140822080(char *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "other_lits": [],
+  "hexes": [
+   "40e2d9f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1306060,
+  "func": "void FUN_140822080(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnChangePwdState()",
+  "other_lits": [],
+  "hexes": [
+   "40e2da30"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1310503,
+  "func": "void FUN_14082bd20(char *param_1)",
+  "sig": "2sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e2fea0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1310506,
+  "func": "void FUN_14082bd20(char *param_1)",
+  "sig": "2sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "other_lits": [],
+  "hexes": [
+   "40e2fed0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1310509,
+  "func": "void FUN_14082bd20(char *param_1)",
+  "sig": "2sigEnableWidget(bool)",
+  "slot": "2sigEnableWidget(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e2ff00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1310543,
+  "func": "void FUN_14082bd20(char *param_1)",
+  "sig": "2sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "other_lits": [],
+  "hexes": [
+   "40e2ff30"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1310546,
+  "func": "void FUN_14082bd20(char *param_1)",
+  "sig": "2sigAutoConnect()",
+  "slot": "1slotAutoConnect()",
+  "other_lits": [],
+  "hexes": [
+   "40e2ff60"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1314000,
+  "func": "void FUN_140833f10(char *param_1)",
+  "sig": "2refreshFinished()",
+  "slot": "1accept()",
+  "other_lits": [],
+  "hexes": [
+   "40e318f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1314668,
+  "func": "void FUN_1408351a0(QStackedWidget *param_1)",
+  "sig": "2finished()",
+  "slot": "1deviceEnumFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40e31cc8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1314671,
+  "func": "void FUN_1408351a0(QStackedWidget *param_1)",
+  "sig": "2startScanDevice(const ScanDeviceInfo&)",
+  "slot": "1scanClickedSlot(const ScanDeviceInfo&)",
+  "other_lits": [],
+  "hexes": [
+   "40e31cf0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1314675,
+  "func": "void FUN_1408351a0(QStackedWidget *param_1)",
+  "sig": "2sigScanNasDevice(IStorageDevice*)",
+  "slot": "1scanClickedSlot(IStorageDevice*)",
+  "other_lits": [],
+  "hexes": [
+   "40e31d40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1314856,
+  "func": "void FUN_140835910(QStackedWidget *param_1)",
+  "sig": "2sigScanFinished()",
+  "slot": "2sigScanFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40e31d90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1316982,
+  "func": "void FUN_140839630(char *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onQuit()",
+  "other_lits": [],
+  "hexes": [
+   "40e33da0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1317017,
+  "func": "void FUN_140839630(char *param_1)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40e33dc0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1320667,
+  "func": "void FUN_1408412c0(QWidget *param_1)",
+  "sig": "2itemClicked(const quint64)",
+  "slot": "1titleBarItemClicked(const quint64)",
+  "other_lits": [],
+  "hexes": [
+   "40e32910"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1320670,
+  "func": "void FUN_1408412c0(QWidget *param_1)",
+  "sig": "2sigEnterOrLeaveTitleButton(const quint64, bool )",
+  "slot": "1enterOrLeaveTitleButton(const quint64, bool )",
+  "other_lits": [],
+  "hexes": [
+   "40e32958"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1320674,
+  "func": "void FUN_1408412c0(QWidget *param_1)",
+  "sig": "2currentChanged(int)",
+  "slot": "1currentShowPageChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e329c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1320677,
+  "func": "void FUN_1408412c0(QWidget *param_1)",
+  "sig": "2sigScanFinished()",
+  "slot": "1scanFreezeFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40e329f8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1323020,
+  "func": "void FUN_140846e70(QWidget *param_1)",
+  "sig": "2sigUpdateTaskBarProgress(int)",
+  "slot": "1setValue(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e33730"
+  ],
+  "classes": [
+   "QWinTaskbarButton"
+  ]
+ },
+ {
+  "line": 1323023,
+  "func": "void FUN_140846e70(QWidget *param_1)",
+  "sig": "2sigUpdateTaskBarProgress(int)",
+  "slot": "1show()",
+  "other_lits": [],
+  "hexes": [
+   "40e33760"
+  ],
+  "classes": [
+   "QWinTaskbarButton"
+  ]
+ },
+ {
+  "line": 1323026,
+  "func": "void FUN_140846e70(QWidget *param_1)",
+  "sig": "2sigTaskBarStop()",
+  "slot": "1hide()",
+  "other_lits": [],
+  "hexes": [
+   "40e33788"
+  ],
+  "classes": [
+   "QWinTaskbarButton"
+  ]
+ },
+ {
+  "line": 1323029,
+  "func": "void FUN_140846e70(QWidget *param_1)",
+  "sig": "2sigTaskBarResume()",
+  "slot": "1resume()",
+  "other_lits": [],
+  "hexes": [
+   "40e337a8"
+  ],
+  "classes": [
+   "QWinTaskbarButton"
+  ]
+ },
+ {
+  "line": 1323032,
+  "func": "void FUN_140846e70(QWidget *param_1)",
+  "sig": "2sigTaskBarResume()",
+  "slot": "1hide()",
+  "other_lits": [],
+  "hexes": [
+   "40e337d0"
+  ],
+  "classes": [
+   "QWinTaskbarButton"
+  ]
+ },
+ {
+  "line": 1323035,
+  "func": "void FUN_140846e70(QWidget *param_1)",
+  "sig": "2sigTaskBarPaused(bool)",
+  "slot": "1setPaused(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e337f0"
+  ],
+  "classes": [
+   "QWinTaskbarButton"
+  ]
+ },
+ {
+  "line": 1329235,
+  "func": "undefined8 FUN_140851780(longlong param_1)",
+  "sig": "2textChanged(const QString&)",
+  "slot": "1refreshTipText(const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40e36068"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1329547,
+  "func": "int FUN_140852300(QDialog *param_1)",
+  "sig": "2initFinished()",
+  "slot": "1accept()",
+  "other_lits": [],
+  "hexes": [
+   "40e36228"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1329697,
+  "func": "void FUN_140852830(QWidget *param_1,QPaintEvent *param_2)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40e362c0"
+  ],
+  "classes": [
+   "InitThread"
+  ]
+ },
+ {
+  "line": 1340712,
+  "func": "void FUN_140864c10(QWidget *param_1)",
+  "sig": "2sigClickScan(const NasDeviceInfo&)",
+  "slot": "1slotClickScan(const NasDeviceInfo&)",
+  "other_lits": [],
+  "hexes": [
+   "40e3a018"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1340716,
+  "func": "void FUN_140864c10(QWidget *param_1)",
+  "sig": "2sigClickConnect()",
+  "slot": "1slotClickConnect()",
+  "other_lits": [],
+  "hexes": [
+   "40e3a068"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1341187,
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "sig": "2sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "other_lits": [],
+  "hexes": [
+   "40e3a1f8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1341196,
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "sig": "2sigItemClickScan(const NasDeviceInfo&)",
+  "slot": "1slotItemClickScan(const NasDeviceInfo&)",
+  "other_lits": [],
+  "hexes": [
+   "40e3a228"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1341218,
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "sig": "2sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "other_lits": [],
+  "hexes": [
+   "40e3a120"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1341223,
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "sig": "2sigItemClickConnect()",
+  "slot": "1slotItemClickConnect()",
+  "other_lits": [],
+  "hexes": [
+   "40e3a150"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1341238,
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "sig": "2sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "other_lits": [],
+  "hexes": [
+   "40e3a198"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1341242,
+  "func": "void FUN_140865ff0(char *param_1,undefined8 param_2,QLayout *param_3,char param_4,char param_5)",
+  "sig": "2sigItemClickSupport()",
+  "slot": "1slotItemClickSupport()",
+  "other_lits": [],
+  "hexes": [
+   "40e3a1c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1343919,
+  "func": "void FUN_140869b40(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3ae10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1343996,
+  "func": "void FUN_140869b40(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnRefreshClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3ae68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1344309,
+  "func": "void FUN_14086b870(longlong *param_1)",
+  "sig": "2finished()",
+  "slot": "1slotDownloadThreadFinish()",
+  "other_lits": [],
+  "hexes": [
+   "40e3af98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1344311,
+  "func": "void FUN_14086b870(longlong *param_1)",
+  "sig": "2sigDownloadError()",
+  "slot": "1slotDownloadFailed()",
+  "other_lits": [],
+  "hexes": [
+   "40e3afc8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1346543,
+  "func": "void FUN_14086fe30(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnSupportClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3bd48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1346576,
+  "func": "void FUN_14086fe30(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnConnectClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3bd90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1347341,
+  "func": "void FUN_140871880(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3cd08"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1347374,
+  "func": "void FUN_140871880(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnConnectClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3cd48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1347894,
+  "func": "void FUN_1408730f0(longlong param_1)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40e3dfc0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1348894,
+  "func": "void FUN_140874890(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnBackClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3de98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1348929,
+  "func": "void FUN_140874890(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnConnectClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3ded8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1348950,
+  "func": "void FUN_140874890(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnCancelClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e3df20"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1349037,
+  "func": "void FUN_140874890(QWidget *param_1)",
+  "sig": "2timeout()",
+  "slot": "1slotTimerCheckConnectState()",
+  "other_lits": [],
+  "hexes": [
+   "40e3df68"
+  ],
+  "classes": [
+   "QTimer"
+  ]
+ },
+ {
+  "line": 1349736,
+  "func": "void FUN_1408774b0(char *param_1)",
+  "sig": "2sigCancelRet(bool)",
+  "slot": "1slotOnCancelRet(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e3e138"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1349907,
+  "func": "void FUN_1408775e0(QWidget *param_1,char param_2)",
+  "sig": "2sigConnectRet(int)",
+  "slot": "1slotOnConnectRet(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e3e1c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1352600,
+  "func": "void FUN_14087c440(char *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "other_lits": [],
+  "hexes": [
+   "40e3d8e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1352746,
+  "func": "void FUN_14087c440(char *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "other_lits": [],
+  "hexes": [
+   "40e3d968"
+  ],
+  "classes": [
+   "QRegExpValidator"
+  ]
+ },
+ {
+  "line": 1352824,
+  "func": "void FUN_14087c440(char *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "other_lits": [],
+  "hexes": [
+   "40e3d9c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1352904,
+  "func": "void FUN_14087c440(char *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1slotOnEditFocus()",
+  "other_lits": [],
+  "hexes": [
+   "40e3da48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1352956,
+  "func": "void FUN_14087c440(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnChangePwdState()",
+  "other_lits": [],
+  "hexes": [
+   "40e3dab0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1354188,
+  "func": "void FUN_140880f80(longlong param_1)",
+  "sig": "2selectionChanged()",
+  "slot": "1slotEditSelectChange()",
+  "other_lits": [],
+  "hexes": [
+   "40e3de08"
+  ],
+  "classes": [
+   "CTextEdit"
+  ]
+ },
+ {
+  "line": 1354191,
+  "func": "void FUN_140880f80(longlong param_1)",
+  "sig": "2textChanged(const QString &)",
+  "slot": "1slotTextChange(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40e3de38"
+  ],
+  "classes": [
+   "CTextEdit"
+  ]
+ },
+ {
+  "line": 1358186,
+  "func": "void FUN_140886a50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnBackClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e40348"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1358211,
+  "func": "void FUN_140886a50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnNextClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e40388"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1362039,
+  "func": "void FUN_14088fac0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnStartClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e42460"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1362073,
+  "func": "void FUN_14088fac0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "2sigBtnLinuxClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e42498"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363088,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2SigEnumRet(bool)",
+  "slot": "1slotEnumDeviceRet(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e434c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363100,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e43508"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363154,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e43538"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363168,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e43568"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363182,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e43598"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363185,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigSetDeviceInfo(const NasDeviceInfo&)",
+  "slot": "1slotSetDeviceInfo(const NasDeviceInfo&)",
+  "other_lits": [],
+  "hexes": [
+   "40e435c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363200,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e43628"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363203,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "other_lits": [],
+  "hexes": [
+   "40e43658"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363217,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoPage(int,int)",
+  "slot": "1gotoPage(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e43688"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363220,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "other_lits": [],
+  "hexes": [
+   "40e436b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363223,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigEnableWidget(bool)",
+  "slot": "2sigEnableWidget(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e436e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363237,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoPage(int, int)",
+  "slot": "1gotoPage(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e43718"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363240,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigGotoLastPage()",
+  "slot": "1slotGotoLastPage()",
+  "other_lits": [],
+  "hexes": [
+   "40e43748"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363243,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigAutoConnect()",
+  "slot": "1slotAutoConnect()",
+  "other_lits": [],
+  "hexes": [
+   "40e43778"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1363247,
+  "func": "void FUN_140892900(char *param_1)",
+  "sig": "2sigEnableWidget(bool)",
+  "slot": "2sigEnableWidget(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e437a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1366417,
+  "func": "FUN_140899280(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2SigEnumRet(bool)",
+  "slot": "1SlotEnumRet(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e451e8"
+  ],
+  "classes": [
+   "NasDeviceMgr"
+  ]
+ },
+ {
+  "line": 1368246,
+  "func": "void FUN_14089c320(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e466e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1368862,
+  "func": "void FUN_14089d760(QWidget *param_1)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40e46b28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1369249,
+  "func": "void FUN_14089e280(QWidget *param_1)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40e46c78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1369866,
+  "func": "void FUN_14089fa80(longlong param_1)",
+  "sig": "2dispatch(int, void*,int&)",
+  "slot": "2doDispatchMessage(int, void*,int&)",
+  "other_lits": [],
+  "hexes": [
+   "40e474d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1369872,
+  "func": "void FUN_14089fa80(longlong param_1)",
+  "sig": "2dispatch(int, void*,int&)",
+  "slot": "2doDispatchMessage(int, void*,int&)",
+  "other_lits": [],
+  "hexes": [
+   "40e47488"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1370336,
+  "func": "void FUN_1408a0720(QAbstractItemModel *param_1,QString *param_2)",
+  "sig": "2sigPushPixmapGetIndex(int)",
+  "slot": "1PushNewIndex(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e47a50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1370339,
+  "func": "void FUN_1408a0720(QAbstractItemModel *param_1,QString *param_2)",
+  "sig": "2sigFinished(int, QPixmap)",
+  "slot": "1slotGetPixmapRet(int, QPixmap)",
+  "other_lits": [],
+  "hexes": [
+   "40e47a88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1371071,
+  "func": "void FUN_1408a1970(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e477a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1371455,
+  "func": "void FUN_1408a1970(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnSave()",
+  "other_lits": [],
+  "hexes": [
+   "40e478a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1373902,
+  "func": "void FUN_1408a73b0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedBtnAdd()",
+  "other_lits": [],
+  "hexes": [
+   "40e48f28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1374467,
+  "func": "void FUN_1408a81c0(QWidget *param_1)",
+  "sig": "2sigEditOnFocus()",
+  "slot": "1onCursorInPwdEdit()",
+  "other_lits": [],
+  "hexes": [
+   "40e494b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1374499,
+  "func": "void FUN_1408a81c0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedBtnDecrypt()",
+  "other_lits": [],
+  "hexes": [
+   "40e49530"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1374573,
+  "func": "void FUN_1408a81c0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedBtnClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e49588"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1374851,
+  "func": "void FUN_1408a9a30(char *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetPasswordRet()",
+  "other_lits": [],
+  "hexes": [
+   "40e49880"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1376222,
+  "func": "void FUN_1408aae50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedBtnAdd()",
+  "other_lits": [],
+  "hexes": [
+   "40e4a8d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1377552,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedPreview()",
+  "other_lits": [],
+  "hexes": [
+   "40e4acd0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1378150,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRemove()",
+  "other_lits": [],
+  "hexes": [
+   "40e4aec8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1378185,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedPreview()",
+  "other_lits": [],
+  "hexes": [
+   "40e4af08"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1378320,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40e4af98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1378364,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedSave()",
+  "other_lits": [],
+  "hexes": [
+   "40e4afd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1378408,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedAdvancedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b028"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1378452,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedChange()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b078"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1378499,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedStopRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b0c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1378544,
+  "func": "void FUN_1408aeb00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedFeedBack()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b110"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1379628,
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "sig": "2sigRemove()",
+  "slot": "1onItemClickedRemove()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b480"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1379630,
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "sig": "2sigStartRepair()",
+  "slot": "1onItemClickedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b4a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1379632,
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "sig": "2sigClickedAdvancedRepair()",
+  "slot": "1onItemClickedAdvancedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b4d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1379634,
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "sig": "2sigStartAdvancedRepair()",
+  "slot": "1onItemStartAdvancedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b518"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1379636,
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "sig": "2sigStopRepair()",
+  "slot": "1onItemClickedStop()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b558"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1379638,
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "sig": "2sigStartSave(bool)",
+  "slot": "1onItemStartSave(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e4b588"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1379640,
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "sig": "2sigSaveActivateSuccess()",
+  "slot": "2sigSaveActivateSuccess()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b5b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1379643,
+  "func": "void FUN_1408b3e00(char *param_1,undefined8 param_2)",
+  "sig": "2sigPreview()",
+  "slot": "1onItemClickPreview()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b5f8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380416,
+  "func": "void FUN_1408b50b0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnTipsCloseClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b718"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380499,
+  "func": "void FUN_1408b50b0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedAddVideos()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b790"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380644,
+  "func": "void FUN_1408b50b0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRemoveAll()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b848"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380678,
+  "func": "void FUN_1408b50b0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRepairAll()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b890"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380709,
+  "func": "void FUN_1408b50b0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedStopAll()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b8d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380743,
+  "func": "void FUN_1408b50b0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedSaveAll()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b920"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380807,
+  "func": "void FUN_1408b6bc0(QObject *param_1,QObject *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b9a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380810,
+  "func": "void FUN_1408b6bc0(QObject *param_1,QObject *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b9d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380851,
+  "func": "void FUN_1408b6dd0(QObject *param_1,QObject *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e4bab0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1380854,
+  "func": "void FUN_1408b6dd0(QObject *param_1,QObject *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e4bae0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1382948,
+  "func": "void FUN_1408bb570(QObject *param_1)",
+  "sig": "2sigClickedSave(bool)",
+  "slot": "1onClickedSave(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e4c3c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1382951,
+  "func": "void FUN_1408bb570(QObject *param_1)",
+  "sig": "2sigSaveActivateSuccess()",
+  "slot": "1close()",
+  "other_lits": [],
+  "hexes": [
+   "40e4c3f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1382954,
+  "func": "void FUN_1408bb570(QObject *param_1)",
+  "sig": "2sigRefreshActivate()",
+  "slot": "2sigRefreshActivate()",
+  "other_lits": [],
+  "hexes": [
+   "40e4c420"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1383401,
+  "func": "void FUN_1408bc6b0(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1doNextRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40e4ba28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1383741,
+  "func": "void FUN_1408bcc10(QWidget *param_1)",
+  "sig": "2sigBtnAddClicked()",
+  "slot": "2sigBtnAddClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b148"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1383744,
+  "func": "void FUN_1408bcc10(QWidget *param_1)",
+  "sig": "2sigRemoveAll()",
+  "slot": "1onItemsRemoveAll()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b178"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1383747,
+  "func": "void FUN_1408bcc10(QWidget *param_1)",
+  "sig": "2sigRefreshActivate()",
+  "slot": "1onActivateRefresh()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b1a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1383762,
+  "func": "void FUN_1408bcc10(QWidget *param_1)",
+  "sig": "2sigClickBtnAdd()",
+  "slot": "2sigBtnAddClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e4b1d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1383791,
+  "func": "void FUN_1408bcc10(QWidget *param_1)",
+  "sig": "2sigUpdateItemCount(int)",
+  "slot": "1onUpdateVideosCount(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e4b218"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1386758,
+  "func": "void FUN_1408c1ea0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e4d8b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1386965,
+  "func": "void FUN_1408c2e60(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetAddProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e4d710"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1387138,
+  "func": "void FUN_1408c3260(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetAddProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e4d7c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1387924,
+  "func": "void FUN_1408c4950(QWidget *param_1)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40e4e668"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1388652,
+  "func": "void FUN_1408c5660(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnView()",
+  "other_lits": [],
+  "hexes": [
+   "40e4e278"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1389338,
+  "func": "void FUN_1408c7cb0(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetSaveProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e4e3b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1389493,
+  "func": "void FUN_1408c8270(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetSaveProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e4e4b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1391387,
+  "func": "void FUN_1408cc110(char *param_1)",
+  "sig": "2sigGotoAddPage()",
+  "slot": "1onGotoAddPage()",
+  "other_lits": [],
+  "hexes": [
+   "40e4f8e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1391390,
+  "func": "void FUN_1408cc110(char *param_1)",
+  "sig": "2sigGotoItemsPage()",
+  "slot": "1onGotoItmesPage()",
+  "other_lits": [],
+  "hexes": [
+   "40e4f910"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1391393,
+  "func": "void FUN_1408cc110(char *param_1)",
+  "sig": "2sigClearAll()",
+  "slot": "1onClearAllItems()",
+  "other_lits": [],
+  "hexes": [
+   "40e4f940"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1391407,
+  "func": "void FUN_1408cc110(char *param_1)",
+  "sig": "2sigBtnAddClicked()",
+  "slot": "1onClickedBtnAdd()",
+  "other_lits": [],
+  "hexes": [
+   "40e4f968"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1392616,
+  "func": "void FUN_1408ce9b0(char *param_1)",
+  "sig": "2sigBtnStartClicked()",
+  "slot": "1slotBtnStartClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e500e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1393385,
+  "func": "void FUN_1408cfae0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotCloseWnd()",
+  "other_lits": [],
+  "hexes": [
+   "40e50ef0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1393388,
+  "func": "void FUN_1408cfae0(QWidget *param_1)",
+  "sig": "2resizeBtnWidth()",
+  "slot": "1slotResizeBtnWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40e50f10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1393743,
+  "func": "void FUN_1408d0390(char *param_1,int param_2)",
+  "sig": "2clicked()",
+  "slot": "1slotClickRegionBtn()",
+  "other_lits": [],
+  "hexes": [
+   "40e50fe8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1399023,
+  "func": "void FUN_1408da710(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1hide()",
+  "other_lits": [],
+  "hexes": [
+   "40e53300"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1399414,
+  "func": "void FUN_1408da710(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1hide()",
+  "other_lits": [],
+  "hexes": [
+   "40e533f8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1399449,
+  "func": "void FUN_1408da710(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1hide()",
+  "other_lits": [],
+  "hexes": [
+   "40e53430"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1403318,
+  "func": "void FUN_1408e2790(QFrame *param_1,undefined8 param_2,char param_3,char param_4)",
+  "sig": "2buttonPressed(int)",
+  "slot": "1slotButtonItemPressed(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e55980"
+  ],
+  "classes": [
+   "QButtonGroup"
+  ]
+ },
+ {
+  "line": 1403514,
+  "func": "void FUN_1408e37b0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,",
+  "sig": "2checkboxStateChanged(int)",
+  "slot": "2itemCheckedChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e55ad8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1404533,
+  "func": "void FUN_1408e54e0(QPoint *param_1,int param_2)",
+  "sig": "2finished()",
+  "slot": "1slotAnimationFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40e55f60"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1423051,
+  "func": "void FUN_140905970(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnStopClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e5ce38"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1423109,
+  "func": "void FUN_140905970(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnRecoverClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e5ce78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1431537,
+  "func": "void FUN_140917b30(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnStartClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e5eec0"
+  ],
+  "classes": [
+   "QPushButton"
+  ]
+ },
+ {
+  "line": 1452164,
+  "func": "int FUN_14093be80(longlong param_1)",
+  "sig": "2sigEnableWidget(bool)",
+  "slot": "1slotEnableWidget(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e64f90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1452294,
+  "func": "int FUN_14093be80(longlong param_1)",
+  "sig": "2sigEnableWidget(bool)",
+  "slot": "1slotEnableWidget(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e64fc0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1452465,
+  "func": "int FUN_14093be80(longlong param_1)",
+  "sig": "2sigSetLeftNavigateBarVisible(bool)",
+  "slot": "1slotLeftNavigationVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40e65000"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1453279,
+  "func": "void FUN_14093e570(QWidget *param_1)",
+  "sig": "2sigAnimationFinished()",
+  "slot": "1slotRightAnimationFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40e65590"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1458929,
+  "func": "void FUN_140949180(char *param_1)",
+  "sig": "2sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "other_lits": [],
+  "hexes": [
+   "40e66670"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1459012,
+  "func": "void FUN_140949460(char *param_1)",
+  "sig": "2sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "other_lits": [],
+  "hexes": [
+   "40e666a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1459460,
+  "func": "void FUN_14094a0e0(char *param_1,longlong param_2,int param_3,QLayout *param_4)",
+  "sig": "2sigMouseEnter()",
+  "slot": "1slotOtherItemEnter()",
+  "other_lits": [],
+  "hexes": [
+   "40e66820"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1462853,
+  "func": "void FUN_14094ff80(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBuy()",
+  "other_lits": [],
+  "hexes": [
+   "40e681a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1462876,
+  "func": "void FUN_14094ff80(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e681d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1464987,
+  "func": "void FUN_1409550e0(char *param_1)",
+  "sig": "2sigPercentChange(int,double)",
+  "slot": "1slotPercentChange(int, double)",
+  "other_lits": [],
+  "hexes": [
+   "40e694d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1464990,
+  "func": "void FUN_1409550e0(char *param_1)",
+  "sig": "2sigDeviceChange()",
+  "slot": "1slotDeviceChange()",
+  "other_lits": [],
+  "hexes": [
+   "40e69510"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1465745,
+  "func": "void FUN_1409551e0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnBack()",
+  "other_lits": [],
+  "hexes": [
+   "40e69698"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1465788,
+  "func": "void FUN_1409551e0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnCreateClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e696d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1466540,
+  "func": "void FUN_140956da0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnRetry()",
+  "other_lits": [],
+  "hexes": [
+   "40e69868"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1467488,
+  "func": "void FUN_140958a50(char *param_1)",
+  "sig": "2linkActivated(const QString&)",
+  "slot": "1slotLabelLink(const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40e69a90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1468437,
+  "func": "void FUN_14095c890(char *param_1)",
+  "sig": "2sigGetInfoRet()",
+  "slot": "1slotGetInfoRet()",
+  "other_lits": [],
+  "hexes": [
+   "40e68a68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1468877,
+  "func": "void FUN_14095d230(char *param_1,char param_2)",
+  "sig": "2sigCreateRet(int, int)",
+  "slot": "1slotCreateRet(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e68c30"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1468931,
+  "func": "void FUN_14095d230(char *param_1,char param_2)",
+  "sig": "2sigCreateRet(int, int)",
+  "slot": "1slotCreateRet(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40e68be8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1471641,
+  "func": "void FUN_140961be0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnNextClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e6b120"
+  ],
+  "classes": [
+   "QPushButton"
+  ]
+ },
+ {
+  "line": 1472494,
+  "func": "void FUN_1409641f0(char *param_1)",
+  "sig": "2sigBtnNextClick()",
+  "slot": "1slotBtnNextClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e6b770"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1472497,
+  "func": "void FUN_1409641f0(char *param_1)",
+  "sig": "2sigBtnBack()",
+  "slot": "1slotBtnBackClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e6b7a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1472513,
+  "func": "void FUN_1409641f0(char *param_1)",
+  "sig": "2sigResetConnectView()",
+  "slot": "1slotResetUI()",
+  "other_lits": [],
+  "hexes": [
+   "40e6b7f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1480692,
+  "func": "void FUN_140972cb0(void)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40e6ff78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1481914,
+  "func": "void FUN_140976430(char *param_1)",
+  "sig": "2sigRefresh()",
+  "slot": "1refreshUI()",
+  "other_lits": [],
+  "hexes": [
+   "40e701d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484853,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fca8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484856,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fce0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484885,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fd18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484888,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fd50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484906,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fd88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484909,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fdc0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484927,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fdf8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484930,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fe30"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484948,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverOriginal(int)",
+  "slot": "1onRecoverOriginal(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fe68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1484951,
+  "func": "void FUN_14097c270(char *param_1)",
+  "sig": "2sigRecoverRepaired(int)",
+  "slot": "1onRecoverRepaired(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e6fea0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1491637,
+  "func": "longlong FUN_140986e80(longlong param_1,longlong param_2)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40dee1b0"
+  ],
+  "classes": [
+   "CheckAnsyncToListThread"
+  ]
+ },
+ {
+  "line": 1505524,
+  "func": "undefined8 FUN_14099eed0(QWidget *param_1)",
+  "sig": "2sigRecoverClicked(int)",
+  "slot": "2sigRecoverOriginal(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e785a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1505840,
+  "func": "undefined8 FUN_14099f840(char *param_1)",
+  "sig": "2sigRecoverClicked(int)",
+  "slot": "2sigRecoverRepaired(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e78698"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1505843,
+  "func": "undefined8 FUN_14099f840(char *param_1)",
+  "sig": "2sigRecoverClicked(int)",
+  "slot": "2sigRecoverRepaired(int)",
+  "other_lits": [],
+  "hexes": [
+   "40e786d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1507051,
+  "func": "void FUN_1409a1f30(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClickClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e79a48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1507285,
+  "func": "void FUN_1409a1f30(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClickedSave()",
+  "other_lits": [],
+  "hexes": [
+   "40e79b28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1507314,
+  "func": "void FUN_1409a1f30(QWidget *param_1)",
+  "sig": "2sigCloseParent()",
+  "slot": "1onBtnClickedSave()",
+  "other_lits": [],
+  "hexes": [
+   "40e79b50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1507317,
+  "func": "void FUN_1409a1f30(QWidget *param_1)",
+  "sig": "2sigRefreshActivate()",
+  "slot": "2sigRefreshActivate()",
+  "other_lits": [],
+  "hexes": [
+   "40e79b80"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1507353,
+  "func": "void FUN_1409a1f30(QWidget *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onCheckShowShadaow()",
+  "other_lits": [],
+  "hexes": [
+   "40e79bb0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1507423,
+  "func": "void FUN_1409a33f0(QDialog *param_1,QShowEvent *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onGetCacheProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40e79cd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1508494,
+  "func": "void FUN_1409a54c0(QWidget *param_1)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1onDelayResizeWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40e79760"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1526564,
+  "func": "void FUN_1409c8ef0(QWidget *param_1)",
+  "sig": "2beforeNavigate2(const QString&, bool&)",
+  "slot": "1beforeNavigate2Slot(const QString&, bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40e85398"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1526568,
+  "func": "void FUN_1409c8ef0(QWidget *param_1)",
+  "sig": "2navigateComplete(const QString&)",
+  "slot": "1navigateCompleteSlot(const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40e853f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1529179,
+  "func": "void FUN_1409cd9e0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2returnPressed()",
+  "slot": "1bitlockerUnlockSlot()",
+  "other_lits": [],
+  "hexes": [
+   "40e86d68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1529229,
+  "func": "void FUN_1409cd9e0(char *param_1,QBoxLayout *param_2)",
+  "sig": "2clicked()",
+  "slot": "1slotBtnChangePwdState()",
+  "other_lits": [],
+  "hexes": [
+   "40e86db0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1532664,
+  "func": "longlong FUN_1409d5a20(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40dee1b0"
+  ],
+  "classes": [
+   "BitlockerUnlockThread"
+  ]
+ },
+ {
+  "line": 1534210,
+  "func": "void FUN_1409d85b0(QDialog *param_1)",
+  "sig": "2checkFinsh(int, const QString&,const QString&)",
+  "slot": "1checkFinished(int, const QString&, const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40e88658"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1534956,
+  "func": "FUN_1409d9e50(undefined8 param_1,undefined1 param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40dee1b0"
+  ],
+  "classes": [
+   "CheckUpdateThread"
+  ]
+ },
+ {
+  "line": 1537053,
+  "func": "int FUN_1409ddb70(undefined4 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,",
+  "sig": "2onLinkURL(const QString&,const QString&)",
+  "slot": "2onLinkURLClicked(const QString&,const QString&)",
+  "other_lits": [],
+  "hexes": [
+   "40e8a068"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1555089,
+  "func": "void FUN_1409fcf10(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onSelectBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e8eed8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1555180,
+  "func": "void FUN_1409fd640(QWidget *param_1,QWidget *param_2)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e8ef00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1569428,
+  "func": "void FUN_140a19040(longlong param_1)",
+  "sig": "2progressChanged(const int)",
+  "slot": "1upgradeUIProgress(const int)",
+  "other_lits": [],
+  "hexes": [
+   "40e938f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1569531,
+  "func": "void FUN_140a19830(longlong *param_1,undefined8 param_2)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40e93970"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1569534,
+  "func": "void FUN_140a19830(longlong *param_1,undefined8 param_2)",
+  "sig": "2saveRestoreThFinshed()",
+  "slot": "1restoreFinshedClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e93990"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1581502,
+  "func": "void FUN_140a2db30(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClickUpgrade()",
+  "other_lits": [],
+  "hexes": [
+   "40e9a0c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1583190,
+  "func": "void FUN_140a31480(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e9b180"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1583225,
+  "func": "void FUN_140a31480(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClickUpgrade()",
+  "other_lits": [],
+  "hexes": [
+   "40e9b1c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1583340,
+  "func": "void FUN_140a31480(QWidget *param_1)",
+  "sig": "2sigUpdateBtnWidth()",
+  "slot": "1slotUpdateBtnWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40e9b220"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1583363,
+  "func": "void FUN_140a31480(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e9b268"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1584473,
+  "func": "void FUN_140a34ba0(longlong param_1,undefined8 param_2)",
+  "sig": "2doDispatchMessage(int, void*, int&)",
+  "slot": "1doReceivedEvent(int, void*, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40e9b758"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1584850,
+  "func": "void FUN_140a35c40(QObject *param_1)",
+  "sig": "2doDispatchMessage(int, void*, int&)",
+  "slot": "1doReceivedEvent(int, void*, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40e9b938"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1586491,
+  "func": "void FUN_140a398b0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1closeBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e9c1c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1586601,
+  "func": "void FUN_140a398b0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1closeBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e9c2a0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1586603,
+  "func": "void FUN_140a398b0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1activateClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e9c2c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1586605,
+  "func": "void FUN_140a398b0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1retryBtnClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e9c2f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1589485,
+  "func": "longlong FUN_140a40380(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40dee1b0"
+  ],
+  "classes": [
+   "EndRecoverThread"
+  ]
+ },
+ {
+  "line": 1589502,
+  "func": "longlong FUN_140a40380(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40dee1b0"
+  ],
+  "classes": [
+   "UnCheckAllFileNodeThread"
+  ]
+ },
+ {
+  "line": 1593427,
+  "func": "void FUN_140a484d0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClickClose()",
+  "other_lits": [],
+  "hexes": [
+   "40e9e590"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1593879,
+  "func": "void FUN_140a484d0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1viewRecoveredClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40e9e630"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1593882,
+  "func": "void FUN_140a484d0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1UserClickedviewRecovered()",
+  "other_lits": [],
+  "hexes": [
+   "40e9e658"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1616518,
+  "func": "void FUN_140a74f00(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedScan()",
+  "other_lits": [],
+  "hexes": [
+   "40ea7750"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1617383,
+  "func": "void FUN_140a77380(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRefresh()",
+  "other_lits": [],
+  "hexes": [
+   "40ea7850"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1617679,
+  "func": "void FUN_140a77380(QWidget *param_1)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40ea7910"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1618478,
+  "func": "void FUN_140a797e0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1slotClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ea6fe0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1618481,
+  "func": "void FUN_140a797e0(QWidget *param_1)",
+  "sig": "2sigResizeWidth()",
+  "slot": "1ResizeWidth()",
+  "other_lits": [],
+  "hexes": [
+   "40ea7000"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1620148,
+  "func": "void FUN_140a7c3f0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedSubmit()",
+  "other_lits": [],
+  "hexes": [
+   "40ea8ca8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1620167,
+  "func": "void FUN_140a7c3f0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ea8ce8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1620674,
+  "func": "void FUN_140a7d8e0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ea88b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1622134,
+  "func": "void FUN_140a7f7a0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ea9878"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1624288,
+  "func": "void FUN_140a85150(char *param_1)",
+  "sig": "2refreshClicked()",
+  "slot": "2refreshClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40eabbb8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1624334,
+  "func": "void FUN_140a85150(char *param_1)",
+  "sig": "2sigResize(const QPoint&)",
+  "slot": "1slotMoveSDCardHelpTips(const QPoint&)",
+  "other_lits": [],
+  "hexes": [
+   "40eabbe8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1632762,
+  "func": "void FUN_140a91b50(undefined8 *param_1,QObject *param_2)",
+  "sig": "2clicked()",
+  "slot": "1close()",
+  "other_lits": [],
+  "hexes": [
+   "40eae538"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635123,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigIsScrolling(bool&)",
+  "slot": "1onIsScrolling(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40eafb18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635146,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigScrollToLastIdx()",
+  "slot": "1scrollToLastIndex()",
+  "other_lits": [],
+  "hexes": [
+   "40eafb48"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635150,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigShowFreeze()",
+  "slot": "1onShowFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40eafb78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635156,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigBeforeFreeze()",
+  "slot": "1onFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40eafba0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635159,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigCurrentChanged(void *, bool)",
+  "slot": "1onSelFileNode(void *, bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eafbc8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635162,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigExpandTree()",
+  "slot": "1expandTreeview()",
+  "other_lits": [],
+  "hexes": [
+   "40eafc10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635166,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigSelectFileNode(void *)",
+  "slot": "1onSelFileNode(void *)",
+  "other_lits": [],
+  "hexes": [
+   "40eafc40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635169,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigShowTip(const QModelIndex &,const QPoint &)",
+  "slot": "1showToolTip(const QModelIndex&,const QPoint&)",
+  "other_lits": [],
+  "hexes": [
+   "40eafc78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635173,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2collapsed(const QModelIndex &)",
+  "slot": "1onCollapseItem(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40eafcd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635176,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2expanded(const QModelIndex &)",
+  "slot": "1onExpandItem(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40eafd20"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635179,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigRefreshCache()",
+  "slot": "1start()",
+  "other_lits": [],
+  "hexes": [
+   "40eafd68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635182,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2timeout()",
+  "slot": "1onRefreshCache()",
+  "other_lits": [],
+  "hexes": [
+   "40eafd90"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635194,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sliderReleased()",
+  "slot": "1onSliderReleased()",
+  "other_lits": [],
+  "hexes": [
+   "40eafde8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635198,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40eafe18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635201,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigPathItemExpand()",
+  "slot": "1OnExpandPathItem()",
+  "other_lits": [],
+  "hexes": [
+   "40eafe68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635204,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigCorrectCurIndex()",
+  "slot": "1onCorrectCurIndex()",
+  "other_lits": [],
+  "hexes": [
+   "40eafe98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635207,
+  "func": "void FUN_140a9a550(longlong param_1,undefined4 param_2)",
+  "sig": "2sigRecordVirtualIndex()",
+  "slot": "1onRecordVirtualIndex()",
+  "other_lits": [],
+  "hexes": [
+   "40eafec8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635612,
+  "func": "void FUN_140a9baf0(char *param_1)",
+  "sig": "2sigRefresh(bool)",
+  "slot": "1OnSinkRefresh(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eaffa0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635616,
+  "func": "void FUN_140a9baf0(char *param_1)",
+  "sig": "2sigRefreshRoot()",
+  "slot": "1OnSinkRefreshRoot()",
+  "other_lits": [],
+  "hexes": [
+   "40eaffd0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635676,
+  "func": "void FUN_140a9baf0(char *param_1)",
+  "sig": "2sigSelectItem(CFileNode *)",
+  "slot": "1OnSinkSelectItem(CFileNode *)",
+  "other_lits": [],
+  "hexes": [
+   "40eb0018"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635680,
+  "func": "void FUN_140a9baf0(char *param_1)",
+  "sig": "2sigInsertNode(CFileNode *,CFileNode *)",
+  "slot": "1OnSinkInsertNode(CFileNode *,CFileNode *)",
+  "other_lits": [],
+  "hexes": [
+   "40eb0058"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635685,
+  "func": "void FUN_140a9baf0(char *param_1)",
+  "sig": "2sigDoBeforeFreeze()",
+  "slot": "1OnSinkDoBeforeFreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40eb00b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635689,
+  "func": "void FUN_140a9baf0(char *param_1)",
+  "sig": "2sigUnfreeze()",
+  "slot": "1OnSinkUnfreeze()",
+  "other_lits": [],
+  "hexes": [
+   "40eb00e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635693,
+  "func": "void FUN_140a9baf0(char *param_1)",
+  "sig": "2sigRemoveItem(CFileNode*)",
+  "slot": "1OnSinkRemoveItem(CFileNode*)",
+  "other_lits": [],
+  "hexes": [
+   "40eb0108"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1635697,
+  "func": "void FUN_140a9baf0(char *param_1)",
+  "sig": "2sigExpandPathItem(std::vector<CFileNode*>)",
+  "slot": "1OnSinkExpandPathItem(std::vector<CFileNode*>)",
+  "other_lits": [],
+  "hexes": [
+   "40eb0148"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1636456,
+  "func": "void FUN_140a9d2a0(QObject *param_1,QPaintEvent *param_2)",
+  "sig": "2expanded(const QModelIndex &)",
+  "slot": "1onExpandItem(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40eb05c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1636876,
+  "func": "void FUN_140a9dda0(QAbstractItemView *param_1)",
+  "sig": "2sigFreezeDone()",
+  "slot": "1accept()",
+  "other_lits": [],
+  "hexes": [
+   "40eaf828"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1637246,
+  "func": "void FUN_140a9eac0(longlong param_1)",
+  "sig": "2finished()",
+  "slot": "1insertNodes()",
+  "other_lits": [],
+  "hexes": [
+   "40eafa60"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1637997,
+  "func": "longlong FUN_140a9f9d0(longlong param_1,undefined1 *param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40dee1b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1640903,
+  "func": "void FUN_140aa4b40(undefined8 param_1)",
+  "sig": "2sigUpdate()",
+  "slot": "2sigModelRefresh()",
+  "other_lits": [],
+  "hexes": [
+   "40eb1c08"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1641278,
+  "func": "undefined1 FUN_140aa55d0(void)",
+  "sig": "2sigGotoIndex(int, int)",
+  "slot": "1GotoSelectIndex(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1c30"
+  ],
+  "classes": [
+   "CListIconController"
+  ]
+ },
+ {
+  "line": 1641338,
+  "func": "void FUN_140aa5710(QObject *param_1)",
+  "sig": "2sigSort(int,bool)",
+  "slot": "1onDoSort(int,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1ce0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1642149,
+  "func": "void FUN_140aa72b0(QObject *param_1,char param_2)",
+  "sig": "2rangeChanged(int,int)",
+  "slot": "1onRangeChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40eb1d58"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1642152,
+  "func": "void FUN_140aa72b0(QObject *param_1,char param_2)",
+  "sig": "2valueChanged(int)",
+  "slot": "1onValueChanged(int)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1d88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1642239,
+  "func": "void FUN_140aa75f0(char *param_1)",
+  "sig": "2sigSort(int,bool)",
+  "slot": "1onDoSort(int,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1fc8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1642308,
+  "func": "void FUN_140aa7850(char *param_1)",
+  "sig": "2sigHighLightString(const QModelIndex &,QString &)",
+  "slot": "1onHighLightString(const QModelIndex &,QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40eb2090"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1642312,
+  "func": "void FUN_140aa7850(char *param_1)",
+  "sig": "2sigSort(int,bool)",
+  "slot": "1onDoSort(int,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eb2100"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643326,
+  "func": "void FUN_140aa93d0(longlong *param_1,int param_2,int param_3)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1be0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643379,
+  "func": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2sigShowAnimation()",
+  "slot": "1onShowAnimation()",
+  "other_lits": [],
+  "hexes": [
+   "40eb1858"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643381,
+  "func": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2sigAsyncSortRet(int, bool, bool)",
+  "slot": "1onAsyncSortRet(int, bool, bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1888"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643384,
+  "func": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2sigBeforeSort()",
+  "slot": "1StopUpdateUI()",
+  "other_lits": [],
+  "hexes": [
+   "40eb18d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643386,
+  "func": "void FUN_140aa99f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",
+  "sig": "2sigFinishSort()",
+  "slot": "1ResetUpdateUI()",
+  "other_lits": [],
+  "hexes": [
+   "40eb1900"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643661,
+  "func": "void FUN_140aaa5f0(longlong *param_1,undefined4 param_2,undefined4 param_3,undefined1 param_4,",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1a88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643664,
+  "func": "void FUN_140aaa5f0(longlong *param_1,undefined4 param_2,undefined4 param_3,undefined1 param_4,",
+  "sig": "2sigFinished(bool, bool)",
+  "slot": "1onSetClassifyFinished(bool, bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1ab8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643711,
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "sig": "2finished()",
+  "slot": "1onRefreshData()",
+  "other_lits": [],
+  "hexes": [
+   "40eb1b00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643713,
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "sig": "2finished()",
+  "slot": "1show()",
+  "other_lits": [],
+  "hexes": [
+   "40eb1b28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643715,
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "sig": "2sigFinished()",
+  "slot": "1onSortFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40eb1b40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643718,
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "sig": "2sigAsyncSortRet(int, bool, bool)",
+  "slot": "1AsyncSortRet(int, bool, bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1b68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643721,
+  "func": "void FUN_140aaa7a0(longlong *param_1,undefined4 param_2,undefined1 param_3,undefined8 param_4)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1bb0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1643898,
+  "func": "void FUN_140aab430(QObject *param_1,int param_2,char param_3,char param_4)",
+  "sig": "2sigSort(int,bool)",
+  "slot": "1onDoSort(int,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40eb1970"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1651778,
+  "func": "void FUN_140ab9e60(QObject *param_1,char param_2)",
+  "sig": "2clicked()",
+  "slot": "1slotClickTreeBtnChange()",
+  "other_lits": [],
+  "hexes": [
+   "40eb60e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1651788,
+  "func": "void FUN_140ab9e60(QObject *param_1,char param_2)",
+  "sig": "2clicked()",
+  "slot": "1slotClickTreeBtnChange()",
+  "other_lits": [],
+  "hexes": [
+   "40eb6088"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1651862,
+  "func": "ulonglong FUN_140aba0a0(QObject *param_1,longlong param_2,undefined8 param_3)",
+  "sig": "2clicked()",
+  "slot": "1slotClickTreeBtnChange()",
+  "other_lits": [],
+  "hexes": [
+   "40eb6198"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1652755,
+  "func": "void FUN_140abbc00(QWidget *param_1,QEvent *param_2)",
+  "sig": "2sigClickedClose()",
+  "slot": "1close()",
+  "other_lits": [],
+  "hexes": [
+   "40eb6c10"
+  ],
+  "classes": [
+   "CPopupMenu"
+  ]
+ },
+ {
+  "line": 1658146,
+  "func": "void FUN_140ac5e80(QWidget *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onTimeout()",
+  "other_lits": [],
+  "hexes": [
+   "40eb8ae0"
+  ],
+  "classes": [
+   "CShowContextMenu"
+  ]
+ },
+ {
+  "line": 1659037,
+  "func": "void FUN_140ac7830(void)",
+  "sig": "2sigSectionMinWidth(QPoint,int)",
+  "slot": "1onGetMinSectionWidth(QPoint,int)",
+  "other_lits": [],
+  "hexes": [
+   "40eb8c70"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1659441,
+  "func": "void FUN_140ac8850(QHeaderView *param_1,undefined8 param_2,undefined4 param_3)",
+  "sig": "2sigChangeCurQSS(int, int)",
+  "slot": "1onChangeCurQSS(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40eb8f68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1660232,
+  "func": "void FUN_140ac9fe0(QWidget *param_1,QContextMenuEvent *param_2)",
+  "sig": "2sigDataType(int&)",
+  "slot": "2sigDataType(int&)",
+  "other_lits": [],
+  "hexes": [
+   "40eb8a58"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1660514,
+  "func": "void FUN_140aca9e0(QWidget *param_1,QContextMenuEvent *param_2)",
+  "sig": "2sigDataType(int&)",
+  "slot": "2sigDataType(int&)",
+  "other_lits": [],
+  "hexes": [
+   "40eb8ab0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1664572,
+  "func": "void FUN_140ad16a0(char *param_1,undefined8 param_2)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd5b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1664574,
+  "func": "void FUN_140ad16a0(char *param_1,undefined8 param_2)",
+  "sig": "2sigFinished(bool)",
+  "slot": "1finish()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd5d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1664576,
+  "func": "void FUN_140ad16a0(char *param_1,undefined8 param_2)",
+  "sig": "2sigFinished(bool)",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd600"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1664653,
+  "func": "void FUN_140ad1950(char *param_1,undefined8 param_2)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd938"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1664655,
+  "func": "void FUN_140ad1950(char *param_1,undefined8 param_2)",
+  "sig": "2sigFinished(bool)",
+  "slot": "1finish()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd960"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1664657,
+  "func": "void FUN_140ad1950(char *param_1,undefined8 param_2)",
+  "sig": "2sigFinished(bool)",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd988"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1664870,
+  "func": "void FUN_140ad1b80(longlong param_1)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd8e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1664909,
+  "func": "void FUN_140ad2210(longlong param_1)",
+  "sig": "2finished()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd918"
+  ],
+  "classes": [
+   "CGetListThumbnailThread"
+  ]
+ },
+ {
+  "line": 1666242,
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "sig": "2sigIsCachingPixmap(bool&)",
+  "slot": "1onIsRunning(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd628"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666245,
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "sig": "2sigGetFileNode(pixmapInfoKey&)",
+  "slot": "1onGetCacheFileNode(pixmapInfoKey&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd660"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666248,
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "sig": "2sigUpdate()",
+  "slot": "2sigUpdate()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd6a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666250,
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "sig": "2finished()",
+  "slot": "2sigUpdate()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd6c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666338,
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "sig": "2timeout()",
+  "slot": "1onTimeout()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd6e8"
+  ],
+  "classes": [
+   "QTimer"
+  ]
+ },
+ {
+  "line": 1666341,
+  "func": "void FUN_140ad4bb0(char *param_1,undefined8 param_2)",
+  "sig": "2sigStartTimer()",
+  "slot": "1start()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd708"
+  ],
+  "classes": [
+   "QTimer"
+  ]
+ },
+ {
+  "line": 1666445,
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "sig": "2rowsInserted(const QModelIndex &,int,int)",
+  "slot": "1onRowInserted(const QModelIndex &,int,int)",
+  "other_lits": [],
+  "hexes": [
+   "40ebc490"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666449,
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "sig": "2sigModelRefresh()",
+  "slot": "1slotModelRefresh()",
+  "other_lits": [],
+  "hexes": [
+   "40ebc508"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666466,
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "sig": "2clicked(const QModelIndex &)",
+  "slot": "1onMouseClicked(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40ebc560"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666469,
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "sig": "2doubleClicked(const QModelIndex &)",
+  "slot": "1onMouseDblClick(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40ebc5a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666472,
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "sig": "2destroyed()",
+  "slot": "1onViewDestoryed()",
+  "other_lits": [],
+  "hexes": [
+   "40ebc5f8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666476,
+  "func": "void FUN_140ad5320(QObject *param_1,undefined4 param_2)",
+  "sig": "2destroyed()",
+  "slot": "1onViewDestoryed()",
+  "other_lits": [],
+  "hexes": [
+   "40ebc620"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666573,
+  "func": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebcfa0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666576,
+  "func": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)",
+  "sig": "2sigFinished(bool)",
+  "slot": "1onCheckFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40ebcfd0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666579,
+  "func": "void FUN_140ad57b0(longlong *param_1,QModelIndex *param_2,undefined1 param_3,undefined1 param_4)",
+  "sig": "2sigGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)",
+  "slot": "1onGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd000"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666620,
+  "func": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd0b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666623,
+  "func": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,",
+  "sig": "2sigFinished(bool)",
+  "slot": "1onCheckFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd0e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666626,
+  "func": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,",
+  "sig": "2sigGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)",
+  "slot": "1onGetCheckList(QVector<QPoint>&,QVector<quintptr>&,bool*)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd118"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666631,
+  "func": "void FUN_140ad5bf0(longlong *param_1,undefined8 param_2,undefined1 param_3,undefined1 param_4,",
+  "sig": "2sigGetIgnoreIndexs(QVector<int>&)",
+  "slot": "1onGetIgnoreList(QVector<int>&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd198"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666670,
+  "func": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd210"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666673,
+  "func": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)",
+  "sig": "2sigFinished(bool)",
+  "slot": "1onCheckFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd240"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666676,
+  "func": "void FUN_140ad5eb0(longlong *param_1,undefined8 param_2,undefined1 param_3)",
+  "sig": "2sigFinished(bool)",
+  "slot": "2sigRecoverAll()",
+  "other_lits": [],
+  "hexes": [
+   "40ebd270"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1666848,
+  "func": "void FUN_140ad64d0(QObject *param_1,char param_2)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebc700"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667311,
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "sig": "2finished()",
+  "slot": "1onRefreshData()",
+  "other_lits": [],
+  "hexes": [
+   "40ebc9d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667313,
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "sig": "2finished()",
+  "slot": "1show()",
+  "other_lits": [],
+  "hexes": [
+   "40ebca00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667315,
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "sig": "2finished()",
+  "slot": "2sigFinishSort()",
+  "other_lits": [],
+  "hexes": [
+   "40ebca18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667317,
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "sig": "2sigAsyncSortRet(int, bool, bool)",
+  "slot": "1AsyncSortRet(int, bool, bool)",
+  "other_lits": [],
+  "hexes": [
+   "40ebca40"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667320,
+  "func": "void FUN_140ad70b0(QObject *param_1,undefined4 param_2,undefined1 param_3)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebca88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667881,
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "2sigIsBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebcbb0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667884,
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "sig": "2sigGetListIndex(int&, int&)",
+  "slot": "2sigGetRightIndex(int&, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebcbe0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667887,
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "sig": "2sigSelFinished(const QModelIndex&,bool)",
+  "slot": "1onSelNodeFinished(const QModelIndex &,bool)",
+  "other_lits": [],
+  "hexes": [
+   "40ebcc20"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667890,
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "sig": "2sigSelectRightIndex(int, int)",
+  "slot": "2sigSelectRightIndex(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40ebcca0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1667896,
+  "func": "void FUN_140ad8490(longlong *param_1,undefined1 *param_2,char param_3)",
+  "sig": "2modelReset()",
+  "slot": "1start()",
+  "other_lits": [],
+  "hexes": [
+   "40ebcd58"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1668543,
+  "func": "void FUN_140ad9c50(longlong *param_1,QObject *param_2)",
+  "sig": "2actionTriggered(int)",
+  "slot": "1onVSBTriggered(int)",
+  "other_lits": [],
+  "hexes": [
+   "40ebce00"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1668552,
+  "func": "void FUN_140ad9c50(longlong *param_1,QObject *param_2)",
+  "sig": "2rangeChanged(int,int)",
+  "slot": "1onRangeChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40ebce78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1668989,
+  "func": "undefined1 FUN_140ada7b0(longlong *param_1)",
+  "sig": "2doDispatchMessage(int,void *, int&)",
+  "slot": "1onReceiveData(int,void *, int&)",
+  "other_lits": [],
+  "hexes": [
+   "40ebcec0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1669428,
+  "func": "void FUN_140adb4c0(longlong param_1,undefined8 param_2)",
+  "sig": "2sigVisible(bool)",
+  "slot": "1onScrollbarVisible(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40ebd890"
+  ],
+  "classes": [
+   "CListScrollbar"
+  ]
+ },
+ {
+  "line": 1678348,
+  "func": "void FUN_140aeac10(char *param_1,undefined8 param_2,QAbstractItemView *param_3)",
+  "sig": "2collapsed(const QModelIndex &)",
+  "slot": "1onCollapsed(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40ec1138"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1678351,
+  "func": "void FUN_140aeac10(char *param_1,undefined8 param_2,QAbstractItemView *param_3)",
+  "sig": "2expanded(const QModelIndex &)",
+  "slot": "1onExpand(const QModelIndex &)",
+  "other_lits": [],
+  "hexes": [
+   "40ec1180"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1678724,
+  "func": "void FUN_140aeb6c0(char *param_1)",
+  "sig": "2sigInTooltip(QModelIndex,bool&)",
+  "slot": "1onInToolTip(QModelIndex,bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ec0b70"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1678727,
+  "func": "void FUN_140aeb6c0(char *param_1)",
+  "sig": "2sigWillShowTip(QModelIndex,bool&)",
+  "slot": "1onWillShowTip(QModelIndex,bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ec0bd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1682134,
+  "func": "void FUN_140af1b40(QObject *param_1,QBoxLayout *param_2,ulonglong param_3,undefined8 param_4)",
+  "sig": "2clicked()",
+  "slot": "1buttonClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40ec30b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1683215,
+  "func": "longlong FUN_140af3760(longlong *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onTimeout()",
+  "other_lits": [],
+  "hexes": [
+   "40ec38a8"
+  ],
+  "classes": [
+   "QLabel"
+  ]
+ },
+ {
+  "line": 1683219,
+  "func": "longlong FUN_140af3760(longlong *param_1)",
+  "sig": "2started()",
+  "slot": "1start()",
+  "other_lits": [],
+  "hexes": [
+   "40ec38d0"
+  ],
+  "classes": [
+   "QLabel"
+  ]
+ },
+ {
+  "line": 1683222,
+  "func": "longlong FUN_140af3760(longlong *param_1)",
+  "sig": "2finished()",
+  "slot": "1onThreadFinished()",
+  "other_lits": [],
+  "hexes": [
+   "40ec3908"
+  ],
+  "classes": [
+   "QLabel"
+  ]
+ },
+ {
+  "line": 1683224,
+  "func": "longlong FUN_140af3760(longlong *param_1)",
+  "sig": "2sigDeleteMask()",
+  "slot": "1deleteLater()",
+  "other_lits": [],
+  "hexes": [
+   "40ec3948"
+  ],
+  "classes": [
+   "QLabel"
+  ]
+ },
+ {
+  "line": 1683228,
+  "func": "longlong FUN_140af3760(longlong *param_1)",
+  "sig": "2sigIsBusy(bool&)",
+  "slot": "1isBusy(bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ec3980"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1683231,
+  "func": "longlong FUN_140af3760(longlong *param_1)",
+  "sig": "2sigBusy(bool)",
+  "slot": "1onBusy(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40ec39a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1684495,
+  "func": "void FUN_140af5920(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "2clicked()",
+  "other_lits": [],
+  "hexes": [
+   "40ec4a00"
+  ],
+  "classes": [
+   "QPushButton"
+  ]
+ },
+ {
+  "line": 1687240,
+  "func": "undefined8 FUN_140afac60(longlong param_1)",
+  "sig": "2timeout()",
+  "slot": "1refushPixtureFrame()",
+  "other_lits": [],
+  "hexes": [
+   "40ec6488"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1687245,
+  "func": "undefined8 FUN_140afac60(longlong param_1)",
+  "sig": "2timeout()",
+  "slot": "1resizeUpdateAnimal()",
+  "other_lits": [],
+  "hexes": [
+   "40ec64b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1688712,
+  "func": "void FUN_140afd544(longlong param_1)",
+  "sig": "2textEdited(const QString &)",
+  "slot": "1onTextChanged(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40ec7498"
+  ],
+  "classes": [
+   "LicenseInputEdit"
+  ]
+ },
+ {
+  "line": 1701608,
+  "func": "void FUN_140b16648(longlong param_1)",
+  "sig": "2textChanged(const QString &)",
+  "slot": "1onTextChanged(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40eccda8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1701618,
+  "func": "void FUN_140b16648(longlong param_1)",
+  "sig": "2selectionChanged()",
+  "slot": "1onSelectionChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40eccde8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1701621,
+  "func": "void FUN_140b16648(longlong param_1)",
+  "sig": "2returnPressed()",
+  "slot": "1onReturnPressed()",
+  "other_lits": [],
+  "hexes": [
+   "40ecce18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1701624,
+  "func": "void FUN_140b16648(longlong param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40ecce50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1701712,
+  "func": "void FUN_140b16cb0(QObject *param_1,QString *param_2)",
+  "sig": "2textChanged(const QString &)",
+  "slot": "1onTextChanged(const QString &)",
+  "other_lits": [],
+  "hexes": [
+   "40ecceb0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1701934,
+  "func": "void FUN_140b16fb0(char *param_1,undefined8 param_2)",
+  "sig": "2clicked()",
+  "slot": "1onMenuItemClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd3b0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1702155,
+  "func": "void FUN_140b17900(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1hideMenu()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd400"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1702663,
+  "func": "void FUN_140b189f0(QLineEdit *param_1)",
+  "sig": "2sigIsValid(const QString&,const int&,bool&)",
+  "slot": "1onIsValid(const QString&,const int&,bool&)",
+  "other_lits": [],
+  "hexes": [
+   "40ecd158"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1702910,
+  "func": "void FUN_140b18ec0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1popupMenu()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd448"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1702993,
+  "func": "void FUN_140b18ec0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onSizeup()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd498"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1703013,
+  "func": "void FUN_140b18ec0(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onSizedown()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd4d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1703299,
+  "func": "void FUN_140b19ac0(char *param_1,undefined8 param_2)",
+  "sig": "2clicked()",
+  "slot": "1onItemSel()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd500"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704083,
+  "func": "State FUN_140b1b3c0(QDoubleValidator *param_1,QString *param_2,int *param_3)",
+  "sig": "2timeout()",
+  "slot": "1popupMenu()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd558"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704089,
+  "func": "State FUN_140b1b3c0(QDoubleValidator *param_1,QString *param_2,int *param_3)",
+  "sig": "2timeout()",
+  "slot": "1applyDate()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd578"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704464,
+  "func": "void FUN_140b1be50(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onChangeDateDisplay()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd748"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704466,
+  "func": "void FUN_140b1be50(char *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onChangeDateDisplay()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd770"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704736,
+  "func": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)",
+  "sig": "2clicked()",
+  "slot": "1showNextYear()",
+  "other_lits": [],
+  "hexes": [
+   "40eccb50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704739,
+  "func": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)",
+  "sig": "2clicked()",
+  "slot": "1showPreviousYear()",
+  "other_lits": [],
+  "hexes": [
+   "40eccb70"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704742,
+  "func": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)",
+  "sig": "2clicked()",
+  "slot": "1onChangeDateDisplay()",
+  "other_lits": [],
+  "hexes": [
+   "40eccb98"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704744,
+  "func": "void FUN_140b1c460(char *param_1,QBoxLayout *param_2)",
+  "sig": "2clicked()",
+  "slot": "1onChangeDateDisplay()",
+  "other_lits": [],
+  "hexes": [
+   "40eccbc0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704814,
+  "func": "void FUN_140b1ceb0(char *param_1,undefined8 param_2)",
+  "sig": "2clicked(const QDate &)",
+  "slot": "1onDateChanged()",
+  "other_lits": [],
+  "hexes": [
+   "40ecd5a8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1704817,
+  "func": "void FUN_140b1ceb0(char *param_1,undefined8 param_2)",
+  "sig": "2currentPageChanged(int, int)",
+  "slot": "1onCurrentPageChanged(int, int)",
+  "other_lits": [],
+  "hexes": [
+   "40ecd5d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1712761,
+  "func": "void FUN_140b2b7b0(QObject *param_1)",
+  "sig": "2valueChanged(const QVariant&)",
+  "slot": "1valueChangedSlot(const QVariant&)",
+  "other_lits": [],
+  "hexes": [
+   "40ed04b8"
+  ],
+  "classes": [
+   "QVariantAnimation"
+  ]
+ },
+ {
+  "line": 1715029,
+  "func": "void FUN_140b303d0(QWidget *param_1)",
+  "sig": "2itemClicked(const quint64)",
+  "slot": "1titleItemClicked(const quint64)",
+  "other_lits": [],
+  "hexes": [
+   "40ed0e10"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1715629,
+  "func": "void FUN_140b31880(longlong param_1,undefined8 param_2)",
+  "sig": "2timeout()",
+  "slot": "1onClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ed22c8"
+  ],
+  "classes": [
+   "WindowAttributeProxy"
+  ]
+ },
+ {
+  "line": 1716957,
+  "func": "void FUN_140b33ba0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ed2650"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1717164,
+  "func": "void FUN_140b34b60(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetAddProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40ed2ba8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1717337,
+  "func": "void FUN_140b34f60(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetAddProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40ed2568"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1718605,
+  "func": "void FUN_140b37480(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedBtnAdd()",
+  "other_lits": [],
+  "hexes": [
+   "40ed3100"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1719341,
+  "func": "void FUN_140b38410(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedChangedPath()",
+  "other_lits": [],
+  "hexes": [
+   "40ed34f8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1719376,
+  "func": "void FUN_140b38410(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedConfirm()",
+  "other_lits": [],
+  "hexes": [
+   "40ed3540"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1719408,
+  "func": "void FUN_140b38410(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ed3580"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1720551,
+  "func": "void FUN_140b3a3f0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed39c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1720593,
+  "func": "void FUN_140b3a3f0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed3a18"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1720635,
+  "func": "void FUN_140b3a3f0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedChange()",
+  "other_lits": [],
+  "hexes": [
+   "40ed3a68"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1720673,
+  "func": "void FUN_140b3a3f0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ed3aa8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1721179,
+  "func": "void FUN_140b3d190(char *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onParserSampleFile()",
+  "other_lits": [],
+  "hexes": [
+   "40ed3bb8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1722482,
+  "func": "void FUN_140b3f080(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ed3f38"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1723738,
+  "func": "void FUN_140b40de0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedBtnAdd()",
+  "other_lits": [],
+  "hexes": [
+   "40ed57e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1724979,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2sigDoubleClicked()",
+  "slot": "1onClickedPreview()",
+  "other_lits": [],
+  "hexes": [
+   "40ed5d78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1725010,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedPreview()",
+  "other_lits": [],
+  "hexes": [
+   "40ed5dd0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1725607,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRemove()",
+  "other_lits": [],
+  "hexes": [
+   "40ed5fe0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1725642,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedPreview()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6038"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1725680,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedFeedBack()",
+  "other_lits": [],
+  "hexes": [
+   "40ed60d8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1725820,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6220"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1725866,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedSave()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6280"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1725910,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedAdvancedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed62d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1725954,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedChange()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6320"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1726001,
+  "func": "void FUN_140b44b50(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedStopRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6378"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727116,
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "sig": "2sigRemove()",
+  "slot": "1onItemClickedRemove()",
+  "other_lits": [],
+  "hexes": [
+   "40ed65e0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727118,
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "sig": "2sigStartRepair()",
+  "slot": "1onItemClickedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6608"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727120,
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "sig": "2sigClickedAdvancedRepair()",
+  "slot": "1onItemClickedAdvancedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6638"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727122,
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "sig": "2sigStartAdvancedRepair()",
+  "slot": "1onItemStartAdvancedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6678"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727124,
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "sig": "2sigStopRepair()",
+  "slot": "1onItemClickedStop()",
+  "other_lits": [],
+  "hexes": [
+   "40ed66b8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727126,
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "sig": "2sigStartSave(bool)",
+  "slot": "1onItemStartSave(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40ed66e8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727128,
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "sig": "2sigSaveActivateSuccess()",
+  "slot": "2sigSaveActivateSuccess()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6718"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727131,
+  "func": "void FUN_140b49f20(char *param_1,undefined8 param_2)",
+  "sig": "2sigPreview()",
+  "slot": "1onItemClickPreview()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6758"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727808,
+  "func": "void FUN_140b4b140(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedAddVideos()",
+  "other_lits": [],
+  "hexes": [
+   "40ed68c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727953,
+  "func": "void FUN_140b4b140(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRemoveAll()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6978"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1727987,
+  "func": "void FUN_140b4b140(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedRepairAll()",
+  "other_lits": [],
+  "hexes": [
+   "40ed69c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1728018,
+  "func": "void FUN_140b4b140(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedStopAll()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6a08"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1728052,
+  "func": "void FUN_140b4b140(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onClickedSaveAll()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6a50"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1728112,
+  "func": "void FUN_140b4c5f0(QObject *param_1,QObject *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6ad8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1728115,
+  "func": "void FUN_140b4c5f0(QObject *param_1,QObject *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6b08"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1728156,
+  "func": "void FUN_140b4c800(QObject *param_1,QObject *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6bd8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1728159,
+  "func": "void FUN_140b4c800(QObject *param_1,QObject *param_2)",
+  "sig": "2timeout()",
+  "slot": "1onUpdateRepairProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6c08"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1730507,
+  "func": "void FUN_140b51910(QObject *param_1)",
+  "sig": "2sigClickedAdvancedRepair()",
+  "slot": "1onClickedAdvancedRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed7488"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1730510,
+  "func": "void FUN_140b51910(QObject *param_1)",
+  "sig": "2sigClickedFeedBack()",
+  "slot": "1onClickedFeedBack()",
+  "other_lits": [],
+  "hexes": [
+   "40ed74c8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1730513,
+  "func": "void FUN_140b51910(QObject *param_1)",
+  "sig": "2sigClickedChangeSample()",
+  "slot": "1onClickedChange()",
+  "other_lits": [],
+  "hexes": [
+   "40ed74f8"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1730516,
+  "func": "void FUN_140b51910(QObject *param_1)",
+  "sig": "2sigClickedSave(bool)",
+  "slot": "1onClickedSave(bool)",
+  "other_lits": [],
+  "hexes": [
+   "40ed7530"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1730519,
+  "func": "void FUN_140b51910(QObject *param_1)",
+  "sig": "2sigSaveActivateSuccess()",
+  "slot": "1close()",
+  "other_lits": [],
+  "hexes": [
+   "40ed7560"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1730522,
+  "func": "void FUN_140b51910(QObject *param_1)",
+  "sig": "2sigRefreshActivate()",
+  "slot": "2sigRefreshActivate()",
+  "other_lits": [],
+  "hexes": [
+   "40ed7590"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1730991,
+  "func": "void FUN_140b52ba0(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1doNextRepair()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6b58"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1731317,
+  "func": "void FUN_140b530c0(QWidget *param_1)",
+  "sig": "2sigBtnAddClicked()",
+  "slot": "2sigBtnAddClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6060"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1731320,
+  "func": "void FUN_140b530c0(QWidget *param_1)",
+  "sig": "2sigRemoveAll()",
+  "slot": "1onItemsRemoveAll()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6090"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1731323,
+  "func": "void FUN_140b530c0(QWidget *param_1)",
+  "sig": "2sigRefreshActivate()",
+  "slot": "1onActivateRefresh()",
+  "other_lits": [],
+  "hexes": [
+   "40ed60f0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1731338,
+  "func": "void FUN_140b530c0(QWidget *param_1)",
+  "sig": "2sigClickBtnAdd()",
+  "slot": "2sigBtnAddClicked()",
+  "other_lits": [],
+  "hexes": [
+   "40ed6130"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1731367,
+  "func": "void FUN_140b530c0(QWidget *param_1)",
+  "sig": "2sigUpdateItemCount(int)",
+  "slot": "1onUpdateVideosCount(int)",
+  "other_lits": [],
+  "hexes": [
+   "40ed61c0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1733314,
+  "func": "void FUN_140b562c0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnView()",
+  "other_lits": [],
+  "hexes": [
+   "40ed8c78"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1733333,
+  "func": "void FUN_140b562c0(QWidget *param_1)",
+  "sig": "2clicked()",
+  "slot": "1onBtnClose()",
+  "other_lits": [],
+  "hexes": [
+   "40ed8cb0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1733955,
+  "func": "void FUN_140b58500(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetSaveProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40ed8f28"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1734110,
+  "func": "void FUN_140b58ac0(QObject *param_1)",
+  "sig": "2timeout()",
+  "slot": "1onGetSaveProgress()",
+  "other_lits": [],
+  "hexes": [
+   "40ed8f88"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1735776,
+  "func": "void FUN_140b5c420(char *param_1)",
+  "sig": "2sigGotoAddPage()",
+  "slot": "1onGotoAddPage()",
+  "other_lits": [],
+  "hexes": [
+   "40ed96d0"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1735779,
+  "func": "void FUN_140b5c420(char *param_1)",
+  "sig": "2sigGotoItemsPage()",
+  "slot": "1onGotoItmesPage()",
+  "other_lits": [],
+  "hexes": [
+   "40ed9700"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1735782,
+  "func": "void FUN_140b5c420(char *param_1)",
+  "sig": "2sigClearAll()",
+  "slot": "1onClearAllItems()",
+  "other_lits": [],
+  "hexes": [
+   "40ed9730"
+  ],
+  "classes": []
+ },
+ {
+  "line": 1735796,
+  "func": "void FUN_140b5c420(char *param_1)",
+  "sig": "2sigBtnAddClicked()",
+  "slot": "1onClickedBtnAdd()",
+  "other_lits": [],
+  "hexes": [
+   "40ed9758"
+  ],
+  "classes": []
+ }
+]
