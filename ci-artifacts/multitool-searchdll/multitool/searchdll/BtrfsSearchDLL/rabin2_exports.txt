@@ -1,5 +1,0 @@
-[Exports]
-nth paddr      vaddr       bind   type size lib                name                          demangled
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-1   0x00000410 0x180001010 GLOBAL FUNC 0    BtrfsSearchDLL.dll EUCreateBtrfsComplateSearcher
-2   0x00000420 0x180001020 GLOBAL FUNC 0    BtrfsSearchDLL.dll EUCreateBtrfsQuickSearcher

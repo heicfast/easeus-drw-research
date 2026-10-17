@@ -1,5 +1,0 @@
-[Exports]
-nth paddr      vaddr       bind   type size lib               name                      demangled
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-1   0x000004e0 0x1800010e0 GLOBAL FUNC 0    NTFSSearchDLL.dll EUCreateNTFSQuickSearcher
-2   0x00000490 0x180001090 GLOBAL FUNC 0    NTFSSearchDLL.dll EUCreateNTFSSearcher

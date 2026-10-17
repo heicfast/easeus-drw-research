@@ -1,1300 +1,0 @@
-INFO: floss: extracting static strings
-.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing programfinding decoding function features:   0%|          | 0/179 [00:00<?, ? functions/s, skipped 0 library functions]finding decoding function features:   0%|          | 0/179 [00:00<?, ? functions/s, skipped 1 library functions (0%)]finding decoding function features:  94%|█████████▍| 168/179 [00:00<00:00, 1655.23 functions/s, skipped 1 library functions (0%)]finding decoding function features:  94%|█████████▍| 168/179 [00:00<00:00, 1655.23 functions/s, skipped 2 library functions (1%)]finding decoding function features:  94%|█████████▍| 168/179 [00:00<00:00, 1655.23 functions/s, skipped 3 library functions (1%)]finding decoding function features:  94%|█████████▍| 168/179 [00:00<00:00, 1655.23 functions/s, skipped 4 library functions (2%)]finding decoding function features:  94%|█████████▍| 168/179 [00:00<00:00, 1655.23 functions/s, skipped 5 library functions (2%)]finding decoding function features: 100%|██████████| 179/179 [00:00<00:00, 1705.92 functions/s, skipped 5 library functions (2%)]
-INFO: floss.stackstrings: extracting stackstrings from 164 functions
-extracting stackstrings:   0%|          | 0/164 [00:00<?, ? functions/s]                                                                        INFO: floss.results: EUHK
-extracting stackstrings:   0%|          | 0/164 [00:00<?, ? functions/s]extracting stackstrings:   2%|▏         | 4/164 [00:00<00:04, 38.88 functions/s]extracting stackstrings:   5%|▌         | 9/164 [00:00<00:03, 40.67 functions/s]extracting stackstrings:   9%|▊         | 14/164 [00:00<00:03, 40.65 functions/s]extracting stackstrings:  12%|█▏        | 19/164 [00:00<00:03, 37.78 functions/s]extracting stackstrings:  15%|█▍        | 24/164 [00:00<00:03, 39.14 functions/s]extracting stackstrings:  18%|█▊        | 29/164 [00:00<00:03, 40.52 functions/s]extracting stackstrings:  21%|██        | 34/164 [00:00<00:03, 38.48 functions/s]extracting stackstrings:  24%|██▍       | 39/164 [00:00<00:03, 39.68 functions/s]extracting stackstrings:  27%|██▋       | 44/164 [00:01<00:02, 40.57 functions/s]extracting stackstrings:  30%|██▉       | 49/164 [00:01<00:02, 39.51 functions/s]extracting stackstrings:  33%|███▎      | 54/164 [00:01<00:02, 40.07 functions/s]extracting stackstrings:  36%|███▌      | 59/164 [00:01<00:02, 38.29 functions/s]extracting stackstrings:  39%|███▉      | 64/164 [00:01<00:02, 38.92 functions/s]extracting stackstrings:  41%|████▏     | 68/164 [00:01<00:02, 38.72 functions/s]extracting stackstrings:  44%|████▍     | 72/164 [00:01<00:02, 36.66 functions/s]extracting stackstrings:  47%|████▋     | 77/164 [00:01<00:02, 38.71 functions/s]extracting stackstrings:  50%|█████     | 82/164 [00:02<00:02, 40.06 functions/s]extracting stackstrings:  53%|█████▎    | 87/164 [00:02<00:01, 39.27 functions/s]extracting stackstrings:  56%|█████▌    | 92/164 [00:02<00:01, 40.44 functions/s]extracting stackstrings:  59%|█████▉    | 97/164 [00:02<00:01, 41.09 functions/s]extracting stackstrings:  62%|██████▏   | 102/164 [00:02<00:01, 39.46 functions/s]extracting stackstrings:  65%|██████▌   | 107/164 [00:02<00:01, 40.70 functions/s]extracting stackstrings:  68%|██████▊   | 112/164 [00:02<00:01, 41.23 functions/s]extracting stackstrings:  71%|███████▏  | 117/164 [00:02<00:01, 40.04 functions/s]extracting stackstrings:  74%|███████▍  | 122/164 [00:03<00:01, 39.89 functions/s]extracting stackstrings:  77%|███████▋  | 127/164 [00:03<00:00, 40.21 functions/s]extracting stackstrings:  80%|████████  | 132/164 [00:03<00:00, 39.33 functions/s]extracting stackstrings:  84%|████████▎ | 137/164 [00:03<00:00, 40.79 functions/s]extracting stackstrings:  87%|████████▋ | 142/164 [00:03<00:00, 39.50 functions/s]extracting stackstrings:  90%|████████▉ | 147/164 [00:03<00:00, 41.04 functions/s]extracting stackstrings:  93%|█████████▎| 152/164 [00:03<00:00, 41.92 functions/s]extracting stackstrings:  96%|█████████▌| 157/164 [00:03<00:00, 41.09 functions/s]extracting stackstrings:  99%|█████████▉| 162/164 [00:04<00:00, 40.84 functions/s]extracting stackstrings: 100%|██████████| 164/164 [00:04<00:00, 39.94 functions/s]
-INFO: floss.tightstrings: extracting tightstrings from 7 functions...
-extracting tightstrings:   0%|          | 0/7 [00:00<?, ? functions/s]extracting tightstrings from function 0x14d80:   0%|          | 0/7 [00:00<?, ? functions/s]extracting tightstrings from function 0x1601c:   0%|          | 0/7 [00:00<?, ? functions/s]extracting tightstrings from function 0x1601c:  29%|██▊       | 2/7 [00:00<00:00, 13.74 functions/s]extracting tightstrings from function 0x18bd0:  29%|██▊       | 2/7 [00:00<00:00, 13.74 functions/s]extracting tightstrings from function 0x19000:  29%|██▊       | 2/7 [00:00<00:00, 13.74 functions/s]extracting tightstrings from function 0x19098:  29%|██▊       | 2/7 [00:00<00:00, 13.74 functions/s]extracting tightstrings from function 0x1a644:  29%|██▊       | 2/7 [00:00<00:00, 13.74 functions/s]extracting tightstrings from function 0x1a644:  86%|████████▌ | 6/7 [00:00<00:00, 23.20 functions/s]extracting tightstrings from function 0x1d370:  86%|████████▌ | 6/7 [00:00<00:00, 23.20 functions/s]extracting tightstrings from function 0x1d370: 100%|██████████| 7/7 [00:00<00:00, 17.00 functions/s]
-INFO: floss.string_decoder: decoding strings
-decoding strings:   0%|          | 0/21 [00:00<?, ? functions/s]emulating function 0x1d370 (call 1/14):   0%|          | 0/21 [00:00<?, ? functions/s]emulating function 0x1d370 (call 2/14):   0%|          | 0/21 [00:00<?, ? functions/s]emulating function 0x1d370 (call 3/14):   0%|          | 0/21 [00:00<?, ? functions/s]emulating function 0x1d370 (call 4/14):   0%|          | 0/21 [00:00<?, ? functions/s]emulating function 0x1d370 (call 5/14):   0%|          | 0/21 [00:00<?, ? functions/s]emulating function 0x1d370 (call 6/14):   0%|          | 0/21 [00:00<?, ? functions/s]emulating function 0x1d370 (call 7/14):   0%|          | 0/21 [00:00<?, ? functions/s]emulating function 0x1d370 (call 7/14):   5%|▍         | 1/21 [00:00<00:07,  2.83 functions/s]emulating function 0x198ec (call 1/1):   5%|▍         | 1/21 [00:00<00:07,  2.83 functions/s] emulating function 0x1601c (call 1/2):   5%|▍         | 1/21 [00:00<00:07,  2.83 functions/s]                                                                                             INFO: floss.results: EUHK
-emulating function 0x1601c (call 1/2):   5%|▍         | 1/21 [00:00<00:07,  2.83 functions/s]emulating function 0x1601c (call 2/2):   5%|▍         | 1/21 [00:00<00:07,  2.83 functions/s]emulating function 0x1601c (call 2/2):  14%|█▍        | 3/21 [00:00<00:02,  6.66 functions/s]emulating function 0x11008 (call 1/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]                                                                                               INFO: floss.results: EUHK
-emulating function 0x11008 (call 1/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 2/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 3/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 4/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 5/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 6/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 7/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 8/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 9/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 10/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 11/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 12/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 13/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 14/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 15/119):  14%|█▍        | 3/21 [00:01<00:02,  6.66 functions/s]emulating function 0x11008 (call 15/119):  19%|█▉        | 4/21 [00:01<00:06,  2.43 functions/s]emulating function 0x19098 (call 1/1):  19%|█▉        | 4/21 [00:01<00:06,  2.43 functions/s]                                                                                                INFO: floss.results: EUHK
-emulating function 0x19098 (call 1/1):  19%|█▉        | 4/21 [00:01<00:06,  2.43 functions/s]emulating function 0x13aa4 (call 1/4):  19%|█▉        | 4/21 [00:01<00:06,  2.43 functions/s]emulating function 0x13aa4 (call 2/4):  19%|█▉        | 4/21 [00:01<00:06,  2.43 functions/s]emulating function 0x13aa4 (call 3/4):  19%|█▉        | 4/21 [00:01<00:06,  2.43 functions/s]emulating function 0x13aa4 (call 4/4):  19%|█▉        | 4/21 [00:01<00:06,  2.43 functions/s]emulating function 0x13aa4 (call 4/4):  29%|██▊       | 6/21 [00:01<00:03,  3.85 functions/s]emulating function 0x1a544 (call 1/6):  29%|██▊       | 6/21 [00:01<00:03,  3.85 functions/s]emulating function 0x1a544 (call 2/6):  29%|██▊       | 6/21 [00:01<00:03,  3.85 functions/s]emulating function 0x1a544 (call 3/6):  29%|██▊       | 6/21 [00:01<00:03,  3.85 functions/s]emulating function 0x1a544 (call 4/6):  29%|██▊       | 6/21 [00:01<00:03,  3.85 functions/s]emulating function 0x1a544 (call 5/6):  29%|██▊       | 6/21 [00:01<00:03,  3.85 functions/s]emulating function 0x1a544 (call 6/6):  29%|██▊       | 6/21 [00:01<00:03,  3.85 functions/s]emulating function 0x1a544 (call 6/6):  33%|███▎      | 7/21 [00:01<00:03,  4.15 functions/s]emulating function 0x1c9b4 (call 1/1):  33%|███▎      | 7/21 [00:01<00:03,  4.15 functions/s]emulating function 0x148a8 (call 1/1):  33%|███▎      | 7/21 [00:01<00:03,  4.15 functions/s]emulating function 0x148a8 (call 1/1):  43%|████▎     | 9/21 [00:01<00:01,  6.13 functions/s]emulating function 0x17620 (call 1/1):  43%|████▎     | 9/21 [00:01<00:01,  6.13 functions/s]                                                                                             INFO: floss.results: EUHK
-emulating function 0x17620 (call 1/1):  43%|████▎     | 9/21 [00:01<00:01,  6.13 functions/s]emulating function 0x138a8 (call 1/5):  43%|████▎     | 9/21 [00:02<00:01,  6.13 functions/s]emulating function 0x138a8 (call 2/5):  43%|████▎     | 9/21 [00:02<00:01,  6.13 functions/s]                                                                                             INFO: floss.results: EUHK
-emulating function 0x138a8 (call 2/5):  43%|████▎     | 9/21 [00:02<00:01,  6.13 functions/s]emulating function 0x138a8 (call 3/5):  43%|████▎     | 9/21 [00:02<00:01,  6.13 functions/s]emulating function 0x138a8 (call 4/5):  43%|████▎     | 9/21 [00:02<00:01,  6.13 functions/s]emulating function 0x138a8 (call 5/5):  43%|████▎     | 9/21 [00:02<00:01,  6.13 functions/s]                                                                                             INFO: floss.results: fAddDevip
-emulating function 0x138a8 (call 5/5):  43%|████▎     | 9/21 [00:02<00:01,  6.13 functions/s]emulating function 0x138a8 (call 5/5):  52%|█████▏    | 11/21 [00:02<00:02,  3.39 functions/s]emulating function 0x11d20 (call 1/1):  52%|█████▏    | 11/21 [00:02<00:02,  3.39 functions/s]                                                                                              INFO: floss.results: null
-emulating function 0x11d20 (call 1/1):  52%|█████▏    | 11/21 [00:03<00:02,  3.39 functions/s]                                                                                              INFO: floss.results: EUHK
-emulating function 0x11d20 (call 1/1):  52%|█████▏    | 11/21 [00:03<00:02,  3.39 functions/s]emulating function 0x11d20 (call 1/1):  62%|██████▏   | 13/21 [00:03<00:01,  4.76 functions/s]emulating function 0x139a8 (call 1/2):  62%|██████▏   | 13/21 [00:03<00:01,  4.76 functions/s]                                                                                              INFO: floss.results: EUHK
-emulating function 0x139a8 (call 1/2):  62%|██████▏   | 13/21 [00:03<00:01,  4.76 functions/s]emulating function 0x139a8 (call 2/2):  62%|██████▏   | 13/21 [00:03<00:01,  4.76 functions/s]emulating function 0x16bf4 (call 1/2):  62%|██████▏   | 13/21 [00:03<00:01,  4.76 functions/s]                                                                                              INFO: floss.results: EUHK
-emulating function 0x16bf4 (call 1/2):  62%|██████▏   | 13/21 [00:03<00:01,  4.76 functions/s]emulating function 0x16bf4 (call 2/2):  62%|██████▏   | 13/21 [00:03<00:01,  4.76 functions/s]emulating function 0x16bf4 (call 2/2):  71%|███████▏  | 15/21 [00:03<00:01,  3.46 functions/s]emulating function 0x13598 (call 1/2):  71%|███████▏  | 15/21 [00:03<00:01,  3.46 functions/s]emulating function 0x13598 (call 2/2):  71%|███████▏  | 15/21 [00:04<00:01,  3.46 functions/s]emulating function 0x16fa0 (call 1/2):  71%|███████▏  | 15/21 [00:04<00:01,  3.46 functions/s]                                                                                              INFO: floss.results: EUHK
-emulating function 0x16fa0 (call 1/2):  71%|███████▏  | 15/21 [00:04<00:01,  3.46 functions/s]emulating function 0x16fa0 (call 2/2):  71%|███████▏  | 15/21 [00:04<00:01,  3.46 functions/s]emulating function 0x16fa0 (call 2/2):  81%|████████  | 17/21 [00:05<00:01,  2.15 functions/s]emulating function 0x14d80 (call 1/1):  81%|████████  | 17/21 [00:05<00:01,  2.15 functions/s]                                                                                              INFO: floss.results: EUHK
-emulating function 0x14d80 (call 1/1):  81%|████████  | 17/21 [00:05<00:01,  2.15 functions/s]emulating function 0x13d10 (call 1/1):  81%|████████  | 17/21 [00:05<00:01,  2.15 functions/s]emulating function 0x13d10 (call 1/1):  90%|█████████ | 19/21 [00:05<00:00,  3.00 functions/s]emulating function 0x19470 (call 1/1):  90%|█████████ | 19/21 [00:05<00:00,  3.00 functions/s]emulating function 0x19000 (call 1/1):  90%|█████████ | 19/21 [00:05<00:00,  3.00 functions/s]emulating function 0x19000 (call 1/1): 100%|██████████| 21/21 [00:05<00:00,  4.06 functions/s]emulating function 0x19000 (call 1/1): 100%|██████████| 21/21 [00:05<00:00,  3.60 functions/s]
-INFO: floss: finished execution after 21.24 seconds
-INFO: floss: rendering results
-
-
-FLARE FLOSS RESULTS (version 3.2.0)
-
-+------------------------+-----------------------------------------------------+
-| file path              | og-codebase/BUILDPE/x64/Windows/system32/drivers/E… |
-| identified language    | unknown                                             |
-| extracted strings      |                                                     |
-|  static strings        | 1214 (11789 characters)                             |
-|   language strings     |    0 (    0 characters)                             |
-|  stack strings         | 1                                                   |
-|  tight strings         | 0                                                   |
-|  decoded strings       | 12                                                  |
-+------------------------+-----------------------------------------------------+
-
-
- ───────────────────────────── 
-  FLOSS STATIC STRINGS (1214)  
- ───────────────────────────── 
-
-+------------------------------------+
-| FLOSS STATIC STRINGS: ASCII (1179) |
-+------------------------------------+
-
-!This program cannot be run in DOS mode.
-fnRich"
-.text
-h.rdata
-H.data
-.pdata
-HINIT
-.rsrc
-B.reloc
-H WH
-L$!3
-\$ A
-L$%H
-L$ f
-L$ SWH
-L$`H
-D$hE3
-\$hH
-T$0E
-D$hH
-T$0L
-D$hA
-l$XH
-\$PH
-UVWH
-D$@H
-L$HL
-D$0H
-L$8L
-L$8L
-L$P3
-T$(!t$ H
-T$PE3
-T$ H
-T$PA
-D$0H
-Cht\t
-T$0H
-\$8H
-t$ WH
-T$PH
-L$PH
-L$ L
-t'9\$P}
-l$HH
-t$XH
-\$@H
-t?SH
-VWATH
-l$PH9m
-L$`3
-L$PL
-L$ H
-|$PH
-\$XH
-0A\_^
-{ ATAUAVH
-D$(L
-\$PH
-l$XH
-t$`H
-|$hH
-0A^A]A\
-D$(H
-WATAUAVAWH
-[PM9
-wNM9
-\$`H
-l$hH
-t$pH
-0A_A^A]A\_
-s"H;wxu
-d$(H
-\$0H
-H96t\tH
-H96t\tH
-tKH9w0t3E3
-O0E3
-t$HH
-\$@H
-@SUVWATH
-L$b3
-T$`H
-|$0L
-D$HA
-A\_^][
-T$HH
-\$0H
-D$(H
-L$@E3
-L$@H
-L$PH
-L$ H
-\$@H
-t$HH
-VATAUAVAWH
-D$03
-I!X8A
-\$4E3
-t$8M
-\$4E
-BStu9I
-\$4A
-BStu
-\$4A
-\$4A
-BStuGA
-l$0L
-D$xI
-D$4=
-\$4A
-BStu
-D$4A
-\$4A
-BStu
-D$4A
-\$4A
-D$4H
-\$4D
-BStu
-\$4A
-D$HA
-T$HI
-D$xI
-T$xI
-\$4D
-\$4A
-D$4D
-D$4D
-D$4A
-D$4A
-D$4D
-D$4D
-d$0E
-\$4L
-\$pH
-@A_A^A]A\^
-PH9?tLH
-BStu:
-H9C0u
-H9?t
-\$@H
-t$H3
-WATAUH
-b@u2I
-tF=@+
-8RWERu
-APH9
-\$PH
-l$XH
-t$`H
-0A]A\_
-WATAUAVAWH
-b@L;
-~`E3
-PM96
-A9L$
-u4H9
-M96t
-\$`H
-l$h@
-t$pH
-0A_A^A]A\_
-x ATAUAVH
-E8l$
-\tJ4H
-\$PH
-l$XH
-t$`H
-|$hH
-0A^A]A\
-\$0H
-Ht!9s
-CHH;C@t
-t$HH
-\$@H
-YPH9
-APH9
-H;;t
-\$@H
-t$HH
-WATAUH
-D$pH
-?RWER
-uxD;g
-ur;G
-l$XH
-\$PH
-0A]A\_
-EUCL3
-\$0H
-t`E3
-D$P=
-ATAUAVH
-D$( 
-t$0H
-|$`L
-d$xM
-t$hH
-|$pH
-@A^A]A\
-CH=,
-CH=,
-\$0H
-Q8tTE
-D$PH
-\$0H
-WATAUH
-$H+F
-t@;~
-\$PH
-l$XH
-t$`3
-0A]A\_
-WATAUH
-$H+F
-t>;~
-\$PH
-l$XH
-t$`3
-0A]A\_
-x ATH
-t,D;W
-\$0H
-l$8H
-t$@H
-!D$hH
-L$lD
-D$DH
-L$TD
-D$@L
-D$PE3
-D$0H
-T$@H
-D$@L
-D$hE3
-D$0H
-D$ (
-T$@H
-I|$|D
-WATAUH
-t$0E
-@@I;
-\$`H
-l$hH
-t$pH
-@A]A\_
-L$0E3
-L$0H
-L$0E3
-\$`H
-t$hH
-UVWH
-L$PE3
-D$@H
-D$0H
-D$(H
-L$PE3
-D$HH
-p_^]
-|$@I
-D$  
-9|$@H
-|$@H
-D$0H
-D$PL
-D$(H
-L$PE3
-D$@H
-\$pI
-D$@H
-D$0H
-D$PD
-D$(H
-L$PE3
-\$@E3
-D$HL
-D$0H
-D$XH
-D$(H
-L$XE3
-\$pI
-\$@E3
-D$HL
-D$0H
-D$XH
-D$(H
-L$XE3
-\$pI
-L$B3
-L$@D
-T$@H
-L$(L
-D$ H
-L$@D
-T$@H
-L$(L
-D$ H
-D$ H
-L$DD
-L$ E3
-\$pH
-L$`E3
-\$PL
-\$@H
-D$`E3
-\$0E3
-\$(H
-L$`E3
-s WATAUAVAWH
-D$HI
-T$0L
-L$(E3
-ERH;
-u/fD9
-Xt(D8
-D9~lD
-~hv,
-T$0L
-KXA;
-C\9C8
-GC8;
-D9~lD
-~hv,
-\$`3
-A_A^A]A\_
-\$0H
-t$8H
-~HcAp;AlsuH
-I`E3
-tiD;
-sIH9
-E;Apr
-\$0H
-x ATAUAVH
-YtWD
-l$HH
-t$PH
-\$@H
- A^A]A\
-t$ WATAUH
-BStL
-l$PH
-tCL9n$t=D9n,t7D9n0u:I
-EUCL
-[ fE
-L$PH
-L$(H
-L$ H
-L$PH
-\$pM;
-l$`H
-t$hH
-\$XH
-0A]A\_
-t[H9h8t
-O8H;
-t!E3
-k(H;
-t,H9n
-\$@H
-l$HH
-t$PH
-Hc.H
-l$8H
-t$@H
-\$0H
-G0=,
-\$0H
-l$8H
-t$@H
-x ATH
-D$`D
-L$hH
-G0=,
-\$@H
-l$HH
-t$PH
-|$XH
-J@H9\tu
-B@H;
-t$ WATAUAVAWH
-D$pD
-|$PL
-D$@ 
-t$0L
-|$ L
-|$(H
-D$`E3
-D$@H
-D$8D
-|$0H
-|$(L
-D$`=
-A_A^A]A\_
-VWATH
-L$PH
-L$ A
-D$PL+
-D$PL+
-9h t
-D$PL+
-9h t
-\$XH
-l$`H
-0A\_^
-SVWATAUH
-A9D$$t
-I9|$
-D$ H
-;y u
-A;z t
-iA9Z tRM
-L$(L
-\$0E3
-D$ E;B sCA
-L$(I
-\$0A
-t$pL
-@A]A\_^[
-x ATH
-t,L9c
-\$@H
-l$HH
-t$PH
-|$X3
-|$ ATAUAVH
-\$@H
-\$HH
-t$PH
-|$XH
- A^A]A\
-UVWATAUAVAWH
-OPE3
-l$8L
-D$PL
-H;\$0
-l$8H
-`A_A^A]A\_^]
-UVWATAUAVAWH
-t$@L
-D$HH
-\$HH
-l$PH
-D$XA
-D$XL
-tsE3
-tCH;}
-r=H;}
-D$HH
-t$@H
-|$(L
-t$0H
-`A_A^A]A\_^]
-SUVWATAUAVAWH
-H9C8sNH
-H9K8r
-c8D;
-T$ A
-L$ D
-|$8L
-|$(M
-t]E3
-t7H;>r2H;~
-D$@H
-L$(H
-T$(H
-|$(H
-d$0H
-T$(H
-|$0L
-hA_A^A]A\_^][
-UVWATAUAVAWH
-T$DL
-D$HD
-D$@L
-GIcH(I
-@ IcH(Hc@
-T$ H
-A HcI(Hc@
-IcK(I
-C Hc@
-PA_A^A]A\_^]
-SUVWATAUAVAWH
-taE;E
-t,E;E
-D$0H
-D$0H;
-D$@H
-T$8H
-D$@M
-H!\$ E3
-M 9Y
-tdI;y
-teA;
-A HcI(Hc@
-XA_A^A]A\_^][
-t$ WATAVH
-\$P3
-L$pH
-\$PxK
-L$PD
-D$xH
-\$XH
-l$`H
-t$hH
-0A^A\_
-\$@H
-{ ATAUAVH
-d$pE
-\0)u
-E;B\tv4C
-A;B\tv
-HcO(H
-G Hc@
-\$PH
-l$XH
-t$`H
-|$hH
-0A^A]A\
-\$@H
-\$@H
-t$HH
-\$@H
-{ ATH
-GPM9$$H
-\$`H
-l$hH
-t$pH
-|$xH
-t$0H
-L$XH
-D$(H
-L$XH
-\$PH
-l$`H
-t$hH
-C@H9
-\$0H
-\$0H
-l$8H
-\$0H
-\$0H
-t$8H
-\$0H
-\$0H
-\$0H
-t$8H
-D$Jf
-D$N2
-L$`I
-L$8H
-L$@A
-Q@E3
-\$(H
-D$`H
-D$`H
-L$`H
-D$`H
-\$hH
-f!\$@H
-D$Jf
-D$NI
-L$hH
-L$8H!\$0H
-L$@A
-Q@E3
-\$(H
-D$hH
-\$`H
-L$@H
-D$Jf
-L$hI
-L$8H
-L$@A
-Q@E3
-D$hH
-D$hH
-tSH9=
-\$0H
-l$8H
-t$@@
-WATAUAVAWH
-X@93u\tL9
-OpH+
-X@93u
-t3I;
-\$PH
-t$`H
- A_A^A]A\_
-x ATH
-D$ H
-t$0E
-@@I;
-D$pI;
-\$PH
-l$XH
-t$`H
-|$hH
-A\tS4H
-WATAUAVAWH
-\$ E3
-nMuE
-wpeH
-\$03
-D$1H
-D$Af
-D$GE3
-D$0I
-\$ E3
-oG0H
-\$PI
-A_A^A]A\_
-fD9J
-\$0H
-D$(H
-D$PH
-D$ A
-<9?t*<ar
-WATAUH
-f9yft
-\$PH
-l$XH
-0A]A\_
-t6A;
-s&fA
-x ATH
-k\fE
-\$@H
-l$HH
-|$XH
-WATAUAVAWH
-f9sfH
-\$`H
-l$hH
-t$pA
-0A_A^A]A\_
-WATAUAVAWH
-f9YfA
-FZE+
-l$XH
-t$`H
-\$PH
- A_A^A]A\_
-D$03
-        H
-D$ f
-D$*H
-T$ H
-L$0H3
-\$XH
-t$`H
-\$0H
-x AT
-y E3
-uVIc
-t$ H
-|$(A
-x ATAUAVH
-GXD+
-D$`3
-l$HH
-t$PH
-\$@H
- A^A]A\
-x ATAUAVH
-d$`3
-D$h@
-L$`A
-T$`E
-l$HH
-t$PH
-\$@H
- A^A]A\
-x ATAUAVAWM
-fA9M
-jR9\$HutE3
-\$(H
-l$0H
-t$8H
-|$@I
-A_A^A]A\
-\$ L
-UVWATAUAVAWH
-L!|$8
-GCXH
-D$PM
-D$0L
-L$8E3
-D$(H
-L$HL
-l$@L
-l$@t\tM
-`A_A^A]A\_^]
-UVWATAUAVAWH
-d$ D;
-G E3
-H!|$@3
-l$8t"
-l$8s
-D$0L
-L$@E3
-D$(H
-D;s\
-l$8t\tH
-PA_A^A]A\_^]
-L$ L
-SUVWATAUAVAWH
-GGXH
-D$HM
-D$0L
-L$8E3
-D$(H
-t$@L
-l$HI
-XA_A^A]A\_^][
-t$ WATAUH
-D$hL
-L$8E3
-D$(H
-D$0H
-T$0A
-\$`H
-l$pH
-t$xH
-@A]A\_
-VWATH
-D$XD
-\$PH
-l$`3
-0A\_^
-t$ WATAUAVAWH
-l$xL
-t$pH
-K`;KdL
-s[E3
-D;C`r
-D$XI
-\$PH
-l$`H
-t$h3
- A_A^A]A\_
-UVWATAUAVAWH
-D$@H
-|$0H
-D$(I
-L$@H
-\$@H
-GAXH;
-\$HH
-L$XH
-L$PL;
-L$@E3
-D$(H
-D$HD
-|$0H
-D$(H
-D$PL
-L$XI
-`A_A^A]A\_^]
-UVWATAUH
-H!|$x3
-!|$`H
-D$`L
-L$xE3
-D$(H
-D$pH
-D$pI;
-|$xI
-u(E3
-\$hH
-0A]A\_^]
-yh2I
-9yduuH
-KpH;
-{`9{dteH
-SpH;
-t\9{`
-H;0v
-;K`r
-;K`s
-\$0H
-l$8H
-t$@H
-\$0H
-t$8H
-t$ WATAUH
-!\$0
-D$`H
-D$0I
-D$(L
-]0H+
-E$E3
-D$(H
-\$hH
-t$xH
-@A]A\_
-L$ H
-UVWATAUAVAWH
-D$0H
-D$0L
-@A_A^A]A\_^]
-\$0H
-\$0H
-\$0H
- H;Q
-rgH;Q
-\$0H
-H!C 
-LcC(3
-\$0H
-x ATH
-\$0H
-l$8H
-t$@H
-|$HH
-9v]H
-t$ A
-|$ H
-\$PH
-l$XH
-t$`A
-x ATAUAVH
-tN9Y
-t(9_
-t#L;'r
-l$HH
-t$PH
-\$@H
- A^A]A\
-p WH
-t@9Y
-D$0;G
-l$@H
-\$8H
-tKH;Q
-rEH;Q
-L$PH
-f!t]
-f!t]
-\$0H
-t$@H
-D$HB
-L$@H
-L$0v
-D$8L
-L$0M
-D$0H
-T$03
-T$03
-\$pH
-L$ E3
-\$0H
-\$0H
-l$8H
-t$@H
-\$0H
-l$8H
-t$@H
-UVWATAUAVAWH
-\$@D
-\$<D
-\$0u
-\$8f;
-\$hH
-|$0t.Lc
-T$TH
-T$4y
-D$pH
-\$pD
-|$0H
-D$`A
-D$D0
-L$4A
-T$4H
-L$<+
-;0t=H
-D$D-
-D$D+
-D$D 
-d$4D
-l$@E+
-D$HL
-L$8A
-D$HL
-L$8H
-L$DA
-D$HL
-L$8A
-L$XI
-L$XL
-|$HH
-|$HH
-|$HL
-L$8A
-d$8E
-L$8L
-d$8L
-dtbfA
-itZfA
-otRfA
-utJfA
-xtBfA
-D$8I
-d$8D
-T$PL
-\$HD
-D$@D
-L$<fA
-A_A^A]A\_^]
-L$<y
-D$@D
-H!T$ E3
-\$0H
-L$8H
-D$8H+
-EUHK 
-ProcessUrgentIrp pagefile bk s=%I64u,secs=%u
-ProcessUrgentIrp ownIRP=%p
-ProcessUrgentIrp 0x%X
-IoDeleteSymbolicLink = 0x%x
-IoCreateSymbolicLink status=0x%x
-MainDispatch %d code=0x%X
-OpenSession
-IOCTL_GETNEXTBLOCK error=0x%X
-MainDispatch EXCEPTION_EXECUTE_HANDLER
-MainDispatch %d status=0x%X
-MainDispatch %d STATUS_PENDING
-MainDispatch %d end
-FilterDispatch %d
-MainDispatch IOCTL_ATA_PASS_THROUGH VolDevId=0x%x
-MainDispatch IOCTL_ATA_PASS_THROUGH_DIRECT VolDevId=0x%x
-MainDispatch IOCTL_IDE_PASS_THROUGH VolDevId=0x%x
-MainDispatch IOCTL_SCSI_PASS_THROUGH VolDevId=0x%x
-MainDispatch IOCTL_SCSI_PASS_THROUGH_DIRECT VolDevId=0x%x
-MainDispatch IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES Action=0x%x VolDevId=0x%x
-MainDispatch IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES Action=Trim VolDevId=0x%x
-DeviceIoControl EXCEPTION_EXECUTE_HANDLER
-CLockedMem EXCEPTION_EXECUTE_HANDLER
-SetBitmapAndRevertMerg n=%u, t=%u
-SetBitmapAndRevertMerg no buf
-CBitmap::ResetSectors (%I64u,%u) bitOff=%u
-bitmap out range (%I64u,%u) bitOff=%u t=%u
-CBitmap::SetSectors (%I64u,%u) bitOff=%u
-DiskperfGetSectorSize IOCTL_DISK_GET_DRIVE_GEOMETRY status=0x%X,ss=%u
-DiskperfGetSectorSize status=0x%X,ss=%u
-DiskperfGetSectorSize sectorsize=%u
-add device sectorsize=%u
-InitSectorSize m_pTargetDeviceObject=%I64u pDisk=%I64u
-ownirp new =%p
-ReadSectors s=%I64u,secs=%u sectorsize=%u
-PAGEFILE.SYS
-get pgFile blk s=%I64u,secs=%u
-add pgFile blk s=%I64u,secs=%u
-CSession::CSession DataFirstSec=%I64u tSecs=%I64u spb=%u
-AddUrgentIRP %d ns=%I64u,secs=%u,secsize=%u pDisk=%I64u
-StartBackup %u
-ThreadProcessEntry EXCEPTION_EXECUTE_HANDLER
-cache UrgentRead  no bitmap %I64u secs=%u
-UrgentRead %I64u,%u error=0x%X
-cache UrgentRead  no bitmap2 %I64u
-cache pre cache %I64u,%u
-cache CacheTransmitData preSecs=%I64u
-cache CacheTransmitData1 %I64u(sS=%I64u) nsec=%u, realSec=%I64u
-cache CacheTransmitData2 %I64u(sS=%I64u) nsec=%u, realSec=%I64u
-cache CacheTransmitData0 is used %I64u
-cache CacheTransmitData is used %I64u,%u
-cache CacheTransmitData %I64u of %I64u
-cache CacheTransmitData UrgentRead %I64u
-cache delete fail.
-cache CacheTransmitData3 %I64u(sS=%I64u) nsec=%u, realSec=%I64u nread=%u
-cache CacheTransmitData4 %I64u(sS=%I64u) nsec=%u, realSec=%I64u nread=%u status=0x%x
-cache CacheTransmitData5 %I64u(sS=%I64u) nsec=%u, realSec=%I64u
-cache no space
-cache update fail
-cache CacheSrcData update %I64u->%I64u
-cache insert fail
-cache CacheSrcData insert %I64u->%I64u smp.nSectorCount=%u
-cache m_pMapCacheDst insert fail
-Cache UrgentSrcData not init
-cache exist %I64u 
-cache exist not found %I64u
-cache UrgentRead2 %I64u
-cache ReadFromCache no cache s=%I64u
-cache ReadFromCache not align save=%I64u(%u) current=%I64u(%u)
-UrgentRead m_pUrgentMgr=%u
-UrgentRead m_pUrgentMgr2=%u
-UrgentRead m_pUrgentMgr3=%u 
-********************************************
-ReadSectors failed, status = %x
-Read Sectors nFindSectors > nSectors ns=%u,nf=%u,
-Read Sectors Error %I64X, %X. Code %d.
-cache GetNextBlock GetUrgBlock get failed s=%I64u,secs=%u
-GetNextBlock failed s=%I64u,find_secs=%u,secs=%u
-GetNextBlock failed status = 0x%x
-DrvHKSetNewHookFuns type=%d pfn=0x%x
-DrvHKSelfAddDevice eHKNotHOOK return
-DrvHKSelfAddDevice
-DrvHKHookNewDevice driver=0x%x
-DrvHKHookNewDevice 2 dev 0x%x
-?DrvHookNextAddDevice@@YAJPEAU_DRIVER_OBJECT@@PEAU_DEVICE_OBJECT@@@Z
-%s %d
-?DrvHKHookSelfNewDevice@@YAXPEAU_DRIVER_OBJECT@@@Z
-DrvHKHookSelfNewDevice 2 dev 0x%x
-?DrvHookSelfAddDeviceWithHookVersion@@YAJPEAU_DRIVER_OBJECT@@PEAU_DEVICE_OBJECT@@@Z
-?DrvHookSelfAddDeviceWithNoHookVersion@@YAJPEAU_DRIVER_OBJECT@@PEAU_DEVICE_OBJECT@@@Z
-current device stack size=%u
-DrvHKHookDrv 
-Get %ws Driver=0x%x
-driver DO = 0x%x
-Get2 %ws=0x%x
-save low majorFun
-Get Low obj=0x%x FOR UPOBJ=0X%X
-DrvHkAttachToSelfOb t0 0x%x
-set fun=0x%x
-hook the hk version drv
-hook the hk version drv dev = 0x%x
-hook %d
-Get3 %ws=0x%x
-StartHookDevice %d
-FAT32   
-NTFS    
-FILE
-INDX
-eumonSysReadWriteVolBmpFile iBytess=%u secSize=%u
-eumonSysReadWriteVolBmpFile iStartByte=%I64u secSize=%u
-eumonSysReadWriteVolBmpFile2 iStartByte=%I64u secSize=%u iBytess=%u
-eumonSysReadWriteVolBmpFile rw error
-diskperf !!!!!!!!!!SysReadWrite_Callback Error Code====0x%x
-(null)
-( 8PP
-700WP
-`h````
-xpxxpp
-Invalid parameter passed to C runtime function.
-RSDS,l
-d:\epm\_epm_main\sharelib\dc\Output\sys\fre_wlh_amd64\amd64\EuBackup.pdb
-EASEUS Todo Backup Driver (c) EaseUs Co. 2008
-vsprintf
-ExFreePoolWithTag
-RtlInitUnicodeString
-RtlFreeUnicodeString
-ZwQueryValueKey
-ExAllocatePool
-ZwClose
-DbgPrint
-ZwOpenKey
-IoDeleteSymbolicLink
-KeInitializeMutex
-IoDeleteDevice
-KeSetEvent
-DbgBreakPointWithStatus
-KeReleaseMutex
-MmMapLockedPagesSpecifyCache
-IoGetCurrentProcess
-PoStartNextPowerIrp
-IofCompleteRequest
-KeWaitForSingleObject
-PoCallDriver
-IoCreateSymbolicLink
-IoCreateDevice
-ExAllocatePoolWithTag
-IoBuildDeviceIoControlRequest
-KeInitializeEvent
-KeReleaseSpinLock
-KeDelayExecutionThread
-MmSizeOfMdl
-KeBugCheckEx
-MmProbeAndLockPages
-KeReleaseSemaphore
-MmUnlockPages
-IofCallDriver
-KeAcquireSpinLockRaiseToDpc
-IoBuildSynchronousFsdRequest
-IoGetRelatedDeviceObject
-IoDetachDevice
-IoFileObjectType
-IoGetDeviceObjectPointer
-ObReferenceObjectByHandle
-IoAttachDeviceToDeviceStack
-ObfDereferenceObject
-ProbeForRead
-ZwCreateFile
-PsTerminateSystemThread
-KeInitializeSemaphore
-KeSetPriorityThread
-PsCreateSystemThread
-KeWaitForMultipleObjects
-KeReleaseSpinLockFromDpcLevel
-IoDriverObjectType
-ObReferenceObjectByName
-KeAcquireSpinLockAtDpcLevel
-IoFreeMdl
-IoFreeIrp
-IoAllocateIrp
-IoAllocateMdl
-MmBuildMdlForNonPagedPool
-ntoskrnl.exe
-RtlAnsiCharToUnicodeChar
-__C_specific_handler
->0<0
-0!0\t
-Washington1
-Redmond1
-Microsoft Corporation1)0'
- Microsoft Code Verification Root0
-110415194137Z
-210415195137Z0e1
-DigiCert Inc1
-www.digicert.com1$0"
-DigiCert Assured ID Root CA0
- 9(X`
-yS\1
-\tTPk
-N0L0J
-Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
-G"B6X
-DeCH
-~ID?
-<~vb\
- 0xAbMk^n
-&cEk
-DigiCert Inc1
-www.digicert.com1.0,
-%DigiCert Assured ID Code Signing CA-10
-190830000000Z
-221002120000Z0
-Sichuan1
-Chengdu100.
-'CHENGDU YIWO Tech Development Co., Ltd.100.
-'CHENGDU YIWO Tech Development Co., Ltd.0
-(J@clq
-7VMD
-U<`3
-Xn/o3
-jg9ID
-f0d00
-*http://crl3.digicert.com/assured-cs-g1.crl00
-*http://crl4.digicert.com/assured-cs-g1.crl0L
-E0C07
-0*0(
-https://www.digicert.com/CPS0
-v0t0$
-http://ocsp.digicert.com0L
-@http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
-SrqO
-.s`_c
-?q>4
-3L|(
-DigiCert Inc1
-www.digicert.com1$0"
-DigiCert Assured ID Root CA0
-110211120000Z
-260210120000Z0o1
-DigiCert Inc1
-www.digicert.com1.0,
-%DigiCert Assured ID Code Signing CA-10
-G}`+
-*,2F
-?NI#
-.http://www.digicert.com/ssl-cps-repository.htm0
-m0k0$
-http://ocsp.digicert.com0C
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
-z0x0:
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
-;!%{$
-?jQ8
-j-#O7;
-[B&rZ
-GBq2
-r\tyK
-DigiCert Inc1
-www.digicert.com1.0,
-%DigiCert Assured ID Code Signing CA-1
-#93.
-*2gW'
-p$\tC*9
-
-
-+-------------------------------------+
-| FLOSS STATIC STRINGS: UTF-16LE (35) |
-+-------------------------------------+
-
-DisplayName
-\Driver\%s
-DeviceName
-\Device\%s
-\DosDevices\%s1
-IoctlBase
-\Driver\VolSnap
-%s%d
-\GLOBAL??\PhysicalDrive%u
-\??\PhysicalDrive%u
-PAGEFILE.SYS
-\Driver\volmgr
-(null)
-VS_VERSION_INFO
-StringFileInfo
-040904b0
-CompanyName
-CHENGDU YIWO Tech Development Co., Ltd
-FileDescription
-Disk Backup Driver
-FileVersion
-5.8.0.0
-InternalName
-EuBakup.sys
-LegalCopyright
-Copyright (C) 2005-2011 CHENGDU YIWO Tech Development Co., Ltd. All rights reserved.
-OriginalFilename
-EuBakup.sys
-ProductName
-EaseUS Todo Backup
-ProductVersion
-5.8.0.0
-VarFileInfo
-Translation
-RAny use of this Certificate constitutes acceptance of the DigiCert CP/CPS and the Relying Party Agreement which limit liability and are incorporated herein by reference
-
-
- ───────────────────────── 
-  FLOSS STACK STRINGS (1)  
- ───────────────────────── 
-
-EUHK
-
-
- ───────────────────────── 
-  FLOSS TIGHT STRINGS (0)  
- ───────────────────────── 
-
-
-
- ──────────────────────────── 
-  FLOSS DECODED STRINGS (12)  
- ──────────────────────────── 
-
-EUHK
-EUHK
-EUHK
-EUHK
-EUHK
-fAddDevip
-null
-EUHK
-EUHK
-EUHK
-EUHK
-EUHK
-
-

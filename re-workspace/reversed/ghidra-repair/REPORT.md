@@ -1,0 +1,22 @@
+# Ghidra batch: repair
+Generated: 2026-10-17 08:45 UTC
+
+- **EUImgRepair.exe**: 564 functions, 23519 lines decompiled (600K)
+- **EUVideoRepair.dll**: 7154 functions, 164316 lines decompiled (3.7M)
+- **EUArchiveRepair.exe**: 3338 functions, 117834 lines decompiled (2.9M)
+- **EUAdobeRepair.exe**: 2209 functions, 81535 lines decompiled (2.0M)
+- **EuOfficeRepairWin32.exe**: 9131 functions, 355806 lines decompiled (9.4M)
+- **EuRepairHost.exe**: 50 functions, 985 lines decompiled (28K)
+- **EURawImg.exe**: 784 functions, 82155 lines decompiled (2.8M)
+- **EUUnZip.exe**: 1325 functions, 48871 lines decompiled (1.2M)
+- **EUImageEnhance.dll**: 9841 functions, 404642 lines decompiled (11M)
+- **EUHwpFilePathCheckerModule.dll**: 668 functions, 29099 lines decompiled (712K)
+- **EuOfficeTools.exe**: 3633 functions, 111636 lines decompiled (2.8M)
+- **EUFileRepair/EUAdobeRepair.exe**: 2209 functions, 81535 lines decompiled (2.0M)
+- **EUFileRepair/EUArchiveRepair.exe**: 3338 functions, 117834 lines decompiled (2.9M)
+- **EUFileRepair/EUImgRepairFile.exe**: 20627 functions, 829490 lines decompiled (22M)
+- **EUFileRepair/EuOfficeRepairFile.exe**: 42215 functions, 1641232 lines decompiled (37M)
+- **EUFileRepair/EuPDFRepairFile.exe**: 4649 functions, 133274 lines decompiled (3.3M)
+- **EUFileRepair/EUZipRepairFile.exe**: NO OUTPUT (check warnings)
+- **EUFileRepair/EURarRepairFile.exe**: NO OUTPUT (check warnings)
+- **EUFileRepair/EUVideoRepairFile.exe**: NO OUTPUT (check warnings)

@@ -1,5 +1,0 @@
-[Exports]
-nth paddr      vaddr       bind   type size lib               name                      demangled
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-1   0x00000500 0x180001100 GLOBAL FUNC 0    ReFSSearchDLL.dll EUCreateReFSQuickSearcher
-2   0x00000580 0x180001180 GLOBAL FUNC 0    ReFSSearchDLL.dll EUCreateReFSSearcher
