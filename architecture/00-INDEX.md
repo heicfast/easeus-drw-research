@@ -78,7 +78,7 @@
 - [x] wave2 CI batch (EuSendMessage, DiskHealth, VideoFileRepairer, MediaGraph, libssh2) ingested
 - [x] EuICloudRecovery SRP handshake instruction-level verified (authenticate_with_srp + libsrp + idmsa.apple.com/appleauth/auth)
 - [ ] EUEDKEPM dispatch enumeration (35 fns)
-- [ ] Full .rsf record-1/3 bitfield mapping (fields observed, schema partial)
+- [x] Full .rsf record-1/2/3 field schemas DECODED from `CSaveAndRestoreResult::SaveResult` writer (§5 of rsf artifact): record IDs = .rdata GUID constants; record 1 = counts+flags (12B); record 2 = 0x7F sig + name[100] + devtype + SYSTEMTIME + 2 stat qwords + flags (147B exact arithmetic; timestamp correction: 2026-10-14 23:13:21.774); record 3 = [count][1781B partition struct][5400B volume-device blob = disk identity + 512B boot-sector snapshot] (7,185B exact); filename sanitizer `/ * : ? " < > |`→`_`
 
 ## Worklog
 
