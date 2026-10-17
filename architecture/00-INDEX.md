@@ -77,7 +77,7 @@
 - [x] Per-binary artifacts generated for every in-tree binary (110+)
 - [x] wave2 CI batch (EuSendMessage, DiskHealth, VideoFileRepairer, MediaGraph, libssh2) ingested
 - [ ] Per-engine algorithm deep-dives for the remaining 7 engines
-- [ ] EuICloudRecovery SRP handshake instruction-level verification
+- [x] EuICloudRecovery SRP handshake instruction-level verified (authenticate_with_srp + libsrp + idmsa.apple.com/appleauth/auth)
 - [ ] EUEDKEPM dispatch enumeration (35 fns)
 - [ ] Full .rsf record-1/3 bitfield mapping (fields observed, schema partial)
 
