@@ -283,7 +283,7 @@ Menu geometry (measured): panel x 300–734, y 375–636 for a mid-list right-cl
 12. **The main window can spontaneously minimize** (census: rect −32000,−32000) — a restore-resilient driver (ShowWindow SW_RESTORE + SetForegroundWindow before every shot/click) is mandatory.
 13. **Context-menu Recover on huge selections → retention gate**, not destination dialog — select a single row for the real destination flow.
 14. **Space check precedes recovery**: Save with insufficient destination → the space gate (Continue = proceed anyway / Reselect = back).
-15. **The retention gate RECURS during results browsing** (timed nag with 1.1M unrecovered files — re-fired repeatedly in round-5) — a redesign must model it as a recurring interruption, not a one-shot.
+15. **The retention gate is a PERIODIC nag on Free builds** — `RetentionActiveDlg` fires roughly every 30–60 s of active use **on ANY page** (landing included, no scan needed), not only on exit. Dynamically proven across rounds 4–7: it interrupted menu-item clicks, filter browsing, and view toggles repeatedly. Copy: "Wait! You are at risk of losing data!" + "more than 50% of permanent data loss occurs because unrecovered files get overwritten by continued computer use" (with "permanent data loss" link) + "Take the final step now to safely secure your data." + rows **Get Up to 40% Off / Online Service / Quit** + X close at **(809, 135)** (dialog x 183–820, y 111–528). A faithful redesign must model it as a recurring interruption with cooldown, not a one-shot.
 
 ---
 
