@@ -109,3 +109,15 @@ Stage Summary:
 - Complete visual asset inventory recovered for both themes (7,500+ files) — the definitive "what the user sees" evidence base
 - Claiming ownership of: re-workspace/artifacts/UIUX/*, architecture/05-uiux-*.md, re-workspace/reversed/ui-resources/* (parallel agents: avoid these paths)
 - Next: QM translation parser (context→source→text), then DRWUI decompiled-code mining for view manager/geometry/userflow
+
+### Stage 5 — Documentation & Cross-Link Completion [DONE 09:35 UTC]
+Session deliverables (this agent, alongside parallel UIUX/DOC sessions):
+- CI waves completed: drwui (2.38M lines!), partition (1.17M — was un-ingested), repair (4.02M), misc (2.82M), wave2 (DiskHealth/VideoFileRepairer/MediaGraph/libssh2/EuSendMessage)
+- multitool searchdll + core batches ingested; partition + repair multitool still running
+- TOTAL: ~11M lines decompiled across 110 binaries, 0 misses (phantom entries explained)
+- Deep artifacts added (9): DRWUI-exe--main-ui-architecture (master), EuShare/eumrx-nas-architecture, Cloud/cloud-recovery-architecture, PartitionRecovery/rawfixer-fs-repair + mo-module-map + pending-operation-engine, DRWReport-exe--crash-reporter (XCrashReport provenance), Licensing/licensing-activation-chain, SearchDLL/ntfs-engine-internals
+- architecture/ docs completed: 00-INDEX, 04-recovery-workflow (master step-by-step), 05-scan-engine-architecture (controller=tree-builder MI decoded), 06-repair-chain, 07-user-flow-uiux; README.md
+- 110 per-binary systematic artifacts (scripts/gen_per_binary_artifacts.py, auto-discovers batches)
+- KEY DECODES this session: EuRdr IOCTL protocol (7 codes), FS-type→factory codes, EuPEMaker in DRWUI, FoxitRestore codename, EPM shared engine (40+ pending ops), LDM/RegLib/CTbFile in .mo layer, XCrashReport identity, euactiveonline + activation.easeus.com[.cn], DRWUI embeds hfspluslib statically, mrxioctl.cpp in DRWUI
+- Corrections synced from parallel session: .rsf = zlib-chunked (not CryptoAPI)
+- NEXT: multitool partition/repair ingestion when CI completes, deeper per-FS engine artifacts (FAT/exFAT/ext4/ReFS), EUDCPEPM hook driver deep-dive, DRWLoader DRWReport interop verification at instruction level
