@@ -719,3 +719,49 @@ Stage Summary:
 - Open for next wave: LDM VBLK composition walk, WinPE module deep reads, capa
   cross-verification, EPMNtDrv WRITE walk, exFAT CalcPartition scoring internals,
   SQLite/DWG/DMG analysers, CTbFile format internals
+
+---
+Task ID: uiux-6 (screenshot atlas + redesign reference)
+Agent: UI/UX Specialist Session (heicfast repo)
+Task: Capture screenshots of ALL steps/pages for a from-scratch redesign reference;
+continue UI/UX RE (remaining steps from uiux-5)
+
+Work Log:
+- Context recovered (pull, worklog, artifacts 01-34, evidence dirs); parallel core session
+  active (274 artifacts by resume-7)
+- Static decodes: Drw_More_Menu (FUN_140842c40: 16 items w/ QAction IDs 0xC/6/2/0x10/0xF/4/
+  0x15/0x12/5; Theme submenu Use-system/Light/Dark + DPI 100/150/200 via FUN_1408551c0);
+  CShowContextMenu (Smart/Select/Recover/Preview/Location/Clear ctor keys); filter dropdown
+  contents (Type: Pictures/Videos/Documents/Archive/Emails/Bookmarks/Others/Unsaved/Custom;
+  Date: Yesterday/7d/1m/Custom; Size: <512KB..1GB/Custom; toggles Existing/Hide-0KB/
+  Hide-System/Hide-Temp/Hide-Cache + Reset); ChooseDestinationPathDialog UX strings
+  (overwrite warnings, space gates, cloud re-auth); PreviewMainDialog exec-flow (Freeze ->
+  ctor -> exec -> result==2 -> Unfreeze -> destroy, PreviewWindowStackedWidget)
+- ui-screenshot-atlas.yml built (3 variants); run 1 FAILED silently: 'AC' is PowerShell's
+  Add-Content ALIAS (aliases > functions precedence) - every click appended to junk files!
+  Root-caused via CI console logs (missing 'click (x,y)+origin' outputs), renamed ClickAt/
+  RClickAt + committed
+- Run 2 (fixed): scan-phase COMPLETE (mid-scan 21% + PAUSED + resumed + stop-confirm
+  CScanCommonPopDlg captured); landing partial (AI panel + option-1 solution wizard modal
+  blocked the rest - modal has no ESC close); results-context partial (context menu 6 items
+  w/ full labels: Recover/Preview/Open file location/Select unrecovered files/Smart select
+  best files/Clear selection + destination dialog + exit-retention gate [2nd ESC = exit
+  trigger - dynamic proof] + row-selected contextual CTA)
+- objectname_loop v3: UTF-16LE string xrefs + QSS-selector-context attribution ->
+  1547/1710 = 90.4% (was 77.8%), 326 owning classes
+- ui-screenshots/ library created (30 organized shots, 7 areas) + ingestion script
+- Artifact 35 (Redesign Reference Atlas): complete coordinate+state+inventory reference
+- Round-3 dispatched (variant-selector via fromJSON matrix): landing-menus v3 (solution-
+  wizard Next x3 walk + return-home after AI option 2) + results-context v2 (context-menu
+  Preview item -> PreviewMainDialog, single-ESC discipline, icon view, filter dropdown
+  contents, search, destination internals: Local/Cloud tabs + Choose folder + repair toggle
+  + Save -> recovery progress)
+
+Stage Summary:
+- 5 commits pushed (workflow v2-v4 + objectname v3 + screenshot library + artifact 35)
+- The redesign reference now covers: title bar (8 elements pixel-verified), AI panel (4
+  options), menu inventory (16 items), landing map (sidebar 6 rows + 5 tiles + CTA),
+  scan-phase (5 states incl. paused/stop), results (toolbar/filter bar/context menu),
+  destination dialog internals, retention gates, 10 interaction rules
+- Round-3 in flight for: menu open state, Settings/About/Language dialogs, icon view,
+  filter dropdown contents, PreviewMainDialog, recovery progress
