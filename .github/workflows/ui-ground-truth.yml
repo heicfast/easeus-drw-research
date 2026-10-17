@@ -1,0 +1,145 @@
+name: UI Dynamic Ground-Truth (Windows screenshot + window census)
+
+# Runs DRWUI.exe on a real Windows runner, enumerates all top-level windows
+# (titles + classes) and captures screenshots. Verifies the decoded UI flow
+# (landing page, window titles, dialog inventory) against runtime ground truth.
+on:
+  workflow_dispatch:
+    inputs:
+      app:
+        description: 'App to run: drwui | drw | repair | none'
+        required: true
+        default: 'drwui'
+      wait_seconds:
+        description: 'Seconds to let the app run before capture'
+        required: true
+        default: '45'
+
+permissions:
+  contents: read
+
+jobs:
+  screenshot:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout (sparse)
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            og-codebase
+
+      - name: Enumerate app tree
+        shell: pwsh
+        run: |
+          Get-ChildItem og-codebase -File | Measure-Object | Select-Object Count
+          Get-ChildItem og-codebase/DRWUI.exe, og-codebase/DRW.exe | Select-Object Name,Length
+
+      - name: Launch app and capture
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Continue'
+          $app = '${{ inputs.app }}'
+          $wait = [int]'${{ inputs.wait_seconds }}'
+          $exe = switch ($app) {
+            'drw'    { 'og-codebase/DRW.exe' }
+            'repair' { 'og-codebase/EUFileRepair/EUImgRepairFile.exe' }
+            default  { 'og-codebase/DRWUI.exe' }
+          }
+          Write-Host "Launching $exe (cwd: og-codebase)"
+          Push-Location og-codebase
+          $proc = Start-Process -FilePath "DRWUI.exe" -PassThru -ErrorAction Continue
+          Pop-Location
+          if (-not $proc) { Write-Host "direct start failed, trying DRW.exe supervisor"; Push-Location og-codebase; $proc = Start-Process -FilePath "DRW.exe" -PassThru; Pop-Location }
+          Write-Host "Started PID: $($proc.Id)"
+          Start-Sleep -Seconds $wait
+
+          # ---- window census via user32 ----
+          Add-Type @"
+          using System;
+          using System.Runtime.InteropServices;
+          using System.Text;
+          using System.Collections.Generic;
+          public class WinEnum {
+            [DllImport("user32.dll")] static extern bool EnumWindows(EnumWindowsProc cb, IntPtr lp);
+            [DllImport("user32.dll")] static extern int GetWindowText(IntPtr h, StringBuilder sb, int n);
+            [DllImport("user32.dll")] static extern int GetClassName(IntPtr h, StringBuilder sb, int n);
+            [DllImport("user32.dll")] static extern bool IsWindowVisible(IntPtr h);
+            [DllImport("user32.dll")] static extern uint GetWindowThreadProcessId(IntPtr h, out uint pid);
+            [DllImport("user32.dll")] static extern bool GetWindowRect(IntPtr h, out RECT r);
+            [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
+            delegate bool EnumWindowsProc(IntPtr h, IntPtr lp);
+            public static List<string> Results = new List<string>();
+            static bool Cb(IntPtr h, IntPtr lp) {
+              uint pid; GetWindowThreadProcessId(h, out pid);
+              if (pid == targetPid || targetPid == 0) {
+                if (IsWindowVisible(h)) {
+                  var t = new StringBuilder(256); GetWindowText(h, t, 256);
+                  var c = new StringBuilder(256); GetClassName(h, c, 256);
+                  RECT r; GetWindowRect(h, out r);
+                  if (t.Length > 0 || c.Length > 0)
+                    Results.Add(string.Format("pid={0} hwnd=0x{1:X} class={2} title={3} rect=({4},{5})-({6},{7})",
+                      pid, h.ToInt64(), c, t, r.L, r.T, r.R, r.B));
+                }
+              }
+              return true;
+            }
+            public static uint targetPid;
+            public static void Go(uint pid) { targetPid = pid; EnumWindows(Cb, IntPtr.Zero); }
+          }
+          "@
+          if ($proc) {
+            [WinEnum]::Go($proc.Id)
+          } else {
+            [WinEnum]::Go(0)
+          }
+          # Also enumerate ALL easeus-ish windows regardless of pid
+          [WinEnum]::Go(0) | Out-Null
+          $lines = [WinEnum]::Results | Sort-Object -Unique
+          $lines | ForEach-Object { Write-Host $_ }
+          $lines | Out-File -Encoding utf8 windows_census.txt
+
+          # ---- screenshots ----
+          Add-Type -AssemblyName System.Windows.Forms,System.Drawing
+          $b = [System.Windows.Forms.SystemInformation]::VirtualScreen
+          $bmp = New-Object System.Drawing.Bitmap($b.Width, $b.Height)
+          $g = [System.Drawing.Graphics]::FromImage($bmp)
+          $g.CopyFromScreen($b.X, $b.Y, 0, 0, $bmp.Size)
+          $bmp.Save("screen_main.png", [System.Drawing.Imaging.ImageFormat]::Png)
+          $g.Dispose(); $bmp.Dispose()
+          Write-Host "screenshot saved"
+
+      - name: Capture again after more interaction time
+        shell: pwsh
+        run: |
+          Start-Sleep -Seconds 20
+          Add-Type -AssemblyName System.Windows.Forms,System.Drawing
+          try {
+            $b = [System.Windows.Forms.SystemInformation]::VirtualScreen
+            $bmp = New-Object System.Drawing.Bitmap($b.Width, $b.Height)
+            $g = [System.Drawing.Graphics]::FromImage($bmp)
+            $g.CopyFromScreen($b.X, $b.Y, 0, 0, $bmp.Size)
+            $bmp.Save("screen_late.png", [System.Drawing.Imaging.ImageFormat]::Png)
+            $g.Dispose(); $bmp.Dispose()
+          } catch { Write-Host "late capture failed: $_" }
+
+      - name: Collect logs the app may have written
+        shell: pwsh
+        run: |
+          Get-ChildItem og-codebase/*.log, og-codebase/log -ErrorAction SilentlyContinue |
+            ForEach-Object { Copy-Item $_.FullName (Join-Path $env:GITHUB_WORKSPACE ("applog_" + $_.Name)) }
+          Get-ChildItem "$env:APPDATA\EaseUS" -Recurse -ErrorAction SilentlyContinue | Select-Object FullName | Out-File appdata_listing.txt -Encoding utf8
+          Get-ItemProperty "HKCU:\SOFTWARE\EaseUS\*" -ErrorAction SilentlyContinue | Out-File reg_hkcu_easeus.txt -Encoding utf8
+
+      - name: Upload ground truth
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-ground-truth
+          path: |
+            windows_census.txt
+            screen_main.png
+            screen_late.png
+            applog_*.log
+            appdata_listing.txt
+            reg_hkcu_easeus.txt
+          if-no-files-found: ignore
