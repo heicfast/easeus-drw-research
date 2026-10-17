@@ -155,11 +155,14 @@ Two complementary mechanisms run concurrently:
 
 ## 8. SESSION PERSISTENCE (between sessions)
 
-"Save Scan Session" → `.rsf` (magic EAF4B31B…, plaintext record metadata + CryptoAPI
-CryptDeriveKey→CryptEncrypt payload; loaded via "Load Scan Session"/"Select scan session").
-Lets the user close the app and resume/ recover later without rescanning — results tree is
-serialized (file nodes with extents/paths/attributes), and import-from-file exists
-("(1-Import Scan Result").
+"Save Scan Session" → `.rsf` (magic `EA F4 B3 1B…`, 16-byte session ids, 36-byte record
+headers chaining zlib-chunked data: session flags → volume name+timestamp → scan metadata →
+the FULL found-file tree; fully reversed + validated parser — see
+`artifacts/SaveScan/rsf-format--scan-session.md` incl. corrections register). Loaded via
+"Load Scan Session"/"Select scan session" — lets the user close the app and resume/recover
+later without rescanning; import-from-file exists ("(1-Import Scan Result").
+Related config cache: `DRWCfg.bin` (AES-256-CBC, hardcoded key —
+`artifacts/config-files/drwcfg-bin--aes-config-cache.md`).
 
 ## 9. REPAIR (when files are damaged)
 
