@@ -48,6 +48,20 @@
 | `UIUX/dynamic-ground-truth--window-census-verification.md` | DRWUI runtime | loader-flow window timeline (t=8→90s), direct-launch zero-window ×3 environments (**DRWUI requires DRWLoader**), netsh Network Discovery dual-locale, static-claim verification ledger |
 | `UIUX/dynamic-ground-truth--wine-loader-run.md` | DRW.exe runtime | process tree DRW→DRWUI→AliyunWrapExe, services.exe SCM interaction, WMI/mountmgr/fsutil startup sequence, 6 DPI windows |
 | **`UIUX/dynamic-ground-truth--landing-page-windows.md`** | DRW.exe on real Windows | **FULL LANDING PAGE captured + VLM-decoded**: complete sidebar (Data Recovery/Advanced Features/File Backup→ChronoSnap), device cards w/ live capacity, Specify-a-location trio, Assistant popup, 'Search for Lost Data' — **100% of read text verbatim-verified in binary**; dynamic matrix COMPLETE (4 cells) |
+| **`MOM-modules/*.md` (30)** | all .mo modules | per-module artifacts: RTTI + vftable census + source paths + function census (NTFSLib mftwith0x20.cpp, LdmManager 18 paths, NTFSUtil 2871 fns…) — generated + hand-curated roles |
+| **`SearchDLL/rawsearchdll--family-*.md` (6)** | analyser families | BruteForce 23 / RawSpeed 15 / xjq 5 / Brance 12 / File-gen 47 / special 29 classes with vftable weights |
+| **`runtime-families/*.md` (10)** | 218 binaries | consumer-mapped runtime roles (Qt5 x2, OpenSSL trio, UCRT, D3D shims, VC generations, codecs, ImageMagick, network, shims) |
+| `Languages/language-packs--family-census.md` | 37 .qm | Mainland OEM set-analysis (Foxit=NAS+BitLocker-forward, 4 independent sub-brand catalogs), selection architecture |
+| **`config-files/filtering-priority--config-layer.md`** | 5 config files | the filtering pipeline decoded: noise layer (10-locale New-Folder + BitLocker artifacts), type ordering, family groupings, per-format carve switches (= analyser registry), 25-locale shell taglines |
+| **`FileRepair/archive-repair--7z-engine.md`** | EUArchiveRepair | CArchive7zInfo + C7zNextHeaderInfo footer repair, bit7z/7z.dll pinned SDK, password-aware + Dict |
+| `DiskHealth/diskhealth--smart-companion.md` | DiskHealth.exe | CrystalDiskInfo lineage: CAtaSmart multi-transport (SAT/CSMI/NVMe-Realtek), USB bridge tables, DiskSmart |
+| **`DRWUI-exe--thread-architecture.md`** | DRWUI.exe | 45 named-thread census by subsystem + _ThreadImg loader handshake + pool; UI-thread purity analysis |
+| **`PartitionRecovery/epmntdrv-trio--byte-diff-verification.md`** | 3 drivers | SAME family, THREE compilations (exact diff numbers) — refines prior claim |
+| `PartitionRecovery/getdriverinfo--tb-module-decode.md` | GetDriverInfo.dll | TB-MOM module (naming trap: drive-LETTER topology, not drivers) |
+| `PartitionRecovery/burn--imapi2-disc-writer.md` | Burn.dll | IMAPI2 writer + REAL-TIME streaming burn mode (multi-session append pattern) |
+| `FileRepair/x3f-repair--section-checkers-walk.md` | CX3fWork | X3F section grammar map (SECi/SECe/SECm/SECp/SECc), deepest-checker rationale |
+| `Installer/setupue-infoforsetup--bootstrap-pair.md` | SetupUE + InfoForSetup | 16-OS gate, Inno lineage (unins000 trio), /SendInfo install telemetry, DRW_Installer window |
+| `FileRepair/hwp-pathchecker--module-decode.md` | EUHwpFilePathCheckerModule | IsAccessiblePath security gate (window-station checks), Korean viewer chain |
 | **`UIUX/dynamic-ground-truth--scan-phase-captured.md`** | scan-phase runtime | **CLICK-INJECTED SCAN CAPTURE**: 'Advanced Scanning 9%' + 1.11M files (Quick pass done), **3-branch tree live-verified = .rsf record-4 roots** (Windows(C:)/File Path Lost 4.4K/Reconstructed), browse-while-scanning, Path/Type tabs, preview panel, live Searching ticker |
 | `WinPE/eusendmessage--wm-copydata-messenger.md` | EuSendMessage.exe | WM_COPYDATA messenger to 'DRW_Installer' window, cmd 999, PE-only rationale (scripted builder) |
 | **`runtime-families/*.md` (10 families)** | 218 binaries | consumer-mapped runtime roles: Qt5 core + QML stacks, OpenSSL trio (3 generations), UCRT forwarders, D3D shims, VC runtime generations, media codecs, ImageMagick delegates, network libs (zmq/ssh2/curl), system shims |
