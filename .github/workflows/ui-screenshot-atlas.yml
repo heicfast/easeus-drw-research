@@ -266,47 +266,58 @@ jobs:
             Start-Sleep -Seconds 5
             Shot "20_results_baseline"
             $log += "results baseline (after Go to Recover)"
-            # right-click a file row -> CShowContextMenu
+            # ---- context menu + PreviewMainDialog ----
             RClickAt 600 350; Start-Sleep -Seconds 2
             Shot "21_context_menu"
             $log += "right-click context menu captured"
-            Esc2
-            # view toggle (list<->icon) at (667,80)
-            ClickAt 667 80; Start-Sleep -Seconds 2; Shot "22_view_toggle_iconview"
+            # click 'Preview' item (2nd item ~y395, x715) -> PreviewMainDialog (modal, 66 v-methods)
+            ClickAt 715 395; Start-Sleep -Seconds 6
+            Shot "22_preview_main_dialog"
+            $log += "context-menu Preview clicked -> PreviewMainDialog"
+            [AH2]::Esc(); Start-Sleep -Milliseconds 800   # SINGLE ESC (2nd ESC triggers exit-retention!)
+            # ---- view toggle ----
+            ClickAt 667 80; Start-Sleep -Seconds 2; Shot "23_icon_view"
             $log += "view toggle clicked (icon view)"
-            ClickAt 667 80; Start-Sleep -Seconds 1   # toggle back
-            # Filter button (737,80) -> filter bar
-            ClickAt 737 80; Start-Sleep -Seconds 2; Shot "23_filter_bar"
+            ClickAt 667 80; Start-Sleep -Seconds 2; Shot "23b_back_to_list"
+            # ---- filter bar + dropdowns ----
+            ClickAt 737 80; Start-Sleep -Seconds 2; Shot "24_filter_bar"
             $log += "filter bar toggled"
-            # Path dropdown (72,160)
-            ClickAt 72 160; Start-Sleep -Seconds 2; Shot "24_filter_path_dropdown"
-            $log += "filter Path dropdown"
-            Esc2
-            # Type dropdown (200,160)
-            ClickAt 200 160; Start-Sleep -Seconds 2; Shot "25_filter_type_dropdown"
-            $log += "filter Type dropdown"
-            Esc2
-            # search box (886,80) - type text
+            ClickAt 72 160; Start-Sleep -Seconds 2; Shot "25_filter_path_dropdown"
+            $log += "filter Path dropdown open"
+            [AH2]::Esc(); Start-Sleep -Milliseconds 800
+            ClickAt 200 160; Start-Sleep -Seconds 2; Shot "26_filter_type_dropdown"
+            $log += "filter Type dropdown open"
+            [AH2]::Esc(); Start-Sleep -Milliseconds 800
+            # ---- search ----
             ClickAt 886 80; Start-Sleep -Milliseconds 800
             [System.Windows.Forms.SendKeys]::SendWait('system')
-            Start-Sleep -Seconds 3; Shot "26_search_typed"
+            Start-Sleep -Seconds 3; Shot "27_search_typed"
             $log += "search typed 'system'"
-            # clear search
-            [AH2]::Esc(); Start-Sleep -Seconds 2
-            # single-click a row -> selection + contextual Recover
-            ClickAt 600 350; Start-Sleep -Seconds 2; Shot "27_row_selected"
-            $log += "row selected (contextual Recover button)"
-            # Recover (bottom bar, ~892,668) -> ChooseDestinationPathDialog
-            ClickAt 892 668; Start-Sleep -Seconds 5; Shot "28_destination_dialog"
+            [System.Windows.Forms.SendKeys]::SendWait('{ESC}')
+            Start-Sleep -Seconds 2
+            # ---- row select + destination dialog internals ----
+            ClickAt 600 350; Start-Sleep -Seconds 2; Shot "28_row_selected"
+            $log += "row selected"
+            ClickAt 892 668; Start-Sleep -Seconds 5; Shot "29_destination_dialog"
             $log += "Recover clicked -> destination dialog"
-            # dialog internals: capture then blind-click browse-ish center-left
-            ClickAt 430 300; Start-Sleep -Seconds 3; Shot "29_destdlg_browseclick"
-            Esc2
-            # second row selection lower in list
-            ClickAt 600 500; Start-Sleep -Seconds 2; Shot "30_row2_selected"
-            # tree: expand a Type-tree category
-            ClickAt 200 200; Start-Sleep -Seconds 2; Shot "31_tree_click"
-            $log += "tree area clicked"
+            # dialog internals (pixel-verified): tabs y~222, rows y 279/333/404, toggle (255,613), Save (707,613)
+            ClickAt 511 279; Start-Sleep -Seconds 2; Shot "30_destdlg_localrow_selected"
+            $log += "destination: Windows(C:) row selected"
+            ClickAt 510 222; Start-Sleep -Seconds 3; Shot "31_destdlg_cloud_tab"
+            $log += "destination: Cloud tab"
+            ClickAt 480 222; Start-Sleep -Seconds 2; Shot "31b_destdlg_local_tab_back"
+            ClickAt 357 404; Start-Sleep -Seconds 3; Shot "32_destdlg_choosefolder_picker"
+            $log += "destination: Choose folder clicked (native picker)"
+            [AH2]::Esc(); Start-Sleep -Seconds 1
+            ClickAt 255 613; Start-Sleep -Seconds 1; Shot "33_destdlg_repair_off"
+            $log += "destination: Enable file repair toggled OFF"
+            ClickAt 255 613; Start-Sleep -Milliseconds 800   # toggle back ON
+            # select D: row then Save -> recovery progress!
+            ClickAt 511 333; Start-Sleep -Seconds 2; Shot "34_destdlg_d_selected"
+            ClickAt 707 613; Start-Sleep -Seconds 6; Shot "35_recovery_progress"
+            $log += "Save clicked -> recovery progress dialog"
+            Start-Sleep -Seconds 20; Shot "36_recovery_late"
+            Start-Sleep -Seconds 40; Shot "37_recovery_later"
           }
 
           # ---------------- SCAN PHASE ----------------
