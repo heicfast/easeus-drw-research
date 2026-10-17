@@ -522,3 +522,63 @@ Stage Summary:
 - Forensics complete: build identity (git commit), QA-night timeline, vendor machine disks
 - Open for next session: deepening batches 2+, recovery-dialog click-capture, per-FS IFileProperties
   per-field walkthroughs (validated table exists; field-by-field decode queued)
+
+---
+Task ID: doc-session-4 (post-migration documentation-enhancement session)
+Agent: Documentation/Verification Agent
+Task: Continue documentation-artifact work on heicfast account — special focus: algorithms,
+kernel drivers, MODULES, and UI/UX wiring. Next candidates from worklog: DRWUI RTTI
+class-by-class depth, GIF/BMP/TIFF/SVG walks, verify newest dynamic ground truth.
+
+Work Log:
+- Environment re-cloned from heicfast/easeus-drw-research (fresh disk, 254+ artifacts state)
+- VER-1: artifact 24 (dynamic ground-truth ingestion) source-level verification addendum —
+  netsh GBK 网络发现 byte-exact at .rdata 0x1103700 (FUN_14023e4a0 dual WinExec); CLSID1
+  c72be2ec = CMyFDHelper Function Discovery, context 0x17 (all four CLSCTX, not REMOTE-only);
+  CLSID2 9c38ed61 CORRECTED: lives in Device.mo (MOM module) = CDiskEnumerator VDS loader
+  (CLSCTX_LOCAL_SERVER 0x4, gated dwMajorVersion>=6) — dynamic proof of in-process MOM COM
+  enumeration; fsutil = piped output-parse → tri-state global DAT_141ba9514; WMI ROOT\CIMV2
+  + blanket both sides; NAS connector init chain (FUN_14023c980: NasConfig + ssh_config.ini
+  + FD init + conditional dual-netsh + GetTickCount duration telemetry)
+- ALGO-3 (closes state-machines §7 item 2): image-repair--gif-bmp-svg-tiff-walks.md —
+  BMP: 'BM' 0x4d42 magic, DIB header taxonomy 12/40/108/124 (CORE/INFO/V4/V5) single-point
+  switch, palette 2^bpp×4 arithmetic, 3-check flags, SampleRepair 20/50% staged; GIF:
+  GIF87a/89a magic, packed-field color-res extraction, extent RB-tree re-chain engine (3
+  trees @+0x78/80/88 keyed by 64-bit (lo,hi) pairs, 0x101-sentinel nodes, tail fixup);
+  SVG: envelope injection (canonical XML decl 0x36 + svg wrapper 0x3A + </svg>), render-
+  validation gate + atomic CopyFileW; TIFF: endian auto-arbitration by valid-IFD count
+  vote (FUN_0052f930), IFD0 tail backward 4-byte scan, Canon HEAP/CIFF sibling check;
+  cross-format synthesis table + 18-row verification ledger
+- UIUX-25 (the wiring graph): 741/722 QObject::connect sites fully resolved — Ghidra
+  truncated-VA slot strings recovered (0x40ddfe68 → RVA 0xddfe68 = '1slotSwitchClick()'),
+  661 SIGNAL→SLOT macro pairs + 61 signal-relays, 444 unique pairs; MOM-bus star topology
+  (15 identical doDispatchMessage→onReceiveData subscribers + dispatch bridge); scan/
+  recovery/repair flow edge lists; 38 timeout()-consumer polling census; 12× finished()→
+  deleteLater thread convention; 100% string-based connects (no PMF style); raw evidence
+  connect_wiring_graph.json + 3 extraction scripts
+- MOD-1 (MOM deepening): mom-modules--ui-bridge-and-dependency-matrix.md — CMessageProxy
+  singleton (DAT_141bdc740, MI: QObject vtable+0 / INotifyObserver vtable+0x10), CMessageSend
+  envelope pattern (ctor→emit dispatch→dtor per message, thread-affinity dual connect =
+  direct vs queued marshaling, symmetric disconnect), service registration chain (hub→
+  message-service 0x58B→observer); module import matrix (37 binaries: Log.mo 15+ importers
+  universal, DeviceManager 6 imports, host DLLs 5-7); TWO coupling styles: 26 factory
+  plugins (GetModule export) vs 5 link-time C++ libs (CallbackOperator 29 / DeviceAdapter 76 /
+  Log 37 / Fixup 36 / NTFSLib 310 mangled exports); IObject family exported by ALL
+- DOC deepening: deepening-batch2--pdf-office-repair.md rewritten 32→157 lines — PDF xref/
+  trailer synthesis byte-exact ('0 1\n0000000000 65535 f\r\n' header, '%010lld 00000 n\r\n'
+  entries, /Size maxGen+1, conditional /Encrypt + /ID preservation, startxref %%%EOF closer,
+  6-keyword tokenizer, resource-dict streaming walk); Office protobuf claim CORRECTED to
+  Apple iWork IWA engine: iwk:: ZipFile kit (ScanFileInfos/DecompressData/GetExtraField/
+  Crc32) + TSP::{Reference,SparseReferenceArray,DataStore} + TST::{TableModelArchive,
+  TableInfoArchive,CellStyle/TableStyleArchive,Summary*,TileStorage} + TN::{Sheet*,
+  Theme} = Numbers/Pages/Key repair; OPC content-types synthesis byte-exact (Default/Override
+  format strings); OOXML relationship+part registries; RepairHwpxFile error-code callback
+- INDEX: 4 new rows; all commits conflict-free (2 rebases absorbed parallel-agent pushes)
+
+Stage Summary:
+- 6 commits pushed (verification addendum, ALGO-3, UIUX-25 + raw evidence, MOD-1 + matrix,
+  PDF/Office deepening, INDEX); artifact count ~258
+- Open for next sessions: per-connect class attribution matrix (join wiring graph × ctor map),
+  the 19 unresolved multiline connect statements, DRWUI per-class wiring owners, iWork IWA
+  reference-graph repair walk (deeper than message census), QA-log forensics cross-check vs
+  new dynamic runs, EuPDFRepairFile MFC previewer island walk
