@@ -88,3 +88,23 @@ Raw evidence: `re-workspace/reversed/ui-resources/` (extracted themes, translati
 - **19 — DiskHealth Quick UI**: frameless 840×590 QML dashboard, S.M.A.R.T. table, tray-guarding model, shared EuS component library.
 - **QSS layout census** (`re-workspace/reversed/ui-resources/qss_layout_census.txt`): 1,646 selectors with dimensions (DiskBackup 680×536–730, TitleGift 420×488, context menu 264×202…).
 - **Dynamic ground-truth workflow** (`.github/workflows/ui-ground-truth.yml`): Wine+Xvfb screenshot & window-census run of DRWUI — prepared and dispatched, but GitHub Actions minutes on the account are exhausted (all jobs after 09:19 UTC rejected at allocation; verified across 4 dispatches incl. ubuntu fallback). Re-dispatch `ui-ground-truth` when minutes replenish to capture runtime window titles/geometry for final confirmation of the decoded flow.
+
+## 10. Independent verification addendum (doc-agent session, line-cited)
+
+The doc/verification agent independently re-checked the highest-risk claims of this UIUX
+document set against the raw decompilation — all sampled claims PASS:
+
+| Claim (artifact) | Verification (DRWUI_decompiled.c) | Verdict |
+|---|---|---|
+| View manager = QStackedWidget, pages DrwHomePage/DrwLostDiskPage/PeripheralHomeView/CDetailPage in order, landing index 2 (04) | `DrwMainViewManagerWizard::vftable` dual vtables @1312965-1312987 (MI); FUN_1408351a0: FUN_140781600→insert 0, FUN_140786090→insert 1, FUN_14093aa50→insert 2, `setCurrentIndex(param_1,2)`; CDetailPage FUN_1406b86e0→insertWidget(3) in the follow-up init FUN_140835910 @1314851-1314852 | ✓ (with precision note below) |
+| Window 1240×840 (05) | `QSize::QSize(local_190, 0x4d8, 0x348)` @1312170 — 0x4D8=1240, 0x348=840 | ✓ |
+| Brand blue #0560fd light / 118-slot palette (05) | `themdark.ini [normal]` slot 6 = `#0560fd`, slot 10 = `#0c99ff→#0560fd` gradient, 33+ slots counted in the file | ✓ |
+| 195 telemetry events (06) | `telemetry_events.txt` = 195 unique after sort; sampled `Click_AIRecommeded` / `Click_Activateupgraderenewnow` / `Click_AppLeave` each appear as literal strings in the decompilation | ✓ |
+| VideoPreviewWnd timeout() = 15 s free cap (10/18) | `QObject::connect(timer@obj+0x90, "2timeout()", …)` + `QTimer::start(local_1a0, 15000)` @1507353-1507357; ctor has QTimers at +0x90 and +0x250 @1506600-1506660 | ✓ |
+| Preview class family exists: PreviewMainDialog (66 methods), CPreviewController, IPreviewStub plugin set (18) | vftables + references present: `PreviewMainDialog::vftable` (6), `CPreviewController::vftable`, `IPreviewStub` (10 refs), `MemPreviewStub`, `ArchivePreviewView`, `VideoPreviewWnd::vftable` (4) | ✓ |
+
+**Precision note (only correction found):** artifact 04 attributes all four page
+insertions to init `FUN_1408351a0`; in fact the first three pages are inserted there,
+while the CDetailPage construction + `insertWidget(3)` happens in the follow-up init
+`FUN_140835910` (called from the same setup path). The page order, indices, and landing
+view are exactly as documented — only the containing function for page 3 differs.

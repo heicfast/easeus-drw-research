@@ -2,7 +2,10 @@
 
 > Consolidates: repair batch decompilation (4.02M lines / 17 binaries), Fixo source-tree
 > extraction, DRWUI repair wizard RTTI, EuRepairHost analysis.
-> Deep dive: `re-workspace/artifacts/FileRepair/repair-architecture.md`
+> Deep dives: `re-workspace/artifacts/FileRepair/repair-architecture.md` (master) and
+> `re-workspace/artifacts/FileRepair/image-repair--format-grammar.md` (per-format image
+> grammar: 29 C<Format>Info classes, JPEG marker state machine, JXL/AVIF specifics,
+> LibRaw static link, invocation chain)
 
 ## 1. Two repair worlds inside one product
 

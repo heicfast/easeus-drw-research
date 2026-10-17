@@ -2,7 +2,10 @@
 
 > Every quoted string below is byte-exact from DRWUI Qt string tables (English.qm / .rcc) —
 > the actual shipped UI copy. Window/class names from RTTI (1,073 classes).
-> Companion: `architecture/04-recovery-workflow.md` (mechanics behind these screens).
+> Companion: `architecture/04-recovery-workflow.md` (mechanics behind these screens) and
+> `architecture/05-uiux-architecture.md` (the UI/UX master doc: view-manager decode,
+> design system, telemetry census, per-phase deep dives — 19 artifacts, independently
+> verified §10).
 
 ## 1. Launch → Home
 

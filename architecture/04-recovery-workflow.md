@@ -19,7 +19,7 @@
 | EuMrx.sys + libssh2 | NAS virtual-drive redirector + SSH agent push | artifacts/EuShare/eumrx-nas-architecture.md |
 | cloud_session.dll / EuICloudRecovery.dll | OAuth2 cloud drives / full iCloud client | artifacts/Cloud/cloud-recovery-architecture.md |
 | Fixo repair chain (EuRepairHost → repair EXEs) | file repair (video/PDF/office/archive/image) | artifacts/FileRepair/repair-architecture.md |
-| SaveScan (.rsf) | encrypted scan-session persistence (CryptoAPI) | artifacts/SaveScan/ |
+| SaveScan (.rsf) | scan-session persistence: zlib-chunked compressed records (CORRECTED — not CryptoAPI; see rsf artifact §1) | artifacts/SaveScan/ |
 
 ## 1. LAUNCH — what the user sees first
 
@@ -216,7 +216,7 @@ Full detail: artifacts/FileRepair/repair-architecture.md.
         │ CRecoveryMgr export     │ dest validation (\\.\X: raw open)
         │ engine-stream read ────►│──► normal file writes to dest
         └─────────────────────────┘
-   damaged? → Fixo repair chain      save/load .rsf (CryptoAPI)
+   damaged? → Fixo repair chain      save/load .rsf (zlib-chunked records, CRSDataEx)
 ```
 
 ## 12. Verification ledger
@@ -231,3 +231,5 @@ Full detail: artifacts/FileRepair/repair-architecture.md.
 | Raw IO contract (512-byte sectors, MDL) | eprdtdrv decompiled (FltReadWriteSectorsCompletion, len<<9) |
 | Carving signature DB semantics | raw_signs.json parse + RAWSearchDLL decompiled |
 | Cloud/NAS/BitLocker chains | per-artifact evidence (strings/RTTI/IOCTLs) |
+| .rsf = zlib-chunked records (writer CSaveAndRestoreResult::SaveResult; GUID constants matched to all samples) | rsf artifact §1-5 + scripts/rsf_parser.py |
+| UI flow (landing page, scan→results stack switching, preview 15s cap) | independently re-verified doc-agent — see `05-uiux-architecture.md` §10 |

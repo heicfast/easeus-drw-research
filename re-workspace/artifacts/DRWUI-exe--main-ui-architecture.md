@@ -145,7 +145,8 @@ This is the contract DRWUI holds against `EUCreate<FS>Searcher` factories in the
    → `*RecoveryController` strategy → files copied out via engine IO (EPMNtDrv raw reads where
    needed) → "Recovery Successful" / "%1/%2 files" + recovery log; failed list if any.
 8. **Session persistence**: "Save Scan Session" / "Load Scan Session" / "Import Scan Result"
-   → `.rsf` files (CryptoAPI-encrypted; see SaveScan artifact).
+   → `.rsf` files (zlib-chunked records — CORRECTED, see SaveScan artifact §1; writer
+   `CSaveAndRestoreResult::SaveResult`).
 9. **Free/paid gating**: "Recover remaining", "Unlock Full Recovery", "Recover unlimited",
    "%1 free recovery capacity." — licensing UI hooks (EUinApp, activation via EuRepairHost).
 
