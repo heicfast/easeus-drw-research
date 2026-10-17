@@ -95,3 +95,32 @@ xwininfo -root -tree (top levels):
 - `applog_strutureReg.log`: shipped dev-config JSON (§2.5).
 - Windows-native run: `launch.txt` (pid 6920), screenshots `screen_main.png`/`screen_late.png`
   (runner console only), fresh Eaolog entries at 12:37:51.
+
+---
+
+## 6. Source-level verification addendum (post-ingestion audit)
+
+> Every §2 "new runtime fact" was subsequently traced to its static origin in the decompiled code,
+> with two precision upgrades. All claims below carry the function/line evidence.
+
+| §2 claim | Static origin (verified) | Verdict / correction |
+|---|---|---|
+| netsh EN (`Network Discovery`) | `FUN_14023e4a0` (DRWUI_decompiled.c:397497): `WinExec("netsh advfirewall firewall set rule group=\"Network Discovery\" new enable=Yes",0)` | ✓ |
+| netsh GBK (`网络发现`) | Same function, 2nd `WinExec(&DAT_141103700,0)`; DAT bytes at .rdata 0x1103700 = `netsh advfirewall firewall set rule group="\xcd\xf8\xc2\xe7\xb7\xa2\xcf\xd6" new enable=Yes\0` — GBK byte-exact, 1 occurrence in DRWUI.exe | ✓ byte-exact |
+| CLSID `{c72be2ec-8e90-452c-b29a-ab8ff1c071fc}` | `FUN_1403d5d40` (line 651393): `CoCreateInstance(...,0x17,...)` inside **`CMyFDHelper`** (vftable-confirmed class, `CFunctionDiscoveryNotificationWrapper` sibling) — i.e. Windows **Function Discovery**, not an anonymous remote COM. Context = **0x17** (INPROC\|INPROC_HANDLER\|LOCAL\|REMOTE), not CLSCTX_REMOTE_SERVER alone; failure returns an HRESULT the caller treats as soft | ✓ + precision upgrade (identity + context) |
+| CLSID `{9c38ed61-d565-4728-aeee-c80952f0ecde}` | **NOT in DRWUI.exe** (byte scan = 0 hits). It lives in the **PartitionRecovery family** (MainModule/UILogic/RecoveryModule/CloneModule/PartitionRecovery/ToolsModule.dll) and in **Device.mo**: `Device_decompiled.c:51709` = `CDiskEnumerator : Vds loadservice` — the **VDS (Virtual Disk Service) loader**, gated by `dwMajorVersion >= 6`, context `4` = **CLSCTX_LOCAL_SERVER** (correct — VDS is a service), not "INPROC? local-only" | **corrected attribution**: requested at runtime by the **Device.mo MOM module loaded inside DRWUI's process** — dynamic proof of the module system doing COM device enumeration in-process |
+| WMI at startup | `CoInitialize` + `CoInitializeSecurity` + `CoCreateInstance(DAT_140f5bdf8, 1)` + connect `ROOT\CIMV2` + `CoSetProxyBlanket(p,10,0,0,3,3,0,0)` (lines 259840–259880) — canonical WMI client-security pattern; plus `Device_decompiled.c` uses blanket `(…,6,3,…)` on 10 sites (its own WMI/SWbem helpers) | ✓ (both DRWUI and Device.mo WMI stacks confirmed) |
+| `fsutil behavior` query | `FUN_14023e…` (lines 178713/178780): `GetSystemDirectoryA + "%s\fsutil.exe"`, `CreatePipe`+`CreateProcessA` with `hStdOutput=hStdError=pipe`, `WaitForSingleObject(10000)`, `PeekNamedPipe`→`ReadFile(≤0x400)`, `StrStrA("= ")` → char '0'/'1' → global `DAT_141ba9514` | ✓ (it's an **output-parsed fs-quirk probe**, result cached in a global tri-state −1/0/1) |
+| COM failures non-fatal | Both paths guard: VDS `if (HVar3 == 0)` then enumerate (loop simply empty when absent); FD error returns up as HRESULT with the window still rendering (§1) | ✓ |
+
+**Bonus static finds in the same cluster (NAS init, `FUN_14023c980` — the connector constructor):**
+`%s\NasConfig` path build → `NasConfig\ssh_config.ini` append (the shipped config's consumer!),
+`CoInitializeEx(0,0)` → FD init (`FUN_14023e530`) → **conditional dual-netsh** (only when
+`FUN_1402413b0(+0x68)` says the firewall group needs it) → FD re-init → `GetTickCount` delta stored
+at `+0xa8` (init-duration telemetry). Neighbor `FUN_14023e460`:
+`WinExec("explorer ::{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}",5)` — opens the shell's **Network
+Computers** folder (the "browse NAS in Explorer" affordance of the NAS flow, artifact 15).
+
+**Cross-links**: MOM module system (Device.mo in-process COM) → `MOM-modules/Mom.md`,
+`MOM-modules/Device.md`; NAS flow → `UIUX/15-scenario-flows-nas-bitlocker-linux-pe.md`; FD/VDS →
+`re-workspace/artifacts/MOM-modules/DeviceManager.md` (storage-space enumeration).
