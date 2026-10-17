@@ -233,19 +233,25 @@ jobs:
               @{n='14_about';       x=860; y=607}
             )
             foreach ($it in $items) {
-              Esc2; KillBrowsers
-              ClickAt 874 20; Start-Sleep -Milliseconds 1200   # open menu
-              ClickAt $it.x $it.y; Start-Sleep -Seconds 3      # click item
+              [AH2]::Esc(); Start-Sleep -Milliseconds 700   # SINGLE ESC only
+              KillBrowsers
+              RestoreWin                                     # re-focus (1st click on unfocused window only activates!)
+              ClickAt 874 20; Start-Sleep -Milliseconds 1500 # open menu
+              RestoreWin
+              ClickAt $it.x $it.y; Start-Sleep -Seconds 3    # click item
               Shot $it.n
               $log += "menu item $($it.n) clicked"
             }
-            # ---- THEME: Settings submenu -> Dark (the grand prize: dark-mode app) ----
-            Esc2; KillBrowsers
-            ClickAt 874 20; Start-Sleep -Milliseconds 1200     # open menu
-            ClickAt 860 529; Start-Sleep -Milliseconds 1500    # Settings submenu
+            # ---- THEME: Settings submenu -> Dark ----
+            [AH2]::Esc(); Start-Sleep -Milliseconds 700
+            KillBrowsers
+            RestoreWin
+            ClickAt 874 20; Start-Sleep -Milliseconds 1500   # open menu
+            RestoreWin
+            ClickAt 860 529; Start-Sleep -Milliseconds 2000  # Settings submenu
             Shot "15_settings_submenu"
             $log += "settings submenu open"
-            # submenu opens right of the menu (~x 975-1100 clipped): click Dark (~y 529)
+            # submenu opens right of the menu (~x 975-1024): click Dark (~y 529)
             ClickAt 1000 529; Start-Sleep -Seconds 3
             Shot "16_dark_theme_landing"
             $log += "Dark theme selected -> dark landing"
@@ -256,13 +262,16 @@ jobs:
             ClickAt 135 322; Start-Sleep -Seconds 3; Shot "19_dark_filerepair"
             ClickAt 135 120; Start-Sleep -Seconds 2; Shot "20_dark_back_home"
             # back to light via menu again
-            ClickAt 874 20; Start-Sleep -Milliseconds 1200
-            ClickAt 860 529; Start-Sleep -Milliseconds 1500
+            RestoreWin
+            ClickAt 874 20; Start-Sleep -Milliseconds 1500
+            RestoreWin
+            ClickAt 860 529; Start-Sleep -Milliseconds 2000
             ClickAt 1000 490; Start-Sleep -Seconds 3   # Light option (~y 490)
             Shot "21_back_to_light"
             $log += "theme toggled back to light"
             # after menu walk return to clean landing
-            Esc2; KillBrowsers; Start-Sleep -Seconds 2
+            [AH2]::Esc(); Start-Sleep -Milliseconds 700
+            KillBrowsers; Start-Sleep -Seconds 2
             Shot "22_after_menu_walk"
             # Sidebar pages
             ClickAt 135 120; Start-Sleep -Seconds 2; Shot "23_sidebar_harddisk"     # Hardware Disk (default)
