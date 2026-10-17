@@ -1,0 +1,8792 @@
+{
+ "QLabel": {
+  "vftables": [
+   "0x140dcef98",
+   "0x140dcf108"
+  ],
+  "n_methods": 52,
+  "category": "Qt base",
+  "n_ui_strings": 120
+ },
+ "QPushButton": {
+  "vftables": [
+   "0x140dcf148",
+   "0x140dcf2d8"
+  ],
+  "n_methods": 55,
+  "category": "Qt base",
+  "n_ui_strings": 27
+ },
+ "CWin32Heap": {
+  "vftables": [
+   "0x140dcf318"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CAtlStringMgr": {
+  "vftables": [
+   "0x140dcf348"
+  ],
+  "n_methods": 6,
+  "category": "Controller/Manager"
+ },
+ "ActivateResultDialog": {
+  "vftables": [
+   "0x140dcf380",
+   "0x140dcf528",
+   "0x140dcf568"
+  ],
+  "n_methods": 60,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_ui_strings": 2
+ },
+ "QWidget": {
+  "vftables": [
+   "0x140dd0a38",
+   "0x140dd0ba8"
+  ],
+  "n_methods": 52,
+  "category": "Qt base",
+  "n_ui_strings": 9
+ },
+ "ActivateViewProxy": {
+  "vftables": [
+   "0x140dd0be8"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 19,
+  "forward_only": false
+ },
+ "ApowerActivateDialog": {
+  "vftables": [
+   "0x140dd17f0",
+   "0x140dd1998",
+   "0x140dd19d8"
+  ],
+  "n_methods": 60,
+  "category": "App Dialog"
+ },
+ "CBuyGuideWnd": {
+  "vftables": [
+   "0x140dd22d8",
+   "0x140dd2450"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 6,
+  "forward_only": false,
+  "n_ui_strings": 6
+ },
+ "QFrame": {
+  "vftables": [
+   "0x140dd3a08",
+   "0x140dd3b78"
+  ],
+  "n_methods": 52,
+  "category": "Qt base",
+  "n_ui_strings": 17
+ },
+ "QStackedLayout": {
+  "vftables": [
+   "0x140dd3bb8",
+   "0x140dd3c48"
+  ],
+  "n_methods": 32,
+  "category": "Qt base",
+  "n_ui_strings": 1
+ },
+ "ChinaMainlandbuyErrorWnd": {
+  "vftables": [
+   "0x140dd3cd0",
+   "0x140dd3e40"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 6,
+  "forward_only": false
+ },
+ "CChinaMainlandActivateDlg": {
+  "vftables": [
+   "0x140dd3e80",
+   "0x140dd4020"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog"
+ },
+ "IEMainlandNativeEventFilter": {
+  "vftables": [
+   "0x140dd4060"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "ChinaMainlandbuyIeWnd": {
+  "vftables": [
+   "0x140dd48f0",
+   "0x140dd4a60"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "Host": {
+  "vftables": [
+   "0x140dd5280",
+   "0x140dd52e0"
+  ],
+  "n_methods": 14,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "DocHostUIHandler": {
+  "vftables": [
+   "0x140dd5300"
+  ],
+  "n_methods": 18,
+  "category": "App other"
+ },
+ "ClientSite": {
+  "vftables": [
+   "0x140dd5398"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "InPlaceSite": {
+  "vftables": [
+   "0x140dd53e8"
+  ],
+  "n_methods": 15,
+  "category": "App other"
+ },
+ "WebBrowserEvents2": {
+  "vftables": [
+   "0x140dd5468"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "CEnterLicenceDlg": {
+  "vftables": [
+   "0x140dd60c0",
+   "0x140dd6258"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 6,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "ExternalActivateDialog": {
+  "vftables": [
+   "0x140dd6d80",
+   "0x140dd6f28",
+   "0x140dd6f68"
+  ],
+  "n_methods": 60,
+  "category": "App Dialog"
+ },
+ "HolidayResDownloadThread": {
+  "vftables": [
+   "0x140dd7ac8"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "InnerBuyActivateDlg": {
+  "vftables": [
+   "0x140dd86f0",
+   "0x140dd8890"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog"
+ },
+ "InnerBuyPurchaseDlg": {
+  "vftables": [
+   "0x140dd96c8",
+   "0x140dd9868"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog"
+ },
+ "IENativeEventFilter": {
+  "vftables": [
+   "0x140dd98a8"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "InnerWebWindow": {
+  "vftables": [
+   "0x140dda0c8",
+   "0x140dda238"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 9,
+  "forward_only": false
+ },
+ "CLocalRecoverBuyDlg": {
+  "vftables": [
+   "0x140ddb408",
+   "0x140ddb5a0"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 12
+ },
+ "PirateVictimsTipDlg": {
+  "vftables": [
+   "0x140ddbcc0",
+   "0x140ddbe70",
+   "0x140ddbeb0"
+  ],
+  "n_methods": 61,
+  "category": "App Dialog",
+  "n_geometry_calls": 1
+ },
+ "WeChatEmbedIeWnd": {
+  "vftables": [
+   "0x140ddc608",
+   "0x140ddc778"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 6,
+  "forward_only": false
+ },
+ "ArrowToggleButton": {
+  "vftables": [
+   "0x140ddce20",
+   "0x140ddcfa8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CAutoRecoverCloseWnd": {
+  "vftables": [
+   "0x140ddd3c0",
+   "0x140ddd538"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "CAutoRecoverEntryWnd": {
+  "vftables": [
+   "0x140dddf60",
+   "0x140dde0d8"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false,
+  "n_ui_strings": 5
+ },
+ "QTimer": {
+  "vftables": [
+   "0x140ddf6a8"
+  ],
+  "n_methods": 11,
+  "category": "Qt base",
+  "n_ui_strings": 3
+ },
+ "CAutoRecoverMgr": {
+  "vftables": [
+   "0x140ddf708"
+  ],
+  "n_methods": 11,
+  "category": "Controller/Manager"
+ },
+ "CAutoRecoverOpenWnd": {
+  "vftables": [
+   "0x140ddfc40",
+   "0x140ddfdb8"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "CAutoRecoverSettingWnd": {
+  "vftables": [
+   "0x140de0d80",
+   "0x140de0f20"
+  ],
+  "n_methods": 58,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 9,
+  "forward_only": false,
+  "n_ui_strings": 15
+ },
+ "QFileDialog": {
+  "vftables": [
+   "0x140de0f68",
+   "0x140de1108"
+  ],
+  "n_methods": 57,
+  "category": "Qt base",
+  "n_ui_strings": 6
+ },
+ "CQuickScanCompleteWnd": {
+  "vftables": [
+   "0x140de18f0",
+   "0x140de1a68"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "CFollowusDlg": {
+  "vftables": [
+   "0x140de2188",
+   "0x140de2328"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog",
+  "n_geometry_calls": 1
+ },
+ "CWeChatDefaultWnd": {
+  "vftables": [
+   "0x140de24f8",
+   "0x140de2668"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CWeChatFollowUSObserver": {
+  "vftables": [
+   "0x140de2fb8"
+  ],
+  "n_methods": 12,
+  "category": "App other",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CWeChatIEWnd": {
+  "vftables": [
+   "0x140de3020",
+   "0x140de3190"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 9,
+  "forward_only": false
+ },
+ "CWeChatThread": {
+  "vftables": [
+   "0x140de3350"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CWeChatLoadingWnd": {
+  "vftables": [
+   "0x140de33b8",
+   "0x140de3528"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CSBackupDownloadConnectZipThread": {
+  "vftables": [
+   "0x140de44f0"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CSBackupDownloadPage": {
+  "vftables": [
+   "0x140de4558",
+   "0x140de46e8"
+  ],
+  "n_methods": 56,
+  "category": "App Page",
+  "n_ui_strings": 7
+ },
+ "?$_LaunchPad": {
+  "vftables": [
+   "0x140de4758",
+   "0x140df3250",
+   "0x141880778",
+   "0x141880d40",
+   "0x141885d38",
+   "0x1418860e8",
+   "0x1418860f8",
+   "0x141886688",
+   "0x141886768",
+   "0x1418878a0",
+   "0x141887b18",
+   "0x141887f58",
+   "0x141888708",
+   "0x141888718",
+   "0x141889af0",
+   "0x141889b00",
+   "0x141889b60",
+   "0x14188a3e0",
+   "0x14188b8d0",
+   "0x14188b938",
+   "0x14188bdd0",
+   "0x141894fc8",
+   "0x141899910"
+  ],
+  "n_methods": 23,
+  "category": "MSVC/STL template"
+ },
+ "CSBackupMgr": {
+  "vftables": [
+   "0x140de4e58",
+   "0x140de4fe0"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "CSBackupStartWnd": {
+  "vftables": [
+   "0x140de5a10",
+   "0x140de5b80"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "BadSectorTipsDlg": {
+  "vftables": [
+   "0x140de64f8",
+   "0x140de6690"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "QProgressBar": {
+  "vftables": [
+   "0x140de8cf8",
+   "0x140de8e78"
+  ],
+  "n_methods": 53,
+  "category": "Qt base"
+ },
+ "IUIProgress": {
+  "vftables": [
+   "0x140de8eb8"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "CBottomArea": {
+  "vftables": [
+   "0x140de8ef8",
+   "0x140de9078"
+  ],
+  "n_methods": 54,
+  "category": "App other",
+  "qt_base": "QFrame",
+  "moc_slots": 12,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "CProgressBar": {
+  "vftables": [
+   "0x140de90b8",
+   "0x140de9228"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CProgressState": {
+  "vftables": [
+   "0x140de9268",
+   "0x140de93d8"
+  ],
+  "n_methods": 52,
+  "category": "Data/Node",
+  "qt_base": "QStackedWidget",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CStopScanThread": {
+  "vftables": [
+   "0x140de9418"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CEnterLeaveFrame": {
+  "vftables": [
+   "0x140de9480",
+   "0x140de95f0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CProgressArea": {
+  "vftables": [
+   "0x140de9630",
+   "0x140de97a0",
+   "0x140de97e0"
+  ],
+  "n_methods": 57,
+  "category": "App other",
+  "qt_base": "QWidget",
+  "moc_slots": 29,
+  "forward_only": false
+ },
+ "CRecoveryArea": {
+  "vftables": [
+   "0x140de9810",
+   "0x140de9980"
+  ],
+  "n_methods": 52,
+  "category": "App other",
+  "qt_base": "QWidget",
+  "moc_slots": 6,
+  "forward_only": false
+ },
+ "?$_Func_impl_no_alloc": {
+  "vftables": [
+   "0x140de9a10",
+   "0x140dfc580",
+   "0x140e08ef8",
+   "0x140e08f30",
+   "0x140e08f68",
+   "0x140e08fa0",
+   "0x140e09080",
+   "0x140e090e8",
+   "0x140e0b5d0",
+   "0x140e0b608",
+   "0x140e21518",
+   "0x140e21550",
+   "0x140e21588",
+   "0x140e215c0",
+   "0x140e215f8",
+   "0x140e21630",
+   "0x140e72508",
+   "0x140e72540",
+   "0x140e72578",
+   "0x1418880c0",
+   "0x141888120",
+   "0x141889bf0",
+   "0x14188a4b8",
+   "0x14188a4f0",
+   "0x14188a530",
+   "0x14188a568",
+   "0x14188bdf8",
+   "0x141894688",
+   "0x141895d30",
+   "0x141895e98",
+   "0x141896aa8"
+  ],
+  "n_methods": 186,
+  "category": "MSVC/STL template"
+ },
+ "QSplitter": {
+  "vftables": [
+   "0x140dedff8",
+   "0x140dee178"
+  ],
+  "n_methods": 53,
+  "category": "Qt base"
+ },
+ "CGoHomeThread": {
+  "vftables": [
+   "0x140dee1d8"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CDetailPage": {
+  "vftables": [
+   "0x140dee240",
+   "0x140dee3b0"
+  ],
+  "n_methods": 52,
+  "category": "App Page",
+  "qt_base": "QStackedWidget",
+  "moc_slots": 44,
+  "forward_only": false,
+  "n_geometry_calls": 1
+ },
+ "?$QFutureInterface": {
+  "vftables": [
+   "0x140dee410",
+   "0x140e1a350",
+   "0x140eae7b0"
+  ],
+  "n_methods": 3,
+  "category": "MSVC/STL template"
+ },
+ "?$QFutureWatcher": {
+  "vftables": [
+   "0x140dee420",
+   "0x140e1a360",
+   "0x140eae7c0"
+  ],
+  "n_methods": 19,
+  "category": "MSVC/STL template"
+ },
+ "?$RunFunctionTaskBase": {
+  "vftables": [
+   "0x140dee5a8",
+   "0x140dee5c0",
+   "0x140e1a3d0",
+   "0x140e1a3e8",
+   "0x140eae830",
+   "0x140eae848"
+  ],
+  "n_methods": 10,
+  "category": "MSVC/STL template"
+ },
+ "?$RunFunctionTask": {
+  "vftables": [
+   "0x140dee5d8",
+   "0x140dee5f0",
+   "0x140e1a400",
+   "0x140e1a418",
+   "0x140eae860",
+   "0x140eae878"
+  ],
+  "n_methods": 10,
+  "category": "MSVC/STL template"
+ },
+ "?$StoredMemberFunctionPointerCall1": {
+  "vftables": [
+   "0x140dee608",
+   "0x140dee620"
+  ],
+  "n_methods": 4,
+  "category": "MSVC/STL template"
+ },
+ "QGridLayout": {
+  "vftables": [
+   "0x140def778",
+   "0x140def808"
+  ],
+  "n_methods": 32,
+  "category": "Qt base"
+ },
+ "ITypeIconProperties": {
+  "vftables": [
+   "0x140def890"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "TypeDemoWidget": {
+  "vftables": [
+   "0x140def8a8",
+   "0x140defa30",
+   "0x140defa70"
+  ],
+  "n_methods": 57,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "AnalysisGridWidget": {
+  "vftables": [
+   "0x140defa88",
+   "0x140defbf8",
+   "0x140defc38"
+  ],
+  "n_methods": 54,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "DrwAIDedupWindow": {
+  "vftables": [
+   "0x140defc50",
+   "0x140defdc8"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CPaintBackgroundImgLabel": {
+  "vftables": [
+   "0x140defe08",
+   "0x140deff78"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DrwFlyoutMenu": {
+  "vftables": [
+   "0x140df0948",
+   "0x140df0ad0"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control"
+ },
+ "QPixmap": {
+  "vftables": [
+   "0x140df15b8"
+  ],
+  "n_methods": 7,
+  "category": "Qt base"
+ },
+ "DrwFlyoutWindow": {
+  "vftables": [
+   "0x140df15f8",
+   "0x140df1768"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QLabel",
+  "moc_slots": 6,
+  "forward_only": false
+ },
+ "QStackedWidget": {
+  "vftables": [
+   "0x140df2d38",
+   "0x140df2ea8"
+  ],
+  "n_methods": 52,
+  "category": "Qt base"
+ },
+ "PartitionItemFrame": {
+  "vftables": [
+   "0x140df2ee8",
+   "0x140df3058"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DrwPartitionRecoverWindow": {
+  "vftables": [
+   "0x140df3098",
+   "0x140df3210"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 9,
+  "forward_only": false
+ },
+ "QGraphicsOpacityEffect": {
+  "vftables": [
+   "0x140df43a8"
+  ],
+  "n_methods": 14,
+  "category": "Qt base"
+ },
+ "CFileExtensionItem": {
+  "vftables": [
+   "0x140df4420",
+   "0x140df45a8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CFileExtensionGroupWnd": {
+  "vftables": [
+   "0x140df45e8",
+   "0x140df4758"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 6,
+  "forward_only": false
+ },
+ "QPropertyAnimation": {
+  "vftables": [
+   "0x140df4798"
+  ],
+  "n_methods": 17,
+  "category": "Qt base"
+ },
+ "QParallelAnimationGroup": {
+  "vftables": [
+   "0x140df4828"
+  ],
+  "n_methods": 15,
+  "category": "Qt base"
+ },
+ "CSelAllCheckBoxEx": {
+  "vftables": [
+   "0x140df50f8",
+   "0x140df5280"
+  ],
+  "n_methods": 55,
+  "category": "App other",
+  "qt_base": "QCheckBox",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CFileTypeFilterTabBar": {
+  "vftables": [
+   "0x140df52c0",
+   "0x140df5430"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CFileTypeTagTabItem": {
+  "vftables": [
+   "0x140df5d80",
+   "0x140df5f08"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CFileTypeTagTabGroupWnd": {
+  "vftables": [
+   "0x140df5f48",
+   "0x140df60b8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "QCheckBox": {
+  "vftables": [
+   "0x140df86a8",
+   "0x140df8838"
+  ],
+  "n_methods": 55,
+  "category": "Qt base",
+  "n_ui_strings": 1
+ },
+ "QMenu": {
+  "vftables": [
+   "0x140df8878",
+   "0x140df89e8"
+  ],
+  "n_methods": 52,
+  "category": "Qt base",
+  "n_ui_strings": 12
+ },
+ "QWidgetAction": {
+  "vftables": [
+   "0x140df8a28"
+  ],
+  "n_methods": 13,
+  "category": "Qt base"
+ },
+ "CFilterCountFrame": {
+  "vftables": [
+   "0x140df8ab0",
+   "0x140df8c20"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CFilterButton": {
+  "vftables": [
+   "0x140df8c60",
+   "0x140df8e40"
+  ],
+  "n_methods": 66,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 11,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "CTypeFilterBtn": {
+  "vftables": [
+   "0x140df8e80",
+   "0x140df9060"
+  ],
+  "n_methods": 66,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 11,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "CTimeFilterBtn": {
+  "vftables": [
+   "0x140df90a0",
+   "0x140df9280"
+  ],
+  "n_methods": 66,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 11,
+  "forward_only": false
+ },
+ "CSizeFilterBtn": {
+  "vftables": [
+   "0x140df92c0",
+   "0x140df94a0"
+  ],
+  "n_methods": 66,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 11,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "CAdvancedFilterBtn": {
+  "vftables": [
+   "0x140df94e0",
+   "0x140df96c0"
+  ],
+  "n_methods": 66,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 11,
+  "forward_only": false,
+  "n_ui_strings": 2
+ },
+ "CFilterLostFilesBtn": {
+  "vftables": [
+   "0x140df9700",
+   "0x140df9890"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CFilterBar": {
+  "vftables": [
+   "0x140df98d0",
+   "0x140df9a40"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 12,
+  "forward_only": false
+ },
+ "CFilterGuideWnd": {
+  "vftables": [
+   "0x140df9a80",
+   "0x140df9bf8"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false,
+  "n_ui_strings": 2
+ },
+ "QSvgRenderer": {
+  "vftables": [
+   "0x140df9c38"
+  ],
+  "n_methods": 11,
+  "category": "Qt base"
+ },
+ "QHBoxLayout": {
+  "vftables": [
+   "0x140dfbac8",
+   "0x140dfbb58"
+  ],
+  "n_methods": 32,
+  "category": "Qt base"
+ },
+ "QButtonGroup": {
+  "vftables": [
+   "0x140dfbbe8"
+  ],
+  "n_methods": 11,
+  "category": "Qt base"
+ },
+ "CSearchLineedit": {
+  "vftables": [
+   "0x140dfbc48",
+   "0x140dfbe08"
+  ],
+  "n_methods": 62,
+  "category": "App other",
+  "qt_base": "QLineEdit",
+  "moc_slots": 12,
+  "forward_only": false,
+  "n_ui_strings": 9
+ },
+ "CAddressBtn": {
+  "vftables": [
+   "0x140dfbe48",
+   "0x140dfbfd0"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CIconListBtn": {
+  "vftables": [
+   "0x140dfc010",
+   "0x140dfc1a0"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CNavigateThread": {
+  "vftables": [
+   "0x140dfc1e0"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CNavigateBar": {
+  "vftables": [
+   "0x140dfc248",
+   "0x140dfc3b8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 37,
+  "forward_only": false
+ },
+ "CPanelView": {
+  "vftables": [
+   "0x140dfd1c0",
+   "0x140dfd330"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 10,
+  "forward_only": false
+ },
+ "CSelAllCheckBox": {
+  "vftables": [
+   "0x140dff518",
+   "0x140dff6a0"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QCheckBox",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_ui_strings": 6
+ },
+ "CSetFilterThread": {
+  "vftables": [
+   "0x140dff6e0"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CRightContent": {
+  "vftables": [
+   "0x140dff748",
+   "0x140dff8d0"
+  ],
+  "n_methods": 55,
+  "category": "App other",
+  "qt_base": "QStackedWidget",
+  "moc_slots": 82,
+  "forward_only": false,
+  "n_geometry_calls": 2
+ },
+ "CRightTagTipsWnd": {
+  "vftables": [
+   "0x140e007f0",
+   "0x140e00960"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CNoSearchRlt": {
+  "vftables": [
+   "0x140e01ae0",
+   "0x140e01c90"
+  ],
+  "n_methods": 60,
+  "category": "App other"
+ },
+ "CFilterNoRlt": {
+  "vftables": [
+   "0x140e01cd0",
+   "0x140e01e80"
+  ],
+  "n_methods": 60,
+  "category": "App other"
+ },
+ "CSearchBar": {
+  "vftables": [
+   "0x140e01ec0",
+   "0x140e02030"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CSearchNltPopWnd": {
+  "vftables": [
+   "0x140e02a00",
+   "0x140e02ba0"
+  ],
+  "n_methods": 58,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 4,
+  "forward_only": false,
+  "n_ui_strings": 6
+ },
+ "CUserDefineSortBarItem": {
+  "vftables": [
+   "0x140e03a00",
+   "0x140e03b88"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CUserDefineSortBar": {
+  "vftables": [
+   "0x140e03bc8",
+   "0x140e03d38"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CTagCaptionItem": {
+  "vftables": [
+   "0x140e04bc8",
+   "0x140e04d38"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CUserGuidTipWndContentWnd": {
+  "vftables": [
+   "0x140e04d78",
+   "0x140e04ee8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CUserGuidTipWnd": {
+  "vftables": [
+   "0x140e04f28",
+   "0x140e05098"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "exception": {
+  "vftables": [
+   "0x140e08928"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "runtime_error": {
+  "vftables": [
+   "0x140e089d8"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "_System_error": {
+  "vftables": [
+   "0x140e089f0"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "system_error": {
+  "vftables": [
+   "0x140e08a08"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "_Generic_error_category": {
+  "vftables": [
+   "0x140e08a20"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "invalid_operation": {
+  "vftables": [
+   "0x140e08a58"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "_DefaultPPLTaskScheduler": {
+  "vftables": [
+   "0x140e08a70"
+  ],
+  "n_methods": 1,
+  "category": "Controller/Manager"
+ },
+ "_RefCounter": {
+  "vftables": [
+   "0x140e08aa0"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "_CancellationTokenRegistration": {
+  "vftables": [
+   "0x140e08ab8"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "_TaskProcHandle": {
+  "vftables": [
+   "0x140e08ad8"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "_Task_impl_base": {
+  "vftables": [
+   "0x140e08b30"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "?$_CancellationTokenCallback": {
+  "vftables": [
+   "0x140e08b48"
+  ],
+  "n_methods": 3,
+  "category": "MSVC/STL template"
+ },
+ "?$_Task_impl": {
+  "vftables": [
+   "0x140e08b68"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "_Future_error_category": {
+  "vftables": [
+   "0x140e08b80"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "?$_Associated_state": {
+  "vftables": [
+   "0x140e08bb8"
+  ],
+  "n_methods": 6,
+  "category": "MSVC/STL template"
+ },
+ "DiskBackProgressPage": {
+  "vftables": [
+   "0x140e08bf0",
+   "0x140e08d68"
+  ],
+  "n_methods": 53,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 6,
+  "forward_only": false,
+  "n_ui_strings": 14
+ },
+ "?$_Ref_count_obj": {
+  "vftables": [
+   "0x140e08e80",
+   "0x140e08ea8",
+   "0x140e08ed0",
+   "0x140e0b5a8",
+   "0x140e6fc78",
+   "0x140f60018",
+   "0x14187f820",
+   "0x141880aa0",
+   "0x141884b58",
+   "0x141886610",
+   "0x141886638",
+   "0x141886660",
+   "0x1418880f8",
+   "0x1418888e0",
+   "0x141897818",
+   "0x141897840",
+   "0x141897950"
+  ],
+  "n_methods": 52,
+  "category": "MSVC/STL template"
+ },
+ "?$_Packaged_state": {
+  "vftables": [
+   "0x140e08fd8"
+  ],
+  "n_methods": 6,
+  "category": "MSVC/STL template"
+ },
+ "?$_Deferred_async_state": {
+  "vftables": [
+   "0x140e09010"
+  ],
+  "n_methods": 6,
+  "category": "MSVC/STL template"
+ },
+ "?$_Task_async_state": {
+  "vftables": [
+   "0x140e09048"
+  ],
+  "n_methods": 6,
+  "category": "MSVC/STL template"
+ },
+ "?$_PPLTaskHandle": {
+  "vftables": [
+   "0x140e090b8"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "?$_InitialTaskHandle": {
+  "vftables": [
+   "0x140e090d0"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "DiskBackupEventBus": {
+  "vftables": [
+   "0x140e09198"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 12,
+  "forward_only": false
+ },
+ "QLineEdit": {
+  "vftables": [
+   "0x140e0ad28",
+   "0x140e0ae98"
+  ],
+  "n_methods": 52,
+  "category": "Qt base"
+ },
+ "QRegExpValidator": {
+  "vftables": [
+   "0x140e0aed8"
+  ],
+  "n_methods": 13,
+  "category": "Qt base"
+ },
+ "QRegularExpressionValidator": {
+  "vftables": [
+   "0x140e0af48"
+  ],
+  "n_methods": 13,
+  "category": "Qt base"
+ },
+ "QVBoxLayout": {
+  "vftables": [
+   "0x140e0afb8",
+   "0x140e0b048"
+  ],
+  "n_methods": 32,
+  "category": "Qt base",
+  "n_ui_strings": 7
+ },
+ "DiskBackupSaveDlg": {
+  "vftables": [
+   "0x140e0b0d0",
+   "0x140e0b270"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_ui_strings": 12
+ },
+ "DiskComboBox": {
+  "vftables": [
+   "0x140e0b2b0",
+   "0x140e0b430"
+  ],
+  "n_methods": 54,
+  "category": "Widget/Control",
+  "qt_base": "QComboBox",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ItemDelegate": {
+  "vftables": [
+   "0x140e0b470"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate"
+ },
+ "DiskBackUpService": {
+  "vftables": [
+   "0x140e0c2f8"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 8,
+  "forward_only": false
+ },
+ "DeviceManager": {
+  "vftables": [
+   "0x140e0cb80"
+  ],
+  "n_methods": 12,
+  "category": "Controller/Manager",
+  "qt_base": "QThread",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "DevicePageItem": {
+  "vftables": [
+   "0x140e0dbc0",
+   "0x140e0dd50"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "n_ui_strings": 13
+ },
+ "DiskBackupDialog": {
+  "vftables": [
+   "0x140e0eb08",
+   "0x140e0eca8"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "LostParitionGroup": {
+  "vftables": [
+   "0x140e0f490",
+   "0x140e0f608"
+  ],
+  "n_methods": 53,
+  "category": "App other",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DiskListView": {
+  "vftables": [
+   "0x140e0f648",
+   "0x140e0f7c0"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DiskPartitionBasicFrame": {
+  "vftables": [
+   "0x140e0fdd0",
+   "0x140e0ff58"
+  ],
+  "n_methods": 54,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "DiskParttionItem": {
+  "vftables": [
+   "0x140e10938",
+   "0x140e10aa8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "QTextBrowser": {
+  "vftables": [
+   "0x140e115d8",
+   "0x140e117b8"
+  ],
+  "n_methods": 66,
+  "category": "Qt base"
+ },
+ "DrwHomePage": {
+  "vftables": [
+   "0x140e117f8",
+   "0x140e11980"
+  ],
+  "n_methods": 55,
+  "category": "App Page",
+  "n_ui_strings": 4
+ },
+ "DrwHomePartListView": {
+  "vftables": [
+   "0x140e12100",
+   "0x140e12278"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "DrwLostDiskPage": {
+  "vftables": [
+   "0x140e12b98",
+   "0x140e12d28"
+  ],
+  "n_methods": 56,
+  "category": "App Page",
+  "n_ui_strings": 6
+ },
+ "LastScanRecordView": {
+  "vftables": [
+   "0x140e135e8",
+   "0x140e13770"
+  ],
+  "n_methods": 55,
+  "category": "App Window/View"
+ },
+ "CLostPartitionTipWndContentWnd": {
+  "vftables": [
+   "0x140e143b0",
+   "0x140e14520"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CLostPartitionTipWnd": {
+  "vftables": [
+   "0x140e14560",
+   "0x140e146d0"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "EventFilter": {
+  "vftables": [
+   "0x140e14970",
+   "0x140e149d0"
+  ],
+  "n_methods": 13,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "FileRepairAddPage": {
+  "vftables": [
+   "0x140e15590",
+   "0x140e15700"
+  ],
+  "n_methods": 52,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 6,
+  "forward_only": false
+ },
+ "FileRepairThread": {
+  "vftables": [
+   "0x140e16b70"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "FileRepairSaveThread": {
+  "vftables": [
+   "0x140e16bd8"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "FileRepairInitPixWork": {
+  "vftables": [
+   "0x140e16c40",
+   "0x140e16ca0"
+  ],
+  "n_methods": 13,
+  "category": "App other"
+ },
+ "FileRepairDataMgr": {
+  "vftables": [
+   "0x140e16cb8"
+  ],
+  "n_methods": 11,
+  "category": "Controller/Manager",
+  "qt_base": "QObject",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "Image": {
+  "vftables": [
+   "0x140e16d28"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "Bitmap": {
+  "vftables": [
+   "0x140e16d40"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "FileRepairHomePage": {
+  "vftables": [
+   "0x140e176f8",
+   "0x140e17868"
+  ],
+  "n_methods": 52,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "QListWidgetItem": {
+  "vftables": [
+   "0x140e1a438"
+  ],
+  "n_methods": 8,
+  "category": "Qt base"
+ },
+ "QListWidget": {
+  "vftables": [
+   "0x140e1a488",
+   "0x140e1a768"
+  ],
+  "n_methods": 98,
+  "category": "Qt base"
+ },
+ "FileRepairListItem": {
+  "vftables": [
+   "0x140e1a7a8",
+   "0x140e1a920"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 10,
+  "forward_only": false
+ },
+ "FileRepairListFrame": {
+  "vftables": [
+   "0x140e1a960",
+   "0x140e1aad0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 20,
+  "forward_only": false
+ },
+ "?$StoredFunctorCall0": {
+  "vftables": [
+   "0x140e1ab88",
+   "0x140e1aba0",
+   "0x140e1abb8",
+   "0x140e1abd0",
+   "0x140e1abe8",
+   "0x140e1ac00",
+   "0x140e1bfb8",
+   "0x140e1bfd0",
+   "0x140e1e330",
+   "0x140e1e348",
+   "0x140e1e360",
+   "0x140e1e378",
+   "0x140e1e390",
+   "0x140e1e3a8",
+   "0x140e5a9a8",
+   "0x140e5a9c0",
+   "0x140e5a9d8",
+   "0x140e5a9f0",
+   "0x140e5aa08",
+   "0x140e5aa20",
+   "0x140e885f8",
+   "0x140e88610",
+   "0x140eae890",
+   "0x140eae8a8",
+   "0x140eae8c0",
+   "0x140eae8d8"
+  ],
+  "n_methods": 41,
+  "category": "MSVC/STL template"
+ },
+ "FileRepairImgPreviewItem": {
+  "vftables": [
+   "0x140e1bc00",
+   "0x140e1bd70"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "FileRepairPreviewWnd": {
+  "vftables": [
+   "0x140e1bdb0",
+   "0x140e1bf48"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "QMouseEvent": {
+  "vftables": [
+   "0x140e1df80"
+  ],
+  "n_methods": 1,
+  "category": "Qt base"
+ },
+ "FileRepairScanItem": {
+  "vftables": [
+   "0x140e1df90",
+   "0x140e1e108"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 7,
+  "forward_only": false,
+  "n_ui_strings": 2
+ },
+ "FileRepairScanPopWnd": {
+  "vftables": [
+   "0x140e1e148",
+   "0x140e1e2d8",
+   "0x140e1e318"
+  ],
+  "n_methods": 58,
+  "category": "App Window/View",
+  "n_ui_strings": 9
+ },
+ "FileRepairTipIconLabel": {
+  "vftables": [
+   "0x140e1e680",
+   "0x140e1e7f0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "FileRepairAddThread": {
+  "vftables": [
+   "0x140e1f238"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "FileRepairWidgetsMgr": {
+  "vftables": [
+   "0x140e1f2a0",
+   "0x140e1f428"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "FormValidator": {
+  "vftables": [
+   "0x140e1f760"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ShareDlg": {
+  "vftables": [
+   "0x140e21ff8",
+   "0x140e22190"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "SorryDlg": {
+  "vftables": [
+   "0x140e22cd8",
+   "0x140e22e70"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "TitleGiftDlg": {
+  "vftables": [
+   "0x140e23d98",
+   "0x140e23f30"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_ui_strings": 7
+ },
+ "TitleGiftDiscountFrame": {
+  "vftables": [
+   "0x140e23f70",
+   "0x140e240e0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ICloudVerifucationViewer": {
+  "vftables": [
+   "0x140e256e0",
+   "0x140e25888",
+   "0x140e258c8"
+  ],
+  "n_methods": 60,
+  "category": "Sink/Observer"
+ },
+ "ICloudLoginViewer": {
+  "vftables": [
+   "0x140e258d8",
+   "0x140e25a80",
+   "0x140e25ac0"
+  ],
+  "n_methods": 60,
+  "category": "Sink/Observer",
+  "n_geometry_calls": 1
+ },
+ "LoginThread": {
+  "vftables": [
+   "0x140e25ad0"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "AIDeduplicationTipMenu": {
+  "vftables": [
+   "0x140e26560",
+   "0x140e266e8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_ui_strings": 3
+ },
+ "BuyNowTipsMenu": {
+  "vftables": [
+   "0x140e27088",
+   "0x140e27210"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control"
+ },
+ "IntroductionTipWidget": {
+  "vftables": [
+   "0x140e27be0",
+   "0x140e27d50"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "IntroductionWidget": {
+  "vftables": [
+   "0x140e290e0",
+   "0x140e29250"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QWidget",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_ui_strings": 20
+ },
+ "NeedHelpPushButton": {
+  "vftables": [
+   "0x140e2a320",
+   "0x140e2a4a8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "NeedHelpVipPushButton": {
+  "vftables": [
+   "0x140e2a4e8",
+   "0x140e2a658"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "NeedHelpMenu": {
+  "vftables": [
+   "0x140e2a698",
+   "0x140e2a820"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "TimedGuide": {
+  "vftables": [
+   "0x140e2b280"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "IntroductionTipDialog": {
+  "vftables": [
+   "0x140e2b9f0",
+   "0x140e2bb88"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "TrilateralWidget": {
+  "vftables": [
+   "0x140e2c2d0",
+   "0x140e2c440"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QWidget",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CLinuxBasePage": {
+  "vftables": [
+   "0x140e2c530",
+   "0x140e2c6b0"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CLinuxDownloadConnectZipThread": {
+  "vftables": [
+   "0x140e2d510"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CLinuxDownloadPage": {
+  "vftables": [
+   "0x140e2d578",
+   "0x140e2d6f8"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 9
+ },
+ "CLinuxConnectThread": {
+  "vftables": [
+   "0x140e2f788"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CLinuxCancelConnectThread": {
+  "vftables": [
+   "0x140e2f7f0"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CLinuxLogonPage": {
+  "vftables": [
+   "0x140e2f858",
+   "0x140e2f9d8"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 14
+ },
+ "CLinuxNoSystemPage": {
+  "vftables": [
+   "0x140e2fc88",
+   "0x140e2fe08"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 3
+ },
+ "CLinuxWidgetsMgr": {
+  "vftables": [
+   "0x140e30630",
+   "0x140e307b8"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "FontStyleFixer": {
+  "vftables": [
+   "0x140e31378"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DrwMainViewManagerWizard": {
+  "vftables": [
+   "0x140e326b0",
+   "0x140e32828"
+  ],
+  "n_methods": 53,
+  "category": "App other",
+  "qt_base": "QStackedWidget",
+  "moc_slots": 17,
+  "forward_only": false
+ },
+ "_com_error": {
+  "vftables": [
+   "0x140e35580"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "QVariantAnimation": {
+  "vftables": [
+   "0x140e35638"
+  ],
+  "n_methods": 17,
+  "category": "Qt base"
+ },
+ "MainWndExitThread": {
+  "vftables": [
+   "0x140e356c8"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "QSendEmailThread": {
+  "vftables": [
+   "0x140e35730"
+  ],
+  "n_methods": 12,
+  "category": "Qt base",
+  "qt_base": "QThread",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CustomMenuPushButton": {
+  "vftables": [
+   "0x140e35798",
+   "0x140e35920"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DrwMainWindow": {
+  "vftables": [
+   "0x140e35960",
+   "0x140e35b10",
+   "0x140e35b50",
+   "0x140e35b68"
+  ],
+  "n_methods": 63,
+  "category": "App Window/View"
+ },
+ "QWinTaskbarButton": {
+  "vftables": [
+   "0x140e35b78"
+  ],
+  "n_methods": 11,
+  "category": "Qt base"
+ },
+ "SplashWindow": {
+  "vftables": [
+   "0x140e36910",
+   "0x140e36aa8"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "InitThread": {
+  "vftables": [
+   "0x140e36ae8"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CThemeMenuTitle": {
+  "vftables": [
+   "0x140e375f8",
+   "0x140e37768"
+  ],
+  "n_methods": 52,
+  "category": "App other",
+  "qt_base": "QLabel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CThemeMenuItem": {
+  "vftables": [
+   "0x140e377a8",
+   "0x140e37930"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_geometry_calls": 1
+ },
+ "CThemeMenu": {
+  "vftables": [
+   "0x140e37970",
+   "0x140e37ae0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QMenu",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "MoreToolIndexWidgetItem": {
+  "vftables": [
+   "0x140e39398",
+   "0x140e39508"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "MoreToolIndexWidget": {
+  "vftables": [
+   "0x140e39548",
+   "0x140e396b8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "MoreToolMgr": {
+  "vftables": [
+   "0x140e396f8",
+   "0x140e39880"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "CNasBasePage": {
+  "vftables": [
+   "0x140e399c0",
+   "0x140e39b40"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CNasDevicePage": {
+  "vftables": [
+   "0x140e3a7c8",
+   "0x140e3a948"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 2
+ },
+ "NasDeviceListView": {
+  "vftables": [
+   "0x140e3a988",
+   "0x140e3aaf8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "CNasDownloadConnectZipThread": {
+  "vftables": [
+   "0x140e3bac0"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CNasDownloadPage": {
+  "vftables": [
+   "0x140e3bb28",
+   "0x140e3bcb8"
+  ],
+  "n_methods": 56,
+  "category": "App Page",
+  "n_ui_strings": 10
+ },
+ "CNasEnumFailedPage": {
+  "vftables": [
+   "0x140e3c5f0",
+   "0x140e3c770"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 6
+ },
+ "CNasEnummingPage": {
+  "vftables": [
+   "0x140e3d088",
+   "0x140e3d208"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 6
+ },
+ "CNasConnectThread": {
+  "vftables": [
+   "0x140e3f538"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CNasCancelConnectThread": {
+  "vftables": [
+   "0x140e3f5a0"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CNasLogonPage": {
+  "vftables": [
+   "0x140e3f608",
+   "0x140e3f788"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 13
+ },
+ "CTextEdit": {
+  "vftables": [
+   "0x140e3f7c8",
+   "0x140e3f938"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLineEdit",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CNasNoSystemPage": {
+  "vftables": [
+   "0x140e40088",
+   "0x140e40208"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 4
+ },
+ "CNasSSHPage": {
+  "vftables": [
+   "0x140e41328",
+   "0x140e414a8"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 24
+ },
+ "CNasSSHPopWnd": {
+  "vftables": [
+   "0x140e42218",
+   "0x140e423b0"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CNasStartPage": {
+  "vftables": [
+   "0x140e42e00",
+   "0x140e42f80"
+  ],
+  "n_methods": 54,
+  "category": "App Page",
+  "n_ui_strings": 11
+ },
+ "CNasWidgetsMgr": {
+  "vftables": [
+   "0x140e43cb8",
+   "0x140e43e40"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "NasDeviceItem": {
+  "vftables": [
+   "0x140e44a68",
+   "0x140e44bf8"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "n_ui_strings": 7
+ },
+ "NasDeviceMgr": {
+  "vftables": [
+   "0x140e452e0"
+  ],
+  "n_methods": 12,
+  "category": "Controller/Manager",
+  "qt_base": "QThread",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CNASHelpItemView": {
+  "vftables": [
+   "0x140e45d40",
+   "0x140e45eb0"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CNasHelpView": {
+  "vftables": [
+   "0x140e45ef0",
+   "0x140e46060"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CNasNetErrorTipsWnd": {
+  "vftables": [
+   "0x140e46940",
+   "0x140e46ab0"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CNasPortTipsWnd": {
+  "vftables": [
+   "0x140e46e88",
+   "0x140e46ff8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CNasHelpTipsWnd": {
+  "vftables": [
+   "0x140e47038",
+   "0x140e471d0"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CNasSSHInfoWnd": {
+  "vftables": [
+   "0x140e472e0",
+   "0x140e47450"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "INotifyObserver": {
+  "vftables": [
+   "0x140e47680"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CMessageProxy": {
+  "vftables": [
+   "0x140e47690",
+   "0x140e476f8"
+  ],
+  "n_methods": 13,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CMessageSend": {
+  "vftables": [
+   "0x140e47708"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CPDFRepairGetPixmapThread": {
+  "vftables": [
+   "0x140e48740"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CRepairPDFLeftListView": {
+  "vftables": [
+   "0x140e487a8",
+   "0x140e48a68"
+  ],
+  "n_methods": 94,
+  "category": "App Window/View",
+  "qt_base": "QListView",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CRepairPDFLeftListItemModel": {
+  "vftables": [
+   "0x140e48aa8"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractItemModel",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CRepairPDFLeftListItemDelegate": {
+  "vftables": [
+   "0x140e48c18"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate",
+  "qt_base": "QStyledItemDelegate",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CRepairPDFPreviewWnd": {
+  "vftables": [
+   "0x140e48cd8",
+   "0x140e48e70"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "CRapairPDFAddWnd": {
+  "vftables": [
+   "0x140e49070",
+   "0x140e491e0"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CRepairPDFDecryptWnd": {
+  "vftables": [
+   "0x140e49ce8",
+   "0x140e49e80"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CRepairPDFDecryptSuccessWnd": {
+  "vftables": [
+   "0x140e49ec0",
+   "0x140e4a058"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CRepairPDFHomeWnd": {
+  "vftables": [
+   "0x140e4aa20",
+   "0x140e4ab90"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CRepairPDFPreviewLabel": {
+  "vftables": [
+   "0x140e4cfc0",
+   "0x140e4d130"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CRepairPDFItem": {
+  "vftables": [
+   "0x140e4d170",
+   "0x140e4d2e0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 21,
+  "forward_only": false
+ },
+ "CRepairPDFRightItemsWnd": {
+  "vftables": [
+   "0x140e4d320",
+   "0x140e4d490"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 24,
+  "forward_only": false
+ },
+ "CRepairPDFItemsWnd": {
+  "vftables": [
+   "0x140e4d4d0",
+   "0x140e4d640"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "QMovie": {
+  "vftables": [
+   "0x140e4d688"
+  ],
+  "n_methods": 11,
+  "category": "Qt base"
+ },
+ "CRepairPDFAddProgressWnd": {
+  "vftables": [
+   "0x140e4df80",
+   "0x140e4e118"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CRepairPDFSaveInforTipsWnd": {
+  "vftables": [
+   "0x140e4eee8",
+   "0x140e4f060"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "CRepairPDFSaveWnd": {
+  "vftables": [
+   "0x140e4f0a0",
+   "0x140e4f238"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CRepairPDFPreviewMgr": {
+  "vftables": [
+   "0x140e4fc98"
+  ],
+  "n_methods": 7,
+  "category": "Controller/Manager"
+ },
+ "CRepairPDFController": {
+  "vftables": [
+   "0x140e4fcd8"
+  ],
+  "n_methods": 21,
+  "category": "Controller/Manager"
+ },
+ "CRepairPDFWidgetsMgr": {
+  "vftables": [
+   "0x140e4fd88",
+   "0x140e4ff18"
+  ],
+  "n_methods": 56,
+  "category": "Controller/Manager"
+ },
+ "CBitlockerStartWnd": {
+  "vftables": [
+   "0x140e50b28",
+   "0x140e50ca0"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 9
+ },
+ "CBitlockerWidgetsMgr": {
+  "vftables": [
+   "0x140e50ce0",
+   "0x140e50e68"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "CExitHelpWnd": {
+  "vftables": [
+   "0x140e51808",
+   "0x140e519a0"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CCloudDriveItem": {
+  "vftables": [
+   "0x140e52c08",
+   "0x140e52d80"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 6,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "CHomeCloudDriveView": {
+  "vftables": [
+   "0x140e52dc0",
+   "0x140e52f38"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "CCloudLogginThread": {
+  "vftables": [
+   "0x140e52f78"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CHomeCloudLoggingWnd": {
+  "vftables": [
+   "0x140e52fe0",
+   "0x140e53178"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CHomeNewHelpContentView": {
+  "vftables": [
+   "0x140e53d38",
+   "0x140e53eb0"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false,
+  "n_ui_strings": 7,
+  "n_geometry_calls": 2
+ },
+ "CHomeNewHelpView": {
+  "vftables": [
+   "0x140e53ef0",
+   "0x140e54060"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_geometry_calls": 1
+ },
+ "ExitGuideChronoSnapDlg": {
+  "vftables": [
+   "0x140e54a08",
+   "0x140e54ba0"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "ManualRecoveryDescriptView": {
+  "vftables": [
+   "0x140e55518",
+   "0x140e55688"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ManualRecoveryHelpView": {
+  "vftables": [
+   "0x140e556c8",
+   "0x140e55838"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "NavigationTabBar": {
+  "vftables": [
+   "0x140e568f0",
+   "0x140e56a60"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 10,
+  "forward_only": false
+ },
+ "NavigationTabCheckBox": {
+  "vftables": [
+   "0x140e56aa0",
+   "0x140e56c28"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QCheckBox",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "NavigationTabItem": {
+  "vftables": [
+   "0x140e56c68",
+   "0x140e56df8"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "NoDeviceGuideTextFrame": {
+  "vftables": [
+   "0x140e58008",
+   "0x140e58178"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "NoDeviceGuideBottomTextFrame": {
+  "vftables": [
+   "0x140e581b8",
+   "0x140e58328"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "GuideHelpItemCard": {
+  "vftables": [
+   "0x140e58368",
+   "0x140e584d8"
+  ],
+  "n_methods": 52,
+  "category": "App other",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "NoDeviceHelpView": {
+  "vftables": [
+   "0x140e58518",
+   "0x140e58688"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "LostTreeModel": {
+  "vftables": [
+   "0x140e59d60"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractItemModel",
+  "moc_slots": 10,
+  "forward_only": false
+ },
+ "LostTreeItemDelegate": {
+  "vftables": [
+   "0x140e59ed0"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate"
+ },
+ "LostLeftTreeView": {
+  "vftables": [
+   "0x140e59f90",
+   "0x140e5a260"
+  ],
+  "n_methods": 96,
+  "category": "App Window/View",
+  "qt_base": "QTreeView",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "LostTableModel": {
+  "vftables": [
+   "0x140e5a2a0"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractTableModel",
+  "moc_slots": 8,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "LostTableItemDelegate": {
+  "vftables": [
+   "0x140e5a410"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate",
+  "qt_base": "QStyledItemDelegate",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "LostRightTableView": {
+  "vftables": [
+   "0x140e5a4d0",
+   "0x140e5a790"
+  ],
+  "n_methods": 94,
+  "category": "App Window/View",
+  "qt_base": "QTableView",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "PartitionLostExplorer": {
+  "vftables": [
+   "0x140e5a7d0",
+   "0x140e5a968"
+  ],
+  "n_methods": 57,
+  "category": "App other",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CPartitionRecoverFrame": {
+  "vftables": [
+   "0x140e5ba00",
+   "0x140e5bb78"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false,
+  "n_ui_strings": 2
+ },
+ "CPartitionRecoverRetFrame": {
+  "vftables": [
+   "0x140e5bbb8",
+   "0x140e5bd30"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false,
+  "n_ui_strings": 8
+ },
+ "PartitionCheckDialog": {
+  "vftables": [
+   "0x140e5bd70",
+   "0x140e5bf08"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_ui_strings": 3
+ },
+ "PartitionCheckRetDialog": {
+  "vftables": [
+   "0x140e5bf48",
+   "0x140e5c0e0"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog"
+ },
+ "CheckPartitionThread": {
+  "vftables": [
+   "0x140e5c120"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CPartitionScanPartitionItem": {
+  "vftables": [
+   "0x140e5e428",
+   "0x140e5e5a0"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "CPartitionScanItem": {
+  "vftables": [
+   "0x140e5e5e0",
+   "0x140e5e758"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 10,
+  "forward_only": false
+ },
+ "CPartitionScanFrame": {
+  "vftables": [
+   "0x140e5e798",
+   "0x140e5e910"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 20,
+  "forward_only": false,
+  "n_ui_strings": 27
+ },
+ "PartitionStartWnd": {
+  "vftables": [
+   "0x140e5f278",
+   "0x140e5f3e8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CEnumPartitionThread": {
+  "vftables": [
+   "0x140e61e28"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CPartitionWidgetsMgr": {
+  "vftables": [
+   "0x140e61e90",
+   "0x140e62018"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "CPartitionEnumFailFrame": {
+  "vftables": [
+   "0x140e62058",
+   "0x140e621d0"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false,
+  "n_ui_strings": 7
+ },
+ "UnllocateProgressLabel": {
+  "vftables": [
+   "0x140e62210",
+   "0x140e62380"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CPartitionPartitionItem": {
+  "vftables": [
+   "0x140e623c0",
+   "0x140e62538"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "CPartitionListItem": {
+  "vftables": [
+   "0x140e62578",
+   "0x140e626f0"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 5,
+  "n_geometry_calls": 1
+ },
+ "CPartitionListFrame": {
+  "vftables": [
+   "0x140e62730",
+   "0x140e628a8"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 8,
+  "forward_only": false,
+  "n_ui_strings": 5
+ },
+ "DeviceGeneralItem": {
+  "vftables": [
+   "0x140e63280",
+   "0x140e63400"
+  ],
+  "n_methods": 54,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "PeripheralDeviceItem": {
+  "vftables": [
+   "0x140e63440",
+   "0x140e635c0"
+  ],
+  "n_methods": 54,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "InternalDeviceItem": {
+  "vftables": [
+   "0x140e63600",
+   "0x140e63790"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control"
+ },
+ "DiskListExplainFrame": {
+  "vftables": [
+   "0x140e64688",
+   "0x140e647f8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_geometry_calls": 2
+ },
+ "DiskListBottomExplainFrame": {
+  "vftables": [
+   "0x140e64838",
+   "0x140e649a8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "PeripheralHelpView": {
+  "vftables": [
+   "0x140e649e8",
+   "0x140e64b68"
+  ],
+  "n_methods": 54,
+  "category": "App Window/View",
+  "qt_base": "QTabWidget",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "PeripheralHomeView": {
+  "vftables": [
+   "0x140e66460",
+   "0x140e665d0"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 12,
+  "forward_only": false
+ },
+ "PRDeviceListView": {
+  "vftables": [
+   "0x140e67898",
+   "0x140e67a08"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "PeripheralSelectedView": {
+  "vftables": [
+   "0x140e67a48",
+   "0x140e67bd0"
+  ],
+  "n_methods": 55,
+  "category": "App Window/View",
+  "n_ui_strings": 11,
+  "n_geometry_calls": 1
+ },
+ "CPEBuyRetainWnd": {
+  "vftables": [
+   "0x140e685b8",
+   "0x140e68758"
+  ],
+  "n_methods": 58,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 5,
+  "forward_only": false,
+  "n_ui_strings": 12
+ },
+ "CPEDeviceItem": {
+  "vftables": [
+   "0x140e6a578",
+   "0x140e6a6e8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CPECreateThread": {
+  "vftables": [
+   "0x140e6a728"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CPEGetInfoThread": {
+  "vftables": [
+   "0x140e6a790"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CPEConnectWnd": {
+  "vftables": [
+   "0x140e6a7f8",
+   "0x140e6a968"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 17,
+  "forward_only": false
+ },
+ "CClassifyComboBoxItemModel": {
+  "vftables": [
+   "0x140e6a9a8"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractListModel",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_ui_strings": 1
+ },
+ "CClassifyComboBoxItemDelegate": {
+  "vftables": [
+   "0x140e6ab18"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate",
+  "qt_base": "QStyledItemDelegate",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CPEStartWnd": {
+  "vftables": [
+   "0x140e6b5c0",
+   "0x140e6b730"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "IPEUISink": {
+  "vftables": [
+   "0x140e6beb0"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CPEWidgetsMgr": {
+  "vftables": [
+   "0x140e6bed0",
+   "0x140e6c058"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "CPEUISink": {
+  "vftables": [
+   "0x140e6c098",
+   "0x140e6c0f8"
+  ],
+  "n_methods": 14,
+  "category": "Sink/Observer",
+  "qt_base": "QObject",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "ArchivePreviewModel": {
+  "vftables": [
+   "0x140e6cec0"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractItemModel",
+  "moc_slots": 9,
+  "forward_only": false
+ },
+ "ArchivePreviewView": {
+  "vftables": [
+   "0x140e6d030",
+   "0x140e6d300"
+  ],
+  "n_methods": 96,
+  "category": "App Window/View",
+  "qt_base": "QTreeView",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ArchivePreviewDelegate": {
+  "vftables": [
+   "0x140e6d340"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate",
+  "qt_base": "QStyledItemDelegate",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ArchivePreviewWindow": {
+  "vftables": [
+   "0x140e6d400",
+   "0x140e6d580"
+  ],
+  "n_methods": 54,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ArchivePreviewWindowChildItem": {
+  "vftables": [
+   "0x140e6d5c0",
+   "0x140e6d730"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "QTreeWidgetItem": {
+  "vftables": [
+   "0x140e6d778"
+  ],
+  "n_methods": 7,
+  "category": "Qt base"
+ },
+ "EmbeddedPreviewWindow": {
+  "vftables": [
+   "0x140e6de90",
+   "0x140e6e000"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "ImagePreviewWindow": {
+  "vftables": [
+   "0x140e6ea18",
+   "0x140e6eb98"
+  ],
+  "n_methods": 54,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "PreviewFailedWnd": {
+  "vftables": [
+   "0x140e6f9c8",
+   "0x140e6fb40"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 3
+ },
+ "IPreviewSink": {
+  "vftables": [
+   "0x140e72170"
+  ],
+  "n_methods": 4,
+  "category": "Sink/Observer"
+ },
+ "CheckAnsyncToListThread": {
+  "vftables": [
+   "0x140e721a8"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "PreviewMainDialog": {
+  "vftables": [
+   "0x140e72210",
+   "0x140e723c0",
+   "0x140e72400"
+  ],
+  "n_methods": 66,
+  "category": "App Dialog",
+  "n_ui_strings": 1
+ },
+ "CPreviewShadowWnd": {
+  "vftables": [
+   "0x140e72f58",
+   "0x140e730c8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CPreviewMainShadowWnd": {
+  "vftables": [
+   "0x140e73108",
+   "0x140e73278"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "PreviewLoadingView": {
+  "vftables": [
+   "0x140e73ea8",
+   "0x140e74018"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CDotText": {
+  "vftables": [
+   "0x140e74058",
+   "0x140e741c8"
+  ],
+  "n_methods": 52,
+  "category": "App other"
+ },
+ "PreviewFailureView": {
+  "vftables": [
+   "0x140e74208",
+   "0x140e743b0"
+  ],
+  "n_methods": 59,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_ui_strings": 1
+ },
+ "recoverLayerTipChildImgTextWnd": {
+  "vftables": [
+   "0x140e74e20",
+   "0x140e74f90"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "recoverLayerTipChildWnd": {
+  "vftables": [
+   "0x140e74fd0",
+   "0x140e75140"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "recoverLayerTipWnd": {
+  "vftables": [
+   "0x140e75a10",
+   "0x140e75b80"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QWidget",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_geometry_calls": 3
+ },
+ "RepairedBottomWnd": {
+  "vftables": [
+   "0x140e763c0",
+   "0x140e76530"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "RepairFailedWnd": {
+  "vftables": [
+   "0x140e76d28",
+   "0x140e76e98"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "RepairingWnd": {
+  "vftables": [
+   "0x140e77658",
+   "0x140e777c8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "RepairOriginalWnd": {
+  "vftables": [
+   "0x140e77f70",
+   "0x140e780e0"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "IRepairBase": {
+  "vftables": [
+   "0x140e78950"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "QSpacerItem": {
+  "vftables": [
+   "0x140e78988"
+  ],
+  "n_methods": 16,
+  "category": "Qt base"
+ },
+ "RepairPreviewCompareWnd": {
+  "vftables": [
+   "0x140e78a10",
+   "0x140e78b80",
+   "0x140e78bc0"
+  ],
+  "n_methods": 58,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "RichTextPreviewWindow": {
+  "vftables": [
+   "0x140e79240",
+   "0x140e793c0"
+  ],
+  "n_methods": 54,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "VideoPreviewWnd": {
+  "vftables": [
+   "0x140e7a470",
+   "0x140e7a608"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 12,
+  "forward_only": false
+ },
+ "CVideoPreviewTipsWnd": {
+  "vftables": [
+   "0x140e7a648",
+   "0x140e7a7b8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 6,
+  "forward_only": false
+ },
+ "BtnScan": {
+  "vftables": [
+   "0x140e7af88",
+   "0x140e7b110"
+  ],
+  "n_methods": 55,
+  "category": "App other",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "GifWaitingButton": {
+  "vftables": [
+   "0x140e7b1c8",
+   "0x140e7b350"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "PublicCloseDialog": {
+  "vftables": [
+   "0x140e7b3f8",
+   "0x140e7b590"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "PublicLoadingDialog": {
+  "vftables": [
+   "0x140e7b650",
+   "0x140e7b7e8"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog"
+ },
+ "PublicMessageBox": {
+  "vftables": [
+   "0x140e7c060",
+   "0x140e7c1f8"
+  ],
+  "n_methods": 57,
+  "category": "Widget/Control"
+ },
+ "PublicMessageBoxPortrait": {
+  "vftables": [
+   "0x140e7c818",
+   "0x140e7c9b0"
+  ],
+  "n_methods": 57,
+  "category": "App other"
+ },
+ "PublicMessageButton": {
+  "vftables": [
+   "0x140e7d0d8",
+   "0x140e7d260"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "PublicShadowDialog": {
+  "vftables": [
+   "0x140e7d830",
+   "0x140e7d9c8"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "PublicToolButton": {
+  "vftables": [
+   "0x140e7dd70",
+   "0x140e7df08"
+  ],
+  "n_methods": 57,
+  "category": "Widget/Control",
+  "qt_base": "QToolButton",
+  "moc_slots": 14,
+  "forward_only": false
+ },
+ "PublicToolTip": {
+  "vftables": [
+   "0x140e7e8c0",
+   "0x140e7ea48"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control"
+ },
+ "RadiusProgressBar": {
+  "vftables": [
+   "0x140e7ebc0",
+   "0x140e7ed38"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QProgressBar",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CAboutApowerDlg": {
+  "vftables": [
+   "0x140e7f490",
+   "0x140e7f638",
+   "0x140e7f678"
+  ],
+  "n_methods": 60,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CAboutCisdemDlg": {
+  "vftables": [
+   "0x140e7fee0",
+   "0x140e80078"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CAboutEaseUSDlg": {
+  "vftables": [
+   "0x140e82250",
+   "0x140e823e8"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_ui_strings": 2
+ },
+ "CAboutOriginalDlg": {
+  "vftables": [
+   "0x140e833f0",
+   "0x140e83588"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_ui_strings": 2
+ },
+ "CAbout_cn_fx_dlg": {
+  "vftables": [
+   "0x140e83ca8",
+   "0x140e83e50",
+   "0x140e83e90"
+  ],
+  "n_methods": 60,
+  "category": "App other",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CAbout_cn_jz_dlg": {
+  "vftables": [
+   "0x140e845b0",
+   "0x140e84758",
+   "0x140e84798"
+  ],
+  "n_methods": 60,
+  "category": "App other",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CAbout_cn_lc_dlg": {
+  "vftables": [
+   "0x140e84e78",
+   "0x140e85020",
+   "0x140e85060"
+  ],
+  "n_methods": 60,
+  "category": "App other",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "AdToolPopWindow": {
+  "vftables": [
+   "0x140e85828",
+   "0x140e859d8"
+  ],
+  "n_methods": 60,
+  "category": "App Window/View"
+ },
+ "CAutoExpendBtn": {
+  "vftables": [
+   "0x140e85fb0",
+   "0x140e86138"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "BitlockerUnlockThread": {
+  "vftables": [
+   "0x140e87b98"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "BitlockerUnlockDialog": {
+  "vftables": [
+   "0x140e87c00",
+   "0x140e87d98"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 12,
+  "forward_only": false
+ },
+ "BitlockerUnlockRetDlg": {
+  "vftables": [
+   "0x140e87dd8",
+   "0x140e87f70"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "BitlockerUnlockRetWithPwdDlg": {
+  "vftables": [
+   "0x140e87fb0",
+   "0x140e88148"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "BitLockerMSGuideDlg": {
+  "vftables": [
+   "0x140e88188",
+   "0x140e88320"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog"
+ },
+ "CheckUpdateThread": {
+  "vftables": [
+   "0x140e89018"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CheckUpgradeDlg": {
+  "vftables": [
+   "0x140e89080",
+   "0x140e89248",
+   "0x140e89288"
+  ],
+  "n_methods": 64,
+  "category": "App Dialog",
+  "n_geometry_calls": 2
+ },
+ "CSVGLabel": {
+  "vftables": [
+   "0x140e89520",
+   "0x140e89690"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CSVGPushButton": {
+  "vftables": [
+   "0x140e896d0",
+   "0x140e89858"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DrwMessageBox": {
+  "vftables": [
+   "0x140e8ab90",
+   "0x140e8ad58",
+   "0x140e8ad98"
+  ],
+  "n_methods": 64,
+  "category": "Widget/Control",
+  "n_geometry_calls": 2
+ },
+ "MessageBoxLinkURLObserver": {
+  "vftables": [
+   "0x140e8ada8"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "RecoveryOriginalTipDlg": {
+  "vftables": [
+   "0x140e8ae08",
+   "0x140e8afd0",
+   "0x140e8b010"
+  ],
+  "n_methods": 64,
+  "category": "App Dialog"
+ },
+ "ScaningRecoverMessage": {
+  "vftables": [
+   "0x140e8b020",
+   "0x140e8b1e8",
+   "0x140e8b228"
+  ],
+  "n_methods": 64,
+  "category": "App other",
+  "n_ui_strings": 1
+ },
+ "FileDownloader": {
+  "vftables": [
+   "0x140e8ba18"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "QImage": {
+  "vftables": [
+   "0x140e8bfd8"
+  ],
+  "n_methods": 7,
+  "category": "Qt base"
+ },
+ "IFileRepairPreviewCtl": {
+  "vftables": [
+   "0x140e8c018"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CFileRepairPreviewCtl": {
+  "vftables": [
+   "0x140e8c058"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "CPDFRepairPreview": {
+  "vftables": [
+   "0x140e8c450"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "RefreshHelpDialog": {
+  "vftables": [
+   "0x140e8d488",
+   "0x140e8d620"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "FreezeAnimalDialog": {
+  "vftables": [
+   "0x140e8d660",
+   "0x140e8d800"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "IWgtMoveInteface": {
+  "vftables": [
+   "0x140e8d9d8",
+   "0x140e8db50"
+  ],
+  "n_methods": 53,
+  "category": "Sink/Observer"
+ },
+ "CustomTranslator": {
+  "vftables": [
+   "0x140e8ea70"
+  ],
+  "n_methods": 13,
+  "category": "App other"
+ },
+ "CLanguageMgr": {
+  "vftables": [
+   "0x140e8eae0"
+  ],
+  "n_methods": 11,
+  "category": "Controller/Manager",
+  "qt_base": "QObject",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CLoadRetBtn": {
+  "vftables": [
+   "0x140e8f640",
+   "0x140e8f7c8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CLoadScanRetMenu": {
+  "vftables": [
+   "0x140e8f808",
+   "0x140e8f990"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control"
+ },
+ "CQSSWidget": {
+  "vftables": [
+   "0x140e92670",
+   "0x140e927f8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ISpyUserInfoUISink": {
+  "vftables": [
+   "0x140e92838"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "SpyUserInfoUISink": {
+  "vftables": [
+   "0x140e92870"
+  ],
+  "n_methods": 6,
+  "category": "Sink/Observer"
+ },
+ "RecoverPathTipDlg": {
+  "vftables": [
+   "0x140e93298",
+   "0x140e93440",
+   "0x140e93480"
+  ],
+  "n_methods": 60,
+  "category": "App Dialog"
+ },
+ "CRecoveryBtn": {
+  "vftables": [
+   "0x140e93600",
+   "0x140e93788"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "SaveRestoreThread": {
+  "vftables": [
+   "0x140e94000"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "SaveRestoreProgressDlg": {
+  "vftables": [
+   "0x140e94068",
+   "0x140e94238",
+   "0x140e94278",
+   "0x140e94288"
+  ],
+  "n_methods": 70,
+  "category": "App Dialog"
+ },
+ "SharedWidget": {
+  "vftables": [
+   "0x140e94a98",
+   "0x140e94c08"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QMenu",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "IMyFolderFilter": {
+  "vftables": [
+   "0x140e95500"
+  ],
+  "n_methods": 5,
+  "category": "Sink/Observer"
+ },
+ "SHBrowserWindow": {
+  "vftables": [
+   "0x140e95530",
+   "0x140e956d8"
+  ],
+  "n_methods": 59,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CRaidDeviceItem": {
+  "vftables": [
+   "0x140e95f40",
+   "0x140e960b0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CRaidDeviceListPage": {
+  "vftables": [
+   "0x140e96d28",
+   "0x140e96e98"
+  ],
+  "n_methods": 52,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CRaidDeviceListView": {
+  "vftables": [
+   "0x140e96ed8",
+   "0x140e97048"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CRaidHelpTipsWnd": {
+  "vftables": [
+   "0x140e977c8",
+   "0x140e97938"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CRaidNoDevicePage": {
+  "vftables": [
+   "0x140e98218",
+   "0x140e98388"
+  ],
+  "n_methods": 52,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CRaidWidgetsMgr": {
+  "vftables": [
+   "0x140e98ab0",
+   "0x140e98c38"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "RecommendNodeItem": {
+  "vftables": [
+   "0x140e99b00",
+   "0x140e99c70"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "RecommendFileNodeView": {
+  "vftables": [
+   "0x140e99cb0",
+   "0x140e99e20"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "?$_Ref_count": {
+  "vftables": [
+   "0x140e99e70",
+   "0x141887818",
+   "0x14188c638",
+   "0x14188c698",
+   "0x141894660"
+  ],
+  "n_methods": 16,
+  "category": "MSVC/STL template"
+ },
+ "CRecoverFinishBuyDlg": {
+  "vftables": [
+   "0x140e9a958",
+   "0x140e9aaf8"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog",
+  "n_ui_strings": 11
+ },
+ "CRecoverLimitDlg": {
+  "vftables": [
+   "0x140e9b4f8",
+   "0x140e9b698"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 5,
+  "forward_only": false,
+  "n_ui_strings": 6
+ },
+ "QEventLoop": {
+  "vftables": [
+   "0x140e9da28"
+  ],
+  "n_methods": 11,
+  "category": "Qt base"
+ },
+ "QToolButton": {
+  "vftables": [
+   "0x140e9da88",
+   "0x140e9dc18"
+  ],
+  "n_methods": 55,
+  "category": "Qt base"
+ },
+ "FreeRemainingFrame": {
+  "vftables": [
+   "0x140e9df90",
+   "0x140e9e100"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "EndRecoverThread": {
+  "vftables": [
+   "0x140e9e140"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "UnCheckAllFileNodeThread": {
+  "vftables": [
+   "0x140e9e1a8"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "RecoverProgressUISink": {
+  "vftables": [
+   "0x140e9e210",
+   "0x140e9e270"
+  ],
+  "n_methods": 16,
+  "category": "Sink/Observer",
+  "qt_base": "QObject",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "RecoverProgressDlg": {
+  "vftables": [
+   "0x140e9e2a0",
+   "0x140e9e438"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog"
+ },
+ "RecoverResultDlg": {
+  "vftables": [
+   "0x140e9f1e8",
+   "0x140e9f390",
+   "0x140e9f3d0"
+  ],
+  "n_methods": 60,
+  "category": "App Dialog",
+  "n_geometry_calls": 1
+ },
+ "OutlinedTextLabel": {
+  "vftables": [
+   "0x140e9f8c8",
+   "0x140e9fa38"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control"
+ },
+ "DoubleLayerTextLabel": {
+  "vftables": [
+   "0x140e9fa78",
+   "0x140e9fbe8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DrwNewMessageBox": {
+  "vftables": [
+   "0x140ea0bb0",
+   "0x140ea0d48"
+  ],
+  "n_methods": 57,
+  "category": "Widget/Control"
+ },
+ "QSequentialAnimationGroup": {
+  "vftables": [
+   "0x140ea2038"
+  ],
+  "n_methods": 15,
+  "category": "Qt base"
+ },
+ "CScanCommonPopDlg": {
+  "vftables": [
+   "0x140ea20b8",
+   "0x140ea2250"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 4,
+  "forward_only": false,
+  "n_ui_strings": 23
+ },
+ "RetentionActiveDlgDiscountLabel": {
+  "vftables": [
+   "0x140ea3010",
+   "0x140ea3180"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "RetentionActiveDlg": {
+  "vftables": [
+   "0x140ea31c0",
+   "0x140ea3358"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_geometry_calls": 1
+ },
+ "bad_optional_access": {
+  "vftables": [
+   "0x140ea4778"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "RetentionExitDlgBtn": {
+  "vftables": [
+   "0x140ea47f8",
+   "0x140ea4980"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_ui_strings": 1
+ },
+ "RetentionExitDlgBtnChildBtn": {
+  "vftables": [
+   "0x140ea49c0",
+   "0x140ea4b48"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "RetentionExitDlg": {
+  "vftables": [
+   "0x140ea4b88",
+   "0x140ea4d20"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_geometry_calls": 1
+ },
+ "SDCardBottomGuidItem": {
+  "vftables": [
+   "0x140ea6990",
+   "0x140ea6b00"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "SDCardBottomGuidView": {
+  "vftables": [
+   "0x140ea6b40",
+   "0x140ea6cb0"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CSDCardDeviceItem": {
+  "vftables": [
+   "0x140ea8058",
+   "0x140ea81c8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CSDCardDeviceListPage": {
+  "vftables": [
+   "0x140ea8208",
+   "0x140ea8378"
+  ],
+  "n_methods": 52,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "CSDCardScanTipsWnd": {
+  "vftables": [
+   "0x140ea83b8",
+   "0x140ea8530"
+  ],
+  "n_methods": 53,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false,
+  "n_ui_strings": 1,
+  "n_geometry_calls": 1
+ },
+ "CSDCardFeedBackSubmitWnd": {
+  "vftables": [
+   "0x140ea9208",
+   "0x140ea93a0"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CSDCardFeedBackWnd": {
+  "vftables": [
+   "0x140ea93e0",
+   "0x140ea9550"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CSDCardFeedBackSuccessWnd": {
+  "vftables": [
+   "0x140ea9590",
+   "0x140ea9728"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CSDCardHelpPopWnd": {
+  "vftables": [
+   "0x140eaa150",
+   "0x140eaa2e8"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CSDCardHelpTipsWnd": {
+  "vftables": [
+   "0x140eaab90",
+   "0x140eaad00"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CSDCardNoDevicePage": {
+  "vftables": [
+   "0x140eab500",
+   "0x140eab670"
+  ],
+  "n_methods": 52,
+  "category": "App Page",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CSDCardWidgetsMgr": {
+  "vftables": [
+   "0x140eabfa8",
+   "0x140eac130"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "SectorEdit": {
+  "vftables": [
+   "0x140eac1e8",
+   "0x140eac358"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLineEdit",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "QScrollArea": {
+  "vftables": [
+   "0x140eae0c8",
+   "0x140eae258"
+  ],
+  "n_methods": 56,
+  "category": "Qt base"
+ },
+ "ChooseDestinationPathDialog": {
+  "vftables": [
+   "0x140eae5d0",
+   "0x140eae768"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog"
+ },
+ "QRadioButton": {
+  "vftables": [
+   "0x140eaf348",
+   "0x140eaf4d8"
+  ],
+  "n_methods": 55,
+  "category": "Qt base"
+ },
+ "ChooseDestinationPathItem": {
+  "vftables": [
+   "0x140eaf670",
+   "0x140eaf7e0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QWidget",
+  "moc_slots": 6,
+  "forward_only": false,
+  "n_ui_strings": 2
+ },
+ "CCustomStyle": {
+  "vftables": [
+   "0x140eb1080"
+  ],
+  "n_methods": 34,
+  "category": "App other",
+  "qt_base": "QProxyStyle",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CTreeNode": {
+  "vftables": [
+   "0x140eb1198"
+  ],
+  "n_methods": 1,
+  "category": "Data/Node"
+ },
+ "CLeftTreeView": {
+  "vftables": [
+   "0x140eb11a8",
+   "0x140eb1480"
+  ],
+  "n_methods": 97,
+  "category": "App Window/View",
+  "qt_base": "QTreeView",
+  "moc_slots": 47,
+  "forward_only": false
+ },
+ "CClassifyLeftTreeView": {
+  "vftables": [
+   "0x140eb14c0",
+   "0x140eb1798"
+  ],
+  "n_methods": 97,
+  "category": "App Window/View",
+  "qt_base": "QTreeView",
+  "moc_slots": 47,
+  "forward_only": false
+ },
+ "CRefreshCacheThread": {
+  "vftables": [
+   "0x140eb17d8"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task"
+ },
+ "RepidGoThread": {
+  "vftables": [
+   "0x140eb2f00"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CListViewModel": {
+  "vftables": [
+   "0x140eb2f68"
+  ],
+  "n_methods": 54,
+  "category": "Model/Delegate"
+ },
+ "CClassifyListViewModel": {
+  "vftables": [
+   "0x140eb3120"
+  ],
+  "n_methods": 54,
+  "category": "Model/Delegate"
+ },
+ "CPreviewModel": {
+  "vftables": [
+   "0x140eb32d8"
+  ],
+  "n_methods": 54,
+  "category": "Model/Delegate"
+ },
+ "CListIconController": {
+  "vftables": [
+   "0x140eb3490"
+  ],
+  "n_methods": 56,
+  "category": "Controller/Manager"
+ },
+ "CSetClassifyThread": {
+  "vftables": [
+   "0x140eb3658"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CClassifyListIconController": {
+  "vftables": [
+   "0x140eb36c0"
+  ],
+  "n_methods": 56,
+  "category": "Controller/Manager"
+ },
+ "CPreviewController": {
+  "vftables": [
+   "0x140eb3888"
+  ],
+  "n_methods": 56,
+  "category": "Controller/Manager"
+ },
+ "IViewItemDelegate": {
+  "vftables": [
+   "0x140eb48e8"
+  ],
+  "n_methods": 10,
+  "category": "Sink/Observer"
+ },
+ "CIconItemStyleWidget": {
+  "vftables": [
+   "0x140eb4960",
+   "0x140eb4ae8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control"
+ },
+ "CIconViewDelegate": {
+  "vftables": [
+   "0x140eb4b28",
+   "0x140eb4c30"
+  ],
+  "n_methods": 46,
+  "category": "Model/Delegate"
+ },
+ "CLostPartitionPopTipsWnd": {
+  "vftables": [
+   "0x140eb56d8",
+   "0x140eb5848"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "RecycleBinScanNoRltWnd": {
+  "vftables": [
+   "0x140eb5888",
+   "0x140eb59f8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CNormalLeftView": {
+  "vftables": [
+   "0x140eb65b8",
+   "0x140eb6728"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 11,
+  "forward_only": false
+ },
+ "QListView": {
+  "vftables": [
+   "0x140eb7998",
+   "0x140eb7c58"
+  ],
+  "n_methods": 94,
+  "category": "Qt base"
+ },
+ "CPopupMenu": {
+  "vftables": [
+   "0x140eb7c98",
+   "0x140eb7e20"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CClassifyPopupMenu": {
+  "vftables": [
+   "0x140eb7e60",
+   "0x140eb7fe8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control"
+ },
+ "CClassifyMenuItemModel": {
+  "vftables": [
+   "0x140eb8028"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractListModel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CClassifyMenuItemDelegate": {
+  "vftables": [
+   "0x140eb8198"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate",
+  "qt_base": "QStyledItemDelegate",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CSortPopupMenu": {
+  "vftables": [
+   "0x140eb8258",
+   "0x140eb83e0"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control"
+ },
+ "CSortMenuItemModel": {
+  "vftables": [
+   "0x140eb8420"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractListModel",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_ui_strings": 2
+ },
+ "CSortMenuItemDelegate": {
+  "vftables": [
+   "0x140eb8590"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate",
+  "qt_base": "QStyledItemDelegate",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CNavigateNasPathMenu": {
+  "vftables": [
+   "0x140eb8650",
+   "0x140eb87e0"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control"
+ },
+ "CNavigateNasPathMenuItemModel": {
+  "vftables": [
+   "0x140eb8820"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractListModel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CNavigateNasPathMenuItemDelegate": {
+  "vftables": [
+   "0x140eb8990"
+  ],
+  "n_methods": 23,
+  "category": "Model/Delegate",
+  "qt_base": "QStyledItemDelegate",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "HeaderStyleProxy": {
+  "vftables": [
+   "0x140eba6d0"
+  ],
+  "n_methods": 34,
+  "category": "App other",
+  "qt_base": "QProxyStyle",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "IconCustomButton": {
+  "vftables": [
+   "0x140eba7e8",
+   "0x140eba970"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CShadowMenu": {
+  "vftables": [
+   "0x140eba9b0",
+   "0x140ebab20"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QMenu",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CShowContextMenu": {
+  "vftables": [
+   "0x140ebab60"
+  ],
+  "n_methods": 11,
+  "category": "Widget/Control",
+  "qt_base": "QObject",
+  "moc_slots": 9,
+  "forward_only": false
+ },
+ "CListHeaderView": {
+  "vftables": [
+   "0x140ebabc0",
+   "0x140ebae90"
+  ],
+  "n_methods": 96,
+  "category": "App Window/View",
+  "qt_base": "QHeaderView",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CClassifyListHeaderView": {
+  "vftables": [
+   "0x140ebaed0",
+   "0x140ebb1a0"
+  ],
+  "n_methods": 96,
+  "category": "App Window/View"
+ },
+ "CHandleView": {
+  "vftables": [
+   "0x140ebb1e0",
+   "0x140ebb350"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CRightListView": {
+  "vftables": [
+   "0x140ebb390",
+   "0x140ebb660"
+  ],
+  "n_methods": 96,
+  "category": "App Window/View",
+  "qt_base": "QTreeView",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CClassifyRightListView": {
+  "vftables": [
+   "0x140ebb6a0",
+   "0x140ebb970"
+  ],
+  "n_methods": 96,
+  "category": "App Window/View",
+  "qt_base": "QTreeView",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CRightIconView": {
+  "vftables": [
+   "0x140ebb9b0",
+   "0x140ebbc70"
+  ],
+  "n_methods": 94,
+  "category": "App Window/View",
+  "qt_base": "QListView",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CClassifyRightIconView": {
+  "vftables": [
+   "0x140ebbcb0",
+   "0x140ebbf70"
+  ],
+  "n_methods": 94,
+  "category": "App Window/View",
+  "qt_base": "QListView",
+  "moc_slots": 1,
+  "forward_only": false,
+  "n_ui_strings": 4
+ },
+ "CPreviewIconViewDelegate": {
+  "vftables": [
+   "0x140ebbfb0",
+   "0x140ebc0b8"
+  ],
+  "n_methods": 46,
+  "category": "Model/Delegate"
+ },
+ "PreviewIconView": {
+  "vftables": [
+   "0x140ebc130",
+   "0x140ebc3f0"
+  ],
+  "n_methods": 94,
+  "category": "App Window/View",
+  "qt_base": "QListView",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CCheckNodeThread": {
+  "vftables": [
+   "0x140ebe530"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CCheckNodesThread": {
+  "vftables": [
+   "0x140ebe598"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CSelNodeThread": {
+  "vftables": [
+   "0x140ebe600"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CSortNodeThread": {
+  "vftables": [
+   "0x140ebe668"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CGetListThumbnailThread": {
+  "vftables": [
+   "0x140ebe6d0"
+  ],
+  "n_methods": 12,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QThread",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CDataSourceObj": {
+  "vftables": [
+   "0x140ebe738"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CModelController": {
+  "vftables": [
+   "0x140ebe798"
+  ],
+  "n_methods": 46,
+  "category": "Controller/Manager"
+ },
+ "CTreeListModel": {
+  "vftables": [
+   "0x140ebe958"
+  ],
+  "n_methods": 45,
+  "category": "Model/Delegate",
+  "qt_base": "QAbstractItemModel",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "CListScrollbar": {
+  "vftables": [
+   "0x140ebeaf8",
+   "0x140ebec80"
+  ],
+  "n_methods": 55,
+  "category": "App other",
+  "qt_base": "QScrollBar",
+  "moc_slots": 2,
+  "forward_only": false,
+  "n_geometry_calls": 1
+ },
+ "CTreeListScrollbarController": {
+  "vftables": [
+   "0x140ebf218"
+  ],
+  "n_methods": 11,
+  "category": "Controller/Manager"
+ },
+ "CTreeListItem": {
+  "vftables": [
+   "0x140ec0878",
+   "0x140ec0a00"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control"
+ },
+ "CTreeListViewItemDelegate": {
+  "vftables": [
+   "0x140ec0a40",
+   "0x140ec0b00"
+  ],
+  "n_methods": 37,
+  "category": "Model/Delegate",
+  "qt_base": "QStyledItemDelegate",
+  "moc_slots": 4,
+  "forward_only": false,
+  "n_ui_strings": 5
+ },
+ "CTreeViewController": {
+  "vftables": [
+   "0x140ec16e0"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager",
+  "n_ui_strings": 5
+ },
+ "CTreeViewModel": {
+  "vftables": [
+   "0x140ec18a0"
+  ],
+  "n_methods": 51,
+  "category": "Model/Delegate",
+  "n_ui_strings": 2
+ },
+ "CClassifyTreeViewController": {
+  "vftables": [
+   "0x140ec1a40"
+  ],
+  "n_methods": 55,
+  "category": "Controller/Manager"
+ },
+ "CClassifyTreeViewModel": {
+  "vftables": [
+   "0x140ec1c00"
+  ],
+  "n_methods": 51,
+  "category": "Model/Delegate"
+ },
+ "IUIViewControl": {
+  "vftables": [
+   "0x140ec2580"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "IUITreeViewControl": {
+  "vftables": [
+   "0x140ec25b0"
+  ],
+  "n_methods": 14,
+  "category": "App other"
+ },
+ "IUIListViewControl": {
+  "vftables": [
+   "0x140ec2628"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CBaskSink": {
+  "vftables": [
+   "0x140ec2658"
+  ],
+  "n_methods": 12,
+  "category": "Sink/Observer",
+  "qt_base": "QObject",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CTreeviewSink": {
+  "vftables": [
+   "0x140ec26c0",
+   "0x140ec2730"
+  ],
+  "n_methods": 27,
+  "category": "Sink/Observer"
+ },
+ "CListviewSink": {
+  "vftables": [
+   "0x140ec27a8",
+   "0x140ec2810"
+  ],
+  "n_methods": 17,
+  "category": "Sink/Observer",
+  "qt_base": "QObject",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CUISink": {
+  "vftables": [
+   "0x140ec2840"
+  ],
+  "n_methods": 11,
+  "category": "Sink/Observer",
+  "qt_base": "QObject",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "BasicTitleBar": {
+  "vftables": [
+   "0x140ec3598",
+   "0x140ec3710"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 10,
+  "forward_only": false
+ },
+ "CBusyObj": {
+  "vftables": [
+   "0x140ec3e90"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 7,
+  "forward_only": false,
+  "n_geometry_calls": 1
+ },
+ "CBoxLayout": {
+  "vftables": [
+   "0x140ec4030",
+   "0x140ec40b8"
+  ],
+  "n_methods": 32,
+  "category": "App other"
+ },
+ "CVBoxLayout": {
+  "vftables": [
+   "0x140ec4140",
+   "0x140ec41c8"
+  ],
+  "n_methods": 32,
+  "category": "App other"
+ },
+ "CHBoxLayout": {
+  "vftables": [
+   "0x140ec4250",
+   "0x140ec42d8"
+  ],
+  "n_methods": 32,
+  "category": "App other"
+ },
+ "BaseWorker": {
+  "vftables": [
+   "0x140ec4428",
+   "0x140ec4488"
+  ],
+  "n_methods": 13,
+  "category": "Thread/Worker/Task",
+  "qt_base": "QObject",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CommonThreadPoolMgr": {
+  "vftables": [
+   "0x140ec44a0"
+  ],
+  "n_methods": 11,
+  "category": "Controller/Manager",
+  "qt_base": "QObject",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "DoubleLineTextButton": {
+  "vftables": [
+   "0x140ec4bb8",
+   "0x140ec4d48"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "DynamicTextButton": {
+  "vftables": [
+   "0x140ec4ea0",
+   "0x140ec5028"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "DynamicTextCtrl": {
+  "vftables": [
+   "0x140ec51d0"
+  ],
+  "n_methods": 11,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "FlowLayout": {
+  "vftables": [
+   "0x140ec5378",
+   "0x140ec5408"
+  ],
+  "n_methods": 33,
+  "category": "App other"
+ },
+ "IWindowProxy": {
+  "vftables": [
+   "0x140ec5c10"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "InnerShadowWidget": {
+  "vftables": [
+   "0x140ec5c20",
+   "0x140ec5da0",
+   "0x140ec5de0"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QWidget",
+  "moc_slots": 0,
+  "forward_only": true,
+  "n_geometry_calls": 1
+ },
+ "FollowShadowDialog": {
+  "vftables": [
+   "0x140ec5df0",
+   "0x140ec5f90"
+  ],
+  "n_methods": 58,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "GifWaitingLabel": {
+  "vftables": [
+   "0x140ec6728",
+   "0x140ec68b8"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 6,
+  "forward_only": false
+ },
+ "CIdxLabel": {
+  "vftables": [
+   "0x140ec68f8",
+   "0x140ec6a88"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control"
+ },
+ "HandleCursorButton": {
+  "vftables": [
+   "0x140ec7060",
+   "0x140ec71e8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "IconTextButton": {
+  "vftables": [
+   "0x140ec72d0",
+   "0x140ec7460"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "LicenseInputEdit": {
+  "vftables": [
+   "0x140ec7710",
+   "0x140ec78d8"
+  ],
+  "n_methods": 63,
+  "category": "Widget/Control",
+  "n_ui_strings": 1
+ },
+ "MenuActionStyle": {
+  "vftables": [
+   "0x140ec7968"
+  ],
+  "n_methods": 34,
+  "category": "App other",
+  "qt_base": "QProxyStyle",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "QGraphicsDropShadowEffect": {
+  "vftables": [
+   "0x140ec7ed8"
+  ],
+  "n_methods": 14,
+  "category": "Qt base"
+ },
+ "RobotToolTipDlg": {
+  "vftables": [
+   "0x140ec8af8",
+   "0x140ec8c90"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "n_geometry_calls": 7
+ },
+ "RecoveryChancesTipsWidget": {
+  "vftables": [
+   "0x140ec8cd0",
+   "0x140ec8e68"
+  ],
+  "n_methods": 57,
+  "category": "Widget/Control",
+  "n_geometry_calls": 6
+ },
+ "AIAssistantTipDialog": {
+  "vftables": [
+   "0x140ec8ea8",
+   "0x140ec9040"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "n_geometry_calls": 6
+ },
+ "RotateLabel": {
+  "vftables": [
+   "0x140ec9738",
+   "0x140ec98a8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "RotateTextLabel": {
+  "vftables": [
+   "0x140ec98e8",
+   "0x140ec9a58"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "SupportDragFrame": {
+  "vftables": [
+   "0x140eca068",
+   "0x140eca1f0",
+   "0x140eca230"
+  ],
+  "n_methods": 57,
+  "category": "Widget/Control",
+  "qt_base": "QWidget",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "customSupportDragFrame": {
+  "vftables": [
+   "0x140eca248",
+   "0x140eca3c0"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "RateExpressionBtn": {
+  "vftables": [
+   "0x140ecb418",
+   "0x140ecb588"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "PlaceholderTextEdit": {
+  "vftables": [
+   "0x140ecb5c8",
+   "0x140ecb780"
+  ],
+  "n_methods": 61,
+  "category": "Widget/Control",
+  "qt_base": "QTextEdit",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "UserRateSuccessDlg": {
+  "vftables": [
+   "0x140ecb7c0",
+   "0x140ecb958"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog"
+ },
+ "UserRateDlg": {
+  "vftables": [
+   "0x140ecb998",
+   "0x140ecbb30"
+  ],
+  "n_methods": 57,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "RoundProgressTextLabel": {
+  "vftables": [
+   "0x140ecbd40",
+   "0x140ecbeb0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "QRoundProgressBar": {
+  "vftables": [
+   "0x140ecbef0",
+   "0x140ecc060"
+  ],
+  "n_methods": 52,
+  "category": "Qt base",
+  "qt_base": "QWidget",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CRoundRadiusLabel": {
+  "vftables": [
+   "0x140ecc628",
+   "0x140ecc798"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "ShadowCompometFrame": {
+  "vftables": [
+   "0x140ecc908",
+   "0x140ecca90"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CSuperLineEdit": {
+  "vftables": [
+   "0x140ece498",
+   "0x140ece658"
+  ],
+  "n_methods": 62,
+  "category": "Widget/Control",
+  "qt_base": "QLineEdit",
+  "moc_slots": 12,
+  "forward_only": false
+ },
+ "CSizeSpinBox": {
+  "vftables": [
+   "0x140ece698",
+   "0x140ece860"
+  ],
+  "n_methods": 63,
+  "category": "Widget/Control"
+ },
+ "CCalendarWidget": {
+  "vftables": [
+   "0x140ece8a0",
+   "0x140ecea18"
+  ],
+  "n_methods": 53,
+  "category": "Widget/Control",
+  "qt_base": "QCalendarWidget",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CEditValidator": {
+  "vftables": [
+   "0x140ecea58"
+  ],
+  "n_methods": 13,
+  "category": "App other",
+  "qt_base": "QValidator",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CSpinValidator": {
+  "vftables": [
+   "0x140eceac8"
+  ],
+  "n_methods": 14,
+  "category": "App other",
+  "qt_base": "QDoubleValidator",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CLineeditDate": {
+  "vftables": [
+   "0x140eceb40",
+   "0x140eced08"
+  ],
+  "n_methods": 63,
+  "category": "App other"
+ },
+ "SuspendedScrollBar": {
+  "vftables": [
+   "0x140ecef50",
+   "0x140ecf0d8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QScrollBar",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "SuspendedScrollArea": {
+  "vftables": [
+   "0x140ecf118",
+   "0x140ecf2b0"
+  ],
+  "n_methods": 57,
+  "category": "App other",
+  "qt_base": "QScrollArea",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "TitleActivateButton": {
+  "vftables": [
+   "0x140ecf360",
+   "0x140ecf4e8"
+  ],
+  "n_methods": 55,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CAutoToolTipsLabel": {
+  "vftables": [
+   "0x140ed0100",
+   "0x140ed0270"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CToolTipController": {
+  "vftables": [
+   "0x140ed02b0"
+  ],
+  "n_methods": 11,
+  "category": "Controller/Manager",
+  "qt_base": "QObject",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "CAutoToolTipsLabel2": {
+  "vftables": [
+   "0x140ed0310",
+   "0x140ed0480"
+  ],
+  "n_methods": 52,
+  "category": "App other",
+  "qt_base": "QFrame",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "TransitionAnimalContainer": {
+  "vftables": [
+   "0x140ed0a08",
+   "0x140ed0b90"
+  ],
+  "n_methods": 55,
+  "category": "App other",
+  "qt_base": "QStackedWidget",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "TriangleTextLabel": {
+  "vftables": [
+   "0x140ed0c50",
+   "0x140ed0dc0"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "UiBasicDialog": {
+  "vftables": [
+   "0x140ed1410",
+   "0x140ed15b8",
+   "0x140ed15f8"
+  ],
+  "n_methods": 60,
+  "category": "App Dialog",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "UIBasicWidget": {
+  "vftables": [
+   "0x140ed1bc8",
+   "0x140ed1d68",
+   "0x140ed1da8",
+   "0x140ed1dc0"
+  ],
+  "n_methods": 61,
+  "category": "Widget/Control"
+ },
+ "WindowAttributeProxy": {
+  "vftables": [
+   "0x140ed2480"
+  ],
+  "n_methods": 23,
+  "category": "App other",
+  "qt_base": "QObject",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CRepairAddProgressWnd": {
+  "vftables": [
+   "0x140ed2eb8",
+   "0x140ed3050"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CRapairVideoAddWnd": {
+  "vftables": [
+   "0x140ed3240",
+   "0x140ed33b0"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 3,
+  "forward_only": false
+ },
+ "CRepairChangePathFrame": {
+  "vftables": [
+   "0x140ed4a08",
+   "0x140ed4b78"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control"
+ },
+ "CRepairVideoAdvancedAddWnd": {
+  "vftables": [
+   "0x140ed4bb8",
+   "0x140ed4d50"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CRepairVideoAdvancedAnalyzeWnd": {
+  "vftables": [
+   "0x140ed4d90",
+   "0x140ed4f28"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "CRepairVideoGetSampleWnd": {
+  "vftables": [
+   "0x140ed4f68",
+   "0x140ed5100"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 2,
+  "forward_only": false
+ },
+ "CRepairVideoHomeWnd": {
+  "vftables": [
+   "0x140ed5b98",
+   "0x140ed5d08"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "CRepairVideoPreviewLabel": {
+  "vftables": [
+   "0x140ed8078",
+   "0x140ed81e8"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QLabel",
+  "moc_slots": 1,
+  "forward_only": false
+ },
+ "CRepairVideoItem": {
+  "vftables": [
+   "0x140ed8228",
+   "0x140ed8398"
+  ],
+  "n_methods": 52,
+  "category": "Widget/Control",
+  "qt_base": "QFrame",
+  "moc_slots": 21,
+  "forward_only": false
+ },
+ "CRepairVideoRightItemsWnd": {
+  "vftables": [
+   "0x140ed83d8",
+   "0x140ed8548"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 23,
+  "forward_only": false
+ },
+ "CRepairVideoItemsWnd": {
+  "vftables": [
+   "0x140ed8588",
+   "0x140ed86f8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 7,
+  "forward_only": false
+ },
+ "CRepairVideoSaveWnd": {
+  "vftables": [
+   "0x140ed9270",
+   "0x140ed9408"
+  ],
+  "n_methods": 57,
+  "category": "App Window/View",
+  "qt_base": "QDialog",
+  "moc_slots": 4,
+  "forward_only": false
+ },
+ "CRepairVideoController": {
+  "vftables": [
+   "0x140ed9e00"
+  ],
+  "n_methods": 21,
+  "category": "Controller/Manager"
+ },
+ "CRepairVideoWidgetsMgr": {
+  "vftables": [
+   "0x140ed9eb0",
+   "0x140eda040"
+  ],
+  "n_methods": 56,
+  "category": "Controller/Manager"
+ },
+ "IconTextIconButton": {
+  "vftables": [
+   "0x140eda680",
+   "0x140eda810"
+  ],
+  "n_methods": 56,
+  "category": "Widget/Control",
+  "qt_base": "QPushButton",
+  "moc_slots": 0,
+  "forward_only": true
+ },
+ "UserInformationView": {
+  "vftables": [
+   "0x140edb458",
+   "0x140edb5c8"
+  ],
+  "n_methods": 52,
+  "category": "App Window/View",
+  "qt_base": "QFrame",
+  "moc_slots": 5,
+  "forward_only": false
+ },
+ "type_info": {
+  "vftables": [
+   "0x140f5c0a0"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "IFileProperties": {
+  "vftables": [
+   "0x140f5f390"
+  ],
+  "n_methods": 21,
+  "category": "Sink/Observer"
+ },
+ "CRAWDataRunList": {
+  "vftables": [
+   "0x140f5f4d8"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CRAWFileProperties": {
+  "vftables": [
+   "0x140f5f528"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "CRawFileInfo": {
+  "vftables": [
+   "0x140f5f9b8"
+  ],
+  "n_methods": 6,
+  "category": "Data/Node"
+ },
+ "CJsonObject": {
+  "vftables": [
+   "0x14187f478"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "StyledWriter": {
+  "vftables": [
+   "0x14187f5f0"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "filesystem_error": {
+  "vftables": [
+   "0x14187f808"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "_System_error_category": {
+  "vftables": [
+   "0x14187f850"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "DefaultValueAllocator": {
+  "vftables": [
+   "0x14187fa30"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "ValueAllocator": {
+  "vftables": [
+   "0x14187fa60"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "?$basic_ostringstream": {
+  "vftables": [
+   "0x14187fda0",
+   "0x141885118"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "Writer": {
+  "vftables": [
+   "0x14187fdb0"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "FastWriter": {
+  "vftables": [
+   "0x14187fdc8"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "?$basic_stringbuf": {
+  "vftables": [
+   "0x14187fde0",
+   "0x141885140"
+  ],
+  "n_methods": 30,
+  "category": "MSVC/STL template"
+ },
+ "CFileNode": {
+  "vftables": [
+   "0x14187fec8"
+  ],
+  "n_methods": 7,
+  "category": "Data/Node"
+ },
+ "CFileSystemNode": {
+  "vftables": [
+   "0x14187ff60"
+  ],
+  "n_methods": 15,
+  "category": "Data/Node"
+ },
+ "range_error": {
+  "vftables": [
+   "0x14187ffe0"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "?$codecvt_utf8": {
+  "vftables": [
+   "0x141880000"
+  ],
+  "n_methods": 10,
+  "category": "MSVC/STL template"
+ },
+ "?$basic_stringstream": {
+  "vftables": [
+   "0x141880058",
+   "0x1418851c8"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "?$wstring_convert": {
+  "vftables": [
+   "0x1418800d0"
+  ],
+  "n_methods": 1,
+  "category": "MSVC/STL template"
+ },
+ "?$basic_ifstream": {
+  "vftables": [
+   "0x1418806b0",
+   "0x141880d30"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "ExceptionImp": {
+  "vftables": [
+   "0x1418806c0"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "bad_cast": {
+  "vftables": [
+   "0x1418806d8"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "?$basic_filebuf": {
+  "vftables": [
+   "0x1418806f0",
+   "0x141880ca8"
+  ],
+  "n_methods": 30,
+  "category": "MSVC/STL template"
+ },
+ "?$basic_ofstream": {
+  "vftables": [
+   "0x141880788",
+   "0x141885818"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "CDiskDevice": {
+  "vftables": [
+   "0x141880d50"
+  ],
+  "n_methods": 31,
+  "category": "App other"
+ },
+ "IStorageDevice": {
+  "vftables": [
+   "0x141884480"
+  ],
+  "n_methods": 24,
+  "category": "Sink/Observer"
+ },
+ "CBasicPartitionDevice": {
+  "vftables": [
+   "0x141884810"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "IUIProgressInfo": {
+  "vftables": [
+   "0x141884988"
+  ],
+  "n_methods": 3,
+  "category": "Data/Node"
+ },
+ "CSaveAndRestoreProgressInfo": {
+  "vftables": [
+   "0x1418849a8"
+  ],
+  "n_methods": 3,
+  "category": "Data/Node"
+ },
+ "ZfsFileProperties": {
+  "vftables": [
+   "0x1418849f8"
+  ],
+  "n_methods": 43,
+  "category": "App other"
+ },
+ "ZfsDataRunlist": {
+  "vftables": [
+   "0x141884b80"
+  ],
+  "n_methods": 10,
+  "category": "App other"
+ },
+ "CreateImage": {
+  "vftables": [
+   "0x141884c00"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "IDeviceLostNotify": {
+  "vftables": [
+   "0x141884c28"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CBzip2Compressor": {
+  "vftables": [
+   "0x141884c50"
+  ],
+  "n_methods": 11,
+  "category": "App other"
+ },
+ "IImageFile": {
+  "vftables": [
+   "0x141884cb0"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CZlibCompressor": {
+  "vftables": [
+   "0x141884cf8"
+  ],
+  "n_methods": 11,
+  "category": "App other"
+ },
+ "CImageFileNew": {
+  "vftables": [
+   "0x141884d58"
+  ],
+  "n_methods": 8,
+  "category": "App other"
+ },
+ "ICompressor": {
+  "vftables": [
+   "0x141884e18"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CCloudDataRunList": {
+  "vftables": [
+   "0x141884e78"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CCloudFileProperties": {
+  "vftables": [
+   "0x141884ec8"
+  ],
+  "n_methods": 41,
+  "category": "App other"
+ },
+ "CVersionCtrl": {
+  "vftables": [
+   "0x1418851d8"
+  ],
+  "n_methods": 95,
+  "category": "App other"
+ },
+ "IVersionCtrl": {
+  "vftables": [
+   "0x1418854d8"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "COnlineActivation": {
+  "vftables": [
+   "0x141885828"
+  ],
+  "n_methods": 13,
+  "category": "App other"
+ },
+ "?$basic_istringstream": {
+  "vftables": [
+   "0x1418858a8"
+  ],
+  "n_methods": 1,
+  "category": "MSVC/STL template"
+ },
+ "IOnlineActivate": {
+  "vftables": [
+   "0x1418858b8"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "_Node_assert": {
+  "vftables": [
+   "0x1418859e8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "_Node_rep": {
+  "vftables": [
+   "0x1418859f8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "?$collate": {
+  "vftables": [
+   "0x141885a08",
+   "0x14188bc90"
+  ],
+  "n_methods": 10,
+  "category": "MSVC/STL template"
+ },
+ "_Node_endif": {
+  "vftables": [
+   "0x141885d48"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "_Node_back": {
+  "vftables": [
+   "0x141885d60"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "?$_Node_class": {
+  "vftables": [
+   "0x141885d70",
+   "0x14188bce0"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "_Node_if": {
+  "vftables": [
+   "0x141885d80"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CRaidDevice": {
+  "vftables": [
+   "0x141885da8"
+  ],
+  "n_methods": 31,
+  "category": "App other"
+ },
+ "_Node_end_group": {
+  "vftables": [
+   "0x141885fa8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "_Root_node": {
+  "vftables": [
+   "0x141885fb8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "_Node_capture": {
+  "vftables": [
+   "0x141885fc8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "BitlockerDevice": {
+  "vftables": [
+   "0x141885fd8"
+  ],
+  "n_methods": 29,
+  "category": "App other"
+ },
+ "_Node_base": {
+  "vftables": [
+   "0x1418860c8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "?$_Node_str": {
+  "vftables": [
+   "0x1418860d8",
+   "0x14188bcf0"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "_Node_end_rep": {
+  "vftables": [
+   "0x141886108"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CScanMgr": {
+  "vftables": [
+   "0x141886118",
+   "0x1418863d8",
+   "0x141886400"
+  ],
+  "n_methods": 45,
+  "category": "Controller/Manager"
+ },
+ "IProgress": {
+  "vftables": [
+   "0x1418861b0"
+  ],
+  "n_methods": 14,
+  "category": "Sink/Observer"
+ },
+ "CDoScanLostPartition": {
+  "vftables": [
+   "0x141886250"
+  ],
+  "n_methods": 44,
+  "category": "App other"
+ },
+ "CUIScanProgressInfo": {
+  "vftables": [
+   "0x1418863b8"
+  ],
+  "n_methods": 3,
+  "category": "Data/Node"
+ },
+ "IScanMgr": {
+  "vftables": [
+   "0x1418864c0"
+  ],
+  "n_methods": 2,
+  "category": "Controller/Manager"
+ },
+ "TiXmlDocument": {
+  "vftables": [
+   "0x141886580"
+  ],
+  "n_methods": 17,
+  "category": "App other"
+ },
+ "CDirectoryTreeManager": {
+  "vftables": [
+   "0x141886698"
+  ],
+  "n_methods": 17,
+  "category": "Controller/Manager"
+ },
+ "CExtentTreeDataModel": {
+  "vftables": [
+   "0x141886728"
+  ],
+  "n_methods": 7,
+  "category": "Model/Delegate"
+ },
+ "IDirectoryTree": {
+  "vftables": [
+   "0x141886778"
+  ],
+  "n_methods": 9,
+  "category": "Sink/Observer"
+ },
+ "ISaveFailedFiles": {
+  "vftables": [
+   "0x141886800"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CUIRecoveryProgressInfo": {
+  "vftables": [
+   "0x141886838"
+  ],
+  "n_methods": 3,
+  "category": "Data/Node"
+ },
+ "IFileRecoverCallback": {
+  "vftables": [
+   "0x141886858"
+  ],
+  "n_methods": 3,
+  "category": "Sink/Observer"
+ },
+ "IRecoveryMgr": {
+  "vftables": [
+   "0x1418868a8"
+  ],
+  "n_methods": 2,
+  "category": "Controller/Manager"
+ },
+ "CloudFaildFilesWithHtml": {
+  "vftables": [
+   "0x141886930"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CRecoveryMgr": {
+  "vftables": [
+   "0x141886968",
+   "0x1418869d0",
+   "0x141886a10"
+  ],
+  "n_methods": 29,
+  "category": "Controller/Manager"
+ },
+ "IChinaUser": {
+  "vftables": [
+   "0x141886aa8"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CChinaUser": {
+  "vftables": [
+   "0x141886ad0"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "ITreeDataSource": {
+  "vftables": [
+   "0x141886b38"
+  ],
+  "n_methods": 20,
+  "category": "Sink/Observer"
+ },
+ "WorkItem": {
+  "vftables": [
+   "0x141886be0"
+  ],
+  "n_methods": 5,
+  "category": "Widget/Control"
+ },
+ "SearchWorkItem": {
+  "vftables": [
+   "0x141886c10"
+  ],
+  "n_methods": 5,
+  "category": "Widget/Control"
+ },
+ "IDataSource": {
+  "vftables": [
+   "0x141886c40",
+   "0x141886dc8"
+  ],
+  "n_methods": 60,
+  "category": "Sink/Observer"
+ },
+ "SearchDataSource": {
+  "vftables": [
+   "0x141886e40",
+   "0x141886fb8",
+   "0x141887090",
+   "0x141887170",
+   "0x141887198"
+  ],
+  "n_methods": 84,
+  "category": "App other"
+ },
+ "IRecoveryDataSource": {
+  "vftables": [
+   "0x141886ff0"
+  ],
+  "n_methods": 4,
+  "category": "Sink/Observer"
+ },
+ "IListDataSource": {
+  "vftables": [
+   "0x141887018"
+  ],
+  "n_methods": 14,
+  "category": "Sink/Observer"
+ },
+ "ISearch": {
+  "vftables": [
+   "0x141887108"
+  ],
+  "n_methods": 3,
+  "category": "Sink/Observer"
+ },
+ "IAction": {
+  "vftables": [
+   "0x141887210"
+  ],
+  "n_methods": 6,
+  "category": "Sink/Observer"
+ },
+ "INavigateHistroyFactroy": {
+  "vftables": [
+   "0x141887398"
+  ],
+  "n_methods": 17,
+  "category": "Sink/Observer"
+ },
+ "INavigateItem": {
+  "vftables": [
+   "0x141887428"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "NavigateHistroyCtrl": {
+  "vftables": [
+   "0x141887438"
+  ],
+  "n_methods": 17,
+  "category": "App other"
+ },
+ "ThumbnailWorkItem": {
+  "vftables": [
+   "0x1418874c8"
+  ],
+  "n_methods": 5,
+  "category": "Widget/Control"
+ },
+ "IThumbnailFactory": {
+  "vftables": [
+   "0x1418874f8"
+  ],
+  "n_methods": 9,
+  "category": "Sink/Observer"
+ },
+ "INodeThumbnail": {
+  "vftables": [
+   "0x141887550"
+  ],
+  "n_methods": 9,
+  "category": "Sink/Observer"
+ },
+ "ThumbnailFactory": {
+  "vftables": [
+   "0x1418875a0"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CCheckNtfsPartition": {
+  "vftables": [
+   "0x1418875f0"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "ICheckRecoverable": {
+  "vftables": [
+   "0x141887608"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CCheckExFatPartition": {
+  "vftables": [
+   "0x141887620"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CCheckFatPartition": {
+  "vftables": [
+   "0x141887638"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CCheckBitlockerPartition": {
+  "vftables": [
+   "0x141887650"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "IFileRepairInterface": {
+  "vftables": [
+   "0x141887668"
+  ],
+  "n_methods": 10,
+  "category": "Sink/Observer"
+ },
+ "FileRepairGeneralRealize": {
+  "vftables": [
+   "0x141887750"
+  ],
+  "n_methods": 21,
+  "category": "App other"
+ },
+ "IPreviewDataSource": {
+  "vftables": [
+   "0x141887840",
+   "0x1418878b0",
+   "0x141887b60"
+  ],
+  "n_methods": 59,
+  "category": "Sink/Observer"
+ },
+ "PreviewDataSource": {
+  "vftables": [
+   "0x141887878",
+   "0x141887b28",
+   "0x141887bd8",
+   "0x141887c00",
+   "0x141887c78"
+  ],
+  "n_methods": 104,
+  "category": "App other"
+ },
+ "IPELogicSink": {
+  "vftables": [
+   "0x141887f68"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "IPEUILogic": {
+  "vftables": [
+   "0x141887f80"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CPEUILogic": {
+  "vftables": [
+   "0x141887fb0",
+   "0x141887fc8"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "INotifyCenter": {
+  "vftables": [
+   "0x141888068"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CNotifyCenter": {
+  "vftables": [
+   "0x141888080"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "?$_Ref_count_resource": {
+  "vftables": [
+   "0x141888098",
+   "0x1418946c0"
+  ],
+  "n_methods": 8,
+  "category": "MSVC/STL template"
+ },
+ "IPreviewStub": {
+  "vftables": [
+   "0x141888188"
+  ],
+  "n_methods": 19,
+  "category": "Sink/Observer"
+ },
+ "ImagePreviewStub": {
+  "vftables": [
+   "0x141888230"
+  ],
+  "n_methods": 20,
+  "category": "App other"
+ },
+ "CWndCapture": {
+  "vftables": [
+   "0x1418882d8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "IWndCapture": {
+  "vftables": [
+   "0x1418882e8"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "SearchDataSourceAdapter": {
+  "vftables": [
+   "0x1418882f8",
+   "0x141888330",
+   "0x1418883a8",
+   "0x1418883d0",
+   "0x141888548"
+  ],
+  "n_methods": 84,
+  "category": "App other"
+ },
+ "CGenericFileProperties": {
+  "vftables": [
+   "0x1418885c0"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "IEuActiveEx": {
+  "vftables": [
+   "0x141888728"
+  ],
+  "n_methods": 4,
+  "category": "Sink/Observer"
+ },
+ "IEaoActiveOnlineEx": {
+  "vftables": [
+   "0x141888830"
+  ],
+  "n_methods": 4,
+  "category": "Sink/Observer"
+ },
+ "IEaoBase": {
+  "vftables": [
+   "0x1418888c0"
+  ],
+  "n_methods": 3,
+  "category": "Sink/Observer"
+ },
+ "IEaoActiveOnline": {
+  "vftables": [
+   "0x141888908"
+  ],
+  "n_methods": 4,
+  "category": "Sink/Observer"
+ },
+ "IEuActiveOnline": {
+  "vftables": [
+   "0x141888978"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "IEuActive": {
+  "vftables": [
+   "0x141888a98"
+  ],
+  "n_methods": 4,
+  "category": "Sink/Observer"
+ },
+ "CEaoActiveOnline": {
+  "vftables": [
+   "0x141888b78"
+  ],
+  "n_methods": 43,
+  "category": "App other"
+ },
+ "IEuAdvanceActive": {
+  "vftables": [
+   "0x141888cd8"
+  ],
+  "n_methods": 4,
+  "category": "Sink/Observer"
+ },
+ "EuActiveOnline": {
+  "vftables": [
+   "0x141888e38"
+  ],
+  "n_methods": 36,
+  "category": "App other"
+ },
+ "IAccessVirtualDisk": {
+  "vftables": [
+   "0x141888f98"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CWin32Disk": {
+  "vftables": [
+   "0x141888fd8"
+  ],
+  "n_methods": 8,
+  "category": "App other"
+ },
+ "CRecovery2BufferCB": {
+  "vftables": [
+   "0x141889020"
+  ],
+  "n_methods": 10,
+  "category": "App other"
+ },
+ "CDoScanPartition": {
+  "vftables": [
+   "0x141889078"
+  ],
+  "n_methods": 44,
+  "category": "App other"
+ },
+ "CDoScanRemoteDevice": {
+  "vftables": [
+   "0x1418891e0"
+  ],
+  "n_methods": 44,
+  "category": "App other"
+ },
+ "CDoScanDeviceBase": {
+  "vftables": [
+   "0x141889348"
+  ],
+  "n_methods": 44,
+  "category": "App other"
+ },
+ "IAdvanceFileFilterSink": {
+  "vftables": [
+   "0x1418894b0"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CAdvanceFileFilterMgr": {
+  "vftables": [
+   "0x1418894c8"
+  ],
+  "n_methods": 2,
+  "category": "Controller/Manager"
+ },
+ "CDoScanCloudDevice": {
+  "vftables": [
+   "0x141889530"
+  ],
+  "n_methods": 44,
+  "category": "App other"
+ },
+ "PdfRepairThread": {
+  "vftables": [
+   "0x141889698"
+  ],
+  "n_methods": 1,
+  "category": "Thread/Worker/Task"
+ },
+ "RecoverFileTypeTreeDataSource": {
+  "vftables": [
+   "0x1418896a8",
+   "0x1418896d0",
+   "0x141889848"
+  ],
+  "n_methods": 64,
+  "category": "App other"
+ },
+ "AutoRecoverDataSource": {
+  "vftables": [
+   "0x1418898c0",
+   "0x141889a38",
+   "0x141889a68"
+  ],
+  "n_methods": 65,
+  "category": "App other"
+ },
+ "ArchiveRepairThread": {
+  "vftables": [
+   "0x141889ae0"
+  ],
+  "n_methods": 1,
+  "category": "Thread/Worker/Task"
+ },
+ "IOnWritedDataCallback": {
+  "vftables": [
+   "0x141889b10"
+  ],
+  "n_methods": 4,
+  "category": "Sink/Observer"
+ },
+ "RecoveryProgressCallback": {
+  "vftables": [
+   "0x141889b38"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "CTreeDataModel": {
+  "vftables": [
+   "0x141889b70"
+  ],
+  "n_methods": 7,
+  "category": "Model/Delegate"
+ },
+ "CListControl": {
+  "vftables": [
+   "0x141889c28",
+   "0x141889c60",
+   "0x141889cd8"
+  ],
+  "n_methods": 66,
+  "category": "App other"
+ },
+ "CTreeControl": {
+  "vftables": [
+   "0x141889e50",
+   "0x141889e88",
+   "0x141889f00"
+  ],
+  "n_methods": 66,
+  "category": "App other"
+ },
+ "CSaveFailedFilesWithHtml": {
+  "vftables": [
+   "0x14188a078"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "ChinaWeChatReaderProxy": {
+  "vftables": [
+   "0x14188a0b0"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "TreeRootNode": {
+  "vftables": [
+   "0x14188a178"
+  ],
+  "n_methods": 15,
+  "category": "Data/Node"
+ },
+ "TreeNode": {
+  "vftables": [
+   "0x14188a1f8"
+  ],
+  "n_methods": 15,
+  "category": "Data/Node"
+ },
+ "TreeFolderNode": {
+  "vftables": [
+   "0x14188a278"
+  ],
+  "n_methods": 15,
+  "category": "Data/Node"
+ },
+ "CFunctionDiscoveryNotificationWrapper": {
+  "vftables": [
+   "0x14188a308"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "CMyFDHelper": {
+  "vftables": [
+   "0x14188a340"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "MemThumbnail": {
+  "vftables": [
+   "0x14188a390"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "RecoveryFile2Mem": {
+  "vftables": [
+   "0x14188a3f0",
+   "0x14188a418"
+  ],
+  "n_methods": 13,
+  "category": "App other"
+ },
+ "ICameraThumbnail": {
+  "vftables": [
+   "0x14188a468"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CCameraThumbnail": {
+  "vftables": [
+   "0x14188a490"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "AvoidAmendDataRunLock": {
+  "vftables": [
+   "0x14188a5a0"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "AVPreviewStub": {
+  "vftables": [
+   "0x14188a5d0"
+  ],
+  "n_methods": 20,
+  "category": "App other"
+ },
+ "RtfTxtPreviewStub": {
+  "vftables": [
+   "0x14188a678"
+  ],
+  "n_methods": 20,
+  "category": "App other"
+ },
+ "ArchivePreviewStub": {
+  "vftables": [
+   "0x14188a720"
+  ],
+  "n_methods": 20,
+  "category": "App other"
+ },
+ "ArchivePreviewWorkItem": {
+  "vftables": [
+   "0x14188a7c8"
+  ],
+  "n_methods": 5,
+  "category": "Widget/Control"
+ },
+ "PdfPreviewStub": {
+  "vftables": [
+   "0x14188a7f8"
+  ],
+  "n_methods": 22,
+  "category": "App other"
+ },
+ "OfficePreviewStub": {
+  "vftables": [
+   "0x14188a8b0"
+  ],
+  "n_methods": 22,
+  "category": "App other"
+ },
+ "IPeMaker": {
+  "vftables": [
+   "0x14188ab90"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CPeMaker": {
+  "vftables": [
+   "0x14188abe8"
+  ],
+  "n_methods": 11,
+  "category": "App other"
+ },
+ "?$CAutoCall": {
+  "vftables": [
+   "0x14188b8c0"
+  ],
+  "n_methods": 1,
+  "category": "MSVC/STL template"
+ },
+ "?$codecvt_utf16": {
+  "vftables": [
+   "0x14188b8e0"
+  ],
+  "n_methods": 10,
+  "category": "MSVC/STL template"
+ },
+ "CWin32Part": {
+  "vftables": [
+   "0x14188bc48"
+  ],
+  "n_methods": 8,
+  "category": "App other"
+ },
+ "IRecoveryFilter": {
+  "vftables": [
+   "0x14188bd00"
+  ],
+  "n_methods": 3,
+  "category": "Sink/Observer"
+ },
+ "CRecoveryFilter": {
+  "vftables": [
+   "0x14188bd48"
+  ],
+  "n_methods": 8,
+  "category": "App other"
+ },
+ "IWorkerSink": {
+  "vftables": [
+   "0x14188bde0"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CMatchingFileTypeWorker": {
+  "vftables": [
+   "0x14188be30"
+  ],
+  "n_methods": 2,
+  "category": "Thread/Worker/Task"
+ },
+ "CHKRepair": {
+  "vftables": [
+   "0x14188be48"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "ITree": {
+  "vftables": [
+   "0x14188be68"
+  ],
+  "n_methods": 82,
+  "category": "Sink/Observer"
+ },
+ "CTree": {
+  "vftables": [
+   "0x14188c100"
+  ],
+  "n_methods": 82,
+  "category": "App other"
+ },
+ "CTypeTreeV2": {
+  "vftables": [
+   "0x14188c398"
+  ],
+  "n_methods": 83,
+  "category": "App other"
+ },
+ "CEuShare": {
+  "vftables": [
+   "0x14188c660"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "IEuShare": {
+  "vftables": [
+   "0x14188c6c0"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "MemPreviewStub": {
+  "vftables": [
+   "0x14188c6f0"
+  ],
+  "n_methods": 22,
+  "category": "App other"
+ },
+ "IObject": {
+  "vftables": [
+   "0x14188c7a8"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CMakePe": {
+  "vftables": [
+   "0x14188dce8"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "ISysCheckItem": {
+  "vftables": [
+   "0x14188df78"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CSysCheckMac": {
+  "vftables": [
+   "0x14188df98"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CMakePe3": {
+  "vftables": [
+   "0x14188edd8"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CMakePe4": {
+  "vftables": [
+   "0x14188f8b8"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CGrabPe3": {
+  "vftables": [
+   "0x14188f918"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CGrabPe4": {
+  "vftables": [
+   "0x14188f948"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CWmiHardDiskCode": {
+  "vftables": [
+   "0x14188fe30"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CHardDiskCode": {
+  "vftables": [
+   "0x14188fe50"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CSysChkMotherBoard": {
+  "vftables": [
+   "0x14188fe70"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CGrabPe": {
+  "vftables": [
+   "0x141890298"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CDiskInfoWmiQuery": {
+  "vftables": [
+   "0x1418902f8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CBaseBoardInfoWmiQuery": {
+  "vftables": [
+   "0x141890308"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CCopyWinpe": {
+  "vftables": [
+   "0x141890c50"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CCopyWinpeWin7": {
+  "vftables": [
+   "0x141890d90"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CCopyWinpeWin8": {
+  "vftables": [
+   "0x141890ea0"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CFatVolumeAnalyze": {
+  "vftables": [
+   "0x141890ef0"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "IVolume": {
+  "vftables": [
+   "0x141890f20"
+  ],
+  "n_methods": 3,
+  "category": "Sink/Observer"
+ },
+ "CNtfsVolumeAnalyze": {
+  "vftables": [
+   "0x141890f50"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CZfsVolumeAnalyze": {
+  "vftables": [
+   "0x141890f80"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CReFSVolumeAnalyze": {
+  "vftables": [
+   "0x141890fb0"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "IDecompressor": {
+  "vftables": [
+   "0x1418911e0"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "clzmadecompressor": {
+  "vftables": [
+   "0x141891220"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "czlibdecompressor": {
+  "vftables": [
+   "0x141891268"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "CLZMACompressor": {
+  "vftables": [
+   "0x141891328",
+   "0x1418913c0",
+   "0x1418913e8"
+  ],
+  "n_methods": 21,
+  "category": "App other"
+ },
+ "ISequentialInStream": {
+  "vftables": [
+   "0x141891398"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "ISequentialOutStream": {
+  "vftables": [
+   "0x141891410"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "cbzip2decompressor": {
+  "vftables": [
+   "0x141891498"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "CMatchFinder": {
+  "vftables": [
+   "0x141891738",
+   "0x141891748",
+   "0x141891758",
+   "0x1418917d8",
+   "0x141891858",
+   "0x141891868",
+   "0x1418918e8",
+   "0x1418918f8",
+   "0x141891908",
+   "0x141891918",
+   "0x141891be8",
+   "0x141891c08"
+  ],
+  "n_methods": 68,
+  "category": "App other"
+ },
+ "IMatchFinderSetNumPasses": {
+  "vftables": [
+   "0x141891998"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CEncoder": {
+  "vftables": [
+   "0x1418919a8",
+   "0x1418919d0",
+   "0x141891a90",
+   "0x141891ac0"
+  ],
+  "n_methods": 18,
+  "category": "App other"
+ },
+ "IInWindowStream": {
+  "vftables": [
+   "0x141891a00"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "ICompressSetCoderProperties": {
+  "vftables": [
+   "0x141891a68"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "IMatchFinder": {
+  "vftables": [
+   "0x141891ae8"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "ICompressCoder": {
+  "vftables": [
+   "0x141891b68"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "ICompressSetOutStream": {
+  "vftables": [
+   "0x141891b90"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "ICompressWriteCoderProperties": {
+  "vftables": [
+   "0x141891bc0"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CLZInWindow": {
+  "vftables": [
+   "0x141891bf8"
+  ],
+  "n_methods": 1,
+  "category": "App Window/View"
+ },
+ "TiXmlComment": {
+  "vftables": [
+   "0x1418929b8"
+  ],
+  "n_methods": 17,
+  "category": "App other"
+ },
+ "TiXmlText": {
+  "vftables": [
+   "0x141892a48"
+  ],
+  "n_methods": 17,
+  "category": "App other"
+ },
+ "TiXmlUnknown": {
+  "vftables": [
+   "0x141892ad8"
+  ],
+  "n_methods": 17,
+  "category": "App other"
+ },
+ "TiXmlAttribute": {
+  "vftables": [
+   "0x141892b68"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "TiXmlNode": {
+  "vftables": [
+   "0x141892b88"
+  ],
+  "n_methods": 14,
+  "category": "Data/Node"
+ },
+ "TiXmlElement": {
+  "vftables": [
+   "0x141892c18"
+  ],
+  "n_methods": 17,
+  "category": "App other"
+ },
+ "TiXmlBase": {
+  "vftables": [
+   "0x141892ca8"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "TiXmlDeclaration": {
+  "vftables": [
+   "0x141892cc8"
+  ],
+  "n_methods": 18,
+  "category": "App other"
+ },
+ "AES_CBC256": {
+  "vftables": [
+   "0x141892ea8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CBtrfsFileProerties": {
+  "vftables": [
+   "0x141893378"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "CBtrfsVolumeAnalyzer": {
+  "vftables": [
+   "0x1418934c0"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CEvaluation": {
+  "vftables": [
+   "0x141893d30"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "IRSException": {
+  "vftables": [
+   "0x1418940c0"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CRSException": {
+  "vftables": [
+   "0x1418940d0"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CRSDataEx": {
+  "vftables": [
+   "0x1418940e0"
+  ],
+  "n_methods": 18,
+  "category": "App other"
+ },
+ "CRSData": {
+  "vftables": [
+   "0x141894188"
+  ],
+  "n_methods": 18,
+  "category": "Data/Node"
+ },
+ "IRSData": {
+  "vftables": [
+   "0x141894220"
+  ],
+  "n_methods": 2,
+  "category": "Data/Node"
+ },
+ "CNTFSFileRecordFileNameAttribute": {
+  "vftables": [
+   "0x1418942b0"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CNTFSFileRecordDataRunsAttribute": {
+  "vftables": [
+   "0x1418942c0"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "IDataRunList": {
+  "vftables": [
+   "0x1418942d0"
+  ],
+  "n_methods": 9,
+  "category": "Sink/Observer"
+ },
+ "CRefsResidentDataRunList": {
+  "vftables": [
+   "0x141894320"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CResidentNTFSDataRunList": {
+  "vftables": [
+   "0x141894370"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CNoneResidentNTFSDataRunList": {
+  "vftables": [
+   "0x1418943c0"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CStdFile": {
+  "vftables": [
+   "0x141894410"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CRecoveryIOBase": {
+  "vftables": [
+   "0x141894448"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CStdBuffer": {
+  "vftables": [
+   "0x1418944c0"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CNTFSFileProperties": {
+  "vftables": [
+   "0x1418944f8"
+  ],
+  "n_methods": 44,
+  "category": "App other"
+ },
+ "ThumbCacheFileProperties": {
+  "vftables": [
+   "0x1418946e8"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "ThumbCacheDataRunList": {
+  "vftables": [
+   "0x141894978"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CSimulateStorageDevice": {
+  "vftables": [
+   "0x141894c00"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "CloudIO": {
+  "vftables": [
+   "0x141894fd8"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "IFileReaderPrivate": {
+  "vftables": [
+   "0x141895010"
+  ],
+  "n_methods": 3,
+  "category": "Sink/Observer"
+ },
+ "FileReaderPrivate_ReadAll": {
+  "vftables": [
+   "0x141895030"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "BtrfsResidentFile": {
+  "vftables": [
+   "0x141895058"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "CompressFile": {
+  "vftables": [
+   "0x141895080"
+  ],
+  "n_methods": 4,
+  "category": "App other"
+ },
+ "ZfsFile": {
+  "vftables": [
+   "0x1418950a8"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "FileReaderPrivate_ReadSome": {
+  "vftables": [
+   "0x1418950f8"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CacheDeviceBufferObj": {
+  "vftables": [
+   "0x141895180"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CCacheDeviceProxy": {
+  "vftables": [
+   "0x141895190"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "CRaid5VolumeDevice": {
+  "vftables": [
+   "0x141895298"
+  ],
+  "n_methods": 33,
+  "category": "App other"
+ },
+ "IDynamicDevice": {
+  "vftables": [
+   "0x1418953a8"
+  ],
+  "n_methods": 24,
+  "category": "Sink/Observer"
+ },
+ "CMirrorVolumeDevice": {
+  "vftables": [
+   "0x1418954b8"
+  ],
+  "n_methods": 33,
+  "category": "App other"
+ },
+ "CStripedVolumeDevice": {
+  "vftables": [
+   "0x1418955c8"
+  ],
+  "n_methods": 33,
+  "category": "App other"
+ },
+ "CSimpleVolumeDevice": {
+  "vftables": [
+   "0x1418956d8"
+  ],
+  "n_methods": 33,
+  "category": "App other"
+ },
+ "CSpannedVolumeDevice": {
+  "vftables": [
+   "0x1418957e8"
+  ],
+  "n_methods": 33,
+  "category": "App other"
+ },
+ "CPartitionTableAnalyze": {
+  "vftables": [
+   "0x1418958f8"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CAuxiliaryBitmapMgr": {
+  "vftables": [
+   "0x141895938"
+  ],
+  "n_methods": 7,
+  "category": "Controller/Manager"
+ },
+ "IAuxiliaryBitmap": {
+  "vftables": [
+   "0x141895978"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CPolicyItemPDF": {
+  "vftables": [
+   "0x141895b38"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "IPolicyItemObj": {
+  "vftables": [
+   "0x141895b50"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CPolicyItemJPG": {
+  "vftables": [
+   "0x141895b68"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CPolicyItemZIP": {
+  "vftables": [
+   "0x141895b80"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CGenericRecoveryController": {
+  "vftables": [
+   "0x141895d68",
+   "0x141895d98",
+   "0x141895ed0"
+  ],
+  "n_methods": 37,
+  "category": "Controller/Manager"
+ },
+ "CGenericRecoveryProgress": {
+  "vftables": [
+   "0x141895ee0"
+  ],
+  "n_methods": 18,
+  "category": "App other"
+ },
+ "IRecoveryController": {
+  "vftables": [
+   "0x1418961a8"
+  ],
+  "n_methods": 15,
+  "category": "Controller/Manager"
+ },
+ "CRecycleBinRecoveryController": {
+  "vftables": [
+   "0x141896278"
+  ],
+  "n_methods": 25,
+  "category": "Controller/Manager"
+ },
+ "CDeletedRecoveryController": {
+  "vftables": [
+   "0x141896368"
+  ],
+  "n_methods": 25,
+  "category": "Controller/Manager"
+ },
+ "IQuickFileSystemSearchController": {
+  "vftables": [
+   "0x141896438"
+  ],
+  "n_methods": 13,
+  "category": "Controller/Manager"
+ },
+ "IFileSystemSearchController": {
+  "vftables": [
+   "0x1418964b8"
+  ],
+  "n_methods": 8,
+  "category": "Controller/Manager"
+ },
+ "CCloudRecoveryController": {
+  "vftables": [
+   "0x141896510"
+  ],
+  "n_methods": 25,
+  "category": "Controller/Manager"
+ },
+ "CloudSearchController": {
+  "vftables": [
+   "0x1418965e0"
+  ],
+  "n_methods": 15,
+  "category": "Controller/Manager"
+ },
+ "CCompleteRecoveryController": {
+  "vftables": [
+   "0x1418966b0",
+   "0x1418967b0",
+   "0x141896810"
+  ],
+  "n_methods": 37,
+  "category": "Controller/Manager"
+ },
+ "?$ListIterator": {
+  "vftables": [
+   "0x1418967e0"
+  ],
+  "n_methods": 5,
+  "category": "MSVC/STL template"
+ },
+ "IUIUserInfoObject": {
+  "vftables": [
+   "0x141896a38"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "?$IIterator": {
+  "vftables": [
+   "0x141896a68"
+  ],
+  "n_methods": 2,
+  "category": "MSVC/STL template"
+ },
+ "IRawDirectoryTreeBuilder": {
+  "vftables": [
+   "0x141896a98"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "CExFatFileProperties": {
+  "vftables": [
+   "0x141896bb8"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "CExFatVolumeAnalyer": {
+  "vftables": [
+   "0x141896d10"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "ICalcPartition": {
+  "vftables": [
+   "0x141896e48"
+  ],
+  "n_methods": 8,
+  "category": "Sink/Observer"
+ },
+ "ExFatCalcPartition": {
+  "vftables": [
+   "0x141896eb0"
+  ],
+  "n_methods": 12,
+  "category": "App other"
+ },
+ "CExFatDataRunList": {
+  "vftables": [
+   "0x141896f28"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CSearchedPartitionInfo": {
+  "vftables": [
+   "0x141896f80"
+  ],
+  "n_methods": 6,
+  "category": "Data/Node"
+ },
+ "CExFatPartition": {
+  "vftables": [
+   "0x141896fb8"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CEXT4FileProperties": {
+  "vftables": [
+   "0x141896ff8"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "CExt4VolumeAnalyze": {
+  "vftables": [
+   "0x141897140"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CFATFileProperties": {
+  "vftables": [
+   "0x141897198"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "CFAT32Table": {
+  "vftables": [
+   "0x141897310"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CFAT16Table": {
+  "vftables": [
+   "0x141897330"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "IRealFATTable": {
+  "vftables": [
+   "0x141897360"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CVHDDisk": {
+  "vftables": [
+   "0x1418973b8"
+  ],
+  "n_methods": 8,
+  "category": "App other"
+ },
+ "CVHDXDisk": {
+  "vftables": [
+   "0x141897400"
+  ],
+  "n_methods": 8,
+  "category": "App other"
+ },
+ "CImageFileDevice": {
+  "vftables": [
+   "0x141897448"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "CVolumeDevice": {
+  "vftables": [
+   "0x141897530"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "CCloudDevice": {
+  "vftables": [
+   "0x141897868"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "CRemoteDevice": {
+  "vftables": [
+   "0x141897978"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "ICameraAnalyser": {
+  "vftables": [
+   "0x141897e10"
+  ],
+  "n_methods": 5,
+  "category": "Sink/Observer"
+ },
+ "CameraMovAnalyzer": {
+  "vftables": [
+   "0x141897e40"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CameraJpegAnalyzer": {
+  "vftables": [
+   "0x141897eb0"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CameraRawAnalyzer": {
+  "vftables": [
+   "0x141897f00"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CStorageDeviceWithCache": {
+  "vftables": [
+   "0x141897fd8"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "VmdkDevice": {
+  "vftables": [
+   "0x1418980e0"
+  ],
+  "n_methods": 8,
+  "category": "App other"
+ },
+ "VmdkDisk": {
+  "vftables": [
+   "0x1418981b0"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "VmdkDiskImpl": {
+  "vftables": [
+   "0x1418981f0"
+  ],
+  "n_methods": 7,
+  "category": "App other"
+ },
+ "Vmdk": {
+  "vftables": [
+   "0x1418983a8"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "IDiskRead": {
+  "vftables": [
+   "0x1418983c8"
+  ],
+  "n_methods": 1,
+  "category": "Sink/Observer"
+ },
+ "IFile64": {
+  "vftables": [
+   "0x1418983e8"
+  ],
+  "n_methods": 3,
+  "category": "Sink/Observer"
+ },
+ "WinFile64": {
+  "vftables": [
+   "0x141898440"
+  ],
+  "n_methods": 10,
+  "category": "App other"
+ },
+ "HFSPlusFileDataRun": {
+  "vftables": [
+   "0x1418984e0"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CHFSPlusFileNode": {
+  "vftables": [
+   "0x141898530"
+  ],
+  "n_methods": 20,
+  "category": "Data/Node"
+ },
+ "HFSPlusSystemNodeProperties": {
+  "vftables": [
+   "0x1418985d8"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "HFSPlusFileProperties": {
+  "vftables": [
+   "0x141898720"
+  ],
+  "n_methods": 40,
+  "category": "App other"
+ },
+ "HfsPlusVolumeAnalyer": {
+  "vftables": [
+   "0x141898868"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "IFileReader": {
+  "vftables": [
+   "0x141898898"
+  ],
+  "n_methods": 2,
+  "category": "Sink/Observer"
+ },
+ "CHFSPlusCompressFileReader": {
+  "vftables": [
+   "0x1418988c8"
+  ],
+  "n_methods": 5,
+  "category": "App other"
+ },
+ "CHFSPlusExtents": {
+  "vftables": [
+   "0x141898b30"
+  ],
+  "n_methods": 10,
+  "category": "App other"
+ },
+ "CHFSPlusRawfile": {
+  "vftables": [
+   "0x141898d68"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CHFSPlusAttribute": {
+  "vftables": [
+   "0x141898e78"
+  ],
+  "n_methods": 10,
+  "category": "App other"
+ },
+ "CHFSPlusFileCache": {
+  "vftables": [
+   "0x141898f98"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CHFSPlusCatalog": {
+  "vftables": [
+   "0x1418990d8"
+  ],
+  "n_methods": 10,
+  "category": "App other"
+ },
+ "IHFSPlusBTreeOption": {
+  "vftables": [
+   "0x141899428"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CHFSPlusBTreeOptionBase": {
+  "vftables": [
+   "0x141899478"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "RefsFileProperties": {
+  "vftables": [
+   "0x1418995a8"
+  ],
+  "n_methods": 45,
+  "category": "App other"
+ },
+ "RefsDbrImpl": {
+  "vftables": [
+   "0x141899718"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "?$RefsBaseDataImplManager": {
+  "vftables": [
+   "0x141899728"
+  ],
+  "n_methods": 1,
+  "category": "MSVC/STL template"
+ },
+ "RefsDbr": {
+  "vftables": [
+   "0x141899738"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "RefsBaseDataImpl": {
+  "vftables": [
+   "0x141899748"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "CImageFileDeviceWithDecompress": {
+  "vftables": [
+   "0x141899760"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "CImageFile": {
+  "vftables": [
+   "0x141899868"
+  ],
+  "n_methods": 1,
+  "category": "App other"
+ },
+ "ICloudSearchController": {
+  "vftables": [
+   "0x141899878"
+  ],
+  "n_methods": 15,
+  "category": "Controller/Manager"
+ },
+ "logic_error": {
+  "vftables": [
+   "0x1418998f8"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "future_error": {
+  "vftables": [
+   "0x141899920"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "ICHKRepairObject": {
+  "vftables": [
+   "0x141899938"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CHKRepairFileSign": {
+  "vftables": [
+   "0x141899958"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CHKTSAnalyze": {
+  "vftables": [
+   "0x141899a60"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CHKTifAnalyze": {
+  "vftables": [
+   "0x141899a80"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CHKRepairAdapterMgr": {
+  "vftables": [
+   "0x141899aa0"
+  ],
+  "n_methods": 1,
+  "category": "Controller/Manager"
+ },
+ "CHKOfficeD0CF11E0A1B11AE1": {
+  "vftables": [
+   "0x141899b60"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CHKOffice504B0304": {
+  "vftables": [
+   "0x141899b80"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CHKPERepair": {
+  "vftables": [
+   "0x141899c80"
+  ],
+  "n_methods": 3,
+  "category": "App other"
+ },
+ "CUserRaid": {
+  "vftables": [
+   "0x141899d90"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CRaid5": {
+  "vftables": [
+   "0x141899dc8"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "IRaid": {
+  "vftables": [
+   "0x141899e18"
+  ],
+  "n_methods": 5,
+  "category": "Sink/Observer"
+ },
+ "CRaid0": {
+  "vftables": [
+   "0x141899e60"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CRaid10": {
+  "vftables": [
+   "0x141899eb0"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CRaidJbod": {
+  "vftables": [
+   "0x141899f00"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CRaid1": {
+  "vftables": [
+   "0x141899f50"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CRaid6": {
+  "vftables": [
+   "0x141899fa0"
+  ],
+  "n_methods": 9,
+  "category": "App other"
+ },
+ "CRaid1Impl": {
+  "vftables": [
+   "0x141899ff0"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CRaid6Impl": {
+  "vftables": [
+   "0x14189a028"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CRaid5Impl": {
+  "vftables": [
+   "0x14189a060"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CRaid10Impl": {
+  "vftables": [
+   "0x14189a098"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CRaidJbodImpl": {
+  "vftables": [
+   "0x14189a0d0"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CRaid0Impl": {
+  "vftables": [
+   "0x14189a108"
+  ],
+  "n_methods": 6,
+  "category": "App other"
+ },
+ "CLVMSimpleDevice": {
+  "vftables": [
+   "0x14189a180"
+  ],
+  "n_methods": 28,
+  "category": "App other"
+ },
+ "GroupValue": {
+  "vftables": [
+   "0x14189a330"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "NumberValue": {
+  "vftables": [
+   "0x14189a348"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "StringValue": {
+  "vftables": [
+   "0x14189a360"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "ValueBase": {
+  "vftables": [
+   "0x14189a378"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "ArrayValue": {
+  "vftables": [
+   "0x14189a390"
+  ],
+  "n_methods": 2,
+  "category": "App other"
+ },
+ "CBtrfsQuickTreeBuilder": {
+  "vftables": [
+   "0x14189a3a8"
+  ],
+  "n_methods": 26,
+  "category": "App other"
+ },
+ "IDirecotryTreeBuilder": {
+  "vftables": [
+   "0x14189a8e8"
+  ],
+  "n_methods": 8,
+  "category": "Sink/Observer"
+ },
+ "CDirectoryTreeBuilder": {
+  "vftables": [
+   "0x14189a9c0"
+  ],
+  "n_methods": 26,
+  "category": "App other"
+ },
+ "CPartitionVirtualVolumeDevice": {
+  "vftables": [
+   "0x14189ab00"
+  ],
+  "n_methods": 30,
+  "category": "App other"
+ },
+ "CSearchedNTFSPartitionInfo": {
+  "vftables": [
+   "0x14189abf8"
+  ],
+  "n_methods": 6,
+  "category": "Data/Node"
+ }
+}

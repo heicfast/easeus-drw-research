@@ -11,7 +11,7 @@
 | Wizard core | `DrwMainViewManagerWizard` **= QStackedWidget** with 4 top-level pages | ctor decode (artifact 04) |
 | Styling | QSS `style.css` (20,802 lines) + **118-slot dual palette** (`themdark.ini`) + theme RCC bundles (light/dark, ~7,400 assets) | artifact 05 |
 | Text | English-hardcoded literals wrapped in `QObject::tr`; 25 `.qm` language files (1,556 strings each) | artifact 02 |
-| Companion UIs | DiskHealth (Qt Quick, 54 QML components); PartitionRecovery UILogic (MOM objects); EUinApp purchase host (embedded web) | artifacts 01 §6, 13 §7 |
+| Companion UIs | DiskHealth (Qt Quick, 54 QML components); PartitionRecovery UILogic (MOM objects); embedded-IE purchase webviews inside DRWUI (`InnerWebWindow`/`ChinaMainlandbuyIeWnd` — the shipped `EUinApp.exe` is an orphaned IE-emulation registry helper, artifact 23) | artifacts 01 §6, 13 §7, 23 |
 | Analytics | 195 telemetry events covering every click/funnel stage | artifact 06 |
 
 ## 2. The user journey (one screen at a time)
@@ -70,10 +70,28 @@ Raw evidence: `re-workspace/reversed/ui-resources/` (extracted themes, translati
 
 ## 7. Open items (next sessions)
 
-- Decode the remaining large moc dispatchers (`ArchivePreviewView` 96, `CClassifyLeftTreeView` 97, `CListHeaderView` 96) at slot level.
-- QSS full property census per objectName (20,802 lines — section-by-section).
-- Dynamic confirmation via Wine screenshot run of DRWUI (visual ground-truthing of the decoded flows).
-- EUinApp purchase-host page-flow RE (out-of-scope this session).
+- ~~Decode the remaining large moc dispatchers~~ — **RESOLVED (session 4, artifacts 20+22)** with a
+  **premise correction**: "96/97" were vtable sizes, not moc slot counts. Actual own-method counts:
+  ArchivePreviewView 0 (forward-only), CClassifyLeftTreeView 0 (override-only subclass),
+  CLeftTreeView 47, CListHeaderView 5, CClassifyListHeaderView 1. The true largest dispatcher is
+  **CRightContent (82 methods)** — decoded in artifact 22 §4.
+- ~~QSS full property census per objectName~~ — **RESOLVED (artifact 21)**: 2,805 rules / 11,929
+  declarations / 1,677 targets / 777 image assets; section map, color/state/widget censuses.
+- Dynamic confirmation via Wine/Windows screenshot run of DRWUI — **in progress** (parallel session
+  owns the redesigned workflows: Windows-native + Wine loader/direct matrix; 4 runs dispatched,
+  iterating on failures — DRWUI exits early after Firebase Remote-Config init under Wine, so
+  captures are staged early).
+- ~~EUinApp purchase-host page-flow RE~~ — **RESOLVED with role correction (artifact 23)**:
+  EUinApp is not a host — it is the shared-library `EUSetWebCtrlIEVersion` registry bootstrapper
+  (HKCU FEATURE_BROWSER_EMULATION = 9000/10000/11000 by IE version), and it is **orphaned** in
+  this build (zero references corpus-wide, ASCII+UTF-16). Purchase webviews live inside DRWUI's
+  own embedded-IE windows.
+- DRWUI RTTI class-by-class depth (980 classes) — **RESOLVED (artifact 22)**: full census with
+  categories, vftables, method counts, and the Qt inheritance spine for 395 classes
+  (QFrame 147 / QDialog 58 / QThread 42 / …), plus the moc-surface leaderboard.
+- Remaining: decode the mid-size dispatchers (CFilterButton family, repair item rows);
+  PreviewDataSource/SearchDataSource non-Qt hierarchies; QSS-target ↔ class objectName closure
+  (1,677 ↔ 900).
 
 ## 8. Second-wave additions (artifacts 14–17)
 
@@ -108,3 +126,28 @@ insertions to init `FUN_1408351a0`; in fact the first three pages are inserted t
 while the CDetailPage construction + `insertWidget(3)` happens in the follow-up init
 `FUN_140835910` (called from the same setup path). The page order, indices, and landing
 view are exactly as documented — only the containing function for page 3 differs.
+
+## 11. Fourth wave — moc surface, QSS census, class census, EUinApp (session 4)
+
+- **20 — Moc surface + Sink architecture**: premise correction (vtable size ≠ moc slots);
+  CLeftTreeView's 47-method dispatcher fully decoded (13 signals + 34 slots, stringdata-validated);
+  CClassifyLeftTreeView/ArchivePreviewView = override-only specializations (`IsTypeTree()`
+  polymorphism); **CUISink** app-lifetime event hub + the 13-class Sink/observer family;
+  the coordinated Freeze/Unfreeze UI protocol; async expand-on-scroll (QThread @ TimeCriticalPriority,
+  1 s debounce).
+- **21 — QSS property census**: 2,805 rules / 11,929 declarations / 1,677 targets / 777 image
+  assets; 30-section map (DENGFEI/PENGJUN attribution, 53% unattributed modern growth); interaction
+  state census (hover 224 / pressed 195 / disabled 147 + attr-states); 5-step blue tint ladder;
+  Apower vestige dialogs; layout-in-QSS architecture finding (36% of declarations are geometry).
+- **22 — RTTI class census**: all 980 classes categorized (900 app classes); Qt inheritance spine
+  for 395 classes (QFrame 147 / QDialog 58 / QThread 42 / QPushButton 34); moc-surface leaderboard
+  — **CRightContent 82 methods decoded** (the right-pane control hub: 24-signal contract incl.
+  `sigAiRecommedBtnEnter`, `retranslate`, no-result states); 58-dialog census; 93 text-bearing
+  classes.
+- **23 — EUinApp decoded**: the "purchase host" is actually `EUSetWebCtrlIEVersion` — a
+  FEATURE_BROWSER_EMULATION registry bootstrapper (IE9/10→matching, else 11000), **orphaned** in
+  this build (zero references, ASCII+UTF-16, corpus-wide); purchase webviews live inside DRWUI's
+  embedded-IE windows (artifacts 13 §7 / 17 corrections recorded).
+- New tooling: `scripts/{moc_slot_decoder,moc_stringdata_extract,qss_property_census,rtti_class_census}.py`
+  (all validated against CDetailPage ground truth); raw evidence:
+  `re-workspace/reversed/ui-resources/{moc_slot_decodes,moc_stringdata,qss_property_census,rtti_class_census}.json`.

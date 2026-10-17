@@ -151,3 +151,11 @@ The main window's size is not set with literals — it is restored from `QSettin
 `ActivateViewProxy`, `AutoRecoverDataSource` (65), `CFileRepairPreviewCtl`, `WindowAttributeProxy`, `CAutoRecoverMgr` (11), `CHKRepairAdapterMgr` (HK partition-repair bridging), `CPolicyItemJPG` (RAW JPG policy items), `CThemeMenuItem`, `CDoScan*` strategies, `CRecoverFinishBuyDlg`, `CCompleteRecoveryController` (37) / `CDeletedRecoveryController` (25) / `CGenericRecoveryController` (37) — the recovery controllers shared with the engine layer.
 
 Cross-links: artifact 04 (how these windows connect into a flow), 05 (dialog inventory + telemetry), 07–12 (phase deep dives), `per-binary/DRWUI.md` (census), `DRWUI-exe--main-ui-architecture.md` (earlier RTTI-based overview — superseded in precision by this artifact).
+
+## Addendum (session 4 correction)
+
+The "980 vtable classes" table above counts **vtable entries**, not moc methods. Session 4's
+census (`rtti_class_census.json`, artifact 22) shows: 900 app classes; the 96/97-entry trees
+(ArchivePreviewView, LostLeftTreeView, CClassifyLeftTreeView) carry **0 own moc methods** — they
+are virtual-override specializations (CClassifyLeftTreeView extends CLeftTreeView, switched by
+`IsTypeTree()`); the real dispatcher is CLeftTreeView (47 methods). See artifact 20 §1/§9.

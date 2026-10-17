@@ -82,3 +82,10 @@
 - External viewers (`EUOfficeViewer.exe`, `PDFViewer.exe`, `EUHwpViewer.exe`, `VideoViewer/`) — out-of-process preview renderers launched per file type (scope-excluded per brief; census in per-binary artifacts).
 
 Cross-links: artifacts 04, 08, 09, 11; engine artifacts (SearchDLL family, PartitionRecovery, FileRepair); licensing-chain artifact.
+
+## Addendum (session 4 correction — EUinApp)
+
+§7's "EUinApp.exe — in-app purchase host" is corrected by artifact 23: EUinApp is the
+shared-library `EUSetWebCtrlIEVersion` registry bootstrapper (HKCU FEATURE_BROWSER_EMULATION),
+**orphaned** in this build (zero references corpus-wide). The purchase webviews are hosted inside
+DRWUI's own `InnerWebWindow`/`ChinaMainlandbuyIeWnd` embedded-IE windows.

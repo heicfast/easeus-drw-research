@@ -33,3 +33,9 @@ Copy intensity escalates by stage: neutral coaching during scan ("We highly reco
 32 ad assets (bg + 4 CTA icon families + 3 buy-hover variants), gift/ promo art, 162 evaluate assets (star states ×5, comment bubbles, submit states) — the complete visual kit for the surfaces above (extraction: `re-workspace/reversed/ui-resources/drw_{light,dark}/Resource/{Ad,gift,Evaluate}/`).
 
 Cross-links: artifact 11 (recovery funnel detail), 06 (telemetry census), 02 (string sources), licensing-chain artifact (activation infrastructure).
+
+## Addendum (session 4 correction — EUinApp)
+
+The revenue-row "EUinApp.exe host" is a mislabel (artifact 23): EUinApp is an orphaned
+IE-emulation registry helper; the in-app web checkout runs in DRWUI's embedded-IE windows
+(`InnerWebWindow`/`ChinaMainlandbuyIeWnd`).

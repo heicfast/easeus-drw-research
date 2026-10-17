@@ -64,3 +64,10 @@ Tree icons per partition state: `leftree_ico_root_*` family (existing/lost/lock/
 - Selection state is checkpointed via `sigGetRightIndex(int&,int&)` by-reference queries; splitter position persisted (`splitterMoved` → `OnResizeSplitterSize`).
 
 Cross-links: artifact 03 §6 (class census), 08 (scan that fills this page), 10 (preview from here), 11 (recovery from selection), SearchDLL/PartitionRecovery artifacts (where the data comes from).
+
+## Addendum (session 4 correction)
+
+§3's "CClassifyLeftTreeView (+Controller/ViewModel) — the Type tree": the Type/Path duality is
+virtual dispatch on `IsTypeTree()` (CLeftTreeView vs its override-only subclass), not a separate
+class contract — see artifact 20 §1/§9. The right-pane switchboard behind this page is
+CRightContent (82 moc methods, artifact 22 §4).
