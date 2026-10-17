@@ -221,3 +221,14 @@ entry; the 107 widget-kind-only objectNames can gain owners via deeper enclosing
   sigScanFinished(iScanTypeChanged,iScanType) = the telemetry-anchored bottomarea.cpp:838/856
   emitter; Auto-Recover show/do slots decoded with state-property choreography; the moving
   Buy-guide window family; slotLostPartitonBegin).
+
+## 13. Sixth wave — screenshot atlas, redesign reference, menu/dialog decodes (session 6)
+
+Session 6 delivered the **complete visual capture campaign** for a from-scratch UI rebuild:
+
+- **Artifact 35 (Redesign Reference Atlas)** — the single self-contained rebuild reference: window constants/tokens, title-bar icon strip (8 elements pixel-verified at y≈20), AI assistant panel (4 options + auto-open timing), Drw_More_Menu inventory (16 items w/ action IDs + Theme/DPI submenus), landing full map (sidebar 6 rows + 5 tiles + CTA), scan-phase controls (gauge/pause/stop), results toolbar/filter bar, context menu (6 full-label items + geometry), filter dropdown contents (static), destination dialog internals, retention gates, preview surfaces, **14 dynamically-proven interaction rules**.
+- **ui-screenshots library** (`raw-evidence/ui-screenshots/`, 47+ organized shots across 7 areas) + `ui-screenshot-atlas.yml` CI workflow (3 variants, 5 iterations of driver hardening).
+- **Dynamic captures**: solution wizard 1/3→3/3, CEnterLicenceDlg (activate dialog), destination-dialog internals (Local/Cloud tabs, rows, Choose-folder picker, Enable-file-repair toggle, Save), **insufficient-space gate**, retention gates ×3 trigger paths, paused/resumed/stop-confirm scan states, context menu ×3 geometries.
+- **Driver engineering lessons (all dynamic proofs)**: PowerShell `AC` alias collision (Add-Content shadowing), ESC-rejection by custom dialogs, double-ESC = exit-retention trigger, AI-panel web options spawn Edge, spontaneous window minimize (−32000) → SW_RESTORE resilience, context-menu Recover-on-huge-set → retention.
+- **objectName loop v3**: UTF-16LE xrefs + QSS-selector context → 1,547/1,710 = 90.4% attribution (326 owners).
+- Static decodes: filter menu option sets (Type/Date/Size/toggles/Custom suffix entry), destination-dialog UX strings (overwrite/space/cloud gates), PreviewMainDialog exec-flow (Freeze→exec→Unfreeze), icon-view item anatomy (7 QSS elements + grid metrics), title-bar button family (27 objectNames).
