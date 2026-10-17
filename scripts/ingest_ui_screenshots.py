@@ -79,6 +79,21 @@ MANIFEST = [
      'EXIT-RETENTION GATE (2nd ESC from results = exit attempt): "Wait! You are at risk of losing data!" + Get-Up-to-40%-Off / Online-Service / Quit'),
     ('/tmp/atlas-landing2/shot_02_ai_opt1_nofind.png', '02-landing', 'landing-ai-opt1-solution-wizard.png',
      'AI option 1 solution wizard (alt copy)'),
+    # ---- round-3 atlas captures (wizard walk + context menu geometry) ----
+    ('/tmp/atlas-landing3/shot_02_ai_opt1_nofind.png', '02-landing', 'landing-solution-wizard-1of3.png',
+     'Solution wizard step 1/3: "Solution 1: Refresh drives." (blue callout modal)'),
+    ('/tmp/atlas-landing3/shot_02b_solution2of3.png', '02-landing', 'landing-solution-wizard-2of3.png',
+     'Solution wizard step 2/3 (Next walked)'),
+    ('/tmp/atlas-landing3/shot_02c_solution3of3.png', '02-landing', 'landing-solution-wizard-3of3.png',
+     'Solution wizard step 3/3'),
+    ('/tmp/atlas-landing3/shot_02d_solution_closed.png', '02-landing', 'landing-solution-wizard-closed.png',
+     'After wizard close (Next x3) - back to landing state'),
+    ('/tmp/atlas-results3/shot_21_context_menu.png', '05-results', 'results-context-menu-open-v2.png',
+     'Context menu on app: 6 items, panel x 300-734 y 375-636, items 43.5px (Preview = item 2 center (517,440))'),
+    ('/tmp/atlas-results3/shot_20_results_baseline.png', '05-results', 'results-baseline-v2.png',
+     'Results baseline (round-3 run)'),
+    ('/tmp/atlas-results3/shot_10_complete_modal.png', '04-scan-complete', 'complete-celebration-modal-v2.png',
+     'Celebration modal (round-3 run)'),
 ]
 
 def main():

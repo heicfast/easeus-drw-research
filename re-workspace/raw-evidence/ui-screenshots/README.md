@@ -15,6 +15,10 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `landing-ai-assistant-panel.png` — AI assistant panel open: "Hi! Guess you need:" + 4 options (robot avatar toggle)
 - `landing-ai-opt1-solution-wizard-1of3.png` — AI option 1 -> "Unable to find your hard drive?" 3-step solution wizard, step 1/3 (Refresh drives)
 - `landing-ai-opt1-solution-wizard.png` — AI option 1 solution wizard (alt copy)
+- `landing-solution-wizard-1of3.png` — Solution wizard step 1/3: "Solution 1: Refresh drives." (blue callout modal)
+- `landing-solution-wizard-2of3.png` — Solution wizard step 2/3 (Next walked)
+- `landing-solution-wizard-3of3.png` — Solution wizard step 3/3
+- `landing-solution-wizard-closed.png` — After wizard close (Next x3) - back to landing state
 
 ## 03-scan-phase
 
@@ -29,6 +33,7 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 ## 04-scan-complete
 
 - `complete-celebration-modal.png` — Scan-complete celebration: standalone 540x380 OS window with stats grid + Go to Recover CTA
+- `complete-celebration-modal-v2.png` — Celebration modal (round-3 run)
 
 ## 05-results
 
@@ -39,6 +44,8 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `results-row-selected.png` — Row selected: checkbox fill, details pane update, Recover button becomes contextual
 - `results-context-menu-open.png` — RIGHT-CLICK context menu (CShowContextMenu): Recover / Preview / Open file location / Select unrecovered files / Smart select best files / Clear selection
 - `results-row-selected-gate-dismissed.png` — Row selected after retention gate dismissed (search-click hit gate X)
+- `results-context-menu-open-v2.png` — Context menu on app: 6 items, panel x 300-734 y 375-636, items 43.5px (Preview = item 2 center (517,440))
+- `results-baseline-v2.png` — Results baseline (round-3 run)
 
 ## 06-preview
 
