@@ -1,0 +1,90 @@
+wine: created the configuration directory '/home/runner/.wine32prefix'
+002c:fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
+004c:fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
+0054:fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
+0054:err:ole:StdMarshalImpl_MarshalInterface Failed to create ifstub, hr 0x80004002
+0054:err:ole:CoMarshalInterface Failed to marshal the interface {6d5140c1-7436-11ce-8034-00aa006009fa}, hr 0x80004002
+0054:err:ole:apartment_get_local_server_stream Failed: 0x80004002
+0054:err:ole:start_rpcss Failed to open RpcSs service
+004c:err:ole:StdMarshalImpl_MarshalInterface Failed to create ifstub, hr 0x80004002
+004c:err:ole:CoMarshalInterface Failed to marshal the interface {6d5140c1-7436-11ce-8034-00aa006009fa}, hr 0x80004002
+004c:err:ole:apartment_get_local_server_stream Failed: 0x80004002
+00e0:fixme:msg:pack_message msg 14 (WM_ERASEBKGND) not supported yet
+0108:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0108:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0108:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0108:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+wine: configuration in L"/home/runner/.wine32prefix" has been updated.
+0140:err:winediag:ntlm_check_version ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+0140:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0148:err:winediag:ntlm_check_version ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+0148:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0140:fixme:ver:GetCurrentPackageId (00007FFFFE1FFEE0 0000000000000000): stub
+0148:fixme:msg:ChangeWindowMessageFilter 233 00000001
+0148:fixme:msg:ChangeWindowMessageFilter 4a 00000001
+0148:fixme:msg:ChangeWindowMessageFilter 49 00000001
+0154:err:winediag:ntlm_check_version ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+0154:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0148:fixme:win:RegisterPowerSettingNotification (0000000000050050,{02731015-4510-4526-99e6-e5a17ebd1aea},0): stub
+0154:fixme:urlmon:InternetBindInfo_GetBindString not supported string type 20
+007c:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0148:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+0148:fixme:wbemprox:wbem_locator_ConnectServer unsupported flags
+0148:fixme:wbemprox:client_security_SetBlanket 00006FFFF4750E80, 00007FFFFF320A60, 10, 0, (null), 3, 3, 0000000000000000, 0
+0148:fixme:wbemprox:client_security_Release 00006FFFF4750E80
+0148:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+0148:fixme:wbemprox:wbem_locator_ConnectServer unsupported flags
+0148:fixme:wbemprox:client_security_SetBlanket 00006FFFF4750E80, 00007FFFFF320A60, 10, 0, (null), 3, 3, 0000000000000000, 0
+0148:fixme:wbemprox:client_security_Release 00006FFFF4750E80
+0178:err:winediag:ntlm_check_version ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+0178:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0148:fixme:d3d:wined3d_guess_card No card selector available for card vendor 0000 (using GL_RENDERER "llvmpipe (LLVM 20.1.2, 256 bits)").
+0148:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0148:fixme:system:EnableNonClientDpiScaling (000000000004008C): stub
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+007c:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+007c:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+007c:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+007c:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+007c:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+0148:fixme:system:EnableNonClientDpiScaling (000000000002009E): stub
+0148:fixme:system:EnableNonClientDpiScaling (0000000000020098): stub
+0148:fixme:system:EnableNonClientDpiScaling (0000000000060082): stub
+0148:fixme:system:EnableNonClientDpiScaling (0000000000050086): stub
+0148:fixme:system:EnableNonClientDpiScaling (0000000000040090): stub
+0148:fixme:wbemprox:client_security_SetBlanket 00006FFFF4750E80, 00007F1C2C6ECE00, 10, 0, (null), 3, 3, 0000000000000000, 0
+0148:fixme:wbemprox:client_security_Release 00006FFFF4750E80
+0148:fixme:wbemprox:client_security_SetBlanket 00006FFFF4750E80, 00007F1C2C6ECEC0, 10, 0, (null), 3, 3, 0000000000000000, 0
+0148:fixme:wbemprox:client_security_Release 00006FFFF4750E80
+01b8:err:ole:com_get_class_object apartment not initialised
+01b8:err:ole:com_get_class_object apartment not initialised
+01c4:err:ole:com_get_class_object class {c72be2ec-8e90-452c-b29a-ab8ff1c071fc} not registered
+01c4:err:ole:com_get_class_object class {c72be2ec-8e90-452c-b29a-ab8ff1c071fc} not registered
+0148:fixme:system:EnableNonClientDpiScaling (000000000003009E): stub
+01d0:fixme:fsutil:wmain unsupported command L"behavior"
+01dc:fixme:fsutil:wmain unsupported command L"behavior"
+007c:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+007c:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+007c:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+01c4:err:ole:create_server class {c72be2ec-8e90-452c-b29a-ab8ff1c071fc} not registered
+01c4:fixme:ole:com_get_class_object CLSCTX_REMOTE_SERVER not supported
+01c4:err:ole:com_get_class_object no class object {c72be2ec-8e90-452c-b29a-ab8ff1c071fc} could be created for context 0x17
+007c:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 7405c (device=7 access=1 func=17 method=0)
+007c:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 4d004 (device=4 access=3 func=401 method=0)
+007c:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 4d004 (device=4 access=3 func=401 method=0)
+007c:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+007c:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 70048 (device=7 access=0 func=12 method=0)
+01c4:err:ole:com_get_class_object class {c72be2ec-8e90-452c-b29a-ab8ff1c071fc} not registered
+01c4:err:ole:com_get_class_object class {c72be2ec-8e90-452c-b29a-ab8ff1c071fc} not registered
+022c:fixme:netsh:wmain stub: L"netsh" L"advfirewall" L"firewall" L"set" L"rule" L"group=Network Discovery" L"new" L"enable=Yes"
+01c4:err:ole:create_server class {c72be2ec-8e90-452c-b29a-ab8ff1c071fc} not registered
+01c4:fixme:ole:com_get_class_object CLSCTX_REMOTE_SERVER not supported
+01c4:err:ole:com_get_class_object no class object {c72be2ec-8e90-452c-b29a-ab8ff1c071fc} could be created for context 0x17
+023c:fixme:netsh:wmain stub: L"netsh" L"advfirewall" L"firewall" L"set" L"rule" L"group=\00cd\00f8\00c2\00e7\00b7\00a2\00cf\00d6" L"new" L"enable=Yes"
+01bc:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+01bc:fixme:wbemprox:client_security_SetBlanket 00006FFFF4750E80, 00007F1C0FFCD520, 10, 0, (null), 3, 3, 0000000000000000, 0
+01bc:fixme:wbemprox:client_security_Release 00006FFFF4750E80
+01bc:fixme:wbemprox:client_security_SetBlanket 00006FFFF4750E80, 00007F1C0C6AB9C0, 4294967295, 4294967295, L"<COLE_DEFAULT_PRINCIPAL>", 6, 3, 0000000000000000, 0
+01bc:fixme:wbemprox:client_security_Release 00006FFFF4750E80
+01bc:err:ole:create_server class {9c38ed61-d565-4728-aeee-c80952f0ecde} not registered
+01bc:err:ole:com_get_class_object no class object {9c38ed61-d565-4728-aeee-c80952f0ecde} could be created for context 0x4

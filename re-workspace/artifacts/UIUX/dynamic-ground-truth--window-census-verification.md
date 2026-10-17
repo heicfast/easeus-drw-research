@@ -71,6 +71,12 @@ t=20-90s STABLE — landing page + persistent modal (no user input available)
 
 The 4 text widgets' final positions (y=185, x=128–225, widths 170–365) match a multi-line left-aligned text block — the landing-page hero copy ("Recover lost data..." title + subtitle + link rows) per UIUX artifact 07.
 
+> **v3 CORRECTION (supersedes two inferences below)**: the 640x480 window is the
+> **CStartWindow splash** ("Reading the disk information, please wait…" — screenshot-verified,
+> see `dynamic-ground-truth--splash-captured.md`), not a modal dialog; and the 4 text widgets
+> are the splash title/status labels, not home-page hero texts. The landing page never appears
+> under Wine because disk enumeration never completes. Census data itself unchanged.
+
 ## 5. Open items
 
 - Screenshot capture failed silently in v3 (`import` + `xwd` both, errors suppressed) — v4 dispatched with visible errors + per-window capture (`import -window 0x800014`)
