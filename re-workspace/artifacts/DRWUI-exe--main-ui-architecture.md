@@ -193,3 +193,95 @@ This is the contract DRWUI holds against `EUCreate<FS>Searcher` factories in the
 - Interface families cross-checked against NTFSSearchDLL RTTI + exports (EUCreate factories).
 - Pending: Ghidra decompilation of DRWUI (30MB) — will confirm call graphs; conclusions above
   are structural (RTTI + strings + imports), not speculative.
+
+---
+
+## 9. DECOMPILED CONFIRMATIONS (Ghidra, 119,182 functions / 2.38M lines — added after CI batch)
+
+### 9.1 Embedded source tree (55 trace calls carry `__FILE__`/`__FUNCTION__` strings)
+
+DRWUI's trace macro emits source file/function names. Extracted internal structure:
+
+**DRWIntelligentScan library (statically linked INTO DRWUI):**
+| Source path | Meaning |
+|---|---|
+| `drwintelligentscan\recoverycontroller\genericrecoverycontroller.cpp` | `CGenericRecoveryController` — scan orchestration ("Insert lost partition %s, %d, StartSector=%I64d, TotalSector=%I64d") |
+| `drwintelligentscan\filerecover\filerecover.cpp` | the file-recovery engine core |
+| `drwintelligentscan\hfspluslib\{attribute,btree,btreeoption,catalog,extents,journal,rawfile,volume}.cpp` | FULL HFS+ implementation inside DRWUI (parallel to HFSPlusSearchDLL.dll) |
+| `drwintelligentscan\cloudsearch\cloud.cpp` | cloud scan logic |
+| `drwintelligentscan\storagedevicemodule\cremotedevice.cpp` | `CRemoteDevice` (NAS connect/retry) |
+| `drwintelligentscan\uicontroller\eushare\{eushare,fileio,mrxioctl}.cpp` | **EuShare user-mode controller — the \\.\EuRdrDN client!** |
+| `drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp` | scan-type/status UI |
+
+**EuPEMaker (WinPE bootable-media builder, ~20 files):** copywinpe{,_win7,_win8}, dosdevice,
+extractmanifest, genwow64, grabdriver, grabpe{,3,4,check}, makeiso, makepe{,3,4},
+ntsecurity, osversion, pecommon, pemaker, pewow64, regio, wow64fsredirection + `pe_uilogic\peuilogic.cpp`.
+
+**External:** `h:\awork\euactiveonline3.1\source\euactiveonline\euactiveonline.cpp` (activation lib).
+
+**Function-name traces (selected):** `CEnumNasDevice::{Connect,CreateRemoteDevice}`,
+`CRemoteDevice::Connect` ("Retry NAS Connect"), `EnumCollectPartition::{EnumDevice,EnumDiskDevice,RemoveCache}`
+("Enum disk begin/end"), `CRecoveryMgr::{initDataSource,ExportThread,doCancelRecovery}`
+("RecoveryCnt:%d RecoveryFileSize:%I64d"), `SearchDataSource::OnCheckNode`,
+`VAPreviewListener::{RecvThumbnailBmpData,SyncWait4DataBack}` (socket IPC to preview helper —
+"failed got socket", "failed send data to peer"), `OfficePreviewStub::OnOpenViewerThreadPro`,
+`FileRepairGeneralRealize::terminal_process_tree`, `ApowersoftSDK::doGetWXSDKURL` (WeChat SDK),
+`COnlineConfigFirebase::init`, `CChinaUser::Check` ("ChinaIPOK!"), `CVersionCtrl::doCheckUpdate`,
+`CameraDeviceManager::*` (camera/peripheral device class).
+
+### 9.2 Engine plugin contract — DECOMPILED (the exact code)
+
+**Module loader** `FUN_14056c0d0` — LoadLibraryW's 10 engines into a global table:
+RAW/FAT/exFAT/Ext2/EXT4/NTFS/HFSPlus/ReFS/Btrfs/Zfs SearchDLL.dll (handles at `DAT_1425e6d30..78`).
+
+**FS-type → factory mapping** `FUN_140577d40` (Quick scan):
+| FS code | Factory |
+|---|---|
+| 0,1,2 | EUCreateFATQuickSearcher |
+| 3 | EUCreateNTFSQuickSearcher |
+| 4,5 | EUCreateEXT2QuickSearcher |
+| 7 | EUCreateEXFATQuickSearcher |
+| 8 | EUCreateHFSQuickSearcher |
+| 9 | EUCreateEXT4QuickSearcher |
+| 10 | EUCreateReFSQuickSearcher |
+| 13 | EUCreateZFSQuickSearcher |
+| (3rd dispatcher) | EUCreateBtrfsQuickSearcher |
+
+Pattern: `GetProcAddress(hModule, "EUCreate<FS>QuickSearcher")(&outPtr)` — factory fills
+an interface pointer (C-style, no registry).
+
+**Complete/Advanced scan** `FUN_140580720` — creates the FULL searcher set and appends each
+to a `std::list`: `EUCreateNTFSSearcher`, `EUCreateFATSearcher`, `EUCreateEXFATSearcher`,
+`EUCreateZFSSearcher`, `EUCreateHFSSearcher`, `EUCreateReFSSearcher`, and (gated on a global
+setting at +0x60) `EUCreateRAWSearcher` — for the RAW searcher it also registers a
+`std::function<string(string,string)>` callback (FUN_140161fb0) via vtable+0x48 (per-file
+naming/filter hook into the carving engine). Final vtable+0x20 call passes scan mode.
+→ **Advanced scan = ALL FS engines in full mode + RAW carving engine, in parallel.**
+
+**CGenericRecoveryController scan setup** (trace at line ~904140): builds FS→searcher map
+{NTFS, EXFAT, FAT, ReFS, ZFS} (FUN_140588760), reads partition list, defaults sector size
+512 (0x200), then logs "Insert lost partition %s, %d, StartSector=%I64d, TotalSector=%I64d"
+per lost partition — lost partitions are inserted as scan targets directly.
+
+### 9.3 EuRdr user-mode protocol (mrxioctl.cpp — DECOMPILED)
+
+`CEuShare::OpenMrx` (`FUN_1404a2b60`): `CreateFileW(L"\\\\.\\EuRdrDN", GENERIC_READ|WRITE,
+share_all, OPEN_EXISTING)` — error log cites mrxioctl.cpp:0x25.
+
+IOCTL protocol (CTL_CODE custom device 0x14, METHOD_BUFFERED):
+| IOCTL | In → Out | Role (by buffer shape) |
+|---|---|---|
+| 0x140320 | 0x308B → 8B | add/update session slot (matches driver's 0x180×8 slot table + name) |
+| 0x140324 | 0 → 0x1844B | dump all session slots + drive-letter state |
+| 0x140328 | 0x308B → 0 | remove/teardown session |
+| 0x1404b0 | 4B → var | query drive-letter mapping |
+| 0x1404b4 | 0x18B → 4B | set slot/letter parameters |
+| 0x140640 | 0 → 0 | cancel/disconnect all |
+| 0x140644 | 0 → 0 | reset/flush |
+
+(Error-log line numbers 0x25/0x4c/... in the binary confirm per-function placement.)
+
+### 9.4 Deep-scan RAW gate
+
+`FUN_1400b1f30()` returns a settings object; field +0x60 != 0 gates RAWSearcher creation —
+a user/config toggle ("Enable RAW/deep carving") consulted at complete-scan build time.
