@@ -181,23 +181,11 @@ jobs:
             $log += "solution wizard walked 1/3->3/3"
             Esc2; KillBrowsers
             ClickAt 700 17; Start-Sleep -Seconds 2   # reopen if closed
-            # panel option 2: Try Advanced File Repair -> navigates to repair page
-            ClickAt 780 174; Start-Sleep -Seconds 3; Shot "03_ai_opt2_filerepair"
-            $log += "AI option 2 (advanced file repair)"
-            Esc2; KillBrowsers
-            # return home via sidebar (repair page has own chrome)
-            ClickAt 135 120; Start-Sleep -Seconds 2; Shot "03b_after_opt2_home"
-            ClickAt 700 17; Start-Sleep -Seconds 2
-            # panel option 3: Quick start guide
-            ClickAt 780 216; Start-Sleep -Seconds 3; Shot "04_ai_opt3_guide"
-            $log += "AI option 3 (quick start guide)"
-            Esc2; KillBrowsers
-            ClickAt 700 17; Start-Sleep -Seconds 2
-            # panel option 4: Chat with us
-            ClickAt 780 260; Start-Sleep -Seconds 3; Shot "05_ai_opt4_chat"
-            $log += "AI option 4 (chat with us)"
-            Esc2; KillBrowsers
-            ClickAt 700 17; Start-Sleep -Milliseconds 600; ClickAt 700 17  # ensure closed
+            # NOTE: options 2/3/4 are EXTERNAL WEB LINKS (Edge spawns and blocks the
+            # app - dynamically proven round-3). Skip them; they are not in-app UI.
+            $log += "AI options 2-4 skipped (external web links - dynamic proof)"
+            # close the AI panel (robot toggle)
+            ClickAt 700 17; Start-Sleep -Seconds 1
             # ---- top bar icons ----
             ClickAt 753 20; Start-Sleep -Seconds 4; Shot "06_buy"; Esc2; KillBrowsers
             $log += "buy/cart clicked"
