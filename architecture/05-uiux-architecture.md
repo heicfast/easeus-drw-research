@@ -74,3 +74,10 @@ Raw evidence: `re-workspace/reversed/ui-resources/` (extracted themes, translati
 - QSS full property census per objectName (20,802 lines — section-by-section).
 - Dynamic confirmation via Wine screenshot run of DRWUI (visual ground-truthing of the decoded flows).
 - EUinApp purchase-host page-flow RE (out-of-scope this session).
+
+## 8. Second-wave additions (artifacts 14–17)
+
+- **14 — CDetailPage slot dispatch**: all 42 slots decoded; internal view-mode QStackedWidget (slots 22/24 switch, slot 27 re-binds per-mode connections); wait-dialog modal (slot 38) + nested QEventLoop confirm (slot 39).
+- **15 — Scenario flows**: NAS 13-window chain with verified signal contracts (Connect/Scan/Support row actions, connect/enum result codes, pixmap streaming); Linux mirror; BitLocker unlock chain; WinPE media flow.
+- **16 — Shell internals**: DrwMainWindow setup (accessible names, opacity effects, quint64 title-button IDs, currentChanged sync); AI layer ("Local AI | Secure" on-device recommend/dedup/insight/assistant).
+- **17 — Monetization growth map**: complete funnel stage→surface→copy→telemetry table; pressure-gradient copy analysis.
