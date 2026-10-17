@@ -1,0 +1,1537 @@
+000030bd  VChoose a destination path to save the file:
+00003173  6ChooseDestinationPathDialog
+000031fb  Cloud
+0000323d  $Enable file repair
+000032aa  Local
+000032ee  Save
+0000332d  2ChooseDestinationPathItem
+000033ad  Log out
+000033f5  SSD (C:)
+00003440  TextLabel
+0000348e  We highly recommend saving the found data to a different drive or a network drive.
+000035bd  EaseUS NEVER keeps records of your account. Please refer to our Privacy Policy for more information.
+00003723     <style>
+00003753     p{
+0000377d  margin:0;
+000037af  padding:0;
+000037ff      </style>
+00003833     <p>%1 %2 %3 %4</p>
+00003879     <p>%5</p>
+00003970  &%1 %2 is up to date
+000039c7  %1 Byte(s)
+00003a01  %1 Detected:
+00003a41  %1 GB
+00003a6c  %1 KB
+00003a97  %1 MB
+00003ac2  %1 TB
+00003aed  %1 Years+
+00003b24  %1 day(s)
+00003b5b  %1 day(s) ago
+00003b9a  2%1 file chunks scanned...
+00003c03  %1 files
+00003c35  8%1 files %2 have been found.
+00003ca8  %1 files (%2)
+00003ceb  %1 files | %2
+00003d2c  4%1 free recovery capacity.
+00003d98  %1 hour(s) ago
+00003dda   %1 minute(s) ago
+00003e24  p%1 needs to enter password below to proceed with repair.
+00003eea  %1 of %2
+00003f1e  %1 out of %2
+00003f5c  l%1 partition and its data were successfully recovered!
+0000401a   %1 second(s) ago
+00004064  d%1 to see if it could be opened (may be corrupted)
+00004117  >%1 to see if it could be opened
+00004190  |%1 users choose to activate Pro and successfully recover data.
+00004268  %1% OFF
+00004299  %1% downloaded
+000042df  %1/%2
+0000430a  (%1 files/%2 failed; for details, you may check the recovery log)
+000043eb  (%1s)
+00004414  B*.vmdk *.vhd *.vhdx *.edisk *.dmg
+00004493  N*.vmdk *.vhd *.vhdx *.edisk *.dmg *.img
+00004526  00:00:00
+00004558   1 License for %1
+000045a6  1 Week License
+000045ec  1) Access the 'Control Panel' of NAS Management Panel for enabling; or
+000046d8  01) Click 'Control Panel'
+0000473c  Z1) Click 'Control Panel' on target NAS server
+000047e1  1-Forver
+00004813  X1-Get VIP,enjoy unlimited recovery and more.
+000048b3  (1-Import Scan Result
+0000490d  1-Log Out
+00004944  1-Login
+00004975  1-Menu
+000049a3  1-Month
+000049d4  1-My Order
+00004a0e  1-Open VIP
+00004a48  1-Renew
+00004a77  $1-Save Scan Result
+00004acb  1-Support
+00004b02  1-User Center
+00004b45  1-VIP
+00004b70  1-Vip Service
+00004bb3  1-Week
+00004bdf  ~1-Welcome to EaseUS Enterprise VIP. Your VIP expiration date:%1
+00004cba  1-Welcome to EaseUS Professional VIP. Your VIP expiration date::%1
+00004d9c  1-Year
+00004dca  1-Your VIP expired, Please renew and enjoy unlimit recovery capcity.
+00004eb2  1. Deleted partitions
+00004ede  2. Formatted partitions
+00004f0e  3. Resized partitions, etc.
+00004fa4   1. Group by Type
+00004fef  :1.Insufficient storage space.
+00005062  :1. Try less specific keywords
+000050d4  41. Try to find files by %1
+0000513f  100 M+
+0000516d  100%
+00005195  150%
+000051bb  &15s available only.
+00005210   15s preview only
+0000525e  1MB~512MB
+00005295  2 PCs
+000052be  ^2) Search in Google for 'How to Enable SSH'; or
+00005367  f2) Select 'Telnet/SSH' at 'Network & File Services'
+0000541c  62) Select 'Terminal & SNMP'
+00005489  J2. Ensure words are spelled correctly
+00005513  22. Group by Date Modified
+00005579  @2.The recovery path is too long.
+000055f5  X2. Wait to filter again after scan completes
+00005696  200%
+000056bc  *24/7 Customer Support
+00005717  >3) Check 'Allow SSH connection'
+00005790  B3) Check 'Enable SSH service' box
+0000588e  t3) Contact NAS manufacturer to ask 'How to Enable SSH'; or
+0000595a  3.Group by Tag
+0000599e  P3. If none of the above helps, please %1
+00005a31  X3.The file name contains garbage characters.
+00005ad1  L3. Wait to search again scan completes
+00005b60  30 Days
+00005b91  30 million
+00005bc9  v4) Contact EaseUS for technical assistance in enabling SSH?
+00005c96  ^4) View and remember the port for remote access
+00005d3f  ^4) View and?remember?the?port?for?remote?access
+00005df1  t4. The file name is most likely lost. Try to find files %1
+00005ebc  4.The sector reading location exceeds total sector number of the source partition.
+00005fcc  j5) Need technical assistance in enabling SSH service?
+00006087  P5. If None of the above helps, please %1
+0000611a  l5.The correct storage sector location cannot be found.
+000061da  512KB~1MB
+00006211  512MB~1GB
+00006248  6.The data amount you want to recover has exceeded the free quota.
+0000632a  7*24 Hour
+0000635f  27. Other unknown reasons.
+000063c7  < 512KB
+000063f6  p<font color='#D23636'>No</font> free recovery remaining.
+000064bc  > 1GB
+000064e7  >=%1h
+00006510  6A New Paid Version is Ready
+0000657f  A robust, standalone application that works smoothly within your workflow.
+00006679  A verification code message has been sent to your trusted device. Please enter the verification code to continue.
+000067e6   AI Deduplication
+00006834  AI Recommend
+00006872  .AI Recommend avaliable.
+000068d3  lAI Recommendation is on. Showing %1 recommended files.
+0000698c  $AI Recommendations
+000069de  (AI Recovery Insight:
+00006a36  ,AI recommeded %1 files
+00006a96  About
+00006ac1  About EaseUS:
+00006b02  "Access restricted
+00006b51  TAccess the 'Settings' on target NAS server
+00006bed  Account without sufficient permission. Try with your Administrator account.
+00006ce9  <AccountPasswordBackgroundFrame
+00006d5f   Acknowledgments:
+00006dad  Activate
+00006ddf  HActivate EaseUS Data Recovery Wizard
+00006e67  ,Activate Guard && Exit
+00006ec5  "Activate Manually
+00006f14  &Activate Successful
+00006f69   Activate failed.
+00006fb5  @Activate to Unlock Full Version!
+00007033  Add Documents
+00007076  Add Driver
+000070b0  Add File
+000070e4  Add Files
+00007119  HAdd Sample Video for Advanced Repair
+000071a3  Add Videos
+000071db  TAdd corrupted files to easily repair them.
+00007277  Adding Videos:
+000072bd  Adding:
+000072ec  <Administrator account required
+00007362  ,Advanced Data Recovery
+000073c0  "Advanced Features
+00007411  Advanced Filter
+0000745a  Advanced Repair
+000074a1  ,Advanced Repair Failed
+000074ff  4Advanced Repair Successful
+00007569  $Advanced Repairing
+0000760b  Advanced Scan can find more files - many users recover their data after a full scan.
+00007721  fAdvanced Scan is trying to find more files for you.
+000077d6  "Advanced Scanning
+00007825  DAdvanced Scanning %1, Files Found:
+000078a6  "Advanced features
+000078f7  Advanced:
+0000792e  All
+00007953  All Documents
+00007996  All Files
+000079cd  All Videos
+00007a05  BAll your files, safe in one ring.
+00007a84  .Already have a license?
+00007ae5  2Already have had license?
+00007b4e  An alphabet from A to Z that is assigned to a partition. A default partition is usually assigned to a C:drive letter.
+00007cc7  dAn unknown error occurred. Please try again later.
+00007d7b  Analyzing
+00007db2  Analyzing %1%
+00007df3  2Analyzing sample video...
+00007e5c  Analyzing...
+00007e9a  2And then click 'Refresh'.
+00007f01   Any Video Device
+00007f4f  Any unrecovered files risk being permantently overwritten by continued computer use.
+00008067  ApowerRecover
+000080aa  Apple ID
+000080de  Archives
+00008111  As a valued user, enjoy a special %1! Recover more data now - upgrade before this offer expires.
+0000824d  As a worldwide renowned professional software developer, EaseUS always takes the responsibility for better serving great users to protect their data security as its mission and never stops moving forward on the path of solving troublesome data cases over 160 countries and areas.
+000085ae  Ascending
+000085e5  Attachment
+0000861f  Audio
+00008674  4Authorization login failed
+000086de  *Auto Recover settings
+00008739  "Auto refresh disk
+00008788  4Auto-Activation Successful
+000087f2  "Auto-Recover OFF!
+00008841  TAuto-Recover after Advanced Scan Completed
+000088dd  Auto-recover
+0000891b  (Automatic Protection
+00008973  TAutomatic activation failed after payment.
+00008a0d  0Automatically Activating
+00008a71  0Automatically Decrypting
+00008ad5  .Automatically Unlocking
+00008b36  VAutomatically detect and recover RAID data.
+00008bd5  Automatically unlock Bitlocker drives with general keys, local keys and keys stored in the Microsoft account.
+00008d2f  2Available after full scan
+00008d96  xAvailable automatically once the 100% full scan is complete.
+00008e68  Average
+00008eb8  Back
+00008ede  "Back to Disk List
+00008f2f  Backup type:
+00008f6f  Bad
+00008f94  Basic
+00008fbd  DBefore auto-recovery, you may also
+00009041  Being repaired by EaseUS as original file was accidentally damaged.
+00009124  NBelow are files failed to be recovered:
+000091b5  $BitLocker Recovery
+00009207  RBitLocker password or 48-bit recovery key
+0000929e  JBitlocker Automatically Unlock Failed
+0000932b  BitLocker Drive
+00009372  FBitLocker Partition Missing/Damaged
+000093f9  Blank/Empty PDF
+00009440  4Blue/Black Screen of Death
+000094ac  Bookmarks
+000094e3  Boot Failure
+00009523  Boot Repair
+0000955e  0Boot up crashed computer
+000095c4  Browse
+000095f2  Save to
+0000962f  Browse...
+00009664  vBut this file is likely recoverable based on its structure.
+00009731  "Buy a License Now
+00009782  Buy Now
+000097b3  By file path
+000097f3  By file type
+00009831  (Can't find location?
+0000988b  Can't find the data in the Recycle Bin? Please scan the lost data partition directly.
+000099a3  4Can't find your lost data?
+00009a0d  NCan't fix Windows automatic repair loop
+00009aa0  Cancel
+00009acc  "Cancel Connecting
+00009b1d  Cancel Creating
+00009b64   Cancel Searching
+00009bb0   Cancel Unlocking
+00009bfe  Cannot connect or access NAS/Linux? Try the RAID function and connect the disk to the computer to recover data.
+00009d61  LCannot save to the original partition.
+00009dec  Change
+00009e1a  Change License
+00009e5e  "Change Location 1
+00009eaf  Change Sample
+00009ef2  Change Scan
+00009f2d  ,Changing Scan Location
+00009f89  $Change Settings >>
+00009fdd  Chat
+0000a005  Chat with us
+0000a084  8Check 'Allow SSH connection'
+0000a0f4  <Check 'Enable SSH service' box
+0000a16a  8Check Disk Management Myself
+0000a1da  &Check Update Failed
+0000a22f  NCheck and recover found data right now.
+0000a2c0  6Check disk before recovery.
+0000a32d  "Check for Updates
+0000a37c  lCheck network and make sure NAS is on. Then try again.
+0000a43a  BCheck your network and try again.
+0000a4bb  Check your network to make sure the %1 server is accessible and then retry.
+0000a5b8  Check your network to make sure the NAS server is accessible and then retry.
+0000a6b8  Checking Update
+0000a6ff  jChoose a destination path to save the disk image file
+0000a7ba  lChoose a disk to start searching for lost partition(s)
+0000a878  *Choose a file to scan
+0000a8d3   Choose folder...
+0000a91f  "ChronoSnap Backup
+0000a96e  ,ChronoSnap Backup Free
+0000a9ce  Clear selection
+0000aa15  *Click 'Control Panel'
+0000aa70  TClick 'Control Panel' on target nas server
+0000ab0a  PClick here to repair the file if needed.
+0000ab9e  jClick or drag files from your %1 to start the repair.
+0000ac59  fClick the button to start searching for lost files.
+0000ad0e  RClick to add documents to start repairing
+0000ada5  LClick to add videos to start repairing
+0000ae33  NClick to navigate to the file location.
+0000aec4  $Click to try again
+0000af18  Close
+0000af6e  Cloud Drive
+0000afa9  0Cloud Drive Disconnected
+0000b00f  Cloud Recovery
+0000b055  Cloud Scanning
+0000b099  >Cloud Scanning %1, Files Found:
+0000b113  Code
+0000b139  &Common Solutions >>
+0000b190  Completed
+0000b1c7  Confirm
+0000b1f6  nCongrats on successfully recovering your valuable data!
+0000b2b7  >Congrats, Auto-Recover Enabled!
+0000b330  XCongrats, your auto data recovery completed!
+0000b3d0  dCongratulations! Partition can be rescued directly
+0000b482  @Congratulations! Scan Completed!
+0000b4fe  LCongratulations! Unlocking Successful!
+0000b589  zCongratulations! You have successfully unlocked full version.
+0000b65e  Congratulations! You have successfully upgraded to unlimited recovery.
+0000b74c  Congratulations! Your data has been successfully saved by Auto-Recover on %1/%2/%3. Go and check your valuable data right now.
+0000b8e2  Congratulations! Your host has been successfully restored. Restart program and try to activate again.
+0000ba2d  Connect
+0000ba5c   Connect Manually
+0000baaa  Connect Now
+0000bae5  pConnect Your Memory Card to Recover Lost Photos & Videos
+0000bba9  jConnect the disk to the computer to recover RAID data
+0000bc64  &Connect to Linux...
+0000bcb9  0Connect to NAS server...
+0000bd1f  Connect your SD card to PC/Laptop with a card reader to recover the deleted, formatted and other lost photos and videos from cameras, UAV, dash cams and monitors, etc.
+0000bf2e  vConnect your drive to the USB port on the back of computer.
+0000bffd  Connect your drive with another USB cable or insert it to another card reader.
+0000c103  Connected
+0000c13a  Connecting...
+0000c17b  *Connection cancelled.
+0000c1d6  nConnection failed, please check your network and retry.
+0000c35b  Contact EaseUS
+0000c39f  ,Contact EaseUS support
+0000c3ff  Contact Support
+0000c446  2Contact Technical Support
+0000c4af  Contact support
+0000c4f8  Continue
+0000c52c  Continue Adding
+0000c573  $Continue Repairing
+0000c5c7  Continue Saving
+0000c60e  *Load last scan result
+0000c66a  HContinue to find your valuable data.
+0000c6f2   Corrupted Repair
+0000c740  Corrupted Video
+0000c787   Corrupted repair
+0000c7d3  "Crashed PC Rescue
+0000c824  Create
+0000c850  4Failed to create the file.
+0000c8b3  Create Image
+0000c8f1  @Create a password and click 'OK'
+0000c96d  FCreate an entire disk backup image.
+0000c9f4  Create and restore full images of physical drives and virtual machines.
+0000cae3  *Create to Recover Now
+0000cb3e  $Created on %1 (%2)
+0000cb90  HCreating Bootable Drive unavailable.
+0000cc18  4Creating bootable drive...
+0000cc82  :Creating '%1' into image file
+0000ccf6  Creation Failed
+0000cd3d   Current version:
+0000cd89  pCurrent repair progress will not be saved if you remove.
+0000ce4d  dCurrent scan may fail to be resumed if you change.
+0000cf01  Custom
+0000cf2f  Dark
+0000cf57  Data Recovery
+0000cf9a  Data might be %1 and %2 if you save files to original drive (where you lost data). %3
+0000d0b5  Date Modified
+0000d0f8  Date:
+0000d121  "Dear Valued User,
+0000d172  Decrypt
+0000d1a1  BDecrypt PDF to Continue Repairing
+0000d220  FDecrypted and the repair will go on
+0000d2a5  ,Deep Video Reconstruct
+0000d305  Deleted
+0000d336  Deleted Files
+0000d379  Descending
+0000d3b3  Desktop
+0000d3e4  Details
+0000d413   Device Detection
+0000d4b0  Device feedback
+0000d4f7  *Storage device error.
+0000d54d  Devices
+0000d57c  2Difficult to locate files
+0000d5e3   Difficult to use
+0000d62f   Directory Intact
+0000d67b  8Disable My Auto-Recover Plan
+0000d6ed  Disconnect
+0000d725  *Disconnect with Linux
+0000d780  &Disconnect with NAS
+0000d7d7  Disconnected
+0000d817  Disk
+0000d83f  Disk %1
+0000d870  Disk Health
+0000d8ad  Disk Image
+0000d8e5  JDisk failure or other physical issues
+0000d970  &Disk Image Created!
+0000d9c7  Disk image is a copy of the entire disk, which can <span style='%1'>improve the recovery performance</span> when the disk has bad sectors.
+0000db81  Disk image is a copy of the entire disk, which can <span style='color:#0560fd;'>improve the recovery performance</span> when the disk has bad sectors.
+0000dd5d  (Disks and Partitions
+0000ddb5  >Do not save data to this drive.
+0000de2d  \Do you have any other comments or suggestions?
+0000ded5  Document Repair
+0000df1e  Documents
+0000df55  Don't Exit
+0000df8f  Don't Remove
+0000dfcf  Don't give up! Click here to attempt data recovery - successful in most cases.
+0000e0d3  *Don't have a license?
+0000e12e  jDon't let it happen again. Build your safety net now.
+0000e1e9  *Don't remind me again
+0000e244  NDon't save to this where you lost data.
+0000e2d5  *Don't show this again
+0000e332  Done
+0000e358  dDouble click the partition to explore the content.
+0000e40b  Download Failed
+0000e452   Download Offline
+0000e49e  lDownload a video of the same format from the Internet.
+0000e55c  xDownload failed. Please download offline and then copy it to
+0000e62c  FDownloading essential components...
+0000e6b1  >Downloading essential module...
+0000e72c  Drive
+0000e756  $Drive Disconnected
+0000e7a8  "Drive Not Show Up
+0000e7f7  $Drive disconnected
+0000e849  "Drive not show up
+0000e89a  Dropbox
+0000e8cb  Due to technical limitation, Windows 8.1/8/7 or previous are not supported for Linux recovery.
+0000e9f9  Due to technical limitation, Windows 8.1/8/7 or previous are not supported for nas recovery.
+0000eb2a  Duplicates
+0000eb64  Dynamic
+0000eb93  6EaseUS Data Recovery Wizard
+0000ec02  EaseUS Data Recovery Wizard has encountered a memory problem and needs to close.
+0000eca4  We are sorry for the inconvenience.
+0000ecec  You can enlarge your virtual memory and try again.
+0000ee11  $EaseUS File Repair
+0000ee65  EaseUS Logs
+0000eea0  VEaseUS Manual Recovery Service | Since 2004
+0000ef3f  EaseUS NEVER keeps records of your account. Please refer to our %1 for more information.
+0000f061  .EaseUS Todo Backup Free
+0000f0c4  Join our monthly lucky draw by sharing your story and leaving a review under the event post - for a chance to win an Amazon Gift Card.
+0000f289  NEasily recover your NAS and Linux data.
+0000f31c  Easily unlock the inaccessible Bitlocker drives to retrieve the data.
+0000f405  $Easy Never Before!
+0000f459  Easy to use
+0000f496  Elapsed time:
+0000f4d7  :Email notification (optional)
+0000f54b  Emails
+0000f577  6Enable My Auto-Recover Plan
+0000f5e6  Enable SSH
+0000f61e  ZEnable SSH service or view port on NAS server
+0000f70e  Enabling SSH service is required for remote access. You may DISABLE it once recovery is completed.
+0000f850  Ending LBA
+0000f88a  Repair Paused
+0000f8d3  JRepair Paused, Videos to be repaired:
+0000f965  0Enhanced Video Repairing
+0000f9c9  `Enhanced Video Repairing, Videos to be repaired:
+0000fa74  @Enjoy extra %1 recovery for free
+0000faf3  Enter BIOS and set it to boot up from the USB bootable drive created just now
+0000fbf2  Enter License
+0000fc33  pEnter license code "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX" here.
+0000fcf7  2e.g. *.doc; *.xlsx; *.ppt
+0000fd7d  nEnter username with Root permission to start connecting
+0000fe3c  Enter your license to enjoy full features and unlimited recovery.
+0000ff19  BEstimated Time for Advanced Scan:
+0000ff98  :Estimated time remaining: %1s
+0001000d  Excellent value
+00010056  Excellent work on recovering your data! Now, let us ensure it stays safe.
+0001014d  Exclusive Gift
+00010193  Existing
+000101c7  Existing Files
+0001020d  Exit
+00010235  Exit Anyway
+00010272  Expired
+000102a1  *Expired license code.
+000102fe  Expired on %1
+00010341  Expires in
+0001037b  Explore
+000103ad  Extend your security to Mac and unlock full-scenario data recovery - complete your %1 protection today.
+000104fc  (External drives (%1)
+00010556  FPS
+0001057b  Facebook
+000105af  Fail to boot computer after unexpected updates or unknown reasons
+0001068f  Failed
+000106bb  6Failed to create the image!
+00010727  Failed:
+00010756  (Failed: %1 documents
+000107ae  "Failed: %1 videos
+000107ff  Faster Recovery
+00010848  Feedback
+0001087a  <Feedback Your Device to EaseUS
+000108f2  File
+0001091a  File Backup
+00010957  File Name Lost
+0001099b  (The path is invalid.
+000109f2  File Path Lost
+00010a38  File Path/Type
+00010a7e  File Repair
+00010abb  File Size
+00010af2  File System
+00010b2f  File Type
+00010b64  RThe file format does not support preview.
+00010bf7  VThe file may be incomplete during scanning.
+00010c91  File name or some directory might be lost. Try to find files in this way.
+00010d88  Files <font color=red>larger than 100MB</font> are not available for preview.
+00010e89  &Files Lost Location
+00010ee0  Files Lost Name
+00010f29  Files found
+00010f66  Files scanned
+00010fa9  Files that we found with Advanced Scan, but the file path was fully or partially missing. Although the file path is incomplete, it's possible that they are the lost files you want to recover.
+000111fd  Files that we found with Advanced Scan, but the filename was missing. Although they don't have file names, it's possible that they are the lost files you want to recover.
+00011410  2Files with Extracted Tags
+00011479  Filter
+000114a7  Filter & Search
+000114f0  Filter your desired files by file type, size and date modified, etc.
+000115d6  &Filtered nothing...
+0001162d  Filtering
+00011662  |Filters duplicates to show only the single best file per area.
+0001173a  Finish
+00011766  $Fix SD card access
+000117b8  @Fix damaged or unreadable files.
+00011836  Fix partitions displaying "Access Denied" or "Format Required" prompts
+00011922  Folder
+00011950  Follow us
+00011987  For security reasons, auto-refresh is paused. Please refresh manually to confirm new devices.
+00011ab8  *Forgot your password?
+00011b0e  @Forgot your Apple ID or password
+00011b8a  BForgot your Apple ID or password?
+00011c09  JFormat the target disk to a non-FAT32
+00011c96  Formatting will erase all your data on the USB drive. Please back up important data before creating.
+00011dd9  Found:
+00011e05  (From EaseUS at 7x24h
+00011e5f  Free
+00011e85  "Free Tech Support
+00011ed6  Free Version
+00011f14  HFree version recovers up to %1 data.
+00011f9c  0From any storage devices
+00012002  From:
+0001202d  Full Preview
+0001206d  Full preview
+000120ad  Fully repair all elements of PDF files, including headers, footers, forms, bookmarks and hyperlinks, etc.
+00012202  $Further Assistance
+00012278  GPT
+0001229d  Garbled PDF
+000122da  Get
+000122ff  Get Discount
+0001233f  Get Help
+00012371  fGet Pro Version to Recover Files without Any Limit!
+00012426  FGet Pro to Enjoy Unlimited Recovery
+000124ab  DGet Pro to Save Repaired Documents
+0001252d  >Get Pro to Save Repaired Videos
+000125a6   Get Up to %1 Off
+000125f2  ZGet back your data from BilLocker Encryption.
+00012695  &Get help from Apple
+000126ea  6Get started with ChronoSnap
+00012757  8Getting ChronoSnap Backup...
+000127c9  Give Feedback
+0001280c  Give Up
+0001283b   Give us feedback
+00012889  Giving feedback about your device will be much appreciated. It may help us better support more devices.
+000129c4  &Go to Hardware Disk
+00012a16  ,Go comment on Facebook
+00012a74  .Go comment on Instagram
+00012ad7  Go comment on X
+00012b20  Go to Recover
+00012b63  Good
+00012b89  @Good News! Partition Recoverable
+00012c07  Good news - some files are recoverable, you can try recovery or scan deeper.
+00012d07  Google Drive
+00012d47  Got it
+00012d75  Great news - many files are highly recoverable, start recovery now.
+00012e5a  Great news:
+00012e95  ZGreat news: Your files are highly recoverable
+00012f38  ,Group by modified date
+00012f98  Group by tag
+00012fd8  Group by type
+0001301b  Guess you want
+0001305f  "Hard Disk Drivers
+000130b0  Hardware Disk
+000130f1  \Have any questions about the recovery content?
+00013199  Help
+000131bf  hHelp you find your desired files quickly and easily.
+00013277  jHelp you to recover the lost data from your computer.
+00013333  There are some files whose original name cannot be retrieved, but they are likely to be the files you want to recover.
+0001349e  &Hi! Guess you need:
+000134f4  Hide 0KB Files
+00013538  $Hide Browser Cache
+0001358a  "Hide System Files
+000135db  Hide Temp Files
+00013624  High
+0001364a  NHighlights files most worth recovering.
+000136db  NHighlights files most worth recpvering.
+0001376e  Home
+00013796  Homepage: %1
+000137d6  Hosts
+000137fe  ZHow can EaseUS be improved? (Multiple choice)
+000138a0  xHow likely are you to recommend EaseUS Data Recovery Wizard?
+00013970  *How to Restore Myself
+000139cd  How to check whether Windows Disk Management detect my drive/device?
+00013ab3  pHow to enable SSH service or view port on my nas server?
+00013b77  HHow to enter BIOS to set boot order?
+00013bff  PHow to find files if it searched nothing
+00013c93  ,How to find lost data?
+00013cf1  4How to get a sample video?
+00013dc4  IP Address/Name
+00013e0d  IP Address:
+00013e4b  Icons
+00013e76  If none of the above works, please try another card reader or computer.
+00013f67  If the card reader was not detected, please try another USB port or connect it to the back port of mainframe.
+000140c8  \If you are not satisfied with Advanced Repair,
+0001416e  VIf you are not satisfied with Quick Repair,
+0001420d  If you experience connection failures, you may not have SSH enabled or you may not have an account with Root permissions.
+00014393  If you have enabled SSH service, fill in the correct information to start the connection.
+000144ba  If you remember the original file path, you can find the data with "Path". Otherwise, you can locate the lost files with "Type".
+00014653  If your digital camera didn't show up, take SD card out and insert it into a card reader.
+0001477a  Image Recovery
+000147c0  Image location:
+00014809  Image name:
+00014846  Image size:
+00014881  rImage size: <span style='%1;font-weight: bold;'>%2</span>
+0001494a  Import Image
+00014988  &Import a disk image
+000149df  Important reminder: Do not write any new data to the current device.
+00014ac5  xIn just a few simple steps, you can start worry-free backup.
+00014b97  In the case of damaged RAID hardware structure or other extreme cases, you may cancel searching and turn to technicians for further assistance.
+00014d60  In the case of long time searching without response, you may try to manually connect to your desired nas server for data recovery
+00014efe  ,Inaccessible Bitlocker
+00014f5c  <Incorrect Apple ID or password
+00014fd2  0Incorrect Bitlocker key.
+00015038  Incorrect IP
+00015076  XIncorrect IP or port or disabled SSH service
+00015116  ZIncorrect IP or port or disabled SSH service.
+000151ba  4Incorrect password or user
+00015224  6Incorrect password or user.
+00015292  &Incorrect password.
+000152e7  BIncorrect port for SSH connection
+00015366  0Incorrect security code.
+000153ca  ~Insert the USB bootable drive created into the crashed computer
+0001549d  VInstall & start SSH service on target Linux
+0001553a  ^Instantly recover missing or damaged partitions
+000155e5  Instantly restore recoverable lost partitions without waiting for the scan to finish.
+000156fe  .Insufficient Disk Space
+00015760  Insufficient permission. Try another account with root permission.
+00015842  Intactly repaired and extracted, without modifying the original PDF
+00015927  Intelligently identifying whether the partition can be directly recovered
+00015a19  (Internal drives (%1)
+00015a71  (Internet speed: %1/s
+00015ac9  *Invalid license code.
+00015b24  .Invalid license length.
+00015b85   Invalid mailbox!
+00015bd1  .Invalid path to Recover
+00015c34  Invalid sector
+00015c78  TIs it secure for me to enable SSH service?
+00015d14  Hosts tempering detected and failed to activate. Do you want to restore hosts right now for activation?
+00015eb5  We have found different versions of files in the same directory. You can view them separately  to determine which one is correct.
+00016071  It is highly probable to find the data after <font color = '#0560fd'>the scan is completed.</font>
+000161b3  It may fix this file after <font color = '#0560fd'>the process is completed.</font>
+000162c8  It may fix this file after <font color = '#5094ff'>the process is completed.</font>
+000163db  hIt may take a while to filter desired files for you.
+00016492  bIt may take a while to refresh drive information.
+00016541  ZIt may take a while to stop organizing files.
+000165e5  It will take a few minutes to find cloud drive files. Please be patient!
+000166d9  It will take a few minutes to find deleted files. Please be patient!
+000167c1  It will take a few minutes to find local and cloud drive files. Please be patient!
+000168d3  Just 3 steps to easily rescue all data from an unbootable computer for any reason.
+000169e0  dJust connect to your NAS/Linux to start recovering
+00016a8c  rJust create to boot up crashed computer for data recovery
+00016b54  Just remotely connect to start recovering, absolutely no labelling pull-out disks
+00016c85  KBPS
+00016cad  Keep Password
+00016cf0  Keep Scanning
+00016d33  Key ID: %1
+00016d6b   LOST PERMANENTLY
+00016db7  <LOST or RAW disk not detected?
+00016e2d  HLOST or RAW partitions not detected?
+00016eb7  Label
+00016ee2  Language
+00016f16  Last 1 month
+00016f56  Last 7 days
+00016f91  6The last scan session found
+00016ffc  Later
+00017027  Learn More
+00017061  Learn more
+0001709b  Lifetime
+000170cd   Lifetime Upgrade
+00017119  "Lifetime Upgrades
+00017168  ,Lifetime data recovery
+000171c6  ,Lifetime free upgrades
+00017225  Light
+0001724e  $Limited Time Offer
+000172a0   Limited recovery
+000172ee  Linux
+00017319  Linux Recovery
+0001735f  Linux scanning defaults to scanning the maximum volume and can switch to scanning different volumes
+000174a4  Live Chat
+000174db  Load
+00017501  4Successfully add driver %1
+00017567  NFailed to add driver. Error Message: %1
+000175f6  Load Failed
+00017631  "Load Scan Session
+00017680  8Load Scan Session Successful
+000176f0  TLoad Scan Session Successful, Files Found:
+0001778b  Load Session
+000177cb  Load Successful
+00017812  pLoad last scan session to save your time for rescanning.
+000178d6  (Loading Scan Session
+0001792e  4Loading device information
+00017998  6Loading disk information...
+00017a05  @Loading, please wait a moment...
+00017aac  "Local AI | Secure
+00017afd  Local Disk
+00017b37  Locations
+00017b6e  Locked
+00017b9a  (Locked license code.
+00017c25  Logging in...
+00017c68  Login
+00017c93  Login Failed
+00017cd3  Login...
+00017d07  Looks good!
+00017d44  Losing filenames makes it very difficult to find the files you want to recover. Therefore, we extracted some residual attribute information as "Tags" (such as the camera that took the photo, artist of the song, creator of Office document, etc.) to help you locate these files without filename but with some residual attributes.
+00018135  Lost
+0001815b  2Lost Bitlocker Partitions
+000181c4  Lost Files
+000181fe  Lost Files Only
+00018247  Lost Name File
+0001828d  Lost Partition
+000182d1  *Lost Partition Rescue
+0001832c  HLost BitLocker partitions found (%1)
+000183b3  &Lost data not found
+0001840a  Low
+0001842d  >The low battery on this machine
+000184c6  MBR
+000184eb  Mac
+0001850e  &Major Video Formats
+00018565  Make sure the <font color = '#0560fd'>SSH service</font> is enabled before connecting. <a href="%1" style="%2">How to enable?</a>
+00018704  Manage Storage
+00018748  8Manual-Activation Successful
+000187ba  Manufacturer:
+000187fe  Max
+00018823  Meet your recovery assistant. I'm here to help you find, repair, or clean up duplicates.
+00018947  Menu
+0001896f  Message
+0001899e  "Microsoft account
+000189ed  <Might be invalid path to save.
+00018a65  Min
+00018a8a  Missing
+00018abb  Model:
+00018aea  More
+00018b12  More Options
+00018b4f  &More Recovery Tools
+00018ba4  *More recovery options
+00018c01  More than 50% of %1 occurs because unrecovered files get overwritten by continued computer use.
+00018d3a  More than 50% of permanent data loss occurs because unrecovered files get overwritten by continued computer use.
+00018ea6  More than 50% of %1 occurs because data is not recovered in time.
+00018f82  NAS
+00018fa7  NAS & Linux
+00018fe4  NAS Connection
+00019028  .NAS Server Disconnected
+00019082   NAS NOT Detected
+000190d0  NAS Recovery
+0001910e  <NAS/Linux Recovery, SUPER Easy
+00019180  NAS and Linux
+000191c1  HNAS search from local network failed
+00019249  @NAS searching from local network
+000192e9  Name
+00019311  NAS scanning defaults to scanning the maximum volume and can switch to scanning different volumes.
+00019452  Need an additional %1 of space. Please free up space or select another drive.
+0001954f  LNeed to recover deleted or lost files?
+000195d9  XNetwork connection exception, loading failed
+00019679  ~Network connection failed. Please check the network connection.
+00019752  Network error. Please check your network connection. Please try again.
+0001983e  RNetwork errors or other unexpected cases.
+000198d5  nNever restore data to the disk where the data was lost.
+00019998  New version:
+000199d8  Next
+000199fe  .No Data Back, No Charge
+00019a5f  $No Data, No Charge
+00019ab1  (No Downtime Required
+00019b09  zNo LOST or RAW partitions were found that could be recovered.
+00019bdc   No?Disk?Pull?Out
+00019c28  ,No RAID Reconstruction
+00019c88  No auto renewal
+00019cd1  No auto-renewal
+00019d1a  No file limits
+00019d5e  |No free recovery remaining. Unlock Pro to enjoy full features.
+00019e36  No.
+00019e5b  None
+00019e83  Normally, a default port is 22 and you may view it from 'Terminal & SNMP' for enabling SSH service.
+00019fc6  6Not Enough Space to Recover
+0001a035  Not enough free space on the target Cloud drive. Please free up some space or select another Cloud drive.
+0001a189  ,Not enough free space.
+0001a1e9  Select Location
+0001a23d  dNote: Detailed steps are as shown in figure below.
+0001a2ef  xNote: No reinstallation or rescan required after activation.
+0001a3b6  TNote: No reinstallation or rescan required
+0001a44d  Note: if your device was accidentally damaged and couldn't be detected by Windows Disk Management, no any software could be helpful to you in such extreme cases.
+0001a64a  |Note: the file is still incomplete due to a scan interruption.
+0001a722  Note: the smart video reorganization process is incomplete due to a scan interruption.
+0001a840  Notification
+0001a87e  NNotification for Completed Auto-Recover
+0001a911  Number: %1
+0001a949  ,Version: %1 (Build %2)
+0001a9ca  OVERWRITTEN
+0001aa07  Off
+0001aa2c  One more step, and you will increase your chance of recovering data.
+0001ab12  tOne-click solution to fix various Windows startup problems
+0001abde  One-stop cloud recovery solution that enables you to retrieve your data effortlessly.
+0001acf7  "One-time Purchase
+0001ad46  DOne-time Purchase - NO SUBSCIPTION
+0001adca  One-time fee
+0001ae0a  OneDrive
+0001ae3e  Online Help
+0001ae7b  Online Service
+0001aebf  @Only %1 free recovery remaining.
+0001af3b  XOops, the file is not available for preview.
+0001afd9  Open
+0001afff  $Open file location
+0001b051   Open in Explorer
+0001b09d  (Search files by type
+0001b0f0  Order
+0001b11b  Organized
+0001b150  ,Organizing Found Files
+0001b1ae  2Organizing Found Files...
+0001b217  Original
+0001b24b  Other
+0001b274   Other Lost Files
+0001b2c0  &Other deleted files
+0001b317  Others
+0001b345  PDF Won't Open
+0001b38b  PRO
+0001b3ae  rPaid successfully and it may take a while for activation.
+0001b475  4Partition Cannot Be Opened
+0001b4df  "Partition Missing
+0001b52e  "Partition Recover
+0001b57d  *Partition Recoverable
+0001b5d8  $Partition Recovery
+0001b62c  Partitions without drive letter and couldn't be listed in Windows Explorer.
+0001b825  Password
+0001b859  Forgot Password
+0001b8a2  Password has expired. Please refer to common solutions for how to change password of NAS.
+0001b9c7  2Password of Administrator
+0001ba30  Paste
+0001ba5b  Path
+0001ba83  Path:
+0001baac  bPerfectly matched. Go ahead with Advanced Repair.
+0001bb5b  Perfectly repair PDF that cannot be opened by Adobe/Foxit or open with errors
+0001bc5e  Perfectly repair corrupted major video formats, including MP4, MOV, MKV and so on.
+0001bd70  Perparing...
+0001bdae   Photos that open
+0001bdfa  4Photos, videos & documents
+0001be65  Pictures
+0001be97  (Pirate license code.
+0001beef  JPlease authorize login on the webpage
+0001bf7a  ^Please check the disk and go back to try again.
+0001c022  fPlease check your network connection and try again.
+0001c0d7  XPlease choose a location to save your data 1
+0001c177  @Please connect a USB flash drive
+0001c1f3  ZPlease free up space or select another drive.
+0001c298  Please plug the power adapter into your computer and the power outlet.
+0001c386  dPlease re-authorize or select another cloud drive.
+0001c437  ^Please switch to %1 to find your valuable data.
+0001c4e0  FPlease try the following solutions:
+0001c565  ,Please wait patiently.
+0001c5c3  ,Point-in-Time Recovery
+0001c623  Port
+0001c649  JPossible reasons for failed recovery:
+0001c6d4  0Powerful and Independent
+0001c738   Premium Features
+0001c786  Premium support
+0001c7cf  Preparing
+0001c806  Preparing...
+0001c846  Preview
+0001c877  Preview %1
+0001c8af  $Preview %1 (%2/%3)
+0001c903  Preview Failed
+0001c949  Preview Only.
+0001c98a  .Preview before recovery
+0001c9eb  &Preview for disk %1
+0001ca40  "Preview full file
+0001ca8f  zPreview unavailable - recover this partition to view contents
+0001cb5f  Preview only
+0001cb9f  Preview only. Unlock Pro to enjoy full features and unlimited recovery.
+0001cc90  Price too high?
+0001ccd7  &Prices are too high
+0001cd2e  Privacy Policy
+0001cd74  Pro Version
+0001cdaf  (Pro edition discount
+0001ce09  Professional
+0001ce47  (Professional Expired
+0001ce9f  FProfessional data recovery services
+0001cf24  <Professional technical support
+0001cf9a  >Program Installation Directory.
+0001d015  Program Running
+0001d05c  fProgram is trying to skip bad sectors to find data.
+0001d111  "Protect Your Data
+0001d160  0Pushing service required
+0001d1c4  pQ1: How to get my drive detected when it didn't show up?
+0001d28a  Q2: How to check whether Windows Disk Management detect my drive/device?
+0001d37c  4Q2: What's Lost Partition?
+0001d3e8  QQ Online Help
+0001d42c  &Quick Repair Failed
+0001d481  .Quick Repair Successful
+0001d4e4  Quick Repairing
+0001d52b  (Quick Scan Completed
+0001d585  Quick Scanning
+0001d5cb  Quick Scanning may take more time to find lost files due to larger volumes.
+0001d6c9  Quick Scanning will take a few minutes to find deleted files and lost partitions.
+0001d7d6  >Quick Scanning %1, Files Found:
+0001d84e  "Quick Start Guide
+0001d89f  Quick access
+0001d8dd  "Quick start guide
+0001d92d  bQuickly find what you are looking for by Grouping
+0001d9de  Quit
+0001da06  RAID
+0001da2e  RAID Recovery
+0001da6f  $RAID not detected?
+0001dac3  RAID recovery can automatically detect RAID configurations, supporting various RAID types such as RAID 0, RAID 1, RAID 5, and RAID 6.
+0001dc6c  PRAW, partition loss and formatting, etc.
+0001dd02  Rapid volume scan to completely get rid of troublesome RAID reconstruction
+0001ddfb  Rate
+0001de23  RAW
+0001de48  Re-authorize
+0001de88  Reading sector:
+0001decf  RReading the disk information, please wait
+0001df68  Ready
+0001df91  DReady after scanning and analysis.
+0001e013  |Real-time recovery at any time without NAS server interruption
+0001e0e9  (Really want to quit?
+0001e141  4Rebuild fragmented photos.
+0001e1ab  TRecduces clutter to find key files faster.
+0001e245  FReconnect your drive and try again.
+0001e2c9  :Reconstruct fragmented video.
+0001e33e  Reconstructed
+0001e381  Recover
+0001e3b2  Recover All ...
+0001e3f9   Recover Complete
+0001e445  BRecover Found Deleted %1 files %2
+0001e4c4  6Recover NAS, Linux and RAID
+0001e533  Recover Now
+0001e56e  "Recover Remaining
+0001e5bd   Recover Repaired
+0001e60b  Recover SD Card
+0001e652  DRecover Sooner for Better Chances:
+0001e6d4  ,Recover Unlimited Data
+0001e732  vRecover data directly from camera, SD card, USB drive, etc.
+0001e802  Recover data from inaccessible, failed, corrupted, or deleted encrypted partitions.
+0001e914  &Recover found files
+0001e96b  Recover from
+0001e9ab  Recover partitions showing as "Unallocated Space" or "RAW" in Disk Management
+0001eaac  VRecover to: <font color='#0560FD'>%1</font>
+0001eb48  VRecover to: <font color='#5094ff'>%1</font>
+0001ebe4  "Recover unlimited
+0001ec33  hRecover your lost or deleted data from Cloud drives.
+0001eceb  vRecover and repair your lost video/photos from memory cards
+0001edb0  Recover/repair lost or repartitioned drive (the one that cannot be recovered by software)
+0001eed7  Recoverability
+0001ef1d  Recovered
+0001ef52  4Recovered files unopenable
+0001efbe  Recovered to:
+0001f001  Recovered:
+0001f039  0Recovered: %1 files (%2)
+0001f09d  ,Recovered: %1/%2 files
+0001f0fe  Recovering
+0001f138  Recovering:
+0001f173  &Recovering: Disk %1
+0001f1c8   Recovery Chances
+0001f214  &Recovery Completed!
+0001f269  ,Recovery Not Completed
+0001f2c7   Recovery Service
+0001f313  DRecovery State File(*.rsf)|*.rsf||
+0001f395  &Recovery Successful
+0001f440  pRecovery completed. Repairing some files, please wait...
+0001f4f4  &Recovery experience
+0001f549  PRecovery failed due to an unknown error.
+0001f5df  Recycle Bin
+0001f61a  TReduces clutter to find key files fasters.
+0001f6b6  Refer Friends
+0001f6f9  Refer to these files under the File Path, including "File Path Lost" and "Reconstructed".
+0001f833  Refresh
+0001f864  Refresh drives.
+0001f8aa  8Refreshing Drive Information
+0001f91a   Refund guarantee
+0001f968  Reload
+0001f996  Remaining data can be rescanned and recovered anytime later, but continuing now save you time.
+0001faca  \Remaining data can't be recovered if you stop.
+0001fb70  ZRemaining data can't be repaired if you stop.
+0001fc15  Remaining files are safe and can be recovered later, but we recommend finishing now for the best results.
+0001fd6c  Remaining files are safe and can be rescanned later, but we recommend letting the scan finish for the best result.
+0001fede  Remaining time:
+0001ff25  $Time remaining: %1
+0001ff77  vRemaining videos will not be repaired any more if you stop.
+00020044  pRemaining videos will not be saved any more if you stop.
+00020108  tRemaining videos won't be added for repairing if you stop.
+000201cf  ZRemotely connect to Linux to start recovering
+00020272  dRemotely connect to nas server to start recovering
+00020324  ,Remotely connecting...
+00020384  Remove
+000203b2  Remove All
+000203ec  Remove All File
+00020435  Remove Document
+0002047e  Remove Video
+000204bc  6Remove all external devices
+00020529  RRemove all external devices and try again
+000205c2  Renew
+000205eb  |Renew Pro to enjoy full features and unlimited recovery again.
+000206c1   Renew Successful
+0002070f  Renew failed.
+00020750  2Renew to Regain Recovery!
+000207b9  Repair
+000207e7  Repair All
+00020821  Repair Anyway
+00020862   Repair Completed
+000208ae  "Repair Completed!
+000208fd  DRepair Completed, Videos Repaired:
+0002097f  :Repair Corrupted Video Safely
+000209f3  ZRepair Corrupted Videos, Photos and Documents
+00020a96  4Repair Damaged PDF Quickly
+00020b02  Repair Failed
+00020b43  Repair Loop
+00020b7e  (Repair Not Completed
+00020bd6  @Repair SD card & restore access.
+00020c54  Repair Stopped
+00020c98  @Repair Stopped, Videos Repaired:
+00020d15  "Repair Successful
+00020d61  FRepair Videos, Photos and Documents
+00020de6  TRepair Videos, Photos, Documents and Audio
+00020e80  8Repair access when possible.
+00020ef0   Repair corrupted
+00020f3c  >Repair corrupted RAID structure
+00020fb5  NRepair corrupted files in batches here.
+00021045  JRepair corrupted or unplayable videos
+000210d0  zRepair corrupted virtual disk file (.vmdk, .vhd, .vhdx, etc.)
+000211a0  VRepair damaged or cannot be opened document
+0002123d  TRepair damaged or partially missing photos
+000212d7  :Repair inaccessible RAW drive
+00021362  ZRepair lost or corrupted BitLocker partitions
+00021407  Repair Now
+00021441  Repair videos shot with DSLRs, GoPros, Drones, Smartphones, CCTV cameras and monitors, etc.
+0002156e  Repaired
+000215a0  zRepaired by EaseUS as original file was accidentally damaged.
+00021673  4Repaired file(s): %1 of %2
+000216df  Repaired files
+00021723  XRepaired to: <font color='#0560FD'>%1</font>
+000217c2  XRepaired to: <font color='#5094ff'>%1</font>
+00021863  Repaired:
+0002189a  Repairing
+000218d1  Repairing ...
+00021912  *Repairing (%1/%2): %3
+0002196d  Repairing:
+000219a7  Rescan
+000219d3  "Rescue Crashed PC
+00021a22  *Rescue Lost Partition
+00021a7d  nRescue data from an unbootable computer for any reason.
+00021b3e  8Rescue from Crashed Computer
+00021bb0  Rescue software
+00021bf9  Reselect
+00021c2b  ,Reselect a target disk
+00021c8b  Reselect Cloud
+00021cd1  Reset Filter
+00021d11  Resolution
+00021d4b  Restart %1
+00021d85  Restore
+00021db4  "Restore Partition
+00021e03  $Restore Successful
+00021e57  Restore Failed
+00021e9b  pRestore your files from any historical moment with ease.
+00021f61  Restricted by performance, Windows 32-bit systems are not supported for Linux recovery.
+00022072  Restricted by performance, Windows 32-bit systems are not supported for nas recovery.
+00022186  Result
+000221b2  HRetake a video with the same device.
+0002223c  Retry
+00022267  Return
+00022295  Return to Home
+000222d9  &Return to Homepage?
+0002232a  "Returning to Home
+0002237b  SD Card
+000223ac  SD Card Rescue
+000223f0  FSD card connected but not detected?
+00022476  *SD card not detected?
+000224d3  Sample Video
+00022513  Sample video is a playable video created from the same device or the format as the corrupted one.
+00022674  Save %1
+000226a5  Save 1
+000226d3  Save All
+00022707  Save as:
+0002273b  Save Complete
+0002277e  Save Data 1
+000227bb  Save Failed
+000227f8  Save PDF
+0002282a  "Save Scan Session
+0002287b  Save Successful
+000228c4  Save Video
+000228fe  Save as
+00022960  Save to 1
+00022995  2Save to watch full video.
+000229fe  Save:
+00022a27  .Saved. Just a moment...
+00022a88  &Saved: %1 documents
+00022add   Saved: %1 videos
+00022b29  &Saving Scan Session
+00022b80  Saving:
+00022bb1  Scale (%1%)
+00022bee  Scan
+00022c16  Scan Completed
+00022c5a  8Scan Completed, Files Found:
+00022cc9  $Search Entire Disk
+00022d1b  Scan Paused
+00022d56  8Scan Paused %1, Files found:
+00022dc7  Scan Progress
+00022e0a  Scan Stopped
+00022e48  4Scan Stopped, Files Found:
+00022eb3  Scan code to pay attention to official account and acquire more technical knowledge
+00022fc6  lScan code to pay attention to official account and get
+00023084  DScan completed and found %1 files.
+00023106  6Scan completed for Disk %1!
+00023175  Scan disk only
+000231bb  Scan disk:
+000231f3  *Scan the entire disk.
+0002324b  Scan entire disk if you are not sure which drive to scan in any of the following scenarios:
+00023378  Files found:
+000233b7  Scan session might be corrupted. Please rescan to recover your data.
+0002349d  @Scan stopped and found %1 files.
+0002351b  Scan the entire disk if you don't know where desired data was exactly saved.
+0002361b  Scan time:
+00023655  Scanned
+00023684  0Scanned disk sectors: %1
+000236ea  Scanned:
+0002371e  Scanning
+00023752  Scanning %1%
+00023790   Scanning Paused.
+000237dc  2Scanning disk sectors: %1
+00023845  Scanning...
+00023880  :Scenarios for lost partitions
+000238f3  tScreen suddenly turns blue or no display with black screen
+000239bf  Search
+000239eb  *Search Without Unlock
+00023a48  Search and unlock the Bitlocker partitions to find your lost data.
+00023b28  .Search files or folders
+00023b89  2Search for Lost Partition
+00023bf0  (Search for Lost Data
+00023c48  *Search results for %1
+00023ca5  Search the phrase "How to enable SSH?" on Google, or contact the NAS device manufacturer directly.
+00023de5  BSearched "%1 files (%2)" for "%3"
+00023e64  &Searched nothing...
+00023eb9  ,Searched: %1 files, %2
+00023f17   Searched: 0 file
+00023f65  Searching
+00023f9a  4Searching for lost data...
+00024006  Searching:
+0002403e  :See every change you've made.
+000240b1  \Select "Control Panel", then "Terminal & SNMP"
+00024157   Select 'Network'
+000241a3  `Select 'Telnet/SSH' at 'Network & File Services'
+0002424f  0Select 'Terminal & SNMP'
+000242b5  Select All
+000242ef  Select All (%1)
+00024336  $Select All (%1/%2)
+0002438a  Select Files
+000243ca  Select Folder
+00024456  Select Videos
+00024497  PSelect a Cloud Drive to Start Recovering
+00024529  JSelect a RAID to search for lost data
+000245b4  $Select a USB drive
+00024606  jSelect a USB flash drive to create the bootable drive
+000246c1  ZSelect a disk to create an entire disk image.
+00024764  xSelect a drive or a partition to create a backup disk image.
+00024833  RSelect a location to search for lost data
+000248ca  JSelect a location to start recovering
+00024955  tSelect a location to unlock Bitlocker and start recovering
+00024a21  Select a location where your data was lost to scan and locate the deleted or missing files.
+00024b4c  NSelect a nas server to start recovering
+00024bdf  Select file
+00024c1a  &Select scan session
+00024c6f  0Select unrecovered files
+00024cd3  (Selected: %1 file %2
+00024d2b  *Selected: %1 files %2
+00024d88  Send a new code
+00024dd1  Sender:
+00024e00  BSending the security code failed.
+00024e7f  `Set Auto-Recover After Advanced Scan Completed>>
+00024f2d  Set it to boot up from a USB bootable drive on the crashed computer
+0002500c  Settings
+00025040  Share
+0002506b  Share EaseUS to
+000250b2   Share EaseUS to:
+000250fe  HShare this helpful tool with friends
+00025189  Show
+000251af   Show all devices
+000251fb  2Show all external devices
+00025264  Show:
+0002528d  ^Shows the best files to recover from each area.
+00025336  "Sign in to iCloud
+00025387  Size
+000253af  Size:
+000253d8  HSkip the file by clicking "Continue"
+00025460  $Slightly expensive
+000254b2  <Smart Partition Scan Completed
+00025528  8Smart Partition Scan Stopped
+00025598  0Smart Partition Scanning
+000255fc   Smart Reassembly
+00025648  (Smart Sector Rebuild
+000256a0  zSmart scan in progress: analyzing file structure and contents
+00025770  .Smart select best files
+000257d3  Smart video reorganization in progress... Some black screen and unplayable corrupted videos could be automatically repaired once it completes.
+00025999  Smart, continuous backup that operates effortlessly in the background.
+00025a87  Solution 1:
+00025ac4  Solution 2:
+00025b01  Solution 3:
+00025b3c  JSolutions for NAS Connection Failures
+00025bc7  FSolve problems during data recovery
+00025c4c  pSome core Python modules are required before connecting.
+00025d10  &Some data not found
+00025d67  Some extracted contents will be saved as an attachment together with the repaired PDF when it was severely damaged.
+00025edc  Some files might be incomplete while scanning. We highly recommend recovering files after <font color = '#0560fd'>the scan is completed.</font>
+000260a3  >Some recovered files unopenable
+0002611c  jSome unsorted data will not be displayed if you stop.
+000261d9  Some video information does not match. Change another one or go ahead with Advanced Repair (but it probably won't be repaired well).
+0002637f  BSource drive. Change another one.
+00026400  Source:
+0002642f  $Specify a location
+00026481  `Specify the folder you want to recover data from
+0002652f  Start
+0002655a  Starting LBA
+00026598   Starting service
+000265e6  Status
+00026612  @Step 1: Recover data from the PC
+00026689  2Step 2: Select a location
+000266f1  :Step 3: Search for lost files
+00026763  PStep 1: Sign into your Microsoft account
+000267f6  <Step 2: Find your recovery key
+0002686d  Still Save 1
+000268ab  &Still have problem?
+00026900  zStill have problems? <a href="%2" style="%3">Chat with Us</a>
+000269d5  Stop
+000269fd  Stop Adding
+00026a3a  Stop All
+00026a6c  .Stop File Organization?
+00026ad4  Stop Repairing
+00026b18  HStop Repairing for Corrupted Videos?
+00026ba1  Stop Saving
+00026bdc  :Stop Searching for Lost Data?
+00026c4f  *Stopping Organization
+00026ca8  (Stuck on refreshing?
+00026d02  Subject:
+00026d36  Submit
+00026d64  Subscribe
+00026d99  8Subscribe to EaseUS YouTube.
+00026e09  &Successful recovery
+00026e5e  .Submitted successfully.
+00026edb  $Suggested Recovery
+00026f2f  Support
+00026f60  Support various damaged videos, such as black screen, flickering and blurring videos, choppy video playback or no sound.
+000270e6  Support various devices including Canon, Sony, Nikon, GoPro, DJI, UAVs, dashcams and monitors.
+0002721d  Supported Formats:
+00027243  Videos: MP4/MOV/MKV/AVI/INSV/3GP/MPG/MPEG/MTS/TS/M2TS/WMV/FLV/MXF/RSV/M4V/DAT/ASF/WEBM/BRAW/SWF/RMVB/RM/OGV/3G2/DIVX/DV
+00027333  Photos: JPG/JPEG/JFIF/JPE/JIF/ARW/CR2/NEF/NRW/PNG/GIF/CR3/BMP/TIF/TIFF/GPR/DNG/HEIC/RAF/ORF/SR2/RW2/RAW/WEBP/SVG/AVIF/SRW
+00027427  Documents: DOCX/DOCM/DOTM/DOTX/DOC/PAGES/NUMBERS/HWP/XLSX/XLSM/XLTM/XLTX/XLS/PPT/PPTX/PPTM/POTX/POTM/PDF/AI/PSB/PSD/ZIP/ZIPX/EXE/RAR/XML
+00027539  Audio: MP3/AAC/M4A/WAV/WMA/FLAC/AIFF/AIF/OGG/OGA
+0002779a  Videos: MP4/MOV/MKV/AVI/INSV/3GP/MPG/MPEG/MTS/TS/M2TS/WMV/FLV/MXF/RSV/M4V/DAT/ASF/WEBM/BRAW/SWF/RMVB/RM/OGV/3G2/DIVX/DV/MJ2/PSP/MK3D/MKS
+000278ac  Photos: JPG/JPEG/JFIF/JPE/JIF/ARW/CR2/NEF/NRW/PNG/GIF/CR3/BMP/TIF/TIFF/GPR/DNG/HEIC/RAF/ORF/SR2/RW2/RAW/WEBP/SVG/AVIF/SRW/ERF/PEF/SRF/3FR/FFF
+000279c8  Documents: DOCX/DOCM/DOTM/DOTX/DOC/PAGES/NUMBERS/HWP/XLSX/XLSM/XLTM/XLTX/XLS/PPT/PPTX/PPTM/POTX/POTM/PDF/AI/PSB/PSD/ZIP/ZIPX/EXE/RAR/XML/hwpx
+00027ae4  Audios: MP3/AAC/M4A/WAV/WMA/FLAC/AIFF/AIF/OGG/OGA/M4B/MKA
+00027d61  FSure to Cancel Unlocking BitLocker?
+00027de6  :Sure to Change Scan Location?
+00027e59  *Sure to Exit Program?
+00027eb4  PSure to Format to Create Bootable Drive?
+00027f48  8Sure to Remove These Videos?
+00027fba  Sure to Remove?
+00028001  .Sure to Return to Home?
+00028062  <Sure to Save Incomplete Files?
+000280d8  >Sure to Save to Original Drive?
+00028151  ZSure to Stop Adding Videos without Repairing?
+000281f4  (Sure to Stop Adding?
+0002824c  0Sure to Stop Recovering?
+000282b0  <Sure to Stop Repairing Videos?
+00028326  .Sure to Stop Repairing?
+00028387  HSure to Stop Saving Repaired Videos?
+00028410  (Sure to Stop Saving?
+00028468  hSure to give up recovering remaining valuable files?
+00028520  zSure to give up recovering valuable data on crashed computer?
+000285f3   Sure to Log Out?
+0002863f  ,Sure to Restore Hosts?
+000286a5  BSure to Stop Creating Disk Image?
+00028724  LSwitch views anytime to see all files.
+000287b2  8System not support for Linux
+00028822  FSystem not support for nas recovery
+000288a9  TRIM OFF
+000288dd  TRIM ON
+0002890c  tTackle complex data loss with our advanced recovery tools.
+000289d8  Tags Extracted
+00028a1c  tA restart is required for the theme change to take effect.
+00028ac5  fTake the final step now to safely secure your data.
+00028b7a  \Target location is confirmed. It looks nice! 1
+00028c20  TTask Handover: From Recovery to Protection
+00028cba  "Technical Support
+00028d09  (Technical Assistance
+00028db2  Technician
+00028dea  $Technician Expired
+00028e3e  Tell us your problem so we can get you the right help and support.
+00028f20  Text me
+00028f51  Text me (%1)
+00028f8f  PThank you for your valuable suggestions!
+00029021  Thank you for choosing EaseUS as your data saver. Should you have any further questions, please feel free to contact us for technical assistance by
+000291f6  Thank you for your feedback. Every device feedback will be valued.
+000292e8  Thanks following warm-hearted users for their contributions to our multi-language version:
+00029410  lThe corrupted videos will not be repaired if you stop.
+000294d0  The file was filtered. Please clear the filter and then try again.
+000295ab  HThe found data will not be unlocked.
+00029635  The most powerful video repair software to fix any videos safely no matter how they were corrupted.
+0002977a  The partition cannot be rescued directly. Try to recover the data directly
+00029874  The professional repair expert to fix your PDF issues in minutes.
+00029950  pThe remaining will not be repaired any more if you stop.
+00029a14  jThe remaining will not be saved any more if you stop.
+00029ad1  The remaining won't be added and cannot be repaired if you stop.
+00029bad  The save drive is disconnected. Please check the drive and try again.
+00029c98  The selected location is the same as that where the lost data is located. Please choose another location. 1
+00029df5  The server has returned an error. Please contact customer service.
+00029ed7  The shorter the time of data loss, the higher the possibility of recovering the data.
+00029ff2  Theme
+0002a01b  JThere are %1 bad sectors in the disk.
+0002a0a7  There are some corrupted files that could be repaired in the recovery selected.
+0002a1ae  FThere's a chance to find more data.
+0002a232  *This folder is empty!
+0002a28d  RThis may take a while...but it is worthy.
+0002a324  NThis may take some time, please wait...
+0002a3b5  tThis typically takes under two minutes. Please be patient.
+0002a47f   Time elapsed: %1
+0002a4cd  Time:
+0002a4f8  Tips:
+0002a523  Tips: Advanced Scan is searching files sector by sector to ensure data recovery as much as possible.
+0002a66b  Tips: Advanced Scan is trying to find more other lost files for you while recovering.
+0002a785  Tips: DON'T work on the drive where you lost data before complete recovery. Or the data might be overwritten and lost permanently.
+0002a947  *To be notified timely
+0002a9a2  6To be recovered: %1 file(s)
+0002aa0b  2To be recovered: %1 files
+0002aa74  To recover as many files as possible, we tried different scanning methods. Duplicate files may be found through different scans or under different file systems.
+0002ac75  bTo find your files quickly and easily by "Filter"
+0002ad24  *To help EaseUS better
+0002ad81  To help you find the desired files quickly, we organize some unimportant files here.
+0002ae99  To recover data from digital camera, please remove the SD card and connect it to PC/Laptop via card readers.
+0002aff9  To:
+0002b01e  Today
+0002b049  Too many verification code requests. Please enter the last verification code sent.
+0002b15b  Total:
+0002b189  Trial
+0002b1b4  Trial Version
+0002b1f5  <Trial version is preview-only.
+0002b26b  0Try Advanced File Repair
+0002b2cf  &Try Advanced Repair
+0002b324  0Try Automatically Unlock
+0002b388  "Try Change Sample
+0002b3d7  "Try Data Recovery
+0002b428  Try VIP Chat
+0002b466   Try again later.
+0002b4b2  BTry another USB cable/card reader
+0002b531  4Try another USB port on PC
+0002b59b  RTry another location or check less files.
+0002b632  *Try another location.
+0002b68f  Try any one of the ways listed below and then scan it to retrieve your valuable data.
+0002b7a8  >Try to Activate Manually Again!
+0002b821  bTry to do as follows if SD card was not detected:
+0002b8d0  HTry to insert SD card to card reader
+0002b958  6Try to scan the entire disk
+0002b9c5  `Trying possible keys to decrypt Bitlocker drive.
+0002ba73  Type
+0002ba9b  Type:
+0002bac6  USB Drive
+0002bafd  UnScanned
+0002bb32  ZUnable to Save File Larger Than 4 GB to FAT32
+0002bbd7  Unable to continue creating. Reconnect your drive and try again.
+0002bcb1  Unable to continue scanning. Reconnect your drive and try again.
+0002bd8b  .Unable to create WinPE?
+0002bdec  >Unable to find your hard drive?
+0002be67  Unable to perform the operation because the disk is in a read-only state.
+0002bf5c  bUnable to verify your identity. Please try again.
+0002c00d  Unallocated
+0002c04a  Unanalysis
+0002c082  PSorry. Your hosts failed to be restored.
+0002c132  "Unimportant Files
+0002c183  Unknown
+0002c1b2  $Unlimited Recovery
+0002c204  $Unlimited recovery
+0002c2a9  Unlock
+0002c2d5  VUnlock Bitlocker Drive to Recover Your Data
+0002c372  (Unlock Full Recovery
+0002c3cc  Unlock Pro Now
+0002c410  0Unlock Pro to Enjoy Full
+0002c473  .Unlock Pro to View Full
+0002c4d4  rUnlock Pro to enjoy full features and unlimited recovery.
+0002c59b  (Unlock Pro to enjoy:
+0002c5f3  nUnlock Pro. You're gonna enjoy more exclusive benefits!
+0002c6b4  $Unlock and Recover
+0002c706  .Unlock to Save Repaired
+0002c767  2Unlock with Bitlocker Key
+0002c7d0  Unsaved Files
+0002c812  Untitled
+0002c846  Up to Date
+0002c880  Update
+0002c8ac   Update Available
+0002c8fa  Upgrade
+0002c929  DUpgrade Once, Protect All Devices!
+0002c9ab  <Upgrade Once, Protect Forever!
+0002ca21  $Upgrade Successful
+0002ca75  Upgrade failed.
+0002cabc  HUpgrade to Enjoy Unlimited Recovery!
+0002cb44  BUpgrade to Unlimited Recovery Now
+0002cbc3  HUse a video shot with device before.
+0002cc4b  $Use system setting
+0002cc9f  Used size
+0002ccd6  Used time
+0002cd0b  $Used license code.
+0002cd5f  User
+0002cd88  User Survey
+0002cdc3  :Username with Root permission
+0002ce38  Valuable data might be <font color='#F72C2C'>permanently lost</font> if not recovered immediately.
+0002cf78  vValuable data might be LOST PERMANENTLY if not recover now.
+0002d045  nValuable data might not be recovered if you disconnect.
+0002d106  bValuable data might not be recovered if you exit.
+0002d1b5  fValuable data might not be recovered if you return.
+0002d26a  0Various Repair Scenarios
+0002d2d0  Verifying
+0002d307  Edition: %1
+0002d342  PEdition: %1(%2 free recovery available.)
+0002d3d8  Video
+0002d403  Video Repair
+0002d443  Video Repaired
+0002d489  Video Tutorial
+0002d4cf  Video that play
+0002d516  *Videos to be repaired
+0002d572  Videos
+0002d5a0  View Details
+0002d5e0  View Help
+0002d617  View Recovered
+0002d65d  View Repaired
+0002d6a0  View Results
+0002d6de  XView and remember the port for remote access
+0002d77e  jView and remember the port remote access in next step
+0002d83b  VIP Chat
+0002d86f  Volume
+0002d89b  JWait! You are at risk of losing data!
+0002d928  Waiting
+0002d959  Waiting...
+0002d993  Warning: Most users lose their data permanently due to untimely data recovery. So we highly recommend that you recover the found files immediately.
+0002db66  |Warning: Some unsorted data will not be displayed if you stop.
+0002dc3c  ~Warning: the corrupted videos will not be repaired if you stop.
+0002dd15  ~Warning: the lost data may not be found completely if you stop.
+0002ddee  ^We apologize for not meeting your expectations.
+0002de97  ,We are here to help...
+0002def7  We have reorganized some files by extracted information from them, so that you can find useful data more easily.
+0002e055  We could not repair your partition after our analysis. No data on the partition was modified during the process.
+0002e1c1  We couldn't restore the partition, but no data was modifiled. You can continue recovering found files from the scan.
+0002e337  ,We found partition(s):
+0002e397  We have enabled the VIP channel for you. Please click on "Try VIP Chat" to attempt advanced data recovery and save your valuable data!
+0002e543  |We highly recommend that you check and recover the found data.
+0002e61b  We recommend using the image file of this disk for scanning, as this can reduce performance loss of the disk. In addition, back up this disk immediately to prevent data loss again.
+0002e851   Website purchase
+0002e89d  (What's Drive Letter?
+0002e8f5  ,What's Lost Partition?
+0002e953  0What's "File Name Lost"?
+0002e9b8  0What's "File Path Lost"?
+0002ea1d  0What's "Tags Extracted"?
+0002ea82  DWhen do you need Recovery Service?
+0002eb06  Why Pro?
+0002eb38  4Why duplicate files exist?
+0002eba2  bWhy would you recommend EaseUS? (Multiple choice)
+0002ec50  hWhy wouldn't you recommend EaseUS? (Multiple choice)
+0002ed09  WiFi 100M/s is too slow. Try to connect with a network cable (Expected to be increased by 500%).
+0002ee44  WinPE
+0002ee6d  2Without any interruptions
+0002eed3  @Woohoo! Lost partitions found...
+0002ef4f  2Work freely, fear nothing
+0002efb6  PWould You Like to Save Repaired File(s)?
+0002f04a  :Would you like to update now?
+0002f0de  Yesterday
+0002f113  XYou can also try to find the recovery key in
+0002f1b5  You can preview and recover your files during the scanning process.
+0002f298  LYou can preview files before recovery.
+0002f326  hYou can select a Cloud drive to save the found data.
+0002f3de  rYou do not have permission to access. Click "OK" to exit.
+0002f4a5  `You don't have to sit at the computer for hours.
+0002f551  TYou exceeded your free quota. Get Pro Now!
+0002f5ea  dYou have the risk to permanently lose these files.
+0002f69d  You have<font color = '#0560fd'> %1 file(s) (%2)</font> to recover.
+0002f780  You have<font color = '#0560fd'> %1 files (%2)</font> to repair.
+0002f85c  You may directly load scan session for recovery next time to avoid rescanning.
+0002f962  You may now
+0002f99d  hYou need to re-create the disk image if you stop it.
+0002fa55  &Your Bitlocker Key:
+0002faaa  :Your account has been locked.
+0002fb1f  Your current edition expires in %1. Upgrade to Lifetime for permanent security-pay once, protect forever.
+0002fc76  Your current version requires %1. Upgrade to Lifetime for permanent security-pay once, protect forever.
+0002fdc5  @Your files are high recoverable.
+0002fe41  zYour files are highly recoverable - unlock full recovery now.
+0002ff14  ^Your free & effortless Time Machine for Windows
+0002ffbd  BYour last search records go here.
+0003003e  <Your subscription has expired.
+000300b6  Your valuable data may not be recovered. Please wait patiently for the scan to complete.
+000301d8  8a paid major version upgrade
+0003024a  audio: artist of the audio, such as Beyonce, Michael Jackson, etc.
+0003032a  $Byte-for-byte copy
+0003037c   contact support.
+000303ca  cross-device
+00030408  pdocuments: who created the document, such as Admin, etc.
+000304ce  Downloaded:
+00030509  4e.g. Canon EOS M50 Mark II
+00030575  edisk
+0003059e  hfile extensions, such as JPG, PNG, MP4 and MP3, etc.
+00030656  2for further assistance or
+000306bd  Rfor technical assistance in enabling SSH?
+00030754  2for technical assistance.
+000307bb  0free recovery remaining.
+00030821  has no drive letter (like C/D/E), which accidentally got lost by partition deletion, resize and so on.
+0003096f  iCloud
+0003099d  Image type:
+000309d9  in this way
+00030a14  Vis active to restore your fragmented media.
+00030ab1  "load scan session
+00030b02  loading failed,
+00030b4b  logging in ...
+00030b8f  Vnas server failure or RAID hardware issues.
+00030c4e  ,or sending an email to
+00030cac  `others: not support for tag extraction yet, etc.
+00030d58  ,The path is read-only.
+00030db0  0The path does not exist.
+00030e0a  &permanent data loss
+00030e61  picture and video: where you lost data, such as Canon, GoPro, etc.
+00030f41  4recovery chances expected.
+00030fab  $Recovery remaining
+00030ffd  *recovery unavailable.
+0003105a  starting a Chat
+000310a1  $support@EaseUS.com
+000310f3  4to EaseUS for improvement.
+0003115d  vto recover other data or manually check the recovered file.
+0003122c  unavailable.
+0003126c  View full files
+000312b5  when there are several lost partitions after formatting or partition loss and you are confused.
+000313eb  jwhen you are not sure which drive you lost data from.
+000314a9  zwhen you lost data, such as today, yesterday, last week, etc.
+0003157c  (yet to be recovered.
+000315d4   you may directly
+00031620  Hyour files stay safe on your device.
+000316aa  %p%
+000316dd  19/32
+00031716  40%
+0003178e  Dialog
+00031807  .Internet speed: 0.0MB/s
+00031a69  (Upgrade to Unlimited
