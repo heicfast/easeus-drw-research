@@ -1,0 +1,113 @@
+#!/usr/bin/env python3
+"""Ingest all captured UI screenshots into the organized redesign-reference
+library: re-workspace/raw-evidence/ui-screenshots/<area>/<descriptive-name>.png
+Sources: fresh atlas runs (in /tmp) + prior committed evidence dirs.
+"""
+import os, shutil, glob
+
+REPO = '/home/z/my-project/easeus-drw-research'
+EV = os.path.join(REPO, 're-workspace/raw-evidence')
+OUT = os.path.join(EV, 'ui-screenshots')
+
+# (source_path, dest_area, dest_name, description)
+MANIFEST = [
+    # ---- 01 splash / loading ----
+    (f'{EV}/ui-ground-truth-v5/drwwin_t20.png', '01-splash', 'splash-reading-disk-info.png',
+     'Splash window: "Reading the disk information, please wait..." + progress line'),
+    (f'{EV}/ui-ground-truth-v5/drwwin_t35.png', '01-splash', 'splash-t35.png',
+     'Splash at t+35s (Wine loader run)'),
+    # ---- 02 landing ----
+    (f'{EV}/ui-ground-truth-win-native/screen_late.png', '02-landing', 'landing-baseline.png',
+     'Landing page baseline: title bar icons, sidebar, device tiles, AI panel area, Scan CTA'),
+    (f'{EV}/ui-ground-truth-win-native/screen_main.png', '02-landing', 'landing-early.png',
+     'Landing page early (device enumeration just completed)'),
+    ('/tmp/atlas-landing2/shot_00_landing.png', '02-landing', 'landing-baseline-v2.png',
+     'Landing baseline (atlas run 2): Windows(C:) + Temporary Storage(D:) tiles'),
+    ('/tmp/atlas-landing2/shot_01_ai_panel.png', '02-landing', 'landing-ai-assistant-panel.png',
+     'AI assistant panel open: "Hi! Guess you need:" + 4 options (robot avatar toggle)'),
+    ('/tmp/atlas-landing2/shot_02_ai_opt1_nofind.png', '02-landing', 'landing-ai-opt1-solution-wizard-1of3.png',
+     'AI option 1 -> "Unable to find your hard drive?" 3-step solution wizard, step 1/3 (Refresh drives)'),
+    # ---- 03 scan phase ----
+    ('/tmp/atlas-scanphase2/shot_00_midscan_150s.png', '03-scan-phase', 'scan-midscan-21pct.png',
+     'Mid-scan: circular 21% gauge, Files Found counter, Searching strip, pause/stop buttons'),
+    ('/tmp/atlas-scanphase2/shot_01_midscan_210s.png', '03-scan-phase', 'scan-midscan-210s.png',
+     'Mid-scan at t+210s (deep-scan phase)'),
+    ('/tmp/atlas-scanphase2/shot_02_paused.png', '03-scan-phase', 'scan-paused.png',
+     'PAUSED state: "Scan Paused" + red "Scanning Paused." strip, resume/stop buttons'),
+    ('/tmp/atlas-scanphase2/shot_03_resumed.png', '03-scan-phase', 'scan-resumed.png',
+     'Resumed state after pause toggle'),
+    ('/tmp/atlas-scanphase2/shot_04_stop_confirm.png', '03-scan-phase', 'scan-stop-confirm-dialog.png',
+     'Stop confirm (CScanCommonPopDlg): "Stop Searching for Lost Data?" + files-found + used-time stats, Stop/Continue'),
+    ('/tmp/atlas-scanphase2/shot_05_after_stop_confirm.png', '03-scan-phase', 'scan-after-stop-attempt.png',
+     'After stop-confirm click (dialog persisted - click landed on body)'),
+    (f'{EV}/ui-ground-truth-scanphase/screen_main_long.png', '03-scan-phase', 'scan-midscan-34pct-prior.png',
+     'Mid-scan 34% (prior ground-truth run): tree filling progressively, preview pane active'),
+    # ---- 04 scan complete ----
+    (f'{EV}/ui-interaction-recovery-flow/shot_10_complete_modal.png', '04-scan-complete', 'complete-celebration-modal.png',
+     'Scan-complete celebration: standalone 540x380 OS window with stats grid + Go to Recover CTA'),
+    # ---- 05 results ----
+    (f'{EV}/ui-interaction-results-interactions/shot_20_after_go_to_recover.png', '05-results', 'results-baseline.png',
+     'Results baseline after Go to Recover: tree + list + preview pane + AI Recommend toast'),
+    (f'{EV}/ui-interaction-results-interactions/shot_21_after_filter_click.png', '05-results', 'results-filter-bar-open.png',
+     'Filter bar open: Path + Type dropdowns row under toolbar'),
+    (f'{EV}/ui-interaction-results-interactions/shot_23_after_type_tab.png', '05-results', 'results-type-tab-midtransition.png',
+     'Type tab click: async classify-tree rebuild captured mid-transition'),
+    (f'{EV}/ui-interaction-results-interactions/shot_24_after_path_tab.png', '05-results', 'results-path-tab.png',
+     'Path tab: path-tree mode restored'),
+    (f'{EV}/ui-interaction-results-interactions/shot_25_after_row_click.png', '05-results', 'results-row-selected.png',
+     'Row selected: checkbox fill, details pane update, Recover button becomes contextual'),
+    # ---- 06 preview ----
+    (f'{EV}/ui-interaction-results-interactions/shot_26_after_row_dblclick.png', '06-preview', 'preview-panel-live.png',
+     'Live preview panel (double-click): thumbnail + "Recovery Chances: High" circular gauge'),
+    # ---- 07 recovery flow ----
+    (f'{EV}/ui-interaction-recovery-flow/shot_20_after_go_to_recover.png', '07-recovery', 'recovery-entry-results.png',
+     'Recovery entry: results view + "AI Recommend available." toast'),
+    (f'{EV}/ui-interaction-recovery-flow/shot_22_after_recover_all.png', '07-recovery', 'recovery-retention-gate.png',
+     'RETENTION GATE (Recover All on Free): "Wait! You are at risk of losing data!" + 40%-Off/Online-Service/Quit'),
+    (f'{EV}/ui-interaction-recovery-flow/shot_23_after_esc2.png', '07-recovery', 'recovery-after-esc.png',
+     'Retention gate after ESC attempt (dialog state)'),
+    # ---- round-2 atlas captures (context menu, destination, retention) ----
+    ('/tmp/atlas-results/shot_21_context_menu.png', '05-results', 'results-context-menu-open.png',
+     'RIGHT-CLICK context menu (CShowContextMenu): Recover / Preview / Open file location / Select unrecovered files / Smart select best files / Clear selection'),
+    ('/tmp/atlas-results/shot_27_row_selected.png', '05-results', 'results-row-selected-gate-dismissed.png',
+     'Row selected after retention gate dismissed (search-click hit gate X)'),
+    ('/tmp/atlas-results/shot_29_destdlg_browseclick.png', '07-recovery', 'recovery-destdlg-early-state.png',
+     'Destination dialog early state'),
+    ('/tmp/atlas-results/shot_28_destination_dialog.png', '07-recovery', 'recovery-destination-dialog.png',
+     'ChooseDestinationPathDialog: Local/Cloud tabs, drive list w/ space stats, Enable-file-repair toggle (ON), Save button (disabled)'),
+    ('/tmp/atlas-results/shot_22_view_toggle_iconview.png', '07-recovery', 'recovery-exit-retention-gate.png',
+     'EXIT-RETENTION GATE (2nd ESC from results = exit attempt): "Wait! You are at risk of losing data!" + Get-Up-to-40%-Off / Online-Service / Quit'),
+    ('/tmp/atlas-landing2/shot_02_ai_opt1_nofind.png', '02-landing', 'landing-ai-opt1-solution-wizard.png',
+     'AI option 1 solution wizard (alt copy)'),
+]
+
+def main():
+    made = 0
+    missing = []
+    index = {}
+    for src, area, name, desc in MANIFEST:
+        if not os.path.exists(src):
+            missing.append(src)
+            continue
+        d = os.path.join(OUT, area)
+        os.makedirs(d, exist_ok=True)
+        dst = os.path.join(d, name)
+        shutil.copyfile(src, dst)
+        index.setdefault(area, []).append((name, desc))
+        made += 1
+    # write the index README
+    with open(os.path.join(OUT, 'README.md'), 'w') as f:
+        f.write('# UI Screenshot Library — Redesign Reference Atlas\n\n')
+        f.write('Every captured UI state, organized by user-flow area. ')
+        f.write('Coordinates are window-relative (window maximized at (0,0), ~1024x735 client on 1024x768 runner desktop).\n\n')
+        for area in sorted(index):
+            f.write(f'## {area}\n\n')
+            for name, desc in index[area]:
+                f.write(f'- `{name}` — {desc}\n')
+            f.write('\n')
+    print(f'copied {made} screenshots; missing sources: {len(missing)}')
+    for m in missing:
+        print('  MISSING:', m)
+
+if __name__ == '__main__':
+    main()
