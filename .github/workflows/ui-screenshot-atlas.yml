@@ -69,6 +69,9 @@ jobs:
             [DllImport("user32.dll")] public static extern void mouse_event(uint f, uint dx, uint dy, uint dw, UIntPtr e);
             [DllImport("user32.dll")] public static extern void keybd_event(byte vk, byte scan, uint flags, UIntPtr extra);
             [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr h, out RECT r);
+            [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr h, int cmd);
+            [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr h);
+            [DllImport("user32.dll")] public static extern bool IsIconic(IntPtr h);
             [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
             public static void Click(int x, int y) {
               SetCursorPos(x, y);
@@ -107,6 +110,9 @@ jobs:
             [DllImport("user32.dll")] public static extern void mouse_event(uint f, uint dx, uint dy, uint dw, UIntPtr e);
             [DllImport("user32.dll")] public static extern void keybd_event(byte vk, byte scan, uint flags, UIntPtr extra);
             [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr h, out RECT r);
+            [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr h, int cmd);
+            [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr h);
+            [DllImport("user32.dll")] public static extern bool IsIconic(IntPtr h);
             [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
             public static void Click(int x, int y) {
               SetCursorPos(x, y);
@@ -125,6 +131,7 @@ jobs:
           }
           "@
           function Shot($name) {
+            RestoreWin
             try {
               Add-Type -AssemblyName System.Windows.Forms,System.Drawing
               $b = [System.Windows.Forms.SystemInformation]::VirtualScreen
@@ -157,6 +164,16 @@ jobs:
             else { "ARClick: no window" | Write-Host }
           }
           function Esc2() { [AH2]::Esc(); Start-Sleep -Milliseconds 300; [AH2]::Esc(); Start-Sleep -Milliseconds 700 }
+          function RestoreWin() {
+            # resilience: if the main window got minimized (-32000) or lost focus, restore it
+            $drw = Get-Process DRWUI -ErrorAction SilentlyContinue | Where-Object {$_.MainWindowHandle -ne 0} | Select-Object -First 1
+            if ($drw) {
+              $h = $drw.MainWindowHandle
+              if ([AH2]::IsIconic($h)) { [AH2]::ShowWindow($h, 9) | Out-Null }   # SW_RESTORE
+              [AH2]::SetForegroundWindow($h) | Out-Null
+              Start-Sleep -Milliseconds 400
+            }
+          }
           function KillBrowsers() {
             Stop-Process -Name msedge, iexplore, microsoftedge -Force -ErrorAction SilentlyContinue
             Start-Sleep -Milliseconds 500
@@ -258,11 +275,13 @@ jobs:
             RClickAt 600 350; Start-Sleep -Seconds 2
             Shot "21_context_menu"
             $log += "right-click context menu captured"
-            # click 'Preview' item (2nd item ~y395, x715) -> PreviewMainDialog (modal, 66 v-methods)
-            ClickAt 715 395; Start-Sleep -Seconds 6
+            # click 'Preview' item (2nd item, measured center (517,440)) -> PreviewMainDialog
+            RestoreWin
+            ClickAt 517 440; Start-Sleep -Seconds 6
             Shot "22_preview_main_dialog"
             $log += "context-menu Preview clicked -> PreviewMainDialog"
             [AH2]::Esc(); Start-Sleep -Milliseconds 800   # SINGLE ESC (2nd ESC triggers exit-retention!)
+            RestoreWin
             # ---- view toggle ----
             ClickAt 667 80; Start-Sleep -Seconds 2; Shot "23_icon_view"
             $log += "view toggle clicked (icon view)"
