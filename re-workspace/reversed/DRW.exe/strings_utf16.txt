@@ -1,0 +1,45 @@
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+ERROR : Unable to initialize critical section in CAtlBaseModule
+Testid
+SOFTWARE\EASEUS\DRW\Version
+ VID "
+" Activity "
+ /SendInfo Window "
+" Attribute "
+InfoForSetup.exe
+" Source "
+Trigger_Appcrash
+dSuccess
+Failed
+{\"Elapsed\":\"%I64d\",\"Error\":\"%d\",\"Result\":\"%s\"}
+Loader_Exit
+Loader
+Loader_Start
+Trigger_Load
+Folder
+RecycleBin
+VS_VERSION_INFO
+StringFileInfo
+080404b0
+CompanyName
+CHENGDU YIWO Tech Development Co., Ltd
+FileDescription
+EaseUS Data Recovery Wizard
+FileVersion
+21.0.0.0
+InternalName
+Data Recovery Wizard
+LegalCopyright
+Copyright EaseUS. All rights reserved.
+OriginalFilename
+EaseUS Data Recovery Wizard
+ProductName
+EaseUS Data Recovery Wizard
+ProductVersion
+21.0.0.0
+VarFileInfo
+Translation
+&Data Recovery Wizard has been running!
+EaseUS Data Recovery Wizard
+FYou must have administrator rights to run EaseUS Data Recovery Wizard!OData Recovery Wizard should be running Under Windows 2000/XP/2003/VISTA/7/2008!

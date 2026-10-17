@@ -1,0 +1,35 @@
+WARN: Warning: read (delay import directory)
+arch     x86
+baddr    0x400000
+binsz    255208
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x00045697
+compiled Wed Dec  3 17:51:02 2036
+crypto   false
+dbg_file \\192.168.0.242\公司交换区\L_吕天宇\EUUnZip\Release\EUUnZip.pdb
+endian   little
+havecode true
+hdr.csum 0x00045697
+guid     5FEE47E4317D491CA728B3DF2A4BFA1B3
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows CUI
+va       true

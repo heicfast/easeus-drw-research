@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x180000000
+binsz    137960
+bintype  pe
+bits     64
+canary   true
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x00023b5c
+compiled Tue Aug 31 21:08:00 2038
+crypto   false
+dbg_file J:\test\win\libvmdk\vs2017\Release\x64\zlib.pdb
+endian   little
+havecode true
+hdr.csum 0x00023b5c
+guid     FED579B3494E440EBBA99B6829C4A2E61
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

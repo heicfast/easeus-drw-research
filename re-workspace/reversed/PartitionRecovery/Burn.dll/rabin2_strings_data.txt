@@ -1,0 +1,213 @@
+[Strings]
+nth paddr      vaddr       len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00018cc0 0x180019ac0 45  92   .rdata  utf16le CBurn DiscInfo DiscType = %d LenPerWrite = %d
+1   0x00018d20 0x180019b20 45  92   .rdata  utf16le CBurn DiscInfo DiscType = %d LenPerWrite = %d
+2   0x00018d80 0x180019b80 70  142  .rdata  utf16le CBurn bIsTaoSupported : %d, bIsDaoSupported : %d, bIsSaoSupported : %d
+3   0x00018e10 0x180019c10 70  142  .rdata  utf16le CBurn bIsTaoSupported : %d, bIsDaoSupported : %d, bIsSaoSupported : %d
+4   0x00018ea0 0x180019ca0 37  76   .rdata  utf16le CBurn RealTimeWrite_Begin Result : %d
+5   0x00018ef0 0x180019cf0 37  76   .rdata  utf16le CBurn RealTimeWrite_Begin Result : %d
+6   0x00018f40 0x180019d40 39  80   .rdata  utf16le CBurn RealTimeWrite_CreateFile Ret : %d
+7   0x00018f90 0x180019d90 39  80   .rdata  utf16le CBurn RealTimeWrite_CreateFile Ret : %d
+8   0x00018fe0 0x180019de0 38  78   .rdata  utf16le CBurn RealTimeWrite_CloseFile Ret : %d
+9   0x00019030 0x180019e30 38  78   .rdata  utf16le CBurn RealTimeWrite_CloseFile Ret : %d
+10  0x00019080 0x180019e80 35  72   .rdata  utf16le CBurn RealTimeWrite_End Result : %d
+11  0x000190c8 0x180019ec8 7   8    .rdata  ascii   CodeLog
+12  0x000190d0 0x180019ed0 35  72   .rdata  utf16le CBurn RealTimeWrite_End Result : %d
+13  0x00019120 0x180019f20 32  66   .rdata  utf16le CBurn WriteImageToCD Result : %d
+14  0x00019170 0x180019f70 32  66   .rdata  utf16le CBurn WriteImageToCD Result : %d
+15  0x00019524 0x18001a324 4   5    .rdata  ascii   .dll
+16  0x00019530 0x18001a330 14  15   .rdata  ascii   TBCreateObject
+17  0x00019888 0x18001a688 7   8    .rdata  ascii   CodeLog
+18  0x00019a90 0x18001a890 42  86   .rdata  utf16le Failed to Load lib Err=0x%x InterfaceNo=%x
+19  0x00019b00 0x18001a900 7   8    .rdata  ascii   CodeLog
+20  0x00019b08 0x18001a908 27  56   .rdata  utf16le reclib_func_tick_%I64x_P_%p
+21  0x00019b40 0x18001a940 32  66   .rdata  utf16le CBurn Send operate command fail.
+22  0x00019b90 0x18001a990 32  66   .rdata  utf16le CBurn Send operate command fail.
+23  0x00019bd8 0x18001a9d8 29  60   .rdata  utf16le CBurn Send burn command fail.
+24  0x00019c18 0x18001aa18 29  60   .rdata  utf16le CBurn Send burn command fail.
+25  0x00019c58 0x18001aa58 28  58   .rdata  utf16le CBurn Error command request.
+26  0x00019c98 0x18001aa98 28  58   .rdata  utf16le CBurn Error command request.
+27  0x00019cd8 0x18001aad8 22  46   .rdata  utf16le CBurn Error driver no.
+28  0x00019d08 0x18001ab08 22  46   .rdata  utf16le CBurn Error driver no.
+29  0x00019d38 0x18001ab38 29  60   .rdata  utf16le CBurn Error operator command.
+30  0x00019d78 0x18001ab78 29  60   .rdata  utf16le CBurn Error operator command.
+31  0x00019db8 0x18001abb8 18  38   .rdata  utf16le CBurn Driver Busy.
+32  0x00019de0 0x18001abe0 18  38   .rdata  utf16le CBurn Driver Busy.
+33  0x00019e08 0x18001ac08 27  56   .rdata  utf16le CBurn Check empty CD error.
+34  0x00019e40 0x18001ac40 27  56   .rdata  utf16le CBurn Check empty CD error.
+35  0x00019e78 0x18001ac78 23  48   .rdata  utf16le CBurn This is empty CD.
+36  0x00019ea8 0x18001aca8 23  48   .rdata  utf16le CBurn This is empty CD.
+37  0x00019ed8 0x18001acd8 27  56   .rdata  utf16le CBurn User cancel operator.
+38  0x00019f10 0x18001ad10 27  56   .rdata  utf16le CBurn User cancel operator.
+39  0x00019f48 0x18001ad48 23  48   .rdata  utf16le CBurn Create file fail.
+40  0x00019f78 0x18001ad78 23  48   .rdata  utf16le CBurn Create file fail.
+41  0x00019fa8 0x18001ada8 21  44   .rdata  utf16le CBurn Write CD error.
+42  0x00019fd8 0x18001add8 21  44   .rdata  utf16le CBurn Write CD error.
+43  0x0001a008 0x18001ae08 24  50   .rdata  utf16le CBurn Data break bounds.
+44  0x0001a040 0x18001ae40 24  50   .rdata  utf16le CBurn Data break bounds.
+45  0x0001a078 0x18001ae78 23  48   .rdata  utf16le CBurn Error track type.
+46  0x0001a0a8 0x18001aea8 23  48   .rdata  utf16le CBurn Error track type.
+47  0x0001a0d8 0x18001aed8 30  62   .rdata  utf16le CBurn Not identify image file.
+48  0x0001a118 0x18001af18 30  62   .rdata  utf16le CBurn Not identify image file.
+49  0x0001a158 0x18001af58 23  48   .rdata  utf16le CBurn Not Can burn DVD.
+50  0x0001a188 0x18001af88 23  48   .rdata  utf16le CBurn Not Can burn DVD.
+51  0x0001a1b8 0x18001afb8 23  48   .rdata  utf16le CBurn Not enough space.
+52  0x0001a1e8 0x18001afe8 23  48   .rdata  utf16le CBurn Not enough space.
+53  0x0001a220 0x18001b020 50  102  .rdata  utf16le CBurn Not enough space for save tmep file by disk.
+54  0x0001a290 0x18001b090 50  102  .rdata  utf16le CBurn Not enough space for save tmep file by disk.
+55  0x0001a300 0x18001b100 40  82   .rdata  utf16le CBurn Create temp file error in copy CD.
+56  0x0001a360 0x18001b160 40  82   .rdata  utf16le CBurn Create temp file error in copy CD.
+57  0x0001a3c0 0x18001b1c0 36  74   .rdata  utf16le CBurn Not find temp file in copy CD.
+58  0x0001a410 0x18001b210 36  74   .rdata  utf16le CBurn Not find temp file in copy CD.
+59  0x0001a460 0x18001b260 35  72   .rdata  utf16le CBurn File format error in copy CD.
+60  0x0001a4b0 0x18001b2b0 35  72   .rdata  utf16le CBurn File format error in copy CD.
+61  0x0001a4f8 0x18001b2f8 19  40   .rdata  utf16le CBurn Not write CD.
+62  0x0001a520 0x18001b320 19  40   .rdata  utf16le CBurn Not write CD.
+63  0x0001a548 0x18001b348 20  42   .rdata  utf16le CBurn Read CD error.
+64  0x0001a578 0x18001b378 20  42   .rdata  utf16le CBurn Read CD error.
+65  0x0001a5a8 0x18001b3a8 28  58   .rdata  utf16le CBurn Read track info error.
+66  0x0001a5e8 0x18001b3e8 28  58   .rdata  utf16le CBurn Read track info error.
+67  0x0001a628 0x18001b428 30  62   .rdata  utf16le CBurn Decode music file error.
+68  0x0001a668 0x18001b468 30  62   .rdata  utf16le CBurn Decode music file error.
+69  0x0001a6b0 0x18001b4b0 32  66   .rdata  utf16le CBurn CD error in ready burning.
+70  0x0001a700 0x18001b500 32  66   .rdata  utf16le CBurn CD error in ready burning.
+71  0x0001a748 0x18001b548 20  42   .rdata  utf16le CBurn Oversize file.
+72  0x0001a778 0x18001b578 20  42   .rdata  utf16le CBurn Oversize file.
+73  0x0001a7b0 0x18001b5b0 37  76   .rdata  utf16le CBurn Conv file initialization error.
+74  0x0001a800 0x18001b600 37  76   .rdata  utf16le CBurn Conv file initialization error.
+75  0x0001a850 0x18001b650 22  46   .rdata  utf16le CBurn Conv file error.
+76  0x0001a880 0x18001b680 22  46   .rdata  utf16le CBurn Conv file error.
+77  0x0001a8b0 0x18001b6b0 28  58   .rdata  utf16le CBurn Conv file start error.
+78  0x0001a8f0 0x18001b6f0 28  58   .rdata  utf16le CBurn Conv file start error.
+79  0x0001a930 0x18001b730 29  60   .rdata  utf16le CBurn Other Error. ret = 0x%x
+80  0x0001a970 0x18001b770 29  60   .rdata  utf16le CBurn Other Error. ret = 0x%x
+81  0x0001a9b0 0x18001b7b0 13  14   .rdata  ascii   fun_SetDevice
+82  0x0001a9c0 0x18001b7c0 20  42   .rdata  utf16le CBurn SDK Exception.
+83  0x0001a9f0 0x18001b7f0 20  42   .rdata  utf16le CBurn SDK Exception.
+84  0x0001aa20 0x18001b820 13  14   .rdata  ascii   fun_BlankDisc
+85  0x0001aa30 0x18001b830 17  18   .rdata  ascii   fun_GetDiscInfoEx
+86  0x0001aa48 0x18001b848 15  16   .rdata  ascii   fun_SetCdSpeeds
+87  0x0001aa58 0x18001b858 11  12   .rdata  ascii   GetCdSpeeds
+88  0x0001aa68 0x18001b868 10  11   .rdata  ascii   fun_Unload
+89  0x0001aa78 0x18001b878 8   9    .rdata  ascii   fun_Load
+90  0x0001aa88 0x18001b888 17  18   .rdata  ascii   fun_IsDeviceReady
+91  0x0001aaa0 0x18001b8a0 20  42   .rdata  utf16le CBurn SDK Exception.
+92  0x0001aad0 0x18001b8d0 20  42   .rdata  utf16le CBurn SDK Exception.
+93  0x0001ab00 0x18001b900 27  28   .rdata  ascii   fun_GetVendorProductStrings
+94  0x0001ab20 0x18001b920 26  27   .rdata  ascii   fun_GetSupportedWriteModes
+95  0x0001ab40 0x18001b940 14  15   .rdata  ascii   fun_AbortWrite
+96  0x0001ab50 0x18001b950 20  42   .rdata  utf16le CBurn SDK Exception.
+97  0x0001ab80 0x18001b980 20  42   .rdata  utf16le CBurn SDK Exception.
+98  0x0001abb0 0x18001b9b0 20  42   .rdata  utf16le CBurn SDK Exception.
+99  0x0001abe0 0x18001b9e0 20  42   .rdata  utf16le CBurn SDK Exception.
+100 0x0001ac10 0x18001ba10 20  42   .rdata  utf16le CBurn SDK Exception.
+101 0x0001ac40 0x18001ba40 20  42   .rdata  utf16le CBurn SDK Exception.
+102 0x0001ac70 0x18001ba70 20  42   .rdata  utf16le CBurn SDK Exception.
+103 0x0001aca0 0x18001baa0 20  42   .rdata  utf16le CBurn SDK Exception.
+104 0x0001acd0 0x18001bad0 20  42   .rdata  utf16le CBurn SDK Exception.
+105 0x0001ad00 0x18001bb00 20  42   .rdata  utf16le CBurn SDK Exception.
+106 0x0001ad30 0x18001bb30 20  42   .rdata  utf16le CBurn SDK Exception.
+107 0x0001ad60 0x18001bb60 20  42   .rdata  utf16le CBurn SDK Exception.
+108 0x0001ad90 0x18001bb90 20  42   .rdata  utf16le CBurn SDK Exception.
+109 0x0001adc0 0x18001bbc0 20  42   .rdata  utf16le CBurn SDK Exception.
+110 0x0001adf0 0x18001bbf0 20  42   .rdata  utf16le CBurn SDK Exception.
+111 0x0001ae20 0x18001bc20 20  42   .rdata  utf16le CBurn SDK Exception.
+112 0x0001ae50 0x18001bc50 14  15   .rdata  ascii   fun_WriteClose
+113 0x0001ae60 0x18001bc60 18  19   .rdata  ascii   fun_WriteImageToCD
+114 0x0001ae78 0x18001bc78 20  21   .rdata  ascii   fun_WriteGetProgress
+115 0x0001ae90 0x18001bc90 20  42   .rdata  utf16le CBurn SDK Exception.
+116 0x0001aec0 0x18001bcc0 20  42   .rdata  utf16le CBurn SDK Exception.
+117 0x0001aef0 0x18001bcf0 28  29   .rdata  ascii   fun_WriteGetCurrBurnFileName
+118 0x0001af10 0x18001bd10 20  42   .rdata  utf16le CBurn SDK Exception.
+119 0x0001af40 0x18001bd40 20  42   .rdata  utf16le CBurn SDK Exception.
+120 0x0001af70 0x18001bd70 20  42   .rdata  utf16le CBurn SDK Exception.
+121 0x0001afa0 0x18001bda0 20  42   .rdata  utf16le CBurn SDK Exception.
+122 0x0001afd0 0x18001bdd0 20  42   .rdata  utf16le CBurn SDK Exception.
+123 0x0001b000 0x18001be00 20  42   .rdata  utf16le CBurn SDK Exception.
+124 0x0001b030 0x18001be30 20  42   .rdata  utf16le CBurn SDK Exception.
+125 0x0001b060 0x18001be60 20  42   .rdata  utf16le CBurn SDK Exception.
+126 0x0001b090 0x18001be90 20  42   .rdata  utf16le CBurn SDK Exception.
+127 0x0001b0c0 0x18001bec0 20  42   .rdata  utf16le CBurn SDK Exception.
+128 0x0001b0f0 0x18001bef0 20  42   .rdata  utf16le CBurn SDK Exception.
+129 0x0001b120 0x18001bf20 20  42   .rdata  utf16le CBurn SDK Exception.
+130 0x0001b150 0x18001bf50 20  42   .rdata  utf16le CBurn SDK Exception.
+131 0x0001b180 0x18001bf80 20  42   .rdata  utf16le CBurn SDK Exception.
+132 0x0001b1b0 0x18001bfb0 20  42   .rdata  utf16le CBurn SDK Exception.
+133 0x0001b1e0 0x18001bfe0 20  42   .rdata  utf16le CBurn SDK Exception.
+134 0x0001b210 0x18001c010 20  42   .rdata  utf16le CBurn SDK Exception.
+135 0x0001b240 0x18001c040 20  42   .rdata  utf16le CBurn SDK Exception.
+136 0x0001b270 0x18001c070 20  42   .rdata  utf16le CBurn SDK Exception.
+137 0x0001b2a0 0x18001c0a0 20  42   .rdata  utf16le CBurn SDK Exception.
+138 0x0001b2d0 0x18001c0d0 20  42   .rdata  utf16le CBurn SDK Exception.
+139 0x0001b300 0x18001c100 20  42   .rdata  utf16le CBurn SDK Exception.
+140 0x0001b330 0x18001c130 20  42   .rdata  utf16le CBurn SDK Exception.
+141 0x0001b360 0x18001c160 20  42   .rdata  utf16le CBurn SDK Exception.
+142 0x0001b390 0x18001c190 20  42   .rdata  utf16le CBurn SDK Exception.
+143 0x0001b3c0 0x18001c1c0 20  42   .rdata  utf16le CBurn SDK Exception.
+144 0x0001b3f0 0x18001c1f0 20  42   .rdata  utf16le CBurn SDK Exception.
+145 0x0001b420 0x18001c220 20  42   .rdata  utf16le CBurn SDK Exception.
+146 0x0001b450 0x18001c250 20  42   .rdata  utf16le CBurn SDK Exception.
+147 0x0001b480 0x18001c280 20  42   .rdata  utf16le CBurn SDK Exception.
+148 0x0001b4b0 0x18001c2b0 20  42   .rdata  utf16le CBurn SDK Exception.
+149 0x0001b4e0 0x18001c2e0 20  42   .rdata  utf16le CBurn SDK Exception.
+150 0x0001b510 0x18001c310 20  42   .rdata  utf16le CBurn SDK Exception.
+151 0x0001b540 0x18001c340 20  42   .rdata  utf16le CBurn SDK Exception.
+152 0x0001b570 0x18001c370 43  44   .rdata  ascii   fun_RealTimeWrite_SetEstimateTotalWriteSize
+153 0x0001b5a0 0x18001c3a0 23  24   .rdata  ascii   fun_RealTimeWrite_Begin
+154 0x0001b5b8 0x18001c3b8 28  29   .rdata  ascii   fun_RealTimeWrite_CreateFile
+155 0x0001b5d8 0x18001c3d8 20  42   .rdata  utf16le CBurn SDK Exception.
+156 0x0001b608 0x18001c408 20  42   .rdata  utf16le CBurn SDK Exception.
+157 0x0001b638 0x18001c438 27  28   .rdata  ascii   fun_RealTimeWrite_CloseFile
+158 0x0001b658 0x18001c458 21  22   .rdata  ascii   fun_RealTimeWrite_End
+159 0x0001b670 0x18001c470 39  40   .rdata  ascii   fun_RealTimeWrite_GetDiscRemainCapacity
+160 0x0001b698 0x18001c498 20  42   .rdata  utf16le CBurn SDK Exception.
+161 0x0001b6c8 0x18001c4c8 20  42   .rdata  utf16le CBurn SDK Exception.
+162 0x0001b6f8 0x18001c4f8 20  42   .rdata  utf16le CBurn SDK Exception.
+163 0x0001b728 0x18001c528 20  42   .rdata  utf16le CBurn SDK Exception.
+164 0x0001b758 0x18001c558 20  42   .rdata  utf16le CBurn SDK Exception.
+165 0x0001b788 0x18001c588 20  42   .rdata  utf16le CBurn SDK Exception.
+166 0x0001b7b8 0x18001c5b8 20  42   .rdata  utf16le CBurn SDK Exception.
+167 0x0001b7e8 0x18001c5e8 20  42   .rdata  utf16le CBurn SDK Exception.
+168 0x0001c760 0x18001d560 36  74   .rdata  utf16le \\.\pipe\reclib.dll_recv_param_%I64d
+169 0x0001c7c0 0x18001d5c0 37  76   .rdata  utf16le \\.\pipe\reclib.dll_recv_return_%I64d
+170 0x0001c840 0x18001d640 10  22   .rdata  utf16le reclib.exe
+171 0x0001c860 0x18001d660 5   12   .rdata  utf16le %I64d
+172 0x0001c878 0x18001d678 18  19   .rdata  ascii   vector<T> too long
+173 0x0001c8f0 0x18001d6f0 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+174 0x0001c940 0x18001d740 12  26   .rdata  utf16le kernel32.dll
+175 0x0001c960 0x18001d760 27  28   .rdata  ascii   InitializeConditionVariable
+176 0x0001c988 0x18001d788 24  25   .rdata  ascii   SleepConditionVariableCS
+177 0x0001c9a8 0x18001d7a8 24  25   .rdata  ascii   WakeAllConditionVariable
+178 0x0001ca10 0x18001d810 17  18   .rdata  ascii   Unknown exception
+179 0x0001ca48 0x18001d848 14  15   .rdata  ascii   bad allocation
+180 0x0001ca80 0x18001d880 20  21   .rdata  ascii   bad array new length
+181 0x0001dc38 0x18001ea38 5   6    .rdata  ascii   RSDS8
+182 0x0001dc50 0x18001ea50 52  53   .rdata  ascii   K:\_EPM_RE_main\Output\x64\Release_NoDriver\Burn.pdb
+183 0x00020225 0x180021025 5   6    .rdata  ascii   2\vp\f>
+184 0x0002093c 0x18002173c 8   9    .rdata  ascii   Burn.dll
+185 0x00020945 0x180021745 14  15   .rdata  ascii   TBCanUnloadNow
+186 0x00020954 0x180021754 14  15   .rdata  ascii   TBCreateObject
+187 0x00020d70 0x180022170 16  17   .data   ascii   .?AVITbCreator@@
+188 0x00020d98 0x180022198 30  31   .data   ascii   .?AV?$CTbBaseCreator@VILog@@@@
+189 0x00020dd0 0x1800221d0 15  16   .data   ascii   .?AVITBCommon@@
+190 0x00020df8 0x1800221f8 11  12   .data   ascii   .?AVIBurn@@
+191 0x00020e20 0x180022220 11  12   .data   ascii   .?AVCBurn@@
+192 0x00020e48 0x180022248 31  32   .data   ascii   .?AV?$CInterfaceImpl@VIBurn@@@@
+193 0x00020e88 0x180022288 41  42   .data   ascii   .?AV?$CTbCreator@VITbFile@@VCBurnFile@@@@
+194 0x00020ed0 0x1800222d0 33  34   .data   ascii   .?AV?$CTbBaseCreator@VITbFile@@@@
+195 0x00020f10 0x180022310 35  36   .data   ascii   .?AV?$CTbCreator@VIBurn@@VCBurn@@@@
+196 0x00020f50 0x180022350 31  32   .data   ascii   .?AV?$CTbBaseCreator@VIBurn@@@@
+197 0x00020f90 0x180022390 13  14   .data   ascii   .?AVITbFile@@
+198 0x00020fb8 0x1800223b8 15  16   .data   ascii   .?AVCBurnFile@@
+199 0x00020fe0 0x1800223e0 33  34   .data   ascii   .?AV?$CInterfaceImpl@VITbFile@@@@
+200 0x00021020 0x180022420 14  15   .data   ascii   .?AVCBurnSDK@@
+201 0x00021048 0x180022448 14  15   .data   ascii   .?AVIRecPipe@@
+202 0x00021070 0x180022470 20  21   .data   ascii   .?AVIResultManager@@
+203 0x000210a0 0x1800224a0 11  12   .data   ascii   .?AVCPipe@@
+204 0x000210c8 0x1800224c8 20  21   .data   ascii   .?AVCResultManager@@
+205 0x000210f8 0x1800224f8 15  16   .data   ascii   .?AVtype_info@@
+206 0x00021120 0x180022520 19  20   .data   ascii   .?AVbad_alloc@std@@
+207 0x00021150 0x180022550 19  20   .data   ascii   .?AVexception@std@@
+208 0x00021180 0x180022580 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+209 0x00024d70 0x18002a170 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x10000000
+binsz    1619176
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x00190436
+compiled Tue Aug 30 21:24:19 2033
+crypto   false
+dbg_file E:\AWork\share_lib\99_PublicLibrary\userrate\source\Output\Release\EuUserRate.pdb
+endian   little
+havecode true
+hdr.csum 0x00190436
+guid     359BA7EAE7024B3987A5FE398E08A60E2
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

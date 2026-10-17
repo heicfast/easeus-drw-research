@@ -1,0 +1,658 @@
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+@.reloc
+|$8+|$0
+\$<+\$4
+0A@@Ju
+HHtXHHt
+>If90t
+j@j ^V
+>=Yt1j
+< tK<	tG
+t"SS9]
+C PjPV
+C$PjQV
+C*PjTV
+C+PjUV
+C,PjVV
+C-PjWV
+C.PjRV
+C/PjSV
+.;1s(N
+HHt4HHt
+Ht\Ht,
+teHtFHt&Hu
+ty<%tA
+0SSSSS
+PPPPPPPP
+0SSSSS
+0SSSSS
+PPPPPPPP
+^SSSSS
+j"^SSSSS
+v	N+D$
+tM<it-<ot)<ut%<xt!<Xt
+<dty<itu<otq<utm<xti<Xte
+HIf98t
+HHtYHHt
+uL9=<:
+_VVVVV
+_VVVVV
+URPQQh
+t+WWVPV
+^SSSSS
+^SSSSS
+>:u8FV
+VVVVVQRSSj
+^SSSSS
+^SSSSS
+0SSSSS
+HHt*HHt
+tK<_t<<$t8<<t4<>t0<-t,<a|
+<z~$<A|
+<0|O<9
+tU<A|B<P
+tY<@tO<Zt
+t\<@tXj'
+Ft,Nt	NtFNt#NuV
+t.<@t5V
+TtUHtKHtAHt
+0t-HHt
+dj@hP;
+AtIHt0Hu
+u,VVWV
+t VV9u
+;t$,v-
+UQPXY]Y[
+^SSSSS
+^WWWWW
+0SSSSS
+8VVVVV
+HTTP://
+http://www.haansoft.com
+FilePathCheckerModuleExample
+bad allocation
+LC_TIME
+LC_NUMERIC
+LC_MONETARY
+LC_CTYPE
+LC_COLLATE
+LC_ALL
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+EncodePointer
+DecodePointer
+FlsFree
+FlsSetValue
+FlsGetValue
+FlsAlloc
+Unknown exception
+(null)
+`h````
+xpxxxx
+CorExitProcess
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+united-states
+united-kingdom
+trinidad & tobago
+south-korea
+south-africa
+south korea
+south africa
+slovak
+puerto-rico
+pr-china
+pr china
+new-zealand
+hong-kong
+holland
+great britain
+england
+britain
+america
+swedish-finland
+spanish-venezuela
+spanish-uruguay
+spanish-puerto rico
+spanish-peru
+spanish-paraguay
+spanish-panama
+spanish-nicaragua
+spanish-modern
+spanish-mexican
+spanish-honduras
+spanish-guatemala
+spanish-el salvador
+spanish-ecuador
+spanish-dominican republic
+spanish-costa rica
+spanish-colombia
+spanish-chile
+spanish-bolivia
+spanish-argentina
+portuguese-brazilian
+norwegian-nynorsk
+norwegian-bokmal
+norwegian
+italian-swiss
+irish-english
+german-swiss
+german-luxembourg
+german-lichtenstein
+german-austrian
+french-swiss
+french-luxembourg
+french-canadian
+french-belgian
+english-usa
+english-us
+english-uk
+english-trinidad y tobago
+english-south africa
+english-nz
+english-jamaica
+english-ire
+english-caribbean
+english-can
+english-belize
+english-aus
+english-american
+dutch-belgian
+chinese-traditional
+chinese-singapore
+chinese-simplified
+chinese-hongkong
+chinese
+canadian
+belgian
+australian
+american-english
+american english
+american
+Norwegian-Nynorsk
+runtime error 
+TLOSS error
+SING error
+DOMAIN error
+An application has made an attempt to load the C runtime library incorrectly.
+Please contact the application's support team for more information.
+- Attempt to use MSIL code from this assembly during native code initialization
+This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+- not enough space for locale information
+- Attempt to initialize the CRT more than once.
+This indicates a bug in your application.
+- CRT not initialized
+- unable to initialize heap
+- not enough space for lowio initialization
+- not enough space for stdio initialization
+- pure virtual function call
+- not enough space for _onexit/atexit table
+- unable to open console device
+- unexpected heap error
+- unexpected multithread lock error
+- not enough space for thread data
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+- not enough space for environment
+- not enough space for arguments
+- floating point support not loaded
+Microsoft Visual C++ Runtime Library
+<program name unknown>
+Runtime Error!
+Program: 
+`h`hhh
+xppwpp
+SystemFunction036
+ADVAPI32.DLL
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+ Complete Object Locator'
+ Class Hierarchy Descriptor'
+ Base Class Array'
+ Base Class Descriptor at (
+ Type Descriptor'
+`local static thread guard'
+`managed vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`vector copy constructor iterator'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector vbase copy constructor iterator'
+`eh vector copy constructor iterator'
+`managed vector destructor iterator'
+`managed vector constructor iterator'
+`placement delete[] closure'
+`placement delete closure'
+`omni callsig'
+ delete[]
+ new[]
+`local vftable constructor closure'
+`local vftable'
+`udt returning'
+`copy constructor closure'
+`eh vector vbase constructor iterator'
+`eh vector destructor iterator'
+`eh vector constructor iterator'
+`virtual displacement map'
+`vector vbase constructor iterator'
+`vector destructor iterator'
+`vector constructor iterator'
+`scalar deleting destructor'
+`default constructor closure'
+`vector deleting destructor'
+`vbase destructor'
+`string'
+`local static guard'
+`typeof'
+`vcall'
+`vbtable'
+`vftable'
+operator
+ delete
+__unaligned
+__restrict
+__ptr64
+__clrcall
+__fastcall
+__thiscall
+__stdcall
+__pascal
+__cdecl
+__based(
+{flat}
+`non-type-template-parameter
+unsigned 
+short 
+<ellipsis>
+,<ellipsis>
+ throw(
+`template-parameter
+cli::pin_ptr<
+cli::array<
+`anonymous namespace'
+generic-type-
+template-parameter-
+`unknown ecsu'
+union 
+struct 
+class 
+coclass 
+cointerface 
+extern "C" 
+[thunk]:
+public: 
+protected: 
+private: 
+virtual 
+static 
+`template static data member destructor helper'
+`template static data member constructor helper'
+`local static destructor helper'
+`adjustor{
+`vtordisp{
+`vtordispex{
+const 
+volatile 
+volatile
+ volatile
+signed 
+double
+UNKNOWN
+__int128
+wchar_t
+__int64
+__int16
+__int32
+__int8
+__w64 
+GetProcessWindowStation
+GetUserObjectInformationA
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+USER32.DLL
+CONIN$
+CONOUT$
+RSDSvx
+e:\AWork\DRW16.2.1-QT\DRWIntelligentScan\bin\Release\ShareBin\EUHwpFilePathCheckerModule.pdb
+GetTempPathA
+KERNEL32.dll
+SetWindowPos
+MapWindowPoints
+GetClientRect
+SystemParametersInfoA
+GetWindowRect
+GetWindow
+GetParent
+GetWindowLongA
+SetWindowTextA
+GetDlgItem
+EndDialog
+USER32.dll
+GetCurrentThreadId
+GetCommandLineA
+GetCPInfo
+InterlockedIncrement
+InterlockedDecrement
+GetACP
+GetOEMCP
+IsValidCodePage
+GetModuleHandleW
+GetProcAddress
+TlsGetValue
+TlsAlloc
+TlsSetValue
+TlsFree
+SetLastError
+GetLastError
+GetCurrentThread
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+HeapFree
+HeapAlloc
+RaiseException
+ExitProcess
+SetHandleCount
+GetStdHandle
+GetFileType
+GetStartupInfoA
+DeleteCriticalSection
+GetModuleFileNameA
+FreeEnvironmentStringsA
+GetEnvironmentStrings
+FreeEnvironmentStringsW
+WideCharToMultiByte
+GetEnvironmentStringsW
+HeapCreate
+HeapDestroy
+VirtualFree
+QueryPerformanceCounter
+GetTickCount
+GetCurrentProcessId
+GetSystemTimeAsFileTime
+LCMapStringA
+MultiByteToWideChar
+LCMapStringW
+GetStringTypeA
+GetStringTypeW
+LeaveCriticalSection
+FatalAppExitA
+EnterCriticalSection
+GetTimeFormatA
+GetDateFormatA
+GetUserDefaultLCID
+GetLocaleInfoA
+EnumSystemLocalesA
+IsValidLocale
+VirtualAlloc
+HeapReAlloc
+HeapSize
+WriteFile
+SetFilePointer
+GetConsoleCP
+GetConsoleMode
+SetConsoleCtrlHandler
+FreeLibrary
+InterlockedExchange
+LoadLibraryA
+InitializeCriticalSectionAndSpinCount
+RtlUnwind
+GetTimeZoneInformation
+SetStdHandle
+WriteConsoleA
+GetConsoleOutputCP
+WriteConsoleW
+GetLocaleInfoW
+CreateFileA
+CloseHandle
+FlushFileBuffers
+CompareStringA
+CompareStringW
+SetEnvironmentVariableA
+FilePathCheckerModuleExample.dll
+IsAccessiblePath
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+.?AVbad_cast@std@@
+.?AVbad_typeid@std@@
+.?AV__non_rtti_object@std@@
+.?AVtype_info@@
+PA<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD
+N0b0j0u0z0
+0K1a1s1
+2$292Z2
+3*40464<4B4H4N4T4Z4`4f4l4
+<7=d=(>e>|>
+0:0G0Q0_0h0r0
+434O4X4^4g4l4{4
+9"9L9X9
+<6=O=`=
+6/797E7N7
+8#8*8Q8W8b8n8
+9%969B9P9V9b9h9u9
+;"<2<8<D<J<Z<`<u<
+=$=*=.=4=9=?=D=S=i=t=y=
+6]6|6,7D7\7y7
+:5:^:c:z:
+: ;@;V;\;
+<$=0>7>|?
+<"<><[<I=s=
+0&0/040:0D0M0X0d0i0y0~0
+1N1W1c1
+2'202]2x2~2
+4"4.464F4[4
+7"8@8b8m8|8
+9#949?9R9
+; ;%;+;
+=K=P=^=f=r=y=
+21292p2'393F3R3\3d3o3
+72797C7K7X7_7
+9F9T9Z9}9
+9I:[:e:o:
+1$1(1,1014181<1@1
+1P2d2z2
+6%7.7}7
+9+9Z9i95?
+?#?'?+?/?3?7?;???C?
+G5K5O5S5W5[5_5c5g5k5o5s5w5{5
+=-=f=t=
+[0i0o0
+1%1+161;1C1I1S1Z1n1u1{1
+6+646A6L6^6j6x6~6
+9':-:T:`:
+=3=S=X=
+1+202X2}2
+>)>M>_>m>
+0	142R2
+889V9|95:M::;
+3#4M4K8
+8+;/;3;7;;;?;C;G;
+7 858{8
+</<M<a<g<
+='=R=]=k=p=u=z=
+=%>T>t>
+0(000H0
+0B1G1N1S1Z1_1
+263>3K3
+=)=A=h=y=~=
+171?1I1V1^1d1j1
+2(2/2:2B2J2S2\2j2x2
+233@3N3[3n3{3
+:/;H;O;W;\;`;d;
+;><D<H<L<P<
+=;=m=t=x=|=
+0A1F2p2
+4"444B4P4^4i4t4
+9(9/969?9G9M9S9
+4[5m5s5
+7V7Z7^7b7f7j7n7r7|7
+8 8,838<8A8X8k8
+=(=C=N=
+= >>>v>
+>S?^?c?
+0+0<0K0k0=1Z1i1y1
+152S2o2
+3>3L3\3s3
+7!7A7,8
+9A9Q9d9
+;A;L;];w;};
+<!<.<m<|<
+>)>D>K>R>
+?)?b?{?
+;D;L;a;{;
+;$<8<H<
+8D8I8j8v8
+:";*;0;6;<;c;
+=Q>_>m>
+?"?&?*?.?2?K?
+2(2.2<2E2T2Y2c2q2
+2*31373d3k3
+7R8n8|8
+>(>N>V>g>x>
+4.5A5r5
+62686=6C6J6\6
+1S2Y2e2t2
+3h5n5t5z5
+6"6(6.646:6@6F6L6R6X6^6d6j6p6v6|6
+7$7*70767<7B7H7N7T7Z7`7d7i7
+3$4(4,4D4H4L4P4T4X4\4`4d4h4l4
+4 4(40484@4H4P4X4`4h4p4x4
+5 5(50585@5H5P5X5`5h5p5x5
+6 6(60686@6H6P6X6`6h6p6x6
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+:$:<:L:P:`:d:h:p:
+; ;T;\;d;h;p;
+< <@<L<h<t<
+=8=X=x=
+>8>X>x>
+?4?8?T?X?t?x?
+080X0x0
+1$1@1`1
+2(2H2h2
+0,0x4p5
+6<6H6L6P6T6X6`6d6
+8 8D8H8`8d8h8
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+;$;,;4;<;D;L;T;\;d;l;t;|;
+;@>D>H>L>P>T>X>\>`>d>
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+L&]S><
+1+Dh6R-
+20261013060528Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013060528Z0+
+/1(0&0$0"
+Eu6QI]

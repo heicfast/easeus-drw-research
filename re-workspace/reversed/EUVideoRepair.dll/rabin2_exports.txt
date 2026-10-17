@@ -1,0 +1,4 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib               name             demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00010a00 0x180011600 GLOBAL FUNC 0    EUVideoRepair.dll GetIMovMp4Repair

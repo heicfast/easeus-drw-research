@@ -1,0 +1,771 @@
+{00000000-0000-0000-0000-000000000000}
+Bcdedit.exe
+/enum 
+%S fail!
+/create 
+/device
+/application osloader
+/application bootsector
+[CBcdEditProc]CreateBcdEntry fail,code : %d,%s
+,output : %S
+[CBcdEditProc]ExecAnyCommand fail,code : %d,%s
+,output : %S
+[CBcdEditProc]ExecAnyCommandW fail,code : %d,%s
+,output : %S
+[CBcdEditProc]ExecCommand fail,code : %d,%s
+,output : %S
+[CBcdEditProc]ExecCommandW fail,code : %d,%s
+,output : %S
+/deletevalue 
+/enum {default} /v
+[CBcdEditProc]DelKeyCommand fail,code : %d,%s
+,output : %S
+%S fail!
+/enum {current} /v
+Kernel32.dll
+%S fail!
+M/default 
+/displayorder 
+ /addfirst
+ /addlast
+/delete 
+/displayorder 
+ /remove
+/store 
+\Bcdboot.exe
+\BootSect.exe
+%s %C:\windows /s %C:\ /f %s
+%s /nt60 %C: /mbr
+[%s_%d]%s fail,code : %d,output : %S!
+:AM:am:PM:pm
+{00000000-0000-0000-0000-000000000000}
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+Def loader is same as PE ramdisk,%S
+Def boot loader : %S
+Save partition para ret ,%S,%d
+%c:\Boot.ini
+Mdefault
+boot loader
+%S fail!
+%c:\Boot.ini
+default
+boot loader
+default
+boot loader
+C:\ESLOADPE
+operating systems
+%S fail!
+A:\Boot\BCD
+A:\ESLOADPE
+\Bcdedit.exe
+A:\EPMPEBatch.ept
+%S fail!,0x%x
+%S fail!,0x%x
+%S fail!
+c%S fail!
+%s\EFI\Microsoft\Boot\BCD
+%s\Boot\BCD
+SOFTWARE\EASEUS\EPM\VMDK
+SOFTWARE\EASEUS\EPM\VMDK
+Def loader is same as Load PE,%S
+Def loader is same as PE ramdisk,%S
+Def boot loader : %S
+Save disk para ret ,%S,%d
+[CEUClonePostProc] %S fail!
+[CEUClonePostProc] %S fail!
+[CEUClonePostProc] %S fail!
+[CEUClonePostProc] %S fail!
+%c:\EFI\Microsoft\Boot\BCD
+%c:\Boot\BCD
+[CEUClonePostProc] %S fail!
+l%c:\EFI\Microsoft\Boot\BCD
+%c:\Boot\BCD
+[CEUClonePostProc] %S fail!
+[CEUClonePostProc] %S fail!
+[CEUClonePostProc] %S fail!
+[CEUClonePostProc] %S fail!
+\Windows
+\Windows\System32\winload.efi
+\Windows\System32\boot\winload.exe
+[CEUClonePostItem] %S fail!
+[CEUClonePostItem] %S fail!
+TempSystem\MountedDevices
+%c:\Windows\System32\Config\System
+TempSystem
+TempSystem
+TempSystem
+[CEUClonePostItem] %S fail!
+[CEUClonePostProc] %S fail!
+Z[CEUClonePostProc] %S fail!
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+r%S %S %d failed.
+r%S %S %d failed.
+r%S %S %d failed.
+r%S %S %d failed.
+r%S %S %d failed.
+r%S %S %d failed.
+%c:\Boot
+s[CPEBcdProc] %S %s fail!
+l%s\Boot\BCD
+[CPEBcdProc] GetIsoImageInfo fail!
+[CPEBcdProc] %S fail!
+%s\EFI\Microsoft\Boot\BCD
+%s\Boot\BCD
+[CPEBcdProc] %S fail!
+[CPEBcdProc] %S fail!
+ESLOADPE
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+%c:\BOOT.INI
+C:\ESLOADPE
+operating systems
+EaseUS Partition Master Windows PE
+default
+boot loader
+BOOTMGR
+BOOTMGR
+e[CPEBcdProc] %S fail!
+%s\%04depmtest%02x.tmp
+EASEUSEPMPE.SDI
+SOURCES/BOOT.WIM
+_isDirWriteAble ret %d,count : %d,%s
+BOOT/BOOT.SDI
+BOOT/BOOT.SDI
+BOOT/BOOT.SDI
+EASEUSEPMPE.WIM
+SOURCES/BOOT.WIM
+SOURCES/BOOT.WIM
+\FONTS
+\WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+[CPEBcdProc] %S fail!
+EASEUSEPMPE.SDI
+BOOT/BOOT.SDI
+BOOT/BOOT.SDI
+BOOT/BOOT.SDI
+EASEUSEPMPE.WIM
+SOURCES/BOOT.WIM
+SOURCES/BOOT.WIM
+SOURCES/BOOT.WIM
+\FONTS
+\WGL4_BOOT.TTF
+lBOOT/FONTS/WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+e[CPEBcdProc] %S fail!
+\BOOT\
+\Bcdedit.exe
+BOOTMGR
+BOOTMGR
+BOOTMGR
+[CPEBcdProc] %S fail!
+[CPEBcdProc] %S fail!
+BOOTMGR.EFI
+BOOT/EASEUSPE.BIN
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d EFI not support in image
+[CPEBcdProc]%S %d,%d
+[CPEBcdProc]%S fail
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+[CPEBcdProc] %S failed!,%s,%s,err : %d
+[CPEBcdProc] %S failed!,%s,err : %d
+[CPEBcdProc] %S %s fail!
+[CPEBcdProc] %S failed!,%s,%s,err : %d
+[CPEBcdProc] %S fail!
+[CPEBcdProc] %S fail!
+Boot:%S %S %d CreateFile:%s failed:%08X
+Boot:%S %S %d BootIsFileExist:%s failed:%08X
+Everyone
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %S %d GetFileAttributes:%s failed:%08X
+Boot:%S %S %d SetFileAttributes:%s failed:%08X
+Boot:%S %S %d WritePrivateProfileString:%s failed:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+Kernel32.dll
+%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d Disk:%s failed:%08X
+%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d failed
+Boot:%S %d File:%s failed:%08X
+..\BUILDPE\Downloads\tools.zip
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+%s\Boot\BCD
+%s\EFI\Microsoft\Boot\BCD
+%s\Boot\BCD
+s[CPreOsPEBcdProc] %S fail!
+%s\Boot\BCD
+%s\EFI\Microsoft\Boot\BCD
+%s\Boot\BCD
+[CPreOsPEBcdProc] %S fail!
+l%c:\PeBoot
+[CPreOsPEBcdProc] %S %s fail!
+[CPreOsPEBcdProc] GetIsoImageInfo fail!
+e[CPreOsPEBcdProc] %S fail!
+%s\Boot\BCD
+%s\EFI\Microsoft\Boot\BCD
+%s\Boot\BCD
+[CPreOsPEBcdProc] %S fail!
+l[CPreOsPEBcdProc] %S fail!
+MNTLDR
+ESLOADPE
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+%c:\BOOT.INI
+C:\ESLOADPE
+EaseUS Partition Master PreOS
+operating systems
+default
+boot loader
+BOOTMGR
+BOOTMGR
+[CPreOsPEBcdProc] %S fail!
+%s\%04depmtest%02x.tmp
+EASEUSEPMPE.SDI
+SOURCES/BOOT.WIM
+_isDirWriteAble ret %d,count : %d,%s
+BOOT/BOOT.SDI
+BOOT/BOOT.SDI
+BOOT/BOOT.SDI
+EASEUSEPMPE.WIM
+SOURCES/BOOT.WIM
+SOURCES/BOOT.WIM
+\FONTS
+\WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+[CPreOsPEBcdProc] %S fail!
+EASEUSEPMPE.SDI
+BOOT/BOOT.SDI
+BOOT/BOOT.SDI
+lBOOT/BOOT.SDI
+EASEUSEPMPE.WIM
+SOURCES/BOOT.WIM
+SOURCES/BOOT.WIM
+SOURCES/BOOT.WIM
+\FONTS
+\WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+BOOT/FONTS/WGL4_BOOT.TTF
+[CPreOsPEBcdProc] %S fail!
+\BOOT\
+\Bcdedit.exe
+BOOTMGR
+BOOTMGR
+BOOTMGR
+[CPreOsPEBcdProc] %S fail!
+[CPreOsPEBcdProc] %S fail!
+BOOTMGR.EFI
+BOOT/EASEUSPE.BIN
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d EFI not support in image
+s[CPreOsPEBcdProc]%S %d,%d
+[CPreOsPEBcdProc]%S fail
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+k%S %S %d failed.
+k%S %S %d failed.
+%S %S %d failed.
+k%S %S %d failed.
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+[CPreOsPEBcdProc] %S failed!,%s,%s,err : %d
+[CPreOsPEBcdProc] %S failed!,%s,err : %d
+[CPreOsPEBcdProc] %S failed!,%s,%s,err : %d
+[CPreOsPEBcdProc] %S %s fail!
+[CPreOsPEBcdProc] %S fail!
+[CPreOsPEBcdProc] %S fail!
+\BootMgr
+\Boot\BCD
+\EFI\MicroSoft\Boot\bootmgfw.efi
+\EFI\MicroSoft\Boot\BCD
+Ntdll.dll
+Kernel32.dll
+\Device\Harddisk%d\Partition%d
+\Device\HarddiskVolume%d
+\Device\HarddiskVolume%d
+\Device\Harddisk%d\Partition%d
+\\.\MountPointManager
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+.te-IN
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+.ar-ye
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+[DevNotifyManager] Resume!
+[DevNotifyManager] ++++++++++++ Begin Monitor --------------
+[DevNotifyManager] ++++++++++++ End Monitor --------------
+[DevNotifyManager] RefreshMonitor
+[DevNotifyManager] *** Notify dev change *** ,eventType : %d,%d
+[SecurityManagerObj]InitProc fail!,%d
+ProductName
+\Registry\Machine\SOFTWARE\Microsoft\Windows NT\CurrentVersion\
+Data Partition
+EFI System partition
+Boot partition
+Global\20230920-VIRTUAL-DISK-NOTIFY-EVENT
+\??\sysvoltemppart
+\??\bootvoltemppart
+WTempSystem\MountedDevices
+TempSystem
+%c:\Windows\System32\Config\System
+TempSystem
+pTempSystem
+W%s\Windows\Boot\EFI
+W%s\EFI\Microsoft\Boot
+%s\EFI\Boot
+%s\EFI\Microsoft\Boot\bootmgfw.efi
+%s\EFI\Boot\bootx64.efi
+%s\EFI\Boot\bootia32.efi
+%s\Windows\Boot\Fonts
+%s\EFI\Microsoft\Boot\Fonts
+%s\Windows\Boot\Resources
+%s\EFI\Microsoft\Boot\Resources
+%s\Windows\System32\Config\SOFTWARE
+TmpSoftWare
+TmpSoftWare\Microsoft\Windows NT\CurrentVersion
+ProductName
+TmpSoftWare
+{00000000-0000-0000-0000-000000000000}
+%s\TempBCD
+%s\EFI\Microsoft\Boot\BCD
+\Device\Harddisk%d\Partition%d
+%s\EFI\Microsoft\Boot\BCD
+TmpBCD
+TmpBCD
+Element
+TmpBCD\Objects\{9dea862c-5cdd-4e70-acc1-f32b344d4795}\Elements\23000003
+{9dea862c-5cdd-4e70-acc1-f32b344d4795}
+TmpBCD\Objects\%s\Elements\12000004
+Element
+TmpBCD
+%s\Windows\Boot\PCAT
+%s\Boot
+%s\Windows\Boot\PCAT\bootmgr
+%s\bootmgr
+%s\Windows\Boot\Fonts
+%s\Boot\Fonts
+%s\Boot\BCD
+%s\Boot\BCD
+%s\EFI\Microsoft\Boot
+winload.exe
+winload.efi
+TmpSoftWare
+%s\Windows\System32\Config\SOFTWARE
+TmpSoftWare
+TmpSoftWare\Microsoft\Windows NT\CurrentVersion
+ProductName
+TmpSoftWare
+TempSystem
+%s\Windows\System32\Config\System
+TempSystem
+TempSystem\MountedDevices
+TempSystem
+W{00000000-0000-0000-0000-000000000000}
+\Device\Harddisk%d\Partition%d
+%s\EFI\Microsoft\Boot\BCD
+%s\Boot\BCD
+TmpBCD
+TmpBCD
+TmpBCD\Objects\{9dea862c-5cdd-4e70-acc1-f32b344d4795}\Elements\23000003
+Element
+{9dea862c-5cdd-4e70-acc1-f32b344d4795}
+TmpBCD\Objects\%s\Elements\12000004
+Element
+TmpBCD
+ERROR : Unable to initialize critical section in CAtlBaseModule
+ForceRemove
+NoRemove
+Delete
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz
+BOOTMGR
+win7-efi\Desktop\
+\win7uefi
+BCD00000001
+ive (1.0)
+EFI Network
+EFI Internal Shell (Unsupported option)
+{4636856e-540f-4170-a130-a84776f4c654}
+{0ce4991b-e6b3-4b16-b23c-5e0d9250e5d9}
+{5189b25c-5558-4bf2-bca4-289b11bd29e2}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ff607e0-4395-11db-b0de-0800200c9a66}
+Windows Resume Application
+{1afa9c49-16ab-4a5c-901b-212802da9460}
+\hiberfil.sys
+\Windows\system32\winresume.efi
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+\EFI\Microsoft\Boot\memtest.efi
+Windows Memory Diagnostic
+\Windows
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{c31a2e3e-6dc9-11e3-b483-9a15da3825f7}
+\Windows\system32\winload.efi
+Windows 7
+\EFI\Microsoft\Boot\bootmgfw.efi
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{c31a2e3f-6dc9-11e3-b483-9a15da3825f7}
+{c31a2e3e-6dc9-11e3-b483-9a15da3825f7}
+{c31a2e3f-6dc9-11e3-b483-9a15da3825f7}
+{b2721d73-1db4-4c62-bf78-c548a880142d}
+BCDOBJECT={9dea862c-5cdd-4e70-acc1-f32b344d4795}
+Windows Boot Manager
+F\EFI\Microsoft\Boot\bootmgfw.efi
+\windows
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\boot.sdi
+Ramdisk Options
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\Winre.wim
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\Winre.wim
+\windows\system32\winload.efi
+Windows Recovery Environment
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{c31a2e40-6dc9-11e3-b483-9a15da3825f7}
+Windows Boot Manager
+{9dea862c-5cdd-4e70-acc1-f32b344d4795}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+win7-efi\Desktop\
+\win8uefi
+BCD00000001
+{94145fe7-3920-11e4-aa87-bad9782f5591}
+option)
+{4636856e-540f-4170-a130-a84776f4c654}
+{0ce4991b-e6b3-4b16-b23c-5e0d9250e5d9}
+{5189b25c-5558-4bf2-bca4-289b11bd29e2}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ff607e0-4395-11db-b0de-0800200c9a66}
+Windows Resume Application
+{1afa9c49-16ab-4a5c-901b-212802da9460}
+\hiberfil.sys
+\Windows\system32\winresume.efi
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+\EFI\Microsoft\Boot\memtest.efi
+Windows Memory Diagnostic
+\Windows
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{c31a2e3e-6dc9-11e3-b483-9a15da3825f7}
+\Windows\system32\winload.efi
+Windows 8
+\EFI\Microsoft\Boot\bootmgfw.efi
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{c31a2e3f-6dc9-11e3-b483-9a15da3825f7}
+{c31a2e3e-6dc9-11e3-b483-9a15da3825f7}
+{c31a2e3f-6dc9-11e3-b483-9a15da3825f7}
+{b2721d73-1db4-4c62-bf78-c548a880142d}
+BCDOBJECT={9dea862c-5cdd-4e70-acc1-f32b344d4795}
+Windows Boot Manager
+F\EFI\Microsoft\Boot\bootmgfw.efi
+\windows
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\boot.sdi
+Ramdisk Options
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\Winre.wim
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\Winre.wim
+\windows\system32\winload.efi
+Windows Recovery Environment
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{c31a2e40-6dc9-11e3-b483-9a15da3825f7}
+Windows Boot Manager
+{9dea862c-5cdd-4e70-acc1-f32b344d4795}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+in7-efi\Desktop\
+\win10uefi
+BCD00000001
+{94145fe7-3920-11e4-aa87-bad9782f5591}
+Windows 10
+option)
+{4636856e-540f-4170-a130-a84776f4c654}
+{0ce4991b-e6b3-4b16-b23c-5e0d9250e5d9}
+{5189b25c-5558-4bf2-bca4-289b11bd29e2}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ff607e0-4395-11db-b0de-0800200c9a66}
+Windows Resume Application
+{1afa9c49-16ab-4a5c-901b-212802da9460}
+\hiberfil.sys
+\Windows\system32\winresume.efi
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+\EFI\Microsoft\Boot\memtest.efi
+Windows Memory Diagnostic
+\Windows
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{c31a2e3e-6dc9-11e3-b483-9a15da3825f7}
+\Windows\system32\winload.efi
+Windows 7
+\EFI\Microsoft\Boot\bootmgfw.efi
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{c31a2e3f-6dc9-11e3-b483-9a15da3825f7}
+{c31a2e3e-6dc9-11e3-b483-9a15da3825f7}
+{c31a2e3f-6dc9-11e3-b483-9a15da3825f7}
+{b2721d73-1db4-4c62-bf78-c548a880142d}
+BCDOBJECT={9dea862c-5cdd-4e70-acc1-f32b344d4795}
+Windows Boot Manager
+F\EFI\Microsoft\Boot\bootmgfw.efi
+\windows
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\boot.sdi
+Ramdisk Options
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\Winre.wim
+\Recovery\c31a2e40-6dc9-11e3-b483-9a15da3825f7\Winre.wim
+\windows\system32\winload.efi
+Windows Recovery Environment
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{c31a2e40-6dc9-11e3-b483-9a15da3825f7}
+Windows Boot Manager
+{9dea862c-5cdd-4e70-acc1-f32b344d4795}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+c31a2e3d-6dc9-11e3-b483-9a15da3825f7}
+rs\WIN7X64\Desktop\111\win7bios
+BCD00000001
+{4636856e-540f-4170-a130-a84776f4c654}
+{0ce4991b-e6b3-4b16-b23c-5e0d9250e5d9}
+{5189b25c-5558-4bf2-bca4-289b11bd29e2}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ff607e0-4395-11db-b0de-0800200c9a66}
+Windows Resume Application
+{1afa9c49-16ab-4a5c-901b-212802da9460}
+\hiberfil.sys
+\Windows\system32\winresume.exe
+\boot\memtest.exe
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+Windows Memory Diagnostic
+\Windows
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{5028d454-c75e-11e3-afd4-977265cb29a6}
+\Windows\system32\winload.exe
+Windows 7
+Windows Boot Manager
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{5028d455-c75e-11e3-afd4-977265cb29a6}
+{5028d454-c75e-11e3-afd4-977265cb29a6}
+{5028d455-c75e-11e3-afd4-977265cb29a6}
+{b2721d73-1db4-4c62-bf78-c548a880142d}
+\windows
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\boot.sdi
+Ramdisk Options
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\Winre.wim
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\Winre.wim
+\system32\winload.exe
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{5028d456-c75e-11e3-afd4-977265cb29a6}
+rs\WIN7X64\Desktop\111\win8bios
+{5028d456-c75e-11e3-afd4-977265cb29a6}
+BCD00000001
+{4636856e-540f-4170-a130-a84776f4c654}
+{0ce4991b-e6b3-4b16-b23c-5e0d9250e5d9}
+{5189b25c-5558-4bf2-bca4-289b11bd29e2}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ff607e0-4395-11db-b0de-0800200c9a66}
+Windows Resume Application
+{1afa9c49-16ab-4a5c-901b-212802da9460}
+\hiberfil.sys
+\Windows\system32\winresume.exe
+\boot\memtest.exe
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+Windows Memory Diagnostic
+\Windows
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{5028d454-c75e-11e3-afd4-977265cb29a6}
+\Windows\system32\winload.exe
+Windows 8
+Windows Boot Manager
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{5028d455-c75e-11e3-afd4-977265cb29a6}
+{5028d454-c75e-11e3-afd4-977265cb29a6}
+{5028d455-c75e-11e3-afd4-977265cb29a6}
+{b2721d73-1db4-4c62-bf78-c548a880142d}
+\windows
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\boot.sdi
+Ramdisk Options
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\Winre.wim
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\Winre.wim
+\system32\winload.exe
+{5028d456-c75e-11e3-afd4-977265cb29a6}
+s\WIN7X64\Desktop\111\win10bios
+{5028d456-c75e-11e3-afd4-977265cb29a6}
+BCD00000001
+{4636856e-540f-4170-a130-a84776f4c654}
+{0ce4991b-e6b3-4b16-b23c-5e0d9250e5d9}
+{5189b25c-5558-4bf2-bca4-289b11bd29e2}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{7ff607e0-4395-11db-b0de-0800200c9a66}
+Windows 10
+Windows Resume Application
+{1afa9c49-16ab-4a5c-901b-212802da9460}
+\hiberfil.sys
+\Windows\system32\winresume.exe
+\boot\memtest.exe
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+Windows Memory Diagnostic
+\Windows
+{6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+{5028d454-c75e-11e3-afd4-977265cb29a6}
+\Windows\system32\winload.exe
+Windows Boot Manager
+{7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+{5028d455-c75e-11e3-afd4-977265cb29a6}
+{5028d454-c75e-11e3-afd4-977265cb29a6}
+{5028d455-c75e-11e3-afd4-977265cb29a6}
+{b2721d73-1db4-4c62-bf78-c548a880142d}
+\windows
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\boot.sdi
+Ramdisk Options
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\Winre.wim
+\Recovery\5028d456-c75e-11e3-afd4-977265cb29a6\Winre.wim
+\system32\winload.exe
+{5028d456-c75e-11e3-afd4-977265cb29a6}

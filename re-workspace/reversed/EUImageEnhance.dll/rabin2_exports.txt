@@ -1,0 +1,7 @@
+[Exports]
+nth paddr      vaddr      bind   type size lib              name                   demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x000016e0 0x100022e0 GLOBAL FUNC 0    ImageEnhance.dll EnhanceMemData
+2   0x00001a20 0x10002620 GLOBAL FUNC 0    ImageEnhance.dll EUCalcDamageProportion
+3   0x00001eb0 0x10002ab0 GLOBAL FUNC 0    ImageEnhance.dll EUbeSimilarPictures
+4   0x00003c20 0x10004820 GLOBAL FUNC 0    ImageEnhance.dll BmpBlur

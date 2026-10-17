@@ -1,0 +1,171 @@
+[Strings]
+nth paddr      vaddr       len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00009fb8 0x18000b5b8 31  32   .rdata  ascii   FDT is Error current dir item.\n
+1   0x00009fd8 0x18000b5d8 30  31   .rdata  ascii   FDT is Error parent dir item.\n
+2   0x0000a118 0x18000b718 8   9    .rdata  ascii   FAT32
+3   0x0000a128 0x18000b728 49  50   .rdata  ascii   read sector error.start:%I64d,count:%d, ERROR: %d
+4   0x0000a160 0x18000b760 50  51   .rdata  ascii   write sector error.start:%I64d,count:%d, ERROR: %d
+5   0x0000a228 0x18000b828 18  19   .rdata  ascii   vector<T> too long
+6   0x0000a348 0x18000b948 27  28   .rdata  ascii   Error!.Fat has cycle item.\n
+7   0x0000a368 0x18000b968 24  25   .rdata  ascii   Fat table item is zero.\n
+8   0x0000a388 0x18000b988 32  33   .rdata  ascii   fat table item has bad cluster.\n
+9   0x0000a3b0 0x18000b9b0 33  34   .rdata  ascii   fat table item has invalid item.\n
+10  0x0000a3d8 0x18000b9d8 16  17   .rdata  ascii   Has bad cluster.
+11  0x0000a8a0 0x18000bea0 9   10   .rdata  ascii   GetModule
+12  0x0000a8ac 0x18000beac 6   7    .rdata  ascii   FatLib
+13  0x0000a8b8 0x18000beb8 13  14   .rdata  ascii   CFatLibModule
+14  0x0000a988 0x18000bf88 6   7    .rdata  ascii   Thread
+15  0x0000a990 0x18000bf90 15  16   .rdata  ascii   string too long
+16  0x0000a9a0 0x18000bfa0 19  20   .rdata  ascii   map/set<T> too long
+17  0x0000a9e0 0x18000bfe0 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+18  0x0000aa28 0x18000c028 12  26   .rdata  utf16le kernel32.dll
+19  0x0000aa48 0x18000c048 27  28   .rdata  ascii   InitializeConditionVariable
+20  0x0000aa68 0x18000c068 24  25   .rdata  ascii   SleepConditionVariableCS
+21  0x0000aa88 0x18000c088 24  25   .rdata  ascii   WakeAllConditionVariable
+22  0x0000ab10 0x18000c110 17  18   .rdata  ascii   Unknown exception
+23  0x0000ab40 0x18000c140 14  15   .rdata  ascii   bad allocation
+24  0x0000ab68 0x18000c168 20  21   .rdata  ascii   bad array new length
+25  0x0000b70c 0x18000cd0c 5   6    .rdata  ascii   RSDSC
+26  0x0000b724 0x18000cd24 60  61   .rdata  ascii   I:\_drw_main\PartitionRecovery\Output\Release_x64\FatLib.pdb
+27  0x0000b784 0x18000cd84 8   9    .rdata  ascii   .text$mn
+28  0x0000b798 0x18000cd98 11  12   .rdata  ascii   .text$mn$00
+29  0x0000b7ac 0x18000cdac 7   8    .rdata  ascii   .text$x
+30  0x0000b7bc 0x18000cdbc 8   9    .rdata  ascii   .text$yd
+31  0x0000b7d0 0x18000cdd0 8   9    .rdata  ascii   .idata$5
+32  0x0000b7e4 0x18000cde4 6   7    .rdata  ascii   .00cfg
+33  0x0000b7f4 0x18000cdf4 8   9    .rdata  ascii   .CRT$XCA
+34  0x0000b808 0x18000ce08 8   9    .rdata  ascii   .CRT$XCZ
+35  0x0000b81c 0x18000ce1c 8   9    .rdata  ascii   .CRT$XIA
+36  0x0000b830 0x18000ce30 8   9    .rdata  ascii   .CRT$XIC
+37  0x0000b844 0x18000ce44 8   9    .rdata  ascii   .CRT$XIZ
+38  0x0000b858 0x18000ce58 8   9    .rdata  ascii   .CRT$XLA
+39  0x0000b86c 0x18000ce6c 8   9    .rdata  ascii   .CRT$XLZ
+40  0x0000b880 0x18000ce80 8   9    .rdata  ascii   .CRT$XPA
+41  0x0000b894 0x18000ce94 8   9    .rdata  ascii   .CRT$XPZ
+42  0x0000b8a8 0x18000cea8 8   9    .rdata  ascii   .CRT$XTA
+43  0x0000b8bc 0x18000cebc 8   9    .rdata  ascii   .CRT$XTZ
+44  0x0000b8d0 0x18000ced0 6   7    .rdata  ascii   .rdata
+45  0x0000b8e0 0x18000cee0 8   9    .rdata  ascii   .rdata$T
+46  0x0000b8f4 0x18000cef4 8   9    .rdata  ascii   .rdata$r
+47  0x0000b908 0x18000cf08 13  14   .rdata  ascii   .rdata$zzzdbg
+48  0x0000b920 0x18000cf20 8   9    .rdata  ascii   .rtc$IAA
+49  0x0000b934 0x18000cf34 8   9    .rdata  ascii   .rtc$IZZ
+50  0x0000b948 0x18000cf48 8   9    .rdata  ascii   .rtc$TAA
+51  0x0000b95c 0x18000cf5c 8   9    .rdata  ascii   .rtc$TZZ
+52  0x0000b970 0x18000cf70 4   5    .rdata  ascii   .tls
+53  0x0000b980 0x18000cf80 5   6    .rdata  ascii   .tls$
+54  0x0000b990 0x18000cf90 8   9    .rdata  ascii   .tls$ZZZ
+55  0x0000b9a4 0x18000cfa4 6   7    .rdata  ascii   .xdata
+56  0x0000b9b4 0x18000cfb4 8   9    .rdata  ascii   .xdata$x
+57  0x0000b9c8 0x18000cfc8 6   7    .rdata  ascii   .edata
+58  0x0000b9d8 0x18000cfd8 8   9    .rdata  ascii   .idata$2
+59  0x0000b9ec 0x18000cfec 8   9    .rdata  ascii   .idata$3
+60  0x0000ba00 0x18000d000 8   9    .rdata  ascii   .idata$4
+61  0x0000ba14 0x18000d014 8   9    .rdata  ascii   .idata$6
+62  0x0000ba28 0x18000d028 5   6    .rdata  ascii   .data
+63  0x0000ba38 0x18000d038 7   8    .rdata  ascii   .data$r
+64  0x0000ba48 0x18000d048 4   5    .rdata  ascii   .bss
+65  0x0000ba58 0x18000d058 6   7    .rdata  ascii   .pdata
+66  0x0000ba68 0x18000d068 8   9    .rdata  ascii   .rsrc$01
+67  0x0000ba7c 0x18000d07c 8   9    .rdata  ascii   .rsrc$02
+68  0x0000bec8 0x18000d4c8 6   7    .rdata  ascii   \rp\f`\v0
+69  0x0000bf25 0x18000d525 4   5    .rdata  ascii   2\vp!
+70  0x0000bf8a 0x18000d58a 4   5    .rdata  ascii   \bp\a`
+71  0x0000bfa2 0x18000d5a2 4   5    .rdata  ascii   \bp\a`
+72  0x0000c268 0x18000d868 5   6    .rdata  ascii   \fp\v`!
+73  0x0000c896 0x18000de96 4   5    .rdata  ascii   \bp\a`
+74  0x0000c914 0x18000df14 4   5    .rdata  ascii   \vB\aP
+75  0x0000cd39 0x18000e339 4   5    .rdata  ascii   2\vp
+76  0x0000d0ee 0x18000e6ee 7   16   .rdata  utf16le \a\b\t\n\v\f\r
+77  0x0000de52 0x18000f452 26  27   .rdata  ascii   ?Log@CLogWriter@@SAXPEBDZZ
+78  0x0000de6e 0x18000f46e 6   7    .rdata  ascii   Log.mo
+79  0x0000de78 0x18000f478 18  19   .rdata  ascii   OutputDebugStringA
+80  0x0000de8e 0x18000f48e 12  13   .rdata  ascii   GetLastError
+81  0x0000de9e 0x18000f49e 12  13   .rdata  ascii   GetLocalTime
+82  0x0000deae 0x18000f4ae 11  12   .rdata  ascii   FreeLibrary
+83  0x0000debc 0x18000f4bc 14  15   .rdata  ascii   GetProcAddress
+84  0x0000dece 0x18000f4ce 12  13   .rdata  ascii   LoadLibraryA
+85  0x0000dedc 0x18000f4dc 12  13   .rdata  ascii   KERNEL32.dll
+86  0x0000deec 0x18000f4ec 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+87  0x0000df0c 0x18000f50c 12  13   .rdata  ascii   MSVCP140.dll
+88  0x0000df1c 0x18000f51c 9   10   .rdata  ascii   _purecall
+89  0x0000df28 0x18000f528 18  19   .rdata  ascii   __CxxFrameHandler3
+90  0x0000df3e 0x18000f53e 6   7    .rdata  ascii   memset
+91  0x0000df48 0x18000f548 18  19   .rdata  ascii   _CxxThrowException
+92  0x0000df5e 0x18000f55e 6   7    .rdata  ascii   memcmp
+93  0x0000df68 0x18000f568 6   7    .rdata  ascii   memcpy
+94  0x0000df72 0x18000f572 7   8    .rdata  ascii   memmove
+95  0x0000df7c 0x18000f57c 20  21   .rdata  ascii   __std_type_info_name
+96  0x0000df94 0x18000f594 20  21   .rdata  ascii   __C_specific_handler
+97  0x0000dfac 0x18000f5ac 15  16   .rdata  ascii   __std_terminate
+98  0x0000dfbe 0x18000f5be 28  29   .rdata  ascii   __std_type_info_destroy_list
+99  0x0000dfde 0x18000f5de 20  21   .rdata  ascii   __std_exception_copy
+100 0x0000dff6 0x18000f5f6 23  24   .rdata  ascii   __std_exception_destroy
+101 0x0000e00e 0x18000f60e 16  17   .rdata  ascii   VCRUNTIME140.dll
+102 0x0000e022 0x18000f622 25  26   .rdata  ascii   __stdio_common_vsprintf_s
+103 0x0000e03e 0x18000f63e 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+104 0x0000e064 0x18000f664 9   10   .rdata  ascii   terminate
+105 0x0000e070 0x18000f670 15  16   .rdata  ascii   _seh_filter_dll
+106 0x0000e082 0x18000f682 22  23   .rdata  ascii   _configure_narrow_argv
+107 0x0000e09c 0x18000f69c 30  31   .rdata  ascii   _initialize_narrow_environment
+108 0x0000e0be 0x18000f6be 24  25   .rdata  ascii   _initialize_onexit_table
+109 0x0000e0da 0x18000f6da 25  26   .rdata  ascii   _register_onexit_function
+110 0x0000e0f6 0x18000f6f6 21  22   .rdata  ascii   _execute_onexit_table
+111 0x0000e10e 0x18000f70e 11  12   .rdata  ascii   _crt_atexit
+112 0x0000e11c 0x18000f71c 6   7    .rdata  ascii   _cexit
+113 0x0000e126 0x18000f726 9   10   .rdata  ascii   _callnewh
+114 0x0000e132 0x18000f732 6   7    .rdata  ascii   malloc
+115 0x0000e13c 0x18000f73c 9   10   .rdata  ascii   _initterm
+116 0x0000e148 0x18000f748 11  12   .rdata  ascii   _initterm_e
+117 0x0000e156 0x18000f756 4   5    .rdata  ascii   free
+118 0x0000e15c 0x18000f75c 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+119 0x0000e17c 0x18000f77c 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+120 0x0000e19e 0x18000f79e 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+121 0x0000e1c0 0x18000f7c0 11  12   .rdata  ascii   CloseHandle
+122 0x0000e1ce 0x18000f7ce 20  21   .rdata  ascii   EnterCriticalSection
+123 0x0000e1e6 0x18000f7e6 20  21   .rdata  ascii   LeaveCriticalSection
+124 0x0000e1fe 0x18000f7fe 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+125 0x0000e226 0x18000f826 21  22   .rdata  ascii   DeleteCriticalSection
+126 0x0000e23e 0x18000f83e 8   9    .rdata  ascii   SetEvent
+127 0x0000e24a 0x18000f84a 10  11   .rdata  ascii   ResetEvent
+128 0x0000e258 0x18000f858 21  22   .rdata  ascii   WaitForSingleObjectEx
+129 0x0000e270 0x18000f870 12  13   .rdata  ascii   CreateEventW
+130 0x0000e280 0x18000f880 16  17   .rdata  ascii   GetModuleHandleW
+131 0x0000e294 0x18000f894 17  18   .rdata  ascii   RtlCaptureContext
+132 0x0000e2a8 0x18000f8a8 22  23   .rdata  ascii   RtlLookupFunctionEntry
+133 0x0000e2c2 0x18000f8c2 16  17   .rdata  ascii   RtlVirtualUnwind
+134 0x0000e2d6 0x18000f8d6 24  25   .rdata  ascii   UnhandledExceptionFilter
+135 0x0000e2f2 0x18000f8f2 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+136 0x0000e310 0x18000f910 17  18   .rdata  ascii   GetCurrentProcess
+137 0x0000e324 0x18000f924 16  17   .rdata  ascii   TerminateProcess
+138 0x0000e338 0x18000f938 25  26   .rdata  ascii   IsProcessorFeaturePresent
+139 0x0000e354 0x18000f954 19  20   .rdata  ascii   InitializeSListHead
+140 0x0000e36a 0x18000f96a 17  18   .rdata  ascii   IsDebuggerPresent
+141 0x0000e37e 0x18000f97e 23  24   .rdata  ascii   QueryPerformanceCounter
+142 0x0000e398 0x18000f998 19  20   .rdata  ascii   GetCurrentProcessId
+143 0x0000e3ae 0x18000f9ae 18  19   .rdata  ascii   GetCurrentThreadId
+144 0x0000e3c4 0x18000f9c4 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+145 0x0000e3de 0x18000f9de 25  26   .rdata  ascii   DisableThreadLibraryCalls
+146 0x0000e480 0x180010080 13  14   .data   ascii   .?AUIObject@@
+147 0x0000e4a0 0x1800100a0 18  19   .data   ascii   .?AUIBlockDevice@@
+148 0x0000e4c8 0x1800100c8 20  21   .data   ascii   .?AUIStorageDevice@@
+149 0x0000e4f0 0x1800100f0 22  23   .data   ascii   .?AVIPartitionDevice@@
+150 0x0000e518 0x180010118 21  22   .data   ascii   .?AVIDirectoryEntry@@
+151 0x0000e540 0x180010140 21  22   .data   ascii   .?AVCDirectoryEntry@@
+152 0x0000e568 0x180010168 24  25   .data   ascii   .?AVIFileAllocateTable@@
+153 0x0000e598 0x180010198 24  25   .data   ascii   .?AVCFileAllocateTable@@
+154 0x0000e5c8 0x1800101c8 19  20   .data   ascii   .?AUIFatLibModule@@
+155 0x0000e5f0 0x1800101f0 13  14   .data   ascii   .?AUIModule@@
+156 0x0000e610 0x180010210 17  18   .data   ascii   .?AUIThreadBase@@
+157 0x0000e638 0x180010238 19  20   .data   ascii   .?AVCFatLibModule@@
+158 0x0000e660 0x180010260 36  37   .data   ascii   .?AV?$CModuleImpl@VCFatLibModule@@@@
+159 0x0000e6a0 0x1800102a0 57  58   .data   ascii   .?AV?$CMomEventObject@V?$CModuleImpl@VCFatLibModule@@@@@@
+160 0x0000e6f0 0x1800102f0 52  53   .data   ascii   .?AV?$CMomObject@V?$CModuleImpl@VCFatLibModule@@@@@@
+161 0x0000e738 0x180010338 21  22   .data   ascii   .?AU__MomObjectFlag@@
+162 0x0000e760 0x180010360 78  79   .data   ascii   .?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCFatLibModule@@@@@@@@
+163 0x0000e7c0 0x1800103c0 15  16   .data   ascii   .?AVtype_info@@
+164 0x0000e7e0 0x1800103e0 19  20   .data   ascii   .?AVbad_alloc@std@@
+165 0x0000e808 0x180010408 19  20   .data   ascii   .?AVexception@std@@
+166 0x0000e830 0x180010430 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+167 0x0000f460 0x180012060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

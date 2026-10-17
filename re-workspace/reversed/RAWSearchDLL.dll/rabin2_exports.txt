@@ -1,0 +1,9 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib              name                           demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x0005d620 0x18005e220 GLOBAL FUNC 0    RAWSearchDLL.dll EUCreateRAWSearcher
+2   0x0005d660 0x18005e260 GLOBAL FUNC 0    RAWSearchDLL.dll EUCreateRAWSearcherForCellTest
+3   0x0005d720 0x18005e320 GLOBAL FUNC 0    RAWSearchDLL.dll EUGetAnalyserList
+4   0x0005d740 0x18005e340 GLOBAL FUNC 0    RAWSearchDLL.dll EUGetAnalyserMap
+5   0x0005d760 0x18005e360 GLOBAL FUNC 0    RAWSearchDLL.dll EUGetAnalyserMultimap
+6   0x0005d780 0x18005e380 GLOBAL FUNC 0    RAWSearchDLL.dll GetRawUserInfoMap

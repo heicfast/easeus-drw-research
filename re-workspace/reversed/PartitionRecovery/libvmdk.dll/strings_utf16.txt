@@ -1,0 +1,28 @@
+#+3;CScs
+windows
+&'()*+
+&'()*+
+./0123456789:;<=>?
+ with error: 
+ !"#$%&'()*+,-./01
+VS_VERSION_INFO
+StringFileInfo
+040904E4
+FileDescription
+Library to access the VMware Virtual Disk (VMDK) format
+FileVersion
+20221124
+InternalName
+libvmdk.dll
+LegalCopyright
+(C) 2009-2022, Joachim Metz <joachim.metz@gmail.com>
+OriginalFilename
+libvmdk.dll
+ProductName
+libvmdk
+ProductVersion
+20221124
+Comments
+For more information visit https://github.com/libyal/libvmdk/
+VarFileInfo
+Translation

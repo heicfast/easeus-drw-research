@@ -1,0 +1,42 @@
+WofCompressedData
+m[CFatVirtualBaseItem] %S fail,item id : %d!
+[CFatVirtualBaseItem] %S fail!
+c[CFatVirtualFileItem] %S fail!
+[CFatVirtualFileItem] %S fail!,mode : %d
+[CFatVirtualFileItem] %S fail!,%d
+[CFatVirtualFileItem] mem leak, excpetion proc ,id : %d,total : %d,def : %d
+[CFatVirtualFileItem] %S fail!,%I64d not continuous
+[CFatVirtualFileItem] %S fail!,pos : %I64d
+[CFatVirtualFileItem] %S fail,sector id : %I64d!
+[CFatVirtualFileItem] %S fail,pos : %I64d!
+[CFatVirtualDirItem] %S fail!
+####### single item,item id : %d,owner parent id : %d,parent dir id : %d! ####### 
+[CFatVirtualView] %S fail!
+[CFatVirtualView] %S fail!,pos : %I64d
+s[CClusterAllocator] %S fail!
+[CClusterAllocator] %S fail!,conflict pos : %I64d
+[CClusterAllocator] %S fail!,Pos : %I64d,count : %I64d
+[CNtfs2FATWorkFlow] %S fail,0x%x!
+[CNtfs2FATWorkFlow]#####!!!! Mem overloaded !!!!####
+[CNtfs2FATWorkFlow] ------ Start PreProc ! --------
+[CNtfs2FATWorkFlow] ------ Start analyze ! --------
+[CNtfs2FATWorkFlow] +++++++ Start virtual format %d,%d! +++++++
+[CNtfs2FATWorkFlow] %S fail,user abort!
+[CNtfs2FATWorkFlow] %S fail!
+[CBasePartData] %S fail!,pos : %I64d,count : %d
+[CNtfsAnalyze] %S fail!
+[CNtfsAnalyze] %S fail!,%I64d,parent di : %I64d
+[CNtfsAnalyze] Decompress fail,%d,err : %d!
+[CNtfsAnalyze] Decompress open fail,%d,err : %d!
+[CNtfsAnalyze] Decrypt fail,%d, %s ,err : %d!
+[CNtfsAnalyze] %S fail,%I64d!
+[CNtfsBaseItem] %S fail!,%d
+[CNtfsFileItem] %S fail!,%d
+pagefile.sys
+[CNtfsDirItem] %S fail!,%d
+$RECYCLE.BIN
+[CNtfsDirItem] %S fail!
+Ntdll.dll
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+ !"#$%&'()*+,-./0123456789:

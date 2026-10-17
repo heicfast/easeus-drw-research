@@ -1,0 +1,5328 @@
+This program must be run under Win32
+`.itext
+`.data
+.idata
+.rdata
+@.rsrc
+Boolean
+AnsiChar
+Integer
+Cardinal
+string
+WideString
+AnsiString
+Variant
+OleVariantT
+TObject`
+TObjectT
+System
+IInterface
+System
+TInterfacedObject
+FastMM Borland Edition (c) 2004 - 2008 Pierre le Riche / Professional Software Development
+An unexpected memory leak has occurred. 
+The unexpected small block leaks are:
+The sizes of unexpected leaked medium and large blocks are: 
+ bytes: 
+Unknown
+AnsiString
+UnicodeString
+Unexpected Memory Leak
+~]x[[)
+_^[YY]
+YZXtm1
+ZTUWVSPR
+0123456789ABCDEF
+_^[YY]
+XZ_^[XX]X
+tGJ|<9
+tdSVWU
+YZ]_^[
+XZ_^[X]X
+GetLongPathNameW
+_^[YY]
+_^[YY]
+odSelected
+odGrayed
+odDisabled	odChecked	odFocused	odDefault
+odHotLight
+odInactive	odNoAccel
+odNoFocusRect
+odReserved1
+odReserved2
+odComboBoxEdit
+Windows
+TOwnerDrawState
+TBytes
+SysUtils
+	Exception
+EAbort
+EHeapException
+EOutOfMemory
+EInOutError
+	EExternal
+EExternalException
+	EIntError
+EDivByZero
+ERangeError
+EIntOverflow
+EMathError
+EInvalidOp
+EZeroDivide\
+	EOverflow
+EUnderflow
+EInvalidPointer
+EInvalidCast
+EConvertError
+EAccessViolation
+EPrivilege
+EStackOverflow
+	EControlC
+EVariantError
+EAssertionFailed
+EAbstractError
+EIntfCastError
+EOSError
+ESafecallException
+EMonitor
+EMonitorLockException
+ENoMonitorSupportException
+SysUtils
+SysUtils
+TThreadLocalCounter
+$TMultiReadExclusiveWriteSynchronizer
+TCharArray
+SysUtils
+EEncodingError
+	TEncoding
+TMBCSEncoding
+TUTF7Encoding
+TUTF8Encoding
+TUnicodeEncoding
+TBigEndianUnicodeEncoding
+.uvCOu
+_^[YY]
+_^[YY]
+$Z]_^[
+_^[YY]
+_^[YY]
+<@t!QS<$t
+$*@@@*$@@@$ *@@* $@@($*)@-$*@@$-*@@$*-@@(*$)@-*$@@*-$@@*$-@@-* $@-$ *@* $-@$ *-@$ -*@*- $@($ *)(* $)
+_^[YY]
+_^[YY]
+$YZ_^[
+t%HtIHtm
+_^[YY]
+$Z]_^[
+QQQQQQSVW3
+QQQQQQSVW
+SysUtils
+_^[YY]
+	TErrorRec
+TExceptRec
+_^[YY]
+TUnitHashArray
+SysUtils
+TModuleInfo
+(Z]_^[
+YZ]_^[
+QQQQQSVW
+tagEXCEPINFO 
+VariantChangeTypeEx
+VarNeg
+VarNot
+VarAdd
+VarSub
+VarMul
+VarDiv
+VarIdiv
+VarMod
+VarAnd
+VarXor
+VarCmp
+VarI4FromStr
+VarR4FromStr
+VarR8FromStr
+VarDateFromStr
+VarCyFromStr
+VarBoolFromStr
+VarBstrFromCy
+VarBstrFromDate
+VarBstrFromBool
+TCustomVariantType
+TCustomVariantType
+Variants
+EVariantInvalidOpError
+EVariantTypeCastError
+EVariantOverflowError
+EVariantInvalidArgError
+EVariantBadVarTypeError ]A
+EVariantBadIndexError
+EVariantArrayLockedError
+EVariantArrayCreateError
+EVariantNotImplError
+EVariantOutOfMemoryError
+EVariantUnexpectedError
+EVariantDispatchError
+EVariantInvalidNullOpError
+_^[YY]
+QQQQSV
+QQQQQQSV
+FSVWUQ
+Mt0MtU
+Variants
+_^[YY]
+_^[YY]
+_^[YY]
+TAlignment
+taLeftJustify
+taRightJustify
+taCenter
+Classes
+TLeftRight
+Classes
+	TBiDiMode
+bdLeftToRight
+bdRightToLeft
+bdRightToLeftNoAlign
+bdRightToLeftReadingOnly
+Classes
+TVerticalAlignment
+taAlignTop
+taAlignBottom
+taVerticalCenter
+Classes
+ssShift
+ssCtrl
+ssLeft
+ssRight
+ssMiddle
+ssDouble
+Classes
+TShiftState
+THelpContext
+	THelpType
+	htKeyword	htContext
+Classes
+	TShortCut
+TNotifyEvent
+Sender
+TObject
+EStreamError
+EFileStreamError
+EFCreateError
+EFOpenErrorX	B
+EFilerError
+EReadError
+EWriteError
+EClassNotFound
+EResNotFound
+EListError
+EBitsError
+EStringListError
+EComponentError8
+EOutOfResources
+EInvalidOperation
+TThreadList
+TPersistent
+TPersistentP
+Classes
+TInterfacedPersistent
+TInterfacedPersistentH
+Classes
+IStringsAdapter|
+Classes
+TStrings
+TStrings@
+Classes
+TStringItem
+TStringListL
+TStringList
+Classes
+TStreamD
+THandleStream
+TFileStream
+TCustomMemoryStream
+TMemoryStream
+TBytesStream
+TStringStream
+TResourceStream
+TStreamAdapter
+TClassFinder
+TFiler
+TReader
+EThread@
+TThreadProcedure|
+Classes
+TSynchronizeRecord
+TThread
+TComponentName0
+IDesignerNotify|
+Classes
+TComponent
+TComponentd
+Classes
+TBasicActionLink
+TBasicAction
+TBasicAction\
+Classes
+TIdentMapEntry
+	TRegGroup
+TRegGroups
+YZ]_^[
+$Z]_^[
+$Z]_^[
+_^[YY]
+	TIntConst
+_^[YY]
+S$_^[Y]
+_^[YY]
+Sd]_^[
+QQQQQQQSVW
+$Z]_^[
+C ;C$u
+_^[YY]
+TPropFixup
+TPropIntfFixup
+$Z]_^[
+_^[YY]
+$YZ_^[
+:TReader.:1
+Classes
+_^[YY]
+_^[YY]
+QQQQQSV
+QQQQQQQS
+R0_^[]
+_^[YY]
+S	_^[]
+TOrderedList
+TStack
+IHelpSelector|
+:	HelpIntfs
+IHelpSystem|
+:	HelpIntfs
+ICustomHelpViewer|
+:	HelpIntfs	
+IExtendedHelpViewer
+:	HelpIntfs
+EHelpSystemException
+THelpManager
+THelpViewerNode
+_^[YY]
+_^[YY]
+ERegistryException
+	TRegistryS
+TColor
+EInvalidGraphicH
+EInvalidGraphicOperation
+TFontPitch
+	fpDefault
+fpVariable
+fpFixed
+Graphics
+	TFontName
+TFontCharset
+TFontStyle
+fsBold
+fsItalic
+fsUnderline
+fsStrikeOut
+Graphics
+TFontStyles
+	TPenStyle
+psSolid
+psDash
+psDot	psDashDot
+psDashDotDot
+psClear
+psInsideFrame
+psUserStyle
+psAlternate
+Graphics
+TPenMode
+pmBlack
+pmWhite
+pmCopy	pmNotCopy
+pmMergePenNot
+pmMaskPenNot
+pmMergeNotPen
+pmMaskNotPen
+pmMerge
+pmNotMerge
+pmMask	pmNotMask
+pmNotXor
+Graphics
+TBrushStyle
+bsSolid
+bsClear
+bsHorizontal
+bsVertical
+bsFDiagonal
+bsBDiagonal
+bsCross
+bsDiagCross
+Graphics
+TGraphicsObject|
+TGraphicsObjectT
+Graphics
+IChangeNotifier|
+Graphics
+TFontd
+TFont4
+Graphics
+Charseth
+ColorT
+Height
+Orientationl
+PitchT
+Graphics
+StyleT
+TBrush
+TBrush
+Graphics
+TCanvas
+TCanvas
+Graphics
+BrushT
+CopyMode`
+TGraphic
+TGraphicL
+Graphics
+TSharedImage
+TBitmapImage
+TBitmap
+TBitmap$
+Graphics
+TIconImage
+Graphics
+TResourceManager
+TBrushResourceManager
+_^[YY]
+E$PVSj
+_^[YY]
+C ;C$s
+TBitmapCanvas
+TBitmapCanvas
+Graphics
+_^[YY]
+;x t9VW
+C(_^[Y]
+TPatternManagerSV
+_^[YY]
+TSynchroObject
+THandleObject
+TEvent
+TCriticalSection
+TTextLayout
+tlCenter
+tlBottom
+StdCtrls
+TEllipsisPosition
+epNone
+epPathEllipsis
+epEndEllipsis
+epWordEllipsis
+StdCtrls
+TCustomLabel
+TCustomLabel
+StdCtrls
+TLabel
+TLabel
+StdCtrls*
+	Alignment
+Anchors
+AutoSizet
+BiDiModetLE
+Captionh
+Constraints
+DragCursor(LE
+DragKind
+DragMode
+EllipsisPosition
+Enabled
+FocusControl`
+GlowSize
+ParentBiDiMode
+ParentColor
+ParentFont
+ParentShowHint
+	PopupMenu
+ShowAccelChar
+ShowHint
+Transparent
+Layout
+Visible
+WordWrap
+OnClick
+OnContextPopup
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDock
+	OnEndDrag|QE
+OnMouseActivate
+OnMouseDown
+OnMouseMove
+	OnMouseUp
+OnMouseEnter
+OnMouseLeave
+OnStartDock
+OnStartDrag
+TEditCharCase
+ecNormal
+ecUpperCase
+ecLowerCase
+StdCtrls
+TCustomEdit
+TCustomEdit<
+StdCtrls
+TabStop4
+TEdit4
+StdCtrls@
+	Alignment
+Anchors
+AutoSelect
+AutoSize
+BevelEdgesh_E
+BevelInner
+	BevelKindh_E
+BevelOuterP`E
+BevelWidtht
+BiDiMode$
+BorderStyle
+CharCaseh
+Constraints
+DoubleBuffered
+DragCursor(LE
+DragKind
+DragMode
+Enabled`
+HideSelection
+ImeMode<_E
+ImeNameT
+	MaxLength
+NumbersOnly
+OEMConvert
+ParentBiDiMode
+ParentColor
+ParentCtl3D
+ParentDoubleBuffered
+ParentFont
+ParentShowHint@
+PasswordChar
+	PopupMenu
+ReadOnly
+ShowHint\LE
+TabOrder
+TabStoptLE
+TextHint
+Visible
+OnChange
+OnClick
+OnContextPopup
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDock
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp|QE
+OnMouseActivate
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+	OnMouseUp
+OnStartDock
+OnStartDrag
+TScrollStyle
+ssNone
+ssHorizontal
+ssVertical
+ssBoth
+StdCtrls
+TCustomMemoL
+TCustomMemo 
+StdCtrls
+StdCtrls>
+	Alignment
+Anchors
+BevelEdgesh_E
+BevelInner
+	BevelKindh_E
+BevelOutert
+BiDiMode$
+BorderStyle
+CharCaseh
+Constraints
+DoubleBuffered
+DragCursor(LE
+DragKind
+DragMode
+Enabled`
+HideSelection
+ImeMode<_E
+ImeName
+LinesT
+	MaxLength
+OEMConvert
+ParentBiDiMode
+ParentColor
+ParentCtl3D
+ParentDoubleBuffered
+ParentFont
+ParentShowHint
+	PopupMenu
+ReadOnlyx
+ScrollBars
+ShowHint\LE
+TabOrder
+TabStop
+Visible
+WantReturns
+WantTabs
+WordWrap
+OnChange
+OnClick
+OnContextPopup
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDock
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp|QE
+OnMouseActivate
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+	OnMouseUp
+OnStartDock
+OnStartDrag
+TDrawItemEvent
+Control
+TWinControl
+Integer
+TOwnerDrawState
+TMeasureItemEvent
+Control
+TWinControl
+Integer
+Height
+Integer
+TCustomComboBoxStrings
+TCustomComboBoxStrings
+StdCtrls
+TCustomCombo
+TCustomCombo$
+StdCtrls
+TComboBoxStyle
+csDropDown
+csSimple
+csDropDownList
+csOwnerDrawFixed
+csOwnerDrawVariable
+StdCtrls
+TCustomComboBox
+TCustomComboBox
+StdCtrls
+	TComboBox
+	TComboBox
+StdCtrlsA
+AutoComplete
+AutoCompleteDelay
+AutoDropDown
+AutoCloseUp
+BevelEdgesh_E
+BevelInner
+	BevelKindh_E
+BevelOuter
+Anchorst
+BiDiMode
+CharCaseh
+Constraints
+DoubleBuffered
+DragCursor(LE
+DragKind
+DragModeT
+DropDownCount
+Enabled`
+ImeMode<_E
+ImeNameT
+ItemHeightT
+	ItemIndexT
+	MaxLength
+ParentBiDiMode
+ParentColor
+ParentCtl3D
+ParentDoubleBuffered
+ParentFont
+ParentShowHint
+	PopupMenu
+ShowHint
+Sorted\LE
+TabOrder
+TabStoptLE
+TextHint
+Visible
+OnChange
+OnClick
+	OnCloseUp
+OnContextPopup
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+OnDrawItem
+OnDropDown
+	OnEndDock
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp8
+OnMeasureItem
+OnMouseEnter
+OnMouseLeave
+OnSelect
+OnStartDock
+OnStartDrag
+TButtonActionLink
+TButtonControl
+TButtonControl
+StdCtrls
+TImageAlignment
+iaLeft
+iaRight
+iaBottom
+iaCenter
+StdCtrls
+TImageMargins
+TImageMargins
+StdCtrls
+RightT
+Bottom
+TPushButtonActionLink
+TCustomButton.TButtonStyle
+bsPushButton
+bsCommandLink
+bsSplitButton
+StdCtrls
+TCustomButtonp
+TCustomButton
+StdCtrls
+TButton
+TButton
+StdCtrls9
+Action
+Anchorst
+BiDiMode
+CanceltLE
+Caption
+CommandLinkHint
+Constraints
+Default
+DisabledImageIndex
+DoubleBuffered
+DragCursor(LE
+DragKind
+DragMode
+DropDownMenu
+ElevationRequired
+Enabled`
+HotImageIndex
+ImageAlignment
+ImageIndex
+ImageMarginsT
+ImageslCE
+ModalResult
+ParentBiDiMode
+ParentDoubleBuffered
+ParentFont
+ParentShowHint
+	PopupMenu
+PressedImageIndex
+SelectedImageIndex
+ShowHint`
+Style\LE
+TabOrder
+TabStop
+Visible
+WordWrap
+OnClick
+OnContextPopupDSE
+OnDragDrop
+OnDragOver
+OnDropDownClick
+	OnEndDock
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp|QE
+OnMouseActivate
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+	OnMouseUp
+OnStartDock
+OnStartDrag
+TCheckBoxState
+cbUnchecked	cbChecked
+cbGrayed
+StdCtrls
+TCustomCheckBox
+TCustomCheckBox
+StdCtrls
+TabStop
+	TCheckBox
+	TCheckBox
+StdCtrls1
+Action
+AlignL
+	Alignment
+AllowGrayed
+Anchorst
+BiDiModetLE
+Caption
+Checkedh
+Constraints
+DoubleBuffered
+DragCursor(LE
+DragKind
+DragMode
+Enabled`
+ParentBiDiMode
+ParentColor
+ParentCtl3D
+ParentDoubleBuffered
+ParentFont
+ParentShowHint
+	PopupMenu
+ShowHintT
+State\LE
+TabOrder
+TabStop
+Visible
+WordWrap
+OnClick
+OnContextPopupDSE
+OnDragDrop
+OnDragOver
+	OnEndDock
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp|QE
+OnMouseActivate
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+	OnMouseUp
+OnStartDock
+OnStartDrag
+TRadioButton
+TRadioButton 
+StdCtrls0
+Action
+AlignL
+	Alignment
+Anchorst
+BiDiModetLE
+Caption
+Checkedh
+Constraints
+DoubleBuffered
+DragCursor(LE
+DragKind
+DragMode
+Enabled`
+ParentBiDiMode
+ParentColor
+ParentCtl3D
+ParentDoubleBuffered
+ParentFont
+ParentShowHint
+	PopupMenu
+ShowHint\LE
+TabOrder
+TabStop
+Visible
+WordWrap
+OnClick
+OnContextPopup
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDock
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp|QE
+OnMouseActivate
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+	OnMouseUp
+OnStartDock
+OnStartDrag
+TListBoxStyle
+lbStandard
+lbOwnerDrawFixed
+lbOwnerDrawVariable	lbVirtual
+lbVirtualOwnerDraw
+StdCtrls
+TLBGetDataEvent
+Control
+TWinControl
+Integer
+string
+TLBGetDataObjectEvent
+Control
+TWinControl
+Integer	
+DataObject
+TObject
+TLBFindDataEvent
+Control
+TWinControl
+FindString
+string
+IntegerT
+TCustomListBox
+TCustomListBox
+StdCtrls
+TabStop
+TListBox
+TListBoxT
+StdCtrlsD
+AutoComplete
+AutoCompleteDelay
+Anchors
+BevelEdgesh_E
+BevelInner
+	BevelKindh_E
+BevelOuterP`E
+BevelWidtht
+BiDiMode$
+BorderStyleh
+ColorT
+Columns
+Constraints
+DoubleBuffered
+DragCursor(LE
+DragKind
+DragMode
+Enabled
+ExtendedSelect`
+ImeMode<_E
+ImeName
+IntegralHeightT
+ItemHeight
+MultiSelect
+ParentBiDiMode
+ParentColor
+ParentCtl3D
+ParentDoubleBuffered
+ParentFont
+ParentShowHint
+	PopupMenuT
+ScrollWidth
+ShowHint
+Sorted\LE
+TabOrder
+TabStopT
+TabWidth
+Visible
+OnClick
+OnContextPopup
+OnDataX
+OnDataFind
+OnDataObject
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+OnDrawItem
+	OnEndDock
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp8
+OnMeasureItem|QE
+OnMouseActivate
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+	OnMouseUp
+OnStartDock
+OnStartDrag
+TMemoStrings
+TMemoStrings
+StdCtrls
+TComboBoxStrings
+TComboBoxStrings
+StdCtrls
+TListBoxStrings
+TListBoxStrings
+StdCtrls
+_^[YY]
+_^[YY]
+_^[YY]
+QQQQQQQSVW
+Jt!Jt,
+_^[YY]
+_^[YY]
+_^[YY]
+YZ]_^[
+_^[YY]
+_^[YY]
+_^[YY]
+QQQQQQSVW
+!G$_^[
+TBevelStyle
+	bsLowered
+bsRaised
+ExtCtrls
+TBevelShape
+bsFrame	bsTopLine
+bsBottomLine
+bsLeftLine
+bsRightLine
+bsSpacer
+ExtCtrls
+TBevel
+TBevel
+ExtCtrls
+Anchors
+Constraints
+ParentShowHint
+ShowHint
+Visible
+TTimer
+TTimer
+ExtCtrls
+Enabled
+Interval
+OnTimer
+TCustomPanel
+TCustomPanel
+ExtCtrls
+TPanel
+TPanelt
+ExtCtrlsC
+	Alignment
+Anchors
+AutoSize
+BevelEdgesh_E
+BevelInner
+	BevelKindh_E
+BevelOuterP`E
+BevelWidtht
+BiDiModeL_E
+BorderWidth$
+BorderStyletLE
+Captionh
+Constraints
+UseDockManager
+DockSite
+DoubleBuffered
+DragCursor(LE
+DragKind
+DragMode
+Enabled
+FullRepaint`
+Locked
+Padding
+ParentBiDiMode
+ParentBackground
+ParentColor
+ParentCtl3D
+ParentDoubleBuffered
+ParentFont
+ParentShowHint
+	PopupMenu
+ShowCaption
+ShowHint\LE
+TabOrder
+TabStop
+VerticalAlignment
+Visible
+OnAlignInsertBefore
+OnAlignPosition
+OnCanResize
+OnClick
+OnConstrainedResize
+OnContextPopupHTE
+OnDockDrop
+OnDockOver
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDock
+	OnEndDrag
+OnEnter
+OnExit
+OnGetSiteInfo|QE
+OnMouseActivate
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+	OnMouseUp
+OnResize
+OnStartDock
+OnStartDrag@UE
+OnUnDock
+TConversion
+TConversionFormat
+TCommonDialog
+TCommonDialog
+Dialogs
+HelpContext
+OnClose
+OnShow
+THintAction
+THintAction
+StdActns
+EMenuError
+TMenuBreak
+mbNone
+mbBreak
+mbBarBreak
+TMenuChangeEvent
+Sender
+TObject
+Source	TMenuItem
+Rebuild
+Boolean
+TMenuDrawItemEvent
+Sender
+TObject
+ACanvas
+TCanvas
+Selected
+Boolean
+TAdvancedMenuDrawItemEvent
+Sender
+TObject
+ACanvas
+TCanvas
+TOwnerDrawState
+TMenuMeasureItemEvent
+Sender
+TObject
+ACanvas
+TCanvas
+Integer
+Height
+Integer
+TMenuItemAutoFlag
+maAutomatic
+maManual
+maParent
+TMenuAutoFlag
+TMenuActionLink(
+	TMenuItem
+	TMenuItem(
+Action
+	AutoCheck|
+AutoHotkeys|
+AutoLineReduction
+Bitmap
+Caption
+CheckedT
+SubMenuImages
+Default
+Enabledl
+GroupIndex
+HelpContext
+ImageIndex
+	RadioItem
+ShortCut
+Visible
+OnClick(
+OnDrawItem
+OnAdvancedDrawItem
+OnMeasureItem
+TMenuX
+	TMainMenu
+	TMainMenu`
+AutoHotkeys
+AutoLineReduction
+	AutoMerget
+BiDiModeT
+Images
+	OwnerDraw
+ParentBiDiMode
+OnChange
+TPopupAlignment
+paLeft
+paRight
+paCenter
+Menus8
+TTrackButton
+tbRightButton
+tbLeftButton
+Menusx
+TMenuAnimations
+maLeftToRight
+maRightToLeft
+maTopToBottom
+maBottomToTop
+maNone
+TMenuAnimation
+TPopupMenu
+TPopupMenuP
+	Alignment
+AutoHotkeys
+AutoLineReduction
+	AutoPopupt
+BiDiMode
+HelpContextT
+Images
+MenuAnimation
+	OwnerDraw
+ParentBiDiMode4
+TrackButton
+OnChange
+OnPopup
+TPopupList
+TMenuItemStack
+_^[YY]
+_^[YY]
+Q<]_^[
+P;:S;u
+Q<]_^[
+@;:F;v
+Q<]_^[
+;~du	3
+$YZ]_^[
+_^[YY]
+Id;J4u
+YZ]_^[
+P\YZ_^
+QQQQQSV
+TModalResult
+TCursor
+	THintInfo@
+TAlign
+alNone
+alBottom
+alLeft
+alRight
+alClient
+alCustom
+Controls
+TDragObject
+TDragObjecttDE
+Controls
+TBaseDragControlObject
+TBaseDragControlObject$EE
+Controls
+TDragControlObject
+TDragControlObjectEx
+TDragDockObject|GE
+TDragDockObject(GE
+Controls
+TDragDockObjectEx
+TControlCanvas
+TControlCanvas
+Controls
+TCustomControlAction
+TCustomControlActionTIE
+Controls
+TControlActionLink
+TMouseButton
+mbLeft
+mbRight
+mbMiddle
+Controls4KE
+TMouseActivate
+	maDefault
+maActivate
+maActivateAndEat
+maNoActivate
+maNoActivateAndEat
+Controls
+	TDragMode
+dmManual
+dmAutomatic
+Controls
+TDragState
+dsDragEnter
+dsDragLeave
+dsDragMove
+Controls
+	TDragKind
+dkDrag
+dkDock
+Controls
+	TTabOrder
+TCaption
+TAnchorKind
+akLeft
+akRight
+akBottom
+Controls
+TAnchors
+TConstraintSize
+TSizeConstraints
+TSizeConstraintsXME
+Controls
+	MaxHeight
+MaxWidth
+	MinHeight
+MinWidth
+TMarginSize
+TMargins
+TMargins
+Controls
+Left<NE
+Top<NE
+Right<NE
+Bottom
+TPadding
+TPadding
+Controls
+Left<NE
+Top<NE
+Right<NE
+Bottom
+TMouseEvent
+Sender
+TObject
+Button
+TMouseButton
+TShiftState
+Integer
+Integer
+TMouseMoveEvent
+Sender
+TObject
+TShiftState
+Integer
+Integer
+TMouseActivateEvent
+Sender
+TObject
+Button
+TMouseButton
+TShiftState
+Integer
+Integer
+HitTest
+Integer
+MouseActivate
+TMouseActivate
+	TKeyEvent
+Sender
+TObject
+TShiftState
+TKeyPressEvent
+Sender
+TObject
+TDragOverEvent
+Sender
+TObject
+Source
+TObject
+Integer
+Integer
+TDragState
+Accept
+Boolean
+TDragDropEvent
+Sender
+TObject
+Source
+TObject
+Integer
+Integer
+TStartDragEvent
+Sender
+TObject	
+DragObject
+TDragObject
+TEndDragEvent
+Sender
+TObject
+Target
+TObject
+Integer
+Integer
+TDockDropEvent
+Sender
+TObject
+Source
+TDragDockObject
+Integer
+Integer
+TDockOverEvent
+Sender
+TObject
+Source
+TDragDockObject
+Integer
+Integer
+TDragState
+Accept
+Boolean
+TUnDockEvent
+Sender
+TObject
+Client
+TControl
+	NewTarget
+TWinControl
+Boolean
+TStartDockEvent
+Sender
+TObject	
+DragObject
+TDragDockObject
+TGetSiteInfoEvent
+Sender
+TObject
+DockClient
+TControl
+InfluenceRect
+MousePos
+TPoint
+CanDock
+Boolean
+TCanResizeEvent
+Sender
+TObject
+NewWidth
+Integer
+	NewHeight
+Integer
+Resize
+Boolean
+TConstrainedResizeEvent
+Sender
+TObject
+MinWidth
+Integer
+	MinHeight
+Integer
+MaxWidth
+Integer
+	MaxHeight
+Integer
+TMouseWheelEvent
+Sender
+TObject
+TShiftState
+WheelDelta
+Integer
+MousePos
+TPoint
+Handled
+Boolean
+TMouseWheelUpDownEvent
+Sender
+TObject
+TShiftState
+MousePos
+TPoint
+Handled
+Boolean
+TContextPopupEvent
+Sender
+TObject
+MousePos
+TPoint
+Handled
+Boolean
+TControl
+TControl4YE
+Controls
+AlignWithMarginsT
+WidthT
+Height
+Cursor
+HelpType
+HelpKeyword
+HelpContext
+MarginslvE
+CustomHint
+ParentCustomHint
+TWinControlActionLink
+TImeMode
+	imDisable
+imClose
+imOpen
+imDontCare
+imSAlpha
+imAlpha
+imHira
+imSKata
+imKata	imChinese
+imSHanguel	imHanguel
+Controls
+TImeName
+TBorderWidth
+	TBevelCut
+bvNone	bvLowered
+bvRaised
+bvSpace
+Controls
+TBevelEdge
+beLeft
+beRight
+beBottom
+Controls
+TBevelEdges
+TBevelKind
+bkNone
+bkTile
+bkSoft
+bkFlat
+Controls
+TBevelWidth
+IDockManager|
+Controls
+TAlignInsertBeforeEvent
+Sender
+TWinControl
+TControl
+TControl
+Boolean
+TAlignPositionEvent
+Sender
+TWinControl
+Control
+TControl
+NewLeft
+Integer
+NewTop
+Integer
+NewWidth
+Integer
+	NewHeight
+Integer
+	AlignRect
+	AlignInfo
+TAlignInfo
+TWinControl
+TWinControl0bE
+Controls
+TGraphicControl
+TGraphicControl\fE
+Controls
+TCustomControl
+TCustomControl
+Controls
+THintWindow
+THintWindow
+Controls
+TDragImageList
+TDragImageList
+Controls
+TImageList
+TImageList
+Controls
+BlendColorh
+BkColorT
+AllocBy4
+ColorDepth
+DrawingStyleT
+Height
+	ImageType
+Masked
+OnChange
+ShareImagesT
+	TDockZone
+	TDockTree
+TMouse
+TCustomListControl
+TCustomListControl<pE
+Controls
+TCustomMultiSelectListControl
+TCustomMultiSelectListControl
+Controls
+TBalloonHintStyle
+bhsStandard
+bhsBalloon
+Controls
+TCustomHintWindow
+TCustomHintWindow
+Controls
+TCustomHintShowHideThread
+TCustomHint
+TCustomHint
+Controls
+Images@sE
+DelayT
+	HideAfter
+	TSiteList
+_^[YY]
+S$_^[]
+YZ]_^[
+t%Jt?Jt[
+uH;~|u
+RXZ_^[
+ty;^@u
+;FLt_3
+_^[YY]
+;s0t=;
+_^[YY]
+_^[YY]
+:TWinControl.:1
+Controls
++WH+W@
+:GauQFKu
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+YZ]_^[
+YZ]_^[
+YZ]_^[
+YZ]_^[
+YZ]_^[
+S8_^[]
+t9;wtt4
+^dVhD}F
+^dVhD}F
+t';C8u
+QQQQSVW
+:TDockTree.:1
+ControlsU
+t$;^dt
+BP_^[]
+Jt'Jt5
+VD+VL+
+;~8u	3
+QQQQQSVW
+_^[YY]
+TThemeServices
+ !"#$%
+TChangeLink
+TDrawingStyle
+dsFocus
+dsSelected
+dsNormal
+dsTransparent
+ImgList
+TImageType
+itImage
+itMask
+ImgList
+TImageIndex
+TColorDepth
+	cdDefault
+cdDeviceDependent
+cd4Bit
+cd8Bit
+cd16Bit
+cd24Bit
+cd32Bit
+ImgList
+TCustomImageList
+TCustomImageList
+ImgList
+ColorDepth
+S0_^[]
+R$;C0|
+R0;C4}!
+S`]_^[
+TContainedAction
+TContainedActionx
+ActnList
+Category
+TCustomActionList
+TCustomActionList
+ActnList
+TShortCutList
+TShortCutList
+ActnList
+TCustomAction
+TCustomAction
+ActnList
+TActionLinkSV
+u0;~8u
+YZ]_^[
+S`Z]_^[
+R0]_^[
+R0Z_^[
+;Blu	3
+$:Cjtc
+R0Z_^[
+$;Clt?
+R0Z_^[
+R0]_^[
+R0]_^[
+$;Ctt?
+R0Z_^[
+R0Z_^[
+R0Z_^[
+R0Z_^[
+R0Z_^[
+$Z]_^[
+TScrollBarInc
+TScrollBarStyle
+	ssRegular
+ssFlat
+ssHotTrack
+TControlScrollBar
+TControlScrollBar
+ButtonSizeh
+Colord
+	Increment
+Margin
+ParentColorT
+PositionT
+SmoothT
+StyleT
+	ThumbSize
+Tracking
+Visible
+TWindowState
+wsNormal
+wsMinimized
+wsMaximized
+TScrollingWinControl
+TScrollingWinControl
+OnAlignInsertBefore
+OnAlignPosition<
+HorzScrollBar<
+VertScrollBar
+TFormBorderStyle
+bsNone
+bsSingle
+bsSizeable
+bsDialog
+bsToolWindow
+bsSizeToolWin
+Forms(
+TBorderStyle
+IDesignerHook,
+IOleForm|
+TPopupWndArray
+TFormStyle
+fsNormal
+fsMDIChild	fsMDIForm
+fsStayOnTop
+TBorderIcon
+biSystemMenu
+biMinimize
+biMaximize
+biHelp
+TBorderIcons
+	TPosition
+poDesigned	poDefault
+poDefaultPosOnly
+poDefaultSizeOnly
+poScreenCenter
+poDesktopCenter
+poMainFormCenter
+poOwnerFormCenter
+Forms4
+TDefaultMonitor
+	dmDesktop	dmPrimary
+dmMainForm
+dmActiveForm
+TPrintScale
+poNone
+poProportional
+poPrintToFit
+TCloseAction
+caNone
+caHide
+caFree
+caMinimize
+TCloseEvent
+Sender
+TObject
+Action
+TCloseAction
+TCloseQueryEvent
+Sender
+TObject
+CanClose
+Boolean
+TShortCutEvent
+TWMKey
+Handled
+Boolean
+THelpEvent
+Command
+Integer
+CallHelp
+Boolean
+Boolean
+TPopupMode
+pmNone
+pmAuto
+pmExplicit
+TGlassFrame
+TGlassFrame
+EnabledT
+RightT
+Bottom
+SheetOfGlass
+TCustomForm
+TCustomForm(
+Forms_
+Action
+ActiveControl
+AlphaBlendl
+AlphaBlendValue
+Anchors
+AutoScroll
+AutoSizet
+BiDiMode|
+BorderIcons
+BorderStyleL_E
+BorderWidthtLE
+CaptionT
+ClientHeightT
+ClientWidthh
+TransparentColorh
+TransparentColorValue
+Constraints
+UseDockManager0
+DefaultMonitor
+DockSite
+DoubleBuffered(LE
+DragKind
+DragMode
+Enabled
+ParentFont`
+	FormStyle
+GlassFrameT
+Height
+HelpFile<
+HorzScrollBar
+KeyPreview
+Padding
+OldCreateOrder
+ObjectMenuItem
+ParentBiDiModeT
+PixelsPerInch
+	PopupMenu4
+	PopupMode
+PopupParent
+Position
+PrintScale
+Scaled
+ScreenSnap
+ShowHintT
+SnapBuffer<
+VertScrollBar
+VisibleT
+Width$
+WindowState
+WindowMenu
+OnActivate
+OnAlignInsertBefore
+OnAlignPosition
+OnCanResize
+OnClick
+OnCloseX
+OnCloseQuery
+OnConstrainedResize
+OnContextPopup
+OnCreate
+OnDblClick
+	OnDestroy
+OnDeactivateHTE
+OnDockDrop
+OnDockOverDSE
+OnDragDrop
+OnDragOver
+	OnEndDock
+OnGetSiteInfo
+OnHide
+OnHelp4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp|QE
+OnMouseActivate
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+	OnMouseUp
+OnMouseWheel
+OnMouseWheelDown
+OnMouseWheelUp
+OnPaint
+OnResize
+OnShortCut
+OnShow
+OnStartDock@UE
+OnUnDock
+TCustomDockForm\
+TCustomDockForm
+PixelsPerInch
+TMonitor
+TScreen
+TScreend
+TPopupFormArray
+:TApplication.:1
+TApplication
+TApplication
++WH+W@
+_^[YY]
+S0_^[]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+C`;Clt
+C\;Cht
+f;sDtxf
+CHYZ]_^[
+_^[YY]
+X@;PDu
+sp;P\u
+YZ]_^[
+$Z]_^[
+$Z]_^[
+_^[YY]
+_^[YY]
+_^[YY]
+Y_^[Y]
+_^[YY]
+$Z]_^[
+YZ]_^[
+Jt'Jt5
+_^[YY]
+YZ]_^[
+YZ]_^[
+$Z]_^[
+@_^[Y]
+YZ]_^[
+YZ]_^[
+TWindowDisablerU
+TUIStateForm
+TUIStateForm
+UIStateForm
+TSetupHeader
+TSetupLanguageEntry=
+QQQQQSVW
+QQQQQSVW
+TPSList
+TPSStringList
+CONSTRUCTOR
+DESTRUCTOR
+DOWNTO
+EXCEPT
+EXPORT
+EXTERNAL
+FINALIZATION
+FINALLY
+FORWARD
+FUNCTION
+IMPLEMENTATION
+INHERITED
+INITIALIZATION
+INTERFACE
+OVERRIDE
+PRIVATE
+PROCEDURE
+PROGRAM
+PROPERTY
+PROTECTED
+PUBLIC
+PUBLISHED
+RECORD
+REPEAT
+VIRTUAL
+	EOleError
+EOleSysError
+EOleException
+QQQQQQQQSV
+TPSProcRec
+TPSExternalProcRec
+TPSInternalProcRec
+TPSTypeRec
+TPSTypeRec_ProcPtr
+TPSTypeRec_Class
+TPSTypeRec_Interface
+TPSTypeRec_Array
+TPSTypeRec_StaticArray
+TPSTypeRec_Set
+TPSTypeRec_Record
+TClassItem
+TPSRuntimeAttribute
+TPSRuntimeAttributes
+TPSExec
+TPSStack
+EPSException
+TPSRuntimeClass
+TPSRuntimeClassImporterP
+TPSExportedVar
+TPSExceptionHandler
+TSpecialProc
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+[Method]
+[Variant]
+[Unknown]
+_^[YY]
+Interface
+Variant(IDispatch)
+Proc: 
+YZ]_^[
+IDISPATCH
+FSVWUQ
+C\;CXr
+C\@;CXr
+_^[YY]
+_^[YY]
+!NOTIFICATIONVARIANTSET
+!NOTIFICATIONVARIANTGET
+INTTOSTR
+STRTOINT
+STRTOINTDEF
+DELETE
+INSERT
+STRGET
+STRSET
+UPPERCASE
+LOWERCASE
+LENGTH
+SETLENGTH
+INCLUDE
+EXCLUDE
+STRTOFLOAT
+FLOATTOSTR
+REPLICATE
+STRINGOFCHAR
+!ASSIGNED
+UNASSIGNED
+VARISEMPTY
+VARISCLEAR
+VARISNULL
+VARTYPE
+IDISPATCHINVOKE
+GETARRAYLENGTH
+SETARRAYLENGTH
+RAISELASTEXCEPTION
+RAISEEXCEPTION
+EXCEPTIONTYPE
+EXCEPTIONPARAM
+EXCEPTIONPROC
+EXCEPTIONPOS
+EXCEPTIONTOSTRING
+ANSIUPPERCASE
+ANSILOWERCASE
+STRTOINT64
+INT64TOSTR
+STRTOINT64DEF
+SIZEOF
+WSTRGET
+WSTRSET
+BOOLEAN
+TDATETIME
+YZ]_^[
+!OPENARRAY
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+_^[YY]
+Variant is null, cannot invoke
+TPSCustomDebugExec
+TPSDebugExec
+TPositionData
+YZ]_^[
+_^[YY]
+TLoadedDll
+<utf8>
+UNLOADDLL
+DLLGETLASTERROR
+CREATE
+ASSIGN
+FINDCOMPONENT
+CREATE
+DESTROYCOMPONENTS
+COMPONENTS
+COMPONENTCOUNT
+COMPONENTINDEX
+COMPONENTSTATE
+DESIGNINFO
+CREATE
+APPEND
+ADDSTRINGS
+DELETE
+INDEXOF
+INSERT
+COMMATEXT
+LOADFROMFILE
+SAVETOFILE
+STRINGS
+OBJECTS
+CREATE
+DUPLICATES
+SORTED
+ONCHANGE
+ONCHANGING
+READBUFFER
+WRITEBUFFER
+COPYFROM
+POSITION
+CREATE
+HANDLE
+CREATE
+CREATE
+CREATE
+HANDLE
+PIXELSPERINCH
+RECTANGLE
+ROUNDRECT
+ELLIPSE
+FILLRECT
+FLOODFILL
+LINETO
+MOVETO
+REFRESH
+TEXTHEIGHT
+TEXTOUT
+TEXTWIDTH
+HANDLE
+PIXELS
+ONCHANGE
+CREATE
+CREATE
+Create
+LoadFromFile
+SaveToFile
+Height
+OnChange
+LoadFromStream
+SaveToStream
+Canvas
+Handle
+CREATE
+BRINGTOFRONT
+INVALIDATE
+REFRESH
+REPAINT
+SENDTOBACK
+UPDATE
+SETBOUNDS
+SHOWHINT
+CLIENTHEIGHT
+CLIENTWIDTH
+VISIBLE
+ENABLED
+PARENT
+HANDLE
+SHOWING
+TABORDER
+TABSTOP
+CANFOCUS
+FOCUSED
+CONTROLS
+CONTROLCOUNT
+SCROLLINVIEW
+CREATENEW
+SHOWMODAL
+RELEASE
+ACTIVE
+CLEARSELECTION
+SELECTALL
+MODIFIED
+SELLENGTH
+SELSTART
+SELTEXT
+DROPPEDDOWN
+ITEMINDEX
+ITEMINDEX
+SELCOUNT
+SELECTED
+OleCheck
+StringToGUID
+CreateComObject
+CREATEOLEOBJECT
+GETACTIVEOLEOBJECT
++PH+P@
+TNewStaticText
+TNewStaticText
+NewStaticText
+AutoSizetLE
+Captionh
+DragCursor
+DragMode
+Enabled
+FocusControl`
+ForceLTRReading
+ParentColor
+ParentFont
+ParentShowHint
+	PopupMenu
+ShowAccelChar
+ShowHint\LE
+TabOrder
+TabStop
+Visible
+WordWrap
+OnClick
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDrag
+OnMouseDown
+OnMouseMove
+	OnMouseUp
+OnStartDrag
+_^[YY]
+TItemState
+TNewCheckListBox
+TNewCheckListBox
+NewCheckListBox&
+Align$
+BorderStyleh
+DragCursor
+DragMode
+Enabled
+ItemsT
+MinItemHeightT
+Offset
+OnClick
+OnClickCheck
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp
+OnMouseDown
+OnMouseMove
+	OnMouseUp
+OnStartDrag
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHint
+	PopupMenu
+RequireRadioSelection
+ShowHint
+	ShowLines\LE
+TabOrder
+Visible
+WantTabs
+	TIUnknown
+TIDispatch
+TIAccessible
+TAccObject
+$Z]_^[
+_^[YY]
+_^[YY]
+_^[YY]
+TNewProgressBarState
+npbsNormal	npbsError
+npbsPaused
+NewProgressBar
+TNewProgressBarStyle
+npbstNormal
+npbstMarquee
+NewProgressBar
+TNewProgressBar
+TNewProgressBar
+NewProgressBar
+Position
+Visible
+TRichEditViewerd
+TRichEditViewer4
+RichEditViewer
+UseRichEdit
+TCustomFile
+TTextFileReaderx
+TTextFileWriter
+EFileError
+ECompressError
+ECompressDataError
+ECompressInternalError
+TCustomDecompressorp
+TStoredDecompressor
+TCompressedBlockReader
+$Z]_^[
+TFileRedir
+TTextFileReaderRedir
+TTextFileWriterRedir
+_^[YY]
+TSimpleStringList
+QQQQQQQQSVW
+QQQQQSV
+QQQQQSVW
+_^[YY]
+QQQQQQQSVW3
+_^[YY]
+$Z]_^[
+_^[YY]
+QQQQSVW
+TDummyClassSVW
+THelperS
+Ht4HtC
+TAssemblyCacheInfo
+TUninstallLogU
+_^[YY]
+QSVWj	
+GetNamedSecurityInfoW
+SetNamedSecurityInfoW
+SetEntriesInAclW
+Jt#Jt/
+TZDecompressor
+TBZDecompressorS
+TLZMACustomDecompressor 
+TLZMA1Decompressor
+TLZMA2Decompressor
+T$<#T$$
+T$<#T$(
+L$8+T$
+T$T#T$X
+T$\!T$X
+L$8+T$
+T$D;T$hr
+L$h)L$D
+;L$Ds	
+\$8+L$
+T$<)T$D
+;\$4w:
+|$8+L$8
+D$8;L$4u
+T$8;T$
+T$H;T$
+H$YZ]_^[
+<$;O8s
+L$$!L$ 
+F$;F(u
+F$;F(u
+TAlphaBitmap
+TAlphaBitmap
+BitmapImage
+TBitmapImage
+TBitmapImage
+BitmapImage
+AutoSizeh
+	BackColor
+Center
+DragCursor
+DragMode
+Enabled
+ParentShowHint
+Bitmap
+	PopupMenu
+ShowHint
+Stretchh
+ReplaceColorh
+ReplaceWithColor
+Visible
+OnClick
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDrag
+OnMouseDown
+OnMouseMove
+	OnMouseUp
+OnStartDrag
+R0;CH|
+R$;CL|
+R0;CH|
+R$;CL}#
+TNewEdit
+TNewEdit
+	BidiCtrls
+TNewMemo
+TNewMemo
+	BidiCtrls
+TNewComboBox
+TNewComboBox4
+	BidiCtrls
+TNewListBox(
+TNewListBox
+	BidiCtrls
+TNewButton
+TNewButton
+	BidiCtrls
+TNewCheckBox
+TNewCheckBox 
+	BidiCtrls
+TNewRadioButton
+TNewRadioButton
+	BidiCtrls
+TPasswordEdit
+TPasswordEdit
+PasswordEdit(
+AutoSelect
+AutoSize$
+BorderStyle
+CharCaseh
+DragCursor
+DragMode
+Enabled`
+HideSelectionT
+	MaxLength
+OEMConvert
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHint
+Password
+	PopupMenu
+ReadOnly
+ShowHint\LE
+TabOrder
+TabStoptLE
+Visible
+OnChange
+OnClick
+OnDblClickDSE
+OnDragDrop
+OnDragOver
+	OnEndDrag
+OnEnter
+OnExit4RE
+	OnKeyDown
+OnKeyPress4RE
+OnKeyUp
+OnMouseDown
+OnMouseMove
+	OnMouseUp
+OnStartDragSV
+TFolderRenameEvent
+Sender
+TCustomFolderTreeView
+NewName
+string
+Accept
+Boolean
+TCustomFolderTreeView
+TCustomFolderTreeView
+FolderTreeView
+TFolderTreeView
+TFolderTreeView
+FolderTreeView
+TabOrder
+TabStop
+Visible
+OnChange
+OnRename
+TStartMenuFolderTreeView
+TStartMenuFolderTreeView
+FolderTreeView
+TabOrder
+TabStop
+Visible
+OnChange
+OnRename
+	TItemData
+_^[YY]
+QQQQQSV
+QQQQQQQSV
+TNewNotebook
+TNewNotebook
+NewNotebook
+ActivePage
+Alignh
+DragCursor
+DragMode
+Enabled`
+ParentColor
+ParentFont
+ParentShowHint
+	PopupMenu
+ShowHint\LE
+TabOrder
+TabStop
+VisibleDSE
+OnDragDrop
+OnDragOver
+	OnEndDrag
+OnEnter
+OnExit
+OnMouseDown
+OnMouseMove
+	OnMouseUp
+OnStartDrag
+TNewNotebookPage
+TNewNotebookPage
+NewNotebook
+DragMode
+Enabled`
+HeightT
+	PageIndex
+ParentColor
+ParentFont
+ParentShowHint
+	PopupMenu
+ShowHintT
+VisibleT
+WidthDSE
+OnDragDrop
+OnDragOver
+	OnEndDrag
+OnEnter
+OnExit
+OnMouseDown
+OnMouseMove
+	OnMouseUp
+OnStartDragSV
+YZ]_^[
+BrowseLabel
+PathEdit
+NewFolderButton
+OKButton
+CancelButton
+PathEditChange
+NewFolderButtonClick
+TSelectFolderForm
+TSelectFolderForm
+SelFolderForm
+TWizardPage
+TWizardPage
+Wizard
+CancelButton
+NextButton
+BackButton
+OuterNotebook
+InnerNotebook
+WelcomePage
+	InnerPage
+FinishedPage
+LicensePage
+PasswordPage
+InfoBeforePage
+UserInfoPage
+SelectDirPage
+SelectComponentsPage
+SelectProgramGroupPage
+SelectTasksPage
+	ReadyPage
+PreparingPage
+InstallingPage
+InfoAfterPage
+DiskSpaceLabel
+DirEdit
+	GroupEdit
+NoIconsCheck
+PasswordLabel
+PasswordEdit
+PasswordEditLabel
+	ReadyMemo
+TypesCombo
+WizardBitmapImage
+WelcomeLabel1
+InfoBeforeMemo
+InfoBeforeClickLabel
+	MainPanel
+Bevel1
+PageNameLabel
+PageDescriptionLabel 
+WizardSmallBitmapImage$
+ReadyLabel(
+FinishedLabel,
+YesRadio0
+NoRadio4
+WizardBitmapImage28
+WelcomeLabel2<
+LicenseLabel1@
+LicenseMemoD
+InfoAfterMemoH
+InfoAfterClickLabelL
+ComponentsListP
+ComponentsDiskSpaceLabelT
+BeveledLabelX
+StatusLabel\
+FilenameLabel`
+ProgressGauged
+SelectDirLabelh
+SelectStartMenuFolderLabell
+SelectComponentsLabelp
+SelectTasksLabelt
+LicenseAcceptedRadiox
+LicenseNotAcceptedRadio|
+UserInfoNameLabel
+UserInfoNameEdit
+UserInfoOrgLabel
+UserInfoOrgEdit
+PreparingErrorBitmapImage
+PreparingLabel
+FinishedHeadingLabel
+UserInfoSerialLabel
+UserInfoSerialEdit
+	TasksList
+RunList
+DirBrowseButton
+GroupBrowseButton
+SelectDirBitmapImage
+SelectGroupBitmapImage
+SelectDirBrowseLabel
+ SelectStartMenuFolderBrowseLabel
+PreparingYesRadio
+PreparingNoRadio
+PreparingMemo
+NextButtonClick
+BackButtonClick
+CancelButtonClick
+	FormClose
+NoIconsCheckClick
+TypesComboChange
+ComponentsListClickCheck 
+LicenseAcceptedRadioClick#
+LicenseNotAcceptedRadioClick
+UserInfoEditChange
+DirBrowseButtonClick
+GroupBrowseButtonClick
+TWizardForm
+TWizardForm
+Wizard
+_^[YY]
+QQQQSV
+QQQQSV
+$Z]_^[
+_^[YY]
+QQQQQQS
+CheckSerial
+YZ]_^[
+YZ]_^[
+PrepareToInstall
+UpdateReadyMemo
+CurPageChanged
+ShouldSkipPage
+CheckPassword
+NextButtonClick
+BackButtonClick
+CancelButtonClick
+_^[YY]
+DiskBitmapImage
+SelectDiskLabel
+	PathLabel
+PathEdit
+BrowseButton
+OKButton
+CancelButton
+FormCloseQuery
+BrowseButtonClick
+TNewDiskForm
+TNewDiskFormH
+NewDisk
+TFileExtractor
+$YZ_^[
+<requestedExecutionLevel level="
+highestAvailable"    
+requireAdministrator"
+TSetupUninstallLog
+CurInstallProgressChanged
+TRegisterFilesListRec
+RegisterPreviousData
+QQQQSVW3
+QQQQQQQSVW
+@N@uij
+QQQQSVW
+_^[YY]
+@? t/j
+_^[YY]
+_^[YY]
+QQQQQS
+_^[YY]
+NeedRestart
+SelectLabel
+	LangCombo
+OKButton
+CancelButton
+IconBitmapImage
+TSelectLanguageForm
+TSelectLanguageForm
+SelLangForm
+TSimpleExpressionSV
+JtAJtU
+TSpawnServer
+FormResize
+FormCloseQuery
+	FormPaint
+FormKeyDown
+	TMainForm
+	TMainForm
+TDummyClass
+PasswordCheckHash
+_^[YY]
+TKeyNameConst
+QQQQSV
+QQQQQQSV
+QQQQQSV
+_^[YY]
+RegisterExtraCloseApplicationsResources
+QQQQQQSVW
+QQQQQSV
+QQQQQ3
+QQQQQ3
+_^[YY]
+_^[YY]
+CheckPassword
+CheckPassword
+CheckSerial
+InitializeSetup
+GetCustomSetupExitCode
+DeinitializeSetup
+CurStepChanged
+_^[YY]
+InitializeWizard
+FHPh(PN
+FHPh(PN
+_^[YY]
+t,h,kN
+TInputQueryWizardPage
+TInputQueryWizardPage
+	ScriptDlg
+TInputOptionWizardPage
+TInputOptionWizardPage
+	ScriptDlg
+TInputDirWizardPage
+TInputDirWizardPage
+	ScriptDlg
+TInputFileWizardPage
+TInputFileWizardPage
+	ScriptDlg
+TOutputMsgWizardPage
+TOutputMsgWizardPagehvN
+	ScriptDlg
+TOutputMsgMemoWizardPage
+TOutputMsgMemoWizardPageLwN
+	ScriptDlg
+TOutputProgressWizardPage
+TOutputProgressWizardPage8xN
+	ScriptDlg
+_^[YY]
+_^[YY]
+_^[YY]
+OuterNotebook
+	InnerPage
+InnerNotebook
+InstallingPage
+	MainPanel
+PageNameLabel
+PageDescriptionLabel
+WizardSmallBitmapImage
+Bevel1
+StatusLabel
+ProgressBar
+BeveledLabel
+CancelButton
+TUninstallProgressForm
+TUninstallProgressForm
+UninstProgressForm
+ParentBackground
+AdjustHeight
+AddCheckBox
+AddGroup
+AddRadioButton
+CheckItem
+Checked
+ItemCaption
+ItemEnabled
+ItemLevel
+ItemObject
+ItemSubItem
+RTFText
+ChangeDirectory
+CreateNewDirectory
+Directory
+SetPaths
+AlphaFormat
+FindNextPage
+PageCount
+Notebook
+Center
+CenterInsideControl
+ControlsFlipped
+FlipControlsOnShow
+RightToLeft
+ShowAboutBox
+CancelButton
+NextButton
+BackButton
+OuterNotebook
+InnerNotebook
+WelcomePage
+InnerPage
+FinishedPage
+LicensePage
+PasswordPage
+InfoBeforePage
+UserInfoPage
+SelectDirPage
+SelectComponentsPage
+SelectProgramGroupPage
+SelectTasksPage
+ReadyPage
+PreparingPage
+InstallingPage
+InfoAfterPage
+DiskSpaceLabel
+DirEdit
+GroupEdit
+NoIconsCheck
+PasswordLabel
+PasswordEdit
+PasswordEditLabel
+ReadyMemo
+TypesCombo
+WizardBitmapImage
+WelcomeLabel1
+InfoBeforeMemo
+InfoBeforeClickLabel
+MainPanel
+Bevel1
+PageNameLabel
+PageDescriptionLabel
+WizardSmallBitmapImage
+ReadyLabel
+FinishedLabel
+YesRadio
+NoRadio
+WizardBitmapImage2
+WelcomeLabel2
+LicenseLabel1
+LicenseMemo
+InfoAfterMemo
+InfoAfterClickLabel
+ComponentsList
+ComponentsDiskSpaceLabel
+BeveledLabel
+StatusLabel
+FilenameLabel
+ProgressGauge
+SelectDirLabel
+SelectStartMenuFolderLabel
+SelectComponentsLabel
+SelectTasksLabel
+LicenseAcceptedRadio
+LicenseNotAcceptedRadio
+UserInfoNameLabel
+UserInfoNameEdit
+UserInfoOrgLabel
+UserInfoOrgEdit
+PreparingErrorBitmapImage
+PreparingLabel
+FinishedHeadingLabel
+UserInfoSerialLabel
+UserInfoSerialEdit
+TasksList
+RunList
+DirBrowseButton
+GroupBrowseButton
+SelectDirBitmapImage
+SelectGroupBitmapImage
+SelectDirBrowseLabel
+SelectStartMenuFolderBrowseLabel
+PreparingYesRadio
+PreparingNoRadio
+PreparingMemo
+CurPageID
+AdjustLabelHeight
+IncTopDecHeight
+PrevAppDir
+OuterNotebook
+InnerPage
+InnerNotebook
+InstallingPage
+MainPanel
+PageNameLabel
+PageDescriptionLabel
+WizardSmallBitmapImage
+Bevel1
+StatusLabel
+ProgressBar
+BeveledLabel
+CancelButton
+Caption
+Description
+Surface
+SurfaceHeight
+SurfaceWidth
+OnActivate
+OnBackButtonClick
+OnCancelButtonClick
+OnNextButtonClick
+OnShouldSkipPage
+PromptLabels
+SubCaptionLabel
+Values
+CheckListBox
+SelectedValueIndex
+SubCaptionLabel
+Values
+Buttons
+PromptLabels
+SubCaptionLabel
+Values
+Buttons
+PromptLabels
+SubCaptionLabel
+Values
+IsSaveButton
+MsgLabel
+RichEditViewer
+SubCaptionLabel
+Msg1Label
+Msg2Label
+ProgressBar
+SetProgress
+SetText
+function PageFromID(const ID: Integer): TWizardPage;
+function PageIndexFromID(const ID: Integer): Integer;
+function CreateCustomPage(const AfterID: Integer; const ACaption, ADescription: String): TWizardPage;
+function CreateInputQueryPage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String): TInputQueryWizardPage;
+function CreateInputOptionPage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String; Exclusive, ListBox: Boolean): TInputOptionWizardPage;
+function CreateInputDirPage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String; AAppendDir: Boolean; ANewFolderName: String): TInputDirWizardPage;
+function CreateInputFilePage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String): TInputFileWizardPage;
+function CreateOutputMsgPage(const AfterID: Integer; const ACaption, ADescription, AMsg: String): TOutputMsgWizardPage;
+function CreateOutputMsgMemoPage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String; const AMsg: AnsiString): TOutputMsgMemoWizardPage;
+function CreateOutputProgressPage(const ACaption, ADescription: String): TOutputProgressWizardPage;
+function ScaleX(X: Integer): Integer;
+function ScaleY(Y: Integer): Integer;
+function CreateCustomForm: TSetupForm;
+function SelectDisk(const DiskNumber: Integer; const AFilename: String; var Path: String): Boolean;
+function BrowseForFolder(const Prompt: String; var Directory: String; const NewFolderButton: Boolean): Boolean;
+function GetOpenFileName(const Prompt: String; var FileName: String; const InitialDirectory, Filter, DefaultExtension: String): Boolean;
+function GetOpenFileNameMulti(const Prompt: String; const FileNameList: TStrings; const InitialDirectory, Filter, DefaultExtension: String): Boolean;
+function GetSaveFileName(const Prompt: String; var FileName: String; const InitialDirectory, Filter, DefaultExtension: String): Boolean;
+function MsgBox(const Text: String; const Typ: TMsgBoxType; const Buttons: Integer): Integer;
+function MinimizePathName(const Filename: String; const Font: TFont; MaxLen: Integer): String;
+function FileExists(const Name: String): Boolean;
+function DirExists(const Name: String): Boolean;
+function FileOrDirExists(const Name: String): Boolean;
+function GetIniString(const Section, Key, Default, Filename: String): String;
+function GetIniInt(const Section, Key: String; const Default, Min, Max: Longint; const Filename: String): Longint;
+function GetIniBool(const Section, Key: String; const Default: Boolean; const Filename: String): Boolean;
+function IniKeyExists(const Section, Key, Filename: String): Boolean;
+function IsIniSectionEmpty(const Section, Filename: String): Boolean;
+function SetIniString(const Section, Key, Value, Filename: String): Boolean;
+function SetIniInt(const Section, Key: String; const Value: Longint; const Filename: String): Boolean;
+function SetIniBool(const Section, Key: String; const Value: Boolean; const Filename: String): Boolean;
+procedure DeleteIniEntry(const Section, Key, Filename: String);
+procedure DeleteIniSection(const Section, Filename: String);
+function GetEnv(const EnvVar: String): String;
+function GetCmdTail: String;
+function ParamCount: Integer;
+function ParamStr(Index: Integer): string;
+function AddBackslash(const S: String): String;
+function RemoveBackslash(const S: String): String;
+function RemoveBackslashUnlessRoot(const S: String): String;
+function AddQuotes(const S: String): String;
+function RemoveQuotes(const S: String): String;
+function GetShortName(const LongName: String): String;
+function GetWinDir: String;
+function GetSystemDir: String;
+function GetSysWow64Dir: String;
+function GetSysNativeDir: String;
+function GetTempDir: String;
+function StringChange(var S: String; const FromStr, ToStr: String): Integer;
+function StringChangeEx(var S: String; const FromStr, ToStr: String; const SupportDBCS: Boolean): Integer;
+function UsingWinNT: Boolean;
+function FileCopy(const ExistingFile, NewFile: String; const FailIfExists: Boolean): Boolean;
+function ConvertPercentStr(var S: String): Boolean;
+function RegValueExists(const RootKey: Integer; const SubKeyName, ValueName: String): Boolean;
+function RegQueryStringValue(const RootKey: Integer; const SubKeyName, ValueName: String; var ResultStr: String): Boolean;
+function RegQueryMultiStringValue(const RootKey: Integer; const SubKeyName, ValueName: String; var ResultStr: String): Boolean;
+function RegDeleteKeyIncludingSubkeys(const RootKey: Integer; const SubkeyName: String): Boolean;
+function RegDeleteKeyIfEmpty(const RootKey: Integer; const SubkeyName: String): Boolean;
+function RegKeyExists(const RootKey: Integer; const SubKeyName: String): Boolean;
+function RegDeleteValue(const RootKey: Integer; const SubKeyName, ValueName: String): Boolean;
+function RegGetSubkeyNames(const RootKey: Integer; const SubKeyName: String; var Names: TArrayOfString): Boolean;
+function RegGetValueNames(const RootKey: Integer; const SubKeyName: String; var Names: TArrayOfString): Boolean;
+function RegQueryDWordValue(const RootKey: Integer; const SubKeyName, ValueName: String; var ResultDWord: Cardinal): Boolean;
+function RegQueryBinaryValue(const RootKey: Integer; const SubKeyName, ValueName: String; var ResultStr: AnsiString): Boolean;
+function RegWriteStringValue(const RootKey: Integer; const SubKeyName, ValueName, Data: String): Boolean;
+function RegWriteExpandStringValue(const RootKey: Integer; const SubKeyName, ValueName, Data: String): Boolean;
+function RegWriteMultiStringValue(const RootKey: Integer; const SubKeyName, ValueName, Data: String): Boolean;
+function RegWriteDWordValue(const RootKey: Integer; const SubKeyName, ValueName: String; const Data: Cardinal): Boolean;
+function RegWriteBinaryValue(const RootKey: Integer; const SubKeyName, ValueName: String; const Data: AnsiString): Boolean;
+function IsAdminLoggedOn: Boolean;
+function IsPowerUserLoggedOn: Boolean;
+function FontExists(const FaceName: String): Boolean;
+function GetUILanguage: Integer;
+function AddPeriod(const S: String): String;
+function CharLength(const S: String; const Index: Integer): Integer;
+function SetNTFSCompression(const FileOrDir: String; Compress: Boolean): Boolean;
+procedure ExtractTemporaryFile(const FileName: String);
+function ExtractTemporaryFiles(const Pattern: String): Integer;
+function CheckForMutexes(Mutexes: String): Boolean;
+function DecrementSharedCount(const Is64Bit: Boolean; const Filename: String): Boolean;
+procedure DelayDeleteFile(const Filename: String; const Tries: Integer);
+function DelTree(const Path: String; const IsDir, DeleteFiles, DeleteSubdirsAlso: Boolean): Boolean;
+function GenerateUniqueName(Path: String; const Extension: String): String;
+function GetComputerNameString: String;
+function GetMD5OfFile(const Filename: String): String;
+function GetMD5OfString(const S: AnsiString): String;
+function GetMD5OfUnicodeString(const S: String): String;
+function GetSHA1OfFile(const Filename: String): String;
+function GetSHA1OfString(const S: AnsiString): String;
+function GetSHA1OfUnicodeString(const S: String): String;
+function GetSpaceOnDisk(const DriveRoot: String; const InMegabytes: Boolean; var Free, Total: Cardinal): Boolean;
+function GetSpaceOnDisk64(const DriveRoot: String; var Free, Total: Int64): Boolean;
+function GetUserNameString: String;
+procedure IncrementSharedCount(const Is64Bit: Boolean; const Filename: String; const AlreadyExisted: Boolean);
+function Exec(const Filename, Params, WorkingDir: String; const ShowCmd: Integer; const Wait: TExecWait; var ResultCode: Integer): Boolean;
+function ExecAsOriginalUser(const Filename, Params, WorkingDir: String; const ShowCmd: Integer; const Wait: TExecWait; var ResultCode: Integer): Boolean;
+function ShellExec(const Verb, Filename, Params, WorkingDir: String; const ShowCmd: Integer; const Wait: TExecWait; var ErrorCode: Integer): Boolean;
+function ShellExecAsOriginalUser(const Verb, Filename, Params, WorkingDir: String; const ShowCmd: Integer; const Wait: TExecWait; var ErrorCode: Integer): Boolean;
+function IsProtectedSystemFile(const Filename: String): Boolean;
+function MakePendingFileRenameOperationsChecksum: String;
+function ModifyPifFile(const Filename: String; const CloseOnExit: Boolean): Boolean;
+procedure RegisterServer(const Is64Bit: Boolean; const Filename: String; const FailCriticalErrors: Boolean);
+function UnregisterServer(const Is64Bit: Boolean; const Filename: String; const FailCriticalErrors: Boolean): Boolean;
+procedure UnregisterFont(const FontName, FontFilename: String);
+procedure RestartReplace(const TempFile, DestFile: String);
+function ForceDirectories(Dir: string): Boolean;
+function CreateShellLink(const Filename, Description, ShortcutTo, Parameters, WorkingDir, IconFilename: String; const IconIndex, ShowCmd: Integer): String;
+procedure RegisterTypeLibrary(const Is64Bit: Boolean; const Filename: String);
+function UnregisterTypeLibrary(const Is64Bit: Boolean; const Filename: String): Boolean;
+function UnpinShellLink(const Filename: String): Boolean;
+function WizardForm: TWizardForm;
+function MainForm: TMainForm;
+function ActiveLanguage: String;
+function IsComponentSelected(const Components: String): Boolean;
+function IsTaskSelected(const Tasks: String): Boolean;
+function ExpandConstant(const S: String): String;
+function ExpandConstantEx(const S: String; const CustomConst, CustomValue: String): String;
+function ExitSetupMsgBox: Boolean;
+function GetShellFolder(Common: Boolean; const ID: TShellFolderID): String;
+function GetShellFolderByCSIDL(const Folder: Integer; const Create: Boolean): String;
+function InstallOnThisVersion(const MinVersion, OnlyBelowVersion: String): Boolean;
+function GetWindowsVersion: Cardinal;
+procedure GetWindowsVersionEx(var Version: TWindowsVersion);
+function GetWindowsVersionString: String;
+function SuppressibleMsgBox(const Text: String; const Typ: TMsgBoxType; const Buttons, Default: Integer): Integer;
+function IsWin64: Boolean;
+function Is64BitInstallMode: Boolean;
+function ProcessorArchitecture: TSetupProcessorArchitecture;
+function CustomMessage(const MsgName: String): String;
+function RmSessionStarted: Boolean;
+function RegisterExtraCloseApplicationsResource(const DisableFsRedir: Boolean; const AFilename: String): Boolean;
+function SetupMessage(const ID: TSetupMessageID): String;
+function FmtMessage(const S: String; const Args: array of String): String;
+function Random(const Range: Integer): Integer;
+function FileSize(const Name: String; var Size: Integer): Boolean;
+procedure Beep;
+function Trim(const S: string): string;
+function TrimLeft(const S: string): string;
+function TrimRight(const S: string): string;
+function GetCurrentDir: string;
+function SetCurrentDir(const Dir: string): Boolean;
+function ExpandFileName(const FileName: string): string;
+function ExpandUNCFileName(const FileName: string): string;
+function ExtractRelativePath(const BaseName, DestName: string): string;
+function ExtractFileDir(const FileName: string): string;
+function ExtractFileDrive(const FileName: string): string;
+function ExtractFileExt(const FileName: string): string;
+function ExtractFileName(const FileName: string): string;
+function ExtractFilePath(const FileName: string): string;
+function ChangeFileExt(const FileName, Extension: string): string;
+function FileSearch(const Name, DirList: string): string;
+function RenameFile(const OldName, NewName: string): Boolean;
+function DeleteFile(const FileName: string): Boolean;
+function CreateDir(const Dir: string): Boolean;
+function RemoveDir(const Dir: string): Boolean;
+function CompareStr(const S1, S2: string): Integer;
+function CompareText(const S1, S2: string): Integer;
+function GetDateTimeString(const DateTimeFormat: String; const DateSeparator, TimeSeparator: Char): String;
+function SysErrorMessage(ErrorCode: Integer): String;
+function FindFirst(const FileName: String; var FindRec: TFindRec): Boolean;
+function FindNext(var FindRec: TFindRec): Boolean;
+procedure FindClose(var FindRec: TFindRec);
+function Format(const Format: string; const Args: array of const): string;
+function GetVersionNumbers(const Filename: String; var VersionMS, VersionLS: Cardinal): Boolean;
+function GetVersionNumbersString(const Filename: String; var Version: String): Boolean;
+procedure Sleep(const Milliseconds: LongInt);
+function FindWindowByClassName(const ClassName: String): HWND;
+function FindWindowByWindowName(const WindowName: String): HWND;
+function SendMessage(const Wnd: HWND; const Msg, WParam, LParam: Longint): Longint;
+function PostMessage(const Wnd: HWND; const Msg, WParam, LParam: Longint): Boolean;
+function SendNotifyMessage(const Wnd: HWND; const Msg, WParam, LParam: Longint): Boolean;
+function RegisterWindowMessage(const Name: String): Longint;
+function SendBroadcastMessage(const Msg, WParam, LParam: Longint): Longint;
+function PostBroadcastMessage(const Msg, WParam, LParam: Longint): Boolean;
+function SendBroadcastNotifyMessage(const Msg, WParam, LParam: Longint): Boolean;
+function LoadDLL(const DLLName: String; var ErrorCode: Integer): Longint;
+function CallDLLProc(const DLLHandle: Longint; const ProcName: String; const Param1, Param2: Longint; var Result: Longint): Boolean;
+function FreeDLL(const DLLHandle: Longint): Boolean;
+procedure CreateMutex(const Name: String);
+procedure OemToCharBuff(var S: AnsiString);
+procedure CharToOemBuff(var S: AnsiString);
+procedure CoFreeUnusedLibraries;
+procedure Log(const S: String);
+procedure BringToFrontAndRestore;
+function WizardDirValue: String;
+function WizardGroupValue: String;
+function WizardNoIcons: Boolean;
+function WizardSetupType(const Description: Boolean): String;
+function WizardSelectedComponents(const Descriptions: Boolean): String;
+function WizardSelectedTasks(const Descriptions: Boolean): String;
+function WizardSilent: Boolean;
+function IsUninstaller: Boolean;
+function UninstallSilent: Boolean;
+function CurrentFilename: String;
+function CurrentSourceFilename: String;
+function CastStringToInteger(var S: String): Longint;
+function CastIntegerToString(const L: Longint): String;
+procedure Abort;
+function GetExceptionMessage: String;
+procedure RaiseException(const Msg: String);
+procedure ShowExceptionMessage;
+function Terminated: Boolean;
+function GetPreviousData(const ValueName, DefaultValueData: String): String;
+function SetPreviousData(const PreviousDataKey: Integer; const ValueName, ValueData: String): Boolean;
+function LoadStringFromFile(const FileName: String; var S: AnsiString): Boolean;
+function LoadStringsFromFile(const FileName: String; var S: TArrayOfString): Boolean;
+function SaveStringToFile(const FileName: String; const S: AnsiString; const Append: Boolean): Boolean;
+function SaveStringsToFile(const FileName: String; const S: TArrayOfString; const Append: Boolean): Boolean;
+function SaveStringsToUTF8File(const FileName: String; const S: TArrayOfString; const Append: Boolean): Boolean;
+function EnableFsRedirection(const Enable: Boolean): Boolean;
+function UninstallProgressForm: TUninstallProgressForm;
+PAGEFROMID
+PAGEINDEXFROMID
+CREATECUSTOMPAGE
+CREATEINPUTQUERYPAGE
+CREATEINPUTOPTIONPAGE
+CREATEINPUTDIRPAGE
+CREATEINPUTFILEPAGE
+CREATEOUTPUTMSGPAGE
+CREATEOUTPUTMSGMEMOPAGE
+CREATEOUTPUTPROGRESSPAGE
+SCALEX
+SCALEY
+CREATECUSTOMFORM
+SELECTDISK
+BROWSEFORFOLDER
+GETOPENFILENAME
+GETOPENFILENAMEMULTI
+GETSAVEFILENAME
+MSGBOX
+MINIMIZEPATHNAME
+FILEEXISTS
+DIREXISTS
+FILEORDIREXISTS
+GETINISTRING
+GETINIINT
+GETINIBOOL
+INIKEYEXISTS
+ISINISECTIONEMPTY
+SETINISTRING
+SETINIINT
+SETINIBOOL
+DELETEINIENTRY
+DELETEINISECTION
+GETENV
+GETCMDTAIL
+PARAMCOUNT
+PARAMSTR
+ADDBACKSLASH
+REMOVEBACKSLASH
+REMOVEBACKSLASHUNLESSROOT
+ADDQUOTES
+REMOVEQUOTES
+GETSHORTNAME
+GETWINDIR
+GETSYSTEMDIR
+GETSYSWOW64DIR
+GETSYSNATIVEDIR
+GETTEMPDIR
+STRINGCHANGE
+STRINGCHANGEEX
+USINGWINNT
+FILECOPY
+CONVERTPERCENTSTR
+REGKEYEXISTS
+REGVALUEEXISTS
+REGDELETEKEYINCLUDINGSUBKEYS
+REGDELETEKEYIFEMPTY
+REGDELETEVALUE
+REGGETSUBKEYNAMES
+REGGETVALUENAMES
+REGQUERYSTRINGVALUE
+REGQUERYMULTISTRINGVALUE
+REGQUERYDWORDVALUE
+REGQUERYBINARYVALUE
+REGWRITESTRINGVALUE
+REGWRITEEXPANDSTRINGVALUE
+REGWRITEMULTISTRINGVALUE
+REGWRITEDWORDVALUE
+REGWRITEBINARYVALUE
+ISADMINLOGGEDON
+ISPOWERUSERLOGGEDON
+FONTEXISTS
+GETUILANGUAGE
+ADDPERIOD
+CHARLENGTH
+SETNTFSCOMPRESSION
+EXTRACTTEMPORARYFILE
+EXTRACTTEMPORARYFILES
+CHECKFORMUTEXES
+DECREMENTSHAREDCOUNT
+DELAYDELETEFILE
+DELTREE
+GENERATEUNIQUENAME
+GETCOMPUTERNAMESTRING
+GETMD5OFFILE
+GETMD5OFSTRING
+GETMD5OFUNICODESTRING
+GETSHA1OFFILE
+GETSHA1OFSTRING
+GETSHA1OFUNICODESTRING
+GETSPACEONDISK
+GETSPACEONDISK64
+GETUSERNAMESTRING
+INCREMENTSHAREDCOUNT
+EXECASORIGINALUSER
+SHELLEXEC
+SHELLEXECASORIGINALUSER
+ISPROTECTEDSYSTEMFILE
+MAKEPENDINGFILERENAMEOPERATIONSCHECKSUM
+MODIFYPIFFILE
+REGISTERSERVER
+UNREGISTERSERVER
+UNREGISTERFONT
+RESTARTREPLACE
+FORCEDIRECTORIES
+CREATESHELLLINK
+REGISTERTYPELIBRARY
+UNREGISTERTYPELIBRARY
+UNPINSHELLLINK
+WIZARDFORM
+MAINFORM
+ACTIVELANGUAGE
+ISCOMPONENTSELECTED
+ISTASKSELECTED
+EXPANDCONSTANT
+EXPANDCONSTANTEX
+EXITSETUPMSGBOX
+GETSHELLFOLDER
+GETSHELLFOLDERBYCSIDL
+INSTALLONTHISVERSION
+GETWINDOWSVERSION
+GETWINDOWSVERSIONSTRING
+SUPPRESSIBLEMSGBOX
+ISWIN64
+IS64BITINSTALLMODE
+PROCESSORARCHITECTURE
+CUSTOMMESSAGE
+RMSESSIONSTARTED
+REGISTEREXTRACLOSEAPPLICATIONSRESOURCE
+SETUPMESSAGE
+RANDOM
+FILESIZE
+TRIMLEFT
+TRIMRIGHT
+GETCURRENTDIR
+SETCURRENTDIR
+EXPANDFILENAME
+EXPANDUNCFILENAME
+EXTRACTRELATIVEPATH
+EXTRACTFILEDIR
+EXTRACTFILEDRIVE
+EXTRACTFILEEXT
+EXTRACTFILENAME
+EXTRACTFILEPATH
+CHANGEFILEEXT
+FILESEARCH
+RENAMEFILE
+DELETEFILE
+CREATEDIR
+REMOVEDIR
+COMPARESTR
+COMPARETEXT
+GETDATETIMESTRING
+SYSERRORMESSAGE
+GETVERSIONNUMBERS
+GETVERSIONNUMBERSSTRING
+FINDWINDOWBYCLASSNAME
+FINDWINDOWBYWINDOWNAME
+SENDMESSAGE
+POSTMESSAGE
+SENDNOTIFYMESSAGE
+REGISTERWINDOWMESSAGE
+SENDBROADCASTMESSAGE
+POSTBROADCASTMESSAGE
+SENDBROADCASTNOTIFYMESSAGE
+LOADDLL
+CALLDLLPROC
+FREEDLL
+CREATEMUTEX
+OEMTOCHARBUFF
+CHARTOOEMBUFF
+COFREEUNUSEDLIBRARIES
+_^[YY]
+_^[YY]
+_^[YY]
+BRINGTOFRONTANDRESTORE
+WIZARDDIRVALUE
+WIZARDGROUPVALUE
+WIZARDNOICONS
+WIZARDSETUPTYPE
+WIZARDSELECTEDCOMPONENTS
+WIZARDSELECTEDTASKS
+WIZARDSILENT
+ISUNINSTALLER
+UNINSTALLSILENT
+CURRENTFILENAME
+CURRENTSOURCEFILENAME
+CASTSTRINGTOINTEGER
+CASTINTEGERTOSTRING
+GETEXCEPTIONMESSAGE
+RAISEEXCEPTION
+SHOWEXCEPTIONMESSAGE
+TERMINATED
+GETPREVIOUSDATA
+SETPREVIOUSDATA
+LOADSTRINGFROMFILE
+LOADSTRINGSFROMFILE
+SAVESTRINGTOFILE
+SAVESTRINGSTOFILE
+SAVESTRINGSTOUTF8FILE
+ENABLEFSREDIRECTION
+UNINSTALLPROGRESSFORM
+FindFirst
+FindNext
+FindClose
+FmtMessage
+Format
+GetWindowsVersionEx
+TScriptRunner
+Script error: 
+_^[YY]
+<utf8>
+UNLOADDLL
+TSetupForm
+TSetupForm
+	SetupForm
+_^[YY]
+	BodyLabel
+FilenameLabel
+FilenameEdit
+LocationLabel
+LocationEdit
+	YesButton
+YesToAllButton
+NoButton
+NoToAllButton
+TUninstSharedFileForm
+TUninstSharedFileFormx
+UninstSharedFileForm
+TExtUninstallLog
+_^[YY]
+InitializeUninstallProgressForm
+_^[YY]
+_^[YY]
+CurUninstallStepChanged
+_^[YY]
+InitializeUninstall
+UninstallNeedRestart
+DeinitializeUninstall
+TDummyClass3
+QQQQQQQQSVW3
+-InRSt
+SetDefaultDllDirectories
+SetDllDirectoryW
+SetSearchPathMode
+SetProcessDEPPolicy
+Runtime error     at 00000000
+																										
+																							
+							
+MS Sans Serif
+Inno Setup Setup Data (5.5.7) (u)
+Inno Setup Uninstall Log (b)
+Inno Setup Uninstall Log (b) 64-bit
+Inno Setup Messages (5.5.3) (u)
+!mlo!001zlb
+idska32
+oleaut32.dll
+SysFreeString
+SysReAllocStringLen
+SysAllocStringLen
+advapi32.dll
+RegQueryValueExW
+RegOpenKeyExW
+RegCloseKey
+user32.dll
+GetKeyboardType
+LoadStringW
+MessageBoxA
+CharNextW
+kernel32.dll
+GetACP
+VirtualFree
+VirtualAlloc
+GetSystemInfo
+GetTickCount
+QueryPerformanceCounter
+GetVersion
+GetCurrentThreadId
+VirtualQuery
+WideCharToMultiByte
+SetCurrentDirectoryW
+MultiByteToWideChar
+lstrlenW
+lstrcpynW
+LoadLibraryExW
+GetThreadLocale
+GetStartupInfoA
+GetProcAddress
+GetModuleHandleW
+GetModuleFileNameW
+GetLocaleInfoW
+GetCurrentDirectoryW
+GetCommandLineW
+FreeLibrary
+FindFirstFileW
+FindClose
+ExitProcess
+ExitThread
+CreateThread
+CompareStringW
+WriteFile
+UnhandledExceptionFilter
+RtlUnwind
+RaiseException
+GetStdHandle
+CloseHandle
+kernel32.dll
+TlsSetValue
+TlsGetValue
+LocalAlloc
+GetModuleHandleW
+user32.dll
+CreateWindowExW
+WindowFromPoint
+WaitMessage
+WaitForInputIdle
+UpdateWindow
+UnregisterClassW
+UnhookWindowsHookEx
+TranslateMessage
+TranslateMDISysAccel
+TrackPopupMenu
+SystemParametersInfoW
+ShowWindow
+ShowScrollBar
+ShowOwnedPopups
+SetWindowsHookExW
+SetWindowTextW
+SetWindowPos
+SetWindowPlacement
+SetWindowLongW
+SetTimer
+SetScrollRange
+SetScrollPos
+SetScrollInfo
+SetRectEmpty
+SetRect
+SetPropW
+SetParent
+SetMenuItemInfoW
+SetMenu
+SetForegroundWindow
+SetFocus
+SetCursor
+SetClassLongW
+SetCapture
+SetActiveWindow
+SendNotifyMessageW
+SendMessageTimeoutW
+SendMessageA
+SendMessageW
+ScrollWindowEx
+ScrollWindow
+ScreenToClient
+ReplyMessage
+RemovePropW
+RemoveMenu
+ReleaseDC
+ReleaseCapture
+RegisterWindowMessageW
+RegisterClipboardFormatW
+RegisterClassW
+RedrawWindow
+PtInRect
+PostQuitMessage
+PostMessageW
+PeekMessageA
+PeekMessageW
+OffsetRect
+OemToCharBuffA
+MsgWaitForMultipleObjectsEx
+MsgWaitForMultipleObjects
+MessageBoxW
+MessageBeep
+MapWindowPoints
+MapVirtualKeyW
+LoadStringW
+LoadKeyboardLayoutW
+LoadIconW
+LoadCursorW
+LoadBitmapW
+KillTimer
+IsZoomed
+IsWindowVisible
+IsWindowUnicode
+IsWindowEnabled
+IsWindow
+IsRectEmpty
+IsIconic
+IsDialogMessageA
+IsDialogMessageW
+IsChild
+InvalidateRect
+IntersectRect
+InsertMenuItemW
+InsertMenuW
+InflateRect
+GetWindowThreadProcessId
+GetWindowTextW
+GetWindowRect
+GetWindowPlacement
+GetWindowLongW
+GetWindowDC
+GetTopWindow
+GetSystemMetrics
+GetSystemMenu
+GetSysColorBrush
+GetSysColor
+GetSubMenu
+GetScrollRange
+GetScrollPos
+GetScrollInfo
+GetPropW
+GetParent
+GetWindow
+GetMessagePos
+GetMessageW
+GetMenuStringW
+GetMenuState
+GetMenuItemInfoW
+GetMenuItemID
+GetMenuItemCount
+GetMenu
+GetLastActivePopup
+GetKeyboardState
+GetKeyboardLayoutNameW
+GetKeyboardLayoutList
+GetKeyboardLayout
+GetKeyState
+GetKeyNameTextW
+GetIconInfo
+GetForegroundWindow
+GetFocus
+GetDesktopWindow
+GetDCEx
+GetCursorPos
+GetCursor
+GetClientRect
+GetClassLongW
+GetClassInfoW
+GetCapture
+GetActiveWindow
+FrameRect
+FindWindowExW
+FindWindowW
+FillRect
+ExitWindowsEx
+EnumWindows
+EnumThreadWindows
+EnumChildWindows
+EndPaint
+EnableWindow
+EnableScrollBar
+EnableMenuItem
+DrawTextExW
+DrawTextW
+DrawMenuBar
+DrawIconEx
+DrawIcon
+DrawFrameControl
+DrawFocusRect
+DrawEdge
+DispatchMessageA
+DispatchMessageW
+DestroyWindow
+DestroyMenu
+DestroyIcon
+DestroyCursor
+DeleteMenu
+DefWindowProcW
+DefMDIChildProcW
+DefFrameProcW
+CreatePopupMenu
+CreateMenu
+CreateIcon
+ClientToScreen
+CheckMenuItem
+CharUpperBuffW
+CharNextW
+CharLowerBuffW
+CharLowerW
+CallWindowProcW
+CallNextHookEx
+BringWindowToTop
+BeginPaint
+AppendMenuW
+CharToOemBuffA
+AdjustWindowRectEx
+ActivateKeyboardLayout
+msimg32.dll
+AlphaBlend
+gdi32.dll
+UnrealizeObject
+StretchBlt
+SetWindowOrgEx
+SetViewportOrgEx
+SetTextColor
+SetStretchBltMode
+SetROP2
+SetPixel
+SetDIBColorTable
+SetBrushOrgEx
+SetBkMode
+SetBkColor
+SelectPalette
+SelectObject
+SaveDC
+RoundRect
+RestoreDC
+RemoveFontResourceW
+Rectangle
+RectVisible
+RealizePalette
+Polyline
+PatBlt
+MoveToEx
+MaskBlt
+LineTo
+LineDDA
+IntersectClipRect
+GetWindowOrgEx
+GetTextMetricsW
+GetTextExtentPointW
+GetTextExtentPoint32W
+GetSystemPaletteEntries
+GetStockObject
+GetRgnBox
+GetPixel
+GetPaletteEntries
+GetObjectW
+GetDeviceCaps
+GetDIBits
+GetDIBColorTable
+GetDCOrgEx
+GetCurrentPositionEx
+GetClipBox
+GetBrushOrgEx
+GetBitmapBits
+GdiFlush
+FrameRgn
+ExtTextOutW
+ExtFloodFill
+ExcludeClipRect
+EnumFontsW
+Ellipse
+DeleteObject
+DeleteDC
+CreateSolidBrush
+CreateRectRgn
+CreatePenIndirect
+CreatePalette
+CreateHalftonePalette
+CreateFontIndirectW
+CreateDIBitmap
+CreateDIBSection
+CreateCompatibleDC
+CreateCompatibleBitmap
+CreateBrushIndirect
+CreateBitmap
+BitBlt
+AddFontResourceW
+version.dll
+VerQueryValueW
+GetFileVersionInfoSizeW
+GetFileVersionInfoW
+mpr.dll
+WNetOpenEnumW
+WNetGetUniversalNameW
+WNetGetConnectionW
+WNetEnumResourceW
+WNetCloseEnum
+kernel32.dll
+lstrcpyW
+lstrcmpW
+WriteProfileStringW
+WritePrivateProfileStringW
+WriteFile
+WideCharToMultiByte
+WaitForSingleObject
+WaitForMultipleObjectsEx
+VirtualQueryEx
+VirtualQuery
+VirtualFree
+VirtualAlloc
+TransactNamedPipe
+TerminateProcess
+SwitchToThread
+SizeofResource
+SignalObjectAndWait
+SetThreadLocale
+SetNamedPipeHandleState
+SetLastError
+SetFileTime
+SetFilePointer
+SetFileAttributesW
+SetEvent
+SetErrorMode
+SetEndOfFile
+SetCurrentDirectoryW
+ResumeThread
+ResetEvent
+RemoveDirectoryW
+ReleaseMutex
+ReadFile
+QueryPerformanceCounter
+OpenProcess
+OpenMutexW
+MultiByteToWideChar
+MulDiv
+MoveFileExW
+MoveFileW
+LockResource
+LocalFree
+LocalFileTimeToFileTime
+LoadResource
+LoadLibraryExW
+LoadLibraryW
+LeaveCriticalSection
+IsDBCSLeadByte
+IsBadWritePtr
+InitializeCriticalSection
+GlobalFindAtomW
+GlobalDeleteAtom
+GlobalAddAtomW
+GetWindowsDirectoryW
+GetVersionExW
+GetVersion
+GetUserDefaultLangID
+GetTickCount
+GetThreadLocale
+GetSystemTimeAsFileTime
+GetSystemInfo
+GetSystemDirectoryW
+GetStdHandle
+GetShortPathNameW
+GetProfileStringW
+GetProcAddress
+GetPrivateProfileStringW
+GetOverlappedResult
+GetModuleHandleW
+GetModuleFileNameW
+GetLogicalDrives
+GetLocaleInfoW
+GetLocalTime
+GetLastError
+GetFullPathNameW
+GetFileSize
+GetFileAttributesW
+GetExitCodeThread
+GetExitCodeProcess
+GetEnvironmentVariableW
+GetDriveTypeW
+GetDiskFreeSpaceW
+GetDateFormatW
+GetCurrentThreadId
+GetCurrentThread
+GetCurrentProcessId
+GetCurrentProcess
+GetCurrentDirectoryW
+GetComputerNameW
+GetCommandLineW
+GetCPInfo
+FreeResource
+InterlockedIncrement
+InterlockedExchangeAdd
+InterlockedExchange
+InterlockedDecrement
+InterlockedCompareExchange
+FreeLibrary
+FormatMessageW
+FlushFileBuffers
+FindResourceW
+FindNextFileW
+FindFirstFileW
+FindClose
+FileTimeToSystemTime
+FileTimeToLocalFileTime
+EnumCalendarInfoW
+EnterCriticalSection
+DeviceIoControl
+DeleteFileW
+DeleteCriticalSection
+CreateThread
+CreateProcessW
+CreateNamedPipeW
+CreateMutexW
+CreateFileW
+CreateEventW
+CreateDirectoryW
+CopyFileW
+CompareStringW
+CompareFileTime
+CloseHandle
+advapi32.dll
+SetSecurityDescriptorDacl
+RegSetValueExW
+RegQueryValueExW
+RegQueryInfoKeyW
+RegOpenKeyExW
+RegFlushKey
+RegEnumValueW
+RegEnumKeyExW
+RegDeleteValueW
+RegDeleteKeyW
+RegCreateKeyExW
+RegCloseKey
+OpenThreadToken
+OpenProcessToken
+LookupPrivilegeValueW
+InitializeSecurityDescriptor
+GetUserNameW
+GetTokenInformation
+FreeSid
+EqualSid
+AllocateAndInitializeSid
+comctl32.dll
+InitCommonControls
+kernel32.dll
+oleaut32.dll
+GetErrorInfo
+GetActiveObject
+RegisterTypeLib
+LoadTypeLib
+SysFreeString
+ole32.dll
+OleUninitialize
+OleInitialize
+CoTaskMemFree
+CLSIDFromProgID
+CLSIDFromString
+StringFromCLSID
+CoCreateInstance
+CoFreeUnusedLibraries
+CoUninitialize
+CoInitialize
+IsEqualGUID
+oleaut32.dll
+SafeArrayPtrOfIndex
+SafeArrayPutElement
+SafeArrayGetElement
+SafeArrayGetUBound
+SafeArrayGetLBound
+SafeArrayCreate
+VariantChangeType
+VariantCopyInd
+VariantCopy
+VariantClear
+VariantInit
+comctl32.dll
+InitializeFlatSB
+FlatSB_SetScrollProp
+FlatSB_SetScrollPos
+FlatSB_SetScrollInfo
+FlatSB_GetScrollPos
+FlatSB_GetScrollInfo
+_TrackMouseEvent
+ImageList_SetIconSize
+ImageList_GetIconSize
+ImageList_Write
+ImageList_Read
+ImageList_GetDragImage
+ImageList_DragShowNolock
+ImageList_DragMove
+ImageList_DragLeave
+ImageList_DragEnter
+ImageList_EndDrag
+ImageList_BeginDrag
+ImageList_Remove
+ImageList_DrawEx
+ImageList_Draw
+ImageList_GetBkColor
+ImageList_SetBkColor
+ImageList_Add
+ImageList_SetImageCount
+ImageList_GetImageCount
+ImageList_Destroy
+ImageList_Create
+InitCommonControls
+shell32.dll
+ShellExecuteExW
+ShellExecuteW
+SHGetFileInfoW
+ExtractIconW
+shell32.dll
+SHGetPathFromIDListW
+SHGetMalloc
+SHChangeNotify
+SHBrowseForFolderW
+comdlg32.dll
+GetSaveFileNameW
+GetOpenFileNameW
+ole32.dll
+CoDisconnectObject
+advapi32.dll
+AdjustTokenPrivileges
+oleaut32.dll
+SysFreeString
+wwwwwwwwwwwww
+wwwwwwwwwwwwwp
+wwwwwwwww
+wwwwww|
+@`FFDd
+@dFllf
+FFllfll`
+dFFlff
+ffffffff@
+dF@`p`B@
+fdfFFFadd
+lddFFgg
+@d`$`DFlf
+fFd`fwp
+B@DDFDlf
+B@dflf
+$dDdDlf
+$DFFDtf
+FDFFDdlf
+D$`D$FF
+ddFFFDl
+D@Fn|x
+DdFBFDl
+FDddd$
+DddFF@F
+Fel~f@D
+llfldF
+lwn|~S
+R%vvvv
+R&vLv&
+LRvR&vpv
+vR&vvvv'
+vvv'vv
+$vvv'vvvp
+vvvvpvv
+v'vv&&
+vvv&v&
+vvvvpv%
+R%R%R%R
+RvvRvvR
+R%RRv%L
+vv|vvwRv
+%R%v&RLv'
+vvRvvwv|v|vw}w
+R%RRvR%&v&v
+vvvRwv|
+R&Rvv%%vvpvv
+%RvR%Rv'vvv'v
+RvvLv'vvv
+vR%vvvv
+vvv'vwv
+vvvvwvv
+vvvv'v'v'v
+vvv'vvvvvvv
+vvvpv&vpv
+v'vvpvvpv
+$vvvvvvvpv&v&v
+v'vvv&v&v
+vvvvpv&v&v
+vvvpvvpv&&v
+vv&v%v
+2`~i8`u
+/Ls^wB>
+kY*!Kp
+eb7&'n
+>{l @#.
+'52O8 
+D&)C#`|l
+Kx<dj2$
+biBF2-
+GC?:1\z
+0v/a+1
+D|K?}{8Xx
+yph@A@5sB
+"k*xW(~
+'PR]f/
+F{Td|LL
+[5%48kt
+$Nb26`,%
+He39ne
+0'6&ok7
+?"c/>&
+zF--,T
+5*yi'>
+~yW+>sS
+LBa\@%
+XR(_i;
+YjZqPZ
+VZ+,>l>Y
+pMX%M@
+	]M3N%
+ZA@>t;p+
+uIR<qDb?="
+:VM,J(h
+;^To3F
+MX<~TvC
+@y="ZG
+Gdqk^Z8YH
+8	~*!2)B
+V+ /j/
+k13-&Y
+)8PSUdC
+e=Mrh$/
+HKkjZC
+ 4TpPx
+S,/YF@
+	o~nP^
+jysH@m
+0[^<&_
+@xT2	h:It 
+TewZu8Z
+Db^U[A<N
+x?AFc1
+$(lF!92
+/oYf?|
+QY|p&<
+3p,:PO%
+<|g|$n
+[Sk0&],
+>#]w*{t
+"]&kA|
+gB>P|q
+f[NAw'
+[}Qz\4
+h$719Z
+7hZUfC
+[ld2t'
+a09PjF
+0a6]\Zx
+ZmCCeh1
+@"~le6
+I.xu&K
+G)Whd0
++PG1TEV
+<'PCa#
+&]Z~(|
+UlgM%u=
+Jbvy ?
+8uXw(|
+!^@/xP:
+{g066v
+Wi(hUg
+@	P	`	
+Y	Y	Y	
+Y	Y	i	
+																										
+							
+							
+																	
+									
+																						
+						
+								
+						
+										
+																										
+								
+								
+							
+							
+									
+											
+																			
+?333333
+?tE)!XU
+?tE)!XU
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+.pdata
+@.rsrc
+WATAUAVAWH
+A_A^A]A\_
+@SUVWH
+tc9t$puVL
+COMCTL32.dll
+StrToInt64ExW
+StrToIntW
+SHLWAPI.dll
+GetLastError
+LocalFree
+CloseHandle
+ReadFile
+WriteFile
+GetCommandLineW
+SetConsoleCtrlHandler
+SetProcessShutdownParameters
+SetCurrentDirectoryW
+GetSystemDirectoryW
+SetErrorMode
+ExitProcess
+KERNEL32.dll
+FreeSid
+SetNamedSecurityInfoW
+SetEntriesInAclW
+AllocateAndInitializeSid
+GetNamedSecurityInfoW
+ADVAPI32.dll
+CommandLineToArgvW
+SHELL32.dll
+OLEAUT32.dll
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"><application><supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS><supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></supportedOS><supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS><supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"></supportedOS><supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></supportedOS></application></compatibility></assembly>PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+qSetup
+LibFusion
+7PathFunc
+SysUtils
+eCharacter
+KWindows
+UTypes
+SysInit
+System
+"RTLConsts
+SysConst
+YStrUtils
+ImageHlp
+cInstFunc
+RedirFunc
+CmnFunc2
+VerInfo
+AFileClass
+Int64Em
+6MsgIDs
+Compress
+Struct
+*ShellAPI
+3Messages
+lTaskbarProgressFunc
+dwTaskbarList
+CUxTheme
+SyncObjs
+^Classes
+sActiveX
+QTypInfo
+CVariants
+$VarUtils
+CommCtrl
+DwmApi
+5Themes
+&Controls
+Consts
+EActnList
++Graphics
+8Registry
+IniFiles
+vMenus
+ImgList
+Contnrs
+MultiMon
+StdActns
+nComCtrls
+3CommDlg
+(ShlObj
+UrlMon
+?WinInet
+RegStr
+ComStrs
+Printers
+WWinSpool
+GraphUtil
+ListActns
+dStdCtrls
+ExtCtrls
+Dialogs
+RHelpIntfs
+WideStrUtils
+ToolWin
+RichEdit
+Clipbrd
+FlatSB
+ARestartManager
+FolderTreeView
+nUxThemeISX
+NewProgressBar
+NewCheckListBox
+BidiUtils
+6TmSchemaISX
+FComObj
+qComConst
+uPSUtils
+SpawnClient
+BSpawnCommon
+>SpawnServer
+	ResUpdate
+RegDLL
+NewStaticText
+bBitmapImage
+Helper
+Logging
+DebugClient
+ScriptRunner
+ScriptFunc_R
+UninstProgressForm
+CmnFunc
+\BidiCtrls
+NewNotebook
+SetupForm
+UIStateForm
+SetupTypes
+Wizard
+Extract
+NewDisk
+oBrowseFunc
+LZMADecomp
+CompressZlib
+ArcFour
+#SelFolderForm
+PasswordEdit
+RichEditViewer
+InstFnc2
+Install
+DebugStruct
+SecurityFunc
+TScriptDlg
+ScriptFunc
+uPSRuntime
+@ScriptClasses_R
+uPSR_comobj
+(uPSR_extctrls
+uPSR_stdctrls
+JuPSR_forms
+uPSR_controls
+uPSR_graphics
+uPSR_classes
+uPSR_std
+buPSR_dll
+NuPSDebugger
+SimpleExpression
+SelLangForm
+SetupEnt
+RegSvr
+,UninstSharedFileForm
+Uninstall
+D2009Win2kFix
+SXPTheme
+SafeDLLPath
+!This program cannot be run in DOS mode.
+`.data
+@.reloc
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+Common Administrative Tools
+Common Programs
+Common Documents
+Common AppData
+Administrative Tools
+History
+Cookies
+Local AppData
+AppData
+My Music
+My Pictures
+Personal
+DllGetVersion
+shlwapi.dll
+SHGetFolderPathW
+shell32.dll
+SOFTWARE\Microsoft\Windows\CurrentVersion
+ProfileDirectory
+Software\Microsoft\Windows\CurrentVersion\ProfileReconciliation
+RegValue
+RegKey
+Default
+MustBeRelative
+DefaultDir
+LocalFile
+CentralFile
+*windir
+qWPWSh
+WPWShx
+WideCharToMultiByte
+GetProcAddress
+FreeLibrary
+LoadLibraryA
+GetVersionExA
+MultiByteToWideChar
+lstrlenW
+lstrlenA
+ExpandEnvironmentStringsW
+GetWindowsDirectoryA
+GetWindowsDirectoryW
+LockResource
+LoadResource
+FindResourceExW
+EnumResourceLanguagesW
+GetSystemDefaultLangID
+EnumResourceNamesW
+lstrcatA
+lstrcpyA
+CompareStringW
+CreateDirectoryA
+CreateDirectoryW
+GetLastError
+ExpandEnvironmentStringsA
+lstrcpynW
+GetFileAttributesA
+GetFileAttributesW
+GetSystemDirectoryA
+GetSystemDirectoryW
+IsBadWritePtr
+DisableThreadLibraryCalls
+GlobalAlloc
+GlobalFree
+KERNEL32.dll
+RegCloseKey
+RegQueryValueExA
+RegQueryValueExW
+RegOpenKeyA
+RegCreateKeyExA
+RegSetValueExW
+RegSetValueExA
+AddAccessAllowedAce
+LookupAccountSidW
+GetAce
+InitializeAcl
+SetFileSecurityW
+SetSecurityDescriptorDacl
+InitializeSecurityDescriptor
+ADVAPI32.dll
+SHFOLDER.dll
+SHGetFolderPathA
+SHGetFolderPathW
+T3X3p3t3
+44484P4T4X4l4p4t4
+4=7t7}7
+818G8c8t8
+9%9:9b9
+:/:J:V:j:~:
+>7>R>g>m>{>
+70F0X0
+1*1w1|1
+819C9V9_9
+dll\shfolder.dbg
+TPF0	TMainForm
+MainForm
+AutoScroll
+ClientHeight
+ClientWidth
+clNavy
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+OnCloseQuery
+FormCloseQuery	OnKeyDown
+FormKeyDown
+OnPaint
+	FormPaint
+OnResize
+FormResize
+PixelsPerInch
+TextHeight
+PADTPF0
+TNewDiskForm
+NewDiskForm
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+OnCloseQuery
+FormCloseQuery
+PixelsPerInch
+TextHeight
+TBitmapImage
+DiskBitmapImage
+Height
+TNewButton
+CancelButton
+Height
+Cancel	
+Caption
+ModalResult
+TabOrder
+TNewButton
+OKButton
+Height
+Caption
+Default	
+ModalResult
+TabOrder
+TNewButton
+BrowseButton
+Height
+Caption
+TabOrder
+OnClick
+BrowseButtonClick
+PathEdit
+Height
+TabOrder
+TNewStaticText	PathLabel
+Height
+Caption
+FocusControl
+PathEdit
+TabOrder
+TNewStaticText
+SelectDiskLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+PATPF0
+TSelectFolderForm
+SelectFolderForm
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+SelectFolderForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+PixelsPerInch
+TextHeight
+TNewButton
+CancelButton
+Height
+Cancel	
+Caption
+ModalResult
+TabOrder
+TNewButton
+OKButton
+Height
+Caption
+Default	
+Enabled
+ModalResult
+TabOrder
+TNewButton
+NewFolderButton
+Height
+Cancel	
+Caption
+Enabled
+TabOrder
+OnClick
+NewFolderButtonClick
+PathEdit
+Height
+TabOrder
+OnChange
+PathEditChange
+TNewStaticText
+BrowseLabel
+Height
+AutoSize
+Caption
+TabOrder
+WordWrap	
+TSelectLanguageForm
+SelectLanguageForm
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+SelectLanguageForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+PixelsPerInch
+TextHeight
+TBitmapImage
+IconBitmapImage
+Height
+TNewButton
+CancelButton
+Height
+Cancel	
+Caption
+ModalResult
+TabOrder
+TNewButton
+OKButton
+Height
+Caption
+Default	
+ModalResult
+TabOrder
+TNewComboBox	LangCombo
+Height
+csDropDownList
+DropDownCount
+ItemHeight
+Sorted	
+TabOrder
+TNewStaticText
+SelectLabel
+Height
+AutoSize
+Caption
+TabOrder
+WordWrap	
+TUninstallProgressForm
+UninstallProgressForm
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+UninstallProgressForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+PixelsPerInch
+TextHeight
+TBevel
+Height
+	bsTopLine
+TNewButton
+CancelButton
+Height
+Cancel	
+Caption
+Enabled
+TabOrder
+TNewNotebook
+OuterNotebook
+Height
+ActivePage
+	InnerPage
+	clBtnFace
+ParentColor
+TabOrder
+TNewNotebookPage	InnerPage
+TBevel
+Bevel1
+Height
+	bsTopLine
+TNewNotebook
+InnerNotebook
+Height
+ActivePage
+InstallingPage
+TabOrder
+TNewNotebookPage
+InstallingPage
+TNewProgressBar
+ProgressBar
+Height
+TNewStaticText
+StatusLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+TPanel	MainPanel
+Height
+BevelOuter
+bvNone
+clWindow
+TabOrder
+TBitmapImage
+WizardSmallBitmapImage
+Height
+7	BackColor
+clWindow
+Center	
+TNewStaticText
+PageDescriptionLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+PageNameLabel
+Height
+AutoSize
+Caption
+TabOrder
+TNewStaticText
+BeveledLabel
+Height
+Caption
+Enabled
+TabOrder
+Visible
+PADTPF0
+TUninstSharedFileForm
+UninstSharedFileForm
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+UninstSharedFileForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+PixelsPerInch
+TextHeight
+TNewButton
+NoToAllButton
+Height
+Caption
+ModalResult
+TabOrder
+TNewButton
+NoButton
+Height
+Caption
+ModalResult
+TabOrder
+TNewButton
+YesToAllButton
+Height
+Caption
+ModalResult
+TabOrder
+TNewButton	YesButton
+Height
+Caption
+Default	
+ModalResult
+TabOrder
+LocationEdit
+Height
+ParentColor	
+ReadOnly	
+TabOrder
+TNewStaticText
+LocationLabel
+Height
+Caption
+TabOrder
+FilenameEdit
+Height
+ParentColor	
+ReadOnly	
+TabOrder
+TNewStaticText
+FilenameLabel
+Height
+Caption
+TabOrder
+TNewStaticText	BodyLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+PADTPF0
+TWizardForm
+WizardForm
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+WizardForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+OnClose
+	FormClose
+PixelsPerInch
+TextHeight
+TBevel
+Height
+	bsTopLine
+TNewButton
+CancelButton
+Height
+Cancel	
+Caption
+TabOrder
+OnClick
+CancelButtonClick
+TNewButton
+NextButton
+Height
+Caption
+Default	
+TabOrder
+OnClick
+NextButtonClick
+TNewButton
+BackButton
+Height
+Caption
+TabOrder
+OnClick
+BackButtonClick
+TNewNotebook
+OuterNotebook
+Height
+ActivePage
+	InnerPage
+	clBtnFace
+ParentColor
+TabOrder
+TNewNotebookPage
+WelcomePage
+clWindow
+ParentColor
+TBitmapImage
+WizardBitmapImage
+Height
+	BackColor
+clWindow
+TNewStaticText
+WelcomeLabel2
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+WelcomeLabel1
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage	InnerPage
+TBevel
+Bevel1
+Height
+	bsTopLine
+TNewNotebook
+InnerNotebook
+Height
+ActivePage
+LicensePage
+TabOrder
+TNewNotebookPage
+LicensePage
+TNewRadioButton
+LicenseNotAcceptedRadio
+Height
+Caption
+Checked	
+TabOrder
+TabStop	
+OnClick
+LicenseNotAcceptedRadioClick
+TNewRadioButton
+LicenseAcceptedRadio
+Height
+Caption
+TabOrder
+OnClick
+LicenseAcceptedRadioClick
+TRichEditViewer
+LicenseMemo
+Height
+ReadOnly	
+ScrollBars
+ssVertical
+TabOrder
+WantReturns
+UseRichEdit
+TNewStaticText
+LicenseLabel1
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+PasswordPage
+TPasswordEdit
+PasswordEdit
+Height
+TabOrder
+TNewStaticText
+PasswordEditLabel
+Height
+AutoSize
+Caption
+FocusControl
+PasswordEdit
+TabOrder
+WordWrap	
+TNewStaticText
+PasswordLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+InfoBeforePage
+TRichEditViewer
+InfoBeforeMemo
+Height
+ReadOnly	
+ScrollBars
+ssVertical
+TabOrder
+WantReturns
+UseRichEdit
+TNewStaticText
+InfoBeforeClickLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+UserInfoPage
+TNewEdit
+UserInfoSerialEdit
+Height
+	MaxLength
+TabOrder
+OnChange
+UserInfoEditChange
+TNewStaticText
+UserInfoSerialLabel
+Height
+AutoSize
+Caption
+FocusControl
+UserInfoSerialEdit
+TabOrder
+WordWrap	
+TNewEdit
+UserInfoOrgEdit
+Height
+	MaxLength
+TabOrder
+OnChange
+UserInfoEditChange
+TNewStaticText
+UserInfoOrgLabel
+Height
+AutoSize
+Caption
+FocusControl
+UserInfoOrgEdit
+TabOrder
+WordWrap	
+TNewEdit
+UserInfoNameEdit
+Height
+	MaxLength
+TabOrder
+OnChange
+UserInfoEditChange
+TNewStaticText
+UserInfoNameLabel
+Height
+AutoSize
+Caption
+FocusControl
+UserInfoNameEdit
+TabOrder
+WordWrap	
+TNewNotebookPage
+SelectDirPage
+TBitmapImage
+SelectDirBitmapImage
+Height
+TNewStaticText
+DiskSpaceLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewButton
+DirBrowseButton
+Height
+Caption
+TabOrder
+OnClick
+DirBrowseButtonClick
+DirEdit
+Height
+TabOrder
+DirEdit
+TNewStaticText
+SelectDirBrowseLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+SelectDirLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+SelectComponentsPage
+TNewStaticText
+ComponentsDiskSpaceLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+TNewCheckListBox
+ComponentsList
+Height
+Offset
+OnClickCheck
+ComponentsListClickCheck
+RequireRadioSelection	
+TabOrder
+TNewComboBox
+TypesCombo
+Height
+csDropDownList
+ItemHeight
+TabOrder
+OnChange
+TypesComboChange
+TNewStaticText
+SelectComponentsLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+SelectProgramGroupPage
+TBitmapImage
+SelectGroupBitmapImage
+Height
+TNewCheckBox
+NoIconsCheck
+Height
+Caption
+TabOrder
+OnClick
+NoIconsCheckClick
+TNewButton
+GroupBrowseButton
+Height
+Caption
+TabOrder
+OnClick
+GroupBrowseButtonClick
+TNewEdit	GroupEdit
+Height
+TabOrder
+	GroupEdit
+TNewStaticText SelectStartMenuFolderBrowseLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+SelectStartMenuFolderLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+SelectTasksPage
+TNewCheckListBox	TasksList
+Height
+	clBtnFace
+RequireRadioSelection		ShowLines
+TabOrder
+WantTabs	
+TNewStaticText
+SelectTasksLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage	ReadyPage
+TNewMemo	ReadyMemo
+Height
+	clBtnFace
+ReadOnly	
+ScrollBars
+ssBoth
+TabOrder
+WantReturns
+WordWrap
+TNewStaticText
+ReadyLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+PreparingPage
+TBitmapImage
+PreparingErrorBitmapImage
+Height
+Visible
+TNewStaticText
+PreparingLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+Visible
+WordWrap	
+TNewRadioButton
+PreparingYesRadio
+Height
+Caption
+Checked	
+TabOrder
+TabStop	
+Visible
+TNewRadioButton
+PreparingNoRadio
+Height
+Caption
+TabOrder
+Visible
+TNewMemo
+PreparingMemo
+Height
+	clBtnFace
+Lines.Strings
+PreparingMemo
+ReadOnly	
+ScrollBars
+ssBoth
+TabOrder
+WantReturns
+WordWrap
+TNewNotebookPage
+InstallingPage
+TNewStaticText
+FilenameLabel
+Height
+AutoSize
+ForceLTRReading	
+ShowAccelChar
+TabOrder
+TNewStaticText
+StatusLabel
+Height
+AutoSize
+ShowAccelChar
+TabOrder
+TNewProgressBar
+ProgressGauge
+Height
+npbstNormal
+TNewNotebookPage
+InfoAfterPage
+TRichEditViewer
+InfoAfterMemo
+Height
+ReadOnly	
+ScrollBars
+ssVertical
+TabOrder
+WantReturns
+UseRichEdit
+TNewStaticText
+InfoAfterClickLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TPanel	MainPanel
+Height
+BevelOuter
+bvNone
+clWindow
+TabOrder
+TBitmapImage
+WizardSmallBitmapImage
+Height
+:	BackColor
+clWindow
+TNewStaticText
+PageDescriptionLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+PageNameLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+TNewNotebookPage
+FinishedPage
+clWindow
+ParentColor
+TBitmapImage
+WizardBitmapImage2
+Height
+	BackColor
+clWindow
+TNewCheckListBox
+RunList
+Height
+BorderStyle
+bsNone
+ParentColor	
+TabOrder
+Visible
+WantTabs	
+TNewRadioButton
+NoRadio
+Height
+Caption
+TabOrder
+Visible
+TNewRadioButton
+YesRadio
+Height
+Caption
+Checked	
+TabOrder
+TabStop	
+Visible
+TNewStaticText
+FinishedLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+FinishedHeadingLabel
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+BeveledLabel
+Height
+Caption
+Enabled
+ShowAccelChar
+TabOrder
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity
+    name="JR.Inno.Setup"
+    processorArchitecture="x86"
+    version="1.0.0.0"
+    type="win32"/>
+<description>Inno Setup</description>
+<dependency>
+    <dependentAssembly>
+        <assemblyIdentity
+            type="win32"
+            name="Microsoft.Windows.Common-Controls"
+            version="6.0.0.0"
+            processorArchitecture="x86"
+            publicKeyToken="6595b64144ccf1df"
+            language="*"
+        />
+    </dependentAssembly>
+</dependency>
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+        <requestedPrivileges>
+            <requestedExecutionLevel level="asInvoker"            uiAccess="false"/>
+        </requestedPrivileges>
+    </security>
+</trustInfo>
+<application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+        <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+    </windowsSettings>
+</application>
+<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+        <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/>
+        <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+        <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
+        <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
+        <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+    </application>
+</compatibility>
+</assembly>
+PADDINGXXPADDINGPADD
+DigiCert Inc1
+www.digicert.com1.0,
+%DigiCert Assured ID Code Signing CA-10
+190830000000Z
+221002120000Z0
+Sichuan1
+Chengdu100.
+'CHENGDU YIWO Tech Development Co., Ltd.100.
+'CHENGDU YIWO Tech Development Co., Ltd.0
+(J@clq
+*http://crl3.digicert.com/assured-cs-g1.crl00
+*http://crl4.digicert.com/assured-cs-g1.crl0L
+https://www.digicert.com/CPS0
+http://ocsp.digicert.com0L
+@http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+110211120000Z
+260210120000Z0o1
+DigiCert Inc1
+www.digicert.com1.0,
+%DigiCert Assured ID Code Signing CA-10
+.http://www.digicert.com/ssl-cps-repository.htm0
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+j-#O7;
+DigiCert Inc1
+www.digicert.com1.0,
+%DigiCert Assured ID Code Signing CA-1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+210429000000Z
+360428235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+[K]taM?
+SA|X=G
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+jj@0HK4
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+211115000000Z
+241202235959Z0
+Private Organization1
+91510107765360104N1
+'CHENGDU YIWO Tech Development Co., Ltd.100.
+'CHENGDU YIWO Tech Development Co., Ltd.0
+;bsyR`7*J
+-91510107765360104N0
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0=
+http://www.digicert.com/CPS0
+http://ocsp.digicert.com0\
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+& ";l*
+AKv_K8
+T(ha(*
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1

@@ -1,0 +1,177 @@
+!This program cannot be run in DOS mode.
+h.rdata
+H.data
+.pdata
+.reloc
+L$ SWH
+t$ WATAUAVAWH
+L$A9D$@A
+A_A^A]A\_
+k VWATH
+L$0L9a
+t$ WATAUH
+VWATAUAWH
+A_A]A\_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+H!T$ E3
+[EPMNtDrv]DriverUnload called
+[GetDiskDeviceObejct] RtlStringCbPrintfW error ,0x%x
+[GetDiskDeviceObejct] %ws open error 0x%x,retry 
+[GetDiskDeviceObejct] RtlStringCbPrintfW 2 error ,0x%x
+[GetDiskDeviceObejct] %ws open error 0x%x,that's it!
+[GetVolumeDeviceObejct] RtlStringCbPrintfW error ,0x%x
+[GetVolumeDeviceObejct] %ws open error 0x%x,that's it!
+[FltReadWriteSectorsCompletion] Io error 0x%x,%p
+[GetDiskContextMode] para error %d,%d!
+[GetProcName] QueryInfo error 0x%x!
+[GetProcName] OpenProcess error 0x%x!
+[GetProcName] para error %d,%d!
+[GetFileObjName] ObReferenceObjectByHandle %d error 0x%x!
+[GetFileObjName] para error %d,%d!
+[epmntdrvDispatchWrite] Write error 0x%x,%u,%I64u,0x%x
+[EPMNtDrv]IoCreateDevice ret,0x%x,%wZ
+[EPMNtDrv]IoCreateSymbolicLink ret,0x%x,%wZ
+[EPMNtDrv]DriverEntry ret,0x%x
+(null)
+`h````
+xpxxpp
+d:\project_application\_epm_main_\mod.windiskaccessdriver\windiskaccessdriver\objfre_wlh_amd64\amd64\epmntdrv.pdb
+ExAllocatePoolWithTag
+IoGetLowerDeviceObject
+IoBuildDeviceIoControlRequest
+IoDeleteSymbolicLink
+ExFreePoolWithTag
+RtlInitUnicodeString
+IoDeleteDevice
+KeSetEvent
+KeInitializeEvent
+IoFreeMdl
+RtlFreeUnicodeString
+ObQueryNameString
+IoFileObjectType
+wcsstr
+MmMapLockedPagesSpecifyCache
+IoGetDeviceObjectPointer
+IoBuildAsynchronousFsdRequest
+ExAllocatePool
+ZwClose
+RtlAppendUnicodeStringToString
+IofCompleteRequest
+ObReferenceObjectByHandle
+KeWaitForSingleObject
+IoFreeIrp
+IoGetAttachedDeviceReference
+RtlCompareUnicodeString
+MmUnlockPages
+ZwQueryInformationProcess
+ObfReferenceObject
+IoCreateSymbolicLink
+PsGetCurrentProcessId
+ObfDereferenceObject
+RtlUnicodeStringToInteger
+IoCreateDevice
+NtOpenProcess
+RtlUpcaseUnicodeChar
+DbgPrint
+ObDereferenceObjectDeferDelete
+IofCallDriver
+KeBugCheckEx
+ntoskrnl.exe
+RtlAnsiCharToUnicodeChar
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 20140
+210909191559Z
+220901191559Z0
+Washington1
+Redmond1
+Microsoft Corporation1;09
+2Microsoft Windows Hardware Compatibility Publisher0
+xR;c#>+s
+E0C1)0'
+ Microsoft Operations Puerto Rico1
+232147+4674340
+chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202014.crl0
+ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202014.crt0
+GJ$2py
+Washington1
+Redmond1
+Microsoft Corporation1200
+)Microsoft Root Certificate Authority 20100
+141015203127Z
+291015204127Z0
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 20140
+=)x(0t
+	uHD3I
+3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+iE'?s#2
+UYd`3>.
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 2014
+(https://www.microsoft.com/en-us/windows 0
+20220519090638.294Z0
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Operations Puerto Rico1&0$
+Thales TSS ESN:C4BD-E37F-5FFC1%0#
+Microsoft Time-Stamp Service
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+220302185116Z
+230511185116Z0
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Operations Puerto Rico1&0$
+Thales TSS ESN:C4BD-E37F-5FFC1%0#
+Microsoft Time-Stamp Service0
+YCZHOUg%
+Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+Washington1
+Redmond1
+Microsoft Corporation1200
+)Microsoft Root Certificate Authority 20100
+210930182225Z
+300930183225Z0|1
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+as.,k{n?,	x
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Operations Puerto Rico1&0$
+Thales TSS ESN:C4BD-E37F-5FFC1%0#
+Microsoft Time-Stamp Service
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+20220519130056Z
+20220520130056Z0w0=
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 2010
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 2010
+|n[a@W

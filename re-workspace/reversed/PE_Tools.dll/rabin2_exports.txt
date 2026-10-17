@@ -1,0 +1,13 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib          name                    demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00009410 0x18000a010 GLOBAL FUNC 0    PE_Tools.dll pet_regist_progress_fun
+2   0x00009ab0 0x18000a6b0 GLOBAL FUNC 0    PE_Tools.dll pet_regist_status_fun
+3   0x00009e00 0x18000aa00 GLOBAL FUNC 0    PE_Tools.dll pet_get_petools_dir
+4   0x0000a3d0 0x18000afd0 GLOBAL FUNC 0    PE_Tools.dll pet_is_exist_packet
+5   0x0000a9b0 0x18000b5b0 GLOBAL FUNC 0    PE_Tools.dll pet_decompress_packet
+6   0x0000aeb0 0x18000bab0 GLOBAL FUNC 0    PE_Tools.dll pet_verify_packet
+7   0x0000b3d0 0x18000bfd0 GLOBAL FUNC 0    PE_Tools.dll pet_download_packet
+8   0x0000bc30 0x18000c830 GLOBAL FUNC 0    PE_Tools.dll pet_install_driver
+9   0x0000b730 0x18000c330 GLOBAL FUNC 0    PE_Tools.dll pet_set_download_path
+10  0x00009760 0x18000a360 GLOBAL FUNC 0    PE_Tools.dll pet_set_progress_data

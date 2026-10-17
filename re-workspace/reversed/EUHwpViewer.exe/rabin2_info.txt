@@ -1,0 +1,35 @@
+WARN: Warning: read (delay import directory)
+arch     x86
+baddr    0x400000
+binsz    422120
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x0006beb9
+compiled Tue Jun 15 00:31:14 2038
+crypto   false
+dbg_file e:\AWork\DRW16.2.1-QT\DRWIntelligentScan\bin\Release\ShareBin\EUHwpViewer.pdb
+endian   little
+havecode true
+hdr.csum 0x0006beb9
+guid     2413C91AC03146588A9A59743878FEFA1
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

@@ -1,0 +1,35 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib                        name                                                         demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000ee0 0x180001ae0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00000ee0 0x180001ae0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x00000ee0 0x180001ae0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??0IObject@@QEAA@XZ
+4   0x00000ef0 0x180001af0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+5   0x00000ef0 0x180001af0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@AEBU0@@Z
+6   0x00000ef0 0x180001af0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@XZ
+7   0x00003a70 0x180004670 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+8   0x000011a0 0x180001da0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+9   0x000011a0 0x180001da0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+10  0x000011a0 0x180001da0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+11  0x000011a0 0x180001da0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+12  0x000011a0 0x180001da0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+13  0x000011a0 0x180001da0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+14  0x000011a0 0x180001da0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+15  0x000011a0 0x180001da0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+16  0x00006c50 0x180007a50 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??_7IObject@@6B@
+17  0x00006d18 0x180007b18 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??_7IStorageDevice@@6BIBlockDevice@@@
+18  0x00006c98 0x180007a98 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ??_7IStorageDevice@@6BIObject@@@
+19  0x00001e70 0x180002a70 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?AddRef@IObject@@QEBAKXZ
+20  0x00001e60 0x180002a60 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?ConvertVolume@IStorageDevice@@UEAAHXZ
+21  0x00001e60 0x180002a60 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+22  0x00001e60 0x180002a60 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+23  0x00002630 0x180003230 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+24  0x00001e60 0x180002a60 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+25  0x000026a0 0x1800032a0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+26  0x00001e60 0x180002a60 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+27  0x00002ed0 0x180003ad0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?Release@IObject@@QEBAKXZ
+28  0x00001e20 0x180002a20 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+29  0x00001e60 0x180002a60 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+30  0x00001e60 0x180002a60 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+31  0x00001e60 0x180002a60 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+32  0x000037e0 0x1800043e0 GLOBAL FUNC 0    ExFatFileSystemAnalyser.mo GetModule

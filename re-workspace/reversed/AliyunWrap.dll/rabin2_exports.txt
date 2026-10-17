@@ -1,0 +1,21 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib            name                                                                                                       demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00008440 0x180009040 GLOBAL FUNC 0    AliyunWrap.dll AliyunAddParamToSessionA
+2   0x000084a0 0x1800090a0 GLOBAL FUNC 0    AliyunWrap.dll AliyunAddParamToSessionW
+3   0x000083f0 0x180008ff0 GLOBAL FUNC 0    AliyunWrap.dll AliyunCloseSession
+4   0x00008870 0x180009470 GLOBAL FUNC 0    AliyunWrap.dll AliyunEnableUserInfoCollect
+5   0x00008d60 0x180009960 GLOBAL FUNC 0    AliyunWrap.dll AliyunEndCache
+6   0x00008df0 0x1800099f0 GLOBAL FUNC 0    AliyunWrap.dll AliyunGetKeyValue
+7   0x00008d90 0x180009990 GLOBAL FUNC 0    AliyunWrap.dll AliyunGetUserUid
+8   0x000088c0 0x1800094c0 GLOBAL FUNC 0    AliyunWrap.dll AliyunInstallConfigFilePath
+9   0x00008a20 0x180009620 GLOBAL FUNC 0    AliyunWrap.dll AliyunInstallInitUid
+10  0x00008830 0x180009430 GLOBAL FUNC 0    AliyunWrap.dll AliyunIsEnableUserInfoCollect
+11  0x000083d0 0x180008fd0 GLOBAL FUNC 0    AliyunWrap.dll AliyunOpenSession
+12  0x00008500 0x180009100 GLOBAL FUNC 0    AliyunWrap.dll AliyunSendInfo
+13  0x00008e50 0x180009a50 GLOBAL FUNC 0    AliyunWrap.dll AliyunSetKeyValue
+14  0x00008eb0 0x180009ab0 GLOBAL FUNC 0    AliyunWrap.dll AliyunStopProcess
+15  0x00008d40 0x180009940 GLOBAL FUNC 0    AliyunWrap.dll AliyunUninstallEnd
+16  0x00008a90 0x180009690 GLOBAL FUNC 0    AliyunWrap.dll AliyunUninstallStart
+17  0x00006e80 0x180007a80 GLOBAL FUNC 0    AliyunWrap.dll ?SendLogToCloud@@YA_NAEBV?$vector@U?$pair@PEA_WPEA_W@std@@V?$allocator@U?$pair@PEA_WPEA_W@std@@@2@@std@@@Z
+18  0x00006dd0 0x1800079d0 GLOBAL FUNC 0    AliyunWrap.dll ?SendLogToCloud@@YA_NHPEAPEADPEA_K01@Z

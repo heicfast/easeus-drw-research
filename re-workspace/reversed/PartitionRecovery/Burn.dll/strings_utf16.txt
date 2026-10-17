@@ -1,0 +1,147 @@
+CBurn DiscInfo DiscType = %d LenPerWrite = %d
+CBurn DiscInfo DiscType = %d LenPerWrite = %d
+CBurn bIsTaoSupported : %d, bIsDaoSupported : %d, bIsSaoSupported : %d
+CBurn bIsTaoSupported : %d, bIsDaoSupported : %d, bIsSaoSupported : %d
+CBurn RealTimeWrite_Begin Result : %d
+CBurn RealTimeWrite_Begin Result : %d
+CBurn RealTimeWrite_CreateFile Ret : %d
+CBurn RealTimeWrite_CreateFile Ret : %d
+CBurn RealTimeWrite_CloseFile Ret : %d
+CBurn RealTimeWrite_CloseFile Ret : %d
+CBurn RealTimeWrite_End Result : %d
+gCBurn RealTimeWrite_End Result : %d
+CBurn WriteImageToCD Result : %d
+CBurn WriteImageToCD Result : %d
+Failed to Load lib Err=0x%x InterfaceNo=%x
+greclib_func_tick_%I64x_P_%p
+CBurn Send operate command fail.
+CBurn Send operate command fail.
+CBurn Send burn command fail.
+CBurn Send burn command fail.
+CBurn Error command request.
+CBurn Error command request.
+CBurn Error driver no.
+CBurn Error driver no.
+CBurn Error operator command.
+CBurn Error operator command.
+CBurn Driver Busy.
+CBurn Driver Busy.
+CBurn Check empty CD error.
+CBurn Check empty CD error.
+CBurn This is empty CD.
+CBurn This is empty CD.
+CBurn User cancel operator.
+CBurn User cancel operator.
+CBurn Create file fail.
+CBurn Create file fail.
+CBurn Write CD error.
+CBurn Write CD error.
+CBurn Data break bounds.
+CBurn Data break bounds.
+CBurn Error track type.
+CBurn Error track type.
+CBurn Not identify image file.
+CBurn Not identify image file.
+CBurn Not Can burn DVD.
+CBurn Not Can burn DVD.
+CBurn Not enough space.
+CBurn Not enough space.
+CBurn Not enough space for save tmep file by disk.
+CBurn Not enough space for save tmep file by disk.
+CBurn Create temp file error in copy CD.
+CBurn Create temp file error in copy CD.
+CBurn Not find temp file in copy CD.
+CBurn Not find temp file in copy CD.
+CBurn File format error in copy CD.
+CBurn File format error in copy CD.
+CBurn Not write CD.
+CBurn Not write CD.
+CBurn Read CD error.
+CBurn Read CD error.
+CBurn Read track info error.
+CBurn Read track info error.
+CBurn Decode music file error.
+CBurn Decode music file error.
+CBurn CD error in ready burning.
+CBurn CD error in ready burning.
+CBurn Oversize file.
+CBurn Oversize file.
+CBurn Conv file initialization error.
+CBurn Conv file initialization error.
+CBurn Conv file error.
+CBurn Conv file error.
+CBurn Conv file start error.
+CBurn Conv file start error.
+CBurn Other Error. ret = 0x%x
+CBurn Other Error. ret = 0x%x
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+yCBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+CBurn SDK Exception.
+\\.\pipe\reclib.dll_recv_param_%I64d
+\\.\pipe\reclib.dll_recv_return_%I64d
+reclib.exe
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll

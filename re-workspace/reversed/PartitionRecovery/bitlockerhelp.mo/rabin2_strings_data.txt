@@ -1,0 +1,921 @@
+[Strings]
+nth paddr      vaddr       len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x0003adcd 0x18003c7cd 5   6    .rdata  ascii   K.$`Z
+1   0x0003ae10 0x18003c810 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+2   0x0003ae58 0x18003c858 12  26   .rdata  utf16le kernel32.dll
+3   0x0003ae78 0x18003c878 27  28   .rdata  ascii   InitializeConditionVariable
+4   0x0003ae98 0x18003c898 24  25   .rdata  ascii   SleepConditionVariableCS
+5   0x0003aeb8 0x18003c8b8 24  25   .rdata  ascii   WakeAllConditionVariable
+6   0x0003af20 0x18003c920 14  15   .rdata  ascii   bad allocation
+7   0x0003af48 0x18003c948 20  21   .rdata  ascii   bad array new length
+8   0x0003af88 0x18003c988 17  18   .rdata  ascii   Unknown exception
+9   0x0003afa0 0x18003c9a0 8   9    .rdata  ascii   bad cast
+10  0x0003afb8 0x18003c9b8 31  32   .rdata  ascii   %6u-%6u-%6u-%6u-%6u-%6u-%6u-%6u
+11  0x0003afd8 0x18003c9d8 39  40   .rdata  ascii   %06u-%06u-%06u-%06u-%06u-%06u-%06u-%06u
+12  0x0003b000 0x18003ca00 9   10   .rdata  ascii   BITLOCKER
+13  0x0003b010 0x18003ca10 4   5    .rdata  ascii   %06d
+14  0x0003b020 0x18003ca20 33  34   .rdata  ascii   [BitlockerHelp]: Init wmi failed!
+15  0x0003b048 0x18003ca48 8   18   .rdata  utf16le DeviceID
+16  0x0003b060 0x18003ca60 49  100  .rdata  utf16le \\.\root\CIMV2\Security\MicrosoftVolumeEncryption
+17  0x0003b0c8 0x18003cac8 36  37   .rdata  ascii   [BitlockerHelp]: GetGuidPath failed!
+18  0x0003b0f0 0x18003caf0 38  39   .rdata  ascii   [BitlockerHelp]: GetPartOffset failed!
+19  0x0003b120 0x18003cb20 38  78   .rdata  utf16le SELECT * FROM Win32_EncryptableVolume
+20  0x0003b170 0x18003cb70 8   18   .rdata  utf16le DeviceID
+21  0x0003b184 0x18003cb84 6   7    .rdata  ascii   %ws\%s
+22  0x0003b190 0x18003cb90 33  34   .rdata  ascii   [BitlockerHelp]: Find vol failed!
+23  0x0003b1bc 0x18003cbbc 21  44   .rdata  utf16le n32_EncryptableVolume
+24  0x0003b1e8 0x18003cbe8 4   5    .rdata  ascii   Lock
+25  0x0003b1f0 0x18003cbf0 13  28   .rdata  utf16le ForceDismount
+26  0x0003b210 0x18003cc10 6   14   .rdata  utf16le __PATH
+27  0x0003b220 0x18003cc20 4   10   .rdata  utf16le Lock
+28  0x0003b234 0x18003cc34 9   20   .rdata  utf16le turnValue
+29  0x0003b248 0x18003cc48 29  30   .rdata  ascii   [BitlockerHelp]: Lock hr=0x%x
+30  0x0003b268 0x18003cc68 23  48   .rdata  utf16le Win32_EncryptableVolume
+31  0x0003b298 0x18003cc98 20  21   .rdata  ascii   UnlockWithPassphrase
+32  0x0003b2b0 0x18003ccb0 10  22   .rdata  utf16le Passphrase
+33  0x0003b2c8 0x18003ccc8 6   14   .rdata  utf16le __PATH
+34  0x0003b2d8 0x18003ccd8 20  42   .rdata  utf16le UnlockWithPassphrase
+35  0x0003b30c 0x18003cd0c 9   20   .rdata  utf16le turnValue
+36  0x0003b320 0x18003cd20 23  48   .rdata  utf16le Win32_EncryptableVolume
+37  0x0003b350 0x18003cd50 27  28   .rdata  ascii   UnlockWithNumericalPassword
+38  0x0003b370 0x18003cd70 17  36   .rdata  utf16le NumericalPassword
+39  0x0003b398 0x18003cd98 6   14   .rdata  utf16le __PATH
+40  0x0003b3a8 0x18003cda8 27  56   .rdata  utf16le UnlockWithNumericalPassword
+41  0x0003b3e0 0x18003cde0 11  24   .rdata  utf16le ReturnValue
+42  0x0003b3f8 0x18003cdf8 23  48   .rdata  utf16le Win32_EncryptableVolume
+43  0x0003b428 0x18003ce28 22  23   .rdata  ascii   GetExternalKeyFromFile
+44  0x0003b440 0x18003ce40 16  34   .rdata  utf16le PathWithFileName
+45  0x0003b468 0x18003ce68 6   14   .rdata  utf16le __PATH
+46  0x0003b478 0x18003ce78 22  46   .rdata  utf16le GetExternalKeyFromFile
+47  0x0003b4a8 0x18003cea8 11  24   .rdata  utf16le ReturnValue
+48  0x0003b4c0 0x18003cec0 11  24   .rdata  utf16le ExternalKey
+49  0x0003b4d8 0x18003ced8 6   14   .rdata  utf16le __PATH
+50  0x0003b4e8 0x18003cee8 23  48   .rdata  utf16le Win32_EncryptableVolume
+51  0x0003b518 0x18003cf18 21  22   .rdata  ascii   UnlockWithExternalKey
+52  0x0003b530 0x18003cf30 11  24   .rdata  utf16le ExternalKey
+53  0x0003b548 0x18003cf48 21  44   .rdata  utf16le UnlockWithExternalKey
+54  0x0003b578 0x18003cf78 11  24   .rdata  utf16le ReturnValue
+55  0x0003b590 0x18003cf90 23  48   .rdata  utf16le Win32_EncryptableVolume
+56  0x0003b5c0 0x18003cfc0 16  17   .rdata  ascii   GetKeyProtectors
+57  0x0003b5e0 0x18003cfe0 16  34   .rdata  utf16le KeyProtectorType
+58  0x0003b608 0x18003d008 6   14   .rdata  utf16le __PATH
+59  0x0003b618 0x18003d018 16  34   .rdata  utf16le GetKeyProtectors
+60  0x0003b640 0x18003d040 11  24   .rdata  utf16le ReturnValue
+61  0x0003b658 0x18003d058 23  48   .rdata  utf16le Win32_EncryptableVolume
+62  0x0003b688 0x18003d088 32  33   .rdata  ascii   GetKeyProtectorNumericalPassword
+63  0x0003b6b0 0x18003d0b0 20  42   .rdata  utf16le VolumeKeyProtectorID
+64  0x0003b6e0 0x18003d0e0 6   14   .rdata  utf16le __PATH
+65  0x0003b6f0 0x18003d0f0 32  66   .rdata  utf16le GetKeyProtectorNumericalPassword
+66  0x0003b738 0x18003d138 11  24   .rdata  utf16le ReturnValue
+67  0x0003b750 0x18003d150 17  36   .rdata  utf16le NumericalPassword
+68  0x0003b778 0x18003d178 23  48   .rdata  utf16le Win32_EncryptableVolume
+69  0x0003b7a8 0x18003d1a8 26  27   .rdata  ascii   GetKeyProtectorExternalKey
+70  0x0003b7c8 0x18003d1c8 20  42   .rdata  utf16le VolumeKeyProtectorID
+71  0x0003b7f8 0x18003d1f8 6   14   .rdata  utf16le __PATH
+72  0x0003b808 0x18003d208 26  54   .rdata  utf16le GetKeyProtectorExternalKey
+73  0x0003b840 0x18003d240 11  24   .rdata  utf16le ReturnValue
+74  0x0003b858 0x18003d258 11  24   .rdata  utf16le ExternalKey
+75  0x0003b870 0x18003d270 23  48   .rdata  utf16le Win32_EncryptableVolume
+76  0x0003b8a0 0x18003d2a0 21  22   .rdata  ascii   SaveExternalKeyToFile
+77  0x0003b8b8 0x18003d2b8 20  42   .rdata  utf16le VolumeKeyProtectorID
+78  0x0003b8e8 0x18003d2e8 4   10   .rdata  utf16le Path
+79  0x0003b8f8 0x18003d2f8 6   14   .rdata  utf16le __PATH
+80  0x0003b908 0x18003d308 21  44   .rdata  utf16le SaveExternalKeyToFile
+81  0x0003b938 0x18003d338 11  24   .rdata  utf16le ReturnValue
+82  0x0003b950 0x18003d350 33  34   .rdata  ascii   %s\Windows\System32\config\SYSTEM
+83  0x0003b978 0x18003d378 37  38   .rdata  ascii   \ControlSet001\Control\FVEAutoUnlock\
+84  0x0003b9a0 0x18003d3a0 9   10   .rdata  ascii   %s%s\Data
+85  0x0003b9b8 0x18003d3b8 4   5    .rdata  ascii   .BEK
+86  0x0003b9c0 0x18003d3c0 23  48   .rdata  utf16le Win32_EncryptableVolume
+87  0x0003b9f0 0x18003d3f0 20  21   .rdata  ascii   DisableKeyProtectors
+88  0x0003ba08 0x18003d408 12  26   .rdata  utf16le DisableCount
+89  0x0003ba28 0x18003d428 6   14   .rdata  utf16le __PATH
+90  0x0003ba38 0x18003d438 20  42   .rdata  utf16le DisableKeyProtectors
+91  0x0003ba68 0x18003d468 11  24   .rdata  utf16le ReturnValue
+92  0x0003ba80 0x18003d480 23  48   .rdata  utf16le Win32_EncryptableVolume
+93  0x0003bab0 0x18003d4b0 19  20   .rdata  ascii   EnableKeyProtectors
+94  0x0003bac8 0x18003d4c8 6   14   .rdata  utf16le __PATH
+95  0x0003bad8 0x18003d4d8 19  40   .rdata  utf16le EnableKeyProtectors
+96  0x0003bb00 0x18003d500 11  24   .rdata  utf16le ReturnValue
+97  0x0003bb18 0x18003d518 23  48   .rdata  utf16le Win32_EncryptableVolume
+98  0x0003bb48 0x18003d548 6   14   .rdata  utf16le __PATH
+99  0x0003bb58 0x18003d558 19  40   .rdata  utf16le GetEncryptionMethod
+100 0x0003bb80 0x18003d580 16  34   .rdata  utf16le EncryptionMethod
+101 0x0003bba8 0x18003d5a8 7   8    .rdata  ascii   Encrypt
+102 0x0003bbb0 0x18003d5b0 16  34   .rdata  utf16le KeyProtectorType
+103 0x0003bbd8 0x18003d5d8 15  32   .rdata  utf16le EncryptionFlags
+104 0x0003bbf8 0x18003d5f8 7   16   .rdata  utf16le Encrypt
+105 0x0003bc08 0x18003d608 11  24   .rdata  utf16le ReturnValue
+106 0x0003bc20 0x18003d620 31  32   .rdata  ascii   [BitlockerHelp]: TurnOn hr=0x%x
+107 0x0003bc40 0x18003d640 23  48   .rdata  utf16le Win32_EncryptableVolume
+108 0x0003bc70 0x18003d670 6   14   .rdata  utf16le __PATH
+109 0x0003bc80 0x18003d680 7   16   .rdata  utf16le Decrypt
+110 0x0003bc90 0x18003d690 11  24   .rdata  utf16le ReturnValue
+111 0x0003bca8 0x18003d6a8 32  33   .rdata  ascii   [BitlockerHelp]: TurnOff hr=0x%x
+112 0x0003bcd0 0x18003d6d0 23  48   .rdata  utf16le Win32_EncryptableVolume
+113 0x0003bd00 0x18003d700 19  20   .rdata  ascii   GetConversionStatus
+114 0x0003bd18 0x18003d718 15  32   .rdata  utf16le PrecisionFactor
+115 0x0003bd38 0x18003d738 6   14   .rdata  utf16le __PATH
+116 0x0003bd48 0x18003d748 19  40   .rdata  utf16le GetConversionStatus
+117 0x0003bd70 0x18003d770 11  24   .rdata  utf16le ReturnValue
+118 0x0003bd88 0x18003d788 16  34   .rdata  utf16le ConversionStatus
+119 0x0003bdb0 0x18003d7b0 20  42   .rdata  utf16le EncryptionPercentage
+120 0x0003bde0 0x18003d7e0 20  42   .rdata  utf16le EncryptionPercentage
+121 0x0003be10 0x18003d810 15  32   .rdata  utf16le EncryptionFlags
+122 0x0003be30 0x18003d830 34  35   .rdata  ascii   [BitlockerHelp]: GetStatus failed!
+123 0x0003be58 0x18003d858 23  48   .rdata  utf16le Win32_EncryptableVolume
+124 0x0003be88 0x18003d888 6   14   .rdata  utf16le __PATH
+125 0x0003be98 0x18003d898 15  32   .rdata  utf16le PauseConversion
+126 0x0003beb8 0x18003d8b8 11  24   .rdata  utf16le ReturnValue
+127 0x0003bed0 0x18003d8d0 23  48   .rdata  utf16le Win32_EncryptableVolume
+128 0x0003bf00 0x18003d900 6   14   .rdata  utf16le __PATH
+129 0x0003bf10 0x18003d910 16  34   .rdata  utf16le ResumeConversion
+130 0x0003bf38 0x18003d938 11  24   .rdata  utf16le ReturnValue
+131 0x0003bf50 0x18003d950 23  48   .rdata  utf16le Win32_EncryptableVolume
+132 0x0003bf80 0x18003d980 6   14   .rdata  utf16le __PATH
+133 0x0003bf90 0x18003d990 13  28   .rdata  utf16le GetLockStatus
+134 0x0003bfb0 0x18003d9b0 11  24   .rdata  utf16le ReturnValue
+135 0x0003bfc8 0x18003d9c8 10  22   .rdata  utf16le LockStatus
+136 0x0003bfe0 0x18003d9e0 38  39   .rdata  ascii   [BitlockerHelp]: GetLockStatus failed!
+137 0x0003c008 0x18003da08 23  48   .rdata  utf16le Win32_EncryptableVolume
+138 0x0003c038 0x18003da38 6   14   .rdata  utf16le __PATH
+139 0x0003c048 0x18003da48 19  40   .rdata  utf16le IsAutoUnlockEnabled
+140 0x0003c070 0x18003da70 11  24   .rdata  utf16le ReturnValue
+141 0x0003c088 0x18003da88 19  40   .rdata  utf16le IsAutoUnlockEnabled
+142 0x0003c0b0 0x18003dab0 23  48   .rdata  utf16le Win32_EncryptableVolume
+143 0x0003c0e0 0x18003dae0 6   14   .rdata  utf16le __PATH
+144 0x0003c0f0 0x18003daf0 19  40   .rdata  utf16le IsAutoUnlockEnabled
+145 0x0003c118 0x18003db18 11  24   .rdata  utf16le ReturnValue
+146 0x0003c130 0x18003db30 19  40   .rdata  utf16le IsAutoUnlockEnabled
+147 0x0003c158 0x18003db58 20  42   .rdata  utf16le VolumeKeyProtectorID
+148 0x0003c188 0x18003db88 23  48   .rdata  utf16le Win32_EncryptableVolume
+149 0x0003c1b8 0x18003dbb8 6   14   .rdata  utf16le __PATH
+150 0x0003c1c8 0x18003dbc8 22  46   .rdata  utf16le ClearAllAutoUnlockKeys
+151 0x0003c1f8 0x18003dbf8 11  24   .rdata  utf16le ReturnValue
+152 0x0003c210 0x18003dc10 23  48   .rdata  utf16le Win32_EncryptableVolume
+153 0x0003c240 0x18003dc40 6   14   .rdata  utf16le __PATH
+154 0x0003c250 0x18003dc50 21  44   .rdata  utf16le IsAutoUnlockKeyStored
+155 0x0003c280 0x18003dc80 11  24   .rdata  utf16le ReturnValue
+156 0x0003c298 0x18003dc98 21  44   .rdata  utf16le IsAutoUnlockKeyStored
+157 0x0003c2c8 0x18003dcc8 23  48   .rdata  utf16le C:\Program Files\EaseUS
+158 0x0003c2f8 0x18003dcf8 26  54   .rdata  utf16le C:\Program Files\EaseUS\BL
+159 0x0003c330 0x18003dd30 24  50   .rdata  utf16le ..\BUILDPE\EaseUS-x64\BL
+160 0x0003c368 0x18003dd68 26  54   .rdata  utf16le x:\Program Files\EaseUS\BL
+161 0x0003c3a0 0x18003dda0 26  54   .rdata  utf16le C:\Program Files\EaseUS\BL
+162 0x0003c3d8 0x18003ddd8 26  54   .rdata  utf16le x:\Program Files\EaseUS\BL
+163 0x0003c410 0x18003de10 30  62   .rdata  utf16le Drive\shell\unlock-bde\command
+164 0x0003c450 0x18003de50 38  39   .rdata  ascii   [BitlockerHelp]: ExecuteUnlock failed!
+165 0x0003c478 0x18003de78 38  39   .rdata  ascii   [BitlockerHelp]: ExecuteTurnOn failed!
+166 0x0003c4a0 0x18003dea0 31  64   .rdata  utf16le Drive\shell\encrypt-bde\command
+167 0x0003c4e0 0x18003dee0 34  70   .rdata  utf16le \system32\bitlockerwizard.exe %1 U
+168 0x0003c528 0x18003df28 23  48   .rdata  utf16le Win32_EncryptableVolume
+169 0x0003c558 0x18003df58 16  17   .rdata  ascii   GetKeyProtectors
+170 0x0003c570 0x18003df70 34  70   .rdata  utf16le \system32\bitlockerwizard.exe %1 Y
+171 0x0003c5b8 0x18003dfb8 40  41   .rdata  ascii   [BitlockerHelp]: BitlockerBackup failed!
+172 0x0003c5e8 0x18003dfe8 4   10   .rdata  utf16le .exe
+173 0x0003c5f8 0x18003dff8 20  42   .rdata  utf16le VolumeKeyProtectorID
+174 0x0003c628 0x18003e028 16  34   .rdata  utf16le KeyProtectorType
+175 0x0003c650 0x18003e050 6   14   .rdata  utf16le __PATH
+176 0x0003c660 0x18003e060 16  34   .rdata  utf16le GetKeyProtectors
+177 0x0003c688 0x18003e088 11  24   .rdata  utf16le ReturnValue
+178 0x0003c6a0 0x18003e0a0 23  48   .rdata  utf16le Win32_EncryptableVolume
+179 0x0003c6d0 0x18003e0d0 19  20   .rdata  ascii   GetKeyProtectorType
+180 0x0003c6e8 0x18003e0e8 20  42   .rdata  utf16le VolumeKeyProtectorID
+181 0x0003c718 0x18003e118 6   14   .rdata  utf16le __PATH
+182 0x0003c728 0x18003e128 19  40   .rdata  utf16le GetKeyProtectorType
+183 0x0003c750 0x18003e150 11  24   .rdata  utf16le ReturnValue
+184 0x0003c768 0x18003e168 16  34   .rdata  utf16le KeyProtectorType
+185 0x0003c790 0x18003e190 20  42   .rdata  utf16le VolumeKeyProtectorID
+186 0x0003c7c0 0x18003e1c0 23  48   .rdata  utf16le Win32_EncryptableVolume
+187 0x0003c7f0 0x18003e1f0 6   14   .rdata  utf16le __PATH
+188 0x0003c800 0x18003e200 19  40   .rdata  utf16le GetProtectionStatus
+189 0x0003c828 0x18003e228 11  24   .rdata  utf16le ReturnValue
+190 0x0003c840 0x18003e240 16  34   .rdata  utf16le ProtectionStatus
+191 0x0003c868 0x18003e268 23  48   .rdata  utf16le Win32_EncryptableVolume
+192 0x0003c898 0x18003e298 6   14   .rdata  utf16le __PATH
+193 0x0003c8a8 0x18003e2a8 10  22   .rdata  utf16le GetVersion
+194 0x0003c8c0 0x18003e2c0 11  24   .rdata  utf16le ReturnValue
+195 0x0003c8d8 0x18003e2d8 7   16   .rdata  utf16le Version
+196 0x0003c8e8 0x18003e2e8 23  48   .rdata  utf16le Win32_EncryptableVolume
+197 0x0003c918 0x18003e318 6   14   .rdata  utf16le __PATH
+198 0x0003c928 0x18003e328 19  40   .rdata  utf16le GetEncryptionMethod
+199 0x0003c950 0x18003e350 11  24   .rdata  utf16le ReturnValue
+200 0x0003c968 0x18003e368 16  34   .rdata  utf16le EncryptionMethod
+201 0x0003c990 0x18003e390 24  50   .rdata  utf16le PEBootRamdiskSourceDrive
+202 0x0003c9c8 0x18003e3c8 6   14   .rdata  utf16le S-%lu-
+203 0x0003c9d8 0x18003e3d8 8   18   .rdata  utf16le temp.dat
+204 0x0003c9f0 0x18003e3f0 53  108  .rdata  utf16le Microsoft Enhanced RSA and AES Cryptographic Provider
+205 0x0003ca60 0x18003e460 4   10   .rdata  utf16le %-lu
+206 0x0003ca70 0x18003e470 4   10   .rdata  utf16le -%lu
+207 0x0003ca80 0x18003e480 8   9    .rdata  ascii   easeusbl
+208 0x0003ca90 0x18003e490 8   18   .rdata  utf16le temp.dat
+209 0x0003caa8 0x18003e4a8 8   9    .rdata  ascii   easeusbl
+210 0x0003cab8 0x18003e4b8 13  14   .rdata  ascii   BitlockerHelp
+211 0x0003cac8 0x18003e4c8 20  21   .rdata  ascii   CBitlockerHelpModule
+212 0x0003cae0 0x18003e4e0 61  62   .rdata  ascii   [BitlockerHelp]: Bitlock change: oldlock = 0x%x ,newlock=0x%x
+213 0x0003cb20 0x18003e520 65  66   .rdata  ascii   [BitlockerHelp]: Bitlock change: oldStatus = 0x%x ,newStatus=0x%x
+214 0x0003cb68 0x18003e568 47  48   .rdata  ascii   [BitlockerHelp]: Bitlock change: percent=%.2f%%
+215 0x0003cb9f 0x18003e59f 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+216 0x0003cbb0 0x18003e5b0 72  73   .rdata  ascii   [BitlockerHelp]: Bitlock change: nDiskIndex = 0x%x ,nStartSector=0x%I64x
+217 0x0003cc00 0x18003e600 16  17   .rdata  ascii   @ABCDEFGHIJKLMNO
+218 0x0003cc4c 0x18003e64c 4   5    .rdata  ascii   \a=Y=
+219 0x0003cc7f 0x18003e67f 25  26   .rdata  ascii   Q !"#$%&'()*+,-./01234567
+220 0x0003cc9a 0x18003e69a 4   5    .rdata  ascii   \vYO\t
+221 0x0003cce0 0x18003e6e0 114 115  .rdata  ascii   Ladies and Gentlemen of the class of '99: If I could offer you only one tip for the future, sunscreen would be it.
+222 0x0003cd5c 0x18003e75c 8   9    .rdata  ascii   @ABCDEFG
+223 0x0003cd83 0x18003e783 4   5    .rdata  ascii   Q)n\b
+224 0x0003cdbc 0x18003e7bc 4   5    .rdata  ascii   (\t\eX
+225 0x0003cde8 0x18003e7e8 4   5    .rdata  ascii   PQRS
+226 0x0003cdfc 0x18003e7fc 4   5    .rdata  ascii   @8`$
+227 0x0003cef3 0x18003e8f3 4   5    .rdata  ascii   8SO}
+228 0x0003cf25 0x18003e925 4   5    .rdata  ascii   ~0a6
+229 0x0003cf8d 0x18003e98d 4   5    .rdata  ascii   W$5/
+230 0x0003cfc5 0x18003e9c5 9   11   .rdata  utf8    b:$\tO̤\r53
+231 0x0003d01d 0x18003ea1d 6   7    .rdata  ascii   -U\e:3}
+232 0x0003d098 0x18003ea98 4   5    .rdata  ascii   .L0=
+233 0x0003d0a5 0x18003eaa5 4   5    .rdata  ascii   h\tS/
+234 0x0003d144 0x18003eb44 7   8    .rdata  ascii   !wt$Kr!
+235 0x0003d172 0x18003eb72 4   5    .rdata  ascii   \v9j\n
+236 0x0003d184 0x18003eb84 7   8    .rdata  ascii   !wt$Kr!
+237 0x0003d1b2 0x18003ebb2 4   5    .rdata  ascii   \v9j\n
+238 0x0003d1c0 0x18003ebc0 5   6    .rdata  ascii   a5;L(
+239 0x0003d1cd 0x18003ebcd 4   5    .rdata  ascii   *GUi
+240 0x0003d1dc 0x18003ebdc 5   6    .rdata  ascii   {lt#s
+241 0x0003d1e8 0x18003ebe8 8   10   .rdata  utf8    +\tuDԉkBI
+242 0x0003d2cb 0x18003eccb 4   6    .rdata  utf8    ć*'W
+243 0x0003d30b 0x18003ed0b 4   6    .rdata  utf8    ć*'W
+244 0x0003d34b 0x18003ed4b 4   5    .rdata  ascii   n%2M
+245 0x0003d386 0x18003ed86 4   5    .rdata  ascii   $<H0
+246 0x0003d39c 0x18003ed9c 4   5    .rdata  ascii   (fnE
+247 0x0003d400 0x18003ee00 9   11   .rdata  utf8    Χ@=M`kn\aN
+248 0x0003d44e 0x18003ee4e 4   5    .rdata  ascii   B}d:
+249 0x0003d48e 0x18003ee8e 4   5    .rdata  ascii   B}d:
+250 0x0003d509 0x18003ef09 4   5    .rdata  ascii   ]xSe
+251 0x0003d50e 0x18003ef0e 4   7    .rdata  utf8    * *
+252 0x0003d51b 0x18003ef1b 4   5    .rdata  ascii   Ootk
+253 0x0003d958 0x18003f358 4   5    .rdata  ascii   H!!(
+254 0x0003db08 0x18003f508 4   5    .rdata  ascii   pd@1
+255 0x0003db88 0x18003f588 4   5    .rdata  ascii   pb>1
+256 0x0003db98 0x18003f598 4   5    .rdata  ascii   H#%
+257 0x0003de88 0x18003f888 4   5    .rdata  ascii   pc?1
+258 0x0003df08 0x18003f908 4   5    .rdata  ascii   H"#$
+259 0x0003e807 0x180040207 375 376  .rdata  ascii   Any submission to the IETF intended by the Contributor for publication as all or part of an IETF Internet-Draft or RFC and any statement made within the context of an IETF activity is considered an "IETF Contribution". Such statements include oral statements in IETF sessions, as well as written and electronic communications made at any time or place, which are addressed to
+260 0x0003e9a1 0x1800403a1 6   7    .rdata  ascii   AY|QWH
+261 0x0003e9ae 0x1800403ae 4   5    .rdata  ascii   J7jC
+262 0x0003eb05 0x180040505 5   6    .rdata  ascii   spA`]
+263 0x0003eb35 0x180040535 4   5    .rdata  ascii   %\r@B
+264 0x0003eb54 0x180040554 4   5    .rdata  ascii   RyPB
+265 0x0003ebb6 0x1800405b6 5   7    .rdata  utf8    +\bqͬc
+266 0x0003ebff 0x1800405ff 4   5    .rdata  ascii   Uiu?
+267 0x0003ecf4 0x1800406f4 8   10   .rdata  utf8    m$:MlBoƗ
+268 0x0003ed14 0x180040714 4   5    .rdata  ascii   G\ex}
+269 0x0003ed85 0x180040785 4   6    .rdata  utf8    o٥%T
+270 0x0003ed9d 0x18004079d 5   6    .rdata  ascii   _"Zuu
+271 0x0003ee02 0x180040802 5   6    .rdata  ascii   m<8J>
+272 0x0003ee4e 0x18004084e 4   5    .rdata  ascii   kL\e
+273 0x0003ef9f 0x18004099f 35  36   .rdata  ascii   bCryptographic Forum Research Group
+274 0x0003f01f 0x180040a1f 127 128  .rdata  ascii   'Twas brillig, and the slithy toves\nDid gyre and gimble in the wabe:\nAll mimsy were the borogoves,\nAnd the mome raths outgrabe.
+275 0x0003f0a1 0x180040aa1 6   8    .rdata  utf8    ־xWUm3
+276 0x0003f20f 0x180040c0f 9   10   .rdata  ascii   @Now is t
+277 0x0003f536 0x180040f36 4   5    .rdata  ascii   dv7+
+278 0x0003f549 0x180040f49 4   5    .rdata  ascii   pVhi
+279 0x0003fa57 0x180041457 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+280 0x0003fae2 0x1800414e2 6   7    .rdata  ascii   "3DUfw
+281 0x0003fb22 0x180041522 6   7    .rdata  ascii   "3DUfw
+282 0x0003fb8c 0x18004158c 4   5    .rdata  ascii   \v\b\t\n
+283 0x0003fbf0 0x1800415f0 5   6    .rdata  ascii   gg18T
+284 0x0003fbf6 0x1800415f6 4   5    .rdata  ascii   is\bW
+285 0x0003fbff 0x1800415ff 5   6    .rdata  ascii   C8<l*
+286 0x0003fd14 0x180041714 8   9    .rdata  ascii   \b\t\n\v&'$%
+287 0x0003fd64 0x180041764 4   5    .rdata  ascii   =>?<
+288 0x0003fd70 0x180041770 4   5    .rdata  ascii   # !"
+289 0x0003fd78 0x180041778 4   5    .rdata  ascii   \b\t\n\v
+290 0x0003fd84 0x180041784 4   5    .rdata  ascii   '$%&
+291 0x0003fd90 0x180041790 4   5    .rdata  ascii   :;89
+292 0x0003fd9f 0x18004179f 5   6    .rdata  ascii   \aABC@
+293 0x0003fdac 0x1800417ac 4   5    .rdata  ascii   +()*
+294 0x0003fdc7 0x1800417c7 6   9    .rdata  utf8    x@ťߵ\aH
+295 0x0003fdd8 0x1800417d8 11  12   .rdata  ascii   ZcXcbT>T*H0
+296 0x0003fe17 0x180041817 6   7    .rdata  ascii   JM,\vg7
+297 0x0003fe25 0x180041825 4   5    .rdata  ascii   PK@p
+298 0x0003fe32 0x180041832 4   5    .rdata  ascii   `U)}
+299 0x0003fe40 0x180041840 16  17   .rdata  ascii   Single block msg
+300 0x0003fe77 0x180041877 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+301 0x0003fea7 0x1800418a7 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+302 0x0003fec0 0x1800418c0 4   5    .rdata  ascii    !"#
+303 0x0003ff9e 0x18004199e 4   5    .rdata  ascii   VM\rf
+304 0x0003fff3 0x1800419f3 4   5    .rdata  ascii   \nIh8
+305 0x00040034 0x180041a34 4   5    .rdata  ascii   R,k{
+306 0x00040051 0x180041a51 6   7    .rdata  ascii   5,\a;a\b
+307 0x0004009c 0x180041a9c 4   5    .rdata  ascii   QVlM
+308 0x000400d1 0x180041ad1 4   7    .rdata  utf8    Dϲõz
+309 0x00040147 0x180041b47 7   8    .rdata  ascii   \n6I*h<8
+310 0x000401da 0x180041bda 4   5    .rdata  ascii   tT0~
+311 0x000401df 0x180041bdf 4   5    .rdata  ascii   (UhP
+312 0x000401ee 0x180041bee 4   5    .rdata  ascii   2i\bb
+313 0x00040242 0x180041c42 4   6    .rdata  utf8    ܪ|wV
+314 0x0004027e 0x180041c7e 5   6    .rdata  ascii   %{\rq_
+315 0x000402c2 0x180041cc2 6   8    .rdata  utf8    t½6"8d
+316 0x00040319 0x180041d19 4   6    .rdata  utf8    -ޖ&}
+317 0x00040367 0x180041d67 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+318 0x00040382 0x180041d82 6   7    .rdata  ascii   "3DUfw
+319 0x00040392 0x180041d92 6   7    .rdata  ascii   "3DUfw
+320 0x000403a0 0x180041da0 4   5    .rdata  ascii   c|w{
+321 0x000403e8 0x180041de8 4   6    .rdata  utf8    R;ֳ)
+322 0x000403f7 0x180041df7 7   9    .rdata  utf8    [j˾9JLX
+323 0x00040428 0x180041e28 5   7    .rdata  utf8    ħ~=d]
+324 0x00040441 0x180041e41 4   5    .rdata  ascii   2:\nI
+325 0x000404a6 0x180041ea6 4   5    .rdata  ascii   !xP9
+326 0x000404ac 0x180041eac 7   8    .rdata  ascii   r\tb<>~^
+327 0x000404e5 0x180041ee5 4   5    .rdata  ascii   :\vXg
+328 0x0004054a 0x180041f4a 5   6    .rdata  ascii   ;qDF+
+329 0x00040556 0x180041f56 4   5    .rdata  ascii   |pZ}
+330 0x0004056c 0x180041f6c 4   5    .rdata  ascii   \aONE
+331 0x000405a8 0x180041fa8 6   7    .rdata  ascii   b\rjF<M
+332 0x000405f6 0x180041ff6 5   8    .rdata  utf8    *(G۸Ǔ
+333 0x00040603 0x180042003 5   6    .rdata  ascii   16!XH
+334 0x00040615 0x180042015 4   5    .rdata  ascii   VB&\a
+335 0x00040681 0x180042081 6   7    .rdata  ascii   \v[3}ZR
+336 0x000406f0 0x1800420f0 4   5    .rdata  ascii   lpHP
+337 0x0004079b 0x18004219b 5   6    .rdata  ascii   cU!\f}
+338 0x000407c0 0x1800421c0 4   5    .rdata  ascii   """"
+339 0x000407c8 0x1800421c8 4   5    .rdata  ascii   """"
+340 0x000407f1 0x1800421f1 4   5    .rdata  ascii   34cK
+341 0x000407f6 0x1800421f6 6   8    .rdata  utf8    }LԵ7p3
+342 0x00040805 0x180042205 5   6    .rdata  ascii   KS<g*
+343 0x0004080e 0x18004220e 4   5    .rdata  ascii   x_NO
+344 0x00040842 0x180042242 4   6    .rdata  utf8    BC*ز
+345 0x0004084c 0x18004224c 4   5    .rdata  ascii   ?\nnR
+346 0x000408d1 0x1800422d1 6   7    .rdata  ascii   i@%?{0
+347 0x000408f3 0x1800422f3 4   6    .rdata  utf8    ֫dLs
+348 0x00040922 0x180042322 6   7    .rdata  ascii   "3DUfw
+349 0x0004095e 0x18004235e 4   5    .rdata  ascii   MKAq
+350 0x0004096a 0x18004236a 4   5    .rdata  ascii   sa)d
+351 0x00040978 0x180042378 4   5    .rdata  ascii   HG|n
+352 0x000409c2 0x1800423c2 6   7    .rdata  ascii   -<KZix
+353 0x000409d0 0x1800423d0 16  17   .rdata  ascii   Single block msg
+354 0x00040a07 0x180042407 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+355 0x00040a37 0x180042437 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+356 0x00040a50 0x180042450 4   5    .rdata  ascii    !"#
+357 0x00040a67 0x180042467 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+358 0x00040a80 0x180042480 5   6    .rdata  ascii   33333
+359 0x00040a90 0x180042490 5   6    .rdata  ascii   33333
+360 0x00040aa7 0x1800424a7 4   5    .rdata  ascii    34I
+361 0x00040aaf 0x1800424af 4   6    .rdata  utf8    JȦE7
+362 0x00040aea 0x1800424ea 6   8    .rdata  utf8    Y\tɚAtg
+363 0x00040b2d 0x18004252d 4   5    .rdata  ascii   ]8`9
+364 0x00040b49 0x180042549 4   6    .rdata  utf8    >Ш&z
+365 0x00040b58 0x180042558 5   6    .rdata  ascii    1b=U
+366 0x00040b94 0x180042594 4   5    .rdata  ascii   R,k{
+367 0x00040bb1 0x1800425b1 6   7    .rdata  ascii   5,\a;a\b
+368 0x00040c80 0x180042680 64  65   .rdata  ascii   DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+369 0x00040ce7 0x1800426e7 5   6    .rdata  ascii   n93@8
+370 0x00040d02 0x180042702 4   5    .rdata  ascii   3kYz
+371 0x00040d14 0x180042714 5   6    .rdata  ascii   ~\v!S!
+372 0x00040d49 0x180042749 4   5    .rdata  ascii   oVX]
+373 0x00040d80 0x180042780 16  17   .rdata  ascii   """"""""""""""""
+374 0x00040da0 0x1800427a0 16  17   .rdata  ascii   """"""""""""""""
+375 0x00040e27 0x180042827 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+376 0x00040e51 0x180042851 6   7    .rdata  ascii   <Se>/E
+377 0x00040e67 0x180042867 4   5    .rdata  ascii    34I
+378 0x00040e90 0x180042890 4   5    .rdata  ascii   0Le(
+379 0x00040eaa 0x1800428aa 5   7    .rdata  utf8    Y\tɚAt
+380 0x00040eed 0x1800428ed 4   5    .rdata  ascii   ]8`O
+381 0x00040ef6 0x1800428f6 4   6    .rdata  utf8    \v:ȏj
+382 0x00040f27 0x180042927 4   5    .rdata  ascii   y-au
+383 0x00040f95 0x180042995 5   7    .rdata  utf8    mx6՚\
+384 0x00041014 0x180042a14 4   5    .rdata  ascii   R,k{
+385 0x00041031 0x180042a31 6   7    .rdata  ascii   5,\a;a\b
+386 0x00041040 0x180042a40 68  69   .rdata  ascii   %02X%02X%02X%02X-%02X%02X-%02X%02X-%02X%02X-%02X%02X%02X%02X%02X%02X
+387 0x00041088 0x180042a88 30  31   .rdata  ascii   Wow64DisableWow64FsRedirection
+388 0x000410a8 0x180042aa8 8   18   .rdata  utf16le kernel32
+389 0x000410c0 0x180042ac0 29  30   .rdata  ascii   Wow64RevertWow64FsRedirection
+390 0x000410e0 0x180042ae0 18  19   .rdata  ascii   vector<T> too long
+391 0x000410f8 0x180042af8 23  24   .rdata  ascii   invalid string position
+392 0x00041110 0x180042b10 15  16   .rdata  ascii   string too long
+393 0x00041120 0x180042b20 19  20   .rdata  ascii   map/set<T> too long
+394 0x00041260 0x180042c60 9   10   .rdata  ascii   GetModule
+395 0x0004126c 0x180042c6c 6   7    .rdata  ascii   Thread
+396 0x000419d1 0x1800433d1 8   9    .rdata  ascii   Y&iSan\tu
+397 0x00041a0c 0x18004340c 4   5    .rdata  ascii   6biA
+398 0x00041a32 0x180043432 4   5    .rdata  ascii   tp|I
+399 0x00041a38 0x180043438 11  12   .rdata  ascii   AES-128-ECB
+400 0x00041a48 0x180043448 11  12   .rdata  ascii   AES-192-ECB
+401 0x00041a58 0x180043458 11  12   .rdata  ascii   AES-256-ECB
+402 0x00041a68 0x180043468 11  12   .rdata  ascii   AES-128-CBC
+403 0x00041a78 0x180043478 11  12   .rdata  ascii   AES-192-CBC
+404 0x00041a88 0x180043488 11  12   .rdata  ascii   AES-256-CBC
+405 0x00041a98 0x180043498 14  15   .rdata  ascii   AES-128-CFB128
+406 0x00041aa8 0x1800434a8 14  15   .rdata  ascii   AES-192-CFB128
+407 0x00041ab8 0x1800434b8 14  15   .rdata  ascii   AES-256-CFB128
+408 0x00041ac8 0x1800434c8 11  12   .rdata  ascii   AES-128-OFB
+409 0x00041ad8 0x1800434d8 11  12   .rdata  ascii   AES-192-OFB
+410 0x00041ae8 0x1800434e8 11  12   .rdata  ascii   AES-256-OFB
+411 0x00041af8 0x1800434f8 11  12   .rdata  ascii   AES-128-CTR
+412 0x00041b08 0x180043508 11  12   .rdata  ascii   AES-192-CTR
+413 0x00041b18 0x180043518 11  12   .rdata  ascii   AES-256-CTR
+414 0x00041b28 0x180043528 11  12   .rdata  ascii   AES-128-XTS
+415 0x00041b38 0x180043538 11  12   .rdata  ascii   AES-256-XTS
+416 0x00041b48 0x180043548 11  12   .rdata  ascii   AES-128-GCM
+417 0x00041b58 0x180043558 11  12   .rdata  ascii   AES-192-GCM
+418 0x00041b68 0x180043568 11  12   .rdata  ascii   AES-256-GCM
+419 0x00041b78 0x180043578 11  12   .rdata  ascii   AES-128-CCM
+420 0x00041b88 0x180043588 11  12   .rdata  ascii   AES-192-CCM
+421 0x00041b98 0x180043598 11  12   .rdata  ascii   AES-256-CCM
+422 0x00041ba8 0x1800435a8 19  20   .rdata  ascii   AES-128-CCM*-NO-TAG
+423 0x00041bc0 0x1800435c0 19  20   .rdata  ascii   AES-192-CCM*-NO-TAG
+424 0x00041bd8 0x1800435d8 19  20   .rdata  ascii   AES-256-CCM*-NO-TAG
+425 0x00041bf0 0x1800435f0 16  17   .rdata  ascii   CAMELLIA-128-ECB
+426 0x00041c08 0x180043608 16  17   .rdata  ascii   CAMELLIA-192-ECB
+427 0x00041c20 0x180043620 16  17   .rdata  ascii   CAMELLIA-256-ECB
+428 0x00041c38 0x180043638 16  17   .rdata  ascii   CAMELLIA-128-CBC
+429 0x00041c50 0x180043650 16  17   .rdata  ascii   CAMELLIA-192-CBC
+430 0x00041c68 0x180043668 16  17   .rdata  ascii   CAMELLIA-256-CBC
+431 0x00041c80 0x180043680 19  20   .rdata  ascii   CAMELLIA-128-CFB128
+432 0x00041c98 0x180043698 19  20   .rdata  ascii   CAMELLIA-192-CFB128
+433 0x00041cb0 0x1800436b0 19  20   .rdata  ascii   CAMELLIA-256-CFB128
+434 0x00041cc8 0x1800436c8 16  17   .rdata  ascii   CAMELLIA-128-CTR
+435 0x00041ce0 0x1800436e0 16  17   .rdata  ascii   CAMELLIA-192-CTR
+436 0x00041cf8 0x1800436f8 16  17   .rdata  ascii   CAMELLIA-256-CTR
+437 0x00041d10 0x180043710 16  17   .rdata  ascii   CAMELLIA-128-GCM
+438 0x00041d28 0x180043728 16  17   .rdata  ascii   CAMELLIA-192-GCM
+439 0x00041d40 0x180043740 16  17   .rdata  ascii   CAMELLIA-256-GCM
+440 0x00041d58 0x180043758 16  17   .rdata  ascii   CAMELLIA-128-CCM
+441 0x00041d70 0x180043770 16  17   .rdata  ascii   CAMELLIA-192-CCM
+442 0x00041d88 0x180043788 16  17   .rdata  ascii   CAMELLIA-256-CCM
+443 0x00041da0 0x1800437a0 24  25   .rdata  ascii   CAMELLIA-128-CCM*-NO-TAG
+444 0x00041dc0 0x1800437c0 24  25   .rdata  ascii   CAMELLIA-192-CCM*-NO-TAG
+445 0x00041de0 0x1800437e0 24  25   .rdata  ascii   CAMELLIA-256-CCM*-NO-TAG
+446 0x00041e00 0x180043800 12  13   .rdata  ascii   ARIA-128-ECB
+447 0x00041e10 0x180043810 12  13   .rdata  ascii   ARIA-192-ECB
+448 0x00041e20 0x180043820 12  13   .rdata  ascii   ARIA-256-ECB
+449 0x00041e30 0x180043830 12  13   .rdata  ascii   ARIA-128-CBC
+450 0x00041e40 0x180043840 12  13   .rdata  ascii   ARIA-192-CBC
+451 0x00041e50 0x180043850 12  13   .rdata  ascii   ARIA-256-CBC
+452 0x00041e60 0x180043860 15  16   .rdata  ascii   ARIA-128-CFB128
+453 0x00041e70 0x180043870 15  16   .rdata  ascii   ARIA-192-CFB128
+454 0x00041e80 0x180043880 15  16   .rdata  ascii   ARIA-256-CFB128
+455 0x00041e90 0x180043890 12  13   .rdata  ascii   ARIA-128-CTR
+456 0x00041ea0 0x1800438a0 12  13   .rdata  ascii   ARIA-192-CTR
+457 0x00041eb0 0x1800438b0 12  13   .rdata  ascii   ARIA-256-CTR
+458 0x00041ec0 0x1800438c0 12  13   .rdata  ascii   ARIA-128-GCM
+459 0x00041ed0 0x1800438d0 12  13   .rdata  ascii   ARIA-192-GCM
+460 0x00041ee0 0x1800438e0 12  13   .rdata  ascii   ARIA-256-GCM
+461 0x00041ef0 0x1800438f0 12  13   .rdata  ascii   ARIA-128-CCM
+462 0x00041f00 0x180043900 12  13   .rdata  ascii   ARIA-192-CCM
+463 0x00041f10 0x180043910 12  13   .rdata  ascii   ARIA-256-CCM
+464 0x00041f20 0x180043920 20  21   .rdata  ascii   ARIA-128-CCM*-NO-TAG
+465 0x00041f38 0x180043938 20  21   .rdata  ascii   ARIA-192-CCM*-NO-TAG
+466 0x00041f50 0x180043950 20  21   .rdata  ascii   ARIA-256-CCM*-NO-TAG
+467 0x00041f68 0x180043968 7   8    .rdata  ascii   DES-ECB
+468 0x00041f70 0x180043970 7   8    .rdata  ascii   DES-CBC
+469 0x00041f78 0x180043978 11  12   .rdata  ascii   DES-EDE-ECB
+470 0x00041f88 0x180043988 11  12   .rdata  ascii   DES-EDE-CBC
+471 0x00041f98 0x180043998 12  13   .rdata  ascii   DES-EDE3-ECB
+472 0x00041fa8 0x1800439a8 12  13   .rdata  ascii   DES-EDE3-CBC
+473 0x00041fb8 0x1800439b8 8   9    .rdata  ascii   CHACHA20
+474 0x00041fc8 0x1800439c8 17  18   .rdata  ascii   CHACHA20-POLY1305
+475 0x00041fe0 0x1800439e0 10  11   .rdata  ascii   AES-128-KW
+476 0x00041ff0 0x1800439f0 10  11   .rdata  ascii   AES-192-KW
+477 0x00042000 0x180043a00 10  11   .rdata  ascii   AES-256-KW
+478 0x00042010 0x180043a10 11  12   .rdata  ascii   AES-128-KWP
+479 0x00042020 0x180043a20 11  12   .rdata  ascii   AES-192-KWP
+480 0x00042030 0x180043a30 11  12   .rdata  ascii   AES-256-KWP
+481 0x00044b84 0x180046584 4   5    .rdata  ascii   RSDS
+482 0x00044b8c 0x18004658c 4   5    .rdata  ascii   /b:F
+483 0x00044b9c 0x18004659c 67  68   .rdata  ascii   I:\_drw_main\PartitionRecovery\Output\Release_x64\bitlockerhelp.pdb
+484 0x00044bf4 0x1800465f4 4   5    .rdata  ascii   GCTL
+485 0x00044c00 0x180046600 8   9    .rdata  ascii   .text$di
+486 0x00044c14 0x180046614 8   9    .rdata  ascii   .text$mn
+487 0x00044c28 0x180046628 11  12   .rdata  ascii   .text$mn$00
+488 0x00044c3c 0x18004663c 7   8    .rdata  ascii   .text$x
+489 0x00044c4c 0x18004664c 8   9    .rdata  ascii   .text$yd
+490 0x00044c60 0x180046660 8   9    .rdata  ascii   .idata$5
+491 0x00044c74 0x180046674 6   7    .rdata  ascii   .00cfg
+492 0x00044c84 0x180046684 8   9    .rdata  ascii   .CRT$XCA
+493 0x00044c98 0x180046698 8   9    .rdata  ascii   .CRT$XCL
+494 0x00044cac 0x1800466ac 8   9    .rdata  ascii   .CRT$XCU
+495 0x00044cc0 0x1800466c0 8   9    .rdata  ascii   .CRT$XCZ
+496 0x00044cd4 0x1800466d4 8   9    .rdata  ascii   .CRT$XIA
+497 0x00044ce8 0x1800466e8 8   9    .rdata  ascii   .CRT$XIC
+498 0x00044cfc 0x1800466fc 8   9    .rdata  ascii   .CRT$XIZ
+499 0x00044d10 0x180046710 8   9    .rdata  ascii   .CRT$XLA
+500 0x00044d24 0x180046724 8   9    .rdata  ascii   .CRT$XLZ
+501 0x00044d38 0x180046738 8   9    .rdata  ascii   .CRT$XPA
+502 0x00044d4c 0x18004674c 8   9    .rdata  ascii   .CRT$XPZ
+503 0x00044d60 0x180046760 8   9    .rdata  ascii   .CRT$XTA
+504 0x00044d74 0x180046774 8   9    .rdata  ascii   .CRT$XTZ
+505 0x00044d88 0x180046788 6   7    .rdata  ascii   .rdata
+506 0x00044d98 0x180046798 8   9    .rdata  ascii   .rdata$T
+507 0x00044dac 0x1800467ac 8   9    .rdata  ascii   .rdata$r
+508 0x00044dc0 0x1800467c0 13  14   .rdata  ascii   .rdata$zzzdbg
+509 0x00044dd8 0x1800467d8 8   9    .rdata  ascii   .rtc$IAA
+510 0x00044dec 0x1800467ec 8   9    .rdata  ascii   .rtc$IZZ
+511 0x00044e00 0x180046800 8   9    .rdata  ascii   .rtc$TAA
+512 0x00044e14 0x180046814 8   9    .rdata  ascii   .rtc$TZZ
+513 0x00044e28 0x180046828 4   5    .rdata  ascii   .tls
+514 0x00044e38 0x180046838 5   6    .rdata  ascii   .tls$
+515 0x00044e48 0x180046848 8   9    .rdata  ascii   .tls$ZZZ
+516 0x00044e5c 0x18004685c 6   7    .rdata  ascii   .xdata
+517 0x00044e6c 0x18004686c 8   9    .rdata  ascii   .xdata$x
+518 0x00044e80 0x180046880 6   7    .rdata  ascii   .edata
+519 0x00044e90 0x180046890 8   9    .rdata  ascii   .idata$2
+520 0x00044ea4 0x1800468a4 8   9    .rdata  ascii   .idata$3
+521 0x00044eb8 0x1800468b8 8   9    .rdata  ascii   .idata$4
+522 0x00044ecc 0x1800468cc 8   9    .rdata  ascii   .idata$6
+523 0x00044ee0 0x1800468e0 5   6    .rdata  ascii   .data
+524 0x00044ef0 0x1800468f0 7   8    .rdata  ascii   .data$r
+525 0x00044f00 0x180046900 4   5    .rdata  ascii   .bss
+526 0x00044f10 0x180046910 6   7    .rdata  ascii   .pdata
+527 0x00044f20 0x180046920 8   9    .rdata  ascii   .rsrc$01
+528 0x00044f34 0x180046934 8   9    .rdata  ascii   .rsrc$02
+529 0x00044f7c 0x18004697c 4   5    .rdata  ascii   \fp\v`
+530 0x000486dd 0x18004a0dd 5   6    .rdata  ascii   b\vp\n`
+531 0x000486ec 0x18004a0ec 5   6    .rdata  ascii   \vp\n`p
+532 0x00048b72 0x18004a572 7   8    .rdata  ascii   \np\t`\bPp
+533 0x00048ce0 0x18004a6e0 4   5    .rdata  ascii   \fp\v`
+534 0x00048eda 0x18004a8da 6   7    .rdata  ascii   \tp\b`\aP
+535 0x00048eee 0x18004a8ee 4   5    .rdata  ascii   \bp\a`
+536 0x00048f0a 0x18004a90a 7   8    .rdata  ascii   \rp\f`\vP!
+537 0x00049008 0x18004aa08 4   5    .rdata  ascii   \bp\a`
+538 0x00049976 0x18004b376 7   15   .rdata  utf16le \a\b\t\n\v\f\r
+539 0x00049985 0x18004b385 15  16   .rdata  ascii   itlockerhelp.mo
+540 0x00049995 0x18004b395 27  28   .rdata  ascii   ??0IObject@@QEAA@$$QEAU0@@Z
+541 0x000499b1 0x18004b3b1 25  26   .rdata  ascii   ??0IObject@@QEAA@AEBU0@@Z
+542 0x000499cb 0x18004b3cb 19  20   .rdata  ascii   ??0IObject@@QEAA@XZ
+543 0x000499df 0x18004b3df 39  40   .rdata  ascii   ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+544 0x00049a07 0x18004b407 36  37   .rdata  ascii   ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+545 0x00049a2c 0x18004b42c 35  36   .rdata  ascii   ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+546 0x00049a50 0x18004b450 33  34   .rdata  ascii   ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+547 0x00049a72 0x18004b472 32  33   .rdata  ascii   ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+548 0x00049a93 0x18004b493 30  31   .rdata  ascii   ??4IObject@@QEAAAEAU0@AEBU0@@Z
+549 0x00049ab2 0x18004b4b2 16  17   .rdata  ascii   ??_7IObject@@6B@
+550 0x00049ac3 0x18004b4c3 24  25   .rdata  ascii   ?AddRef@IObject@@QEBAKXZ
+551 0x00049adc 0x18004b4dc 41  42   .rdata  ascii   ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+552 0x00049b06 0x18004b506 25  26   .rdata  ascii   ?Release@IObject@@QEBAKXZ
+553 0x00049b20 0x18004b520 9   10   .rdata  ascii   GetModule
+554 0x0004a372 0x18004bd72 26  27   .rdata  ascii   ?Log@CLogWriter@@SAXPEBDZZ
+555 0x0004a38e 0x18004bd8e 6   7    .rdata  ascii   Log.mo
+556 0x0004a398 0x18004bd98 53  54   .rdata  ascii   ?SetCurChildOperationValue@CCallBackOperate@@QEAAKK@Z
+557 0x0004a3ce 0x18004bdce 19  20   .rdata  ascii   CallbackOperator.mo
+558 0x0004a3e4 0x18004bde4 16  17   .rdata  ascii   CreateDirectoryW
+559 0x0004a3f8 0x18004bdf8 8   9    .rdata  ascii   ReadFile
+560 0x0004a404 0x18004be04 9   10   .rdata  ascii   WriteFile
+561 0x0004a410 0x18004be10 15  16   .rdata  ascii   DeviceIoControl
+562 0x0004a422 0x18004be22 16  17   .rdata  ascii   TerminateProcess
+563 0x0004a436 0x18004be36 18  19   .rdata  ascii   GetModuleFileNameW
+564 0x0004a44c 0x18004be4c 12  13   .rdata  ascii   GetProcessId
+565 0x0004a45c 0x18004be5c 19  20   .rdata  ascii   WaitForSingleObject
+566 0x0004a472 0x18004be72 11  12   .rdata  ascii   CreateFileW
+567 0x0004a480 0x18004be80 13  14   .rdata  ascii   GetVersionExW
+568 0x0004a490 0x18004be90 19  20   .rdata  ascii   GetSystemDirectoryW
+569 0x0004a4a6 0x18004bea6 11  12   .rdata  ascii   OpenProcess
+570 0x0004a4b4 0x18004beb4 24  25   .rdata  ascii   CreateToolhelp32Snapshot
+571 0x0004a4d0 0x18004bed0 12  13   .rdata  ascii   GetLastError
+572 0x0004a4e0 0x18004bee0 14  15   .rdata  ascii   Process32NextW
+573 0x0004a4f2 0x18004bef2 15  16   .rdata  ascii   Process32FirstW
+574 0x0004a504 0x18004bf04 11  12   .rdata  ascii   CloseHandle
+575 0x0004a512 0x18004bf12 18  19   .rdata  ascii   SetFileAttributesA
+576 0x0004a528 0x18004bf28 20  21   .rdata  ascii   GetWindowsDirectoryW
+577 0x0004a540 0x18004bf40 14  15   .rdata  ascii   GetProcAddress
+578 0x0004a552 0x18004bf52 11  12   .rdata  ascii   GetFileSize
+579 0x0004a560 0x18004bf60 19  20   .rdata  ascii   GetCurrentProcessId
+580 0x0004a576 0x18004bf76 20  21   .rdata  ascii   SystemTimeToFileTime
+581 0x0004a58e 0x18004bf8e 14  15   .rdata  ascii   CreateProcessW
+582 0x0004a5a0 0x18004bfa0 16  17   .rdata  ascii   GetModuleHandleW
+583 0x0004a5b4 0x18004bfb4 32  33   .rdata  ascii   GetVolumePathNamesForVolumeNameW
+584 0x0004a5d8 0x18004bfd8 13  14   .rdata  ascii   GetSystemTime
+585 0x0004a5e8 0x18004bfe8 12  13   .rdata  ascii   GetTickCount
+586 0x0004a5f8 0x18004bff8 5   6    .rdata  ascii   Sleep
+587 0x0004a600 0x18004c000 12  13   .rdata  ascii   LoadLibraryA
+588 0x0004a610 0x18004c010 11  12   .rdata  ascii   FreeLibrary
+589 0x0004a61e 0x18004c01e 20  21   .rdata  ascii   EnterCriticalSection
+590 0x0004a636 0x18004c036 20  21   .rdata  ascii   LeaveCriticalSection
+591 0x0004a64e 0x18004c04e 25  26   .rdata  ascii   InitializeCriticalSection
+592 0x0004a66a 0x18004c06a 12  13   .rdata  ascii   CreateThread
+593 0x0004a67a 0x18004c07a 21  22   .rdata  ascii   DeleteCriticalSection
+594 0x0004a690 0x18004c090 12  13   .rdata  ascii   KERNEL32.dll
+595 0x0004a6a0 0x18004c0a0 11  12   .rdata  ascii   EnumWindows
+596 0x0004a6ae 0x18004c0ae 19  20   .rdata  ascii   GetForegroundWindow
+597 0x0004a6c4 0x18004c0c4 15  16   .rdata  ascii   IsWindowVisible
+598 0x0004a6d6 0x18004c0d6 24  25   .rdata  ascii   GetWindowThreadProcessId
+599 0x0004a6f0 0x18004c0f0 10  11   .rdata  ascii   USER32.dll
+600 0x0004a6fe 0x18004c0fe 25  26   .rdata  ascii   GetSidIdentifierAuthority
+601 0x0004a71a 0x18004c11a 19  20   .rdata  ascii   CryptReleaseContext
+602 0x0004a730 0x18004c130 18  19   .rdata  ascii   LookupAccountNameW
+603 0x0004a746 0x18004c146 11  12   .rdata  ascii   RegOpenKeyW
+604 0x0004a754 0x18004c154 12  13   .rdata  ascii   GetUserNameW
+605 0x0004a764 0x18004c164 16  17   .rdata  ascii   CryptDestroyHash
+606 0x0004a778 0x18004c178 10  11   .rdata  ascii   IsValidSid
+607 0x0004a786 0x18004c186 13  14   .rdata  ascii   CryptHashData
+608 0x0004a796 0x18004c196 14  15   .rdata  ascii   CryptDeriveKey
+609 0x0004a7a8 0x18004c1a8 15  16   .rdata  ascii   CryptCreateHash
+610 0x0004a7ba 0x18004c1ba 12  13   .rdata  ascii   CryptDecrypt
+611 0x0004a7ca 0x18004c1ca 14  15   .rdata  ascii   RegQueryValueW
+612 0x0004a7dc 0x18004c1dc 18  19   .rdata  ascii   GetSidSubAuthority
+613 0x0004a7f2 0x18004c1f2 23  24   .rdata  ascii   GetSidSubAuthorityCount
+614 0x0004a80c 0x18004c20c 12  13   .rdata  ascii   CryptEncrypt
+615 0x0004a81c 0x18004c21c 20  21   .rdata  ascii   CryptAcquireContextW
+616 0x0004a834 0x18004c234 11  12   .rdata  ascii   RegCloseKey
+617 0x0004a842 0x18004c242 15  16   .rdata  ascii   CryptDestroyKey
+618 0x0004a852 0x18004c252 12  13   .rdata  ascii   ADVAPI32.dll
+619 0x0004a862 0x18004c262 14  15   .rdata  ascii   CoUninitialize
+620 0x0004a874 0x18004c274 16  17   .rdata  ascii   CoCreateInstance
+621 0x0004a888 0x18004c288 17  18   .rdata  ascii   CoSetProxyBlanket
+622 0x0004a89c 0x18004c29c 20  21   .rdata  ascii   CoInitializeSecurity
+623 0x0004a8b4 0x18004c2b4 14  15   .rdata  ascii   CoInitializeEx
+624 0x0004a8c6 0x18004c2c6 12  13   .rdata  ascii   CoInitialize
+625 0x0004a8d6 0x18004c2d6 13  14   .rdata  ascii   CoTaskMemFree
+626 0x0004a8e4 0x18004c2e4 9   10   .rdata  ascii   ole32.dll
+627 0x0004a8ee 0x18004c2ee 12  13   .rdata  ascii   OLEAUT32.dll
+628 0x0004a8fe 0x18004c2fe 23  24   .rdata  ascii   ??1_Lockit@std@@QEAA@XZ
+629 0x0004a918 0x18004c318 24  25   .rdata  ascii   ??0_Lockit@std@@QEAA@H@Z
+630 0x0004a934 0x18004c334 49  50   .rdata  ascii   ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+631 0x0004a968 0x18004c368 30  31   .rdata  ascii   ?_Xout_of_range@std@@YAXPEBD@Z
+632 0x0004a98a 0x18004c38a 47  48   .rdata  ascii   ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+633 0x0004a9bc 0x18004c3bc 36  37   .rdata  ascii   ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+634 0x0004a9e4 0x18004c3e4 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+635 0x0004aa06 0x18004c406 74  75   .rdata  ascii   ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+636 0x0004aa54 0x18004c454 57  58   .rdata  ascii   ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+637 0x0004aa90 0x18004c490 73  74   .rdata  ascii   ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+638 0x0004aadc 0x18004c4dc 66  67   .rdata  ascii   ?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z
+639 0x0004ab22 0x18004c522 61  62   .rdata  ascii   ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+640 0x0004ab62 0x18004c562 76  77   .rdata  ascii   ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z
+641 0x0004abb2 0x18004c5b2 73  74   .rdata  ascii   ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+642 0x0004abfe 0x18004c5fe 61  62   .rdata  ascii   ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+643 0x0004ac3e 0x18004c63e 51  52   .rdata  ascii   ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+644 0x0004ac74 0x18004c674 64  65   .rdata  ascii   ?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+645 0x0004acb8 0x18004c6b8 63  64   .rdata  ascii   ?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+646 0x0004acfa 0x18004c6fa 63  64   .rdata  ascii   ?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+647 0x0004ad3c 0x18004c73c 64  65   .rdata  ascii   ?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+648 0x0004ad80 0x18004c780 62  63   .rdata  ascii   ?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+649 0x0004adc2 0x18004c7c2 64  65   .rdata  ascii   ?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+650 0x0004ae06 0x18004c806 65  66   .rdata  ascii   ?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+651 0x0004ae4a 0x18004c84a 65  66   .rdata  ascii   ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+652 0x0004ae8e 0x18004c88e 65  66   .rdata  ascii   ?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ
+653 0x0004aed2 0x18004c8d2 62  63   .rdata  ascii   ?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+654 0x0004af14 0x18004c914 65  66   .rdata  ascii   ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+655 0x0004af58 0x18004c958 65  66   .rdata  ascii   ?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ
+656 0x0004af9c 0x18004c99c 105 106  .rdata  ascii   ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+657 0x0004b008 0x18004ca08 80  81   .rdata  ascii   ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+658 0x0004b05c 0x18004ca5c 81  82   .rdata  ascii   ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+659 0x0004b0b0 0x18004cab0 51  52   .rdata  ascii   ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+660 0x0004b0e6 0x18004cae6 57  58   .rdata  ascii   ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+661 0x0004b122 0x18004cb22 66  67   .rdata  ascii   ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+662 0x0004b168 0x18004cb68 69  70   .rdata  ascii   ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+663 0x0004b1b0 0x18004cbb0 69  70   .rdata  ascii   ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+664 0x0004b1f8 0x18004cbf8 55  56   .rdata  ascii   ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+665 0x0004b232 0x18004cc32 71  72   .rdata  ascii   ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
+666 0x0004b27c 0x18004cc7c 41  42   .rdata  ascii   ?always_noconv@codecvt_base@std@@QEBA_NXZ
+667 0x0004b2a8 0x18004cca8 26  27   .rdata  ascii   ??Bid@locale@std@@QEAA_KXZ
+668 0x0004b2c4 0x18004ccc4 12  13   .rdata  ascii   MSVCP140.dll
+669 0x0004b2d4 0x18004ccd4 44  45   .rdata  ascii   ?GetBitLockerMgr@@YAPEAVBitLockerManager@@XZ
+670 0x0004b304 0x18004cd04 49  50   .rdata  ascii   ?DestroyBitLockerMgr@@YAXPEAVBitLockerManager@@@Z
+671 0x0004b336 0x18004cd36 16  17   .rdata  ascii   BitLockerLib.dll
+672 0x0004b34a 0x18004cd4a 17  18   .rdata  ascii   PathCanonicalizeW
+673 0x0004b35c 0x18004cd5c 11  12   .rdata  ascii   SHLWAPI.dll
+674 0x0004b36a 0x18004cd6a 18  19   .rdata  ascii   __CxxFrameHandler3
+675 0x0004b380 0x18004cd80 23  24   .rdata  ascii   __std_exception_destroy
+676 0x0004b39a 0x18004cd9a 20  21   .rdata  ascii   __std_exception_copy
+677 0x0004b3b2 0x18004cdb2 9   10   .rdata  ascii   _purecall
+678 0x0004b3be 0x18004cdbe 15  16   .rdata  ascii   __std_terminate
+679 0x0004b3d0 0x18004cdd0 7   8    .rdata  ascii   wcsrchr
+680 0x0004b3da 0x18004cdda 20  21   .rdata  ascii   __std_type_info_name
+681 0x0004b3f2 0x18004cdf2 18  19   .rdata  ascii   _CxxThrowException
+682 0x0004b408 0x18004ce08 6   7    .rdata  ascii   memset
+683 0x0004b412 0x18004ce12 20  21   .rdata  ascii   __C_specific_handler
+684 0x0004b42a 0x18004ce2a 28  29   .rdata  ascii   __std_type_info_destroy_list
+685 0x0004b448 0x18004ce48 16  17   .rdata  ascii   VCRUNTIME140.dll
+686 0x0004b45c 0x18004ce5c 5   6    .rdata  ascii   fputc
+687 0x0004b464 0x18004ce64 6   7    .rdata  ascii   calloc
+688 0x0004b46e 0x18004ce6e 26  27   .rdata  ascii   __stdio_common_vswprintf_s
+689 0x0004b48c 0x18004ce8c 7   8    .rdata  ascii   toupper
+690 0x0004b496 0x18004ce96 6   7    .rdata  ascii   fflush
+691 0x0004b4a0 0x18004cea0 6   7    .rdata  ascii   fclose
+692 0x0004b4aa 0x18004ceaa 8   9    .rdata  ascii   wcscpy_s
+693 0x0004b4b6 0x18004ceb6 8   9    .rdata  ascii   wcscat_s
+694 0x0004b4c2 0x18004cec2 5   6    .rdata  ascii   fgetc
+695 0x0004b4ca 0x18004ceca 12  13   .rdata  ascii   _unlock_file
+696 0x0004b4da 0x18004ceda 10  11   .rdata  ascii   _lock_file
+697 0x0004b4e8 0x18004cee8 6   7    .rdata  ascii   fwrite
+698 0x0004b4f2 0x18004cef2 24  25   .rdata  ascii   __stdio_common_vswprintf
+699 0x0004b50e 0x18004cf0e 23  24   .rdata  ascii   __stdio_common_vsprintf
+700 0x0004b528 0x18004cf28 7   8    .rdata  ascii   fgetpos
+701 0x0004b532 0x18004cf32 7   8    .rdata  ascii   setvbuf
+702 0x0004b53c 0x18004cf3c 4   5    .rdata  ascii   free
+703 0x0004b544 0x18004cf44 6   7    .rdata  ascii   ungetc
+704 0x0004b54e 0x18004cf4e 7   8    .rdata  ascii   fsetpos
+705 0x0004b558 0x18004cf58 5   6    .rdata  ascii   fread
+706 0x0004b560 0x18004cf60 9   10   .rdata  ascii   _fseeki64
+707 0x0004b56c 0x18004cf6c 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+708 0x0004b592 0x18004cf92 27  28   .rdata  ascii   _get_stream_buffer_pointers
+709 0x0004b5b0 0x18004cfb0 4   5    .rdata  ascii   exit
+710 0x0004b5b8 0x18004cfb8 5   6    .rdata  ascii   abort
+711 0x0004b5c0 0x18004cfc0 7   8    .rdata  ascii   isprint
+712 0x0004b5ca 0x18004cfca 15  16   .rdata  ascii   __acrt_iob_func
+713 0x0004b5dc 0x18004cfdc 6   7    .rdata  ascii   perror
+714 0x0004b5e6 0x18004cfe6 5   6    .rdata  ascii   _read
+715 0x0004b5ee 0x18004cfee 23  24   .rdata  ascii   __stdio_common_vfprintf
+716 0x0004b608 0x18004d008 6   7    .rdata  ascii   _close
+717 0x0004b612 0x18004d012 5   6    .rdata  ascii   fgets
+718 0x0004b61a 0x18004d01a 5   6    .rdata  ascii   _open
+719 0x0004b622 0x18004d022 7   8    .rdata  ascii   strncmp
+720 0x0004b62c 0x18004d02c 7   8    .rdata  ascii   putchar
+721 0x0004b636 0x18004d036 6   7    .rdata  ascii   _errno
+722 0x0004b640 0x18004d040 22  23   .rdata  ascii   __stdio_common_vsscanf
+723 0x0004b65a 0x18004d05a 8   9    .rdata  ascii   strerror
+724 0x0004b666 0x18004d066 11  12   .rdata  ascii   _fstat64i32
+725 0x0004b674 0x18004d074 6   7    .rdata  ascii   malloc
+726 0x0004b67e 0x18004d07e 9   10   .rdata  ascii   _callnewh
+727 0x0004b68a 0x18004d08a 15  16   .rdata  ascii   _seh_filter_dll
+728 0x0004b69c 0x18004d09c 22  23   .rdata  ascii   _configure_narrow_argv
+729 0x0004b6b6 0x18004d0b6 30  31   .rdata  ascii   _initialize_narrow_environment
+730 0x0004b6d8 0x18004d0d8 24  25   .rdata  ascii   _initialize_onexit_table
+731 0x0004b6f4 0x18004d0f4 25  26   .rdata  ascii   _register_onexit_function
+732 0x0004b710 0x18004d110 21  22   .rdata  ascii   _execute_onexit_table
+733 0x0004b728 0x18004d128 11  12   .rdata  ascii   _crt_atexit
+734 0x0004b736 0x18004d136 6   7    .rdata  ascii   _cexit
+735 0x0004b740 0x18004d140 9   10   .rdata  ascii   _initterm
+736 0x0004b74c 0x18004d14c 11  12   .rdata  ascii   _initterm_e
+737 0x0004b75a 0x18004d15a 8   9    .rdata  ascii   _wcsicmp
+738 0x0004b764 0x18004d164 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+739 0x0004b784 0x18004d184 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+740 0x0004b7a4 0x18004d1a4 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+741 0x0004b7c6 0x18004d1c6 36  37   .rdata  ascii   api-ms-win-crt-filesystem-l1-1-0.dll
+742 0x0004b7ec 0x18004d1ec 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+743 0x0004b810 0x18004d210 19  20   .rdata  ascii   MultiByteToWideChar
+744 0x0004b826 0x18004d226 9   10   .rdata  ascii   LocalFree
+745 0x0004b832 0x18004d232 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+746 0x0004b84c 0x18004d24c 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+747 0x0004b874 0x18004d274 8   9    .rdata  ascii   SetEvent
+748 0x0004b880 0x18004d280 10  11   .rdata  ascii   ResetEvent
+749 0x0004b88e 0x18004d28e 21  22   .rdata  ascii   WaitForSingleObjectEx
+750 0x0004b8a6 0x18004d2a6 12  13   .rdata  ascii   CreateEventW
+751 0x0004b8b6 0x18004d2b6 19  20   .rdata  ascii   InitializeSListHead
+752 0x0004b8cc 0x18004d2cc 17  18   .rdata  ascii   RtlCaptureContext
+753 0x0004b8e0 0x18004d2e0 22  23   .rdata  ascii   RtlLookupFunctionEntry
+754 0x0004b8fa 0x18004d2fa 16  17   .rdata  ascii   RtlVirtualUnwind
+755 0x0004b90e 0x18004d30e 24  25   .rdata  ascii   UnhandledExceptionFilter
+756 0x0004b92a 0x18004d32a 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+757 0x0004b948 0x18004d348 17  18   .rdata  ascii   GetCurrentProcess
+758 0x0004b95c 0x18004d35c 25  26   .rdata  ascii   IsProcessorFeaturePresent
+759 0x0004b978 0x18004d378 17  18   .rdata  ascii   IsDebuggerPresent
+760 0x0004b98c 0x18004d38c 23  24   .rdata  ascii   QueryPerformanceCounter
+761 0x0004b9a6 0x18004d3a6 18  19   .rdata  ascii   GetCurrentThreadId
+762 0x0004b9bc 0x18004d3bc 6   7    .rdata  ascii   memcmp
+763 0x0004b9c6 0x18004d3c6 6   7    .rdata  ascii   memcpy
+764 0x0004b9d0 0x18004d3d0 7   8    .rdata  ascii   memmove
+765 0x0004ba70 0x18004e070 8   9    .data   ascii   REG_NONE
+766 0x0004ba7c 0x18004e07c 6   7    .data   ascii   REG_SZ
+767 0x0004ba88 0x18004e088 13  14   .data   ascii   REG_EXPAND_SZ
+768 0x0004ba98 0x18004e098 10  11   .data   ascii   REG_BINARY
+769 0x0004baa8 0x18004e0a8 9   10   .data   ascii   REG_DWORD
+770 0x0004bab8 0x18004e0b8 20  21   .data   ascii   REG_DWORD_BIG_ENDIAN
+771 0x0004bad0 0x18004e0d0 8   9    .data   ascii   REG_LINK
+772 0x0004bae0 0x18004e0e0 12  13   .data   ascii   REG_MULTI_SZ
+773 0x0004baf0 0x18004e0f0 16  17   .data   ascii   REG_RESOUCE_LIST
+774 0x0004bb08 0x18004e108 17  18   .data   ascii   REG_FULL_RES_DESC
+775 0x0004bb20 0x18004e120 11  12   .data   ascii   REG_RES_REQ
+776 0x0004bb30 0x18004e130 9   10   .data   ascii   REG_QWORD
+777 0x0004bba8 0x18004e1a8 31  32   .data   ascii   Type of hive guessed to be: %d\n
+778 0x0004bbc8 0x18004e1c8 10  11   .data   ascii   \Microsoft
+779 0x0004bbd8 0x18004e1d8 7   8    .data   ascii   \Policy
+780 0x0004bbe0 0x18004e1e0 11  12   .data   ascii   \ControlSet
+781 0x0004bbec 0x18004e1ec 4   5    .data   ascii   \SAM
+782 0x0004bbf8 0x18004e1f8 62  63   .data   ascii   File size %d [%x] bytes, containing %d pages (+ 1 headerpage)\n
+783 0x0004bc38 0x18004e238 33  34   .data   ascii   hdr->unknown4 (version?)  : 0x%x\n
+784 0x0004bc60 0x18004e260 64  65   .data   ascii   Used for data: %d/%d blocks/bytes, unused: %d/%d blocks/bytes.\n\n
+785 0x0004bca4 0x18004e2a4 6   7    .data   ascii   stat()
+786 0x0004bcb0 0x18004e2b0 33  34   .data   ascii   First non-HBIN page offset: 0x%x\n
+787 0x0004bcd8 0x18004e2d8 33  34   .data   ascii   Last HBIN at offset       : 0x%x\n
+788 0x0004bd00 0x18004e300 87  88   .data   ascii   openHive: ERROR: Page at 0x%x has size zero! File may be corrupt, or program has a bug\n
+789 0x0004bd58 0x18004e358 37  38   .data   ascii   Subkey indexing type is: %04x <%c%c>\n
+790 0x0004bd80 0x18004e380 72  73   .data   ascii   ###### Page at 0x%0x ofs_self 0x%0x, size (delta ofs_next) 0x%0x ######\n
+791 0x0004bdd0 0x18004e3d0 66  67   .data   ascii   Page at 0x%x is not 'hbin', assuming file contains garbage at end\n
+792 0x0004be18 0x18004e418 27  28   .data   ascii   openHive: DEBUG: BIG ROOT!\n
+793 0x0004be38 0x18004e438 31  32   .data   ascii   >\nROOT KEY at offset: 0x%06x *
+794 0x0004be58 0x18004e458 53  54   .data   ascii   Could not read file, got %d bytes while expecting %d\n
+795 0x0004be90 0x18004e490 72  73   .data   ascii   openHive: WARNING: ROOT key does not seem to be a key! (not type == nk)\n
+796 0x0004bedc 0x18004e4dc 5   6    .data   ascii   %06x
+797 0x0004bee8 0x18004e4e8 31  32   .data   ascii   Hive <%s> name (from header): <
+798 0x0004bf08 0x18004e508 54  55   .data   ascii                : Point = %x, restlen = %x, copylen = %x\n
+799 0x0004bf40 0x18004e540 83  84   .data   ascii   openHive(%s): WARNING: REGF header checksum mismatch! calc: 0x%08x != file: 0x%08x\n
+800 0x0004bf98 0x18004e598 56  57   .data   ascii   openHive(%s): File does not seem to be a registry hive!\n
+801 0x0004bfd8 0x18004e5d8 24  25   .data   ascii   openHive(): read error:
+802 0x0004bff8 0x18004e5f8 14  15   .data   ascii   malloc failure
+803 0x0004c008 0x18004e608 44  45   .data   ascii   openHive(%s) in fallback RO-mode failed: %s\n
+804 0x0004c038 0x18004e638 14  15   .data   ascii   malloc failure
+805 0x0004c048 0x18004e648 14  15   .data   ascii   malloc failure
+806 0x0004c058 0x18004e658 50  51   .data   ascii   get_val2buf: Datablock %d offset %x, size %x (%d)\n
+807 0x0004c090 0x18004e690 47  48   .data   ascii   get_val2buf: Long value: parts = %d, list = %x\n
+808 0x0004c0c0 0x18004e6c0 14  15   .data   ascii   malloc failure
+809 0x0004c0d0 0x18004e6d0 35  36   .data   ascii   Value <%s> is not of correct type!\n
+810 0x0004c0f8 0x18004e6f8 27  28   .data   ascii   get_val_data: %s not found\n
+811 0x0004c118 0x18004e718 10  11   .data   ascii   [No name]\n
+812 0x0004c128 0x18004e728 33  34   .data   ascii   ERROR: not 'nk' node! (strange?)\n
+813 0x0004c150 0x18004e750 35  36   .data   ascii   trav_path: Error: Not a 'nk' node!\n
+814 0x0004c178 0x18004e778 34  35   .data   ascii   ex_next: nk at 0x%0x has no name!\n
+815 0x0004c1a0 0x18004e7a0 39  40   .data   ascii   ex_next: ERROR: not 'nk' node at 0x%0x\n
+816 0x0004c1c8 0x18004e7c8 40  41   .data   ascii   ex_next error: Not a 'nk' node at 0x%0x\n
+817 0x0004c1f4 0x18004e7f4 5   6    .data   ascii   %02X
+818 0x0004c200 0x18004e800 33  34   .data   ascii   value data, or not handeled yet!\n
+819 0x0004c228 0x18004e828 38  39   .data   ascii   FREE BLOCK @ %06x to %06x : %d, 0x%0x\n
+820 0x0004c250 0x18004e850 38  39   .data   ascii   USED BLOCK @ %06x to %06x : %d, 0x%0x\n
+821 0x0004c278 0x18004e878 20  21   .data   ascii   == End of key info.\n
+822 0x0004c290 0x18004e890 74  75   .data   ascii   parse_block: FATAL! Zero data block size! (not registry or corrupt file?)\n
+823 0x0004c2e0 0x18004e8e0 34  35   .data   ascii   %04x   Data list at offset: 0x%0x\n
+824 0x0004c308 0x18004e908 31  32   .data   ascii   %04x   number of parts    = %d\n
+825 0x0004c328 0x18004e928 20  21   .data   ascii   == db at offset %0x\n
+826 0x0004c340 0x18004e940 20  21   .data   ascii   == End of key info.\n
+827 0x0004c358 0x18004e958 30  31   .data   ascii   %04x      %3d   Offset: 0x%0x\n
+828 0x0004c378 0x18004e978 33  34   .data   ascii   %04x   number of subindices = %d\n
+829 0x0004c3a0 0x18004e9a0 20  21   .data   ascii   == ri at offset %0x\n
+830 0x0004c3b8 0x18004e9b8 20  21   .data   ascii   == End of key info.\n
+831 0x0004c3d0 0x18004e9d0 30  31   .data   ascii   %04x      %3d   Offset: 0x%0x\n
+832 0x0004c3f0 0x18004e9f0 30  31   .data   ascii   %04x   number of keys    = %d\n
+833 0x0004c410 0x18004ea10 20  21   .data   ascii   == li at offset %0x\n
+834 0x0004c428 0x18004ea28 20  21   .data   ascii   == End of key info.\n
+835 0x0004c440 0x18004ea40 46  47   .data   ascii   %04x      %3d   Offset: 0x%0x  - <hash: %08x>\n
+836 0x0004c470 0x18004ea70 30  31   .data   ascii   %04x   number of keys    = %d\n
+837 0x0004c490 0x18004ea90 20  21   .data   ascii   == lh at offset %0x\n
+838 0x0004c4a8 0x18004eaa8 20  21   .data   ascii   == End of key info.\n
+839 0x0004c4c0 0x18004eac0 44  45   .data   ascii   %04x      %3d   Offset: 0x%0x  - <%c%c%c%c>\n
+840 0x0004c4f0 0x18004eaf0 30  31   .data   ascii   %04x   number of keys    = %d\n
+841 0x0004c510 0x18004eb10 20  21   .data   ascii   == lf at offset %0x\n
+842 0x0004c528 0x18004eb28 20  21   .data   ascii   == End of key info.\n
+843 0x0004c540 0x18004eb40 38  39   .data   ascii   %04x   Security data len = %d (0x%0x)\n
+844 0x0004c568 0x18004eb68 38  39   .data   ascii   %04x   Usage counter     = %d (0x%0x)\n
+845 0x0004c590 0x18004eb90 33  34   .data   ascii   %04x   Offset to next sk = 0x%0x\n
+846 0x0004c5b8 0x18004ebb8 33  34   .data   ascii   %04x   Offset to prev sk = 0x%0x\n
+847 0x0004c5e0 0x18004ebe0 30  31   .data   ascii   %04x   *unused?*         = %d\n
+848 0x0004c600 0x18004ec00 20  21   .data   ascii   == sk at offset %0x\n
+849 0x0004c618 0x18004ec18 22  23   .data   ascii   >\n== End of key info.\n
+850 0x0004c630 0x18004ec30 18  19   .data   ascii   %04x   Key name: <
+851 0x0004c648 0x18004ec48 33  34   .data   ascii   %04x   *unused?*         = 0x%0x\n
+852 0x0004c670 0x18004ec70 33  34   .data   ascii   %04x   flag              = 0x%0x\n
+853 0x0004c698 0x18004ec98 37  38   .data   ascii   %04x   value type        = 0x%0x  %s\n
+854 0x0004c6c0 0x18004ecc0 9   10   .data   ascii   (unknown)
+855 0x0004c6d0 0x18004ecd0 33  34   .data   ascii   %04x   data offset       = 0x%0x\n
+856 0x0004c6f8 0x18004ecf8 38  39   .data   ascii   %04x   length of data    = %d (0x%0x)\n
+857 0x0004c720 0x18004ed20 38  39   .data   ascii   %04x   name length       = %d (0x%0x)\n
+858 0x0004c748 0x18004ed48 20  21   .data   ascii   == vk at offset %0x\n
+859 0x0004c760 0x18004ed60 22  23   .data   ascii   >\n== End of key info.\n
+860 0x0004c778 0x18004ed78 18  19   .data   ascii   %04x   Key name: <
+861 0x0004c790 0x18004ed90 30  31   .data   ascii   %04x   classname length  = %d\n
+862 0x0004c7b0 0x18004edb0 30  31   .data   ascii   %04x   name length       = %d\n
+863 0x0004c7d0 0x18004edd0 38  39   .data   ascii   %04x   dummy7            = 0x%0x (%d)\n
+864 0x0004c7f8 0x18004edf8 38  39   .data   ascii   %04x   dummy6            = 0x%0x (%d)\n
+865 0x0004c820 0x18004ee20 38  39   .data   ascii   %04x   dummy5            = 0x%0x (%d)\n
+866 0x0004c848 0x18004ee48 38  39   .data   ascii   %04x   dummy4            = 0x%0x (%d)\n
+867 0x0004c870 0x18004ee70 38  39   .data   ascii   %04x   dummy3            = 0x%0x (%d)\n
+868 0x0004c898 0x18004ee98 33  34   .data   ascii   %04x   classname offset  = 0x%0x\n
+869 0x0004c8c0 0x18004eec0 33  34   .data   ascii   %04x   sk-record offset  = 0x%0x\n
+870 0x0004c8e8 0x18004eee8 33  34   .data   ascii   %04x   val-list offset   = 0x%0x\n
+871 0x0004c910 0x18004ef10 30  31   .data   ascii   %04x   number of values  = %d\n
+872 0x0004c930 0x18004ef30 33  34   .data   ascii   %04x   lf-record offset  = 0x%0x\n
+873 0x0004c958 0x18004ef58 30  31   .data   ascii   %04x   number of subkeys = %d\n
+874 0x0004c978 0x18004ef78 33  34   .data   ascii   %04x   parent key offset = 0x%0x\n
+875 0x0004c9a0 0x18004efa0 25  26   .data   ascii   %04x   timestamp skipped\n
+876 0x0004c9c0 0x18004efc0 37  38   .data   ascii   %04x   type              = 0x%02x %s\n
+877 0x0004c9e8 0x18004efe8 8   9    .data   ascii   ROOT_KEY
+878 0x0004c9f8 0x18004eff8 20  21   .data   ascii   == nk at offset %0x\n
+879 0x0004ca10 0x18004f010 74  75   .data   ascii     instead of <hexbyte> etc. you may give 'string to enter/search a string\n
+880 0x0004ca60 0x18004f060 19  20   .data   ascii   q - quit (no save)\n
+881 0x0004ca78 0x18004f078 16  17   .data   ascii   s - save & quit\n
+882 0x0004ca90 0x18004f090 50  51   .data   ascii   ha <hexbyte> [<hexbyte] - Hunt all (whole buffer)\n
+883 0x0004cac8 0x18004f0c8 52  53   .data   ascii   : <offset> <hexbyte> [<hexbyte> ...] - change bytes\n
+884 0x0004cb00 0x18004f100 66  67   .data   ascii   h <from> <to> <hexbyte> [<hexbyte> ...] - hunt (search) for bytes\n
+885 0x0004cb48 0x18004f148 45  46   .data   ascii   d [<from>] [<to>] - dump buffer within range\n
+886 0x0004cb78 0x18004f178 19  20   .data   ascii   from: %x, wlen: %d\n
+887 0x0004cb90 0x18004f190 72  73   .data   ascii   a [<from>] [<to>] - same as d, but without ascii-part (for cut'n'paste)\n
+888 0x0004cbe0 0x18004f1e0 27  28   .data   ascii   from: %x, to: %x, wlen: %d\n
+889 0x0004cc00 0x18004f200 43  44   .data   ascii   Buffer has not changed, no need to write..\n
+890 0x0004cc30 0x18004f230 31  32   .data   ascii   Buffer debugger. '?' for help.\n
+891 0x0004cc50 0x18004f250 7   8    .data   ascii   :%05X
+892 0x0004cc58 0x18004f258 14  15   .data   ascii   malloc failure
+893 0x0004cc68 0x18004f268 14  15   .data   ascii   malloc failure
+894 0x0004cc90 0x18004f290 16  17   .data   ascii   .?AV_com_error@@
+895 0x0004ccb8 0x18004f2b8 15  16   .data   ascii   .?AVtype_info@@
+896 0x0004ccd8 0x18004f2d8 19  20   .data   ascii   .?AVbad_alloc@std@@
+897 0x0004cd00 0x18004f300 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+898 0x0004cd30 0x18004f330 49  50   .data   ascii   .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+899 0x0004cd78 0x18004f378 18  19   .data   ascii   .?AVios_base@std@@
+900 0x0004cda0 0x18004f3a0 19  20   .data   ascii   .?AV?$_Iosb@H@std@@
+901 0x0004cdd0 0x18004f3d0 50  51   .data   ascii   .?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+902 0x0004ce20 0x18004f420 51  52   .data   ascii   .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+903 0x0004ce68 0x18004f468 18  19   .data   ascii   .?AVbad_cast@std@@
+904 0x0004ce90 0x18004f490 45  46   .data   ascii   .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+905 0x0004ced0 0x18004f4d0 49  50   .data   ascii   .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+906 0x0004cf18 0x18004f518 13  14   .data   ascii   .?AUIObject@@
+907 0x0004cf38 0x18004f538 19  20   .data   ascii   .?AVexception@std@@
+908 0x0004cf60 0x18004f560 59  60   .data   ascii   .?AV?$CMomObject@V?$CModuleImpl@VCBitlockerHelpModule@@@@@@
+909 0x0004cfb0 0x18004f5b0 21  22   .data   ascii   .?AU__MomObjectFlag@@
+910 0x0004cfd8 0x18004f5d8 26  27   .data   ascii   .?AUIBitlockerHelpModule@@
+911 0x0004d008 0x18004f608 26  27   .data   ascii   .?AVCBitlockerHelpModule@@
+912 0x0004d038 0x18004f638 17  18   .data   ascii   .?AUIThreadBase@@
+913 0x0004d060 0x18004f660 85  86   .data   ascii   .?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCBitlockerHelpModule@@@@@@@@
+914 0x0004d0c8 0x18004f6c8 43  44   .data   ascii   .?AV?$CModuleImpl@VCBitlockerHelpModule@@@@
+915 0x0004d108 0x18004f708 13  14   .data   ascii   .?AUIModule@@
+916 0x0004d130 0x18004f730 64  65   .data   ascii   .?AV?$CMomEventObject@V?$CModuleImpl@VCBitlockerHelpModule@@@@@@
+917 0x00050c60 0x180057060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

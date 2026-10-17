@@ -1,0 +1,247 @@
+[Strings]
+nth paddr      vaddr      len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00010000 0x62e92000 5   6    .rdata  ascii   1.2.5
+1   0x00010025 0x62e92025 5   6    .rdata  ascii   0\aw,a
+2   0x00010084 0x62e92084 4   6    .rdata  utf8    (kdz
+3   0x000100a1 0x62e920a1 4   5    .rdata  ascii    n;^
+4   0x000100f3 0x62e920f3 4   6    .rdata  utf8    !#ĳV
+5   0x00010154 0x62e92154 4   5    .rdata  ascii   -=m\b
+6   0x00010161 0x62e92161 6   7    .rdata  ascii   Qkkbal
+7   0x00010199 0x62e92199 4   6    .rdata  utf8    |ӌeL
+8   0x000101d7 0x62e921d7 4   5    .rdata  ascii   3_L\n
+9   0x0001022d 0x62e9222d 4   6    .rdata  utf8    ұt9G
+10  0x00010248 0x62e92248 4   5    .rdata  ascii   >jm\r
+11  0x0001024d 0x62e9224d 4   5    .rdata  ascii   Zjz\v
+12  0x0001026f 0x62e9226f 4   5    .rdata  ascii   i]Wb
+13  0x0001027e 0x62e9227e 4   5    .rdata  ascii   knv\e
+14  0x00010285 0x62e92285 4   6    .rdata  utf8    +ӉZz
+15  0x00010326 0x62e92326 5   8    .rdata  utf8    c윣ju\n
+16  0x000103af 0x62e923af 4   5    .rdata  ascii   9a&g
+17  0x000103b8 0x62e923b8 4   5    .rdata  ascii   MGiI
+18  0x000103bd 0x62e923bd 6   8    .rdata  utf8    wn>JjѮ
+19  0x000103ff 0x62e923ff 4   5    .rdata  ascii   #.zf
+20  0x0001040d 0x62e9240d 4   5    .rdata  ascii   +o*7
+21  0x0001043a 0x62e9243a 6   8    .rdata  utf8    ZVǖAO\b
+22  0x000104d5 0x62e924d5 9   10   .rdata  ascii   Z* ,\t\a\vm8
+23  0x000104e1 0x62e924e1 5   7    .rdata  utf8    6F߲\a]
+24  0x00010508 0x62e92508 4   6    .rdata  utf8    yީ%8
+25  0x00010540 0x62e92540 4   6    .rdata  utf8    \rŠ8L
+26  0x000105b8 0x62e925b8 4   6    .rdata  utf8    !̧3`
+27  0x000105e5 0x62e925e5 6   7    .rdata  ascii   H$6t\e\t
+28  0x00010649 0x62e92649 5   7    .rdata  utf8    pl@Aw
+29  0x00010674 0x62e92674 4   5    .rdata  ascii   _~6\f
+30  0x000106b1 0x62e926b1 5   7    .rdata  utf8    ykʬHp
+31  0x00010706 0x62e92706 5   6    .rdata  ascii   \a52F*
+32  0x0001070c 0x62e9270c 4   5    .rdata  ascii   sw1\a
+33  0x000107b5 0x62e927b5 10  11   .rdata  ascii   \a\t#jT$\b+e?
+34  0x0001085b 0x62e9285b 6   7    .rdata  ascii   \n=G\\vp
+35  0x000108c2 0x62e928c2 4   5    .rdata  ascii   ^6o}
+36  0x000108ed 0x62e928ed 9   10   .rdata  ascii   [-&LMb#{'
+37  0x0001090b 0x62e9290b 5   6    .rdata  ascii   )q\n>(
+38  0x00010933 0x62e92933 6   7    .rdata  ascii   w+OQvr
+39  0x0001093f 0x62e9293f 5   7    .rdata  utf8    ux܉~O
+40  0x00010949 0x62e92949 5   6    .rdata  ascii   \b\r}!b
+41  0x00010979 0x62e92979 5   6    .rdata  ascii   R1h58
+42  0x000109aa 0x62e929aa 4   5    .rdata  ascii   SKyu
+43  0x000109ea 0x62e929ea 5   7    .rdata  utf8    uW\tַV
+44  0x00010a16 0x62e92a16 8   9    .rdata  ascii   )\ZEo^m/
+45  0x00010c43 0x62e92c43 5   7    .rdata  utf8    ŊO\b}d
+46  0x00010c77 0x62e92c77 7   8    .rdata  ascii   gC\bru&o
+47  0x00010c9d 0x62e92c9d 4   5    .rdata  ascii   Gz\b>
+48  0x00010cb0 0x62e92cb0 6   7    .rdata  ascii   i8P/\f_
+49  0x00010ccc 0x62e92ccc 4   5    .rdata  ascii   ?(3w
+50  0x00010cd5 0x62e92cd5 4   5    .rdata  ascii   wXR\r
+51  0x00010ce7 0x62e92ce7 7   8    .rdata  ascii   H*0"ZOW
+52  0x00010cff 0x62e92cff 5   7    .rdata  utf8    mNП5+
+53  0x00010d5b 0x62e92d5b 5   7    .rdata  utf8    {kHwâ
+54  0x00010daf 0x62e92daf 4   5    .rdata  ascii   )T`D
+55  0x00010e13 0x62e92e13 4   5    .rdata  ascii   !AxU
+56  0x00010e1c 0x62e92e1c 4   6    .rdata  utf8    ʰ\3;
+57  0x00010e30 0x62e92e30 6   7    .rdata  ascii   l!;b\tF
+58  0x00010e4c 0x62e92e4c 4   5    .rdata  ascii   :1X:
+59  0x00010e58 0x62e92e58 4   6    .rdata  utf8    \bF\rm
+60  0x00010e8b 0x62e92e8b 4   6    .rdata  utf8    ҥfAj
+61  0x00010e94 0x62e92e94 4   5    .rdata  ascii   y9*O
+62  0x00010ea2 0x62e92ea2 4   5    .rdata  ascii   kM`~
+63  0x00010ec5 0x62e92ec5 4   5    .rdata  ascii   Vc0a
+64  0x00010f2f 0x62e92f2f 4   5    .rdata  ascii   dQy/
+65  0x00010f37 0x62e92f37 4   6    .rdata  utf8    Aڱ&S
+66  0x00010f93 0x62e92f93 4   6    .rdata  utf8    lDa>
+67  0x00010f9c 0x62e92f9c 5   7    .rdata  utf8    ϩ7~8A
+68  0x00010ff5 0x62e92ff5 4   7    .rdata  utf8    渱{I\r
+69  0x00011003 0x62e93003 4   5    .rdata  ascii   C-Yn
+70  0x00011041 0x62e93041 4   7    .rdata  utf8    ۈ2yܸ
+71  0x000110ad 0x62e930ad 4   5    .rdata  ascii   gqr<
+72  0x0001110f 0x62e9310f 4   5    .rdata  ascii   $/o|
+73  0x0001111d 0x62e9311d 4   5    .rdata  ascii   f-=v
+74  0x0001113f 0x62e9313f 4   6    .rdata  utf8    3x\aɢ
+75  0x00011154 0x62e93154 4   5    .rdata  ascii   \bm=-
+76  0x000111b0 0x62e931b0 6   10   .rdata  utf8    JߥA=ؕפ
+77  0x0001121a 0x62e9321a 4   6    .rdata  utf8    \;:l
+78  0x00011248 0x62e93248 7   8    .rdata  ascii   \rmj>zjZ
+79  0x00011279 0x62e93279 5   6    .rdata  ascii   l6qnk
+80  0x000112c1 0x62e932c1 7   9    .rdata  utf8    \r+گ\n\eL6
+81  0x000112e8 0x62e932e8 5   7    .rdata  utf8    %oҠRh
+82  0x000112fe 0x62e932fe 4   6    .rdata  utf8    &/ź;
+83  0x00011336 0x62e93336 5   6    .rdata  ascii   6?r\ag
+84  0x000113af 0x62e933af 4   6    .rdata  utf8    §g&a
+85  0x000113b8 0x62e933b8 8   10   .rdata  utf8    IiGM>nwۮ
+86  0x00011425 0x62e93425 6   7    .rdata  ascii   \e1A26b
+87  0x000114bd 0x62e934bd 4   6    .rdata  utf8    Ųe]]
+88  0x000114cf 0x62e934cf 4   5    .rdata  ascii   i91k
+89  0x000114d8 0x62e934d8 4   5    .rdata  ascii   \v\a\t,
+90  0x000115dd 0x62e935dd 6   7    .rdata  ascii   ewh/?y
+91  0x000115ee 0x62e935ee 4   5    .rdata  ascii   *5KS
+92  0x00011674 0x62e93674 7   8    .rdata  ascii   \f6~_'\e-
+93  0x000116bd 0x62e936bd 4   5    .rdata  ascii   F*.f
+94  0x00011709 0x62e93709 9   10   .rdata  ascii   *F2\a1wsHp
+95  0x00011745 0x62e93745 4   5    .rdata  ascii   8l\a1
+96  0x000117a4 0x62e937a4 5   7    .rdata  utf8    Ge­lH
+97  0x000117b8 0x62e937b8 4   5    .rdata  ascii   \b$Tj
+98  0x00011853 0x62e93853 5   7    .rdata  utf8    d\bؓS\n
+99  0x0001185a 0x62e9385a 6   7    .rdata  ascii   -\n\v\G=
+100 0x0001186f 0x62e9386f 4   5    .rdata  ascii   )\e/\v
+101 0x0001189f 0x62e9389f 4   5    .rdata  ascii   M8MF
+102 0x000118be 0x62e938be 4   5    .rdata  ascii   Pe6^
+103 0x000118f0 0x62e938f0 5   6    .rdata  ascii   #bML"
+104 0x0001190a 0x62e9390a 8   9    .rdata  ascii   `F(>\nq-q
+105 0x00011934 0x62e93934 5   6    .rdata  ascii   vQO+t
+106 0x0001193b 0x62e9393b 5   7    .rdata  utf8    ru՛E~
+107 0x00011947 0x62e93947 4   5    .rdata  ascii   O}\r\b
+108 0x00011977 0x62e93977 4   5    .rdata  ascii   [h1R
+109 0x000119d6 0x62e939d6 4   5    .rdata  ascii   XsBI
+110 0x000119e2 0x62e939e2 4   5    .rdata  ascii   hPU3
+111 0x00011a18 0x62e93a18 5   6    .rdata  ascii   ^oEZ_
+112 0x00011aa1 0x62e93aa1 6   8    .rdata  utf8    x]`غ7W
+113 0x00011b11 0x62e93b11 6   8    .rdata  utf8    D\at͆mC
+114 0x00011bd2 0x62e93bd2 4   6    .rdata  utf8    )ġ:C
+115 0x00011c16 0x62e93c16 4   8    .rdata  utf8    ÿZ^ھ
+116 0x00011c37 0x62e93c37 5   7    .rdata  utf8    2%k_ܝ
+117 0x00011c5a 0x62e93c5a 4   5    .rdata  ascii   w3Xc
+118 0x00011c78 0x62e93c78 4   5    .rdata  ascii   ur\bC
+119 0x00011c9c 0x62e93c9c 5   7    .rdata  utf8    \bzGɠ2
+120 0x00011ca7 0x62e93ca7 4   5    .rdata  ascii   [\n;g
+121 0x00011cb0 0x62e93cb0 4   5    .rdata  ascii   /P8i
+122 0x00011cc8 0x62e93cc8 7   9    .rdata  utf8    ϏOZw3(?
+123 0x00011ce8 0x62e93ce8 4   5    .rdata  ascii   Z"0*
+124 0x00011d79 0x62e93d79 4   5    .rdata  ascii   fP~V
+125 0x00011db1 0x62e93db1 4   5    .rdata  ascii   D`T\f
+126 0x00011e27 0x62e93e27 4   5    .rdata  ascii   ^GP~
+127 0x00011e30 0x62e93e30 7   9    .rdata  utf8    b;!lڇF\t
+128 0x00011e4a 0x62e93e4a 6   7    .rdata  ascii   V_:X1:
+129 0x00011e6e 0x62e93e6e 5   6    .rdata  ascii   NJ2"v
+130 0x00011e94 0x62e93e94 5   6    .rdata  ascii   O*9y]
+131 0x00011f02 0x62e93f02 4   5    .rdata  ascii   fu`z
+132 0x00011f31 0x62e93f31 4   5    .rdata  ascii   /yQA
+133 0x00011f4d 0x62e93f4d 4   5    .rdata  ascii   Li\a<
+134 0x00011f95 0x62e93f95 7   10   .rdata  utf8    >aDƋΪ~7
+135 0x00011fa6 0x62e93fa6 4   5    .rdata  ascii   &]|v
+136 0x00011ff6 0x62e93ff6 5   8    .rdata  utf8    散\rI{\e
+137 0x00012020 0x62e94020 67  68   .rdata  ascii    deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler
+138 0x000121b4 0x62e941b4 7   8    .rdata  ascii   <fd:%d>
+139 0x000121bd 0x62e941bd 13  14   .rdata  ascii   out of memory
+140 0x000121d0 0x62e941d0 13  14   .rdata  ascii   out of memory
+141 0x000121de 0x62e941de 5   6    .rdata  ascii   1.2.5
+142 0x000121e4 0x62e941e4 26  27   .rdata  ascii   unknown compression method
+143 0x000121ff 0x62e941ff 24  25   .rdata  ascii   unknown header flags set
+144 0x00012218 0x62e94218 21  22   .rdata  ascii   compressed data error
+145 0x0001222e 0x62e9422e 22  23   .rdata  ascii   unexpected end of file
+146 0x00012248 0x62e94248 38  39   .rdata  ascii   internal error: inflate stream corrupt
+147 0x0001226f 0x62e9426f 20  21   .rdata  ascii   incorrect data check
+148 0x00012284 0x62e94284 22  23   .rdata  ascii   incorrect length check
+149 0x000122a0 0x62e942a0 36  37   .rdata  ascii   requested length does not fit in int
+150 0x000122c8 0x62e942c8 30  31   .rdata  ascii   out of room to push characters
+151 0x000122f0 0x62e942f0 13  14   .rdata  ascii   out of memory
+152 0x000122fe 0x62e942fe 5   6    .rdata  ascii   1.2.5
+153 0x00012308 0x62e94308 38  39   .rdata  ascii   internal error: deflate stream corrupt
+154 0x00012330 0x62e94330 36  37   .rdata  ascii   requested length does not fit in int
+155 0x00012360 0x62e94360 18  19   .rdata  ascii   invalid block type
+156 0x00012373 0x62e94373 28  29   .rdata  ascii   invalid stored block lengths
+157 0x00012390 0x62e94390 35  36   .rdata  ascii   too many length or distance symbols
+158 0x000123b4 0x62e943b4 24  25   .rdata  ascii   invalid code lengths set
+159 0x000123cd 0x62e943cd 25  26   .rdata  ascii   invalid bit length repeat
+160 0x000123e8 0x62e943e8 36  37   .rdata  ascii   invalid code -- missing end-of-block
+161 0x0001240d 0x62e9440d 27  28   .rdata  ascii   invalid literal/lengths set
+162 0x00012429 0x62e94429 21  22   .rdata  ascii   invalid distances set
+163 0x0001243f 0x62e9443f 27  28   .rdata  ascii   invalid literal/length code
+164 0x0001245b 0x62e9445b 21  22   .rdata  ascii   invalid distance code
+165 0x00012471 0x62e94471 29  30   .rdata  ascii   invalid distance too far back
+166 0x00012da0 0x62e94da0 29  30   .rdata  ascii   invalid distance too far back
+167 0x00012dbe 0x62e94dbe 21  22   .rdata  ascii   invalid distance code
+168 0x00012dd4 0x62e94dd4 27  28   .rdata  ascii   invalid literal/length code
+169 0x00012e00 0x62e94e00 22  23   .rdata  ascii   incorrect header check
+170 0x00012e17 0x62e94e17 26  27   .rdata  ascii   unknown compression method
+171 0x00012e32 0x62e94e32 19  20   .rdata  ascii   invalid window size
+172 0x00012e46 0x62e94e46 24  25   .rdata  ascii   unknown header flags set
+173 0x00012e5f 0x62e94e5f 19  20   .rdata  ascii   header crc mismatch
+174 0x00012e73 0x62e94e73 18  19   .rdata  ascii   invalid block type
+175 0x00012e86 0x62e94e86 28  29   .rdata  ascii   invalid stored block lengths
+176 0x00012ea8 0x62e94ea8 35  36   .rdata  ascii   too many length or distance symbols
+177 0x00012ecc 0x62e94ecc 24  25   .rdata  ascii   invalid code lengths set
+178 0x00012ee5 0x62e94ee5 25  26   .rdata  ascii   invalid bit length repeat
+179 0x00012f00 0x62e94f00 36  37   .rdata  ascii   invalid code -- missing end-of-block
+180 0x00012f25 0x62e94f25 27  28   .rdata  ascii   invalid literal/lengths set
+181 0x00012f41 0x62e94f41 21  22   .rdata  ascii   invalid distances set
+182 0x00012f57 0x62e94f57 27  28   .rdata  ascii   invalid literal/length code
+183 0x00012f73 0x62e94f73 21  22   .rdata  ascii   invalid distance code
+184 0x00012f89 0x62e94f89 29  30   .rdata  ascii   invalid distance too far back
+185 0x00012fa7 0x62e94fa7 20  21   .rdata  ascii   incorrect data check
+186 0x00012fbc 0x62e94fbc 22  23   .rdata  ascii   incorrect length check
+187 0x00013920 0x62e95920 46  47   .rdata  ascii    inflate 1.2.5 Copyright 1995-2010 Mark Adler
+188 0x000139b4 0x62e959b4 4   10   .rdata  utf16le !1Aa
+189 0x00013a28 0x62e95a28 6   14   .rdata  utf16le \a\b\t\n\v\r
+190 0x00013a40 0x62e95a40 8   18   .rdata  utf16le #+3;CScs
+191 0x00013a6c 0x62e95a6c 116 117  .rdata  ascii   \a\a\a\a\b\b\b\b\b\b\b\b\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+192 0x00013bc0 0x62e95bc0 32  33   .rdata  ascii   \e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e
+193 0x00013c67 0x62e95c67 17  18   .rdata  ascii   \a\b\b\t\t\n\n\v\v\f\f\f\f\r\r\r\r
+194 0x00013d40 0x62e95d40 31  32   .rdata  ascii   \e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e
+195 0x00014162 0x62e96162 7   16   .rdata  utf16le \a@\a \a`\a
+196 0x00014172 0x62e96172 15  32   .rdata  utf16le \aP\a0\ap\a\b\aH\a(\ah\a
+197 0x00014192 0x62e96192 7   16   .rdata  utf16le \aX\a8\ax\a
+198 0x000141a2 0x62e961a2 7   16   .rdata  utf16le \aD\a$\ad\a
+199 0x000141b2 0x62e961b2 7   16   .rdata  utf16le \aT\a4\at\a
+200 0x0001431c 0x62e9631c 4   20   .rdata  utf32le \a\b\n\f
+201 0x00014340 0x62e96340 8   36   .rdata  utf32le  (08@P`p
+202 0x000143c0 0x62e963c0 14  60   .rdata  utf32le \a\a\b\b\t\t\n\n\v\v\f\f\r\r
+203 0x00014428 0x62e96428 4   20   .rdata  utf32le  0@`
+204 0x000144e0 0x62e964e0 5   6    .rdata  ascii   1.2.5
+205 0x000144f0 0x62e964f0 5   6    .rdata  ascii   1.2.5
+206 0x000144f6 0x62e964f6 15  16   .rdata  ascii   need dictionary
+207 0x00014506 0x62e96506 10  11   .rdata  ascii   stream end
+208 0x00014512 0x62e96512 10  11   .rdata  ascii   file error
+209 0x0001451d 0x62e9651d 12  13   .rdata  ascii   stream error
+210 0x0001452a 0x62e9652a 10  11   .rdata  ascii   data error
+211 0x00014535 0x62e96535 19  20   .rdata  ascii   insufficient memory
+212 0x00014549 0x62e96549 12  13   .rdata  ascii   buffer error
+213 0x00014556 0x62e96556 20  21   .rdata  ascii   incompatible version
+214 0x00014570 0x62e96570 27  28   .rdata  ascii   Mingw-w64 runtime failure:\n
+215 0x00014590 0x62e96590 48  49   .rdata  ascii     VirtualQuery failed for %d bytes at address %p
+216 0x000145c8 0x62e965c8 49  50   .rdata  ascii     Unknown pseudo relocation protocol version %d.\n
+217 0x00014600 0x62e96600 41  42   .rdata  ascii     Unknown pseudo relocation bit size %d.\n
+218 0x00014630 0x62e96630 11  12   .rdata  ascii   msvcr80.dll
+219 0x0001463c 0x62e9663c 11  12   .rdata  ascii   msvcr70.dll
+220 0x00014648 0x62e96648 10  11   .rdata  ascii   msvcrt.dll
+221 0x00014653 0x62e96653 7   8    .rdata  ascii   longjmp
+222 0x00014660 0x62e96660 6   7    .rdata  ascii   .pdata
+223 0x00015e5e 0x62e9c05e 15  32   .rsrc   utf16le VS_VERSION_INFO
+224 0x00015eba 0x62e9c0ba 14  30   .rsrc   utf16le StringFileInfo
+225 0x00015ede 0x62e9c0de 8   18   .rsrc   utf16le 040904E4
+226 0x00015ef6 0x62e9c0f6 15  32   .rsrc   utf16le FileDescription
+227 0x00015f18 0x62e9c118 29  60   .rsrc   utf16le zlib data compression library
+228 0x00015f5a 0x62e9c15a 11  24   .rsrc   utf16le FileVersion
+229 0x00015f74 0x62e9c174 5   12   .rsrc   utf16le 1.2.5
+230 0x00015f86 0x62e9c186 12  26   .rsrc   utf16le InternalName
+231 0x00015fa0 0x62e9c1a0 9   20   .rsrc   utf16le zlib1.dll
+232 0x00015fba 0x62e9c1ba 14  30   .rsrc   utf16le LegalCopyright
+233 0x00015fd8 0x62e9c1d8 43  88   .rsrc   utf16le (C) 1995-2006 Jean-loup Gailly & Mark Adler
+234 0x00016036 0x62e9c236 16  34   .rsrc   utf16le OriginalFilename
+235 0x00016058 0x62e9c258 9   20   .rsrc   utf16le zlib1.dll
+236 0x00016072 0x62e9c272 11  24   .rsrc   utf16le ProductName
+237 0x0001608c 0x62e9c28c 4   10   .rsrc   utf16le zlib
+238 0x0001609e 0x62e9c29e 14  30   .rsrc   utf16le ProductVersion
+239 0x000160bc 0x62e9c2bc 5   12   .rsrc   utf16le 1.2.5
+240 0x000160ce 0x62e9c2ce 8   18   .rsrc   utf16le Comments
+241 0x000160e0 0x62e9c2e0 47  96   .rsrc   utf16le For more information visit http://www.zlib.net/
+242 0x00016146 0x62e9c346 11  24   .rsrc   utf16le VarFileInfo
+243 0x00016166 0x62e9c366 11  24   .rsrc   utf16le Translation

@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x180000000
+binsz    133352
+bintype  pe
+bits     64
+canary   false
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x00023c81
+compiled Tue Jun 11 00:08:32 2041
+crypto   false
+dbg_file I:\_drw_main\PartitionRecovery\Output\Release_x64\FileSystem.pdb
+endian   little
+havecode true
+hdr.csum 0x00023c81
+guid     1C19964AA7A94B07B5C34503313A5ADD1
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

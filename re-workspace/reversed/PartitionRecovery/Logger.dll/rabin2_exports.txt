@@ -1,0 +1,17 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib        name                                                                                                                     demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00001d80 0x180002980 GLOBAL FUNC 0    Logger.dll ??0Logger@@AEAA@XZ
+2   0x00001e30 0x180002a30 GLOBAL FUNC 0    Logger.dll ??1Logger@@AEAA@XZ
+3   0x00001830 0x180002430 GLOBAL FUNC 0    Logger.dll ?__autoclassinit2@Logger@@QEAAX_K@Z
+4   0x00002710 0x180003310 GLOBAL FUNC 0    Logger.dll ?checkLogFileSize@Logger@@AEAAXPEAX@Z
+5   0x00002a00 0x180003600 GLOBAL FUNC 0    Logger.dll ?formatLogMessage@Logger@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@W4LogLevel@@V23@1_KKK@Z
+6   0x00001cf0 0x1800028f0 GLOBAL FUNC 0    Logger.dll ?getInstance@Logger@@SAAEAV1@XZ
+7   0x00001eb0 0x180002ab0 GLOBAL FUNC 0    Logger.dll ?log@Logger@@QEAAXW4LogLevel@@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@1_KKK@Z
+8   0x00002340 0x180002f40 GLOBAL FUNC 0    Logger.dll ?processLogs@Logger@@AEAAXXZ
+9   0x000020c0 0x180002cc0 GLOBAL FUNC 0    Logger.dll ?setLogFile@Logger@@QEAAXV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
+10  0x000020a0 0x180002ca0 GLOBAL FUNC 0    Logger.dll ?setLogLevel@Logger@@QEAAXW4LogLevel@@@Z
+11  0x00002220 0x180002e20 GLOBAL FUNC 0    Logger.dll ?start@Logger@@QEAAXXZ
+12  0x000022a0 0x180002ea0 GLOBAL FUNC 0    Logger.dll ?stop@Logger@@QEAAXXZ
+13  0x00002570 0x180003170 GLOBAL FUNC 0    Logger.dll ?writeLog@Logger@@AEAAXV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
+14  0x00002e10 0x180003a10 GLOBAL FUNC 0    Logger.dll getLoggerInstance

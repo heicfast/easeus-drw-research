@@ -1,0 +1,30 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib                      name                                                         demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000ee0 0x180001ae0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00000ee0 0x180001ae0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x00000ee0 0x180001ae0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??0IObject@@QEAA@XZ
+4   0x00000ef0 0x180001af0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+5   0x00000ef0 0x180001af0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@AEBU0@@Z
+6   0x00000ef0 0x180001af0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@XZ
+7   0x000011a0 0x180001da0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+8   0x000011a0 0x180001da0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+9   0x000011a0 0x180001da0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+10  0x000011a0 0x180001da0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+11  0x00006a40 0x180007a40 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??_7IObject@@6B@
+12  0x00006b08 0x180007b08 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??_7IStorageDevice@@6BIBlockDevice@@@
+13  0x00006a88 0x180007a88 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ??_7IStorageDevice@@6BIObject@@@
+14  0x00001ec0 0x180002ac0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?AddRef@IObject@@QEBAKXZ
+15  0x00001eb0 0x180002ab0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?ConvertVolume@IStorageDevice@@UEAAHXZ
+16  0x00001eb0 0x180002ab0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+17  0x00001eb0 0x180002ab0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+18  0x00002680 0x180003280 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+19  0x00001eb0 0x180002ab0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+20  0x000026f0 0x1800032f0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+21  0x00001eb0 0x180002ab0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+22  0x00002f20 0x180003b20 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?Release@IObject@@QEBAKXZ
+23  0x00001e70 0x180002a70 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+24  0x00001eb0 0x180002ab0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+25  0x00001eb0 0x180002ab0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+26  0x00001eb0 0x180002ab0 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+27  0x00003830 0x180004430 GLOBAL FUNC 0    ExtFileSystemAnalyser.mo GetModule

@@ -1,0 +1,1007 @@
+[Strings]
+nth  paddr      vaddr      len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0    0x0007232c 0x0047352c 4   5    .rdata  ascii   .zip
+1    0x00072334 0x00473534 4   5    .rdata  ascii   .bz2
+2    0x00072344 0x00473544 4   5    .rdata  ascii   .wim
+3    0x0007234c 0x0047354c 4   5    .rdata  ascii   .tar
+4    0x000723cc 0x004735cc 18  19   .rdata  ascii   vector<T> too long
+5    0x000723e0 0x004735e0 19  20   .rdata  ascii   map/set<T> too long
+6    0x000723fc 0x004735fc 32  33   .rdata  ascii   Failed to load the 7-zip library
+7    0x00072420 0x00473620 12  13   .rdata  ascii   CreateObject
+8    0x00072430 0x00473630 35  36   .rdata  ascii   Failed to get CreateObject function
+9    0x00072454 0x00473654 45  46   .rdata  ascii   Failed to initialize the input archive object
+10   0x00072484 0x00473684 51  52   .rdata  ascii   Could not allocate memory for BitPropVariant string
+11   0x000724b8 0x004736b8 30  31   .rdata  ascii   Property type is not supported
+12   0x000724d8 0x004736d8 28  29   .rdata  ascii   BitPropVariant is not a bool
+13   0x000724f8 0x004736f8 30  31   .rdata  ascii   BitPropVariant is not a string
+14   0x00072518 0x00473718 48  49   .rdata  ascii   BitPropVariant is not a 32-bits unsigned integer
+15   0x0007254c 0x0047374c 48  49   .rdata  ascii   BitPropVariant is not a 64-bits unsigned integer
+16   0x00072580 0x00473780 32  33   .rdata  ascii   BitPropVariant is not a FILETIME
+17   0x000725a6 0x004737a6 10  22   .rdata  utf16le G[Content]
+18   0x000725c0 0x004737c0 29  30   .rdata  ascii   Could not extract the archive
+19   0x000725e0 0x004737e0 26  27   .rdata  ascii   Could not open the archive
+20   0x000725fc 0x004737fc 4   5    .rdata  ascii   .001
+21   0x00072604 0x00473804 50  51   .rdata  ascii   Could not retrieve property for item at the index
+22   0x00072638 0x00473838 53  54   .rdata  ascii   Could not retrieve the number of items in the archive
+23   0x00072670 0x00473870 33  34   .rdata  ascii   Cannot extract item at the index
+24   0x000727d0 0x004739d0 9   10   .rdata  ascii   [Content]
+25   0x00072820 0x00473a20 31  32   .rdata  ascii   Failed to open the archive file
+26   0x00072840 0x00473a40 6   7    .rdata  ascii   exists
+27   0x000728b4 0x00473ab4 25  26   .rdata  ascii   Cannot delete output file
+28   0x00072934 0x00473b34 9   10   .rdata  ascii   operation
+29   0x00072940 0x00473b40 10  11   .rdata  ascii   CRC failed
+30   0x0007294c 0x00473b4c 46  47   .rdata  ascii   CRC error in encrypted file (wrong password?).
+31   0x0007297c 0x00473b7c 54  55   .rdata  ascii   There are some data after the end of the payload data.
+32   0x000729b4 0x00473bb4 11  12   .rdata  ascii   Data error.
+33   0x000729c0 0x00473bc0 47  48   .rdata  ascii   Data error in encrypted file (wrong password?).
+34   0x000729f0 0x00473bf0 45  46   .rdata  ascii   A password is required but none was provided.
+35   0x00072a20 0x00473c20 14  15   .rdata  ascii   Headers error.
+36   0x00072a30 0x00473c30 16  17   .rdata  ascii   Invalid archive.
+37   0x00072a44 0x00473c44 15  16   .rdata  ascii   Wrong password?
+38   0x00072a54 0x00473c54 15  16   .rdata  ascii   Wrong password.
+39   0x00072a64 0x00473c64 17  18   .rdata  ascii   Unavailable data.
+40   0x00072a78 0x00473c78 34  35   .rdata  ascii   Reached an unexpected end of data.
+41   0x00072a9c 0x00473c9c 19  20   .rdata  ascii   Unsupported method.
+42   0x00072ab0 0x00473cb0 14  15   .rdata  ascii   Unknown error.
+43   0x00072ad8 0x00473cd8 5   6    .rdata  ascii   bit7z
+44   0x00072ae0 0x00473ce0 18  19   .rdata  ascii   Unspecified error.
+45   0x00072af4 0x00473cf4 25  26   .rdata  ascii   No item filter specified.
+46   0x00072b10 0x00473d10 44  45   .rdata  ascii   Feature not supported by the archive format.
+47   0x00072b40 0x00473d40 21  22   .rdata  ascii   No indices specified.
+48   0x00072b58 0x00473d58 21  22   .rdata  ascii   Invalid archive path.
+49   0x00072b70 0x00473d70 27  28   .rdata  ascii   Invalid output buffer size.
+50   0x00072b8c 0x00473d8c 57  58   .rdata  ascii   Invalid compression method for the chosen archive format.
+51   0x00072bc8 0x00473dc8 58  59   .rdata  ascii   Invalid dictionary size for the chosen compression method.
+52   0x00072c04 0x00473e04 14  15   .rdata  ascii   Invalid index.
+53   0x00072c14 0x00473e14 52  53   .rdata  ascii   Invalid word size for the chosen compression method.
+54   0x00072c4c 0x00473e4c 21  22   .rdata  ascii   The item is a folder.
+55   0x00072c64 0x00473e64 30  31   .rdata  ascii   The item is marked as deleted.
+56   0x00072c84 0x00473e84 42  43   .rdata  ascii   No matching item was found in the archive.
+57   0x00072cb0 0x00473eb0 25  26   .rdata  ascii   No known signature found.
+58   0x00072ccc 0x00473ecc 31  32   .rdata  ascii   The output buffer is not empty.
+59   0x00072cec 0x00473eec 19  20   .rdata  ascii   Null output buffer.
+60   0x00072d00 0x00473f00 33  34   .rdata  ascii   Requested the wrong variant type.
+61   0x00072d24 0x00473f24 22  23   .rdata  ascii   Unsupported operation.
+62   0x00072d3c 0x00473f3c 25  26   .rdata  ascii   Unsupported variant type.
+63   0x00072d58 0x00473f58 18  19   .rdata  ascii   Wrong update mode.
+64   0x00072d70 0x00473f70 88  89   .rdata  ascii   7-Zip only supports printable ASCII characters for passwords when creating Zip archives.
+65   0x00072de4 0x00473fe4 7   8    .rdata  ascii   HRESULT
+66   0x00072dec 0x00473fec 13  14   .rdata  ascii   Unknown error
+67   0x00072e0c 0x0047400c 24  25   .rdata  ascii   Failed to get the stream
+68   0x00072e28 0x00474028 26  27   .rdata  ascii   Failed to test the archive
+69   0x00072e44 0x00474044 29  30   .rdata  ascii   Failed to extract the archive
+70   0x00072e64 0x00474064 9   10   .rdata  ascii   file_size
+71   0x00072eb0 0x004740b0 32  33   .rdata  ascii   Failed to create the output file
+72   0x00072ed4 0x004740d4 30  31   .rdata  ascii   Failed to open the output file
+73   0x00072ef4 0x004740f4 44  45   .rdata  ascii   Could not load file path information of item
+74   0x00072f24 0x00474124 39  40   .rdata  ascii   Could not load posix attributes of item
+75   0x00072f4c 0x0047414c 33  34   .rdata  ascii   Could not load attributes of item
+76   0x00072f70 0x00474170 41  42   .rdata  ascii   Could not load last modified time of item
+77   0x000730d0 0x004742d0 21  44   .rdata  utf16le !x-sys-default-locale
+78   0x00073128 0x00474328 14  15   .rdata  ascii   bad allocation
+79   0x00073144 0x00474344 17  18   .rdata  ascii   Unknown exception
+80   0x00073158 0x00474358 20  21   .rdata  ascii   bad array new length
+81   0x00073170 0x00474370 15  16   .rdata  ascii   string too long
+82   0x00073184 0x00474384 16  17   .rdata  ascii   map/set too long
+83   0x00073198 0x00474398 7   8    .rdata  ascii   default
+84   0x000731a8 0x004743a8 9   10   .rdata  ascii   127.0.0.1
+85   0x000731b4 0x004743b4 19  20   .rdata  ascii   too few parameters
+86   0x000731cc 0x004743cc 5   6    .rdata  ascii   local
+87   0x000731d8 0x004743d8 78  79   .rdata  ascii   bool __thiscall IRSC::CCommandParser::GetParmsValue(const char *,const char *)
+88   0x00073228 0x00474428 88  89   .rdata  ascii   D:\Fixo\01_Project\00_Source\_main\ImageRepair\ImageRepair\commandLine\commandParser.cpp
+89   0x000732a0 0x004744a0 4   5    .rdata  ascii   -cmd
+90   0x000732ac 0x004744ac 6   7    .rdata  ascii   remote
+91   0x000732b4 0x004744b4 13  14   .rdata  ascii   StrType error
+92   0x000732c4 0x004744c4 13  14   .rdata  ascii   StrPath error
+93   0x000732d4 0x004744d4 13  14   .rdata  ascii   DestDir error
+94   0x000732e4 0x004744e4 16  17   .rdata  ascii   SamplePath error
+95   0x000732f8 0x004744f8 15  16   .rdata  ascii   StrTaskId error
+96   0x00073308 0x00474508 10  11   .rdata  ascii   Port error
+97   0x00073314 0x00474514 11  12   .rdata  ascii   StrIP error
+98   0x000734af 0x004746af 4   5    .rdata  ascii   @hXG
+99   0x000734bf 0x004746bf 4   5    .rdata  ascii   @lXG
+100  0x000734ce 0x004746ce 5   6    .rdata  ascii   N@pXG
+101  0x000734de 0x004746de 5   6    .rdata  ascii   N@xXG
+102  0x0007356c 0x0047476c 8   9    .rdata  ascii   bad cast
+103  0x00073578 0x00474778 62  63   .rdata  ascii   0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+104  0x000735b8 0x004747b8 45  46   .rdata  ascii   \{[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}\}
+105  0x000735e8 0x004747e8 91  92   .rdata  ascii   ^(((\d{1,2})|(1\d{2})|(2[0-4]\d)|(25[0-5]))\.){3}((\d{1,2})|(1\d{2})|(2[0-4]\d)|(25[0-5]))$
+106  0x00073644 0x00474844 8   9    .rdata  ascii   log.conf
+107  0x00073654 0x00474854 15  16   .rdata  ascii   vector too long
+108  0x00073664 0x00474864 23  24   .rdata  ascii   invalid string position
+109  0x0007367c 0x0047487c 21  22   .rdata  ascii   vector<bool> too long
+110  0x00073694 0x00474894 5   6    .rdata  ascii   alnum
+111  0x0007369c 0x0047489c 5   12   .rdata  utf16le alnum
+112  0x000736a8 0x004748a8 5   6    .rdata  ascii   alpha
+113  0x000736b0 0x004748b0 5   12   .rdata  utf16le alpha
+114  0x000736bc 0x004748bc 5   6    .rdata  ascii   blank
+115  0x000736c4 0x004748c4 5   12   .rdata  utf16le blank
+116  0x000736d0 0x004748d0 5   6    .rdata  ascii   cntrl
+117  0x000736d8 0x004748d8 5   12   .rdata  utf16le cntrl
+118  0x000736ec 0x004748ec 5   6    .rdata  ascii   digit
+119  0x000736f4 0x004748f4 5   12   .rdata  utf16le digit
+120  0x00073700 0x00474900 5   6    .rdata  ascii   graph
+121  0x00073708 0x00474908 5   12   .rdata  utf16le graph
+122  0x00073714 0x00474914 5   6    .rdata  ascii   lower
+123  0x0007371c 0x0047491c 5   12   .rdata  utf16le lower
+124  0x00073728 0x00474928 5   6    .rdata  ascii   print
+125  0x00073730 0x00474930 5   12   .rdata  utf16le print
+126  0x0007373c 0x0047493c 5   6    .rdata  ascii   punct
+127  0x00073744 0x00474944 5   12   .rdata  utf16le punct
+128  0x00073750 0x00474950 5   6    .rdata  ascii   space
+129  0x00073758 0x00474958 5   12   .rdata  utf16le space
+130  0x0007376c 0x0047496c 5   6    .rdata  ascii   upper
+131  0x00073774 0x00474974 5   12   .rdata  utf16le upper
+132  0x00073788 0x00474988 6   7    .rdata  ascii   xdigit
+133  0x00073790 0x00474990 6   14   .rdata  utf16le xdigit
+134  0x000739b0 0x00474bb0 22  23   .rdata  ascii   ()$^.*+?[]|\-{},:=!\n\r\b
+135  0x00073b70 0x00474d70 5   6    .rdata  ascii   false
+136  0x00073b78 0x00474d78 4   5    .rdata  ascii   true
+137  0x00073b88 0x00474d88 16  17   .rdata  ascii   [json.exception.
+138  0x00073b9c 0x00474d9c 7   8    .rdata  ascii   rootDir
+139  0x00073ba4 0x00474da4 8   9    .rdata  ascii   fileSize
+140  0x00073bb0 0x00474db0 7   8    .rdata  ascii   subFile
+141  0x00073bb8 0x00474db8 6   7    .rdata  ascii   subDir
+142  0x00073bc0 0x00474dc0 8   9    .rdata  ascii   fileName
+143  0x00073bd0 0x00474dd0 28  29   .rdata  ascii   cannot use push_back() with
+144  0x00073bf0 0x00474df0 50  51   .rdata  ascii   cannot use operator[] with a string argument with
+145  0x00073c40 0x00474e40 10  11   .rdata  ascii   "bytes": [
+146  0x00073c54 0x00474e54 11  12   .rdata  ascii   "subtype":
+147  0x00073c60 0x00474e60 4   5    .rdata  ascii   null
+148  0x00073c68 0x00474e68 10  11   .rdata  ascii   {"bytes":[
+149  0x00073c74 0x00474e74 12  13   .rdata  ascii   ],"subtype":
+150  0x00073c84 0x00474e84 5   6    .rdata  ascii   null}
+151  0x00073c8c 0x00474e8c 11  12   .rdata  ascii   <discarded>
+152  0x00073c98 0x00474e98 47  48   .rdata  ascii   961c151d2e87f2686a955a9be24d316f1362bf21 3.10.5
+153  0x00073cc8 0x00474ec8 6   7    .rdata  ascii   object
+154  0x00073cd0 0x00474ed0 5   6    .rdata  ascii   array
+155  0x00073cd8 0x00474ed8 6   7    .rdata  ascii   string
+156  0x00073ce0 0x00474ee0 7   8    .rdata  ascii   boolean
+157  0x00073ce8 0x00474ee8 6   7    .rdata  ascii   binary
+158  0x00073cf0 0x00474ef0 9   10   .rdata  ascii   discarded
+159  0x00073cfc 0x00474efc 6   7    .rdata  ascii   number
+160  0x00073d04 0x00474f04 6   7    .rdata  ascii   \u%04x
+161  0x00073d0c 0x00474f0c 4   5    .rdata  ascii   : 0x
+162  0x00073d14 0x00474f14 28  29   .rdata  ascii   invalid UTF-8 byte at index
+163  0x00073d34 0x00474f34 38  39   .rdata  ascii   incomplete UTF-8 string; last byte: 0x
+164  0x00073d60 0x00474f60 10  11   .rdata  ascii   type_error
+165  0x00073d6c 0x00474f6c 11  12   .rdata  ascii   other_error
+166  0x00073e18 0x00475018 50  51   .rdata  ascii   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\b\b
+167  0x00073e7d 0x0047507d 11  12   .rdata  ascii   \b\b\b\b\b\b\b\b\b\b\b
+168  0x00073f18 0x00475118 200 201  .rdata  ascii   00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+169  0x0007406a 0x0047526a 5   6    .rdata  ascii   U1(\Q
+170  0x00074098 0x00475298 4   5    .rdata  ascii   mSx@
+171  0x000740a8 0x004752a8 4   6    .rdata  utf8    Wζ]y
+172  0x000740ca 0x004752ca 4   7    .rdata  utf8    H8oꖐ
+173  0x0007414a 0x0047534a 4   5    .rdata  ascii   b}$l
+174  0x0007415a 0x0047535a 4   5    .rdata  ascii   _\rXf
+175  0x000741b9 0x004753b9 5   6    .rdata  ascii   ~)p$w
+176  0x00074209 0x00475409 5   6    .rdata  ascii   11eU%
+177  0x00074268 0x00475468 5   8    .rdata  utf8    ̈Po\t̼
+178  0x0007431a 0x0047551a 4   7    .rdata  utf8    Ȍ8eް
+179  0x000744c9 0x004756c9 5   7    .rdata  utf8    ϧz^KD
+180  0x00074530 0x00475730 7   8    .rdata  ascii   generic
+181  0x00074538 0x00475738 6   7    .rdata  ascii   system
+182  0x00074544 0x00475744 4   5    .rdata  ascii   ", "
+183  0x0007454c 0x0047574c 23  24   .rdata  ascii   directory_entry::status
+184  0x00074568 0x00475768 38  39   .rdata  ascii   directory_iterator::directory_iterator
+185  0x00074590 0x00475790 30  31   .rdata  ascii   directory_iterator::operator++
+186  0x000745b0 0x004757b0 6   7    .rdata  ascii   remove
+187  0x000745b8 0x004757b8 6   7    .rdata  ascii   status
+188  0x000745c0 0x004757c0 4   10   .rdata  utf16le \*.*
+189  0x000745cc 0x004757cc 5   24   .rdata  utf32le \/()⽜
+190  0x0007460c 0x0047580c 13  14   .rdata  ascii   unknown error
+191  0x00074670 0x00475870 7   8    .rdata  ascii   seconds
+192  0x00074678 0x00475878 7   8    .rdata  ascii   minutes
+193  0x00074680 0x00475880 5   6    .rdata  ascii   hours
+194  0x00074688 0x00475888 4   5    .rdata  ascii   days
+195  0x00074690 0x00475890 4   5    .rdata  ascii   INFO
+196  0x00074698 0x00475898 5   6    .rdata  ascii   DEBUG
+197  0x000746a0 0x004758a0 7   8    .rdata  ascii   WARNING
+198  0x000746a8 0x004758a8 5   6    .rdata  ascii   ERROR
+199  0x000746b0 0x004758b0 5   6    .rdata  ascii   FATAL
+200  0x000746b8 0x004758b8 7   8    .rdata  ascii   VERBOSE
+201  0x000746c0 0x004758c0 5   6    .rdata  ascii   TRACE
+202  0x000746c8 0x004758c8 7   32   .rdata  utf32le IDWEFVT
+203  0x000746ec 0x004758ec 7   8    .rdata  ascii   %logger
+204  0x000746f4 0x004758f4 7   8    .rdata  ascii   %thread
+205  0x000746fc 0x004758fc 6   7    .rdata  ascii   %level
+206  0x00074704 0x00475904 9   10   .rdata  ascii   %levshort
+207  0x00074710 0x00475910 9   10   .rdata  ascii   %datetime
+208  0x0007471c 0x0047591c 5   6    .rdata  ascii   %file
+209  0x00074724 0x00475924 6   7    .rdata  ascii   %fbase
+210  0x0007472c 0x0047592c 5   6    .rdata  ascii   %line
+211  0x00074734 0x00475934 4   5    .rdata  ascii   %loc
+212  0x0007473c 0x0047593c 5   6    .rdata  ascii   %func
+213  0x00074744 0x00475944 5   6    .rdata  ascii   %user
+214  0x0007474c 0x0047594c 5   6    .rdata  ascii   %host
+215  0x00074754 0x00475954 4   5    .rdata  ascii   %msg
+216  0x0007475c 0x0047595c 7   8    .rdata  ascii   %vlevel
+217  0x00074764 0x00475964 6   7    .rdata  ascii   Sunday
+218  0x0007476c 0x0047596c 6   7    .rdata  ascii   Monday
+219  0x00074774 0x00475974 7   8    .rdata  ascii   Tuesday
+220  0x0007477c 0x0047597c 9   10   .rdata  ascii   Wednesday
+221  0x00074788 0x00475988 8   9    .rdata  ascii   Thursday
+222  0x00074794 0x00475994 6   7    .rdata  ascii   Friday
+223  0x0007479c 0x0047599c 8   9    .rdata  ascii   Saturday
+224  0x000747c4 0x004759c4 7   8    .rdata  ascii   January
+225  0x000747cc 0x004759cc 8   9    .rdata  ascii   February
+226  0x000747d8 0x004759d8 5   6    .rdata  ascii   March
+227  0x000747e0 0x004759e0 5   6    .rdata  ascii   April
+228  0x000747ec 0x004759ec 4   5    .rdata  ascii   June
+229  0x000747f4 0x004759f4 4   5    .rdata  ascii   July
+230  0x000747fc 0x004759fc 6   7    .rdata  ascii   August
+231  0x00074804 0x00475a04 9   10   .rdata  ascii   September
+232  0x00074810 0x00475a10 7   8    .rdata  ascii   October
+233  0x00074818 0x00475a18 8   9    .rdata  ascii   November
+234  0x00074824 0x00475a24 8   9    .rdata  ascii   December
+235  0x0007485c 0x00475a5c 20  21   .rdata  ascii   %Y-%M-%d %H:%m:%s,%g
+236  0x00074874 0x00475a74 14  15   .rdata  ascii   %Y-%M-%d_%H-%m
+237  0x0007488c 0x00475a8c 12  13   .rdata  ascii   unknown-user
+238  0x0007489c 0x00475a9c 12  13   .rdata  ascii   unknown-host
+239  0x000748b0 0x00475ab0 65  66   .rdata  ascii   abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._
+240  0x000748f8 0x00475af8 6   7    .rdata  ascii   GLOBAL
+241  0x00074900 0x00475b00 7   8    .rdata  ascii   UNKNOWN
+242  0x00074908 0x00475b08 6   7    .rdata  ascii   global
+243  0x00074910 0x00475b10 5   6    .rdata  ascii   debug
+244  0x00074918 0x00475b18 4   5    .rdata  ascii   info
+245  0x00074920 0x00475b20 7   8    .rdata  ascii   warning
+246  0x00074928 0x00475b28 5   6    .rdata  ascii   error
+247  0x00074930 0x00475b30 5   6    .rdata  ascii   fatal
+248  0x00074938 0x00475b38 7   8    .rdata  ascii   verbose
+249  0x00074940 0x00475b40 5   6    .rdata  ascii   trace
+250  0x00074948 0x00475b48 7   8    .rdata  ascii   ENABLED
+251  0x00074950 0x00475b50 8   9    .rdata  ascii   FILENAME
+252  0x0007495c 0x00475b5c 6   7    .rdata  ascii   FORMAT
+253  0x00074964 0x00475b64 7   8    .rdata  ascii   TO_FILE
+254  0x0007496c 0x00475b6c 18  19   .rdata  ascii   TO_STANDARD_OUTPUT
+255  0x00074980 0x00475b80 19  20   .rdata  ascii   SUBSECOND_PRECISION
+256  0x00074994 0x00475b94 20  21   .rdata  ascii   PERFORMANCE_TRACKING
+257  0x000749ac 0x00475bac 17  18   .rdata  ascii   MAX_LOG_FILE_SIZE
+258  0x000749c0 0x00475bc0 19  20   .rdata  ascii   LOG_FLUSH_THRESHOLD
+259  0x000749d4 0x00475bd4 7   8    .rdata  ascii   enabled
+260  0x000749dc 0x00475bdc 7   8    .rdata  ascii   to_file
+261  0x000749e4 0x00475be4 18  19   .rdata  ascii   to_standard_output
+262  0x000749f8 0x00475bf8 6   7    .rdata  ascii   format
+263  0x00074a00 0x00475c00 8   9    .rdata  ascii   filename
+264  0x00074a0c 0x00475c0c 19  20   .rdata  ascii   subsecond_precision
+265  0x00074a20 0x00475c20 18  19   .rdata  ascii   milliseconds_width
+266  0x00074a34 0x00475c34 20  21   .rdata  ascii   performance_tracking
+267  0x00074a4c 0x00475c4c 17  18   .rdata  ascii   max_log_file_size
+268  0x00074a60 0x00475c60 19  20   .rdata  ascii   log_flush_threshold
+269  0x00074a78 0x00475c78 17  18   .rdata  ascii   ] does not exist!
+270  0x00074a8c 0x00475c8c 20  21   .rdata  ascii   Configuration file [
+271  0x00074aa8 0x00475ca8 16  17   .rdata  ascii   ] WITH MESSAGE "
+272  0x00074ac0 0x00475cc0 93  94   .rdata  ascii   ) [(assertionPassed = base::utils::File::pathExists(configurationFile.c_str(), true)) == true
+273  0x00074b20 0x00475d20 44  45   .rdata  ascii   ASSERTION FAILURE FROM EASYLOGGING++ (LINE:
+274  0x00074b58 0x00475d58 31  32   .rdata  ascii   %datetime %level [%logger] %msg
+275  0x00074b78 0x00475d78 60  61   .rdata  ascii   %datetime %level [%logger] [%user@%host] [%func] [%loc] %msg
+276  0x00074bb8 0x00475db8 39  40   .rdata  ascii   %datetime %level-%vlevel [%logger] %msg
+277  0x00074be0 0x00475de0 46  47   .rdata  ascii   %datetime %level [%logger] [%func] [%loc] %msg
+278  0x00074c10 0x00475e10 14  15   .rdata  ascii   ] for parsing.
+279  0x00074c20 0x00475e20 35  36   .rdata  ascii   Unable to open configuration file [
+280  0x00074c44 0x00475e44 24  25   .rdata  ascii   ) [fileStream_.is_open()
+281  0x00074c60 0x00475e60 36  37   .rdata  ascii   Unable to parse configuration line:
+282  0x00074c88 0x00475e88 21  22   .rdata  ascii   ) [parsedSuccessfully
+283  0x00074ca4 0x00475ea4 48  49   .rdata  ascii   Configuration error - No ending quote found in [
+284  0x00074cd8 0x00475ed8 28  29   .rdata  ascii   ) [(quotesStart < quotesEnd)
+285  0x00074cf8 0x00475ef8 31  32   .rdata  ascii   Empty configuration value for [
+286  0x00074d18 0x00475f18 33  34   .rdata  ascii   ) [(quotesStart + 1 != quotesEnd)
+287  0x00074d3c 0x00475f3c 29  30   .rdata  ascii   Unrecognized severity level [
+288  0x00074d5c 0x00475f5c 31  32   .rdata  ascii   ) [*currLevel != Level::Unknown
+289  0x00074d7c 0x00475f7c 28  29   .rdata  ascii   Unrecognized configuration [
+290  0x00074d9c 0x00475f9c 43  44   .rdata  ascii   ) [currConfig != ConfigurationType::Unknown
+291  0x00074dc8 0x00475fc8 4   5    .rdata  ascii   \e[0m
+292  0x00074dd0 0x00475fd0 5   6    .rdata  ascii   \e[31m
+293  0x00074dd8 0x00475fd8 5   6    .rdata  ascii   \e[33m
+294  0x00074de0 0x00475fe0 5   6    .rdata  ascii   \e[32m
+295  0x00074de8 0x00475fe8 5   6    .rdata  ascii   \e[36m
+296  0x00074df0 0x00475ff0 5   6    .rdata  ascii   \e[35m
+297  0x00074dfc 0x00475ffc 8   9    .rdata  ascii   USERNAME
+298  0x00074e08 0x00476008 12  13   .rdata  ascii   COMPUTERNAME
+299  0x00074e18 0x00476018 4   5    .rdata  ascii   TERM
+300  0x00074e20 0x00476020 5   6    .rdata  ascii   xterm
+301  0x00074e28 0x00476028 11  12   .rdata  ascii   xterm-color
+302  0x00074e34 0x00476034 14  15   .rdata  ascii   xterm-256color
+303  0x00074e44 0x00476044 6   7    .rdata  ascii   screen
+304  0x00074e4c 0x0047604c 5   6    .rdata  ascii   linux
+305  0x00074e54 0x00476054 6   7    .rdata  ascii   cygwin
+306  0x00074e5c 0x0047605c 15  16   .rdata  ascii   screen-256color
+307  0x00074e6c 0x0047606c 4   5    .rdata  ascii   TRUE
+308  0x00074e78 0x00476078 41  42   .rdata  ascii   Configuration value not a valid integer [
+309  0x00074ea4 0x004760a4 8   9    .rdata  ascii   ) [valid
+310  0x00074eb0 0x004760b0 86  87   .rdata  ascii   Could not load empty file for logging, please re-check your configurations for level [
+311  0x00074f08 0x00476108 31  32   .rdata  ascii   ]. Not registering this logger.
+312  0x00074f28 0x00476128 19  20   .rdata  ascii   Invalid logger ID [
+313  0x00074f3c 0x0047613c 10  11   .rdata  ascii   ) [validId
+314  0x00074f48 0x00476148 26  27   .rdata  ascii   DefaultLogDispatchCallback
+315  0x00074f6c 0x0047616c 5   6    .rdata  ascii   \n
+316  0x00074f74 0x00476174 8   9    .rdata  ascii   Logger [
+317  0x00074f80 0x00476180 24  25   .rdata  ascii   ] is not registered yet!
+318  0x00074f9c 0x0047619c 44  45   .rdata  ascii   Aborting application. Reason: Fatal log at [
+319  0x00074fd0 0x004761d0 72  73   .rdata  ascii   el::Loggers::addFlag(el::LoggingFlag::DisableApplicationAbortOnFatalLog)
+320  0x0007501c 0x0047621c 56  57   .rdata  ascii    If you wish to disable 'abort on fatal log' please use
+321  0x00075058 0x00476258 14  15   .rdata  ascii   Fatal log at [
+322  0x00075068 0x00476268 31  32   .rdata  ascii   invalid unordered_map<K, T> key
+323  0x00075088 0x00476288 24  25   .rdata  ascii   invalid vector subscript
+324  0x000750a4 0x004762a4 25  26   .rdata  ascii   invalid hash bucket count
+325  0x000750c0 0x004762c0 26  27   .rdata  ascii   unordered_map/set too long
+326  0x00075470 0x00476670 68  69   .rdata  ascii   bool __thiscall C7zNextHeaderInfo::ReadNextHeaderPackedStreams(void)
+327  0x000754b8 0x004766b8 82  83   .rdata  ascii   D:\Fixo\01_Project\00_Source\_main\ArchiveRepair\ArchiveRepair\7z\7zNextHeader.cpp
+328  0x0007550c 0x0047670c 37  38   .rdata  ascii   ARCHIVE_7Z_STRUCTURE::kSubStreamsInfo
+329  0x00075534 0x00476734 43  44   .rdata  ascii   ARCHIVE_7Z_STRUCTURE::kSubStreamsInfo ERROR
+330  0x00075560 0x00476760 86  87   .rdata  ascii   bool __thiscall C7zNextHeaderInfo::CheckSubStreamsEnd(unsigned __int64 &,unsigned int)
+331  0x000755b8 0x004767b8 53  54   .rdata  ascii   ARCHIVE_7Z_STRUCTURE::kSubStreamsInfo crc read error!
+332  0x000755f0 0x004767f0 82  83   .rdata  ascii   bool __thiscall C7zNextHeaderInfo::HandFolderInfo(unsigned int &,unsigned __int64)
+333  0x00075644 0x00476844 25  26   .rdata  ascii   CheckFolderDataInfo error
+334  0x00075660 0x00476860 6   7    .rdata  ascii   7z.dll
+335  0x00075668 0x00476868 5   6    .rdata  ascii   /temp
+336  0x00075670 0x00476870 397 398  .rdata  ascii   bool __thiscall CArchive7zInfo::AnalysisData(void *,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::function<int __cdecl(struct _MsgData const &)>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,bool)
+337  0x00075800 0x00476a00 79  80   .rdata  ascii   D:\Fixo\01_Project\00_Source\_main\ArchiveRepair\ArchiveRepair\7z\archive7z.cpp
+338  0x00075850 0x00476a50 14  15   .rdata  ascii   str file path
+339  0x00075860 0x00476a60 13  14   .rdata  ascii   analysis data
+340  0x00075870 0x00476a70 19  20   .rdata  ascii   AnalysisData error
+341  0x00075884 0x00476a84 5   6    .rdata  ascii   /t.7z
+342  0x0007588c 0x00476a8c 9   10   .rdata  ascii   save data
+343  0x00075898 0x00476a98 492 493  .rdata  ascii   bool __thiscall CArchive7zInfo::AnalysisSaveData(void *,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::function<int __cdecl(struct _MsgData const &)>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
+344  0x00075a88 0x00476c88 27  28   .rdata  ascii   \t extractTo fail errcode =
+345  0x00075aa8 0x00476ca8 24  25   .rdata  ascii    the data is incomplete.
+346  0x00075ac4 0x00476cc4 43  44   .rdata  ascii   GetArchiveFileDataInfo exception: errcode=
+347  0x00075af0 0x00476cf0 14  15   .rdata  ascii   extract 0 file
+348  0x00075b00 0x00476d00 13  14   .rdata  ascii    file name ->
+349  0x00075b10 0x00476d10 13  14   .rdata  ascii   fileNumber ->
+350  0x00075b20 0x00476d20 4   5    .rdata  ascii   /1.a
+351  0x00075b28 0x00476d28 65  66   .rdata  ascii   bool __thiscall CArchive7zInfo::HanleHeaderDataInfo(unsigned int)
+352  0x00075b6c 0x00476d6c 42  43   .rdata  ascii   HanleHeaderDataInfo read file header error
+353  0x00075b98 0x00476d98 60  61   .rdata  ascii   bool __thiscall CArchive7zInfo::ScanNexHeaderDataFlage(void)
+354  0x00075bd8 0x00476dd8 45  46   .rdata  ascii   scan next header info error nextHeaderOffset:
+355  0x00075c08 0x00476e08 17  18   .rdata  ascii   \t nextHeaderSize:
+356  0x00075c20 0x00476e20 64  65   .rdata  ascii   unsigned int __thiscall CArchive7zInfo::AnalysisFileHeader(void)
+357  0x00075c64 0x00476e64 29  30   .rdata  ascii   read file header data  error
+358  0x00075c88 0x00476e88 116 117  .rdata  ascii   m_headerInf.nextHeaderOffset + m_headerInf.nextHeaderSize + sizeof(ARCHIVE_7Z_STRUCTURE::HEADER_INFO) != m_fileSize
+359  0x00075d00 0x00476f00 85  86   .rdata  ascii   unsigned int __thiscall CArchive7zInfo::GetDataCrc(unsigned __int64,unsigned __int64)
+360  0x00075d58 0x00476f58 43  44   .rdata  ascii   next header data failed to allocate memeory
+361  0x00075d84 0x00476f84 31  32   .rdata  ascii   next header data failed to read
+362  0x00075da8 0x00476fa8 79  80   .rdata  ascii   unsigned int __thiscall CArchive7zInfo::CheckNextHeaderOffset(unsigned __int64)
+363  0x00075df8 0x00476ff8 90  91   .rdata  ascii   unsigned int __thiscall CArchive7zInfo::CheckNextHeaderSize(unsigned __int64,unsigned int)
+364  0x00075e54 0x00477054 60  61   .rdata  ascii   bool __thiscall CArchive7zInfo::GetArchiveFileDataInfo(void)
+365  0x00075e94 0x00477094 8   9    .rdata  ascii   in pass:
+366  0x00075ea0 0x004770a0 10  11   .rdata  ascii    pass err:
+367  0x00075eac 0x004770ac 19  20   .rdata  ascii   password input data
+368  0x00075ec0 0x004770c0 15  16   .rdata  ascii   password Failed
+369  0x00075ed0 0x004770d0 142 143  .rdata  ascii   bool __thiscall CArchive7zInfo::CheckPassWord(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
+370  0x00075f60 0x00477160 35  36   .rdata  ascii   7z check file name pass word error
+371  0x00075f88 0x00477188 148 149  .rdata  ascii   bool __thiscall CArchive7zInfo::CheckPassWordByData(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
+372  0x00076020 0x00477220 46  47   .rdata  ascii    \t 7z check file data extract pass word error
+373  0x00076050 0x00477250 35  36   .rdata  ascii   7z check file data pass word error
+374  0x00076074 0x00477274 13  14   .rdata  ascii   list too long
+375  0x00076150 0x00477350 4   5    .rdata  ascii   zipx
+376  0x00076168 0x00477368 27  28   .rdata  ascii   open file fail! errorCode =
+377  0x00076184 0x00477384 10  11   .rdata  ascii   file min!!
+378  0x00076190 0x00477390 15  16   .rdata  ascii   read file fail!
+379  0x000761a0 0x004773a0 14  15   .rdata  ascii   tArchiveRepair
+380  0x000761b0 0x004773b0 4   5    .rdata  ascii   .log
+381  0x000761b8 0x004773b8 34  35   .rdata  ascii   int __cdecl wmain(int,wchar_t *[])
+382  0x000761e0 0x004773e0 80  81   .rdata  ascii   D:\Fixo\01_Project\00_Source\_main\ArchiveRepair\ArchiveRepair\ArchiveRepair.cpp
+383  0x00076234 0x00477434 10  11   .rdata  ascii   main start
+384  0x00076240 0x00477440 26  27   .rdata  ascii   connect server error code=
+385  0x0007625c 0x0047745c 13  14   .rdata  ascii   RecvData exit
+386  0x00076270 0x00477470 16  17   .rdata  ascii   time consuming:[
+387  0x00076284 0x00477484 11  12   .rdata  ascii   \tsrc model:
+388  0x00076290 0x00477490 10  11   .rdata  ascii   src make:
+389  0x0007629c 0x0047749c 14  15   .rdata  ascii   \tsample model:
+390  0x000762ac 0x004774ac 13  14   .rdata  ascii   sample make:
+391  0x000762bc 0x004774bc 10  11   .rdata  ascii   \t message:
+392  0x000762c8 0x004774c8 10  11   .rdata  ascii   \terrcode:
+393  0x000762d4 0x004774d4 9   10   .rdata  ascii   process:
+394  0x000762e0 0x004774e0 17  18   .rdata  ascii   file type error!!
+395  0x00076310 0x00477510 9   10   .rdata  ascii   , column
+396  0x0007631c 0x0047751c 9   10   .rdata  ascii    at line
+397  0x00076328 0x00477528 71  72   .rdata  ascii   enum RepairErrorCode __thiscall NETCLIENT::CClient::ConnectServer(void)
+398  0x00076370 0x00477570 77  78   .rdata  ascii   D:\Fixo\01_Project\00_Source\_main\ArchiveRepair\ArchiveRepair\net\client.cpp
+399  0x000763c0 0x004775c0 18  19   .rdata  ascii   create socket fail
+400  0x000763d4 0x004775d4 14  15   .rdata  ascii   connect server
+401  0x000763e4 0x004775e4 23  24   .rdata  ascii   connect fail,errorCode:
+402  0x00076408 0x00477608 11  12   .rdata  ascii   cachefolder
+403  0x00076418 0x00477618 4   5    .rdata  ascii   -pwd
+404  0x00076420 0x00477620 8   9    .rdata  ascii   password
+405  0x00076434 0x00477634 8   9    .rdata  ascii   progress
+406  0x00076440 0x00477640 9   10   .rdata  ascii   fileCount
+407  0x0007644c 0x0047764c 10  11   .rdata  ascii   sampleMake
+408  0x00076458 0x00477658 11  12   .rdata  ascii   sampleModel
+409  0x00076464 0x00477664 7   8    .rdata  ascii   srcMake
+410  0x0007646c 0x0047766c 8   9    .rdata  ascii   srcModel
+411  0x0007647c 0x0047767c 16  17   .rdata  ascii   cannot get value
+412  0x00076490 0x00477690 16  17   .rdata  ascii   invalid_iterator
+413  0x000764a4 0x004776a4 11  12   .rdata  ascii   parse error
+414  0x000764b0 0x004776b0 11  12   .rdata  ascii   parse_error
+415  0x000764bc 0x004776bc 5   6    .rdata  ascii   value
+416  0x000764c4 0x004776c4 13  14   .rdata  ascii   syntax error
+417  0x000764d4 0x004776d4 14  15   .rdata  ascii   while parsing
+418  0x000764e8 0x004776e8 14  15   .rdata  ascii   ; last read: '
+419  0x000764f8 0x004776f8 11  12   .rdata  ascii   unexpected
+420  0x00076504 0x00477704 11  12   .rdata  ascii   ; expected
+421  0x00076510 0x00477710 8   9    .rdata  ascii   <U+%.4X>
+422  0x0007651c 0x0047771c 44  45   .rdata  ascii   invalid BOM; must be 0xEF 0xBB 0xBF if given
+423  0x0007654c 0x0047774c 15  16   .rdata  ascii   invalid literal
+424  0x0007655c 0x0047775c 15  16   .rdata  ascii   <uninitialized>
+425  0x0007656c 0x0047776c 12  13   .rdata  ascii   true literal
+426  0x0007657c 0x0047777c 13  14   .rdata  ascii   false literal
+427  0x0007658c 0x0047778c 12  13   .rdata  ascii   null literal
+428  0x0007659c 0x0047779c 14  15   .rdata  ascii   string literal
+429  0x000765ac 0x004777ac 14  15   .rdata  ascii   number literal
+430  0x000765d4 0x004777d4 13  14   .rdata  ascii   <parse error>
+431  0x000765e4 0x004777e4 12  13   .rdata  ascii   end of input
+432  0x000765f4 0x004777f4 22  23   .rdata  ascii   '[', '{', or a literal
+433  0x0007660c 0x0047780c 13  14   .rdata  ascii   unknown token
+434  0x0007661c 0x0047781c 40  41   .rdata  ascii   invalid number; expected digit after '-'
+435  0x00076648 0x00477848 40  41   .rdata  ascii   invalid number; expected digit after '.'
+436  0x00076674 0x00477874 58  59   .rdata  ascii   invalid number; expected '+', '-', or digit after exponent
+437  0x000766b0 0x004778b0 50  51   .rdata  ascii   invalid number; expected digit after exponent sign
+438  0x000766e4 0x004778e4 37  38   .rdata  ascii   invalid comment; missing closing '*/'
+439  0x0007670c 0x0047790c 47  48   .rdata  ascii   invalid comment; expecting '/' or '*' after '/'
+440  0x0007673c 0x0047793c 37  38   .rdata  ascii   invalid string: missing closing quote
+441  0x00076764 0x00477964 53  54   .rdata  ascii   invalid string: '\u' must be followed by 4 hex digits
+442  0x000767a0 0x004779a0 75  76   .rdata  ascii   invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
+443  0x000767f0 0x004779f0 67  68   .rdata  ascii   invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
+444  0x00076834 0x00477a34 51  52   .rdata  ascii   invalid string: forbidden character after backslash
+445  0x00076868 0x00477a68 72  73   .rdata  ascii   invalid string: control character U+0000 (NUL) must be escaped to \u0000
+446  0x000768b8 0x00477ab8 72  73   .rdata  ascii   invalid string: control character U+0001 (SOH) must be escaped to \u0001
+447  0x00076908 0x00477b08 72  73   .rdata  ascii   invalid string: control character U+0002 (STX) must be escaped to \u0002
+448  0x00076958 0x00477b58 72  73   .rdata  ascii   invalid string: control character U+0003 (ETX) must be escaped to \u0003
+449  0x000769a8 0x00477ba8 72  73   .rdata  ascii   invalid string: control character U+0004 (EOT) must be escaped to \u0004
+450  0x000769f8 0x00477bf8 72  73   .rdata  ascii   invalid string: control character U+0005 (ENQ) must be escaped to \u0005
+451  0x00076a48 0x00477c48 72  73   .rdata  ascii   invalid string: control character U+0006 (ACK) must be escaped to \u0006
+452  0x00076a98 0x00477c98 72  73   .rdata  ascii   invalid string: control character U+0007 (BEL) must be escaped to \u0007
+453  0x00076ae8 0x00477ce8 77  78   .rdata  ascii   invalid string: control character U+0008 (BS) must be escaped to \u0008 or \b
+454  0x00076b38 0x00477d38 77  78   .rdata  ascii   invalid string: control character U+0009 (HT) must be escaped to \u0009 or \t
+455  0x00076b88 0x00477d88 77  78   .rdata  ascii   invalid string: control character U+000A (LF) must be escaped to \u000A or \n
+456  0x00076bd8 0x00477dd8 71  72   .rdata  ascii   invalid string: control character U+000B (VT) must be escaped to \u000B
+457  0x00076c20 0x00477e20 77  78   .rdata  ascii   invalid string: control character U+000C (FF) must be escaped to \u000C or \f
+458  0x00076c70 0x00477e70 77  78   .rdata  ascii   invalid string: control character U+000D (CR) must be escaped to \u000D or \r
+459  0x00076cc0 0x00477ec0 71  72   .rdata  ascii   invalid string: control character U+000E (SO) must be escaped to \u000E
+460  0x00076d08 0x00477f08 71  72   .rdata  ascii   invalid string: control character U+000F (SI) must be escaped to \u000F
+461  0x00076d50 0x00477f50 72  73   .rdata  ascii   invalid string: control character U+0010 (DLE) must be escaped to \u0010
+462  0x00076da0 0x00477fa0 72  73   .rdata  ascii   invalid string: control character U+0011 (DC1) must be escaped to \u0011
+463  0x00076df0 0x00477ff0 72  73   .rdata  ascii   invalid string: control character U+0012 (DC2) must be escaped to \u0012
+464  0x00076e40 0x00478040 72  73   .rdata  ascii   invalid string: control character U+0013 (DC3) must be escaped to \u0013
+465  0x00076e90 0x00478090 72  73   .rdata  ascii   invalid string: control character U+0014 (DC4) must be escaped to \u0014
+466  0x00076ee0 0x004780e0 72  73   .rdata  ascii   invalid string: control character U+0015 (NAK) must be escaped to \u0015
+467  0x00076f30 0x00478130 72  73   .rdata  ascii   invalid string: control character U+0016 (SYN) must be escaped to \u0016
+468  0x00076f80 0x00478180 72  73   .rdata  ascii   invalid string: control character U+0017 (ETB) must be escaped to \u0017
+469  0x00076fd0 0x004781d0 72  73   .rdata  ascii   invalid string: control character U+0018 (CAN) must be escaped to \u0018
+470  0x00077020 0x00478220 71  72   .rdata  ascii   invalid string: control character U+0019 (EM) must be escaped to \u0019
+471  0x00077068 0x00478268 72  73   .rdata  ascii   invalid string: control character U+001A (SUB) must be escaped to \u001A
+472  0x000770b8 0x004782b8 72  73   .rdata  ascii   invalid string: control character U+001B (ESC) must be escaped to \u001B
+473  0x00077108 0x00478308 71  72   .rdata  ascii   invalid string: control character U+001C (FS) must be escaped to \u001C
+474  0x00077150 0x00478350 71  72   .rdata  ascii   invalid string: control character U+001D (GS) must be escaped to \u001D
+475  0x00077198 0x00478398 71  72   .rdata  ascii   invalid string: control character U+001E (RS) must be escaped to \u001E
+476  0x000771e0 0x004783e0 71  72   .rdata  ascii   invalid string: control character U+001F (US) must be escaped to \u001F
+477  0x00077228 0x00478428 37  38   .rdata  ascii   invalid string: ill-formed UTF-8 byte
+478  0x00077250 0x00478450 48  49   .rdata  ascii   cannot compare iterators of different containers
+479  0x00077284 0x00478484 10  11   .rdata  ascii   object key
+480  0x00077290 0x00478490 16  17   .rdata  ascii   object separator
+481  0x000772a4 0x004784a4 25  26   .rdata  ascii   number overflow parsing '
+482  0x000772c0 0x004784c0 12  13   .rdata  ascii   out_of_range
+483  0x000772d0 0x004784d0 35  36   .rdata  ascii   iterator does not fit current value
+484  0x000772f4 0x004784f4 21  22   .rdata  ascii   iterator out of range
+485  0x0007730c 0x0047850c 24  25   .rdata  ascii   cannot use erase() with
+486  0x00077328 0x00478528 28  29   .rdata  ascii   type must be string, but is
+487  0x00077388 0x00478588 6   7    .rdata  ascii   /4.0.a
+488  0x00077390 0x00478590 6   7    .rdata  ascii   /1.rar
+489  0x00077398 0x00478598 16  17   .rdata  ascii   password Succeed
+490  0x000773cc 0x004785cc 6   7    .rdata  ascii   /5.0.a
+491  0x000773f4 0x004785f4 27  28   .rdata  ascii   Fail to schedule the chore!
+492  0x00077410 0x00478610 60  61   .rdata  ascii   This function cannot be called on a default constructed task
+493  0x00077450 0x00478650 14  15   .rdata  ascii   broken promise
+494  0x00077460 0x00478660 24  25   .rdata  ascii   future already retrieved
+495  0x0007747c 0x0047867c 25  26   .rdata  ascii   promise already satisfied
+496  0x00077498 0x00478698 8   9    .rdata  ascii   no state
+497  0x000774a4 0x004786a4 6   7    .rdata  ascii   future
+498  0x000774ac 0x004786ac 24  25   .rdata  ascii   m_rar4Info.ScanData fail
+499  0x00077724 0x00478924 6   7    .rdata  ascii   /1.zip
+500  0x0007772c 0x0047892c 7   8    .rdata  ascii   unknown
+501  0x0007aa90 0x0047bc90 6   7    .rdata  ascii   RSDS..
+502  0x0007aaa8 0x0047bca8 75  76   .rdata  ascii   D:\Fixo\01_Project\00_Source\_main\UI\bin\Release\Win32\EUArchiveRepair.pdb
+503  0x0007ab08 0x0047bd08 4   5    .rdata  ascii   GCTL
+504  0x0007ab14 0x0047bd14 8   9    .rdata  ascii   .text$di
+505  0x0007ab28 0x0047bd28 8   9    .rdata  ascii   .text$mn
+506  0x0007ab3c 0x0047bd3c 7   8    .rdata  ascii   .text$x
+507  0x0007ab4c 0x0047bd4c 8   9    .rdata  ascii   .text$yd
+508  0x0007ab60 0x0047bd60 8   9    .rdata  ascii   .idata$5
+509  0x0007ab74 0x0047bd74 6   7    .rdata  ascii   .00cfg
+510  0x0007ab84 0x0047bd84 8   9    .rdata  ascii   .CRT$XCA
+511  0x0007ab98 0x0047bd98 9   10   .rdata  ascii   .CRT$XCAA
+512  0x0007abac 0x0047bdac 8   9    .rdata  ascii   .CRT$XCL
+513  0x0007abc0 0x0047bdc0 8   9    .rdata  ascii   .CRT$XCU
+514  0x0007abd4 0x0047bdd4 8   9    .rdata  ascii   .CRT$XCZ
+515  0x0007abe8 0x0047bde8 8   9    .rdata  ascii   .CRT$XIA
+516  0x0007abfc 0x0047bdfc 9   10   .rdata  ascii   .CRT$XIAA
+517  0x0007ac10 0x0047be10 9   10   .rdata  ascii   .CRT$XIAC
+518  0x0007ac24 0x0047be24 8   9    .rdata  ascii   .CRT$XIZ
+519  0x0007ac38 0x0047be38 8   9    .rdata  ascii   .CRT$XLA
+520  0x0007ac4c 0x0047be4c 8   9    .rdata  ascii   .CRT$XLZ
+521  0x0007ac60 0x0047be60 8   9    .rdata  ascii   .CRT$XPA
+522  0x0007ac74 0x0047be74 8   9    .rdata  ascii   .CRT$XPZ
+523  0x0007ac88 0x0047be88 8   9    .rdata  ascii   .CRT$XTA
+524  0x0007ac9c 0x0047be9c 8   9    .rdata  ascii   .CRT$XTZ
+525  0x0007acb0 0x0047beb0 6   7    .rdata  ascii   .rdata
+526  0x0007acc0 0x0047bec0 8   9    .rdata  ascii   .rdata$T
+527  0x0007acd4 0x0047bed4 8   9    .rdata  ascii   .rdata$r
+528  0x0007ace8 0x0047bee8 13  14   .rdata  ascii   .rdata$sxdata
+529  0x0007ad00 0x0047bf00 13  14   .rdata  ascii   .rdata$voltmd
+530  0x0007ad18 0x0047bf18 13  14   .rdata  ascii   .rdata$zzzdbg
+531  0x0007ad30 0x0047bf30 8   9    .rdata  ascii   .rtc$IAA
+532  0x0007ad44 0x0047bf44 8   9    .rdata  ascii   .rtc$IZZ
+533  0x0007ad58 0x0047bf58 8   9    .rdata  ascii   .rtc$TAA
+534  0x0007ad6c 0x0047bf6c 8   9    .rdata  ascii   .rtc$TZZ
+535  0x0007ad80 0x0047bf80 4   5    .rdata  ascii   .tls
+536  0x0007ad90 0x0047bf90 5   6    .rdata  ascii   .tls$
+537  0x0007ada0 0x0047bfa0 8   9    .rdata  ascii   .tls$ZZZ
+538  0x0007adb4 0x0047bfb4 8   9    .rdata  ascii   .xdata$x
+539  0x0007adc8 0x0047bfc8 8   9    .rdata  ascii   .idata$2
+540  0x0007addc 0x0047bfdc 8   9    .rdata  ascii   .idata$3
+541  0x0007adf0 0x0047bff0 8   9    .rdata  ascii   .idata$4
+542  0x0007ae04 0x0047c004 8   9    .rdata  ascii   .idata$6
+543  0x0007ae18 0x0047c018 5   6    .rdata  ascii   .data
+544  0x0007ae28 0x0047c028 7   8    .rdata  ascii   .data$r
+545  0x0007ae38 0x0047c038 8   9    .rdata  ascii   .data$rs
+546  0x0007ae4c 0x0047c04c 4   5    .rdata  ascii   .bss
+547  0x0007ae5c 0x0047c05c 8   9    .rdata  ascii   .rsrc$01
+548  0x0007ae70 0x0047c070 8   9    .rdata  ascii   .rsrc$02
+549  0x00083a12 0x00484c12 19  20   .rdata  ascii   MultiByteToWideChar
+550  0x00083a28 0x00484c28 12  13   .rdata  ascii   GetTempPathA
+551  0x00083a38 0x00484c38 19  20   .rdata  ascii   WideCharToMultiByte
+552  0x00083a4e 0x00484c4e 16  17   .rdata  ascii   CreateDirectoryW
+553  0x00083a62 0x00484c62 8   9    .rdata  ascii   ReadFile
+554  0x00083a6e 0x00484c6e 14  15   .rdata  ascii   FindFirstFileW
+555  0x00083a80 0x00484c80 13  14   .rdata  ascii   GetFileSizeEx
+556  0x00083a90 0x00484c90 13  14   .rdata  ascii   FindNextFileW
+557  0x00083aa0 0x00484ca0 9   10   .rdata  ascii   WriteFile
+558  0x00083aac 0x00484cac 16  17   .rdata  ascii   RemoveDirectoryW
+559  0x00083ac0 0x00484cc0 9   10   .rdata  ascii   FindClose
+560  0x00083acc 0x00484ccc 11  12   .rdata  ascii   CreateFileW
+561  0x00083ada 0x00484cda 18  19   .rdata  ascii   GetFileAttributesW
+562  0x00083af0 0x00484cf0 15  16   .rdata  ascii   UnmapViewOfFile
+563  0x00083b02 0x00484d02 12  13   .rdata  ascii   GetLastError
+564  0x00083b12 0x00484d12 11  12   .rdata  ascii   DeleteFileW
+565  0x00083b20 0x00484d20 11  12   .rdata  ascii   CloseHandle
+566  0x00083b2e 0x00484d2e 16  17   .rdata  ascii   SetFilePointerEx
+567  0x00083b42 0x00484d42 18  19   .rdata  ascii   CreateFileMappingA
+568  0x00083b58 0x00484d58 15  16   .rdata  ascii   MapViewOfFileEx
+569  0x00083b6a 0x00484d6a 23  24   .rdata  ascii   GetEnvironmentVariableA
+570  0x00083b84 0x00484d84 18  19   .rdata  ascii   GetFileAttributesA
+571  0x00083b9a 0x00484d9a 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+572  0x00083bb4 0x00484db4 9   10   .rdata  ascii   CopyFileW
+573  0x00083bc0 0x00484dc0 11  12   .rdata  ascii   FreeLibrary
+574  0x00083bce 0x00484dce 14  15   .rdata  ascii   GetProcAddress
+575  0x00083be0 0x00484de0 12  13   .rdata  ascii   LoadLibraryW
+576  0x00083bf0 0x00484df0 20  21   .rdata  ascii   GetFileAttributesExW
+577  0x00083c08 0x00484e08 18  19   .rdata  ascii   SetFileAttributesW
+578  0x00083c1e 0x00484e1e 11  12   .rdata  ascii   SetFileTime
+579  0x00083c2c 0x00484e2c 9   10   .rdata  ascii   LocalFree
+580  0x00083c38 0x00484e38 14  15   .rdata  ascii   FormatMessageA
+581  0x00083c48 0x00484e48 12  13   .rdata  ascii   KERNEL32.dll
+582  0x00083c56 0x00484e56 12  13   .rdata  ascii   OLEAUT32.dll
+583  0x00083c66 0x00484e66 56  57   .rdata  ascii   ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+584  0x00083ca2 0x00484ea2 31  32   .rdata  ascii   ?uncaught_exception@std@@YA_NXZ
+585  0x00083cc4 0x00484ec4 23  24   .rdata  ascii   ?_Xbad_alloc@std@@YAXXZ
+586  0x00083cde 0x00484ede 31  32   .rdata  ascii   ?_Xbad_function_call@std@@YAXXZ
+587  0x00083d00 0x00484f00 29  30   .rdata  ascii   ?_Xlength_error@std@@YAXPBD@Z
+588  0x00083d20 0x00484f20 66  67   .rdata  ascii   ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z
+589  0x00083d66 0x00484f66 62  63   .rdata  ascii   ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
+590  0x00083da8 0x00484fa8 55  56   .rdata  ascii   ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+591  0x00083de2 0x00484fe2 61  62   .rdata  ascii   ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z
+592  0x00083e22 0x00485022 56  57   .rdata  ascii   ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ
+593  0x00083e5e 0x0048505e 58  59   .rdata  ascii   ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ
+594  0x00083e9c 0x0048509c 63  64   .rdata  ascii   ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+595  0x00083ede 0x004850de 60  61   .rdata  ascii   ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+596  0x00083f1e 0x0048511e 50  51   .rdata  ascii   ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
+597  0x00083f54 0x00485154 102 103  .rdata  ascii   ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+598  0x00083fbe 0x004851be 56  57   .rdata  ascii   ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
+599  0x00083ffa 0x004851fa 60  61   .rdata  ascii   ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+600  0x0008403a 0x0048523a 62  63   .rdata  ascii   ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+601  0x0008407c 0x0048527c 65  66   .rdata  ascii   ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+602  0x000840c0 0x004852c0 60  61   .rdata  ascii   ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+603  0x00084100 0x00485300 67  68   .rdata  ascii   ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+604  0x00084146 0x00485346 67  68   .rdata  ascii   ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+605  0x0008418c 0x0048538c 71  72   .rdata  ascii   ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+606  0x000841d6 0x004853d6 59  60   .rdata  ascii   ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+607  0x00084214 0x00485414 72  73   .rdata  ascii   ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+608  0x00084260 0x00485460 50  51   .rdata  ascii   ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ
+609  0x00084296 0x00485496 76  77   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+610  0x000842e6 0x004854e6 62  63   .rdata  ascii   ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAI@Z
+611  0x00084328 0x00485528 55  56   .rdata  ascii   ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+612  0x00084362 0x00485562 27  28   .rdata  ascii   ?good@ios_base@std@@QBE_NXZ
+613  0x00084380 0x00485580 8   9    .rdata  ascii   _Strxfrm
+614  0x0008438c 0x0048558c 22  23   .rdata  ascii   ??1_Lockit@std@@QAE@XZ
+615  0x000843a6 0x004855a6 23  24   .rdata  ascii   ??0_Lockit@std@@QAE@H@Z
+616  0x000843c0 0x004855c0 48  49   .rdata  ascii   ?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ
+617  0x000843f4 0x004855f4 39  40   .rdata  ascii   ?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
+618  0x0008441e 0x0048561e 29  30   .rdata  ascii   ?_Xout_of_range@std@@YAXPBD@Z
+619  0x0008443e 0x0048563e 56  57   .rdata  ascii   ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+620  0x0008447a 0x0048567a 35  36   .rdata  ascii   ?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+621  0x000844a0 0x004856a0 32  33   .rdata  ascii   ?id@?$ctype@D@std@@2V0locale@2@A
+622  0x000844c4 0x004856c4 26  27   .rdata  ascii   ?_Random_device@std@@YAIXZ
+623  0x000844e2 0x004856e2 34  35   .rdata  ascii   ?id@?$collate@D@std@@2V0locale@2@A
+624  0x00084508 0x00485708 8   9    .rdata  ascii   _Strcoll
+625  0x00084514 0x00485714 103 104  .rdata  ascii   ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+626  0x0008457e 0x0048577e 54  55   .rdata  ascii   ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+627  0x000845b8 0x004857b8 84  85   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z
+628  0x00084610 0x00485810 55  56   .rdata  ascii   ?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
+629  0x0008464a 0x0048584a 38  39   .rdata  ascii   ?tolower@?$ctype@D@std@@QBEPBDPADPBD@Z
+630  0x00084674 0x00485874 31  32   .rdata  ascii   ?tolower@?$ctype@D@std@@QBEDD@Z
+631  0x00084696 0x00485896 27  28   .rdata  ascii   ??1facet@locale@std@@MAE@XZ
+632  0x000846b4 0x004858b4 28  29   .rdata  ascii   ??0facet@locale@std@@IAE@I@Z
+633  0x000846d4 0x004858d4 49  50   .rdata  ascii   ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+634  0x00084708 0x00485908 33  34   .rdata  ascii   ?_Incref@facet@locale@std@@UAEXXZ
+635  0x0008472c 0x0048592c 24  25   .rdata  ascii   ??Bid@locale@std@@QAEIXZ
+636  0x00084748 0x00485948 42  43   .rdata  ascii   ?_Getcoll@_Locinfo@std@@QBE?AU_Collvec@@XZ
+637  0x00084776 0x00485976 23  24   .rdata  ascii   ??1_Locinfo@std@@QAE@XZ
+638  0x00084790 0x00485990 26  27   .rdata  ascii   ??0_Locinfo@std@@QAE@PBD@Z
+639  0x000847ae 0x004859ae 61  62   .rdata  ascii   ?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z
+640  0x000847ee 0x004859ee 61  62   .rdata  ascii   ?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+641  0x0008482e 0x00485a2e 60  61   .rdata  ascii   ?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+642  0x0008486e 0x00485a6e 60  61   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+643  0x000848ae 0x00485aae 103 104  .rdata  ascii   ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+644  0x00084918 0x00485b18 61  62   .rdata  ascii   ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+645  0x00084958 0x00485b58 54  55   .rdata  ascii   ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ
+646  0x00084992 0x00485b92 24  25   .rdata  ascii   ??Bios_base@std@@QBE_NXZ
+647  0x000849ae 0x00485bae 26  27   .rdata  ascii   ?_Winerror_map@std@@YAHH@Z
+648  0x000849cc 0x00485bcc 28  29   .rdata  ascii   ?_Syserror_map@std@@YAPBDH@Z
+649  0x000849ec 0x00485bec 57  58   .rdata  ascii   ?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+650  0x00084a28 0x00485c28 61  62   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_K@Z
+651  0x00084a68 0x00485c68 63  64   .rdata  ascii   ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_K@Z
+652  0x00084aaa 0x00485caa 56  57   .rdata  ascii   ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+653  0x00084ae6 0x00485ce6 47  48   .rdata  ascii   ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+654  0x00084b18 0x00485d18 34  35   .rdata  ascii   ?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z
+655  0x00084b3e 0x00485d3e 70  71   .rdata  ascii   ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
+656  0x00084b88 0x00485d88 68  69   .rdata  ascii   ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PAD1AAPAD@Z
+657  0x00084bd0 0x00485dd0 72  73   .rdata  ascii   ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ
+658  0x00084c1c 0x00485e1c 60  61   .rdata  ascii   ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ
+659  0x00084c5c 0x00485e5c 72  73   .rdata  ascii   ?in@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
+660  0x00084ca8 0x00485ea8 73  74   .rdata  ascii   ?out@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
+661  0x00084cf4 0x00485ef4 60  61   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@K@Z
+662  0x00084d34 0x00485f34 62  63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PBX@Z
+663  0x00084d76 0x00485f76 68  69   .rdata  ascii   ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@PBD_J@Z
+664  0x00084dbe 0x00485fbe 82  83   .rdata  ascii   ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@U_Mbstatet@@@2@XZ
+665  0x00084e14 0x00486014 27  28   .rdata  ascii   ?fail@ios_base@std@@QBE_NXZ
+666  0x00084e32 0x00486032 40  41   .rdata  ascii   ?always_noconv@codecvt_base@std@@QBE_NXZ
+667  0x00084e5e 0x0048605e 17  18   .rdata  ascii   _Cnd_init_in_situ
+668  0x00084e72 0x00486072 21  22   .rdata  ascii   _Query_perf_frequency
+669  0x00084e8a 0x0048608a 29  30   .rdata  ascii   ?_Throw_Cpp_error@std@@YAXH@Z
+670  0x00084eaa 0x004860aa 55  56   .rdata  ascii   ?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A
+671  0x00084ee4 0x004860e4 14  15   .rdata  ascii   _Cnd_timedwait
+672  0x00084ef6 0x004860f6 9   10   .rdata  ascii   _Mtx_lock
+673  0x00084f02 0x00486102 19  20   .rdata  ascii   _Query_perf_counter
+674  0x00084f18 0x00486118 16  17   .rdata  ascii   _Xtime_get_ticks
+675  0x00084f2c 0x0048612c 11  12   .rdata  ascii   _Mtx_unlock
+676  0x00084f3a 0x0048613a 14  15   .rdata  ascii   _Cnd_broadcast
+677  0x00084f4c 0x0048614c 20  21   .rdata  ascii   _Cnd_destroy_in_situ
+678  0x00084f64 0x00486164 39  40   .rdata  ascii   ?getloc@ios_base@std@@QBE?AVlocale@2@XZ
+679  0x00084f8e 0x0048618e 61  62   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_J@Z
+680  0x00084fce 0x004861ce 11  12   .rdata  ascii   _Cnd_signal
+681  0x00084fdc 0x004861dc 32  33   .rdata  ascii   _Cnd_do_broadcast_at_thread_exit
+682  0x00085000 0x00486200 12  13   .rdata  ascii   _Thrd_detach
+683  0x00085010 0x00486210 34  35   .rdata  ascii   ?__ExceptionPtrAssign@@YAXPAXPBX@Z
+684  0x00085036 0x00486236 55  56   .rdata  ascii   ?GetCurrentThreadId@platform@details@Concurrency@@YAJXZ
+685  0x00085070 0x00486270 54  55   .rdata  ascii   ?_ReportUnobservedException@details@Concurrency@@YAXXZ
+686  0x000850aa 0x004862aa 67  68   .rdata  ascii   ?_Schedule_chore@details@Concurrency@@YAHPAU_Threadpool_chore@12@@Z
+687  0x000850f0 0x004862f0 67  68   .rdata  ascii   ?_LogWorkItemCompleted@_TaskEventLogger@details@Concurrency@@QAEXXZ
+688  0x00085136 0x00486336 65  66   .rdata  ascii   ?_LogWorkItemStarted@_TaskEventLogger@details@Concurrency@@QAEXXZ
+689  0x0008517a 0x0048637a 72  73   .rdata  ascii   ?_LogTaskExecutionCompleted@_TaskEventLogger@details@Concurrency@@QAEXXZ
+690  0x000851c6 0x004863c6 63  64   .rdata  ascii   ?_LogTaskCompleted@_TaskEventLogger@details@Concurrency@@QAEXXZ
+691  0x00085208 0x00486408 60  61   .rdata  ascii   ?_LogCancelTask@_TaskEventLogger@details@Concurrency@@QAEXXZ
+692  0x00085248 0x00486448 64  65   .rdata  ascii   ?_LogScheduleTask@_TaskEventLogger@details@Concurrency@@QAEX_N@Z
+693  0x0008528c 0x0048648c 66  67   .rdata  ascii   ?_Release_chore@details@Concurrency@@YAXPAU_Threadpool_chore@12@@Z
+694  0x000852d2 0x004864d2 66  67   .rdata  ascii   ?ReportUnhandledError@_ExceptionHolder@details@Concurrency@@AAEXXZ
+695  0x00085318 0x00486518 54  55   .rdata  ascii   ?_Capture@_ContextCallback@details@Concurrency@@AAEXXZ
+696  0x00085352 0x00486552 52  53   .rdata  ascii   ?_Reset@_ContextCallback@details@Concurrency@@AAEXXZ
+697  0x0008538a 0x0048658a 88  89   .rdata  ascii   ?_CallInContext@_ContextCallback@details@Concurrency@@QBEXV?$function@$$A6AXXZ@std@@_N@Z
+698  0x000853e6 0x004865e6 48  49   .rdata  ascii   ??0task_continuation_context@Concurrency@@AAE@XZ
+699  0x0008541a 0x0048661a 30  31   .rdata  ascii   _Cnd_unregister_at_thread_exit
+700  0x0008543c 0x0048663c 31  32   .rdata  ascii   ?__ExceptionPtrCreate@@YAXPAX@Z
+701  0x0008545e 0x0048665e 32  33   .rdata  ascii   ?__ExceptionPtrCopy@@YAXPAXPBX@Z
+702  0x00085482 0x00486682 32  33   .rdata  ascii   ?__ExceptionPtrToBool@@YA_NPBX@Z
+703  0x000854a6 0x004866a6 32  33   .rdata  ascii   ?__ExceptionPtrDestroy@@YAXPAX@Z
+704  0x000854ca 0x004866ca 41  42   .rdata  ascii   ?__ExceptionPtrCurrentException@@YAXPAX@Z
+705  0x000854f6 0x004866f6 32  33   .rdata  ascii   ?__ExceptionPtrRethrow@@YAXPBX@Z
+706  0x0008551a 0x0048671a 28  29   .rdata  ascii   _Cnd_register_at_thread_exit
+707  0x0008553a 0x0048673a 9   10   .rdata  ascii   _Cnd_wait
+708  0x00085546 0x00486746 56  57   .rdata  ascii   ?_Execute_once@std@@YAHAAUonce_flag@1@P6GHPAX1PAPAX@Z1@Z
+709  0x00085582 0x00486782 67  68   .rdata  ascii   ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
+710  0x000855c8 0x004867c8 66  67   .rdata  ascii   ?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@_JH@Z
+711  0x0008560e 0x0048680e 74  75   .rdata  ascii   ?pubsetbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PAD_J@Z
+712  0x0008565c 0x0048685c 35  36   .rdata  ascii   ?_Fiopen@std@@YAPAU_iobuf@@PB_WHH@Z
+713  0x00085682 0x00486882 42  43   .rdata  ascii   ?__ExceptionPtrCopyException@@YAXPAXPBX1@Z
+714  0x000856b0 0x004868b0 7   8    .rdata  ascii   _Resize
+715  0x000856ba 0x004868ba 86  87   .rdata  ascii   ?seekp@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@V?$fpos@U_Mbstatet@@@2@@Z
+716  0x00085714 0x00486914 66  67   .rdata  ascii   ?seekp@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@_JH@Z
+717  0x0008575a 0x0048695a 82  83   .rdata  ascii   ?tellp@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@U_Mbstatet@@@2@XZ
+718  0x000857ae 0x004869ae 12  13   .rdata  ascii   MSVCP140.dll
+719  0x000857be 0x004869be 9   10   .rdata  ascii   inet_pton
+720  0x000857c8 0x004869c8 10  11   .rdata  ascii   WS2_32.dll
+721  0x000857d6 0x004869d6 18  19   .rdata  ascii   __CxxFrameHandler3
+722  0x000857ec 0x004869ec 23  24   .rdata  ascii   __std_exception_destroy
+723  0x00085806 0x00486a06 20  21   .rdata  ascii   __std_exception_copy
+724  0x0008581e 0x00486a1e 15  16   .rdata  ascii   __std_terminate
+725  0x00085830 0x00486a30 9   10   .rdata  ascii   _purecall
+726  0x0008583c 0x00486a3c 6   7    .rdata  ascii   strchr
+727  0x00085846 0x00486a46 6   7    .rdata  ascii   memcpy
+728  0x00085850 0x00486a50 7   8    .rdata  ascii   memmove
+729  0x0008585a 0x00486a5a 18  19   .rdata  ascii   _CxxThrowException
+730  0x00085870 0x00486a70 6   7    .rdata  ascii   memset
+731  0x0008587a 0x00486a7a 19  20   .rdata  ascii   __current_exception
+732  0x00085890 0x00486a90 27  28   .rdata  ascii   __current_exception_context
+733  0x000858ae 0x00486aae 23  24   .rdata  ascii   _except_handler4_common
+734  0x000858c6 0x00486ac6 16  17   .rdata  ascii   VCRUNTIME140.dll
+735  0x000858da 0x00486ada 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+736  0x00085900 0x00486b00 14  15   .rdata  ascii   _localtime64_s
+737  0x00085912 0x00486b12 7   8    .rdata  ascii   realloc
+738  0x0008591c 0x00486b1c 7   8    .rdata  ascii   tolower
+739  0x00085926 0x00486b26 25  26   .rdata  ascii   _invalid_parameter_noinfo
+740  0x00085942 0x00486b42 6   7    .rdata  ascii   _errno
+741  0x0008594c 0x00486b4c 7   8    .rdata  ascii   _time64
+742  0x00085956 0x00486b56 4   5    .rdata  ascii   free
+743  0x0008595e 0x00486b5e 6   7    .rdata  ascii   malloc
+744  0x00085968 0x00486b68 6   7    .rdata  ascii   _dsign
+745  0x00085972 0x00486b72 10  11   .rdata  ascii   localeconv
+746  0x00085980 0x00486b80 23  24   .rdata  ascii   __stdio_common_vsprintf
+747  0x0008599a 0x00486b9a 8   9    .rdata  ascii   wcscpy_s
+748  0x000859a6 0x00486ba6 8   9    .rdata  ascii   wcscat_s
+749  0x000859b2 0x00486bb2 8   9    .rdata  ascii   strtok_s
+750  0x000859be 0x00486bbe 5   6    .rdata  ascii   abort
+751  0x000859c6 0x00486bc6 5   6    .rdata  ascii   fputc
+752  0x000859ce 0x00486bce 7   8    .rdata  ascii   toupper
+753  0x000859d8 0x00486bd8 6   7    .rdata  ascii   fflush
+754  0x000859e2 0x00486be2 6   7    .rdata  ascii   fclose
+755  0x000859ec 0x00486bec 5   6    .rdata  ascii   fgetc
+756  0x000859f4 0x00486bf4 12  13   .rdata  ascii   _unlock_file
+757  0x00085a04 0x00486c04 10  11   .rdata  ascii   _lock_file
+758  0x00085a12 0x00486c12 8   9    .rdata  ascii   strcpy_s
+759  0x00085a1e 0x00486c1e 6   7    .rdata  ascii   fwrite
+760  0x00085a28 0x00486c28 7   8    .rdata  ascii   fgetpos
+761  0x00085a32 0x00486c32 7   8    .rdata  ascii   setvbuf
+762  0x00085a3c 0x00486c3c 6   7    .rdata  ascii   ungetc
+763  0x00085a46 0x00486c46 8   9    .rdata  ascii   strcat_s
+764  0x00085a52 0x00486c52 7   8    .rdata  ascii   isspace
+765  0x00085a5c 0x00486c5c 4   5    .rdata  ascii   atol
+766  0x00085a64 0x00486c64 7   8    .rdata  ascii   fsetpos
+767  0x00085a6e 0x00486c6e 6   7    .rdata  ascii   _mkdir
+768  0x00085a78 0x00486c78 5   6    .rdata  ascii   fread
+769  0x00085a80 0x00486c80 9   10   .rdata  ascii   _fseeki64
+770  0x00085a8c 0x00486c8c 27  28   .rdata  ascii   _get_stream_buffer_pointers
+771  0x00085aaa 0x00486caa 6   7    .rdata  ascii   strtod
+772  0x00085ab4 0x00486cb4 14  15   .rdata  ascii   _beginthreadex
+773  0x00085ac6 0x00486cc6 7   8    .rdata  ascii   strtoll
+774  0x00085ad0 0x00486cd0 9   10   .rdata  ascii   terminate
+775  0x00085adc 0x00486cdc 8   9    .rdata  ascii   strtoull
+776  0x00085ae8 0x00486ce8 12  13   .rdata  ascii   _setmaxstdio
+777  0x00085af8 0x00486cf8 19  20   .rdata  ascii   ___lc_codepage_func
+778  0x00085b0e 0x00486d0e 9   10   .rdata  ascii   _callnewh
+779  0x00085b1a 0x00486d1a 24  25   .rdata  ascii   _initialize_onexit_table
+780  0x00085b36 0x00486d36 25  26   .rdata  ascii   _register_onexit_function
+781  0x00085b52 0x00486d52 11  12   .rdata  ascii   _crt_atexit
+782  0x00085b60 0x00486d60 6   7    .rdata  ascii   _cexit
+783  0x00085b6a 0x00486d6a 15  16   .rdata  ascii   _seh_filter_exe
+784  0x00085b7c 0x00486d7c 13  14   .rdata  ascii   _set_app_type
+785  0x00085b8c 0x00486d8c 16  17   .rdata  ascii   __setusermatherr
+786  0x00085ba0 0x00486da0 20  21   .rdata  ascii   _configure_wide_argv
+787  0x00085bb8 0x00486db8 28  29   .rdata  ascii   _initialize_wide_environment
+788  0x00085bd8 0x00486dd8 29  30   .rdata  ascii   _get_initial_wide_environment
+789  0x00085bf8 0x00486df8 9   10   .rdata  ascii   _initterm
+790  0x00085c04 0x00486e04 11  12   .rdata  ascii   _initterm_e
+791  0x00085c12 0x00486e12 4   5    .rdata  ascii   exit
+792  0x00085c1a 0x00486e1a 5   6    .rdata  ascii   _exit
+793  0x00085c22 0x00486e22 10  11   .rdata  ascii   _set_fmode
+794  0x00085c30 0x00486e30 10  11   .rdata  ascii   __p___argc
+795  0x00085c3e 0x00486e3e 11  12   .rdata  ascii   __p___wargv
+796  0x00085c4c 0x00486e4c 7   8    .rdata  ascii   _c_exit
+797  0x00085c56 0x00486e56 42  43   .rdata  ascii   _register_thread_local_exe_atexit_callback
+798  0x00085c84 0x00486e84 19  20   .rdata  ascii   _configthreadlocale
+799  0x00085c9a 0x00486e9a 13  14   .rdata  ascii   _set_new_mode
+800  0x00085caa 0x00486eaa 12  13   .rdata  ascii   __p__commode
+801  0x00085cba 0x00486eba 12  13   .rdata  ascii   _controlfp_s
+802  0x00085cc8 0x00486ec8 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+803  0x00085ce8 0x00486ee8 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+804  0x00085d0a 0x00486f0a 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+805  0x00085d2c 0x00486f2c 30  31   .rdata  ascii   api-ms-win-crt-time-l1-1-0.dll
+806  0x00085d4c 0x00486f4c 30  31   .rdata  ascii   api-ms-win-crt-math-l1-1-0.dll
+807  0x00085d6c 0x00486f6c 32  33   .rdata  ascii   api-ms-win-crt-locale-l1-1-0.dll
+808  0x00085d8e 0x00486f8e 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+809  0x00085dae 0x00486fae 36  37   .rdata  ascii   api-ms-win-crt-filesystem-l1-1-0.dll
+810  0x00085dd4 0x00486fd4 33  34   .rdata  ascii   api-ms-win-crt-convert-l1-1-0.dll
+811  0x00085df8 0x00486ff8 15  16   .rdata  ascii   GetLocaleInfoEx
+812  0x00085e0a 0x0048700a 16  17   .rdata  ascii   FindFirstFileExW
+813  0x00085e1e 0x0048701e 26  27   .rdata  ascii   SetFileInformationByHandle
+814  0x00085e3c 0x0048703c 15  16   .rdata  ascii   AreFileApisANSI
+815  0x00085e4e 0x0048704e 16  17   .rdata  ascii   GetModuleHandleW
+816  0x00085e62 0x00487062 28  29   .rdata  ascii   GetFileInformationByHandleEx
+817  0x00085e82 0x00487082 23  24   .rdata  ascii   ReleaseSRWLockExclusive
+818  0x00085e9c 0x0048709c 23  24   .rdata  ascii   AcquireSRWLockExclusive
+819  0x00085eb6 0x004870b6 5   6    .rdata  ascii   Sleep
+820  0x00085ebe 0x004870be 16  17   .rdata  ascii   InitOnceComplete
+821  0x00085ed2 0x004870d2 23  24   .rdata  ascii   InitOnceBeginInitialize
+822  0x00085eec 0x004870ec 24  25   .rdata  ascii   WakeAllConditionVariable
+823  0x00085f08 0x00487108 25  26   .rdata  ascii   SleepConditionVariableSRW
+824  0x00085f24 0x00487124 25  26   .rdata  ascii   IsProcessorFeaturePresent
+825  0x00085f40 0x00487140 24  25   .rdata  ascii   UnhandledExceptionFilter
+826  0x00085f5c 0x0048715c 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+827  0x00085f7a 0x0048717a 17  18   .rdata  ascii   GetCurrentProcess
+828  0x00085f8e 0x0048718e 16  17   .rdata  ascii   TerminateProcess
+829  0x00085fa2 0x004871a2 17  18   .rdata  ascii   IsDebuggerPresent
+830  0x00085fb6 0x004871b6 23  24   .rdata  ascii   QueryPerformanceCounter
+831  0x00085fd0 0x004871d0 19  20   .rdata  ascii   GetCurrentProcessId
+832  0x00085fe6 0x004871e6 18  19   .rdata  ascii   GetCurrentThreadId
+833  0x00085ffc 0x004871fc 19  20   .rdata  ascii   InitializeSListHead
+834  0x00086012 0x00487212 6   7    .rdata  ascii   memchr
+835  0x0008601c 0x0048721c 7   8    .rdata  ascii   _dclass
+836  0x00086026 0x00487226 4   5    .rdata  ascii   ceil
+837  0x00086204 0x00488004 5   6    .data   ascii   \b\t\n\v\r
+838  0x000863d8 0x004881d8 19  20   .data   ascii   .?AVbad_alloc@std@@
+839  0x000863f8 0x004881f8 89  90   .data   ascii   .?AV?$_Binder@U_Unforced@std@@P8CCommandParser@IRSC@@AE_NPBD@ZPAV34@ABU?$_Ph@$00@2@@std@@
+840  0x0008645c 0x0048825c 19  20   .data   ascii   .?AVexception@std@@
+841  0x00086478 0x00488278 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+842  0x000864a0 0x004882a0 18  19   .data   ascii   .?AVbad_cast@std@@
+843  0x000864bc 0x004882bc 23  24   .data   ascii   .?AVruntime_error@std@@
+844  0x000864dc 0x004882dc 33  34   .data   ascii   .?AVother_error@detail@nlohmann@@
+845  0x00086508 0x00488308 31  32   .data   ascii   .?AVexception@detail@nlohmann@@
+846  0x00086530 0x00488330 32  33   .data   ascii   .?AVtype_error@detail@nlohmann@@
+847  0x0008655c 0x0048835c 22  23   .data   ascii   .?AVsystem_error@std@@
+848  0x0008657c 0x0048837c 37  38   .data   ascii   .?AVfilesystem_error@filesystem@std@@
+849  0x000865ac 0x004883ac 23  24   .data   ascii   .?AV_System_error@std@@
+850  0x000865cc 0x004883cc 43  44   .data   ascii   .?AV<lambda_1>@?1??flush@Logger@el@@QAEXXZ@
+851  0x00086600 0x00488400 145 146  .data   ascii   .?AV<lambda_1>@?1??setGlobally@Configurations@el@@AAEXW4ConfigurationType@3@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z@
+852  0x000866a0 0x004884a0 61  62   .data   ascii   .?AV<lambda_1>@?1??resolveLoggerFormatSpec@Logger@el@@ABEXXZ@
+853  0x000866e8 0x004884e8 11  12   .data   ascii   .P6AXPBDI@Z
+854  0x00086700 0x00488500 56  57   .data   ascii   .?AV<lambda_1>@?1??initUnflushedCount@Logger@el@@AAEXXZ@
+855  0x00086748 0x00488548 151 152  .data   ascii   .?AV<lambda_1>@?1??unsafeSetGlobally@Configurations@el@@AAEXW4ConfigurationType@3@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z@
+856  0x000867e8 0x004885e8 24  25   .data   ascii   .?AVBitException@bit7z@@
+857  0x0008680c 0x0048860c 45  46   .data   ascii   .?AV<lambda_4>@?1???0CArchiveFactory@@QAE@XZ@
+858  0x00086844 0x00488644 45  46   .data   ascii   .?AV<lambda_1>@?1???0CArchiveFactory@@QAE@XZ@
+859  0x0008687c 0x0048867c 45  46   .data   ascii   .?AV<lambda_3>@?1???0CArchiveFactory@@QAE@XZ@
+860  0x000868b4 0x004886b4 45  46   .data   ascii   .?AV<lambda_5>@?1???0CArchiveFactory@@QAE@XZ@
+861  0x000868ec 0x004886ec 45  46   .data   ascii   .?AV<lambda_2>@?1???0CArchiveFactory@@QAE@XZ@
+862  0x00086924 0x00488724 20  21   .data   ascii   .P6AHABU_MsgData@@@Z
+863  0x00086944 0x00488744 38  39   .data   ascii   .?AVinvalid_iterator@detail@nlohmann@@
+864  0x00086974 0x00488774 34  35   .data   ascii   .?AVout_of_range@detail@nlohmann@@
+865  0x000869a0 0x004887a0 33  34   .data   ascii   .?AVparse_error@detail@nlohmann@@
+866  0x000869d0 0x004887d0 96  97   .data   ascii   .?AV?$_Binder@U_Unforced@std@@P8CClient@NETCLIENT@@AEHABU_MsgData@@@ZPAV34@ABU?$_Ph@$00@2@@std@@
+867  0x00086a3c 0x0048883c 31  32   .data   ascii   .?AVtask_canceled@Concurrency@@
+868  0x00086a68 0x00488868 475 476  .data   ascii   .?AV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@std@@@?$_Task_async_state@H@std@@QAE@$$QAV?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@2@@Z@
+869  0x00086c4c 0x00488a4c 21  22   .data   ascii   .?AVlogic_error@std@@
+870  0x00086c70 0x00488a70 137 138  .data   ascii   .?AV<lambda_1>@?7???R0?4??_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QAEXPAU_ContinuationTaskHandleBase@34@@Z@QBE@XZ@
+871  0x00086d08 0x00488b08 118 119  .data   ascii   .?AV<lambda_1>@?1??_MakeVoidToUnitFunc@details@Concurrency@@YA?AV?$function@$$A6AEXZ@std@@ABV?$function@$$A6AXXZ@5@@Z@
+872  0x00086d88 0x00488b88 22  23   .data   ascii   .?AVfuture_error@std@@
+873  0x00086da8 0x00488ba8 211 212  .data   ascii   .?AV?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@std@@
+874  0x00086e84 0x00488c84 49  50   .data   ascii   .?AV_Interruption_exception@details@Concurrency@@
+875  0x00086ec0 0x00488cc0 157 158  .data   ascii   .?AV<lambda_1>@?CC@??_CancelAndRunContinuations@?$_Task_impl@E@details@Concurrency@@UAE_N_N00ABV?$shared_ptr@U_ExceptionHolder@details@Concurrency@@@std@@@Z@
+876  0x00086f68 0x00488d68 35  36   .data   ascii   .?AVinvalid_operation@Concurrency@@
+877  0x00086f98 0x00488d98 123 124  .data   ascii   .?AV<lambda_1>@?4??_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QAEXPAU_ContinuationTaskHandleBase@34@@Z@
+878  0x00087020 0x00488e20 449 450  .data   ascii   .?AV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@std@@@?$_Task_async_state@H@std@@QAE@$$QAV?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@2@@Z@
+879  0x000871f0 0x00488ff0 198 199  .data   ascii   .?AV?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@std@@
+880  0x000872c0 0x004890c0 15  16   .data   ascii   .?AVtype_info@@
+881  0x000872d8 0x004890d8 71  72   .data   ascii   .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+882  0x00087328 0x00489128 20  21   .data   ascii   .?AVWriter@base@el@@
+883  0x00087348 0x00489148 68  69   .data   ascii   .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+884  0x00087398 0x00489198 18  19   .data   ascii   .?AVios_base@std@@
+885  0x000873b4 0x004891b4 50  51   .data   ascii   .?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+886  0x000873f0 0x004891f0 19  20   .data   ascii   .?AV?$_Iosb@H@std@@
+887  0x0008740c 0x0048920c 51  52   .data   ascii   .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+888  0x00087448 0x00489248 28  29   .data   ascii   .?AV?$_Func_base@_NPBD@std@@
+889  0x00087470 0x00489270 49  50   .data   ascii   .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+890  0x000874ac 0x004892ac 20  21   .data   ascii   .?AVNoCopy@base@el@@
+891  0x000874cc 0x004892cc 45  46   .data   ascii   .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+892  0x00087504 0x00489304 49  50   .data   ascii   .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+893  0x00087540 0x00489340 123 124  .data   ascii   .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CCommandParser@IRSC@@AE_NPBD@ZPAV34@ABU?$_Ph@$00@2@@std@@_NPBD@std@@
+894  0x000875c8 0x004893c8 72  73   .data   ascii   .?AV?$RegistryWithPred@VConfiguration@el@@VPredicate@12@@utils@base@el@@
+895  0x0008761c 0x0048941c 41  42   .data   ascii   .?AV?$_Ref_count@VStorage@base@el@@@std@@
+896  0x00087650 0x00489450 18  19   .data   ascii   .?AV_Node_if@std@@
+897  0x0008766c 0x0048946c 34  35   .data   ascii   .?AVThreadSafe@threading@base@el@@
+898  0x00087698 0x00489498 19  20   .data   ascii   .?AVLogBuilder@el@@
+899  0x000876b4 0x004894b4 21  22   .data   ascii   .?AV?$collate@D@std@@
+900  0x000876d4 0x004894d4 23  24   .data   ascii   .?AV?$_Node_str@D@std@@
+901  0x000876f4 0x004894f4 23  24   .data   ascii   .?AV_Node_end_rep@std@@
+902  0x00087714 0x00489514 25  26   .data   ascii   .?AV_Node_end_group@std@@
+903  0x00087738 0x00489538 20  21   .data   ascii   .?AV_Node_back@std@@
+904  0x00087758 0x00489558 21  22   .data   ascii   .?AV_Facet_base@std@@
+905  0x00087778 0x00489578 25  26   .data   ascii   .?AU_Crt_new_delete@std@@
+906  0x0008779c 0x0048959c 20  21   .data   ascii   .?AV_Node_base@std@@
+907  0x000877c0 0x004895c0 135 136  .data   ascii   .?AV?$AbstractRegistry@VConfiguration@el@@V?$vector@PAVConfiguration@el@@V?$allocator@PAVConfiguration@el@@@std@@@std@@@utils@base@el@@
+908  0x00087850 0x00489650 72  73   .data   ascii   .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+909  0x000878a4 0x004896a4 51  52   .data   ascii   .?AV?$_Ref_count@VDefaultLogBuilder@base@el@@@std@@
+910  0x000878e0 0x004896e0 20  21   .data   ascii   .?AV_Root_node@std@@
+911  0x00087900 0x00489700 22  23   .data   ascii   .?AVfacet@locale@std@@
+912  0x00087920 0x00489720 22  23   .data   ascii   .?AV_Node_assert@std@@
+913  0x00087940 0x00489740 23  24   .data   ascii   .?AVConfigurations@el@@
+914  0x00087960 0x00489760 25  26   .data   ascii   .?AV_Ref_count_base@std@@
+915  0x00087984 0x00489784 31  32   .data   ascii   .?AVDefaultLogBuilder@base@el@@
+916  0x000879ac 0x004897ac 19  20   .data   ascii   .?AV_Node_rep@std@@
+917  0x000879c8 0x004897c8 48  49   .data   ascii   .?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
+918  0x00087a04 0x00489804 23  24   .data   ascii   .?AV_Node_capture@std@@
+919  0x00087a24 0x00489824 21  22   .data   ascii   .?AV_Node_endif@std@@
+920  0x00087a48 0x00489848 134 135  .data   ascii   .?AV?$_Ref_count_obj2@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
+921  0x00087ad8 0x004898d8 109 110  .data   ascii   .?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@
+922  0x00087b50 0x00489950 72  73   .data   ascii   .?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+923  0x00087ba4 0x004899a4 49  50   .data   ascii   .?AU?$output_adapter_protocol@D@detail@nlohmann@@
+924  0x00087be0 0x004899e0 24  25   .data   ascii   .?AVerror_category@std@@
+925  0x00087c04 0x00489a04 32  33   .data   ascii   .?AV_System_error_category@std@@
+926  0x00087c30 0x00489a30 33  34   .data   ascii   .?AV_Generic_error_category@std@@
+927  0x00087c60 0x00489a60 60  61   .data   ascii   .?AV?$_Ref_count_obj2@U_Dir_enum_impl@filesystem@std@@@std@@
+928  0x00087ca8 0x00489aa8 49  50   .data   ascii   .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+929  0x00087ce4 0x00489ae4 22  23   .data   ascii   .?AVConfiguration@el@@
+930  0x00087d04 0x00489b04 49  50   .data   ascii   .?AV?$basic_fstream@DU?$char_traits@D@std@@@std@@
+931  0x00087d40 0x00489b40 41  42   .data   ascii   .?AV?$Callback@VLogDispatchData@el@@@el@@
+932  0x00087d74 0x00489b74 23  24   .data   ascii   .?AVVRegistry@base@el@@
+933  0x00087d94 0x00489b94 50  51   .data   ascii   .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+934  0x00087dd0 0x00489bd0 28  29   .data   ascii   .?AV?$_Func_base@XPBDI@std@@
+935  0x00087df8 0x00489bf8 60  61   .data   ascii   .?AV?$_Ref_count@VDefaultLogDispatchCallback@base@el@@@std@@
+936  0x00087e40 0x00489c40 179 180  .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??setGlobally@Configurations@el@@AAEXW4ConfigurationType@4@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z@_N$$V@std@@
+937  0x00087f00 0x00489d00 141 142  .data   ascii   .?AV?$AbstractRegistry@VHitCounter@base@el@@V?$vector@PAVHitCounter@base@el@@V?$allocator@PAVHitCounter@base@el@@@std@@@std@@@utils@base@el@@
+938  0x00087f98 0x00489d98 47  48   .data   ascii   .?AV?$_Func_impl_no_alloc@P6AXPBDI@ZXPBDI@std@@
+939  0x00087fd0 0x00489dd0 33  34   .data   ascii   .?AVTypedConfigurations@base@el@@
+940  0x00087ffc 0x00489dfc 35  36   .data   ascii   .?AVRegisteredHitCounters@base@el@@
+941  0x00088028 0x00489e28 105 106  .data   ascii   .?AV?$Registry@VLogger@el@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@utils@base@el@@
+942  0x0008809c 0x00489e9c 28  29   .data   ascii   .?AV?$_Func_base@_N$$V@std@@
+943  0x000880c4 0x00489ec4 23  24   .data   ascii   .?AVLogFormat@base@el@@
+944  0x000880e8 0x00489ee8 75  76   .data   ascii   .?AV?$RegistryWithPred@VHitCounter@base@el@@VPredicate@123@@utils@base@el@@
+945  0x0008813c 0x00489f3c 28  29   .data   ascii   .?AVLogDispatchCallback@el@@
+946  0x00088168 0x00489f68 90  91   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??initUnflushedCount@Logger@el@@AAEXXZ@_N$$V@std@@
+947  0x000881cc 0x00489fcc 17  18   .data   ascii   .?AVLoggable@el@@
+948  0x000881e8 0x00489fe8 31  32   .data   ascii   .?AVRegisteredLoggers@base@el@@
+949  0x00088210 0x0048a010 15  16   .data   ascii   .?AVLogger@el@@
+950  0x00088228 0x0048a028 95  96   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??resolveLoggerFormatSpec@Logger@el@@ABEXXZ@_N$$V@std@@
+951  0x00088290 0x0048a090 85  86   .data   ascii   .?AV?$NoScopedLock@VNoMutex@internal@threading@base@el@@@internal@threading@base@el@@
+952  0x000882f0 0x0048a0f0 410 411  .data   ascii   .?AV?$AbstractRegistry@VLogger@el@@V?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVLogger@el@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVLogger@el@@@std@@@2@@std@@@utils@base@el@@
+953  0x00088498 0x0048a298 69  70   .data   ascii   .?AV?$_Ref_count@V?$basic_fstream@DU?$char_traits@D@std@@@std@@@std@@
+954  0x000884e8 0x0048a2e8 40  41   .data   ascii   .?AVDefaultLogDispatchCallback@base@el@@
+955  0x0008851c 0x0048a31c 35  36   .data   ascii   .?AVCommandLineArgs@utils@base@el@@
+956  0x00088548 0x0048a348 77  78   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??flush@Logger@el@@QAEXXZ@_N$$V@std@@
+957  0x000885a0 0x0048a3a0 24  25   .data   ascii   .?AVHitCounter@base@el@@
+958  0x000885c8 0x0048a3c8 485 486  .data   ascii   .?AV?$_Ref_count_obj2@V?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@V?$basic_fstream@DU?$char_traits@D@std@@@std@@@2@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@V?$basic_fstream@DU?$char_traits@D@std@@@std@@@2@@std@@@2@@std@@@std@@
+959  0x000887b8 0x0048a5b8 185 186  .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??unsafeSetGlobally@Configurations@el@@AAEXW4ConfigurationType@4@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z@_N$$V@std@@
+960  0x0008887c 0x0048a67c 21  22   .data   ascii   .?AVStorage@base@el@@
+961  0x0008889c 0x0048a69c 18  19   .data   ascii   .?AVIArchiveInfo@@
+962  0x000888b8 0x0048a6b8 20  21   .data   ascii   .?AVCArchive7zInfo@@
+963  0x000888d8 0x0048a6d8 94  95   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1???0CArchiveFactory@@QAE@XZ@PAVIArchiveInfo@@$$V@std@@
+964  0x00088940 0x0048a740 94  95   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0CArchiveFactory@@QAE@XZ@PAVIArchiveInfo@@$$V@std@@
+965  0x000889a8 0x0048a7a8 94  95   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_5>@?1???0CArchiveFactory@@QAE@XZ@PAVIArchiveInfo@@$$V@std@@
+966  0x00088a10 0x0048a810 94  95   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1???0CArchiveFactory@@QAE@XZ@PAVIArchiveInfo@@$$V@std@@
+967  0x00088a78 0x0048a878 94  95   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1???0CArchiveFactory@@QAE@XZ@PAVIArchiveInfo@@$$V@std@@
+968  0x00088ae0 0x0048a8e0 43  44   .data   ascii   .?AV?$_Func_base@PAVIArchiveInfo@@$$V@std@@
+969  0x00088b18 0x0048a918 57  58   .data   ascii   .?AV?$_Func_impl_no_alloc@P6AHABU_MsgData@@@ZHABU1@@std@@
+970  0x00088b5c 0x0048a95c 37  38   .data   ascii   .?AV?$_Func_base@HABU_MsgData@@@std@@
+971  0x00088b90 0x0048a990 139 140  .data   ascii   .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CClient@NETCLIENT@@AEHABU_MsgData@@@ZPAV34@ABU?$_Ph@$00@2@@std@@HABU_MsgData@@@std@@
+972  0x00088c24 0x0048aa24 22  23   .data   ascii   .?AVCArchiveRar4Info@@
+973  0x00088c44 0x0048aa44 22  23   .data   ascii   .?AVCArchiveRar5Info@@
+974  0x00088c64 0x0048aa64 33  34   .data   ascii   .?AV_Future_error_category2@std@@
+975  0x00088c90 0x0048aa90 67  68   .data   ascii   .?AV?$_Ref_count_obj2@U_ExceptionHolder@details@Concurrency@@@std@@
+976  0x00088ce0 0x0048aae0 244 245  .data   ascii   .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@std@@H$$V@std@@
+977  0x00088de0 0x0048abe0 31  32   .data   ascii   .?AV?$_Associated_state@H@std@@
+978  0x00088e08 0x0048ac08 564 565  .data   ascii   .?AU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@std@@@?$_Task_async_state@H@std@@QAE@$$QAV?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
+979  0x00089048 0x0048ae48 632 633  .data   ascii   .?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@std@@@?$_Task_async_state@H@std@@QAE@$$QAV?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
+980  0x000892d0 0x0048b0d0 193 194  .data   ascii   .?AV?$_CancellationTokenCallback@V<lambda_1>@?1??_RegisterCancellation@_Task_impl_base@details@Concurrency@@QAEXV?$weak_ptr@U_Task_impl_base@details@Concurrency@@@std@@@Z@@details@Concurrency@@
+981  0x0008939c 0x0048b19c 40  41   .data   ascii   .?AU?$_Task_impl@E@details@Concurrency@@
+982  0x000893d0 0x0048b1d0 27  28   .data   ascii   .?AV?$_Func_base@X$$V@std@@
+983  0x000893f4 0x0048b1f4 21  22   .data   ascii   .?AVCArchiveRarInfo@@
+984  0x00089418 0x0048b218 170 171  .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?7???R1?4??_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QAEXPAU_ContinuationTaskHandleBase@45@@Z@QBE@XZ@X$$V@std@@
+985  0x000894cc 0x0048b2cc 37  38   .data   ascii   .?AV_RefCounter@details@Concurrency@@
+986  0x000894fc 0x0048b2fc 36  37   .data   ascii   .?AV?$_Packaged_state@$$A6AHXZ@std@@
+987  0x00089530 0x0048b330 190 191  .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?CC@??_CancelAndRunContinuations@?$_Task_impl@E@details@Concurrency@@UAE_N_N00ABV?$shared_ptr@U_ExceptionHolder@details@Concurrency@@@std@@@Z@X$$V@std@@
+988  0x000895f8 0x0048b3f8 65  66   .data   ascii   .?AV?$_Ref_count_obj2@U?$_Task_impl@E@details@Concurrency@@@std@@
+989  0x00089648 0x0048b448 156 157  .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QAEXPAU_ContinuationTaskHandleBase@45@@Z@X$$V@std@@
+990  0x000896f0 0x0048b4f0 27  28   .data   ascii   .?AV?$_Func_base@E$$V@std@@
+991  0x00089714 0x0048b514 41  42   .data   ascii   .?AU_TaskProcHandle@details@Concurrency@@
+992  0x00089748 0x0048b548 27  28   .data   ascii   .?AV?$_Func_base@H$$V@std@@
+993  0x0008976c 0x0048b56c 31  32   .data   ascii   .?AV?$_Task_async_state@H@std@@
+994  0x00089798 0x0048b598 151 152  .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??_MakeVoidToUnitFunc@details@Concurrency@@YA?AV?$function@$$A6AEXZ@std@@ABV?$function@$$A6AXXZ@6@@Z@E$$V@std@@
+995  0x00089838 0x0048b638 56  57   .data   ascii   .?AV_CancellationTokenRegistration@details@Concurrency@@
+996  0x00089880 0x0048b680 508 509  .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@std@@@?$_Task_async_state@H@std@@QAE@$$QAV?$_Fake_no_copy_callable_adapter@AAV<lambda_1>@?1??AnalysisData@CArchiveRarInfo@@UAE_NPAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1V?$function@$$A6AHABU_MsgData@@@Z@5@AAV45@_N@Z@@3@@Z@X$$V@std@@
+997  0x00089a88 0x0048b888 41  42   .data   ascii   .?AU_Task_impl_base@details@Concurrency@@
+998  0x00089ac0 0x0048b8c0 482 483  .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@std@@@?$_Task_async_state@H@std@@QAE@$$QAV?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@3@@Z@X$$V@std@@
+999  0x00089cb0 0x0048bab0 231 232  .data   ascii   .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@std@@H$$V@std@@
+1000 0x00089da0 0x0048bba0 606 607  .data   ascii   .?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@std@@@?$_Task_async_state@H@std@@QAE@$$QAV?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
+1001 0x0008a008 0x0048be08 21  22   .data   ascii   .?AVCArchiveZipInfo@@
+1002 0x0008a028 0x0048be28 538 539  .data   ascii   .?AU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@std@@@?$_Task_async_state@H@std@@QAE@$$QAV?$_Fake_no_copy_callable_adapter@A6AHPBEI0_KAAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@1@ZPBEIAAPBEAA_KV?$reference_wrapper@V?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@2@AA_K@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
+1003 0x0008a460 0x0048d060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

@@ -1,0 +1,1232 @@
+[Strings]
+nth  paddr      vaddr       len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0    0x00047040 0x180048440 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1    0x00047080 0x180048480 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+2    0x000470c0 0x1800484c0 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+3    0x000470d8 0x1800484d8 22  23   .rdata  ascii   RefsFileSystemAnalyser
+4    0x000470f0 0x1800484f0 29  30   .rdata  ascii   CRefsFileSystemAnalyserModule
+5    0x00047110 0x180048510 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+6    0x00047150 0x180048550 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+7    0x00047190 0x180048590 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+8    0x00048168 0x180049568 9   10   .rdata  ascii   GetModule
+9    0x00048188 0x180049588 5   6    .rdata  ascii   Error
+10   0x000487a8 0x180049ba8 6   7    .rdata  ascii   Thread
+11   0x00048a10 0x180049e10 18  19   .rdata  ascii   vector<T> too long
+12   0x00048a28 0x180049e28 15  16   .rdata  ascii   string too long
+13   0x00048af8 0x180049ef8 19  20   .rdata  ascii   map/set<T> too long
+14   0x00048b90 0x180049f90 19  20   .rdata  ascii   CRefsVolumeAnalyser
+15   0x00048bd0 0x180049fd0 4   20   .rdata  utf32le SMDB
+16   0x00048bec 0x180049fec 9   20   .rdata  utf16le rceRemove
+17   0x00048c00 0x18004a000 8   18   .rdata  utf16le NoRemove
+18   0x00048c18 0x18004a018 6   14   .rdata  utf16le Delete
+19   0x00048c28 0x18004a028 25  52   .rdata  utf16le [RefsBitmapProc] %s fail!
+20   0x00048c60 0x18004a060 35  72   .rdata  utf16le RefsBitmapProc::CleanBitmapMarkProc
+21   0x00048ca8 0x18004a0a8 5   12   .rdata  utf16le AppID
+22   0x00048cb8 0x18004a0b8 5   12   .rdata  utf16le CLSID
+23   0x00048cc8 0x18004a0c8 20  42   .rdata  utf16le Component Categories
+24   0x00048cf8 0x18004a0f8 8   18   .rdata  utf16le FileType
+25   0x00048d10 0x18004a110 9   20   .rdata  utf16le Interface
+26   0x00048d28 0x18004a128 8   18   .rdata  utf16le Hardware
+27   0x00048d40 0x18004a140 4   10   .rdata  utf16le Mime
+28   0x00048d58 0x18004a158 8   18   .rdata  utf16le SECURITY
+29   0x00048d70 0x18004a170 6   14   .rdata  utf16le SYSTEM
+30   0x00048d80 0x18004a180 8   18   .rdata  utf16le Software
+31   0x00048d98 0x18004a198 7   16   .rdata  utf16le TypeLib
+32   0x00048da8 0x18004a1a8 11  24   .rdata  utf16le atlTraceCOM
+33   0x00048dc0 0x18004a1c0 41  84   .rdata  utf16le RefsProc::CRefsBasePart::ReadBufByCluster
+34   0x00048e18 0x18004a218 23  48   .rdata  utf16le [CRefsBasePart]%s fail!
+35   0x00048e48 0x18004a248 10  22   .rdata  utf16le atlTraceQI
+36   0x00048e60 0x18004a260 51  104  .rdata  utf16le [CRefsBasePart]%s fail!,cluster : %I64d,Length : %d
+37   0x00048ec8 0x18004a2c8 17  36   .rdata  utf16le atlTraceRegistrar
+38   0x00048ef0 0x18004a2f0 42  86   .rdata  utf16le RefsProc::CRefsBasePart::WriteBufByCluster
+39   0x00048f48 0x18004a348 15  32   .rdata  utf16le atlTraceGeneral
+40   0x00048f68 0x18004a368 16  34   .rdata  utf16le atlTraceRefcount
+41   0x00048f90 0x18004a390 51  104  .rdata  utf16le [CRefsBasePart]%s fail!,cluster : %I64d,Length : %d
+42   0x00048ff8 0x18004a3f8 17  36   .rdata  utf16le atlTraceWindowing
+43   0x00049020 0x18004a420 41  84   .rdata  utf16le RefsProc::CRefsBasePart::ReadBufBySectors
+44   0x00049078 0x18004a478 23  48   .rdata  utf16le [CRefsBasePart]%s fail!
+45   0x000490a8 0x18004a4a8 16  34   .rdata  utf16le atlTraceControls
+46   0x000490d0 0x18004a4d0 42  86   .rdata  utf16le RefsProc::CRefsBasePart::WriteBufBySectors
+47   0x00049128 0x18004a528 15  32   .rdata  utf16le atlTraceHosting
+48   0x00049148 0x18004a548 16  34   .rdata  utf16le atlTraceDBClient
+49   0x00049170 0x18004a570 37  76   .rdata  utf16le [CRefsBasePart]Log file info invalid!
+50   0x000491c0 0x18004a5c0 18  38   .rdata  utf16le atlTraceDBProvider
+51   0x000491e8 0x18004a5e8 14  30   .rdata  utf16le atlTraceSnapin
+52   0x00049208 0x18004a608 15  32   .rdata  utf16le atlTraceNotImpl
+53   0x00049228 0x18004a628 18  38   .rdata  utf16le atlTraceAllocation
+54   0x00049250 0x18004a650 44  90   .rdata  utf16le RefsProc::CRefsBasePart::IsBlockRefContinous
+55   0x000492b0 0x18004a6b0 40  82   .rdata  utf16le [CRefsBasePart] %s fail!,%I64x --> %I64x
+56   0x00049308 0x18004a708 22  46   .rdata  utf16le [CRefsAnalyze]%s fail!
+57   0x00049338 0x18004a738 17  36   .rdata  utf16le atlTraceException
+58   0x00049360 0x18004a760 43  88   .rdata  utf16le RefsProc::CRefsBasePart::NotifyBlockRefItem
+59   0x000493b8 0x18004a7b8 11  24   .rdata  utf16le atlTraceMap
+60   0x000493d0 0x18004a7d0 46  94   .rdata  utf16le [CRefsBasePart] %s fail!,%I64x,%I64x --> %I64x
+61   0x00049430 0x18004a830 43  88   .rdata  utf16le [CRefsBasePart] ---- items overheap ,%d !!!
+62   0x00049488 0x18004a888 16  34   .rdata  utf16le atlTraceSecurity
+63   0x000494b0 0x18004a8b0 35  72   .rdata  utf16le RefsProc::CRefsAnalyze::AnalyzeProc
+64   0x000494f8 0x18004a8f8 12  26   .rdata  utf16le atlTraceTime
+65   0x00049518 0x18004a918 13  28   .rdata  utf16le atlTraceCache
+66   0x00049538 0x18004a938 15  32   .rdata  utf16le atlTraceStencil
+67   0x00049560 0x18004a960 42  86   .rdata  utf16le RefsProc::CRefsAnalyze::IdentifyBitmapProc
+68   0x000495b8 0x18004a9b8 22  46   .rdata  utf16le [CRefsAnalyze]%s fail!
+69   0x000495e8 0x18004a9e8 14  30   .rdata  utf16le atlTraceString
+70   0x00049608 0x18004aa08 12  26   .rdata  utf16le atlTraceUtil
+71   0x00049628 0x18004aa28 12  26   .rdata  utf16le atlTraceSync
+72   0x00049650 0x18004aa50 41  84   .rdata  utf16le RefsProc::CRefsAnalyze::MarkMsbUpdateProc
+73   0x000496a8 0x18004aaa8 22  46   .rdata  utf16le [CRefsAnalyze]%s fail!
+74   0x000496d8 0x18004aad8 13  28   .rdata  utf16le atlTraceISAPI
+75   0x00049700 0x18004ab00 39  80   .rdata  utf16le RefsProc::CRefsAnalyze::MergeBitmapProc
+76   0x00049750 0x18004ab50 22  46   .rdata  utf16le [CRefsAnalyze]%s fail!
+77   0x00049780 0x18004ab80 34  70   .rdata  utf16le [CRefsAnalyze]0x%x msb not found !
+78   0x000497d0 0x18004abd0 45  92   .rdata  utf16le RefsProc::CRefsAnalyze::AdditionalAnalyzeProc
+79   0x00049830 0x18004ac30 22  46   .rdata  utf16le [CRefsAnalyze]%s fail!
+80   0x00049860 0x18004ac60 43  88   .rdata  utf16le RefsProc::CRefsAnalyze::CollectDataRunsProc
+81   0x000498b8 0x18004acb8 22  46   .rdata  utf16le [CRefsAnalyze]%s fail!
+82   0x0004a380 0x18004b780 16  17   .rdata  ascii   list<T> too long
+83   0x0004a3d0 0x18004b7d0 4   20   .rdata  utf32le SMDB
+84   0x0004a3ec 0x18004b7ec 9   20   .rdata  utf16le rceRemove
+85   0x0004a400 0x18004b800 8   18   .rdata  utf16le NoRemove
+86   0x0004a418 0x18004b818 6   14   .rdata  utf16le Delete
+87   0x0004a428 0x18004b828 5   12   .rdata  utf16le AppID
+88   0x0004a448 0x18004b848 20  42   .rdata  utf16le Component Categories
+89   0x0004a478 0x18004b878 8   18   .rdata  utf16le FileType
+90   0x0004a490 0x18004b890 9   20   .rdata  utf16le Interface
+91   0x0004a4a8 0x18004b8a8 8   18   .rdata  utf16le Hardware
+92   0x0004a4c0 0x18004b8c0 4   10   .rdata  utf16le Mime
+93   0x0004a4d8 0x18004b8d8 8   18   .rdata  utf16le SECURITY
+94   0x0004a4f0 0x18004b8f0 6   14   .rdata  utf16le SYSTEM
+95   0x0004a500 0x18004b900 8   18   .rdata  utf16le Software
+96   0x0004a518 0x18004b918 7   16   .rdata  utf16le TypeLib
+97   0x0004a528 0x18004b928 11  24   .rdata  utf16le atlTraceCOM
+98   0x0004a565 0x18004b965 4   6    .rdata  utf8    ۲x8(
+99   0x0004a584 0x18004b984 5   8    .rdata  utf8    lD5☷e
+100  0x0004a672 0x18004ba72 5   6    .rdata  ascii   8\foQS
+101  0x0004a68c 0x18004ba8c 4   5    .rdata  ascii   ')uB
+102  0x0004a6ea 0x18004baea 5   6    .rdata  ascii   $\nY8O
+103  0x0004a724 0x18004bb24 6   8    .rdata  utf8    O*\t5|z
+104  0x0004a752 0x18004bb52 5   6    .rdata  ascii   lEd/\a
+105  0x0004a790 0x18004bb90 5   6    .rdata  ascii   \bk2U\v
+106  0x0004a79e 0x18004bb9e 4   6    .rdata  utf8    bFؤq
+107  0x0004a7ac 0x18004bbac 4   5    .rdata  ascii   ,W!\v
+108  0x0004a7bb 0x18004bbbb 4   7    .rdata  utf8    >3;̦
+109  0x0004a7c5 0x18004bbc5 4   5    .rdata  ascii   6 PQ
+110  0x0004a7ca 0x18004bbca 5   6    .rdata  ascii   pCRF\e
+111  0x0004a7dc 0x18004bbdc 4   6    .rdata  utf8    Mсvi
+112  0x0004a7ef 0x18004bbef 4   5    .rdata  ascii   ;vz\b
+113  0x0004a860 0x18004bc60 5   6    .rdata  ascii   \v~TI\b
+114  0x0004a8a2 0x18004bca2 5   6    .rdata  ascii   \nYg:a
+115  0x0004a8ad 0x18004bcad 5   6    .rdata  ascii   JZJ{.
+116  0x0004a935 0x18004bd35 4   5    .rdata  ascii   #FLR
+117  0x0004a93b 0x18004bd3b 4   5    .rdata  ascii   _QS}
+118  0x0004a940 0x18004bd40 15  32   .rdata  utf16le atlTraceGeneral
+119  0x0004a960 0x18004bd60 10  22   .rdata  utf16le atlTraceQI
+120  0x0004a978 0x18004bd78 17  36   .rdata  utf16le atlTraceRegistrar
+121  0x0004a9a0 0x18004bda0 16  34   .rdata  utf16le atlTraceRefcount
+122  0x0004a9c8 0x18004bdc8 17  36   .rdata  utf16le atlTraceWindowing
+123  0x0004a9f0 0x18004bdf0 16  34   .rdata  utf16le atlTraceControls
+124  0x0004aa18 0x18004be18 15  32   .rdata  utf16le atlTraceHosting
+125  0x0004aa38 0x18004be38 16  34   .rdata  utf16le atlTraceDBClient
+126  0x0004aa60 0x18004be60 18  38   .rdata  utf16le atlTraceDBProvider
+127  0x0004aa88 0x18004be88 14  30   .rdata  utf16le atlTraceSnapin
+128  0x0004aaa8 0x18004bea8 15  32   .rdata  utf16le atlTraceNotImpl
+129  0x0004aac8 0x18004bec8 18  38   .rdata  utf16le atlTraceAllocation
+130  0x0004aaf0 0x18004bef0 17  36   .rdata  utf16le atlTraceException
+131  0x0004ab18 0x18004bf18 12  26   .rdata  utf16le atlTraceTime
+132  0x0004ab38 0x18004bf38 13  28   .rdata  utf16le atlTraceCache
+133  0x0004ab58 0x18004bf58 15  32   .rdata  utf16le atlTraceStencil
+134  0x0004ab78 0x18004bf78 14  30   .rdata  utf16le atlTraceString
+135  0x0004ab98 0x18004bf98 11  24   .rdata  utf16le atlTraceMap
+136  0x0004abb0 0x18004bfb0 12  26   .rdata  utf16le atlTraceUtil
+137  0x0004abd0 0x18004bfd0 16  34   .rdata  utf16le atlTraceSecurity
+138  0x0004abf8 0x18004bff8 12  26   .rdata  utf16le atlTraceSync
+139  0x0004ac18 0x18004c018 13  28   .rdata  utf16le atlTraceISAPI
+140  0x0004ac40 0x18004c040 11  24   .rdata  utf16le SYSTEMDRIVE
+141  0x0004ac58 0x18004c058 8   18   .rdata  utf16le refsutil
+142  0x0004ac70 0x18004c070 7   16   .rdata  utf16le fixboot
+143  0x0004ac80 0x18004c080 4   10   .rdata  utf16le 4096
+144  0x0004ad60 0x18004c160 4   20   .rdata  utf32le SMDB
+145  0x0004ad7c 0x18004c17c 9   20   .rdata  utf16le rceRemove
+146  0x0004ad90 0x18004c190 8   18   .rdata  utf16le NoRemove
+147  0x0004ada8 0x18004c1a8 6   14   .rdata  utf16le Delete
+148  0x0004adb8 0x18004c1b8 5   12   .rdata  utf16le AppID
+149  0x0004adc8 0x18004c1c8 5   12   .rdata  utf16le CLSID
+150  0x0004add8 0x18004c1d8 20  42   .rdata  utf16le Component Categories
+151  0x0004ae08 0x18004c208 8   18   .rdata  utf16le FileType
+152  0x0004ae20 0x18004c220 9   20   .rdata  utf16le Interface
+153  0x0004ae38 0x18004c238 8   18   .rdata  utf16le Hardware
+154  0x0004ae50 0x18004c250 4   10   .rdata  utf16le Mime
+155  0x0004ae68 0x18004c268 8   18   .rdata  utf16le SECURITY
+156  0x0004ae80 0x18004c280 6   14   .rdata  utf16le SYSTEM
+157  0x0004ae90 0x18004c290 8   18   .rdata  utf16le Software
+158  0x0004aea8 0x18004c2a8 7   16   .rdata  utf16le TypeLib
+159  0x0004aeb8 0x18004c2b8 15  32   .rdata  utf16le atlTraceGeneral
+160  0x0004aed8 0x18004c2d8 11  24   .rdata  utf16le atlTraceCOM
+161  0x0004aef0 0x18004c2f0 10  22   .rdata  utf16le atlTraceQI
+162  0x0004af08 0x18004c308 17  36   .rdata  utf16le atlTraceRegistrar
+163  0x0004af30 0x18004c330 16  34   .rdata  utf16le atlTraceRefcount
+164  0x0004af58 0x18004c358 17  36   .rdata  utf16le atlTraceWindowing
+165  0x0004af80 0x18004c380 16  34   .rdata  utf16le atlTraceControls
+166  0x0004afa8 0x18004c3a8 15  32   .rdata  utf16le atlTraceHosting
+167  0x0004afc8 0x18004c3c8 16  34   .rdata  utf16le atlTraceDBClient
+168  0x0004aff0 0x18004c3f0 18  38   .rdata  utf16le atlTraceDBProvider
+169  0x0004b018 0x18004c418 14  30   .rdata  utf16le atlTraceSnapin
+170  0x0004b038 0x18004c438 15  32   .rdata  utf16le atlTraceNotImpl
+171  0x0004b058 0x18004c458 18  38   .rdata  utf16le atlTraceAllocation
+172  0x0004b080 0x18004c480 17  36   .rdata  utf16le atlTraceException
+173  0x0004b0a8 0x18004c4a8 12  26   .rdata  utf16le atlTraceTime
+174  0x0004b0c8 0x18004c4c8 13  28   .rdata  utf16le atlTraceCache
+175  0x0004b0e8 0x18004c4e8 15  32   .rdata  utf16le atlTraceStencil
+176  0x0004b108 0x18004c508 14  30   .rdata  utf16le atlTraceString
+177  0x0004b128 0x18004c528 11  24   .rdata  utf16le atlTraceMap
+178  0x0004b140 0x18004c540 12  26   .rdata  utf16le atlTraceUtil
+179  0x0004b160 0x18004c560 16  34   .rdata  utf16le atlTraceSecurity
+180  0x0004b188 0x18004c588 12  26   .rdata  utf16le atlTraceSync
+181  0x0004b1a8 0x18004c5a8 13  28   .rdata  utf16le atlTraceISAPI
+182  0x0004b1c8 0x18004c5c8 26  54   .rdata  utf16le [CalcFileDataRuns]%s fail!
+183  0x0004b200 0x18004c600 48  98   .rdata  utf16le RefsProc::CRefsFileDataRunItem::CalcFileDataRuns
+184  0x0004b268 0x18004c668 26  54   .rdata  utf16le [CalcFileDataRuns]%s fail!
+185  0x0004b2a0 0x18004c6a0 49  100  .rdata  utf16le RefsProc::CRefsFileDataRunItem::NotifyDataRunItem
+186  0x0004b560 0x18004c960 4   20   .rdata  utf32le SMDB
+187  0x0004b57c 0x18004c97c 9   20   .rdata  utf16le rceRemove
+188  0x0004b590 0x18004c990 8   18   .rdata  utf16le NoRemove
+189  0x0004b5a8 0x18004c9a8 6   14   .rdata  utf16le Delete
+190  0x0004b5b8 0x18004c9b8 5   12   .rdata  utf16le AppID
+191  0x0004b5d8 0x18004c9d8 20  42   .rdata  utf16le Component Categories
+192  0x0004b608 0x18004ca08 8   18   .rdata  utf16le FileType
+193  0x0004b620 0x18004ca20 9   20   .rdata  utf16le Interface
+194  0x0004b638 0x18004ca38 8   18   .rdata  utf16le Hardware
+195  0x0004b650 0x18004ca50 4   10   .rdata  utf16le Mime
+196  0x0004b668 0x18004ca68 8   18   .rdata  utf16le SECURITY
+197  0x0004b680 0x18004ca80 6   14   .rdata  utf16le SYSTEM
+198  0x0004b690 0x18004ca90 8   18   .rdata  utf16le Software
+199  0x0004b6a8 0x18004caa8 7   16   .rdata  utf16le TypeLib
+200  0x0004b6b8 0x18004cab8 15  32   .rdata  utf16le atlTraceGeneral
+201  0x0004b6d8 0x18004cad8 11  24   .rdata  utf16le atlTraceCOM
+202  0x0004b6f0 0x18004caf0 10  22   .rdata  utf16le atlTraceQI
+203  0x0004b708 0x18004cb08 17  36   .rdata  utf16le atlTraceRegistrar
+204  0x0004b730 0x18004cb30 16  34   .rdata  utf16le atlTraceRefcount
+205  0x0004b758 0x18004cb58 17  36   .rdata  utf16le atlTraceWindowing
+206  0x0004b780 0x18004cb80 16  34   .rdata  utf16le atlTraceControls
+207  0x0004b7b0 0x18004cbb0 86  174  .rdata  utf16le [CRefsBasicMsbProc] !!! Modify msb not match,cluster : 0x%I64x,0x%I64x --> 0x%I64x !!!
+208  0x0004b860 0x18004cc60 4   10   .rdata  utf16le .bin
+209  0x0004b870 0x18004cc70 45  92   .rdata  utf16le RefsProc::CRefsBasicMsbProc::SetEntryBlockDes
+210  0x0004b8d0 0x18004ccd0 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+211  0x0004b910 0x18004cd10 15  32   .rdata  utf16le atlTraceHosting
+212  0x0004b930 0x18004cd30 40  82   .rdata  utf16le RefsProc::CRefsBasicMsbProc::SetEntryIds
+213  0x0004b988 0x18004cd88 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+214  0x0004b9c8 0x18004cdc8 16  34   .rdata  utf16le atlTraceDBClient
+215  0x0004b9f0 0x18004cdf0 40  82   .rdata  utf16le RefsProc::CRefsBasicMsbProc::SetEntryIds
+216  0x0004ba48 0x18004ce48 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+217  0x0004ba88 0x18004ce88 18  38   .rdata  utf16le atlTraceDBProvider
+218  0x0004bab0 0x18004ceb0 42  86   .rdata  utf16le RefsProc::CRefsBasicMsbProc::SetClusterIds
+219  0x0004bb08 0x18004cf08 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+220  0x0004bb48 0x18004cf48 14  30   .rdata  utf16le atlTraceSnapin
+221  0x0004bb68 0x18004cf68 15  32   .rdata  utf16le atlTraceNotImpl
+222  0x0004bb88 0x18004cf88 18  38   .rdata  utf16le atlTraceAllocation
+223  0x0004bbb0 0x18004cfb0 43  88   .rdata  utf16le RefsProc::CRefsBasicMsbProc::AddDupItemProc
+224  0x0004bc08 0x18004d008 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+225  0x0004bc48 0x18004d048 17  36   .rdata  utf16le atlTraceException
+226  0x0004bc70 0x18004d070 43  88   .rdata  utf16le RefsProc::CRefsBasicMsbProc::AddDupItemProc
+227  0x0004bcc8 0x18004d0c8 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+228  0x0004bd08 0x18004d108 13  28   .rdata  utf16le atlTraceCache
+229  0x0004bd28 0x18004d128 15  32   .rdata  utf16le atlTraceStencil
+230  0x0004bd48 0x18004d148 11  24   .rdata  utf16le atlTraceMap
+231  0x0004bd60 0x18004d160 43  88   .rdata  utf16le RefsProc::CRefsBasicMsbProc::AddDupItemProc
+232  0x0004bdb8 0x18004d1b8 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+233  0x0004bdf8 0x18004d1f8 14  30   .rdata  utf16le atlTraceString
+234  0x0004be18 0x18004d218 16  34   .rdata  utf16le atlTraceSecurity
+235  0x0004be40 0x18004d240 42  86   .rdata  utf16le RefsProc::CRefsBasicMsbProc::ModifyMsbProc
+236  0x0004be98 0x18004d298 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+237  0x0004bed8 0x18004d2d8 12  26   .rdata  utf16le atlTraceTime
+238  0x0004bef8 0x18004d2f8 13  28   .rdata  utf16le atlTraceISAPI
+239  0x0004bf20 0x18004d320 45  92   .rdata  utf16le RefsProc::CRefsBasicMsbProc::MoveTransferProc
+240  0x0004bf80 0x18004d380 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+241  0x0004bfc0 0x18004d3c0 42  86   .rdata  utf16le RefsProc::CRefsBasicMsbProc::WriteToTgtVol
+242  0x0004c018 0x18004d418 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+243  0x0004c058 0x18004d458 12  26   .rdata  utf16le atlTraceUtil
+244  0x0004c080 0x18004d480 45  92   .rdata  utf16le RefsProc::CRefsBasicMsbProc::WriteBufToTgtVol
+245  0x0004c0e0 0x18004d4e0 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+246  0x0004c120 0x18004d520 12  26   .rdata  utf16le atlTraceSync
+247  0x0004c140 0x18004d540 43  88   .rdata  utf16le RefsProc::CRefsBasicMsbProc::ReadMsbBufProc
+248  0x0004c198 0x18004d598 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+249  0x0004c1e0 0x18004d5e0 45  92   .rdata  utf16le RefsProc::CRefsBasicMsbProc::ReadMsbToBufProc
+250  0x0004c240 0x18004d640 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+251  0x0004c280 0x18004d680 41  84   .rdata  utf16le RefsProc::CRefsBasicMsbProc::ReadMsbToBuf
+252  0x0004c2d8 0x18004d6d8 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+253  0x0004c320 0x18004d720 41  84   .rdata  utf16le RefsProc::CRefsBasicMsbProc::ParseBufProc
+254  0x0004c378 0x18004d778 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+255  0x0004c3c0 0x18004d7c0 50  102  .rdata  utf16le RefsProc::CRefsBasicMsbProc::IdentifyAndSetEntryId
+256  0x0004c428 0x18004d828 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+257  0x0004c470 0x18004d870 43  88   .rdata  utf16le RefsProc::CRefsChildMsbProc::ParseBufIoProc
+258  0x0004c4c8 0x18004d8c8 28  58   .rdata  utf16le [CRefsChildMsbProc] %s fail!
+259  0x0004c510 0x18004d910 44  90   .rdata  utf16le RefsProc::CRefsChildMsbDupProc::ParseBufProc
+260  0x0004c570 0x18004d970 31  64   .rdata  utf16le [CRefsChildMsbDupProc] %s fail!
+261  0x0004c5b0 0x18004d9b0 45  92   .rdata  utf16le RefsProc::CRefsChildMsbDupProc::ModifyMsbProc
+262  0x0004c610 0x18004da10 31  64   .rdata  utf16le [CRefsChildMsbDupProc] %s fail!
+263  0x0004d130 0x18004e530 23  24   .rdata  ascii   invalid string position
+264  0x0004d150 0x18004e550 44  90   .rdata  utf16le RefsProc::CRefsBasicMsbProc::AddChildMsbProc
+265  0x0004d1b0 0x18004e5b0 28  58   .rdata  utf16le [CRefsBasicMsbProc] %s fail!
+266  0x0004d1f0 0x18004e5f0 41  84   .rdata  utf16le RefsProc::CRefsObjectIdProc::ParseBufProc
+267  0x0004d24c 0x18004e64c 26  54   .rdata  utf16le RefsObjectIdProc] %s fail!
+268  0x0004d290 0x18004e690 48  98   .rdata  utf16le RefsProc::CRefsObjectIdProc::_processMetaObjProc
+269  0x0004d2fc 0x18004e6fc 26  54   .rdata  utf16le RefsObjectIdProc] %s fail!
+270  0x0004d340 0x18004e740 48  98   .rdata  utf16le RefsProc::CRefsObjectIdProc::_processOnlyVolInfo
+271  0x0004d3a8 0x18004e7a8 28  58   .rdata  utf16le [CRefsObjectIdProc] %s fail!
+272  0x0004d3f0 0x18004e7f0 11  24   .rdata  utf16le ForceRemove
+273  0x0004d408 0x18004e808 8   18   .rdata  utf16le NoRemove
+274  0x0004d420 0x18004e820 6   14   .rdata  utf16le Delete
+275  0x0004d430 0x18004e830 69  70   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\mod.librefs\refsmsbitem.cpp
+276  0x0004d478 0x18004e878 6   14   .rdata  utf16le %S %u\n
+277  0x0004d488 0x18004e888 27  56   .rdata  utf16le [CRefsLogFileProc] %s fail!
+278  0x0004d4c0 0x18004e8c0 69  70   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\mod.librefs\refsmsbitem.cpp
+279  0x0004d508 0x18004e908 6   14   .rdata  utf16le %S %u\n
+280  0x0004d518 0x18004e918 27  56   .rdata  utf16le [CRefsLogFileProc] %s fail!
+281  0x0004d550 0x18004e950 52  106  .rdata  utf16le [CRefsObjectIdProc] Can't get child msb by id %I64x!
+282  0x0004d5c0 0x18004e9c0 41  84   .rdata  utf16le RefsProc::CRefsObjIdDupProc::ParseBufProc
+283  0x0004d618 0x18004ea18 28  58   .rdata  utf16le [CRefsObjectIdProc] %s fail!
+284  0x0004d658 0x18004ea58 27  56   .rdata  utf16le [CRefsLogFileProc] %s fail!
+285  0x0004d690 0x18004ea90 46  94   .rdata  utf16le RefsProc::CRefsLogFileProc::PrepareAddDataProc
+286  0x0004d6f0 0x18004eaf0 39  80   .rdata  utf16le RefsProc::CRefsLogFileProc::AppDataProc
+287  0x0004d740 0x18004eb40 40  82   .rdata  utf16le RefsProc::CRefsLogFileProc::ParseBufProc
+288  0x0004d798 0x18004eb98 30  62   .rdata  utf16le [CRefsVolumeInfoProc] %s fail!
+289  0x0004d7d8 0x18004ebd8 8   18   .rdata  utf16le FileType
+290  0x0004d7f0 0x18004ebf0 43  88   .rdata  utf16le RefsProc::CRefsVolumeInfoProc::ParseBufProc
+291  0x0004d848 0x18004ec48 5   12   .rdata  utf16le AppID
+292  0x0004d858 0x18004ec58 5   12   .rdata  utf16le CLSID
+293  0x0004d868 0x18004ec68 20  42   .rdata  utf16le Component Categories
+294  0x0004d898 0x18004ec98 9   20   .rdata  utf16le Interface
+295  0x0004d8b0 0x18004ecb0 8   18   .rdata  utf16le Hardware
+296  0x0004d8c8 0x18004ecc8 4   10   .rdata  utf16le Mime
+297  0x0004d8e0 0x18004ece0 8   18   .rdata  utf16le SECURITY
+298  0x0004d8f8 0x18004ecf8 6   14   .rdata  utf16le SYSTEM
+299  0x0004d908 0x18004ed08 8   18   .rdata  utf16le Software
+300  0x0004d920 0x18004ed20 7   16   .rdata  utf16le TypeLib
+301  0x0004d930 0x18004ed30 15  32   .rdata  utf16le atlTraceGeneral
+302  0x0004d950 0x18004ed50 11  24   .rdata  utf16le atlTraceCOM
+303  0x0004d968 0x18004ed68 10  22   .rdata  utf16le atlTraceQI
+304  0x0004d980 0x18004ed80 17  36   .rdata  utf16le atlTraceRegistrar
+305  0x0004d9a8 0x18004eda8 16  34   .rdata  utf16le atlTraceRefcount
+306  0x0004d9d0 0x18004edd0 17  36   .rdata  utf16le atlTraceWindowing
+307  0x0004d9f8 0x18004edf8 16  34   .rdata  utf16le atlTraceControls
+308  0x0004da20 0x18004ee20 15  32   .rdata  utf16le atlTraceHosting
+309  0x0004da40 0x18004ee40 16  34   .rdata  utf16le atlTraceDBClient
+310  0x0004da68 0x18004ee68 18  38   .rdata  utf16le atlTraceDBProvider
+311  0x0004da90 0x18004ee90 14  30   .rdata  utf16le atlTraceSnapin
+312  0x0004dab0 0x18004eeb0 15  32   .rdata  utf16le atlTraceNotImpl
+313  0x0004dad0 0x18004eed0 18  38   .rdata  utf16le atlTraceAllocation
+314  0x0004daf8 0x18004eef8 17  36   .rdata  utf16le atlTraceException
+315  0x0004db20 0x18004ef20 12  26   .rdata  utf16le atlTraceTime
+316  0x0004db40 0x18004ef40 13  28   .rdata  utf16le atlTraceCache
+317  0x0004db60 0x18004ef60 15  32   .rdata  utf16le atlTraceStencil
+318  0x0004db80 0x18004ef80 14  30   .rdata  utf16le atlTraceString
+319  0x0004dba0 0x18004efa0 11  24   .rdata  utf16le atlTraceMap
+320  0x0004dbb8 0x18004efb8 12  26   .rdata  utf16le atlTraceUtil
+321  0x0004dbd8 0x18004efd8 16  34   .rdata  utf16le atlTraceSecurity
+322  0x0004dc00 0x18004f000 12  26   .rdata  utf16le atlTraceSync
+323  0x0004dc20 0x18004f020 13  28   .rdata  utf16le atlTraceISAPI
+324  0x0004e7c0 0x18004fbc0 50  102  .rdata  utf16le RefsProc::CRefsBasicMsbProc::AddChildMsbWithIdProc
+325  0x0004e830 0x18004fc30 4   20   .rdata  utf32le SMDB
+326  0x0004e84c 0x18004fc4c 9   20   .rdata  utf16le rceRemove
+327  0x0004e860 0x18004fc60 8   18   .rdata  utf16le NoRemove
+328  0x0004e878 0x18004fc78 6   14   .rdata  utf16le Delete
+329  0x0004e888 0x18004fc88 5   12   .rdata  utf16le AppID
+330  0x0004e898 0x18004fc98 5   12   .rdata  utf16le CLSID
+331  0x0004e8a8 0x18004fca8 20  42   .rdata  utf16le Component Categories
+332  0x0004e8d8 0x18004fcd8 8   18   .rdata  utf16le FileType
+333  0x0004e8f0 0x18004fcf0 9   20   .rdata  utf16le Interface
+334  0x0004e908 0x18004fd08 8   18   .rdata  utf16le Hardware
+335  0x0004e920 0x18004fd20 4   10   .rdata  utf16le Mime
+336  0x0004e938 0x18004fd38 8   18   .rdata  utf16le SECURITY
+337  0x0004e950 0x18004fd50 6   14   .rdata  utf16le SYSTEM
+338  0x0004e960 0x18004fd60 8   18   .rdata  utf16le Software
+339  0x0004e978 0x18004fd78 7   16   .rdata  utf16le TypeLib
+340  0x0004e988 0x18004fd88 15  32   .rdata  utf16le atlTraceGeneral
+341  0x0004e9a8 0x18004fda8 11  24   .rdata  utf16le atlTraceCOM
+342  0x0004e9c0 0x18004fdc0 10  22   .rdata  utf16le atlTraceQI
+343  0x0004e9d8 0x18004fdd8 17  36   .rdata  utf16le atlTraceRegistrar
+344  0x0004ea00 0x18004fe00 16  34   .rdata  utf16le atlTraceRefcount
+345  0x0004ea28 0x18004fe28 17  36   .rdata  utf16le atlTraceWindowing
+346  0x0004ea50 0x18004fe50 16  34   .rdata  utf16le atlTraceControls
+347  0x0004ea78 0x18004fe78 15  32   .rdata  utf16le atlTraceHosting
+348  0x0004ea98 0x18004fe98 16  34   .rdata  utf16le atlTraceDBClient
+349  0x0004eac0 0x18004fec0 18  38   .rdata  utf16le atlTraceDBProvider
+350  0x0004eae8 0x18004fee8 14  30   .rdata  utf16le atlTraceSnapin
+351  0x0004eb08 0x18004ff08 15  32   .rdata  utf16le atlTraceNotImpl
+352  0x0004eb28 0x18004ff28 18  38   .rdata  utf16le atlTraceAllocation
+353  0x0004eb50 0x18004ff50 17  36   .rdata  utf16le atlTraceException
+354  0x0004eb78 0x18004ff78 12  26   .rdata  utf16le atlTraceTime
+355  0x0004eb98 0x18004ff98 13  28   .rdata  utf16le atlTraceCache
+356  0x0004ebb8 0x18004ffb8 15  32   .rdata  utf16le atlTraceStencil
+357  0x0004ebd8 0x18004ffd8 11  24   .rdata  utf16le atlTraceMap
+358  0x0004ebf0 0x18004fff0 48  98   .rdata  utf16le RefsProc::CRefsCheckPointBlock::ParseBufDirectly
+359  0x0004ec58 0x180050058 14  30   .rdata  utf16le atlTraceString
+360  0x0004ec78 0x180050078 16  34   .rdata  utf16le atlTraceSecurity
+361  0x0004eca0 0x1800500a0 31  64   .rdata  utf16le [CRefsCheckPointBlock] %s fail!
+362  0x0004ece0 0x1800500e0 12  26   .rdata  utf16le atlTraceUtil
+363  0x0004ed00 0x180050100 12  26   .rdata  utf16le atlTraceSync
+364  0x0004ed20 0x180050120 45  92   .rdata  utf16le RefsProc::CRefsCheckPointBlock::ModifyMsbProc
+365  0x0004ed80 0x180050180 31  64   .rdata  utf16le [CRefsCheckPointBlock] %s fail!
+366  0x0004edc0 0x1800501c0 13  28   .rdata  utf16le atlTraceISAPI
+367  0x0004ede0 0x1800501e0 45  92   .rdata  utf16le RefsProc::CRefsCheckPointBlock::WriteToTgtVol
+368  0x0004ee40 0x180050240 31  64   .rdata  utf16le [CRefsCheckPointBlock] %s fail!
+369  0x0004ee80 0x180050280 73  74   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\mod.librefs\refsmetaobjproc.cpp
+370  0x0004eed0 0x1800502d0 6   14   .rdata  utf16le %S %u\n
+371  0x0004eee0 0x1800502e0 42  86   .rdata  utf16le [CRefsCheckPointBlock] IS Table too large!
+372  0x0004ef38 0x180050338 26  54   .rdata  utf16le [CRefsSuperBlock] %s fail!
+373  0x0004ef70 0x180050370 42  86   .rdata  utf16le RefsProc::CRefsCheckPointBlock::_parseProc
+374  0x0004efc8 0x1800503c8 26  54   .rdata  utf16le [CRefsSuperBlock] %s fail!
+375  0x0004f000 0x180050400 31  64   .rdata  utf16le [CRefsCheckPointBlock] %s fail!
+376  0x0004f040 0x180050440 52  106  .rdata  utf16le RefsProc::CRefsCheckPointBlock::_parseContainerTable
+377  0x0004f0b0 0x1800504b0 31  64   .rdata  utf16le [CRefsCheckPointBlock] %s fail!
+378  0x0004f0f0 0x1800504f0 52  106  .rdata  utf16le RefsProc::CRefsCheckPointBlock::_parseContainerAlloc
+379  0x0004f160 0x180050560 31  64   .rdata  utf16le [CRefsCheckPointBlock] %s fail!
+380  0x0004f1a0 0x1800505a0 50  102  .rdata  utf16le RefsProc::CRefsCheckPointBlock::_parseSmallerAlloc
+381  0x0004f208 0x180050608 26  54   .rdata  utf16le [CRefsSuperBlock] %s fail!
+382  0x0004f240 0x180050640 31  64   .rdata  utf16le [CRefsCheckPointBlock] %s fail!
+383  0x0004f280 0x180050680 51  104  .rdata  utf16le RefsProc::CRefsCheckPointBlock::_parseBlockRefTable
+384  0x0004f2f0 0x1800506f0 31  64   .rdata  utf16le [CRefsCheckPointBlock] %s fail!
+385  0x0004f330 0x180050730 43  88   .rdata  utf16le RefsProc::CRefsSuperBlock::ParseBufDirectly
+386  0x0004f390 0x180050790 40  82   .rdata  utf16le RefsProc::CRefsSuperBlock::WriteToTgtVol
+387  0x0004f3f0 0x1800507f0 34  70   .rdata  utf16le RefsProc::CRefsSuperBlock::BakProc
+388  0x0004f440 0x180050840 49  100  .rdata  utf16le RefsProc::CRefsVolumeBootRecord::ParseBufDirectly
+389  0x0004f4b0 0x1800508b0 32  66   .rdata  utf16le [CRefsVolumeBootRecord] %s fail!
+390  0x0004f500 0x180050900 46  94   .rdata  utf16le RefsProc::CRefsVolumeBootRecord::WriteToTgtVol
+391  0x0004f560 0x180050960 32  66   .rdata  utf16le [CRefsVolumeBootRecord] %s fail!
+392  0x0004f5b0 0x1800509b0 40  82   .rdata  utf16le RefsProc::CRefsVolumeBootRecord::BakProc
+393  0x0004f610 0x180050a10 32  66   .rdata  utf16le [CRefsVolumeBootRecord] %s fail!
+394  0x0004f660 0x180050a60 46  94   .rdata  utf16le RefsProc::CRefsVolumeBootRecord::ModifyBufProc
+395  0x0004f6c0 0x180050ac0 32  66   .rdata  utf16le [CRefsVolumeBootRecord] %s fail!
+396  0x0004ffd0 0x1800513d0 4   20   .rdata  utf32le SMDB
+397  0x0004ffec 0x1800513ec 9   20   .rdata  utf16le rceRemove
+398  0x00050000 0x180051400 8   18   .rdata  utf16le NoRemove
+399  0x00050018 0x180051418 6   14   .rdata  utf16le Delete
+400  0x00050028 0x180051428 5   12   .rdata  utf16le AppID
+401  0x00050038 0x180051438 5   12   .rdata  utf16le CLSID
+402  0x00050048 0x180051448 20  42   .rdata  utf16le Component Categories
+403  0x00050078 0x180051478 8   18   .rdata  utf16le FileType
+404  0x00050090 0x180051490 9   20   .rdata  utf16le Interface
+405  0x000500a8 0x1800514a8 8   18   .rdata  utf16le Hardware
+406  0x000500c0 0x1800514c0 4   10   .rdata  utf16le Mime
+407  0x000500d8 0x1800514d8 8   18   .rdata  utf16le SECURITY
+408  0x000500f0 0x1800514f0 6   14   .rdata  utf16le SYSTEM
+409  0x00050100 0x180051500 8   18   .rdata  utf16le Software
+410  0x00050118 0x180051518 7   16   .rdata  utf16le TypeLib
+411  0x00050128 0x180051528 25  52   .rdata  utf16le [RefsBitmapProc] %s fail!
+412  0x00050160 0x180051560 54  110  .rdata  utf16le RefsProc::CRefsAllocatorMgr::TurnOn2OfflineAllUsedProc
+413  0x000501d0 0x1800515d0 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+414  0x00050210 0x180051610 51  104  .rdata  utf16le RefsProc::CRefsAllocatorMgr::TurnNoUseToOfflineProc
+415  0x00050278 0x180051678 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+416  0x000502b8 0x1800516b8 15  32   .rdata  utf16le atlTraceGeneral
+417  0x000502d8 0x1800516d8 11  24   .rdata  utf16le atlTraceCOM
+418  0x000502f0 0x1800516f0 35  72   .rdata  utf16le RefsBitmapProc::CleanBitmapMarkProc
+419  0x00050338 0x180051738 10  22   .rdata  utf16le atlTraceQI
+420  0x00050350 0x180051750 51  104  .rdata  utf16le [CRefsAllocatorMgr] +++ meta data package : 0x%I64x
+421  0x000503b8 0x1800517b8 17  36   .rdata  utf16le atlTraceRegistrar
+422  0x000503e0 0x1800517e0 71  144  .rdata  utf16le [CRefsAllocatorMgr] +++ Total out of range : 0x%I64x,Total BR : 0x%I64x
+423  0x00050470 0x180051870 71  144  .rdata  utf16le [CRefsAllocatorMgr] +++ Total InnerMeta : 0x%I64x,Total Orign : 0x%I64x
+424  0x00050500 0x180051900 101 204  .rdata  utf16le [CRefsAllocatorMgr] +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+425  0x000505d0 0x1800519d0 49  100  .rdata  utf16le RefsProc::CRefsAllocatorMgr::SplitFileDataRunProc
+426  0x00050638 0x180051a38 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+427  0x00050678 0x180051a78 16  34   .rdata  utf16le atlTraceRefcount
+428  0x000506a0 0x180051aa0 69  140  .rdata  utf16le [CRefsAllocatorMgr] !!! Mark orign file fail ,spare : %d clusters !!!
+429  0x00050730 0x180051b30 49  100  .rdata  utf16le RefsProc::CRefsAllocatorMgr::OrignFileDataRunProc
+430  0x00050798 0x180051b98 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+431  0x000507d8 0x180051bd8 17  36   .rdata  utf16le atlTraceWindowing
+432  0x00050800 0x180051c00 49  100  .rdata  utf16le RefsProc::CRefsAllocatorMgr::SplitBRTransInfoProc
+433  0x00050868 0x180051c68 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+434  0x000508a8 0x180051ca8 16  34   .rdata  utf16le atlTraceControls
+435  0x000508d0 0x180051cd0 45  92   .rdata  utf16le RefsProc::CRefsAllocatorMgr::SplitDataRunProc
+436  0x00050930 0x180051d30 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+437  0x00050970 0x180051d70 15  32   .rdata  utf16le atlTraceHosting
+438  0x00050990 0x180051d90 16  34   .rdata  utf16le atlTraceDBClient
+439  0x000509b8 0x180051db8 18  38   .rdata  utf16le atlTraceDBProvider
+440  0x000509e0 0x180051de0 44  90   .rdata  utf16le RefsProc::CRefsAllocatorMgr::MergeBitmapProc
+441  0x00050a40 0x180051e40 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+442  0x00050a80 0x180051e80 49  100  .rdata  utf16le RefsProc::CRefsAllocatorMgr::CleanBitmapMarkInMgr
+443  0x00050ae8 0x180051ee8 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+444  0x00050b28 0x180051f28 14  30   .rdata  utf16le atlTraceSnapin
+445  0x00050b48 0x180051f48 15  32   .rdata  utf16le atlTraceNotImpl
+446  0x00050b68 0x180051f68 18  38   .rdata  utf16le atlTraceAllocation
+447  0x00050b90 0x180051f90 40  82   .rdata  utf16le RefsProc::CRefsAllocatorMgr::IsContinous
+448  0x00050be8 0x180051fe8 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+449  0x00050c28 0x180052028 17  36   .rdata  utf16le atlTraceException
+450  0x00050c50 0x180052050 72  146  .rdata  utf16le [CRefsAllocatorMgr] !!! Continous proc !!! cluster : %I64x,count : %I64x
+451  0x00050ce8 0x1800520e8 12  26   .rdata  utf16le atlTraceTime
+452  0x00050d08 0x180052108 13  28   .rdata  utf16le atlTraceCache
+453  0x00050d28 0x180052128 15  32   .rdata  utf16le atlTraceStencil
+454  0x00050d48 0x180052148 11  24   .rdata  utf16le atlTraceMap
+455  0x00050d60 0x180052160 72  146  .rdata  utf16le [CRefsAllocatorMgr]! CA bmp cross! transfer to offline,cluster : 0x%I64x
+456  0x00050df8 0x1800521f8 14  30   .rdata  utf16le atlTraceString
+457  0x00050e18 0x180052218 16  34   .rdata  utf16le atlTraceSecurity
+458  0x00050e40 0x180052240 46  94   .rdata  utf16le RefsProc::CRefsAllocatorMgr::NotifyOnlineSpace
+459  0x00050ea0 0x1800522a0 52  106  .rdata  utf16le [CRefsAllocatorMgr] %s fail! first cluster : 0x%I64x
+460  0x00050f10 0x180052310 12  26   .rdata  utf16le atlTraceUtil
+461  0x00050f30 0x180052330 12  26   .rdata  utf16le atlTraceSync
+462  0x00050f50 0x180052350 13  28   .rdata  utf16le atlTraceISAPI
+463  0x00050f70 0x180052370 49  100  .rdata  utf16le RefsProc::CRefsAllocatorMgr::MsbNotifyAddtionProc
+464  0x00050fe0 0x1800523e0 52  106  .rdata  utf16le [CRefsAllocatorMgr] %s fail! first cluster : 0x%I64x
+465  0x00051050 0x180052450 46  94   .rdata  utf16le RefsProc::CRefsAllocatorMgr::NotifyDataRunProc
+466  0x000510b0 0x1800524b0 62  126  .rdata  utf16le [CRefsAllocatorMgr] %s fail! size : %d,first cluster : 0x%I64x
+467  0x00051130 0x180052530 47  96   .rdata  utf16le RefsProc::CRefsAllocatorMgr::NotifyDataRunProc2
+468  0x00051190 0x180052590 62  126  .rdata  utf16le [CRefsAllocatorMgr] %s fail! size : %d,first cluster : 0x%I64x
+469  0x00051210 0x180052610 42  86   .rdata  utf16le RefsProc::CRefsAllocatorMgr::AllocatorProc
+470  0x00051270 0x180052670 50  102  .rdata  utf16le [CRefsAllocatorMgr] %s fail,count : %d,isMsb : %d!
+471  0x000512e0 0x1800526e0 47  96   .rdata  utf16le RefsProc::CRefsAllocatorMgr::AllocTransferRange
+472  0x00051340 0x180052740 45  92   .rdata  utf16le [CRefsAllocatorMgr] %s fail!,data run : %I64x
+473  0x000513a0 0x1800527a0 44  90   .rdata  utf16le RefsProc::CRefsAllocatorMgr::MarkMsbUsedProc
+474  0x00051400 0x180052800 43  88   .rdata  utf16le [CRefsAllocatorMgr] %s fail,data run empty!
+475  0x00051460 0x180052860 44  90   .rdata  utf16le RefsProc::CRefsAllocatorMgr::MarkMsbUsedProc
+476  0x000514c0 0x1800528c0 43  88   .rdata  utf16le [CRefsAllocatorMgr] %s fail,cluster : 0x%x!
+477  0x00051520 0x180052920 43  88   .rdata  utf16le RefsProc::CRefsAllocatorMgr::FreeSpareSpace
+478  0x00051578 0x180052978 28  58   .rdata  utf16le [CRefsAllocatorMgr] %s fail!
+479  0x000515c0 0x1800529c0 51  104  .rdata  utf16le [CRefsAllocatorMgr] ----- online proc,ref : 0x%I64x
+480  0x00051630 0x180052a30 82  166  .rdata  utf16le [CRefsAllocatorMgr] ****** _adjustToTgtVolume,data border : 0x%I64x,0x%I64x ******
+481  0x000516e0 0x180052ae0 101 204  .rdata  utf16le [CRefsAllocatorMgr] +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+482  0x000517b0 0x180052bb0 43  88   .rdata  utf16le [CRefsAllocatorMgr] +++ Total msb : 0x%I64x
+483  0x00051810 0x180052c10 67  136  .rdata  utf16le RefsProc::CRefsAllocatorMgr::_ClusterBitmap_Info_::_markClusterInfo
+484  0x000518a0 0x180052ca0 59  120  .rdata  utf16le [_ClusterBitmap_Info_] %s fail!,pos : 0x%I64x,ref : 0x%I64x
+485  0x00051920 0x180052d20 67  136  .rdata  utf16le RefsProc::CRefsAllocatorMgr::_ClusterBitmap_Info_::_freeClusterInfo
+486  0x000519b0 0x180052db0 59  120  .rdata  utf16le [_ClusterBitmap_Info_] %s fail!,pos : 0x%I64x,ref : 0x%I64x
+487  0x00051eb0 0x1800532b0 150 302  .rdata  utf16le [CRefsRMConflictMgr] --- conflict proc ----,src cluster : 0x%I64x,crc : 0x%I64x,confilict : 0x%I64x,already inserted : %d,Queue peak : %d,map vol : %d
+488  0x00051fe0 0x1800533e0 56  114  .rdata  utf16le RefsRMProc::CRefsRMMgr::CleanAndMarkBlockRefTransferInfo
+489  0x0005205c 0x18005345c 18  38   .rdata  utf16le RefsRMMgr]%s fail!
+490  0x00052090 0x180053490 44  90   .rdata  utf16le RefsRMProc::CRefsRMConflictMgr::ConflictProc
+491  0x000520f4 0x1800534f4 26  54   .rdata  utf16le RefsRMConflictMgr]%s fail!
+492  0x00052130 0x180053530 33  68   .rdata  utf16le RefsRMProc::CRefsRMMgr::_dataProc
+493  0x00052178 0x180053578 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+494  0x000521b0 0x1800535b0 50  102  .rdata  utf16le [CRefsRMMgr] *** msb over heap! last msb : 0x%I64x
+495  0x00052218 0x180053618 11  24   .rdata  utf16le ForceRemove
+496  0x00052230 0x180053630 46  94   .rdata  utf16le [CRefsRMMgr] *** Meta range over heap! 0x%I64x
+497  0x00052290 0x180053690 46  94   .rdata  utf16le [CRefsRMMgr] *** Used space over heap! 0x%I64x
+498  0x000522f0 0x1800536f0 44  90   .rdata  utf16le RefsRMProc::CRefsRMMgr::_initOfflineDataRuns
+499  0x00052350 0x180053750 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+500  0x00052380 0x180053780 53  108  .rdata  utf16le RefsRMProc::CRefsRMMgr::_turnOnAndMarkOfflineDataRuns
+501  0x000523f0 0x1800537f0 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+502  0x00052420 0x180053820 8   18   .rdata  utf16le NoRemove
+503  0x00052438 0x180053838 6   14   .rdata  utf16le Delete
+504  0x00052448 0x180053848 8   18   .rdata  utf16le FileType
+505  0x00052460 0x180053860 89  180  .rdata  utf16le [CRefsRMConflictMgr] +++ _soloveConflict proc +++,src cluster : 0x%I64x,conflict vol : %d
+506  0x00052518 0x180053918 9   20   .rdata  utf16le Interface
+507  0x00052530 0x180053930 56  114  .rdata  utf16le [CRefsRMConflictMgr] --- conflict buffer is empty!!! ---
+508  0x000525a8 0x1800539a8 5   12   .rdata  utf16le AppID
+509  0x000525b8 0x1800539b8 8   18   .rdata  utf16le Hardware
+510  0x000525d0 0x1800539d0 78  158  .rdata  utf16le [CRefsRMConflictMgr] ++++++ for match queue vol,do not pop,%d <-- > %d ++++++!
+511  0x00052670 0x180053a70 79  160  .rdata  utf16le [CRefsRMConflictMgr] ++++++ cluster : 0x%x poped,crc : 0x%I64x,vol : %d ++++++!
+512  0x00052710 0x180053b10 42  86   .rdata  utf16le RefsRMProc::CRefsRMConflictMgr::FinishProc
+513  0x00052768 0x180053b68 28  58   .rdata  utf16le [CRefsRMConflictMgr]%s fail!
+514  0x000527a8 0x180053ba8 5   12   .rdata  utf16le CLSID
+515  0x000527c0 0x180053bc0 50  102  .rdata  utf16le RefsRMProc::CRefsRMConflictMgr::ConflictFinishProc
+516  0x00052828 0x180053c28 28  58   .rdata  utf16le [CRefsRMConflictMgr]%s fail!
+517  0x00052868 0x180053c68 20  42   .rdata  utf16le Component Categories
+518  0x00052898 0x180053c98 4   10   .rdata  utf16le Mime
+519  0x000528a8 0x180053ca8 8   18   .rdata  utf16le SECURITY
+520  0x000528c0 0x180053cc0 6   14   .rdata  utf16le SYSTEM
+521  0x000528d0 0x180053cd0 8   18   .rdata  utf16le Software
+522  0x000528e8 0x180053ce8 7   16   .rdata  utf16le TypeLib
+523  0x000528f8 0x180053cf8 15  32   .rdata  utf16le atlTraceGeneral
+524  0x00052918 0x180053d18 11  24   .rdata  utf16le atlTraceCOM
+525  0x00052930 0x180053d30 10  22   .rdata  utf16le atlTraceQI
+526  0x00052948 0x180053d48 17  36   .rdata  utf16le atlTraceRegistrar
+527  0x00052970 0x180053d70 16  34   .rdata  utf16le atlTraceRefcount
+528  0x00052998 0x180053d98 17  36   .rdata  utf16le atlTraceWindowing
+529  0x000529c0 0x180053dc0 16  34   .rdata  utf16le atlTraceControls
+530  0x000529e8 0x180053de8 15  32   .rdata  utf16le atlTraceHosting
+531  0x00052a08 0x180053e08 16  34   .rdata  utf16le atlTraceDBClient
+532  0x00052a30 0x180053e30 18  38   .rdata  utf16le atlTraceDBProvider
+533  0x00052a58 0x180053e58 14  30   .rdata  utf16le atlTraceSnapin
+534  0x00052a78 0x180053e78 15  32   .rdata  utf16le atlTraceNotImpl
+535  0x00052a98 0x180053e98 18  38   .rdata  utf16le atlTraceAllocation
+536  0x00052ac0 0x180053ec0 17  36   .rdata  utf16le atlTraceException
+537  0x00052ae8 0x180053ee8 12  26   .rdata  utf16le atlTraceTime
+538  0x00052b08 0x180053f08 13  28   .rdata  utf16le atlTraceCache
+539  0x00052b28 0x180053f28 15  32   .rdata  utf16le atlTraceStencil
+540  0x00052b48 0x180053f48 14  30   .rdata  utf16le atlTraceString
+541  0x00052b68 0x180053f68 11  24   .rdata  utf16le atlTraceMap
+542  0x00052b80 0x180053f80 12  26   .rdata  utf16le atlTraceUtil
+543  0x00052ba0 0x180053fa0 16  34   .rdata  utf16le atlTraceSecurity
+544  0x00052bc8 0x180053fc8 12  26   .rdata  utf16le atlTraceSync
+545  0x00052be8 0x180053fe8 13  28   .rdata  utf16le atlTraceISAPI
+546  0x00052c08 0x180054008 24  25   .rdata  ascii   ZwQuerySystemInformation
+547  0x00052c28 0x180054028 9   20   .rdata  utf16le ntdll.dll
+548  0x00052c40 0x180054040 95  192  .rdata  utf16le [CRefsRMMgr] **********************************************************************************
+549  0x00052d00 0x180054100 82  166  .rdata  utf16le [CRefsRMMgr] *** start r/m,fsversion: %d,%d,tgt pos: 0x%I64x,size: 0x%I64x sectors
+550  0x00052da8 0x1800541a8 25  52   .rdata  utf16le [CRefsRMMgr]%s fail!,0x%x
+551  0x00052de0 0x1800541e0 84  170  .rdata  utf16le [CRefsRMMgr] *** adv move: %d,offset: 0x%x cluster,expand: %d,scale: 0x%I64x sectors
+552  0x00052e90 0x180054290 91  184  .rdata  utf16le [CRefsRMMgr] *** bytespersector: 0x%x,sectorspercluster: 0x%x,container: 0x%x,msb move : %d
+553  0x00052f48 0x180054348 26  54   .rdata  utf16le [CRefsVirtualPart]%s fail!
+554  0x00052f80 0x180054380 95  192  .rdata  utf16le [CRefsRMMgr] **********************************************************************************
+555  0x00053040 0x180054440 95  192  .rdata  utf16le [CRefsRMMgr] **********************************************************************************
+556  0x00053100 0x180054500 31  64   .rdata  utf16le [CRefsRMMgr] *** end r/m : 0x%x
+557  0x00053140 0x180054540 95  192  .rdata  utf16le [CRefsRMMgr] **********************************************************************************
+558  0x00053200 0x180054600 43  88   .rdata  utf16le RefsRMProc::CRefsRMMgr::ProcessSrcDataRange
+559  0x00053258 0x180054658 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+560  0x00053288 0x180054688 30  62   .rdata  utf16le RefsRMProc::CRefsRMMgr::RMProc
+561  0x000532c8 0x1800546c8 25  52   .rdata  utf16le [CRefsRMMgr]%s fail!,0x%x
+562  0x00053300 0x180054700 45  92   .rdata  utf16le RefsRMProc::CRefsRMMgr::_buildMovedBRMaskInfo
+563  0x00053360 0x180054760 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+564  0x00053390 0x180054790 50  102  .rdata  utf16le RefsRMProc::CRefsRMMgr::_constructBlockRefMaskInfo
+565  0x000533f8 0x1800547f8 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+566  0x00053430 0x180054830 54  110  .rdata  utf16le RefsRMProc::CRefsRMMgr::_constructBlockRefTransferInfo
+567  0x000534a0 0x1800548a0 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+568  0x000534d0 0x1800548d0 38  78   .rdata  utf16le [CRefsRMMgr] !!! BR Proc alloc fail!!!
+569  0x00053520 0x180054920 51  104  .rdata  utf16le RefsRMProc::CRefsRMMgr::_insertBlockRefTransferInfo
+570  0x00053588 0x180054988 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+571  0x000535c0 0x1800549c0 40  82   .rdata  utf16le RefsRMProc::CRefsRMMgr::MoveTransMsbProc
+572  0x00053618 0x180054a18 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+573  0x00053650 0x180054a50 59  120  .rdata  utf16le RefsRMProc::CRefsVirtualContainerTable::ConstructSpacesProc
+574  0x000536d0 0x180054ad0 36  74   .rdata  utf16le [CRefsVirtualContainerTable]%s fail!
+575  0x00053720 0x180054b20 41  84   .rdata  utf16le RefsRMProc::CRefsRMMgr::BlockRefTableProc
+576  0x00053778 0x180054b78 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+577  0x000537b0 0x180054bb0 43  88   .rdata  utf16le RefsRMProc::CRefsVirtualPart::PrepareRMProc
+578  0x00053810 0x180054c10 46  94   .rdata  utf16le RefsRMProc::CRefsRMMgr::BRPriorityTransferProc
+579  0x00053870 0x180054c70 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+580  0x000538a0 0x180054ca0 97  196  .rdata  utf16le [CRefsRMConflictMgr]****** conflict not alloc, boundary : 0x%I64x,tgt right pos : 0x%I64x ******
+581  0x00053970 0x180054d70 40  82   .rdata  utf16le RefsRMProc::CRefsRMMgr::FileTransferProc
+582  0x000539d0 0x180054dd0 96  194  .rdata  utf16le [CRefsRMConflictMgr]****** conflict not alloc, boundary : 0x%I64x,tgt left pos : 0x%I64x ******
+583  0x00053aa0 0x180054ea0 49  100  .rdata  utf16le RefsRMProc::CRefsRMMgr::ConstructFileTransferInfo
+584  0x00053b08 0x180054f08 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+585  0x00053b40 0x180054f40 71  144  .rdata  utf16le [CRefsRMConflictMgr]****** conflict buf : 0x%I64x,src part ? %d ******
+586  0x00053bd0 0x180054fd0 43  88   .rdata  utf16le RefsRMProc::CRefsRMConflictMgr::StartRMProc
+587  0x00053c28 0x180055028 28  58   .rdata  utf16le [CRefsRMConflictMgr]%s fail!
+588  0x00053c70 0x180055070 73  148  .rdata  utf16le [CRefsRMConflictMgr] ----- cluster : 0x%x insert to queue,vol : %d -----!
+589  0x00053d10 0x180055110 52  106  .rdata  utf16le RefsRMProc::CRefsRMMgr::ConstructOfflineTransferInfo
+590  0x00053d80 0x180055180 20  42   .rdata  utf16le [CRefsRMMgr]%s fail!
+591  0x00053db0 0x1800551b0 76  154  .rdata  utf16le [CRefsRMConflictMgr] ----- here come conflict cluster : 0x%x,vol : %d -----!
+592  0x00053e50 0x180055250 44  90   .rdata  utf16le [CRefsRMConflictMgr]vol not match!,%d --> %d
+593  0x00053eb0 0x1800552b0 44  90   .rdata  utf16le RefsRMProc::CRefsRMConflictMgr::IntotheQueue
+594  0x00053f10 0x180055310 28  58   .rdata  utf16le [CRefsRMConflictMgr]%s fail!
+595  0x000540c0 0x1800554c0 44  90   .rdata  utf16le RefsProc::CRefsMetaFileDataRun::ParseBufProc
+596  0x00054120 0x180055520 31  64   .rdata  utf16le [CRefsMetaFileDataRun] %s fail!
+597  0x00054160 0x180055560 54  110  .rdata  utf16le RefsProc::CRefsMetaFileDataRun::VaryChildModifyBufProc
+598  0x000541d0 0x1800555d0 29  60   .rdata  utf16le [CRefsMetaDirectory] %s fail!
+599  0x00054210 0x180055610 45  92   .rdata  utf16le RefsProc::CRefsMetaFileDataRun::ModifyLeafMsb
+600  0x00054274 0x180055674 29  60   .rdata  utf16le RefsMetaFileDataRun] %s fail!
+601  0x000542b0 0x1800556b0 4   20   .rdata  utf32le MDBȈ
+602  0x000542cc 0x1800556cc 9   20   .rdata  utf16le rceRemove
+603  0x000542e0 0x1800556e0 8   18   .rdata  utf16le NoRemove
+604  0x000542f8 0x1800556f8 6   14   .rdata  utf16le Delete
+605  0x00054308 0x180055708 8   18   .rdata  utf16le FileType
+606  0x00054320 0x180055720 47  96   .rdata  utf16le RefsProc::CRefsMetaFileDataRun::ModifyParentMsb
+607  0x00054380 0x180055780 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+608  0x000543c0 0x1800557c0 5   12   .rdata  utf16le AppID
+609  0x000543d0 0x1800557d0 5   12   .rdata  utf16le CLSID
+610  0x000543e0 0x1800557e0 20  42   .rdata  utf16le Component Categories
+611  0x00054410 0x180055810 9   20   .rdata  utf16le Interface
+612  0x00054428 0x180055828 8   18   .rdata  utf16le Hardware
+613  0x00054440 0x180055840 4   10   .rdata  utf16le Mime
+614  0x00054458 0x180055858 8   18   .rdata  utf16le SECURITY
+615  0x00054470 0x180055870 6   14   .rdata  utf16le SYSTEM
+616  0x00054480 0x180055880 8   18   .rdata  utf16le Software
+617  0x00054498 0x180055898 7   16   .rdata  utf16le TypeLib
+618  0x000544a8 0x1800558a8 11  24   .rdata  utf16le atlTraceCOM
+619  0x000544c0 0x1800558c0 74  150  .rdata  utf16le [CRefsMetaDirectory] file size is out of range! msb id : %I64x,offset : %d
+620  0x00054558 0x180055958 15  32   .rdata  utf16le atlTraceGeneral
+621  0x00054578 0x180055978 10  22   .rdata  utf16le atlTraceQI
+622  0x00054590 0x180055990 41  84   .rdata  utf16le RefsProc::CRefsMetaDirectory::MarkMsbProc
+623  0x000545e8 0x1800559e8 29  60   .rdata  utf16le [CRefsMetaDirectory] %s fail!
+624  0x00054628 0x180055a28 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+625  0x00054668 0x180055a68 17  36   .rdata  utf16le atlTraceRegistrar
+626  0x00054690 0x180055a90 42  86   .rdata  utf16le RefsProc::CRefsMetaDirectory::ParseBufProc
+627  0x000546e8 0x180055ae8 29  60   .rdata  utf16le [CRefsMetaDirectory] %s fail!
+628  0x00054728 0x180055b28 16  34   .rdata  utf16le atlTraceRefcount
+629  0x00054750 0x180055b50 49  100  .rdata  utf16le RefsProc::CRefsMetaDirectory::_parseBasicInfoProc
+630  0x000547b8 0x180055bb8 29  60   .rdata  utf16le [CRefsMetaDirectory] %s fail!
+631  0x000547f8 0x180055bf8 17  36   .rdata  utf16le atlTraceWindowing
+632  0x00054820 0x180055c20 48  98   .rdata  utf16le RefsProc::CRefsMetaDirectory::_parseReparsePoint
+633  0x00054888 0x180055c88 29  60   .rdata  utf16le [CRefsMetaDirectory] %s fail!
+634  0x000548c8 0x180055cc8 16  34   .rdata  utf16le atlTraceControls
+635  0x000548f0 0x180055cf0 52  106  .rdata  utf16le RefsProc::CRefsMetaDirectory::VaryChildModifyBufProc
+636  0x00054960 0x180055d60 29  60   .rdata  utf16le [CRefsMetaDirectory] %s fail!
+637  0x000549a0 0x180055da0 43  88   .rdata  utf16le RefsProc::CRefsMetaDirectory::ModifyLeafMsb
+638  0x000549f8 0x180055df8 29  60   .rdata  utf16le [CRefsMetaDirectory] %s fail!
+639  0x00054a38 0x180055e38 15  32   .rdata  utf16le atlTraceHosting
+640  0x00054a58 0x180055e58 16  34   .rdata  utf16le atlTraceDBClient
+641  0x00054a80 0x180055e80 45  92   .rdata  utf16le RefsProc::CRefsMetaDirectory::ModifyParentMsb
+642  0x00054ae0 0x180055ee0 18  38   .rdata  utf16le atlTraceDBProvider
+643  0x00054b08 0x180055f08 14  30   .rdata  utf16le atlTraceSnapin
+644  0x00054b28 0x180055f28 15  32   .rdata  utf16le atlTraceNotImpl
+645  0x00054b48 0x180055f48 18  38   .rdata  utf16le atlTraceAllocation
+646  0x00054b70 0x180055f70 17  36   .rdata  utf16le atlTraceException
+647  0x00054b98 0x180055f98 12  26   .rdata  utf16le atlTraceTime
+648  0x00054bb8 0x180055fb8 13  28   .rdata  utf16le atlTraceCache
+649  0x00054bd8 0x180055fd8 15  32   .rdata  utf16le atlTraceStencil
+650  0x00054bf8 0x180055ff8 11  24   .rdata  utf16le atlTraceMap
+651  0x00054c10 0x180056010 43  88   .rdata  utf16le RefsProc::CRefsMetaFileDirItem::MarkMsbProc
+652  0x00054c68 0x180056068 16  34   .rdata  utf16le atlTraceSecurity
+653  0x00054c90 0x180056090 31  64   .rdata  utf16le [CRefsMetaFileDirItem] %s fail!
+654  0x00054cd0 0x1800560d0 54  110  .rdata  utf16le RefsProc::CRefsMetaFileDirItem::VaryChildModifyBufProc
+655  0x00054d40 0x180056140 31  64   .rdata  utf16le [CRefsMetaFileDirItem] %s fail!
+656  0x00054d80 0x180056180 14  30   .rdata  utf16le atlTraceString
+657  0x00054da0 0x1800561a0 44  90   .rdata  utf16le RefsProc::CRefsMetaFileDirItem::ParseBufProc
+658  0x00054e00 0x180056200 31  64   .rdata  utf16le [CRefsMetaFileDirItem] %s fail!
+659  0x00054e40 0x180056240 12  26   .rdata  utf16le atlTraceUtil
+660  0x00054e60 0x180056260 48  98   .rdata  utf16le RefsProc::CRefsMetaSymbolicDirItem::ParseBufProc
+661  0x00054ec8 0x1800562c8 13  28   .rdata  utf16le atlTraceISAPI
+662  0x00054ef0 0x1800562f0 35  72   .rdata  utf16le [CRefsMetaSymbolicDirItem] %s fail!
+663  0x00054f38 0x180056338 12  26   .rdata  utf16le atlTraceSync
+664  0x00054f60 0x180056360 43  88   .rdata  utf16le RefsProc::CRefsMetaFileDataRun::MarkMsbProc
+665  0x00054fc0 0x1800563c0 31  64   .rdata  utf16le [CRefsMetaFileDataRun] %s fail!
+666  0x00055f00 0x180057300 4   20   .rdata  utf32le SMDB
+667  0x00055f1c 0x18005731c 9   20   .rdata  utf16le rceRemove
+668  0x00055f30 0x180057330 8   18   .rdata  utf16le NoRemove
+669  0x00055f48 0x180057348 6   14   .rdata  utf16le Delete
+670  0x00055f58 0x180057358 5   12   .rdata  utf16le AppID
+671  0x00055f68 0x180057368 5   12   .rdata  utf16le CLSID
+672  0x00055f78 0x180057378 20  42   .rdata  utf16le Component Categories
+673  0x00055fa8 0x1800573a8 8   18   .rdata  utf16le FileType
+674  0x00055fc0 0x1800573c0 9   20   .rdata  utf16le Interface
+675  0x00055fd8 0x1800573d8 8   18   .rdata  utf16le Hardware
+676  0x00055ff0 0x1800573f0 4   10   .rdata  utf16le Mime
+677  0x00056008 0x180057408 8   18   .rdata  utf16le SECURITY
+678  0x00056020 0x180057420 6   14   .rdata  utf16le SYSTEM
+679  0x00056030 0x180057430 8   18   .rdata  utf16le Software
+680  0x00056048 0x180057448 7   16   .rdata  utf16le TypeLib
+681  0x00056058 0x180057458 15  32   .rdata  utf16le atlTraceGeneral
+682  0x00056078 0x180057478 11  24   .rdata  utf16le atlTraceCOM
+683  0x00056090 0x180057490 10  22   .rdata  utf16le atlTraceQI
+684  0x000560a8 0x1800574a8 17  36   .rdata  utf16le atlTraceRegistrar
+685  0x000560d0 0x1800574d0 16  34   .rdata  utf16le atlTraceRefcount
+686  0x000560f8 0x1800574f8 17  36   .rdata  utf16le atlTraceWindowing
+687  0x00056120 0x180057520 16  34   .rdata  utf16le atlTraceControls
+688  0x00056148 0x180057548 15  32   .rdata  utf16le atlTraceHosting
+689  0x00056168 0x180057568 16  34   .rdata  utf16le atlTraceDBClient
+690  0x00056190 0x180057590 18  38   .rdata  utf16le atlTraceDBProvider
+691  0x000561b8 0x1800575b8 14  30   .rdata  utf16le atlTraceSnapin
+692  0x000561d8 0x1800575d8 15  32   .rdata  utf16le atlTraceNotImpl
+693  0x000561f8 0x1800575f8 18  38   .rdata  utf16le atlTraceAllocation
+694  0x00056220 0x180057620 17  36   .rdata  utf16le atlTraceException
+695  0x00056248 0x180057648 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+696  0x00056288 0x180057688 15  32   .rdata  utf16le atlTraceStencil
+697  0x000562a8 0x1800576a8 11  24   .rdata  utf16le atlTraceMap
+698  0x000562c0 0x1800576c0 46  94   .rdata  utf16le RefsProc::CRefsVaryChildMsbProc::ModifyMsbProc
+699  0x00056320 0x180057720 32  66   .rdata  utf16le [CRefsVaryChildMsbProc] %s fail!
+700  0x00056368 0x180057768 12  26   .rdata  utf16le atlTraceTime
+701  0x00056388 0x180057788 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+702  0x000563c8 0x1800577c8 16  34   .rdata  utf16le atlTraceSecurity
+703  0x000563f0 0x1800577f0 46  94   .rdata  utf16le RefsProc::CRefsVaryChildMsbProc::ModifyBufProc
+704  0x00056450 0x180057850 49  100  .rdata  utf16le RefsProc::CRefsVaryChildMsbProc::ModifyDupBufProc
+705  0x000564b8 0x1800578b8 13  28   .rdata  utf16le atlTraceCache
+706  0x000564d8 0x1800578d8 14  30   .rdata  utf16le atlTraceString
+707  0x000564f8 0x1800578f8 12  26   .rdata  utf16le atlTraceUtil
+708  0x00056518 0x180057918 12  26   .rdata  utf16le atlTraceSync
+709  0x00056538 0x180057938 13  28   .rdata  utf16le atlTraceISAPI
+710  0x00056558 0x180057958 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+711  0x00056598 0x180057998 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+712  0x000565d0 0x1800579d0 59  120  .rdata  utf16le [CRefsContainerTable] ContainerTable size not support!,0x%x
+713  0x00056648 0x180057a48 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+714  0x00056680 0x180057a80 42  86   .rdata  utf16le RefsProc::CRefsContainerTable::MarkMsbProc
+715  0x000566d8 0x180057ad8 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+716  0x00056710 0x180057b10 43  88   .rdata  utf16le RefsProc::CRefsContainerTable::ParseBufProc
+717  0x00056768 0x180057b68 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+718  0x000567a8 0x180057ba8 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+719  0x000567e0 0x180057be0 71  144  .rdata  utf16le [CRefsContainerTable] Container item invalid, base ad : %I64x,flag : %x
+720  0x00056870 0x180057c70 53  108  .rdata  utf16le RefsProc::CRefsContainerTable::VaryChildModifyBufProc
+721  0x000568e0 0x180057ce0 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+722  0x00056920 0x180057d20 44  90   .rdata  utf16le RefsProc::CRefsContainerTable::ModifyLeafMsb
+723  0x00056980 0x180057d80 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+724  0x000569c0 0x180057dc0 46  94   .rdata  utf16le RefsProc::CRefsContainerTable::ModifyParentMsb
+725  0x00056a20 0x180057e20 30  62   .rdata  utf16le [CRefsContainerTable] %s fail!
+726  0x00056a60 0x180057e60 38  78   .rdata  utf16le RefsProc::CRefsBitmapProc::MarkMsbProc
+727  0x00056ab0 0x180057eb0 42  86   .rdata  utf16le RefsProc::CRefsBitmapProc::_markOnlineProc
+728  0x00056b08 0x180057f08 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+729  0x00056b40 0x180057f40 45  92   .rdata  utf16le RefsProc::CRefsBitmapProc::OnlineProcMarkProc
+730  0x00056ba0 0x180057fa0 45  92   .rdata  utf16le RefsProc::CRefsBitmapProc::AddOfflineMarkProc
+731  0x00056c00 0x180058000 45  92   .rdata  utf16le RefsProc::CRefsBitmapProc::DecAnyItemMarkProc
+732  0x00056c60 0x180058060 45  92   .rdata  utf16le RefsProc::CRefsBitmapProc::AdjustLastLeafProc
+733  0x00056cc0 0x1800580c0 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+734  0x00056cf8 0x1800580f8 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+735  0x00056d30 0x180058130 49  100  .rdata  utf16le RefsProc::CRefsBitmapProc::VaryChildModifyBufProc
+736  0x00056d98 0x180058198 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+737  0x00056dd0 0x1800581d0 43  88   .rdata  utf16le RefsProc::CRefsBitmapProc::ModifyMedLeafMsb
+738  0x00056e28 0x180058228 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+739  0x00056e60 0x180058260 40  82   .rdata  utf16le RefsProc::CRefsBitmapProc::ModifyLeafMsb
+740  0x00056eb8 0x1800582b8 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+741  0x00056ef0 0x1800582f0 42  86   .rdata  utf16le RefsProc::CRefsBitmapProc::ModifyParentMsb
+742  0x00056f48 0x180058348 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+743  0x00056f80 0x180058380 40  82   .rdata  utf16le RefsProc::CRefsBitmapProc::_childMsbProc
+744  0x00056fd8 0x1800583d8 26  54   .rdata  utf16le [CRefsBitmapProc] %s fail!
+745  0x00057010 0x180058410 50  102  .rdata  utf16le [CRefsBitmapProc] bitmap describe over range,%I64x
+746  0x00057080 0x180058480 39  80   .rdata  utf16le RefsProc::CRefsBitmapProc::ParseBufProc
+747  0x00057d60 0x180059160 4   20   .rdata  utf32le SMDB
+748  0x00057d7c 0x18005917c 9   20   .rdata  utf16le rceRemove
+749  0x00057d90 0x180059190 8   18   .rdata  utf16le NoRemove
+750  0x00057da8 0x1800591a8 6   14   .rdata  utf16le Delete
+751  0x00057db8 0x1800591b8 5   12   .rdata  utf16le AppID
+752  0x00057dc8 0x1800591c8 5   12   .rdata  utf16le CLSID
+753  0x00057dd8 0x1800591d8 20  42   .rdata  utf16le Component Categories
+754  0x00057e08 0x180059208 8   18   .rdata  utf16le FileType
+755  0x00057e20 0x180059220 9   20   .rdata  utf16le Interface
+756  0x00057e38 0x180059238 8   18   .rdata  utf16le Hardware
+757  0x00057e50 0x180059250 4   10   .rdata  utf16le Mime
+758  0x00057e68 0x180059268 8   18   .rdata  utf16le SECURITY
+759  0x00057e80 0x180059280 6   14   .rdata  utf16le SYSTEM
+760  0x00057e90 0x180059290 8   18   .rdata  utf16le Software
+761  0x00057ea8 0x1800592a8 7   16   .rdata  utf16le TypeLib
+762  0x00057eb8 0x1800592b8 15  32   .rdata  utf16le atlTraceGeneral
+763  0x00057ed8 0x1800592d8 11  24   .rdata  utf16le atlTraceCOM
+764  0x00057ef0 0x1800592f0 10  22   .rdata  utf16le atlTraceQI
+765  0x00057f08 0x180059308 17  36   .rdata  utf16le atlTraceRegistrar
+766  0x00057f30 0x180059330 16  34   .rdata  utf16le atlTraceRefcount
+767  0x00057f58 0x180059358 17  36   .rdata  utf16le atlTraceWindowing
+768  0x00057f80 0x180059380 16  34   .rdata  utf16le atlTraceControls
+769  0x00057fa8 0x1800593a8 15  32   .rdata  utf16le atlTraceHosting
+770  0x00057fc8 0x1800593c8 16  34   .rdata  utf16le atlTraceDBClient
+771  0x00057ff0 0x1800593f0 18  38   .rdata  utf16le atlTraceDBProvider
+772  0x00058018 0x180059418 14  30   .rdata  utf16le atlTraceSnapin
+773  0x00058038 0x180059438 15  32   .rdata  utf16le atlTraceNotImpl
+774  0x00058058 0x180059458 18  38   .rdata  utf16le atlTraceAllocation
+775  0x00058080 0x180059480 17  36   .rdata  utf16le atlTraceException
+776  0x000580a8 0x1800594a8 12  26   .rdata  utf16le atlTraceTime
+777  0x000580c8 0x1800594c8 13  28   .rdata  utf16le atlTraceCache
+778  0x000580e8 0x1800594e8 15  32   .rdata  utf16le atlTraceStencil
+779  0x00058108 0x180059508 14  30   .rdata  utf16le atlTraceString
+780  0x00058128 0x180059528 11  24   .rdata  utf16le atlTraceMap
+781  0x00058140 0x180059540 12  26   .rdata  utf16le atlTraceUtil
+782  0x00058160 0x180059560 16  34   .rdata  utf16le atlTraceSecurity
+783  0x00058188 0x180059588 12  26   .rdata  utf16le atlTraceSync
+784  0x000581a8 0x1800595a8 13  28   .rdata  utf16le atlTraceISAPI
+785  0x000581c8 0x1800595c8 27  56   .rdata  utf16le [CRefsISTableProc] %s fail!
+786  0x00058200 0x180059600 50  102  .rdata  utf16le RefsProc::CRefsISTableProc::VaryChildModifyBufProc
+787  0x00058270 0x180059670 46  94   .rdata  utf16le RefsProc::CRefsBlockRefTableProc::ParseBufProc
+788  0x000582d0 0x1800596d0 33  68   .rdata  utf16le [CRefsBlockRefTableProc] %s fail!
+789  0x00058320 0x180059720 52  106  .rdata  utf16le RefsProc::CRefsBlockRefTableProc::NoticeBlockRefItem
+790  0x00058390 0x180059790 33  68   .rdata  utf16le [CRefsBlockRefTableProc] %s fail!
+791  0x000583e0 0x1800597e0 56  114  .rdata  utf16le RefsProc::CRefsBlockRefTableProc::VaryChildModifyBufProc
+792  0x00058460 0x180059860 33  68   .rdata  utf16le [CRefsBlockRefTableProc] %s fail!
+793  0x000584b0 0x1800598b0 49  100  .rdata  utf16le RefsProc::CRefsBlockRefTableProc::ModifyParentMsb
+794  0x00058520 0x180059920 33  68   .rdata  utf16le [CRefsBlockRefTableProc] %s fail!
+795  0x00058ba0 0x180059fa0 47  96   .rdata  utf16le RefsRMProc::CRefsFileTransferProc::DataTransfer
+796  0x00058c00 0x18005a000 31  64   .rdata  utf16le [CRefsFileTransferProc]%s fail!
+797  0x00058c40 0x18005a040 45  92   .rdata  utf16le RefsRMProc::CRefsFileTransferProc::FinishProc
+798  0x00058ca4 0x18005a0a4 29  60   .rdata  utf16le RefsFileTransferProc]%s fail!
+799  0x00058cf8 0x18005a0f8 11  24   .rdata  utf16le ForceRemove
+800  0x00058d10 0x18005a110 8   18   .rdata  utf16le NoRemove
+801  0x00058d28 0x18005a128 6   14   .rdata  utf16le Delete
+802  0x00058d38 0x18005a138 5   12   .rdata  utf16le AppID
+803  0x00058d48 0x18005a148 5   12   .rdata  utf16le CLSID
+804  0x00058d58 0x18005a158 20  42   .rdata  utf16le Component Categories
+805  0x00058d88 0x18005a188 8   18   .rdata  utf16le FileType
+806  0x00058da0 0x18005a1a0 9   20   .rdata  utf16le Interface
+807  0x00058db8 0x18005a1b8 8   18   .rdata  utf16le Hardware
+808  0x00058dd0 0x18005a1d0 4   10   .rdata  utf16le Mime
+809  0x00058de8 0x18005a1e8 8   18   .rdata  utf16le SECURITY
+810  0x00058e00 0x18005a200 6   14   .rdata  utf16le SYSTEM
+811  0x00058e10 0x18005a210 8   18   .rdata  utf16le Software
+812  0x00058e28 0x18005a228 7   16   .rdata  utf16le TypeLib
+813  0x00058e38 0x18005a238 15  32   .rdata  utf16le atlTraceGeneral
+814  0x00058e58 0x18005a258 11  24   .rdata  utf16le atlTraceCOM
+815  0x00058e70 0x18005a270 10  22   .rdata  utf16le atlTraceQI
+816  0x00058e88 0x18005a288 17  36   .rdata  utf16le atlTraceRegistrar
+817  0x00058eb0 0x18005a2b0 16  34   .rdata  utf16le atlTraceRefcount
+818  0x00058ed8 0x18005a2d8 17  36   .rdata  utf16le atlTraceWindowing
+819  0x00058f00 0x18005a300 16  34   .rdata  utf16le atlTraceControls
+820  0x00058f28 0x18005a328 15  32   .rdata  utf16le atlTraceHosting
+821  0x00058f48 0x18005a348 16  34   .rdata  utf16le atlTraceDBClient
+822  0x00058f70 0x18005a370 18  38   .rdata  utf16le atlTraceDBProvider
+823  0x00058f98 0x18005a398 14  30   .rdata  utf16le atlTraceSnapin
+824  0x00058fb8 0x18005a3b8 15  32   .rdata  utf16le atlTraceNotImpl
+825  0x00058fd8 0x18005a3d8 18  38   .rdata  utf16le atlTraceAllocation
+826  0x00059000 0x18005a400 17  36   .rdata  utf16le atlTraceException
+827  0x00059028 0x18005a428 12  26   .rdata  utf16le atlTraceTime
+828  0x00059048 0x18005a448 13  28   .rdata  utf16le atlTraceCache
+829  0x00059068 0x18005a468 15  32   .rdata  utf16le atlTraceStencil
+830  0x00059088 0x18005a488 14  30   .rdata  utf16le atlTraceString
+831  0x000590a8 0x18005a4a8 11  24   .rdata  utf16le atlTraceMap
+832  0x000590c0 0x18005a4c0 12  26   .rdata  utf16le atlTraceUtil
+833  0x000590e0 0x18005a4e0 16  34   .rdata  utf16le atlTraceSecurity
+834  0x00059108 0x18005a508 12  26   .rdata  utf16le atlTraceSync
+835  0x00059128 0x18005a528 13  28   .rdata  utf16le atlTraceISAPI
+836  0x00059150 0x18005a550 49  100  .rdata  utf16le RefsProc::CRefsFileProc::FileDataRunItemsMarkProc
+837  0x000591bc 0x18005a5bc 22  46   .rdata  utf16le RefsFileProc] %s fail!
+838  0x00059204 0x18005a604 9   20   .rdata  utf16le rceRemove
+839  0x00059218 0x18005a618 8   18   .rdata  utf16le NoRemove
+840  0x00059230 0x18005a630 6   14   .rdata  utf16le Delete
+841  0x00059240 0x18005a640 46  94   .rdata  utf16le RefsProc::CRefsFileProc::UpdateDataRunItemProc
+842  0x000592a0 0x18005a6a0 50  102  .rdata  utf16le [CRefsFileProc] %s fail!,Tree Header length : 0x%x
+843  0x00059308 0x18005a708 24  50   .rdata  utf16le [CRefsFileProc] %s fail!
+844  0x00059340 0x18005a740 45  92   .rdata  utf16le [CRefsFileProc] !!!! data run over range !!!!
+845  0x000593a0 0x18005a7a0 42  86   .rdata  utf16le RefsProc::CRefsFileProc::UpdateDataRunsDes
+846  0x000593f8 0x18005a7f8 24  50   .rdata  utf16le [CRefsFileProc] %s fail!
+847  0x00059430 0x18005a830 45  92   .rdata  utf16le RefsProc::CRefsFileProc::_processSubMinistore
+848  0x00059490 0x18005a890 46  94   .rdata  utf16le RefsProc::CRefsFileProc::ModifyDataRunInfoProc
+849  0x000594f0 0x18005a8f0 33  68   .rdata  utf16le [CRefsFileProc] %s fail!,vcn : %d
+850  0x00059538 0x18005a938 5   12   .rdata  utf16le AppID
+851  0x00059548 0x18005a948 5   12   .rdata  utf16le CLSID
+852  0x00059558 0x18005a958 20  42   .rdata  utf16le Component Categories
+853  0x00059588 0x18005a988 8   18   .rdata  utf16le FileType
+854  0x000595a0 0x18005a9a0 9   20   .rdata  utf16le Interface
+855  0x000595b8 0x18005a9b8 8   18   .rdata  utf16le Hardware
+856  0x000595d0 0x18005a9d0 4   10   .rdata  utf16le Mime
+857  0x000595e8 0x18005a9e8 8   18   .rdata  utf16le SECURITY
+858  0x00059600 0x18005aa00 6   14   .rdata  utf16le SYSTEM
+859  0x00059610 0x18005aa10 8   18   .rdata  utf16le Software
+860  0x00059628 0x18005aa28 7   16   .rdata  utf16le TypeLib
+861  0x00059638 0x18005aa38 15  32   .rdata  utf16le atlTraceGeneral
+862  0x00059658 0x18005aa58 11  24   .rdata  utf16le atlTraceCOM
+863  0x00059670 0x18005aa70 10  22   .rdata  utf16le atlTraceQI
+864  0x00059688 0x18005aa88 17  36   .rdata  utf16le atlTraceRegistrar
+865  0x000596b0 0x18005aab0 16  34   .rdata  utf16le atlTraceRefcount
+866  0x000596d8 0x18005aad8 17  36   .rdata  utf16le atlTraceWindowing
+867  0x00059700 0x18005ab00 16  34   .rdata  utf16le atlTraceControls
+868  0x00059728 0x18005ab28 15  32   .rdata  utf16le atlTraceHosting
+869  0x00059748 0x18005ab48 16  34   .rdata  utf16le atlTraceDBClient
+870  0x00059770 0x18005ab70 18  38   .rdata  utf16le atlTraceDBProvider
+871  0x00059798 0x18005ab98 14  30   .rdata  utf16le atlTraceSnapin
+872  0x000597b8 0x18005abb8 15  32   .rdata  utf16le atlTraceNotImpl
+873  0x000597d8 0x18005abd8 18  38   .rdata  utf16le atlTraceAllocation
+874  0x00059800 0x18005ac00 17  36   .rdata  utf16le atlTraceException
+875  0x00059828 0x18005ac28 12  26   .rdata  utf16le atlTraceTime
+876  0x00059848 0x18005ac48 13  28   .rdata  utf16le atlTraceCache
+877  0x00059868 0x18005ac68 15  32   .rdata  utf16le atlTraceStencil
+878  0x00059888 0x18005ac88 14  30   .rdata  utf16le atlTraceString
+879  0x000598a8 0x18005aca8 11  24   .rdata  utf16le atlTraceMap
+880  0x000598c0 0x18005acc0 12  26   .rdata  utf16le atlTraceUtil
+881  0x000598e0 0x18005ace0 16  34   .rdata  utf16le atlTraceSecurity
+882  0x00059908 0x18005ad08 12  26   .rdata  utf16le atlTraceSync
+883  0x00059928 0x18005ad28 13  28   .rdata  utf16le atlTraceISAPI
+884  0x00059948 0x18005ad48 9   20   .rdata  utf16le frag_file
+885  0x00059960 0x18005ad60 55  112  .rdata  utf16le RefsProc::CRefsFileItemEntry::_processDataRunNodeRecord
+886  0x000599d0 0x18005add0 29  60   .rdata  utf16le [CRefsFileItemEntry] %s fail!
+887  0x00059a10 0x18005ae10 50  102  .rdata  utf16le RefsProc::CRefsFileItemEntry::ParseAttributeRecord
+888  0x00059a78 0x18005ae78 29  60   .rdata  utf16le [CRefsFileItemEntry] %s fail!
+889  0x00059ab8 0x18005aeb8 24  50   .rdata  utf16le [CRefsFileProc] %s fail!
+890  0x00059af0 0x18005aef0 33  68   .rdata  utf16le RefsProc::CRefsFileProc::MarkProc
+891  0x00059dd8 0x18005b1d8 15  32   .rdata  utf16le atlTraceGeneral
+892  0x00059df8 0x18005b1f8 11  24   .rdata  utf16le atlTraceCOM
+893  0x00059e10 0x18005b210 10  22   .rdata  utf16le atlTraceQI
+894  0x00059e28 0x18005b228 17  36   .rdata  utf16le atlTraceRegistrar
+895  0x00059e54 0x18005b254 14  30   .rdata  utf16le lTraceRefcount
+896  0x00059e7c 0x18005b27c 15  32   .rdata  utf16le lTraceWindowing
+897  0x00059ea4 0x18005b2a4 14  30   .rdata  utf16le lTraceControls
+898  0x00059ecc 0x18005b2cc 13  28   .rdata  utf16le lTraceHosting
+899  0x00059ee8 0x18005b2e8 16  34   .rdata  utf16le atlTraceDBClient
+900  0x00059f10 0x18005b310 18  38   .rdata  utf16le atlTraceDBProvider
+901  0x00059f38 0x18005b338 14  30   .rdata  utf16le atlTraceSnapin
+902  0x00059f58 0x18005b358 15  32   .rdata  utf16le atlTraceNotImpl
+903  0x00059f78 0x18005b378 18  38   .rdata  utf16le atlTraceAllocation
+904  0x00059fa0 0x18005b3a0 17  36   .rdata  utf16le atlTraceException
+905  0x00059fc8 0x18005b3c8 12  26   .rdata  utf16le atlTraceTime
+906  0x00059fe8 0x18005b3e8 13  28   .rdata  utf16le atlTraceCache
+907  0x0005a008 0x18005b408 15  32   .rdata  utf16le atlTraceStencil
+908  0x0005a028 0x18005b428 14  30   .rdata  utf16le atlTraceString
+909  0x0005a048 0x18005b448 11  24   .rdata  utf16le atlTraceMap
+910  0x0005a060 0x18005b460 12  26   .rdata  utf16le atlTraceUtil
+911  0x0005a080 0x18005b480 16  34   .rdata  utf16le atlTraceSecurity
+912  0x0005a0a8 0x18005b4a8 12  26   .rdata  utf16le atlTraceSync
+913  0x0005a0c8 0x18005b4c8 13  28   .rdata  utf16le atlTraceISAPI
+914  0x0005a0f0 0x18005b4f0 11  24   .rdata  utf16le ForceRemove
+915  0x0005a108 0x18005b508 8   18   .rdata  utf16le NoRemove
+916  0x0005a120 0x18005b520 6   14   .rdata  utf16le Delete
+917  0x0005a130 0x18005b530 5   12   .rdata  utf16le AppID
+918  0x0005a140 0x18005b540 5   12   .rdata  utf16le CLSID
+919  0x0005a150 0x18005b550 20  42   .rdata  utf16le Component Categories
+920  0x0005a180 0x18005b580 8   18   .rdata  utf16le FileType
+921  0x0005a198 0x18005b598 9   20   .rdata  utf16le Interface
+922  0x0005a1b0 0x18005b5b0 8   18   .rdata  utf16le Hardware
+923  0x0005a1c8 0x18005b5c8 4   10   .rdata  utf16le Mime
+924  0x0005a1e0 0x18005b5e0 8   18   .rdata  utf16le SECURITY
+925  0x0005a1f8 0x18005b5f8 6   14   .rdata  utf16le SYSTEM
+926  0x0005a208 0x18005b608 8   18   .rdata  utf16le Software
+927  0x0005a220 0x18005b620 7   16   .rdata  utf16le TypeLib
+928  0x0005a270 0x18005b670 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+929  0x0005a2b8 0x18005b6b8 12  26   .rdata  utf16le kernel32.dll
+930  0x0005a2d8 0x18005b6d8 27  28   .rdata  ascii   InitializeConditionVariable
+931  0x0005a2f8 0x18005b6f8 24  25   .rdata  ascii   SleepConditionVariableCS
+932  0x0005a318 0x18005b718 24  25   .rdata  ascii   WakeAllConditionVariable
+933  0x0005a368 0x18005b768 17  18   .rdata  ascii   Unknown exception
+934  0x0005a398 0x18005b798 14  15   .rdata  ascii   bad allocation
+935  0x0005a3c0 0x18005b7c0 20  21   .rdata  ascii   bad array new length
+936  0x0005a3f0 0x18005b7f0 64  130  .rdata  utf16le ERROR : Unable to initialize critical section in CAtlBaseModule\n
+937  0x0005d704 0x18005eb04 4   5    .rdata  ascii   RSDS
+938  0x0005d71c 0x18005eb1c 76  77   .rdata  ascii   I:\_drw_main\PartitionRecovery\Output\Release_x64\RefsFileSystemAnalyser.pdb
+939  0x0005d78c 0x18005eb8c 8   9    .rdata  ascii   .text$di
+940  0x0005d7a0 0x18005eba0 8   9    .rdata  ascii   .text$mn
+941  0x0005d7b4 0x18005ebb4 11  12   .rdata  ascii   .text$mn$00
+942  0x0005d7c8 0x18005ebc8 7   8    .rdata  ascii   .text$x
+943  0x0005d7d8 0x18005ebd8 8   9    .rdata  ascii   .text$yd
+944  0x0005d7ec 0x18005ebec 8   9    .rdata  ascii   .idata$5
+945  0x0005d800 0x18005ec00 6   7    .rdata  ascii   .00cfg
+946  0x0005d810 0x18005ec10 8   9    .rdata  ascii   .CRT$XCA
+947  0x0005d824 0x18005ec24 8   9    .rdata  ascii   .CRT$XCL
+948  0x0005d838 0x18005ec38 8   9    .rdata  ascii   .CRT$XCZ
+949  0x0005d84c 0x18005ec4c 8   9    .rdata  ascii   .CRT$XIA
+950  0x0005d860 0x18005ec60 8   9    .rdata  ascii   .CRT$XIC
+951  0x0005d874 0x18005ec74 8   9    .rdata  ascii   .CRT$XIZ
+952  0x0005d888 0x18005ec88 8   9    .rdata  ascii   .CRT$XLA
+953  0x0005d89c 0x18005ec9c 8   9    .rdata  ascii   .CRT$XLZ
+954  0x0005d8b0 0x18005ecb0 8   9    .rdata  ascii   .CRT$XPA
+955  0x0005d8c4 0x18005ecc4 8   9    .rdata  ascii   .CRT$XPZ
+956  0x0005d8d8 0x18005ecd8 8   9    .rdata  ascii   .CRT$XTA
+957  0x0005d8ec 0x18005ecec 8   9    .rdata  ascii   .CRT$XTZ
+958  0x0005d900 0x18005ed00 6   7    .rdata  ascii   .rdata
+959  0x0005d910 0x18005ed10 8   9    .rdata  ascii   .rdata$T
+960  0x0005d924 0x18005ed24 8   9    .rdata  ascii   .rdata$r
+961  0x0005d938 0x18005ed38 13  14   .rdata  ascii   .rdata$zzzdbg
+962  0x0005d950 0x18005ed50 8   9    .rdata  ascii   .rtc$IAA
+963  0x0005d964 0x18005ed64 8   9    .rdata  ascii   .rtc$IZZ
+964  0x0005d978 0x18005ed78 8   9    .rdata  ascii   .rtc$TAA
+965  0x0005d98c 0x18005ed8c 8   9    .rdata  ascii   .rtc$TZZ
+966  0x0005d9a0 0x18005eda0 4   5    .rdata  ascii   .tls
+967  0x0005d9b0 0x18005edb0 5   6    .rdata  ascii   .tls$
+968  0x0005d9c0 0x18005edc0 8   9    .rdata  ascii   .tls$ZZZ
+969  0x0005d9d4 0x18005edd4 6   7    .rdata  ascii   .xdata
+970  0x0005d9e4 0x18005ede4 8   9    .rdata  ascii   .xdata$x
+971  0x0005d9f8 0x18005edf8 6   7    .rdata  ascii   .edata
+972  0x0005da08 0x18005ee08 8   9    .rdata  ascii   .idata$2
+973  0x0005da1c 0x18005ee1c 8   9    .rdata  ascii   .idata$3
+974  0x0005da30 0x18005ee30 8   9    .rdata  ascii   .idata$4
+975  0x0005da44 0x18005ee44 8   9    .rdata  ascii   .idata$6
+976  0x0005da58 0x18005ee58 5   6    .rdata  ascii   .data
+977  0x0005da68 0x18005ee68 7   8    .rdata  ascii   .data$r
+978  0x0005da78 0x18005ee78 4   5    .rdata  ascii   .bss
+979  0x0005da88 0x18005ee88 6   7    .rdata  ascii   .pdata
+980  0x0005da98 0x18005ee98 8   9    .rdata  ascii   .rsrc$01
+981  0x0005daac 0x18005eeac 8   9    .rdata  ascii   .rsrc$02
+982  0x0005f460 0x180060860 4   5    .rdata  ascii   \fp\v`
+983  0x00061041 0x180062441 5   6    .rdata  ascii   B\fp\v`
+984  0x0006178e 0x180062b8e 4   5    .rdata  ascii   \fp\v`
+985  0x00062438 0x180063838 4   5    .rdata  ascii   \fp\v`
+986  0x0006293e 0x180063d3e 7   16   .rdata  utf16le \a\b\t\n\v\f\r
+987  0x0006296e 0x180063d6e 25  26   .rdata  ascii   RefsFileSystemAnalyser.mo
+988  0x00062988 0x180063d88 27  28   .rdata  ascii   ??0IObject@@QEAA@$$QEAU0@@Z
+989  0x000629a4 0x180063da4 25  26   .rdata  ascii   ??0IObject@@QEAA@AEBU0@@Z
+990  0x000629be 0x180063dbe 19  20   .rdata  ascii   ??0IObject@@QEAA@XZ
+991  0x000629d2 0x180063dd2 34  35   .rdata  ascii   ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+992  0x000629f5 0x180063df5 32  33   .rdata  ascii   ??0IStorageDevice@@QEAA@AEBU0@@Z
+993  0x00062a16 0x180063e16 26  27   .rdata  ascii   ??0IStorageDevice@@QEAA@XZ
+994  0x00062a31 0x180063e31 39  40   .rdata  ascii   ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+995  0x00062a59 0x180063e59 36  37   .rdata  ascii   ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+996  0x00062a7e 0x180063e7e 35  36   .rdata  ascii   ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+997  0x00062aa2 0x180063ea2 33  34   .rdata  ascii   ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+998  0x00062ac4 0x180063ec4 32  33   .rdata  ascii   ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+999  0x00062ae5 0x180063ee5 30  31   .rdata  ascii   ??4IObject@@QEAAAEAU0@AEBU0@@Z
+1000 0x00062b04 0x180063f04 39  40   .rdata  ascii   ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+1001 0x00062b2c 0x180063f2c 37  38   .rdata  ascii   ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+1002 0x00062b52 0x180063f52 16  17   .rdata  ascii   ??_7IObject@@6B@
+1003 0x00062b63 0x180063f63 37  38   .rdata  ascii   ??_7IStorageDevice@@6BIBlockDevice@@@
+1004 0x00062b89 0x180063f89 32  33   .rdata  ascii   ??_7IStorageDevice@@6BIObject@@@
+1005 0x00062baa 0x180063faa 24  25   .rdata  ascii   ?AddRef@IObject@@QEBAKXZ
+1006 0x00062bc3 0x180063fc3 38  39   .rdata  ascii   ?ConvertVolume@IStorageDevice@@UEAAHXZ
+1007 0x00062bea 0x180063fea 52  53   .rdata  ascii   ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+1008 0x00062c1f 0x18006401f 59  60   .rdata  ascii   ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+1009 0x00062c5b 0x18006405b 43  44   .rdata  ascii   ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+1010 0x00062c87 0x180064087 50  51   .rdata  ascii   ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+1011 0x00062cba 0x1800640ba 41  42   .rdata  ascii   ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+1012 0x00062ce4 0x1800640e4 42  43   .rdata  ascii   ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+1013 0x00062d0f 0x18006410f 25  26   .rdata  ascii   ?Release@IObject@@QEBAKXZ
+1014 0x00062d29 0x180064129 41  42   .rdata  ascii   ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+1015 0x00062d53 0x180064153 44  45   .rdata  ascii   ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+1016 0x00062d80 0x180064180 60  61   .rdata  ascii   ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+1017 0x00062dbd 0x1800641bd 46  47   .rdata  ascii   ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+1018 0x00062dec 0x1800641ec 9   10   .rdata  ascii   GetModule
+1019 0x00063292 0x180064692 26  27   .rdata  ascii   ?Log@CLogWriter@@SAXPEBDZZ
+1020 0x000632ae 0x1800646ae 6   7    .rdata  ascii   Log.mo
+1021 0x000632b8 0x1800646b8 11  12   .rdata  ascii   FreeLibrary
+1022 0x000632c6 0x1800646c6 14  15   .rdata  ascii   GetProcAddress
+1023 0x000632d8 0x1800646d8 12  13   .rdata  ascii   LoadLibraryA
+1024 0x000632e8 0x1800646e8 12  13   .rdata  ascii   GetLastError
+1025 0x000632f8 0x1800646f8 27  28   .rdata  ascii   InitializeCriticalSectionEx
+1026 0x00063316 0x180064716 21  22   .rdata  ascii   DeleteCriticalSection
+1027 0x0006332e 0x18006472e 11  12   .rdata  ascii   CloseHandle
+1028 0x0006333c 0x18006473c 11  12   .rdata  ascii   CreateFileW
+1029 0x0006334a 0x18006474a 9   10   .rdata  ascii   WriteFile
+1030 0x00063354 0x180064754 12  13   .rdata  ascii   KERNEL32.dll
+1031 0x00063364 0x180064764 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+1032 0x00063386 0x180064786 31  32   .rdata  ascii   ?uncaught_exception@std@@YA_NXZ
+1033 0x000633a8 0x1800647a8 30  31   .rdata  ascii   ?_Xout_of_range@std@@YAXPEBD@Z
+1034 0x000633ca 0x1800647ca 28  29   .rdata  ascii   ?good@ios_base@std@@QEBA_NXZ
+1035 0x000633ea 0x1800647ea 28  29   .rdata  ascii   ?flags@ios_base@std@@QEBAHXZ
+1036 0x0006340a 0x18006480a 29  30   .rdata  ascii   ?setf@ios_base@std@@QEAAHHH@Z
+1037 0x0006342a 0x18006482a 29  30   .rdata  ascii   ?width@ios_base@std@@QEBA_JXZ
+1038 0x0006344a 0x18006484a 31  32   .rdata  ascii   ?width@ios_base@std@@QEAA_J_J@Z
+1039 0x0006346c 0x18006486c 59  60   .rdata  ascii   ??0?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
+1040 0x000634aa 0x1800648aa 59  60   .rdata  ascii   ??1?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+1041 0x000634e8 0x1800648e8 65  66   .rdata  ascii   ?sputc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAG_W@Z
+1042 0x0006352c 0x18006492c 71  72   .rdata  ascii   ?sputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAA_JPEB_W_J@Z
+1043 0x00063576 0x180064976 67  68   .rdata  ascii   ?eback@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+1044 0x000635bc 0x1800649bc 66  67   .rdata  ascii   ?gptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+1045 0x00063602 0x180064a02 67  68   .rdata  ascii   ?pbase@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+1046 0x00063648 0x180064a48 66  67   .rdata  ascii   ?pptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+1047 0x0006368e 0x180064a8e 67  68   .rdata  ascii   ?egptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+1048 0x000636d4 0x180064ad4 64  65   .rdata  ascii   ?gbump@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXH@Z
+1049 0x00063718 0x180064b18 69  70   .rdata  ascii   ?setg@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXPEA_W00@Z
+1050 0x00063760 0x180064b60 67  68   .rdata  ascii   ?epptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+1051 0x000637a6 0x180064ba6 68  69   .rdata  ascii   ?setp@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXPEA_W0@Z
+1052 0x000637ee 0x180064bee 69  70   .rdata  ascii   ?setp@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXPEA_W00@Z
+1053 0x00063836 0x180064c36 68  69   .rdata  ascii   ?_Pninc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAPEA_WXZ
+1054 0x0006387e 0x180064c7e 53  54   .rdata  ascii   ??1?$basic_ios@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+1055 0x000638b6 0x180064cb6 63  64   .rdata  ascii   ?setstate@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
+1056 0x000638f8 0x180064cf8 102 103  .rdata  ascii   ?tie@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBAPEAV?$basic_ostream@_WU?$char_traits@_W@std@@@2@XZ
+1057 0x00063962 0x180064d62 106 107  .rdata  ascii   ?rdbuf@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBAPEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@2@XZ
+1058 0x000639d0 0x180064dd0 57  58   .rdata  ascii   ?fill@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBA_WXZ
+1059 0x00063a0c 0x180064e0c 53  54   .rdata  ascii   ??0?$basic_ios@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
+1060 0x00063a44 0x180064e44 61  62   .rdata  ascii   ?_Osfx@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAXXZ
+1061 0x00063a84 0x180064e84 90  91   .rdata  ascii   ??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+1062 0x00063ae2 0x180064ee2 65  66   .rdata  ascii   ??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV01@_K@Z
+1063 0x00063b26 0x180064f26 67  68   .rdata  ascii   ?flush@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@XZ
+1064 0x00063b6c 0x180064f6c 108 109  .rdata  ascii   ??0?$basic_iostream@_WU?$char_traits@_W@std@@@std@@QEAA@PEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@1@@Z
+1065 0x00063bdc 0x180064fdc 58  59   .rdata  ascii   ??1?$basic_iostream@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+1066 0x00063c1a 0x18006501a 63  64   .rdata  ascii   ?_Lock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAAXXZ
+1067 0x00063c5c 0x18006505c 65  66   .rdata  ascii   ?_Unlock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAAXXZ
+1068 0x00063ca0 0x1800650a0 76  77   .rdata  ascii   ?imbue@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAXAEBVlocale@2@@Z
+1069 0x00063cf0 0x1800650f0 77  78   .rdata  ascii   ?setbuf@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAPEAV12@PEA_W_J@Z
+1070 0x00063d40 0x180065140 68  69   .rdata  ascii   ?showmanyc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JXZ
+1071 0x00063d88 0x180065188 62  63   .rdata  ascii   ?sync@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAHXZ
+1072 0x00063dca 0x1800651ca 63  64   .rdata  ascii   ?uflow@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAGXZ
+1073 0x00063e0c 0x18006520c 72  73   .rdata  ascii   ?xsgetn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEA_W_J@Z
+1074 0x00063e58 0x180065258 72  73   .rdata  ascii   ?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
+1075 0x00063ea2 0x1800652a2 12  13   .rdata  ascii   MSVCP140.dll
+1076 0x00063eb2 0x1800652b2 9   10   .rdata  ascii   _purecall
+1077 0x00063ebe 0x1800652be 10  11   .rdata  ascii   __RTtypeid
+1078 0x00063ecc 0x1800652cc 20  21   .rdata  ascii   __std_type_info_name
+1079 0x00063ee4 0x1800652e4 6   7    .rdata  ascii   memcmp
+1080 0x00063eee 0x1800652ee 6   7    .rdata  ascii   memcpy
+1081 0x00063ef8 0x1800652f8 7   8    .rdata  ascii   memmove
+1082 0x00063f02 0x180065302 18  19   .rdata  ascii   _CxxThrowException
+1083 0x00063f18 0x180065318 18  19   .rdata  ascii   __CxxFrameHandler3
+1084 0x00063f2e 0x18006532e 15  16   .rdata  ascii   __RTDynamicCast
+1085 0x00063f40 0x180065340 20  21   .rdata  ascii   __C_specific_handler
+1086 0x00063f58 0x180065358 15  16   .rdata  ascii   __std_terminate
+1087 0x00063f6a 0x18006536a 28  29   .rdata  ascii   __std_type_info_destroy_list
+1088 0x00063f8a 0x18006538a 20  21   .rdata  ascii   __std_exception_copy
+1089 0x00063fa2 0x1800653a2 23  24   .rdata  ascii   __std_exception_destroy
+1090 0x00063fbc 0x1800653bc 6   7    .rdata  ascii   memset
+1091 0x00063fc4 0x1800653c4 16  17   .rdata  ascii   VCRUNTIME140.dll
+1092 0x00063fd8 0x1800653d8 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+1093 0x00063ffe 0x1800653fe 6   7    .rdata  ascii   strlen
+1094 0x00064008 0x180065408 8   9    .rdata  ascii   wcstombs
+1095 0x00064014 0x180065414 6   7    .rdata  ascii   wcslen
+1096 0x0006401e 0x18006541e 27  28   .rdata  ascii   __stdio_common_vsnwprintf_s
+1097 0x0006403c 0x18006543c 4   5    .rdata  ascii   free
+1098 0x00064044 0x180065444 10  11   .rdata  ascii   wcstombs_s
+1099 0x00064052 0x180065452 8   9    .rdata  ascii   _wcsicmp
+1100 0x0006405e 0x18006545e 9   10   .rdata  ascii   _callnewh
+1101 0x0006406a 0x18006546a 6   7    .rdata  ascii   malloc
+1102 0x00064074 0x180065474 15  16   .rdata  ascii   _seh_filter_dll
+1103 0x00064086 0x180065486 22  23   .rdata  ascii   _configure_narrow_argv
+1104 0x000640a0 0x1800654a0 30  31   .rdata  ascii   _initialize_narrow_environment
+1105 0x000640c2 0x1800654c2 24  25   .rdata  ascii   _initialize_onexit_table
+1106 0x000640de 0x1800654de 25  26   .rdata  ascii   _register_onexit_function
+1107 0x000640fa 0x1800654fa 21  22   .rdata  ascii   _execute_onexit_table
+1108 0x00064112 0x180065512 11  12   .rdata  ascii   _crt_atexit
+1109 0x00064120 0x180065520 6   7    .rdata  ascii   _cexit
+1110 0x0006412a 0x18006552a 9   10   .rdata  ascii   _initterm
+1111 0x00064136 0x180065536 11  12   .rdata  ascii   _initterm_e
+1112 0x00064142 0x180065542 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+1113 0x00064164 0x180065564 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+1114 0x00064186 0x180065586 33  34   .rdata  ascii   api-ms-win-crt-convert-l1-1-0.dll
+1115 0x000641a8 0x1800655a8 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+1116 0x000641c8 0x1800655c8 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+1117 0x000641ea 0x1800655ea 17  18   .rdata  ascii   RtlCaptureContext
+1118 0x000641fe 0x1800655fe 22  23   .rdata  ascii   RtlLookupFunctionEntry
+1119 0x00064218 0x180065618 16  17   .rdata  ascii   RtlVirtualUnwind
+1120 0x0006422c 0x18006562c 24  25   .rdata  ascii   UnhandledExceptionFilter
+1121 0x00064248 0x180065648 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+1122 0x00064266 0x180065666 17  18   .rdata  ascii   GetCurrentProcess
+1123 0x0006427a 0x18006567a 16  17   .rdata  ascii   TerminateProcess
+1124 0x0006428e 0x18006568e 25  26   .rdata  ascii   IsProcessorFeaturePresent
+1125 0x000642aa 0x1800656aa 20  21   .rdata  ascii   EnterCriticalSection
+1126 0x000642c2 0x1800656c2 20  21   .rdata  ascii   LeaveCriticalSection
+1127 0x000642da 0x1800656da 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+1128 0x00064302 0x180065702 8   9    .rdata  ascii   SetEvent
+1129 0x0006430e 0x18006570e 10  11   .rdata  ascii   ResetEvent
+1130 0x0006431c 0x18006571c 21  22   .rdata  ascii   WaitForSingleObjectEx
+1131 0x00064334 0x180065734 12  13   .rdata  ascii   CreateEventW
+1132 0x00064344 0x180065744 16  17   .rdata  ascii   GetModuleHandleW
+1133 0x00064358 0x180065758 19  20   .rdata  ascii   InitializeSListHead
+1134 0x0006436e 0x18006576e 17  18   .rdata  ascii   IsDebuggerPresent
+1135 0x00064382 0x180065782 23  24   .rdata  ascii   QueryPerformanceCounter
+1136 0x0006439c 0x18006579c 19  20   .rdata  ascii   GetCurrentProcessId
+1137 0x000643b2 0x1800657b2 18  19   .rdata  ascii   GetCurrentThreadId
+1138 0x000643c8 0x1800657c8 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+1139 0x000643e2 0x1800657e2 25  26   .rdata  ascii   DisableThreadLibraryCalls
+1140 0x000643fe 0x1800657fe 18  19   .rdata  ascii   OutputDebugStringW
+1141 0x000646a0 0x1800660a0 19  20   .data   ascii   .?AVexception@std@@
+1142 0x000646c8 0x1800660c8 27  28   .data   ascii   .?AVFunctorObjectBase@dnc@@
+1143 0x00064700 0x180066100 198 199  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@AEBQEAUIStorageDevice@@AEB_K@Z@2@$01@dnc@@
+1144 0x000647e0 0x1800661e0 111 112  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@AEBQEAUIStorageDevice@@AEB_K@Z@dnc@@
+1145 0x00064860 0x180066260 16  17   .data   ascii   .?AUIErrorBase@@
+1146 0x00064888 0x180066288 35  36   .data   ascii   .?AUIRefsFileSystemAnalyserModule@@
+1147 0x000648c0 0x1800662c0 13  14   .data   ascii   .?AUIModule@@
+1148 0x000648e0 0x1800662e0 23  24   .data   ascii   .?AUIFileSystemModule@@
+1149 0x00064908 0x180066308 17  18   .data   ascii   .?AUIThreadBase@@
+1150 0x00064930 0x180066330 270 271  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@@Z@2@$01@dnc@@
+1151 0x00064a50 0x180066450 176 177  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@AEBV1@@Z@2@$00@dnc@@
+1152 0x00064b20 0x180066520 89  90   .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@AEBV1@@Z@dnc@@
+1153 0x00064b90 0x180066590 164 165  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@@Z@dnc@@
+1154 0x00064c50 0x180066650 230 231  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBQEAUIObject@@AEBV1@@Z@2@$01@dnc@@
+1155 0x00064d50 0x180066750 214 215  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBV1@@Z@2@$00@dnc@@
+1156 0x00064e40 0x180066840 108 109  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBV1@@Z@dnc@@
+1157 0x00064ec0 0x1800668c0 124 125  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBQEAUIObject@@AEBV1@@Z@dnc@@
+1158 0x00064f50 0x180066950 13  14   .data   ascii   .?AUIObject@@
+1159 0x00064f70 0x180066970 16  17   .data   ascii   .?AUIAggObject@@
+1160 0x00064f98 0x180066998 21  22   .data   ascii   .?AUIVolumeAnalyser@@
+1161 0x00064fc0 0x1800669c0 20  21   .data   ascii   .?AUIStorageDevice@@
+1162 0x00064fe8 0x1800669e8 18  19   .data   ascii   .?AUIBlockDevice@@
+1163 0x00065010 0x180066a10 35  36   .data   ascii   .?AVCRefsFileSystemAnalyserModule@@
+1164 0x00065048 0x180066a48 25  26   .data   ascii   .?AVCRefsVolumeAnalyser@@
+1165 0x00065078 0x180066a78 46  47   .data   ascii   .?AV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@
+1166 0x000650b8 0x180066ab8 41  42   .data   ascii   .?AV?$CMomObject@VCRefsVolumeAnalyser@@@@
+1167 0x000650f8 0x180066af8 21  22   .data   ascii   .?AU__MomObjectFlag@@
+1168 0x00065120 0x180066b20 107 108  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@AEBQEAUIStorageDevice@@AEB_K@Z@dnc@@
+1169 0x000651a0 0x180066ba0 79  80   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@XZ@dnc@@
+1170 0x00065200 0x180066c00 52  53   .data   ascii   .?AV?$CModuleImpl@VCRefsFileSystemAnalyserModule@@@@
+1171 0x00065250 0x180066c50 73  74   .data   ascii   .?AV?$CMomEventObject@V?$CModuleImpl@VCRefsFileSystemAnalyserModule@@@@@@
+1172 0x000652b0 0x180066cb0 68  69   .data   ascii   .?AV?$CMomObject@V?$CModuleImpl@VCRefsFileSystemAnalyserModule@@@@@@
+1173 0x00065310 0x180066d10 94  95   .data   ascii   .?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCRefsFileSystemAnalyserModule@@@@@@@@
+1174 0x00065380 0x180066d80 44  45   .data   ascii   .?AV?$CMomAggObject@VCRefsVolumeAnalyser@@@@
+1175 0x000653c0 0x180066dc0 65  66   .data   ascii   .?AV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@
+1176 0x00065420 0x180066e20 85  86   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@AEBV1@@Z@dnc@@
+1177 0x00065490 0x180066e90 160 161  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCRefsVolumeAnalyser@@@@@Z@dnc@@
+1178 0x00065550 0x180066f50 98  99   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@XZ@dnc@@
+1179 0x000655d0 0x180066fd0 104 105  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBV1@@Z@dnc@@
+1180 0x00065650 0x180067050 120 121  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCRefsVolumeAnalyser@@@@@@AEBQEAUIObject@@AEBV1@@Z@dnc@@
+1181 0x000656e0 0x1800670e0 28  29   .data   ascii   .?AVCRefsBasePart@RefsProc@@
+1182 0x00065710 0x180067110 27  28   .data   ascii   .?AVCRefsAnalyze@RefsProc@@
+1183 0x00065740 0x180067140 24  25   .data   ascii   .?AVCDiskIoProc@DiskIO@@
+1184 0x00065770 0x180067170 36  37   .data   ascii   .?AVCRefsDataRunBasicItem@RefsProc@@
+1185 0x000657a8 0x1800671a8 35  36   .data   ascii   .?AVCRefsFileDataRunItem@RefsProc@@
+1186 0x000657e0 0x1800671e0 34  35   .data   ascii   .?AVCRefsAppDataRunItem@RefsProc@@
+1187 0x00065820 0x180067220 71  72   .data   ascii   .?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+1188 0x00065880 0x180067280 53  54   .data   ascii   .?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+1189 0x000658d0 0x1800672d0 74  75   .data   ascii   .?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+1190 0x00065930 0x180067330 52  53   .data   ascii   .?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
+1191 0x00065980 0x180067380 51  52   .data   ascii   .?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+1192 0x000659d0 0x1800673d0 47  48   .data   ascii   .?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+1193 0x00065a10 0x180067410 18  19   .data   ascii   .?AVios_base@std@@
+1194 0x00065a38 0x180067438 19  20   .data   ascii   .?AV?$_Iosb@H@std@@
+1195 0x00065a60 0x180067460 51  52   .data   ascii   .?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
+1196 0x00065aa8 0x1800674a8 32  33   .data   ascii   .?AVCRefsChildMsbProc@RefsProc@@
+1197 0x00065ae0 0x1800674e0 32  33   .data   ascii   .?AVCRefsBasicMsbProc@RefsProc@@
+1198 0x00065b18 0x180067518 35  36   .data   ascii   .?AVCRefsChildMsbDupProc@RefsProc@@
+1199 0x00065b50 0x180067550 32  33   .data   ascii   .?AVCRefsObjectIdProc@RefsProc@@
+1200 0x00065b88 0x180067588 34  35   .data   ascii   .?AVCRefsVolumeInfoProc@RefsProc@@
+1201 0x00065bc0 0x1800675c0 31  32   .data   ascii   .?AVCRefsLogFileProc@RefsProc@@
+1202 0x00065bf0 0x1800675f0 32  33   .data   ascii   .?AVCRefsObjIdDupProc@RefsProc@@
+1203 0x00065c28 0x180067628 36  37   .data   ascii   .?AVCRefsVolumeBootRecord@RefsProc@@
+1204 0x00065c60 0x180067660 30  31   .data   ascii   .?AVCRefsSuperBlock@RefsProc@@
+1205 0x00065c90 0x180067690 35  36   .data   ascii   .?AVCRefsCheckPointBlock@RefsProc@@
+1206 0x00065cc8 0x1800676c8 32  33   .data   ascii   .?AVCRefsAllocatorMgr@RefsProc@@
+1207 0x00065d00 0x180067700 53  54   .data   ascii   .?AU_OfflineBitmap_Info_@CRefsAllocatorMgr@RefsProc@@
+1208 0x00065d50 0x180067750 53  54   .data   ascii   .?AU_ClusterBitmap_Info_@CRefsAllocatorMgr@RefsProc@@
+1209 0x00065da0 0x1800677a0 60  61   .data   ascii   .?AU_OfflineAllUsedBitmap_Info_@CRefsAllocatorMgr@RefsProc@@
+1210 0x00065df0 0x1800677f0 33  34   .data   ascii   .?AVCRefsMetaDirectory@RefsProc@@
+1211 0x00065e28 0x180067828 36  37   .data   ascii   .?AVCRefsVaryChildMsbProc@RefsProc@@
+1212 0x00065e60 0x180067860 37  38   .data   ascii   .?AVCRefsStandardItemEntry@RefsProc@@
+1213 0x00065e98 0x180067898 35  36   .data   ascii   .?AVCRefsMetaFileDataRun@RefsProc@@
+1214 0x00065ed0 0x1800678d0 35  36   .data   ascii   .?AVCRefsMetaFileDirItem@RefsProc@@
+1215 0x00065f08 0x180067908 39  40   .data   ascii   .?AVCRefsMetaSymbolicDirItem@RefsProc@@
+1216 0x00065f40 0x180067940 34  35   .data   ascii   .?AVCRefsContainerTable@RefsProc@@
+1217 0x00065f78 0x180067978 30  31   .data   ascii   .?AVCRefsBitmapProc@RefsProc@@
+1218 0x00065fa8 0x1800679a8 31  32   .data   ascii   .?AVCRefsISTableProc@RefsProc@@
+1219 0x00065fd8 0x1800679d8 37  38   .data   ascii   .?AVCRefsBlockRefTableProc@RefsProc@@
+1220 0x00066010 0x180067a10 33  34   .data   ascii   .?AVCRefsItemNameEntry@RefsProc@@
+1221 0x00066048 0x180067a48 33  34   .data   ascii   .?AVCRefsDirectoryProc@RefsProc@@
+1222 0x00066080 0x180067a80 32  33   .data   ascii   .?AVCRefsHardLinkProc@RefsProc@@
+1223 0x000660b8 0x180067ab8 33  34   .data   ascii   .?AVCRefsFileItemEntry@RefsProc@@
+1224 0x000660f0 0x180067af0 28  29   .data   ascii   .?AVCRefsFileProc@RefsProc@@
+1225 0x00066120 0x180067b20 15  16   .data   ascii   .?AVtype_info@@
+1226 0x00066140 0x180067b40 19  20   .data   ascii   .?AVbad_alloc@std@@
+1227 0x00066168 0x180067b68 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+1228 0x0006aa60 0x18006f060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

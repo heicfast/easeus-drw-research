@@ -1,0 +1,2415 @@
+[Strings]
+nth  paddr      vaddr       len  size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0    0x000dfe68 0x1800e0c68 14   15   .rdata  ascii   bad allocation
+1    0x000dfe90 0x1800e0c90 20   21   .rdata  ascii   bad array new length
+2    0x000dfed8 0x1800e0cd8 18   19   .rdata  ascii   backing != nullptr
+3    0x000dfef0 0x1800e0cf0 40   41   .rdata  ascii   backing->status != kFutureStatusComplete
+4    0x000dff20 0x1800e0d20 18   19   .rdata  ascii   backing != nullptr
+5    0x000dff38 0x1800e0d38 28   29   .rdata  ascii   backing->reference_count > 0
+6    0x000dff60 0x1800e0d60 64   65   .rdata  ascii   (delete_context_data_fn != nullptr) || (context_data == nullptr)
+7    0x000dffa8 0x1800e0da8 25   26   .rdata  ascii   data_delete_fn != nullptr
+8    0x000dffc8 0x1800e0dc8 33   34   .rdata  ascii   context_data_delete_fn != nullptr
+9    0x000dfff0 0x1800e0df0 143  144  .rdata  ascii   Future with handle %d still exists though its backing API 0x%X is being deleted. Please call Future::Release() before deleting the backing API.
+10   0x000e0080 0x1800e0e80 14   15   .rdata  ascii   Invalid Future
+11   0x000e0200 0x1800e1000 47   48   .rdata  ascii   GetFutureStatus(handle) == kFutureStatusPending
+12   0x000e0230 0x1800e1030 47   48   .rdata  ascii   App initializer %s not found, failed to enable.
+13   0x000e0260 0x1800e1060 8    9    .rdata  ascii   Enabling
+14   0x000e0270 0x1800e1070 9    10   .rdata  ascii   Disabling
+15   0x000e0280 0x1800e1080 21   22   .rdata  ascii   %s app initializer %s
+16   0x000e0298 0x1800e1098 8    9    .rdata  ascii   Enabling
+17   0x000e02a4 0x1800e10a4 6    7    .rdata  ascii   Enable
+18   0x000e02b0 0x1800e10b0 9    10   .rdata  ascii   Disabling
+19   0x000e02c0 0x1800e10c0 23   24   .rdata  ascii   %s all app initializers
+20   0x000e02d8 0x1800e10d8 7    8    .rdata  ascii   Disable
+21   0x000e02e0 0x1800e10e0 5    6    .rdata  ascii   %s %s
+22   0x000e02e8 0x1800e10e8 49   50   .rdata  ascii   init_result != kInitResultFailedMissingDependency
+23   0x000e0320 0x1800e1120 72   73   .rdata  ascii   %s is already registered for callbacks on app initialization,  ignoring.
+24   0x000e0370 0x1800e1170 43   44   .rdata  ascii   Registered app initializer %s (enabled: %d)
+25   0x000e03a0 0x1800e11a0 14   15   .rdata  ascii   app != nullptr
+26   0x000e03b0 0x1800e11b0 18   19   .rdata  ascii   init_fn != nullptr
+27   0x000e03c8 0x1800e11c8 14   15   .rdata  ascii   app != nullptr
+28   0x000e03d8 0x1800e11d8 19   20   .rdata  ascii   init_fns != nullptr
+29   0x000e05c0 0x1800e13c0 28   29   .rdata  ascii   google-services-desktop.json
+30   0x000e05e0 0x1800e13e0 20   21   .rdata  ascii   google-services.json
+31   0x000e0600 0x1800e1400 67   68   .rdata  ascii   Unable to load Firebase app options ([%s] are missing or malformed)
+32   0x000e0648 0x1800e1448 52   53   .rdata  ascii   App %s already created, options will not be applied.
+33   0x000e0680 0x1800e1480 31   32   .rdata  ascii   Creating Firebase App %s for %s
+34   0x000e06a0 0x1800e14a0 18   19   .rdata  ascii   Firebase C++ 8.9.0
+35   0x000e0760 0x1800e1560 38   39   .rdata  ascii   ret == ((((DWORD )0x00000000L) ) + 0 )
+36   0x000e07f0 0x1800e15f0 5    6    .rdata  ascii   false
+37   0x000e07f8 0x1800e15f8 5    6    .rdata  ascii   false
+38   0x000e0800 0x1800e1600 5    6    .rdata  ascii   false
+39   0x000e0808 0x1800e1608 5    6    .rdata  ascii   false
+40   0x000e0810 0x1800e1610 5    6    .rdata  ascii   false
+41   0x000e0818 0x1800e1618 5    6    .rdata  ascii   false
+42   0x000e0820 0x1800e1620 4    5    .rdata  ascii   Null
+43   0x000e0828 0x1800e1628 5    6    .rdata  ascii   Int64
+44   0x000e0830 0x1800e1630 6    7    .rdata  ascii   Double
+45   0x000e0838 0x1800e1638 4    5    .rdata  ascii   Bool
+46   0x000e0840 0x1800e1640 12   13   .rdata  ascii   StaticString
+47   0x000e0850 0x1800e1650 13   14   .rdata  ascii   MutableString
+48   0x000e0860 0x1800e1660 6    7    .rdata  ascii   Vector
+49   0x000e0870 0x1800e1670 10   11   .rdata  ascii   StaticBlob
+50   0x000e0880 0x1800e1680 11   12   .rdata  ascii   MutableBlob
+51   0x000e0890 0x1800e1690 11   12   .rdata  ascii   SmallString
+52   0x000e08a0 0x1800e16a0 46   47   .rdata  ascii   this->type_ == static_cast<InternalType>(type)
+53   0x000e08d0 0x1800e16d0 57   58   .rdata  ascii   Expected Variant to be of type %s, but it was of type %s.
+54   0x000e0910 0x1800e1710 46   47   .rdata  ascii   this->type_ == static_cast<InternalType>(type)
+55   0x000e0940 0x1800e1740 49   50   .rdata  ascii   Expected Variant to NOT be of type %s, but it is.
+56   0x000e0978 0x1800e1778 11   12   .rdata  ascii   is_string()
+57   0x000e0988 0x1800e1788 55   56   .rdata  ascii   Expected Variant to be a String, but it was of type %s.
+58   0x000e09c0 0x1800e17c0 9    10   .rdata  ascii   is_blob()
+59   0x000e09d0 0x1800e17d0 53   54   .rdata  ascii   Expected Variant to be a Blob, but it was of type %s.
+60   0x000e0a08 0x1800e1808 5    6    .rdata  ascii   %I64d
+61   0x000e0a10 0x1800e1810 5    6    .rdata  ascii   %.16f
+62   0x000e0a18 0x1800e1818 4    5    .rdata  ascii   true
+63   0x000e0a20 0x1800e1820 5    6    .rdata  ascii   false
+64   0x000e0a28 0x1800e1828 5    6    .rdata  ascii   false
+65   0x000e0a30 0x1800e1830 32   33   .rdata  ascii   t >= 0 && t <= num_variant_types
+66   0x000e0b38 0x1800e1938 13   14   .rdata  ascii   callback_data
+67   0x000e0b50 0x1800e1950 15   16   .rdata  ascii   parse_schema_ok
+68   0x000e0b60 0x1800e1960 44   45   .rdata  ascii   Failed to load Firebase resource schema: %s.
+69   0x000e0b90 0x1800e1990 98   99   .rdata  ascii   Failed to parse Firebase config: %s. Check the config string passed to App::CreateFromJsonConfig()
+70   0x000e0c00 0x1800e1a00 118  119  .rdata  ascii   Failed to parse Firebase config: integrity check failed. Check the config string passed to App::CreateFromJsonConfig()
+71   0x000e0c78 0x1800e1a78 7    8    .rdata  ascii   API key
+72   0x000e0c80 0x1800e1a80 75   76   .rdata  ascii   'client' data (oauth client ID, API key etc.) not found in Firebase config.
+73   0x000e0cd0 0x1800e1ad0 44   45   .rdata  ascii   'project_info' not found in Firebase config.
+74   0x000e0d00 0x1800e1b00 12   13   .rdata  ascii   Database URL
+75   0x000e0d10 0x1800e1b10 14   15   .rdata  ascii   Storage bucket
+76   0x000e0d20 0x1800e1b20 10   11   .rdata  ascii   Project ID
+77   0x000e0d2c 0x1800e1b2c 6    7    .rdata  ascii   App ID
+78   0x000e0d38 0x1800e1b38 34   35   .rdata  ascii   %s not set in the Firebase config.
+79   0x000e0d60 0x1800e1b60 73   74   .rdata  ascii   Failed to load default options when attempting to populate missing fields
+80   0x000e0db0 0x1800e1bb0 65   66   .rdata  ascii   App ID, API key, and Project ID must be specified in App options.
+81   0x000e0e18 0x1800e1c18 7    8    .rdata  ascii   fnv1_16
+82   0x000e0e20 0x1800e1c20 8    9    .rdata  ascii   fnv1a_16
+83   0x000e0e50 0x1800e1c50 7    8    .rdata  ascii   fnv1_32
+84   0x000e0e58 0x1800e1c58 8    9    .rdata  ascii   fnv1a_32
+85   0x000e0e88 0x1800e1c88 7    8    .rdata  ascii   fnv1_64
+86   0x000e0e90 0x1800e1c90 8    9    .rdata  ascii   fnv1a_64
+87   0x000e0ff0 0x1800e1df0 15   16   .rdata  ascii   std::unique_ptr
+88   0x000e1008 0x1800e1e08 10   11   .rdata  ascii   _generated
+89   0x000e1018 0x1800e1e18 10   11   .rdata  ascii   deprecated
+90   0x000e1028 0x1800e1e28 8    9    .rdata  ascii   required
+91   0x000e1038 0x1800e1e38 6    7    .rdata  ascii   shared
+92   0x000e1040 0x1800e1e40 4    5    .rdata  ascii   hash
+93   0x000e1050 0x1800e1e50 11   12   .rdata  ascii   force_align
+94   0x000e1060 0x1800e1e60 9    10   .rdata  ascii   bit_flags
+95   0x000e1070 0x1800e1e70 14   15   .rdata  ascii   original_order
+96   0x000e1080 0x1800e1e80 17   18   .rdata  ascii   nested_flatbuffer
+97   0x000e1098 0x1800e1e98 14   15   .rdata  ascii   csharp_partial
+98   0x000e10a8 0x1800e1ea8 9    10   .rdata  ascii   streaming
+99   0x000e10b8 0x1800e1eb8 10   11   .rdata  ascii   idempotent
+100  0x000e10c8 0x1800e1ec8 8    9    .rdata  ascii   cpp_type
+101  0x000e10d8 0x1800e1ed8 12   13   .rdata  ascii   cpp_ptr_type
+102  0x000e10e8 0x1800e1ee8 16   17   .rdata  ascii   cpp_ptr_type_get
+103  0x000e1100 0x1800e1f00 12   13   .rdata  ascii   cpp_str_type
+104  0x000e1110 0x1800e1f10 17   18   .rdata  ascii   cpp_str_flex_ctor
+105  0x000e1128 0x1800e1f28 13   14   .rdata  ascii   native_inline
+106  0x000e1138 0x1800e1f38 19   20   .rdata  ascii   native_custom_alloc
+107  0x000e1150 0x1800e1f50 11   12   .rdata  ascii   native_type
+108  0x000e1160 0x1800e1f60 14   15   .rdata  ascii   native_default
+109  0x000e1170 0x1800e1f70 10   11   .rdata  ascii   flexbuffer
+110  0x000e1180 0x1800e1f80 7    8    .rdata  ascii   private
+111  0x000e1198 0x1800e1f98 13   14   .rdata  ascii   !existing_app
+112  0x000e11b0 0x1800e1fb0 133  134  .rdata  ascii   Added app name=%s: options, api_key=%s, app_id=%s, database_url=%s, messaging_sender_id=%s, storage_bucket=%s, project_id=%s (0x%08x)
+113  0x000e1238 0x1800e2038 5    6    .rdata  ascii   8.9.0
+114  0x000e1240 0x1800e2040 8    9    .rdata  ascii   fire-cpp
+115  0x000e1250 0x1800e2050 11   12   .rdata  ascii   fire-cpp-os
+116  0x000e1260 0x1800e2060 13   14   .rdata  ascii   fire-cpp-arch
+117  0x000e1270 0x1800e2070 12   13   .rdata  ascii   fire-cpp-stl
+118  0x000e1280 0x1800e2080 17   18   .rdata  ascii   fire-cpp-buildsrc
+119  0x000e1298 0x1800e2098 24   25   .rdata  ascii   Deleting app %s (0x%08x)
+120  0x000e12b4 0x1800e20b4 6    7    .rdata  ascii   x86_64
+121  0x000e12c0 0x1800e20c0 10   11   .rdata  ascii   fire-unity
+122  0x000e12d0 0x1800e20d0 9    10   .rdata  ascii   fire-mono
+123  0x000e12e0 0x1800e20e0 8    9    .rdata  ascii   fire-cpp
+124  0x000e12f0 0x1800e20f0 16   17   .rdata  ascii   __FIRAPP_DEFAULT
+125  0x000e1308 0x1800e2108 7    8    .rdata  ascii   windows
+126  0x000e1310 0x1800e2110 12   13   .rdata  ascii   custom_built
+127  0x000e1320 0x1800e2120 17   18   .rdata  ascii   x-firebase-client
+128  0x000e14f0 0x1800e22f0 90   91   .rdata  ascii   Library %s is already registered with version %s. This will be overridden with version %s.
+129  0x000e154c 0x1800e234c 4    20   .rdata  utf32le  / /
+130  0x000e1560 0x1800e2360 9    10   .rdata  ascii   VERBOSE:
+131  0x000e1570 0x1800e2370 7    8    .rdata  ascii   DEBUG:
+132  0x000e1578 0x1800e2378 6    7    .rdata  ascii   INFO:
+133  0x000e1580 0x1800e2380 9    10   .rdata  ascii   WARNING:
+134  0x000e1590 0x1800e2390 7    8    .rdata  ascii   ERROR:
+135  0x000e1598 0x1800e2398 8    9    .rdata  ascii   ASSERT:
+136  0x000e16c0 0x1800e24c0 4    5    .rdata  ascii   bool
+137  0x000e16c8 0x1800e24c8 4    5    .rdata  ascii   byte
+138  0x000e16d0 0x1800e24d0 5    6    .rdata  ascii   ubyte
+139  0x000e16d8 0x1800e24d8 5    6    .rdata  ascii   short
+140  0x000e16e0 0x1800e24e0 6    7    .rdata  ascii   ushort
+141  0x000e16ec 0x1800e24ec 4    5    .rdata  ascii   uint
+142  0x000e16f4 0x1800e24f4 4    5    .rdata  ascii   long
+143  0x000e16fc 0x1800e24fc 5    6    .rdata  ascii   ulong
+144  0x000e1704 0x1800e2504 5    6    .rdata  ascii   float
+145  0x000e170c 0x1800e250c 6    7    .rdata  ascii   double
+146  0x000e1714 0x1800e2514 6    7    .rdata  ascii   string
+147  0x000e1720 0x1800e2520 7    8    .rdata  ascii   fnv1_16
+148  0x000e1728 0x1800e2528 8    9    .rdata  ascii   fnv1a_16
+149  0x000e1738 0x1800e2538 7    8    .rdata  ascii   fnv1_32
+150  0x000e1740 0x1800e2540 8    9    .rdata  ascii   fnv1a_32
+151  0x000e1750 0x1800e2550 7    8    .rdata  ascii   fnv1_64
+152  0x000e1758 0x1800e2558 8    9    .rdata  ascii   fnv1a_64
+153  0x000e2c80 0x1800e3a80 5    6    .rdata  ascii   false
+154  0x000e2c88 0x1800e3a88 4    5    .rdata  ascii   true
+155  0x000e2d40 0x1800e3b40 4    5    .rdata  ascii   null
+156  0x000e2d4c 0x1800e3b4c 5    6    .rdata  ascii   Union
+157  0x000e2d54 0x1800e3b54 5    6    .rdata  ascii   _type
+158  0x000e2d6c 0x1800e3b6c 5    6    .rdata  ascii   ing:
+159  0x000e2d78 0x1800e3b78 7    8    .rdata  ascii   error:
+160  0x000e2d80 0x1800e3b80 8    9    .rdata  ascii    reached
+161  0x000e2d90 0x1800e3b90 29   30   .rdata  ascii   maximum parsing recursion of
+162  0x000e2e68 0x1800e3c68 11   12   .rdata  ascii   end of file
+163  0x000e2e78 0x1800e3c78 15   16   .rdata  ascii   string constant
+164  0x000e2e88 0x1800e3c88 16   17   .rdata  ascii   integer constant
+165  0x000e2ea0 0x1800e3ca0 14   15   .rdata  ascii   float constant
+166  0x000e2eb0 0x1800e3cb0 10   11   .rdata  ascii   identifier
+167  0x000e2ec0 0x1800e3cc0 11   12   .rdata  ascii    hex digits
+168  0x000e2ed0 0x1800e3cd0 32   33   .rdata  ascii   escape code must be followed by
+169  0x000e2ef8 0x1800e3cf8 29   30   .rdata  ascii   invalid utf-8 byte order mark
+170  0x000e2f18 0x1800e3d18 36   37   .rdata  ascii   illegal character in string constant
+171  0x000e2f40 0x1800e3d40 50   51   .rdata  ascii   illegal Unicode sequence (unpaired high surrogate)
+172  0x000e2f78 0x1800e3d78 51   52   .rdata  ascii   illegal Unicode sequence (multiple high surrogates)
+173  0x000e2fb0 0x1800e3db0 49   50   .rdata  ascii   illegal Unicode sequence (unpaired low surrogate)
+174  0x000e2fe8 0x1800e3de8 38   39   .rdata  ascii   unknown escape code in string constant
+175  0x000e3010 0x1800e3e10 22   23   .rdata  ascii   illegal UTF-8 sequence
+176  0x000e3028 0x1800e3e28 54   55   .rdata  ascii   a documentation comment should be on a line on its own
+177  0x000e3060 0x1800e3e60 22   23   .rdata  ascii   end of file in comment
+178  0x000e3078 0x1800e3e78 16   17   .rdata  ascii   invalid number:
+179  0x000e308c 0x1800e3e8c 6    7    .rdata  ascii   code:
+180  0x000e3098 0x1800e3e98 19   20   .rdata  ascii   illegal character:
+181  0x000e30b0 0x1800e3eb0 14   15   .rdata  ascii    instead got:
+182  0x000e30c0 0x1800e3ec0 11   12   .rdata  ascii   expecting:
+183  0x000e30d0 0x1800e3ed0 4    5    .rdata  ascii   int8
+184  0x000e30d8 0x1800e3ed8 5    6    .rdata  ascii   uint8
+185  0x000e30e0 0x1800e3ee0 5    6    .rdata  ascii   int16
+186  0x000e30e8 0x1800e3ee8 6    7    .rdata  ascii   uint16
+187  0x000e30f0 0x1800e3ef0 5    6    .rdata  ascii   int32
+188  0x000e30f8 0x1800e3ef8 6    7    .rdata  ascii   uint32
+189  0x000e3100 0x1800e3f00 5    6    .rdata  ascii   int64
+190  0x000e3108 0x1800e3f08 6    7    .rdata  ascii   uint64
+191  0x000e3110 0x1800e3f10 7    8    .rdata  ascii   float32
+192  0x000e3118 0x1800e3f18 7    8    .rdata  ascii   float64
+193  0x000e3120 0x1800e3f20 55   56   .rdata  ascii   nested vector types not supported (wrap in table first)
+194  0x000e3158 0x1800e3f58 53   54   .rdata  ascii   length of fixed-length array must be an integer value
+195  0x000e3190 0x1800e3f90 70   71   .rdata  ascii   length of fixed-length array must be positive and fit to uint16_t type
+196  0x000e31d8 0x1800e3fd8 19   20   .rdata  ascii   illegal type syntax
+197  0x000e31f0 0x1800e3ff0 22   23   .rdata  ascii   field already exists:
+198  0x000e3208 0x1800e4008 51   52   .rdata  ascii   field name can not be the same as table/struct name
+199  0x000e3240 0x1800e4040 49   50   .rdata  ascii   structs_ may contain only scalar or struct fields
+200  0x000e3278 0x1800e4078 53   54   .rdata  ascii   fixed-length array in table must be wrapped in struct
+201  0x000e32b0 0x1800e40b0 72   73   .rdata  ascii   Arrays are not yet supported in all the specified programming languages.
+202  0x000e3300 0x1800e4100 83   84   .rdata  ascii   Vectors of unions are not yet supported in all the specified programming languages.
+203  0x000e3358 0x1800e4158 61   62   .rdata  ascii   default values currently only supported for scalars in tables
+204  0x000e3398 0x1800e4198 5    6    .rdata  ascii   .eEpP
+205  0x000e33a8 0x1800e41a8 21   22   .rdata  ascii    is not part of enum
+206  0x000e33c0 0x1800e41c0 11   12   .rdata  ascii    for field
+207  0x000e33d0 0x1800e41d0 17   18   .rdata  ascii   default value of
+208  0x000e33e8 0x1800e41e8 44   45   .rdata  ascii   Unknown hashing algorithm for 16 bit types:
+209  0x000e3418 0x1800e4218 44   45   .rdata  ascii   Unknown hashing algorithm for 32 bit types:
+210  0x000e3448 0x1800e4248 44   45   .rdata  ascii   Unknown hashing algorithm for 64 bit types:
+211  0x000e3480 0x1800e4280 73   74   .rdata  ascii   only short, ushort, int, uint, long and ulong data types support hashing.
+212  0x000e34d0 0x1800e42d0 45   46   .rdata  ascii   cpp_type can only be used with a hashed field
+213  0x000e3500 0x1800e4300 5    6    .rdata  ascii   naked
+214  0x000e3508 0x1800e4308 34   35   .rdata  ascii   can't deprecate fields in a struct
+215  0x000e3530 0x1800e4330 50   51   .rdata  ascii   only non-scalar fields in tables may be 'required'
+216  0x000e3568 0x1800e4368 34   35   .rdata  ascii   only one field may be set as 'key'
+217  0x000e3590 0x1800e4390 41   42   .rdata  ascii   'key' field must be string or scalar type
+218  0x000e35c0 0x1800e43c0 37   38   .rdata  ascii   shared can only be defined on strings
+219  0x000e35f0 0x1800e43f0 70   71   .rdata  ascii   native_custom_alloc can only be used with a table or struct definition
+220  0x000e3638 0x1800e4438 44   45   .rdata  ascii   native_inline can only be defined on structs
+221  0x000e3668 0x1800e4468 60   61   .rdata  ascii   nested_flatbuffer attribute must be a string (the root type)
+222  0x000e36b0 0x1800e44b0 63   64   .rdata  ascii   nested_flatbuffer attribute may only apply to a vector of ubyte
+223  0x000e36f0 0x1800e44f0 56   57   .rdata  ascii   flexbuffer attribute may only apply to a vector of ubyte
+224  0x000e3730 0x1800e4530 41   42   .rdata  ascii   missing type field for this union value:
+225  0x000e3760 0x1800e4560 21   22   .rdata  ascii   illegal type id for:
+226  0x000e3778 0x1800e4578 7    8    .rdata  ascii   $schema
+227  0x000e3780 0x1800e4580 15   16   .rdata  ascii   unknown field:
+228  0x000e3790 0x1800e4590 26   27   .rdata  ascii   field set more than once:
+229  0x000e37ac 0x1800e45ac 4    5    .rdata  ascii    in
+230  0x000e37b8 0x1800e45b8 27   28   .rdata  ascii   required field is missing:
+231  0x000e37d8 0x1800e45d8 38   39   .rdata  ascii   struct: wrong number of initializers:
+232  0x000e3800 0x1800e4600 37   38   .rdata  ascii   Fixed-length array size is incorrect.
+233  0x000e3828 0x1800e4628 52   53   .rdata  ascii   attribute name must be either identifier or string:
+234  0x000e3860 0x1800e4660 52   53   .rdata  ascii   user define attributes must be declared before use:
+235  0x000e3898 0x1800e4698 32   33   .rdata  ascii   not a valid value for this field
+236  0x000e38c0 0x1800e46c0 48   49   .rdata  ascii   enum values need to be qualified by an enum type
+237  0x000e38f8 0x1800e46f8 14   15   .rdata  ascii   unknown enum:
+238  0x000e3908 0x1800e4708 20   21   .rdata  ascii   unknown enum value:
+239  0x000e3920 0x1800e4720 34   35   .rdata  ascii   cannot parse value starting with:
+240  0x000e3948 0x1800e4748 9    10   .rdata  ascii   , value:
+241  0x000e3958 0x1800e4758 8    9    .rdata  ascii   , name:
+242  0x000e3968 0x1800e4768 9    10   .rdata  ascii   , found:
+243  0x000e3978 0x1800e4778 40   41   .rdata  ascii   : type of argument mismatch, expecting:
+244  0x000e39b8 0x1800e47b8 4    5    .rdata  ascii   asin
+245  0x000e39c0 0x1800e47c0 4    5    .rdata  ascii   acos
+246  0x000e39c8 0x1800e47c8 4    5    .rdata  ascii   atan
+247  0x000e39d0 0x1800e47d0 14   15   .rdata  ascii   , field name:
+248  0x000e39e0 0x1800e47e0 29   30   .rdata  ascii   Unknown conversion function:
+249  0x000e3a00 0x1800e4800 26   27   .rdata  ascii   type mismatch: expecting:
+250  0x000e3a20 0x1800e4820 11   12   .rdata  ascii   0123456789.
+251  0x000e3a30 0x1800e4830 90   91   .rdata  ascii   invalid number, the exponent suffix of hexadecimal floating-point literals is mandatory: "
+252  0x000e3a90 0x1800e4890 103  104  .rdata  ascii   type mismatch or invalid value, an initializer of non-string field must be trivial ASCII string: type:
+253  0x000e3b00 0x1800e4900 7    8    .rdata  ascii   > type.
+254  0x000e3b08 0x1800e4908 15   16   .rdata  ascii   ' to value of <
+255  0x000e3b18 0x1800e4918 35   36   .rdata  ascii   Cannot assign token starting with '
+256  0x000e3b40 0x1800e4940 27   28   .rdata  ascii   enum value already exists:
+257  0x000e3b60 0x1800e4960 26   27   .rdata  ascii   enum value does not fit, "
+258  0x000e3b80 0x1800e4980 48   49   .rdata  ascii   enum values must be specified in ascending order
+259  0x000e3bb8 0x1800e49b8 35   36   .rdata  ascii   fatal: invalid enum underlying type
+260  0x000e3be0 0x1800e49e0 95   96   .rdata  ascii   must specify the underlying integer type for this enum (e.g. ': short', which was the default).
+261  0x000e3c40 0x1800e4a40 37   38   .rdata  ascii   underlying enum type must be integral
+262  0x000e3c68 0x1800e4a68 50   51   .rdata  ascii   underlying type of bit_flags enum must be unsigned
+263  0x000e3c9c 0x1800e4a9c 4    5    .rdata  ascii   NONE
+264  0x000e3ca4 0x1800e4aa4 6    7    .rdata  ascii   option
+265  0x000e3cb0 0x1800e4ab0 48   49   .rdata  ascii   union value type may only be table/struct/string
+266  0x000e3ce8 0x1800e4ae8 49   50   .rdata  ascii   Protobuf mode doesn't allow implicit enum values.
+267  0x000e3d20 0x1800e4b20 45   46   .rdata  ascii   incomplete enum declaration, values not found
+268  0x000e3d50 0x1800e4b50 49   50   .rdata  ascii   bit flag out of range of underlying integral type
+269  0x000e3d88 0x1800e4b88 25   26   .rdata  ascii   datatype already exists:
+270  0x000e3da8 0x1800e4ba8 48   49   .rdata  ascii    would clash with generated functions for field
+271  0x000e3ddc 0x1800e4bdc 6    7    .rdata  ascii   Field
+272  0x000e3de4 0x1800e4be4 6    7    .rdata  ascii   struct
+273  0x000e3dec 0x1800e4bec 5    6    .rdata  ascii   table
+274  0x000e3df8 0x1800e4bf8 20   21   .rdata  ascii   declaration expected
+275  0x000e3e10 0x1800e4c10 89   90   .rdata  ascii   force_align must be a power of two integer ranging from thestruct's natural alignment to
+276  0x000e3e70 0x1800e4c70 26   27   .rdata  ascii   size 0 structs not allowed
+277  0x000e3e90 0x1800e4c90 58   59   .rdata  ascii   either all fields or no fields must have an 'id' attribute
+278  0x000e3ed0 0x1800e4cd0 21   22   .rdata  ascii    missing or set twice
+279  0x000e3ee8 0x1800e4ce8 42   43   .rdata  ascii   field id's must be consecutive from 0, id
+280  0x000e3f14 0x1800e4d14 4    5    .rdata  ascii   Type
+281  0x000e3f20 0x1800e4d20 7    8    .rdata  ascii   _length
+282  0x000e3f28 0x1800e4d28 6    7    .rdata  ascii   Length
+283  0x000e3f30 0x1800e4d30 12   13   .rdata  ascii   _byte_vector
+284  0x000e3f40 0x1800e4d40 10   11   .rdata  ascii   ByteVector
+285  0x000e3f50 0x1800e4d50 24   25   .rdata  ascii   service already exists:
+286  0x000e3f70 0x1800e4d70 45   46   .rdata  ascii   rpc request and response types must be tables
+287  0x000e3fa0 0x1800e4da0 20   21   .rdata  ascii   rpc already exists:
+288  0x000e3fb8 0x1800e4db8 6    7    .rdata  ascii   extend
+289  0x000e3fc0 0x1800e4dc0 7    8    .rdata  ascii   package
+290  0x000e3fc8 0x1800e4dc8 7    8    .rdata  ascii   message
+291  0x000e3fd0 0x1800e4dd0 36   37   .rdata  ascii   cannot extend unknown message type:
+292  0x000e3ff8 0x1800e4df8 4    5    .rdata  ascii   enum
+293  0x000e4000 0x1800e4e00 6    7    .rdata  ascii   syntax
+294  0x000e4008 0x1800e4e08 7    8    .rdata  ascii   service
+295  0x000e4010 0x1800e4e10 57   58   .rdata  ascii   don't know how to parse .proto declaration starting with
+296  0x000e4050 0x1800e4e50 21   22   .rdata  ascii   enum already exists:
+297  0x000e4068 0x1800e4e68 10   11   .rdata  ascii   extensions
+298  0x000e4078 0x1800e4e78 8    9    .rdata  ascii   reserved
+299  0x000e4088 0x1800e4e88 8    9    .rdata  ascii   optional
+300  0x000e4098 0x1800e4e98 8    9    .rdata  ascii   repeated
+301  0x000e40a4 0x1800e4ea4 5    6    .rdata  ascii   oneof
+302  0x000e40ac 0x1800e4eac 5    6    .rdata  ascii   group
+303  0x000e40b8 0x1800e4eb8 9    10   .rdata  ascii   Anonymous
+304  0x000e40c8 0x1800e4ec8 7    8    .rdata  ascii   default
+305  0x000e40d0 0x1800e4ed0 13   14   .rdata  ascii   0123456789-+.
+306  0x000e40e0 0x1800e4ee0 22   23   .rdata  ascii   ' is not a table type.
+307  0x000e40f8 0x1800e4ef8 46   47   .rdata  ascii   ' cannot be mapped to a union because member '
+308  0x000e4128 0x1800e4f28 7    8    .rdata  ascii   oneof '
+309  0x000e4130 0x1800e4f30 6    7    .rdata  ascii   sint32
+310  0x000e4138 0x1800e4f38 6    7    .rdata  ascii   sint64
+311  0x000e4140 0x1800e4f40 7    8    .rdata  ascii   fixed32
+312  0x000e4148 0x1800e4f48 7    8    .rdata  ascii   fixed64
+313  0x000e4150 0x1800e4f50 8    9    .rdata  ascii   sfixed32
+314  0x000e4160 0x1800e4f60 8    9    .rdata  ascii   sfixed64
+315  0x000e416c 0x1800e4f6c 5    6    .rdata  ascii   bytes
+316  0x000e4178 0x1800e4f78 19   20   .rdata  ascii   input file is empty
+317  0x000e4190 0x1800e4f90 51   52   .rdata  ascii    use(s) of pre-declaration enum not accounted for:
+318  0x000e41c8 0x1800e4fc8 10   11   .rdata  ascii   internal:
+319  0x000e41d8 0x1800e4fd8 51   52   .rdata  ascii   type referenced but not defined (check namespace):
+320  0x000e4210 0x1800e5010 17   18   .rdata  ascii   , originally at:
+321  0x000e4228 0x1800e5028 61   62   .rdata  ascii   only tables can be union elements in the generated language:
+322  0x000e4268 0x1800e5068 14   15   .rdata  ascii   native_include
+323  0x000e4278 0x1800e5078 7    8    .rdata  ascii   include
+324  0x000e4280 0x1800e5080 6    7    .rdata  ascii   import
+325  0x000e4288 0x1800e5088 6    7    .rdata  ascii   public
+326  0x000e4290 0x1800e5090 31   32   .rdata  ascii   unable to locate include file:
+327  0x000e42b0 0x1800e50b0 29   30   .rdata  ascii   unable to load include file:
+328  0x000e42d0 0x1800e50d0 9    10   .rdata  ascii   namespace
+329  0x000e42e0 0x1800e50e0 35   36   .rdata  ascii   no root type set to parse json with
+330  0x000e4308 0x1800e5108 47   48   .rdata  ascii   cannot have more than one json object in a file
+331  0x000e4338 0x1800e5138 5    6    .rdata  ascii   union
+332  0x000e4340 0x1800e5140 9    10   .rdata  ascii   root_type
+333  0x000e4350 0x1800e5150 19   20   .rdata  ascii   unknown root type:
+334  0x000e4368 0x1800e5168 25   26   .rdata  ascii   root type must be a table
+335  0x000e4388 0x1800e5188 15   16   .rdata  ascii   file_identifier
+336  0x000e4398 0x1800e5198 11   12   .rdata  ascii    characters
+337  0x000e43a8 0x1800e51a8 32   33   .rdata  ascii   file_identifier must be exactly
+338  0x000e43d0 0x1800e51d0 14   15   .rdata  ascii   file_extension
+339  0x000e43e0 0x1800e51e0 38   39   .rdata  ascii   includes must come before declarations
+340  0x000e4408 0x1800e5208 9    10   .rdata  ascii   attribute
+341  0x000e4418 0x1800e5218 11   12   .rdata  ascii   rpc_service
+342  0x000e4428 0x1800e5228 17   18   .rdata  ascii   invalid number: "
+343  0x000e4440 0x1800e5240 24   25   .rdata  ascii   , constant does not fit
+344  0x000e4460 0x1800e5260 39   40   .rdata  ascii   too many unnamed fields in nested array
+345  0x000e4488 0x1800e5288 46   47   .rdata  ascii   wrong number of unnamed fields in table vector
+346  0x000e44b8 0x1800e52b8 8    9    .rdata  ascii    out of
+347  0x000e44c4 0x1800e52c4 5    6    .rdata  ascii    + 1"
+348  0x000e44d0 0x1800e52d0 16   17   .rdata  ascii   list<T> too long
+349  0x000e4528 0x1800e5328 19   20   .rdata  ascii   google_services.fbs
+350  0x000e4540 0x1800e5340 2021 2022 .rdata  ascii   // The FlatBuffers schema for configuring Firebase desktop support. Right now\n// it is defined as a subset of JSON format for Firebase Android platform. App\n// developer can download google-services.json from Firebase console and use it\n// for desktop development.\n\n// All FlatBuffers class is under namespace firebase::fbs to avoid contaminating\n// the top namespace firebase. Field name must match what is used in the .json\n// file and preferably table name is the Camel case of the field.\nnamespace firebase.fbs;\n\n//\n// Below are types to specify each field.\n//\n\n//\n// Project information.\n//\ntable ProjectInfo {\n  project_number: string;\n  firebase_url: string;\n  project_id: string;\n  storage_bucket: string;\n}\n\n// General app client information.\ntable AndroidClientInfo {\n  package_name: string;\n}\ntable ClientInfo {\n  mobilesdk_app_id: string;\n  android_client_info: AndroidClientInfo;\n}\ntable AndroidInfo {\n  package_name: string;\n  certificate_hash: string;\n}\ntable OAuthClient {\n  client_id: string;\n  client_type: int;\n  android_info: AndroidInfo;\n}\ntable ApiKey {\n  current_key: string;\n}\n\n// Services information.\ntable AnalyticsProperty {\n  tracking_id: string;\n}\ntable AnalyticsService {\n  status: int;\n  analytics_property: AnalyticsProperty;\n}\ntable AppInviteService {\n  status: int;\n}\ntable AdsService {\n  status: int;\n  test_banner_ad_unit_id: string;\n  test_interstitial_ad_unit_id: string;\n  analytics_service: AnalyticsService;\n}\ntable Services {\n  analytics_service: AnalyticsService;\n  appinvite_service: AppInviteService;\n  ads_service: AdsService;\n}\n\n//\n// Top level app client information.\n//\ntable Client {\n  client_info: ClientInfo;\n  oauth_client: [OAuthClient];\n  api_key: [ApiKey];\n  services: Services;\n}\n\n//\n// This is the top level type to specify a configuration file.\n//\ntable GoogleServices {\n  // Project information.\n  project_info: ProjectInfo;\n\n  // App information.\n  client: [Client];\n\n  // Project version string.\n  configuration_version: string;\n}\n\nroot_type GoogleServices;\n
+351  0x000e4d28 0x1800e5b28 33   34   .rdata  ascii   Callback module already shut down
+352  0x000e4d50 0x1800e5b50 39   40   .rdata  ascii   WARNING: Callback module ref count = %d
+353  0x000e4de0 0x1800e5be0 55   56   .rdata  ascii   Callback dispatcher shut down with %d pending callbacks
+354  0x000e4ed0 0x1800e5cd0 13   14   .rdata  ascii   remote_config
+355  0x000e4f30 0x1800e5d30 55   56   .rdata  ascii   https://firebaseremoteconfig.googleapis.com/v1/projects
+356  0x000e4f68 0x1800e5d68 4    5    .rdata  ascii   POST
+357  0x000e4f70 0x1800e5d70 12   13   .rdata  ascii   Content-Type
+358  0x000e4f80 0x1800e5d80 6    7    .rdata  ascii   Accept
+359  0x000e4f88 0x1800e5d88 25   26   .rdata  ascii   application/x-protobuffer
+360  0x000e4fa8 0x1800e5da8 16   17   .rdata  ascii   application/json
+361  0x000e4fc0 0x1800e5dc0 14   15   .rdata  ascii   _rcn_developer
+362  0x000e4fd0 0x1800e5dd0 4    5    .rdata  ascii   ETag
+363  0x000e4fd8 0x1800e5dd8 13   14   .rdata  ascii   If-None-Match
+364  0x000e4fe8 0x1800e5de8 22   23   .rdata  ascii   X-Google-GFE-Can-Retry
+365  0x000e5000 0x1800e5e00 34   35   .rdata  ascii   X-Goog-Firebase-Installations-Auth
+366  0x000e5028 0x1800e5e28 11   12   .rdata  ascii   :fetch?key=
+367  0x000e5038 0x1800e5e38 10   11   .rdata  ascii   namespaces
+368  0x000e5048 0x1800e5e48 16   17   .rdata  ascii   No Error Message
+369  0x000e5080 0x1800e5e80 7    8    .rdata  ascii   fnv1_16
+370  0x000e5088 0x1800e5e88 8    9    .rdata  ascii   fnv1a_16
+371  0x000e50b8 0x1800e5eb8 7    8    .rdata  ascii   fnv1_32
+372  0x000e50c0 0x1800e5ec0 8    9    .rdata  ascii   fnv1a_32
+373  0x000e50f0 0x1800e5ef0 7    8    .rdata  ascii   fnv1_64
+374  0x000e50f8 0x1800e5ef8 8    9    .rdata  ascii   fnv1a_64
+375  0x000e5108 0x1800e5f08 35   36   .rdata  ascii   Creating RemoteConfig %p for App %s
+376  0x000e5130 0x1800e5f30 14   15   .rdata  ascii   app != nullptr
+377  0x000e5370 0x1800e6170 84   85   .rdata  ascii   Remote Config object 0x%08x should be deleted before the App 0x%08x it depends upon.
+378  0x000e54e0 0x1800e62e0 55   56   .rdata  ascii   https://firebaseremoteconfig.googleapis.com/v1/projects
+379  0x000e5518 0x1800e6318 4    5    .rdata  ascii   POST
+380  0x000e5520 0x1800e6320 12   13   .rdata  ascii   Content-Type
+381  0x000e5530 0x1800e6330 6    7    .rdata  ascii   Accept
+382  0x000e5538 0x1800e6338 25   26   .rdata  ascii   application/x-protobuffer
+383  0x000e5558 0x1800e6358 16   17   .rdata  ascii   application/json
+384  0x000e5570 0x1800e6370 14   15   .rdata  ascii   _rcn_developer
+385  0x000e5580 0x1800e6380 4    5    .rdata  ascii   ETag
+386  0x000e5588 0x1800e6388 13   14   .rdata  ascii   If-None-Match
+387  0x000e5598 0x1800e6398 22   23   .rdata  ascii   X-Google-GFE-Can-Retry
+388  0x000e55b0 0x1800e63b0 34   35   .rdata  ascii   X-Goog-Firebase-Installations-Auth
+389  0x000e55d8 0x1800e63d8 11   12   .rdata  ascii   :fetch?key=
+390  0x000e55e8 0x1800e63e8 10   11   .rdata  ascii   namespaces
+391  0x000e5600 0x1800e6400 16   17   .rdata  ascii   No Error Message
+392  0x000e5638 0x1800e6438 7    8    .rdata  ascii   fnv1_16
+393  0x000e5640 0x1800e6440 8    9    .rdata  ascii   fnv1a_16
+394  0x000e5670 0x1800e6470 7    8    .rdata  ascii   fnv1_32
+395  0x000e5678 0x1800e6478 8    9    .rdata  ascii   fnv1a_32
+396  0x000e56b8 0x1800e64b8 7    8    .rdata  ascii   fnv1_64
+397  0x000e56d0 0x1800e64d0 8    9    .rdata  ascii   fnv1a_64
+398  0x000e56e0 0x1800e64e0 8    9    .rdata  ascii   firebase
+399  0x000e56f0 0x1800e64f0 18   19   .rdata  ascii   remote_config_data
+400  0x000e5704 0x1800e6504 4    5    .rdata  ascii   true
+401  0x000e5720 0x1800e6520 5    6    .rdata  ascii   false
+402  0x000e65d8 0x1800e73d8 7    8    .rdata  ascii   config_
+403  0x000e65e0 0x1800e73e0 10   11   .rdata  ascii   timestamp_
+404  0x000e6618 0x1800e7418 7    8    .rdata  ascii   fetched
+405  0x000e6620 0x1800e7420 6    7    .rdata  ascii   active
+406  0x000e6628 0x1800e7428 8    9    .rdata  ascii   defaults
+407  0x000e6638 0x1800e7438 8    9    .rdata  ascii   metadata
+408  0x000e69c0 0x1800e77c0 7    8    .rdata  ascii   config_
+409  0x000e69c8 0x1800e77c8 10   11   .rdata  ascii   timestamp_
+410  0x000e69d8 0x1800e77d8 7    8    .rdata  ascii   fetched
+411  0x000e69e0 0x1800e77e0 6    7    .rdata  ascii   active
+412  0x000e69e8 0x1800e77e8 8    9    .rdata  ascii   defaults
+413  0x000e69f8 0x1800e77f8 8    9    .rdata  ascii   metadata
+414  0x000e6a34 0x1800e7834 4    5    .rdata  ascii   info
+415  0x000e6a40 0x1800e7840 10   11   .rdata  ascii   fetch_time
+416  0x000e6a50 0x1800e7850 17   18   .rdata  ascii   last_fetch_status
+417  0x000e6a68 0x1800e7868 25   26   .rdata  ascii   last_fetch_failure_reason
+418  0x000e6a88 0x1800e7888 18   19   .rdata  ascii   throttled_end_time
+419  0x000e6aa0 0x1800e78a0 19   20   .rdata  ascii   digest_by_namespace
+420  0x000e6ab8 0x1800e78b8 8    9    .rdata  ascii   settings
+421  0x000e6c58 0x1800e7a58 21   22   .rdata  ascii   invalid stoi argument
+422  0x000e6c70 0x1800e7a70 26   27   .rdata  ascii   stoi argument out of range
+423  0x000e6c90 0x1800e7a90 10   11   .rdata  ascii   fetch_time
+424  0x000e6ca0 0x1800e7aa0 17   18   .rdata  ascii   last_fetch_status
+425  0x000e6cb8 0x1800e7ab8 25   26   .rdata  ascii   last_fetch_failure_reason
+426  0x000e6cd8 0x1800e7ad8 18   19   .rdata  ascii   throttled_end_time
+427  0x000e6cec 0x1800e7aec 4    5    .rdata  ascii   info
+428  0x000e6cf8 0x1800e7af8 19   20   .rdata  ascii   digest_by_namespace
+429  0x000e6d10 0x1800e7b10 8    9    .rdata  ascii   settings
+430  0x000e6db0 0x1800e7bb0 55   56   .rdata  ascii   https://firebaseremoteconfig.googleapis.com/v1/projects
+431  0x000e6df0 0x1800e7bf0 4    5    .rdata  ascii   POST
+432  0x000e6e00 0x1800e7c00 12   13   .rdata  ascii   Content-Type
+433  0x000e6e18 0x1800e7c18 6    7    .rdata  ascii   Accept
+434  0x000e6e20 0x1800e7c20 25   26   .rdata  ascii   application/x-protobuffer
+435  0x000e6e48 0x1800e7c48 16   17   .rdata  ascii   application/json
+436  0x000e6e60 0x1800e7c60 14   15   .rdata  ascii   _rcn_developer
+437  0x000e6e70 0x1800e7c70 4    5    .rdata  ascii   ETag
+438  0x000e6e78 0x1800e7c78 13   14   .rdata  ascii   If-None-Match
+439  0x000e6e88 0x1800e7c88 22   23   .rdata  ascii   X-Google-GFE-Can-Retry
+440  0x000e6ea0 0x1800e7ca0 34   35   .rdata  ascii   X-Goog-Firebase-Installations-Auth
+441  0x000e6ed0 0x1800e7cd0 11   12   .rdata  ascii   :fetch?key=
+442  0x000e6ee8 0x1800e7ce8 10   11   .rdata  ascii   namespaces
+443  0x000e6ef8 0x1800e7cf8 30   31   .rdata  ascii   fetching failure: http code %d
+444  0x000e6f18 0x1800e7d18 30   31   .rdata  ascii   fetching failure: http code %d
+445  0x000e6f38 0x1800e7d38 26   27   .rdata  ascii   Parsing config response...
+446  0x000e6f58 0x1800e7d58 9    10   .rdata  ascii   NO_CHANGE
+447  0x000e6f64 0x1800e7d64 6    7    .rdata  ascii   UPDATE
+448  0x000e6f70 0x1800e7d70 9    10   .rdata  ascii   No change
+449  0x000e6f80 0x1800e7d80 25   26   .rdata  ascii   Update: ns=%s kv=(%s, %s)
+450  0x000e6fa0 0x1800e7da0 11   12   .rdata  ascii   NO_TEMPLATE
+451  0x000e6fb0 0x1800e7db0 20   21   .rdata  ascii   NotAuthorized: ns=%s
+452  0x000e6fc8 0x1800e7dc8 12   13   .rdata  ascii   EMPTY_CONFIG
+453  0x000e6fd8 0x1800e7dd8 18   19   .rdata  ascii   EmptyConfig: ns=%s
+454  0x000e7010 0x1800e7e10 7    8    .rdata  ascii   fnv1_16
+455  0x000e7018 0x1800e7e18 8    9    .rdata  ascii   fnv1a_16
+456  0x000e7048 0x1800e7e48 7    8    .rdata  ascii   fnv1_32
+457  0x000e7050 0x1800e7e50 8    9    .rdata  ascii   fnv1a_32
+458  0x000e7080 0x1800e7e80 7    8    .rdata  ascii   fnv1_64
+459  0x000e7088 0x1800e7e88 8    9    .rdata  ascii   fnv1a_64
+460  0x000e7598 0x1800e8398 39   40   .rdata  ascii   flatbuffers::Parser::Parse() failed: %s
+461  0x000e75c0 0x1800e83c0 44   45   .rdata  ascii   flatbuffers::Verifier::VerifyBuffer() failed
+462  0x000e75f0 0x1800e83f0 12   13   .rdata  ascii   parse_status
+463  0x000e76e4 0x1800e84e4 6    7    .rdata  ascii   Accept
+464  0x000e76f0 0x1800e84f0 13   14   .rdata  ascii   Authorization
+465  0x000e7700 0x1800e8500 12   13   .rdata  ascii   Content-Type
+466  0x000e7710 0x1800e8510 16   17   .rdata  ascii   application/json
+467  0x000e7728 0x1800e8528 33   34   .rdata  ascii   application/x-www-form-urlencoded
+468  0x000e774c 0x1800e854c 4    5    .rdata  ascii   Date
+469  0x000e7754 0x1800e8554 4    5    .rdata  ascii   POST
+470  0x000e7888 0x1800e8688 6    7    .rdata  ascii    \t\n\v\f\r
+471  0x000e7998 0x1800e8798 21   22   .rdata  ascii   HTTP/%*d.%*d %d %*s\r\n
+472  0x000e79d0 0x1800e87d0 7    8    .rdata  ascii   fnv1_16
+473  0x000e79d8 0x1800e87d8 8    9    .rdata  ascii   fnv1a_16
+474  0x000e7a08 0x1800e8808 7    8    .rdata  ascii   fnv1_32
+475  0x000e7a10 0x1800e8810 8    9    .rdata  ascii   fnv1a_32
+476  0x000e7a40 0x1800e8840 7    8    .rdata  ascii   fnv1_64
+477  0x000e7a48 0x1800e8848 8    9    .rdata  ascii   fnv1a_64
+478  0x000e7be0 0x1800e89e0 15   16   .rdata  ascii   generate_status
+479  0x000e7c10 0x1800e8a10 7    8    .rdata  ascii   fnv1_16
+480  0x000e7c18 0x1800e8a18 8    9    .rdata  ascii   fnv1a_16
+481  0x000e7c48 0x1800e8a48 7    8    .rdata  ascii   fnv1_32
+482  0x000e7c50 0x1800e8a50 8    9    .rdata  ascii   fnv1a_32
+483  0x000e7c80 0x1800e8a80 7    8    .rdata  ascii   fnv1_64
+484  0x000e7c88 0x1800e8a88 8    9    .rdata  ascii   fnv1a_64
+485  0x000e7c98 0x1800e8a98 47   48   .rdata  ascii   Flexbuffers containing blobs are not supported.
+486  0x000e8250 0x1800e9050 19   20   .rdata  ascii   userdata != nullptr
+487  0x000e8268 0x1800e9068 28   29   .rdata  ascii   global_init_code == CURLE_OK
+488  0x000e8288 0x1800e9088 36   37   .rdata  ascii   curl global init failed with code %d
+489  0x000e82b0 0x1800e90b0 16   17   .rdata  ascii   curl_ != nullptr
+490  0x000e82c8 0x1800e90c8 35   36   .rdata  ascii   failed to start a curl easy session
+491  0x000e82f0 0x1800e90f0 36   37   .rdata  ascii   failed to %s with error code (%d) %s
+492  0x000e8318 0x1800e9118 16   17   .rdata  ascii   set error buffer
+493  0x000e8330 0x1800e9130 19   20   .rdata  ascii   set valid protocols
+494  0x000e8348 0x1800e9148 11   12   .rdata  ascii   verify peer
+495  0x000e8358 0x1800e9158 11   12   .rdata  ascii   verify host
+496  0x000e8368 0x1800e9168 12   13   .rdata  ascii   set ssl v1.0
+497  0x000e8378 0x1800e9178 24   25   .rdata  ascii   set http header callback
+498  0x000e8398 0x1800e9198 29   30   .rdata  ascii   set http header callback data
+499  0x000e83b8 0x1800e91b8 28   29   .rdata  ascii   set http body write callback
+500  0x000e83d8 0x1800e91d8 33   34   .rdata  ascii   set http body write callback data
+501  0x000e8400 0x1800e9200 27   28   .rdata  ascii   set http body read callback
+502  0x000e8420 0x1800e9220 32   33   .rdata  ascii   set http body read callback data
+503  0x000e8448 0x1800e9248 29   30   .rdata  ascii   set http timeout milliseconds
+504  0x000e8468 0x1800e9268 25   26   .rdata  ascii   set http version to http1
+505  0x000e8488 0x1800e9288 21   22   .rdata  ascii   err_code_ == CURLE_OK
+506  0x000e84a0 0x1800e92a0 26   27   .rdata  ascii   Transfer-Encoding: chunked
+507  0x000e84c0 0x1800e92c0 15   16   .rdata  ascii   set http header
+508  0x000e84d0 0x1800e92d0 19   20   .rdata  ascii   set private pointer
+509  0x000e84e8 0x1800e92e8 12   13   .rdata  ascii   set http url
+510  0x000e84f8 0x1800e92f8 15   16   .rdata  ascii   set http method
+511  0x000e8508 0x1800e9308 20   21   .rdata  ascii   set http post fields
+512  0x000e8520 0x1800e9320 21   22   .rdata  ascii   curl_multi != nullptr
+513  0x000e8538 0x1800e9338 38   39   .rdata  ascii   curl multi handle failed to initialize
+514  0x000e8560 0x1800e9360 17   18   .rdata  ascii   deque<T> too long
+515  0x000e8588 0x1800e9388 11   12   .rdata  ascii   request.fbs
+516  0x000e85a0 0x1800e93a0 1226 1227 .rdata  ascii   // Copyright 2020 Google LLC\n//\n// Licensed under the Apache License, Version 2.0 (the "License");\n// you may not use this file except in compliance with the License.\n// You may obtain a copy of the License at\n//\n//     http://www.apache.org/licenses/LICENSE-2.0\n//\n// Unless required by applicable law or agreed to in writing, software\n// distributed under the License is distributed on an "AS IS" BASIS,\n// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n// See the License for the specific language governing permissions and\n// limitations under the License.\n\n// The FlatBuffers schema for making Firebase Auth rpc request. The order does\n// not matter since we do not store nor send serialized object. Table Request\n// mainly provides each field name with type for generating request JSON string.\n// For a particular request type, not all fields are relevant.\n\nnamespace firebase.remote_config.fbs;\n\ntable Request {\n  appInstanceId:string;\n  appInstanceIdToken:string;\n\n  appId:string;\n  countryCode:string;\n  languageCode:string;\n  platformVersion:string;\n  timeZone:string;\n  appVersion:string;\n  packageName:string;\n\n  sdkVersion:string;\n  analyticsUserProperties:string;\n}\n\nroot_type Request;\n
+517  0x000e8a78 0x1800e9878 12   13   .rdata  ascii   response.fbs
+518  0x000e8a90 0x1800e9890 1343 1344 .rdata  ascii   // Copyright 2020 Google LLC\n//\n// Licensed under the Apache License, Version 2.0 (the "License");\n// you may not use this file except in compliance with the License.\n// You may obtain a copy of the License at\n//\n//     http://www.apache.org/licenses/LICENSE-2.0\n//\n// Unless required by applicable law or agreed to in writing, software\n// distributed under the License is distributed on an "AS IS" BASIS,\n// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n// See the License for the specific language governing permissions and\n// limitations under the License.\n\n// The FlatBuffers schema for Firebase Remote Config rpc response. The order does not\n// matter since we do not store nor receive serialized object. Table Response\n// mainly provides each field name with type for parsing response JSON string.\n// For a particular response type, not all fields are set. In addition, for a\n// particular response type, extra fields not specified in table Response are\n// irrelevant to our SDK and thus simply ignored.\n\nnamespace firebase.remote_config.fbs;\n\ntable ErrorDetails {\n  reason:string;\n}\n\ntable Error {\n  code:long;\n  message:string;\n  errors:[ErrorDetails];\n}\n\ntable Response {\n  entries:[ubyte] (id: 0, flexbuffer);\n  appName:string (id: 1);\n  state:string (id: 2);\n\n  error:Error(id: 3);\n}\n\nroot_type Response;\n
+519  0x000e919c 0x1800e9f9c 4    5    .rdata  ascii   AHST
+520  0x000e91b4 0x1800e9fb4 4    5    .rdata  ascii   IDLW
+521  0x000e91d8 0x1800e9fd8 4    5    .rdata  ascii   MEWT
+522  0x000e91e4 0x1800e9fe4 4    5    .rdata  ascii   MEST
+523  0x000e91f0 0x1800e9ff0 4    5    .rdata  ascii   CEST
+524  0x000e91fc 0x1800e9ffc 4    5    .rdata  ascii   MESZ
+525  0x000e922c 0x1800ea02c 4    5    .rdata  ascii   WAST
+526  0x000e9238 0x1800ea038 4    5    .rdata  ascii   WADT
+527  0x000e925c 0x1800ea05c 4    5    .rdata  ascii   EAST
+528  0x000e9268 0x1800ea068 4    5    .rdata  ascii   EADT
+529  0x000e928c 0x1800ea08c 4    5    .rdata  ascii   NZST
+530  0x000e9298 0x1800ea098 4    5    .rdata  ascii   NZDT
+531  0x000e92a4 0x1800ea0a4 4    5    .rdata  ascii   IDLE
+532  0x000e945c 0x1800ea25c 6    7    .rdata  ascii   Monday
+533  0x000e9468 0x1800ea268 7    8    .rdata  ascii   Tuesday
+534  0x000e9470 0x1800ea270 9    10   .rdata  ascii   Wednesday
+535  0x000e9480 0x1800ea280 8    9    .rdata  ascii   Thursday
+536  0x000e948c 0x1800ea28c 6    7    .rdata  ascii   Friday
+537  0x000e9498 0x1800ea298 8    9    .rdata  ascii   Saturday
+538  0x000e94a4 0x1800ea2a4 6    7    .rdata  ascii   Sunday
+539  0x000e94b0 0x1800ea2b0 57   58   .rdata  ascii   %31[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]
+540  0x000e94f0 0x1800ea2f0 16   17   .rdata  ascii   %02d:%02d:%02d%n
+541  0x000e9508 0x1800ea308 11   12   .rdata  ascii   %02d:%02d%n
+542  0x000e99f4 0x1800ea7f4 4    5    .rdata  ascii   SESS
+543  0x000e99fc 0x1800ea7fc 5    6    .rdata  ascii   FLUSH
+544  0x000e9a04 0x1800ea804 6    7    .rdata  ascii   RELOAD
+545  0x000e9a10 0x1800ea810 11   12   .rdata  ascii   Set-Cookie:
+546  0x000e9ab8 0x1800ea8b8 38   39   .rdata  ascii   Connection #%ld to host %s left intact
+547  0x000e9ae8 0x1800ea8e8 44   45   .rdata  ascii   Resolving timed out after %I64d milliseconds
+548  0x000e9b18 0x1800ea918 45   46   .rdata  ascii   Connection timed out after %I64d milliseconds
+549  0x000e9b50 0x1800ea950 83   84   .rdata  ascii   Operation timed out after %I64d milliseconds with %I64d out of %I64d bytes received
+550  0x000e9bb0 0x1800ea9b0 70   71   .rdata  ascii   Operation timed out after %I64d milliseconds with %I64d bytes received
+551  0x000e9bf8 0x1800ea9f8 38   39   .rdata  ascii   Transfer was pending, now try another\n
+552  0x000e9c20 0x1800eaa20 37   38   .rdata  ascii   Hostname '%s' was found in DNS cache\n
+553  0x000e9c48 0x1800eaa48 40   41   .rdata  ascii   Internal error removing splay node = %d\n
+554  0x000e9c78 0x1800eaa78 40   41   .rdata  ascii   Internal error clearing splay node = %d\n
+555  0x000e9cb0 0x1800eaab0 32   33   .rdata  ascii            (((((
+556  0x000e9cf1 0x1800eaaf1 6    7    .rdata  ascii   AAAAAA
+557  0x000e9d11 0x1800eab11 6    7    .rdata  ascii   BBBBBB
+558  0x000e9d2f 0x1800eab2f 37   38   .rdata  ascii    0123456789abcdefghijklmnopqrstuvwxyz
+559  0x000e9d58 0x1800eab58 36   37   .rdata  ascii   0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+560  0x000e9d80 0x1800eab80 5    6    .rdata  ascii   (nil)
+561  0x000e9d88 0x1800eab88 5    6    .rdata  ascii   (nil)
+562  0x000e9d9c 0x1800eab9c 4    5    .rdata  ascii   .%ld
+563  0x000e9dae 0x1800eabae 37   38   .rdata  ascii   $@ignoring failed cookie_init for %s\n
+564  0x000e9dd8 0x1800eabd8 9    10   .rdata  ascii   localhost
+565  0x000e9de8 0x1800eabe8 25   26   .rdata  ascii   %4095[^;\r\n=] =%4095[^;\r\n]
+566  0x000e9e08 0x1800eac08 51   52   .rdata  ascii   oversized cookie dropped, name/val %zu + %zu bytes\n
+567  0x000e9e40 0x1800eac40 9    10   .rdata  ascii   __Secure-
+568  0x000e9e50 0x1800eac50 7    8    .rdata  ascii   __Host-
+569  0x000e9e58 0x1800eac58 6    7    .rdata  ascii   secure
+570  0x000e9e60 0x1800eac60 8    9    .rdata  ascii   httponly
+571  0x000e9e6c 0x1800eac6c 4    5    .rdata  ascii   path
+572  0x000e9e74 0x1800eac74 6    7    .rdata  ascii   domain
+573  0x000e9e80 0x1800eac80 45   46   .rdata  ascii   skipped cookie with bad tailmatch domain: %s\n
+574  0x000e9eb0 0x1800eacb0 7    8    .rdata  ascii   version
+575  0x000e9eb8 0x1800eacb8 7    8    .rdata  ascii   max-age
+576  0x000e9ec0 0x1800eacc0 7    8    .rdata  ascii   expires
+577  0x000e9ec8 0x1800eacc8 10   11   .rdata  ascii   #HttpOnly_
+578  0x000e9ed8 0x1800eacd8 4    5    .rdata  ascii   TRUE
+579  0x000e9ee0 0x1800eace0 5    6    .rdata  ascii   FALSE
+580  0x000e9ee8 0x1800eace8 8    9    .rdata  ascii   Replaced
+581  0x000e9ef4 0x1800eacf4 5    6    .rdata  ascii   Added
+582  0x000e9f00 0x1800ead00 55   56   .rdata  ascii   %s cookie %s="%s" for domain %s, path %s, expire %I64d\n
+583  0x000e9f38 0x1800ead38 4    5    .rdata  ascii   none
+584  0x000e9f48 0x1800ead48 7    8    .rdata  ascii   unknown
+585  0x000e9f50 0x1800ead50 27   28   .rdata  ascii   %s%s%s\t%s\t%s\t%s\t%I64d\t%s\t%s
+586  0x000e9f70 0x1800ead70 9    10   .rdata  ascii   %s.%s.tmp
+587  0x000e9f80 0x1800ead80 136  137  .rdata  ascii   # Netscape HTTP Cookie File\n# https://curl.haxx.se/docs/http-cookies.html\n# This file was generated by libcurl! Edit at your own risk.\n\n
+588  0x000ea010 0x1800eae10 24   25   .rdata  ascii   #\n# Fatal libcurl error\n
+589  0x000ea030 0x1800eae30 38   39   .rdata  ascii   WARNING: failed to save cookies in %s\n
+590  0x000ea05c 0x1800eae5c 5    6    .rdata  ascii   proxy
+591  0x000ea064 0x1800eae64 4    5    .rdata  ascii   host
+592  0x000ea070 0x1800eae70 24   25   .rdata  ascii   Could not resolve %s: %s
+593  0x000ea090 0x1800eae90 37   38   .rdata  ascii   getaddrinfo() thread failed to start\n
+594  0x000ea150 0x1800eaf50 64   65   .rdata  ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+595  0x000ea2a0 0x1800eb0a0 16   17   .rdata  ascii   0123456789ABCDEF
+596  0x000ea360 0x1800eb160 6    7    .rdata  ascii   binary
+597  0x000ea368 0x1800eb168 4    5    .rdata  ascii   8bit
+598  0x000ea370 0x1800eb170 4    5    .rdata  ascii   7bit
+599  0x000ea378 0x1800eb178 6    7    .rdata  ascii   base64
+600  0x000ea380 0x1800eb180 16   17   .rdata  ascii   quoted-printable
+601  0x000ea394 0x1800eb194 4    5    .rdata  ascii   .gif
+602  0x000ea3a0 0x1800eb1a0 9    10   .rdata  ascii   image/gif
+603  0x000ea3ac 0x1800eb1ac 4    5    .rdata  ascii   .jpg
+604  0x000ea3b8 0x1800eb1b8 10   11   .rdata  ascii   image/jpeg
+605  0x000ea3c4 0x1800eb1c4 5    6    .rdata  ascii   .jpeg
+606  0x000ea3cc 0x1800eb1cc 4    5    .rdata  ascii   .png
+607  0x000ea3d8 0x1800eb1d8 9    10   .rdata  ascii   image/png
+608  0x000ea3e4 0x1800eb1e4 4    5    .rdata  ascii   .svg
+609  0x000ea3f0 0x1800eb1f0 13   14   .rdata  ascii   image/svg+xml
+610  0x000ea400 0x1800eb200 4    5    .rdata  ascii   .txt
+611  0x000ea408 0x1800eb208 10   11   .rdata  ascii   text/plain
+612  0x000ea414 0x1800eb214 4    5    .rdata  ascii   .htm
+613  0x000ea420 0x1800eb220 9    10   .rdata  ascii   text/html
+614  0x000ea42c 0x1800eb22c 5    6    .rdata  ascii   .html
+615  0x000ea434 0x1800eb234 4    5    .rdata  ascii   .pdf
+616  0x000ea440 0x1800eb240 15   16   .rdata  ascii   application/pdf
+617  0x000ea450 0x1800eb250 4    5    .rdata  ascii   .xml
+618  0x000ea458 0x1800eb258 15   16   .rdata  ascii   application/xml
+619  0x000ea470 0x1800eb270 12   13   .rdata  ascii   Content-Type
+620  0x000ea484 0x1800eb284 4    5    .rdata  ascii   \r\n--
+621  0x000ea48c 0x1800eb28c 4    5    .rdata  ascii   --\r\n
+622  0x000ea498 0x1800eb298 30   31   .rdata  ascii   Can't add itself as a subpart!
+623  0x000ea4b8 0x1800eb2b8 11   12   .rdata  ascii   ; boundary=
+624  0x000ea4c8 0x1800eb2c8 20   21   .rdata  ascii   Content-Type: %s%s%s
+625  0x000ea4e0 0x1800eb2e0 15   16   .rdata  ascii   multipart/mixed
+626  0x000ea4f0 0x1800eb2f0 24   25   .rdata  ascii   application/octet-stream
+627  0x000ea510 0x1800eb310 19   20   .rdata  ascii   Content-Disposition
+628  0x000ea528 0x1800eb328 10   11   .rdata  ascii   multipart/
+629  0x000ea538 0x1800eb338 10   11   .rdata  ascii   attachment
+630  0x000ea548 0x1800eb348 12   13   .rdata  ascii   ; filename="
+631  0x000ea558 0x1800eb358 8    9    .rdata  ascii   ; name="
+632  0x000ea568 0x1800eb368 35   36   .rdata  ascii   Content-Disposition: %s%s%s%s%s%s%s
+633  0x000ea590 0x1800eb390 25   26   .rdata  ascii   Content-Transfer-Encoding
+634  0x000ea5b0 0x1800eb3b0 29   30   .rdata  ascii   Content-Transfer-Encoding: %s
+635  0x000ea5d0 0x1800eb3d0 19   20   .rdata  ascii   multipart/form-data
+636  0x000ea5e8 0x1800eb3e8 9    10   .rdata  ascii   form-data
+637  0x000ea5f4 0x1800eb3f4 5    6    .rdata  ascii   %ld%s
+638  0x000ea600 0x1800eb400 50   51   .rdata  ascii   Connection cache is full, closing the oldest one.\n
+639  0x000ea700 0x1800eb500 5    6    .rdata  ascii   multi
+640  0x000ea708 0x1800eb508 8    9    .rdata  ascii   %s%s%s%s
+641  0x000ea718 0x1800eb518 58   59   .rdata  ascii   Unrecognized parameter value passed via CURLOPT_SSLVERSION
+642  0x000ea758 0x1800eb558 53   54   .rdata  ascii   CURL_SSLVERSION_MAX incompatible with CURL_SSLVERSION
+643  0x000ea798 0x1800eb598 26   27   .rdata  ascii   -----BEGIN PUBLIC KEY-----
+644  0x000ea7b8 0x1800eb5b8 25   26   .rdata  ascii   \n-----END PUBLIC KEY-----
+645  0x000ea7d8 0x1800eb5d8 8    9    .rdata  ascii   sha256//
+646  0x000ea7e8 0x1800eb5e8 30   31   .rdata  ascii   \t public key hash: sha256//%s\n
+647  0x000ea808 0x1800eb608 9    10   .rdata  ascii   ;sha256//
+648  0x000ea818 0x1800eb618 16   17   .rdata  ascii   CURL_SSL_BACKEND
+649  0x000ea8d8 0x1800eb6d8 13   14   .rdata  ascii   <no protocol>
+650  0x000ea8e8 0x1800eb6e8 23   24   .rdata  ascii   Closing connection %ld\n
+651  0x000ea900 0x1800eb700 48   49   .rdata  ascii   Too old connection (%ld seconds), disconnect it\n
+652  0x000ea938 0x1800eb738 33   34   .rdata  ascii   Connection %ld seems to be dead!\n
+653  0x000ea960 0x1800eb760 13   14   .rdata  ascii   can multiplex
+654  0x000ea970 0x1800eb770 8    9    .rdata  ascii   serially
+655  0x000ea980 0x1800eb780 34   35   .rdata  ascii   Found bundle for host %s: %p [%s]\n
+656  0x000ea9a8 0x1800eb7a8 43   44   .rdata  ascii   Server doesn't support multiplex yet, wait\n
+657  0x000ea9d8 0x1800eb7d8 39   40   .rdata  ascii   Server doesn't support multiplex (yet)\n
+658  0x000eaa00 0x1800eb800 35   36   .rdata  ascii   Could multiplex, but not asked to!\n
+659  0x000eaa28 0x1800eb828 41   42   .rdata  ascii   Can not multiplex, even if we wanted to!\n
+660  0x000eaa58 0x1800eb858 53   54   .rdata  ascii   Connection #%ld is still name resolving, can't reuse\n
+661  0x000eaa90 0x1800eb890 47   48   .rdata  ascii   Connection #%ld isn't open enough, can't reuse\n
+662  0x000eaac0 0x1800eb8c0 30   31   .rdata  ascii   Multiplexed connection found!\n
+663  0x000eaae0 0x1800eb8e0 62   63   .rdata  ascii   Found pending candidate for reuse and CURLOPT_PIPEWAIT is set\n
+664  0x000eab20 0x1800eb920 37   38   .rdata  ascii   Connected to %s (%s) port %ld (#%ld)\n
+665  0x000eab48 0x1800eb948 53   54   .rdata  ascii   IDN support not present, can't parse Unicode domains\n
+666  0x000eab80 0x1800eb980 50   51   .rdata  ascii   Protocol "%s" not supported or disabled in libcurl
+667  0x000eabb8 0x1800eb9b8 23   24   .rdata  ascii   Invalid zoneid: %s; %s\n
+668  0x000eabd0 0x1800eb9d0 7    8    .rdata  ascii   %s://%s
+669  0x000eabd8 0x1800eb9d8 4    5    .rdata  ascii   file
+670  0x000eabe0 0x1800eb9e0 6    7    .rdata  ascii   %I64d-
+671  0x000eabe8 0x1800eb9e8 6    7    .rdata  ascii   _proxy
+672  0x000eabf0 0x1800eb9f0 10   11   .rdata  ascii   http_proxy
+673  0x000eac00 0x1800eba00 9    10   .rdata  ascii   all_proxy
+674  0x000eac10 0x1800eba10 9    10   .rdata  ascii   ALL_PROXY
+675  0x000eac20 0x1800eba20 35   36   .rdata  ascii   Uses proxy env variable %s == '%s'\n
+676  0x000eac44 0x1800eba44 5    6    .rdata  ascii   https
+677  0x000eac50 0x1800eba50 7    8    .rdata  ascii   socks5h
+678  0x000eac58 0x1800eba58 6    7    .rdata  ascii   socks5
+679  0x000eac60 0x1800eba60 7    8    .rdata  ascii   socks4a
+680  0x000eac68 0x1800eba68 6    7    .rdata  ascii   socks4
+681  0x000eac70 0x1800eba70 5    6    .rdata  ascii   socks
+682  0x000eac78 0x1800eba78 4    5    .rdata  ascii   http
+683  0x000eac80 0x1800eba80 33   34   .rdata  ascii   Unsupported proxy scheme for '%s'
+684  0x000eaca8 0x1800ebaa8 32   33   .rdata  ascii   Unsupported proxy syntax in '%s'
+685  0x000eacd0 0x1800ebad0 73   74   .rdata  ascii   Unsupported proxy '%s', libcurl is built without the HTTPS-proxy support.
+686  0x000ead20 0x1800ebb20 15   16   .rdata  ascii   memory shortage
+687  0x000ead30 0x1800ebb30 8    9    .rdata  ascii   no_proxy
+688  0x000ead40 0x1800ebb40 8    9    .rdata  ascii   NO_PROXY
+689  0x000ead50 0x1800ebb50 57   58   .rdata  ascii   Couldn't find host %s in the .netrc file; using defaults\n
+690  0x000ead90 0x1800ebb90 9    10   .rdata  ascii   anonymous
+691  0x000eada0 0x1800ebba0 15   16   .rdata  ascii   ftp@example.com
+692  0x000eadb8 0x1800ebbb8 44   45   .rdata  ascii   Please URL encode %% as %%25, see RFC 6874.\n
+693  0x000eade8 0x1800ebbe8 28   29   .rdata  ascii   Invalid IPv6 address format\n
+694  0x000eae08 0x1800ebc08 52   53   .rdata  ascii   No valid port number in connect to host string (%s)\n
+695  0x000eae40 0x1800ebc40 6    7    .rdata  ascii   %s%s%s
+696  0x000eae48 0x1800ebc48 27   28   .rdata  ascii   Connecting to hostname: %s\n
+697  0x000eae68 0x1800ebc68 23   24   .rdata  ascii   Connecting to port: %d\n
+698  0x000eae80 0x1800ebc80 26   27   .rdata  ascii   Couldn't resolve host '%s'
+699  0x000eaea0 0x1800ebca0 27   28   .rdata  ascii   Couldn't resolve proxy '%s'
+700  0x000eaec0 0x1800ebcc0 48   49   .rdata  ascii   Re-using existing connection! (#%ld) with %s %s\n
+701  0x000eaef8 0x1800ebcf8 44   45   .rdata  ascii   No more connections allowed to host %s: %zu\n
+702  0x000eaf28 0x1800ebd28 34   35   .rdata  ascii   No connections available in cache\n
+703  0x000eaf50 0x1800ebd50 26   27   .rdata  ascii   No connections available.\n
+704  0x000eaf70 0x1800ebd70 45   46   .rdata  ascii   NTLM picked AND auth done set, clear picked!\n
+705  0x000eafa0 0x1800ebda0 51   52   .rdata  ascii   NTLM-proxy picked AND auth done set, clear picked!\n
+706  0x000eafd8 0x1800ebdd8 16   17   .rdata  ascii   User-Agent: %s\r\n
+707  0x000eafec 0x1800ebdec 4    5    .rdata  ascii   HEAD
+708  0x000eaff4 0x1800ebdf4 4    5    .rdata  ascii   POST
+709  0x000eb028 0x1800ebe28 4    5    .rdata  ascii   ...\n
+710  0x000eb038 0x1800ebe38 16   17   .rdata  ascii   Send failure: %s
+711  0x000eb050 0x1800ebe50 16   17   .rdata  ascii   Recv failure: %s
+712  0x000eb068 0x1800ebe68 50   51   .rdata  ascii   Write callback asked for PAUSE when not supported!
+713  0x000eb0a0 0x1800ebea0 37   38   .rdata  ascii   Failure writing output to destination
+714  0x000eb0c8 0x1800ebec8 21   22   .rdata  ascii   Failed writing header
+715  0x000eb0e4 0x1800ebee4 5    6    .rdata  ascii   host!
+716  0x000eb0f0 0x1800ebef0 36   37   .rdata  ascii   Failed to set SO_KEEPALIVE on fd %d\n
+717  0x000eb118 0x1800ebf18 46   47   .rdata  ascii   Failed to set SIO_KEEPALIVE_VALS on fd %d: %d\n
+718  0x000eb148 0x1800ebf48 31   32   .rdata  ascii   Couldn't bind to interface '%s'
+719  0x000eb168 0x1800ebf68 52   53   .rdata  ascii   Local Interface %s is ip %s using address family %i\n
+720  0x000eb1a0 0x1800ebfa0 47   48   .rdata  ascii   Name '%s' family %i resolved to '%s' family %i\n
+721  0x000eb1d0 0x1800ebfd0 21   22   .rdata  ascii   Couldn't bind to '%s'
+722  0x000eb1e8 0x1800ebfe8 38   39   .rdata  ascii   getsockname() failed with errno %d: %s
+723  0x000eb210 0x1800ec010 16   17   .rdata  ascii   Local port: %hu\n
+724  0x000eb228 0x1800ec028 43   44   .rdata  ascii   Bind to local port %hu failed, trying next\n
+725  0x000eb258 0x1800ec058 29   30   .rdata  ascii   bind failed with errno %d: %s
+726  0x000eb278 0x1800ec078 38   39   .rdata  ascii   getpeername() failed with errno %d: %s
+727  0x000eb2a0 0x1800ec0a0 42   43   .rdata  ascii   ssrem inet_ntop() failed with errno %d: %s
+728  0x000eb2d0 0x1800ec0d0 42   43   .rdata  ascii   ssloc inet_ntop() failed with errno %d: %s
+729  0x000eb300 0x1800ec100 30   31   .rdata  ascii   unknown proxytype option given
+730  0x000eb320 0x1800ec120 19   20   .rdata  ascii   Connection time-out
+731  0x000eb338 0x1800ec138 37   38   .rdata  ascii   After %I64dms connect time, move on!\n
+732  0x000eb360 0x1800ec160 34   35   .rdata  ascii   connect to %s port %ld failed: %s\n
+733  0x000eb388 0x1800ec188 36   37   .rdata  ascii   Failed to connect to %s port %ld: %s
+734  0x000eb3b0 0x1800ec1b0 30   31   .rdata  ascii   Could not set TCP_NODELAY: %s\n
+735  0x000eb3d0 0x1800ec1d0 44   45   .rdata  ascii   sa_addr inet_ntop() failed with errno %d: %s
+736  0x000eb400 0x1800ec200 19   20   .rdata  ascii     Trying %s:%ld...\n
+737  0x000eb418 0x1800ec218 34   35   .rdata  ascii   Immediate connect fail for %s: %s\n
+738  0x000eb43c 0x1800ec23c 6    7    .rdata  ascii   Digest
+739  0x000eb444 0x1800ec244 4    5    .rdata  ascii   %.*s
+740  0x000eb44c 0x1800ec24c 6    7    .rdata  ascii   Proxy-
+741  0x000eb458 0x1800ec258 28   29   .rdata  ascii   %sAuthorization: Digest %s\r\n
+742  0x000eb478 0x1800ec278 12   13   .rdata  ascii   iphlpapi.dll
+743  0x000eb488 0x1800ec288 14   15   .rdata  ascii   if_nametoindex
+744  0x000eb498 0x1800ec298 8    9    .rdata  ascii   kernel32
+745  0x000eb4a8 0x1800ec2a8 14   15   .rdata  ascii   LoadLibraryExA
+746  0x000eb4b8 0x1800ec2b8 15   16   .rdata  ascii   AddDllDirectory
+747  0x000eb568 0x1800ec368 8    9    .rdata  ascii   identity
+748  0x000eb580 0x1800ec380 77   78   .rdata  ascii   Unrecognized content encoding type. libcurl understands %s content encodings.
+749  0x000eb5d0 0x1800ec3d0 7    8    .rdata  ascii   chunked
+750  0x000eb5e0 0x1800ec3e0 40   41   .rdata  ascii   Hostname in DNS cache was stale, zapped\n
+751  0x000eb610 0x1800ec410 22   23   .rdata  ascii   Shuffling %i addresses
+752  0x000eb628 0x1800ec428 35   36   .rdata  ascii   Hostname %s was found in DNS cache\n
+753  0x000eb650 0x1800ec450 11   12   .rdata  ascii   %255[^:]:%d
+754  0x000eb660 0x1800ec460 51   52   .rdata  ascii   Couldn't parse CURLOPT_RESOLVE removal entry '%s'!\n
+755  0x000eb698 0x1800ec498 36   37   .rdata  ascii   Resolve address '%s' found illegal!\n
+756  0x000eb6c0 0x1800ec4c0 43   44   .rdata  ascii   Couldn't parse CURLOPT_RESOLVE entry '%s'!\n
+757  0x000eb6f0 0x1800ec4f0 44   45   .rdata  ascii   RESOLVE %s:%d is - old addresses discarded!\n
+758  0x000eb720 0x1800ec520 28   29   .rdata  ascii   Added %s:%d:%s to DNS cache\n
+759  0x000eb740 0x1800ec540 52   53   .rdata  ascii   RESOLVE %s:%d is wildcard, enabling wildcard checks\n
+760  0x000eb788 0x1800ec588 4    5    .rdata  ascii   HTTP
+761  0x000eb790 0x1800ec590 5    6    .rdata  ascii   HTTPS
+762  0x000eb798 0x1800ec598 34   35   .rdata  ascii   HTTP/3 requested for non-HTTPS URL
+763  0x000eb8d8 0x1800ec6d8 5    6    .rdata  ascii   %s:%s
+764  0x000eb8e0 0x1800ec6e0 27   28   .rdata  ascii   %sAuthorization: Basic %s\r\n
+765  0x000eb900 0x1800ec700 26   27   .rdata  ascii   Authorization: Bearer %s\r\n
+766  0x000eb920 0x1800ec720 25   26   .rdata  ascii   Rewind stream after send\n
+767  0x000eb940 0x1800ec740 48   49   .rdata  ascii   NTLM send, close instead of sending %I64d bytes\n
+768  0x000eb978 0x1800ec778 53   54   .rdata  ascii   NEGOTIATE send, close instead of sending %I64d bytes\n
+769  0x000eb9b0 0x1800ec7b0 25   26   .rdata  ascii   Forcing HTTP/1.1 for NTLM
+770  0x000eb9d0 0x1800ec7d0 36   37   .rdata  ascii   The requested URL returned error: %d
+771  0x000eb9f8 0x1800ec7f8 9    10   .rdata  ascii   Negotiate
+772  0x000eba04 0x1800ec804 4    5    .rdata  ascii   NTLM
+773  0x000eba10 0x1800ec810 19   20   .rdata  ascii   Proxy-authorization
+774  0x000eba28 0x1800ec828 13   14   .rdata  ascii   Authorization
+775  0x000eba38 0x1800ec838 5    6    .rdata  ascii   Basic
+776  0x000eba40 0x1800ec840 14   15   .rdata  ascii   Authorization:
+777  0x000eba50 0x1800ec850 6    7    .rdata  ascii   Bearer
+778  0x000eba58 0x1800ec858 5    6    .rdata  ascii   Proxy
+779  0x000eba60 0x1800ec860 6    7    .rdata  ascii   Server
+780  0x000eba68 0x1800ec868 32   33   .rdata  ascii   %s auth using %s with user '%s'\n
+781  0x000eba90 0x1800ec890 39   40   .rdata  ascii   Authentication problem. Ignoring this.\n
+782  0x000ebab8 0x1800ec8b8 39   40   .rdata  ascii   Ignoring duplicate digest auth header.\n
+783  0x000ebae0 0x1800ec8e0 4    5    .rdata  ascii   TCP6
+784  0x000ebae8 0x1800ec8e8 4    5    .rdata  ascii   TCP4
+785  0x000ebaf0 0x1800ec8f0 24   25   .rdata  ascii   PROXY %s %s %s %li %li\r\n
+786  0x000ebb10 0x1800ec910 23   24   .rdata  ascii   Empty reply from server
+787  0x000ebb30 0x1800ec930 6    7    .rdata  ascii   Expect
+788  0x000ebb38 0x1800ec938 12   13   .rdata  ascii   100-continue
+789  0x000ebb48 0x1800ec948 7    8    .rdata  ascii   Expect:
+790  0x000ebb50 0x1800ec950 22   23   .rdata  ascii   Expect: 100-continue\r\n
+791  0x000ebb68 0x1800ec968 48   49   .rdata  ascii   Malformatted trailing header ! Skipping trailer.
+792  0x000ebb9c 0x1800ec99c 5    6    .rdata  ascii   Host:
+793  0x000ebba8 0x1800ec9a8 13   14   .rdata  ascii   Content-Type:
+794  0x000ebbb8 0x1800ec9b8 15   16   .rdata  ascii   Content-Length:
+795  0x000ebbc8 0x1800ec9c8 11   12   .rdata  ascii   Connection:
+796  0x000ebbd8 0x1800ec9d8 18   19   .rdata  ascii   Transfer-Encoding:
+797  0x000ebbf0 0x1800ec9f0 7    8    .rdata  ascii   Cookie:
+798  0x000ebbf8 0x1800ec9f8 4    5    .rdata  ascii   %s\r\n
+799  0x000ebc00 0x1800eca00 17   18   .rdata  ascii   Invalid TIMEVALUE
+800  0x000ebc18 0x1800eca18 17   18   .rdata  ascii   If-Modified-Since
+801  0x000ebc30 0x1800eca30 19   20   .rdata  ascii   If-Unmodified-Since
+802  0x000ebc48 0x1800eca48 13   14   .rdata  ascii   Last-Modified
+803  0x000ebc58 0x1800eca58 40   41   .rdata  ascii   %s: %s, %02d %s %4d %02d:%02d:%02d GMT\r\n
+804  0x000ebc88 0x1800eca88 10   11   .rdata  ascii   User-Agent
+805  0x000ebc94 0x1800eca94 5    6    .rdata  ascii   %s?%s
+806  0x000ebca0 0x1800ecaa0 7    8    .rdata  ascii   Referer
+807  0x000ebca8 0x1800ecaa8 13   14   .rdata  ascii   Referer: %s\r\n
+808  0x000ebcb8 0x1800ecab8 6    7    .rdata  ascii   Cookie
+809  0x000ebcc0 0x1800ecac0 15   16   .rdata  ascii   Accept-Encoding
+810  0x000ebcd0 0x1800ecad0 21   22   .rdata  ascii   Accept-Encoding: %s\r\n
+811  0x000ebce8 0x1800ecae8 17   18   .rdata  ascii   Transfer-Encoding
+812  0x000ebd00 0x1800ecb00 42   43   .rdata  ascii   Chunky upload is not supported by HTTP 1.0
+813  0x000ebd30 0x1800ecb30 28   29   .rdata  ascii   Transfer-Encoding: chunked\r\n
+814  0x000ebd50 0x1800ecb50 4    5    .rdata  ascii   Host
+815  0x000ebd58 0x1800ecb58 9    10   .rdata  ascii   Host:%s\r\n
+816  0x000ebd68 0x1800ecb68 14   15   .rdata  ascii   Host: %s%s%s\r\n
+817  0x000ebd78 0x1800ecb78 17   18   .rdata  ascii   Host: %s%s%s:%d\r\n
+818  0x000ebd90 0x1800ecb90 6    7    .rdata  ascii   ;type=
+819  0x000ebd98 0x1800ecb98 8    9    .rdata  ascii   ;type=%c
+820  0x000ebda4 0x1800ecba4 6    7    .rdata  ascii   Accept
+821  0x000ebdb0 0x1800ecbb0 13   14   .rdata  ascii   Accept: */*\r\n
+822  0x000ebdc0 0x1800ecbc0 21   22   .rdata  ascii   Could not seek stream
+823  0x000ebdd8 0x1800ecbd8 42   43   .rdata  ascii   Could only read %I64d bytes from the input
+824  0x000ebe08 0x1800ecc08 32   33   .rdata  ascii   File already completely uploaded
+825  0x000ebe2c 0x1800ecc2c 5    6    .rdata  ascii   Range
+826  0x000ebe38 0x1800ecc38 17   18   .rdata  ascii   Range: bytes=%s\r\n
+827  0x000ebe50 0x1800ecc50 13   14   .rdata  ascii   Content-Range
+828  0x000ebe60 0x1800ecc60 36   37   .rdata  ascii   Content-Range: bytes 0-%I64d/%I64d\r\n
+829  0x000ebe88 0x1800ecc88 36   37   .rdata  ascii   Content-Range: bytes %s%I64d/%I64d\r\n
+830  0x000ebeb0 0x1800eccb0 31   32   .rdata  ascii   Content-Range: bytes %s/%I64d\r\n
+831  0x000ebed8 0x1800eccd8 14   15   .rdata  ascii   ftp://%s:%s@%s
+832  0x000ebef0 0x1800eccf0 16   17   .rdata  ascii   Proxy-Connection
+833  0x000ebf08 0x1800ecd08 30   31   .rdata  ascii   Proxy-Connection: Keep-Alive\r\n
+834  0x000ebf28 0x1800ecd28 36   37   .rdata  ascii   %s HTTP/%s\r\n%s%s%s%s%s%s%s%s%s%s%s%s
+835  0x000ebf50 0x1800ecd50 8    9    .rdata  ascii   Cookie:
+836  0x000ebf60 0x1800ecd60 7    8    .rdata  ascii   %s%s=%s
+837  0x000ebf68 0x1800ecd68 4    5    .rdata  ascii   %s%s
+838  0x000ebf70 0x1800ecd70 14   15   .rdata  ascii   Content-Length
+839  0x000ebf80 0x1800ecd80 23   24   .rdata  ascii   Content-Length: %I64d\r\n
+840  0x000ebf98 0x1800ecd98 26   27   .rdata  ascii   Failed sending PUT request
+841  0x000ebfb8 0x1800ecdb8 21   22   .rdata  ascii   Content-Length: 0\r\n\r\n
+842  0x000ebfd0 0x1800ecdd0 27   28   .rdata  ascii   Failed sending POST request
+843  0x000ebff0 0x1800ecdf0 49   50   .rdata  ascii   Content-Type: application/x-www-form-urlencoded\r\n
+844  0x000ec024 0x1800ece24 4    5    .rdata  ascii   %x\r\n
+845  0x000ec02c 0x1800ece2c 5    6    .rdata  ascii   0\r\n\r\n
+846  0x000ec038 0x1800ece38 32   33   .rdata  ascii   Failed sending HTTP POST request
+847  0x000ec060 0x1800ece60 27   28   .rdata  ascii   Failed sending HTTP request
+848  0x000ec080 0x1800ece80 53   54   .rdata  ascii   upload completely sent off: %I64d out of %I64d bytes\n
+849  0x000ec0b8 0x1800eceb8 5    6    .rdata  ascii   HTTP/
+850  0x000ec0c0 0x1800ecec0 36   37   .rdata  ascii   The requested URL returned error: %s
+851  0x000ec0e8 0x1800ecee8 35   36   .rdata  ascii   Received HTTP/0.9 when not allowed\n
+852  0x000ec110 0x1800ecf10 13   14   .rdata  ascii   Received 101\n
+853  0x000ec120 0x1800ecf20 56   57   .rdata  ascii   no chunk, no close, no size. Assume close to signal end\n
+854  0x000ec160 0x1800ecf60 54   55   .rdata  ascii   Connection closure while negotiating auth (HTTP 1.0?)\n
+855  0x000ec198 0x1800ecf98 32   33   .rdata  ascii   Got 417 while waiting for a 100\n
+856  0x000ec1c0 0x1800ecfc0 44   45   .rdata  ascii   HTTP error before end of send, keep sending\n
+857  0x000ec1f0 0x1800ecff0 44   45   .rdata  ascii   HTTP error before end of send, stop sending\n
+858  0x000ec220 0x1800ed020 38   39   .rdata  ascii   Keep sending data to get tossed away!\n
+859  0x000ec248 0x1800ed048 18   19   .rdata  ascii    HTTP/%1d.%1d%c%3d
+860  0x000ec260 0x1800ed060 15   16   .rdata  ascii    HTTP/%1[23] %d
+861  0x000ec270 0x1800ed070 33   34   .rdata  ascii   Lying server, not serving HTTP/2\n
+862  0x000ec298 0x1800ed098 39   40   .rdata  ascii   Mark bundle as not supporting multiuse\n
+863  0x000ec2c0 0x1800ed0c0 9    10   .rdata  ascii    HTTP %3d
+864  0x000ec2d0 0x1800ed0d0 36   37   .rdata  ascii   Unsupported HTTP version in response
+865  0x000ec2f8 0x1800ed0f8 18   19   .rdata  ascii    RTSP/%1d.%1d%c%3d
+866  0x000ec310 0x1800ed110 34   35   .rdata  ascii   HTTP 1.0, assume close after body\n
+867  0x000ec338 0x1800ed138 26   27   .rdata  ascii   Maximum file size exceeded
+868  0x000ec358 0x1800ed158 32   33   .rdata  ascii   Overflow Content-Length: value!\n
+869  0x000ec380 0x1800ed180 29   30   .rdata  ascii   Invalid Content-Length: value
+870  0x000ec3a0 0x1800ed1a0 10   11   .rdata  ascii   keep-alive
+871  0x000ec3b0 0x1800ed1b0 17   18   .rdata  ascii   Proxy-Connection:
+872  0x000ec3c8 0x1800ed1c8 45   46   .rdata  ascii   HTTP/1.0 proxy connection set to keep alive!\n
+873  0x000ec3f8 0x1800ed1f8 5    6    .rdata  ascii   close
+874  0x000ec400 0x1800ed200 37   38   .rdata  ascii   HTTP/1.1 proxy connection set close!\n
+875  0x000ec428 0x1800ed228 39   40   .rdata  ascii   HTTP/1.0 connection set to keep alive!\n
+876  0x000ec450 0x1800ed250 17   18   .rdata  ascii   Content-Encoding:
+877  0x000ec468 0x1800ed268 12   13   .rdata  ascii   Retry-After:
+878  0x000ec478 0x1800ed278 14   15   .rdata  ascii   Content-Range:
+879  0x000ec488 0x1800ed288 14   15   .rdata  ascii   Last-Modified:
+880  0x000ec498 0x1800ed298 17   18   .rdata  ascii   WWW-Authenticate:
+881  0x000ec4b0 0x1800ed2b0 19   20   .rdata  ascii   Proxy-authenticate:
+882  0x000ec4c8 0x1800ed2c8 15   16   .rdata  ascii   Persistent-Auth
+883  0x000ec4d8 0x1800ed2d8 47   48   .rdata  ascii   Negotiate: noauthpersist -> %d, header part: %s
+884  0x000ec508 0x1800ed308 9    10   .rdata  ascii   Location:
+885  0x000ec518 0x1800ed318 59   60   .rdata  ascii   Moving trailers state machine from initialized to sending.\n
+886  0x000ec558 0x1800ed358 46   47   .rdata  ascii   operation aborted by trailing headers callback
+887  0x000ec588 0x1800ed388 33   34   .rdata  ascii   Successfully compiled trailers.\r\n
+888  0x000ec5b0 0x1800ed3b0 29   30   .rdata  ascii   operation aborted by callback
+889  0x000ec5d0 0x1800ed3d0 49   50   .rdata  ascii   Read callback asked for PAUSE when not supported!
+890  0x000ec608 0x1800ed408 34   35   .rdata  ascii   read function returned funny value
+891  0x000ec62c 0x1800ed42c 5    6    .rdata  ascii   %zx%s
+892  0x000ec638 0x1800ed438 48   49   .rdata  ascii   Signaling end of chunked upload after trailers.\n
+893  0x000ec670 0x1800ed470 55   56   .rdata  ascii   Signaling end of chunked upload via terminating chunk.\n
+894  0x000ec6a8 0x1800ed4a8 28   29   .rdata  ascii   Cannot rewind mime/post data
+895  0x000ec6c8 0x1800ed4c8 31   32   .rdata  ascii   seek callback returned error %d
+896  0x000ec6e8 0x1800ed4e8 31   32   .rdata  ascii   the ioctl callback returned %d\n
+897  0x000ec708 0x1800ed508 32   33   .rdata  ascii   ioctl callback returned error %d
+898  0x000ec730 0x1800ed530 37   38   .rdata  ascii   necessary data rewind wasn't possible
+899  0x000ec758 0x1800ed558 41   42   .rdata  ascii   The requested document is not new enough\n
+900  0x000ec788 0x1800ed588 41   42   .rdata  ascii   The requested document is not old enough\n
+901  0x000ec7b8 0x1800ed5b8 55   56   .rdata  ascii   Excess found: excess = %zd url = %s (zero-length body)\n
+902  0x000ec7f0 0x1800ed5f0 27   28   .rdata  ascii   Ignoring the response-body\n
+903  0x000ec810 0x1800ed610 41   42   .rdata  ascii   The entire document is already downloaded
+904  0x000ec840 0x1800ed640 63   64   .rdata  ascii   HTTP server doesn't seem to support byte ranges. Cannot resume.
+905  0x000ec880 0x1800ed680 30   31   .rdata  ascii   Simulate a HTTP 304 response!\n
+906  0x000ec8a0 0x1800ed6a0 41   42   .rdata  ascii   Failed reading the chunked-encoded stream
+907  0x000ec8d0 0x1800ed6d0 22   23   .rdata  ascii   %s in chunked-encoding
+908  0x000ec8e8 0x1800ed6e8 36   37   .rdata  ascii   Leftovers after chunking: %zu bytes\n
+909  0x000ec910 0x1800ed710 91   92   .rdata  ascii   Excess found in a read: excess = %zu, size = %I64d, maxdownload = %I64d, bytecount = %I64d\n
+910  0x000ec970 0x1800ed770 56   57   .rdata  ascii   we are done reading and this is set to close, stop send\n
+911  0x000ec9b0 0x1800ed7b0 31   32   .rdata  ascii   Failed to alloc scratch buffer!
+912  0x000ec9d0 0x1800ed7d0 36   37   .rdata  ascii   We are completely uploaded and fine\n
+913  0x000ec9f8 0x1800ed7f8 26   27   .rdata  ascii   select/poll returned error
+914  0x000eca18 0x1800ed818 30   31   .rdata  ascii   Done waiting for 100-continue\n
+915  0x000eca38 0x1800ed838 50   51   .rdata  ascii   transfer closed with %I64d bytes remaining to read
+916  0x000eca70 0x1800ed870 52   53   .rdata  ascii   transfer closed with outstanding read data remaining
+917  0x000ecaa8 0x1800ed8a8 11   12   .rdata  ascii   No URL set!
+918  0x000ecab8 0x1800ed8b8 32   33   .rdata  ascii   Maximum (%ld) redirects followed
+919  0x000ecae0 0x1800ed8e0 40   41   .rdata  ascii   Issue another request to this URL: '%s'\n
+920  0x000ecb10 0x1800ed910 24   25   .rdata  ascii   Switch from POST to GET\n
+921  0x000ecb30 0x1800ed930 13   14   .rdata  ascii   Switch to %s\n
+922  0x000ecb40 0x1800ed940 41   42   .rdata  ascii   REFUSED_STREAM, retrying a fresh connect\n
+923  0x000ecb70 0x1800ed970 48   49   .rdata  ascii   Connection died, tried %d times before giving up
+924  0x000ecba8 0x1800ed9a8 59   60   .rdata  ascii   Connection died, retrying a fresh connect(retry count: %d)\n
+925  0x000ecbe8 0x1800ed9e8 8    9    .rdata  ascii   --:--:--
+926  0x000ecbf8 0x1800ed9f8 22   23   .rdata  ascii   %2I64d:%02I64d:%02I64d
+927  0x000ecc10 0x1800eda10 16   17   .rdata  ascii   %3I64dd %02I64dh
+928  0x000ecc28 0x1800eda28 7    8    .rdata  ascii   %7I64dd
+929  0x000ecc30 0x1800eda30 6    7    .rdata  ascii   %5I64d
+930  0x000ecc38 0x1800eda38 7    8    .rdata  ascii   %4I64dk
+931  0x000ecc40 0x1800eda40 14   15   .rdata  ascii   %2I64d.%0I64dM
+932  0x000ecc50 0x1800eda50 7    8    .rdata  ascii   %4I64dM
+933  0x000ecc58 0x1800eda58 14   15   .rdata  ascii   %2I64d.%0I64dG
+934  0x000ecc68 0x1800eda68 7    8    .rdata  ascii   %4I64dG
+935  0x000ecc70 0x1800eda70 7    8    .rdata  ascii   %4I64dT
+936  0x000ecc78 0x1800eda78 7    8    .rdata  ascii   %4I64dP
+937  0x000ecc80 0x1800eda80 46   47   .rdata  ascii   ** Resuming transfer from byte position %I64d\n
+938  0x000eccb0 0x1800edab0 161  162  .rdata  ascii     %% Total    %% Received %% Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n
+939  0x000ecd58 0x1800edb58 52   53   .rdata  ascii   \r%3I64d %s  %3I64d %s  %3I64d %s  %s  %s %s %s %s %s
+940  0x000ecd90 0x1800edb90 16   17   .rdata  ascii   Callback aborted
+941  0x000ecdaf 0x1800edbaf 77   78   .rdata  ascii   @Operation too slow. Less than %ld bytes/sec transferred the last %ld seconds
+942  0x000ece00 0x1800edc00 25   26   .rdata  ascii   allocate connect buffer!\n
+943  0x000ece20 0x1800edc20 25   26   .rdata  ascii   CONNECT phase completed!\n
+944  0x000ece40 0x1800edc40 37   38   .rdata  ascii   Establish HTTP proxy tunnel to %s:%d\n
+945  0x000ece68 0x1800edc68 5    6    .rdata  ascii   %s:%d
+946  0x000ece70 0x1800edc70 7    8    .rdata  ascii   CONNECT
+947  0x000ece78 0x1800edc78 9    10   .rdata  ascii   %s%s%s:%d
+948  0x000ece88 0x1800edc88 10   11   .rdata  ascii   Host: %s\r\n
+949  0x000ece98 0x1800edc98 28   29   .rdata  ascii   CONNECT %s HTTP/%s\r\n%s%s%s%s
+950  0x000eceb8 0x1800edcb8 31   32   .rdata  ascii   Failed sending CONNECT to proxy
+951  0x000eced8 0x1800edcd8 36   37   .rdata  ascii   Proxy CONNECT aborted due to timeout
+952  0x000ecf00 0x1800edd00 32   33   .rdata  ascii   Proxy CONNECT connection closed\n
+953  0x000ecf28 0x1800edd28 21   22   .rdata  ascii   Proxy CONNECT aborted
+954  0x000ecf40 0x1800edd40 19   20   .rdata  ascii   chunk reading DONE\n
+955  0x000ecf58 0x1800edd58 27   28   .rdata  ascii   CONNECT response too large!
+956  0x000ecf78 0x1800edd78 36   37   .rdata  ascii   Ignore %I64d bytes of response-body\n
+957  0x000ecfa0 0x1800edda0 29   30   .rdata  ascii   Ignore chunked response-body\n
+958  0x000ecfc0 0x1800eddc0 49   50   .rdata  ascii   Ignoring Content-Length in CONNECT %03d response\n
+959  0x000ecff8 0x1800eddf8 52   53   .rdata  ascii   Ignoring Transfer-Encoding in CONNECT %03d response\n
+960  0x000ed030 0x1800ede30 26   27   .rdata  ascii   CONNECT responded chunked\n
+961  0x000ed050 0x1800ede50 12   13   .rdata  ascii   HTTP/1.%d %d
+962  0x000ed060 0x1800ede60 24   25   .rdata  ascii   Connect me again please\n
+963  0x000ed080 0x1800ede80 46   47   .rdata  ascii   Received HTTP code %d from proxy after CONNECT
+964  0x000ed0b0 0x1800edeb0 36   37   .rdata  ascii   Proxy replied %d to CONNECT request\n
+965  0x000ed0e0 0x1800edee0 46   47   .rdata  ascii   SOCKS4%s: connecting to HTTP proxy %s port %d\n
+966  0x000ed110 0x1800edf10 30   31   .rdata  ascii   SOCKS4 communication to %s:%d\n
+967  0x000ed130 0x1800edf30 34   35   .rdata  ascii   SOCKS4 non-blocking resolve of %s\n
+968  0x000ed158 0x1800edf58 24   25   .rdata  ascii   Hostname '%s' was found\n
+969  0x000ed178 0x1800edf78 45   46   .rdata  ascii   SOCKS4 connect to IPv4 %s (locally resolved)\n
+970  0x000ed1a8 0x1800edfa8 38   39   .rdata  ascii   SOCKS4 connection to %s not supported\n
+971  0x000ed1d0 0x1800edfd0 42   43   .rdata  ascii   Failed to resolve "%s" for SOCKS4 connect.
+972  0x000ed200 0x1800ee000 43   44   .rdata  ascii   Too long SOCKS proxy user name, can't use!\n
+973  0x000ed230 0x1800ee030 26   27   .rdata  ascii   SOCKS4: too long host name
+974  0x000ed250 0x1800ee050 38   39   .rdata  ascii   Failed to send SOCKS4 connect request.
+975  0x000ed278 0x1800ee078 48   49   .rdata  ascii   SOCKS4: Failed receiving connect request ack: %s
+976  0x000ed2b0 0x1800ee0b0 26   27   .rdata  ascii   connection to proxy closed
+977  0x000ed2d0 0x1800ee0d0 52   53   .rdata  ascii   SOCKS4 reply has wrong version, version should be 0.
+978  0x000ed308 0x1800ee108 26   27   .rdata  ascii   SOCKS4%s request granted.\n
+979  0x000ed330 0x1800ee130 85   86   .rdata  ascii   Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected or failed.
+980  0x000ed390 0x1800ee190 135  136  .rdata  ascii   Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because SOCKS server cannot connect to identd on the client.
+981  0x000ed420 0x1800ee220 139  140  .rdata  ascii   Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because the client program and identd report different user-ids.
+982  0x000ed4b0 0x1800ee2b0 66   67   .rdata  ascii   Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), Unknown.
+983  0x000ed520 0x1800ee320 44   45   .rdata  ascii   SOCKS5: connecting to HTTP proxy %s port %d\n
+984  0x000ed550 0x1800ee350 81   82   .rdata  ascii   SOCKS5: server resolving disabled for hostnames of length > 255 [actual len=%zu]\n
+985  0x000ed5a8 0x1800ee3a8 62   63   .rdata  ascii   warning: unsupported value passed to CURLOPT_SOCKS5_AUTH: %lu\n
+986  0x000ed5e8 0x1800ee3e8 38   39   .rdata  ascii   Unable to send initial SOCKS5 request.
+987  0x000ed610 0x1800ee410 42   43   .rdata  ascii   Unable to receive initial SOCKS5 response.
+988  0x000ed640 0x1800ee440 26   27   .rdata  ascii   Connection to proxy closed
+989  0x000ed660 0x1800ee460 52   53   .rdata  ascii   Received invalid version in initial SOCKS5 response.
+990  0x000ed698 0x1800ee498 43   44   .rdata  ascii   Unable to negotiate SOCKS5 GSS-API context.
+991  0x000ed6c8 0x1800ee4c8 58   59   .rdata  ascii   SOCKS5 GSSAPI per-message authentication is not supported.
+992  0x000ed708 0x1800ee508 40   41   .rdata  ascii   No authentication method was acceptable.
+993  0x000ed738 0x1800ee538 56   57   .rdata  ascii   Undocumented SOCKS5 mode attempted to be used by server.
+994  0x000ed778 0x1800ee578 41   42   .rdata  ascii   Excessive user name length for proxy auth
+995  0x000ed7a8 0x1800ee5a8 40   41   .rdata  ascii   Excessive password length for proxy auth
+996  0x000ed7d8 0x1800ee5d8 46   47   .rdata  ascii   Failed to send SOCKS5 sub-negotiation request.
+997  0x000ed808 0x1800ee608 50   51   .rdata  ascii   Unable to receive SOCKS5 sub-negotiation response.
+998  0x000ed840 0x1800ee640 47   48   .rdata  ascii   User was rejected by the SOCKS5 server (%d %d).
+999  0x000ed870 0x1800ee670 28   29   .rdata  ascii   SOCKS5: hostname '%s' found\n
+1000 0x000ed890 0x1800ee690 42   43   .rdata  ascii   Failed to resolve "%s" for SOCKS5 connect.
+1001 0x000ed8c0 0x1800ee6c0 45   46   .rdata  ascii   SOCKS5 connect to IPv4 %s (locally resolved)\n
+1002 0x000ed8f0 0x1800ee6f0 45   46   .rdata  ascii   SOCKS5 connect to IPv6 %s (locally resolved)\n
+1003 0x000ed920 0x1800ee720 38   39   .rdata  ascii   SOCKS5 connection to %s not supported\n
+1004 0x000ed948 0x1800ee748 44   45   .rdata  ascii   SOCKS5 connect to %s:%d (remotely resolved)\n
+1005 0x000ed978 0x1800ee778 46   47   .rdata  ascii   SOCKS5 GSS-API protection not yet implemented.
+1006 0x000ed9a8 0x1800ee7a8 38   39   .rdata  ascii   Failed to send SOCKS5 connect request.
+1007 0x000ed9d0 0x1800ee7d0 45   46   .rdata  ascii   Failed to receive SOCKS5 connect request ack.
+1008 0x000eda00 0x1800ee800 52   53   .rdata  ascii   SOCKS5 reply has wrong version, version should be 5.
+1009 0x000eda38 0x1800ee838 44   45   .rdata  ascii   Can't complete SOCKS5 connection to %s. (%d)
+1010 0x000eda68 0x1800ee868 36   37   .rdata  ascii   SOCKS5 reply has wrong address type.
+1011 0x000eda90 0x1800ee890 24   25   .rdata  ascii   SOCKS5 request granted.\n
+1012 0x000edab0 0x1800ee8b0 32   33   .rdata  ascii   WARNING: Using weak random seed\n
+1013 0x000edad8 0x1800ee8d8 16   17   .rdata  ascii   0123456789abcdef
+1014 0x000edbb0 0x1800ee9b0 38   39   .rdata  ascii   schannel: TLS 1.3 is not yet supported
+1015 0x000edbd8 0x1800ee9d8 8    9    .rdata  ascii   CALG_MD2
+1016 0x000edbe8 0x1800ee9e8 8    9    .rdata  ascii   CALG_MD4
+1017 0x000edbf8 0x1800ee9f8 8    9    .rdata  ascii   CALG_MD5
+1018 0x000edc08 0x1800eea08 8    9    .rdata  ascii   CALG_SHA
+1019 0x000edc18 0x1800eea18 9    10   .rdata  ascii   CALG_SHA1
+1020 0x000edc28 0x1800eea28 8    9    .rdata  ascii   CALG_MAC
+1021 0x000edc38 0x1800eea38 13   14   .rdata  ascii   CALG_RSA_SIGN
+1022 0x000edc48 0x1800eea48 13   14   .rdata  ascii   CALG_DSS_SIGN
+1023 0x000edc58 0x1800eea58 12   13   .rdata  ascii   CALG_NO_SIGN
+1024 0x000edc68 0x1800eea68 13   14   .rdata  ascii   CALG_RSA_KEYX
+1025 0x000edc78 0x1800eea78 8    9    .rdata  ascii   CALG_DES
+1026 0x000edc88 0x1800eea88 13   14   .rdata  ascii   CALG_3DES_112
+1027 0x000edc98 0x1800eea98 9    10   .rdata  ascii   CALG_3DES
+1028 0x000edca8 0x1800eeaa8 9    10   .rdata  ascii   CALG_DESX
+1029 0x000edcb8 0x1800eeab8 8    9    .rdata  ascii   CALG_RC2
+1030 0x000edcc8 0x1800eeac8 8    9    .rdata  ascii   CALG_RC4
+1031 0x000edcd8 0x1800eead8 9    10   .rdata  ascii   CALG_SEAL
+1032 0x000edce8 0x1800eeae8 10   11   .rdata  ascii   CALG_DH_SF
+1033 0x000edcf8 0x1800eeaf8 13   14   .rdata  ascii   CALG_DH_EPHEM
+1034 0x000edd08 0x1800eeb08 18   19   .rdata  ascii   CALG_AGREEDKEY_ANY
+1035 0x000edd20 0x1800eeb20 15   16   .rdata  ascii   CALG_HUGHES_MD5
+1036 0x000edd30 0x1800eeb30 13   14   .rdata  ascii   CALG_SKIPJACK
+1037 0x000edd40 0x1800eeb40 8    9    .rdata  ascii   CALG_TEK
+1038 0x000edd50 0x1800eeb50 15   16   .rdata  ascii   CALG_CYLINK_MEK
+1039 0x000edd60 0x1800eeb60 16   17   .rdata  ascii   CALG_SSL3_SHAMD5
+1040 0x000edd78 0x1800eeb78 16   17   .rdata  ascii   CALG_SSL3_MASTER
+1041 0x000edd90 0x1800eeb90 25   26   .rdata  ascii   CALG_SCHANNEL_MASTER_HASH
+1042 0x000eddb0 0x1800eebb0 21   22   .rdata  ascii   CALG_SCHANNEL_MAC_KEY
+1043 0x000eddc8 0x1800eebc8 21   22   .rdata  ascii   CALG_SCHANNEL_ENC_KEY
+1044 0x000edde0 0x1800eebe0 16   17   .rdata  ascii   CALG_PCT1_MASTER
+1045 0x000eddf8 0x1800eebf8 16   17   .rdata  ascii   CALG_SSL2_MASTER
+1046 0x000ede10 0x1800eec10 16   17   .rdata  ascii   CALG_TLS1_MASTER
+1047 0x000ede28 0x1800eec28 8    9    .rdata  ascii   CALG_RC5
+1048 0x000ede38 0x1800eec38 9    10   .rdata  ascii   CALG_HMAC
+1049 0x000ede48 0x1800eec48 12   13   .rdata  ascii   CALG_TLS1PRF
+1050 0x000ede58 0x1800eec58 21   22   .rdata  ascii   CALG_HASH_REPLACE_OWF
+1051 0x000ede70 0x1800eec70 12   13   .rdata  ascii   CALG_AES_128
+1052 0x000ede80 0x1800eec80 12   13   .rdata  ascii   CALG_AES_192
+1053 0x000ede90 0x1800eec90 12   13   .rdata  ascii   CALG_AES_256
+1054 0x000edea0 0x1800eeca0 8    9    .rdata  ascii   CALG_AES
+1055 0x000edeb0 0x1800eecb0 12   13   .rdata  ascii   CALG_SHA_256
+1056 0x000edec0 0x1800eecc0 12   13   .rdata  ascii   CALG_SHA_384
+1057 0x000eded0 0x1800eecd0 12   13   .rdata  ascii   CALG_SHA_512
+1058 0x000edee0 0x1800eece0 9    10   .rdata  ascii   CALG_ECDH
+1059 0x000edef0 0x1800eecf0 10   11   .rdata  ascii   CALG_ECMQV
+1060 0x000edf00 0x1800eed00 10   11   .rdata  ascii   CALG_ECDSA
+1061 0x000edf10 0x1800eed10 11   12   .rdata  ascii   CurrentUser
+1062 0x000edf20 0x1800eed20 12   13   .rdata  ascii   LocalMachine
+1063 0x000edf30 0x1800eed30 14   15   .rdata  ascii   CurrentService
+1064 0x000edf40 0x1800eed40 8    9    .rdata  ascii   Services
+1065 0x000edf4c 0x1800eed4c 5    6    .rdata  ascii   Users
+1066 0x000edf58 0x1800eed58 22   23   .rdata  ascii   CurrentUserGroupPolicy
+1067 0x000edf70 0x1800eed70 23   24   .rdata  ascii   LocalMachineGroupPolicy
+1068 0x000edf88 0x1800eed88 22   23   .rdata  ascii   LocalMachineEnterprise
+1069 0x000edfa0 0x1800eeda0 117  118  .rdata  ascii   schannel: Windows version is old and may not be able to connect to some servers due to lack of SNI, algorithms, etc.\n
+1070 0x000ee020 0x1800eee20 100  101  .rdata  ascii   schannel: this version of Windows is too old to support certificate verification via CA bundle file.
+1071 0x000ee088 0x1800eee88 52   53   .rdata  ascii   Unrecognized parameter passed via CURLOPT_SSLVERSION
+1072 0x000ee0c0 0x1800eeec0 51   52   .rdata  ascii   Unable to set ciphers to passed via SSL_CONN_CONFIG
+1073 0x000ee0f8 0x1800eeef8 59   60   .rdata  ascii   schannel: Failed to get certificate location or file for %s
+1074 0x000ee138 0x1800eef38 13   14   .rdata  ascii   (memory blob)
+1075 0x000ee148 0x1800eef48 56   57   .rdata  ascii   schannel: certificate format compatibility error  for %s
+1076 0x000ee188 0x1800eef88 37   38   .rdata  ascii   schannel: Failed to read cert file %s
+1077 0x000ee1b0 0x1800eefb0 56   57   .rdata  ascii   schannel: Failed to import cert file %s, password is bad
+1078 0x000ee1f0 0x1800eeff0 59   60   .rdata  ascii   schannel: Failed to import cert file %s, last error is 0x%x
+1079 0x000ee230 0x1800ef030 68   69   .rdata  ascii   schannel: Failed to get certificate from file %s, last error is 0x%x
+1080 0x000ee278 0x1800ef078 61   62   .rdata  ascii   schannel: Failed to open cert store %x %s, last error is 0x%x
+1081 0x000ee2b8 0x1800ef0b8 35   36   .rdata  ascii   schannel: unable to allocate memory
+1082 0x000ee2e0 0x1800ef0e0 44   45   .rdata  ascii   Microsoft Unified Security Protocol Provider
+1083 0x000ee310 0x1800ef110 45   46   .rdata  ascii   schannel: AcquireCredentialsHandle failed: %s
+1084 0x000ee340 0x1800ef140 56   57   .rdata  ascii   schannel: using IP address, SNI is not supported by OS.\n
+1085 0x000ee380 0x1800ef180 54   55   .rdata  ascii   schannel: initial InitializeSecurityContext failed: %s
+1086 0x000ee3b8 0x1800ef1b8 45   46   .rdata  ascii   schannel: SNI or certificate check failed: %s
+1087 0x000ee3f0 0x1800ef1f0 70   71   .rdata  ascii   schannel: failed to send initial handshake data: sent %zd of %lu bytes
+1088 0x000ee438 0x1800ef238 38   39   .rdata  ascii   schannel: unable to re-allocate memory
+1089 0x000ee460 0x1800ef260 64   65   .rdata  ascii   schannel: failed to receive handshake, SSL/TLS connection failed
+1090 0x000ee4b0 0x1800ef2b0 67   68   .rdata  ascii   schannel: failed to send next handshake data: sent %zd of %lu bytes
+1091 0x000ee4f8 0x1800ef2f8 51   52   .rdata  ascii   schannel: next InitializeSecurityContext failed: %s
+1092 0x000ee530 0x1800ef330 12   13   .rdata  ascii   schannel: %s
+1093 0x000ee540 0x1800ef340 49   50   .rdata  ascii   SSL: public key does not match pinned public key!
+1094 0x000ee578 0x1800ef378 44   45   .rdata  ascii   schannel: failed to setup sequence detection
+1095 0x000ee5a8 0x1800ef3a8 42   43   .rdata  ascii   schannel: failed to setup replay detection
+1096 0x000ee5d8 0x1800ef3d8 41   42   .rdata  ascii   schannel: failed to setup confidentiality
+1097 0x000ee608 0x1800ef408 43   44   .rdata  ascii   schannel: failed to setup memory allocation
+1098 0x000ee638 0x1800ef438 44   45   .rdata  ascii   schannel: failed to setup stream orientation
+1099 0x000ee668 0x1800ef468 43   44   .rdata  ascii   schannel: failed to store credential handle
+1100 0x000ee698 0x1800ef498 48   49   .rdata  ascii   schannel: failed to retrieve remote cert context
+1101 0x000ee6d0 0x1800ef4d0 26   27   .rdata  ascii   SSL/TLS connection timeout
+1102 0x000ee6f0 0x1800ef4f0 40   41   .rdata  ascii   select/poll on SSL/TLS socket, errno: %d
+1103 0x000ee720 0x1800ef520 50   51   .rdata  ascii   schannel: timed out sending data (bytes sent: %zd)
+1104 0x000ee758 0x1800ef558 36   37   .rdata  ascii   select/poll on SSL socket, errno: %d
+1105 0x000ee780 0x1800ef580 53   54   .rdata  ascii   schannel: enough decrypted data is already available\n
+1106 0x000ee7b8 0x1800ef5b8 58   59   .rdata  ascii   schannel: an unrecoverable error occurred in a prior call\n
+1107 0x000ee7f8 0x1800ef5f8 52   53   .rdata  ascii   schannel: server indicated shutdown in a prior call\n
+1108 0x000ee830 0x1800ef630 52   53   .rdata  ascii   schannel: Curl_read_plain returned CURLE_RECV_ERROR\n
+1109 0x000ee868 0x1800ef668 44   45   .rdata  ascii   schannel: Curl_read_plain returned error %d\n
+1110 0x000ee898 0x1800ef698 46   47   .rdata  ascii   schannel: remote party requests renegotiation\n
+1111 0x000ee8c8 0x1800ef6c8 49   50   .rdata  ascii   schannel: can't renogotiate, an error is pending\n
+1112 0x000ee900 0x1800ef700 54   55   .rdata  ascii   schannel: can't renogotiate, encrypted data available\n
+1113 0x000ee938 0x1800ef738 43   44   .rdata  ascii   schannel: renegotiating SSL/TLS connection\n
+1114 0x000ee968 0x1800ef768 31   32   .rdata  ascii   schannel: renegotiation failed\n
+1115 0x000ee988 0x1800ef788 42   43   .rdata  ascii   schannel: SSL/TLS connection renegotiated\n
+1116 0x000ee9b8 0x1800ef7b8 39   40   .rdata  ascii   schannel: server closed the connection\n
+1117 0x000ee9e0 0x1800ef7e0 49   50   .rdata  ascii   schannel: failed to decrypt data, need more data\n
+1118 0x000eea18 0x1800ef818 46   47   .rdata  ascii   schannel: failed to read data from server: %s\n
+1119 0x000eea48 0x1800ef848 56   57   .rdata  ascii   schannel: server closed abruptly (missing close_notify)\n
+1120 0x000eea88 0x1800ef888 60   61   .rdata  ascii   schannel: shutting down SSL/TLS connection with %s port %hu\n
+1121 0x000eeac8 0x1800ef8c8 39   40   .rdata  ascii   schannel: ApplyControlToken failure: %s
+1122 0x000eeaf0 0x1800ef8f0 60   61   .rdata  ascii   schannel: failed to send close msg: %s (bytes written: %zd)\n
+1123 0x000eeb30 0x1800ef930 8    9    .rdata  ascii   Schannel
+1124 0x000eeb40 0x1800ef940 55   56   .rdata  ascii   schannel: Failed to read remote certificate context: %s
+1125 0x000eeb78 0x1800ef978 57   58   .rdata  ascii   SSL: failed retrieving public key from server certificate
+1126 0x000eebb8 0x1800ef9b8 8    9    .rdata  ascii   schannel
+1127 0x000eec10 0x1800efa10 64   65   .rdata  ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+1128 0x000eec60 0x1800efa60 64   65   .rdata  ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
+1129 0x000eeca4 0x1800efaa4 6    7    .rdata  ascii   %c%c==
+1130 0x000eecb0 0x1800efab0 7    8    .rdata  ascii   %c%c%c=
+1131 0x000eecb8 0x1800efab8 8    9    .rdata  ascii   %c%c%c%c
+1132 0x000eecce 0x1800eface 7    8    .rdata  ascii   \a\b\t\n\v\f\r
+1133 0x000eecf0 0x1800efaf0 6    7    .rdata  ascii   %%%02x
+1134 0x000eecf8 0x1800efaf8 35   36   .rdata  ascii   [%*45[0123456789abcdefABCDEF:.]%c%n
+1135 0x000eed20 0x1800efb20 10   11   .rdata  ascii   %*[^]]%c%n
+1136 0x000eed30 0x1800efb30 24   25   .rdata  ascii   0123456789abcdefABCDEF:.
+1137 0x000eed50 0x1800efb50 10   11   .rdata  ascii   localhost/
+1138 0x000eed60 0x1800efb60 10   11   .rdata  ascii   127.0.0.1/
+1139 0x000eed6c 0x1800efb6c 4    5    .rdata  ascii   ftp.
+1140 0x000eed74 0x1800efb74 5    6    .rdata  ascii   dict.
+1141 0x000eed7c 0x1800efb7c 4    5    .rdata  ascii   dict
+1142 0x000eed84 0x1800efb84 5    6    .rdata  ascii   ldap.
+1143 0x000eed8c 0x1800efb8c 4    5    .rdata  ascii   ldap
+1144 0x000eed94 0x1800efb94 5    6    .rdata  ascii   imap.
+1145 0x000eed9c 0x1800efb9c 4    5    .rdata  ascii   imap
+1146 0x000eeda4 0x1800efba4 5    6    .rdata  ascii   smtp.
+1147 0x000eedac 0x1800efbac 4    5    .rdata  ascii   smtp
+1148 0x000eedb4 0x1800efbb4 5    6    .rdata  ascii   pop3.
+1149 0x000eedbc 0x1800efbbc 4    5    .rdata  ascii   pop3
+1150 0x000eedc8 0x1800efbc8 13   14   .rdata  ascii   file://%s%s%s
+1151 0x000eedd8 0x1800efbd8 7    8    .rdata  ascii   %%25%s]
+1152 0x000eedf0 0x1800efbf0 35   36   .rdata  ascii   %s://%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s
+1153 0x000eee18 0x1800efc18 7    8    .rdata  ascii   machine
+1154 0x000eee20 0x1800efc20 5    6    .rdata  ascii   login
+1155 0x000eee28 0x1800efc28 8    9    .rdata  ascii   password
+1156 0x000eee34 0x1800efc34 4    5    .rdata  ascii   HOME
+1157 0x000eee40 0x1800efc40 10   11   .rdata  ascii   %s%s.netrc
+1158 0x000eee50 0x1800efc50 10   11   .rdata  ascii   %s%s_netrc
+1159 0x000eee60 0x1800efc60 25   26   .rdata  ascii   Negotiate auth restarted\n
+1160 0x000eee80 0x1800efc80 77   78   .rdata  ascii   Curl_output_negotiate, no persistent authentication: cleanup existing context
+1161 0x000eeed0 0x1800efcd0 31   32   .rdata  ascii   %sAuthorization: Negotiate %s\r\n
+1162 0x000eeef0 0x1800efcf0 20   21   .rdata  ascii   NTLM auth restarted\n
+1163 0x000eef08 0x1800efd08 24   25   .rdata  ascii   NTLM handshake rejected\n
+1164 0x000eef28 0x1800efd28 40   41   .rdata  ascii   NTLM handshake failure (internal error)\n
+1165 0x000eef58 0x1800efd58 26   27   .rdata  ascii   %sAuthorization: NTLM %s\r\n
+1166 0x000eef78 0x1800efd78 8    9    .rdata  ascii   No error
+1167 0x000eef88 0x1800efd88 20   21   .rdata  ascii   Unsupported protocol
+1168 0x000eefa0 0x1800efda0 21   22   .rdata  ascii   Failed initialization
+1169 0x000eefb8 0x1800efdb8 43   44   .rdata  ascii   URL using bad/illegal format or missing URL
+1170 0x000eeff0 0x1800efdf0 108  109  .rdata  ascii   A requested feature, protocol or option was not found built-in in this libcurl due to a build-time decision.
+1171 0x000ef060 0x1800efe60 27   28   .rdata  ascii   Couldn't resolve proxy name
+1172 0x000ef080 0x1800efe80 26   27   .rdata  ascii   Couldn't resolve host name
+1173 0x000ef0a0 0x1800efea0 26   27   .rdata  ascii   Couldn't connect to server
+1174 0x000ef0c0 0x1800efec0 18   19   .rdata  ascii   Weird server reply
+1175 0x000ef0d8 0x1800efed8 32   33   .rdata  ascii   Access denied to remote resource
+1176 0x000ef100 0x1800eff00 46   47   .rdata  ascii   FTP: The server failed to connect to data port
+1177 0x000ef130 0x1800eff30 43   44   .rdata  ascii   FTP: Accepting server connect has timed out
+1178 0x000ef160 0x1800eff60 48   49   .rdata  ascii   FTP: The server did not accept the PRET command.
+1179 0x000ef198 0x1800eff98 23   24   .rdata  ascii   FTP: unknown PASS reply
+1180 0x000ef1b0 0x1800effb0 23   24   .rdata  ascii   FTP: unknown PASV reply
+1181 0x000ef1c8 0x1800effc8 32   33   .rdata  ascii   FTP: unknown 227 response format
+1182 0x000ef1f0 0x1800efff0 51   52   .rdata  ascii   FTP: can't figure out the host in the PASV response
+1183 0x000ef228 0x1800f0028 32   33   .rdata  ascii   Error in the HTTP2 framing layer
+1184 0x000ef250 0x1800f0050 27   28   .rdata  ascii   FTP: couldn't set file type
+1185 0x000ef270 0x1800f0070 26   27   .rdata  ascii   Transferred a partial file
+1186 0x000ef290 0x1800f0090 55   56   .rdata  ascii   FTP: couldn't retrieve (RETR failed) the specified file
+1187 0x000ef2c8 0x1800f00c8 28   29   .rdata  ascii   Quote command returned error
+1188 0x000ef2e8 0x1800f00e8 29   30   .rdata  ascii   HTTP response code said error
+1189 0x000ef308 0x1800f0108 48   49   .rdata  ascii   Failed writing received data to disk/application
+1190 0x000ef340 0x1800f0140 43   44   .rdata  ascii   Upload failed (at start/before it took off)
+1191 0x000ef370 0x1800f0170 52   53   .rdata  ascii   Failed to open/read local data from file/application
+1192 0x000ef3a8 0x1800f01a8 13   14   .rdata  ascii   Out of memory
+1193 0x000ef3b8 0x1800f01b8 19   20   .rdata  ascii   Timeout was reached
+1194 0x000ef3d0 0x1800f01d0 24   25   .rdata  ascii   FTP: command PORT failed
+1195 0x000ef3f0 0x1800f01f0 24   25   .rdata  ascii   FTP: command REST failed
+1196 0x000ef410 0x1800f0210 47   48   .rdata  ascii   Requested range was not delivered by the server
+1197 0x000ef440 0x1800f0240 36   37   .rdata  ascii   Internal problem setting up the POST
+1198 0x000ef468 0x1800f0268 17   18   .rdata  ascii   SSL connect error
+1199 0x000ef480 0x1800f0280 24   25   .rdata  ascii   Couldn't resume download
+1200 0x000ef4a0 0x1800f02a0 28   29   .rdata  ascii   Couldn't read a file:// file
+1201 0x000ef4c0 0x1800f02c0 17   18   .rdata  ascii   LDAP: cannot bind
+1202 0x000ef4d8 0x1800f02d8 19   20   .rdata  ascii   LDAP: search failed
+1203 0x000ef4f0 0x1800f02f0 48   49   .rdata  ascii   A required function in the library was not found
+1204 0x000ef528 0x1800f0328 48   49   .rdata  ascii   Operation was aborted by an application callback
+1205 0x000ef560 0x1800f0360 43   44   .rdata  ascii   A libcurl function was given a bad argument
+1206 0x000ef590 0x1800f0390 35   36   .rdata  ascii   Failed binding local connection end
+1207 0x000ef5b8 0x1800f03b8 38   39   .rdata  ascii   Number of redirects hit maximum amount
+1208 0x000ef5e0 0x1800f03e0 42   43   .rdata  ascii   An unknown option was passed in to libcurl
+1209 0x000ef610 0x1800f0410 23   24   .rdata  ascii   Malformed telnet option
+1210 0x000ef628 0x1800f0428 45   46   .rdata  ascii   Server returned nothing (no headers, no data)
+1211 0x000ef658 0x1800f0458 27   28   .rdata  ascii   SSL crypto engine not found
+1212 0x000ef678 0x1800f0478 40   41   .rdata  ascii   Can not set SSL crypto engine as default
+1213 0x000ef6a8 0x1800f04a8 38   39   .rdata  ascii   Failed to initialise SSL crypto engine
+1214 0x000ef6d0 0x1800f04d0 31   32   .rdata  ascii   Failed sending data to the peer
+1215 0x000ef6f0 0x1800f04f0 41   42   .rdata  ascii   Failure when receiving data from the peer
+1216 0x000ef720 0x1800f0520 38   39   .rdata  ascii   Problem with the local SSL certificate
+1217 0x000ef748 0x1800f0548 33   34   .rdata  ascii   Couldn't use specified SSL cipher
+1218 0x000ef770 0x1800f0570 49   50   .rdata  ascii   SSL peer certificate or SSH remote key was not OK
+1219 0x000ef7a8 0x1800f05a8 51   52   .rdata  ascii   Problem with the SSL CA cert (path? access rights?)
+1220 0x000ef7e0 0x1800f05e0 53   54   .rdata  ascii   Unrecognized or bad HTTP Content or Transfer-Encoding
+1221 0x000ef818 0x1800f0618 16   17   .rdata  ascii   Invalid LDAP URL
+1222 0x000ef830 0x1800f0630 26   27   .rdata  ascii   Requested SSL level failed
+1223 0x000ef850 0x1800f0650 38   39   .rdata  ascii   Failed to shut down the SSL connection
+1224 0x000ef878 0x1800f0678 55   56   .rdata  ascii   Failed to load CRL file (path? access rights?, format?)
+1225 0x000ef8b0 0x1800f06b0 44   45   .rdata  ascii   Issuer check against peer certificate failed
+1226 0x000ef8e0 0x1800f06e0 53   54   .rdata  ascii   Send failed since rewinding of the data stream failed
+1227 0x000ef918 0x1800f0718 12   13   .rdata  ascii   Login denied
+1228 0x000ef928 0x1800f0728 20   21   .rdata  ascii   TFTP: File Not Found
+1229 0x000ef940 0x1800f0740 22   23   .rdata  ascii   TFTP: Access Violation
+1230 0x000ef958 0x1800f0758 32   33   .rdata  ascii   Disk full or allocation exceeded
+1231 0x000ef980 0x1800f0780 23   24   .rdata  ascii   TFTP: Illegal operation
+1232 0x000ef998 0x1800f0798 25   26   .rdata  ascii   TFTP: Unknown transfer ID
+1233 0x000ef9b8 0x1800f07b8 26   27   .rdata  ascii   Remote file already exists
+1234 0x000ef9d8 0x1800f07d8 18   19   .rdata  ascii   TFTP: No such user
+1235 0x000ef9f0 0x1800f07f0 17   18   .rdata  ascii   Conversion failed
+1236 0x000efa08 0x1800f0808 51   52   .rdata  ascii   Caller must register CURLOPT_CONV_ callback options
+1237 0x000efa40 0x1800f0840 21   22   .rdata  ascii   Remote file not found
+1238 0x000efa58 0x1800f0858 22   23   .rdata  ascii   Error in the SSH layer
+1239 0x000efa70 0x1800f0870 30   31   .rdata  ascii   Socket not ready for send/recv
+1240 0x000efa90 0x1800f0890 34   35   .rdata  ascii   RTSP CSeq mismatch or invalid CSeq
+1241 0x000efab8 0x1800f08b8 18   19   .rdata  ascii   RTSP session error
+1242 0x000efad0 0x1800f08d0 29   30   .rdata  ascii   Unable to parse FTP file list
+1243 0x000efaf0 0x1800f08f0 21   22   .rdata  ascii   Chunk callback failed
+1244 0x000efb08 0x1800f0908 35   36   .rdata  ascii   The max connection limit is reached
+1245 0x000efb30 0x1800f0930 47   48   .rdata  ascii   SSL public key does not match pinned public key
+1246 0x000efb60 0x1800f0960 49   50   .rdata  ascii   SSL server certificate status verification FAILED
+1247 0x000efb98 0x1800f0998 40   41   .rdata  ascii   Stream error in the HTTP/2 framing layer
+1248 0x000efbc8 0x1800f09c8 40   41   .rdata  ascii   API function called from within callback
+1249 0x000efbf8 0x1800f09f8 44   45   .rdata  ascii   An authentication function returned an error
+1250 0x000efc28 0x1800f0a28 12   13   .rdata  ascii   HTTP/3 error
+1251 0x000efc38 0x1800f0a38 21   22   .rdata  ascii   QUIC connection error
+1252 0x000efc50 0x1800f0a50 21   22   .rdata  ascii   proxy handshake error
+1253 0x000efc68 0x1800f0a68 13   14   .rdata  ascii   Unknown error
+1254 0x000efc78 0x1800f0a78 16   17   .rdata  ascii   Call interrupted
+1255 0x000efc90 0x1800f0a90 8    9    .rdata  ascii   Bad file
+1256 0x000efca0 0x1800f0aa0 10   11   .rdata  ascii   Bad access
+1257 0x000efcb0 0x1800f0ab0 12   13   .rdata  ascii   Bad argument
+1258 0x000efcc0 0x1800f0ac0 17   18   .rdata  ascii   Invalid arguments
+1259 0x000efcd8 0x1800f0ad8 23   24   .rdata  ascii   Out of file descriptors
+1260 0x000efcf0 0x1800f0af0 16   17   .rdata  ascii   Call would block
+1261 0x000efd08 0x1800f0b08 25   26   .rdata  ascii   Blocking call in progress
+1262 0x000efd28 0x1800f0b28 26   27   .rdata  ascii   Descriptor is not a socket
+1263 0x000efd48 0x1800f0b48 24   25   .rdata  ascii   Need destination address
+1264 0x000efd68 0x1800f0b68 16   17   .rdata  ascii   Bad message size
+1265 0x000efd80 0x1800f0b80 12   13   .rdata  ascii   Bad protocol
+1266 0x000efd90 0x1800f0b90 30   31   .rdata  ascii   Protocol option is unsupported
+1267 0x000efdb0 0x1800f0bb0 23   24   .rdata  ascii   Protocol is unsupported
+1268 0x000efdc8 0x1800f0bc8 21   22   .rdata  ascii   Socket is unsupported
+1269 0x000efde0 0x1800f0be0 23   24   .rdata  ascii   Operation not supported
+1270 0x000efdf8 0x1800f0bf8 28   29   .rdata  ascii   Address family not supported
+1271 0x000efe18 0x1800f0c18 29   30   .rdata  ascii   Protocol family not supported
+1272 0x000efe38 0x1800f0c38 22   23   .rdata  ascii   Address already in use
+1273 0x000efe50 0x1800f0c50 21   22   .rdata  ascii   Address not available
+1274 0x000efe68 0x1800f0c68 12   13   .rdata  ascii   Network down
+1275 0x000efe78 0x1800f0c78 19   20   .rdata  ascii   Network unreachable
+1276 0x000efe90 0x1800f0c90 22   23   .rdata  ascii   Network has been reset
+1277 0x000efea8 0x1800f0ca8 22   23   .rdata  ascii   Connection was aborted
+1278 0x000efec0 0x1800f0cc0 20   21   .rdata  ascii   Connection was reset
+1279 0x000efed8 0x1800f0cd8 15   16   .rdata  ascii   No buffer space
+1280 0x000efee8 0x1800f0ce8 27   28   .rdata  ascii   Socket is already connected
+1281 0x000eff08 0x1800f0d08 23   24   .rdata  ascii   Socket is not connected
+1282 0x000eff20 0x1800f0d20 25   26   .rdata  ascii   Socket has been shut down
+1283 0x000eff40 0x1800f0d40 19   20   .rdata  ascii   Too many references
+1284 0x000eff58 0x1800f0d58 9    10   .rdata  ascii   Timed out
+1285 0x000eff68 0x1800f0d68 18   19   .rdata  ascii   Connection refused
+1286 0x000eff7c 0x1800f0d7c 6    7    .rdata  ascii   Loop??
+1287 0x000eff88 0x1800f0d88 13   14   .rdata  ascii   Name too long
+1288 0x000eff98 0x1800f0d98 9    10   .rdata  ascii   Host down
+1289 0x000effa8 0x1800f0da8 16   17   .rdata  ascii   Host unreachable
+1290 0x000effc0 0x1800f0dc0 9    10   .rdata  ascii   Not empty
+1291 0x000effd0 0x1800f0dd0 21   22   .rdata  ascii   Process limit reached
+1292 0x000effe8 0x1800f0de8 14   15   .rdata  ascii   Too many users
+1293 0x000efff8 0x1800f0df8 9    10   .rdata  ascii   Bad quota
+1294 0x000f0008 0x1800f0e08 18   19   .rdata  ascii   Something is stale
+1295 0x000f0020 0x1800f0e20 12   13   .rdata  ascii   Remote error
+1296 0x000f0030 0x1800f0e30 12   13   .rdata  ascii   Disconnected
+1297 0x000f0040 0x1800f0e40 28   29   .rdata  ascii   Winsock library is not ready
+1298 0x000f0060 0x1800f0e60 31   32   .rdata  ascii   Winsock library not initialised
+1299 0x000f0080 0x1800f0e80 29   30   .rdata  ascii   Winsock version not supported
+1300 0x000f00a0 0x1800f0ea0 14   15   .rdata  ascii   Host not found
+1301 0x000f00b0 0x1800f0eb0 25   26   .rdata  ascii   Host not found, try again
+1302 0x000f00d0 0x1800f0ed0 41   42   .rdata  ascii   Unrecoverable error in call to nameserver
+1303 0x000f0100 0x1800f0f00 32   33   .rdata  ascii   No data record of requested type
+1304 0x000f0128 0x1800f0f28 22   23   .rdata  ascii   Unknown error %d (%#x)
+1305 0x000f0140 0x1800f0f40 25   26   .rdata  ascii   Unknown error %u (0x%08X)
+1306 0x000f0160 0x1800f0f60 15   16   .rdata  ascii   CRYPT_E_REVOKED
+1307 0x000f0170 0x1800f0f70 24   25   .rdata  ascii   SEC_E_ALGORITHM_MISMATCH
+1308 0x000f0190 0x1800f0f90 18   19   .rdata  ascii   SEC_E_BAD_BINDINGS
+1309 0x000f01a8 0x1800f0fa8 15   16   .rdata  ascii   SEC_E_BAD_PKGID
+1310 0x000f01b8 0x1800f0fb8 22   23   .rdata  ascii   SEC_E_BUFFER_TOO_SMALL
+1311 0x000f01d0 0x1800f0fd0 20   21   .rdata  ascii   SEC_E_CANNOT_INSTALL
+1312 0x000f01e8 0x1800f0fe8 17   18   .rdata  ascii   SEC_E_CANNOT_PACK
+1313 0x000f0200 0x1800f1000 18   19   .rdata  ascii   SEC_E_CERT_EXPIRED
+1314 0x000f0218 0x1800f1018 18   19   .rdata  ascii   SEC_E_CERT_UNKNOWN
+1315 0x000f0230 0x1800f1030 22   23   .rdata  ascii   SEC_E_CERT_WRONG_USAGE
+1316 0x000f0248 0x1800f1048 21   22   .rdata  ascii   SEC_E_CONTEXT_EXPIRED
+1317 0x000f0260 0x1800f1060 35   36   .rdata  ascii   SEC_E_CROSSREALM_DELEGATION_FAILURE
+1318 0x000f0288 0x1800f1088 27   28   .rdata  ascii   SEC_E_CRYPTO_SYSTEM_INVALID
+1319 0x000f02a8 0x1800f10a8 21   22   .rdata  ascii   SEC_E_DECRYPT_FAILURE
+1320 0x000f02c0 0x1800f10c0 23   24   .rdata  ascii   SEC_E_DELEGATION_POLICY
+1321 0x000f02d8 0x1800f10d8 25   26   .rdata  ascii   SEC_E_DELEGATION_REQUIRED
+1322 0x000f02f8 0x1800f10f8 24   25   .rdata  ascii   SEC_E_DOWNGRADE_DETECTED
+1323 0x000f0318 0x1800f1118 21   22   .rdata  ascii   SEC_E_ENCRYPT_FAILURE
+1324 0x000f0330 0x1800f1130 21   22   .rdata  ascii   SEC_E_ILLEGAL_MESSAGE
+1325 0x000f0348 0x1800f1148 28   29   .rdata  ascii   SEC_E_INCOMPLETE_CREDENTIALS
+1326 0x000f0368 0x1800f1168 24   25   .rdata  ascii   SEC_E_INCOMPLETE_MESSAGE
+1327 0x000f0388 0x1800f1188 25   26   .rdata  ascii   SEC_E_INSUFFICIENT_MEMORY
+1328 0x000f03a8 0x1800f11a8 20   21   .rdata  ascii   SEC_E_INTERNAL_ERROR
+1329 0x000f03c0 0x1800f11c0 20   21   .rdata  ascii   SEC_E_INVALID_HANDLE
+1330 0x000f03d8 0x1800f11d8 23   24   .rdata  ascii   SEC_E_INVALID_PARAMETER
+1331 0x000f03f0 0x1800f11f0 19   20   .rdata  ascii   SEC_E_INVALID_TOKEN
+1332 0x000f0408 0x1800f1208 26   27   .rdata  ascii   SEC_E_ISSUING_CA_UNTRUSTED
+1333 0x000f0428 0x1800f1228 30   31   .rdata  ascii   SEC_E_ISSUING_CA_UNTRUSTED_KDC
+1334 0x000f0448 0x1800f1248 22   23   .rdata  ascii   SEC_E_KDC_CERT_EXPIRED
+1335 0x000f0460 0x1800f1260 22   23   .rdata  ascii   SEC_E_KDC_CERT_REVOKED
+1336 0x000f0478 0x1800f1278 25   26   .rdata  ascii   SEC_E_KDC_INVALID_REQUEST
+1337 0x000f0498 0x1800f1298 25   26   .rdata  ascii   SEC_E_KDC_UNABLE_TO_REFER
+1338 0x000f04b8 0x1800f12b8 23   24   .rdata  ascii   SEC_E_KDC_UNKNOWN_ETYPE
+1339 0x000f04d0 0x1800f12d0 18   19   .rdata  ascii   SEC_E_LOGON_DENIED
+1340 0x000f04e8 0x1800f12e8 28   29   .rdata  ascii   SEC_E_MAX_REFERRALS_EXCEEDED
+1341 0x000f0508 0x1800f1308 21   22   .rdata  ascii   SEC_E_MESSAGE_ALTERED
+1342 0x000f0520 0x1800f1320 23   24   .rdata  ascii   SEC_E_MULTIPLE_ACCOUNTS
+1343 0x000f0538 0x1800f1338 17   18   .rdata  ascii   SEC_E_MUST_BE_KDC
+1344 0x000f0550 0x1800f1350 15   16   .rdata  ascii   SEC_E_NOT_OWNER
+1345 0x000f0560 0x1800f1360 33   34   .rdata  ascii   SEC_E_NO_AUTHENTICATING_AUTHORITY
+1346 0x000f0588 0x1800f1388 20   21   .rdata  ascii   SEC_E_NO_CREDENTIALS
+1347 0x000f05a0 0x1800f13a0 22   23   .rdata  ascii   SEC_E_NO_IMPERSONATION
+1348 0x000f05b8 0x1800f13b8 21   22   .rdata  ascii   SEC_E_NO_IP_ADDRESSES
+1349 0x000f05d0 0x1800f13d0 17   18   .rdata  ascii   SEC_E_NO_KERB_KEY
+1350 0x000f05e8 0x1800f13e8 16   17   .rdata  ascii   SEC_E_NO_PA_DATA
+1351 0x000f0600 0x1800f1400 25   26   .rdata  ascii   SEC_E_NO_S4U_PROT_SUPPORT
+1352 0x000f0620 0x1800f1420 18   19   .rdata  ascii   SEC_E_NO_TGT_REPLY
+1353 0x000f0638 0x1800f1438 21   22   .rdata  ascii   SEC_E_OUT_OF_SEQUENCE
+1354 0x000f0650 0x1800f1450 27   28   .rdata  ascii   SEC_E_PKINIT_CLIENT_FAILURE
+1355 0x000f0670 0x1800f1470 26   27   .rdata  ascii   SEC_E_PKINIT_NAME_MISMATCH
+1356 0x000f0690 0x1800f1490 22   23   .rdata  ascii   SEC_E_POLICY_NLTM_ONLY
+1357 0x000f06a8 0x1800f14a8 23   24   .rdata  ascii   SEC_E_QOP_NOT_SUPPORTED
+1358 0x000f06c0 0x1800f14c0 26   27   .rdata  ascii   SEC_E_REVOCATION_OFFLINE_C
+1359 0x000f06e0 0x1800f14e0 28   29   .rdata  ascii   SEC_E_REVOCATION_OFFLINE_KDC
+1360 0x000f0700 0x1800f1500 22   23   .rdata  ascii   SEC_E_SECPKG_NOT_FOUND
+1361 0x000f0718 0x1800f1518 25   26   .rdata  ascii   SEC_E_SECURITY_QOS_FAILED
+1362 0x000f0738 0x1800f1538 26   27   .rdata  ascii   SEC_E_SHUTDOWN_IN_PROGRESS
+1363 0x000f0758 0x1800f1558 28   29   .rdata  ascii   SEC_E_SMARTCARD_CERT_EXPIRED
+1364 0x000f0778 0x1800f1578 28   29   .rdata  ascii   SEC_E_SMARTCARD_CERT_REVOKED
+1365 0x000f0798 0x1800f1598 30   31   .rdata  ascii   SEC_E_SMARTCARD_LOGON_REQUIRED
+1366 0x000f07b8 0x1800f15b8 33   34   .rdata  ascii   SEC_E_STRONG_CRYPTO_NOT_SUPPORTED
+1367 0x000f07e0 0x1800f15e0 20   21   .rdata  ascii   SEC_E_TARGET_UNKNOWN
+1368 0x000f07f8 0x1800f15f8 15   16   .rdata  ascii   SEC_E_TIME_SKEW
+1369 0x000f0808 0x1800f1608 25   26   .rdata  ascii   SEC_E_TOO_MANY_PRINCIPALS
+1370 0x000f0828 0x1800f1628 32   33   .rdata  ascii   SEC_E_UNFINISHED_CONTEXT_DELETED
+1371 0x000f0850 0x1800f1650 25   26   .rdata  ascii   SEC_E_UNKNOWN_CREDENTIALS
+1372 0x000f0870 0x1800f1670 26   27   .rdata  ascii   SEC_E_UNSUPPORTED_FUNCTION
+1373 0x000f0890 0x1800f1690 25   26   .rdata  ascii   SEC_E_UNSUPPORTED_PREAUTH
+1374 0x000f08b0 0x1800f16b0 20   21   .rdata  ascii   SEC_E_UNTRUSTED_ROOT
+1375 0x000f08c8 0x1800f16c8 29   30   .rdata  ascii   SEC_E_WRONG_CREDENTIAL_HANDLE
+1376 0x000f08e8 0x1800f16e8 21   22   .rdata  ascii   SEC_E_WRONG_PRINCIPAL
+1377 0x000f0900 0x1800f1700 27   28   .rdata  ascii   SEC_I_COMPLETE_AND_CONTINUE
+1378 0x000f0920 0x1800f1720 21   22   .rdata  ascii   SEC_I_COMPLETE_NEEDED
+1379 0x000f0938 0x1800f1738 21   22   .rdata  ascii   SEC_I_CONTEXT_EXPIRED
+1380 0x000f0950 0x1800f1750 21   22   .rdata  ascii   SEC_I_CONTINUE_NEEDED
+1381 0x000f0968 0x1800f1768 28   29   .rdata  ascii   SEC_I_INCOMPLETE_CREDENTIALS
+1382 0x000f0988 0x1800f1788 17   18   .rdata  ascii   SEC_I_LOCAL_LOGON
+1383 0x000f09a0 0x1800f17a0 20   21   .rdata  ascii   SEC_I_NO_LSA_CONTEXT
+1384 0x000f09b8 0x1800f17b8 17   18   .rdata  ascii   SEC_I_RENEGOTIATE
+1385 0x000f09d0 0x1800f17d0 22   23   .rdata  ascii   SEC_I_SIGNATURE_NEEDED
+1386 0x000f09f0 0x1800f17f0 184  185  .rdata  ascii   SEC_E_ILLEGAL_MESSAGE (0x%08X) - This error usually occurs when a fatal SSL/TLS alert is received (e.g. handshake failed). More detail may be available in the Windows System event log.
+1387 0x000f0ab0 0x1800f18b0 11   12   .rdata  ascii   %s (0x%08X)
+1388 0x000f0ac0 0x1800f18c0 7    8    .rdata  ascii   %s - %s
+1389 0x000f0ac8 0x1800f18c8 11   12   .rdata  ascii   %d.%d.%d.%d
+1390 0x000f0ad8 0x1800f18d8 7    8    .rdata  ascii   WDigest
+1391 0x000f0ae0 0x1800f18e0 29   30   .rdata  ascii   SSPI: couldn't get auth info\n
+1392 0x000f0b00 0x1800f1900 5    6    .rdata  ascii   realm
+1393 0x000f0b08 0x1800f1908 5    6    .rdata  ascii   stale
+1394 0x000f0b10 0x1800f1910 49   50   .rdata  ascii   digest_sspi: MakeSignature failed, error 0x%08lx\n
+1395 0x000f0b48 0x1800f1948 12   13   .rdata  ascii   security.dll
+1396 0x000f0b58 0x1800f1958 11   12   .rdata  ascii   secur32.dll
+1397 0x000f0b68 0x1800f1968 22   23   .rdata  ascii   InitSecurityInterfaceA
+1398 0x000f0b88 0x1800f1988 27   28   .rdata  ascii   Too long hexadecimal number
+1399 0x000f0ba8 0x1800f19a8 39   40   .rdata  ascii   Illegal or missing hexadecimal sequence
+1400 0x000f0bd0 0x1800f19d0 24   25   .rdata  ascii   Malformed encoding found
+1401 0x000f0bf0 0x1800f19f0 26   27   .rdata  ascii   Bad content-encoding found
+1402 0x000f0c80 0x1800f1a80 9    10   .rdata  ascii   Bad label
+1403 0x000f0c90 0x1800f1a90 12   13   .rdata  ascii   Out of range
+1404 0x000f0ca0 0x1800f1aa0 10   11   .rdata  ascii   Label loop
+1405 0x000f0cb0 0x1800f1ab0 9    10   .rdata  ascii   Too small
+1406 0x000f0cc0 0x1800f1ac0 12   13   .rdata  ascii   RDATA length
+1407 0x000f0cd0 0x1800f1ad0 9    10   .rdata  ascii   Malformat
+1408 0x000f0ce0 0x1800f1ae0 9    10   .rdata  ascii   Bad RCODE
+1409 0x000f0cf0 0x1800f1af0 15   16   .rdata  ascii   Unexpected TYPE
+1410 0x000f0d00 0x1800f1b00 16   17   .rdata  ascii   Unexpected CLASS
+1411 0x000f0d18 0x1800f1b18 10   11   .rdata  ascii   No content
+1412 0x000f0d24 0x1800f1b24 6    7    .rdata  ascii   Bad ID
+1413 0x000f0d30 0x1800f1b30 14   15   .rdata  ascii   bad error code
+1414 0x000f0d40 0x1800f1b40 37   38   .rdata  ascii   a DOH request is completed, %u to go\n
+1415 0x000f0d68 0x1800f1b68 15   16   .rdata  ascii   DOH request %s\n
+1416 0x000f0d78 0x1800f1b78 33   34   .rdata  ascii   Failed to encode DOH packet [%d]\n
+1417 0x000f0da0 0x1800f1ba0 9    10   .rdata  ascii   %s?dns=%s
+1418 0x000f0db0 0x1800f1bb0 37   38   .rdata  ascii   Content-Type: application/dns-message
+1419 0x000f0dd8 0x1800f1bd8 16   17   .rdata  ascii   TTL: %u seconds\n
+1420 0x000f0df0 0x1800f1bf0 19   20   .rdata  ascii   DOH A: %u.%u.%u.%u\n
+1421 0x000f0e08 0x1800f1c08 10   11   .rdata  ascii   DOH AAAA:
+1422 0x000f0e18 0x1800f1c18 10   11   .rdata  ascii   %s%02x%02x
+1423 0x000f0e28 0x1800f1c28 10   11   .rdata  ascii   CNAME: %s\n
+1424 0x000f0e38 0x1800f1c38 4    5    .rdata  ascii   AAAA
+1425 0x000f0e40 0x1800f1c40 25   26   .rdata  ascii   Could not DOH-resolve: %s
+1426 0x000f0e60 0x1800f1c60 23   24   .rdata  ascii   DOH: %s type %s for %s\n
+1427 0x000f0e78 0x1800f1c78 18   19   .rdata  ascii   DOH Host name: %s\n
+1428 0x000f0e90 0x1800f1c90 46   47   .rdata  ascii   NTLM handshake failure (empty type-2 message)\n
+1429 0x000f0ec0 0x1800f1cc0 51   52   .rdata  ascii   NTLM handshake failure (type-3 message): Status=%x\n
+1430 0x000f0ef8 0x1800f1cf8 51   52   .rdata  ascii   SPNEGO handshake failure (empty challenge message)\n
+1431 0x000f0f30 0x1800f1d30 36   37   .rdata  ascii   InitializeSecurityContext failed: %s
+1432 0x000f0f58 0x1800f1d58 28   29   .rdata  ascii   CompleteAuthToken failed: %s
+1433 0x000f0f78 0x1800f1d78 25   26   .rdata  ascii   SSPI error: %s failed: %s
+1434 0x000f0f94 0x1800f1d94 4    5    .rdata  ascii   rcmd
+1435 0x000f0f9c 0x1800f1d9c 5    6    .rdata  ascii   %s/%s
+1436 0x000f0fa8 0x1800f1da8 8    9    .rdata  ascii   Kerberos
+1437 0x000f0fb8 0x1800f1db8 24   25   .rdata  ascii   AcquireCredentialsHandle
+1438 0x000f0fd8 0x1800f1dd8 30   31   .rdata  ascii   Failed to acquire credentials.
+1439 0x000f0ff8 0x1800f1df8 25   26   .rdata  ascii   InitializeSecurityContext
+1440 0x000f1018 0x1800f1e18 38   39   .rdata  ascii   Failed to initialise security context.
+1441 0x000f1040 0x1800f1e40 43   44   .rdata  ascii   Failed to send SSPI authentication request.
+1442 0x000f1070 0x1800f1e70 41   42   .rdata  ascii   Failed to send SSPI authentication token.
+1443 0x000f10a0 0x1800f1ea0 47   48   .rdata  ascii   Failed to receive SSPI authentication response.
+1444 0x000f10d0 0x1800f1ed0 47   48   .rdata  ascii   User was rejected by the SOCKS5 server (%u %u).
+1445 0x000f1100 0x1800f1f00 50   51   .rdata  ascii   Invalid SSPI authentication response type (%u %u).
+1446 0x000f1138 0x1800f1f38 44   45   .rdata  ascii   Failed to receive SSPI authentication token.
+1447 0x000f1168 0x1800f1f68 25   26   .rdata  ascii   QueryCredentialAttributes
+1448 0x000f1188 0x1800f1f88 30   31   .rdata  ascii   Failed to determine user name.
+1449 0x000f11a8 0x1800f1fa8 50   51   .rdata  ascii   SOCKS5 server authenticated user %s with GSS-API.\n
+1450 0x000f11e0 0x1800f1fe0 9    10   .rdata  ascii   integrity
+1451 0x000f11f0 0x1800f1ff0 15   16   .rdata  ascii   confidentiality
+1452 0x000f1200 0x1800f2000 51   52   .rdata  ascii   SOCKS5 server supports GSS-API %s data protection.\n
+1453 0x000f1238 0x1800f2038 22   23   .rdata  ascii   QueryContextAttributes
+1454 0x000f1250 0x1800f2050 44   45   .rdata  ascii   Failed to query security context attributes.
+1455 0x000f1280 0x1800f2080 14   15   .rdata  ascii   EncryptMessage
+1456 0x000f1290 0x1800f2090 39   40   .rdata  ascii   Failed to send SSPI encryption request.
+1457 0x000f12b8 0x1800f20b8 36   37   .rdata  ascii   Failed to send SSPI encryption type.
+1458 0x000f12e0 0x1800f20e0 43   44   .rdata  ascii   Failed to receive SSPI encryption response.
+1459 0x000f1310 0x1800f2110 46   47   .rdata  ascii   Invalid SSPI encryption response type (%u %u).
+1460 0x000f1340 0x1800f2140 39   40   .rdata  ascii   Failed to receive SSPI encryption type.
+1461 0x000f1368 0x1800f2168 14   15   .rdata  ascii   DecryptMessage
+1462 0x000f1378 0x1800f2178 46   47   .rdata  ascii   Invalid SSPI encryption response length (%lu).
+1463 0x000f13a8 0x1800f21a8 16   17   .rdata  ascii   out GSS-API data
+1464 0x000f13c0 0x1800f21c0 18   19   .rdata  ascii    GSS-API integrity
+1465 0x000f13d8 0x1800f21d8 24   25   .rdata  ascii    GSS-API confidentiality
+1466 0x000f13f8 0x1800f21f8 41   42   .rdata  ascii   SOCKS5 access with%s protection granted.\n
+1467 0x000f1428 0x1800f2228 48   49   .rdata  ascii   schannel: invalid path name for CA file '%s': %s
+1468 0x000f1460 0x1800f2260 41   42   .rdata  ascii   schannel: failed to open CA file '%s': %s
+1469 0x000f1490 0x1800f2290 54   55   .rdata  ascii   schannel: failed to determine size of CA file '%s': %s
+1470 0x000f14c8 0x1800f22c8 46   47   .rdata  ascii   schannel: CA file exceeds max size of %u bytes
+1471 0x000f14f8 0x1800f22f8 46   47   .rdata  ascii   schannel: failed to read from CA file '%s': %s
+1472 0x000f1528 0x1800f2328 27   28   .rdata  ascii   -----BEGIN CERTIFICATE-----
+1473 0x000f1548 0x1800f2348 26   27   .rdata  ascii   \n-----END CERTIFICATE-----
+1474 0x000f1568 0x1800f2368 49   50   .rdata  ascii   schannel: CA file '%s' is not correctly formatted
+1475 0x000f15a0 0x1800f23a0 61   62   .rdata  ascii   schannel: failed to extract certificate from CA file '%s': %s
+1476 0x000f15e0 0x1800f23e0 84   85   .rdata  ascii   schannel: unexpected content type '%d' when extracting certificate from CA file '%s'
+1477 0x000f1640 0x1800f2440 78   79   .rdata  ascii   schannel: failed to add certificate from CA file '%s' to certificate store: %s
+1478 0x000f1690 0x1800f2490 57   58   .rdata  ascii   schannel: did not add any certificates from CA file '%s'\n
+1479 0x000f16d0 0x1800f24d0 52   53   .rdata  ascii   schannel: added %d certificate(s) from CA file '%s'\n
+1480 0x000f1708 0x1800f2508 35   36   .rdata  ascii   schannel: Null certificate context.
+1481 0x000f1730 0x1800f2530 32   33   .rdata  ascii   schannel: Null certificate info.
+1482 0x000f1758 0x1800f2558 9    10   .rdata  ascii   2.5.29.17
+1483 0x000f1768 0x1800f2568 52   53   .rdata  ascii   schannel: CertFindExtension() returned no extension.
+1484 0x000f17a0 0x1800f25a0 71   72   .rdata  ascii   schannel: CryptDecodeObjectEx() returned no alternate name information.
+1485 0x000f17e8 0x1800f25e8 25   26   .rdata  ascii   schannel: Empty DNS name.
+1486 0x000f1808 0x1800f2608 51   52   .rdata  ascii   schannel: Not enough memory to list all host names.
+1487 0x000f1840 0x1800f2640 70   71   .rdata  ascii   schannel: CertGetNameString() returned no certificate name information
+1488 0x000f1890 0x1800f2690 86   87   .rdata  ascii   schannel: CertGetNameString() returned certificate name information of unexpected size
+1489 0x000f18f0 0x1800f26f0 75   76   .rdata  ascii   schannel: connection hostname (%s) validated against certificate name (%s)\n
+1490 0x000f1940 0x1800f2740 79   80   .rdata  ascii   schannel: connection hostname (%s) did not match against certificate name (%s)\n
+1491 0x000f1990 0x1800f2790 103  104  .rdata  ascii   schannel: CertGetNameString() failed to match connection hostname (%s) against server certificate names
+1492 0x000f19f8 0x1800f27f8 53   54   .rdata  ascii   schannel: server certificate name verification failed
+1493 0x000f1a30 0x1800f2830 48   49   .rdata  ascii   schannel: failed to create certificate store: %s
+1494 0x000f1a68 0x1800f2868 55   56   .rdata  ascii   schannel: failed to create certificate chain engine: %s
+1495 0x000f1aa0 0x1800f28a0 44   45   .rdata  ascii   schannel: CertGetCertificateChain failed: %s
+1496 0x000f1ad0 0x1800f28d0 67   68   .rdata  ascii   schannel: CertGetCertificateChain trust error CERT_TRUST_IS_REVOKED
+1497 0x000f1b20 0x1800f2920 73   74   .rdata  ascii   schannel: CertGetCertificateChain trust error CERT_TRUST_IS_PARTIAL_CHAIN
+1498 0x000f1b70 0x1800f2970 74   75   .rdata  ascii   schannel: CertGetCertificateChain trust error CERT_TRUST_IS_UNTRUSTED_ROOT
+1499 0x000f1bc0 0x1800f29c0 74   75   .rdata  ascii   schannel: CertGetCertificateChain trust error CERT_TRUST_IS_NOT_TIME_VALID
+1500 0x000f1c10 0x1800f2a10 82   83   .rdata  ascii   schannel: CertGetCertificateChain trust error CERT_TRUST_REVOCATION_STATUS_UNKNOWN
+1501 0x000f1c68 0x1800f2a68 52   53   .rdata  ascii   schannel: CertGetCertificateChain error mask: 0x%08x
+1502 0x000f1ca0 0x1800f2aa0 7    8    .rdata  ascii   2.5.4.3
+1503 0x000f1ca8 0x1800f2aa8 9    10   .rdata  ascii   2.5.29.17
+1504 0x000f1fb0 0x1800f2db0 17   18   .rdata  ascii   1.2.840.10040.4.1
+1505 0x000f1fc8 0x1800f2dc8 17   18   .rdata  ascii   1.2.840.10040.4.3
+1506 0x000f1fe0 0x1800f2de0 13   14   .rdata  ascii   dsa-with-sha1
+1507 0x000f1ff0 0x1800f2df0 17   18   .rdata  ascii   1.2.840.10045.2.1
+1508 0x000f2008 0x1800f2e08 11   12   .rdata  ascii   ecPublicKey
+1509 0x000f2018 0x1800f2e18 19   20   .rdata  ascii   1.2.840.10045.3.0.1
+1510 0x000f2030 0x1800f2e30 10   11   .rdata  ascii   c2pnb163v1
+1511 0x000f2040 0x1800f2e40 17   18   .rdata  ascii   1.2.840.10045.4.1
+1512 0x000f2058 0x1800f2e58 15   16   .rdata  ascii   ecdsa-with-SHA1
+1513 0x000f2068 0x1800f2e68 17   18   .rdata  ascii   1.2.840.10046.2.1
+1514 0x000f2080 0x1800f2e80 14   15   .rdata  ascii   dhpublicnumber
+1515 0x000f2090 0x1800f2e90 20   21   .rdata  ascii   1.2.840.113549.1.1.1
+1516 0x000f20a8 0x1800f2ea8 13   14   .rdata  ascii   rsaEncryption
+1517 0x000f20b8 0x1800f2eb8 20   21   .rdata  ascii   1.2.840.113549.1.1.2
+1518 0x000f20d0 0x1800f2ed0 20   21   .rdata  ascii   md2WithRSAEncryption
+1519 0x000f20e8 0x1800f2ee8 20   21   .rdata  ascii   1.2.840.113549.1.1.4
+1520 0x000f2100 0x1800f2f00 20   21   .rdata  ascii   md5WithRSAEncryption
+1521 0x000f2118 0x1800f2f18 20   21   .rdata  ascii   1.2.840.113549.1.1.5
+1522 0x000f2130 0x1800f2f30 21   22   .rdata  ascii   sha1WithRSAEncryption
+1523 0x000f2148 0x1800f2f48 21   22   .rdata  ascii   1.2.840.113549.1.1.10
+1524 0x000f2160 0x1800f2f60 10   11   .rdata  ascii   RSASSA-PSS
+1525 0x000f2170 0x1800f2f70 21   22   .rdata  ascii   1.2.840.113549.1.1.14
+1526 0x000f2188 0x1800f2f88 23   24   .rdata  ascii   sha224WithRSAEncryption
+1527 0x000f21a0 0x1800f2fa0 21   22   .rdata  ascii   1.2.840.113549.1.1.11
+1528 0x000f21b8 0x1800f2fb8 23   24   .rdata  ascii   sha256WithRSAEncryption
+1529 0x000f21d0 0x1800f2fd0 21   22   .rdata  ascii   1.2.840.113549.1.1.12
+1530 0x000f21e8 0x1800f2fe8 23   24   .rdata  ascii   sha384WithRSAEncryption
+1531 0x000f2200 0x1800f3000 21   22   .rdata  ascii   1.2.840.113549.1.1.13
+1532 0x000f2218 0x1800f3018 23   24   .rdata  ascii   sha512WithRSAEncryption
+1533 0x000f2230 0x1800f3030 18   19   .rdata  ascii   1.2.840.113549.2.2
+1534 0x000f2248 0x1800f3048 18   19   .rdata  ascii   1.2.840.113549.2.5
+1535 0x000f2260 0x1800f3060 13   14   .rdata  ascii   1.3.14.3.2.26
+1536 0x000f2270 0x1800f3070 4    5    .rdata  ascii   sha1
+1537 0x000f2280 0x1800f3080 7    8    .rdata  ascii   2.5.4.4
+1538 0x000f2290 0x1800f3090 7    8    .rdata  ascii   2.5.4.5
+1539 0x000f2298 0x1800f3098 12   13   .rdata  ascii   serialNumber
+1540 0x000f22a8 0x1800f30a8 7    8    .rdata  ascii   2.5.4.6
+1541 0x000f22b0 0x1800f30b0 7    8    .rdata  ascii   2.5.4.7
+1542 0x000f22c0 0x1800f30c0 7    8    .rdata  ascii   2.5.4.8
+1543 0x000f22d0 0x1800f30d0 7    8    .rdata  ascii   2.5.4.9
+1544 0x000f22d8 0x1800f30d8 13   14   .rdata  ascii   streetAddress
+1545 0x000f22e8 0x1800f30e8 8    9    .rdata  ascii   2.5.4.10
+1546 0x000f22f8 0x1800f30f8 8    9    .rdata  ascii   2.5.4.11
+1547 0x000f2308 0x1800f3108 8    9    .rdata  ascii   2.5.4.12
+1548 0x000f2314 0x1800f3114 5    6    .rdata  ascii   title
+1549 0x000f2320 0x1800f3120 8    9    .rdata  ascii   2.5.4.13
+1550 0x000f2330 0x1800f3130 11   12   .rdata  ascii   description
+1551 0x000f2340 0x1800f3140 8    9    .rdata  ascii   2.5.4.17
+1552 0x000f2350 0x1800f3150 10   11   .rdata  ascii   postalCode
+1553 0x000f2360 0x1800f3160 8    9    .rdata  ascii   2.5.4.41
+1554 0x000f236c 0x1800f316c 4    5    .rdata  ascii   name
+1555 0x000f2378 0x1800f3178 8    9    .rdata  ascii   2.5.4.42
+1556 0x000f2388 0x1800f3188 9    10   .rdata  ascii   givenName
+1557 0x000f2398 0x1800f3198 8    9    .rdata  ascii   2.5.4.43
+1558 0x000f23a8 0x1800f31a8 8    9    .rdata  ascii   initials
+1559 0x000f23b8 0x1800f31b8 8    9    .rdata  ascii   2.5.4.44
+1560 0x000f23c8 0x1800f31c8 19   20   .rdata  ascii   generationQualifier
+1561 0x000f23e0 0x1800f31e0 8    9    .rdata  ascii   2.5.4.45
+1562 0x000f23f0 0x1800f31f0 20   21   .rdata  ascii   X500UniqueIdentifier
+1563 0x000f2408 0x1800f3208 8    9    .rdata  ascii   2.5.4.46
+1564 0x000f2418 0x1800f3218 11   12   .rdata  ascii   dnQualifier
+1565 0x000f2428 0x1800f3228 8    9    .rdata  ascii   2.5.4.65
+1566 0x000f2438 0x1800f3238 9    10   .rdata  ascii   pseudonym
+1567 0x000f2448 0x1800f3248 20   21   .rdata  ascii   1.2.840.113549.1.9.1
+1568 0x000f2460 0x1800f3260 12   13   .rdata  ascii   emailAddress
+1569 0x000f2470 0x1800f3270 8    9    .rdata  ascii   2.5.4.72
+1570 0x000f247c 0x1800f327c 4    5    .rdata  ascii   role
+1571 0x000f2488 0x1800f3288 14   15   .rdata  ascii   subjectAltName
+1572 0x000f2498 0x1800f3298 9    10   .rdata  ascii   2.5.29.18
+1573 0x000f24a8 0x1800f32a8 13   14   .rdata  ascii   issuerAltName
+1574 0x000f24b8 0x1800f32b8 9    10   .rdata  ascii   2.5.29.19
+1575 0x000f24c8 0x1800f32c8 16   17   .rdata  ascii   basicConstraints
+1576 0x000f24e0 0x1800f32e0 22   23   .rdata  ascii   2.16.840.1.101.3.4.2.4
+1577 0x000f24f8 0x1800f32f8 6    7    .rdata  ascii   sha224
+1578 0x000f2500 0x1800f3300 22   23   .rdata  ascii   2.16.840.1.101.3.4.2.1
+1579 0x000f2518 0x1800f3318 6    7    .rdata  ascii   sha256
+1580 0x000f2520 0x1800f3320 22   23   .rdata  ascii   2.16.840.1.101.3.4.2.2
+1581 0x000f2538 0x1800f3338 6    7    .rdata  ascii   sha384
+1582 0x000f2540 0x1800f3340 22   23   .rdata  ascii   2.16.840.1.101.3.4.2.3
+1583 0x000f2558 0x1800f3358 6    7    .rdata  ascii   sha512
+1584 0x000f2560 0x1800f3360 5    6    .rdata  ascii   %02x:
+1585 0x000f256c 0x1800f336c 5    6    .rdata  ascii   %s%lx
+1586 0x000f2574 0x1800f3374 4    5    .rdata  ascii    GMT
+1587 0x000f2580 0x1800f3380 41   42   .rdata  ascii   %.4s-%.2s-%.2s %.2s:%.2s:%c%c%s%.*s%s%.*s
+1588 0x000f25b8 0x1800f33b8 36   37   .rdata  ascii   %u%.2s-%.2s-%.2s %.2s:%.2s:%.2s %.*s
+1589 0x000f25e0 0x1800f33e0 10   11   .rdata  ascii      %s: %s\n
+1590 0x000f25f0 0x1800f33f0 29   30   .rdata  ascii      RSA Public Key (%lu bits)\n
+1591 0x000f2618 0x1800f3418 14   15   .rdata  ascii   RSA Public Key
+1592 0x000f2628 0x1800f3428 6    7    .rdata  ascii   rsa(n)
+1593 0x000f2630 0x1800f3430 6    7    .rdata  ascii   rsa(e)
+1594 0x000f2638 0x1800f3438 6    7    .rdata  ascii   dsa(p)
+1595 0x000f2640 0x1800f3440 6    7    .rdata  ascii   dsa(q)
+1596 0x000f2648 0x1800f3448 6    7    .rdata  ascii   dsa(g)
+1597 0x000f2650 0x1800f3450 12   13   .rdata  ascii   dsa(pub_key)
+1598 0x000f2660 0x1800f3460 5    6    .rdata  ascii   dh(p)
+1599 0x000f2668 0x1800f3468 5    6    .rdata  ascii   dh(g)
+1600 0x000f2670 0x1800f3470 11   12   .rdata  ascii   dh(pub_key)
+1601 0x000f2680 0x1800f3480 7    8    .rdata  ascii   Subject
+1602 0x000f2688 0x1800f3488 16   17   .rdata  ascii   %2d Subject: %s\n
+1603 0x000f269c 0x1800f349c 6    7    .rdata  ascii   Issuer
+1604 0x000f26a8 0x1800f34a8 14   15   .rdata  ascii      Issuer: %s\n
+1605 0x000f26b8 0x1800f34b8 7    8    .rdata  ascii   Version
+1606 0x000f26c0 0x1800f34c0 24   25   .rdata  ascii      Version: %lu (0x%lx)\n
+1607 0x000f26e0 0x1800f34e0 13   14   .rdata  ascii   Serial Number
+1608 0x000f26f0 0x1800f34f0 21   22   .rdata  ascii      Serial Number: %s\n
+1609 0x000f2708 0x1800f3508 19   20   .rdata  ascii   Signature Algorithm
+1610 0x000f2720 0x1800f3520 27   28   .rdata  ascii      Signature Algorithm: %s\n
+1611 0x000f2740 0x1800f3540 10   11   .rdata  ascii   Start Date
+1612 0x000f2750 0x1800f3550 18   19   .rdata  ascii      Start Date: %s\n
+1613 0x000f2768 0x1800f3568 11   12   .rdata  ascii   Expire Date
+1614 0x000f2778 0x1800f3578 19   20   .rdata  ascii      Expire Date: %s\n
+1615 0x000f2790 0x1800f3590 20   21   .rdata  ascii   Public Key Algorithm
+1616 0x000f27a8 0x1800f35a8 28   29   .rdata  ascii      Public Key Algorithm: %s\n
+1617 0x000f27c8 0x1800f35c8 9    10   .rdata  ascii   Signature
+1618 0x000f27d8 0x1800f35d8 17   18   .rdata  ascii      Signature: %s\n
+1619 0x000f27f0 0x1800f35f0 25   26   .rdata  ascii   -----END CERTIFICATE-----
+1620 0x000f280c 0x1800f360c 4    5    .rdata  ascii   Cert
+1621 0x000f2824 0x1800f3624 4    5    .rdata  ascii   /../
+1622 0x000f2834 0x1800f3634 4    5    .rdata  ascii   xn--
+1623 0x000f2870 0x1800f3670 32   66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+1624 0x000f28b8 0x1800f36b8 12   26   .rdata  utf16le kernel32.dll
+1625 0x000f28d8 0x1800f36d8 27   28   .rdata  ascii   InitializeConditionVariable
+1626 0x000f28f8 0x1800f36f8 24   25   .rdata  ascii   SleepConditionVariableCS
+1627 0x000f2918 0x1800f3718 24   25   .rdata  ascii   WakeAllConditionVariable
+1628 0x000f2980 0x1800f3780 64   65   .rdata  ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+1629 0x000f29d0 0x1800f37d0 64   65   .rdata  ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
+1630 0x000f2a4f 0x1800f384f 11   12   .rdata  ascii   ?456789:;<=
+1631 0x000f2a68 0x1800f3868 7    8    .rdata  ascii   \a\b\t\n\v\f\r
+1632 0x000f2a87 0x1800f3887 20   21   .rdata  ascii    !"#$%&'()*+,-./0123
+1633 0x000f2b30 0x1800f3930 28   29   .rdata  ascii   sizeof(GUID) == sizeof(data)
+1634 0x000f2b50 0x1800f3950 23   24   .rdata  ascii   result == ((HRESULT)0L)
+1635 0x000f2b6c 0x1800f396c 4    5    .rdata  ascii   null
+1636 0x000f2b74 0x1800f3974 4    5    .rdata  ascii   true
+1637 0x000f2b7c 0x1800f397c 5    6    .rdata  ascii   false
+1638 0x000f2b88 0x1800f3988 44   45   .rdata  ascii   Variants containing blobs are not supported.
+1639 0x000f2bb8 0x1800f39b8 62   63   .rdata  ascii   Variants of non-fundamental types may not be used as map keys.
+1640 0x000f2c00 0x1800f3a00 47   48   .rdata  ascii   Flexbuffers containing blobs are not supported.
+1641 0x000f2c30 0x1800f3a30 44   45   .rdata  ascii   Variants containing blobs are not supported.
+1642 0x000f2c60 0x1800f3a60 62   63   .rdata  ascii   Variants of non-fundamental types may not be used as map keys.
+1643 0x000f2ce0 0x1800f3ae0 7    8    .rdata  ascii   fnv1_16
+1644 0x000f2ce8 0x1800f3ae8 8    9    .rdata  ascii   fnv1a_16
+1645 0x000f2d18 0x1800f3b18 7    8    .rdata  ascii   fnv1_32
+1646 0x000f2d20 0x1800f3b20 8    9    .rdata  ascii   fnv1a_32
+1647 0x000f2d50 0x1800f3b50 7    8    .rdata  ascii   fnv1_64
+1648 0x000f2d58 0x1800f3b58 8    9    .rdata  ascii   fnv1a_64
+1649 0x000f2dd8 0x1800f3bd8 17   18   .rdata  ascii   Unknown exception
+1650 0x000f2df0 0x1800f3bf0 8    9    .rdata  ascii   bad cast
+1651 0x000f2e0c 0x1800f3c0c 16   34   .rdata  utf16le mote_config_data
+1652 0x000f2e30 0x1800f3c30 18   19   .rdata  ascii   remote_config_data
+1653 0x000f2e60 0x1800f3c60 7    8    .rdata  ascii   fetched
+1654 0x000f2e70 0x1800f3c70 27   28   .rdata  ascii   Failed Create Firebase App.
+1655 0x000f2e90 0x1800f3c90 48   49   .rdata  ascii   Failed to initialize Firebase Remote Config:[%s]
+1656 0x000f2ec4 0x1800f3cc4 5    6    .rdata  ascii   false
+1657 0x000f2ed0 0x1800f3cd0 54   55   .rdata  ascii   Local default file not exist or file content is empty.
+1658 0x000f2f08 0x1800f3d08 4    5    .rdata  ascii   true
+1659 0x000f2f10 0x1800f3d10 4    5    .rdata  ascii   %.2f
+1660 0x000f2f18 0x1800f3d18 4    5    .rdata  ascii   %lld
+1661 0x000f2f20 0x1800f3d20 4    5    .rdata  ascii   true
+1662 0x000f2f28 0x1800f3d28 5    6    .rdata  ascii   false
+1663 0x000f2f30 0x1800f3d30 4    5    .rdata  ascii   %.2f
+1664 0x000f2f38 0x1800f3d38 4    5    .rdata  ascii   %lld
+1665 0x000f2f48 0x1800f3d48 50   51   .rdata  ascii   Fetch from google failed, filrebase error code:%d.
+1666 0x000f2f80 0x1800f3d80 26   27   .rdata  ascii   Fetch from google failure.
+1667 0x000f2fa0 0x1800f3da0 35   36   .rdata  ascii   Try to initialize Remote Config...\n
+1668 0x000f2fd8 0x1800f3dd8 4    5    .rdata  ascii   true
+1669 0x000f2fe8 0x1800f3de8 4    10   .rdata  utf16le http
+1670 0x000f2ff8 0x1800f3df8 18   19   .rdata  ascii   vector<T> too long
+1671 0x000f3010 0x1800f3e10 23   24   .rdata  ascii   invalid string position
+1672 0x000f3028 0x1800f3e28 15   16   .rdata  ascii   string too long
+1673 0x000f3038 0x1800f3e38 19   20   .rdata  ascii   map/set<T> too long
+1674 0x000f5d2c 0x1800f6b2c 4    5    .rdata  ascii   RSDS
+1675 0x000f5d44 0x1800f6b44 107  108  .rdata  ascii   F:\share_lib\99_PublicLibrary\_HistoryVersion\FireBaseOnlineConfig\1.1\x64\Release\firebaseonlineconfig.pdb
+1676 0x000f5dc4 0x1800f6bc4 4    5    .rdata  ascii   GCTL
+1677 0x000f5dd0 0x1800f6bd0 8    9    .rdata  ascii   .text$di
+1678 0x000f5de4 0x1800f6be4 8    9    .rdata  ascii   .text$mn
+1679 0x000f5df8 0x1800f6bf8 11   12   .rdata  ascii   .text$mn$00
+1680 0x000f5e0c 0x1800f6c0c 7    8    .rdata  ascii   .text$x
+1681 0x000f5e1c 0x1800f6c1c 8    9    .rdata  ascii   .text$yd
+1682 0x000f5e30 0x1800f6c30 8    9    .rdata  ascii   .idata$5
+1683 0x000f5e44 0x1800f6c44 6    7    .rdata  ascii   .00cfg
+1684 0x000f5e54 0x1800f6c54 8    9    .rdata  ascii   .CRT$XCA
+1685 0x000f5e68 0x1800f6c68 8    9    .rdata  ascii   .CRT$XCL
+1686 0x000f5e7c 0x1800f6c7c 8    9    .rdata  ascii   .CRT$XCU
+1687 0x000f5e90 0x1800f6c90 8    9    .rdata  ascii   .CRT$XCZ
+1688 0x000f5ea4 0x1800f6ca4 8    9    .rdata  ascii   .CRT$XIA
+1689 0x000f5eb8 0x1800f6cb8 8    9    .rdata  ascii   .CRT$XIC
+1690 0x000f5ecc 0x1800f6ccc 8    9    .rdata  ascii   .CRT$XIZ
+1691 0x000f5ee0 0x1800f6ce0 8    9    .rdata  ascii   .CRT$XLA
+1692 0x000f5ef4 0x1800f6cf4 8    9    .rdata  ascii   .CRT$XLZ
+1693 0x000f5f08 0x1800f6d08 8    9    .rdata  ascii   .CRT$XPA
+1694 0x000f5f1c 0x1800f6d1c 8    9    .rdata  ascii   .CRT$XPZ
+1695 0x000f5f30 0x1800f6d30 8    9    .rdata  ascii   .CRT$XTA
+1696 0x000f5f44 0x1800f6d44 8    9    .rdata  ascii   .CRT$XTZ
+1697 0x000f5f58 0x1800f6d58 6    7    .rdata  ascii   .rdata
+1698 0x000f5f68 0x1800f6d68 8    9    .rdata  ascii   .rdata$T
+1699 0x000f5f7c 0x1800f6d7c 8    9    .rdata  ascii   .rdata$r
+1700 0x000f5f90 0x1800f6d90 13   14   .rdata  ascii   .rdata$zzzdbg
+1701 0x000f5fa8 0x1800f6da8 8    9    .rdata  ascii   .rtc$IAA
+1702 0x000f5fbc 0x1800f6dbc 8    9    .rdata  ascii   .rtc$IZZ
+1703 0x000f5fd0 0x1800f6dd0 8    9    .rdata  ascii   .rtc$TAA
+1704 0x000f5fe4 0x1800f6de4 8    9    .rdata  ascii   .rtc$TZZ
+1705 0x000f5ff8 0x1800f6df8 4    5    .rdata  ascii   .tls
+1706 0x000f6008 0x1800f6e08 5    6    .rdata  ascii   .tls$
+1707 0x000f6018 0x1800f6e18 8    9    .rdata  ascii   .tls$ZZZ
+1708 0x000f602c 0x1800f6e2c 6    7    .rdata  ascii   .xdata
+1709 0x000f603c 0x1800f6e3c 8    9    .rdata  ascii   .xdata$x
+1710 0x000f6050 0x1800f6e50 6    7    .rdata  ascii   .edata
+1711 0x000f6060 0x1800f6e60 8    9    .rdata  ascii   .idata$2
+1712 0x000f6074 0x1800f6e74 8    9    .rdata  ascii   .idata$3
+1713 0x000f6088 0x1800f6e88 8    9    .rdata  ascii   .idata$4
+1714 0x000f609c 0x1800f6e9c 8    9    .rdata  ascii   .idata$6
+1715 0x000f60b0 0x1800f6eb0 5    6    .rdata  ascii   .data
+1716 0x000f60c0 0x1800f6ec0 7    8    .rdata  ascii   .data$r
+1717 0x000f60d0 0x1800f6ed0 4    5    .rdata  ascii   .bss
+1718 0x000f60e0 0x1800f6ee0 6    7    .rdata  ascii   .pdata
+1719 0x000f60f0 0x1800f6ef0 8    9    .rdata  ascii   .rsrc$01
+1720 0x000f6104 0x1800f6f04 8    9    .rdata  ascii   .rsrc$02
+1721 0x000f634c 0x1800f714c 4    5    .rdata  ascii   \v"\ap
+1722 0x000f716f 0x1800f7f6f 4    5    .rdata  ascii   P\e,\r
+1723 0x000f728f 0x1800f808f 4    5    .rdata  ascii   P\e,\r
+1724 0x000f7345 0x1800f8145 6    7    .rdata  ascii   r\vp\e,\r
+1725 0x000f749d 0x1800f829d 6    7    .rdata  ascii   r\vp\e,\r
+1726 0x000f74b5 0x1800f82b5 6    7    .rdata  ascii   r\vp\e,\r
+1727 0x000f78bf 0x1800f86bf 4    5    .rdata  ascii   P\e,\r
+1728 0x000f79ff 0x1800f87ff 4    5    .rdata  ascii   P\e,\r
+1729 0x000f7a77 0x1800f8877 4    5    .rdata  ascii   P\e,\r
+1730 0x000f7b27 0x1800f8927 4    5    .rdata  ascii   P\e,\r
+1731 0x000f7bbf 0x1800f89bf 4    5    .rdata  ascii   P\e,\r
+1732 0x000f7cf0 0x1800f8af0 4    5    .rdata  ascii   \fp\v`
+1733 0x000f7d5f 0x1800f8b5f 4    5    .rdata  ascii   P\e,\r
+1734 0x000f7d6f 0x1800f8b6f 4    5    .rdata  ascii   p\e,\r
+1735 0x000f7e5f 0x1800f8c5f 4    5    .rdata  ascii   p\e,\r
+1736 0x000f7ef7 0x1800f8cf7 4    5    .rdata  ascii   P\e,\r
+1737 0x000f7f67 0x1800f8d67 4    5    .rdata  ascii   P\e,\r
+1738 0x000f7fdf 0x1800f8ddf 4    5    .rdata  ascii   P\e,\r
+1739 0x000f80af 0x1800f8eaf 4    5    .rdata  ascii   P\e,\r
+1740 0x000f812f 0x1800f8f2f 4    5    .rdata  ascii   P\e,\r
+1741 0x000f81a7 0x1800f8fa7 4    5    .rdata  ascii   P\e,\r
+1742 0x000f8279 0x1800f9079 6    7    .rdata  ascii   2\vp9,\r
+1743 0x000f82b3 0x1800f90b3 4    5    .rdata  ascii   `9,\r
+1744 0x000f8343 0x1800f9143 4    5    .rdata  ascii   0\e,\r
+1745 0x000f853f 0x1800f933f 4    5    .rdata  ascii   P\e,\r
+1746 0x000f85e7 0x1800f93e7 4    5    .rdata  ascii   P\e,\r
+1747 0x000f8667 0x1800f9467 4    5    .rdata  ascii   P\e,\r
+1748 0x000f86cf 0x1800f94cf 4    5    .rdata  ascii   P\e,\r
+1749 0x000f874f 0x1800f954f 4    5    .rdata  ascii   P\e,\r
+1750 0x000f8867 0x1800f9667 4    5    .rdata  ascii   P\e,\r
+1751 0x000f8877 0x1800f9677 4    5    .rdata  ascii   p\e,\r
+1752 0x000f88df 0x1800f96df 4    5    .rdata  ascii   P\e,\r
+1753 0x000f897f 0x1800f977f 4    5    .rdata  ascii   P\e,\r
+1754 0x000f89f7 0x1800f97f7 4    5    .rdata  ascii   P\e,\r
+1755 0x000f8a77 0x1800f9877 4    5    .rdata  ascii   P\e,\r
+1756 0x000f8aef 0x1800f98ef 4    5    .rdata  ascii   P\e,\r
+1757 0x000f8b67 0x1800f9967 4    5    .rdata  ascii   P\e,\r
+1758 0x000f8bdf 0x1800f99df 4    5    .rdata  ascii   P\e,\r
+1759 0x000f8c57 0x1800f9a57 4    5    .rdata  ascii   P\e,\r
+1760 0x000f8cbf 0x1800f9abf 4    5    .rdata  ascii   P\e,\r
+1761 0x000f8dd8 0x1800f9bd8 4    5    .rdata  ascii   \fp\v`
+1762 0x000f8e27 0x1800f9c27 4    5    .rdata  ascii   p\e,\r
+1763 0x000f8e8f 0x1800f9c8f 4    5    .rdata  ascii   P\e,\r
+1764 0x000f8f07 0x1800f9d07 4    5    .rdata  ascii   P\e,\r
+1765 0x000f8f7f 0x1800f9d7f 4    5    .rdata  ascii   P\e,\r
+1766 0x000f9007 0x1800f9e07 4    5    .rdata  ascii   P\e,\r
+1767 0x000f902c 0x1800f9e2c 4    5    .rdata  ascii   \vb\ap
+1768 0x000f90af 0x1800f9eaf 4    5    .rdata  ascii   P\e,\r
+1769 0x000f91f7 0x1800f9ff7 4    5    .rdata  ascii   P\e,\r
+1770 0x000f922f 0x1800fa02f 4    5    .rdata  ascii   p\e,\r
+1771 0x000f9297 0x1800fa097 4    5    .rdata  ascii   P\e,\r
+1772 0x000f930f 0x1800fa10f 4    5    .rdata  ascii   P\e,\r
+1773 0x000f9387 0x1800fa187 4    5    .rdata  ascii   P\e,\r
+1774 0x000f9427 0x1800fa227 4    5    .rdata  ascii   P\e,\r
+1775 0x000f949f 0x1800fa29f 4    5    .rdata  ascii   P\e,\r
+1776 0x000f95cf 0x1800fa3cf 4    5    .rdata  ascii   P\e,\r
+1777 0x000f9647 0x1800fa447 4    5    .rdata  ascii   P\e,\r
+1778 0x000f96bf 0x1800fa4bf 4    5    .rdata  ascii   P\e,\r
+1779 0x000f9737 0x1800fa537 4    5    .rdata  ascii   P\e,\r
+1780 0x000f97af 0x1800fa5af 4    5    .rdata  ascii   P\e,\r
+1781 0x000f9827 0x1800fa627 4    5    .rdata  ascii   P\e,\r
+1782 0x000f988f 0x1800fa68f 4    5    .rdata  ascii   P\e,\r
+1783 0x000f98f7 0x1800fa6f7 4    5    .rdata  ascii   P\e,\r
+1784 0x000f9982 0x1800fa782 4    5    .rdata  ascii   \fp\v`
+1785 0x000f9997 0x1800fa797 4    5    .rdata  ascii   0\e,\r
+1786 0x000f99c7 0x1800fa7c7 4    5    .rdata  ascii   P\e,\r
+1787 0x000f9bb6 0x1800fa9b6 4    5    .rdata  ascii   \bp\a`
+1788 0x000f9c8f 0x1800faa8f 4    5    .rdata  ascii   p\e,\r
+1789 0x000f9d46 0x1800fab46 9    10   .rdata  ascii   \rp\f`\v0\e,\r
+1790 0x000f9d97 0x1800fab97 4    5    .rdata  ascii   P\e,\r
+1791 0x000f9e0a 0x1800fac0a 4    5    .rdata  ascii   \bp\a`
+1792 0x000f9e7f 0x1800fac7f 4    5    .rdata  ascii   0\e,\r
+1793 0x000f9ec7 0x1800facc7 4    5    .rdata  ascii   P\e,\r
+1794 0x000f9ed7 0x1800facd7 4    5    .rdata  ascii   0\e,\r
+1795 0x000f9f1f 0x1800fad1f 4    5    .rdata  ascii   P\e,\r
+1796 0x000f9fb7 0x1800fadb7 4    5    .rdata  ascii   p\e,\r
+1797 0x000f9fee 0x1800fadee 6    7    .rdata  ascii   \rp\f`\vP
+1798 0x000fa047 0x1800fae47 4    5    .rdata  ascii   P\e,\r
+1799 0x000fa057 0x1800fae57 4    5    .rdata  ascii   0\e,\r
+1800 0x000fa09f 0x1800fae9f 4    5    .rdata  ascii   P\e,\r
+1801 0x000fa0b7 0x1800faeb7 4    5    .rdata  ascii   p\e,\r
+1802 0x000fa0e7 0x1800faee7 4    5    .rdata  ascii   p\e,\r
+1803 0x000fa117 0x1800faf17 4    5    .rdata  ascii   p\e,\r
+1804 0x000fa193 0x1800faf93 4    5    .rdata  ascii   p\e,\r
+1805 0x000fa6ec 0x1800fb4ec 4    5    .rdata  ascii   \fp\v`
+1806 0x000fa708 0x1800fb508 4    5    .rdata  ascii   \fp\v`
+1807 0x000fb142 0x1800fbf42 4    5    .rdata  ascii   \bp\a`
+1808 0x000fbe60 0x1800fcc60 6    7    .rdata  ascii   \tp\b`\a0
+1809 0x000fc26a 0x1800fd06a 6    7    .rdata  ascii   \rp\f`\vP
+1810 0x000fc2d7 0x1800fd0d7 4    5    .rdata  ascii   0\e,\r
+1811 0x000fc31f 0x1800fd11f 4    5    .rdata  ascii   P\e,\r
+1812 0x000fc36f 0x1800fd16f 4    5    .rdata  ascii   0\e,\r
+1813 0x000fc387 0x1800fd187 4    5    .rdata  ascii   0\e,\r
+1814 0x000fc3cf 0x1800fd1cf 4    5    .rdata  ascii   P\e,\r
+1815 0x000fc404 0x1800fd204 7    8    .rdata  ascii   \fR\bp\e,\r
+1816 0x000fcc50 0x1800fda50 7    8    .rdata  ascii   \rp\fP!!\n
+1817 0x000fcda7 0x1800fdba7 4    5    .rdata  ascii   p\e,\r
+1818 0x000fd2b7 0x1800fe0b7 4    5    .rdata  ascii   P\e,\r
+1819 0x000fd2c7 0x1800fe0c7 4    5    .rdata  ascii   0\e,\r
+1820 0x000fd30f 0x1800fe10f 4    5    .rdata  ascii   P\e,\r
+1821 0x000fd32b 0x1800fe12b 4    5    .rdata  ascii   p\e,\r
+1822 0x000fd4df 0x1800fe2df 4    5    .rdata  ascii   P\e,\r
+1823 0x000fd4ef 0x1800fe2ef 4    5    .rdata  ascii   0\e,\r
+1824 0x000fd537 0x1800fe337 4    5    .rdata  ascii   P\e,\r
+1825 0x000fd5ba 0x1800fe3ba 9    10   .rdata  ascii   \rp\f`\v0\e,\r
+1826 0x000fd614 0x1800fe414 4    5    .rdata  ascii   \vB\aP
+1827 0x000fd633 0x1800fe433 4    5    .rdata  ascii   `\e,\r
+1828 0x000fd67f 0x1800fe47f 4    5    .rdata  ascii   P\e,\r
+1829 0x000fd69b 0x1800fe49b 4    5    .rdata  ascii   `\e,\r
+1830 0x000fd6e7 0x1800fe4e7 4    5    .rdata  ascii   P\e,\r
+1831 0x000fd6fa 0x1800fe4fa 4    5    .rdata  ascii   \bp\a`
+1832 0x000fd6ff 0x1800fe4ff 4    5    .rdata  ascii   0\e,\r
+1833 0x000fd747 0x1800fe547 4    5    .rdata  ascii   P\e,\r
+1834 0x000fd75e 0x1800fe55e 4    5    .rdata  ascii   \bp\a`
+1835 0x000fd763 0x1800fe563 4    5    .rdata  ascii   0\e,\r
+1836 0x000fd7bf 0x1800fe5bf 4    5    .rdata  ascii   P\e,\r
+1837 0x000fd7db 0x1800fe5db 4    5    .rdata  ascii   p\e,\r
+1838 0x000fd84e 0x1800fe64e 5    6    .rdata  ascii   \bp\e,\r
+1839 0x000fd897 0x1800fe697 4    5    .rdata  ascii   P\e,\r
+1840 0x000fd8b7 0x1800fe6b7 4    5    .rdata  ascii   p\e,\r
+1841 0x000fd8ff 0x1800fe6ff 4    5    .rdata  ascii   P\e,\r
+1842 0x000fd966 0x1800fe766 9    10   .rdata  ascii   \rp\f`\v0\e,\r
+1843 0x000fdac7 0x1800fe8c7 4    5    .rdata  ascii   P\e,\r
+1844 0x000fdad4 0x1800fe8d4 8    9    .rdata  ascii   \rB\tp\b`\aP
+1845 0x000fdaec 0x1800fe8ec 6    7    .rdata  ascii   \f2\bp\aP
+1846 0x000fdaf3 0x1800fe8f3 4    5    .rdata  ascii   0\e,\r
+1847 0x000fdece 0x1800fecce 4    5    .rdata  ascii   \bp\a`
+1848 0x000fded3 0x1800fecd3 4    5    .rdata  ascii   0\e,\r
+1849 0x000fdf2c 0x1800fed2c 4    5    .rdata  ascii   \vB\aP
+1850 0x000fdfaf 0x1800fedaf 4    5    .rdata  ascii   P\e,\r
+1851 0x000fdfca 0x1800fedca 6    7    .rdata  ascii   \rp\f`\vP
+1852 0x000fdfde 0x1800fedde 9    10   .rdata  ascii   \rp\f`\v0\e,\r
+1853 0x000fe03c 0x1800fee3c 4    5    .rdata  ascii   \vB\aP
+1854 0x000fe062 0x1800fee62 5    6    .rdata  ascii   \bp\e,\r
+1855 0x000fe0af 0x1800feeaf 4    5    .rdata  ascii   P\e,\r
+1856 0x000fe0c6 0x1800feec6 4    5    .rdata  ascii   \bp\a`
+1857 0x000fe0cb 0x1800feecb 4    5    .rdata  ascii   0\e,\r
+1858 0x000fe127 0x1800fef27 4    5    .rdata  ascii   P\e,\r
+1859 0x000fe13e 0x1800fef3e 4    5    .rdata  ascii   \bp\a`
+1860 0x000fe143 0x1800fef43 4    5    .rdata  ascii   0\e,\r
+1861 0x000fe18f 0x1800fef8f 4    5    .rdata  ascii   P\e,\r
+1862 0x000fe1ab 0x1800fefab 4    5    .rdata  ascii   `\e,\r
+1863 0x000fe207 0x1800ff007 4    5    .rdata  ascii   P\e,\r
+1864 0x000fe2bb 0x1800ff0bb 4    5    .rdata  ascii   P!'\n
+1865 0x000fe405 0x1800ff205 6    7    .rdata  ascii   R\vp\e,\r
+1866 0x000fe457 0x1800ff257 4    5    .rdata  ascii   P\e,\r
+1867 0x000fe4d7 0x1800ff2d7 4    5    .rdata  ascii   P\e,\r
+1868 0x000fe54f 0x1800ff34f 4    5    .rdata  ascii   P\e,\r
+1869 0x000fe55d 0x1800ff35d 6    7    .rdata  ascii   R\v0\e,\r
+1870 0x000fe5a7 0x1800ff3a7 4    5    .rdata  ascii   P\e,\r
+1871 0x000fe5bd 0x1800ff3bd 6    7    .rdata  ascii   R\vp\e,\r
+1872 0x000fe60f 0x1800ff40f 4    5    .rdata  ascii   P\e,\r
+1873 0x000fe687 0x1800ff487 4    5    .rdata  ascii   P\e,\r
+1874 0x000fe69f 0x1800ff49f 4    5    .rdata  ascii   p\e,\r
+1875 0x000fe6ef 0x1800ff4ef 4    5    .rdata  ascii   P\e,\r
+1876 0x000fe705 0x1800ff505 6    7    .rdata  ascii   R\vp\e,\r
+1877 0x000fe757 0x1800ff557 4    5    .rdata  ascii   P\e,\r
+1878 0x000fe767 0x1800ff567 4    5    .rdata  ascii   0\e,\r
+1879 0x000fe7af 0x1800ff5af 4    5    .rdata  ascii   P\e,\r
+1880 0x000fe7bf 0x1800ff5bf 4    5    .rdata  ascii   0\e,\r
+1881 0x000fe807 0x1800ff607 4    5    .rdata  ascii   P\e,\r
+1882 0x000fe82f 0x1800ff62f 4    5    .rdata  ascii   0\e,\r
+1883 0x000fe877 0x1800ff677 4    5    .rdata  ascii   P\e,\r
+1884 0x000fe88b 0x1800ff68b 4    5    .rdata  ascii   p\e,\r
+1885 0x000fe8df 0x1800ff6df 4    5    .rdata  ascii   P\e,\r
+1886 0x000fe932 0x1800ff732 5    6    .rdata  ascii   \bp\e,\r
+1887 0x000fe97f 0x1800ff77f 4    5    .rdata  ascii   P\e,\r
+1888 0x000fe9c6 0x1800ff7c6 5    6    .rdata  ascii   \bp\e,\r
+1889 0x000fea0f 0x1800ff80f 4    5    .rdata  ascii   P\e,\r
+1890 0x000feb47 0x1800ff947 4    5    .rdata  ascii   P\e,\r
+1891 0x000febbf 0x1800ff9bf 4    5    .rdata  ascii   P\e,\r
+1892 0x000febd3 0x1800ff9d3 4    5    .rdata  ascii   p\e,\r
+1893 0x000ff0df 0x1800ffedf 4    5    .rdata  ascii   P\e,\r
+1894 0x000ff157 0x1800fff57 4    5    .rdata  ascii   P\e,\r
+1895 0x000ff25f 0x18010005f 4    5    .rdata  ascii   P\e,\r
+1896 0x000ff347 0x180100147 4    5    .rdata  ascii   P\e,\r
+1897 0x000ff3af 0x1801001af 4    5    .rdata  ascii   P\e,\r
+1898 0x000ff611 0x180100411 5    6    .rdata  ascii   b\fp\v`
+1899 0x000ff6cf 0x1801004cf 4    5    .rdata  ascii   P\e,\r
+1900 0x000ff757 0x180100557 4    5    .rdata  ascii   P\e,\r
+1901 0x000ff7cf 0x1801005cf 4    5    .rdata  ascii   P\e,\r
+1902 0x000ff847 0x180100647 4    5    .rdata  ascii   P\e,\r
+1903 0x000ff93f 0x18010073f 4    5    .rdata  ascii   P\e,\r
+1904 0x000ff9b7 0x1801007b7 4    5    .rdata  ascii   P\e,\r
+1905 0x000ffcd4 0x180100ad4 4    5    .rdata  ascii   \fp\v`
+1906 0x001000dc 0x180100edc 4    5    .rdata  ascii   \fp\v`
+1907 0x0010084d 0x18010164d 5    6    .rdata  ascii   b\fp\v`
+1908 0x0010123f 0x18010203f 4    5    .rdata  ascii   P\e,\r
+1909 0x001012b7 0x1801020b7 4    5    .rdata  ascii   P\e,\r
+1910 0x0010137f 0x18010217f 4    5    .rdata  ascii   P\e,\r
+1911 0x001013f7 0x1801021f7 4    5    .rdata  ascii   P\e,\r
+1912 0x0010146f 0x18010226f 4    5    .rdata  ascii   P\e,\r
+1913 0x001016a7 0x1801024a7 4    5    .rdata  ascii   P\e,\r
+1914 0x00101767 0x180102567 4    5    .rdata  ascii   P\e,\r
+1915 0x001017df 0x1801025df 4    5    .rdata  ascii   P\e,\r
+1916 0x00101857 0x180102657 4    5    .rdata  ascii   P\e,\r
+1917 0x001018ef 0x1801026ef 4    5    .rdata  ascii   P\e,\r
+1918 0x00101a17 0x180102817 4    5    .rdata  ascii   P\e,\r
+1919 0x00101a62 0x180102862 4    5    .rdata  ascii   \fp\v`
+1920 0x00101a90 0x180102890 7    8    .rdata  ascii   \fp\v`\e,\r
+1921 0x00101ad8 0x1801028d8 7    8    .rdata  ascii   \fp\v`\e,\r
+1922 0x00101c84 0x180102a84 7    8    .rdata  ascii   \fp\v`\e,\r
+1923 0x00101dcb 0x180102bcb 4    5    .rdata  ascii   p\e,\r
+1924 0x00101f87 0x180102d87 4    5    .rdata  ascii   P\e,\r
+1925 0x0010201f 0x180102e1f 4    5    .rdata  ascii   P\e,\r
+1926 0x00102030 0x180102e30 4    5    .rdata  ascii   \fp\v`
+1927 0x001020a7 0x180102ea7 4    5    .rdata  ascii   P\e,\r
+1928 0x0010211f 0x180102f1f 4    5    .rdata  ascii   P\e,\r
+1929 0x001021d7 0x180102fd7 4    5    .rdata  ascii   P\e,\r
+1930 0x0010224f 0x18010304f 4    5    .rdata  ascii   P\e,\r
+1931 0x001022e7 0x1801030e7 4    5    .rdata  ascii   P\e,\r
+1932 0x00102370 0x180103170 7    8    .rdata  ascii   \fp\v`\e,\r
+1933 0x0010252f 0x18010332f 4    5    .rdata  ascii   p\e,\r
+1934 0x001025bf 0x1801033bf 4    5    .rdata  ascii   P\e,\r
+1935 0x00102677 0x180103477 4    5    .rdata  ascii   P\e,\r
+1936 0x001026df 0x1801034df 4    5    .rdata  ascii   P\e,\r
+1937 0x00103152 0x180103f52 4    5    .rdata  ascii   \vp\n`
+1938 0x00103166 0x180103f66 4    5    .rdata  ascii   \vp\n`
+1939 0x0010327f 0x18010407f 4    5    .rdata  ascii   P\e,\r
+1940 0x001032ef 0x1801040ef 4    5    .rdata  ascii   p\e,\r
+1941 0x0010330e 0x18010410e 4    5    .rdata  ascii   \bp\a`
+1942 0x00103313 0x180104113 4    5    .rdata  ascii   P\e,\r
+1943 0x001033a3 0x1801041a3 4    5    .rdata  ascii   `\e,\r
+1944 0x00103417 0x180104217 4    5    .rdata  ascii   P\e,\r
+1945 0x0010342f 0x18010422f 4    5    .rdata  ascii   p\e,\r
+1946 0x0010347f 0x18010427f 4    5    .rdata  ascii   p\e,\r
+1947 0x001034b3 0x1801042b3 4    5    .rdata  ascii   p\e,\r
+1948 0x001034db 0x1801042db 4    5    .rdata  ascii   p\e,\r
+1949 0x00103523 0x180104323 4    5    .rdata  ascii   0\e,\r
+1950 0x00103563 0x180104363 4    5    .rdata  ascii   p\e,\r
+1951 0x001036db 0x1801044db 4    5    .rdata  ascii   `\e,\r
+1952 0x00103737 0x180104537 4    5    .rdata  ascii   P\e,\r
+1953 0x00103900 0x180104700 4    5    .rdata  ascii   \fp\v`
+1954 0x001039cf 0x1801047cf 4    5    .rdata  ascii   P\e,\r
+1955 0x001039ec 0x1801047ec 4    5    .rdata  ascii   \fp\v`
+1956 0x00103bc7 0x1801049c7 4    5    .rdata  ascii   P\e,\r
+1957 0x00103c97 0x180104a97 4    5    .rdata  ascii   P\e,\r
+1958 0x00103d57 0x180104b57 4    5    .rdata  ascii   P\e,\r
+1959 0x00103dbf 0x180104bbf 4    5    .rdata  ascii   P\e,\r
+1960 0x00103de3 0x180104be3 4    5    .rdata  ascii   0\e,\r
+1961 0x00103e1f 0x180104c1f 4    5    .rdata  ascii   P\e,\r
+1962 0x00103f1f 0x180104d1f 4    5    .rdata  ascii   0\e,\r
+1963 0x00103f67 0x180104d67 4    5    .rdata  ascii   p\e,\r
+1964 0x00103fb7 0x180104db7 4    5    .rdata  ascii   p\e,\r
+1965 0x00103fef 0x180104def 4    5    .rdata  ascii   p\e,\r
+1966 0x00104023 0x180104e23 4    5    .rdata  ascii   p\e,\r
+1967 0x001040d3 0x180104ed3 4    5    .rdata  ascii   `\e,\r
+1968 0x0010416f 0x180104f6f 4    5    .rdata  ascii   p\e,\r
+1969 0x001044bf 0x1801052bf 4    5    .rdata  ascii   0\e,\r
+1970 0x001044dd 0x1801052dd 6    7    .rdata  ascii   R\v0\e,\r
+1971 0x00104527 0x180105327 4    5    .rdata  ascii   P\e,\r
+1972 0x0010459f 0x18010539f 4    5    .rdata  ascii   P\e,\r
+1973 0x0010462f 0x18010542f 4    5    .rdata  ascii   P\e,\r
+1974 0x00104714 0x180105514 4    5    .rdata  ascii   \bp\a`
+1975 0x001048af 0x1801056af 4    5    .rdata  ascii   0!.\n
+1976 0x0010490c 0x18010570c 4    5    .rdata  ascii   \fp\vP
+1977 0x00104920 0x180105720 6    7    .rdata  ascii   \tp\b`\aP
+1978 0x0010494e 0x18010574e 4    5    .rdata  ascii   \bp\a`
+1979 0x00104cbb 0x180105abb 4    5    .rdata  ascii   p\e,\r
+1980 0x00104d03 0x180105b03 4    5    .rdata  ascii   p\e,\r
+1981 0x00104d3b 0x180105b3b 4    5    .rdata  ascii   p\e,\r
+1982 0x00104d63 0x180105b63 4    5    .rdata  ascii   p\e,\r
+1983 0x00104dab 0x180105bab 4    5    .rdata  ascii   p\e,\r
+1984 0x0010504d 0x180105e4d 5    6    .rdata  ascii   b\vp\nP
+1985 0x001051d9 0x180105fd9 5    6    .rdata  ascii   `\r0\fP
+1986 0x001052cc 0x1801060cc 4    5    .rdata  ascii   \bp\a`
+1987 0x00105641 0x180106441 4    5    .rdata  ascii   2\vp!
+1988 0x0010575a 0x18010655a 6    7    .rdata  ascii   \rp\f`\vP
+1989 0x00105831 0x180106631 4    5    .rdata  ascii   2\n0!
+1990 0x0010593e 0x18010673e 4    5    .rdata  ascii   \fp\v`
+1991 0x00105bc6 0x1801069c6 6    7    .rdata  ascii   \rp\f`\vP
+1992 0x00105bd5 0x1801069d5 8    9    .rdata  ascii   p\r`\fP\v0!
+1993 0x00105dab 0x180106bab 7    8    .rdata  ascii   p\r`\fP\v0
+1994 0x00105df7 0x180106bf7 7    8    .rdata  ascii   p\r`\fP\v0
+1995 0x00105ee4 0x180106ce4 4    5    .rdata  ascii   \fp\v`
+1996 0x001060f1 0x180106ef1 6    7    .rdata  ascii   R\vp!\e\b
+1997 0x001061b6 0x180106fb6 4    5    .rdata  ascii   \bp\a`
+1998 0x00106306 0x180107106 6    7    .rdata  ascii   \rp\f`\vP
+1999 0x001064d8 0x1801072d8 5    6    .rdata  ascii   \v`\nP!
+2000 0x00106542 0x180107342 4    5    .rdata  ascii   \bp\a`
+2001 0x00106588 0x180107388 4    5    .rdata  ascii   \bp\a`
+2002 0x001065d0 0x1801073d0 4    5    .rdata  ascii   \bp\a`
+2003 0x0010667a 0x18010747a 6    7    .rdata  ascii   \rp\f`\vP
+2004 0x001066b0 0x1801074b0 4    5    .rdata  ascii   \bp\a`
+2005 0x0010671a 0x18010751a 4    5    .rdata  ascii   \bp\a`
+2006 0x0010672d 0x18010752d 4    5    .rdata  ascii   2\vp!
+2007 0x00106816 0x180107616 6    7    .rdata  ascii   \rp\f`\vP
+2008 0x00106826 0x180107626 4    5    .rdata  ascii   \bp\a`
+2009 0x001069ac 0x1801077ac 4    5    .rdata  ascii   \fp\v`
+2010 0x00106b38 0x180107938 8    9    .rdata  ascii   \rb\tp\b`\aP
+2011 0x00106c48 0x180107a48 4    5    .rdata  ascii   \bp\a`
+2012 0x00106d22 0x180107b22 4    5    .rdata  ascii   \fp\vP
+2013 0x00106d40 0x180107b40 4    5    .rdata  ascii   \rp\f`
+2014 0x00106ddc 0x180107bdc 5    6    .rdata  ascii   \fp\v`!
+2015 0x00106e82 0x180107c82 8    9    .rdata  ascii   \fp\v`\n0!\b
+2016 0x00106f70 0x180107d70 4    5    .rdata  ascii   \bp\a`
+2017 0x00106fb2 0x180107db2 4    5    .rdata  ascii   \bp\a`
+2018 0x00106fcc 0x180107dcc 4    5    .rdata  ascii   \fp\v`
+2019 0x00106fe2 0x180107de2 4    5    .rdata  ascii   \bp\a`
+2020 0x00107064 0x180107e64 4    5    .rdata  ascii   \bp\a`
+2021 0x00107084 0x180107e84 4    5    .rdata  ascii   \bp\a`
+2022 0x001071d9 0x180107fd9 7    8    .rdata  ascii   p\r`\f0\vP
+2023 0x0010726d 0x18010806d 4    5    .rdata  ascii   2\v`!
+2024 0x001072f8 0x1801080f8 4    5    .rdata  ascii   \bp\a`
+2025 0x00107408 0x180108208 4    5    .rdata  ascii   \rp\f`
+2026 0x00107703 0x180108503 4    5    .rdata  ascii   p\e,\r
+2027 0x00107817 0x180108617 4    5    .rdata  ascii   P\e,\r
+2028 0x0010790f 0x18010870f 4    5    .rdata  ascii   P\e,\r
+2029 0x00107987 0x180108787 4    5    .rdata  ascii   P\e,\r
+2030 0x00107998 0x180108798 4    5    .rdata  ascii   \fp\v`
+2031 0x001079e4 0x1801087e4 4    5    .rdata  ascii   \fp\v`
+2032 0x00107aa5 0x1801088a5 5    6    .rdata  ascii   "\fp\v`
+2033 0x00107c5c 0x180108a5c 24   25   .rdata  ascii   firebaseonlineconfig.dll
+2034 0x00107c75 0x180108a75 13   14   .rdata  ascii   create_config
+2035 0x00107c83 0x180108a83 14   15   .rdata  ascii   release_config
+2036 0x0010892a 0x18010972a 19   20   .rdata  ascii   MultiByteToWideChar
+2037 0x0010893e 0x18010973e 12   13   .rdata  ascii   KERNEL32.dll
+2038 0x0010894e 0x18010974e 23   24   .rdata  ascii   ??1_Lockit@std@@QEAA@XZ
+2039 0x00108968 0x180109768 24   25   .rdata  ascii   ??0_Lockit@std@@QEAA@H@Z
+2040 0x00108984 0x180109784 49   50   .rdata  ascii   ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+2041 0x001089b8 0x1801097b8 30   31   .rdata  ascii   ?_Xout_of_range@std@@YAXPEBD@Z
+2042 0x001089da 0x1801097da 27   28   .rdata  ascii   ?_Throw_C_error@std@@YAXH@Z
+2043 0x001089f8 0x1801097f8 47   48   .rdata  ascii   ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+2044 0x00108a2a 0x18010982a 36   37   .rdata  ascii   ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+2045 0x00108a52 0x180109852 30   31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+2046 0x00108a74 0x180109874 20   21   .rdata  ascii   _Mtx_destroy_in_situ
+2047 0x00108a8c 0x18010988c 9    10   .rdata  ascii   _Mtx_lock
+2048 0x00108a98 0x180109898 17   18   .rdata  ascii   _Mtx_init_in_situ
+2049 0x00108aac 0x1801098ac 11   12   .rdata  ascii   _Thrd_sleep
+2050 0x00108aba 0x1801098ba 16   17   .rdata  ascii   _Xtime_get_ticks
+2051 0x00108ace 0x1801098ce 11   12   .rdata  ascii   _Mtx_unlock
+2052 0x00108adc 0x1801098dc 74   75   .rdata  ascii   ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+2053 0x00108b2a 0x18010992a 57   58   .rdata  ascii   ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+2054 0x00108b66 0x180109966 73   74   .rdata  ascii   ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+2055 0x00108bb2 0x1801099b2 61   62   .rdata  ascii   ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+2056 0x00108bf2 0x1801099f2 51   52   .rdata  ascii   ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+2057 0x00108c28 0x180109a28 66   67   .rdata  ascii   ?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z
+2058 0x00108c6e 0x180109a6e 61   62   .rdata  ascii   ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+2059 0x00108cae 0x180109aae 76   77   .rdata  ascii   ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z
+2060 0x00108cfe 0x180109afe 105  106  .rdata  ascii   ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+2061 0x00108d6a 0x180109b6a 73   74   .rdata  ascii   ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+2062 0x00108db6 0x180109bb6 64   65   .rdata  ascii   ?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+2063 0x00108dfa 0x180109bfa 63   64   .rdata  ascii   ?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+2064 0x00108e3c 0x180109c3c 63   64   .rdata  ascii   ?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+2065 0x00108e7e 0x180109c7e 64   65   .rdata  ascii   ?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+2066 0x00108ec2 0x180109cc2 62   63   .rdata  ascii   ?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+2067 0x00108f04 0x180109d04 64   65   .rdata  ascii   ?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+2068 0x00108f48 0x180109d48 65   66   .rdata  ascii   ?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+2069 0x00108f8c 0x180109d8c 65   66   .rdata  ascii   ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+2070 0x00108fd0 0x180109dd0 65   66   .rdata  ascii   ?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ
+2071 0x00109014 0x180109e14 62   63   .rdata  ascii   ?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+2072 0x00109056 0x180109e56 65   66   .rdata  ascii   ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+2073 0x0010909a 0x180109e9a 65   66   .rdata  ascii   ?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ
+2074 0x001090de 0x180109ede 80   81   .rdata  ascii   ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+2075 0x00109132 0x180109f32 81   82   .rdata  ascii   ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+2076 0x00109186 0x180109f86 51   52   .rdata  ascii   ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+2077 0x001091bc 0x180109fbc 57   58   .rdata  ascii   ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+2078 0x001091f8 0x180109ff8 66   67   .rdata  ascii   ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+2079 0x0010923e 0x18010a03e 69   70   .rdata  ascii   ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+2080 0x00109286 0x18010a086 69   70   .rdata  ascii   ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+2081 0x001092ce 0x18010a0ce 55   56   .rdata  ascii   ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+2082 0x00109308 0x18010a108 41   42   .rdata  ascii   ?always_noconv@codecvt_base@std@@QEBA_NXZ
+2083 0x00109334 0x18010a134 26   27   .rdata  ascii   ??Bid@locale@std@@QEAA_KXZ
+2084 0x00109350 0x18010a150 12   13   .rdata  ascii   MSVCP140.dll
+2085 0x00109360 0x18010a160 25   26   .rdata  ascii   WinHttpQueryDataAvailable
+2086 0x0010937c 0x18010a17c 15   16   .rdata  ascii   WinHttpCrackUrl
+2087 0x0010938e 0x18010a18e 14   15   .rdata  ascii   WinHttpConnect
+2088 0x001093a0 0x18010a1a0 18   19   .rdata  ascii   WinHttpQueryOption
+2089 0x001093b6 0x18010a1b6 18   19   .rdata  ascii   WinHttpSendRequest
+2090 0x001093cc 0x18010a1cc 18   19   .rdata  ascii   WinHttpCloseHandle
+2091 0x001093e2 0x18010a1e2 16   17   .rdata  ascii   WinHttpSetOption
+2092 0x001093f6 0x18010a1f6 18   19   .rdata  ascii   WinHttpOpenRequest
+2093 0x0010940c 0x18010a20c 15   16   .rdata  ascii   WinHttpReadData
+2094 0x0010941e 0x18010a21e 19   20   .rdata  ascii   WinHttpQueryHeaders
+2095 0x00109434 0x18010a234 11   12   .rdata  ascii   WinHttpOpen
+2096 0x00109442 0x18010a242 22   23   .rdata  ascii   WinHttpReceiveResponse
+2097 0x0010945a 0x18010a25a 11   12   .rdata  ascii   WINHTTP.dll
+2098 0x00109468 0x18010a268 18   19   .rdata  ascii   __CxxFrameHandler3
+2099 0x0010947e 0x18010a27e 15   16   .rdata  ascii   __std_terminate
+2100 0x00109490 0x18010a290 23   24   .rdata  ascii   __std_exception_destroy
+2101 0x001094aa 0x18010a2aa 20   21   .rdata  ascii   __std_exception_copy
+2102 0x001094c2 0x18010a2c2 9    10   .rdata  ascii   _purecall
+2103 0x001094ce 0x18010a2ce 20   21   .rdata  ascii   __C_specific_handler
+2104 0x001094e6 0x18010a2e6 18   19   .rdata  ascii   _CxxThrowException
+2105 0x001094fc 0x18010a2fc 6    7    .rdata  ascii   memset
+2106 0x00109506 0x18010a306 28   29   .rdata  ascii   __std_type_info_destroy_list
+2107 0x00109526 0x18010a326 6    7    .rdata  ascii   memcpy
+2108 0x00109530 0x18010a330 7    8    .rdata  ascii   memmove
+2109 0x0010953a 0x18010a33a 6    7    .rdata  ascii   memchr
+2110 0x00109544 0x18010a344 6    7    .rdata  ascii   memcmp
+2111 0x0010954e 0x18010a34e 6    7    .rdata  ascii   strchr
+2112 0x00109558 0x18010a358 7    8    .rdata  ascii   strrchr
+2113 0x00109562 0x18010a362 6    7    .rdata  ascii   strstr
+2114 0x0010956a 0x18010a36a 16   17   .rdata  ascii   VCRUNTIME140.dll
+2115 0x0010957e 0x18010a37e 5    6    .rdata  ascii   fputc
+2116 0x00109586 0x18010a386 7    8    .rdata  ascii   toupper
+2117 0x00109590 0x18010a390 15   16   .rdata  ascii   __acrt_iob_func
+2118 0x001095a2 0x18010a3a2 8    9    .rdata  ascii   _wcsicmp
+2119 0x001095ae 0x18010a3ae 6    7    .rdata  ascii   fflush
+2120 0x001095b8 0x18010a3b8 9    10   .rdata  ascii   _wfopen_s
+2121 0x001095c4 0x18010a3c4 6    7    .rdata  ascii   fclose
+2122 0x001095ce 0x18010a3ce 9    10   .rdata  ascii   strncpy_s
+2123 0x001095da 0x18010a3da 7    8    .rdata  ascii   tolower
+2124 0x001095e4 0x18010a3e4 5    6    .rdata  ascii   fgetc
+2125 0x001095ec 0x18010a3ec 23   24   .rdata  ascii   __stdio_common_vfprintf
+2126 0x00109606 0x18010a406 7    8    .rdata  ascii   strncpy
+2127 0x00109610 0x18010a410 12   13   .rdata  ascii   _unlock_file
+2128 0x00109620 0x18010a420 10   11   .rdata  ascii   _lock_file
+2129 0x0010962e 0x18010a42e 6    7    .rdata  ascii   fwrite
+2130 0x00109638 0x18010a438 23   24   .rdata  ascii   __stdio_common_vsprintf
+2131 0x00109652 0x18010a452 7    8    .rdata  ascii   fgetpos
+2132 0x0010965c 0x18010a45c 7    8    .rdata  ascii   setvbuf
+2133 0x00109666 0x18010a466 6    7    .rdata  ascii   ungetc
+2134 0x00109670 0x18010a470 7    8    .rdata  ascii   fsetpos
+2135 0x0010967a 0x18010a47a 5    6    .rdata  ascii   fread
+2136 0x00109682 0x18010a482 9    10   .rdata  ascii   _fseeki64
+2137 0x0010968e 0x18010a48e 34   35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+2138 0x001096b4 0x18010a4b4 27   28   .rdata  ascii   _get_stream_buffer_pointers
+2139 0x001096d2 0x18010a4d2 9    10   .rdata  ascii   _callnewh
+2140 0x001096de 0x18010a4de 6    7    .rdata  ascii   malloc
+2141 0x001096e8 0x18010a4e8 15   16   .rdata  ascii   _seh_filter_dll
+2142 0x001096fa 0x18010a4fa 22   23   .rdata  ascii   _configure_narrow_argv
+2143 0x00109714 0x18010a514 30   31   .rdata  ascii   _initialize_narrow_environment
+2144 0x00109736 0x18010a536 24   25   .rdata  ascii   _initialize_onexit_table
+2145 0x00109752 0x18010a552 25   26   .rdata  ascii   _register_onexit_function
+2146 0x0010976e 0x18010a56e 21   22   .rdata  ascii   _execute_onexit_table
+2147 0x00109786 0x18010a586 11   12   .rdata  ascii   _crt_atexit
+2148 0x00109794 0x18010a594 6    7    .rdata  ascii   _cexit
+2149 0x0010979e 0x18010a59e 9    10   .rdata  ascii   _initterm
+2150 0x001097aa 0x18010a5aa 11   12   .rdata  ascii   _initterm_e
+2151 0x001097b8 0x18010a5b8 4    5    .rdata  ascii   free
+2152 0x001097c0 0x18010a5c0 9    10   .rdata  ascii   terminate
+2153 0x001097cc 0x18010a5cc 6    7    .rdata  ascii   strlen
+2154 0x001097d6 0x18010a5d6 6    7    .rdata  ascii   calloc
+2155 0x001097e0 0x18010a5e0 6    7    .rdata  ascii   strtod
+2156 0x001097ea 0x18010a5ea 6    7    .rdata  ascii   strtol
+2157 0x001097f4 0x18010a5f4 6    7    .rdata  ascii   strcmp
+2158 0x001097fe 0x18010a5fe 6    7    .rdata  ascii   strcpy
+2159 0x00109808 0x18010a608 5    6    .rdata  ascii   abort
+2160 0x00109810 0x18010a610 7    8    .rdata  ascii   strncmp
+2161 0x0010981a 0x18010a61a 8    9    .rdata  ascii   strtok_s
+2162 0x00109826 0x18010a626 6    7    .rdata  ascii   _errno
+2163 0x00109830 0x18010a630 4    5    .rdata  ascii   atoi
+2164 0x00109838 0x18010a638 9    10   .rdata  ascii   _strtof_l
+2165 0x00109844 0x18010a644 9    10   .rdata  ascii   _strtod_l
+2166 0x00109850 0x18010a650 11   12   .rdata  ascii   _strtoi64_l
+2167 0x0010985e 0x18010a65e 12   13   .rdata  ascii   _strtoui64_l
+2168 0x0010986e 0x18010a66e 7    8    .rdata  ascii   strpbrk
+2169 0x00109878 0x18010a678 4    5    .rdata  ascii   acos
+2170 0x00109880 0x18010a680 4    5    .rdata  ascii   asin
+2171 0x00109888 0x18010a688 4    5    .rdata  ascii   atan
+2172 0x001098a2 0x18010a6a2 10   11   .rdata  ascii   _stat64i32
+2173 0x001098b0 0x18010a6b0 14   15   .rdata  ascii   _create_locale
+2174 0x001098c2 0x18010a6c2 12   13   .rdata  ascii   _free_locale
+2175 0x001098d2 0x18010a6d2 7    8    .rdata  ascii   isspace
+2176 0x001098dc 0x18010a6dc 7    8    .rdata  ascii   bsearch
+2177 0x001098e6 0x18010a6e6 7    8    .rdata  ascii   _time64
+2178 0x001098f0 0x18010a6f0 22   23   .rdata  ascii   __stdio_common_vsscanf
+2179 0x0010990a 0x18010a70a 7    8    .rdata  ascii   strtoul
+2180 0x00109914 0x18010a714 7    8    .rdata  ascii   realloc
+2181 0x0010991e 0x18010a71e 9    10   .rdata  ascii   _gmtime64
+2182 0x0010992a 0x18010a72a 5    6    .rdata  ascii   fputs
+2183 0x00109932 0x18010a732 5    6    .rdata  ascii   qsort
+2184 0x0010993a 0x18010a73a 4    5    .rdata  ascii   feof
+2185 0x00109942 0x18010a742 5    6    .rdata  ascii   fseek
+2186 0x0010994a 0x18010a74a 5    6    .rdata  ascii   ftell
+2187 0x00109952 0x18010a752 8    9    .rdata  ascii   strerror
+2188 0x0010995e 0x18010a75e 8    9    .rdata  ascii   _mbspbrk
+2189 0x0010996a 0x18010a76a 5    6    .rdata  ascii   fopen
+2190 0x00109972 0x18010a772 7    8    .rdata  ascii   _access
+2191 0x0010997c 0x18010a77c 7    8    .rdata  ascii   _stat64
+2192 0x00109986 0x18010a786 7    8    .rdata  ascii   strtoll
+2193 0x00109990 0x18010a790 5    6    .rdata  ascii   fgets
+2194 0x00109998 0x18010a798 14   15   .rdata  ascii   _beginthreadex
+2195 0x001099aa 0x18010a7aa 7    8    .rdata  ascii   _mbschr
+2196 0x001099b4 0x18010a7b4 8    9    .rdata  ascii   _mbsncmp
+2197 0x001099c0 0x18010a7c0 7    8    .rdata  ascii   strcspn
+2198 0x001099ca 0x18010a7ca 6    7    .rdata  ascii   strspn
+2199 0x001099d4 0x18010a7d4 10   11   .rdata  ascii   __sys_nerr
+2200 0x001099e2 0x18010a7e2 8    9    .rdata  ascii   wcstombs
+2201 0x001099ee 0x18010a7ee 9    10   .rdata  ascii   _mbsnbcpy
+2202 0x001099fa 0x18010a7fa 7    8    .rdata  ascii   isupper
+2203 0x00109a02 0x18010a802 31   32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+2204 0x00109a22 0x18010a822 32   33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+2205 0x00109a44 0x18010a844 36   37   .rdata  ascii   api-ms-win-crt-filesystem-l1-1-0.dll
+2206 0x00109a6a 0x18010a86a 33   34   .rdata  ascii   api-ms-win-crt-convert-l1-1-0.dll
+2207 0x00109a8c 0x18010a88c 33   34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+2208 0x00109aae 0x18010a8ae 30   31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+2209 0x00109ace 0x18010a8ce 30   31   .rdata  ascii   api-ms-win-crt-math-l1-1-0.dll
+2210 0x00109aee 0x18010a8ee 32   33   .rdata  ascii   api-ms-win-crt-locale-l1-1-0.dll
+2211 0x00109b10 0x18010a910 33   34   .rdata  ascii   api-ms-win-crt-utility-l1-1-0.dll
+2212 0x00109b32 0x18010a932 30   31   .rdata  ascii   api-ms-win-crt-time-l1-1-0.dll
+2213 0x00109b52 0x18010a952 35   36   .rdata  ascii   api-ms-win-crt-multibyte-l1-1-0.dll
+2214 0x00109b78 0x18010a978 17   18   .rdata  ascii   RtlCaptureContext
+2215 0x00109b8c 0x18010a98c 22   23   .rdata  ascii   RtlLookupFunctionEntry
+2216 0x00109ba6 0x18010a9a6 16   17   .rdata  ascii   RtlVirtualUnwind
+2217 0x00109bba 0x18010a9ba 24   25   .rdata  ascii   UnhandledExceptionFilter
+2218 0x00109bd6 0x18010a9d6 27   28   .rdata  ascii   SetUnhandledExceptionFilter
+2219 0x00109bf4 0x18010a9f4 17   18   .rdata  ascii   GetCurrentProcess
+2220 0x00109c08 0x18010aa08 16   17   .rdata  ascii   TerminateProcess
+2221 0x00109c1c 0x18010aa1c 25   26   .rdata  ascii   IsProcessorFeaturePresent
+2222 0x00109c38 0x18010aa38 17   18   .rdata  ascii   IsDebuggerPresent
+2223 0x00109c4c 0x18010aa4c 16   17   .rdata  ascii   GetModuleHandleW
+2224 0x00109c60 0x18010aa60 23   24   .rdata  ascii   QueryPerformanceCounter
+2225 0x00109c7a 0x18010aa7a 19   20   .rdata  ascii   GetCurrentProcessId
+2226 0x00109c90 0x18010aa90 18   19   .rdata  ascii   GetCurrentThreadId
+2227 0x00109ca6 0x18010aaa6 23   24   .rdata  ascii   GetSystemTimeAsFileTime
+2228 0x00109cc0 0x18010aac0 19   20   .rdata  ascii   InitializeSListHead
+2229 0x00109cd6 0x18010aad6 16   17   .rdata  ascii   ReleaseSemaphore
+2230 0x00109cea 0x18010aaea 12   13   .rdata  ascii   ReleaseMutex
+2231 0x00109cfa 0x18010aafa 19   20   .rdata  ascii   WaitForSingleObject
+2232 0x00109d10 0x18010ab10 11   12   .rdata  ascii   CloseHandle
+2233 0x00109d1e 0x18010ab1e 12   13   .rdata  ascii   CreateMutexA
+2234 0x00109d2e 0x18010ab2e 16   17   .rdata  ascii   CreateSemaphoreA
+2235 0x00109d42 0x18010ab42 18   19   .rdata  ascii   OutputDebugStringA
+2236 0x00109d58 0x18010ab58 16   17   .rdata  ascii   GetFullPathNameA
+2237 0x00109d6c 0x18010ab6c 25   26   .rdata  ascii   InitializeCriticalSection
+2238 0x00109d88 0x18010ab88 20   21   .rdata  ascii   EnterCriticalSection
+2239 0x00109da0 0x18010aba0 20   21   .rdata  ascii   LeaveCriticalSection
+2240 0x00109db8 0x18010abb8 21   22   .rdata  ascii   DeleteCriticalSection
+2241 0x00109dd0 0x18010abd0 7    8    .rdata  ascii   SleepEx
+2242 0x00109dda 0x18010abda 11   12   .rdata  ascii   FreeLibrary
+2243 0x00109de8 0x18010abe8 14   15   .rdata  ascii   GetProcAddress
+2244 0x00109dfa 0x18010abfa 12   13   .rdata  ascii   LoadLibraryA
+2245 0x00109e0a 0x18010ac0a 16   17   .rdata  ascii   GetModuleHandleA
+2246 0x00109e1e 0x18010ac1e 19   20   .rdata  ascii   GetSystemDirectoryA
+2247 0x00109e34 0x18010ac34 25   26   .rdata  ascii   QueryPerformanceFrequency
+2248 0x00109e50 0x18010ac50 12   13   .rdata  ascii   GetTickCount
+2249 0x00109e60 0x18010ac60 5    6    .rdata  ascii   Sleep
+2250 0x00109e68 0x18010ac68 11   12   .rdata  ascii   MoveFileExA
+2251 0x00109e76 0x18010ac76 21   22   .rdata  ascii   WaitForSingleObjectEx
+2252 0x00109e8e 0x18010ac8e 12   13   .rdata  ascii   GetLastError
+2253 0x00109e9e 0x18010ac9e 23   24   .rdata  ascii   GetEnvironmentVariableA
+2254 0x00109eb8 0x18010acb8 12   13   .rdata  ascii   SetLastError
+2255 0x00109ec8 0x18010acc8 14   15   .rdata  ascii   FormatMessageW
+2256 0x00109eda 0x18010acda 19   20   .rdata  ascii   VerSetConditionMask
+2257 0x00109ef0 0x18010acf0 18   19   .rdata  ascii   VerifyVersionInfoA
+2258 0x00109f06 0x18010ad06 13   14   .rdata  ascii   GetFileSizeEx
+2259 0x00109f16 0x18010ad16 8    9    .rdata  ascii   ReadFile
+2260 0x00109f22 0x18010ad22 11   12   .rdata  ascii   CreateFileA
+2261 0x00109f30 0x18010ad30 20   21   .rdata  ascii   CryptAcquireContextA
+2262 0x00109f48 0x18010ad48 19   20   .rdata  ascii   CryptReleaseContext
+2263 0x00109f5e 0x18010ad5e 17   18   .rdata  ascii   CryptGetHashParam
+2264 0x00109f72 0x18010ad72 14   15   .rdata  ascii   CryptGenRandom
+2265 0x00109f84 0x18010ad84 15   16   .rdata  ascii   CryptCreateHash
+2266 0x00109f96 0x18010ad96 13   14   .rdata  ascii   CryptHashData
+2267 0x00109fa6 0x18010ada6 16   17   .rdata  ascii   CryptDestroyHash
+2268 0x00109fb8 0x18010adb8 12   13   .rdata  ascii   ADVAPI32.dll
+2269 0x00109fc8 0x18010adc8 31   32   .rdata  ascii   ?_Xbad_function_call@std@@YAXXZ
+2270 0x00109fea 0x18010adea 25   26   .rdata  ascii   ??Bios_base@std@@QEBA_NXZ
+2271 0x0010a006 0x18010ae06 28   29   .rdata  ascii   ?fail@ios_base@std@@QEBA_NXZ
+2272 0x0010a026 0x18010ae26 70   71   .rdata  ascii   ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+2273 0x0010a070 0x18010ae70 68   69   .rdata  ascii   ?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z
+2274 0x0010a0b8 0x18010aeb8 83   84   .rdata  ascii   ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+2275 0x0010a10e 0x18010af0e 88   89   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+2276 0x0010a16a 0x18010af6a 62   63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@F@Z
+2277 0x0010a1ac 0x18010afac 62   63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
+2278 0x0010a1ee 0x18010afee 62   63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+2279 0x0010a230 0x18010b030 62   63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+2280 0x0010a272 0x18010b072 63   64   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z
+2281 0x0010a2b4 0x18010b0b4 63   64   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+2282 0x0010a2f6 0x18010b0f6 62   63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z
+2283 0x0010a338 0x18010b138 62   63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@N@Z
+2284 0x0010a37a 0x18010b17a 104  105  .rdata  ascii   ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+2285 0x0010a3e6 0x18010b1e6 56   57   .rdata  ascii   ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+2286 0x0010a422 0x18010b222 43   44   .rdata  ascii   ?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z
+2287 0x0010a450 0x18010b250 61   62   .rdata  ascii   ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+2288 0x0010a490 0x18010b290 63   64   .rdata  ascii   ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+2289 0x0010a4d2 0x18010b2d2 74   75   .rdata  ascii   ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+2290 0x0010a520 0x18010b320 74   75   .rdata  ascii   ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+2291 0x0010a56e 0x18010b36e 60   61   .rdata  ascii   ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+2292 0x0010a5ae 0x18010b3ae 61   62   .rdata  ascii   ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+2293 0x0010a5ee 0x18010b3ee 8    9    .rdata  ascii   _Thrd_id
+2294 0x0010a5fa 0x18010b3fa 105  106  .rdata  ascii   ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+2295 0x0010a666 0x18010b466 55   56   .rdata  ascii   ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+2296 0x0010a6a0 0x18010b4a0 109  110  .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+2297 0x0010a710 0x18010b510 71   72   .rdata  ascii   ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
+2298 0x0010a75a 0x18010b55a 64   65   .rdata  ascii   ?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+2299 0x0010a79e 0x18010b59e 31   32   .rdata  ascii   ?uncaught_exception@std@@YA_NXZ
+2300 0x0010a7c0 0x18010b5c0 28   29   .rdata  ascii   ?good@ios_base@std@@QEBA_NXZ
+2301 0x0010a7e0 0x18010b5e0 28   29   .rdata  ascii   ?flags@ios_base@std@@QEBAHXZ
+2302 0x0010a800 0x18010b600 29   30   .rdata  ascii   ?width@ios_base@std@@QEBA_JXZ
+2303 0x0010a820 0x18010b620 31   32   .rdata  ascii   ?width@ios_base@std@@QEAA_J_J@Z
+2304 0x0010a842 0x18010b642 62   63   .rdata  ascii   ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+2305 0x0010a884 0x18010b684 68   69   .rdata  ascii   ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+2306 0x0010a8cc 0x18010b6cc 98   99   .rdata  ascii   ?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ
+2307 0x0010a932 0x18010b732 102  103  .rdata  ascii   ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+2308 0x0010a99c 0x18010b79c 54   55   .rdata  ascii   ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ
+2309 0x0010a9d6 0x18010b7d6 59   60   .rdata  ascii   ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+2310 0x0010aa14 0x18010b814 65   66   .rdata  ascii   ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+2311 0x0010aa58 0x18010b858 66   67   .rdata  ascii   ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEA_J@Z
+2312 0x0010aa9e 0x18010b89e 65   66   .rdata  ascii   ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+2313 0x0010aae2 0x18010b8e2 11   12   .rdata  ascii   _Thrd_start
+2314 0x0010aaf0 0x18010b8f0 10   11   .rdata  ascii   _Thrd_join
+2315 0x0010aafe 0x18010b8fe 9    10   .rdata  ascii   _Mtx_init
+2316 0x0010ab0a 0x18010b90a 12   13   .rdata  ascii   _Mtx_destroy
+2317 0x0010ab1a 0x18010b91a 9    10   .rdata  ascii   _Cnd_init
+2318 0x0010ab26 0x18010b926 12   13   .rdata  ascii   _Cnd_destroy
+2319 0x0010ab36 0x18010b936 20   21   .rdata  ascii   _Cnd_destroy_in_situ
+2320 0x0010ab4e 0x18010b94e 9    10   .rdata  ascii   _Cnd_wait
+2321 0x0010ab5a 0x18010b95a 11   12   .rdata  ascii   _Cnd_signal
+2322 0x0010ab68 0x18010b968 32   33   .rdata  ascii   _Cnd_do_broadcast_at_thread_exit
+2323 0x0010ab8c 0x18010b98c 29   30   .rdata  ascii   ?_Throw_Cpp_error@std@@YAXH@Z
+2324 0x0010abac 0x18010b9ac 34   35   .rdata  ascii   ?_Xinvalid_argument@std@@YAXPEBD@Z
+2325 0x0010abd2 0x18010b9d2 17   18   .rdata  ascii   _Cnd_init_in_situ
+2326 0x0010abe6 0x18010b9e6 14   15   .rdata  ascii   _Cnd_broadcast
+2327 0x0010abf8 0x18010b9f8 35   36   .rdata  ascii   ?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+2328 0x0010ac1e 0x18010ba1e 13   14   .rdata  ascii   WSACloseEvent
+2329 0x0010ac2e 0x18010ba2e 14   15   .rdata  ascii   WSACreateEvent
+2330 0x0010ac40 0x18010ba40 9    10   .rdata  ascii   inet_pton
+2331 0x0010ac4c 0x18010ba4c 8    9    .rdata  ascii   WSAIoctl
+2332 0x0010ac58 0x18010ba58 11   12   .rdata  ascii   getaddrinfo
+2333 0x0010ac66 0x18010ba66 12   13   .rdata  ascii   freeaddrinfo
+2334 0x0010ac74 0x18010ba74 10   11   .rdata  ascii   WS2_32.dll
+2335 0x0010ac82 0x18010ba82 13   14   .rdata  ascii   CertOpenStore
+2336 0x0010ac92 0x18010ba92 14   15   .rdata  ascii   CertCloseStore
+2337 0x0010aca4 0x18010baa4 27   28   .rdata  ascii   CertEnumCertificatesInStore
+2338 0x0010acc2 0x18010bac2 26   27   .rdata  ascii   CertFindCertificateInStore
+2339 0x0010ace0 0x18010bae0 26   27   .rdata  ascii   CertFreeCertificateContext
+2340 0x0010acfe 0x18010bafe 20   21   .rdata  ascii   CryptStringToBinaryA
+2341 0x0010ad16 0x18010bb16 18   19   .rdata  ascii   PFXImportCertStore
+2342 0x0010ad2c 0x18010bb2c 19   20   .rdata  ascii   CryptDecodeObjectEx
+2343 0x0010ad42 0x18010bb42 32   33   .rdata  ascii   CertAddCertificateContextToStore
+2344 0x0010ad66 0x18010bb66 17   18   .rdata  ascii   CertFindExtension
+2345 0x0010ad7a 0x18010bb7a 16   17   .rdata  ascii   CryptQueryObject
+2346 0x0010ad8e 0x18010bb8e 32   33   .rdata  ascii   CertCreateCertificateChainEngine
+2347 0x0010adb2 0x18010bbb2 30   31   .rdata  ascii   CertFreeCertificateChainEngine
+2348 0x0010add4 0x18010bbd4 23   24   .rdata  ascii   CertGetCertificateChain
+2349 0x0010adee 0x18010bbee 24   25   .rdata  ascii   CertFreeCertificateChain
+2350 0x0010ae08 0x18010bc08 11   12   .rdata  ascii   CRYPT32.dll
+2351 0x0010ae16 0x18010bc16 7    8    .rdata  ascii   _strdup
+2352 0x0010ae20 0x18010bc20 7    8    .rdata  ascii   _unlink
+2353 0x0010ae2a 0x18010bc2a 13   14   .rdata  ascii   _get_daylight
+2354 0x0010ae3a 0x18010bc3a 11   12   .rdata  ascii   _get_tzname
+2355 0x0010ae48 0x18010bc48 37   38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+2356 0x0010ae70 0x18010bc70 8    9    .rdata  ascii   SetEvent
+2357 0x0010ae7c 0x18010bc7c 10   11   .rdata  ascii   ResetEvent
+2358 0x0010ae8a 0x18010bc8a 12   13   .rdata  ascii   CreateEventW
+2359 0x0010ae9a 0x18010bc9a 14   15   .rdata  ascii   GetLocaleInfoA
+2360 0x0010aeac 0x18010bcac 12   13   .rdata  ascii   CoCreateGuid
+2361 0x0010aeba 0x18010bcba 9    10   .rdata  ascii   ole32.dll
+2362 0x0010aec6 0x18010bcc6 12   13   .rdata  ascii   _Thrd_detach
+2363 0x0010b290 0x18010c290 15   16   .data   ascii   .?AVtype_info@@
+2364 0x0010b2b0 0x18010c2b0 19   20   .data   ascii   .?AVbad_alloc@std@@
+2365 0x0010b2d8 0x18010c2d8 30   31   .data   ascii   .?AVbad_array_new_length@std@@
+2366 0x0010b308 0x18010c308 40   41   .data   ascii   .?AVFutureApiInterface@detail@firebase@@
+2367 0x0010b348 0x18010c348 41   42   .data   ascii   .?AVReferenceCountedFutureImpl@firebase@@
+2368 0x0010b388 0x18010c388 32   33   .data   ascii   .?AVModuleInitializer@firebase@@
+2369 0x0010b3c0 0x18010c3c0 27   28   .data   ascii   .?AVAllocator@flatbuffers@@
+2370 0x0010b3f0 0x18010c3f0 34   35   .data   ascii   .?AVDefaultAllocator@flatbuffers@@
+2371 0x0010b428 0x18010c428 25   26   .data   ascii   .?AVLoggerBase@firebase@@
+2372 0x0010b458 0x18010c458 27   28   .data   ascii   .?AVSystemLogger@firebase@@
+2373 0x0010b488 0x18010c488 21   22   .data   ascii   .?AVLogger@firebase@@
+2374 0x0010b4b0 0x18010c4b0 68   69   .data   ascii   .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+2375 0x0010b510 0x18010c510 71   72   .data   ascii   .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+2376 0x0010b570 0x18010c570 50   51   .data   ascii   .?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+2377 0x0010b5c0 0x18010c5c0 49   50   .data   ascii   .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+2378 0x0010b608 0x18010c608 32   33   .data   ascii   .?AVCallback@callback@firebase@@
+2379 0x0010b640 0x18010c640 40   41   .data   ascii   .?AVBlockingCallback@callback@firebase@@
+2380 0x0010b680 0x18010c680 72   73   .data   ascii   .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+2381 0x0010b6e0 0x18010c6e0 49   50   .data   ascii   .?AV?$basic_fstream@DU?$char_traits@D@std@@@std@@
+2382 0x0010b728 0x18010c728 14   15   .data   ascii   .?AV_Pad@std@@
+2383 0x0010b750 0x18010c750 203  204  .data   ascii   .?AV?$CallbackVariadic@V?$SafeReference@VRemoteConfigInternal@internal@remote_config@firebase@@@internal@firebase@@V?$SharedPtr@U?$RCDataHandle@_N@internal@remote_config@firebase@@@3@@callback@firebase@@
+2384 0x0010b830 0x18010c830 182  183  .data   ascii   .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_e8f61ccca887139a0eab21379cd0ec8b>@@@std@@U?$default_delete@V?$tuple@V<lambda_e8f61ccca887139a0eab21379cd0ec8b>@@@std@@@2@@std@@@std@@
+2385 0x0010b900 0x18010c900 202  203  .data   ascii   .?AV?$CallbackVariadic@V?$SafeReference@VRemoteConfigInternal@internal@remote_config@firebase@@@internal@firebase@@V?$SharedPtr@U?$RCDataHandle@X@internal@remote_config@firebase@@@3@@callback@firebase@@
+2386 0x0010b9e0 0x18010c9e0 28   29   .data   ascii   .?AVTransfer@rest@firebase@@
+2387 0x0010ba10 0x18010ca10 28   29   .data   ascii   .?AVResponse@rest@firebase@@
+2388 0x0010ba40 0x18010ca40 58   59   .data   ascii   .?AVRemoteConfigResponse@internal@remote_config@firebase@@
+2389 0x0010ba90 0x18010ca90 88   89   .data   ascii   .?AV?$ResponseJson@UResponse@fbs@remote_config@firebase@@UResponseT@234@@rest@firebase@@
+2390 0x0010bb00 0x18010cb00 27   28   .data   ascii   .?AVRequest@rest@firebase@@
+2391 0x0010bb30 0x18010cb30 57   58   .data   ascii   .?AVRemoteConfigRequest@internal@remote_config@firebase@@
+2392 0x0010bb80 0x18010cb80 85   86   .data   ascii   .?AV?$RequestJson@URequest@fbs@remote_config@firebase@@URequestT@234@@rest@firebase@@
+2393 0x0010bbe8 0x18010cbe8 29   30   .data   ascii   .?AVTransport@rest@firebase@@
+2394 0x0010bc18 0x18010cc18 33   34   .data   ascii   .?AVTransportCurl@rest@firebase@@
+2395 0x0010bc50 0x18010cc50 30   31   .data   ascii   .?AVController@rest@firebase@@
+2396 0x0010bc80 0x18010cc80 34   35   .data   ascii   .?AVControllerCurl@rest@firebase@@
+2397 0x0010bcb8 0x18010ccb8 43   44   .data   ascii   .?AVCallbackStdFunction@callback@firebase@@
+2398 0x0010bd00 0x18010cd00 122  123  .data   ascii   .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P6AXPEAX@ZPEAX@std@@U?$default_delete@V?$tuple@P6AXPEAX@ZPEAX@std@@@2@@std@@@std@@
+2399 0x0010bd90 0x18010cd90 106  107  .data   ascii   .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P6AXXZ@std@@U?$default_delete@V?$tuple@P6AXXZ@std@@@2@@std@@@std@@
+2400 0x0010be10 0x18010ce10 49   50   .data   ascii   .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+2401 0x0010be60 0x18010ce60 50   51   .data   ascii   .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+2402 0x0010bea8 0x18010cea8 18   19   .data   ascii   .?AVios_base@std@@
+2403 0x0010bed0 0x18010ced0 21   22   .data   ascii   .?AVIFireBaseConfig@@
+2404 0x0010bef8 0x18010cef8 19   20   .data   ascii   .?AV?$_Iosb@H@std@@
+2405 0x0010bf20 0x18010cf20 26   27   .data   ascii   .?AVFilebaseOnlineConfig@@
+2406 0x0010bf50 0x18010cf50 51   52   .data   ascii   .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+2407 0x0010bf98 0x18010cf98 18   19   .data   ascii   .?AVbad_cast@std@@
+2408 0x0010bfc0 0x18010cfc0 49   50   .data   ascii   .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+2409 0x0010c008 0x18010d008 45   46   .data   ascii   .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+2410 0x0010c048 0x18010d048 19   20   .data   ascii   .?AVexception@std@@
+2411 0x00116a60 0x18011a060 145  146  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n</assembly>\r\n

@@ -1,0 +1,44 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib          name                                                         demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000460 0x180001060 GLOBAL FUNC 0    FatFormat.mo ??0IDiskDevice@@QEAA@AEBV0@@Z
+2   0x00000460 0x180001060 GLOBAL FUNC 0    FatFormat.mo ??0IDiskDevice@@QEAA@XZ
+3   0x00000470 0x180001070 GLOBAL FUNC 0    FatFormat.mo ??0IObject@@QEAA@$$QEAU0@@Z
+4   0x00000470 0x180001070 GLOBAL FUNC 0    FatFormat.mo ??0IObject@@QEAA@AEBU0@@Z
+5   0x00000470 0x180001070 GLOBAL FUNC 0    FatFormat.mo ??0IObject@@QEAA@XZ
+6   0x00000480 0x180001080 GLOBAL FUNC 0    FatFormat.mo ??0IPartitionDevice@@QEAA@AEBV0@@Z
+7   0x00000480 0x180001080 GLOBAL FUNC 0    FatFormat.mo ??0IPartitionDevice@@QEAA@XZ
+8   0x00000490 0x180001090 GLOBAL FUNC 0    FatFormat.mo ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+9   0x00000490 0x180001090 GLOBAL FUNC 0    FatFormat.mo ??0IStorageDevice@@QEAA@AEBU0@@Z
+10  0x00000490 0x180001090 GLOBAL FUNC 0    FatFormat.mo ??0IStorageDevice@@QEAA@XZ
+11  0x000004f0 0x1800010f0 GLOBAL FUNC 0    FatFormat.mo ??1IDiskDevice@@UEAA@XZ
+12  0x00000500 0x180001100 GLOBAL FUNC 0    FatFormat.mo ??1IPartitionDevice@@UEAA@XZ
+13  0x00000510 0x180001110 GLOBAL FUNC 0    FatFormat.mo ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+14  0x00000510 0x180001110 GLOBAL FUNC 0    FatFormat.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+15  0x00000520 0x180001120 GLOBAL FUNC 0    FatFormat.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+16  0x00000520 0x180001120 GLOBAL FUNC 0    FatFormat.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+17  0x00000520 0x180001120 GLOBAL FUNC 0    FatFormat.mo ??4IDiskDevice@@QEAAAEAV0@AEBV0@@Z
+18  0x00000520 0x180001120 GLOBAL FUNC 0    FatFormat.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+19  0x00000520 0x180001120 GLOBAL FUNC 0    FatFormat.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+20  0x00000520 0x180001120 GLOBAL FUNC 0    FatFormat.mo ??4IPartitionDevice@@QEAAAEAV0@AEBV0@@Z
+21  0x00000520 0x180001120 GLOBAL FUNC 0    FatFormat.mo ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+22  0x00000520 0x180001120 GLOBAL FUNC 0    FatFormat.mo ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+23  0x000064a0 0x1800074a0 GLOBAL FUNC 0    FatFormat.mo ??_7IDiskDevice@@6B@
+24  0x00006468 0x180007468 GLOBAL FUNC 0    FatFormat.mo ??_7IObject@@6B@
+25  0x000064f8 0x1800074f8 GLOBAL FUNC 0    FatFormat.mo ??_7IPartitionDevice@@6B@
+26  0x00006600 0x180007600 GLOBAL FUNC 0    FatFormat.mo ??_7IStorageDevice@@6BIBlockDevice@@@
+27  0x00006580 0x180007580 GLOBAL FUNC 0    FatFormat.mo ??_7IStorageDevice@@6BIObject@@@
+28  0x000006d0 0x1800012d0 GLOBAL FUNC 0    FatFormat.mo ?AddRef@IObject@@QEBAKXZ
+29  0x00000eb0 0x180001ab0 GLOBAL FUNC 0    FatFormat.mo ?ConvertVolume@IStorageDevice@@UEAAHXZ
+30  0x00000eb0 0x180001ab0 GLOBAL FUNC 0    FatFormat.mo ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+31  0x00000eb0 0x180001ab0 GLOBAL FUNC 0    FatFormat.mo ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+32  0x00000fb0 0x180001bb0 GLOBAL FUNC 0    FatFormat.mo ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+33  0x00000eb0 0x180001ab0 GLOBAL FUNC 0    FatFormat.mo ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+34  0x00000fc0 0x180001bc0 GLOBAL FUNC 0    FatFormat.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+35  0x00000eb0 0x180001ab0 GLOBAL FUNC 0    FatFormat.mo ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+36  0x00001080 0x180001c80 GLOBAL FUNC 0    FatFormat.mo ?Release@IObject@@QEBAKXZ
+37  0x00001090 0x180001c90 GLOBAL FUNC 0    FatFormat.mo ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+38  0x00000eb0 0x180001ab0 GLOBAL FUNC 0    FatFormat.mo ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+39  0x00000eb0 0x180001ab0 GLOBAL FUNC 0    FatFormat.mo ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+40  0x00000eb0 0x180001ab0 GLOBAL FUNC 0    FatFormat.mo ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+41  0x000042e0 0x180004ee0 GLOBAL FUNC 0    FatFormat.mo GetModule

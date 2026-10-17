@@ -1,0 +1,5 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib              name                     demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x000006c0 0x1800012c0 GLOBAL FUNC 0    FATSearchDLL.dll EUCreateFATQuickSearcher
+2   0x00000690 0x180001290 GLOBAL FUNC 0    FATSearchDLL.dll EUCreateFATSearcher

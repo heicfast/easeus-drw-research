@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x140000000
+binsz    2974952
+bintype  pe
+bits     64
+canary   true
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x002e5418
+compiled Sun Sep  1 21:18:07 2041
+crypto   false
+dbg_file E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\PDFViewer.pdb
+endian   little
+havecode true
+hdr.csum 0x002e5418
+guid     305FDB09F9C443D1A5E3FF43317036AD1
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

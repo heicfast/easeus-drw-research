@@ -1,0 +1,7 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib            name                                 demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000f70 0x180001b70 GLOBAL FUNC 0    AutoUpdate.dll ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+2   0x00000f80 0x180001b80 GLOBAL FUNC 0    AutoUpdate.dll ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+3   0x00000f80 0x180001b80 GLOBAL FUNC 0    AutoUpdate.dll ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+4   0x00000db0 0x1800019b0 GLOBAL FUNC 0    AutoUpdate.dll GetAutoUpdateInstance

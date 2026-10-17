@@ -1,0 +1,224 @@
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+application/json
+application/octet-stream
+win_drw_cloud_log
+files/upload_sessions
+file_name
+file_size
+folder_id
+Exception: 
+Error: 
+session_endpoints
+upload_part
+part_size
+files/upload_sessions/
+bytes %lld-%lld/%lld
+Content-Range
+Digest
+i196j0j9ld6tzd3n2vj711uh274gm2wt
+bQoeiofd06YezqaO2oDtvH0k609NX9yq
+http://127.0.0.1:12236/
+https://account.box.com/api/oauth2/authorize/
+https://api.box.com/oauth2/token/
+https://api.box.com/2.0/
+Error: saved token is invalid.
+Warning Exception: 
+Error: token buf is too short.
+users/me
+space_amount
+space_used
+folders/
+/items/?fields=id,type,name&sort=name&direction=ASC
+entries
+folder
+parent
+folders
+https://upload.box.com/api/2.0/
+ data: 
+rlast error = 
+, status_code = 
+resp.status_code(): 
+Dropbox-API-Arg
+{"close": false}
+files/upload_session/start
+session_id
+correct_offset
+Error: correct offset: 
+, current offset: 
+retry_after
+Error: parse_retry_after fail: 
+cursor
+offset
+files/upload_session/append_v2
+commit
+autorename
+files/upload_session/finish
+Content-Length
+ErrorCode: 
+bytes=%d-%d
+bytes=%lld-%lld
+dAuthorization
+base_uri = 
+Warning: vec read error, 
+w1pvomuu839dx7c
+jsa6qfye0gcb1sn
+https://www.dropbox.com/oauth2/authorize
+http://127.0.0.1:12235
+has_more
+https://api.dropboxapi.com/oauth2/token
+path_display
+deleted
+client_modified
+https://api.dropboxapi.com/2/
+&token_access_type=offline
+tips: 
+files/list_folder
+files/list_folder/continue
+r/files/create_folder_v2
+metadata
+files/delete_v2
+https://content.dropboxapi.com/2/
+create download stream fail, path is fail
+/users/get_space_usage
+allocated
+allocation
+files/get_thumbnail_v2
+resource
+/QATTG1BZC){D06W]OP(53SM.jpg
+Error: last thread is not close.
+include_media_info
+recursive
+include_has_explicit_shared_members
+include_deleted
+include_mounted_folders
+files/restore
+files/list_revisions
+Info: need retry, 
+path/not_file
+error_summary
+include_non_downloadable_files
+Error status code: 
+users/get_current_account
+display_name
+users/get_space_usage
+Error: refresh token is invalid.
+warning: new refresh token is null, save the old.
+dropbox_download_stream
+files/download
+https://www.googleapis.com/
+upload/drive/v3/files?uploadType=resumable
+parents
+Location
+googledrive_download_stream
+Jaq8g1RbF0UU4PXfWDvtunXw
+http://127.0.0.1:12335
+480081130829-lpqlk3if4dfihsh01gmm8bd4bvat2i0s.apps.googleusercontent.com
+https://www.googleapis.com/auth/drive.file
+mimeType
+https://accounts.google.com/o/oauth2/v2/auth
+https://www.googleapis.com/oauth2/v4/token
+thumbnailLink
+drive/v3/files
+Information: code error, retry.
+&pageToken=
+application/vnd.google-apps.folder
+' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false&orderBy=modifiedTime desc
+?alt=media
+drive/v3/files/
+https://www.googleapis.com/drive/v3/files/
+nextPageToken
+trashed
+drive/v3/files?fields=nextPageToken,kind,incompleteSearch,files(id,name,size,mimeType,trashed,thumbnailLink,parents)
+&orderBy=createdTime
+&fields=nextPageToken,kind,incompleteSearch,files(id,name,size,mimeType,trashed,thumbnailLink,parents)
+drive/v3/files?pageToken=
+displayName
+drive/v2/about
+quotaBytesUsed
+emailAddress
+rootFolderId
+drive/v3/files?fields=nextPageToken,kind,incompleteSearch,files(id,name,mimeType,thumbnailLink,parents)
+quotaBytesTotal
+?fields=id,name,thumbnailLink
+<html><head><title>Authentication Status</title></head><body><p>Authorization success. Please return to EaseUS Data Recovery Wizard to continue recovering data.</p></body></html>
+/favicon.ico
+text/html
+<html><head><title>Authentication Status</title></head><body><p>Authorization denied. Please check your account info and try again.</p></body></html>
+m_progress = 
+nextExpectedRanges
+Exception: get range fail
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+https://login.microsoftonline.com/common/oauth2/v2.0/token
+7e33ee8e-fe2b-4cbb-9995-96fd3675aae4
+pojEPGU60@}qrceRJK619)_
+http://localhost:11235
+https://graph.microsoft.com/v1.0/
+https://graph.microsoft.com/Files.ReadWrite.All https://graph.microsoft.com/User.Read https://graph.microsoft.com/Mail.Read offline_access
+@odata.nextLink
+/drives/
+createdDateTime
+lastModifiedDateTime
+/items/
+/root:/
+:/createUploadSession
+refresh_token
+token_type
+access_token
+unexpected token response
+application/x-www-form-urlencoded
+authorization_code
+expires_in
+client_id
+client_secret
+grant_type
+redirect_uri
+&code_challenge_method=S256
+&code_challenge=
+code_verifier
+unknown exception when exchanging code for token
+me/drives
+oauth2 error: 
+http error: 
+driveType
+drives/
+?select=name,id,folder,lastModifiedDateTime,size,createdDateTime
+/root/children
+/children
+remaining
+equota
+?select=name,id,folder,lastModifiedDateTime
+Error: get quota failed, path=
+ status=
+@microsoft.graph.conflictBehavior
+parentReference
+/me/drive/root/delta?includeDeletedItems=true
+/thumbnails/0/small/content
+/me/drive/items/
+/me/drive/root/delta
+uploadUrl
+@microsoft.graph.downloadUrl
+/me/drive/root/children
+/me/drive
+/me/drive/items/68BB0A2FE4EC3A67!3049/thumbnails/0/small/content
+onedrive_download_stream
+&name=
+file_open?flags=64&folderid=
+&offset=
+result
+file_pwrite?fd=
+jnavB1CGhwR
+https://api.pcloud.com/oauth2_token
+https://my.pcloud.com/oauth2/authorize
+http://127.0.0.1:12237/
+yoeVtrxoAD0CQpVasGf1EF77Sol7
+userinfo
+https://api.pcloud.com/
+listfolder?nofiles=1&folderid=
+userid
+usedquota
+createfolder?folderid=
+contents
+test@easeus.com
+http://www.bug.com

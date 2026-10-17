@@ -1,0 +1,392 @@
+Comctl32.dll
+kernel32.dll
+accParent
+accChildCount
+accChild
+accName
+accValue
+accDescription
+accRole
+accState
+accHelp
+accHelpTopic
+accKeyboardShortcut
+accFocus
+accSelection
+accDefaultAction
+accSelect
+accLocation
+accNavigate
+accHitTest
+accDoDefaultAction
+user32.dll
+hhctrl.ocx
+Shell32
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+OLEAUT32.DLL
+comctl32.dll
+D2D1.dll
+DWrite.dll
+shell32.dll
+uxtheme.dll
+dwmapi.dll
+propsys.dll
+Comdlg32.dll
+InProcServer32
+InprocServer32
+PropertyList
+ControlPane
+WINDOW
+TOOLBAR
+BUTTON
+STATUS
+COMBOBOX
+PROGRESS
+HEADER
+SCROLLBAR
+EXPLORERBAR
+TREEVIEW
+STARTPANEL
+TASKBAND
+TASKBAR
+TOOLTIP
+TRACKBAR
+CMFCToolBarMenuButton
+RICHED32.DLL
+RICHED20.DLL
+Button
+DefaultIcon
+DocShortcut
+api-ms-win-core-synch-l1-2-0.dll
+ERROR : Unable to initialize critical section in CAtlBaseModule
+ForceRemove
+NoRemove
+Delete
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+kernel32
+api-ms-
+ext-ms-
+(null)
+minkernel\crts\ucrt\inc\corecrt_internal_strtox.h
+__crt_strtox::floating_point_value::as_double
+_is_double
+__crt_strtox::floating_point_value::as_float
+!_is_double
+IND)ind)
+IND)ind)
+IND)ind)
+UTF-16LEUNICODE
+mscoree.dll
+Runtime Error!
+Program: 
+<program name unknown>
+Microsoft Visual C++ Runtime Library
+LC_ALL
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+api-ms-win-core-datetime-l1-1-1
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-file-l1-2-2
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-synch-l1-2-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-winrt-l1-1-0
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+advapi32
+kernel32
+api-ms-win-appmodel-runtime-l1-1-2
+user32
+api-ms-
+ext-ms-
+         (((((                  H
+         (((((                  H
+      (                          
+american
+american english
+american-english
+australian
+belgian
+canadian
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+dutch-belgian
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+irish-english
+italian-swiss
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+portuguese-brazilian
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+swedish-finland
+america
+britain
+england
+great britain
+holland
+hong-kong
+new-zealand
+pr china
+pr-china
+puerto-rico
+slovak
+south africa
+south korea
+south-africa
+south-korea
+trinidad & tobago
+united-kingdom
+united-states
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+CONOUT$
+EaseUS Data Recovery Wizard Report
+MS Sans Serif
+If you were in the middle of something, the information you were working on might be lost.
+Please tell us about this problem.
+We have created an error report that you can send to us.  We will treat this report as confidential and anonymous.
+To help us diagnose the cause of this error and improve this software, please describe what you were doing when this error occurred, and send this report to us.
+Describe what you were doing when the error occurred  (optional):
+Don't Send
+Send Error Report
+SysListView32
+Please uncheck any file you do not wish to send.
+Click Here.
+To see what this report contains,
+About EaseUS Data Recovery Wizard Report
+MS Sans Serif
+EaseUS Data Recovery Wizard Report
+Copyright (c)2005--2013 CHENGDU YIWO Tech Development Co.,Ltd(YIWO Teck Ltd for short). All rights reserved.
+Error Report Contents
+MS Sans Serif
+SysListView32
+Double-click a file to view its contents.
+Description:
+MS Shell Dlg
+Cancel
+MS Shell Dlg
+EaseUS Data Recovery Wizard
+LPlease select a file to send, or enter  
+ a message describing the problem.HThe error report was not sent.  Please send the file
+     '%s'
+to %s. 
+CrashRep
+Failed to load MAPI32.DLL.-Invalid MAPI32.DLL, cannot find MAPISendMail.
+5    Please uncheck any files you do not wish to send.
+Description
+SizeU%s has encountered a problem and needs to close.  We are sorry for the inconvenience.
+DRW log
+Text Document
+DMP File(There are no items to show in this view.
+Crash Dump
+Registry File
+Error report for %s
+Save As
+All Files (*.*)
+Untitled
+an unnamed file
+No error message is available.#Attempted an unsupported operation.$A required resource was unavailable.
+Out of memory.
+An unknown error has occurred.!Encountered an improper argument.
+Incorrect filename.
+Failed to open document.
+Failed to save document.
+Save changes to %1? Failed to create empty document.
+The file is too large to open.
+Could not start print job.
+Failed to launch help.
+Internal application error.
+Command failed.)Insufficient memory to perform operation.PSystem registry entries have been removed and the INI file (if any) was deleted.BNot all of the system registry entries (or INI file) were removed.GThis program requires the file %Ts, which was not found on this system.wThis program is linked to the missing export %Ts in the file %Ts. This machine may have an incompatible version of %Ts.
+#Unable to read write-only property.#Unable to write read-only property.
+Unexpected file format.O%1
+Cannot find this file.
+Verify that the correct path and file name are given.
+Destination disk drive is full.5Unable to read from %1, it is opened by someone else.AUnable to write to %1, it is read-only or opened by someone else.1Encountered an unexpected error while reading %1.1Encountered an unexpected error while writing %1.
+Enter an integer.
+Enter a number.#Enter an integer between %1 and %2.!Enter a number between %1 and %2.!Enter no more than %1 characters.
+Select a button.#Enter an integer between 0 and 255.
+Enter a positive integer.
+Enter a date and/or time.
+Enter a currency.
+Enter a GUID.
+Enter a time.
+Enter a date.
+No error occurred.-An unknown error occurred while accessing %1.
+%1 was not found.
+%1 contains an incorrect path.8Could not open %1 because there are too many open files.
+Access to %1 was denied.0An incorrect file handle was associated with %1.8Could not remove %1 because it is the current directory.2Could not create %1 because the directory is full.
+Seek failed on %14Encountered a hardware I/O error while accessing %1.3Encountered a sharing violation while accessing %1.3Encountered a locking violation while accessing %1.
+Disk full while accessing %1.$Attempted to access %1 past its end.
+No error occurred.-An unknown error occurred while accessing %1.%Attempted to write to the reading %1.$Attempted to access %1 past its end.&Attempted to read from the writing %1.
+%1 has a bad format."%1 contained an unexpected object. %1 contains an incorrect schema.
+#Unable to load mail system support.
+Mail system DLL is invalid.!Send Mail failed to send message.
+pixels
+%1: %2
+Continue running script?
+Dispatch exception: %1
+Uncheck
+Mixed,One or more auto-saved documents were found.
+These are more recently saved than the currently open documents and contain changes that were made before the application closed.2Do you want to recover these auto-saved documents?
+Note that if you choose to recover the auto-saved documents, you must explicitly save them to overwrite the original documents.  If you choose to not recover the auto-saved versions, they will be deleted.fRecover the auto-saved documents
+Open the auto-saved versions instead of the explicitly saved versions^Don't recover the auto-saved documents
+Use the last explicitly saved versions of the documents
+%Ts [Recovered]

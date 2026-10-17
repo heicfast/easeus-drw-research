@@ -1,0 +1,468 @@
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+ATAVAWH
+A_A^A\
+ATAVAWH
+A_A^A\
+WAVAWH
+@A_A^_
+VWATAVAWH
+0A_A^A\_^
+WAVAWH
+H;8u?I
+PA_A^_
+WATAUAVAWH
+H;0u:H
+A_A^A]A\_
+ATAVAWH
+A_A^A\
+WAVAWH
+@A_A^_
+D$0HcH
+D$0HcH
+r(<#t(
+D$0HcH
+D$0HcH
+WATAUAVAWH
+A_A^A]A\_
+@SVWATAUAVAWH
+H9\$pL
+A_A^A]A\_^[
+t$ AWH
+@UVWAVAWH
+0A_A^_^]
+UVWAUAWH
+ A_A]_^]
+AXHc8H
+ A_A]_^]
+ A_A]_^]
+ A_A]_^]
+\$ UAVAWH
+ A_A^]
+ A_A^]
+|$ AVAWL
+|$ AVH
+|$ AVH
+SVWATAUAVAWH
+@A_A^A]A\_^[
+WAVAWH
+H;8u?I
+PA_A^_
+WATAUAVAWH
+H;0u:H
+A_A^A]A\_
+UVWAVAWH
+CHH9CPt!I
+0A_A^_^]
+0A_A^_^]
+WATAUAVAWH
+GHH+G@H
+A_A^A]A\_
+@UVWATAUAVAWH
+D$0H9p
+FHH+F@H
+D$@HcH
+D$@HcH
+A_A^A]A\_^]
+WATAUAVAWH
+D$(H9p
+A_A^A]A\_
+VWATAVAWH
+0A_A^A\_^
+SVWATAUAVAWH
+@A_A^A]A\_^[
+WAVAWH
+H;8u?I
+PA_A^_
+WATAUAVAWH
+H;0u:H
+A_A^A]A\_
+@VWAVH
+@UVWATAUAVAWH
+wHH9wPtBH
+A_A^A]A\_^]
+UVWATAUAVAWH
+GHH+G@H
+`A_A^A]A\_^]
+@VWAVH
+|$ AVH
+ H3E H3E
+Unknown exception
+bad cast
+GetModule
+CConfig
+section is repeated:
+Config: 
+ParseConfigFile()
+#euconfig-1.0
+ format error.
+open config file:
+invalid string position
+string too long
+i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+EUE_UNKNOWNEXCEPT
+map/set<T> too long
+vector<T> too long
+CConfigSection
+Config
+CConfigModule
+Thread
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+bad allocation
+bad array new length
+I:\_drw_main\PartitionRecovery\Output\Release_x64\Config.pdb
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCL
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.pdata
+.rsrc$01
+.rsrc$02
+Config.mo
+??0IObject@@QEAA@$$QEAU0@@Z
+??0IObject@@QEAA@AEBU0@@Z
+??0IObject@@QEAA@XZ
+??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+??4IObject@@QEAAAEAU0@AEBU0@@Z
+??_7IObject@@6B@
+?AddRef@IObject@@QEBAKXZ
+?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+?Release@IObject@@QEBAKXZ
+GetModule
+FreeLibrary
+GetProcAddress
+LoadLibraryA
+KERNEL32.dll
+??0_Lockit@std@@QEAA@H@Z
+??1_Lockit@std@@QEAA@XZ
+?uncaught_exception@std@@YA_NXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+??Bid@locale@std@@QEAA_KXZ
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?always_noconv@codecvt_base@std@@QEBA_NXZ
+?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+??1ios_base@std@@UEAA@XZ
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+??_7ios_base@std@@6B@
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEA_J@Z
+MSVCP140.dll
+_purecall
+__RTtypeid
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_name
+_CxxThrowException
+__CxxFrameHandler3
+__RTDynamicCast
+memchr
+memcmp
+memcpy
+memmove
+__std_terminate
+__std_type_info_destroy_list
+__C_specific_handler
+memset
+VCRUNTIME140.dll
+_invalid_parameter_noinfo_noreturn
+_get_stream_buffer_pointers
+fclose
+fflush
+fgetpos
+fsetpos
+_fseeki64
+fwrite
+setvbuf
+ungetc
+_lock_file
+_unlock_file
+_callnewh
+malloc
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+_initterm
+_initterm_e
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+CloseHandle
+EnterCriticalSection
+LeaveCriticalSection
+InitializeCriticalSectionAndSpinCount
+DeleteCriticalSection
+SetEvent
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+InitializeSListHead
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+.?AVexception@std@@
+.?AVConfigFormatError@@
+.?AVlogic_error@std@@
+.?AVbad_cast@std@@
+.?AUIErrorBase@@
+.?AUIConfig@@
+.?AVFunctorObjectBase@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCConfigSection@@@@@Z@2@$01@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@VCConfigSection@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@VCConfigSection@@@@AEBV1@@Z@2@$00@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@VCConfigSection@@@@AEBV1@@Z@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCConfigSection@@@@@Z@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBQEAUIObject@@AEBV1@@Z@2@$01@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBV1@@Z@2@$00@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBV1@@Z@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBQEAUIObject@@AEBV1@@Z@dnc@@
+.?AUIObject@@
+.?AUIAggObject@@
+.?AUIConfigSection@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AVios_base@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_fstream@DU?$char_traits@D@std@@@std@@
+.?AVCConfigSection@@
+.?AVCConfig@@
+.?AV?$CMomCloneObject@VCConfigSection@@@@
+.?AV?$CMomObject@VCConfigSection@@@@
+.?AU__MomObjectFlag@@
+.?AV?$CMomStackObject@V?$CMomCloneObject@VCConfigSection@@@@@@
+.?AV?$CMomAggObject@VCConfigSection@@@@
+.?AV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@VCConfigSection@@@@AEBV1@@Z@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@VCConfigSection@@@@XZ@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCConfigSection@@@@@Z@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@XZ@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBV1@@Z@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfigSection@@@@@@AEBQEAUIObject@@AEBV1@@Z@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBQEBD@Z@2@$01@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@VCConfig@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@VCConfig@@@@AEBQEBD@Z@2@$00@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@VCConfig@@@@AEBQEBD@Z@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBQEBD@Z@dnc@@
+.?AUIConfigModule@@
+.?AUIModule@@
+.?AUIThreadBase@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBV1@@Z@2@$01@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBV1@@Z@2@$00@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCConfig@@@@@Z@2@$01@dnc@@
+.?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomCloneObject@VCConfig@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomCloneObject@VCConfig@@@@AEBV1@@Z@2@$00@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@VCConfig@@@@AEBV1@@Z@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCConfig@@@@@Z@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBV1@@Z@dnc@@
+.?AV?$ConstructFunction@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBV1@@Z@dnc@@
+.?AVCConfigModule@@
+.?AV?$CMomCloneObject@VCConfig@@@@
+.?AV?$CMomObject@VCConfig@@@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@VCConfig@@@@AEBQEBD@Z@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@VCConfig@@@@XZ@dnc@@
+.?AV?$CMomAggObject@VCConfig@@@@
+.?AV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBQEBD@Z@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@XZ@dnc@@
+.?AV?$CModuleImpl@VCConfigModule@@@@
+.?AV?$CMomEventObject@V?$CModuleImpl@VCConfigModule@@@@@@
+.?AV?$CMomObject@V?$CModuleImpl@VCConfigModule@@@@@@
+.?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCConfigModule@@@@@@@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@VCConfig@@@@AEBV1@@Z@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBV?$CMomCloneObject@VCConfig@@@@@Z@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBV1@@Z@dnc@@
+.?AV?$FunctorObject@$$A6APEAV?$CMomCloneObject@V?$CMomAggObject@VCConfig@@@@@@AEBQEAUIObject@@AEBV1@@Z@dnc@@
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+S/s4"W
+EO`9VU
+20261013061300Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013061300Z0+
+/1(0&0$0"
+7!ueImIx

@@ -1,0 +1,17 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib        name                                       demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x000007a0 0x1800013a0 GLOBAL FUNC 0    PubLog.dll ?DebugTrace@@YAXPEBDPEAPEAD@Z
+2   0x00000790 0x180001390 GLOBAL FUNC 0    PubLog.dll ?DebugTrace@@YAXPEBDZZ
+3   0x00000af0 0x1800016f0 GLOBAL FUNC 0    PubLog.dll ?FileNameToFileCode@@YAGPEAD@Z
+4   0x00000580 0x180001180 GLOBAL FUNC 0    PubLog.dll ?InitLog@@YAXPEBDW4LOGLEVEL@@W4LOGTYPE@@@Z
+5   0x00000920 0x180001520 GLOBAL FUNC 0    PubLog.dll ?Log@@YAXW4LOGLEVEL@@PEBDPEAPEAD@Z
+6   0x000008f0 0x1800014f0 GLOBAL FUNC 0    PubLog.dll ?Log@@YAXW4LOGLEVEL@@PEBDZZ
+7   0x000008e0 0x1800014e0 GLOBAL FUNC 0    PubLog.dll ?LogError@@YAXPEBDPEAPEAD@Z
+8   0x000008a0 0x1800014a0 GLOBAL FUNC 0    PubLog.dll ?LogError@@YAXPEBDZZ
+9   0x00000840 0x180001440 GLOBAL FUNC 0    PubLog.dll ?LogInfo@@YAXPEBDPEAPEAD@Z
+10  0x00000800 0x180001400 GLOBAL FUNC 0    PubLog.dll ?LogInfo@@YAXPEBDZZ
+11  0x00000890 0x180001490 GLOBAL FUNC 0    PubLog.dll ?LogWarning@@YAXPEBDPEAPEAD@Z
+12  0x00000850 0x180001450 GLOBAL FUNC 0    PubLog.dll ?LogWarning@@YAXPEBDZZ
+13  0x000007f0 0x1800013f0 GLOBAL FUNC 0    PubLog.dll ?ReleaseTrace@@YAXPEBDPEAPEAD@Z
+14  0x000007b0 0x1800013b0 GLOBAL FUNC 0    PubLog.dll ?ReleaseTrace@@YAXPEBDZZ

@@ -1,0 +1,665 @@
+[Strings]
+nth paddr      vaddr       len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00011a10 0x180013410 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+1   0x00011a58 0x180013458 12  26   .rdata  utf16le kernel32.dll
+2   0x00011a78 0x180013478 27  28   .rdata  ascii   InitializeConditionVariable
+3   0x00011a98 0x180013498 24  25   .rdata  ascii   SleepConditionVariableCS
+4   0x00011ab8 0x1800134b8 24  25   .rdata  ascii   WakeAllConditionVariable
+5   0x00011b18 0x180013518 17  18   .rdata  ascii   Unknown exception
+6   0x00011b48 0x180013548 14  15   .rdata  ascii   bad allocation
+7   0x00011b70 0x180013570 20  21   .rdata  ascii   bad array new length
+8   0x00011b88 0x180013588 4   5    .rdata  ascii   .dll
+9   0x00011b90 0x180013590 14  15   .rdata  ascii   TBCreateObject
+10  0x00011ba0 0x1800135a0 12  13   .rdata  ascii   Kernel32.dll
+11  0x00011bb0 0x1800135b0 19  20   .rdata  ascii   GetNativeSystemInfo
+12  0x00011bc4 0x1800135c4 4   5    .rdata  ascii   Boot
+13  0x00011bd0 0x1800135d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+14  0x00011c18 0x180013618 26  54   .rdata  utf16le CBootDriver Execute Start!
+15  0x00011c50 0x180013650 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+16  0x00011c98 0x180013698 26  54   .rdata  utf16le CBootDriver Execute Start!
+17  0x00011cd0 0x1800136d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+18  0x00011d18 0x180013718 7   8    .rdata  ascii   CodeLog
+19  0x00011d20 0x180013720 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+20  0x00011d68 0x180013768 19  20   .rdata  ascii   GetNativeSystemInfo
+21  0x00011d80 0x180013780 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+22  0x00011dc8 0x1800137c8 19  20   .rdata  ascii   GetNativeSystemInfo
+23  0x00011de0 0x1800137e0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+24  0x00011e28 0x180013828 18  38   .rdata  utf16le DsBackupConfig.ini
+25  0x00011e50 0x180013850 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+26  0x00011e98 0x180013898 4   5    .rdata  ascii   Burn
+27  0x00011ea0 0x1800138a0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+28  0x00011ee8 0x1800138e8 10  22   .rdata  utf16le BootDriver
+29  0x00011f00 0x180013900 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+30  0x00011f48 0x180013948 10  22   .rdata  utf16le BootDriver
+31  0x00011f60 0x180013960 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+32  0x00011fa8 0x1800139a8 9   20   .rdata  utf16le CDSuccess
+33  0x00011fc0 0x1800139c0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+34  0x00012008 0x180013a08 10  22   .rdata  utf16le BootDriver
+35  0x00012020 0x180013a20 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+36  0x00012068 0x180013a68 18  38   .rdata  utf16le DsBackupConfig.ini
+37  0x00012090 0x180013a90 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+38  0x000120d8 0x180013ad8 7   8    .rdata  ascii   CodeLog
+39  0x000120e0 0x180013ae0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+40  0x00012128 0x180013b28 19  20   .rdata  ascii   GetNativeSystemInfo
+41  0x00012140 0x180013b40 35  72   .rdata  utf16le CBootDriver BootType:%d, nDriver:%d
+42  0x00012188 0x180013b88 19  20   .rdata  ascii   GetNativeSystemInfo
+43  0x000121a0 0x180013ba0 35  72   .rdata  utf16le CBootDriver BootType:%d, nDriver:%d
+44  0x000121e8 0x180013be8 16  34   .rdata  utf16le LinuxPEimageTemp
+45  0x00012210 0x180013c10 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+46  0x00012258 0x180013c58 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+47  0x00012280 0x180013c80 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+48  0x000122c8 0x180013cc8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+49  0x000122f0 0x180013cf0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+50  0x00012338 0x180013d38 16  17   .rdata  ascii   eud_get_progress
+51  0x00012350 0x180013d50 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+52  0x00012398 0x180013d98 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+53  0x000123c0 0x180013dc0 35  72   .rdata  utf16le CBootDriver Execute End! Err = 0x%x
+54  0x00012408 0x180013e08 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+55  0x00012430 0x180013e30 35  72   .rdata  utf16le CBootDriver Execute End! Err = 0x%x
+56  0x00012478 0x180013e78 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+57  0x000124a0 0x180013ea0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+58  0x000124e8 0x180013ee8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+59  0x00012510 0x180013f10 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+60  0x00012558 0x180013f58 17  36   .rdata  utf16le %S %d ecRet=0x%x\n
+61  0x00012580 0x180013f80 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+62  0x000125c8 0x180013fc8 17  36   .rdata  utf16le %S %d ecRet=0x%x\n
+63  0x000125f0 0x180013ff0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+64  0x00012638 0x180014038 18  38   .rdata  utf16le DsBackupConfig.ini
+65  0x00012660 0x180014060 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+66  0x000126a8 0x1800140a8 10  22   .rdata  utf16le BootDriver
+67  0x000126c0 0x1800140c0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+68  0x00012708 0x180014108 12  13   .rdata  ascii   Kernel32.dll
+69  0x00012718 0x180014118 12  13   .rdata  ascii   Kernel32.dll
+70  0x00012728 0x180014128 6   14   .rdata  utf16le CDInit
+71  0x00012738 0x180014138 15  32   .rdata  utf16le ../res/urls.ini
+72  0x00012758 0x180014158 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+73  0x00012780 0x180014180 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+74  0x000127c8 0x1800141c8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+75  0x000127f0 0x1800141f0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+76  0x00012838 0x180014238 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+77  0x00012860 0x180014260 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+78  0x000128a8 0x1800142a8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+79  0x000128d0 0x1800142d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+80  0x00012918 0x180014318 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+81  0x00012940 0x180014340 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+82  0x00012988 0x180014388 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+83  0x000129b0 0x1800143b0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+84  0x000129f8 0x1800143f8 10  22   .rdata  utf16le BootDriver
+85  0x00012a10 0x180014410 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+86  0x00012a58 0x180014458 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+87  0x00012a80 0x180014480 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+88  0x00012ac8 0x1800144c8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+89  0x00012af0 0x1800144f0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+90  0x00012b38 0x180014538 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+91  0x00012b60 0x180014560 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+92  0x00012ba8 0x1800145a8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+93  0x00012bd0 0x1800145d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+94  0x00012c18 0x180014618 27  56   .rdata  utf16le GetSorURLandMD5 fail %S %d\n
+95  0x00012c50 0x180014650 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+96  0x00012c98 0x180014698 27  56   .rdata  utf16le GetSorURLandMD5 fail %S %d\n
+97  0x00012cd0 0x1800146d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+98  0x00012d18 0x180014718 27  56   .rdata  utf16le GetSorURLandMD5 fail %S %d\n
+99  0x00012d50 0x180014750 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+100 0x00012d98 0x180014798 27  56   .rdata  utf16le GetSorURLandMD5 fail %S %d\n
+101 0x00012dd0 0x1800147d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+102 0x00012e18 0x180014818 19  40   .rdata  utf16le StartDownloadConfig
+103 0x00012e40 0x180014840 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+104 0x00012e88 0x180014888 10  22   .rdata  utf16le BootDriver
+105 0x00012ea0 0x1800148a0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+106 0x00012ee8 0x1800148e8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+107 0x00012f10 0x180014910 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+108 0x00012f58 0x180014958 12  26   .rdata  utf16le CDBurnRuning
+109 0x00012f78 0x180014978 30  62   .rdata  utf16le CBurnBootCD CallBack Type : %d
+110 0x00012fb8 0x1800149b8 15  32   .rdata  utf16le EuNetConfigTemp
+111 0x00012fd8 0x1800149d8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+112 0x00013000 0x180014a00 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+113 0x00013048 0x180014a48 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+114 0x00013070 0x180014a70 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+115 0x000130b8 0x180014ab8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+116 0x000130e0 0x180014ae0 33  68   .rdata  utf16le CBurnBootCD Execute End! Err = %d
+117 0x0001312c 0x180014b2c 8   18   .rdata  utf16le otDriver
+118 0x00013140 0x180014b40 33  68   .rdata  utf16le CBurnBootCD Execute End! Err = %d
+119 0x0001318c 0x180014b8c 8   18   .rdata  utf16le otDriver
+120 0x000131a0 0x180014ba0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+121 0x000131e8 0x180014be8 25  52   .rdata  utf16le DownloadConfigFileSuccess
+122 0x00013220 0x180014c20 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+123 0x00013268 0x180014c68 17  36   .rdata  utf16le DownloadPESuccess
+124 0x00013290 0x180014c90 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+125 0x000132d8 0x180014cd8 10  22   .rdata  utf16le BootDriver
+126 0x000132f0 0x180014cf0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+127 0x00013338 0x180014d38 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+128 0x00013360 0x180014d60 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+129 0x000133a8 0x180014da8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+130 0x000133d0 0x180014dd0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+131 0x00013420 0x180014e20 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+132 0x00013468 0x180014e68 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+133 0x00013490 0x180014e90 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+134 0x000134d8 0x180014ed8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+135 0x00013500 0x180014f00 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+136 0x00013548 0x180014f48 9   20   .rdata  utf16le image.iso
+137 0x00013560 0x180014f60 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+138 0x000135a8 0x180014fa8 4   5    .rdata  ascii   Boot
+139 0x000135b0 0x180014fb0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+140 0x000135f8 0x180014ff8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+141 0x00013620 0x180015020 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+142 0x00013668 0x180015068 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+143 0x00013690 0x180015090 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+144 0x000136d8 0x1800150d8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+145 0x00013700 0x180015100 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+146 0x00013748 0x180015148 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+147 0x00013770 0x180015170 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+148 0x000137b8 0x1800151b8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+149 0x000137e0 0x1800151e0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+150 0x00013828 0x180015228 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+151 0x00013850 0x180015250 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+152 0x00013898 0x180015298 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+153 0x000138c0 0x1800152c0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+154 0x00013908 0x180015308 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+155 0x00013930 0x180015330 65  132  .rdata  utf16le BurnBootCD GetDiscInfo : nIsBlank=%d, nIsWritable=%d, DiskType=%d
+156 0x000139b4 0x1800153b4 5   6    .rdata  ascii   CD001
+157 0x000139c0 0x1800153c0 65  132  .rdata  utf16le BurnBootCD GetDiscInfo : nIsBlank=%d, nIsWritable=%d, DiskType=%d
+158 0x00013a44 0x180015444 5   6    .rdata  ascii   CD001
+159 0x00013a50 0x180015450 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+160 0x00013a98 0x180015498 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+161 0x00013ac0 0x1800154c0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+162 0x00013b08 0x180015508 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+163 0x00013b30 0x180015530 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+164 0x00013b78 0x180015578 9   20   .rdata  utf16le image.iso
+165 0x00013b90 0x180015590 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+166 0x00013bd8 0x1800155d8 9   20   .rdata  utf16le image.iso
+167 0x00013bf0 0x1800155f0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+168 0x00013c38 0x180015638 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+169 0x00013c60 0x180015660 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+170 0x00013ca8 0x1800156a8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+171 0x00013cd0 0x1800156d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+172 0x00013d18 0x180015718 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+173 0x00013d40 0x180015740 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+174 0x00013d88 0x180015788 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+175 0x00013db0 0x1800157b0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+176 0x00013df8 0x1800157f8 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+177 0x00013e20 0x180015820 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+178 0x00013e68 0x180015868 16  34   .rdata  utf16le %S %d nRes=0x%x\n
+179 0x00013e90 0x180015890 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+180 0x00013ed8 0x1800158d8 7   8    .rdata  ascii   CodeLog
+181 0x00013ee0 0x1800158e0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+182 0x00013f28 0x180015928 19  20   .rdata  ascii   GetNativeSystemInfo
+183 0x00013f40 0x180015940 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+184 0x00013f90 0x180015990 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+185 0x00013fd8 0x1800159d8 5   6    .rdata  ascii   CD001
+186 0x00013fe0 0x1800159e0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+187 0x00014028 0x180015a28 19  20   .rdata  ascii   GetNativeSystemInfo
+188 0x00014040 0x180015a40 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+189 0x00014088 0x180015a88 19  40   .rdata  utf16le ..\res\UIConfig.ini
+190 0x000140b0 0x180015ab0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+191 0x000140f8 0x180015af8 19  40   .rdata  utf16le OpenNetworkOptimize
+192 0x00014120 0x180015b20 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+193 0x00014168 0x180015b68 16  34   .rdata  utf16le TB_NETPATH_TOKEN
+194 0x00014190 0x180015b90 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+195 0x000141d8 0x180015bd8 17  36   .rdata  utf16le TB_NETPATH_TOKEN1
+196 0x00014200 0x180015c00 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+197 0x00014248 0x180015c48 16  34   .rdata  utf16le TB_NETPATH_USER1
+198 0x00014270 0x180015c70 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+199 0x000142c0 0x180015cc0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+200 0x00014308 0x180015d08 16  34   .rdata  utf16le TB_NETPATH_TOKEN
+201 0x00014330 0x180015d30 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+202 0x00014378 0x180015d78 17  36   .rdata  utf16le TB_NETPATH_TOKEN1
+203 0x000143a0 0x180015da0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+204 0x000143e8 0x180015de8 30  62   .rdata  utf16le CBurnBootCD CallBack Type : %d
+205 0x00014428 0x180015e28 15  32   .rdata  utf16le StartDownloadPE
+206 0x00014448 0x180015e48 16  34   .rdata  utf16le TB_NETPATH_USER1
+207 0x00014470 0x180015e70 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+208 0x000144b8 0x180015eb8 16  34   .rdata  utf16le TB_NETPATH_TOKEN
+209 0x000144e0 0x180015ee0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+210 0x00014528 0x180015f28 17  36   .rdata  utf16le TB_NETPATH_TOKEN1
+211 0x00014550 0x180015f50 32  66   .rdata  utf16le CBurnBootCD CallBack Result : %d
+212 0x00014598 0x180015f98 12  13   .rdata  ascii   Kernel32.dll
+213 0x000145a8 0x180015fa8 14  30   .rdata  utf16le EuDownload.dll
+214 0x000145c8 0x180015fc8 15  32   .rdata  utf16le TB_NETPATH_USER
+215 0x000145e8 0x180015fe8 25  52   .rdata  utf16le Microsoft Windows Network
+216 0x00014620 0x180016020 32  66   .rdata  utf16le CBurnBootCD CallBack Result : %d
+217 0x00014668 0x180016068 12  13   .rdata  ascii   Kernel32.dll
+218 0x00014678 0x180016078 14  30   .rdata  utf16le LinuxPEWebLink
+219 0x00014698 0x180016098 15  32   .rdata  utf16le TB_NETPATH_PWS1
+220 0x000146b8 0x1800160b8 9   20   .rdata  utf16le Agent.exe
+221 0x000146d0 0x1800160d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+222 0x00014718 0x180016118 24  50   .rdata  utf16le ExchangePipeServer64.exe
+223 0x00014750 0x180016150 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+224 0x00014798 0x180016198 13  28   .rdata  utf16le ConfigFileURL
+225 0x000147bc 0x1800161bc 19  40   .rdata  utf16le ndows_Trial_English
+226 0x000147f8 0x1800161f8 4   10   .rdata  utf16le .iso
+227 0x00014808 0x180016208 20  42   .rdata  utf16le LinuxPEImageDownload
+228 0x00014838 0x180016238 14  30   .rdata  utf16le LinuxPEFileMD5
+229 0x00014858 0x180016258 26  27   .rdata  ascii   CreateProcess failed (%d)\n
+230 0x00014878 0x180016278 12  13   .rdata  ascii   eud_download
+231 0x00014888 0x180016288 30  62   .rdata  utf16le DownloadConfigFileFailTryAgain
+232 0x000148c8 0x1800162c8 15  32   .rdata  utf16le TB_NETPATH_USER
+233 0x000148e8 0x1800162e8 24  50   .rdata  utf16le ExchangePipeServer32.exe
+234 0x00014920 0x180016320 38  78   .rdata  utf16le cmd /c echo y|Cacls "%s" /G everyone:F
+235 0x00014970 0x180016370 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+236 0x000149b8 0x1800163b8 8   9    .rdata  ascii   eud_init
+237 0x000149c8 0x1800163c8 10  11   .rdata  ascii   eud_uninit
+238 0x000149d8 0x1800163d8 10  11   .rdata  ascii   eud_cancel
+239 0x000149e8 0x1800163e8 21  44   .rdata  utf16le NoFindISONeedDownload
+240 0x00014a20 0x180016420 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+241 0x00014a68 0x180016468 22  46   .rdata  utf16le DownloadPEFailTryAgain
+242 0x00014a98 0x180016498 15  32   .rdata  utf16le TB_NETPATH_PWS1
+243 0x00014ab8 0x1800164b8 7   8    .rdata  ascii   Options
+244 0x00014ac0 0x1800164c0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+245 0x00014b08 0x180016508 22  46   .rdata  utf16le DownloadConfigFileFail
+246 0x00014b38 0x180016538 15  32   .rdata  utf16le TBConsoleUI.exe
+247 0x00014b58 0x180016558 18  38   .rdata  utf16le DsBackupConfig.ini
+248 0x00014b80 0x180016580 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+249 0x00014bc8 0x1800165c8 14  30   .rdata  utf16le DownloadPEFail
+250 0x00014be8 0x1800165e8 10  22   .rdata  utf16le BootDriver
+251 0x00014c00 0x180016600 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+252 0x00014c48 0x180016648 14  30   .rdata  utf16le imageLinux.iso
+253 0x00014c68 0x180016668 7   16   .rdata  utf16le ISOInit
+254 0x00014c78 0x180016678 10  22   .rdata  utf16le BootDriver
+255 0x00014c90 0x180016690 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+256 0x00014cd8 0x1800166d8 14  30   .rdata  utf16le imageLinux.iso
+257 0x00014cf8 0x1800166f8 18  38   .rdata  utf16le WinPEISOBurnRuning
+258 0x00014d20 0x180016720 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+259 0x00014d74 0x180016774 4   5    .rdata  ascii   Boot
+260 0x00014d80 0x180016780 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+261 0x00014de0 0x1800167e0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+262 0x00014e28 0x180016828 12  13   .rdata  ascii   Kernel32.dll
+263 0x00014e38 0x180016838 6   14   .rdata  utf16le FixBug
+264 0x00014e48 0x180016848 10  22   .rdata  utf16le BootDriver
+265 0x00014e60 0x180016860 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+266 0x00014ea8 0x1800168a8 12  13   .rdata  ascii   Kernel32.dll
+267 0x00014eb8 0x1800168b8 14  30   .rdata  utf16le TB_NETPATH_PWS
+268 0x00014ed8 0x1800168d8 10  22   .rdata  utf16le BootDriver
+269 0x00014ef0 0x1800168f0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+270 0x00014f38 0x180016938 14  30   .rdata  utf16le NetworkService
+271 0x00014f58 0x180016958 15  32   .rdata  utf16le WinPEISOSuccess
+272 0x00014f78 0x180016978 10  22   .rdata  utf16le BootDriver
+273 0x00014f90 0x180016990 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+274 0x00014fd8 0x1800169d8 14  30   .rdata  utf16le TB_NETPATH_PWS
+275 0x00014ff8 0x1800169f8 10  22   .rdata  utf16le ISOSuccess
+276 0x00015010 0x180016a10 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+277 0x00015058 0x180016a58 13  28   .rdata  utf16le TbService.exe
+278 0x00015078 0x180016a78 10  22   .rdata  utf16le BootDriver
+279 0x00015090 0x180016a90 68  138  .rdata  utf16le zl : CDownLoadLinuxPEISO::DownloadFile CreateThread fail error = %d\n
+280 0x00015120 0x180016b20 68  138  .rdata  utf16le zl : CDownLoadLinuxPEISO::DownloadFile CreateThread fail error = %d\n
+281 0x000151b0 0x180016bb0 67  136  .rdata  utf16le zl : CDownLoadLinuxPEISO::DownloadFileerror m_fp_eud_download = %d\n
+282 0x00015238 0x180016c38 25  52   .rdata  utf16le Microsoft Windows Network
+283 0x00015270 0x180016c70 67  136  .rdata  utf16le zl : CDownLoadLinuxPEISO::DownloadFileerror m_fp_eud_download = %d\n
+284 0x000152f8 0x180016cf8 9   20   .rdata  utf16le image.iso
+285 0x00015310 0x180016d10 46  94   .rdata  utf16le zl : GetDownloadProgressThreadProc Cancle now\n
+286 0x00015370 0x180016d70 46  94   .rdata  utf16le zl : GetDownloadProgressThreadProc Cancle now\n
+287 0x000153d0 0x180016dd0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+288 0x00015418 0x180016e18 13  28   .rdata  utf16le TbService.exe
+289 0x00015438 0x180016e38 14  30   .rdata  utf16le NetworkService
+290 0x00015458 0x180016e58 27  56   .rdata  utf16le CIsoBoot CallBack Type : %d
+291 0x00015490 0x180016e90 31  64   .rdata  utf16le GetNetConfigFileURL fail %S %d\n
+292 0x000154d0 0x180016ed0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+293 0x00015518 0x180016f18 21  44   .rdata  utf16le EmailPipeServer64.exe
+294 0x00015548 0x180016f48 27  56   .rdata  utf16le CIsoBoot CallBack Type : %d
+295 0x00015580 0x180016f80 31  64   .rdata  utf16le GetNetConfigFileURL fail %S %d\n
+296 0x000155c0 0x180016fc0 56  114  .rdata  utf16le GetLinuxPEImageTempDownLoadPath fail %S %d lastError=%d\n
+297 0x00015638 0x180017038 21  44   .rdata  utf16le TodoBackupService.exe
+298 0x00015668 0x180017068 7   8    .rdata  ascii   CodeLog
+299 0x00015670 0x180017070 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+300 0x000156b8 0x1800170b8 12  26   .rdata  utf16le WinPEISOInit
+301 0x000156d8 0x1800170d8 13  28   .rdata  utf16le ISOBurnRuning
+302 0x000156f8 0x1800170f8 12  13   .rdata  ascii   Kernel32.dll
+303 0x00015708 0x180017108 19  20   .rdata  ascii   GetNativeSystemInfo
+304 0x00015720 0x180017120 56  114  .rdata  utf16le GetLinuxPEImageTempDownLoadPath fail %S %d lastError=%d\n
+305 0x00015798 0x180017198 26  27   .rdata  ascii   CreateProcess failed (%d)\n
+306 0x000157b8 0x1800171b8 29  60   .rdata  utf16le CIsoBoot CallBack Result : %d
+307 0x000157f8 0x1800171f8 18  38   .rdata  utf16le DsBackupConfig.ini
+308 0x00015820 0x180017220 57  116  .rdata  utf16le GetNetConfigFileTempDownLoadPath fail %S %d lastError=%d\n
+309 0x00015898 0x180017298 23  48   .rdata  utf16le CUsbBoot Execute Start!
+310 0x000158c8 0x1800172c8 10  22   .rdata  utf16le BootDriver
+311 0x000158e0 0x1800172e0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+312 0x00015928 0x180017328 29  60   .rdata  utf16le CIsoBoot CallBack Result : %d
+313 0x00015968 0x180017368 23  48   .rdata  utf16le CUsbBoot Execute Start!
+314 0x00015998 0x180017398 10  22   .rdata  utf16le BootDriver
+315 0x000159b0 0x1800173b0 57  116  .rdata  utf16le GetNetConfigFileTempDownLoadPath fail %S %d lastError=%d\n
+316 0x00015a28 0x180017428 7   16   .rdata  utf16le USBInit
+317 0x00015a38 0x180017438 10  22   .rdata  utf16le BootDriver
+318 0x00015a50 0x180017450 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+319 0x00015a98 0x180017498 10  22   .rdata  utf16le BootDriver
+320 0x00015ab0 0x1800174b0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+321 0x00015af8 0x1800174f8 10  22   .rdata  utf16le USBSuccess
+322 0x00015b10 0x180017510 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+323 0x00015b58 0x180017558 10  22   .rdata  utf16le BootDriver
+324 0x00015b70 0x180017570 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+325 0x00015bb8 0x1800175b8 27  56   .rdata  utf16le CUsbBoot CallBack Type : %d
+326 0x00015bf0 0x1800175f0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+327 0x00015c38 0x180017638 27  56   .rdata  utf16le CUsbBoot CallBack Type : %d
+328 0x00015c70 0x180017670 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+329 0x00015cb8 0x1800176b8 7   8    .rdata  ascii   CodeLog
+330 0x00015cc0 0x1800176c0 38  78   .rdata  utf16le CDownLoadLinuxPEISO CallBack Type : %d
+331 0x00015d10 0x180017710 38  78   .rdata  utf16le CDownLoadLinuxPEISO CallBack Type : %d
+332 0x00015d60 0x180017760 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+333 0x00015db0 0x1800177b0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+334 0x00015e00 0x180017800 40  82   .rdata  utf16le CDownLoadLinuxPEISO CallBack Result : %d
+335 0x00015e60 0x180017860 40  82   .rdata  utf16le CDownLoadLinuxPEISO CallBack Result : %d
+336 0x00015ec0 0x1800178c0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+337 0x00015f10 0x180017910 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+338 0x00015f60 0x180017960 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+339 0x00015fb0 0x1800179b0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+340 0x00016000 0x180017a00 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+341 0x00016050 0x180017a50 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+342 0x000160a0 0x180017aa0 65  132  .rdata  utf16le zl IsNoExistImageLinuxISO GetModuleFileNameW fail LastError = %d\n
+343 0x00016130 0x180017b30 65  132  .rdata  utf16le zl IsNoExistImageLinuxISO GetModuleFileNameW fail LastError = %d\n
+344 0x000161c0 0x180017bc0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+345 0x00016210 0x180017c10 37  76   .rdata  utf16le %S %d CopyFileW fail ,lastError = %d\n
+346 0x00016260 0x180017c60 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+347 0x000162b0 0x180017cb0 37  76   .rdata  utf16le %S %d CopyFileW fail ,lastError = %d\n
+348 0x00016300 0x180017d00 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+349 0x00016350 0x180017d50 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+350 0x000163a0 0x180017da0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+351 0x000163f0 0x180017df0 64  65   .rdata  ascii   k:\_epm_re_main\legacy_mod\mod.bootdriver\downloadlinuxpeiso.cpp
+352 0x00016440 0x180017e40 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+353 0x00016490 0x180017e90 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+354 0x000164e0 0x180017ee0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+355 0x00016530 0x180017f30 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+356 0x00016580 0x180017f80 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+357 0x000165d0 0x180017fd0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+358 0x00016620 0x180018020 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+359 0x00016670 0x180018070 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+360 0x000166c0 0x1800180c0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+361 0x00016710 0x180018110 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+362 0x00016760 0x180018160 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+363 0x000167b0 0x1800181b0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+364 0x00016800 0x180018200 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+365 0x00016850 0x180018250 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+366 0x000168a0 0x1800182a0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+367 0x000168f0 0x1800182f0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+368 0x00016940 0x180018340 31  64   .rdata  utf16le CIsoBoot CopyFileExW Err = 0x%x
+369 0x00016980 0x180018380 31  64   .rdata  utf16le CIsoBoot CopyFileExW Err = 0x%x
+370 0x000169c0 0x1800183c0 45  92   .rdata  utf16le CIsoBoot iso.szPath = %s,\nTarget.szPath  = %s
+371 0x00016a20 0x180018420 45  92   .rdata  utf16le CIsoBoot iso.szPath = %s,\nTarget.szPath  = %s
+372 0x00016a80 0x180018480 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+373 0x00016ad0 0x1800184d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+374 0x00016b20 0x180018520 32  66   .rdata  utf16le CIsoBoot Execute End! Err = 0x%x
+375 0x00016b70 0x180018570 32  66   .rdata  utf16le CIsoBoot Execute End! Err = 0x%x
+376 0x00016bc0 0x1800185c0 38  78   .rdata  utf16le cmd /c echo y|Cacls "%s" /G everyone:F
+377 0x00016c10 0x180018610 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+378 0x00016c60 0x180018660 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+379 0x00016cb0 0x1800186b0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+380 0x00016d00 0x180018700 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+381 0x00016d50 0x180018750 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+382 0x00016da0 0x1800187a0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+383 0x00016df0 0x1800187f0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+384 0x00016e40 0x180018840 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+385 0x00016e90 0x180018890 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+386 0x00016ee0 0x1800188e0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+387 0x00016f30 0x180018930 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+388 0x00016f80 0x180018980 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+389 0x00016fd0 0x1800189d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+390 0x00017020 0x180018a20 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+391 0x00017070 0x180018a70 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+392 0x000170c0 0x180018ac0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+393 0x00017110 0x180018b10 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+394 0x00017160 0x180018b60 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+395 0x000171b0 0x180018bb0 46  94   .rdata  utf16le CIsoBoot DeleteFileW Err = 0x%x, szFilePath:%s
+396 0x00017210 0x180018c10 46  94   .rdata  utf16le CIsoBoot DeleteFileW Err = 0x%x, szFilePath:%s
+397 0x00017270 0x180018c70 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+398 0x000172c0 0x180018cc0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+399 0x00017310 0x180018d10 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+400 0x00017360 0x180018d60 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+401 0x000173b0 0x180018db0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+402 0x00017400 0x180018e00 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+403 0x00017450 0x180018e50 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+404 0x000174a0 0x180018ea0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+405 0x000174f0 0x180018ef0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+406 0x00017540 0x180018f40 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+407 0x00017590 0x180018f90 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+408 0x000175e0 0x180018fe0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+409 0x00017630 0x180019030 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+410 0x00017680 0x180019080 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+411 0x000176d0 0x1800190d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+412 0x00017720 0x180019120 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+413 0x00017770 0x180019170 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+414 0x000177c0 0x1800191c0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+415 0x00017810 0x180019210 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+416 0x00017860 0x180019260 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+417 0x000178a8 0x1800192a8 22  46   .rdata  utf16le CUsbBoot Execute Init!
+418 0x000178d8 0x1800192d8 22  46   .rdata  utf16le CUsbBoot Execute Init!
+419 0x00017910 0x180019310 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+420 0x00017960 0x180019360 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+421 0x000179b0 0x1800193b0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+422 0x00017a00 0x180019400 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+423 0x00017a48 0x180019448 14  30   .rdata  utf16le CUsbBoot Init!
+424 0x00017a68 0x180019468 14  30   .rdata  utf16le CUsbBoot Init!
+425 0x00017a90 0x180019490 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+426 0x00017ae0 0x1800194e0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+427 0x00017b28 0x180019528 14  30   .rdata  utf16le USBEraseRuning
+428 0x00017b50 0x180019550 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+429 0x00017ba0 0x1800195a0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+430 0x00017be8 0x1800195e8 14  30   .rdata  utf16le USBEraseFinish
+431 0x00017c10 0x180019610 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+432 0x00017c60 0x180019660 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+433 0x00017ca8 0x1800196a8 13  28   .rdata  utf16le USBBurnRuning
+434 0x00017cd0 0x1800196d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+435 0x00017d20 0x180019720 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+436 0x00017d68 0x180019768 30  62   .rdata  utf16le CUsbBoot Execute End! Err = %d
+437 0x00017da8 0x1800197a8 30  62   .rdata  utf16le CUsbBoot Execute End! Err = %d
+438 0x00017df0 0x1800197f0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+439 0x00017e40 0x180019840 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+440 0x00017e90 0x180019890 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+441 0x00017ee0 0x1800198e0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+442 0x00017f30 0x180019930 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+443 0x00017f80 0x180019980 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+444 0x00017fd0 0x1800199d0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+445 0x00018020 0x180019a20 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+446 0x00018070 0x180019a70 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+447 0x000180c0 0x180019ac0 35  72   .rdata  utf16le BootDriver: Error = 0x%x, Line = %d
+448 0x00018108 0x180019b08 29  60   .rdata  utf16le CUsbBoot CallBack Result : %d
+449 0x00018148 0x180019b48 29  60   .rdata  utf16le CUsbBoot CallBack Result : %d
+450 0x00018188 0x180019b88 23  48   .rdata  utf16le UiCallBack: type 0x%x.\n
+451 0x000181c0 0x180019bc0 41  84   .rdata  utf16le UiCallBack: silent mode, return default.\n
+452 0x00018220 0x180019c20 48  98   .rdata  utf16le UiCallBack: func return 0x%x, ui response 0x%x.\n
+453 0x00018290 0x180019c90 32  66   .rdata  utf16le Failed to Load lib (Err=0x%x) %S
+454 0x00018500 0x180019f00 23  24   .rdata  ascii   invalid string position
+455 0x00018518 0x180019f18 15  16   .rdata  ascii   string too long
+456 0x00018568 0x180019f68 14  30   .rdata  utf16le imageLinux.iso
+457 0x00018588 0x180019f88 9   20   .rdata  utf16le image.iso
+458 0x0001953c 0x18001af3c 4   5    .rdata  ascii   RSDS
+459 0x00019541 0x18001af41 4   5    .rdata  ascii   C4ty
+460 0x0001954b 0x18001af4b 4   5    .rdata  ascii   5Wmb
+461 0x00019554 0x18001af54 58  59   .rdata  ascii   K:\_EPM_RE_main\Output\x64\Release_NoDriver\BootDriver.pdb
+462 0x000195a4 0x18001afa4 4   5    .rdata  ascii   GCTL
+463 0x000195b0 0x18001afb0 8   9    .rdata  ascii   .text$di
+464 0x000195c4 0x18001afc4 8   9    .rdata  ascii   .text$mn
+465 0x000195d8 0x18001afd8 11  12   .rdata  ascii   .text$mn$00
+466 0x000195ec 0x18001afec 7   8    .rdata  ascii   .text$x
+467 0x000195fc 0x18001affc 8   9    .rdata  ascii   .text$yd
+468 0x00019610 0x18001b010 8   9    .rdata  ascii   .idata$5
+469 0x00019624 0x18001b024 6   7    .rdata  ascii   .00cfg
+470 0x00019634 0x18001b034 8   9    .rdata  ascii   .CRT$XCA
+471 0x00019648 0x18001b048 8   9    .rdata  ascii   .CRT$XCU
+472 0x0001965c 0x18001b05c 8   9    .rdata  ascii   .CRT$XCZ
+473 0x00019670 0x18001b070 8   9    .rdata  ascii   .CRT$XIA
+474 0x00019684 0x18001b084 8   9    .rdata  ascii   .CRT$XIC
+475 0x00019698 0x18001b098 8   9    .rdata  ascii   .CRT$XIZ
+476 0x000196ac 0x18001b0ac 8   9    .rdata  ascii   .CRT$XLA
+477 0x000196c0 0x18001b0c0 8   9    .rdata  ascii   .CRT$XLZ
+478 0x000196d4 0x18001b0d4 8   9    .rdata  ascii   .CRT$XPA
+479 0x000196e8 0x18001b0e8 8   9    .rdata  ascii   .CRT$XPZ
+480 0x000196fc 0x18001b0fc 8   9    .rdata  ascii   .CRT$XTA
+481 0x00019710 0x18001b110 8   9    .rdata  ascii   .CRT$XTZ
+482 0x00019724 0x18001b124 6   7    .rdata  ascii   .rdata
+483 0x00019734 0x18001b134 8   9    .rdata  ascii   .rdata$T
+484 0x00019748 0x18001b148 8   9    .rdata  ascii   .rdata$r
+485 0x0001975c 0x18001b15c 13  14   .rdata  ascii   .rdata$zzzdbg
+486 0x00019774 0x18001b174 8   9    .rdata  ascii   .rtc$IAA
+487 0x00019788 0x18001b188 8   9    .rdata  ascii   .rtc$IZZ
+488 0x0001979c 0x18001b19c 8   9    .rdata  ascii   .rtc$TAA
+489 0x000197b0 0x18001b1b0 8   9    .rdata  ascii   .rtc$TZZ
+490 0x000197c4 0x18001b1c4 4   5    .rdata  ascii   .tls
+491 0x000197d4 0x18001b1d4 5   6    .rdata  ascii   .tls$
+492 0x000197e4 0x18001b1e4 8   9    .rdata  ascii   .tls$ZZZ
+493 0x000197f8 0x18001b1f8 6   7    .rdata  ascii   .xdata
+494 0x00019808 0x18001b208 8   9    .rdata  ascii   .xdata$x
+495 0x0001981c 0x18001b21c 6   7    .rdata  ascii   .edata
+496 0x0001982c 0x18001b22c 8   9    .rdata  ascii   .idata$2
+497 0x00019840 0x18001b240 8   9    .rdata  ascii   .idata$3
+498 0x00019854 0x18001b254 8   9    .rdata  ascii   .idata$4
+499 0x00019868 0x18001b268 8   9    .rdata  ascii   .idata$6
+500 0x0001987c 0x18001b27c 5   6    .rdata  ascii   .data
+501 0x0001988c 0x18001b28c 7   8    .rdata  ascii   .data$r
+502 0x0001989c 0x18001b29c 4   5    .rdata  ascii   .bss
+503 0x000198ac 0x18001b2ac 6   7    .rdata  ascii   .pdata
+504 0x000198bc 0x18001b2bc 8   9    .rdata  ascii   .rsrc$01
+505 0x000198d0 0x18001b2d0 8   9    .rdata  ascii   .rsrc$02
+506 0x00019bd2 0x18001b5d2 4   5    .rdata  ascii   \fp\v`
+507 0x0001a116 0x18001bb16 4   5    .rdata  ascii   \fp\v`
+508 0x0001a35d 0x18001bd5d 4   5    .rdata  ascii   R\vp
+509 0x0001a375 0x18001bd75 4   5    .rdata  ascii   R\vp
+510 0x0001a8fd 0x18001c2fd 4   5    .rdata  ascii   2\vp2
+511 0x0001ab38 0x18001c538 14  15   .rdata  ascii   BootDriver.dll
+512 0x0001ab47 0x18001c547 16  17   .rdata  ascii   BootDriverExcute
+513 0x0001ab58 0x18001c558 25  26   .rdata  ascii   BootDriverGetProgressInfo
+514 0x0001ab72 0x18001c572 11  12   .rdata  ascii   CheckFormat
+515 0x0001ab7e 0x18001c57e 22  23   .rdata  ascii   DeleteGetBootDriverImp
+516 0x0001ab95 0x18001c595 16  17   .rdata  ascii   GetBootDriverImp
+517 0x0001aba6 0x18001c5a6 21  22   .rdata  ascii   SetBootDriverCallBack
+518 0x0001abbc 0x18001c5bc 14  15   .rdata  ascii   TBCanUnloadNow
+519 0x0001abcb 0x18001c5cb 14  15   .rdata  ascii   TBCreateObject
+520 0x0001aff2 0x18001c9f2 20  21   .rdata  ascii   EnterCriticalSection
+521 0x0001b00a 0x18001ca0a 20  21   .rdata  ascii   LeaveCriticalSection
+522 0x0001b022 0x18001ca22 25  26   .rdata  ascii   InitializeCriticalSection
+523 0x0001b03e 0x18001ca3e 5   6    .rdata  ascii   Sleep
+524 0x0001b046 0x18001ca46 12  13   .rdata  ascii   LoadLibraryA
+525 0x0001b056 0x18001ca56 14  15   .rdata  ascii   GetProcAddress
+526 0x0001b068 0x18001ca68 21  22   .rdata  ascii   DeleteCriticalSection
+527 0x0001b080 0x18001ca80 11  12   .rdata  ascii   FreeLibrary
+528 0x0001b08e 0x18001ca8e 18  19   .rdata  ascii   GetModuleFileNameW
+529 0x0001b0a4 0x18001caa4 24  25   .rdata  ascii   GetPrivateProfileStringW
+530 0x0001b0c0 0x18001cac0 11  12   .rdata  ascii   CreateFileW
+531 0x0001b0ce 0x18001cace 11  12   .rdata  ascii   CloseHandle
+532 0x0001b0dc 0x18001cadc 19  20   .rdata  ascii   WaitForSingleObject
+533 0x0001b0f2 0x18001caf2 18  19   .rdata  ascii   GetFileAttributesW
+534 0x0001b108 0x18001cb08 18  19   .rdata  ascii   SetFileAttributesW
+535 0x0001b11e 0x18001cb1e 12  13   .rdata  ascii   GetLastError
+536 0x0001b12e 0x18001cb2e 16  17   .rdata  ascii   GetCurrentThread
+537 0x0001b142 0x18001cb42 11  12   .rdata  ascii   DeleteFileW
+538 0x0001b150 0x18001cb50 12  13   .rdata  ascii   LoadLibraryW
+539 0x0001b160 0x18001cb60 12  13   .rdata  ascii   CreateThread
+540 0x0001b170 0x18001cb70 14  15   .rdata  ascii   CreateProcessW
+541 0x0001b182 0x18001cb82 9   10   .rdata  ascii   CopyFileW
+542 0x0001b18e 0x18001cb8e 21  22   .rdata  ascii   GetPrivateProfileIntW
+543 0x0001b1a6 0x18001cba6 11  12   .rdata  ascii   CopyFileExW
+544 0x0001b1b2 0x18001cbb2 12  13   .rdata  ascii   KERNEL32.dll
+545 0x0001b1c2 0x18001cbc2 15  16   .rdata  ascii   OpenThreadToken
+546 0x0001b1d4 0x18001cbd4 23  24   .rdata  ascii   ImpersonateLoggedOnUser
+547 0x0001b1ee 0x18001cbee 12  13   .rdata  ascii   RevertToSelf
+548 0x0001b1fe 0x18001cbfe 16  17   .rdata  ascii   DuplicateTokenEx
+549 0x0001b212 0x18001cc12 10  11   .rdata  ascii   LogonUserW
+550 0x0001b21e 0x18001cc1e 12  13   .rdata  ascii   ADVAPI32.dll
+551 0x0001b22e 0x18001cc2e 15  16   .rdata  ascii   PathFileExistsW
+552 0x0001b23e 0x18001cc3e 11  12   .rdata  ascii   SHLWAPI.dll
+553 0x0001b24c 0x18001cc4c 30  31   .rdata  ascii   ?_Xout_of_range@std@@YAXPEBD@Z
+554 0x0001b26e 0x18001cc6e 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+555 0x0001b28e 0x18001cc8e 12  13   .rdata  ascii   MSVCP140.dll
+556 0x0001b29e 0x18001cc9e 19  20   .rdata  ascii   WNetAddConnection2W
+557 0x0001b2b4 0x18001ccb4 22  23   .rdata  ascii   WNetCancelConnection2W
+558 0x0001b2cc 0x18001cccc 7   8    .rdata  ascii   MPR.dll
+559 0x0001b2d6 0x18001ccd6 18  19   .rdata  ascii   __CxxFrameHandler3
+560 0x0001b2ec 0x18001ccec 9   10   .rdata  ascii   _purecall
+561 0x0001b2f8 0x18001ccf8 15  16   .rdata  ascii   __std_terminate
+562 0x0001b30a 0x18001cd0a 7   8    .rdata  ascii   wcsrchr
+563 0x0001b314 0x18001cd14 20  21   .rdata  ascii   __C_specific_handler
+564 0x0001b32c 0x18001cd2c 6   7    .rdata  ascii   memset
+565 0x0001b336 0x18001cd36 20  21   .rdata  ascii   __std_exception_copy
+566 0x0001b34e 0x18001cd4e 23  24   .rdata  ascii   __std_exception_destroy
+567 0x0001b368 0x18001cd68 18  19   .rdata  ascii   _CxxThrowException
+568 0x0001b37e 0x18001cd7e 28  29   .rdata  ascii   __std_type_info_destroy_list
+569 0x0001b39c 0x18001cd9c 16  17   .rdata  ascii   VCRUNTIME140.dll
+570 0x0001b3b0 0x18001cdb0 8   9    .rdata  ascii   strcpy_s
+571 0x0001b3bc 0x18001cdbc 8   9    .rdata  ascii   strcat_s
+572 0x0001b3c8 0x18001cdc8 7   8    .rdata  ascii   _time64
+573 0x0001b3d2 0x18001cdd2 8   9    .rdata  ascii   wcscpy_s
+574 0x0001b3de 0x18001cdde 26  27   .rdata  ascii   __stdio_common_vswprintf_s
+575 0x0001b3fc 0x18001cdfc 15  16   .rdata  ascii   __acrt_iob_func
+576 0x0001b40e 0x18001ce0e 23  24   .rdata  ascii   __stdio_common_vfprintf
+577 0x0001b428 0x18001ce28 24  25   .rdata  ascii   __stdio_common_vswprintf
+578 0x0001b444 0x18001ce44 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+579 0x0001b46a 0x18001ce6a 4   5    .rdata  ascii   free
+580 0x0001b472 0x18001ce72 6   7    .rdata  ascii   malloc
+581 0x0001b47c 0x18001ce7c 8   9    .rdata  ascii   wcscat_s
+582 0x0001b488 0x18001ce88 9   10   .rdata  ascii   _callnewh
+583 0x0001b494 0x18001ce94 15  16   .rdata  ascii   _seh_filter_dll
+584 0x0001b4a6 0x18001cea6 22  23   .rdata  ascii   _configure_narrow_argv
+585 0x0001b4c0 0x18001cec0 30  31   .rdata  ascii   _initialize_narrow_environment
+586 0x0001b4e2 0x18001cee2 24  25   .rdata  ascii   _initialize_onexit_table
+587 0x0001b4fe 0x18001cefe 25  26   .rdata  ascii   _register_onexit_function
+588 0x0001b51a 0x18001cf1a 21  22   .rdata  ascii   _execute_onexit_table
+589 0x0001b532 0x18001cf32 11  12   .rdata  ascii   _crt_atexit
+590 0x0001b540 0x18001cf40 6   7    .rdata  ascii   _cexit
+591 0x0001b54a 0x18001cf4a 9   10   .rdata  ascii   _initterm
+592 0x0001b556 0x18001cf56 11  12   .rdata  ascii   _initterm_e
+593 0x0001b562 0x18001cf62 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+594 0x0001b584 0x18001cf84 30  31   .rdata  ascii   api-ms-win-crt-time-l1-1-0.dll
+595 0x0001b5a4 0x18001cfa4 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+596 0x0001b5c4 0x18001cfc4 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+597 0x0001b5e6 0x18001cfe6 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+598 0x0001b608 0x18001d008 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+599 0x0001b630 0x18001d030 8   9    .rdata  ascii   SetEvent
+600 0x0001b63c 0x18001d03c 10  11   .rdata  ascii   ResetEvent
+601 0x0001b64a 0x18001d04a 21  22   .rdata  ascii   WaitForSingleObjectEx
+602 0x0001b662 0x18001d062 12  13   .rdata  ascii   CreateEventW
+603 0x0001b672 0x18001d072 16  17   .rdata  ascii   GetModuleHandleW
+604 0x0001b686 0x18001d086 17  18   .rdata  ascii   RtlCaptureContext
+605 0x0001b69a 0x18001d09a 22  23   .rdata  ascii   RtlLookupFunctionEntry
+606 0x0001b6b4 0x18001d0b4 16  17   .rdata  ascii   RtlVirtualUnwind
+607 0x0001b6c8 0x18001d0c8 24  25   .rdata  ascii   UnhandledExceptionFilter
+608 0x0001b6e4 0x18001d0e4 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+609 0x0001b702 0x18001d102 17  18   .rdata  ascii   GetCurrentProcess
+610 0x0001b716 0x18001d116 16  17   .rdata  ascii   TerminateProcess
+611 0x0001b72a 0x18001d12a 25  26   .rdata  ascii   IsProcessorFeaturePresent
+612 0x0001b746 0x18001d146 17  18   .rdata  ascii   IsDebuggerPresent
+613 0x0001b75a 0x18001d15a 23  24   .rdata  ascii   QueryPerformanceCounter
+614 0x0001b774 0x18001d174 19  20   .rdata  ascii   GetCurrentProcessId
+615 0x0001b78a 0x18001d18a 18  19   .rdata  ascii   GetCurrentThreadId
+616 0x0001b7a0 0x18001d1a0 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+617 0x0001b7ba 0x18001d1ba 19  20   .rdata  ascii   InitializeSListHead
+618 0x0001b7d0 0x18001d1d0 15  16   .rdata  ascii   __RTDynamicCast
+619 0x0001b7e2 0x18001d1e2 7   8    .rdata  ascii   memmove
+620 0x0001b858 0x18001e058 15  16   .data   ascii   .?AVtype_info@@
+621 0x0001b878 0x18001e078 19  20   .data   ascii   .?AVbad_alloc@std@@
+622 0x0001b8a0 0x18001e0a0 19  20   .data   ascii   .?AVexception@std@@
+623 0x0001b8c8 0x18001e0c8 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+624 0x0001b8f8 0x18001e0f8 44  45   .data   ascii   .?AV?$CTbCreator@VIOperate@@VCBootDriver@@@@
+625 0x0001b938 0x18001e138 17  18   .data   ascii   .?AVCUICallBack@@
+626 0x0001b960 0x18001e160 15  16   .data   ascii   .?AVITBCommon@@
+627 0x0001b980 0x18001e180 34  35   .data   ascii   .?AV?$CTbBaseCreator@VIOperate@@@@
+628 0x0001b9b8 0x18001e1b8 34  35   .data   ascii   .?AV?$CInterfaceImpl@VIOperate@@@@
+629 0x0001b9f0 0x18001e1f0 14  15   .data   ascii   .?AVIOperate@@
+630 0x0001ba10 0x18001e210 30  31   .data   ascii   .?AV?$CTbBaseCreator@VILog@@@@
+631 0x0001ba40 0x18001e240 17  18   .data   ascii   .?AVCBootDriver@@
+632 0x0001ba68 0x18001e268 31  32   .data   ascii   .?AV?$CTbBaseCreator@VIBoot@@@@
+633 0x0001ba98 0x18001e298 16  17   .data   ascii   .?AVITbCreator@@
+634 0x0001bac0 0x18001e2c0 17  18   .data   ascii   .?AVCBurnBootCD@@
+635 0x0001bae8 0x18001e2e8 31  32   .data   ascii   .?AV?$CTbBaseCreator@VIBurn@@@@
+636 0x0001bb18 0x18001e318 25  26   .data   ascii   .?AVCDownLoadLinuxPEISO@@
+637 0x0001bb48 0x18001e348 34  35   .data   ascii   .?AV?$CTbBaseCreator@VIOptions@@@@
+638 0x0001bb80 0x18001e380 14  15   .data   ascii   .?AVCIsoBoot@@
+639 0x0001bba0 0x18001e3a0 14  15   .data   ascii   .?AVCUsbBoot@@
+640 0x0001d0a6 0x1800210a6 15  32   .rsrc   utf16le VS_VERSION_INFO
+641 0x0001d102 0x180021102 14  30   .rsrc   utf16le StringFileInfo
+642 0x0001d126 0x180021126 8   18   .rsrc   utf16le 080404b0
+643 0x0001d13e 0x18002113e 11  24   .rsrc   utf16le CompanyName
+644 0x0001d158 0x180021158 38  78   .rsrc   utf16le CHENGDU YIWO Tech Development Co., Ltd
+645 0x0001d1ae 0x1800211ae 15  32   .rsrc   utf16le FileDescription
+646 0x0001d1d0 0x1800211d0 50  102  .rsrc   utf16le EaseUS Todo Backup BootDriver Dynamic Link Library
+647 0x0001d23e 0x18002123e 11  24   .rsrc   utf16le FileVersion
+648 0x0001d258 0x180021258 7   16   .rsrc   utf16le 5.8.0.0
+649 0x0001d26e 0x18002126e 12  26   .rsrc   utf16le InternalName
+650 0x0001d288 0x180021288 10  22   .rsrc   utf16le BootDriver
+651 0x0001d2a6 0x1800212a6 14  30   .rsrc   utf16le LegalCopyright
+652 0x0001d2c4 0x1800212c4 84  170  .rsrc   utf16le Copyright (C) 2005-2011 CHENGDU YIWO Tech Development Co., Ltd. All rights reserved.
+653 0x0001d376 0x180021376 16  34   .rsrc   utf16le OriginalFilename
+654 0x0001d398 0x180021398 14  30   .rsrc   utf16le BootDriver.dll
+655 0x0001d3be 0x1800213be 11  24   .rsrc   utf16le ProductName
+656 0x0001d3d8 0x1800213d8 50  102  .rsrc   utf16le EaseUS Todo Backup BootDriver Dynamic Link Library
+657 0x0001d446 0x180021446 14  30   .rsrc   utf16le ProductVersion
+658 0x0001d464 0x180021464 7   16   .rsrc   utf16le 5.8.0.0
+659 0x0001d47c 0x18002147c 10  22   .rsrc   utf16le arFileInfo
+660 0x0001d49a 0x18002149a 11  24   .rsrc   utf16le Translation
+661 0x0001d4b8 0x1800214b8 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

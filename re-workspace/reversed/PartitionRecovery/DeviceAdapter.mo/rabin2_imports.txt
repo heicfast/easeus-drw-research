@@ -1,0 +1,39 @@
+[Imports]
+nth vaddr       bind type lib                               name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x180004070 NONE FUNC VCRUNTIME140.dll                  __std_exception_destroy
+2   0x180004078 NONE FUNC VCRUNTIME140.dll                  __std_exception_copy
+3   0x180004080 NONE FUNC VCRUNTIME140.dll                  __std_type_info_destroy_list
+4   0x180004088 NONE FUNC VCRUNTIME140.dll                  __C_specific_handler
+5   0x180004090 NONE FUNC VCRUNTIME140.dll                  memset
+6   0x180004098 NONE FUNC VCRUNTIME140.dll                  __CxxFrameHandler3
+7   0x1800040a0 NONE FUNC VCRUNTIME140.dll                  _purecall
+8   0x1800040a8 NONE FUNC VCRUNTIME140.dll                  __std_type_info_name
+9   0x1800040b0 NONE FUNC VCRUNTIME140.dll                  _CxxThrowException
+1   0x180004130 NONE FUNC api-ms-win-crt-string-l1-1-0.dll  strncpy
+1   0x1800040e0 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _initialize_narrow_environment
+2   0x1800040e8 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _configure_narrow_argv
+3   0x1800040f0 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _seh_filter_dll
+4   0x1800040f8 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll terminate
+5   0x180004100 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _initterm_e
+6   0x180004108 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _initterm
+7   0x180004110 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _initialize_onexit_table
+8   0x180004118 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _cexit
+9   0x180004120 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _execute_onexit_table
+1   0x1800040c0 NONE FUNC api-ms-win-crt-heap-l1-1-0.dll    _callnewh
+2   0x1800040c8 NONE FUNC api-ms-win-crt-heap-l1-1-0.dll    free
+3   0x1800040d0 NONE FUNC api-ms-win-crt-heap-l1-1-0.dll    malloc
+1   0x180004000 NONE FUNC KERNEL32.dll                      SetUnhandledExceptionFilter
+2   0x180004008 NONE FUNC KERNEL32.dll                      QueryPerformanceCounter
+3   0x180004010 NONE FUNC KERNEL32.dll                      GetCurrentProcessId
+4   0x180004018 NONE FUNC KERNEL32.dll                      GetCurrentThreadId
+5   0x180004020 NONE FUNC KERNEL32.dll                      GetSystemTimeAsFileTime
+6   0x180004028 NONE FUNC KERNEL32.dll                      DisableThreadLibraryCalls
+7   0x180004030 NONE FUNC KERNEL32.dll                      RtlCaptureContext
+8   0x180004038 NONE FUNC KERNEL32.dll                      RtlLookupFunctionEntry
+9   0x180004040 NONE FUNC KERNEL32.dll                      RtlVirtualUnwind
+10  0x180004048 NONE FUNC KERNEL32.dll                      IsProcessorFeaturePresent
+11  0x180004050 NONE FUNC KERNEL32.dll                      InitializeSListHead
+12  0x180004058 NONE FUNC KERNEL32.dll                      UnhandledExceptionFilter
+13  0x180004060 NONE FUNC KERNEL32.dll                      IsDebuggerPresent
+

@@ -1,0 +1,4 @@
+[Exports]
+nth paddr      vaddr      bind   type size lib                              name             demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000820 0x10001420 GLOBAL FUNC 0    FilePathCheckerModuleExample.dll IsAccessiblePath

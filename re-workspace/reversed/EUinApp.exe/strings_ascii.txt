@@ -1,0 +1,247 @@
+!This program cannot be run in DOS mode.
+b;Rich
+`.rdata
+@.data
+@.reloc
+PQQSVW
+PQQSVW
+bad allocation
+bad allocation
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+Software\Microsoft\Windows\CurrentVersion\Internet Settings
+SecureProtocols
+invalid vector<T> subscript
+vector<T> too long
+e:\AWork\share_lib\99_PublicLibrary\EUSetWebCtrlIEVersion\x86\EUinApp.pdb
+WideCharToMultiByte
+GetCommandLineW
+KERNEL32.dll
+RegCloseKey
+RegCreateKeyExA
+RegOpenKeyExA
+RegQueryValueExA
+RegSetValueExA
+RegQueryValueExW
+RegOpenKeyExW
+RegCreateKeyExW
+RegSetValueExW
+ADVAPI32.dll
+CommandLineToArgvW
+SHELL32.dll
+	?npos@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@2IB
+??$?H_WU?$char_traits@_W@std@@V?$allocator@_W@1@@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@ABV10@0@Z
+?swap@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEXAAV12@@Z
+??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ
+?substr@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBE?AV12@II@Z
+?find_first_of@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEI_WI@Z
+?size@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEIXZ
+f	?length@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEIXZ
+?c_str@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEPB_WXZ
+??4?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@PB_W@Z
+??4?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@ABV01@@Z
+??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ
+??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV01@@Z
+??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@PB_W@Z
+?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ
+?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z
+??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ
+??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z
+??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z
+??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ
+MSVCP90.dll
+??3@YAXPAX@Z
+??0exception@std@@QAE@ABQBD@Z
+??1exception@std@@UAE@XZ
+??_V@YAXPAX@Z
+??0exception@std@@QAE@XZ
+??0exception@std@@QAE@ABV01@@Z
+??2@YAPAXI@Z
+_invalid_parameter_noinfo
+wcscat_s
+?what@exception@std@@UBEPBDXZ
+MSVCR90.dll
+_amsg_exit
+__getmainargs
+_cexit
+_XcptFilter
+__initenv
+_initterm
+_initterm_e
+_configthreadlocale
+__setusermatherr
+_adjust_fdiv
+__p__commode
+__p__fmode
+_encode_pointer
+__set_app_type
+_crt_debugger_hook
+?terminate@@YAXXZ
+?_type_info_dtor_internal_method@type_info@@QAEXXZ
+_unlock
+__dllonexit
+_onexit
+_decode_pointer
+_except_handler4_common
+_invoke_watson
+_controlfp_s
+InterlockedExchange
+InterlockedCompareExchange
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+QueryPerformanceCounter
+GetTickCount
+GetCurrentThreadId
+GetCurrentProcessId
+GetSystemTimeAsFileTime
+__CxxFrameHandler3
+memset
+_CxxThrowException
+.?AVtype_info@@
+.?AVexception@std@@
+.?AVout_of_range@std@@
+.?AVlogic_error@std@@
+.?AVlength_error@std@@
+.?AVbad_alloc@std@@
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Microsoft.VC90.CRT" version="9.0.21022.8" processorArchitecture="x86" publicKeyToken="1fc8b3b9a1e18e3b"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING
+2(212O2
+7&7h7s7
+7	8(8N8i8s8
+9+9@9J9U9
+9&:8:S:\:o:x:
+;(;4;f;v;
+<!<7<\<l<
+='===`=l=
+>>>U>r>
+010;0Q0a0
+<&=5=F=O=g=
+2-3`3i3
+4o5V6g6
+: :%:*:/:4:::B:V:q:z:
+;&;:;?;E;M;S;Y;f;l;u;
+;+<1<9<@<E<K<Q<Y<_<f<m<}<
+='=3=<=A=G=Q=Z=e=q=v=
+?2?H?U?
+00161=1Z1
+2!2-252=2I2m2u2
+454R4e4n4
+555>5^5u5~5
+5%656>6G6S6_6k6
+1<4@4D4H4L4P4T4X4\4`4d4h4
+4(5,5<5@5H5`5p5t5
+6$6(6,646L6\6`6p6t6x6
+6<7@7\7`7
+8 8$8,848<8P8X8\8`8h8p8x8
+9$9\9p9|9
+:(:4:<:l:
+;(;0;H;T;t;
+<4<<<D<L<T<\<h<
+04080T0t0
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+20261013060539Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013060539Z0+
+/1(0&0$0"
+Js%XuK

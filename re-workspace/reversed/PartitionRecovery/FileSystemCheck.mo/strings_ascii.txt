@@ -1,0 +1,552 @@
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+@SVWATAUAVAW
+A_A^A]A\_^[
+L$ SWH
+L$ UVWATAUAVAWH
+tJA;T$
+UPA;T$
+UPA;T$
+pA_A^A]A\_^]
+@VWATAVAWH
+pA_A^A\_^
+@SVWATAUAVAWH
+{" uSL
+I+F(IcN H
+A_A^A]A\_^[
+L$ SVWH
+UVWAVAWH
+0A_A^_^]
+UVWAVAWH
+0A_A^_^]
+@SVWATAUAVAWH
+{HLcD$43
+LcD$43
+LcD$4I
+fA9NJt-E3
+{HLcD$43
+uTLc|$4M
+fA9NJt
+A_A^A]A\_^[
+@UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+t*LcF4L
+A_A^A]A\_^]
+UVWATAUAVAWH
+X(9t$0
+t#HcM4HcE0H
+pA_A^A]A\_^]
+VWATAVAWH
+d$hHcF
+A_A^A\_^
+t$ WAVAWH
+D$0HcA
+SVWATAUAVAWH
+@A_A^A]A\_^[
+WAVAWH
+H;8u?I
+PA_A^_
+WATAUAVAWH
+H;0u:H
+A_A^A]A\_
+@VWAVH
+@UVWATAUAVAWH
+wHH9wPtBH
+A_A^A]A\_^]
+@UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+GHH+G@H
+`A_A^A]A\_^]
+@VWAVH
+D$ It#3
+!Moduf
+@UVWAVH
+HA^_^]
+HA^_^]
+@USVWATAVAWH
+A_A^A\_^[]
+\$ UVWH
+@SVWATAUAVAW
+A_A^A]A\_^[
+L$ SVWH
+SVWAVH
+8A^_^[
+WAVAWH
+|$ AVH
+ H3E H3E
+UPHcE`Hk
+UPHcE`Hk
+U HcE(Hk
+U HcE(Hk
+U`HcEhHk
+UPHcE`Hk
+U HcE(Hk
+  Checking
+i:\_drw_main\partitionrecovery\legacy_mod\mod.filesystemcheck\checkfat.cpp
+Call ReadSector() failed! (%s,%d)
+  Checking DBR
+  Checking FAT
+  Comparing FAT
+  Checking Cluster Chain
+  Checking Finished
+Name: %s
+Name: %s\%s
+bLUUUu@"
+Call m_ntfsMft.ReadFileRecord(FILE_Bitmap,fileRecord) in CCheckNTFSVolume::LoadVolumeBitmap() failed!
+The $Bitmap file have 0x20 attribute! Currently, we do not support it!
+The $Bitmap::$DATA stream is resident! Currently, we do not support it!
+Call attribute.GetDataRunList() in CCheckNTFSVolume::LoadVolumeBitmap() failed!(Line:%d)
+i:\_drw_main\partitionrecovery\legacy_mod\mod.filesystemcheck\checkntfs.cpp
+allocate memory failed!(%s,%d)
+Call ReadSector() failed!(%s,%d)
+Call CreateBitmap(%lu) failed!(%s,%d)
+Call m_ntfsNewBitmap.CreateBitmap() failed!(size:%lu)
+Call Read_MFT_Bitmap() failed!
+ReadFileRecord failed(Index:%lu)
+Call fileRecord.GetFileRecordHeader() failed(Index:%lu)
+Call GetDataRunList() for attribute:0x%x failed!(Index:%lu)
+The location of attribute 0x%x of file record%lu is illegal!!!! Bitmap mark it as free!!!(LCN:%lu)
+The location of attribute 0x%x of file record%lu is illegal!!!! Please use 'Chkdsk' first!!!(LCN:%lu)
+file: %s, line: %d, error = 0x%I64x, lasterror = 0x%x 
+  NTFS Volume Loading
+Call m_ntfsVolume.LoadNtfsVolume() failed!
+  Checking $MFT
+  Checking $MFTMirr
+Call m_ntfsMft.Init() failed!
+  Checking NTFS Version
+  Checking $Bitmap
+Call LoadVolumeBitmap() failed!(%s,%d)
+The return value of CollectTheLocationOfData() is FALSE!!!
+The volume have some errors,please use Chkdsk to check, and use Chkdsk /F to fix!
+vector<T> too long
+GetModule
+FileSystemCheck
+CFileSystemCheckModule
+Thread
+string too long
+map/set<T> too long
+Common
+Stage:
+Stage: %d%%; Total: %d%%
+DEBUG : Msg ID (0x%08x)
+IsWow64Process
+kernel32
+WinChkdsk.exe
+x64\WinChkdsk.exe
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+I:\_drw_main\PartitionRecovery\Output\Release_x64\FileSystemCheck.pdb
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.pdata
+.rsrc$01
+.rsrc$02
+FileSystemCheck.mo
+??0?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAA@XZ
+??0?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAA@XZ
+??0?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAA@AEBV01@@Z
+??0CHardDriveIO@@QEAA@AEBV0@@Z
+??0CHardDriveIOSetting@@QEAA@AEBV0@@Z
+??0CNtfsRunList@@QEAA@AEBV0@@Z
+??0CNtfsVolume@@IEAA@AEAV0@@Z
+??0CNtfsVolume@@IEAA@PEAV0@@Z
+??0IObject@@QEAA@$$QEAU0@@Z
+??0IObject@@QEAA@AEBU0@@Z
+??0IObject@@QEAA@XZ
+??0IStorageDevice@@QEAA@$$QEAU0@@Z
+??0IStorageDevice@@QEAA@AEBU0@@Z
+??0IStorageDevice@@QEAA@XZ
+??1?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAA@XZ
+??1?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAA@XZ
+??1?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAA@XZ
+??4?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAAEAV01@AEBV01@@Z
+??4CHardDriveIO@@QEAAAEAV0@AEBV0@@Z
+??4CHardDriveIOSetting@@QEAAAEAV0@AEBV0@@Z
+??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+??4CNtfsMFT@@QEAAAEAV0@AEAV0@@Z
+??4CNtfsRunList@@QEAAAEAV0@AEBV0@@Z
+??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+??4IObject@@QEAAAEAU0@AEBU0@@Z
+??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+??A?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAAEAIH@Z
+??A?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAAAEAUSECTOR_RANGE@@H@Z
+??A?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAAEAUtagDataRun@@H@Z
+??A?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEBAAEBUtagDataRun@@H@Z
+??A?$CSimpleArray@VCNtfsFileRecordAttribute@@V?$CSimpleArrayEqualHelper@VCNtfsFileRecordAttribute@@@MyTemplate@@@MyTemplate@@QEAAAEAVCNtfsFileRecordAttribute@@H@Z
+??_7CHardDriveIO@@6B@
+??_7CHardDriveIOSetting@@6B@
+??_7CNtfsVolume@@6B@
+??_7IObject@@6B@
+??_7IStorageDevice@@6BIBlockDevice@@@
+??_7IStorageDevice@@6BIObject@@@
+?Add@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAHAEBI@Z
+?Add@?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAAHAEBUSECTOR_RANGE@@@Z
+?Add@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAHAEBUtagDataRun@@@Z
+?AddRef@IObject@@QEBAKXZ
+?ConvertVolume@IStorageDevice@@UEAAHXZ
+?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+?GetAttributeHeaderSize@CNtfsFileRecordAttribute@@QEAAJXZ
+?GetAttributeLength@CNtfsFileRecordAttribute@@QEBA_JXZ
+?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+?GetBytesPerFileRecord@CNtfsVolume@@QEBAJXZ
+?GetBytesPerSector@CNtfsVolume@@QEBAJXZ
+?GetCompressionUnitSize@CNtfsFileRecordAttribute@@QEBAGXZ
+?GetDataAllocatedLength@CNtfsFileRecordAttribute@@QEBA_JXZ
+?GetDataInitiatedLength@CNtfsFileRecordAttribute@@QEBA_JXZ
+?GetDataRealLength@CNtfsFileRecordAttribute@@QEBA_JXZ
+?GetFlags@CNtfsFileRecordAttribute@@QEBAGXZ
+?GetHardDriveIO@CNtfsMFT@@QEAAAEAVCHardDriveIO@@XZ
+?GetHardDriveNumber@CNtfsVolume@@QEBAJXZ
+?GetID@CNtfsFileRecordAttribute@@QEBAKXZ
+?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+?GetLastVCN@CNtfsFileRecordAttribute@@QEBA_JXZ
+?GetLdmVolumeAsDisk@CNtfsVolume@@QEBAPEAUILdmVolume@@XZ
+?GetMftLcnAddress@CNtfsVolume@@QEBA_JXZ
+?GetMftMirrorLcnAddress@CNtfsVolume@@QEBA_JXZ
+?GetName@CNtfsFileRecordAttribute@@QEBAHPEAGJ@Z
+?GetNameLength@CNtfsFileRecordAttribute@@QEBAJXZ
+?GetSectorAddressFromLCN@CNtfsVolume@@QEBA_J_J@Z
+?GetSectorsPerCluster@CNtfsVolume@@QEBAJXZ
+?GetSectorsPerIndexRecord@CNtfsVolume@@QEBAJXZ
+?GetSize@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEBAHXZ
+?GetSize@?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEBAHXZ
+?GetSize@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEBAHXZ
+?GetSize@?$CSimpleArray@VCNtfsFileRecordAttribute@@V?$CSimpleArrayEqualHelper@VCNtfsFileRecordAttribute@@@MyTemplate@@@MyTemplate@@QEBAHXZ
+?GetSourceFileRecord@CNtfsFileRecord@@QEAAPEAEAEAJ@Z
+?GetSourceFileRecordAttribute@CNtfsFileRecordAttribute@@QEBAPEAEAEAJ@Z
+?GetStartVCN@CNtfsFileRecordAttribute@@QEBA_JXZ
+?GetType@CNtfsFileRecordAttribute@@QEBAKXZ
+?GetVolumeClusterCount@CNtfsVolume@@QEBA_JXZ
+?GetVolumeNewStartSectorNumber@CNtfsVolume@@QEBA_JXZ
+?GetVolumeSerialNumber@CNtfsVolume@@QEBA_JXZ
+?GetVolumeStartSectorNumber@CNtfsVolume@@QEBA_JXZ
+?GetVolumeTotalSectorNumber@CNtfsVolume@@QEBA_JXZ
+?Has0X20@CNtfsMFT@@QEAAHXZ
+?InternalSetAtIndex@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAXHAEBI@Z
+?InternalSetAtIndex@?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAAXHAEBUSECTOR_RANGE@@@Z
+?InternalSetAtIndex@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAXHAEBUtagDataRun@@@Z
+?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+?IsCompressed@CNtfsFileRecordAttribute@@QEBAHXZ
+?IsInitiated@CNtfsMFT@@QEAAHXZ
+?IsNamed@CNtfsFileRecordAttribute@@QEBAHXZ
+?IsResident@CNtfsFileRecordAttribute@@QEBAHXZ
+?IsSparseFile@CNtfsFileRecordAttribute@@QEBAHXZ
+?Release@IObject@@QEBAKXZ
+?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+?RemoveAll@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAXXZ
+?RemoveAll@?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAAXXZ
+?RemoveAll@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAXXZ
+?RemoveAt@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAHH@Z
+?RemoveAt@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAHH@Z
+?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+?SetDataAllocatedLength@CNtfsFileRecordAttribute@@QEAAH_J@Z
+?SetDataInitiatedLength@CNtfsFileRecordAttribute@@QEAAH_J@Z
+?SetDataRealLength@CNtfsFileRecordAttribute@@QEAAH_J@Z
+?SetID@CNtfsFileRecordAttribute@@QEAAXG@Z
+?SetLastVCN@CNtfsFileRecordAttribute@@QEAAH_J@Z
+?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+?SetStartVCN@CNtfsFileRecordAttribute@@QEAAH_J@Z
+GetModule
+??1CHardDriveIOSetting@@UEAA@XZ
+??1CHardDriveIO@@UEAA@XZ
+?GetSectorSize@CHardDriveIO@@UEAAKXZ
+?ReadSector@CHardDriveIO@@UEAAHPEAE_J1@Z
+?WriteSector@CHardDriveIO@@UEAAHPEAE_J1@Z
+?VerifySector@CHardDriveIO@@UEAAH_J0@Z
+?OpenDisk@CHardDriveIO@@UEAAHH@Z
+?CloseDisk@CHardDriveIO@@UEAAHXZ
+?GetGeometryInfo@CHardDriveIO@@UEAAHPEAUtagGEOMETRY_INFO@@@Z
+?GetDevice@CHardDriveIO@@UEAAPEAUIBlockDevice@@XZ
+?GetHardDriveNumber@CHardDriveIO@@UEAAHAEAH@Z
+??0TBitmap@@QEAA@XZ
+??1TBitmap@@QEAA@XZ
+?CreateBitmap@TBitmap@@QEAAH_J@Z
+?SetBit@TBitmap@@QEAAH_JHH@Z
+?GetBit@TBitmap@@QEAAH_J@Z
+?GetNTFSVersion@CNTFSLib@@SAHH_JAEAK@Z
+??0CNtfsRunList@@QEAA@XZ
+??1CNtfsRunList@@QEAA@XZ
+??0CNtfsVolume@@QEAA@XZ
+??1CNtfsVolume@@UEAA@XZ
+?LoadNtfsVolume@CNtfsVolume@@UEAAHJ_J0PEAUILdmVolume@@@Z
+?LoadLdmProc@CNtfsVolume@@UEAAHPEAUILdmVolume@@_J@Z
+??4CNtfsVolume@@QEAAAEBV0@AEAV0@@Z
+??0CNtfsFileRecordAttribute@@QEAA@XZ
+??1CNtfsFileRecordAttribute@@QEAA@XZ
+?GetResidentData@CNtfsFileRecordAttribute@@QEAA_JPEAE_J@Z
+?GetDataRunList@CNtfsFileRecordAttribute@@QEAAHAEAVCNtfsRunList@@@Z
+??4CNtfsFileRecordAttribute@@QEAAAEBV0@AEBV0@@Z
+??0CNtfsFileRecord@@QEAA@XZ
+??1CNtfsFileRecord@@QEAA@XZ
+?InitFromSourceFileRecord@CNtfsFileRecord@@QEAAHPEAEJ@Z
+?GetFileRecordHeader@CNtfsFileRecord@@QEAAHAEAUtagFILERECORD@@@Z
+?IsAttributeListPresent@CNtfsFileRecord@@QEAAHXZ
+?DestroyBitmap@TBitmap@@QEAAHXZ
+?GetMaxBitIndex@TBitmap@@QEAA_JXZ
+?GetBitmapSize@TBitmap@@QEAAHXZ
+?GetBitmapData@TBitmap@@QEAAPEAEXZ
+??0CNtfsMFT@@QEAA@XZ
+??1CNtfsMFT@@UEAA@XZ
+?GetFileRecordCount@CNtfsMFT@@QEAA_JXZ
+?Get0XB0AllocSize@CNtfsMFT@@QEAA_JXZ
+?Get0XB0FileRecord@CNtfsMFT@@QEAAHAEAVCNtfsFileRecord@@@Z
+?Get0XB0DataRun@CNtfsMFT@@QEAAHAEAVCNtfsRunList@@@Z
+?ConvertPartitionDevice2DiskDevice@CNTFSLib@@SAHPEAUIManager@@PEAUIManagerItem@@AEAHAEA_J@Z
+??0CHardDriveIOSetting@@QEAA@PEAUIManager@@PEAUIBlockDevice@@@Z
+??0CHardDriveIO@@QEAA@XZ
+?LoadSetting@CHardDriveIO@@SAXAEAVCHardDriveIOSetting@@@Z
+NTFSLib.mo
+?Log@CLogWriter@@SAXPEBDZZ
+Log.mo
+OutputDebugStringA
+GetLastError
+GetVolumeInformationA
+FreeLibrary
+GetProcAddress
+LoadLibraryA
+ReadFile
+WriteFile
+CloseHandle
+DuplicateHandle
+CreatePipe
+PeekNamedPipe
+SetEvent
+WaitForSingleObject
+CreateEventA
+GetCurrentProcess
+TerminateProcess
+GetExitCodeProcess
+CreateProcessA
+GetModuleFileNameA
+GetModuleHandleA
+KERNEL32.dll
+?_Xlength_error@std@@YAXPEBD@Z
+MSVCP140.dll
+_purecall
+__CxxFrameHandler3
+memcpy
+memmove
+memset
+_CxxThrowException
+__std_type_info_name
+memcmp
+strstr
+__C_specific_handler
+__std_terminate
+__std_type_info_destroy_list
+__std_exception_copy
+__std_exception_destroy
+VCRUNTIME140.dll
+malloc
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+_invalid_parameter_noinfo_noreturn
+strncat
+strncpy
+__stdio_common_vsscanf
+terminate
+_callnewh
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+_initterm
+_initterm_e
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-convert-l1-1-0.dll
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsProcessorFeaturePresent
+EnterCriticalSection
+LeaveCriticalSection
+InitializeCriticalSectionAndSpinCount
+DeleteCriticalSection
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+InitializeSListHead
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+.?AUIObject@@
+.?AVCHardDriveIOSetting@@
+.?AVCHardDriveIO@@
+.?AVCFatChain@@
+.?AV?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@
+.?AVCCheckFAT@@
+.?AVCNtfsVolume@@
+.?AVCCheckNTFSVolume@@
+.?AVCFileAllocationTable@@
+.?AUIStorageDevice@@
+.?AUIFileSystemPartition@@
+.?AUIPartitionEntry@@
+.?AUIFileSystemCheckModule@@
+.?AUIModule@@
+.?AUIThreadBase@@
+.?AU__MomObjectFlag@@
+.?AUIBlockDevice@@
+.?AVCFileSystemCheckModule@@
+.?AV?$CModuleImpl@VCFileSystemCheckModule@@@@
+.?AV?$CMomEventObject@V?$CModuleImpl@VCFileSystemCheckModule@@@@@@
+.?AV?$CMomObject@V?$CModuleImpl@VCFileSystemCheckModule@@@@@@
+.?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCFileSystemCheckModule@@@@@@@@
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+20261013061328Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013061328Z0+
+/1(0&0$0"

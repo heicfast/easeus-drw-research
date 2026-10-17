@@ -1,0 +1,428 @@
+[Strings]
+nth paddr      vaddr      len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x0001cddc 0x1001e1dc 7   8    .rdata  ascii   HTTP://
+1   0x0001cde4 0x1001e1e4 23  24   .rdata  ascii   http://www.haansoft.com
+2   0x0001cdfc 0x1001e1fc 4   5    .rdata  ascii   URL:
+3   0x0001ce08 0x1001e208 28  29   .rdata  ascii   FilePathCheckerModuleExample
+4   0x0001ce26 0x1001e226 4   5    .rdata  ascii    %s
+5   0x0001ce42 0x1001e242 4   6    .rdata  utf8    .\n\nb
+6   0x0001ce74 0x1001e274 14  15   .rdata  ascii   bad allocation
+7   0x0001ce94 0x1001e294 7   8    .rdata  ascii   LC_TIME
+8   0x0001ce9c 0x1001e29c 10  11   .rdata  ascii   LC_NUMERIC
+9   0x0001cea8 0x1001e2a8 11  12   .rdata  ascii   LC_MONETARY
+10  0x0001ceb4 0x1001e2b4 8   9    .rdata  ascii   LC_CTYPE
+11  0x0001cec0 0x1001e2c0 10  11   .rdata  ascii   LC_COLLATE
+12  0x0001cecc 0x1001e2cc 6   7    .rdata  ascii   LC_ALL
+13  0x0001cf26 0x1001e326 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+14  0x0001cf3f 0x1001e33f 95  96   .rdata  ascii    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+15  0x0001cfa4 0x1001e3a4 6   28   .rdata  utf32le ._;=C㬽
+16  0x0001cfc0 0x1001e3c0 9   10   .rdata  ascii   dePointer
+17  0x0001cfcc 0x1001e3cc 12  26   .rdata  utf16le KERNEL32.DLL
+18  0x0001cfe8 0x1001e3e8 13  14   .rdata  ascii   DecodePointer
+19  0x0001cff8 0x1001e3f8 7   8    .rdata  ascii   FlsFree
+20  0x0001d000 0x1001e400 11  12   .rdata  ascii   FlsSetValue
+21  0x0001d00c 0x1001e40c 11  12   .rdata  ascii   FlsGetValue
+22  0x0001d018 0x1001e418 8   9    .rdata  ascii   FlsAlloc
+23  0x0001d030 0x1001e430 17  18   .rdata  ascii   Unknown exception
+24  0x0001d090 0x1001e490 6   14   .rdata  utf16le (null)
+25  0x0001d0a0 0x1001e4a0 6   7    .rdata  ascii   (null)
+26  0x0001d0c9 0x1001e4c9 7   8    .rdata  ascii   ( 8PX\a\b
+27  0x0001d0d1 0x1001e4d1 6   7    .rdata  ascii   700WP\a
+28  0x0001d0e0 0x1001e4e0 7   8    .rdata  ascii   \b`h````
+29  0x0001d0e9 0x1001e4e9 9   10   .rdata  ascii   xpxxxx\b\a\b
+30  0x0001d10c 0x1001e50c 14  15   .rdata  ascii   CorExitProcess
+31  0x0001d11c 0x1001e51c 11  24   .rdata  utf16le mscoree.dll
+32  0x0001d2b8 0x1001e6b8 33  68   .rdata  utf16le          (((((                  H
+33  0x0001d4ba 0x1001e8ba 33  68   .rdata  utf16le          h((((                  H
+34  0x0001d5b8 0x1001e9b8 34  70   .rdata  utf16le                                  H
+35  0x0001d747 0x1001eb47 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+36  0x0001d760 0x1001eb60 95  96   .rdata  ascii    !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+37  0x0001d8c7 0x1001ecc7 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+38  0x0001d8e0 0x1001ece0 95  96   .rdata  ascii    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+39  0x0001d9c0 0x1001edc0 8   9    .rdata  ascii   HH:mm:ss
+40  0x0001d9cc 0x1001edcc 19  20   .rdata  ascii   dddd, MMMM dd, yyyy
+41  0x0001d9e0 0x1001ede0 8   9    .rdata  ascii   MM/dd/yy
+42  0x0001d9f4 0x1001edf4 8   9    .rdata  ascii   December
+43  0x0001da00 0x1001ee00 8   9    .rdata  ascii   November
+44  0x0001da0c 0x1001ee0c 7   8    .rdata  ascii   October
+45  0x0001da14 0x1001ee14 9   10   .rdata  ascii   September
+46  0x0001da20 0x1001ee20 6   7    .rdata  ascii   August
+47  0x0001da28 0x1001ee28 4   5    .rdata  ascii   July
+48  0x0001da30 0x1001ee30 4   5    .rdata  ascii   June
+49  0x0001da38 0x1001ee38 5   6    .rdata  ascii   April
+50  0x0001da40 0x1001ee40 5   6    .rdata  ascii   March
+51  0x0001da48 0x1001ee48 8   9    .rdata  ascii   February
+52  0x0001da54 0x1001ee54 7   8    .rdata  ascii   January
+53  0x0001da8c 0x1001ee8c 8   9    .rdata  ascii   Saturday
+54  0x0001da98 0x1001ee98 6   7    .rdata  ascii   Friday
+55  0x0001daa0 0x1001eea0 8   9    .rdata  ascii   Thursday
+56  0x0001daac 0x1001eeac 9   10   .rdata  ascii   Wednesday
+57  0x0001dab8 0x1001eeb8 7   8    .rdata  ascii   Tuesday
+58  0x0001dac0 0x1001eec0 6   7    .rdata  ascii   Monday
+59  0x0001dac8 0x1001eec8 6   7    .rdata  ascii   Sunday
+60  0x0001daf0 0x1001eef0 5   6    .rdata  ascii   am/pm
+61  0x0001daf8 0x1001eef8 13  14   .rdata  ascii   united-states
+62  0x0001db08 0x1001ef08 14  15   .rdata  ascii   united-kingdom
+63  0x0001db18 0x1001ef18 17  18   .rdata  ascii   trinidad & tobago
+64  0x0001db2c 0x1001ef2c 11  12   .rdata  ascii   south-korea
+65  0x0001db38 0x1001ef38 12  13   .rdata  ascii   south-africa
+66  0x0001db48 0x1001ef48 11  12   .rdata  ascii   south korea
+67  0x0001db54 0x1001ef54 12  13   .rdata  ascii   south africa
+68  0x0001db64 0x1001ef64 6   7    .rdata  ascii   slovak
+69  0x0001db6c 0x1001ef6c 11  12   .rdata  ascii   puerto-rico
+70  0x0001db78 0x1001ef78 8   9    .rdata  ascii   pr-china
+71  0x0001db84 0x1001ef84 8   9    .rdata  ascii   pr china
+72  0x0001db94 0x1001ef94 11  12   .rdata  ascii   new-zealand
+73  0x0001dba0 0x1001efa0 9   10   .rdata  ascii   hong-kong
+74  0x0001dbac 0x1001efac 7   8    .rdata  ascii   holland
+75  0x0001dbb4 0x1001efb4 13  14   .rdata  ascii   great britain
+76  0x0001dbc4 0x1001efc4 7   8    .rdata  ascii   england
+77  0x0001dbcc 0x1001efcc 5   6    .rdata  ascii   czech
+78  0x0001dbd4 0x1001efd4 5   6    .rdata  ascii   china
+79  0x0001dbdc 0x1001efdc 7   8    .rdata  ascii   britain
+80  0x0001dbe4 0x1001efe4 7   8    .rdata  ascii   america
+81  0x0001dbf8 0x1001eff8 5   6    .rdata  ascii   swiss
+82  0x0001dc00 0x1001f000 15  16   .rdata  ascii   swedish-finland
+83  0x0001dc10 0x1001f010 17  18   .rdata  ascii   spanish-venezuela
+84  0x0001dc24 0x1001f024 15  16   .rdata  ascii   spanish-uruguay
+85  0x0001dc34 0x1001f034 19  20   .rdata  ascii   spanish-puerto rico
+86  0x0001dc48 0x1001f048 12  13   .rdata  ascii   spanish-peru
+87  0x0001dc58 0x1001f058 16  17   .rdata  ascii   spanish-paraguay
+88  0x0001dc6c 0x1001f06c 14  15   .rdata  ascii   spanish-panama
+89  0x0001dc7c 0x1001f07c 17  18   .rdata  ascii   spanish-nicaragua
+90  0x0001dc90 0x1001f090 14  15   .rdata  ascii   spanish-modern
+91  0x0001dca0 0x1001f0a0 15  16   .rdata  ascii   spanish-mexican
+92  0x0001dcb0 0x1001f0b0 16  17   .rdata  ascii   spanish-honduras
+93  0x0001dcc4 0x1001f0c4 17  18   .rdata  ascii   spanish-guatemala
+94  0x0001dcd8 0x1001f0d8 19  20   .rdata  ascii   spanish-el salvador
+95  0x0001dcec 0x1001f0ec 15  16   .rdata  ascii   spanish-ecuador
+96  0x0001dcfc 0x1001f0fc 26  27   .rdata  ascii   spanish-dominican republic
+97  0x0001dd18 0x1001f118 18  19   .rdata  ascii   spanish-costa rica
+98  0x0001dd2c 0x1001f12c 16  17   .rdata  ascii   spanish-colombia
+99  0x0001dd40 0x1001f140 13  14   .rdata  ascii   spanish-chile
+100 0x0001dd50 0x1001f150 15  16   .rdata  ascii   spanish-bolivia
+101 0x0001dd60 0x1001f160 17  18   .rdata  ascii   spanish-argentina
+102 0x0001dd74 0x1001f174 20  21   .rdata  ascii   portuguese-brazilian
+103 0x0001dd8c 0x1001f18c 17  18   .rdata  ascii   norwegian-nynorsk
+104 0x0001dda0 0x1001f1a0 16  17   .rdata  ascii   norwegian-bokmal
+105 0x0001ddb4 0x1001f1b4 9   10   .rdata  ascii   norwegian
+106 0x0001ddc0 0x1001f1c0 13  14   .rdata  ascii   italian-swiss
+107 0x0001ddd0 0x1001f1d0 13  14   .rdata  ascii   irish-english
+108 0x0001dde0 0x1001f1e0 12  13   .rdata  ascii   german-swiss
+109 0x0001ddf0 0x1001f1f0 17  18   .rdata  ascii   german-luxembourg
+110 0x0001de04 0x1001f204 19  20   .rdata  ascii   german-lichtenstein
+111 0x0001de18 0x1001f218 15  16   .rdata  ascii   german-austrian
+112 0x0001de28 0x1001f228 12  13   .rdata  ascii   french-swiss
+113 0x0001de38 0x1001f238 17  18   .rdata  ascii   french-luxembourg
+114 0x0001de4c 0x1001f24c 15  16   .rdata  ascii   french-canadian
+115 0x0001de5c 0x1001f25c 14  15   .rdata  ascii   french-belgian
+116 0x0001de6c 0x1001f26c 11  12   .rdata  ascii   english-usa
+117 0x0001de78 0x1001f278 10  11   .rdata  ascii   english-us
+118 0x0001de84 0x1001f284 10  11   .rdata  ascii   english-uk
+119 0x0001de90 0x1001f290 25  26   .rdata  ascii   english-trinidad y tobago
+120 0x0001deac 0x1001f2ac 20  21   .rdata  ascii   english-south africa
+121 0x0001dec4 0x1001f2c4 10  11   .rdata  ascii   english-nz
+122 0x0001ded0 0x1001f2d0 15  16   .rdata  ascii   english-jamaica
+123 0x0001dee0 0x1001f2e0 11  12   .rdata  ascii   english-ire
+124 0x0001deec 0x1001f2ec 17  18   .rdata  ascii   english-caribbean
+125 0x0001df00 0x1001f300 11  12   .rdata  ascii   english-can
+126 0x0001df0c 0x1001f30c 14  15   .rdata  ascii   english-belize
+127 0x0001df1c 0x1001f31c 11  12   .rdata  ascii   english-aus
+128 0x0001df28 0x1001f328 16  17   .rdata  ascii   english-american
+129 0x0001df3c 0x1001f33c 13  14   .rdata  ascii   dutch-belgian
+130 0x0001df4c 0x1001f34c 19  20   .rdata  ascii   chinese-traditional
+131 0x0001df60 0x1001f360 17  18   .rdata  ascii   chinese-singapore
+132 0x0001df74 0x1001f374 18  19   .rdata  ascii   chinese-simplified
+133 0x0001df88 0x1001f388 16  17   .rdata  ascii   chinese-hongkong
+134 0x0001df9c 0x1001f39c 7   8    .rdata  ascii   chinese
+135 0x0001dfac 0x1001f3ac 8   9    .rdata  ascii   canadian
+136 0x0001dfb8 0x1001f3b8 7   8    .rdata  ascii   belgian
+137 0x0001dfc0 0x1001f3c0 10  11   .rdata  ascii   australian
+138 0x0001dfcc 0x1001f3cc 16  17   .rdata  ascii   american-english
+139 0x0001dfe0 0x1001f3e0 16  17   .rdata  ascii   american english
+140 0x0001dff4 0x1001f3f4 8   9    .rdata  ascii   american
+141 0x0001e2e0 0x1001f6e0 17  18   .rdata  ascii   Norwegian-Nynorsk
+142 0x0001e2f4 0x1001f6f4 14  15   .rdata  ascii   runtime error
+143 0x0001e304 0x1001f704 13  14   .rdata  ascii   TLOSS error\r\n
+144 0x0001e314 0x1001f714 12  13   .rdata  ascii   SING error\r\n
+145 0x0001e324 0x1001f724 14  15   .rdata  ascii   DOMAIN error\r\n
+146 0x0001e338 0x1001f738 154 155  .rdata  ascii   R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
+147 0x0001e3d8 0x1001f7d8 246 247  .rdata  ascii   R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+148 0x0001e4d0 0x1001f8d0 50  51   .rdata  ascii   R6032\r\n- not enough space for locale information\r\n
+149 0x0001e508 0x1001f908 98  99   .rdata  ascii   R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+150 0x0001e56c 0x1001f96c 30  31   .rdata  ascii   R6030\r\n- CRT not initialized\r\n
+151 0x0001e58c 0x1001f98c 36  37   .rdata  ascii   R6028\r\n- unable to initialize heap\r\n
+152 0x0001e5b4 0x1001f9b4 52  53   .rdata  ascii   R6027\r\n- not enough space for lowio initialization\r\n
+153 0x0001e5ec 0x1001f9ec 52  53   .rdata  ascii   R6026\r\n- not enough space for stdio initialization\r\n
+154 0x0001e624 0x1001fa24 37  38   .rdata  ascii   R6025\r\n- pure virtual function call\r\n
+155 0x0001e64c 0x1001fa4c 52  53   .rdata  ascii   R6024\r\n- not enough space for _onexit/atexit table\r\n
+156 0x0001e684 0x1001fa84 40  41   .rdata  ascii   R6019\r\n- unable to open console device\r\n
+157 0x0001e6b0 0x1001fab0 32  33   .rdata  ascii   R6018\r\n- unexpected heap error\r\n
+158 0x0001e6d4 0x1001fad4 44  45   .rdata  ascii   R6017\r\n- unexpected multithread lock error\r\n
+159 0x0001e704 0x1001fb04 43  44   .rdata  ascii   R6016\r\n- not enough space for thread data\r\n
+160 0x0001e730 0x1001fb30 149 150  .rdata  ascii   \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
+161 0x0001e7c8 0x1001fbc8 43  44   .rdata  ascii   R6009\r\n- not enough space for environment\r\n
+162 0x0001e7f4 0x1001fbf4 41  42   .rdata  ascii   R6008\r\n- not enough space for arguments\r\n
+163 0x0001e820 0x1001fc20 44  45   .rdata  ascii   R6002\r\n- floating point support not loaded\r\n
+164 0x0001e850 0x1001fc50 36  37   .rdata  ascii   Microsoft Visual C++ Runtime Library
+165 0x0001e880 0x1001fc80 22  23   .rdata  ascii   <program name unknown>
+166 0x0001e898 0x1001fc98 25  26   .rdata  ascii   Runtime Error!\n\nProgram:
+167 0x0001e8dd 0x1001fcdd 5   6    .rdata  ascii   ('8PW
+168 0x0001e8e6 0x1001fce6 5   6    .rdata  ascii   700PP
+169 0x0001e8f8 0x1001fcf8 17  18   .rdata  ascii   `h`hhh\b\b\axppwpp\b\b
+170 0x0001e914 0x1001fd14 17  18   .rdata  ascii   SystemFunction036
+171 0x0001e928 0x1001fd28 12  13   .rdata  ascii   ADVAPI32.DLL
+172 0x0001e938 0x1001fd38 21  22   .rdata  ascii   SunMonTueWedThuFriSat
+173 0x0001e950 0x1001fd50 36  37   .rdata  ascii   JanFebMarAprMayJunJulAugSepOctNovDec
+174 0x0001e97c 0x1001fd7c 25  26   .rdata  ascii    Complete Object Locator'
+175 0x0001e998 0x1001fd98 28  29   .rdata  ascii    Class Hierarchy Descriptor'
+176 0x0001e9b8 0x1001fdb8 18  19   .rdata  ascii    Base Class Array'
+177 0x0001e9cc 0x1001fdcc 27  28   .rdata  ascii    Base Class Descriptor at (
+178 0x0001e9e8 0x1001fde8 17  18   .rdata  ascii    Type Descriptor'
+179 0x0001e9fc 0x1001fdfc 27  28   .rdata  ascii   `local static thread guard'
+180 0x0001ea18 0x1001fe18 42  43   .rdata  ascii   `managed vector copy constructor iterator'
+181 0x0001ea44 0x1001fe44 40  41   .rdata  ascii   `vector vbase copy constructor iterator'
+182 0x0001ea70 0x1001fe70 34  35   .rdata  ascii   `vector copy constructor iterator'
+183 0x0001ea94 0x1001fe94 32  33   .rdata  ascii   `dynamic atexit destructor for '
+184 0x0001eab8 0x1001feb8 26  27   .rdata  ascii   `dynamic initializer for '
+185 0x0001ead4 0x1001fed4 43  44   .rdata  ascii   `eh vector vbase copy constructor iterator'
+186 0x0001eb00 0x1001ff00 37  38   .rdata  ascii   `eh vector copy constructor iterator'
+187 0x0001eb28 0x1001ff28 36  37   .rdata  ascii   `managed vector destructor iterator'
+188 0x0001eb50 0x1001ff50 37  38   .rdata  ascii   `managed vector constructor iterator'
+189 0x0001eb78 0x1001ff78 28  29   .rdata  ascii   `placement delete[] closure'
+190 0x0001eb98 0x1001ff98 26  27   .rdata  ascii   `placement delete closure'
+191 0x0001ebb4 0x1001ffb4 14  15   .rdata  ascii   `omni callsig'
+192 0x0001ebc4 0x1001ffc4 9   10   .rdata  ascii    delete[]
+193 0x0001ebd0 0x1001ffd0 6   7    .rdata  ascii    new[]
+194 0x0001ebd8 0x1001ffd8 35  36   .rdata  ascii   `local vftable constructor closure'
+195 0x0001ebfc 0x1001fffc 15  16   .rdata  ascii   `local vftable'
+196 0x0001ec0c 0x1002000c 5   6    .rdata  ascii   `RTTI
+197 0x0001ec18 0x10020018 15  16   .rdata  ascii   `udt returning'
+198 0x0001ec28 0x10020028 26  27   .rdata  ascii   `copy constructor closure'
+199 0x0001ec44 0x10020044 38  39   .rdata  ascii   `eh vector vbase constructor iterator'
+200 0x0001ec6c 0x1002006c 31  32   .rdata  ascii   `eh vector destructor iterator'
+201 0x0001ec8c 0x1002008c 32  33   .rdata  ascii   `eh vector constructor iterator'
+202 0x0001ecb0 0x100200b0 26  27   .rdata  ascii   `virtual displacement map'
+203 0x0001eccc 0x100200cc 35  36   .rdata  ascii   `vector vbase constructor iterator'
+204 0x0001ecf0 0x100200f0 28  29   .rdata  ascii   `vector destructor iterator'
+205 0x0001ed10 0x10020110 29  30   .rdata  ascii   `vector constructor iterator'
+206 0x0001ed30 0x10020130 28  29   .rdata  ascii   `scalar deleting destructor'
+207 0x0001ed50 0x10020150 29  30   .rdata  ascii   `default constructor closure'
+208 0x0001ed70 0x10020170 28  29   .rdata  ascii   `vector deleting destructor'
+209 0x0001ed90 0x10020190 18  19   .rdata  ascii   `vbase destructor'
+210 0x0001eda4 0x100201a4 8   9    .rdata  ascii   `string'
+211 0x0001edb0 0x100201b0 20  21   .rdata  ascii   `local static guard'
+212 0x0001edc8 0x100201c8 8   9    .rdata  ascii   `typeof'
+213 0x0001edd4 0x100201d4 7   8    .rdata  ascii   `vcall'
+214 0x0001eddc 0x100201dc 9   10   .rdata  ascii   `vbtable'
+215 0x0001ede8 0x100201e8 9   10   .rdata  ascii   `vftable'
+216 0x0001ee24 0x10020224 11  48   .rdata  utf32le |^~⤨,㴾>㴼<%/
+217 0x0001ee54 0x10020254 7   32   .rdata  utf32le &+-ⴭ⬫*㸭
+218 0x0001ee74 0x10020274 4   5    .rdata  ascii   ator
+219 0x0001ee94 0x10020294 7   8    .rdata  ascii    delete
+220 0x0001ee9c 0x1002029c 4   5    .rdata  ascii    new
+221 0x0001eea4 0x100202a4 11  12   .rdata  ascii   __unaligned
+222 0x0001eeb0 0x100202b0 10  11   .rdata  ascii   __restrict
+223 0x0001eebc 0x100202bc 7   8    .rdata  ascii   __ptr64
+224 0x0001eec4 0x100202c4 9   10   .rdata  ascii   __clrcall
+225 0x0001eed0 0x100202d0 10  11   .rdata  ascii   __fastcall
+226 0x0001eedc 0x100202dc 10  11   .rdata  ascii   __thiscall
+227 0x0001eee8 0x100202e8 9   10   .rdata  ascii   __stdcall
+228 0x0001eef4 0x100202f4 8   9    .rdata  ascii   __pascal
+229 0x0001ef00 0x10020300 7   8    .rdata  ascii   __cdecl
+230 0x0001ef08 0x10020308 8   9    .rdata  ascii   __based(
+231 0x0001f0e0 0x100204e0 4   5    .rdata  ascii    ??
+232 0x0001f0e8 0x100204e8 6   7    .rdata  ascii   {flat}
+233 0x0001f0f0 0x100204f0 5   6    .rdata  ascii   {for
+234 0x0001f0f8 0x100204f8 28  29   .rdata  ascii   `non-type-template-parameter
+235 0x0001f118 0x10020518 9   10   .rdata  ascii   unsigned
+236 0x0001f124 0x10020524 5   6    .rdata  ascii   long
+237 0x0001f12c 0x1002052c 4   5    .rdata  ascii   int
+238 0x0001f134 0x10020534 6   7    .rdata  ascii   short
+239 0x0001f13c 0x1002053c 5   6    .rdata  ascii   char
+240 0x0001f144 0x10020544 4   5    .rdata  ascii   void
+241 0x0001f14c 0x1002054c 10  11   .rdata  ascii   <ellipsis>
+242 0x0001f158 0x10020558 11  12   .rdata  ascii   ,<ellipsis>
+243 0x0001f164 0x10020564 4   5    .rdata  ascii   ,...
+244 0x0001f16c 0x1002056c 7   8    .rdata  ascii    throw(
+245 0x0001f17c 0x1002057c 19  20   .rdata  ascii   `template-parameter
+246 0x0001f194 0x10020594 4   5    .rdata  ascii   NULL
+247 0x0001f19c 0x1002059c 13  14   .rdata  ascii   cli::pin_ptr<
+248 0x0001f1ac 0x100205ac 11  12   .rdata  ascii   cli::array<
+249 0x0001f1b8 0x100205b8 5   6    .rdata  ascii   void
+250 0x0001f1c4 0x100205c4 21  22   .rdata  ascii   `anonymous namespace'
+251 0x0001f1e0 0x100205e0 13  14   .rdata  ascii   generic-type-
+252 0x0001f1f0 0x100205f0 19  20   .rdata  ascii   template-parameter-
+253 0x0001f208 0x10020608 14  15   .rdata  ascii   `unknown ecsu'
+254 0x0001f218 0x10020618 6   7    .rdata  ascii   union
+255 0x0001f220 0x10020620 7   8    .rdata  ascii   struct
+256 0x0001f228 0x10020628 6   7    .rdata  ascii   class
+257 0x0001f230 0x10020630 5   6    .rdata  ascii   enum
+258 0x0001f238 0x10020638 8   9    .rdata  ascii   coclass
+259 0x0001f244 0x10020644 12  13   .rdata  ascii   cointerface
+260 0x0001f258 0x10020658 11  12   .rdata  ascii   extern "C"
+261 0x0001f264 0x10020664 8   9    .rdata  ascii   [thunk]:
+262 0x0001f270 0x10020670 8   9    .rdata  ascii   public:
+263 0x0001f27c 0x1002067c 11  12   .rdata  ascii   protected:
+264 0x0001f288 0x10020688 9   10   .rdata  ascii   private:
+265 0x0001f294 0x10020694 8   9    .rdata  ascii   virtual
+266 0x0001f2a0 0x100206a0 7   8    .rdata  ascii   static
+267 0x0001f2a8 0x100206a8 47  48   .rdata  ascii   `template static data member destructor helper'
+268 0x0001f2d8 0x100206d8 48  49   .rdata  ascii   `template static data member constructor helper'
+269 0x0001f30c 0x1002070c 32  33   .rdata  ascii   `local static destructor helper'
+270 0x0001f330 0x10020730 10  11   .rdata  ascii   `adjustor{
+271 0x0001f33c 0x1002073c 10  11   .rdata  ascii   `vtordisp{
+272 0x0001f348 0x10020748 12  13   .rdata  ascii   `vtordispex{
+273 0x0001f364 0x10020764 6   7    .rdata  ascii   const
+274 0x0001f36c 0x1002076c 9   10   .rdata  ascii   volatile
+275 0x0001f378 0x10020778 4   5    .rdata  ascii   CV:
+276 0x0001f380 0x10020780 8   9    .rdata  ascii   volatile
+277 0x0001f38c 0x1002078c 9   10   .rdata  ascii    volatile
+278 0x0001f398 0x10020798 5   6    .rdata  ascii   const
+279 0x0001f3a0 0x100207a0 7   8    .rdata  ascii   signed
+280 0x0001f3a8 0x100207a8 6   7    .rdata  ascii   double
+281 0x0001f3b0 0x100207b0 7   8    .rdata  ascii   UNKNOWN
+282 0x0001f3b8 0x100207b8 8   9    .rdata  ascii   __int128
+283 0x0001f3c4 0x100207c4 4   5    .rdata  ascii   bool
+284 0x0001f3cc 0x100207cc 7   8    .rdata  ascii   wchar_t
+285 0x0001f3d4 0x100207d4 7   8    .rdata  ascii   __int64
+286 0x0001f3dc 0x100207dc 7   8    .rdata  ascii   __int16
+287 0x0001f3e4 0x100207e4 7   8    .rdata  ascii   __int32
+288 0x0001f3ec 0x100207ec 6   7    .rdata  ascii   __int8
+289 0x0001f3f4 0x100207f4 6   7    .rdata  ascii   __w64
+290 0x0001f3fc 0x100207fc 5   6    .rdata  ascii   float
+291 0x0001f404 0x10020804 4   5    .rdata  ascii   long
+292 0x0001f410 0x10020810 5   6    .rdata  ascii   short
+293 0x0001f418 0x10020818 4   5    .rdata  ascii   char
+294 0x0001f420 0x10020820 23  24   .rdata  ascii   GetProcessWindowStation
+295 0x0001f438 0x10020838 25  26   .rdata  ascii   GetUserObjectInformationA
+296 0x0001f454 0x10020854 18  19   .rdata  ascii   GetLastActivePopup
+297 0x0001f468 0x10020868 15  16   .rdata  ascii   GetActiveWindow
+298 0x0001f478 0x10020878 11  12   .rdata  ascii   MessageBoxA
+299 0x0001f484 0x10020884 10  11   .rdata  ascii   USER32.DLL
+300 0x0001f490 0x10020890 6   7    .rdata  ascii   CONIN$
+301 0x0001f498 0x10020898 7   8    .rdata  ascii   CONOUT$
+302 0x0001f4e8 0x100208e8 6   7    .rdata  ascii   RSDSvx
+303 0x0001f500 0x10020900 92  93   .rdata  ascii   e:\AWork\DRW16.2.1-QT\DRWIntelligentScan\bin\Release\ShareBin\EUHwpFilePathCheckerModule.pdb
+304 0x00020092 0x10021492 12  13   .rdata  ascii   GetTempPathA
+305 0x000200a0 0x100214a0 12  13   .rdata  ascii   KERNEL32.dll
+306 0x000200b0 0x100214b0 12  13   .rdata  ascii   SetWindowPos
+307 0x000200c0 0x100214c0 15  16   .rdata  ascii   MapWindowPoints
+308 0x000200d2 0x100214d2 13  14   .rdata  ascii   GetClientRect
+309 0x000200e2 0x100214e2 21  22   .rdata  ascii   SystemParametersInfoA
+310 0x000200fa 0x100214fa 13  14   .rdata  ascii   GetWindowRect
+311 0x0002010a 0x1002150a 9   10   .rdata  ascii   GetWindow
+312 0x00020116 0x10021516 9   10   .rdata  ascii   GetParent
+313 0x00020122 0x10021522 14  15   .rdata  ascii   GetWindowLongA
+314 0x00020134 0x10021534 14  15   .rdata  ascii   SetWindowTextA
+315 0x00020146 0x10021546 10  11   .rdata  ascii   GetDlgItem
+316 0x00020154 0x10021554 9   10   .rdata  ascii   EndDialog
+317 0x0002015e 0x1002155e 10  11   .rdata  ascii   USER32.dll
+318 0x0002016c 0x1002156c 18  19   .rdata  ascii   GetCurrentThreadId
+319 0x00020182 0x10021582 15  16   .rdata  ascii   GetCommandLineA
+320 0x00020194 0x10021594 9   10   .rdata  ascii   GetCPInfo
+321 0x000201a0 0x100215a0 20  21   .rdata  ascii   InterlockedIncrement
+322 0x000201b8 0x100215b8 20  21   .rdata  ascii   InterlockedDecrement
+323 0x000201d0 0x100215d0 6   7    .rdata  ascii   GetACP
+324 0x000201da 0x100215da 8   9    .rdata  ascii   GetOEMCP
+325 0x000201e6 0x100215e6 15  16   .rdata  ascii   IsValidCodePage
+326 0x000201f8 0x100215f8 16  17   .rdata  ascii   GetModuleHandleW
+327 0x0002020c 0x1002160c 14  15   .rdata  ascii   GetProcAddress
+328 0x0002021e 0x1002161e 11  12   .rdata  ascii   TlsGetValue
+329 0x0002022c 0x1002162c 8   9    .rdata  ascii   TlsAlloc
+330 0x00020238 0x10021638 11  12   .rdata  ascii   TlsSetValue
+331 0x00020246 0x10021646 7   8    .rdata  ascii   TlsFree
+332 0x00020250 0x10021650 12  13   .rdata  ascii   SetLastError
+333 0x00020260 0x10021660 12  13   .rdata  ascii   GetLastError
+334 0x00020270 0x10021670 16  17   .rdata  ascii   GetCurrentThread
+335 0x00020284 0x10021684 16  17   .rdata  ascii   TerminateProcess
+336 0x00020298 0x10021698 17  18   .rdata  ascii   GetCurrentProcess
+337 0x000202ac 0x100216ac 24  25   .rdata  ascii   UnhandledExceptionFilter
+338 0x000202c8 0x100216c8 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+339 0x000202e6 0x100216e6 17  18   .rdata  ascii   IsDebuggerPresent
+340 0x000202fa 0x100216fa 8   9    .rdata  ascii   HeapFree
+341 0x00020306 0x10021706 9   10   .rdata  ascii   HeapAlloc
+342 0x00020312 0x10021712 14  15   .rdata  ascii   RaiseException
+343 0x00020324 0x10021724 5   6    .rdata  ascii   Sleep
+344 0x0002032c 0x1002172c 11  12   .rdata  ascii   ExitProcess
+345 0x0002033a 0x1002173a 14  15   .rdata  ascii   SetHandleCount
+346 0x0002034c 0x1002174c 12  13   .rdata  ascii   GetStdHandle
+347 0x0002035c 0x1002175c 11  12   .rdata  ascii   GetFileType
+348 0x0002036a 0x1002176a 15  16   .rdata  ascii   GetStartupInfoA
+349 0x0002037c 0x1002177c 21  22   .rdata  ascii   DeleteCriticalSection
+350 0x00020394 0x10021794 18  19   .rdata  ascii   GetModuleFileNameA
+351 0x000203aa 0x100217aa 23  24   .rdata  ascii   FreeEnvironmentStringsA
+352 0x000203c4 0x100217c4 21  22   .rdata  ascii   GetEnvironmentStrings
+353 0x000203dc 0x100217dc 23  24   .rdata  ascii   FreeEnvironmentStringsW
+354 0x000203f6 0x100217f6 19  20   .rdata  ascii   WideCharToMultiByte
+355 0x0002040c 0x1002180c 22  23   .rdata  ascii   GetEnvironmentStringsW
+356 0x00020426 0x10021826 10  11   .rdata  ascii   HeapCreate
+357 0x00020434 0x10021834 11  12   .rdata  ascii   HeapDestroy
+358 0x00020442 0x10021842 11  12   .rdata  ascii   VirtualFree
+359 0x00020450 0x10021850 23  24   .rdata  ascii   QueryPerformanceCounter
+360 0x0002046a 0x1002186a 12  13   .rdata  ascii   GetTickCount
+361 0x0002047a 0x1002187a 19  20   .rdata  ascii   GetCurrentProcessId
+362 0x00020490 0x10021890 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+363 0x000204aa 0x100218aa 12  13   .rdata  ascii   LCMapStringA
+364 0x000204ba 0x100218ba 19  20   .rdata  ascii   MultiByteToWideChar
+365 0x000204d0 0x100218d0 12  13   .rdata  ascii   LCMapStringW
+366 0x000204e0 0x100218e0 14  15   .rdata  ascii   GetStringTypeA
+367 0x000204f2 0x100218f2 14  15   .rdata  ascii   GetStringTypeW
+368 0x00020504 0x10021904 20  21   .rdata  ascii   LeaveCriticalSection
+369 0x0002051c 0x1002191c 13  14   .rdata  ascii   FatalAppExitA
+370 0x0002052c 0x1002192c 20  21   .rdata  ascii   EnterCriticalSection
+371 0x00020544 0x10021944 14  15   .rdata  ascii   GetTimeFormatA
+372 0x00020556 0x10021956 14  15   .rdata  ascii   GetDateFormatA
+373 0x00020568 0x10021968 18  19   .rdata  ascii   GetUserDefaultLCID
+374 0x0002057e 0x1002197e 14  15   .rdata  ascii   GetLocaleInfoA
+375 0x00020590 0x10021990 18  19   .rdata  ascii   EnumSystemLocalesA
+376 0x000205a6 0x100219a6 13  14   .rdata  ascii   IsValidLocale
+377 0x000205b6 0x100219b6 12  13   .rdata  ascii   VirtualAlloc
+378 0x000205c6 0x100219c6 11  12   .rdata  ascii   HeapReAlloc
+379 0x000205d4 0x100219d4 8   9    .rdata  ascii   HeapSize
+380 0x000205e0 0x100219e0 9   10   .rdata  ascii   WriteFile
+381 0x000205ec 0x100219ec 14  15   .rdata  ascii   SetFilePointer
+382 0x000205fe 0x100219fe 12  13   .rdata  ascii   GetConsoleCP
+383 0x0002060e 0x10021a0e 14  15   .rdata  ascii   GetConsoleMode
+384 0x00020620 0x10021a20 21  22   .rdata  ascii   SetConsoleCtrlHandler
+385 0x00020638 0x10021a38 11  12   .rdata  ascii   FreeLibrary
+386 0x00020646 0x10021a46 19  20   .rdata  ascii   InterlockedExchange
+387 0x0002065c 0x10021a5c 12  13   .rdata  ascii   LoadLibraryA
+388 0x0002066c 0x10021a6c 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+389 0x00020694 0x10021a94 9   10   .rdata  ascii   RtlUnwind
+390 0x000206a0 0x10021aa0 22  23   .rdata  ascii   GetTimeZoneInformation
+391 0x000206ba 0x10021aba 12  13   .rdata  ascii   SetStdHandle
+392 0x000206ca 0x10021aca 13  14   .rdata  ascii   WriteConsoleA
+393 0x000206da 0x10021ada 18  19   .rdata  ascii   GetConsoleOutputCP
+394 0x000206f0 0x10021af0 13  14   .rdata  ascii   WriteConsoleW
+395 0x00020700 0x10021b00 14  15   .rdata  ascii   GetLocaleInfoW
+396 0x00020712 0x10021b12 11  12   .rdata  ascii   CreateFileA
+397 0x00020720 0x10021b20 11  12   .rdata  ascii   CloseHandle
+398 0x0002072e 0x10021b2e 16  17   .rdata  ascii   FlushFileBuffers
+399 0x00020742 0x10021b42 14  15   .rdata  ascii   CompareStringA
+400 0x00020754 0x10021b54 14  15   .rdata  ascii   CompareStringW
+401 0x00020766 0x10021b66 23  24   .rdata  ascii   SetEnvironmentVariableA
+402 0x000207b2 0x10021bb2 32  33   .rdata  ascii   FilePathCheckerModuleExample.dll
+403 0x000207d3 0x10021bd3 16  17   .rdata  ascii   IsAccessiblePath
+404 0x00020818 0x10022018 19  20   .data   ascii   .?AVbad_alloc@std@@
+405 0x00020834 0x10022034 19  20   .data   ascii   .?AVexception@std@@
+406 0x000208ce 0x100220ce 26  27   .data   ascii
+407 0x000209ae 0x100221ae 26  27   .data   ascii   abcdefghijklmnopqrstuvwxyz
+408 0x000209ce 0x100221ce 26  27   .data   ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZ
+409 0x00020ad2 0x100222d2 26  27   .data   ascii
+410 0x00020bb9 0x100223b9 26  27   .data   ascii   abcdefghijklmnopqrstuvwxyz
+411 0x00020bd9 0x100223d9 26  27   .data   ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZ
+412 0x00020e9c 0x1002269c 12  52   .data   utf32le \t\a\f\b\f\t\f\n\a\v\b\f
+413 0x00020f20 0x10022720 5   24   .data   utf32le R\rS\rW
+414 0x00020f38 0x10022738 7   32   .data   utf32le Y\vl\rm p
+415 0x00020fac 0x100227ac 4   20   .data   utf32le \v§\r·
+416 0x00020fec 0x100227ec 18  19   .data   ascii   .?AVbad_cast@std@@
+417 0x00021008 0x10022808 20  21   .data   ascii   .?AVbad_typeid@std@@
+418 0x00021028 0x10022828 27  28   .data   ascii   .?AV__non_rtti_object@std@@
+419 0x00021050 0x10022850 15  16   .data   ascii   .?AVtype_info@@
+420 0x000218da 0x100250da 4   10   .rsrc   utf16le (&Y)
+421 0x00021908 0x10025108 4   10   .rsrc   utf16le (&A)
+422 0x00021934 0x10025134 4   10   .rsrc   utf16le (&N)
+423 0x00021966 0x10025166 4   10   .rsrc   utf16le (&Q)
+424 0x0002198e 0x1002518e 626 626  .rsrc   ascii   PA<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD

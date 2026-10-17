@@ -1,0 +1,39 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib      name                                      demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x000005a0 0x1800011a0 GLOBAL FUNC 0    Fixup.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x000005a0 0x1800011a0 GLOBAL FUNC 0    Fixup.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x000005a0 0x1800011a0 GLOBAL FUNC 0    Fixup.mo ??0IObject@@QEAA@XZ
+4   0x000005f0 0x1800011f0 GLOBAL FUNC 0    Fixup.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+5   0x00000600 0x180001200 GLOBAL FUNC 0    Fixup.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+6   0x00000600 0x180001200 GLOBAL FUNC 0    Fixup.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+7   0x00000600 0x180001200 GLOBAL FUNC 0    Fixup.mo ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+8   0x00000600 0x180001200 GLOBAL FUNC 0    Fixup.mo ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+9   0x00000600 0x180001200 GLOBAL FUNC 0    Fixup.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+10  0x00000600 0x180001200 GLOBAL FUNC 0    Fixup.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+11  0x00009800 0x18000a400 GLOBAL FUNC 0    Fixup.mo ??_7IObject@@6B@
+12  0x00000690 0x180001290 GLOBAL FUNC 0    Fixup.mo ?AddRef@IObject@@QEBAKXZ
+13  0x00000ae0 0x1800016e0 GLOBAL FUNC 0    Fixup.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+14  0x00001a70 0x180002670 GLOBAL FUNC 0    Fixup.mo ?Release@IObject@@QEBAKXZ
+15  0x00005ac0 0x1800066c0 GLOBAL FUNC 0    Fixup.mo Bcd_BcdProcPartition
+16  0x00005bf0 0x1800067f0 GLOBAL FUNC 0    Fixup.mo Bcd_Init
+17  0x00005d20 0x180006920 GLOBAL FUNC 0    Fixup.mo Bcd_IsBcdPartition
+18  0x00005e50 0x180006a50 GLOBAL FUNC 0    Fixup.mo Bcd_IsExistBcdFile
+19  0x00005f40 0x180006b40 GLOBAL FUNC 0    Fixup.mo Bcd_IsUsingBcdFile
+20  0x00006050 0x180006c50 GLOBAL FUNC 0    Fixup.mo Bcd_IsVistaBoot
+21  0x00006160 0x180006d60 GLOBAL FUNC 0    Fixup.mo Bcd_IsVistaBootManager
+22  0x00006290 0x180006e90 GLOBAL FUNC 0    Fixup.mo Bcd_LockBcdFile
+23  0x000063a0 0x180006fa0 GLOBAL FUNC 0    Fixup.mo Bcd_RestoreBcdFile
+24  0x000065a0 0x1800071a0 GLOBAL FUNC 0    Fixup.mo Bcd_Uninit
+25  0x000065b0 0x1800071b0 GLOBAL FUNC 0    Fixup.mo Bcd_UnlockBcdFile
+26  0x000067c0 0x1800073c0 GLOBAL FUNC 0    Fixup.mo Bcd_UnlockBcdFileEx
+27  0x000069d0 0x1800075d0 GLOBAL FUNC 0    Fixup.mo Bcd_UnlockBcdNewPos
+28  0x00006b00 0x180007700 GLOBAL FUNC 0    Fixup.mo BootIni_ForceUpdated
+29  0x00006b40 0x180007740 GLOBAL FUNC 0    Fixup.mo BootIni_GetErrorVector
+30  0x00006b60 0x180007760 GLOBAL FUNC 0    Fixup.mo BootIni_Init
+31  0x00006b80 0x180007780 GLOBAL FUNC 0    Fixup.mo BootIni_IsUpdated
+32  0x00006ba0 0x1800077a0 GLOBAL FUNC 0    Fixup.mo BootIni_SetArcAccess
+33  0x00006bc0 0x1800077c0 GLOBAL FUNC 0    Fixup.mo BootIni_UpdateFile
+34  0x00006be0 0x1800077e0 GLOBAL FUNC 0    Fixup.mo Log_Init
+35  0x00006c20 0x180007820 GLOBAL FUNC 0    Fixup.mo Log_Output
+36  0x00006cb0 0x1800078b0 GLOBAL FUNC 0    Fixup.mo Log_Uninit

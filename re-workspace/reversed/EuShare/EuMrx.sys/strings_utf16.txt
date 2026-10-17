@@ -1,0 +1,42 @@
+\Registry\Machine\System\CurrentControlSet\Services\Rdbss
+\EuShare.com
+\;0:\EuShare.com\
+\??\EuRdrDN
+SampleFS
+\Device\EuRdr
+\Registry\Machine\System\CurrentControlSet\Services\EuMrx\Parameters
+LogRate
+\127.0.0.1\
+\MAILSLOT
+\EuShare.com
+>>>>>>>>.>>>*
+\Registry\Machine\System\CurrentControlSet\Services\LanmanWorkStation\Parameters
+DisableByteRangeLockingOnReadOnlyFiles
+ReadAheadGranularity
+\??\pipe
+FsRtlRegisterUncProviderEx
+Parameters
+FsRtlTeardownPerStreamContexts
+VS_VERSION_INFO
+StringFileInfo
+040904B0
+CompanyName
+Windows (R) Win 7 DDK provider
+FileDescription
+EaseUS Minirdr
+FileVersion
+6.1.7600.16385 built by: WinDDK
+InternalName
+EuMrx.sys
+LegalCopyright
+ Microsoft Corporation. All rights reserved.
+OriginalFilename
+EuMrx.Sys
+ProductName
+Windows (R) Win 7 DDK driver
+ProductVersion
+6.1.7600.16385
+VarFileInfo
+Translation
+RAny use of this Certificate constitutes acceptance of the DigiCert CP/CPS and the Relying Party Agreement which limit liability and are incorporated herein by reference
+NCHENGDU YIWO Tech Development Co., Ltd

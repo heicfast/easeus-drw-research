@@ -1,0 +1,2174 @@
+[Strings]
+nth  paddr      vaddr       len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0    0x000a5ead 0x1800a74ad 5   7    .rdata  utf8    2!òk0
+1    0x000a5f04 0x1800a7504 4   5    .rdata  ascii   6biA
+2    0x000a5f1a 0x1800a751a 4   5    .rdata  ascii   tp|I
+3    0x000a5f90 0x1800a7590 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+4    0x000a5fd8 0x1800a75d8 12  26   .rdata  utf16le kernel32.dll
+5    0x000a5ff8 0x1800a75f8 27  28   .rdata  ascii   InitializeConditionVariable
+6    0x000a6018 0x1800a7618 24  25   .rdata  ascii   SleepConditionVariableCS
+7    0x000a6038 0x1800a7638 24  25   .rdata  ascii   WakeAllConditionVariable
+8    0x000a6078 0x1800a7678 17  18   .rdata  ascii   Unknown exception
+9    0x000a60a8 0x1800a76a8 14  15   .rdata  ascii   bad allocation
+10   0x000a60d0 0x1800a76d0 20  21   .rdata  ascii   bad array new length
+11   0x000a6100 0x1800a7700 64  130  .rdata  utf16le ERROR : Unable to initialize critical section in CAtlBaseModule\n
+12   0x000a6190 0x1800a7790 9   10   .rdata  ascii   log_write
+13   0x000a61a0 0x1800a77a0 10  11   .rdata  ascii   fsclog.dll
+14   0x000a61ac 0x1800a77ac 6   7    .rdata  ascii   log_ws
+15   0x000a61b8 0x1800a77b8 10  11   .rdata  ascii   fsclog.dll
+16   0x000a61c8 0x1800a77c8 43  44   .rdata  ascii   CachedExtent::FoundExtentNameGuidByPosition
+17   0x000a61f8 0x1800a77f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+18   0x000a6220 0x1800a7820 37  38   .rdata  ascii   CachedExtent::ReplaceExtentByPosition
+19   0x000a6248 0x1800a7848 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+20   0x000a6270 0x1800a7870 24  25   .rdata  ascii   CachedExtent::PushExtent
+21   0x000a6290 0x1800a7890 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+22   0x000a62b8 0x1800a78b8 21  22   .rdata  ascii   \\.\MountPointManager
+23   0x000a62d0 0x1800a78d0 9   10   .rdata  ascii   NtDll.dll
+24   0x000a62e0 0x1800a78e0 28  29   .rdata  ascii   ZwQueryVolumeInformationFile
+25   0x000a6300 0x1800a7900 6   7    .rdata  ascii   Floppy
+26   0x000a6308 0x1800a7908 8   9    .rdata  ascii   %*[^{]%s
+27   0x000a6318 0x1800a7918 15  16   .rdata  ascii   \DosDevices\%C:
+28   0x000a6328 0x1800a7928 7   8    .rdata  ascii   unknown
+29   0x000a6330 0x1800a7930 26  27   .rdata  ascii   CachedExtent::RefreshCache
+30   0x000a6350 0x1800a7950 35  36   .rdata  ascii   %s volume[%s] [%s] FileSystem[%s]\r\n
+31   0x000a6378 0x1800a7978 26  27   .rdata  ascii   CachedExtent::RefreshCache
+32   0x000a6398 0x1800a7998 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+33   0x000a63c0 0x1800a79c0 35  36   .rdata  ascii   CachedExtent::FoundVolumeGuidByName
+34   0x000a63e8 0x1800a79e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+35   0x000a6410 0x1800a7a10 40  41   .rdata  ascii   CachedExtent::FoundExtentWithDriveLetter
+36   0x000a643c 0x1800a7a3c 5   6    .rdata  ascii   FAT32
+37   0x000a6444 0x1800a7a44 6   7    .rdata  ascii   log_ws
+38   0x000a6450 0x1800a7a50 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+39   0x000a6474 0x1800a7a74 4   5    .rdata  ascii   NTFS
+40   0x000a647c 0x1800a7a7c 6   7    .rdata  ascii   Device
+41   0x000a6488 0x1800a7a88 37  38   .rdata  ascii   CachedExtent::GetVolumeExtentWithGuid
+42   0x000a64b0 0x1800a7ab0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+43   0x000a64d8 0x1800a7ad8 9   10   .rdata  ascii   log_write
+44   0x000a64e4 0x1800a7ae4 6   7    .rdata  ascii   Device
+45   0x000a64f0 0x1800a7af0 10  11   .rdata  ascii   fsclog.dll
+46   0x000a6500 0x1800a7b00 10  11   .rdata  ascii   fsclog.dll
+47   0x000a6510 0x1800a7b10 38  39   .rdata  ascii   CorrectLdmDiskIdx::DoCorrectLdmDiskIdx
+48   0x000a6538 0x1800a7b38 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+49   0x000a6560 0x1800a7b60 35  36   .rdata  ascii   disk:ldm index[%d] real index[%d]\r\n
+50   0x000a6588 0x1800a7b88 35  36   .rdata  ascii   disk:ldm index[%d] real index[%d]\r\n
+51   0x000a65b0 0x1800a7bb0 35  36   .rdata  ascii   disk:ldm index[%d] real index[%d]\r\n
+52   0x000a65d8 0x1800a7bd8 31  32   .rdata  ascii   ldmDiskIdx %d must be missing\r\n
+53   0x000a65f8 0x1800a7bf8 48  49   .rdata  ascii   found no ldm disk id %I64u,maybe it's missing!\r\n
+54   0x000a662c 0x1800a7c2c 6   7    .rdata  ascii   log_ws
+55   0x000a6638 0x1800a7c38 19  20   .rdata  ascii   \\.\PhysicalDrive%d
+56   0x000a6650 0x1800a7c50 42  43   .rdata  ascii   CorrectLdmDiskIdx::CorrectDiskIndexWithEPM
+57   0x000a6680 0x1800a7c80 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+58   0x000a66a8 0x1800a7ca8 9   10   .rdata  ascii   log_write
+59   0x000a66b4 0x1800a7cb4 6   7    .rdata  ascii   log_ws
+60   0x000a66c0 0x1800a7cc0 10  11   .rdata  ascii   fsclog.dll
+61   0x000a66d0 0x1800a7cd0 10  11   .rdata  ascii   fsclog.dll
+62   0x000a66e0 0x1800a7ce0 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\diskmanageritemproc.cpp
+63   0x000a6788 0x1800a7d88 19  20   .rdata  ascii   \\.\PhysicalDrive%d
+64   0x000a67a0 0x1800a7da0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+65   0x000a6808 0x1800a7e08 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+66   0x000a6820 0x1800a7e20 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\diskmanageritemproc.cpp
+67   0x000a68c8 0x1800a7ec8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+68   0x000a6908 0x1800a7f08 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+69   0x000a6920 0x1800a7f20 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+70   0x000a6988 0x1800a7f88 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+71   0x000a69a0 0x1800a7fa0 52  106  .rdata  utf16le found MSR partition in GPT,disk : %d, pos : 0x%I64x!
+72   0x000a6a10 0x1800a8010 53  108  .rdata  utf16le found ESP partition in GPT,,disk : %d, pos : 0x%I64x!
+73   0x000a6a80 0x1800a8080 52  106  .rdata  utf16le found OEM partition in MBR,disk : %d, pos : 0x%I64x!
+74   0x000a6aec 0x1800a80ec 6   7    .rdata  ascii   log_ws
+75   0x000a6af8 0x1800a80f8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+76   0x000a6b38 0x1800a8138 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+77   0x000a6b78 0x1800a8178 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+78   0x000a6bb8 0x1800a81b8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+79   0x000a6bf8 0x1800a81f8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+80   0x000a6c38 0x1800a8238 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+81   0x000a6c78 0x1800a8278 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+82   0x000a6cb8 0x1800a82b8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+83   0x000a6ccc 0x1800a82cc 6   7    .rdata  ascii   Delete
+84   0x000a6cf8 0x1800a82f8 9   10   .rdata  ascii   log_write
+85   0x000a6d04 0x1800a8304 6   7    .rdata  ascii   SYSTEM
+86   0x000a6d10 0x1800a8310 10  11   .rdata  ascii   fsclog.dll
+87   0x000a6d20 0x1800a8320 10  11   .rdata  ascii   fsclog.dll
+88   0x000a6d30 0x1800a8330 18  19   .rdata  ascii   \Device\Harddisk%d
+89   0x000a6d48 0x1800a8348 18  19   .rdata  ascii   DmrpDisk::DmrpDisk
+90   0x000a6d60 0x1800a8360 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+91   0x000a6d88 0x1800a8388 18  19   .rdata  ascii   \Device\Harddisk%d
+92   0x000a6da0 0x1800a83a0 18  19   .rdata  ascii   DmrpDisk::DmrpDisk
+93   0x000a6db8 0x1800a83b8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+94   0x000a6de0 0x1800a83e0 19  20   .rdata  ascii   DmrpDisk::~DmrpDisk
+95   0x000a6df8 0x1800a83f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+96   0x000a6e20 0x1800a8420 21  22   .rdata  ascii   DmrpDisk::GetDiskInfo
+97   0x000a6e38 0x1800a8438 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+98   0x000a6e60 0x1800a8460 30  31   .rdata  ascii   DmrpDisk::SetDiskStorageDevice
+99   0x000a6e80 0x1800a8480 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+100  0x000a6ea8 0x1800a84a8 30  31   .rdata  ascii   DmrpDisk::GetDiskStorageDevice
+101  0x000a6ec8 0x1800a84c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+102  0x000a6ef0 0x1800a84f0 17  18   .rdata  ascii   DmrpDisk::Convert
+103  0x000a6f04 0x1800a8504 6   7    .rdata  ascii   Delete
+104  0x000a6f10 0x1800a8510 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+105  0x000a6f38 0x1800a8538 25  26   .rdata  ascii   DmrpDisk::QueryCanConvert
+106  0x000a6f54 0x1800a8554 6   7    .rdata  ascii   SYSTEM
+107  0x000a6f60 0x1800a8560 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+108  0x000a6f84 0x1800a8584 5   6    .rdata  ascii   AppID
+109  0x000a6f90 0x1800a8590 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+110  0x000a7020 0x1800a8620 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+111  0x000a7088 0x1800a8688 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+112  0x000a70b0 0x1800a86b0 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+113  0x000a7140 0x1800a8740 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+114  0x000a7198 0x1800a8798 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+115  0x000a71c0 0x1800a87c0 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+116  0x000a7250 0x1800a8850 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+117  0x000a72c8 0x1800a88c8 17  18   .rdata  ascii   atlTraceRegistrar
+118  0x000a72e0 0x1800a88e0 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+119  0x000a7370 0x1800a8970 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+120  0x000a73e8 0x1800a89e8 16  17   .rdata  ascii   atlTraceRefcount
+121  0x000a7400 0x1800a8a00 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+122  0x000a7490 0x1800a8a90 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+123  0x000a74f8 0x1800a8af8 40  41   .rdata  ascii   %s dmrp[%I64d:%I64d] real[%I64d:%I64d]\r\n
+124  0x000a7524 0x1800a8b24 5   6    .rdata  ascii   CLSID
+125  0x000a752c 0x1800a8b2c 6   7    .rdata  ascii   log_ws
+126  0x000a7538 0x1800a8b38 25  26   .rdata  ascii   %s %I64d [%I64d:%I64d] \r\n
+127  0x000a7554 0x1800a8b54 6   7    .rdata  ascii   log_ws
+128  0x000a7560 0x1800a8b60 43  44   .rdata  ascii   %s change [%I64d:%I64d] to [%I64d:%I64d] \r\n
+129  0x000a7590 0x1800a8b90 27  28   .rdata  ascii   DmrpDisk::RefreshDiskExtent
+130  0x000a75b0 0x1800a8bb0 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+131  0x000a7640 0x1800a8c40 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+132  0x000a76a8 0x1800a8ca8 15  16   .rdata  ascii   atlTraceGeneral
+133  0x000a76b8 0x1800a8cb8 17  18   .rdata  ascii   atlTraceWindowing
+134  0x000a76d0 0x1800a8cd0 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+135  0x000a7760 0x1800a8d60 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+136  0x000a77b8 0x1800a8db8 16  17   .rdata  ascii   atlTraceControls
+137  0x000a77d0 0x1800a8dd0 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+138  0x000a7860 0x1800a8e60 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+139  0x000a78c8 0x1800a8ec8 15  16   .rdata  ascii   atlTraceHosting
+140  0x000a78d8 0x1800a8ed8 16  17   .rdata  ascii   atlTraceDBClient
+141  0x000a78f0 0x1800a8ef0 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+142  0x000a7980 0x1800a8f80 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+143  0x000a79e8 0x1800a8fe8 18  19   .rdata  ascii   atlTraceDBProvider
+144  0x000a7a00 0x1800a9000 69  140  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+145  0x000a7a90 0x1800a9090 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+146  0x000a7af8 0x1800a90f8 43  44   .rdata  ascii   %s change [%I64d:%I64d] to [%I64d:%I64d] \r\n
+147  0x000a7b28 0x1800a9128 28  29   .rdata  ascii   DmrpDisk::RefreshDiskExtent3
+148  0x000a7b48 0x1800a9148 9   10   .rdata  ascii   log_write
+149  0x000a7b54 0x1800a9154 6   7    .rdata  ascii   log_ws
+150  0x000a7b60 0x1800a9160 10  11   .rdata  ascii   fsclog.dll
+151  0x000a7b70 0x1800a9170 10  11   .rdata  ascii   fsclog.dll
+152  0x000a7b80 0x1800a9180 11  12   .rdata  ascii   atlTraceCOM
+153  0x000a7b90 0x1800a9190 10  11   .rdata  ascii   atlTraceQI
+154  0x000a7ba0 0x1800a91a0 14  15   .rdata  ascii   atlTraceSnapin
+155  0x000a7bb0 0x1800a91b0 15  16   .rdata  ascii   atlTraceNotImpl
+156  0x000a7bc0 0x1800a91c0 18  19   .rdata  ascii   atlTraceAllocation
+157  0x000a7bd8 0x1800a91d8 17  18   .rdata  ascii   atlTraceException
+158  0x000a7bec 0x1800a91ec 6   7    .rdata  ascii   log_ws
+159  0x000a7bf8 0x1800a91f8 12  13   .rdata  ascii   atlTraceTime
+160  0x000a7c08 0x1800a9208 13  14   .rdata  ascii   atlTraceCache
+161  0x000a7c18 0x1800a9218 15  16   .rdata  ascii   atlTraceStencil
+162  0x000a7c28 0x1800a9228 14  15   .rdata  ascii   atlTraceString
+163  0x000a7c38 0x1800a9238 11  12   .rdata  ascii   atlTraceMap
+164  0x000a7c48 0x1800a9248 12  13   .rdata  ascii   atlTraceUtil
+165  0x000a7c58 0x1800a9258 16  17   .rdata  ascii   atlTraceSecurity
+166  0x000a7c6c 0x1800a926c 5   6    .rdata  ascii   AppID
+167  0x000a7c74 0x1800a9274 6   7    .rdata  ascii   log_ws
+168  0x000a7c80 0x1800a9280 12  13   .rdata  ascii   atlTraceSync
+169  0x000a7c90 0x1800a9290 13  14   .rdata  ascii   atlTraceISAPI
+170  0x000a7ca0 0x1800a92a0 11  12   .rdata  ascii   ForceRemove
+171  0x000a7cb0 0x1800a92b0 8   9    .rdata  ascii   NoRemove
+172  0x000a7cbc 0x1800a92bc 5   6    .rdata  ascii   CLSID
+173  0x000a7cc4 0x1800a92c4 6   7    .rdata  ascii   log_ws
+174  0x000a7cd0 0x1800a92d0 20  21   .rdata  ascii   Component Categories
+175  0x000a7ce8 0x1800a92e8 8   9    .rdata  ascii   FileType
+176  0x000a7cf4 0x1800a92f4 6   7    .rdata  ascii   log_ws
+177  0x000a7d00 0x1800a9300 9   10   .rdata  ascii   Interface
+178  0x000a7d0c 0x1800a930c 6   7    .rdata  ascii   log_ws
+179  0x000a7d18 0x1800a9318 8   9    .rdata  ascii   Hardware
+180  0x000a7d24 0x1800a9324 4   5    .rdata  ascii   Mime
+181  0x000a7d2c 0x1800a932c 6   7    .rdata  ascii   log_ws
+182  0x000a7d38 0x1800a9338 8   9    .rdata  ascii   SECURITY
+183  0x000a7d44 0x1800a9344 6   7    .rdata  ascii   log_ws
+184  0x000a7d50 0x1800a9350 8   9    .rdata  ascii   Software
+185  0x000a7d5c 0x1800a935c 6   7    .rdata  ascii   config
+186  0x000a7d68 0x1800a9368 7   8    .rdata  ascii   TypeLib
+187  0x000a7d70 0x1800a9370 10  11   .rdata  ascii   DmrpModule
+188  0x000a7d80 0x1800a9380 22  23   .rdata  ascii   DmrpModule::DmrpModule
+189  0x000a7d98 0x1800a9398 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+190  0x000a7dc0 0x1800a93c0 28  29   .rdata  ascii   DmrpModule::GetDiskWithIndex
+191  0x000a7de0 0x1800a93e0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+192  0x000a7e08 0x1800a9408 36  37   .rdata  ascii   DmrpModule::GetVolumeWithDriveLetter
+193  0x000a7e30 0x1800a9430 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+194  0x000a7e58 0x1800a9458 36  37   .rdata  ascii   DmrpModule::GetVolumeWithManagerItem
+195  0x000a7e80 0x1800a9480 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+196  0x000a7ea4 0x1800a94a4 4   5    .rdata  ascii   Mime
+197  0x000a7eb0 0x1800a94b0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+198  0x000a7f40 0x1800a9540 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+199  0x000a7fa8 0x1800a95a8 35  36   .rdata  ascii   DmrpModule::GetVolumeWithDiskOffset
+200  0x000a7fd0 0x1800a95d0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+201  0x000a8060 0x1800a9660 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+202  0x000a80c8 0x1800a96c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+203  0x000a80f0 0x1800a96f0 29  30   .rdata  ascii   DmrpModule::GetVolumeWithGuid
+204  0x000a8110 0x1800a9710 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+205  0x000a8134 0x1800a9734 6   7    .rdata  ascii   log_ws
+206  0x000a8140 0x1800a9740 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+207  0x000a81d0 0x1800a97d0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+208  0x000a8238 0x1800a9838 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+209  0x000a8260 0x1800a9860 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+210  0x000a82f0 0x1800a98f0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+211  0x000a8358 0x1800a9958 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+212  0x000a8380 0x1800a9980 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+213  0x000a8410 0x1800a9a10 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+214  0x000a8478 0x1800a9a78 31  32   .rdata  ascii   DmrpModule::GetLdmPackFreeSpace
+215  0x000a8498 0x1800a9a98 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+216  0x000a84c0 0x1800a9ac0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+217  0x000a8550 0x1800a9b50 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+218  0x000a85b8 0x1800a9bb8 32  33   .rdata  ascii   DmrpModule::RemoveAllDummyVolume
+219  0x000a85e0 0x1800a9be0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+220  0x000a8670 0x1800a9c70 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+221  0x000a86d8 0x1800a9cd8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+222  0x000a8700 0x1800a9d00 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+223  0x000a8790 0x1800a9d90 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+224  0x000a87f8 0x1800a9df8 24  25   .rdata  ascii   DmrpModule::CreateVolume
+225  0x000a8814 0x1800a9e14 5   6    .rdata  ascii   AppID
+226  0x000a881c 0x1800a9e1c 6   7    .rdata  ascii   Delete
+227  0x000a8828 0x1800a9e28 24  25   .rdata  ascii   DmrpModule::DeleteVolume
+228  0x000a8844 0x1800a9e44 5   6    .rdata  ascii   CLSID
+229  0x000a884c 0x1800a9e4c 6   7    .rdata  ascii   SYSTEM
+230  0x000a8858 0x1800a9e58 30  31   .rdata  ascii   DmrpModule::RemoveCacheContext
+231  0x000a8878 0x1800a9e78 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+232  0x000a88a0 0x1800a9ea0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+233  0x000a8930 0x1800a9f30 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+234  0x000a8998 0x1800a9f98 18  38   .rdata  utf16le \Device\Harddisk%d
+235  0x000a89c0 0x1800a9fc0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+236  0x000a8a50 0x1800aa050 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+237  0x000a8ab8 0x1800aa0b8 19  20   .rdata  ascii   DmrpModule::Refresh
+238  0x000a8ad0 0x1800aa0d0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+239  0x000a8b60 0x1800aa160 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+240  0x000a8bc8 0x1800aa1c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+241  0x000a8bf0 0x1800aa1f0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+242  0x000a8c80 0x1800aa280 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+243  0x000a8cd8 0x1800aa2d8 32  33   .rdata  ascii   DmrpModule::ReConnectComInstance
+244  0x000a8d00 0x1800aa300 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+245  0x000a8d90 0x1800aa390 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+246  0x000a8df8 0x1800aa3f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+247  0x000a8e20 0x1800aa420 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+248  0x000a8eb0 0x1800aa4b0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+249  0x000a8f18 0x1800aa518 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+250  0x000a8f40 0x1800aa540 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+251  0x000a8fd0 0x1800aa5d0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+252  0x000a9028 0x1800aa628 18  38   .rdata  utf16le \device\harddisk%d
+253  0x000a9050 0x1800aa650 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+254  0x000a90e0 0x1800aa6e0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+255  0x000a9148 0x1800aa748 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+256  0x000a9170 0x1800aa770 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+257  0x000a9200 0x1800aa800 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+258  0x000a9268 0x1800aa868 18  38   .rdata  utf16le \device\harddisk%d
+259  0x000a9290 0x1800aa890 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+260  0x000a9320 0x1800aa920 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+261  0x000a9388 0x1800aa988 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+262  0x000a93b0 0x1800aa9b0 38  78   .rdata  utf16le {4FB6BB00-3347-11D0-B40A-00AA005FF586}
+263  0x000a9400 0x1800aaa00 28  29   .rdata  ascii   DmrpModule::GetExtentByLdmId
+264  0x000a9420 0x1800aaa20 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+265  0x000a94b0 0x1800aaab0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+266  0x000a9518 0x1800aab18 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+267  0x000a9540 0x1800aab40 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+268  0x000a95d0 0x1800aabd0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+269  0x000a9628 0x1800aac28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+270  0x000a9650 0x1800aac50 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+271  0x000a96e0 0x1800aace0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+272  0x000a9748 0x1800aad48 34  35   .rdata  ascii   DmrpModule::GetVolumeGuidWithObjId
+273  0x000a9770 0x1800aad70 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+274  0x000a9800 0x1800aae00 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+275  0x000a9868 0x1800aae68 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+276  0x000a9890 0x1800aae90 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+277  0x000a9920 0x1800aaf20 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+278  0x000a9988 0x1800aaf88 32  33   .rdata  ascii   DmrpModule::GetFreeExtentOnDiskS
+279  0x000a99b0 0x1800aafb0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+280  0x000a9a40 0x1800ab040 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+281  0x000a9aa8 0x1800ab0a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+282  0x000a9ad0 0x1800ab0d0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+283  0x000a9b60 0x1800ab160 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+284  0x000a9bb8 0x1800ab1b8 18  38   .rdata  utf16le \Device\Harddisk%d
+285  0x000a9be0 0x1800ab1e0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+286  0x000a9c70 0x1800ab270 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+287  0x000a9cc8 0x1800ab2c8 25  26   .rdata  ascii   DmrpModule::CreateVolume1
+288  0x000a9ce8 0x1800ab2e8 27  28   .rdata  ascii   DmrpModule::AddExtent2Cache
+289  0x000a9d04 0x1800ab304 4   5    .rdata  ascii   Mime
+290  0x000a9d10 0x1800ab310 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+291  0x000a9da0 0x1800ab3a0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+292  0x000a9e08 0x1800ab408 32  33   .rdata  ascii   DmrpModule::ConvertBasic2Dynamic
+293  0x000a9e30 0x1800ab430 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+294  0x000a9ec0 0x1800ab4c0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+295  0x000a9f18 0x1800ab518 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+296  0x000a9f40 0x1800ab540 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+297  0x000a9fd0 0x1800ab5d0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+298  0x000aa038 0x1800ab638 49  50   .rdata  ascii   DmrpModule::CheckWhetherVolumeBeUpdateInPatchExec
+299  0x000aa070 0x1800ab670 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+300  0x000aa100 0x1800ab700 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+301  0x000aa168 0x1800ab768 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+302  0x000aa190 0x1800ab790 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+303  0x000aa220 0x1800ab820 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+304  0x000aa288 0x1800ab888 32  33   .rdata  ascii   DmrpModule::ConvertDynamic2Basic
+305  0x000aa2b0 0x1800ab8b0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+306  0x000aa340 0x1800ab940 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+307  0x000aa3a8 0x1800ab9a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+308  0x000aa3d0 0x1800ab9d0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+309  0x000aa460 0x1800aba60 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+310  0x000aa4b8 0x1800abab8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+311  0x000aa4e0 0x1800abae0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+312  0x000aa570 0x1800abb70 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+313  0x000aa5c8 0x1800abbc8 25  26   .rdata  ascii   DmrpModule::CreateVolume3
+314  0x000aa5e8 0x1800abbe8 26  27   .rdata  ascii   DmrpModule::AddBasicVolume
+315  0x000aa608 0x1800abc08 27  28   .rdata  ascii   DmrpModule::ReleaseResource
+316  0x000aa624 0x1800abc24 5   6    .rdata  ascii   error
+317  0x000aa630 0x1800abc30 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+318  0x000aa6c0 0x1800abcc0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+319  0x000aa728 0x1800abd28 10  11   .rdata  ascii   \\?\Volume
+320  0x000aa738 0x1800abd38 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+321  0x000aa778 0x1800abd78 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+322  0x000aa7b8 0x1800abdb8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+323  0x000aa7cc 0x1800abdcc 6   7    .rdata  ascii   native
+324  0x000aa7d8 0x1800abdd8 15  16   .rdata  ascii   atlTraceGeneral
+325  0x000aa7e8 0x1800abde8 11  12   .rdata  ascii   atlTraceCOM
+326  0x000aa7f8 0x1800abdf8 10  11   .rdata  ascii   atlTraceQI
+327  0x000aa808 0x1800abe08 17  18   .rdata  ascii   atlTraceRegistrar
+328  0x000aa81c 0x1800abe1c 6   7    .rdata  ascii   log_ws
+329  0x000aa828 0x1800abe28 16  17   .rdata  ascii   atlTraceRefcount
+330  0x000aa83c 0x1800abe3c 5   6    .rdata  ascii   linux
+331  0x000aa844 0x1800abe44 6   7    .rdata  ascii   log_ws
+332  0x000aa850 0x1800abe50 17  18   .rdata  ascii   atlTraceWindowing
+333  0x000aa864 0x1800abe64 6   7    .rdata  ascii   log_ws
+334  0x000aa870 0x1800abe70 16  17   .rdata  ascii   atlTraceControls
+335  0x000aa884 0x1800abe84 6   7    .rdata  ascii   log_ws
+336  0x000aa890 0x1800abe90 15  16   .rdata  ascii   atlTraceHosting
+337  0x000aa8a0 0x1800abea0 16  17   .rdata  ascii   atlTraceDBClient
+338  0x000aa8b4 0x1800abeb4 6   7    .rdata  ascii   log_ws
+339  0x000aa8c0 0x1800abec0 18  19   .rdata  ascii   atlTraceDBProvider
+340  0x000aa8d8 0x1800abed8 14  15   .rdata  ascii   atlTraceSnapin
+341  0x000aa8e8 0x1800abee8 15  16   .rdata  ascii   atlTraceNotImpl
+342  0x000aa8f8 0x1800abef8 18  19   .rdata  ascii   atlTraceAllocation
+343  0x000aa910 0x1800abf10 17  18   .rdata  ascii   atlTraceException
+344  0x000aa924 0x1800abf24 6   7    .rdata  ascii   log_ws
+345  0x000aa930 0x1800abf30 12  13   .rdata  ascii   atlTraceTime
+346  0x000aa940 0x1800abf40 13  14   .rdata  ascii   atlTraceCache
+347  0x000aa950 0x1800abf50 15  16   .rdata  ascii   atlTraceStencil
+348  0x000aa960 0x1800abf60 14  15   .rdata  ascii   atlTraceString
+349  0x000aa970 0x1800abf70 11  12   .rdata  ascii   atlTraceMap
+350  0x000aa980 0x1800abf80 12  13   .rdata  ascii   atlTraceUtil
+351  0x000aa990 0x1800abf90 16  17   .rdata  ascii   atlTraceSecurity
+352  0x000aa9a4 0x1800abfa4 6   7    .rdata  ascii   log_ws
+353  0x000aa9b0 0x1800abfb0 12  13   .rdata  ascii   atlTraceSync
+354  0x000aa9c0 0x1800abfc0 13  14   .rdata  ascii   atlTraceISAPI
+355  0x000aa9d0 0x1800abfd0 11  12   .rdata  ascii   ForceRemove
+356  0x000aa9e0 0x1800abfe0 8   9    .rdata  ascii   NoRemove
+357  0x000aa9ec 0x1800abfec 6   7    .rdata  ascii   log_ws
+358  0x000aa9f8 0x1800abff8 20  21   .rdata  ascii   Component Categories
+359  0x000aaa10 0x1800ac010 8   9    .rdata  ascii   FileType
+360  0x000aaa1c 0x1800ac01c 6   7    .rdata  ascii   log_ws
+361  0x000aaa28 0x1800ac028 9   10   .rdata  ascii   Interface
+362  0x000aaa34 0x1800ac034 6   7    .rdata  ascii   log_ws
+363  0x000aaa40 0x1800ac040 8   9    .rdata  ascii   Hardware
+364  0x000aaa50 0x1800ac050 8   9    .rdata  ascii   SECURITY
+365  0x000aaa60 0x1800ac060 8   9    .rdata  ascii   Software
+366  0x000aaa70 0x1800ac070 7   8    .rdata  ascii   TypeLib
+367  0x000aaa78 0x1800ac078 9   10   .rdata  ascii   log_write
+368  0x000aaa88 0x1800ac088 10  11   .rdata  ascii   fsclog.dll
+369  0x000aaa98 0x1800ac098 10  11   .rdata  ascii   fsclog.dll
+370  0x000aaaa8 0x1800ac0a8 26  27   .rdata  ascii   DmrpNotify::QueryInterface
+371  0x000aaac8 0x1800ac0c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+372  0x000aaaf0 0x1800ac0f0 26  27   .rdata  ascii   DmrpNotify::ObjectsChanged
+373  0x000aab10 0x1800ac110 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+374  0x000aab38 0x1800ac138 9   10   .rdata  ascii   log_write
+375  0x000aab48 0x1800ac148 10  11   .rdata  ascii   fsclog.dll
+376  0x000aab58 0x1800ac158 10  11   .rdata  ascii   fsclog.dll
+377  0x000aab68 0x1800ac168 22  23   .rdata  ascii   DmrpVolume::DmrpVolume
+378  0x000aab80 0x1800ac180 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+379  0x000aaba8 0x1800ac1a8 22  23   .rdata  ascii   DmrpVolume::DmrpVolume
+380  0x000aabc0 0x1800ac1c0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+381  0x000aabe8 0x1800ac1e8 23  24   .rdata  ascii   DmrpVolume::~DmrpVolume
+382  0x000aac00 0x1800ac200 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+383  0x000aac28 0x1800ac228 25  26   .rdata  ascii   DmrpVolume::GetVolumeInfo
+384  0x000aac48 0x1800ac248 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+385  0x000aac70 0x1800ac270 28  29   .rdata  ascii   DmrpVolume::SetStorageDevice
+386  0x000aac90 0x1800ac290 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+387  0x000aacb8 0x1800ac2b8 28  29   .rdata  ascii   DmrpVolume::GetStorageDevice
+388  0x000aacd8 0x1800ac2d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+389  0x000aad00 0x1800ac300 32  33   .rdata  ascii   DmrpVolume::ReleaseStorageDevice
+390  0x000aad28 0x1800ac328 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+391  0x000aad50 0x1800ac350 18  38   .rdata  utf16le \Device\Harddisk%d
+392  0x000aad78 0x1800ac378 24  25   .rdata  ascii   DmrpVolume::UpdateExtent
+393  0x000aad98 0x1800ac398 21  22   .rdata  ascii   %s %C: got result%d\r\n
+394  0x000aadb0 0x1800ac3b0 24  25   .rdata  ascii   DmrpVolume::UpdateExtent
+395  0x000aadd0 0x1800ac3d0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+396  0x000aadf8 0x1800ac3f8 23  24   .rdata  ascii   DmrpVolume::UpdateLdmDB
+397  0x000aae10 0x1800ac410 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+398  0x000aae38 0x1800ac438 28  29   .rdata  ascii   DmrpVolume::ResizeNeedReBoot
+399  0x000aae58 0x1800ac458 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+400  0x000aae80 0x1800ac480 25  26   .rdata  ascii   DmrpVolume::RefreshExtent
+401  0x000aaea0 0x1800ac4a0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+402  0x000aaec8 0x1800ac4c8 26  27   .rdata  ascii   DmrpVolume::RefreshExtent3
+403  0x000aaee8 0x1800ac4e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+404  0x000aaf10 0x1800ac510 32  33   .rdata  ascii   DmrpVolume::GetVolumeDriveLetter
+405  0x000aaf38 0x1800ac538 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+406  0x000aaf60 0x1800ac560 40  41   .rdata  ascii   DmrpVolume::GetVolumeLabelFileSystemType
+407  0x000aaf90 0x1800ac590 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+408  0x000aafb8 0x1800ac5b8 24  25   .rdata  ascii   DmrpVolume::DeleteVolume
+409  0x000aafd8 0x1800ac5d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+410  0x000ab000 0x1800ac600 23  24   .rdata  ascii   DmrpVolume::RepairRaid5
+411  0x000ab018 0x1800ac618 11  12   .rdata  ascii   %s got %x\r\n
+412  0x000ab028 0x1800ac628 23  24   .rdata  ascii   DmrpVolume::RepairRaid5
+413  0x000ab040 0x1800ac640 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+414  0x000ab064 0x1800ac664 4   5    .rdata  ascii   dmrp
+415  0x000ab070 0x1800ac670 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+416  0x000ab100 0x1800ac700 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+417  0x000ab168 0x1800ac768 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+418  0x000ab190 0x1800ac790 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+419  0x000ab220 0x1800ac820 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+420  0x000ab278 0x1800ac878 18  19   .rdata  ascii   DmrpVolume::Format
+421  0x000ab290 0x1800ac890 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+422  0x000ab320 0x1800ac920 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+423  0x000ab388 0x1800ac988 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+424  0x000ab3b0 0x1800ac9b0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+425  0x000ab440 0x1800aca40 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+426  0x000ab4a8 0x1800acaa8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+427  0x000ab4c0 0x1800acac0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+428  0x000ab550 0x1800acb50 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+429  0x000ab5a8 0x1800acba8 29  30   .rdata  ascii   DmrpVolume::AssignDriveLetter
+430  0x000ab5c8 0x1800acbc8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+431  0x000ab5f0 0x1800acbf0 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+432  0x000ab680 0x1800acc80 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+433  0x000ab6e8 0x1800acce8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+434  0x000ab710 0x1800acd10 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+435  0x000ab7a0 0x1800acda0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+436  0x000ab7f8 0x1800acdf8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+437  0x000ab820 0x1800ace20 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+438  0x000ab8b0 0x1800aceb0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+439  0x000ab908 0x1800acf08 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+440  0x000ab930 0x1800acf30 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+441  0x000ab9c0 0x1800acfc0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+442  0x000aba28 0x1800ad028 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+443  0x000aba68 0x1800ad068 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+444  0x000abaa8 0x1800ad0a8 9   10   .rdata  ascii   log_write
+445  0x000abab8 0x1800ad0b8 10  11   .rdata  ascii   fsclog.dll
+446  0x000abac8 0x1800ad0c8 10  11   .rdata  ascii   fsclog.dll
+447  0x000abad8 0x1800ad0d8 24  25   .rdata  ascii   DummyVolume::DummyVolume
+448  0x000abaf8 0x1800ad0f8 25  26   .rdata  ascii   DummyVolume::~DummyVolume
+449  0x000abb18 0x1800ad118 26  27   .rdata  ascii   DummyVolume::GetVolumeInfo
+450  0x000abb38 0x1800ad138 29  30   .rdata  ascii   DummyVolume::GetStorageDevice
+451  0x000abb58 0x1800ad158 33  34   .rdata  ascii   DummyVolume::ReleaseStorageDevice
+452  0x000abb80 0x1800ad180 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+453  0x000abba8 0x1800ad1a8 25  26   .rdata  ascii   DummyVolume::UpdateExtent
+454  0x000abbc8 0x1800ad1c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+455  0x000abbf0 0x1800ad1f0 27  28   .rdata  ascii   DummyVolume::GetRMParameter
+456  0x000abc10 0x1800ad210 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+457  0x000abc38 0x1800ad238 24  25   .rdata  ascii   DummyVolume::UpdateLdmDB
+458  0x000abc58 0x1800ad258 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+459  0x000abc80 0x1800ad280 29  30   .rdata  ascii   DummyVolume::ResizeNeedReBoot
+460  0x000abca0 0x1800ad2a0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+461  0x000abcc8 0x1800ad2c8 19  20   .rdata  ascii   DummyVolume::Resize
+462  0x000abce0 0x1800ad2e0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+463  0x000abd08 0x1800ad308 24  25   .rdata  ascii   DummyVolume::RepairRaid5
+464  0x000abd28 0x1800ad328 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+465  0x000abd50 0x1800ad350 30  31   .rdata  ascii   DummyVolume::GetRealVolumeInfo
+466  0x000abd70 0x1800ad370 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+467  0x000abd98 0x1800ad398 9   10   .rdata  ascii   log_write
+468  0x000abda8 0x1800ad3a8 10  11   .rdata  ascii   fsclog.dll
+469  0x000abdb8 0x1800ad3b8 10  11   .rdata  ascii   fsclog.dll
+470  0x000abdc8 0x1800ad3c8 41  42   .rdata  ascii   EditLdm2ApplyConfig::~EditLdm2ApplyConfig
+471  0x000abdf8 0x1800ad3f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+472  0x000abe20 0x1800ad420 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+473  0x000abec8 0x1800ad4c8 28  29   .rdata  ascii   EditLdm2ApplyConfig::Offline
+474  0x000abee8 0x1800ad4e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+475  0x000abf10 0x1800ad510 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+476  0x000abf78 0x1800ad578 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+477  0x000abfa0 0x1800ad5a0 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+478  0x000ac048 0x1800ad648 27  28   .rdata  ascii   EditLdm2ApplyConfig::Online
+479  0x000ac064 0x1800ad664 6   7    .rdata  ascii   log_ws
+480  0x000ac070 0x1800ad670 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+481  0x000ac0d8 0x1800ad6d8 26  27   .rdata  ascii   EditLdm2ApplyConfig::Apply
+482  0x000ac0f8 0x1800ad6f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+483  0x000ac120 0x1800ad720 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+484  0x000ac1c8 0x1800ad7c8 13  14   .rdata  ascii   DeviceManager
+485  0x000ac1d8 0x1800ad7d8 38  39   .rdata  ascii   EditLdm2ApplyConfig::ModifyPrivateHead
+486  0x000ac200 0x1800ad800 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+487  0x000ac268 0x1800ad868 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+488  0x000ac290 0x1800ad890 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+489  0x000ac338 0x1800ad938 13  14   .rdata  ascii   DeviceManager
+490  0x000ac348 0x1800ad948 33  34   .rdata  ascii   EditLdm2ApplyConfig::TravelVolume
+491  0x000ac370 0x1800ad970 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+492  0x000ac3d8 0x1800ad9d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+493  0x000ac400 0x1800ada00 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+494  0x000ac4a8 0x1800adaa8 13  14   .rdata  ascii   DeviceManager
+495  0x000ac4b8 0x1800adab8 39  40   .rdata  ascii   EditLdm2ApplyConfig::ModifyRaidToSimple
+496  0x000ac4e0 0x1800adae0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+497  0x000ac548 0x1800adb48 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+498  0x000ac570 0x1800adb70 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+499  0x000ac618 0x1800adc18 13  14   .rdata  ascii   DeviceManager
+500  0x000ac628 0x1800adc28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+501  0x000ac650 0x1800adc50 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+502  0x000ac6b8 0x1800adcb8 39  40   .rdata  ascii   EditLdm2ApplyConfig::ModifyMirrorToRaid
+503  0x000ac6e0 0x1800adce0 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+504  0x000ac788 0x1800add88 13  14   .rdata  ascii   DeviceManager
+505  0x000ac798 0x1800add98 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+506  0x000ac7c0 0x1800addc0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+507  0x000ac828 0x1800ade28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+508  0x000ac850 0x1800ade50 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+509  0x000ac8f8 0x1800adef8 13  14   .rdata  ascii   DeviceManager
+510  0x000ac908 0x1800adf08 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+511  0x000ac920 0x1800adf20 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+512  0x000ac988 0x1800adf88 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+513  0x000ac9a0 0x1800adfa0 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+514  0x000aca48 0x1800ae048 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+515  0x000aca88 0x1800ae088 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+516  0x000acaa0 0x1800ae0a0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+517  0x000acb08 0x1800ae108 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+518  0x000acb20 0x1800ae120 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+519  0x000acbc8 0x1800ae1c8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+520  0x000acc08 0x1800ae208 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+521  0x000acc30 0x1800ae230 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+522  0x000acc98 0x1800ae298 39  40   .rdata  ascii   EditLdm2DeleteDisk::~EditLdm2DeleteDisk
+523  0x000accc0 0x1800ae2c0 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+524  0x000acd68 0x1800ae368 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+525  0x000acda8 0x1800ae3a8 13  14   .rdata  ascii   DeviceManager
+526  0x000acdb8 0x1800ae3b8 30  31   .rdata  ascii   EditLdm2DeleteDisk::DeleteDisk
+527  0x000acdd8 0x1800ae3d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+528  0x000ace00 0x1800ae400 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+529  0x000ace68 0x1800ae468 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+530  0x000ace80 0x1800ae480 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+531  0x000acf28 0x1800ae528 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+532  0x000acf68 0x1800ae568 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+533  0x000acf80 0x1800ae580 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+534  0x000acfe8 0x1800ae5e8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+535  0x000ad000 0x1800ae600 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+536  0x000ad0a8 0x1800ae6a8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+537  0x000ad0e8 0x1800ae6e8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+538  0x000ad100 0x1800ae700 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+539  0x000ad168 0x1800ae768 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+540  0x000ad190 0x1800ae790 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+541  0x000ad238 0x1800ae838 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+542  0x000ad278 0x1800ae878 43  44   .rdata  ascii   EditLdm2DeleteVolume::~EditLdm2DeleteVolume
+543  0x000ad2a4 0x1800ae8a4 6   7    .rdata  ascii   log_ws
+544  0x000ad2b0 0x1800ae8b0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+545  0x000ad318 0x1800ae918 40  41   .rdata  ascii   EditLdm2ApplyConfig::RestoreSimpleToRaid
+546  0x000ad348 0x1800ae948 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+547  0x000ad388 0x1800ae988 13  14   .rdata  ascii   DeviceManager
+548  0x000ad398 0x1800ae998 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+549  0x000ad3c0 0x1800ae9c0 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+550  0x000ad468 0x1800aea68 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+551  0x000ad4a8 0x1800aeaa8 34  35   .rdata  ascii   EditLdm2DeleteVolume::DeleteVolume
+552  0x000ad4d0 0x1800aead0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+553  0x000ad538 0x1800aeb38 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+554  0x000ad550 0x1800aeb50 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+555  0x000ad5f8 0x1800aebf8 10  11   .rdata  ascii   fsclog.dll
+556  0x000ad608 0x1800aec08 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+557  0x000ad620 0x1800aec20 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+558  0x000ad688 0x1800aec88 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+559  0x000ad6a0 0x1800aeca0 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+560  0x000ad748 0x1800aed48 10  11   .rdata  ascii   fsclog.dll
+561  0x000ad758 0x1800aed58 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+562  0x000ad770 0x1800aed70 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+563  0x000ad7d8 0x1800aedd8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+564  0x000ad800 0x1800aee00 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+565  0x000ad8a8 0x1800aeea8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+566  0x000ad8e8 0x1800aeee8 45  46   .rdata  ascii   EditLdm2MoveResizeVol::~EditLdm2MoveResizeVol
+567  0x000ad918 0x1800aef18 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+568  0x000ad940 0x1800aef40 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+569  0x000ad9a8 0x1800aefa8 19  20   .rdata  ascii   \\.\PHYSICALDRIVE%d
+570  0x000ad9c0 0x1800aefc0 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+571  0x000ada68 0x1800af068 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+572  0x000adaa8 0x1800af0a8 45  46   .rdata  ascii   EditLdm2MoveResizeVol::SetResizeMoveParameter
+573  0x000adad8 0x1800af0d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+574  0x000adb00 0x1800af100 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+575  0x000adb68 0x1800af168 38  39   .rdata  ascii   EditLdm2MoveResizeVol::UpdatePartition
+576  0x000adb90 0x1800af190 80  162  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+577  0x000adc38 0x1800af238 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+578  0x000adc78 0x1800af278 13  14   .rdata  ascii   DeviceManager
+579  0x000adc88 0x1800af288 39  40   .rdata  ascii   EditLdm2MoveResizeVol::UpdateComponents
+580  0x000adcb0 0x1800af2b0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+581  0x000add18 0x1800af318 40  41   .rdata  ascii   EditLdm2ApplyConfig::RestoreRaidToMirror
+582  0x000add48 0x1800af348 9   10   .rdata  ascii   log_write
+583  0x000add58 0x1800af358 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+584  0x000add98 0x1800af398 13  14   .rdata  ascii   DeviceManager
+585  0x000adda8 0x1800af3a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+586  0x000addd0 0x1800af3d0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+587  0x000ade38 0x1800af438 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+588  0x000ade60 0x1800af460 79  160  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+589  0x000adf00 0x1800af500 79  160  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+590  0x000adfa0 0x1800af5a0 79  160  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+591  0x000ae040 0x1800af640 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+592  0x000ae0a8 0x1800af6a8 34  35   .rdata  ascii   EditLdm2MoveResizeVol::DelVblkProc
+593  0x000ae0d0 0x1800af6d0 79  160  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+594  0x000ae170 0x1800af770 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+595  0x000ae1d8 0x1800af7d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+596  0x000ae200 0x1800af800 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+597  0x000ae268 0x1800af868 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+598  0x000ae290 0x1800af890 79  160  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+599  0x000ae330 0x1800af930 79  160  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+600  0x000ae3d0 0x1800af9d0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+601  0x000ae438 0x1800afa38 7   8    .rdata  ascii   %s-%02d
+602  0x000ae440 0x1800afa40 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+603  0x000ae4a8 0x1800afaa8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+604  0x000ae4e8 0x1800afae8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+605  0x000ae528 0x1800afb28 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+606  0x000ae568 0x1800afb68 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+607  0x000ae5a8 0x1800afba8 9   10   .rdata  ascii   log_write
+608  0x000ae5b8 0x1800afbb8 10  11   .rdata  ascii   fsclog.dll
+609  0x000ae5c8 0x1800afbc8 10  11   .rdata  ascii   fsclog.dll
+610  0x000ae5d8 0x1800afbd8 44  45   .rdata  ascii   EditLdm2MoveResizeVol::UpdateOtherComponents
+611  0x000ae608 0x1800afc08 7   8    .rdata  ascii   %s-%02d
+612  0x000ae610 0x1800afc10 81  164  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+613  0x000ae6b4 0x1800afcb4 6   7    .rdata  ascii   log_ws
+614  0x000ae6c0 0x1800afcc0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+615  0x000ae728 0x1800afd28 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+616  0x000ae740 0x1800afd40 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+617  0x000ae7a8 0x1800afda8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+618  0x000ae7c0 0x1800afdc0 81  164  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+619  0x000ae864 0x1800afe64 6   7    .rdata  ascii   log_ws
+620  0x000ae870 0x1800afe70 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+621  0x000ae8d8 0x1800afed8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+622  0x000ae8f0 0x1800afef0 81  164  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+623  0x000ae994 0x1800aff94 6   7    .rdata  ascii   log_ws
+624  0x000ae9a0 0x1800affa0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+625  0x000aea08 0x1800b0008 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+626  0x000aea20 0x1800b0020 81  164  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+627  0x000aead0 0x1800b00d0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+628  0x000aeb38 0x1800b0138 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+629  0x000aeb60 0x1800b0160 81  164  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+630  0x000aec10 0x1800b0210 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+631  0x000aec78 0x1800b0278 38  39   .rdata  ascii   EditLdm2ResizeVolume::ChangeVolumeSize
+632  0x000aeca0 0x1800b02a0 81  164  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+633  0x000aed48 0x1800b0348 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+634  0x000aed88 0x1800b0388 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+635  0x000aedc8 0x1800b03c8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+636  0x000aee08 0x1800b0408 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+637  0x000aee48 0x1800b0448 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+638  0x000aee88 0x1800b0488 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+639  0x000aeec8 0x1800b04c8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+640  0x000aef08 0x1800b0508 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+641  0x000aef48 0x1800b0548 10  11   .rdata  ascii   fsclog.dll
+642  0x000aef58 0x1800b0558 9   10   .rdata  ascii   log_write
+643  0x000aef68 0x1800b0568 10  11   .rdata  ascii   fsclog.dll
+644  0x000aef78 0x1800b0578 43  44   .rdata  ascii   EditLdm2ResizeVolume::~EditLdm2ResizeVolume
+645  0x000aefa4 0x1800b05a4 5   6    .rdata  ascii   CLSID
+646  0x000aefb0 0x1800b05b0 83  168  .rdata  utf16le [EditLdm2MoveResizeVol] *********************** MergeVolume ***********************
+647  0x000af058 0x1800b0658 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+648  0x000af080 0x1800b0680 71  144  .rdata  utf16le [EditLdm2MoveResizeVol]MergeVolume failure,invalid parameter!,0x%x,0x%x
+649  0x000af110 0x1800b0710 80  162  .rdata  utf16le [EditLdm2MoveResizeVol] ------------------------ Source ------------------------
+650  0x000af1b8 0x1800b07b8 10  11   .rdata  ascii   LdmManager
+651  0x000af1c8 0x1800b07c8 13  14   .rdata  ascii   DeviceManager
+652  0x000af1d8 0x1800b07d8 38  39   .rdata  ascii   EditLdm2ResizeVolume::ChangeVolumeSize
+653  0x000af200 0x1800b0800 71  144  .rdata  utf16le [EditLdm2MoveResizeVol]GetMapDisk in MergeVolume failure,use def,%d,%d!
+654  0x000af290 0x1800b0890 80  162  .rdata  utf16le [EditLdm2MoveResizeVol] ------------------------ Source ------------------------
+655  0x000af338 0x1800b0938 10  11   .rdata  ascii   %*[^0-9]%d
+656  0x000af348 0x1800b0948 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+657  0x000af370 0x1800b0970 86  174  .rdata  utf16le [EditLdm2MoveResizeVol] disk : %d, part info : 0x%I64x,0x%I64x, bytesPersectors : 0x%x
+658  0x000af420 0x1800b0a20 80  162  .rdata  utf16le [EditLdm2MoveResizeVol] ------------------------ Target ------------------------
+659  0x000af4c8 0x1800b0ac8 10  11   .rdata  ascii   LdmManager
+660  0x000af4d8 0x1800b0ad8 43  44   .rdata  ascii   EditLdm2ResizeVolume::DoUpdatePartitionItem
+661  0x000af504 0x1800b0b04 5   6    .rdata  ascii   AppID
+662  0x000af510 0x1800b0b10 45  92   .rdata  utf16le [EditLdm2MoveResizeVol]MergeVolume failure 1!
+663  0x000af570 0x1800b0b70 80  162  .rdata  utf16le [EditLdm2MoveResizeVol] ------------------------ Target ------------------------
+664  0x000af618 0x1800b0c18 10  11   .rdata  ascii   %*[^0-9]%d
+665  0x000af628 0x1800b0c28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+666  0x000af650 0x1800b0c50 62  126  .rdata  utf16le [EditLdm2MoveResizeVol] disk : %d, part info : 0x%I64x,0x%I64x
+667  0x000af6d0 0x1800b0cd0 94  190  .rdata  utf16le [EditLdm2MoveResizeVol] physical drive , old : 0x%I64x,%d , New : 0x%I64x,%d ,Stripe size : %d
+668  0x000af790 0x1800b0d90 93  188  .rdata  utf16le [EditLdm2MoveResizeVol] Old : 0x%I64x,0x%I64x , New : 0x%I64x,0x%I64x ,HidderSector : 0x%I64x
+669  0x000af850 0x1800b0e50 33  68   .rdata  utf16le [EditLdm2MoveResizeVol] disk : %d
+670  0x000af894 0x1800b0e94 6   7    .rdata  ascii   Delete
+671  0x000af8a0 0x1800b0ea0 96  194  .rdata  utf16le [EditLdm2MoveResizeVol] Init new vol , 0x%I64x,0x%I64x,0x%I64x , Vol type : %d,Stripe spare : %d
+672  0x000af968 0x1800b0f68 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+673  0x000af9a8 0x1800b0fa8 38  39   .rdata  ascii   EditLdm2ResizeVolume::AddPartitionItem
+674  0x000af9d0 0x1800b0fd0 58  118  .rdata  utf16le [EditLdm2MoveResizeVol] Raid vol need to correct idx,%d,%d
+675  0x000afa48 0x1800b1048 48  49   .rdata  ascii   EditLdm2ResizeVolume::UseIoctrl2ExtendShrinkSize
+676  0x000afa80 0x1800b1080 51  104  .rdata  utf16le [EditLdm2MoveResizeVol] part info : 0x%I64x,0x%I64x
+677  0x000afae8 0x1800b10e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+678  0x000afb10 0x1800b1110 62  126  .rdata  utf16le [EditLdm2MoveResizeVol] disk : %d, part info : 0x%I64x,0x%I64x
+679  0x000afb90 0x1800b1190 84  170  .rdata  utf16le [EditLdm2MoveResizeVol] ------------------------ InterMedia ------------------------
+680  0x000afc40 0x1800b1240 83  168  .rdata  utf16le [EditLdm2MoveResizeVol] *********************** MergeVolume ***********************
+681  0x000afce8 0x1800b12e8 48  49   .rdata  ascii   EditLdm2ResizeVolume::UseIoctrl2ExtendShrinkSize
+682  0x000afd20 0x1800b1320 84  170  .rdata  utf16le [EditLdm2MoveResizeVol] ------------------------ InterMedia ------------------------
+683  0x000afdd0 0x1800b13d0 52  106  .rdata  utf16le [EditLdm2MoveResizeVol] ExtendToIntermediaVol fail 1
+684  0x000afe40 0x1800b1440 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+685  0x000afee8 0x1800b14e8 15  16   .rdata  ascii   %s got code%d\r\n
+686  0x000afef8 0x1800b14f8 48  49   .rdata  ascii   EditLdm2ResizeVolume::UseIoctrl2ExtendShrinkSize
+687  0x000aff30 0x1800b1530 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+688  0x000affd8 0x1800b15d8 15  16   .rdata  ascii   %s got code%d\r\n
+689  0x000affe8 0x1800b15e8 19  20   .rdata  ascii   \\.\PHYSICALDRIVE%d
+690  0x000b0000 0x1800b1600 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+691  0x000b0068 0x1800b1668 15  16   .rdata  ascii   %s got code%d\r\n
+692  0x000b0078 0x1800b1678 48  49   .rdata  ascii   EditLdm2ResizeVolume::UseIoctrl2ExtendShrinkSize
+693  0x000b00b0 0x1800b16b0 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+694  0x000b0158 0x1800b1758 15  16   .rdata  ascii   %s got code%d\r\n
+695  0x000b0168 0x1800b1768 39  40   .rdata  ascii   EditLdm2ResizeVolume::MoveTailData2Head
+696  0x000b0190 0x1800b1790 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+697  0x000b01f8 0x1800b17f8 15  16   .rdata  ascii   %s got code%d\r\n
+698  0x000b0208 0x1800b1808 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+699  0x000b0220 0x1800b1820 73  148  .rdata  utf16le [EditLdm2MoveResizeVol] -------------------- disk %d --------------------
+700  0x000b02b4 0x1800b18b4 4   5    .rdata  ascii   Mime
+701  0x000b02c0 0x1800b18c0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+702  0x000b0328 0x1800b1928 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+703  0x000b0340 0x1800b1940 67  136  .rdata  utf16le [EditLdm2MoveResizeVol] sink into disk %d,bytes : %d,result : %d,%d
+704  0x000b03c8 0x1800b19c8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+705  0x000b03e0 0x1800b19e0 52  106  .rdata  utf16le [EditLdm2MoveResizeVol] ExtendToIntermediaVol fail 2
+706  0x000b0450 0x1800b1a50 79  160  .rdata  utf16le [EditLdm2MoveResizeVol] Not found intermedia vol,%d,info : disk %d,offset %I64d
+707  0x000b04f0 0x1800b1af0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+708  0x000b0558 0x1800b1b58 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+709  0x000b0570 0x1800b1b70 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+710  0x000b0618 0x1800b1c18 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+711  0x000b0640 0x1800b1c40 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+712  0x000b06a8 0x1800b1ca8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+713  0x000b06d0 0x1800b1cd0 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+714  0x000b0778 0x1800b1d78 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+715  0x000b07a0 0x1800b1da0 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+716  0x000b0848 0x1800b1e48 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+717  0x000b0860 0x1800b1e60 82  166  .rdata  utf16le [EditLdm2MoveResizeVol] ++++++++++++++++++++++++ ShrinkBack ++++++++++++++++++++++
+718  0x000b0908 0x1800b1f08 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+719  0x000b0920 0x1800b1f20 73  148  .rdata  utf16le [EditLdm2MoveResizeVol] -------------------- disk %d --------------------
+720  0x000b09b4 0x1800b1fb4 6   7    .rdata  ascii   SYSTEM
+721  0x000b09c0 0x1800b1fc0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+722  0x000b0a28 0x1800b2028 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+723  0x000b0a40 0x1800b2040 67  136  .rdata  utf16le [EditLdm2MoveResizeVol] sink into disk %d,bytes : %d,result : %d,%d
+724  0x000b0ac8 0x1800b20c8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+725  0x000b0ae0 0x1800b20e0 40  82   .rdata  utf16le [EditLdm2MoveResizeVol] ShrinkTgt fail 2
+726  0x000b0b38 0x1800b2138 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+727  0x000b0b78 0x1800b2178 11  12   .rdata  ascii   Disk%d-%02d
+728  0x000b0b84 0x1800b2184 6   7    .rdata  ascii   log_ws
+729  0x000b0b90 0x1800b2190 79  160  .rdata  utf16le [EditLdm2MoveResizeVol] Not found shrink tgt vol,%d,info : disk %d,offset %I64d
+730  0x000b0c30 0x1800b2230 53  108  .rdata  utf16le [EditLdm2MoveResizeVol]RecoverLdmData disk count : %d
+731  0x000b0ca0 0x1800b22a0 92  186  .rdata  utf16le [EditLdm2MoveResizeVol] ---------------------------- ShrinkBack ----------------------------
+732  0x000b0d60 0x1800b2360 69  140  .rdata  utf16le [EditLdm2MoveResizeVol]ProhibitModifyLdmInDisk fail : %d,error : 0x%x
+733  0x000b0df0 0x1800b23f0 48  98   .rdata  utf16le [EditLdm2MoveResizeVol] ProcAddDiskExtent fail 2
+734  0x000b0e58 0x1800b2458 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+735  0x000b0e98 0x1800b2498 45  46   .rdata  ascii   EditLdm2UpdateLdmData::~EditLdm2UpdateLdmData
+736  0x000b0ec8 0x1800b24c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+737  0x000b0ef0 0x1800b24f0 48  98   .rdata  utf16le [EditLdm2MoveResizeVol] ProcAddDiskExtent fail 1
+738  0x000b0f58 0x1800b2558 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+739  0x000b0f98 0x1800b2598 13  14   .rdata  ascii   DeviceManager
+740  0x000b0fa8 0x1800b25a8 32  33   .rdata  ascii   LdmDiskAnalyser::LdmDiskAnalyser
+741  0x000b0fd0 0x1800b25d0 49  100  .rdata  utf16le [EditLdm2MoveResizeVol] ProcDelDiskExtent fail %d
+742  0x000b1034 0x1800b2634 4   5    .rdata  ascii   used
+743  0x000b1040 0x1800b2640 52  106  .rdata  utf16le [EditLdm2MoveResizeVol] ProcUpdateDiskExtent fail %d
+744  0x000b10b0 0x1800b26b0 43  88   .rdata  utf16le [EditLdm2MoveResizeVol] DelPartition fail 2
+745  0x000b1108 0x1800b2708 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+746  0x000b1130 0x1800b2730 43  88   .rdata  utf16le [EditLdm2MoveResizeVol] DelPartition fail 1
+747  0x000b1188 0x1800b2788 33  34   .rdata  ascii   LdmDiskAnalyser::~LdmDiskAnalyser
+748  0x000b11b0 0x1800b27b0 43  88   .rdata  utf16le [EditLdm2MoveResizeVol] AddPartition fail 1
+749  0x000b1208 0x1800b2808 48  49   .rdata  ascii   %s failed read disk%d ldm database information\r\n
+750  0x000b1240 0x1800b2840 43  88   .rdata  utf16le [EditLdm2MoveResizeVol] DelPartition fail 3
+751  0x000b1298 0x1800b2898 38  39   .rdata  ascii   LdmDiskAnalyser::ValidateAndAnalyseLdm
+752  0x000b12c0 0x1800b28c0 43  88   .rdata  utf16le [EditLdm2MoveResizeVol] AddPartition fail 4
+753  0x000b1318 0x1800b2918 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+754  0x000b1340 0x1800b2940 43  88   .rdata  utf16le [EditLdm2MoveResizeVol] AddPartition fail 2
+755  0x000b1398 0x1800b2998 38  39   .rdata  ascii   LdmDiskAnalyser::ValidateAndAnalyseLdm
+756  0x000b13c0 0x1800b29c0 46  94   .rdata  utf16le [EditLdm2MoveResizeVol] UpdatePartition fail 1
+757  0x000b1420 0x1800b2a20 43  88   .rdata  utf16le [EditLdm2MoveResizeVol] AddPartition fail 3
+758  0x000b1478 0x1800b2a78 32  33   .rdata  ascii   read disk%d boot sector failed\r\n
+759  0x000b14a0 0x1800b2aa0 46  94   .rdata  utf16le [EditLdm2MoveResizeVol] UpdatePartition fail 3
+760  0x000b1500 0x1800b2b00 46  94   .rdata  utf16le [EditLdm2MoveResizeVol] UpdatePartition fail 2
+761  0x000b1560 0x1800b2b60 60  122  .rdata  utf16le [EditLdm2MoveResizeVol]UpdatePartition,need correct idx! %d
+762  0x000b15e0 0x1800b2be0 60  122  .rdata  utf16le [EditLdm2MoveResizeVol]UpdatePartition,need correct idx! %d
+763  0x000b1660 0x1800b2c60 76  154  .rdata  utf16le [EditLdm2MoveResizeVol]              offset : %I64x,%I64x,size : %I64x,%I64x
+764  0x000b1700 0x1800b2d00 76  154  .rdata  utf16le [EditLdm2MoveResizeVol]UpdatePartition,disk : %d,part idx : %d,start : %I64x
+765  0x000b17a0 0x1800b2da0 52  106  .rdata  utf16le [EditLdm2MoveResizeVol]UpdateComponents,size : %I64x
+766  0x000b1810 0x1800b2e10 40  41   .rdata  ascii   EditLdm2MoveResizeVol::UpdateMemIntoVblk
+767  0x000b1840 0x1800b2e40 43  88   .rdata  utf16le [EditLdm2MoveResizeVol] Vmdb status : %x,%d
+768  0x000b1898 0x1800b2e98 39  40   .rdata  ascii   failed got Disk%d's Storage interface\r\n
+769  0x000b18c0 0x1800b2ec0 46  94   .rdata  utf16le [EditLdm2MoveResizeVol] CreatePartition fail 1
+770  0x000b1920 0x1800b2f20 63  128  .rdata  utf16le [EditLdm2MoveResizeVol] CommittedSequence : %d,LocalTs: 0x%I64x
+771  0x000b19a0 0x1800b2fa0 46  94   .rdata  utf16le [EditLdm2MoveResizeVol] CreatePartition fail 3
+772  0x000b1a00 0x1800b3000 46  94   .rdata  utf16le [EditLdm2MoveResizeVol] CreatePartition fail 2
+773  0x000b1a60 0x1800b3060 46  94   .rdata  utf16le [EditLdm2MoveResizeVol] CreatePartition fail 5
+774  0x000b1ac0 0x1800b30c0 46  94   .rdata  utf16le [EditLdm2MoveResizeVol] CreatePartition fail 4
+775  0x000b1b20 0x1800b3120 54  110  .rdata  utf16le [EditLdm2MoveResizeVol] UpdatePartitionByExtent fail 2
+776  0x000b1b90 0x1800b3190 54  110  .rdata  utf16le [EditLdm2MoveResizeVol] UpdatePartitionByExtent fail 1
+777  0x000b1c00 0x1800b3200 54  110  .rdata  utf16le [EditLdm2MoveResizeVol] UpdatePartitionByExtent fail 3
+778  0x000b1c70 0x1800b3270 83  168  .rdata  utf16le [EditLdm2MoveResizeVol] *** UpdatePartitionByExtent %I64x,%I64x --> %I64x,%I64x ***
+779  0x000b1d18 0x1800b3318 36  37   .rdata  ascii   disk%d read the sector%I64u failed\r\n
+780  0x000b1d40 0x1800b3340 51  104  .rdata  utf16le [EditLdm2MoveResizeVol] DelPartitionByExtent fail 2
+781  0x000b1da8 0x1800b33a8 32  33   .rdata  ascii   LdmDiskAnalyser::GetVolumeExtent
+782  0x000b1dd0 0x1800b33d0 51  104  .rdata  utf16le [EditLdm2MoveResizeVol] DelPartitionByExtent fail 1
+783  0x000b1e38 0x1800b3438 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+784  0x000b1e60 0x1800b3460 74  150  .rdata  utf16le [EditLdm2MoveResizeVol]UpdateVolumeInfo,size : %I64x,Commit log ID : %I64d
+785  0x000b1ef8 0x1800b34f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+786  0x000b1f20 0x1800b3520 51  104  .rdata  utf16le [EditLdm2MoveResizeVol] DelPartitionByExtent fail 3
+787  0x000b1f88 0x1800b3588 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+788  0x000b1fb0 0x1800b35b0 82  166  .rdata  utf16le [EditLdm2MoveResizeVol]Target vol need adjust to cluster aligned ! 0x%I64x,%d,0x%x
+789  0x000b2058 0x1800b3658 30  31   .rdata  ascii   LdmDiskAnalyser::GetDiskExtent
+790  0x000b2078 0x1800b3678 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+791  0x000b20a0 0x1800b36a0 82  166  .rdata  utf16le [EditLdm2MoveResizeVol]Source vol need adjust to cluster aligned ! 0x%I64x,%d,0x%x
+792  0x000b2148 0x1800b3748 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+793  0x000b2188 0x1800b3788 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+794  0x000b21c8 0x1800b37c8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+795  0x000b2208 0x1800b3808 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+796  0x000b2248 0x1800b3848 9   10   .rdata  ascii   log_write
+797  0x000b2258 0x1800b3858 10  11   .rdata  ascii   fsclog.dll
+798  0x000b2268 0x1800b3868 10  11   .rdata  ascii   fsclog.dll
+799  0x000b2278 0x1800b3878 24  25   .rdata  ascii   %s without diskId%I64u\r\n
+800  0x000b2298 0x1800b3898 40  41   .rdata  ascii   EditLdm2ResizeVolume::DoAddPartitionVblk
+801  0x000b22c8 0x1800b38c8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+802  0x000b2308 0x1800b3908 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+803  0x000b2348 0x1800b3948 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+804  0x000b2388 0x1800b3988 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+805  0x000b23c8 0x1800b39c8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+806  0x000b2408 0x1800b3a08 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+807  0x000b2448 0x1800b3a48 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+808  0x000b2488 0x1800b3a88 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+809  0x000b24c8 0x1800b3ac8 9   10   .rdata  ascii   log_write
+810  0x000b24d8 0x1800b3ad8 10  11   .rdata  ascii   fsclog.dll
+811  0x000b24e8 0x1800b3ae8 10  11   .rdata  ascii   fsclog.dll
+812  0x000b24f8 0x1800b3af8 44  45   .rdata  ascii   EditLdm2UpdateLdmData::UpdateOtherComponents
+813  0x000b2528 0x1800b3b28 35  36   .rdata  ascii   LdmDiskAnalyser::ReadLdmInfo2Buffer
+814  0x000b2550 0x1800b3b50 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+815  0x000b25b8 0x1800b3bb8 30  31   .rdata  ascii   disk%d and database overlap.\r\n
+816  0x000b25d8 0x1800b3bd8 51  52   .rdata  ascii   disk%d PRIVHEAD size doesn't match real disk size\r\n
+817  0x000b2610 0x1800b3c10 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2updateldmdata.cpp
+818  0x000b26b8 0x1800b3cb8 39  40   .rdata  ascii   Disk%d Parsed PRIVHEAD successfully..\r\n
+819  0x000b26e0 0x1800b3ce0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+820  0x000b2748 0x1800b3d48 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+821  0x000b2770 0x1800b3d70 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2updateldmdata.cpp
+822  0x000b2818 0x1800b3e18 34  35   .rdata  ascii   LdmDiskAnalyser::ValidatePrivheads
+823  0x000b2840 0x1800b3e40 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+824  0x000b28a8 0x1800b3ea8 35  36   .rdata  ascii   disk%d Cannot find TOCBLOCK sign \r\n
+825  0x000b28d0 0x1800b3ed0 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2updateldmdata.cpp
+826  0x000b2978 0x1800b3f78 40  41   .rdata  ascii   EditLdm2UpdateLdmData::UpdateMemIntoVblk
+827  0x000b29a8 0x1800b3fa8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+828  0x000b29e8 0x1800b3fe8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+829  0x000b2a28 0x1800b4028 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+830  0x000b2a68 0x1800b4068 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+831  0x000b2aa8 0x1800b40a8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+832  0x000b2ae8 0x1800b40e8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+833  0x000b2b28 0x1800b4128 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+834  0x000b2b68 0x1800b4168 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+835  0x000b2ba8 0x1800b41a8 10  11   .rdata  ascii   fsclog.dll
+836  0x000b2bb8 0x1800b41b8 9   10   .rdata  ascii   log_write
+837  0x000b2bc8 0x1800b41c8 10  11   .rdata  ascii   fsclog.dll
+838  0x000b2bd8 0x1800b41d8 43  44   .rdata  ascii   !!!!not analysed the disk[%d]!!! aborted \r\n
+839  0x000b2c08 0x1800b4208 10  11   .rdata  ascii   %*[^0-9]%d
+840  0x000b2c18 0x1800b4218 41  42   .rdata  ascii   disk%d boot sector not has a valid sign\r\n
+841  0x000b2c48 0x1800b4248 27  28   .rdata  ascii   LdmDiskAnalyser::IsValidLdm
+842  0x000b2c68 0x1800b4268 27  28   .rdata  ascii   disk%d is %s dynamic disk\r\n
+843  0x000b2c84 0x1800b4284 4   5    .rdata  ascii   free
+844  0x000b2c90 0x1800b4290 74  75   .rdata  ascii   Cannot find disk%d PRIVHEAD structure.LDM database is corrupt. Aborting.\r\n
+845  0x000b2ce0 0x1800b42e0 66  67   .rdata  ascii   Cannot READ disk%d PRIVHEAD structure with sector[%d]. Aborting.\r\n
+846  0x000b2d28 0x1800b4328 61  62   .rdata  ascii   Disk%d Expected PRIVHEAD version %d.%d, got %d.%d.Aborting.\r\n
+847  0x000b2d68 0x1800b4368 46  47   .rdata  ascii   disk%d bitmaps are out of range.  Giving up.\r\n
+848  0x000b2d98 0x1800b4398 33  34   .rdata  ascii   LdmDiskAnalyser::ValidateTocBlock
+849  0x000b2dc0 0x1800b43c0 68  69   .rdata  ascii   disk%d Database is normally %u bytes, it claims to be %I64d bytes.\r\n
+850  0x000b2e08 0x1800b4408 27  28   .rdata  ascii   disk%d got  guid is [%s].\r\n
+851  0x000b2e28 0x1800b4428 43  44   .rdata  ascii   disk%d PRIVHEAD contains an invalid GUID.\r\n
+852  0x000b2e58 0x1800b4458 44  45   .rdata  ascii   Disk%d ConfigSize[%I64d] larger than 1m ?.\r\n
+853  0x000b2e88 0x1800b4488 43  44   .rdata  ascii   disk%d failed read the tocBlock at %I64d \r\n
+854  0x000b2eb8 0x1800b44b8 43  44   .rdata  ascii   disk%d failed read the tocBlock at %I64d \r\n
+855  0x000b2ee8 0x1800b44e8 43  44   .rdata  ascii   disk%d failed read the tocBlock at %I64d \r\n
+856  0x000b2f18 0x1800b4518 58  59   .rdata  ascii   disk%d TOCBLOCK's second bitmap is '%s', should be '%s'.\r\n
+857  0x000b2f58 0x1800b4558 57  58   .rdata  ascii   disk%d TOCBLOCK's first bitmap is '%s', should be '%s'.\r\n
+858  0x000b2f98 0x1800b4598 43  44   .rdata  ascii   Disk%d VMDB are out of range.  Giving up.\r\n
+859  0x000b2fc8 0x1800b45c8 39  40   .rdata  ascii   disk%d Parsed TocBlock successfully..\r\n
+860  0x000b2ff0 0x1800b45f0 29  30   .rdata  ascii   Disk%d failed read the VMDB\r\n
+861  0x000b3010 0x1800b4610 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+862  0x000b3038 0x1800b4638 58  59   .rdata  ascii   Disk%d Expected VMDB version %d.%d, got %d.%d. Aborting.\r\n
+863  0x000b3078 0x1800b4678 35  36   .rdata  ascii   Disk%d Cannot find VMDB signature\r\n
+864  0x000b30a0 0x1800b46a0 38  39   .rdata  ascii   disk%d VBLKs start at offset 0x%04x.\r\n
+865  0x000b30c8 0x1800b46c8 45  46   .rdata  ascii   Disk%d Database is in status[%s]  Aborting.\r\n
+866  0x000b30f8 0x1800b46f8 35  36   .rdata  ascii   Disk%d Parsed VMDB successfully..\r\n
+867  0x000b3120 0x1800b4720 66  67   .rdata  ascii   !!!Disk%d VMDB and TOCBLOCK don't agree on the database size.!!!\r\n
+868  0x000b3168 0x1800b4768 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+869  0x000b3190 0x1800b4790 29  30   .rdata  ascii   LdmDiskAnalyser::ValidateVMDB
+870  0x000b31b0 0x1800b47b0 59  60   .rdata  ascii   %s got packet len [%d] > db's vblk size [%d],not support!\r\n
+871  0x000b31f0 0x1800b47f0 28  29   .rdata  ascii   LdmDiskAnalyser::AnalyseVBLK
+872  0x000b3210 0x1800b4810 109 110  .rdata  ascii   Component[%s]  got type[%d] kind[%d] status [%d]stripeSize[%I64d] child count[%I64d],numberOfColumns[%I64d]\r\n
+873  0x000b3280 0x1800b4880 33  34   .rdata  ascii   Component[%s] type [%d] invalid\r\n
+874  0x000b32a8 0x1800b48a8 29  30   .rdata  ascii   Volume[%s] type[%d] invalid\r\n
+875  0x000b32c8 0x1800b48c8 34  35   .rdata  ascii   VBLK_DSK3[%s] got guid [%s] [%s]\r\n
+876  0x000b32f0 0x1800b48f0 94  95   .rdata  ascii   Partition[%s] got flags[%d] status[%d] start[%I64d] offset[%I64d] size[%I64d] part index[%d]\r\n
+877  0x000b3350 0x1800b4950 9   10   .rdata  ascii   %*[^-]-%d
+878  0x000b3360 0x1800b4960 70  71   .rdata  ascii   {%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+879  0x000b33a8 0x1800b49a8 41  42   .rdata  ascii   Disk%d on with name [%s] with guid [%s]\r\n
+880  0x000b33d8 0x1800b49d8 29  30   .rdata  ascii   VBLK_DSK3[%s] got guid [%s]\r\n
+881  0x000b33f8 0x1800b49f8 38  39   .rdata  ascii   VBLK_DGR4[%s] groupId [%s] setid[%s]\r\n
+882  0x000b3420 0x1800b4a20 78  79   .rdata  ascii   Volume[%s] guid[%s] got flags[%d],type[%d] status[%s] size[%I64d]Letter[%s:]\r\n
+883  0x000b3470 0x1800b4a70 70  71   .rdata  ascii   {%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+884  0x000b34b8 0x1800b4ab8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+885  0x000b34e0 0x1800b4ae0 70  71   .rdata  ascii   {%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+886  0x000b3528 0x1800b4b28 41  42   .rdata  ascii   Disk%d on with name [%s] with guid [%s]\r\n
+887  0x000b3558 0x1800b4b58 29  30   .rdata  ascii   VBLK_DGR3[%s] groupId [%s] \r\n
+888  0x000b3578 0x1800b4b78 34  35   .rdata  ascii   LdmDiskAnalyser::ValidateGptHeader
+889  0x000b35a0 0x1800b4ba0 70  71   .rdata  ascii   {%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+890  0x000b35e8 0x1800b4be8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+891  0x000b3610 0x1800b4c10 70  71   .rdata  ascii   {%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+892  0x000b3658 0x1800b4c58 28  29   .rdata  ascii   LdmDiskAnalyser::AnalyseVBLK
+893  0x000b3678 0x1800b4c78 28  29   .rdata  ascii   read the gpt header failed\r\n
+894  0x000b3698 0x1800b4c98 26  27   .rdata  ascii   read the gpt data failed\r\n
+895  0x000b36b8 0x1800b4cb8 10  11   .rdata  ascii   fsclog.dll
+896  0x000b36c8 0x1800b4cc8 9   10   .rdata  ascii   log_write
+897  0x000b36d8 0x1800b4cd8 10  11   .rdata  ascii   fsclog.dll
+898  0x000b36e8 0x1800b4ce8 11  12   .rdata  ascii   atlTraceCOM
+899  0x000b36f8 0x1800b4cf8 15  16   .rdata  ascii   atlTraceGeneral
+900  0x000b3708 0x1800b4d08 17  18   .rdata  ascii   atlTraceRegistrar
+901  0x000b3720 0x1800b4d20 10  11   .rdata  ascii   atlTraceQI
+902  0x000b3730 0x1800b4d30 17  18   .rdata  ascii   atlTraceWindowing
+903  0x000b3748 0x1800b4d48 16  17   .rdata  ascii   atlTraceRefcount
+904  0x000b3760 0x1800b4d60 15  16   .rdata  ascii   atlTraceHosting
+905  0x000b3770 0x1800b4d70 16  17   .rdata  ascii   atlTraceControls
+906  0x000b3788 0x1800b4d88 18  19   .rdata  ascii   atlTraceDBProvider
+907  0x000b37a0 0x1800b4da0 16  17   .rdata  ascii   atlTraceDBClient
+908  0x000b37b8 0x1800b4db8 15  16   .rdata  ascii   atlTraceNotImpl
+909  0x000b37c8 0x1800b4dc8 14  15   .rdata  ascii   atlTraceSnapin
+910  0x000b37d8 0x1800b4dd8 17  18   .rdata  ascii   atlTraceException
+911  0x000b37f0 0x1800b4df0 18  19   .rdata  ascii   atlTraceAllocation
+912  0x000b3808 0x1800b4e08 13  14   .rdata  ascii   atlTraceCache
+913  0x000b3818 0x1800b4e18 12  13   .rdata  ascii   atlTraceTime
+914  0x000b3828 0x1800b4e28 14  15   .rdata  ascii   atlTraceString
+915  0x000b3838 0x1800b4e38 15  16   .rdata  ascii   atlTraceStencil
+916  0x000b3848 0x1800b4e48 12  13   .rdata  ascii   atlTraceUtil
+917  0x000b3858 0x1800b4e58 11  12   .rdata  ascii   atlTraceMap
+918  0x000b3868 0x1800b4e68 12  13   .rdata  ascii   atlTraceSync
+919  0x000b3878 0x1800b4e78 16  17   .rdata  ascii   atlTraceSecurity
+920  0x000b3890 0x1800b4e90 13  14   .rdata  ascii   atlTraceISAPI
+921  0x000b38a0 0x1800b4ea0 8   9    .rdata  ascii   NoRemove
+922  0x000b38b0 0x1800b4eb0 11  12   .rdata  ascii   ForceRemove
+923  0x000b38c0 0x1800b4ec0 20  21   .rdata  ascii   Component Categories
+924  0x000b38d8 0x1800b4ed8 9   10   .rdata  ascii   Interface
+925  0x000b38e8 0x1800b4ee8 8   9    .rdata  ascii   FileType
+926  0x000b38f8 0x1800b4ef8 8   9    .rdata  ascii   Hardware
+927  0x000b3908 0x1800b4f08 8   9    .rdata  ascii   SECURITY
+928  0x000b3918 0x1800b4f18 8   9    .rdata  ascii   Software
+929  0x000b3928 0x1800b4f28 7   8    .rdata  ascii   TypeLib
+930  0x000b3930 0x1800b4f30 38  39   .rdata  ascii   %s got instance %p with platform[%s]\r\n
+931  0x000b3958 0x1800b4f58 22  23   .rdata  ascii   LdmManager::LdmManager
+932  0x000b3970 0x1800b4f70 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+933  0x000b3998 0x1800b4f98 22  23   .rdata  ascii   LdmManager::LdmManager
+934  0x000b39b0 0x1800b4fb0 15  16   .rdata  ascii   %s release %p\r\n
+935  0x000b39c0 0x1800b4fc0 23  24   .rdata  ascii   LdmManager::~LdmManager
+936  0x000b39d8 0x1800b4fd8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+937  0x000b3a00 0x1800b5000 23  24   .rdata  ascii   LdmManager::~LdmManager
+938  0x000b3a18 0x1800b5018 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+939  0x000b3a40 0x1800b5040 30  31   .rdata  ascii   LdmManager::SetMaxChannelCount
+940  0x000b3a60 0x1800b5060 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+941  0x000b3a88 0x1800b5088 28  29   .rdata  ascii   LdmManager::GetDiskWithIndex
+942  0x000b3aa8 0x1800b50a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+943  0x000b3ad0 0x1800b50d0 36  37   .rdata  ascii   LdmManager::GetVolumeWithDriveLetter
+944  0x000b3af8 0x1800b50f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+945  0x000b3b20 0x1800b5120 36  37   .rdata  ascii   LdmManager::GetVolumeWithManagerItem
+946  0x000b3b48 0x1800b5148 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+947  0x000b3b70 0x1800b5170 23  24   .rdata  ascii   LdmManager::DisMountVol
+948  0x000b3b88 0x1800b5188 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+949  0x000b3bb0 0x1800b51b0 20  21   .rdata  ascii   LdmManager::MountVol
+950  0x000b3bc8 0x1800b51c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+951  0x000b3bf0 0x1800b51f0 30  31   .rdata  ascii   LdmManager::InvalidateAllCache
+952  0x000b3c10 0x1800b5210 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+953  0x000b3c38 0x1800b5238 27  28   .rdata  ascii   LdmManager::UpdateLdmDBData
+954  0x000b3c58 0x1800b5258 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+955  0x000b3c80 0x1800b5280 35  36   .rdata  ascii   LdmManager::GetVolumeWithDiskOffset
+956  0x000b3ca8 0x1800b52a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+957  0x000b3cd0 0x1800b52d0 29  30   .rdata  ascii   LdmManager::GetVolumeWithGuid
+958  0x000b3cf0 0x1800b52f0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+959  0x000b3d58 0x1800b5358 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+960  0x000b3d80 0x1800b5380 71  144  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\ldmmanager.cpp
+961  0x000b3e10 0x1800b5410 24  25   .rdata  ascii   LdmManager::CreateVolume
+962  0x000b3e30 0x1800b5430 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+963  0x000b3e58 0x1800b5458 24  25   .rdata  ascii   LdmManager::DeleteVolume
+964  0x000b3e78 0x1800b5478 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+965  0x000b3ea0 0x1800b54a0 36  37   .rdata  ascii   LdmManager::CreateDummyVolume4Resize
+966  0x000b3ec8 0x1800b54c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+967  0x000b3ef0 0x1800b54f0 36  37   .rdata  ascii   LdmManager::CreateDummyVolumeLikeVds
+968  0x000b3f18 0x1800b5518 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+969  0x000b3f40 0x1800b5540 26  27   .rdata  ascii   LdmManager::GetDummyVolume
+970  0x000b3f60 0x1800b5560 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+971  0x000b3f88 0x1800b5588 31  32   .rdata  ascii   LdmManager::GetLdmPackFreeSpace
+972  0x000b3fa8 0x1800b55a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+973  0x000b3fd0 0x1800b55d0 19  20   .rdata  ascii   LdmManager::Refresh
+974  0x000b3fe8 0x1800b55e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+975  0x000b4010 0x1800b5610 26  27   .rdata  ascii   LdmManager::SetGuiThreadId
+976  0x000b4030 0x1800b5630 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+977  0x000b4058 0x1800b5658 32  33   .rdata  ascii   LdmManager::RemoveAllDummyVolume
+978  0x000b4080 0x1800b5680 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+979  0x000b40a8 0x1800b56a8 32  33   .rdata  ascii   LdmManager::GetFreeExtentOnDiskS
+980  0x000b40d0 0x1800b56d0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+981  0x000b40f8 0x1800b56f8 37  38   .rdata  ascii   LdmManager::Static_CheckDmrpVdsThread
+982  0x000b4120 0x1800b5720 42  43   .rdata  ascii   LdmManager::GetExtentNumberWithManagerItem
+983  0x000b4150 0x1800b5750 7   8    .rdata  ascii   \\.\%c:
+984  0x000b4158 0x1800b5758 32  33   .rdata  ascii   LdmManager::ConvertDynamic2Basic
+985  0x000b4180 0x1800b5780 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+986  0x000b41a8 0x1800b57a8 27  28   .rdata  ascii   LdmManager::ReleaseResource
+987  0x000b41c8 0x1800b57c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+988  0x000b41f0 0x1800b57f0 24  25   .rdata  ascii   LdmManager::FormatVolume
+989  0x000b4210 0x1800b5810 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+990  0x000b4238 0x1800b5838 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+991  0x000b4260 0x1800b5860 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+992  0x000b42a0 0x1800b58a0 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+993  0x000b42e0 0x1800b58e0 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+994  0x000b4320 0x1800b5920 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+995  0x000b4338 0x1800b5938 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+996  0x000b4378 0x1800b5978 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+997  0x000b43b8 0x1800b59b8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+998  0x000b43d0 0x1800b59d0 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+999  0x000b4410 0x1800b5a10 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1000 0x000b4428 0x1800b5a28 10  11   .rdata  ascii   fsclog.dll
+1001 0x000b4438 0x1800b5a38 9   10   .rdata  ascii   log_write
+1002 0x000b4448 0x1800b5a48 10  11   .rdata  ascii   fsclog.dll
+1003 0x000b4458 0x1800b5a58 10  11   .rdata  ascii   fsclog.dll
+1004 0x000b4468 0x1800b5a68 9   10   .rdata  ascii   log_write
+1005 0x000b4478 0x1800b5a78 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1006 0x000b44a0 0x1800b5aa0 10  11   .rdata  ascii   LdmManager
+1007 0x000b44b0 0x1800b5ab0 10  11   .rdata  ascii   fsclog.dll
+1008 0x000b44c0 0x1800b5ac0 32  33   .rdata  ascii   CLdmManagerModule::GetLdmManager
+1009 0x000b44e8 0x1800b5ae8 17  18   .rdata  ascii   CLdmManagerModule
+1010 0x000b4500 0x1800b5b00 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1011 0x000b4540 0x1800b5b40 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1012 0x000b4580 0x1800b5b80 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1013 0x000b4598 0x1800b5b98 10  11   .rdata  ascii   fsclog.dll
+1014 0x000b45a8 0x1800b5ba8 9   10   .rdata  ascii   log_write
+1015 0x000b45b8 0x1800b5bb8 10  11   .rdata  ascii   fsclog.dll
+1016 0x000b45c8 0x1800b5bc8 14  15   .rdata  ascii   LdmManagerStub
+1017 0x000b45d8 0x1800b5bd8 10  11   .rdata  ascii   fsclog.dll
+1018 0x000b45e8 0x1800b5be8 9   10   .rdata  ascii   log_write
+1019 0x000b45f8 0x1800b5bf8 10  11   .rdata  ascii   fsclog.dll
+1020 0x000b4608 0x1800b5c08 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1021 0x000b4630 0x1800b5c30 41  42   .rdata  ascii   MirrorVolumeStorage::~MirrorVolumeStorage
+1022 0x000b4660 0x1800b5c60 19  20   .rdata  ascii   MirrorVolumeStorage
+1023 0x000b4678 0x1800b5c78 40  41   .rdata  ascii   MirrorVolumeStorage::MirrorVolumeStorage
+1024 0x000b46a8 0x1800b5ca8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1025 0x000b46d0 0x1800b5cd0 32  33   .rdata  ascii   MirrorVolumeStorage::WriteSector
+1026 0x000b46f8 0x1800b5cf8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1027 0x000b4720 0x1800b5d20 31  32   .rdata  ascii   MirrorVolumeStorage::ReadSector
+1028 0x000b4740 0x1800b5d40 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1029 0x000b4768 0x1800b5d68 26  27   .rdata  ascii   MirrorVolumeStorage::Close
+1030 0x000b4788 0x1800b5d88 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1031 0x000b47b0 0x1800b5db0 25  26   .rdata  ascii   MirrorVolumeStorage::Open
+1032 0x000b47d0 0x1800b5dd0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1033 0x000b47f8 0x1800b5df8 10  11   .rdata  ascii   fsclog.dll
+1034 0x000b4808 0x1800b5e08 9   10   .rdata  ascii   log_write
+1035 0x000b4818 0x1800b5e18 10  11   .rdata  ascii   fsclog.dll
+1036 0x000b4828 0x1800b5e28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1037 0x000b4850 0x1800b5e50 51  52   .rdata  ascii   MoveRaidStripeData4Resize::MoveDataWithVolumeBitmap
+1038 0x000b4888 0x1800b5e88 37  38   .rdata  ascii   MoveRaidStripeData4Resize::DoMoveData
+1039 0x000b48b0 0x1800b5eb0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1040 0x000b48d8 0x1800b5ed8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1041 0x000b4918 0x1800b5f18 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1042 0x000b4930 0x1800b5f30 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1043 0x000b4970 0x1800b5f70 9   10   .rdata  ascii   log_write
+1044 0x000b4980 0x1800b5f80 10  11   .rdata  ascii   fsclog.dll
+1045 0x000b4990 0x1800b5f90 22  23   .rdata  ascii   NativeDisk::NativeDisk
+1046 0x000b49a8 0x1800b5fa8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1047 0x000b49d0 0x1800b5fd0 10  11   .rdata  ascii   fsclog.dll
+1048 0x000b49e0 0x1800b5fe0 23  24   .rdata  ascii   NativeDisk::GetDiskInfo
+1049 0x000b49f8 0x1800b5ff8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1050 0x000b4a20 0x1800b6020 23  24   .rdata  ascii   NativeDisk::~NativeDisk
+1051 0x000b4a38 0x1800b6038 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1052 0x000b4a60 0x1800b6060 32  33   .rdata  ascii   NativeDisk::GetDiskStorageDevice
+1053 0x000b4a88 0x1800b6088 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1054 0x000b4ab0 0x1800b60b0 32  33   .rdata  ascii   NativeDisk::SetDiskStorageDevice
+1055 0x000b4ad8 0x1800b60d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1056 0x000b4b00 0x1800b6100 27  28   .rdata  ascii   NativeDisk::QueryCanConvert
+1057 0x000b4b20 0x1800b6120 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1058 0x000b4b48 0x1800b6148 19  20   .rdata  ascii   NativeDisk::Convert
+1059 0x000b4b60 0x1800b6160 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1060 0x000b4b88 0x1800b6188 29  30   .rdata  ascii   NativeDisk::RefreshDiskExtent
+1061 0x000b4ba8 0x1800b61a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1062 0x000b4bd0 0x1800b61d0 10  11   .rdata  ascii   fsclog.dll
+1063 0x000b4be0 0x1800b61e0 9   10   .rdata  ascii   log_write
+1064 0x000b4bf0 0x1800b61f0 10  11   .rdata  ascii   fsclog.dll
+1065 0x000b4c00 0x1800b6200 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1066 0x000b4c28 0x1800b6228 30  31   .rdata  ascii   NativeModule::GetDiskWithIndex
+1067 0x000b4c48 0x1800b6248 12  13   .rdata  ascii   NativeModule
+1068 0x000b4c58 0x1800b6258 29  30   .rdata  ascii   NativeModule::UpdateLdmDBData
+1069 0x000b4c78 0x1800b6278 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1070 0x000b4ca0 0x1800b62a0 38  39   .rdata  ascii   NativeModule::GetVolumeWithManagerItem
+1071 0x000b4cc8 0x1800b62c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1072 0x000b4cf0 0x1800b62f0 38  39   .rdata  ascii   NativeModule::GetVolumeWithDriveLetter
+1073 0x000b4d18 0x1800b6318 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1074 0x000b4d40 0x1800b6340 31  32   .rdata  ascii   NativeModule::GetVolumeWithGuid
+1075 0x000b4d60 0x1800b6360 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1076 0x000b4d88 0x1800b6388 37  38   .rdata  ascii   NativeModule::GetVolumeWithDiskOffset
+1077 0x000b4db0 0x1800b63b0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1078 0x000b4dd8 0x1800b63d8 34  35   .rdata  ascii   NativeModule::RemoveAllDummyVolume
+1079 0x000b4e00 0x1800b6400 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1080 0x000b4e28 0x1800b6428 26  27   .rdata  ascii   NativeModule::DeleteVolume
+1081 0x000b4e48 0x1800b6448 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1082 0x000b4e70 0x1800b6470 34  35   .rdata  ascii   NativeModule::GetFreeExtentOnDiskS
+1083 0x000b4e98 0x1800b6498 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1084 0x000b4ec0 0x1800b64c0 32  33   .rdata  ascii   NativeModule::RemoveCacheContext
+1085 0x000b4ee8 0x1800b64e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1086 0x000b4f10 0x1800b6510 73  148  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\nativemodule.cpp
+1087 0x000b4fa8 0x1800b65a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1088 0x000b4fd0 0x1800b65d0 51  52   .rdata  ascii   NativeModule::CheckWhetherVolumeBeUpdateInPatchExec
+1089 0x000b5008 0x1800b6608 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1090 0x000b5030 0x1800b6630 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1091 0x000b5098 0x1800b6698 34  35   .rdata  ascii   NativeModule::ConvertDynamic2Basic
+1092 0x000b50c0 0x1800b66c0 10  11   .rdata  ascii   fsclog.dll
+1093 0x000b50d0 0x1800b66d0 9   10   .rdata  ascii   log_write
+1094 0x000b50e0 0x1800b66e0 10  11   .rdata  ascii   fsclog.dll
+1095 0x000b50f0 0x1800b66f0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1096 0x000b5118 0x1800b6718 27  28   .rdata  ascii   NativeVolume::~NativeVolume
+1097 0x000b5138 0x1800b6738 26  27   .rdata  ascii   NativeVolume::NativeVolume
+1098 0x000b5158 0x1800b6758 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1099 0x000b5180 0x1800b6780 30  31   .rdata  ascii   NativeVolume::SetStorageDevice
+1100 0x000b51a0 0x1800b67a0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1101 0x000b51c8 0x1800b67c8 27  28   .rdata  ascii   NativeVolume::GetVolumeInfo
+1102 0x000b51e8 0x1800b67e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1103 0x000b5210 0x1800b6810 34  35   .rdata  ascii   NativeVolume::ReleaseStorageDevice
+1104 0x000b5238 0x1800b6838 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1105 0x000b5260 0x1800b6860 30  31   .rdata  ascii   NativeVolume::GetStorageDevice
+1106 0x000b5280 0x1800b6880 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1107 0x000b52a8 0x1800b68a8 25  26   .rdata  ascii   NativeVolume::UpdateLdmDB
+1108 0x000b52c8 0x1800b68c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1109 0x000b52f0 0x1800b68f0 26  27   .rdata  ascii   NativeVolume::UpdateExtent
+1110 0x000b5310 0x1800b6910 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1111 0x000b5338 0x1800b6938 27  28   .rdata  ascii   NativeVolume::RefreshExtent
+1112 0x000b5358 0x1800b6958 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1113 0x000b5380 0x1800b6980 30  31   .rdata  ascii   NativeVolume::ResizeNeedReBoot
+1114 0x000b53a0 0x1800b69a0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1115 0x000b53c8 0x1800b69c8 25  26   .rdata  ascii   NativeVolume::RepairRaid5
+1116 0x000b53e8 0x1800b69e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1117 0x000b5410 0x1800b6a10 26  27   .rdata  ascii   NativeVolume::DeleteVolume
+1118 0x000b5430 0x1800b6a30 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1119 0x000b5458 0x1800b6a58 9   10   .rdata  ascii   log_write
+1120 0x000b5468 0x1800b6a68 10  11   .rdata  ascii   fsclog.dll
+1121 0x000b5478 0x1800b6a78 10  11   .rdata  ascii   fsclog.dll
+1122 0x000b5488 0x1800b6a88 13  14   .rdata  ascii   DeviceManager
+1123 0x000b5498 0x1800b6a98 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1124 0x000b54c0 0x1800b6ac0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1125 0x000b5528 0x1800b6b28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1126 0x000b5550 0x1800b6b50 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\policyofvolresizemove.cpp
+1127 0x000b55f8 0x1800b6bf8 38  39   .rdata  ascii   PolicyOfVolResizeMove::MergeFreeExtent
+1128 0x000b5620 0x1800b6c20 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\policyofvolresizemove.cpp
+1129 0x000b56c8 0x1800b6cc8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1130 0x000b56e0 0x1800b6ce0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1131 0x000b5748 0x1800b6d48 45  46   .rdata  ascii   PolicyOfVolResizeMove::SimpleSpanResizePolice
+1132 0x000b5778 0x1800b6d78 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1133 0x000b5790 0x1800b6d90 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1134 0x000b57f8 0x1800b6df8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1135 0x000b5810 0x1800b6e10 82  166  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\policyofvolresizemove.cpp
+1136 0x000b58b8 0x1800b6eb8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1137 0x000b58f8 0x1800b6ef8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1138 0x000b5938 0x1800b6f38 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1139 0x000b5978 0x1800b6f78 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1140 0x000b59b8 0x1800b6fb8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1141 0x000b59f8 0x1800b6ff8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1142 0x000b5a38 0x1800b7038 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1143 0x000b5a78 0x1800b7078 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1144 0x000b5ab8 0x1800b70b8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1145 0x000b5ad0 0x1800b70d0 9   10   .rdata  ascii   log_write
+1146 0x000b5ae0 0x1800b70e0 10  11   .rdata  ascii   fsclog.dll
+1147 0x000b5af0 0x1800b70f0 10  11   .rdata  ascii   fsclog.dll
+1148 0x000b5b00 0x1800b7100 32  33   .rdata  ascii   PolicyOfVolumeResize::AdjustSize
+1149 0x000b5b28 0x1800b7128 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1150 0x000b5b50 0x1800b7150 45  46   .rdata  ascii   PolicyOfVolumeResize::CalcVolumeResizeLimited
+1151 0x000b5b80 0x1800b7180 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1152 0x000b5ba8 0x1800b71a8 44  45   .rdata  ascii   PolicyOfVolumeResize::SimpleSpanResizePolice
+1153 0x000b5bd8 0x1800b71d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1154 0x000b5c00 0x1800b7200 49  50   .rdata  ascii   PolicyOfVolumeResize::GetToExpandExtentInFreeList
+1155 0x000b5c38 0x1800b7238 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1156 0x000b5c60 0x1800b7260 50  51   .rdata  ascii   PolicyOfVolumeResize::StripeMirrorRaidResizePolice
+1157 0x000b5c98 0x1800b7298 38  39   .rdata  ascii   %s:%d sorry,no enough space to alloc\r\n
+1158 0x000b5cc0 0x1800b72c0 50  51   .rdata  ascii   PolicyOfVolumeResize::StripeMirrorRaidResizePolice
+1159 0x000b5cf8 0x1800b72f8 38  39   .rdata  ascii   %s:%d sorry,no enough space to alloc\r\n
+1160 0x000b5d20 0x1800b7320 50  51   .rdata  ascii   PolicyOfVolumeResize::StripeMirrorRaidResizePolice
+1161 0x000b5d58 0x1800b7358 38  39   .rdata  ascii   %s:%d sorry,no enough space to alloc\r\n
+1162 0x000b5d80 0x1800b7380 50  51   .rdata  ascii   PolicyOfVolumeResize::StripeMirrorRaidResizePolice
+1163 0x000b5db8 0x1800b73b8 31  32   .rdata  ascii   %s:%d this is error is a bug.\r\n
+1164 0x000b5dd8 0x1800b73d8 32  33   .rdata  ascii   PolicyOfVolumeResize::PushExtent
+1165 0x000b5e00 0x1800b7400 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1166 0x000b5e28 0x1800b7428 50  51   .rdata  ascii   PolicyOfVolumeResize::StripeMirrorRaidResizePolice
+1167 0x000b5e60 0x1800b7460 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1168 0x000b5e88 0x1800b7488 41  42   .rdata  ascii   PolicyOfVolumeResize::OnlyMergeFreeExtent
+1169 0x000b5eb8 0x1800b74b8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1170 0x000b5ee0 0x1800b74e0 9   10   .rdata  ascii   log_write
+1171 0x000b5ef0 0x1800b74f0 10  11   .rdata  ascii   fsclog.dll
+1172 0x000b5f00 0x1800b7500 18  19   .rdata  ascii   Raid5VolumeStorage
+1173 0x000b5f18 0x1800b7518 38  39   .rdata  ascii   Raid5VolumeStorage::Raid5VolumeStorage
+1174 0x000b5f40 0x1800b7540 10  11   .rdata  ascii   fsclog.dll
+1175 0x000b5f50 0x1800b7550 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1176 0x000b5f78 0x1800b7578 30  31   .rdata  ascii   Raid5VolumeStorage::ReadSector
+1177 0x000b5f98 0x1800b7598 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1178 0x000b5fc0 0x1800b75c0 39  40   .rdata  ascii   Raid5VolumeStorage::~Raid5VolumeStorage
+1179 0x000b5fe8 0x1800b75e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1180 0x000b6010 0x1800b7610 24  25   .rdata  ascii   Raid5VolumeStorage::Open
+1181 0x000b6030 0x1800b7630 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1182 0x000b6058 0x1800b7658 31  32   .rdata  ascii   Raid5VolumeStorage::WriteSector
+1183 0x000b6078 0x1800b7678 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1184 0x000b60a0 0x1800b76a0 37  38   .rdata  ascii   Raid5VolumeStorage::WriteParitityDisk
+1185 0x000b60c8 0x1800b76c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1186 0x000b60f0 0x1800b76f0 44  45   .rdata  ascii   Raid5VolumeStorage::ComputeDataWithOtherDisk
+1187 0x000b6120 0x1800b7720 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1188 0x000b6148 0x1800b7748 9   10   .rdata  ascii   log_write
+1189 0x000b6158 0x1800b7758 10  11   .rdata  ascii   fsclog.dll
+1190 0x000b6168 0x1800b7768 19  20   .rdata  ascii   SimpleVolumeStorage
+1191 0x000b6180 0x1800b7780 40  41   .rdata  ascii   SimpleVolumeStorage::SimpleVolumeStorage
+1192 0x000b61b0 0x1800b77b0 10  11   .rdata  ascii   fsclog.dll
+1193 0x000b61c0 0x1800b77c0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1194 0x000b61e8 0x1800b77e8 31  32   .rdata  ascii   SimpleVolumeStorage::ReadSector
+1195 0x000b6208 0x1800b7808 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1196 0x000b6230 0x1800b7830 41  42   .rdata  ascii   SimpleVolumeStorage::~SimpleVolumeStorage
+1197 0x000b6260 0x1800b7860 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1198 0x000b6288 0x1800b7888 25  26   .rdata  ascii   SimpleVolumeStorage::Open
+1199 0x000b62a8 0x1800b78a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1200 0x000b62d0 0x1800b78d0 32  33   .rdata  ascii   SimpleVolumeStorage::WriteSector
+1201 0x000b62f8 0x1800b78f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1202 0x000b6320 0x1800b7920 10  11   .rdata  ascii   fsclog.dll
+1203 0x000b6330 0x1800b7930 9   10   .rdata  ascii   log_write
+1204 0x000b6340 0x1800b7940 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1205 0x000b6368 0x1800b7968 36  37   .rdata  ascii   SpanVolumeStorage::SpanVolumeStorage
+1206 0x000b6390 0x1800b7990 17  18   .rdata  ascii   SpanVolumeStorage
+1207 0x000b63a8 0x1800b79a8 10  11   .rdata  ascii   fsclog.dll
+1208 0x000b63b8 0x1800b79b8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1209 0x000b63e0 0x1800b79e0 29  30   .rdata  ascii   SpanVolumeStorage::ReadSector
+1210 0x000b6400 0x1800b7a00 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1211 0x000b6428 0x1800b7a28 37  38   .rdata  ascii   SpanVolumeStorage::~SpanVolumeStorage
+1212 0x000b6450 0x1800b7a50 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1213 0x000b6478 0x1800b7a78 23  24   .rdata  ascii   SpanVolumeStorage::Open
+1214 0x000b6490 0x1800b7a90 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1215 0x000b64b8 0x1800b7ab8 30  31   .rdata  ascii   SpanVolumeStorage::WriteSector
+1216 0x000b64d8 0x1800b7ad8 9   10   .rdata  ascii   log_write
+1217 0x000b64e8 0x1800b7ae8 19  20   .rdata  ascii   StripeVolumeStorage
+1218 0x000b6500 0x1800b7b00 10  11   .rdata  ascii   fsclog.dll
+1219 0x000b6510 0x1800b7b10 10  11   .rdata  ascii   fsclog.dll
+1220 0x000b6520 0x1800b7b20 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1221 0x000b6548 0x1800b7b48 41  42   .rdata  ascii   StripeVolumeStorage::~StripeVolumeStorage
+1222 0x000b6578 0x1800b7b78 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1223 0x000b65a0 0x1800b7ba0 40  41   .rdata  ascii   StripeVolumeStorage::StripeVolumeStorage
+1224 0x000b65d0 0x1800b7bd0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1225 0x000b65f8 0x1800b7bf8 32  33   .rdata  ascii   StripeVolumeStorage::WriteSector
+1226 0x000b6620 0x1800b7c20 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1227 0x000b6648 0x1800b7c48 31  32   .rdata  ascii   StripeVolumeStorage::ReadSector
+1228 0x000b6668 0x1800b7c68 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1229 0x000b6690 0x1800b7c90 25  26   .rdata  ascii   StripeVolumeStorage::Open
+1230 0x000b66b0 0x1800b7cb0 10  11   .rdata  ascii   fsclog.dll
+1231 0x000b66c0 0x1800b7cc0 9   10   .rdata  ascii   log_write
+1232 0x000b66d0 0x1800b7cd0 10  11   .rdata  ascii   fsclog.dll
+1233 0x000b66e0 0x1800b7ce0 20  21   .rdata  ascii   %02d:%02d:%02d:%03d
+1234 0x000b66f8 0x1800b7cf8 46  47   .rdata  ascii   {%08x-%04x-%04x-%04x-%02x%02x%02x%02x%02x%02x}
+1235 0x000b6728 0x1800b7d28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1236 0x000b6750 0x1800b7d50 24  25   .rdata  ascii   Utility::CastGuid2String
+1237 0x000b6770 0x1800b7d70 70  71   .rdata  ascii   {%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+1238 0x000b67b8 0x1800b7db8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1239 0x000b67e0 0x1800b7de0 19  20   .rdata  ascii   Utility::InvertData
+1240 0x000b67f8 0x1800b7df8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1241 0x000b6820 0x1800b7e20 24  25   .rdata  ascii   Utility::CastString2Guid
+1242 0x000b6840 0x1800b7e40 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1243 0x000b6868 0x1800b7e68 21  22   .rdata  ascii   Utility::ParseHexbyte
+1244 0x000b6880 0x1800b7e80 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1245 0x000b68a8 0x1800b7ea8 18  19   .rdata  ascii   Utility::ParseGuid
+1246 0x000b68c0 0x1800b7ec0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1247 0x000b68e8 0x1800b7ee8 21  22   .rdata  ascii   Utility::SetU64Number
+1248 0x000b6900 0x1800b7f00 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1249 0x000b6928 0x1800b7f28 21  22   .rdata  ascii   Utility::GetU64Number
+1250 0x000b6940 0x1800b7f40 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1251 0x000b6968 0x1800b7f68 30  31   .rdata  ascii   Utility::GetVolumeGuidWithName
+1252 0x000b6988 0x1800b7f88 23  24   .rdata  ascii   Utility::GetDiskStorage
+1253 0x000b69a0 0x1800b7fa0 13  14   .rdata  ascii   DeviceManager
+1254 0x000b69b0 0x1800b7fb0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1255 0x000b69d8 0x1800b7fd8 36  37   .rdata  ascii   Utility::GetVolumeNameGuidWithOffset
+1256 0x000b6a00 0x1800b8000 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1257 0x000b6a28 0x1800b8028 24  25   .rdata  ascii   Utility::GetDiskGeometry
+1258 0x000b6a48 0x1800b8048 13  14   .rdata  ascii   DeviceManager
+1259 0x000b6a58 0x1800b8058 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1260 0x000b6a80 0x1800b8080 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1261 0x000b6aa8 0x1800b80a8 20  21   .rdata  ascii   Utility::FoundExtent
+1262 0x000b6ac0 0x1800b80c0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1263 0x000b6ae8 0x1800b80e8 32  33   .rdata  ascii   Utility::GetVolumeOffsetWithItem
+1264 0x000b6b10 0x1800b8110 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1265 0x000b6b38 0x1800b8138 30  31   .rdata  ascii   Utility::GetDiskSectorPerTrack
+1266 0x000b6b58 0x1800b8158 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1267 0x000b6b80 0x1800b8180 30  31   .rdata  ascii   Utility::GetDiskBytesPerSector
+1268 0x000b6ba0 0x1800b81a0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1269 0x000b6bc8 0x1800b81c8 36  37   .rdata  ascii   Utility::CorrectExtentOrderWithLdmDb
+1270 0x000b6bf0 0x1800b81f0 12  13   .rdata  ascii   %C:\Boot\bcd
+1271 0x000b6c00 0x1800b8200 12  13   .rdata  ascii   %C:\boot.ini
+1272 0x000b6c10 0x1800b8210 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1273 0x000b6c38 0x1800b8238 25  26   .rdata  ascii   Utility::GetVolumeExtents
+1274 0x000b6c58 0x1800b8258 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1275 0x000b6c80 0x1800b8280 23  24   .rdata  ascii   Utility::GetDiskExtents
+1276 0x000b6c98 0x1800b8298 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1277 0x000b6cc0 0x1800b82c0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1278 0x000b6d28 0x1800b8328 33  34   .rdata  ascii   Utility::CreateDummyVolume4Resize
+1279 0x000b6d50 0x1800b8350 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1280 0x000b6de0 0x1800b83e0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1281 0x000b6e48 0x1800b8448 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1282 0x000b6e70 0x1800b8470 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1283 0x000b6f00 0x1800b8500 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1284 0x000b6f68 0x1800b8568 33  34   .rdata  ascii   Utility::CreateDummyVolumeLikeVds
+1285 0x000b6f90 0x1800b8590 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1286 0x000b7020 0x1800b8620 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1287 0x000b7088 0x1800b8688 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1288 0x000b70b0 0x1800b86b0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1289 0x000b7140 0x1800b8740 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1290 0x000b71a8 0x1800b87a8 34  35   .rdata  ascii   Utility::SubtractExtentInDummyList
+1291 0x000b71d0 0x1800b87d0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1292 0x000b7260 0x1800b8860 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1293 0x000b72c8 0x1800b88c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1294 0x000b72f0 0x1800b88f0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1295 0x000b7380 0x1800b8980 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1296 0x000b73e8 0x1800b89e8 23  24   .rdata  ascii   Utility::GetDummyVolume
+1297 0x000b7400 0x1800b8a00 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1298 0x000b7490 0x1800b8a90 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1299 0x000b74f8 0x1800b8af8 19  20   .rdata  ascii   \\.\PhysicalDrive%d
+1300 0x000b7510 0x1800b8b10 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1301 0x000b75a0 0x1800b8ba0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1302 0x000b7608 0x1800b8c08 19  20   .rdata  ascii   \\.\PhysicalDrive%d
+1303 0x000b7620 0x1800b8c20 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1304 0x000b76b0 0x1800b8cb0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1305 0x000b7718 0x1800b8d18 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1306 0x000b7740 0x1800b8d40 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1307 0x000b77d0 0x1800b8dd0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1308 0x000b7838 0x1800b8e38 33  34   .rdata  ascii   Utility::CheckBeRemoveDummyVolume
+1309 0x000b7860 0x1800b8e60 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1310 0x000b78f0 0x1800b8ef0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1311 0x000b7958 0x1800b8f58 15  32   .rdata  utf16le SystemPartition
+1312 0x000b7978 0x1800b8f78 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1313 0x000b79a0 0x1800b8fa0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1314 0x000b7a30 0x1800b9030 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1315 0x000b7a98 0x1800b9098 39  40   .rdata  ascii   Utility::GetExtentNumberWithManagerItem
+1316 0x000b7ac0 0x1800b90c0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1317 0x000b7b50 0x1800b9150 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1318 0x000b7bb8 0x1800b91b8 17  36   .rdata  utf16le \tVolume type: %s\n
+1319 0x000b7be0 0x1800b91e0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1320 0x000b7c70 0x1800b9270 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1321 0x000b7cd8 0x1800b92d8 15  32   .rdata  utf16le \tUnit size: %d\n
+1322 0x000b7cf8 0x1800b92f8 11  24   .rdata  utf16le \tLabel: %s\n
+1323 0x000b7d10 0x1800b9310 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1324 0x000b7da0 0x1800b93a0 30  62   .rdata  utf16le \Registry\Machine\SYSTEM\Setup
+1325 0x000b7de0 0x1800b93e0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1326 0x000b7e48 0x1800b9448 18  38   .rdata  utf16le \tDrive letter: %C\n
+1327 0x000b7e70 0x1800b9470 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1328 0x000b7f00 0x1800b9500 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1329 0x000b7f68 0x1800b9568 7   16   .rdata  utf16le Unknown
+1330 0x000b7f78 0x1800b9578 16  34   .rdata  utf16le \tDisk count: %d\n
+1331 0x000b7fa0 0x1800b95a0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1332 0x000b8030 0x1800b9630 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1333 0x000b8098 0x1800b9698 11  24   .rdata  utf16le Unformatted
+1334 0x000b80b0 0x1800b96b0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1335 0x000b8140 0x1800b9740 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1336 0x000b81a8 0x1800b97a8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1337 0x000b81c0 0x1800b97c0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1338 0x000b8250 0x1800b9850 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1339 0x000b82b8 0x1800b98b8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1340 0x000b82d0 0x1800b98d0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1341 0x000b8360 0x1800b9960 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1342 0x000b83c8 0x1800b99c8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1343 0x000b83e0 0x1800b99e0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1344 0x000b8470 0x1800b9a70 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1345 0x000b84d8 0x1800b9ad8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1346 0x000b84f0 0x1800b9af0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1347 0x000b8580 0x1800b9b80 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1348 0x000b85e8 0x1800b9be8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1349 0x000b8600 0x1800b9c00 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1350 0x000b8690 0x1800b9c90 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1351 0x000b86f8 0x1800b9cf8 15  16   .rdata  ascii   atlTraceGeneral
+1352 0x000b8708 0x1800b9d08 17  18   .rdata  ascii   atlTraceWindowing
+1353 0x000b8720 0x1800b9d20 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1354 0x000b87b0 0x1800b9db0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1355 0x000b8818 0x1800b9e18 16  17   .rdata  ascii   atlTraceRefcount
+1356 0x000b8830 0x1800b9e30 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1357 0x000b88c0 0x1800b9ec0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1358 0x000b8928 0x1800b9f28 17  18   .rdata  ascii   atlTraceRegistrar
+1359 0x000b8940 0x1800b9f40 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1360 0x000b89d0 0x1800b9fd0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1361 0x000b8a38 0x1800ba038 18  19   .rdata  ascii   atlTraceDBProvider
+1362 0x000b8a50 0x1800ba050 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1363 0x000b8ae0 0x1800ba0e0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1364 0x000b8b48 0x1800ba148 16  17   .rdata  ascii   atlTraceDBClient
+1365 0x000b8b60 0x1800ba160 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1366 0x000b8bf0 0x1800ba1f0 22  46   .rdata  utf16le Create dynamic volume\n
+1367 0x000b8c20 0x1800ba220 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1368 0x000b8c88 0x1800ba288 15  16   .rdata  ascii   atlTraceHosting
+1369 0x000b8c98 0x1800ba298 16  17   .rdata  ascii   atlTraceControls
+1370 0x000b8cb0 0x1800ba2b0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+1371 0x000b8d40 0x1800ba340 13  28   .rdata  utf16le \tFS type: %s\n
+1372 0x000b8d60 0x1800ba360 29  60   .rdata  utf16le \t\tDiskIndex: %d, size: %I64u\n
+1373 0x000b8da0 0x1800ba3a0 20  42   .rdata  utf16le \tVolume size: %I64u\n
+1374 0x000b8dd0 0x1800ba3d0 6   14   .rdata  utf16le Stripe
+1375 0x000b8de0 0x1800ba3e0 4   10   .rdata  utf16le Span
+1376 0x000b8df0 0x1800ba3f0 6   14   .rdata  utf16le Simple
+1377 0x000b8e00 0x1800ba400 5   12   .rdata  utf16le Basic
+1378 0x000b8e10 0x1800ba410 5   12   .rdata  utf16le FAT12
+1379 0x000b8e20 0x1800ba420 6   14   .rdata  utf16le Raid-5
+1380 0x000b8e30 0x1800ba430 6   14   .rdata  utf16le Mirror
+1381 0x000b8e40 0x1800ba440 4   10   .rdata  utf16le NTFS
+1382 0x000b8e50 0x1800ba450 5   12   .rdata  utf16le FAT32
+1383 0x000b8e60 0x1800ba460 5   12   .rdata  utf16le FAT16
+1384 0x000b8e70 0x1800ba470 4   10   .rdata  utf16le REFS
+1385 0x000b8e80 0x1800ba480 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1386 0x000b8ec0 0x1800ba4c0 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1387 0x000b8f00 0x1800ba500 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1388 0x000b8f40 0x1800ba540 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1389 0x000b8f80 0x1800ba580 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1390 0x000b8fc0 0x1800ba5c0 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1391 0x000b9000 0x1800ba600 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1392 0x000b9040 0x1800ba640 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1393 0x000b9080 0x1800ba680 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1394 0x000b90c0 0x1800ba6c0 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1395 0x000b9100 0x1800ba700 11  12   .rdata  ascii   atlTraceCOM
+1396 0x000b9110 0x1800ba710 10  11   .rdata  ascii   atlTraceQI
+1397 0x000b9120 0x1800ba720 17  18   .rdata  ascii   atlTraceException
+1398 0x000b9138 0x1800ba738 18  19   .rdata  ascii   atlTraceAllocation
+1399 0x000b9150 0x1800ba750 15  16   .rdata  ascii   atlTraceNotImpl
+1400 0x000b9160 0x1800ba760 14  15   .rdata  ascii   atlTraceSnapin
+1401 0x000b9170 0x1800ba770 14  15   .rdata  ascii   atlTraceString
+1402 0x000b9180 0x1800ba780 15  16   .rdata  ascii   atlTraceStencil
+1403 0x000b9190 0x1800ba790 13  14   .rdata  ascii   atlTraceCache
+1404 0x000b91a0 0x1800ba7a0 12  13   .rdata  ascii   atlTraceTime
+1405 0x000b91b0 0x1800ba7b0 12  13   .rdata  ascii   atlTraceSync
+1406 0x000b91c0 0x1800ba7c0 16  17   .rdata  ascii   atlTraceSecurity
+1407 0x000b91d8 0x1800ba7d8 12  13   .rdata  ascii   atlTraceUtil
+1408 0x000b91e8 0x1800ba7e8 11  12   .rdata  ascii   atlTraceMap
+1409 0x000b91f8 0x1800ba7f8 13  14   .rdata  ascii   atlTraceISAPI
+1410 0x000b9208 0x1800ba808 8   9    .rdata  ascii   NoRemove
+1411 0x000b9218 0x1800ba818 11  12   .rdata  ascii   ForceRemove
+1412 0x000b9228 0x1800ba828 20  21   .rdata  ascii   Component Categories
+1413 0x000b9240 0x1800ba840 8   9    .rdata  ascii   Hardware
+1414 0x000b9250 0x1800ba850 9   10   .rdata  ascii   Interface
+1415 0x000b9260 0x1800ba860 8   9    .rdata  ascii   FileType
+1416 0x000b9270 0x1800ba870 8   9    .rdata  ascii   Software
+1417 0x000b9280 0x1800ba880 8   9    .rdata  ascii   SECURITY
+1418 0x000b9290 0x1800ba890 7   8    .rdata  ascii   TypeLib
+1419 0x000b9298 0x1800ba898 10  11   .rdata  ascii   fsclog.dll
+1420 0x000b92a8 0x1800ba8a8 9   10   .rdata  ascii   log_write
+1421 0x000b92b8 0x1800ba8b8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1422 0x000b92e0 0x1800ba8e0 16  17   .rdata  ascii   VdsDisk::VdsDisk
+1423 0x000b92f8 0x1800ba8f8 19  20   .rdata  ascii   \\?\PhysicalDrive%d
+1424 0x000b9310 0x1800ba910 10  11   .rdata  ascii   fsclog.dll
+1425 0x000b9320 0x1800ba920 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1426 0x000b9348 0x1800ba948 20  21   .rdata  ascii   VdsDisk::GetDiskInfo
+1427 0x000b9360 0x1800ba960 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1428 0x000b9388 0x1800ba988 17  18   .rdata  ascii   VdsDisk::~VdsDisk
+1429 0x000b93a0 0x1800ba9a0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1430 0x000b93c8 0x1800ba9c8 29  30   .rdata  ascii   VdsDisk::GetDiskStorageDevice
+1431 0x000b93e8 0x1800ba9e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1432 0x000b9410 0x1800baa10 29  30   .rdata  ascii   VdsDisk::SetDiskStorageDevice
+1433 0x000b9430 0x1800baa30 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1434 0x000b9498 0x1800baa98 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1435 0x000b94c0 0x1800baac0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+1436 0x000b9550 0x1800bab50 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1437 0x000b95b8 0x1800babb8 22  23   .rdata  ascii   VdsDisk::BeDynamicDisk
+1438 0x000b95d0 0x1800babd0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+1439 0x000b9660 0x1800bac60 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1440 0x000b96b8 0x1800bacb8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1441 0x000b96e0 0x1800bace0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+1442 0x000b9770 0x1800bad70 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1443 0x000b97d8 0x1800badd8 15  16   .rdata  ascii   atlTraceGeneral
+1444 0x000b97e8 0x1800bade8 6   7    .rdata  ascii   log_ws
+1445 0x000b97f0 0x1800badf0 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+1446 0x000b9880 0x1800bae80 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1447 0x000b98e8 0x1800baee8 16  17   .rdata  ascii   atlTraceRefcount
+1448 0x000b9900 0x1800baf00 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+1449 0x000b9990 0x1800baf90 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1450 0x000b99f8 0x1800baff8 17  18   .rdata  ascii   atlTraceRegistrar
+1451 0x000b9a10 0x1800bb010 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+1452 0x000b9aa0 0x1800bb0a0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1453 0x000b9b08 0x1800bb108 16  17   .rdata  ascii   atlTraceDBClient
+1454 0x000b9b20 0x1800bb120 68  138  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+1455 0x000b9bb0 0x1800bb1b0 43  44   .rdata  ascii   %s change [%I64d:%I64d] to [%I64d:%I64d] \r\n
+1456 0x000b9be0 0x1800bb1e0 25  26   .rdata  ascii   %s vds [%I64d:%I64d] %s\r\n
+1457 0x000b9c00 0x1800bb200 26  27   .rdata  ascii   VdsDisk::RefreshDiskExtent
+1458 0x000b9c20 0x1800bb220 9   10   .rdata  ascii   log_write
+1459 0x000b9c30 0x1800bb230 10  11   .rdata  ascii   fsclog.dll
+1460 0x000b9c40 0x1800bb240 10  11   .rdata  ascii   fsclog.dll
+1461 0x000b9c50 0x1800bb250 10  11   .rdata  ascii   atlTraceQI
+1462 0x000b9c60 0x1800bb260 11  12   .rdata  ascii   atlTraceCOM
+1463 0x000b9c70 0x1800bb270 15  16   .rdata  ascii   atlTraceHosting
+1464 0x000b9c80 0x1800bb280 16  17   .rdata  ascii   atlTraceControls
+1465 0x000b9c98 0x1800bb298 17  18   .rdata  ascii   atlTraceWindowing
+1466 0x000b9cb0 0x1800bb2b0 18  19   .rdata  ascii   atlTraceAllocation
+1467 0x000b9cc8 0x1800bb2c8 15  16   .rdata  ascii   atlTraceNotImpl
+1468 0x000b9cd8 0x1800bb2d8 14  15   .rdata  ascii   atlTraceSnapin
+1469 0x000b9ce8 0x1800bb2e8 18  19   .rdata  ascii   atlTraceDBProvider
+1470 0x000b9d00 0x1800bb300 15  16   .rdata  ascii   atlTraceStencil
+1471 0x000b9d10 0x1800bb310 13  14   .rdata  ascii   atlTraceCache
+1472 0x000b9d20 0x1800bb320 12  13   .rdata  ascii   atlTraceTime
+1473 0x000b9d30 0x1800bb330 17  18   .rdata  ascii   atlTraceException
+1474 0x000b9d48 0x1800bb348 16  17   .rdata  ascii   atlTraceSecurity
+1475 0x000b9d60 0x1800bb360 12  13   .rdata  ascii   atlTraceUtil
+1476 0x000b9d70 0x1800bb370 11  12   .rdata  ascii   atlTraceMap
+1477 0x000b9d80 0x1800bb380 14  15   .rdata  ascii   atlTraceString
+1478 0x000b9d90 0x1800bb390 13  14   .rdata  ascii   atlTraceISAPI
+1479 0x000b9da0 0x1800bb3a0 12  13   .rdata  ascii   atlTraceSync
+1480 0x000b9db0 0x1800bb3b0 11  12   .rdata  ascii   ForceRemove
+1481 0x000b9dbc 0x1800bb3bc 5   6    .rdata  ascii   CLSID
+1482 0x000b9dc4 0x1800bb3c4 5   6    .rdata  ascii   AppID
+1483 0x000b9dcc 0x1800bb3cc 6   7    .rdata  ascii   Delete
+1484 0x000b9dd8 0x1800bb3d8 8   9    .rdata  ascii   NoRemove
+1485 0x000b9de8 0x1800bb3e8 8   9    .rdata  ascii   Hardware
+1486 0x000b9df8 0x1800bb3f8 9   10   .rdata  ascii   Interface
+1487 0x000b9e08 0x1800bb408 8   9    .rdata  ascii   FileType
+1488 0x000b9e18 0x1800bb418 20  21   .rdata  ascii   Component Categories
+1489 0x000b9e30 0x1800bb430 6   7    .rdata  ascii   SYSTEM
+1490 0x000b9e38 0x1800bb438 8   9    .rdata  ascii   SECURITY
+1491 0x000b9e44 0x1800bb444 4   5    .rdata  ascii   Mime
+1492 0x000b9e50 0x1800bb450 7   8    .rdata  ascii   TypeLib
+1493 0x000b9e58 0x1800bb458 8   9    .rdata  ascii   Software
+1494 0x000b9e68 0x1800bb468 27  28   .rdata  ascii   VdsModule::GetDiskWithIndex
+1495 0x000b9e88 0x1800bb488 9   10   .rdata  ascii   VdsModule
+1496 0x000b9e98 0x1800bb498 35  36   .rdata  ascii   VdsModule::GetVolumeWithDriveLetter
+1497 0x000b9ec0 0x1800bb4c0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1498 0x000b9f28 0x1800bb528 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1499 0x000b9f50 0x1800bb550 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1500 0x000b9fe0 0x1800bb5e0 35  36   .rdata  ascii   VdsModule::GetVolumeWithManagerItem
+1501 0x000ba004 0x1800bb604 6   7    .rdata  ascii   log_ws
+1502 0x000ba010 0x1800bb610 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1503 0x000ba078 0x1800bb678 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1504 0x000ba0a0 0x1800bb6a0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1505 0x000ba130 0x1800bb730 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1506 0x000ba1c0 0x1800bb7c0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1507 0x000ba228 0x1800bb828 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1508 0x000ba250 0x1800bb850 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1509 0x000ba2e0 0x1800bb8e0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1510 0x000ba370 0x1800bb970 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1511 0x000ba398 0x1800bb998 34  35   .rdata  ascii   VdsModule::GetVolumeWithDiskOffset
+1512 0x000ba3c0 0x1800bb9c0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1513 0x000ba428 0x1800bba28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1514 0x000ba450 0x1800bba50 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1515 0x000ba4e0 0x1800bbae0 28  29   .rdata  ascii   VdsModule::GetVolumeWithGuid
+1516 0x000ba500 0x1800bbb00 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1517 0x000ba568 0x1800bbb68 23  24   .rdata  ascii   VdsModule::CreateVolume
+1518 0x000ba580 0x1800bbb80 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1519 0x000ba610 0x1800bbc10 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1520 0x000ba678 0x1800bbc78 30  31   .rdata  ascii   VdsModule::GetLdmPackFreeSpace
+1521 0x000ba698 0x1800bbc98 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1522 0x000ba6c0 0x1800bbcc0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1523 0x000ba750 0x1800bbd50 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1524 0x000ba7b8 0x1800bbdb8 23  24   .rdata  ascii   VdsModule::DeleteVolume
+1525 0x000ba7d0 0x1800bbdd0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1526 0x000ba860 0x1800bbe60 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1527 0x000ba8b8 0x1800bbeb8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1528 0x000ba8e0 0x1800bbee0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1529 0x000ba970 0x1800bbf70 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1530 0x000ba9d8 0x1800bbfd8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1531 0x000baa00 0x1800bc000 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1532 0x000baa90 0x1800bc090 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1533 0x000baae8 0x1800bc0e8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1534 0x000bab10 0x1800bc110 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1535 0x000baba0 0x1800bc1a0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1536 0x000bac08 0x1800bc208 31  32   .rdata  ascii   VdsModule::RemoveAllDummyVolume
+1537 0x000bac28 0x1800bc228 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1538 0x000bac50 0x1800bc250 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1539 0x000bace0 0x1800bc2e0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1540 0x000bad48 0x1800bc348 31  32   .rdata  ascii   VdsModule::ReConnectComInstance
+1541 0x000bad68 0x1800bc368 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1542 0x000bad90 0x1800bc390 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1543 0x000bae20 0x1800bc420 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1544 0x000bae78 0x1800bc478 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1545 0x000baea0 0x1800bc4a0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1546 0x000baf08 0x1800bc508 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1547 0x000baf30 0x1800bc530 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1548 0x000bafc0 0x1800bc5c0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1549 0x000bb028 0x1800bc628 18  19   .rdata  ascii   VdsModule::Refresh
+1550 0x000bb040 0x1800bc640 38  78   .rdata  utf16le {9C38ED61-D565-4728-AEEE-C80952F0ECDE}
+1551 0x000bb090 0x1800bc690 47  96   .rdata  utf16le %s con't CreateInstance of vdsLoad, hr = 0x%x\r\n
+1552 0x000bb0f0 0x1800bc6f0 31  64   .rdata  utf16le VdsModule::ReConnectComInstance
+1553 0x000bb130 0x1800bc730 45  92   .rdata  utf16le %s con't got the vdsLoad's clsid, hr = 0x%x\r\n
+1554 0x000bb190 0x1800bc790 31  64   .rdata  utf16le VdsModule::ReConnectComInstance
+1555 0x000bb1d0 0x1800bc7d0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1556 0x000bb228 0x1800bc828 19  40   .rdata  utf16le \\?\PhysicalDrive%d
+1557 0x000bb250 0x1800bc850 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1558 0x000bb2e0 0x1800bc8e0 38  78   .rdata  utf16le %s con't load vds service, hr = 0x%x\r\n
+1559 0x000bb330 0x1800bc930 31  64   .rdata  utf16le VdsModule::ReConnectComInstance
+1560 0x000bb370 0x1800bc970 42  86   .rdata  utf16le %s WaitForServiceReady failed, hr = 0x%x\r\n
+1561 0x000bb3c8 0x1800bc9c8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1562 0x000bb3f0 0x1800bc9f0 31  64   .rdata  utf16le VdsModule::ReConnectComInstance
+1563 0x000bb430 0x1800bca30 27  28   .rdata  ascii   VdsModule::ReleaseInterface
+1564 0x000bb450 0x1800bca50 26  27   .rdata  ascii   VdsModule::FreeDiskPropMem
+1565 0x000bb470 0x1800bca70 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1566 0x000bb4d8 0x1800bcad8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1567 0x000bb500 0x1800bcb00 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1568 0x000bb590 0x1800bcb90 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1569 0x000bb5f8 0x1800bcbf8 31  32   .rdata  ascii   VdsModule::ConvertBasic2Dynamic
+1570 0x000bb618 0x1800bcc18 39  40   .rdata  ascii   VdsModule::QueryCanConvertBasic2Dynamic
+1571 0x000bb640 0x1800bcc40 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1572 0x000bb6d0 0x1800bccd0 40  82   .rdata  utf16le file: %s, line: %d, cnt : %d,hr = 0x%x \n
+1573 0x000bb728 0x1800bcd28 27  28   .rdata  ascii   VdsModule::EnumVdsOwnedDisk
+1574 0x000bb744 0x1800bcd44 5   6    .rdata  ascii   CLSID
+1575 0x000bb750 0x1800bcd50 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1576 0x000bb7e0 0x1800bcde0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1577 0x000bb838 0x1800bce38 33  34   .rdata  ascii   VdsModule::RegetTheDynamicVdsPack
+1578 0x000bb860 0x1800bce60 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1579 0x000bb8f0 0x1800bcef0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1580 0x000bb948 0x1800bcf48 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1581 0x000bb970 0x1800bcf70 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1582 0x000bba00 0x1800bd000 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1583 0x000bba58 0x1800bd058 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1584 0x000bba80 0x1800bd080 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1585 0x000bbb10 0x1800bd110 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1586 0x000bbb78 0x1800bd178 30  31   .rdata  ascii   VdsModule::RefreshVolumeExtent
+1587 0x000bbb98 0x1800bd198 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1588 0x000bbbc0 0x1800bd1c0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1589 0x000bbc50 0x1800bd250 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1590 0x000bbca8 0x1800bd2a8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1591 0x000bbcd0 0x1800bd2d0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1592 0x000bbd60 0x1800bd360 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1593 0x000bbdf0 0x1800bd3f0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1594 0x000bbe58 0x1800bd458 33  34   .rdata  ascii   VdsModule::GetDiskVdsUdByVdsIndex
+1595 0x000bbe80 0x1800bd480 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1596 0x000bbf10 0x1800bd510 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1597 0x000bbfa0 0x1800bd5a0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1598 0x000bbff8 0x1800bd5f8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1599 0x000bc020 0x1800bd620 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1600 0x000bc078 0x1800bd678 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1601 0x000bc0a0 0x1800bd6a0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1602 0x000bc130 0x1800bd730 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1603 0x000bc198 0x1800bd798 30  31   .rdata  ascii   VdsModule::GetDiskIndexByVdsId
+1604 0x000bc1b8 0x1800bd7b8 31  32   .rdata  ascii   VdsModule::GetFreeExtentOnDiskS
+1605 0x000bc1d8 0x1800bd7d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1606 0x000bc200 0x1800bd800 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1607 0x000bc268 0x1800bd868 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1608 0x000bc290 0x1800bd890 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1609 0x000bc320 0x1800bd920 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1610 0x000bc3b0 0x1800bd9b0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1611 0x000bc418 0x1800bda18 35  36   .rdata  ascii   VdsModule::OnRepairProgressCallBack
+1612 0x000bc440 0x1800bda40 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1613 0x000bc4d0 0x1800bdad0 29  30   .rdata  ascii   VdsModule::EnumVdsOwnedVolume
+1614 0x000bc4f0 0x1800bdaf0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1615 0x000bc548 0x1800bdb48 29  30   .rdata  ascii   VdsModule::GetVolumeIdByVdsId
+1616 0x000bc568 0x1800bdb68 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1617 0x000bc590 0x1800bdb90 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1618 0x000bc5f8 0x1800bdbf8 31  32   .rdata  ascii   VdsModule::ConvertDynamic2Basic
+1619 0x000bc618 0x1800bdc18 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1620 0x000bc640 0x1800bdc40 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1621 0x000bc6d0 0x1800bdcd0 29  30   .rdata  ascii   VdsModule::RemoveCacheContext
+1622 0x000bc6f0 0x1800bdcf0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1623 0x000bc758 0x1800bdd58 48  49   .rdata  ascii   VdsModule::CheckWhetherVolumeBeUpdateInPatchExec
+1624 0x000bc790 0x1800bdd90 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+1625 0x000bc820 0x1800bde20 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1626 0x000bc848 0x1800bde48 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1627 0x000bc870 0x1800bde70 23  24   .rdata  ascii   VdsModule::FormatVolume
+1628 0x000bc888 0x1800bde88 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1629 0x000bc8b0 0x1800bdeb0 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1630 0x000bc8f0 0x1800bdef0 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1631 0x000bc908 0x1800bdf08 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1632 0x000bc948 0x1800bdf48 10  11   .rdata  ascii   fsclog.dll
+1633 0x000bc958 0x1800bdf58 9   10   .rdata  ascii   log_write
+1634 0x000bc968 0x1800bdf68 11  12   .rdata  ascii   atlTraceCOM
+1635 0x000bc978 0x1800bdf78 15  16   .rdata  ascii   atlTraceGeneral
+1636 0x000bc988 0x1800bdf88 10  11   .rdata  ascii   fsclog.dll
+1637 0x000bc998 0x1800bdf98 17  18   .rdata  ascii   atlTraceWindowing
+1638 0x000bc9b0 0x1800bdfb0 16  17   .rdata  ascii   atlTraceRefcount
+1639 0x000bc9c8 0x1800bdfc8 17  18   .rdata  ascii   atlTraceRegistrar
+1640 0x000bc9e0 0x1800bdfe0 10  11   .rdata  ascii   atlTraceQI
+1641 0x000bc9f0 0x1800bdff0 18  19   .rdata  ascii   atlTraceDBProvider
+1642 0x000bca08 0x1800be008 16  17   .rdata  ascii   atlTraceDBClient
+1643 0x000bca20 0x1800be020 15  16   .rdata  ascii   atlTraceHosting
+1644 0x000bca30 0x1800be030 16  17   .rdata  ascii   atlTraceControls
+1645 0x000bca48 0x1800be048 17  18   .rdata  ascii   atlTraceException
+1646 0x000bca60 0x1800be060 18  19   .rdata  ascii   atlTraceAllocation
+1647 0x000bca78 0x1800be078 15  16   .rdata  ascii   atlTraceNotImpl
+1648 0x000bca88 0x1800be088 14  15   .rdata  ascii   atlTraceSnapin
+1649 0x000bca98 0x1800be098 14  15   .rdata  ascii   atlTraceString
+1650 0x000bcaa8 0x1800be0a8 15  16   .rdata  ascii   atlTraceStencil
+1651 0x000bcab8 0x1800be0b8 13  14   .rdata  ascii   atlTraceCache
+1652 0x000bcac8 0x1800be0c8 12  13   .rdata  ascii   atlTraceTime
+1653 0x000bcad8 0x1800be0d8 12  13   .rdata  ascii   atlTraceSync
+1654 0x000bcae8 0x1800be0e8 16  17   .rdata  ascii   atlTraceSecurity
+1655 0x000bcb00 0x1800be100 12  13   .rdata  ascii   atlTraceUtil
+1656 0x000bcb10 0x1800be110 11  12   .rdata  ascii   atlTraceMap
+1657 0x000bcb20 0x1800be120 13  14   .rdata  ascii   atlTraceISAPI
+1658 0x000bcb30 0x1800be130 8   9    .rdata  ascii   NoRemove
+1659 0x000bcb40 0x1800be140 11  12   .rdata  ascii   ForceRemove
+1660 0x000bcb50 0x1800be150 20  21   .rdata  ascii   Component Categories
+1661 0x000bcb68 0x1800be168 5   6    .rdata  ascii   AppID
+1662 0x000bcb70 0x1800be170 6   7    .rdata  ascii   Delete
+1663 0x000bcb78 0x1800be178 4   5    .rdata  ascii   Mime
+1664 0x000bcb80 0x1800be180 8   9    .rdata  ascii   Hardware
+1665 0x000bcb90 0x1800be190 9   10   .rdata  ascii   Interface
+1666 0x000bcba0 0x1800be1a0 8   9    .rdata  ascii   FileType
+1667 0x000bcbb0 0x1800be1b0 8   9    .rdata  ascii   Software
+1668 0x000bcbbc 0x1800be1bc 6   7    .rdata  ascii   SYSTEM
+1669 0x000bcbc8 0x1800be1c8 8   9    .rdata  ascii   SECURITY
+1670 0x000bcbd8 0x1800be1d8 7   8    .rdata  ascii   TypeLib
+1671 0x000bcbe0 0x1800be1e0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+1672 0x000bcc70 0x1800be270 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1673 0x000bccd8 0x1800be2d8 17  18   .rdata  ascii   atlTraceRegistrar
+1674 0x000bccf0 0x1800be2f0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+1675 0x000bcd80 0x1800be380 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+1676 0x000bce10 0x1800be410 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1677 0x000bce68 0x1800be468 16  17   .rdata  ascii   atlTraceControls
+1678 0x000bce80 0x1800be480 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+1679 0x000bcf10 0x1800be510 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1680 0x000bcf68 0x1800be568 17  18   .rdata  ascii   atlTraceWindowing
+1681 0x000bcf80 0x1800be580 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1682 0x000bcfd8 0x1800be5d8 16  17   .rdata  ascii   atlTraceRefcount
+1683 0x000bcff0 0x1800be5f0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+1684 0x000bd080 0x1800be680 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1685 0x000bd0d8 0x1800be6d8 10  11   .rdata  ascii   atlTraceQI
+1686 0x000bd0e8 0x1800be6e8 11  12   .rdata  ascii   atlTraceCOM
+1687 0x000bd0f8 0x1800be6f8 15  16   .rdata  ascii   atlTraceGeneral
+1688 0x000bd108 0x1800be708 15  16   .rdata  ascii   atlTraceHosting
+1689 0x000bd118 0x1800be718 15  16   .rdata  ascii   atlTraceNotImpl
+1690 0x000bd128 0x1800be728 14  15   .rdata  ascii   atlTraceSnapin
+1691 0x000bd138 0x1800be738 18  19   .rdata  ascii   atlTraceDBProvider
+1692 0x000bd150 0x1800be750 16  17   .rdata  ascii   atlTraceDBClient
+1693 0x000bd168 0x1800be768 13  14   .rdata  ascii   atlTraceCache
+1694 0x000bd178 0x1800be778 12  13   .rdata  ascii   atlTraceTime
+1695 0x000bd188 0x1800be788 17  18   .rdata  ascii   atlTraceException
+1696 0x000bd1a0 0x1800be7a0 18  19   .rdata  ascii   atlTraceAllocation
+1697 0x000bd1b8 0x1800be7b8 12  13   .rdata  ascii   atlTraceUtil
+1698 0x000bd1c8 0x1800be7c8 11  12   .rdata  ascii   atlTraceMap
+1699 0x000bd1d8 0x1800be7d8 14  15   .rdata  ascii   atlTraceString
+1700 0x000bd1e8 0x1800be7e8 15  16   .rdata  ascii   atlTraceStencil
+1701 0x000bd1f8 0x1800be7f8 13  14   .rdata  ascii   atlTraceISAPI
+1702 0x000bd208 0x1800be808 12  13   .rdata  ascii   atlTraceSync
+1703 0x000bd218 0x1800be818 16  17   .rdata  ascii   atlTraceSecurity
+1704 0x000bd22c 0x1800be82c 5   6    .rdata  ascii   AppID
+1705 0x000bd234 0x1800be834 6   7    .rdata  ascii   Delete
+1706 0x000bd240 0x1800be840 8   9    .rdata  ascii   NoRemove
+1707 0x000bd250 0x1800be850 11  12   .rdata  ascii   ForceRemove
+1708 0x000bd260 0x1800be860 9   10   .rdata  ascii   Interface
+1709 0x000bd270 0x1800be870 8   9    .rdata  ascii   FileType
+1710 0x000bd280 0x1800be880 20  21   .rdata  ascii   Component Categories
+1711 0x000bd298 0x1800be898 5   6    .rdata  ascii   CLSID
+1712 0x000bd2a0 0x1800be8a0 8   9    .rdata  ascii   SECURITY
+1713 0x000bd2ac 0x1800be8ac 4   5    .rdata  ascii   Mime
+1714 0x000bd2b8 0x1800be8b8 8   9    .rdata  ascii   Hardware
+1715 0x000bd2c8 0x1800be8c8 7   8    .rdata  ascii   TypeLib
+1716 0x000bd2d0 0x1800be8d0 8   9    .rdata  ascii   Software
+1717 0x000bd2dc 0x1800be8dc 6   7    .rdata  ascii   SYSTEM
+1718 0x000bd2e8 0x1800be8e8 9   10   .rdata  ascii   log_write
+1719 0x000bd2f8 0x1800be8f8 10  11   .rdata  ascii   fsclog.dll
+1720 0x000bd304 0x1800be904 6   7    .rdata  ascii   log_ws
+1721 0x000bd310 0x1800be910 10  11   .rdata  ascii   fsclog.dll
+1722 0x000bd320 0x1800be920 14  30   .rdata  utf16le \\?\GLOBALROOT
+1723 0x000bd340 0x1800be940 21  22   .rdata  ascii   VdsVolume::~VdsVolume
+1724 0x000bd358 0x1800be958 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1725 0x000bd380 0x1800be980 20  21   .rdata  ascii   VdsVolume::VdsVolume
+1726 0x000bd398 0x1800be998 14  30   .rdata  utf16le \\?\GLOBALROOT
+1727 0x000bd3b8 0x1800be9b8 27  28   .rdata  ascii   VdsVolume::SetStorageDevice
+1728 0x000bd3d8 0x1800be9d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1729 0x000bd400 0x1800bea00 24  25   .rdata  ascii   VdsVolume::GetVolumeInfo
+1730 0x000bd420 0x1800bea20 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1731 0x000bd448 0x1800bea48 31  32   .rdata  ascii   VdsVolume::ReleaseStorageDevice
+1732 0x000bd468 0x1800bea68 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1733 0x000bd490 0x1800bea90 27  28   .rdata  ascii   VdsVolume::GetStorageDevice
+1734 0x000bd4b0 0x1800beab0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1735 0x000bd4d8 0x1800bead8 23  24   .rdata  ascii   VdsVolume::UpdateExtent
+1736 0x000bd4f0 0x1800beaf0 24  25   .rdata  ascii   %s %C: got result [%X]\r\n
+1737 0x000bd510 0x1800beb10 23  24   .rdata  ascii   VdsVolume::UpdateExtent
+1738 0x000bd528 0x1800beb28 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1739 0x000bd550 0x1800beb50 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1740 0x000bd5e0 0x1800bebe0 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1741 0x000bd608 0x1800bec08 22  23   .rdata  ascii   VdsVolume::UpdateLdmDB
+1742 0x000bd620 0x1800bec20 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1743 0x000bd648 0x1800bec48 31  32   .rdata  ascii   VdsVolume::GetVolumeDriveLetter
+1744 0x000bd668 0x1800bec68 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1745 0x000bd690 0x1800bec90 27  28   .rdata  ascii   VdsVolume::ResizeNeedReBoot
+1746 0x000bd6b0 0x1800becb0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1747 0x000bd708 0x1800bed08 39  40   .rdata  ascii   VdsVolume::GetVolumeLabelFileSystemType
+1748 0x000bd730 0x1800bed30 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1749 0x000bd798 0x1800bed98 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1750 0x000bd7c0 0x1800bedc0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1751 0x000bd850 0x1800bee50 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1752 0x000bd8e0 0x1800beee0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1753 0x000bd948 0x1800bef48 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1754 0x000bd970 0x1800bef70 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1755 0x000bda00 0x1800bf000 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1756 0x000bda28 0x1800bf028 24  25   .rdata  ascii   VdsVolume::RefreshExtent
+1757 0x000bda48 0x1800bf048 11  12   .rdata  ascii   %s got %s\r\n
+1758 0x000bda54 0x1800bf054 6   7    .rdata  ascii   log_ws
+1759 0x000bda60 0x1800bf060 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1760 0x000bdab8 0x1800bf0b8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1761 0x000bdae0 0x1800bf0e0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1762 0x000bdb38 0x1800bf138 17  18   .rdata  ascii   VdsVolume::Format
+1763 0x000bdb50 0x1800bf150 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1764 0x000bdbe0 0x1800bf1e0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1765 0x000bdc48 0x1800bf248 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1766 0x000bdc70 0x1800bf270 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1767 0x000bdd00 0x1800bf300 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1768 0x000bdd58 0x1800bf358 23  24   .rdata  ascii   VdsVolume::DeleteVolume
+1769 0x000bdd70 0x1800bf370 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1770 0x000bde00 0x1800bf400 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1771 0x000bde58 0x1800bf458 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1772 0x000bde80 0x1800bf480 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1773 0x000bdf10 0x1800bf510 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1774 0x000bdf78 0x1800bf578 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1775 0x000bdfa0 0x1800bf5a0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1776 0x000be030 0x1800bf630 25  26   .rdata  ascii   VdsVolume::SetDriveLetter
+1777 0x000be050 0x1800bf650 4   10   .rdata  utf16le %C:\
+1778 0x000be060 0x1800bf660 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1779 0x000be0b8 0x1800bf6b8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1780 0x000be0e0 0x1800bf6e0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1781 0x000be170 0x1800bf770 28  29   .rdata  ascii   VdsVolume::RemoveDriveLetter
+1782 0x000be190 0x1800bf790 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1783 0x000be1f8 0x1800bf7f8 22  23   .rdata  ascii   VdsVolume::RepairRaid5
+1784 0x000be210 0x1800bf810 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1785 0x000be2a0 0x1800bf8a0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1786 0x000be308 0x1800bf908 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1787 0x000be330 0x1800bf930 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1788 0x000be3c0 0x1800bf9c0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1789 0x000be450 0x1800bfa50 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1790 0x000be4b8 0x1800bfab8 22  23   .rdata  ascii   VdsVolume::RepairRaid5
+1791 0x000be4d0 0x1800bfad0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1792 0x000be560 0x1800bfb60 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1793 0x000be5f0 0x1800bfbf0 27  28   .rdata  ascii   VdsVolume::GetVdsShrinkInfo
+1794 0x000be610 0x1800bfc10 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1795 0x000be678 0x1800bfc78 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1796 0x000be690 0x1800bfc90 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1797 0x000be720 0x1800bfd20 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1798 0x000be788 0x1800bfd88 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1799 0x000be7a0 0x1800bfda0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1800 0x000be830 0x1800bfe30 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1801 0x000be898 0x1800bfe98 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1802 0x000be8b0 0x1800bfeb0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1803 0x000be940 0x1800bff40 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1804 0x000be998 0x1800bff98 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1805 0x000be9b0 0x1800bffb0 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1806 0x000bea40 0x1800c0040 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1807 0x000bea98 0x1800c0098 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1808 0x000beab0 0x1800c00b0 50  102  .rdata  utf16le file: %s, line: %d, error = %d, lasterror = 0x%x \n
+1809 0x000beb18 0x1800c0118 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+1810 0x000beb30 0x1800c0130 70  142  .rdata  utf16le i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+1811 0x000bebc0 0x1800c01c0 43  88   .rdata  utf16le file: %s, line: %d, error = %d, hr = 0x%x \n
+1812 0x000bec18 0x1800c0218 11  12   .rdata  ascii   %s got %x\r\n
+1813 0x000bec28 0x1800c0228 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1814 0x000bec68 0x1800c0268 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1815 0x000beca8 0x1800c02a8 10  11   .rdata  ascii   fsclog.dll
+1816 0x000becb8 0x1800c02b8 10  11   .rdata  ascii   fsclog.dll
+1817 0x000becc8 0x1800c02c8 9   10   .rdata  ascii   log_write
+1818 0x000becd8 0x1800c02d8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1819 0x000bed18 0x1800c0318 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1820 0x000bed58 0x1800c0358 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1821 0x000bed98 0x1800c0398 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1822 0x000bedd8 0x1800c03d8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1823 0x000bee18 0x1800c0418 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1824 0x000bee58 0x1800c0458 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1825 0x000bee98 0x1800c0498 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1826 0x000beed8 0x1800c04d8 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1827 0x000bef18 0x1800c0518 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+1828 0x000bef58 0x1800c0558 16  17   .rdata  ascii   SeDebugPrivilege
+1829 0x000bef70 0x1800c0570 17  18   .rdata  ascii   SeBackupPrivilege
+1830 0x000bef88 0x1800c0588 10  11   .rdata  ascii   fsclog.dll
+1831 0x000bef98 0x1800c0598 9   10   .rdata  ascii   log_write
+1832 0x000befa8 0x1800c05a8 36  37   .rdata  ascii   Win32VolumeStorageDevice::ReadSector
+1833 0x000befd0 0x1800c05d0 24  25   .rdata  ascii   Win32VolumeStorageDevice
+1834 0x000beff0 0x1800c05f0 10  11   .rdata  ascii   fsclog.dll
+1835 0x000beffc 0x1800c05fc 6   7    .rdata  ascii   log_ws
+1836 0x000bf008 0x1800c0608 12  13   .rdata  ascii   \\?\Volume%s
+1837 0x000bf018 0x1800c0618 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1838 0x000bf040 0x1800c0640 37  38   .rdata  ascii   Win32VolumeStorageDevice::WriteSector
+1839 0x000bf068 0x1800c0668 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1840 0x000bf090 0x1800c0690 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1841 0x000bf0b8 0x1800c06b8 31  32   .rdata  ascii   Win32VolumeStorageDevice::Close
+1842 0x000bf0d8 0x1800c06d8 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1843 0x000bf100 0x1800c0700 30  31   .rdata  ascii   Win32VolumeStorageDevice::Open
+1844 0x000bf120 0x1800c0720 35  36   .rdata  ascii   crashed at function[%s].Line:[%d]\r\n
+1845 0x000bf148 0x1800c0748 38  39   .rdata  ascii   Win32VolumeStorageDevice::DeviceIoCtrl
+1846 0x000c2988 0x1800c3f88 16  17   .rdata  ascii   list<T> too long
+1847 0x000c29a0 0x1800c3fa0 15  16   .rdata  ascii   string too long
+1848 0x000c29b0 0x1800c3fb0 19  20   .rdata  ascii   map/set<T> too long
+1849 0x000c2b08 0x1800c4108 9   10   .rdata  ascii   GetModule
+1850 0x000c2dc8 0x1800c43c8 18  19   .rdata  ascii   vector<T> too long
+1851 0x000c2e10 0x1800c4410 5   6    .rdata  ascii   Error
+1852 0x000c32e0 0x1800c48e0 5   6    .rdata  ascii   Error
+1853 0x000c3300 0x1800c4900 10  11   .rdata  ascii   consistant
+1854 0x000c3320 0x1800c4920 8   9    .rdata  ascii   creation
+1855 0x000c3340 0x1800c4940 8   9    .rdata  ascii   deletion
+1856 0x000c37e8 0x1800c4de8 6   7    .rdata  ascii   Thread
+1857 0x000cdcc4 0x1800cf2c4 5   6    .rdata  ascii   RSDS\a
+1858 0x000cdcdc 0x1800cf2dc 64  65   .rdata  ascii   I:\_drw_main\PartitionRecovery\Output\Release_x64\LdmManager.pdb
+1859 0x000cdd34 0x1800cf334 4   5    .rdata  ascii   GCTL
+1860 0x000cdd40 0x1800cf340 8   9    .rdata  ascii   .text$di
+1861 0x000cdd54 0x1800cf354 8   9    .rdata  ascii   .text$mn
+1862 0x000cdd68 0x1800cf368 11  12   .rdata  ascii   .text$mn$00
+1863 0x000cdd7c 0x1800cf37c 7   8    .rdata  ascii   .text$x
+1864 0x000cdd8c 0x1800cf38c 8   9    .rdata  ascii   .text$yd
+1865 0x000cdda0 0x1800cf3a0 8   9    .rdata  ascii   .idata$5
+1866 0x000cddb4 0x1800cf3b4 6   7    .rdata  ascii   .00cfg
+1867 0x000cddc4 0x1800cf3c4 8   9    .rdata  ascii   .CRT$XCA
+1868 0x000cddd8 0x1800cf3d8 8   9    .rdata  ascii   .CRT$XCL
+1869 0x000cddec 0x1800cf3ec 8   9    .rdata  ascii   .CRT$XCU
+1870 0x000cde00 0x1800cf400 8   9    .rdata  ascii   .CRT$XCZ
+1871 0x000cde14 0x1800cf414 8   9    .rdata  ascii   .CRT$XIA
+1872 0x000cde28 0x1800cf428 8   9    .rdata  ascii   .CRT$XIC
+1873 0x000cde3c 0x1800cf43c 8   9    .rdata  ascii   .CRT$XIZ
+1874 0x000cde50 0x1800cf450 8   9    .rdata  ascii   .CRT$XLA
+1875 0x000cde64 0x1800cf464 8   9    .rdata  ascii   .CRT$XLZ
+1876 0x000cde78 0x1800cf478 8   9    .rdata  ascii   .CRT$XPA
+1877 0x000cde8c 0x1800cf48c 8   9    .rdata  ascii   .CRT$XPZ
+1878 0x000cdea0 0x1800cf4a0 8   9    .rdata  ascii   .CRT$XTA
+1879 0x000cdeb4 0x1800cf4b4 8   9    .rdata  ascii   .CRT$XTZ
+1880 0x000cdec8 0x1800cf4c8 6   7    .rdata  ascii   .rdata
+1881 0x000cded8 0x1800cf4d8 8   9    .rdata  ascii   .rdata$T
+1882 0x000cdeec 0x1800cf4ec 8   9    .rdata  ascii   .rdata$r
+1883 0x000cdf00 0x1800cf500 13  14   .rdata  ascii   .rdata$zzzdbg
+1884 0x000cdf18 0x1800cf518 8   9    .rdata  ascii   .rtc$IAA
+1885 0x000cdf2c 0x1800cf52c 8   9    .rdata  ascii   .rtc$IZZ
+1886 0x000cdf40 0x1800cf540 8   9    .rdata  ascii   .rtc$TAA
+1887 0x000cdf54 0x1800cf554 8   9    .rdata  ascii   .rtc$TZZ
+1888 0x000cdf68 0x1800cf568 4   5    .rdata  ascii   .tls
+1889 0x000cdf78 0x1800cf578 5   6    .rdata  ascii   .tls$
+1890 0x000cdf88 0x1800cf588 8   9    .rdata  ascii   .tls$ZZZ
+1891 0x000cdf9c 0x1800cf59c 6   7    .rdata  ascii   .xdata
+1892 0x000cdfac 0x1800cf5ac 8   9    .rdata  ascii   .xdata$x
+1893 0x000cdfc0 0x1800cf5c0 6   7    .rdata  ascii   .edata
+1894 0x000cdfd0 0x1800cf5d0 8   9    .rdata  ascii   .idata$2
+1895 0x000cdfe4 0x1800cf5e4 8   9    .rdata  ascii   .idata$3
+1896 0x000cdff8 0x1800cf5f8 8   9    .rdata  ascii   .idata$4
+1897 0x000ce00c 0x1800cf60c 8   9    .rdata  ascii   .idata$6
+1898 0x000ce020 0x1800cf620 5   6    .rdata  ascii   .data
+1899 0x000ce030 0x1800cf630 7   8    .rdata  ascii   .data$r
+1900 0x000ce040 0x1800cf640 4   5    .rdata  ascii   .bss
+1901 0x000ce050 0x1800cf650 6   7    .rdata  ascii   .pdata
+1902 0x000ce060 0x1800cf660 8   9    .rdata  ascii   .rsrc$01
+1903 0x000ce074 0x1800cf674 8   9    .rdata  ascii   .rsrc$02
+1904 0x000cf12c 0x1800d072c 4   5    .rdata  ascii   \fp\v`
+1905 0x000d5e11 0x1800d7411 4   6    .rdata  utf8    2\vpԵ
+1906 0x000d5ecc 0x1800d74cc 4   5    .rdata  ascii   \fp\v`
+1907 0x000d6ad5 0x1800d80d5 5   6    .rdata  ascii   b\fp\v`
+1908 0x000d877e 0x1800d9d7e 4   5    .rdata  ascii   \fp\v`
+1909 0x000d8a5c 0x1800da05c 4   5    .rdata  ascii   \fp\v`
+1910 0x000d8c66 0x1800da266 4   5    .rdata  ascii   \fp\v`
+1911 0x000d8c8a 0x1800da28a 4   5    .rdata  ascii   \vp\n`
+1912 0x000d8ca1 0x1800da2a1 5   6    .rdata  ascii   b\fp\v`
+1913 0x000d91a5 0x1800da7a5 5   6    .rdata  ascii   b\fp\v`
+1914 0x000d92d2 0x1800da8d2 4   5    .rdata  ascii   \fp\v`
+1915 0x000d9bf8 0x1800db1f8 4   5    .rdata  ascii   \vp\n`
+1916 0x000da038 0x1800db638 4   5    .rdata  ascii   \fp\v`
+1917 0x000dba1c 0x1800dd01c 4   5    .rdata  ascii   \fp\v`
+1918 0x000dbadc 0x1800dd0dc 4   5    .rdata  ascii   \fp\v`
+1919 0x000deac5 0x1800e00c5 5   6    .rdata  ascii   b\fp\v`
+1920 0x000dfa31 0x1800e1031 5   6    .rdata  ascii   b\fp\v`
+1921 0x000e02ee 0x1800e18ee 4   5    .rdata  ascii   \fp\v`
+1922 0x000e18c4 0x1800e2ec4 4   5    .rdata  ascii   \fp\v`
+1923 0x000e20c2 0x1800e36c2 6   7    .rdata  ascii   \rp\f`\v0
+1924 0x000e2204 0x1800e3804 6   7    .rdata  ascii   \rp\f`\v0
+1925 0x000e260d 0x1800e3c0d 5   6    .rdata  ascii   b\fp\v`
+1926 0x000e3358 0x1800e4958 4   5    .rdata  ascii   \fp\v`
+1927 0x000e3418 0x1800e4a18 4   5    .rdata  ascii   \fp\v`
+1928 0x000e505c 0x1800e665c 4   5    .rdata  ascii   \fp\v`
+1929 0x000e52c0 0x1800e68c0 4   5    .rdata  ascii   \fp\v`
+1930 0x000e5c06 0x1800e7206 7   16   .rdata  utf16le \a\b\t\n\v\f\r
+1931 0x000e6662 0x1800e7c62 15  16   .rdata  ascii   DeviceIoControl
+1932 0x000e6674 0x1800e7c74 21  22   .rdata  ascii   GetVolumeInformationA
+1933 0x000e668c 0x1800e7c8c 12  13   .rdata  ascii   GetLastError
+1934 0x000e669c 0x1800e7c9c 11  12   .rdata  ascii   CreateFileA
+1935 0x000e66aa 0x1800e7caa 12  13   .rdata  ascii   LoadLibraryA
+1936 0x000e66ba 0x1800e7cba 11  12   .rdata  ascii   CloseHandle
+1937 0x000e66c8 0x1800e7cc8 14  15   .rdata  ascii   GetProcAddress
+1938 0x000e66da 0x1800e7cda 8   9    .rdata  ascii   ReadFile
+1939 0x000e66e6 0x1800e7ce6 11  12   .rdata  ascii   FreeLibrary
+1940 0x000e66f4 0x1800e7cf4 19  20   .rdata  ascii   WideCharToMultiByte
+1941 0x000e670a 0x1800e7d0a 12  13   .rdata  ascii   IsBadReadPtr
+1942 0x000e671a 0x1800e7d1a 27  28   .rdata  ascii   InitializeCriticalSectionEx
+1943 0x000e6738 0x1800e7d38 5   6    .rdata  ascii   Sleep
+1944 0x000e6740 0x1800e7d40 21  22   .rdata  ascii   DeleteCriticalSection
+1945 0x000e6758 0x1800e7d58 19  20   .rdata  ascii   MultiByteToWideChar
+1946 0x000e676e 0x1800e7d6e 20  21   .rdata  ascii   GetWindowsDirectoryA
+1947 0x000e6786 0x1800e7d86 12  13   .rdata  ascii   CreateMutexA
+1948 0x000e6796 0x1800e7d96 19  20   .rdata  ascii   WaitForSingleObject
+1949 0x000e67ac 0x1800e7dac 12  13   .rdata  ascii   ReleaseMutex
+1950 0x000e67bc 0x1800e7dbc 21  22   .rdata  ascii   WaitForSingleObjectEx
+1951 0x000e67d4 0x1800e7dd4 13  14   .rdata  ascii   GetVersionExA
+1952 0x000e67e4 0x1800e7de4 12  13   .rdata  ascii   CreateThread
+1953 0x000e67f4 0x1800e7df4 18  19   .rdata  ascii   GetCurrentThreadId
+1954 0x000e680a 0x1800e7e0a 18  19   .rdata  ascii   OutputDebugStringA
+1955 0x000e6820 0x1800e7e20 18  19   .rdata  ascii   GetFileAttributesA
+1956 0x000e6836 0x1800e7e36 12  13   .rdata  ascii   GetLocalTime
+1957 0x000e6846 0x1800e7e46 8   9    .rdata  ascii   SetEvent
+1958 0x000e6852 0x1800e7e52 12  13   .rdata  ascii   CreateEventA
+1959 0x000e6862 0x1800e7e62 17  18   .rdata  ascii   GetCurrentProcess
+1960 0x000e6876 0x1800e7e76 9   10   .rdata  ascii   WriteFile
+1961 0x000e6882 0x1800e7e82 14  15   .rdata  ascii   SetFilePointer
+1962 0x000e6892 0x1800e7e92 12  13   .rdata  ascii   KERNEL32.dll
+1963 0x000e68a2 0x1800e7ea2 16  17   .rdata  ascii   OpenProcessToken
+1964 0x000e68b6 0x1800e7eb6 21  22   .rdata  ascii   LookupPrivilegeValueA
+1965 0x000e68ce 0x1800e7ece 21  22   .rdata  ascii   AdjustTokenPrivileges
+1966 0x000e68e4 0x1800e7ee4 12  13   .rdata  ascii   ADVAPI32.dll
+1967 0x000e68f4 0x1800e7ef4 16  17   .rdata  ascii   CoCreateInstance
+1968 0x000e6908 0x1800e7f08 15  16   .rdata  ascii   CLSIDFromString
+1969 0x000e691a 0x1800e7f1a 12  13   .rdata  ascii   CoInitialize
+1970 0x000e692a 0x1800e7f2a 14  15   .rdata  ascii   CoInitializeEx
+1971 0x000e693c 0x1800e7f3c 13  14   .rdata  ascii   CoTaskMemFree
+1972 0x000e694c 0x1800e7f4c 15  16   .rdata  ascii   StringFromGUID2
+1973 0x000e695c 0x1800e7f5c 9   10   .rdata  ascii   ole32.dll
+1974 0x000e6968 0x1800e7f68 53  54   .rdata  ascii   ?SetCurChildOperationValue@CCallBackOperate@@QEAAKK@Z
+1975 0x000e69a0 0x1800e7fa0 47  48   .rdata  ascii   ?EndCurChildOperation@CCallBackOperate@@QEAAKXZ
+1976 0x000e69d2 0x1800e7fd2 49  50   .rdata  ascii   ?StartChildOperation@CCallBackOperate@@QEAAKKKK@Z
+1977 0x000e6a06 0x1800e8006 42  43   .rdata  ascii   ?EndCurOperation@CCallBackOperate@@QEAAKXZ
+1978 0x000e6a34 0x1800e8034 43  44   .rdata  ascii   ?StartOperation@CCallBackOperate@@QEAAKKK@Z
+1979 0x000e6a62 0x1800e8062 54  55   .rdata  ascii   ?IncrementCurChildOperation@CCallBackOperate@@QEAAKK@Z
+1980 0x000e6a9c 0x1800e809c 47  48   .rdata  ascii   ?SetEnableUserCancel@CCallBackOperate@@QEAAKH@Z
+1981 0x000e6acc 0x1800e80cc 19  20   .rdata  ascii   CallbackOperator.mo
+1982 0x000e6ae2 0x1800e80e2 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+1983 0x000e6b02 0x1800e8102 12  13   .rdata  ascii   MSVCP140.dll
+1984 0x000e6b12 0x1800e8112 17  18   .rdata  ascii   RtlCaptureContext
+1985 0x000e6b26 0x1800e8126 22  23   .rdata  ascii   RtlLookupFunctionEntry
+1986 0x000e6b40 0x1800e8140 16  17   .rdata  ascii   RtlVirtualUnwind
+1987 0x000e6b52 0x1800e8152 9   10   .rdata  ascii   ntdll.dll
+1988 0x000e6b5e 0x1800e815e 18  19   .rdata  ascii   __CxxFrameHandler3
+1989 0x000e6b74 0x1800e8174 7   8    .rdata  ascii   memmove
+1990 0x000e6b7e 0x1800e817e 6   7    .rdata  ascii   memcpy
+1991 0x000e6b88 0x1800e8188 9   10   .rdata  ascii   _purecall
+1992 0x000e6b94 0x1800e8194 6   7    .rdata  ascii   memcmp
+1993 0x000e6b9e 0x1800e819e 6   7    .rdata  ascii   strstr
+1994 0x000e6ba8 0x1800e81a8 6   7    .rdata  ascii   memset
+1995 0x000e6bb2 0x1800e81b2 20  21   .rdata  ascii   __std_type_info_name
+1996 0x000e6bca 0x1800e81ca 10  11   .rdata  ascii   __RTtypeid
+1997 0x000e6bd8 0x1800e81d8 6   7    .rdata  ascii   wcsstr
+1998 0x000e6be2 0x1800e81e2 15  16   .rdata  ascii   __std_terminate
+1999 0x000e6bf4 0x1800e81f4 20  21   .rdata  ascii   __C_specific_handler
+2000 0x000e6c0c 0x1800e820c 28  29   .rdata  ascii   __std_type_info_destroy_list
+2001 0x000e6c2c 0x1800e822c 20  21   .rdata  ascii   __std_exception_copy
+2002 0x000e6c44 0x1800e8244 23  24   .rdata  ascii   __std_exception_destroy
+2003 0x000e6c5e 0x1800e825e 18  19   .rdata  ascii   _CxxThrowException
+2004 0x000e6c72 0x1800e8272 16  17   .rdata  ascii   VCRUNTIME140.dll
+2005 0x000e6c86 0x1800e8286 6   7    .rdata  ascii   strcpy
+2006 0x000e6c90 0x1800e8290 6   7    .rdata  ascii   strcmp
+2007 0x000e6c9a 0x1800e829a 7   8    .rdata  ascii   strncpy
+2008 0x000e6ca4 0x1800e82a4 8   9    .rdata  ascii   wcstombs
+2009 0x000e6cb0 0x1800e82b0 6   7    .rdata  ascii   strlen
+2010 0x000e6cba 0x1800e82ba 23  24   .rdata  ascii   __stdio_common_vsprintf
+2011 0x000e6cd4 0x1800e82d4 22  23   .rdata  ascii   __stdio_common_vsscanf
+2012 0x000e6cee 0x1800e82ee 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+2013 0x000e6d14 0x1800e8314 6   7    .rdata  ascii   wcslen
+2014 0x000e6d1e 0x1800e831e 8   9    .rdata  ascii   _wcsicmp
+2015 0x000e6d2a 0x1800e832a 23  24   .rdata  ascii   __stdio_common_vswscanf
+2016 0x000e6d44 0x1800e8344 24  25   .rdata  ascii   __stdio_common_vswprintf
+2017 0x000e6d60 0x1800e8360 4   5    .rdata  ascii   free
+2018 0x000e6d68 0x1800e8368 10  11   .rdata  ascii   mbstowcs_s
+2019 0x000e6d76 0x1800e8376 25  26   .rdata  ascii   __stdio_common_vsprintf_s
+2020 0x000e6d92 0x1800e8392 7   8    .rdata  ascii   strncmp
+2021 0x000e6d9c 0x1800e839c 26  27   .rdata  ascii   __stdio_common_vswprintf_s
+2022 0x000e6dba 0x1800e83ba 9   10   .rdata  ascii   _callnewh
+2023 0x000e6dc6 0x1800e83c6 6   7    .rdata  ascii   malloc
+2024 0x000e6dd0 0x1800e83d0 15  16   .rdata  ascii   _seh_filter_dll
+2025 0x000e6de2 0x1800e83e2 22  23   .rdata  ascii   _configure_narrow_argv
+2026 0x000e6dfc 0x1800e83fc 30  31   .rdata  ascii   _initialize_narrow_environment
+2027 0x000e6e1e 0x1800e841e 24  25   .rdata  ascii   _initialize_onexit_table
+2028 0x000e6e3a 0x1800e843a 25  26   .rdata  ascii   _register_onexit_function
+2029 0x000e6e56 0x1800e8456 21  22   .rdata  ascii   _execute_onexit_table
+2030 0x000e6e6e 0x1800e846e 11  12   .rdata  ascii   _crt_atexit
+2031 0x000e6e7c 0x1800e847c 6   7    .rdata  ascii   _cexit
+2032 0x000e6e86 0x1800e8486 9   10   .rdata  ascii   terminate
+2033 0x000e6e92 0x1800e8492 9   10   .rdata  ascii   _initterm
+2034 0x000e6e9e 0x1800e849e 11  12   .rdata  ascii   _initterm_e
+2035 0x000e6eac 0x1800e84ac 8   9    .rdata  ascii   _stricmp
+2036 0x000e6eb6 0x1800e84b6 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+2037 0x000e6ed8 0x1800e84d8 33  34   .rdata  ascii   api-ms-win-crt-convert-l1-1-0.dll
+2038 0x000e6efa 0x1800e84fa 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+2039 0x000e6f1a 0x1800e851a 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+2040 0x000e6f3c 0x1800e853c 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+2041 0x000e6f5e 0x1800e855e 24  25   .rdata  ascii   UnhandledExceptionFilter
+2042 0x000e6f7a 0x1800e857a 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+2043 0x000e6f98 0x1800e8598 16  17   .rdata  ascii   TerminateProcess
+2044 0x000e6fac 0x1800e85ac 25  26   .rdata  ascii   IsProcessorFeaturePresent
+2045 0x000e6fc8 0x1800e85c8 20  21   .rdata  ascii   EnterCriticalSection
+2046 0x000e6fe0 0x1800e85e0 20  21   .rdata  ascii   LeaveCriticalSection
+2047 0x000e6ff8 0x1800e85f8 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+2048 0x000e7020 0x1800e8620 10  11   .rdata  ascii   ResetEvent
+2049 0x000e702e 0x1800e862e 12  13   .rdata  ascii   CreateEventW
+2050 0x000e703e 0x1800e863e 16  17   .rdata  ascii   GetModuleHandleW
+2051 0x000e7052 0x1800e8652 19  20   .rdata  ascii   InitializeSListHead
+2052 0x000e7068 0x1800e8668 17  18   .rdata  ascii   IsDebuggerPresent
+2053 0x000e707c 0x1800e867c 23  24   .rdata  ascii   QueryPerformanceCounter
+2054 0x000e7096 0x1800e8696 19  20   .rdata  ascii   GetCurrentProcessId
+2055 0x000e70ac 0x1800e86ac 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+2056 0x000e70c6 0x1800e86c6 25  26   .rdata  ascii   DisableThreadLibraryCalls
+2057 0x000e70e2 0x1800e86e2 18  19   .rdata  ascii   OutputDebugStringW
+2058 0x000e70f8 0x1800e86f8 15  16   .rdata  ascii   __RTDynamicCast
+2059 0x000e72d0 0x1800e90d0 15  16   .data   ascii   .?AVtype_info@@
+2060 0x000e72f0 0x1800e90f0 19  20   .data   ascii   .?AVbad_alloc@std@@
+2061 0x000e7318 0x1800e9118 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+2062 0x000e7348 0x1800e9148 20  21   .data   ascii   .?AUIStorageDevice@@
+2063 0x000e7370 0x1800e9170 18  19   .data   ascii   .?AUIBlockDevice@@
+2064 0x000e7398 0x1800e9198 13  14   .data   ascii   .?AUIObject@@
+2065 0x000e73b8 0x1800e91b8 25  26   .data   ascii   .?AVDiskManagerItemProc@@
+2066 0x000e73e8 0x1800e91e8 14  15   .data   ascii   .?AUILdmDisk@@
+2067 0x000e7408 0x1800e9208 14  15   .data   ascii   .?AVDmrpDisk@@
+2068 0x000e7428 0x1800e9228 17  18   .data   ascii   .?AUILdmManager@@
+2069 0x000e7450 0x1800e9250 16  17   .data   ascii   .?AVDmrpModule@@
+2070 0x000e7478 0x1800e9278 22  23   .data   ascii   .?AUIVolumeEntryInfo@@
+2071 0x000e74a0 0x1800e92a0 19  20   .data   ascii   .?AVDisk_EP_Cache@@
+2072 0x000e74c8 0x1800e92c8 23  24   .data   ascii   .?AUIDMNotify@MS_DMRP@@
+2073 0x000e74f0 0x1800e92f0 16  17   .data   ascii   .?AVDmrpNotify@@
+2074 0x000e7518 0x1800e9318 14  15   .data   ascii   .?AUIUnknown@@
+2075 0x000e7540 0x1800e9340 189 190  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAVDmrpVolume@@@Z@2@$00@dnc@@
+2076 0x000e7610 0x1800e9410 16  17   .data   ascii   .?AUILdmVolume@@
+2077 0x000e7638 0x1800e9438 16  17   .data   ascii   .?AUIErrorBase@@
+2078 0x000e7660 0x1800e9460 79  80   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@XZ@dnc@@
+2079 0x000e76c0 0x1800e94c0 27  28   .data   ascii   .?AVFunctorObjectBase@dnc@@
+2080 0x000e76f0 0x1800e94f0 30  31   .data   ascii   .?AVWin32VolumeStorageDevice@@
+2081 0x000e7720 0x1800e9520 16  17   .data   ascii   .?AVDmrpVolume@@
+2082 0x000e7748 0x1800e9548 46  47   .data   ascii   .?AV?$CMomObject@VWin32VolumeStorageDevice@@@@
+2083 0x000e7790 0x1800e9590 98  99   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAVDmrpVolume@@@Z@dnc@@
+2084 0x000e7808 0x1800e9608 21  22   .data   ascii   .?AU__MomObjectFlag@@
+2085 0x000e7830 0x1800e9630 102 103  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAVDmrpVolume@@@Z@dnc@@
+2086 0x000e78a8 0x1800e96a8 19  20   .data   ascii   .?AVexception@std@@
+2087 0x000e78d0 0x1800e96d0 17  18   .data   ascii   .?AVDummyVolume@@
+2088 0x000e78f8 0x1800e96f8 18  19   .data   ascii   .?AUIDummyVolume@@
+2089 0x000e7920 0x1800e9720 16  17   .data   ascii   .?AUIDiskEntry@@
+2090 0x000e7948 0x1800e9748 19  20   .data   ascii   .?AUIDiskGeometry@@
+2091 0x000e7970 0x1800e9770 21  22   .data   ascii   .?AUIDiskDeviceType@@
+2092 0x000e7998 0x1800e9798 15  16   .data   ascii   .?AUIIterator@@
+2093 0x000e79b8 0x1800e97b8 27  28   .data   ascii   .?AVEditLdm2MoveResizeVol@@
+2094 0x000e79e8 0x1800e97e8 27  28   .data   ascii   .?AVEditLdm2UpdateLdmData@@
+2095 0x000e7a20 0x1800e9820 68  69   .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VVdsModule@@@@XZ@dnc@@
+2096 0x000e7a78 0x1800e9878 34  35   .data   ascii   .?AV?$CMomObject@VNativeModule@@@@
+2097 0x000e7ab0 0x1800e98b0 31  32   .data   ascii   .?AV?$CMomObject@VVdsModule@@@@
+2098 0x000e7ae0 0x1800e98e0 67  68   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VNativeModule@@@@XZ@dnc@@
+2099 0x000e7b40 0x1800e9940 71  72   .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VNativeModule@@@@XZ@dnc@@
+2100 0x000e7b98 0x1800e9998 23  24   .data   ascii   .?AVCAtlException@ATL@@
+2101 0x000e7bc0 0x1800e99c0 64  65   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VVdsModule@@@@XZ@dnc@@
+2102 0x000e7c20 0x1800e9a20 65  66   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VDmrpModule@@@@XZ@dnc@@
+2103 0x000e7c78 0x1800e9a78 15  16   .data   ascii   .?AVVdsModule@@
+2104 0x000e7ca0 0x1800e9aa0 94  95   .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VDmrpModule@@@@XZ@dnc@@V12@$0A@@dnc@@
+2105 0x000e7d10 0x1800e9b10 93  94   .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VVdsModule@@@@XZ@dnc@@V12@$0A@@dnc@@
+2106 0x000e7d80 0x1800e9b80 96  97   .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VNativeModule@@@@XZ@dnc@@V12@$0A@@dnc@@
+2107 0x000e7df8 0x1800e9bf8 18  19   .data   ascii   .?AVNativeModule@@
+2108 0x000e7e20 0x1800e9c20 69  70   .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VDmrpModule@@@@XZ@dnc@@
+2109 0x000e7e78 0x1800e9c78 16  17   .data   ascii   .?AVLdmManager@@
+2110 0x000e7ea0 0x1800e9ca0 32  33   .data   ascii   .?AV?$CMomObject@VDmrpModule@@@@
+2111 0x000e7ed8 0x1800e9cd8 23  24   .data   ascii   .?AUILdmManagerModule@@
+2112 0x000e7f00 0x1800e9d00 73  74   .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VLdmManagerStub@@@@XZ@dnc@@
+2113 0x000e7f60 0x1800e9d60 17  18   .data   ascii   .?AUIThreadBase@@
+2114 0x000e7f90 0x1800e9d90 98  99   .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VLdmManagerStub@@@@XZ@dnc@@V12@$0A@@dnc@@
+2115 0x000e8008 0x1800e9e08 13  14   .data   ascii   .?AUIModule@@
+2116 0x000e8028 0x1800e9e28 36  37   .data   ascii   .?AV?$CMomObject@VLdmManagerStub@@@@
+2117 0x000e8060 0x1800e9e60 69  70   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VLdmManagerStub@@@@XZ@dnc@@
+2118 0x000e80c0 0x1800e9ec0 61  62   .data   ascii   .?AV?$CMomEventObject@V?$CModuleImpl@VCLdmManagerModule@@@@@@
+2119 0x000e8110 0x1800e9f10 56  57   .data   ascii   .?AV?$CMomObject@V?$CModuleImpl@VCLdmManagerModule@@@@@@
+2120 0x000e8160 0x1800e9f60 20  21   .data   ascii   .?AVLdmManagerStub@@
+2121 0x000e8188 0x1800e9f88 40  41   .data   ascii   .?AV?$CModuleImpl@VCLdmManagerModule@@@@
+2122 0x000e81c8 0x1800e9fc8 23  24   .data   ascii   .?AVCLdmManagerModule@@
+2123 0x000e81f0 0x1800e9ff0 82  83   .data   ascii   .?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCLdmManagerModule@@@@@@@@
+2124 0x000e8258 0x1800ea058 25  26   .data   ascii   .?AVMirrorVolumeStorage@@
+2125 0x000e8290 0x1800ea090 189 190  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAUILdmVolume@@@Z@2@$00@dnc@@
+2126 0x000e8360 0x1800ea160 102 103  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAUILdmVolume@@@Z@dnc@@
+2127 0x000e83e0 0x1800ea1e0 98  99   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAUILdmVolume@@@Z@dnc@@
+2128 0x000e8458 0x1800ea258 16  17   .data   ascii   .?AVNativeDisk@@
+2129 0x000e8480 0x1800ea280 18  19   .data   ascii   .?AVNativeVolume@@
+2130 0x000e84a8 0x1800ea2a8 27  28   .data   ascii   .?AVPolicyOfVolResizeMove@@
+2131 0x000e84d8 0x1800ea2d8 32  33   .data   ascii   .?AUIDiskDriveLayoutReadWriter@@
+2132 0x000e8510 0x1800ea310 22  23   .data   ascii   .?AVIPartitionDevice@@
+2133 0x000e8538 0x1800ea338 24  25   .data   ascii   .?AVRaid5VolumeStorage@@
+2134 0x000e8568 0x1800ea368 25  26   .data   ascii   .?AVSimpleVolumeStorage@@
+2135 0x000e8598 0x1800ea398 23  24   .data   ascii   .?AVSpanVolumeStorage@@
+2136 0x000e85c0 0x1800ea3c0 25  26   .data   ascii   .?AVStripeVolumeStorage@@
+2137 0x000e85f0 0x1800ea3f0 21  22   .data   ascii   .?AUIPartitionEntry@@
+2138 0x000e8618 0x1800ea418 13  14   .data   ascii   .?AVVdsDisk@@
+2139 0x000e8638 0x1800ea438 15  16   .data   ascii   .?AVVdsVolume@@
+2140 0x000e8658 0x1800ea458 27  28   .data   ascii   .?AUIVdsAdviseSink@MS_VDS@@
+2141 0x000e8688 0x1800ea488 15  16   .data   ascii   .?AVVdsNotify@@
+2142 0x000e86b0 0x1800ea4b0 101 102  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAVVdsVolume@@@Z@dnc@@
+2143 0x000e8730 0x1800ea530 188 189  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAVVdsVolume@@@Z@2@$00@dnc@@
+2144 0x000e8800 0x1800ea600 97  98   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VWin32VolumeStorageDevice@@@@AEBQEAVVdsVolume@@@Z@dnc@@
+2145 0x000e8880 0x1800ea680 199 200  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VMirrorVolumeStorage@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomObject@VMirrorVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@2@$01@dnc@@
+2146 0x000e8960 0x1800ea760 73  74   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VRaid5VolumeStorage@@@@XZ@dnc@@
+2147 0x000e89c0 0x1800ea7c0 111 112  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VSpanVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2148 0x000e8a40 0x1800ea840 72  73   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VSpanVolumeStorage@@@@XZ@dnc@@
+2149 0x000e8aa0 0x1800ea8a0 41  42   .data   ascii   .?AV?$CMomObject@VStripeVolumeStorage@@@@
+2150 0x000e8ae0 0x1800ea8e0 116 117  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VRaid5VolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2151 0x000e8b70 0x1800ea970 113 114  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VStripeVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2152 0x000e8c00 0x1800eaa00 195 196  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VSpanVolumeStorage@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomObject@VSpanVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@2@$01@dnc@@
+2153 0x000e8ce0 0x1800eaae0 113 114  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VSimpleVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2154 0x000e8d70 0x1800eab70 74  75   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VMirrorVolumeStorage@@@@XZ@dnc@@
+2155 0x000e8dd0 0x1800eabd0 199 200  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VStripeVolumeStorage@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomObject@VStripeVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@2@$01@dnc@@
+2156 0x000e8eb0 0x1800eacb0 113 114  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VMirrorVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2157 0x000e8f40 0x1800ead40 197 198  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VRaid5VolumeStorage@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomObject@VRaid5VolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@2@$01@dnc@@
+2158 0x000e9020 0x1800eae20 115 116  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VSpanVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2159 0x000e90a8 0x1800eaea8 40  41   .data   ascii   .?AV?$CMomObject@VRaid5VolumeStorage@@@@
+2160 0x000e90f0 0x1800eaef0 74  75   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VSimpleVolumeStorage@@@@XZ@dnc@@
+2161 0x000e9150 0x1800eaf50 199 200  .data   ascii   .?AV?$FunctorBindObject@V?$Functor@$$A6APEAV?$CMomObject@VSimpleVolumeStorage@@@@XZ@dnc@@V?$Functor@$$A6APEAV?$CMomObject@VSimpleVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@2@$01@dnc@@
+2162 0x000e9228 0x1800eb028 41  42   .data   ascii   .?AV?$CMomObject@VMirrorVolumeStorage@@@@
+2163 0x000e9270 0x1800eb070 112 113  .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VRaid5VolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2164 0x000e9300 0x1800eb100 117 118  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VStripeVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2165 0x000e9388 0x1800eb188 41  42   .data   ascii   .?AV?$CMomObject@VSimpleVolumeStorage@@@@
+2166 0x000e93d0 0x1800eb1d0 74  75   .data   ascii   .?AV?$FunctorObject@$$A6APEAV?$CMomObject@VStripeVolumeStorage@@@@XZ@dnc@@
+2167 0x000e9430 0x1800eb230 117 118  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VMirrorVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2168 0x000e94b8 0x1800eb2b8 39  40   .data   ascii   .?AV?$CMomObject@VSpanVolumeStorage@@@@
+2169 0x000e94f0 0x1800eb2f0 117 118  .data   ascii   .?AV?$ConstructFunction@$$A6APEAV?$CMomObject@VSimpleVolumeStorage@@@@AEBQEAUVOLUME_SPEC@@AEBQEAUILdmVolume@@@Z@dnc@@
+2170 0x000f3860 0x1800f8060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

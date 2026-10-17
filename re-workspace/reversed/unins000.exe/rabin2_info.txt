@@ -1,0 +1,32 @@
+arch     x86
+baddr    0x400000
+binsz    1259408
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x001393d8
+compiled Tue Feb 25 06:28:05 2031
+crypto   false
+endian   little
+havecode true
+hdr.csum 0x001393d8
+laddr    0x0
+lang     c
+linenum  true
+lsyms    true
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   true
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

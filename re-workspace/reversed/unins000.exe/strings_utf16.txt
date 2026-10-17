@@ -1,0 +1,1842 @@
+SOFTWARE\Borland\Delphi\RTL
+FPUMaskValue
+kernel32.dll
+Software\CodeGear\Locales
+Software\Borland\Locales
+Software\Borland\Delphi\Locales
+Magellan MSWHEEL
+MouseZ
+MSWHEEL_ROLLMSG
+MSH_WHEELSUPPORT_MSG
+MSH_SCROLL_LINES_MSG
+CHARTABLE
+@INFNAN
+m/d/yy
+mmmm d, yyyy
+:mm:ss
+kernel32.dll
+GetDiskFreeSpaceExW
+oleaut32.dll
+Smallint
+Integer
+Single
+Double
+Currency
+OleStr
+Dispatch
+Boolean
+Variant
+Unknown
+Decimal
+ShortInt
+LongWord
+UInt64
+String
+UnicodeString
+Array 
+ByRef 
+Strings
+TPUtilWindow
+jjjjjj
+GetMonitorInfoA
+GetSystemMetrics
+MonitorFromRect
+MonitorFromWindow
+MonitorFromPoint
+GetMonitorInfoW
+DISPLAY
+GetMonitorInfoA
+DISPLAY
+GetMonitorInfoW
+DISPLAY
+EnumDisplayMonitors
+USER32.DLL
+clBlack
+clMaroon
+clGreen
+clOlive
+clNavy
+clPurple
+clTeal
+clGray
+clSilver
+clLime
+clYellow
+clBlue
+clFuchsia
+clAqua
+clWhite
+clMoneyGreen
+clSkyBlue
+clCream
+clMedGray
+clActiveBorder
+clActiveCaption
+clAppWorkSpace
+clBackground
+clBtnFace
+clBtnHighlight
+clBtnShadow
+clBtnText
+clCaptionText
+clDefault
+clGradientActiveCaption
+clGradientInactiveCaption
+clGrayText
+clHighlight
+clHighlightText
+clHotLight
+clInactiveBorder
+clInactiveCaption
+clInactiveCaptionText
+clInfoBk
+clInfoText
+clMenu
+clMenuBar
+clMenuHighlight
+clMenuText
+clNone
+clScrollBar
+cl3DDkShadow
+cl3DLight
+clWindow
+clWindowFrame
+clWindowText
+ANSI_CHARSET
+DEFAULT_CHARSET
+SYMBOL_CHARSET
+MAC_CHARSET
+SHIFTJIS_CHARSET
+HANGEUL_CHARSET
+JOHAB_CHARSET
+GB2312_CHARSET
+CHINESEBIG5_CHARSET
+GREEK_CHARSET
+TURKISH_CHARSET
+HEBREW_CHARSET
+ARABIC_CHARSET
+BALTIC_CHARSET
+RUSSIAN_CHARSET
+THAI_CHARSET
+EASTEUROPE_CHARSET
+OEM_CHARSET
+Default
+Tahoma
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes
+MS Shell Dlg 2
+OleMainThreadWndClass
+ole32.dll
+CoWaitForMultipleHandles
+kernel32.dll
+InitializeConditionVariable
+WakeConditionVariable
+WakeAllConditionVariable
+SleepConditionVariableCS
+DrawThemeTextEx
+BeginBufferedPaint
+EndBufferedPaint
+BufferedPaintSetAlpha
+uxtheme.dll
+OpenThemeData
+CloseThemeData
+DrawThemeBackground
+DrawThemeText
+GetThemeBackgroundContentRect
+GetThemeBackgroundExtent
+GetThemePartSize
+GetThemeTextExtent
+GetThemeTextMetrics
+GetThemeBackgroundRegion
+HitTestThemeBackground
+DrawThemeEdge
+DrawThemeIcon
+IsThemePartDefined
+IsThemeBackgroundPartiallyTransparent
+GetThemeColor
+GetThemeMetric
+GetThemeString
+GetThemeBool
+GetThemeInt
+GetThemeEnumValue
+GetThemePosition
+GetThemeFont
+GetThemeRect
+GetThemeMargins
+GetThemeIntList
+GetThemePropertyOrigin
+SetWindowTheme
+GetThemeFilename
+GetThemeSysColor
+GetThemeSysColorBrush
+GetThemeSysBool
+GetThemeSysSize
+GetThemeSysFont
+GetThemeSysString
+GetThemeSysInt
+IsThemeActive
+IsAppThemed
+GetWindowTheme
+EnableThemeDialogTexture
+IsThemeDialogTextureEnabled
+GetThemeAppProperties
+SetThemeAppProperties
+GetCurrentThemeName
+GetThemeDocumentationProperty
+DrawThemeParentBackground
+EnableTheming
+DWMAPI.DLL
+DwmExtendFrameIntoClientArea
+DWMAPI.DLL
+DwmIsCompositionEnabled
+clWebSnow
+clWebFloralWhite
+clWebLavenderBlush
+clWebOldLace
+clWebIvory
+clWebCornSilk
+clWebBeige
+clWebAntiqueWhite
+clWebWheat
+clWebAliceBlue
+clWebGhostWhite
+clWebLavender
+clWebSeashell
+clWebLightYellow
+clWebPapayaWhip
+clWebNavajoWhite
+clWebMoccasin
+clWebBurlywood
+clWebAzure
+clWebMintcream
+clWebHoneydew
+clWebLinen
+clWebLemonChiffon
+clWebBlanchedAlmond
+clWebBisque
+clWebPeachPuff
+clWebTan
+clWebYellow
+clWebDarkOrange
+clWebRed
+clWebDarkRed
+clWebMaroon
+clWebIndianRed
+clWebSalmon
+clWebCoral
+clWebGold
+clWebTomato
+clWebCrimson
+clWebBrown
+clWebChocolate
+clWebSandyBrown
+clWebLightSalmon
+clWebLightCoral
+clWebOrange
+clWebOrangeRed
+clWebFirebrick
+clWebSaddleBrown
+clWebSienna
+clWebPeru
+clWebDarkSalmon
+clWebRosyBrown
+clWebPaleGoldenrod
+clWebLightGoldenrodYellow
+clWebOlive
+clWebForestGreen
+clWebGreenYellow
+clWebChartreuse
+clWebLightGreen
+clWebAquamarine
+clWebSeaGreen
+clWebGoldenRod
+clWebKhaki
+clWebOliveDrab
+clWebGreen
+clWebYellowGreen
+clWebLawnGreen
+clWebPaleGreen
+clWebMediumAquamarine
+clWebMediumSeaGreen
+clWebDarkGoldenRod
+clWebDarkKhaki
+clWebDarkOliveGreen
+clWebDarkgreen
+clWebLimeGreen
+clWebLime
+clWebSpringGreen
+clWebMediumSpringGreen
+clWebDarkSeaGreen
+clWebLightSeaGreen
+clWebPaleTurquoise
+clWebLightCyan
+clWebLightBlue
+clWebLightSkyBlue
+clWebCornFlowerBlue
+clWebDarkBlue
+clWebIndigo
+clWebMediumTurquoise
+clWebTurquoise
+clWebCyan
+clWebPowderBlue
+clWebSkyBlue
+clWebRoyalBlue
+clWebMediumBlue
+clWebMidnightBlue
+clWebDarkTurquoise
+clWebCadetBlue
+clWebDarkCyan
+clWebTeal
+clWebDeepskyBlue
+clWebDodgerBlue
+clWebBlue
+clWebNavy
+clWebDarkViolet
+clWebDarkOrchid
+clWebMagenta
+clWebDarkMagenta
+clWebMediumVioletRed
+clWebPaleVioletRed
+clWebBlueViolet
+clWebMediumOrchid
+clWebMediumPurple
+clWebPurple
+clWebDeepPink
+clWebLightPink
+clWebViolet
+clWebOrchid
+clWebPlum
+clWebThistle
+clWebHotPink
+clWebPink
+clWebLightSteelBlue
+clWebMediumSlateBlue
+clWebLightSlateGray
+clWebWhite
+clWebLightgrey
+clWebGray
+clWebSteelBlue
+clWebSlateBlue
+clWebSlateGray
+clWebWhiteSmoke
+clWebSilver
+clWebDimGray
+clWebMistyRose
+clWebDarkSlateBlue
+clWebDarkSlategray
+clWebGainsboro
+clWebDarkGray
+clWebBlack
+COMBOBOX
+BUTTON
+BUTTON
+BUTTON
+LISTBOX
+Cancel
+Ignore
+NoToAll
+YesToAll
+commdlg_help
+commdlg_FindReplace
+WndProcPtr%.8X%.8X
+comctl32.dll
+InitializeFlatSB
+UninitializeFlatSB
+FlatSB_GetScrollProp
+FlatSB_SetScrollProp
+FlatSB_EnableScrollBar
+FlatSB_ShowScrollBar
+FlatSB_GetScrollRange
+FlatSB_GetScrollInfo
+FlatSB_GetScrollPos
+FlatSB_SetScrollPos
+FlatSB_SetScrollInfo
+FlatSB_SetScrollRange
+1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ShortCutText
+\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\
+Layout File
+KbdLayerDescriptor
+crDefault
+crArrow
+crCross
+crIBeam
+crSizeNESW
+crSizeNS
+crSizeNWSE
+crSizeWE
+crUpArrow
+crHourGlass
+crDrag
+crNoDrop
+crHSplit
+crVSplit
+crMultiDrag
+crSQLWait
+crAppStart
+crHelp
+crHandPoint
+crSizeAll
+crSize
+%s (%s)
+IsControl
+ExplicitLeft
+ExplicitTop
+ExplicitWidth
+ExplicitHeight
+DesignSize
+USER32
+WINNLSEnableIME
+imm32.dll
+ImmGetContext
+ImmReleaseContext
+ImmGetConversionStatus
+ImmSetConversionStatus
+ImmSetOpenStatus
+ImmSetCompositionWindow
+ImmSetCompositionFontW
+ImmGetCompositionStringW
+ImmIsIME
+ImmNotifyIME
+Delphi%.8X
+ControlOfs%.8X%.8X
+USER32
+AnimateWindow
+Theme manager 
+ 2001-2006 Mike Lischke
+button
+combobox
+explorerbar
+header
+listview
+progress
+scrollbar
+startpanel
+status
+taskband
+taskbar
+toolbar
+tooltip
+trackbar
+traynotify
+treeview
+window
+BDSUnthemedDesigner
+comctl32.dll
+Bitmap
+comctl32.dll
+comctl32.dll
+ImageList_WriteEx
+PixelsPerInch
+TextHeight
+IgnoreFontProperty
+MDICLIENT
+System\CurrentControlSet\Control\Keyboard Layouts\%.8x
+layout text
+TApplication
+MAINICON
+user32.dll
+SetLayeredWindowAttributes
+x1234x
+x5678x
+GetSystemWow64DirectoryW
+kernel32.dll
+..\Sysnative
+USERPROFILE
+RegDeleteKeyExW
+advapi32.dll
+jjjjjj
+CheckTokenMembership
+advapi32.dll
+GetUserDefaultUILanguage
+kernel32.dll
+.DEFAULT\Control Panel\International
+Locale
+Control Panel\Desktop\ResourceLocale
+[ExceptObject=nil]
+Microsoft Sans Serif
+MS Sans Serif
+ChangeWindowMessageFilter
+user32.dll
+ChangeWindowMessageFilterEx
+user32.dll
+ShutdownBlockReasonCreate
+user32.dll
+ShutdownBlockReasonDestroy
+user32.dll
+shlwapi.dll
+SHAutoComplete
+@TWindowDisabler-Window
+jjjjjj
+TWindowDisabler-Window
+Unknown
+Itanium
+jjjjjj
+Apartment
+Neutral
+%s, ClassID: %s
+%s, ProgID: "%s"
+ole32.dll
+CoCreateInstanceEx
+CoInitializeEx
+CoAddRefServerProcess
+CoReleaseServerProcess
+CoResumeClassObjects
+CoSuspendClassObjects
+jjjjjjjj
+STATIC
+uxtheme.dll
+OpenThemeData
+CloseThemeData
+DrawThemeBackground
+DrawThemeText
+GetThemeBackgroundContentRect
+GetThemePartSize
+GetThemeTextExtent
+GetThemeTextMetrics
+GetThemeBackgroundRegion
+HitTestThemeBackground
+DrawThemeEdge
+DrawThemeIcon
+IsThemePartDefined
+IsThemeBackgroundPartiallyTransparent
+GetThemeColor
+GetThemeMetric
+GetThemeString
+GetThemeBool
+GetThemeInt
+GetThemeEnumValue
+GetThemePosition
+GetThemeFont
+GetThemeRect
+GetThemeMargins
+GetThemeIntList
+GetThemePropertyOrigin
+SetWindowTheme
+GetThemeFilename
+GetThemeSysColor
+GetThemeSysColorBrush
+GetThemeSysBool
+GetThemeSysSize
+GetThemeSysFont
+GetThemeSysString
+GetThemeSysInt
+IsThemeActive
+IsAppThemed
+GetWindowTheme
+EnableThemeDialogTexture
+IsThemeDialogTextureEnabled
+GetThemeAppProperties
+SetThemeAppProperties
+GetCurrentThemeName
+GetThemeDocumentationProperty
+DrawThemeParentBackground
+EnableTheming
+oleacc.dll
+LresultFromObject
+CreateStdAccessibleObject
+Button
+Radio item cannot have disabled child items
+List item and state item count mismatch
+CreateStdAccessibleObject failed
+msctls_progress32
+MSFTEDIT.DLL
+RICHED20.DLL
+RICHEDIT50W
+RichEdit20W
+Rstrtmgr.dll
+RmStartSession
+RmRegisterResources
+RmGetList
+RmShutdown
+RmRestart
+RmEndSession
+File I/O error %d
+Unexpected end of stream
+Compressed block is corrupted
+Compressed block is corrupted
+Compressed block is corrupted
+The setup files are corrupted. Please obtain a new copy of the program.
+Messages file "%s" is missing. Please correct the problem or obtain a new copy of the program.
+0x%.8x
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKEY_USERS
+HKEY_PERFORMANCE_DATA
+HKEY_CURRENT_CONFIG
+HKEY_DYN_DATA
+jjjjjjj
+jjjjjjj
+WININIT.INI
+[rename]
+DeleteFile
+MoveFile
+MoveFileEx
+Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+RegCreateKeyEx
+Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+RegOpenKeyEx
+sfc.dll
+SfcIsFileProtected
+cmd.exe" /C "
+COMMAND.COM" /C 
+SeShutdownPrivilege
+SYSTEM\CurrentControlSet\Control\Session Manager
+PendingFileRenameOperations
+PendingFileRenameOperations2
+WININIT.INI
+SYSTEM\CurrentControlSet\Control\Session Manager
+PendingFileRenameOperations
+PendingFileRenameOperations2
+WININIT.INI
+[rename]
+@Software\Microsoft\Windows\CurrentVersion\Fonts
+Software\Microsoft\Windows NT\CurrentVersion\Fonts
+GetDiskFreeSpaceExW
+kernel32.dll
+Environment
+{pf32}\
+%ProgramFiles(x86)%\
+IPropertyStore::SetValue(PKEY_AppUserModel_PreventPinning)
+IPropertyStore::SetValue(PKEY_AppUserModel_ID)
+IPropertyStore::SetValue(PKEY_AppUserModel_ExcludeFromShowInNewInstall)
+IPropertyStore::SetValue(PKEY_AppUserModel_StartPinOption)
+IPropertyStore::Commit
+IPersistFile::Save
+LoadTypeLib
+RegisterTypeLib
+UnRegisterTypeLib
+OLEAUT32.DLL
+GetProcAddress
+LoadTypeLib
+ITypeLib::GetLibAttr
+UnRegisterTypeLib
+CoInitialize failed (0x%.8x)
+Cannot debug. Debugger version ($%.8x) does not match Setup version ($%.8x)
+Failed to create DebugClientWnd
+[Paused] 
+Cannot evaluate variable because [Code] isn't running yet
+Log opened. (Time zone: UTC%s%.2u:%.2u)
+%.4u-%.2u-%.2u
+%s Log %s #%.3u.txt
+%.4u-%.2u-%.2u %.2u:%.2u:%.2u.%.3u   
+                          
+Log closed.
+MsgWaitForMultipleObjects
+GetExitCodeProcess
+regsvr32.exe"
+Spawning 64-bit RegSvr32: 
+Spawning 32-bit RegSvr32: 
+CreateProcess
+Cannot register 64-bit DLLs on this version of Windows
+HELPER_EXE_AMD64
+FillWideCharBuffer: Invalid Buf
+FillWideCharBuffer: String too long
+Starting 64-bit helper process.
+Cannot utilize 64-bit features on this version of Windows
+64-bit helper EXE wasn't extracted
+\\.\pipe\InnoSetup64BitHelper-%.8x-%.8x-%.8x-%.8x%.8x
+CreateNamedPipe
+CreateFile
+SetNamedPipeHandleState
+helper %d 0x%x
+CreateProcess
+Helper process PID: %u
+Stopping 64-bit helper process. (PID: %u)
+Helper isn't responding; killing it.
+Helper process exited.
+Helper process exited with failure code: 0x%x
+Helper process exited, but failed to get exit code.
+CreateEvent
+TransactNamedPipe
+TransactNamedPipe/GetOverlappedResult
+Helper: Response message has wrong size
+Helper: Wrong sequence number
+Helper: Command did not execute
+Exception while communicating with helper:
+Ping failed; helper seems to have died.
+HelperGrantPermission: Invalid entry count
+LoadTypeLib
+RegisterTypeLib
+ITypeLib::GetLibAttr
+UnRegisterTypeLib
+HelperRegisterTypeLibrary: StatusCode invalid
+SOFTWARE\Microsoft\.NETFramework
+InstallRoot
+.NET Framework not found
+SOFTWARE\Microsoft\.NETFramework\Policy\v4.0
+v4.0.30319
+SOFTWARE\Microsoft\.NETFramework\Policy\v2.0
+v2.0.50727
+SOFTWARE\Microsoft\.NETFramework\Policy\v1.1
+v1.1.4322
+.NET Framework version %s not found
+.NET Framework not found
+jjjjjjjj
+Fusion.dll
+Failed to load .NET Framework DLL "%s"
+CreateAssemblyCache
+Failed to get address of .NET Framework CreateAssemblyCache function
+.NET Framework CreateAssemblyCache function failed
+InstallAssembly
+UninstallAssembly
+MoveFileEx failed (%d).
+Deleting directory: %s
+Stripped read-only attribute.
+Failed to strip read-only attribute.
+Not stripping read-only attribute because the directory does not appear to be empty.
+Failed to delete directory (%d). Will retry later.
+Failed to delete directory (%d). Will delete on restart (if empty).
+Failed to delete directory (%d).
+DataSize range exceeded
+Deleting file: %s
+Failed to delete the file; it may be in use (%d).
+Deleting file: %s
+Stripped read-only attribute.
+Failed to strip read-only attribute.
+The file appears to be in use (%d). Will delete on restart.
+Exception message:
+Failed to delete the file; it may be in use (%d).
+Decrementing shared count (%d-bit): %s
+Shared count reached zero.
+Unregistering 64-bit DLL/OCX: %s
+Unregistering 32-bit DLL/OCX: %s
+Unregistration successful.
+Unregistration failed:
+Not unregistering DLL/OCX again: %s
+Unregistering 64-bit type library: %s
+Unregistering 32-bit type library: %s
+Unregistration successful.
+Unregistration failed:
+Uninstalling from GAC: %s
+Uninstallation failed:
+Starting the uninstallation process.
+Running Exec filename: 
+Running Exec parameters: 
+CreateProcess failed (%d).
+Process exit code: %u
+File doesn't exist. Skipping.
+Running ShellExec filename: 
+Running ShellExec parameters: 
+ShellExecuteEx failed (%d).
+File/directory doesn't exist. Skipping.
+Skipping RunOnceId "%s" filename: %s
+Unregistering font: %s
+utUserDefined:
+Uninstallation process succeeded.
+NumRecs range exceeded
+EndOffset range exceeded
+jjjjjj
+advapi32.dll
+Exception while setting permissions:
+CLASSES_ROOT
+CURRENT_USER
+MACHINE
+ISCryptGetVersion
+ArcFourInit
+ArcFourCrypt
+inflateInit_
+inflate
+inflateEnd
+inflateReset
+zlib: Internal error. Code %d
+zlib: Compressed data is corrupted
+BZ2_bzDecompressInit
+BZ2_bzDecompress
+BZ2_bzDecompressEnd
+bzlib: Internal error. Code %d
+bzlib: Too much memory requested
+bzlib: Compressed data is corrupted
+lzmadecomp: %s
+lzmadecomp: Compressed data is corrupted (%d)
+DecodeToBuf failed (%d)
+jjjjjj
+c:\directory
+user32.dll
+MonitorFromWindow
+GetMonitorInfoA
+Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+FriendlyTree
+SysTreeView32
+Explorer
+Internal error: Item already expanding
+[name]
+[name/ver]
+c:\directory
+shell32.dll
+STOPIMAGE
+(Default)
+Could not find page with ID %d
+Software\Microsoft\Windows\CurrentVersion\Uninstall
+%s\%s_is1
+Inno Setup: App Path
+Inno Setup: Icon Group
+Inno Setup: No Icons
+Inno Setup: Setup Type
+Inno Setup: Selected Components
+Inno Setup: Deselected Components
+Inno Setup: Selected Tasks
+Inno Setup: Deselected Tasks
+Inno Setup: User Info: Name
+Inno Setup: User Info: Organization
+Inno Setup: User Info: Serial
+[Error]
+RestartManager found an application using one of our files: %s
+Can use RestartManager to avoid reboot? %s (%d)
+      
+PrepareToInstall failed: %s
+Need to restart Windows? %s
+jjjjjjjj
+/:*?"<>|
+/:*?"<>|
+\/:*?"<>|
+\/:*?"<>|
+Failed to proceed to next wizard page; aborting.
+Failed to proceed to next wizard page; showing wizard.
+DISKIMAGE
+Source file corrupted: 
+%s-%d.bin
+%s-%d%s.bin
+..\DISK%d\
+Asking user for new disk containing "%s".
+Invalid slice header (1)
+Invalid slice header (2)
+Invalid slice header (3)
+Invalid slice header (4)
+Failed to read salt
+Cannot call file extractor recursively
+Cannot read an encrypted file before the key has been set
+Failed to read CompID
+Invalid CompID
+Already on last slice
+Cannot call file extractor recursively
+SHA-1 hash mismatch
+CurInstallProgressChanged raised an exception.
+LoggedMsgBox returned an unexpected value. Assuming Abort.
+%.4u-%.2u-%.2u %.2u:%.2u:%.2u.%.3u
+(invalid)
+RegSetValueEx
+RegCreateKeyEx
+RegOpenKeyEx
+Software\Microsoft\Windows\CurrentVersion\Fonts
+Software\Microsoft\Windows NT\CurrentVersion\Fonts
+ (forced)
+{group}
+{language}
+%.4u%.2u%.2u
+Software\Microsoft\Windows\CurrentVersion\Uninstall\
+Inno Setup: Setup Version
+5.5.9 (u)
+Inno Setup: App Path
+InstallLocation
+Inno Setup: Icon Group
+Inno Setup: No Icons
+Inno Setup: User
+Inno Setup: Setup Type
+Inno Setup: Selected Components
+Inno Setup: Deselected Components
+Inno Setup: Selected Tasks
+Inno Setup: Deselected Tasks
+Inno Setup: User Info: Name
+Inno Setup: User Info: Organization
+Inno Setup: User Info: Serial
+Inno Setup: Language
+DisplayName
+DisplayIcon
+UninstallString
+" /SILENT
+QuietUninstallString
+DisplayVersion
+Publisher
+URLInfoAbout
+HelpTelephone
+HelpLink
+URLUpdateInfo
+Readme
+Contact
+Comments
+ModifyPath
+NoModify
+NoRepair
+InstallDate
+MajorVersion
+MinorVersion
+VersionMajor
+VersionMinor
+EstimatedSize
+RegisterPreviousData raised an exception.
+Creating directory: %s
+Setting permissions on directory: %s
+Failed to set permissions on directory (%d).
+Setting NTFS compression on directory: %s
+Unsetting NTFS compression on directory: %s
+Failed to set NTFS compression state (%d).
+Failed to set value in Fonts registry key.
+Failed to open Fonts registry key.
+AddFontResource
+Setting permissions on file: %s
+Failed to set permissions on file (%d).
+Setting NTFS compression on file: %s
+Unsetting NTFS compression on file: %s
+Failed to set NTFS compression state (%d).
+%s: The existing file appears to be in use (%d). Will replace on restart.
+%s: The existing file appears to be in use (%d). Retrying.
+-- File entry --
+Dest filename: %s
+Non-default bitness: 64-bit
+Non-default bitness: 32-bit
+Dest file is protected by Windows File Protection.
+Time stamp of our file: %s
+Time stamp of our file: (failed to read)
+Dest file exists.
+Skipping due to "onlyifdoesntexist" flag.
+Time stamp of existing file: %s
+Time stamp of existing file: (failed to read)
+Version of our file: %u.%u.%u.%u
+Version of our file: (none)
+Version of existing file: %u.%u.%u.%u
+Existing file is a newer version. Skipping.
+Existing file's SHA-1 hash matches our file. Skipping.
+Existing file's SHA-1 hash is different from our file. Proceeding.
+Failed to read existing file's SHA-1 hash. Proceeding.
+Same version. Skipping.
+Version of existing file: (none)
+Couldn't read time stamp. Skipping.
+Same time stamp. Skipping.
+Existing file has a later time stamp. Skipping.
+Existing file is protected by Windows File Protection. Skipping.
+User opted not to overwrite the existing file. Skipping.
+User opted not to strip the existing file's read-only attribute. Skipping.
+Stripped read-only attribute.
+Failed to strip read-only attribute.
+Skipping due to "onlyifdestfileexists" flag.
+Installing the file.
+Uninstaller requires administrator: %s
+DeleteFile
+MoveFile
+Successfully installed the file.
+Leaving temporary file in place for now.
+Registering file as a font ("%s")
+Will register the file (a type library) later.
+Will register the file (a DLL/OCX) later.
+Incrementing shared file count (64-bit).
+Incrementing shared file count (32-bit).
+Installing into GAC
+Cannot install files to 64-bit locations on this version of Windows
+jjjjjj
+[InternetShortcut]
+IconFile=
+IconIndex=
+desktop.ini
+CLSID2
+.ShellClassInfo
+{0AFACED1-E828-11D1-9187-B532F1E9575D}
+target.lnk
+{group}\
+Dest filename: %s
+Creating the icon.
+Successfully created the icon.
+target.lnk
+Desktop.ini
+Software\Microsoft\Windows\CurrentVersion\App Paths\
+-- Icon entry --
+Skipping due to "createonlyiffileexists" flag.
+-- INI entry --
+Dest filename: %s
+Section: %s
+Entry: %s
+Value: %s
+Updating the .INI file.
+Successfully updated the .INI file.
+Skipping updating the .INI file, only updating uninstall log.
+Setting permissions on registry key: %s\%s
+Could not set permissions on the registry key because it currently does not exist.
+Failed to set permissions on registry key (%d).
+Cannot access 64-bit registry keys on this version of Windows
+{olddata}
+olddata
+Failed to parse "qword" value
+Registration executable created: %s
+; This file was created by the installer for:
+;   Location: 
+; List of files to be registered on the next reboot. DO NOT EDIT!
+Software\Microsoft\Windows\CurrentVersion\RunOnce
+Software\Microsoft\Windows\CurrentVersion\RunOnce
+InnoSetupRegFile.%.10d
+" /REG
+ /REGSVRMODE
+Registering 64-bit DLL/OCX: %s
+Registering 32-bit DLL/OCX: %s
+Registration successful.
+Registration failed:
+Registering 64-bit type library: %s
+Registering 32-bit type library: %s
+Registration successful.
+Registration failed:
+Delaying registration of all files until the next logon since a restart is needed.
+jjjjjj
+unins???.*
+unins%.3d
+CreateFile
+Directory for uninstall files: %s
+Will append to existing uninstall log: %s
+Will overwrite existing uninstall log: %s
+Creating new uninstall log: %s
+MoveFileEx
+LoggedMsgBox returned an unexpected value. Assuming Cancel.
+Will restart because NeedRestart returned True.
+NeedRestart raised an exception.
+Not calling NeedRestart because a restart has already been deemed necessary.
+Shutting down applications using our files.
+Some applications could not be shut down.
+Retrying to shut down applications using our files.
+RmShutdown returned an error: %d
+Starting the installation process.
+Failed to get a non empty installation "AppId"
+"AppId" cannot exceed 128 bytes (encoded)
+User chose not to shutdown applications using our files.
+Fatal exception during installation process (%s):
+User canceled the installation process.
+Rolling back changes.
+Installation process succeeded.
+Extracting temporary file: 
+ExtractTemporaryFile: The file "%s" was not found
+ExtractTemporaryFiles: Pattern too long
+{tmp}\
+ExtractTemporaryFiles: Invalid character in matched file name
+ExtractTemporaryFiles: No files matching "%s" found
+Inno Setup: Language
+Unexpected end of expression while reading string constant
+Unterminated string
+Invalid symbol '%s' found
+ExpandConstant
+Can only call function "ExpandConstant" within parameter lists
+Invalid token '%s' found
+Maximum number of parameters exceeded
+Invalid token '%s' found
+Invalid token
+Invalid token '%s' found
+Invalid token '%s' found
+WriteStringToStream: Length limit exceeded
+AllowSetForegroundWindow
+user32.dll
+QuerySpawnServer: Unexpected response: $%x
+CallSpawnServer: Unexpected response: $%x
+CallSpawnServer: Unexpected status: %d
+GetFinalPathNameByHandleW
+kernel32.dll
+GetCurrentDirectory
+ShellExecuteEx
+ShellExecuteEx returned hProcess=0
+MsgWaitForMultipleObjects
+GetExitCodeProcess
+Wnd=$%x
+AllocateHWnd
+%.48s~%.8x
+Software\Microsoft\Windows\CurrentVersion\Uninstall
+%s\%s_is1
+Expression error '%s'
+"BeforeInstall" or "AfterInstall" parameter with no CodeRunner
+Expression error '%s'
+Expression error '%s'
+"Check" parameter with no CodeRunner
+{group}\
+Cannot install files to 64-bit locations on this version of Windows
+NoIcons
+SetupType
+Components
+Silent
+VerySilent
+NoRestart
+CloseApplications
+NoCloseApplications
+ForceCloseApplications
+NoForceCloseApplications
+RestartApplications
+NoRestartApplications
+NoCancel
+Password
+RestartExitCode
+SuppressMsgBoxes
+SaveInf
+NoIcons
+SetupType
+Components
+userdesktop
+userstartmenu
+userprograms
+userstartup
+sendto
+userappdata
+userdocs
+usertemplates
+userfavorites
+localappdata
+commondesktop
+commonstartmenu
+commonprograms
+commonstartup
+commonappdata
+commondocs
+commontemplates
+commonfavorites
+srcexe
+userinfoname
+userinfoorg
+userinfoserial
+wizardhwnd
+Cannot evaluate "%s" constant during Uninstall
+Cannot access a 64-bit key in a "reg" constant on this version of Windows
+Failed to parse "reg" constant
+Failed to parse "ini" constant
+Failed to parse "param" constant
+"code" constant with no CodeRunner
+Cannot evaluate "code" constant because of possible side effects
+Failed to parse "code" constant
+Failed to parse "drive" constant
+Failed to parse "cm" constant
+Unknown custom message name "%s" in "cm" constant
+An attempt was made to expand the "app" constant but Setup didn't create the "app" dir
+An attempt was made to expand the "app" constant before it was initialized
+syswow64
+Cannot expand "syswow64" constant because there is no SysWOW64 directory
+srcexe
+userpf
+{localappdata}\Programs
+usercf
+{localappdata}\Programs\Common
+Cannot expand "pf64" constant on this version of Windows
+Cannot expand "cf64" constant on this version of Windows
+{cf}\Microsoft Shared\DAO
+computername
+username
+groupname
+Cannot expand "groupname" constant because it was not available at install time
+An attempt was made to expand the "groupname" constant before it was initialized
+sysuserinfoname
+sysuserinfoorg
+userinfoname
+userinfoorg
+userinfoserial
+uninstallexe
+Cannot expand "group" constant because it was not available at install time
+An attempt was made to expand the "group" constant before it was initialized
+Failed to expand "group" constant
+language
+wizardhwnd
+dotnet11
+dotnet20
+dotnet2032
+dotnet2064
+Cannot expand "dotnet2064" constant on this version of Windows
+dotnet40
+dotnet4032
+dotnet4064
+Cannot expand "dotnet4064" constant on this version of Windows
+param:
+drive:
+Failed to expand shell folder constant "%s"
+Unknown constant "%s"
+Unclosed constant
+expand:
+Software\Microsoft\Windows\CurrentVersion
+SOFTWARE\Microsoft\Windows NT\CurrentVersion
+Software\Microsoft\Windows\CurrentVersion
+RegisteredOwner
+RegisteredOrganization
+SystemDrive
+ProgramFilesDir
+\Program Files
+CommonFilesDir
+Common Files
+Failed to get path of 64-bit Program Files directory
+Failed to get path of 64-bit Common Files directory
+cmd.exe
+COMMAND.COM
+Created temporary directory: 
+_isetup
+\_setup64.tmp
+Failed to remove temporary directory: 
+shfolder.dll
+_isetup\_shfoldr.dll
+SHFOLDERDLL
+shell32.dll
+Failed to load DLL "%s"
+SHGetFolderPathW
+Failed to get address of SHGetFolderPath function
+Warning: SHGetFolderPath failed with code 0x%.8x on folder 0x%.4x
+jjjjjjj
+Found pending rename or delete that matches one of our files: %s
+jjjjjj
+Cannot call "RegisterExtraCloseApplicationsResource" function at this time
+RegisterExtraCloseApplicationsResources raised an exception.
+setup:
+uninstall:
+files:
+MS PGothic
+Windows version: %u.%u.%u%s  (NT platform: %s)
+64-bit Windows: %s
+Processor architecture: %s
+User privileges: Administrative
+User privileges: Power User
+User privileges: None
+Cancel
+Ignore
+Try Again
+Continue
+OK/Cancel
+Abort/Retry/Ignore
+Yes/No/Cancel
+Yes/No
+Retry/Cancel
+Cancel/Try Again/Continue
+Defaulting to %s for suppressed message box (%s):
+Message box (%s):
+User chose %s.
+AppMessageBox failed.
+User chose %s.
+MsgBox failed.
+/SPAWNWND=$%x /NOTIFYWND=$%x 
+64-bit install mode: %s
+ExtractLongWord: Missing comma
+Windows
+_isetup\_isdecmp.dll
+Failed to load DLL "%s"
+ZlibInitDecompressFunctions failed
+BZInitDecompressFunctions failed
+_isetup\_iscrypt.dll
+Failed to load DLL "%s"
+ISCryptInitFunctions failed
+/Silent
+/VerySilent
+/NoRestart
+/CloseApplications
+/NoCloseApplications
+/ForceCloseApplications
+/NoForceCloseApplications
+/RestartApplications
+/NoRestartApplications
+/NoIcons
+/NoCancel
+/Lang=
+/Type=
+/Components=
+/Tasks=
+/MergeTasks=
+/LoadInf=
+/SaveInf=
+/GROUP=
+/Password=
+/RestartExitCode=
+/SuppressMsgBoxes
+/DETACHEDMSG
+/SPAWNWND=
+/NOTIFYWND=
+/DebugSpawnServer
+/DEBUGWND=
+The file %1 is missing from the installation directory. Please correct the problem or obtain a new copy of the program.
+The setup files are corrupted. Please obtain a new copy of the program.
+The setup files are corrupted, or are incompatible with this version of Setup. Please correct the problem or obtain a new copy of the program.
+-0.bin
+Error creating log file:
+Setup version: Inno Setup version 5.5.9 (u)
+Original Setup EXE: 
+Setup command line: 
+InitializeSetup raised an exception (fatal).
+InitializeSetup returned False; aborting.
+NameAndVersion
+Deinitializing Setup.
+GetCustomSetupExitCode raised an exception.
+DeinitializeSetup raised an exception.
+Not restarting Windows because Setup is being run from the debugger.
+Restarting Windows.
+Inno Setup version 5.5.9 (u)
+Copyright (C) 1997-2016 Jordan Russell
+Portions Copyright (C) 2000-2016 Martijn Laan
+All rights reserved.
+Inno Setup home page:
+http://www.innosetup.com/
+RemObjects Pascal Script home page:
+http://www.remobjects.com/ps
+Exception message:
+CurStepChanged raised an exception.
+CurStepChanged raised an exception (fatal).
+InitializeWizard raised an exception (fatal).
+Cannot run files in 64-bit locations on this version of Windows
+-- Run entry --
+Run as: Original user
+Run as: Current user
+Type: Exec
+Type: ShellExec
+Filename: 
+Parameters: 
+CreateProcess
+Process exit code: %u
+File doesn't exist. Skipping.
+ShellExecuteEx
+File/directory doesn't exist. Skipping.
+Attempting to restart applications.
+One or more applications could not be restarted.
+RmRestart returned an error: %d
+Need to restart Windows, not attempting to restart applications
+Need to restart Windows? %s
+Will not restart Windows automatically.
+kernel32.dll
+GetNativeSystemInfo
+IsWow64Process
+GetSystemWow64DirectoryA
+RegDeleteKeyExA
+advapi32.dll
+System\CurrentControlSet\Control\Windows
+CSDVersion
+System\CurrentControlSet\Control\ProductOptions
+ProductType
+LanmanNT
+ServerNT
+Cannot call "%s" function during Setup
+Cannot call "%s" function during Uninstall
+An attempt was made to access MainForm before it has been created
+An attempt was made to access WizardForm before it has been created
+An attempt was made to access UninstallProgressForm before it has been created
+Invalid RootKey value
+Cannot access 64-bit registry keys on this version of Windows
+Cannot access 64-bit registry keys on this version of Windows
+Unknown custom message name "%s"
+{language}
+InstallOnThisVersion: Invalid MinVersion string
+InstallOnThisVersion: Invalid OnlyBelowVersion string
+%u.%.2u.%u
+%u.%u.%u.%u
+jjjjjjjj
+(There is no current exception)
+Inno Setup CodeFile: 
+Inno Setup CodeFile: 
+An attempt was made to call the "CurrentFilename" function from outside a "Check", "BeforeInstall" or "AfterInstall" event function belonging to a "[Files]" entry
+An attempt was made to call the "CurrentSourceFilename" function from outside a "Check", "BeforeInstall" or "AfterInstall" event function belonging to a "[Files]" entry with flag "external"
+Cannot disable FS redirection on this version of Windows
+function
+procedure
+Runtime Error (at %d:%d):
+Runtime Error (at %d:%d):
+Exception "%s" at address %p
+TScriptRunner.SetPSExecParameters: Invalid type
+TScriptRunner.LoadScript failed
+user32.dll
+MonitorFromRect
+GetMonitorInfoA
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+Exception message:
+ to All
+Remove shared file %s? User chose %s%s
+InitializeUninstallProgressForm raised an exception (fatal).
+jjjjjj
+Deleting Uninstall data files.
+/INITPROCWND=
+/SECONDPHASE=
+/FIRSTPHASEWND=
+/SILENT
+/VERYSILENT
+/NoRestart
+/SuppressMsgBoxes
+/DEBUGWND=
+CurUninstallStepChanged raised an exception.
+CurUninstallStepChanged raised an exception (fatal).
+/INITPROCWND=$%x 
+jjjjjjj
+STATIC
+/SECONDPHASE="%s" /FIRSTPHASEWND=$%x 
+Custom message data corrupted
+Uninstall
+Error creating log file:
+Setup version: Inno Setup version 5.5.9 (u)
+Original Uninstall EXE: 
+Uninstall DAT: 
+Uninstall command line: 
+Cannot find utCompiledCode record for this version of the uninstaller
+Install was done in 64-bit mode but not running 64-bit Windows now
+InitializeUninstall raised an exception (fatal).
+InitializeUninstall returned False; aborting.
+Removed all? %s
+Will restart because UninstallNeedRestart returned True.
+UninstallNeedRestart raised an exception.
+Not calling UninstallNeedRestart because a restart has already been deemed necessary.
+Need to restart Windows? %s
+Will not restart Windows automatically.
+DeinitializeUninstall raised an exception.
+Restarting Windows.
+Not restarting Windows because Uninstall is being run from the debugger.
+Uninstall
+Detected restart. Removing temporary directory.
+isRS-???.tmp
+isRS-%.3u.tmp
+Inno-Setup-RegSvr-Mutex
+Got EAbort exception.
+Exception message:
+DisableProcessWindowsGhosting
+user32.dll
+/UNINSTMODE
+/REGSVRMODE
+kernel32.dll
+uxtheme.dll
+userenv.dll
+setupapi.dll
+apphelp.dll
+propsys.dll
+dwmapi.dll
+cryptbase.dll
+oleacc.dll
+version.dll
+profapi.dll
+comres.dll
+clbcatq.dll
+Delphi Picture
+Delphi Component
+TaskbarCreated
+TaskbarCreated
+NotifyWinEvent
+user32.dll
+Wow64DisableWow64FsRedirection
+kernel32.dll
+Wow64RevertWow64FsRedirection
+shell32.dll
+SHCreateItemFromParsingName
+shell32.dll
+SHPathPrepareForWriteW
+shell32.dll
+SHPathPrepareForWriteW
+shell32.dll
+kernel32.dll
+VerSetConditionMask
+VerifyVersionInfoW
+SHGetKnownFolderPath
+shell32.dll
+QueryCancelAutoPlay
+H0123456789abcdef
+0123456789abcdef0123456789ABCDEFGHIJKLMNOPQRSTUV
+	DISKIMAGE	STOPIMAGE	CHARTABLE
+DVCLAL
+HELPER_EXE_AMD64
+PACKAGEINFO
+SHFOLDERDLL	TMAINFORM
+TNEWDISKFORM
+TSELECTFOLDERFORM
+TSELECTLANGUAGEFORM
+TUNINSTALLPROGRESSFORM
+TUNINSTSHAREDFILEFORM
+TWIZARDFORM
+MAINICON
+Cannot cast an object
+Capacity < Length
+Nil interface
+Unknown method%Expected return address at stack base
+Out Of Stack Range
+Type Mismatch
+Unexpected End Of File
+Version error
+divide by Zero
+Math error
+Could not call proc
+Out of Record Fields Range
+Null Pointer Exception
+Null variant error
+Out Of Memory
+Interface not supported
+Unknown error
+Invalid array
+Out of string range
+Cannot cast an interface/Variant does not reference an automation object7Dispatch methods do not support more than 64 parameters
+Unknown Identifier
+Exception: %s	[Invalid]
+No Error
+Cannot Import %s
+Invalid Type
+Internal error
+Invalid Header
+Invalid Opcode
+Invalid Opcode Parameter
+no Main Proc
+Out of Global Vars range
+Out of Proc Range
+Out Of Range
+Unable to insert a line Clipboard does not support Icons
+Text exceeds memo capacity/Menu '%s' is already being used by another form
+Docked control must have a name%Error removing control from dock tree
+ - Dock zone not found
+ - Dock zone has no controlLError loading dock zone from the stream. Expecting version %d, but found %d.
+Error setting %s.Count8Listbox (%s) style must be virtual in order to set Count
+Invalid float
+OLE error %.8x.Method '%s' not supported by automation object
+Shift+
+Warning
+Information
+Confirm
+Cancel
+&Abort
+&Retry
+&Ignore
+N&o to All
+Yes to &All
+&Close$Error creating window device context
+Error creating window class+Cannot focus a disabled or invisible window!Control '%s' has no parent window$Parent given is not a parent of '%s'
+Cannot hide an MDI Child Form)Cannot change Visible in OnShow or OnHide"Cannot make a visible window modal
+Menu index out of range
+Menu inserted twice
+Sub-menu is not in menu
+Not enough timers available@GroupIndex cannot be less than a previous menu item's GroupIndex5Cannot create form. No MDI forms are currently active*A control cannot have itself as its parent
+Cannot drag a form"Unable to find a Table of Contents$No topic-based help system installed
+No help found for %s
+Bitmap image is not valid
+Icon image is not valid
+Invalid pixel format
+Scan line index out of range!Cannot change the size of an icon
+Unsupported clipboard format
+Out of system resources
+Canvas does not allow drawing
+Invalid image size
+Invalid ImageList
+Invalid ImageList Index)Failed to read ImageList data from stream(Failed to write ImageList data to stream
+%s.Seek not implemented$Operation not allowed on sorted list$%s not in a class registration group
+Property %s does not exist
+Stream write error
+Thread creation error: %s
+Thread Error: %s (%d)-Cannot terminate an externally created thread,Cannot wait for an externally created thread$No help viewer that supports filters#''%s'' is not a valid integer value
+Invalid argument to time encode#No context-sensitive help installed
+No help found for context
+Unable to open Index
+Unable to open Search
+Cannot open file "%s". %s
+Invalid file name - %s
+Invalid stream format$''%s'' is not a valid component name
+Invalid property path
+Invalid property value
+Invalid data type for '%s' List capacity out of bounds (%d)
+List count out of bounds (%d)
+List index out of bounds (%d)+Out of memory while expanding memory stream
+Error reading %s%s%s: %s
+Stream read error
+Property is read-only
+Failed to get data for '%s'
+Resource %s not found"Character index out of bounds (%d)
+Start index out of bounds (%d)
+Invalid count (%d)
+Invalid destination index (%d)
+Invalid code page
+Ancestor for '%s' not found
+Cannot assign a %s to a %s
+Bits index out of range*Can't write to a read-only resource streamECheckSynchronize called from thread $%x, which is NOT the main thread
+Class %s not found
+A class named %s already exists%List does not allow duplicates ($0%x)#A component named %s already exists%String list does not allow duplicates
+Cannot create file "%s". %s
+Sunday
+Monday
+Tuesday	Wednesday
+Thursday
+Friday
+Saturday
+Invalid source array
+Invalid destination array
+January
+February
+August	September
+October
+November
+December
+Exception in safecall method
+Object lock not owned(Monitor support function not initialized
+%s (%s, line %d)
+Abstract Error?Access violation at address %p in module '%s'. %s of address %p
+System Error.  Code: %d.
+A call to an OS function failed
+)Variant or safe array index out of bounds
+Variant or safe array is locked
+Invalid variant type conversion
+Invalid variant operation
+Invalid NULL variant operation%Invalid variant operation (%s%.8x)
+%s5Could not convert variant of type (%s) into type (%s)=Overflow while converting variant of type (%s) into type (%s)
+Variant overflow
+Invalid argument
+Invalid variant type
+Operation not supported
+Unexpected variant error
+External exception %x
+Assertion failed
+Interface not supported
+Invalid pointer operation
+Invalid class typecast0Access violation at address %p. %s of address %p
+Access violation
+Stack overflow
+Control-C hit
+Privileged instruction
+Operation aborted(Exception %s in module %s at %p.
+Application Error1Format '%s' invalid or incompatible with argument
+No argument for format '%s'"Variant method calls not supported
+Write$Error creating variant or safe array
+Invalid argument to date encode
+Out of memory
+I/O error %d
+File not found
+Too many open files
+File access denied
+Read beyond end of file	Disk full
+Invalid numeric input
+Division by zero
+Range check error
+Integer overflow Invalid floating point operation
+Floating point division by zero
+Floating point overflow
+Floating point underflow
+ 0@P`p
+111QQQ
+All Users
+n%USERPROFILE%
+r%SYSTEMROOT%
+CommonFilesDir
+ProgramFilesDir
+VS_VERSION_INFO
+StringFileInfo
+040904B0
+CompanyName
+Microsoft Corporation
+FileDescription
+Shell Folder Service
+FileVersion
+5.50.4807.2300
+InternalName
+shfolder
+LegalCopyright
+Copyright (C) Microsoft Corp. 1981-2001
+OriginalFilename
+shfolder.dll
+ProductName
+Microsoft(R) Windows (R) 2000 Operating System
+ProductVersion
+5.50.4807.2300
+OleSelfRegister
+VarFileInfo
+Translation
+My Documents
+My Pictures
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History	Documents
+Administrative Tools
+My Music
+Meus documentos
+Minhas imagens
+Dados de aplicativos)Configura
+es locais\Dados de aplicativos-Configura
+es locais\Temporary Internet Files
+Cookies	Hist
+Documentos
+Ferramentas administrativas
+Minhas m
+My Documents
+My Pictures
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History	Documents
+My Music
+	Dokumenty
+Data aplikac
+ nastaven
+\Data aplikac
+ nastaven
+\Temporary Internet Files
+Cookies
+History	Dokumenty
+stroje pro spr
+Dokumenter
+Billeder
+Programdata
+Local Settings\Programdata'Local Settings\Temporary Internet Files
+Cookies
+Oversigt
+Dokumenter
+Administration (F
+Eigene Dateien
+Eigene Bilder
+Anwendungsdaten
+Local Settings\Anwendungsdaten'Local Settings\Temporary Internet Files
+Cookies
+Verlauf	Dokumente
+Verwaltung
+Eigene Musik
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History
+Mis documentos
+Mis im
+Datos de programa%Configuraci
+n local\Datos de programa,Configuraci
+n local\Temporary Internet Files
+Cookies	Historial
+Documentos
+Herramientas administrativas	Mi m
+Mis documentos
+Mis im
+Datos de programa%Configuraci
+n local\Datos de programa,Configuraci
+n local\Temporary Internet Files
+Cookies	Historial
+Documentos
+Herramientas administrativas	Mi m
+Omat tiedostot
+Omat kuvatiedostot
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+Sivuhistoria	Tiedostot
+Valvontaty
+Oma musiikki
+Mes documents
+Mes images
+Application Data"Param
+tres locaux\Application Data*Param
+tres locaux\Temporary Internet Files
+Cookies
+Historique	Documents
+Outils d'administration
+Ma musique
+Dokumentumok
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History
+Dokumentumok
+gyeleti eszk
+	Documenti
+Immagini
+Dati applicazioni%Impostazioni locali\Dati applicazioni,Impostazioni locali\Temporary Internet Files
+Cookies
+Cronologia	Documenti
+Strumenti di amministrazione
+Musica
+essi skj
+Myndirnar m
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History	Documents
+Administrative Tools
+My Documents
+My Pictures
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History	Documents
+My Music
+My Documents
+My Pictures
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History	Documents
+My Music
+Mijn documenten
+Mijn afbeeldingen
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History
+Documenten
+Systeembeheer
+Mijn muziek
+Mine dokumenter
+Mine bilder
+Programdata Lokale innstillinger\Programdata-Lokale innstillinger\Temporary Internet Files
+Cookies
+Dokumenter
+Administrative verkt
+Min musikk
+Moje dokumenty
+Moje obrazy
+Dane aplikacji!Ustawienia lokalne\Dane aplikacji+Ustawienia lokalne\Temporary Internet Files
+Cookies
+Historia	Dokumenty
+dzia administracyjne
+Moja muzyka
+Os meus documentos
+As minhas imagens
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies	Hist
+Documentos
+Ferramentas administrativas
+A minha m
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History	
+Mina dokument
+Mina bilder
+Programdata Lokala inst
+llningar\Programdata-Lokala inst
+llningar\Temporary Internet Files
+Cookies
+Tidigare
+Dokument
+Administrationsverktyg	Min musik
+Belgelerim
+Resimlerim
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History
+Belgeler
+netimsel Ara
+My Documents
+My Pictures
+Application Data
+Local Settings\Application Data'Local Settings\Temporary Internet Files
+Cookies
+History	Documents
+My Music
+Dokumentuak
+Irudiak
+Aplikazio-datuak Ezarpen lokalak\Aplikazio-datuak(Ezarpen lokalak\Temporary Internet Files
+Cookies
+History
+Dokumentoak
+Administrazio-tresnak
+Musika
+Els meus documents
+Les meves imatges
+Dades de l'aplicaci
+metres locals\Dades de l'aplicaci
+metres locals\Temporary Internet Files
+Cookies
+History	Documents
+Eines administratives
+La meva m
+Moje dokumenty
+daje aplik
+cie"Miestne nastavenia\
+daje aplik
+cie+Miestne nastavenia\Temporary Internet Files
+Cookies
+History	Dokumenty
+Administrat
+stroje
+Moji dokumenti
+Moje slike
+Podatki o aplikaciji(Podrocne nastavitve\Podatki o aplikaciji,Podrocne nastavitve\Temporary Internet Files
+Cookies
+History	Dokumenti
+Skrbni
+ka orodja
+Moja glasba
+VS_VERSION_INFO
+StringFileInfo
+000004b0
+FileDescription
+Setup/Uninstall
+FileVersion
+51.1052.0.0
+VarFileInfo
+Translation
+RAny use of this Certificate constitutes acceptance of the DigiCert CP/CPS and the Relying Party Agreement which limit liability and are incorporated herein by reference

@@ -1,0 +1,229 @@
+A GET or HEAD request should not have an entity body.
+application/octet-stream
+Bearer 
+cpprestsdk/2.10.12
+Error: request was not prefixed with listener uri
+ HTTP/1.1
+HTTP/1.1 
+deflate
+identity
+chunked
+identity;q=1, *;q=0
+Continue
+Switching Protocols
+Created
+Accepted
+Non-Authoritative Information
+No Content
+Reset Content
+Partial Content
+Multi-Status
+Already Reported
+IM Used
+Multiple Choices
+Moved Permanently
+See Other
+Not Modified
+Use Proxy
+Temporary Redirect
+Permanent Redirect
+Bad Request
+Unauthorized
+Payment Required
+Forbidden
+Not Found
+Method Not Allowed
+Not Acceptable
+Proxy Authentication Required
+Request Time-out
+Conflict
+Length Required
+Precondition Failed
+Request Entity Too Large
+Request Uri Too Large
+Unsupported Media Type
+Requested range not satisfiable
+Expectation Failed
+Misdirected Request
+Unprocessable Entity
+Locked
+Failed Dependency
+Upgrade Required
+Precondition Required
+Too Many Requests
+Request Header Fields Too Large
+Unavailable For Legal Reasons
+Internal Error
+Not Implemented
+Bad Gateway
+Service Unavailable
+Gateway Time-out
+HTTP Version not supported
+Variant Also Negotiates
+Insufficient Storage
+Loop Detected
+Not Extended
+Network Authentication Required
+Insufficient buffer size.
+A stream was set on the message and extraction is not possible
+Charset must be iso-8859-1, utf-8, utf-16, utf-16le, or utf-16be to be extracted.
+DELETE
+OPTIONS
+CONNECT
+Accept
+Accept-Charset
+Accept-Encoding
+Accept-Language
+Accept-Ranges
+Access-Control-Allow-Origin
+Authorization
+Cache-Control
+Connection
+Content-Encoding
+Content-Language
+Content-Length
+Content-Location
+Content-MD5
+Content-Range
+Content-Type
+Content-Disposition
+Expect
+Expires
+If-Match
+If-Modified-Since
+If-None-Match
+application/json
+If-Range
+If-Unmodified-Since
+Last-Modified
+Location
+Max-Forwards
+Pragma
+Proxy-Authenticate
+Proxy-Authorization
+Referer
+Retry-After
+Server
+Trailer
+Transfer-Encoding
+Upgrade
+User-Agent
+Warning
+WWW-Authenticate
+application/atom+xml
+application/http
+application/javascript
+application/x-json
+application/x-www-form-urlencoded
+multipart/form-data
+boundary
+form-data
+application/x-javascript
+application/xml
+message/http
+text/javascript
+text/json
+text/plain
+text/plain; charset=utf-16
+text/plain; charset=utf-16le
+text/plain; charset=utf-8
+text/x-javascript
+text/x-json
+us-ascii
+iso-8859-1
+utf-16
+utf-16le
+utf-16be
+charset
+Incorrect Content-Type: must be textual to extract_string, JSON to extract_json.
+Error: trying to send multiple responses to an HTTP request
+Current server API instance has listeners attached.
+oauth_callback
+oauth_callback_confirmed
+oauth_consumer_key
+oauth_nonce
+oauth_signature
+oauth_signature_method
+oauth_timestamp
+oauth_token
+oauth_token_secret
+oauth_verifier
+oauth_version
+HMAC-SHA1
+PLAINTEXT
+HashDigestLength
+invalid signature method.
+. the service may be using obsoleted and insecure OAuth Core 1.0 protocol.
+parameter 'oauth_callback_confirmed' is missing from response: 
+parameter 'oauth_token' missing from response: 
+parameter 'oauth_token_secret' missing from response: 
+OAuth 
+="1.0", 
+parameter 'oauth_token' missing from redirected URI.
+' does not match temporary token='
+redirected URI parameter 'oauth_token'='
+parameter 'oauth_verifier' missing from redirected URI.
+access_token
+authorization_code
+bearer
+client_id
+client_secret
+expires_in
+grant_type
+redirect_uri
+refresh_token
+response_type
+token_type
+parameter 'state' missing from redirected URI.
+redirected URI parameter 'state'='
+' does not match state='
+either 'code' or 'access_token' parameter must be in the redirected URI.
+Basic 
+response json contains no 'access_token': 
+only 'token_type=bearer' access tokens are currently supported: 
+Left-over characters in stream after parsing a JSON value
+0123456789ABCDEF
+0123456789ABCDEF
+Sec-WebSocket-Protocol
+Normal
+Open failed
+Unexpected end of request body stream encountered before expected length met.
+Outgoing HTTP body stream ended early.
+Unexpected end of request body stream encountered before Content-Length met.
+Error reading outgoing HTTP body from its stream.
+Keep-Alive
+Content-Md5
+Cookie
+Translate
+Request-Maximum
+Set-Cookie
+Www-Authenticate
+Response-Maximum
+PROPFIND
+PROPPATCH
+UNLOCK
+SEARCH
+' is already in use
+Address '
+'. Run as administrator to listen on an hostname other than localhost, or to listen on port 80.
+Access denied: attempting to add Address '
+Error adding url to url group
+Error unexpectedly encountered the end of the response stream early
+%)+/5;=CGIOSYaegkmq
+#+3;CScs
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+Service-0x
+no stack?
+OpenSSL
+OpenSSL: FATAL
+ADVAPI32.DLL
+KERNEL32.DLL
+NETAPI32.DLL
+LanmanWorkstation
+LanmanServer
+Intel Hardware Cryptographic Service Provider
+USER32.DLL
+KERNEL32.DLL
+KERNEL32.DLL

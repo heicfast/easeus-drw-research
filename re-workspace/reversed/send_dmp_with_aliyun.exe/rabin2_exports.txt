@@ -1,0 +1,4 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib                      name                                     demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x0000d2c4 0x14000dec4 GLOBAL FUNC 0    send_dmp_with_aliyun.exe ??4_Init_locks@std@@QEAAAEAV01@AEBV01@@Z

@@ -1,0 +1,31 @@
+%s%s%s
+unknown zip result code
+Success
+Culdn't duplicate handle
+Couldn't create/open file
+Failed to allocate memory
+Error writing to file
+File not found in the zipfile
+Still more data to unzip
+Zipfile is corrupt or not a zipfile
+Error reading file
+Correct password required
+Caller: faulty arguments
+Caller: the file had already been partially unzipped
+Caller: can only get memory of a memory zipfile
+Caller: not enough space allocated for memory zipfile
+Caller: there was a previous error
+Caller: additions to the zip have already been ended
+Caller: mixing creation and opening of zip
+Zip-bug: internal initialisation not completed
+Zip-bug: trying to seek the unseekable
+Zip-bug: the anticipated size turned out wrong
+Zip-bug: tried to change mind, but not allowed
+Zip-bug: an internal error during flation
+AliyunWrap.DLL
+AliyunWrap.DLL
+Testid
+SOFTWARE\EASEUS\DRW\Version
+AliyunWrap.Dll
+AliyunWrap.DLL
+AliyunWrap.DLL

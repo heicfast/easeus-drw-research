@@ -1,0 +1,1418 @@
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+7za.exe x "
+..\BUILDPE\Tools
+%s\TOOLS
+%s\BUILDPE\Downloads\TOOLS\Google Chrome
+%s\Google Chrome
+`1qEaseUS2024RE
+%S %d BCDEDIT:%s BCD:%s %s
+p%S %d BCDEDIT:%s BCD:%s %s
+bcdedit2 %s
+bcdedit2 %s
+ /enum %s
+ /store %s /enum %s
+ /create %s /d %s /device
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p /create %s /d %s
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+ /store %s /create %s /d %s
+ /store %s /create %s /d %s /device
+%d wzCmdLine:%s 
+ /create %s /d %s /application osloader
+ /store %s /create %s /d %s /application osloader
+ /create %s /d %s /application bootsector
+ /store %s /create %s /d %s /application bootsector
+%d wzCmdLine:%s 
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p /delete %s
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+pSetEntry line=%d
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+pSetEntry line=%d
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+ /store %s /delete %s
+SetEntry line=%d
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+pSetEntry line=%d
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+ /store %s /set %s %s %s
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+ /addlast
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+ /set %s %s %s
+displayorder
+p /enum %s
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p /store %s /enum %s
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+SetEntry line=%d, pOutBuf=%s
+SetEntry line=%d, pOutBuf=%s
+pBCD00000000
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+pBoot:%S %d failed
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+pBoot:%S %d failed
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p%S %d nRes=0x%x
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p%S %d nRes=0x%x
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p%S %d nRes=0x%x
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+ /export "%s"
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p%S %d nRes=0x%x
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p%S %d nRes=0x%x
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+p%S %d nRes=0x%x
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+ /import "%s"
+gBoot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+pBoot:%S %d failed
+Boot:%S %d wzCmdLine:%s ExitCode:%08x failed:%08X
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+"%s"%s
+Boot:%S %d failed
+BootExecCommand %d wzCmdLine=%s
+BootExecCommand %d wzCmdLine=%s
+"%s"%s
+Boot:File:%S Func:%S Line:%d BootType:%s IsoPath:%s ToolsPath:%s
+Boot:%S %d failed
+Boot:File:%S Func:%S Line:%d BootType:%s IsoPath:%s ToolsPath:%s
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+\\.\PhysicalDrive%d\
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+EaseUS DC Linux
+BootNameLinux
+EaseUS DC Windows PE
+BootNameWinpe
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+\\.\PhysicalDrive%d
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+\\.\PhysicalDrive%d\
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+%c:\Boot
+%c:\Sources
+tBoot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed. pName is NULL.
+Boot:%s not find.
+Boot:%S %d failed. pName is NULL.
+Boot:%s not find.
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d File:%s failed:%08X
+\\.\X:
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d VOL:%s NumberOfDiskExtents:%d
+Boot:%S %d VOL:%s NumberOfDiskExtents:%d
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+\\.\X:
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+\\.\PhysicalDrive%d
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+\\.\HDBOOTDOSDEVICE
+SYSTEM\Setup
+SystemPartition
+Boot:%S %S %d failed:%08X
+Boot:%S %S %d failed:%08X
+Boot:%S %S %d failed:%08X
+Boot:%S %S %d failed:%08X
+Boot:%S %S %d VOL:%s failed:%08X
+Boot:%S %S %d VOL:%s failed:%08X
+Boot:%S %S %d VOL:%s failed:%08X
+Boot:%S %S %d VOL:%s failed:%08X
+Boot:%S %S %d VOL:%s failed:%08X
+Boot:%S %S %d VOL:%s failed:%08X
+\Harddisk
+Boot:%S %S %d VOL:%s %d %llu
+Boot:%S %S %d VOL:%s %d %llu
+Boot:%S %S %d failed:%08X
+Boot:%S %S %d failed:%08X
+Boot:%S %S %d VOL:%s failed:%08X
+Boot:%S %S %d VOL:%s %d %llx
+Boot:%S %S %d VOL:%s failed:%08X
+Boot:%S %S %d VOL:%s %d %llx
+\\.\HDBOOTDOSDEVICE
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+\\.\PhysicalDrive%d
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+\\.\PhysicalDrive%d
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+\\.\PhysicalDrive%d
+Boot:%S %d failed
+Boot:%S %d failed
+EASEDCPE.WIM
+%sBOOT\%s
+EASEDCPE.WIM
+%s\BOOT\%s
+SOURCES/BOOT.WIM
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+%S %d FindFirstFile:%s nRes=0x%x,GetLastError=%d
+%S %d FindFirstFile:%s nRes=0x%x,GetLastError=%d
+Boot:%S %d failed
+Boot:%S %d failed
+%S %d nRes=0x%x
+%S %d nRes=0x%x
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x
+%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d failed
+%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d failed
+%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d failed
+%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d GetLastError:%08X
+Boot:%S %d GetLastError:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+\\.\X:
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+\\.\PhysicalDrive%d
+%08X: %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X  %c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c
+%S %S %d nDiskIndex:%d
+%08X: %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X  %c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c
+R%S %S %d nDiskIndex:%d
+\\.\%C:
+%S %S %d nPartIndex:%d
+%S %S %d nPartIndex:%d
+Kernel32.dll
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d Disk:%s failed:%08X
+Boot:%S %d Disk:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+%S %S %d failed.
+Boot:%S %d DevName:%s failed:%08X
+gBoot:%S %d DevName:%s failed:%08X
+Boot:%S %d DevName:%s failed:%08X
+Boot:%S %d DevName:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+%s\BOOT\%s
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+%s\BOOT\%s
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+%s\BOOT\%s
+%s\BOOT\%s
+Boot:%S %d volume:%s failed:%08X
+Boot:%S %d volume:%s failed:%08X
+Boot:%S %d volume:%s failed:%08X
+Boot:%S %d volume:%s failed:%08X
+Boot:%S %d %s %s %s %s %s %s %s %s %d %d %s
+NOT USB
+Boot:%S %d %s %s %s %s %s %s %s %s %d %d %s
+BOOTMGR
+Boot:%S %S %d Dump system partition bootsect
+Boot:%S %S %d Dump system partition bootsect
+RBoot:%S %S %d Dump system partition bootsect
+RBoot:%S %S %d Dump system partition bootsect
+Boot:%S %S %d Dump system partition bootsect
+Boot:%S %S %d Dump system partition bootsect
+Boot:%S %d Disk:%s failed:%08X
+Boot:%S %d Disk:%s failed:%08X
+%s\BOOTMGR
+%s\BOOT\BCD
+%s\NTLDR
+%s\BOOT.INI
+%s\NTDETECT.COM
+Boot:%S %d
+Boot:%S %d
+Boot:%S %d
+Boot:%S %d
+\\.\PhysicalDrive%d
+Boot:%S %d Disk:%s failed:%08X
+Boot:%S %d Disk:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+%s\BOOT.INI
+default
+boot loader
+timeout
+boot loader
+operating systems
+default
+boot loader
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+timeout
+boot loader
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+timeout
+boot loader
+default
+boot loader
+timeout
+boot loader
+operating systems
+timeout
+boot loader
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+timeout
+boot loader
+timeout
+boot loader
+operating systems
+%s\BOOT.INI
+default
+boot loader
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+default
+boot loader
+timeout
+boot loader
+timeout
+boot loader
+operating systems
+operating systems
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+default
+boot loader
+operating systems
+default
+boot loader
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+operating systems
+timeout
+boot loader
+timeout
+boot loader
+operating systems
+%s\BOOT.INI
+operating systems
+default
+boot loader
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+{bootmgr}
+timeout
+\\.\X:
+%s\ESSYSTEM.BCD
+%s\ESLOADER.BCD
+%s\ESLOADER.REG
+%s\BOOT\BTB
+\\.\PhysicalDrive%d
+Boot:%S %d
+Boot:%S %d
+Boot:%S %d nRes:0x%08x
+Boot:%S %d nRes:0x%08x
+Boot:%S %d nRes:0x%08x
+Boot:%S %d nRes:0x%08x
+Boot:%S %d nRes:0x%08x
+Boot:%S %d nRes:0x%08x
+%s\EFI\Microsoft\Boot\%s
+%s\boot\%s
+Boot:%S %d nTempRes:0x%08x
+Boot:%S %d nTempRes:0x%08x
+%s\EFI\Microsoft\Boot\%s
+%s\boot\%s
+{bootmgr}
+timeout
+{bootmgr}
+timeout
+%s\EFI\Microsoft\Boot\%s
+%s\boot\%s
+{bootmgr}
+displayorder
+Boot:%S %d Disk:%s failed:%08X
+Boot:%S %d Disk:%s failed:%08X
+\bcdedit.exe
+%s\bcdedit.exe
+%s\bootsect.exe /nt52 %C:
+ DCLDR
+DCLOADLX
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+C:\DCLOADLX
+C:\DCLOADPE
+EUDCLINUX.DAT
+EUDCWINPE.DAT
+partition=%s
+%s\bootsect.exe /nt60 %C:
+DCLOADPE
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+Boot:%S %d File:%s failed:%08X
+C:\DCLOADPE
+C:\DCLOADLX
+EUDCWINPE.DAT
+EUDCLINUX.DAT
+EaseUS Ramdisk options
+RamOptions
+\Windows\system32\winload.efi
+\Windows\system32\winload.efi
+\Windows\system32\winload.efi
+t\\.\PhysicalDrive%d
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+\\.\PhysicalDrive%d
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+Boot:%S %d DEV:%s failed:%08X
+\\.\PhysicalDrive%d
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+Boot:%S %d VOL:%s failed:%08X
+\\.\PhysicalDrive%d
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+\\.\%C:
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+\\.\%C:
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+\\.\%C:
+\\.\PhysicalDrive%d\
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+Boot:%S %S %d ErrorCode:%08X
+t{default}
+"Windows Setup"
+{bootmgr}
+{7619dcc8-fafe-11d9-b411-000476eba25f}
+nointegritychecks
+%s\bcdedit.exe
+Boot:%S %d %s %s failed:%08X
+Boot:%S %d %s %s failed:%08X
+Boot:%S %d %s %s failed:%08X
+Boot:%S %d %s %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+Boot:%S %d %s failed:%08X
+\EUDCLINUX.KNL
+\EUDCLINUX.IRD
+\BOOT\FONTS
+\EASEDCPE.SDI
+\EASEDCPE.WIM
+BOOT/BOOT.SDI
+SOURCES/BOOT.WIM
+\BOOT\FONTS\WGL4_BOOT.TTF
+\BOOT\BCD
+\BOOT\BCD
+\DCMGR
+\BOOTMGR
+\BOOT\FONTS\WGL4_BOOT.TTF
+Boot:%S %d failed
+Boot:%S %d failed
+\BOOT\BCD
+\BOOT\BCD
+\DCMGR
+\BOOTMGR
+RBoot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\BootMgr
+\Ntldr
+\BOOT\EFISYS_N.BIN
+\BOOT\EFISYS_NOPROMPT.BIN
+Boot:%S %d failed
+Boot:%S %d failed
+\BOOT\FONTS\WGL4_BOO.TTF
+\BOOT\FONTS\WGL4_BOOT.TTF
+Boot:%S %d failed
+Boot:%S %d failed
+\EFI\MICROSOF
+\EFI\MICROSOFT
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\EFI\MICROSOFT\BOOT\FONTS\WGL4_BOO.TTF
+\EFI\MICROSOFT\BOOT\FONTS\WGL4_BOOT.TTF
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\BOOT\EFISYS_N.BIN
+\BOOT\EFISYS_NOPROMPT.BIN
+Boot:%S %d failed
+Boot:%S %d failed
+\BOOT\FONTS\WGL4_BOO.TTF
+\BOOT\FONTS\WGL4_BOOT.TTF
+Boot:%S %d failed
+Boot:%S %d failed
+\EFI\MICROSOF
+\EFI\MICROSOFT
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\EFI\MICROSOFT\BOOT\FONTS\WGL4_BOO.TTF
+\EFI\MICROSOFT\BOOT\FONTS\WGL4_BOOT.TTF
+Boot:%S %d failed
+\BOOT\FONTS
+\EASEDCPE.SDI
+\EASEDCPE.WIM
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+BOOT/BOOT.SDI
+SOURCES/BOOT.WIM
+\BOOT\FONTS\WGL4_BOOT.TTF
+\BOOT\FONTS\WGL4_BOOT.TTF
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\\.\X:
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\EUDCBT.IDX
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+LINUX.LST
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+XBoot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\ntldr
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+\grub4dos\
+EUDCLD.LST
+EUDCLD.LDR
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\NTDETECT.COM
+\NTDETECT.COM
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d error %s %s
+Boot:%S %d error %s %s
+\DCLOADLX
+\DCLDR
+\BOOT\EUDCLD.LST
+\BOOT\EUDCLINUX.DAT
+\EUDCBT.IDX
+\EUDCLINUX.KNL
+\EUDCLINUX.IRD
+\DCLOADPE
+\DCMGR
+\BOOT\EUDCWINPE.DAT
+\EASEDCPE.SDI
+\EASEDCPE.WIM
+Boot:%S %S %d warning:%08X
+Boot:%S %S %d warning:%08X
+%s\TEST%02d%02d%02d%04d.TMP
+\\.\%X:
+\\.\HDBOOTDOSDEVICE
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+%C:\BOOT
+\\.\%C:
+%C:\BOOT
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+\\.\%X:
+\\.\HDBOOTDOSDEVICE
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+%C:\BOOT
+\\.\%C:
+%C:\BOOT
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %S %d nDiskIndex:%d
+Boot:%S %S %d nDiskIndex:%d
+\\.\PhysicalDrive%d
+Boot:%S %d failed
+Boot:%S %d failed
+\\.\HDBOOTDOSDEVICE
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %S %d nDiskIndex:%d
+Boot:%S %S %d nDiskIndex:%d
+\\.\PhysicalDrive%d
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%s %s
+Boot:%S %d failed:%s %s
+Boot:%S %d failed
+Boot:%S %d failed
+\\.\%X:
+\\.\HDBOOTDOSDEVICE
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+eBoot:%S %S %d CreateFile:%s failed:%08X
+pEveryone
+Boot:%S %S %d CreateFile:%s failed:%08X
+pBoot:%S %d failed
+Boot:%S %S %d BootIsFileExist:%s failed:%08X
+Boot:%S %S %d BootIsFileExist:%s failed:%08X
+pBoot:%S %d failed
+Boot:%S %d failed
+pBoot:%S %d failed
+Boot:%S %S %d GetFileAttributes:%s failed:%08X
+Boot:%S %S %d GetFileAttributes:%s failed:%08X
+Boot:%S %S %d SetFileAttributes:%s failed:%08X
+pBoot:%S %S %d SetFileAttributes:%s failed:%08X
+Boot:%S %S %d WritePrivateProfileString:%s failed:%08X
+pBoot:%S %S %d WritePrivateProfileString:%s failed:%08X
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+p%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d GetLastError:%08X
+%S %S %d GetLastError:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+%S %d failed:%08X
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+BOOTMGR.EFI
+BOOT/EASEUSPE.BIN
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+%S %S %d failed.
+..\BUILDPE\Downloads\tools.zip
+SeBackupPrivilege
+SeRestorePrivilege
+SeTakeOwnershipPrivilege
+ESDESBCD
+ESSRCBCD
+Objects
+ESSRCBCD
+Objects
+ESDESBCD
+ESDESBCD
+ESSRCBCD
+ESDESBCD
+ESSRCBCD
+SeTakeOwnershipPrivilege
+SeRestorePrivilege
+SeBackupPrivilege
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d,destpath=%s
+Boot:%S %d u32Result=0x%x,GetLastError=%d,destpath=%s
+Boot:%S %d u32Result=0x%x,GetLastError=%d,destpath=%s
+Boot:%S %d u32Result=0x%x,GetLastError=%d,destpath=%s
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+MACHINE\ESDESBCD\%s
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Everyone
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x
+Boot:%S %d u32Result=0x%x
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+Boot:%S %d CopyPERegeditHardwareKeyToDestRegedit 004 u32Result=0x%x
+Boot:%S %d u32Result=0x%x
+Boot:%S %d CopyPERegeditHardwareKeyToDestRegedit 004 u32Result=0x%x
+Boot:%S %d u32Result=0x%x
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+Boot:%S %d failed:%s
+SeBackupPrivilege
+SeRestorePrivilege
+SeTakeOwnershipPrivilege
+SeTakeOwnershipPrivilege
+SeRestorePrivilege
+SeBackupPrivilege
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d failed
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d nRes=0x%x,GetLastError=%d
+Boot:%S %d failed
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+gBoot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+LINUX.CFG
+Boot:%S %d u32Result=0x%x,GetLastError=%d
+Boot:%S %d CreateFile:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d CreateFile:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d CreateFile:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d CreateFile:%s failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+Boot:%S %d failed:%08X
+\\.\PhysicalDrive%d
+\\.\PhysicalDrive%d\
+\\.\PhysicalDrive%d\
+Boot:%S %d failed
+Boot:%S %d failed
+\syslinux
+:\BOOT
+:\BOOT\syslinux\SYSLINUX.CFG
+:\BOOT\syslinux\LINUX.CFG
+\syslinux\syslinux\SYSLINUX.CFG
+\syslinux\syslinux\LINUX.CFG
+Boot:%S %d failed
+:\BOOT\syslinux\LIVE.CFG
+Boot:%S %d failed
+Boot:%S %d failed
+:\BOOT\syslinux\LINUX.CFG
+Boot:%S %d failed
+:\BOOT
+Boot:%S %d failed
+\syslinux.exe -ma -d /boot/syslinux 
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+Boot:%S %d failed
+g%S %d nRes=0x%x,GetLastError=%d
+Kernel32.dll
+%S %d nRes=0x%x,GetLastError=%d
+../../res/language.ini
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+%S %d nRes=0x%x,GetLastError=%d
+imageLinux.iso
+image.iso
+Failed to Load lib (Err=0x%x) %S
+BOOTMGR
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1}
+device
+partition=X:
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1}
+\DCLOADLX
+{bootmgr}
+displayorder
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1} /addlast
+{bootmgr}
+default
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1}
+{bootmgr}
+timeout
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1}
+device
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1}
+\DCLOADLX
+{bootmgr}
+bootsequence
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1}
+{bootmgr}
+displayorder
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1} /addlast
+{a889172e-8d5c-482f-bf2e-3d4ac0559fe1}
+"EaseUS DC Linux"
+{8e0b8211-7965-4722-94cb-16c9e078c47e}
+ramdisksdidevice
+{8e0b8211-7965-4722-94cb-16c9e078c47e}
+ramdisksdipath
+\boot\EASEDCPE.SDI
+{341672c6-105f-4185-b472-60afa55d6f4e}
+device
+ramdisk=[boot]\boot\EASEDCPE.WIM,{8e0b8211-7965-4722-94cb-16c9e078c47e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+\windows\system32\boot\winload.exe
+{341672c6-105f-4185-b472-60afa55d6f4e}
+osdevice
+ramdisk=[boot]\boot\EASEDCPE.WIM,{8e0b8211-7965-4722-94cb-16c9e078c47e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+systemroot
+\windows
+{341672c6-105f-4185-b472-60afa55d6f4e}
+locale
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+inherit
+{bootloadersettings}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+detecthal
+{bootmgr}
+displayorder
+{341672c6-105f-4185-b472-60afa55d6f4e} /addlast
+{bootmgr}
+default
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{bootmgr}
+timeout
+{341672c6-105f-4185-b472-60afa55d6f4e}
+description
+"EaseUS DC Windows PE"
+{bootmgr}
+displayorder
+{341672c6-105f-4185-b472-60afa55d6f4e} /addlast
+{bootmgr}
+default
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{bootmgr}
+timeout
+{8e0b8211-7965-4722-94cb-16c9e078c47e}
+ramdisksdidevice
+partition=C:
+{8e0b8211-7965-4722-94cb-16c9e078c47e}
+ramdisksdipath
+\boot\EASEDCPE.SDI
+{341672c6-105f-4185-b472-60afa55d6f4e}
+device
+ramdisk=[C:]\boot\EASEDCPE.WIM,{8e0b8211-7965-4722-94cb-16c9e078c47e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+\windows\system32\boot\winload.exe
+{341672c6-105f-4185-b472-60afa55d6f4e}
+osdevice
+ramdisk=[C:]\boot\EASEDCPE.WIM,{8e0b8211-7965-4722-94cb-16c9e078c47e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+systemroot
+\windows
+{341672c6-105f-4185-b472-60afa55d6f4e}
+locale
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+inherit
+{bootloadersettings}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+detecthal
+{bootmgr}
+displayorder
+{341672c6-105f-4185-b472-60afa55d6f4e} /addlast
+{bootmgr}
+default
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{bootmgr}
+timeout
+{8e0b8211-7965-4722-94cb-16c9e078c47e}
+ramdisksdidevice
+partition=C:
+{8e0b8211-7965-4722-94cb-16c9e078c47e}
+ramdisksdipath
+\boot\EASEDCPE.SDI
+{341672c6-105f-4185-b472-60afa55d6f4e}
+device
+ramdisk=[C:]\boot\EASEDCPE.WIM,{8e0b8211-7965-4722-94cb-16c9e078c47e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+\windows\system32\boot\winload.exe
+{341672c6-105f-4185-b472-60afa55d6f4e}
+osdevice
+ramdisk=[C:]\boot\EASEDCPE.WIM,{8e0b8211-7965-4722-94cb-16c9e078c47e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+systemroot
+\windows
+{341672c6-105f-4185-b472-60afa55d6f4e}
+locale
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+inherit
+{bootloadersettings}
+{341672c6-105f-4185-b472-60afa55d6f4e}
+detecthal
+{bootmgr}
+bootsequence
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{bootmgr}
+displayorder
+{341672c6-105f-4185-b472-60afa55d6f4e} /addlast
+{341672c6-105f-4185-b472-60afa55d6f4e}
+description
+"EaseUS DC Windows PE"
+{bootmgr}
+bootsequence
+{341672c6-105f-4185-b472-60afa55d6f4e}
+{bootmgr}
+displayorder
+{341672c6-105f-4185-b472-60afa55d6f4e} /addlast
+{341672c6-105f-4185-b472-60afa55d6f4e}
+"EaseUS DC Windows PE"
+{8e0b8211-7965-4722-94cb-16c9e078c47e}
+"EaseUS Ramdisk options"

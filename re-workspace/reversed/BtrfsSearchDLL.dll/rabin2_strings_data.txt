@@ -1,0 +1,405 @@
+[Strings]
+nth paddr      vaddr       len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00017120 0x180018320 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+1   0x00017168 0x180018368 12  26   .rdata  utf16le kernel32.dll
+2   0x00017188 0x180018388 27  28   .rdata  ascii   InitializeConditionVariable
+3   0x000171a8 0x1800183a8 24  25   .rdata  ascii   SleepConditionVariableCS
+4   0x000171c8 0x1800183c8 24  25   .rdata  ascii   WakeAllConditionVariable
+5   0x00017210 0x180018410 17  18   .rdata  ascii   Unknown exception
+6   0x00017240 0x180018440 14  15   .rdata  ascii   bad allocation
+7   0x00017268 0x180018468 20  21   .rdata  ascii   bad array new length
+8   0x00017380 0x180018580 6   7    .rdata  ascii   @eaDir
+9   0x00017388 0x180018588 16  17   .rdata  ascii   list<T> too long
+10  0x000173a0 0x1800185a0 18  19   .rdata  ascii   vector<T> too long
+11  0x000173b8 0x1800185b8 15  16   .rdata  ascii   \BtrfsCache.txt
+12  0x000173c8 0x1800185c8 16  17   .rdata  ascii   .\BtrfsCache.txt
+13  0x000173e0 0x1800185e0 95  96   .rdata  ascii   Found sys chunk Offset=%lld, Size=%lld, RootID=%lld, Type=%lld, NumStripes=%d, DevOffset=%lld\r\n
+14  0x00017440 0x180018640 91  92   .rdata  ascii   Found chunk Offset=%lld, Size=%lld, RootID=%lld, Type=%lld, NumStripes=%d, DevOffset=%lld\r\n
+15  0x000174a0 0x1800186a0 30  31   .rdata  ascii   no INODE_ITEMs in tree %I64x\r\n
+16  0x000174c0 0x1800186c0 55  56   .rdata  ascii   Add Root ID = %lld, Address = %lld, Generation = %lld\r\n
+17  0x000174f8 0x1800186f8 44  45   .rdata  ascii   could not find chunk for %I64x in bootstrap\n
+18  0x00017528 0x180018728 44  45   .rdata  ascii   couldn't find INODE_ITEM for root directory\n
+19  0x00017558 0x180018758 37  38   .rdata  ascii   could not find item (%I64x,%x,%I64x)\n
+20  0x00017580 0x180018780 53  54   .rdata  ascii   (%I64x,%x,%I64x) was %u bytes, expected at least %Iu\n
+21  0x000175b8 0x1800187b8 22  23   .rdata  ascii   DIR_ITEM is truncated\n
+22  0x000175d0 0x1800187d0 15  16   .rdata  ascii   found xattr %s\n
+23  0x000175e0 0x1800187e0 19  20   .rdata  ascii   xattr %s not found\n
+24  0x000175f8 0x1800187f8 17  18   .rdata  ascii   btrfs.compression
+25  0x00017610 0x180018810 31  32   .rdata  ascii   Build datarun unknown type:%d\r\n
+26  0x00017630 0x180018830 54  55   .rdata  ascii   Exist ParentID=%lld, ID=%lld, FileName=%s, Size=%lld\r\n
+27  0x00017668 0x180018868 45  46   .rdata  ascii   could not find (%I64x,%x,%I64x) in root tree\n
+28  0x00017698 0x180018898 44  45   .rdata  ascii   (%I64x,%x,%I64x) was %u bytes, expected %Iu\n
+29  0x000176c8 0x1800188c8 52  53   .rdata  ascii   root DIR_ITEM had same CRC32, but was not "default"\n
+30  0x00017700 0x180018900 58  59   .rdata  ascii   default root has key (%I64x,%x,%I64x), expected subvolume\n
+31  0x00017740 0x180018940 49  50   .rdata  ascii   could not find root %I64x, using default instead\n
+32  0x00017778 0x180018978 14  15   .rdata  ascii   user.DOSATTRIB
+33  0x00017788 0x180018988 53  54   .rdata  ascii   Lost ParentID=%lld, ID=%lld, FileName=%s, Size=%lld\r\n
+34  0x000177c0 0x1800189c0 23  24   .rdata  ascii   Begin Scan Lost Files\r\n
+35  0x000177d8 0x1800189d8 41  42   .rdata  ascii   Lost scan chunk address=%lld, size=%lld\r\n
+36  0x00017808 0x180018a08 15  16   .rdata  ascii   string too long
+37  0x00017818 0x180018a18 19  20   .rdata  ascii   map/set<T> too long
+38  0x00017830 0x180018a30 7   8    .rdata  ascii   default
+39  0x00017838 0x180018a38 4   5    .rdata  ascii   zlib
+40  0x00017840 0x180018a40 4   5    .rdata  ascii   zstd
+41  0x0001784c 0x180018a4c 5   6    .rdata  ascii   user.
+42  0x00017bb5 0x180018db5 4   6    .rdata  utf8    ۲x8(
+43  0x00017bd4 0x180018dd4 5   8    .rdata  utf8    lD5☷e
+44  0x00017cc2 0x180018ec2 5   6    .rdata  ascii   8\foQS
+45  0x00017cdc 0x180018edc 4   5    .rdata  ascii   ')uB
+46  0x00017d3a 0x180018f3a 5   6    .rdata  ascii   $\nY8O
+47  0x00017d74 0x180018f74 6   8    .rdata  utf8    O*\t5|z
+48  0x00017da2 0x180018fa2 5   6    .rdata  ascii   lEd/\a
+49  0x00017de0 0x180018fe0 5   6    .rdata  ascii   \bk2U\v
+50  0x00017dee 0x180018fee 4   6    .rdata  utf8    bFؤq
+51  0x00017dfc 0x180018ffc 4   5    .rdata  ascii   ,W!\v
+52  0x00017e0b 0x18001900b 4   7    .rdata  utf8    >3;̦
+53  0x00017e15 0x180019015 4   5    .rdata  ascii   6 PQ
+54  0x00017e1a 0x18001901a 5   6    .rdata  ascii   pCRF\e
+55  0x00017e2c 0x18001902c 4   6    .rdata  utf8    Mсvi
+56  0x00017e3f 0x18001903f 4   5    .rdata  ascii   ;vz\b
+57  0x00017eb0 0x1800190b0 5   6    .rdata  ascii   \v~TI\b
+58  0x00017ef2 0x1800190f2 5   6    .rdata  ascii   \nYg:a
+59  0x00017efd 0x1800190fd 5   6    .rdata  ascii   JZJ{.
+60  0x00017f85 0x180019185 4   5    .rdata  ascii   #FLR
+61  0x00017f8b 0x18001918b 4   5    .rdata  ascii   _QS}
+62  0x00017fd7 0x1800191d7 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+63  0x0001803e 0x18001923e 5   6    .rdata  ascii   \b\v\r\v\a
+64  0x00018077 0x180019277 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+65  0x00018094 0x180019294 5   6    .rdata  ascii   1.2.3
+66  0x000189c7 0x180019bc7 17  18   .rdata  ascii   \a\b\b\t\t\n\n\v\v\f\f\f\f\r\r\r\r
+67  0x00018aa0 0x180019ca0 31  32   .rdata  ascii   \e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e
+68  0x00018acc 0x180019ccc 116 117  .rdata  ascii   \a\a\a\a\b\b\b\b\b\b\b\b\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+69  0x00018c20 0x180019e20 32  33   .rdata  ascii   \e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e\e
+70  0x00018e38 0x18001a038 4   20   .rdata  utf32le  0@`
+71  0x00018eac 0x18001a0ac 4   20   .rdata  utf32le \a\b\n\f
+72  0x00018ed0 0x18001a0d0 8   36   .rdata  utf32le  (08@P`p
+73  0x00018f50 0x18001a150 14  60   .rdata  utf32le \a\a\b\b\t\t\n\n\v\v\f\f\r\r
+74  0x00019392 0x18001a592 7   16   .rdata  utf16le \a@\a \a`\a
+75  0x000193a2 0x18001a5a2 15  32   .rdata  utf16le \aP\a0\ap\a\b\aH\a(\ah\a
+76  0x000193c2 0x18001a5c2 7   16   .rdata  utf16le \aX\a8\ax\a
+77  0x000193d2 0x18001a5d2 7   16   .rdata  utf16le \aD\a$\ad\a
+78  0x000193e2 0x18001a5e2 7   16   .rdata  utf16le \aT\a4\at\a
+79  0x00019485 0x18001a685 5   6    .rdata  ascii   0\aw,a
+80  0x000194e4 0x18001a6e4 4   6    .rdata  utf8    (kdz
+81  0x00019501 0x18001a701 4   5    .rdata  ascii    n;^
+82  0x00019553 0x18001a753 4   6    .rdata  utf8    !#ĳV
+83  0x000195b4 0x18001a7b4 4   5    .rdata  ascii   -=m\b
+84  0x000195c1 0x18001a7c1 6   7    .rdata  ascii   Qkkbal
+85  0x000195f9 0x18001a7f9 4   6    .rdata  utf8    |ӌeL
+86  0x00019637 0x18001a837 4   5    .rdata  ascii   3_L\n
+87  0x0001968d 0x18001a88d 4   6    .rdata  utf8    ұt9G
+88  0x000196a8 0x18001a8a8 4   5    .rdata  ascii   >jm\r
+89  0x000196ad 0x18001a8ad 4   5    .rdata  ascii   Zjz\v
+90  0x000196cf 0x18001a8cf 4   5    .rdata  ascii   i]Wb
+91  0x000196de 0x18001a8de 4   5    .rdata  ascii   knv\e
+92  0x000196e5 0x18001a8e5 4   6    .rdata  utf8    +ӉZz
+93  0x00019786 0x18001a986 5   8    .rdata  utf8    c윣ju\n
+94  0x0001980f 0x18001aa0f 4   5    .rdata  ascii   9a&g
+95  0x00019818 0x18001aa18 4   5    .rdata  ascii   MGiI
+96  0x0001981d 0x18001aa1d 6   8    .rdata  utf8    wn>JjѮ
+97  0x0001985f 0x18001aa5f 4   5    .rdata  ascii   #.zf
+98  0x0001986d 0x18001aa6d 4   5    .rdata  ascii   +o*7
+99  0x0001989a 0x18001aa9a 6   8    .rdata  utf8    ZVǖAO\b
+100 0x00019935 0x18001ab35 9   10   .rdata  ascii   Z* ,\t\a\vm8
+101 0x00019941 0x18001ab41 5   7    .rdata  utf8    6F߲\a]
+102 0x00019968 0x18001ab68 4   6    .rdata  utf8    yީ%8
+103 0x000199a0 0x18001aba0 4   6    .rdata  utf8    \rŠ8L
+104 0x00019a18 0x18001ac18 4   6    .rdata  utf8    !̧3`
+105 0x00019a45 0x18001ac45 6   7    .rdata  ascii   H$6t\e\t
+106 0x00019aa9 0x18001aca9 5   7    .rdata  utf8    pl@Aw
+107 0x00019ad4 0x18001acd4 4   5    .rdata  ascii   _~6\f
+108 0x00019b11 0x18001ad11 5   7    .rdata  utf8    ykʬHp
+109 0x00019b66 0x18001ad66 5   6    .rdata  ascii   \a52F*
+110 0x00019b6c 0x18001ad6c 4   5    .rdata  ascii   sw1\a
+111 0x00019c15 0x18001ae15 10  11   .rdata  ascii   \a\t#jT$\b+e?
+112 0x00019cbb 0x18001aebb 6   7    .rdata  ascii   \n=G\\vp
+113 0x00019d22 0x18001af22 4   5    .rdata  ascii   ^6o}
+114 0x00019d4d 0x18001af4d 9   10   .rdata  ascii   [-&LMb#{'
+115 0x00019d6b 0x18001af6b 5   6    .rdata  ascii   )q\n>(
+116 0x00019d93 0x18001af93 6   7    .rdata  ascii   w+OQvr
+117 0x00019d9f 0x18001af9f 5   7    .rdata  utf8    ux܉~O
+118 0x00019da9 0x18001afa9 5   6    .rdata  ascii   \b\r}!b
+119 0x00019dd9 0x18001afd9 5   6    .rdata  ascii   R1h58
+120 0x00019e0a 0x18001b00a 4   5    .rdata  ascii   SKyu
+121 0x00019e4a 0x18001b04a 5   7    .rdata  utf8    uW\tַV
+122 0x00019e76 0x18001b076 8   9    .rdata  ascii   )\ZEo^m/
+123 0x0001a0a3 0x18001b2a3 5   7    .rdata  utf8    ŊO\b}d
+124 0x0001a0d7 0x18001b2d7 7   8    .rdata  ascii   gC\bru&o
+125 0x0001a0fd 0x18001b2fd 4   5    .rdata  ascii   Gz\b>
+126 0x0001a110 0x18001b310 6   7    .rdata  ascii   i8P/\f_
+127 0x0001a12c 0x18001b32c 4   5    .rdata  ascii   ?(3w
+128 0x0001a135 0x18001b335 4   5    .rdata  ascii   wXR\r
+129 0x0001a147 0x18001b347 7   8    .rdata  ascii   H*0"ZOW
+130 0x0001a15f 0x18001b35f 5   7    .rdata  utf8    mNП5+
+131 0x0001a1bb 0x18001b3bb 5   7    .rdata  utf8    {kHwâ
+132 0x0001a20f 0x18001b40f 4   5    .rdata  ascii   )T`D
+133 0x0001a273 0x18001b473 4   5    .rdata  ascii   !AxU
+134 0x0001a27c 0x18001b47c 4   6    .rdata  utf8    ʰ\3;
+135 0x0001a290 0x18001b490 6   7    .rdata  ascii   l!;b\tF
+136 0x0001a2ac 0x18001b4ac 4   5    .rdata  ascii   :1X:
+137 0x0001a2b8 0x18001b4b8 4   6    .rdata  utf8    \bF\rm
+138 0x0001a2eb 0x18001b4eb 4   6    .rdata  utf8    ҥfAj
+139 0x0001a2f4 0x18001b4f4 4   5    .rdata  ascii   y9*O
+140 0x0001a302 0x18001b502 4   5    .rdata  ascii   kM`~
+141 0x0001a325 0x18001b525 4   5    .rdata  ascii   Vc0a
+142 0x0001a38f 0x18001b58f 4   5    .rdata  ascii   dQy/
+143 0x0001a397 0x18001b597 4   6    .rdata  utf8    Aڱ&S
+144 0x0001a3f3 0x18001b5f3 4   6    .rdata  utf8    lDa>
+145 0x0001a3fc 0x18001b5fc 5   7    .rdata  utf8    ϩ7~8A
+146 0x0001a455 0x18001b655 4   7    .rdata  utf8    渱{I\r
+147 0x0001a463 0x18001b663 4   5    .rdata  ascii   C-Yn
+148 0x0001a4a1 0x18001b6a1 4   7    .rdata  utf8    ۈ2yܸ
+149 0x0001a50d 0x18001b70d 4   5    .rdata  ascii   gqr<
+150 0x0001a56f 0x18001b76f 4   5    .rdata  ascii   $/o|
+151 0x0001a57d 0x18001b77d 4   5    .rdata  ascii   f-=v
+152 0x0001a59f 0x18001b79f 4   6    .rdata  utf8    3x\aɢ
+153 0x0001a5b4 0x18001b7b4 4   5    .rdata  ascii   \bm=-
+154 0x0001a610 0x18001b810 6   10   .rdata  utf8    JߥA=ؕפ
+155 0x0001a67a 0x18001b87a 4   6    .rdata  utf8    \;:l
+156 0x0001a6a8 0x18001b8a8 7   8    .rdata  ascii   \rmj>zjZ
+157 0x0001a6d9 0x18001b8d9 5   6    .rdata  ascii   l6qnk
+158 0x0001a721 0x18001b921 7   9    .rdata  utf8    \r+گ\n\eL6
+159 0x0001a748 0x18001b948 5   7    .rdata  utf8    %oҠRh
+160 0x0001a75e 0x18001b95e 4   6    .rdata  utf8    &/ź;
+161 0x0001a796 0x18001b996 5   6    .rdata  ascii   6?r\ag
+162 0x0001a80f 0x18001ba0f 4   6    .rdata  utf8    §g&a
+163 0x0001a818 0x18001ba18 8   10   .rdata  utf8    IiGM>nwۮ
+164 0x0001a885 0x18001ba85 6   7    .rdata  ascii   \e1A26b
+165 0x0001a91d 0x18001bb1d 4   6    .rdata  utf8    Ųe]]
+166 0x0001a92f 0x18001bb2f 4   5    .rdata  ascii   i91k
+167 0x0001a938 0x18001bb38 4   5    .rdata  ascii   \v\a\t,
+168 0x0001aa3d 0x18001bc3d 6   7    .rdata  ascii   ewh/?y
+169 0x0001aa4e 0x18001bc4e 4   5    .rdata  ascii   *5KS
+170 0x0001aad4 0x18001bcd4 7   8    .rdata  ascii   \f6~_'\e-
+171 0x0001ab1d 0x18001bd1d 4   5    .rdata  ascii   F*.f
+172 0x0001ab69 0x18001bd69 9   10   .rdata  ascii   *F2\a1wsHp
+173 0x0001aba5 0x18001bda5 4   5    .rdata  ascii   8l\a1
+174 0x0001ac04 0x18001be04 5   7    .rdata  utf8    Ge­lH
+175 0x0001ac18 0x18001be18 4   5    .rdata  ascii   \b$Tj
+176 0x0001acb3 0x18001beb3 5   7    .rdata  utf8    d\bؓS\n
+177 0x0001acba 0x18001beba 6   7    .rdata  ascii   -\n\v\G=
+178 0x0001accf 0x18001becf 4   5    .rdata  ascii   )\e/\v
+179 0x0001acff 0x18001beff 4   5    .rdata  ascii   M8MF
+180 0x0001ad1e 0x18001bf1e 4   5    .rdata  ascii   Pe6^
+181 0x0001ad50 0x18001bf50 5   6    .rdata  ascii   #bML"
+182 0x0001ad6a 0x18001bf6a 8   9    .rdata  ascii   `F(>\nq-q
+183 0x0001ad94 0x18001bf94 5   6    .rdata  ascii   vQO+t
+184 0x0001ad9b 0x18001bf9b 5   7    .rdata  utf8    ru՛E~
+185 0x0001ada7 0x18001bfa7 4   5    .rdata  ascii   O}\r\b
+186 0x0001add7 0x18001bfd7 4   5    .rdata  ascii   [h1R
+187 0x0001ae36 0x18001c036 4   5    .rdata  ascii   XsBI
+188 0x0001ae42 0x18001c042 4   5    .rdata  ascii   hPU3
+189 0x0001ae78 0x18001c078 5   6    .rdata  ascii   ^oEZ_
+190 0x0001af01 0x18001c101 6   8    .rdata  utf8    x]`غ7W
+191 0x0001af71 0x18001c171 6   8    .rdata  utf8    D\at͆mC
+192 0x0001b032 0x18001c232 4   6    .rdata  utf8    )ġ:C
+193 0x0001b076 0x18001c276 4   8    .rdata  utf8    ÿZ^ھ
+194 0x0001b097 0x18001c297 5   7    .rdata  utf8    2%k_ܝ
+195 0x0001b0ba 0x18001c2ba 4   5    .rdata  ascii   w3Xc
+196 0x0001b0d8 0x18001c2d8 4   5    .rdata  ascii   ur\bC
+197 0x0001b0fc 0x18001c2fc 5   7    .rdata  utf8    \bzGɠ2
+198 0x0001b107 0x18001c307 4   5    .rdata  ascii   [\n;g
+199 0x0001b110 0x18001c310 4   5    .rdata  ascii   /P8i
+200 0x0001b128 0x18001c328 7   9    .rdata  utf8    ϏOZw3(?
+201 0x0001b148 0x18001c348 4   5    .rdata  ascii   Z"0*
+202 0x0001b1d9 0x18001c3d9 4   5    .rdata  ascii   fP~V
+203 0x0001b211 0x18001c411 4   5    .rdata  ascii   D`T\f
+204 0x0001b287 0x18001c487 4   5    .rdata  ascii   ^GP~
+205 0x0001b290 0x18001c490 7   9    .rdata  utf8    b;!lڇF\t
+206 0x0001b2aa 0x18001c4aa 6   7    .rdata  ascii   V_:X1:
+207 0x0001b2ce 0x18001c4ce 5   6    .rdata  ascii   NJ2"v
+208 0x0001b2f4 0x18001c4f4 5   6    .rdata  ascii   O*9y]
+209 0x0001b362 0x18001c562 4   5    .rdata  ascii   fu`z
+210 0x0001b391 0x18001c591 4   5    .rdata  ascii   /yQA
+211 0x0001b3ad 0x18001c5ad 4   5    .rdata  ascii   Li\a<
+212 0x0001b3f5 0x18001c5f5 7   10   .rdata  utf8    >aDƋΪ~7
+213 0x0001b406 0x18001c606 4   5    .rdata  ascii   &]|v
+214 0x0001b456 0x18001c656 5   8    .rdata  utf8    散\rI{\e
+215 0x0001b4c8 0x18001c6c8 6   14   .rdata  utf16le \a\b\t\n\v\r
+216 0x0001b4e0 0x18001c6e0 8   18   .rdata  utf16le #+3;CScs
+217 0x0001b554 0x18001c754 4   10   .rdata  utf16le !1Aa
+218 0x0001b580 0x18001c780 17  18   .rdata  ascii   deque<T> too long
+219 0x0001b628 0x18001c828 5   6    .rdata  ascii   FAT12
+220 0x0001b630 0x18001c830 5   6    .rdata  ascii   FAT16
+221 0x0001b638 0x18001c838 5   6    .rdata  ascii   FAT32
+222 0x0001b640 0x18001c840 4   5    .rdata  ascii   NTFS
+223 0x0001b648 0x18001c848 4   5    .rdata  ascii   EXT2
+224 0x0001b650 0x18001c850 4   5    .rdata  ascii   EXT3
+225 0x0001b658 0x18001c858 4   5    .rdata  ascii   EXT4
+226 0x0001b660 0x18001c860 4   5    .rdata  ascii   ReFS
+227 0x0001b66c 0x18001c86c 5   6    .rdata  ascii   EXFAT
+228 0x0001b678 0x18001c878 7   8    .rdata  ascii   HFSPLUS
+229 0x0001b7f0 0x18001c9f0 15  16   .rdata  ascii   need dictionary
+230 0x0001b800 0x18001ca00 10  11   .rdata  ascii   stream end
+231 0x0001b810 0x18001ca10 10  11   .rdata  ascii   file error
+232 0x0001b820 0x18001ca20 12  13   .rdata  ascii   stream error
+233 0x0001b830 0x18001ca30 10  11   .rdata  ascii   data error
+234 0x0001b840 0x18001ca40 19  20   .rdata  ascii   insufficient memory
+235 0x0001b858 0x18001ca58 12  13   .rdata  ascii   buffer error
+236 0x0001b868 0x18001ca68 20  21   .rdata  ascii   incompatible version
+237 0x0001b880 0x18001ca80 32  33   .rdata  ascii   Exception occurred.GetErrorCode\n
+238 0x0001cbc4 0x18001ddc4 4   5    .rdata  ascii   RSDS
+239 0x0001cbdc 0x18001dddc 70  71   .rdata  ascii   E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\BtrfsSearchDLL.pdb
+240 0x0001cc38 0x18001de38 4   5    .rdata  ascii   GCTL
+241 0x0001cc44 0x18001de44 8   9    .rdata  ascii   .text$mn
+242 0x0001cc58 0x18001de58 11  12   .rdata  ascii   .text$mn$00
+243 0x0001cc6c 0x18001de6c 7   8    .rdata  ascii   .text$x
+244 0x0001cc7c 0x18001de7c 8   9    .rdata  ascii   .text$yd
+245 0x0001cc90 0x18001de90 8   9    .rdata  ascii   .idata$5
+246 0x0001cca4 0x18001dea4 6   7    .rdata  ascii   .00cfg
+247 0x0001ccb4 0x18001deb4 8   9    .rdata  ascii   .CRT$XCA
+248 0x0001ccc8 0x18001dec8 8   9    .rdata  ascii   .CRT$XCZ
+249 0x0001ccdc 0x18001dedc 8   9    .rdata  ascii   .CRT$XIA
+250 0x0001ccf0 0x18001def0 8   9    .rdata  ascii   .CRT$XIC
+251 0x0001cd04 0x18001df04 8   9    .rdata  ascii   .CRT$XIZ
+252 0x0001cd18 0x18001df18 8   9    .rdata  ascii   .CRT$XLA
+253 0x0001cd2c 0x18001df2c 8   9    .rdata  ascii   .CRT$XLZ
+254 0x0001cd40 0x18001df40 8   9    .rdata  ascii   .CRT$XPA
+255 0x0001cd54 0x18001df54 8   9    .rdata  ascii   .CRT$XPZ
+256 0x0001cd68 0x18001df68 8   9    .rdata  ascii   .CRT$XTA
+257 0x0001cd7c 0x18001df7c 8   9    .rdata  ascii   .CRT$XTZ
+258 0x0001cd90 0x18001df90 6   7    .rdata  ascii   .rdata
+259 0x0001cda0 0x18001dfa0 8   9    .rdata  ascii   .rdata$T
+260 0x0001cdb4 0x18001dfb4 8   9    .rdata  ascii   .rdata$r
+261 0x0001cdc8 0x18001dfc8 13  14   .rdata  ascii   .rdata$zzzdbg
+262 0x0001cde0 0x18001dfe0 8   9    .rdata  ascii   .rtc$IAA
+263 0x0001cdf4 0x18001dff4 8   9    .rdata  ascii   .rtc$IZZ
+264 0x0001ce08 0x18001e008 8   9    .rdata  ascii   .rtc$TAA
+265 0x0001ce1c 0x18001e01c 8   9    .rdata  ascii   .rtc$TZZ
+266 0x0001ce30 0x18001e030 4   5    .rdata  ascii   .tls
+267 0x0001ce40 0x18001e040 5   6    .rdata  ascii   .tls$
+268 0x0001ce50 0x18001e050 8   9    .rdata  ascii   .tls$ZZZ
+269 0x0001ce64 0x18001e064 6   7    .rdata  ascii   .xdata
+270 0x0001ce74 0x18001e074 8   9    .rdata  ascii   .xdata$x
+271 0x0001ce88 0x18001e088 6   7    .rdata  ascii   .edata
+272 0x0001ce98 0x18001e098 8   9    .rdata  ascii   .idata$2
+273 0x0001ceac 0x18001e0ac 8   9    .rdata  ascii   .idata$3
+274 0x0001cec0 0x18001e0c0 8   9    .rdata  ascii   .idata$4
+275 0x0001ced4 0x18001e0d4 8   9    .rdata  ascii   .idata$6
+276 0x0001cee8 0x18001e0e8 5   6    .rdata  ascii   .data
+277 0x0001cef8 0x18001e0f8 7   8    .rdata  ascii   .data$r
+278 0x0001cf08 0x18001e108 4   5    .rdata  ascii   .bss
+279 0x0001cf18 0x18001e118 6   7    .rdata  ascii   .pdata
+280 0x0001cf28 0x18001e128 8   9    .rdata  ascii   .rsrc$01
+281 0x0001cf3c 0x18001e13c 8   9    .rdata  ascii   .rsrc$02
+282 0x0001d0ea 0x18001e2ea 6   7    .rdata  ascii   \np\t`\bP
+283 0x0001d21c 0x18001e41c 5   6    .rdata  ascii   \fp\v0!
+284 0x0001d5e2 0x18001e7e2 4   5    .rdata  ascii   \bp\a`
+285 0x0001d610 0x18001e810 4   5    .rdata  ascii   \fp\v`
+286 0x0001d694 0x18001e894 4   5    .rdata  ascii   \fp\v`
+287 0x0001d818 0x18001ea18 5   6    .rdata  ascii   \fp\v`!
+288 0x0001d964 0x18001eb64 4   5    .rdata  ascii   \bp\a`
+289 0x0001dac4 0x18001ecc4 4   5    .rdata  ascii   \fp\v`
+290 0x0001dbf1 0x18001edf1 4   5    .rdata  ascii   2\v`!
+291 0x0001dc25 0x18001ee25 4   5    .rdata  ascii   2\v`!
+292 0x0001dc5c 0x18001ee5c 5   6    .rdata  ascii   \fp\v`!
+293 0x0001deb3 0x18001f0b3 4   5    .rdata  ascii   0!K\b
+294 0x0001e34d 0x18001f54d 5   6    .rdata  ascii   p\r`\f0
+295 0x0001e3aa 0x18001f5aa 6   7    .rdata  ascii   \tp\b`\aP
+296 0x0001e759 0x18001f959 4   5    .rdata  ascii   2\v`!
+297 0x0001e9a0 0x18001fba0 4   5    .rdata  ascii   \vb\a`
+298 0x0001eb82 0x18001fd82 4   5    .rdata  ascii   \bp\a`
+299 0x0001ec6c 0x18001fe6c 4   5    .rdata  ascii   \vB\aP
+300 0x0001ee8c 0x18002008c 4   5    .rdata  ascii   \bp\a`
+301 0x0001ef21 0x180020121 5   6    .rdata  ascii   2\n`!B
+302 0x0001f19d 0x18002039d 5   6    .rdata  ascii   2\vp"k
+303 0x0001f3ec 0x1800205ec 18  19   .rdata  ascii   BtrfsSearchDLL.dll
+304 0x0001f3ff 0x1800205ff 29  30   .rdata  ascii   EUCreateBtrfsComplateSearcher
+305 0x0001f41d 0x18002061d 26  27   .rdata  ascii   EUCreateBtrfsQuickSearcher
+306 0x0001f762 0x180020962 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+307 0x0001f784 0x180020984 27  28   .rdata  ascii   ?_Throw_C_error@std@@YAXH@Z
+308 0x0001f7a2 0x1800209a2 20  21   .rdata  ascii   _Mtx_destroy_in_situ
+309 0x0001f7ba 0x1800209ba 9   10   .rdata  ascii   _Mtx_lock
+310 0x0001f7c6 0x1800209c6 17  18   .rdata  ascii   _Mtx_init_in_situ
+311 0x0001f7da 0x1800209da 11  12   .rdata  ascii   _Mtx_unlock
+312 0x0001f7e6 0x1800209e6 12  13   .rdata  ascii   MSVCP140.dll
+313 0x0001f7f6 0x1800209f6 18  19   .rdata  ascii   __CxxFrameHandler3
+314 0x0001f80c 0x180020a0c 9   10   .rdata  ascii   _purecall
+315 0x0001f818 0x180020a18 15  16   .rdata  ascii   __std_terminate
+316 0x0001f82a 0x180020a2a 20  21   .rdata  ascii   __C_specific_handler
+317 0x0001f842 0x180020a42 28  29   .rdata  ascii   __std_type_info_destroy_list
+318 0x0001f862 0x180020a62 6   7    .rdata  ascii   memset
+319 0x0001f86c 0x180020a6c 20  21   .rdata  ascii   __std_exception_copy
+320 0x0001f884 0x180020a84 23  24   .rdata  ascii   __std_exception_destroy
+321 0x0001f89e 0x180020a9e 18  19   .rdata  ascii   _CxxThrowException
+322 0x0001f8b2 0x180020ab2 16  17   .rdata  ascii   VCRUNTIME140.dll
+323 0x0001f8c6 0x180020ac6 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+324 0x0001f8ec 0x180020aec 15  16   .rdata  ascii   __acrt_iob_func
+325 0x0001f8fe 0x180020afe 23  24   .rdata  ascii   __stdio_common_vfprintf
+326 0x0001f918 0x180020b18 7   8    .rdata  ascii   strncpy
+327 0x0001f922 0x180020b22 4   5    .rdata  ascii   free
+328 0x0001f92a 0x180020b2a 6   7    .rdata  ascii   malloc
+329 0x0001f934 0x180020b34 9   10   .rdata  ascii   _initterm
+330 0x0001f940 0x180020b40 11  12   .rdata  ascii   _initterm_e
+331 0x0001f94e 0x180020b4e 9   10   .rdata  ascii   _callnewh
+332 0x0001f95a 0x180020b5a 15  16   .rdata  ascii   _seh_filter_dll
+333 0x0001f96c 0x180020b6c 22  23   .rdata  ascii   _configure_narrow_argv
+334 0x0001f986 0x180020b86 30  31   .rdata  ascii   _initialize_narrow_environment
+335 0x0001f9a8 0x180020ba8 24  25   .rdata  ascii   _initialize_onexit_table
+336 0x0001f9c4 0x180020bc4 25  26   .rdata  ascii   _register_onexit_function
+337 0x0001f9e0 0x180020be0 21  22   .rdata  ascii   _execute_onexit_table
+338 0x0001f9f8 0x180020bf8 11  12   .rdata  ascii   _crt_atexit
+339 0x0001fa06 0x180020c06 6   7    .rdata  ascii   _cexit
+340 0x0001fa0e 0x180020c0e 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+341 0x0001fa30 0x180020c30 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+342 0x0001fa50 0x180020c50 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+343 0x0001fa72 0x180020c72 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+344 0x0001fa94 0x180020c94 11  12   .rdata  ascii   CreateFileA
+345 0x0001faa2 0x180020ca2 11  12   .rdata  ascii   CloseHandle
+346 0x0001fab0 0x180020cb0 20  21   .rdata  ascii   EnterCriticalSection
+347 0x0001fac8 0x180020cc8 20  21   .rdata  ascii   LeaveCriticalSection
+348 0x0001fae0 0x180020ce0 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+349 0x0001fb08 0x180020d08 21  22   .rdata  ascii   DeleteCriticalSection
+350 0x0001fb20 0x180020d20 8   9    .rdata  ascii   SetEvent
+351 0x0001fb2c 0x180020d2c 10  11   .rdata  ascii   ResetEvent
+352 0x0001fb3a 0x180020d3a 21  22   .rdata  ascii   WaitForSingleObjectEx
+353 0x0001fb52 0x180020d52 12  13   .rdata  ascii   CreateEventW
+354 0x0001fb62 0x180020d62 16  17   .rdata  ascii   GetModuleHandleW
+355 0x0001fb76 0x180020d76 14  15   .rdata  ascii   GetProcAddress
+356 0x0001fb88 0x180020d88 17  18   .rdata  ascii   RtlCaptureContext
+357 0x0001fb9c 0x180020d9c 22  23   .rdata  ascii   RtlLookupFunctionEntry
+358 0x0001fbb6 0x180020db6 16  17   .rdata  ascii   RtlVirtualUnwind
+359 0x0001fbca 0x180020dca 24  25   .rdata  ascii   UnhandledExceptionFilter
+360 0x0001fbe6 0x180020de6 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+361 0x0001fc04 0x180020e04 17  18   .rdata  ascii   GetCurrentProcess
+362 0x0001fc18 0x180020e18 16  17   .rdata  ascii   TerminateProcess
+363 0x0001fc2c 0x180020e2c 25  26   .rdata  ascii   IsProcessorFeaturePresent
+364 0x0001fc48 0x180020e48 23  24   .rdata  ascii   QueryPerformanceCounter
+365 0x0001fc62 0x180020e62 19  20   .rdata  ascii   GetCurrentProcessId
+366 0x0001fc78 0x180020e78 18  19   .rdata  ascii   GetCurrentThreadId
+367 0x0001fc8e 0x180020e8e 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+368 0x0001fca8 0x180020ea8 19  20   .rdata  ascii   InitializeSListHead
+369 0x0001fcbe 0x180020ebe 17  18   .rdata  ascii   IsDebuggerPresent
+370 0x0001fcd0 0x180020ed0 12  13   .rdata  ascii   KERNEL32.dll
+371 0x0001fce0 0x180020ee0 6   7    .rdata  ascii   memcpy
+372 0x0001fcea 0x180020eea 15  16   .rdata  ascii   PathFileExistsW
+373 0x0001fcfa 0x180020efa 11  12   .rdata  ascii   SHLWAPI.dll
+374 0x0001fd08 0x180020f08 15  16   .rdata  ascii   DeviceIoControl
+375 0x0001fd1a 0x180020f1a 12  13   .rdata  ascii   SetEndOfFile
+376 0x0001fd2a 0x180020f2a 11  12   .rdata  ascii   CreateFileW
+377 0x0001fd38 0x180020f38 15  16   .rdata  ascii   UnmapViewOfFile
+378 0x0001fd4a 0x180020f4a 11  12   .rdata  ascii   DeleteFileW
+379 0x0001fd58 0x180020f58 16  17   .rdata  ascii   SetFilePointerEx
+380 0x0001fd6c 0x180020f6c 18  19   .rdata  ascii   CreateFileMappingW
+381 0x0001fd82 0x180020f82 13  14   .rdata  ascii   MapViewOfFile
+382 0x0001fd92 0x180020f92 6   7    .rdata  ascii   memcmp
+383 0x0001fd9c 0x180020f9c 7   8    .rdata  ascii   memmove
+384 0x0001feb0 0x1800210b0 15  16   .data   ascii   .?AVtype_info@@
+385 0x0001fed0 0x1800210d0 19  20   .data   ascii   .?AVexception@std@@
+386 0x0001fef8 0x1800210f8 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+387 0x0001ff28 0x180021128 23  24   .data   ascii   .?AVCBtrfsQuickSearch@@
+388 0x0001ff50 0x180021150 33  34   .data   ascii   .?AVIFileSystemSearchController@@
+389 0x0001ff88 0x180021188 38  39   .data   ascii   .?AVIQuickFileSystemSearchController@@
+390 0x0001ffc0 0x1800211c0 33  34   .data   ascii   .?AVCSearchedBtrfsPartitionInfo@@
+391 0x0001fff8 0x1800211f8 28  29   .data   ascii   .?AVCSearchedPartitionInfo@@
+392 0x00020028 0x180021228 21  22   .data   ascii   .?AVIFileProperties@@
+393 0x00020050 0x180021250 25  26   .data   ascii   .?AVCBtrfsFileProerties@@
+394 0x00020080 0x180021280 18  19   .data   ascii   .?AVIDataRunList@@
+395 0x000200a8 0x1800212a8 33  34   .data   ascii   .?AVCBtrfsNoResidentDataRunList@@
+396 0x000200e0 0x1800212e0 15  16   .data   ascii   .?AVCFileNode@@
+397 0x00020100 0x180021300 21  22   .data   ascii   .?AVCFileSystemNode@@
+398 0x00020128 0x180021328 34  35   .data   ascii   .?AVCNoneResidentNTFSDataRunList@@
+399 0x00020160 0x180021360 30  31   .data   ascii   .?AVCResidentNTFSDataRunList@@
+400 0x00020190 0x180021390 19  20   .data   ascii   .?AVbad_alloc@std@@
+401 0x00021860 0x180024060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

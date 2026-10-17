@@ -1,0 +1,38 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib       name                                                         demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x0000c6f0 0x18000d2f0 GLOBAL FUNC 0    Device.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x0000c6f0 0x18000d2f0 GLOBAL FUNC 0    Device.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x0000c710 0x18000d310 GLOBAL FUNC 0    Device.mo ??0IObject@@QEAA@XZ
+4   0x0000c730 0x18000d330 GLOBAL FUNC 0    Device.mo ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+5   0x0000c730 0x18000d330 GLOBAL FUNC 0    Device.mo ??0IStorageDevice@@QEAA@AEBU0@@Z
+6   0x0000c7a0 0x18000d3a0 GLOBAL FUNC 0    Device.mo ??0IStorageDevice@@QEAA@XZ
+7   0x0000cf90 0x18000db90 GLOBAL FUNC 0    Device.mo ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+8   0x0000cf90 0x18000db90 GLOBAL FUNC 0    Device.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+9   0x000015c0 0x1800021c0 GLOBAL FUNC 0    Device.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+10  0x000015c0 0x1800021c0 GLOBAL FUNC 0    Device.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+11  0x000015c0 0x1800021c0 GLOBAL FUNC 0    Device.mo ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+12  0x000015c0 0x1800021c0 GLOBAL FUNC 0    Device.mo ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+13  0x000015c0 0x1800021c0 GLOBAL FUNC 0    Device.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+14  0x000015c0 0x1800021c0 GLOBAL FUNC 0    Device.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+15  0x0000cfc0 0x18000dbc0 GLOBAL FUNC 0    Device.mo ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+16  0x0000cfc0 0x18000dbc0 GLOBAL FUNC 0    Device.mo ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+17  0x00072808 0x180073c08 GLOBAL FUNC 0    Device.mo ??_7IObject@@6B@
+18  0x00072ad0 0x180073ed0 GLOBAL FUNC 0    Device.mo ??_7IStorageDevice@@6BIBlockDevice@@@
+19  0x00072a50 0x180073e50 GLOBAL FUNC 0    Device.mo ??_7IStorageDevice@@6BIObject@@@
+20  0x000100f0 0x180010cf0 GLOBAL FUNC 0    Device.mo ?AddRef@IObject@@QEBAKXZ
+21  0x00004d00 0x180005900 GLOBAL FUNC 0    Device.mo ?ConvertVolume@IStorageDevice@@UEAAHXZ
+22  0x00011b60 0x180012760 GLOBAL FUNC 0    Device.mo ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+23  0x00056710 0x180057310 GLOBAL FUNC 0    Device.mo ?GPT_ChksumCrc32@@YAKPEAEK@Z
+24  0x00056680 0x180057280 GLOBAL FUNC 0    Device.mo ?GPT_ChksumCrc32Initialize@@YAXXZ
+25  0x00004d00 0x180005900 GLOBAL FUNC 0    Device.mo ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+26  0x00011cb0 0x1800128b0 GLOBAL FUNC 0    Device.mo ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+27  0x000101d0 0x180010dd0 GLOBAL FUNC 0    Device.mo ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+28  0x00001ee0 0x180002ae0 GLOBAL FUNC 0    Device.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+29  0x00004d00 0x180005900 GLOBAL FUNC 0    Device.mo ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+30  0x000132f0 0x180013ef0 GLOBAL FUNC 0    Device.mo ?Release@IObject@@QEBAKXZ
+31  0x0000ced0 0x18000dad0 GLOBAL FUNC 0    Device.mo ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+32  0x00013310 0x180013f10 GLOBAL FUNC 0    Device.mo ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+33  0x000101d0 0x180010dd0 GLOBAL FUNC 0    Device.mo ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+34  0x00011c90 0x180012890 GLOBAL FUNC 0    Device.mo ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+35  0x00000ec0 0x180001ac0 GLOBAL FUNC 0    Device.mo GetModule

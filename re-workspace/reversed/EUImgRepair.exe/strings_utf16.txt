@@ -1,0 +1,20 @@
+jjjjjjjjh
+jjjjjj
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+SOFTWARE\EASEUS\EaseUS Data Recovery Wizard\EUImgRepair
+FullFileName
+FullRepairedFileName
+" Activity "
+ /SendInfo Window "
+" Attribute "{
+aliyun\InfoForSetup.exe
+Trigger_Repairimage_Begin
+\"Elapsed\":\"%d\",\"Result\":\"failed\",\"Type\":\"%s\"
+Trigger_Repairimage_End
+\"Elapsed\":\"%d\",\"Result\":\"2times_enlarged\",\"Type\":\"%s\"
+\"Elapsed\":\"%d\",\"Result\":\"2times_failed\",\"Type\":\"%s\"
+\"Elapsed\":\"%d\",\"Result\":\"original_size\",\"Type\":\"%s\"
+Repaired
+%s%s%s_%s%s
+%s%s%s_%s_%d%s

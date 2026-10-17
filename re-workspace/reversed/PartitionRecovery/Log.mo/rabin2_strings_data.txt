@@ -1,0 +1,300 @@
+[Strings]
+nth paddr      vaddr       len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00004948 0x180006348 42  43   .rdata  ascii   EPM_{1E956C11-4D20-49d7-B4C7-016A342A2D39}
+1   0x00004978 0x180006378 45  46   .rdata  ascii   EPMLOG_{1BFCF65F-0766-4a71-B7A3-2EB2CD1412DE}
+2   0x000049a8 0x1800063a8 55  56   .rdata  ascii   Failed to request the permission to write to log file!\n
+3   0x000049e0 0x1800063e0 53  54   .rdata  ascii   Failed to request the permission to write to buffer!\n
+4   0x00004a18 0x180006418 27  28   .rdata  ascii   Failed to create map file!\n
+5   0x00004a38 0x180006438 28  29   .rdata  ascii   Failed to map the map file!\n
+6   0x00004b54 0x180006554 4   6    .rdata  utf8    rЊV@
+7   0x00004b7c 0x18000657c 4   5    .rdata  ascii   N\vf3
+8   0x00004c83 0x180006683 8   9    .rdata  ascii   MSDOS5.0
+9   0x00004cab 0x1800066ab 22  25   .rdata  utf8    NO NAME    FAT12   3ɎѼ
+10  0x00004ccf 0x1800066cf 6   7    .rdata  ascii   |8N$}$
+11  0x00004ce3 0x1800066e3 6   7    .rdata  ascii   |&f;\a&
+12  0x00004d31 0x180006731 6   7    .rdata  ascii   r9&8-t
+13  0x00004d40 0x180006740 6   7    .rdata  ascii   at2Nt\t
+14  0x00004d58 0x180006758 5   6    .rdata  ascii   @t\fHt
+15  0x00004e07 0x180006807 6   7    .rdata  ascii   aar\v@u
+16  0x00004e10 0x180006810 4   5    .rdata  ascii   ^\vIu
+17  0x00004e21 0x180006821 41  42   .rdata  ascii   NTLDR      \r\nRemove disks or other media.
+18  0x00004e4b 0x18000684b 12  13   .rdata  ascii   \r\nDisk error
+19  0x00004e58 0x180006858 28  29   .rdata  ascii   \r\nPress any key to restart\r\n
+20  0x00004e83 0x180006883 8   9    .rdata  ascii   MSDOS5.0
+21  0x00004ec7 0x1800068c7 22  25   .rdata  utf8    NO NAME    FAT32   3ɎѼ
+22  0x00004f9c 0x18000699c 8   9    .rdata  ascii   fXfXfXfX
+23  0x00004fa5 0x1800069a5 4   5    .rdata  ascii   3f;F
+24  0x00004fe3 0x1800069e3 4   5    .rdata  ascii   f@Iu
+25  0x00004fe9 0x1800069e9 11  12   .rdata  ascii   BOOTMGR
+26  0x0000502c 0x180006a2c 30  31   .rdata  ascii   \r\nRemove disks or other media.
+27  0x0000504b 0x180006a4b 12  13   .rdata  ascii   \r\nDisk error
+28  0x00005058 0x180006a58 28  29   .rdata  ascii   \r\nPress any key to restart\r\n
+29  0x00005154 0x180006b54 4   6    .rdata  utf8    rЊV@
+30  0x0000517c 0x180006b7c 4   5    .rdata  ascii   N\vf3
+31  0x00005283 0x180006c83 8   9    .rdata  ascii   MSDOS5.0
+32  0x000052c2 0x180006cc2 27  30   .rdata  utf8    )uZv8NO NAME    FAT32   3ɎѼ
+33  0x00005360 0x180006d60 5   6    .rdata  ascii   f`f;F
+34  0x000053aa 0x180006daa 8   9    .rdata  ascii   fXfXfXfX
+35  0x000053f0 0x180006df0 11  12   .rdata  ascii   NTLDR
+36  0x0000542c 0x180006e2c 18  19   .rdata  ascii   \r\nNTLDR is missing
+37  0x0000543f 0x180006e3f 12  13   .rdata  ascii   \r\nDisk error
+38  0x0000544c 0x180006e4c 28  29   .rdata  ascii   \r\nPress any key to restart\r\n
+39  0x00005483 0x180006e83 8   9    .rdata  ascii   MSDOS5.0
+40  0x000054aa 0x180006eaa 23  26   .rdata  utf8    ,NO NAME    FAT16   3ɎѼ
+41  0x000054cf 0x180006ecf 6   7    .rdata  ascii   |8N$}$
+42  0x000054e3 0x180006ee3 6   7    .rdata  ascii   |&f;\a&
+43  0x00005531 0x180006f31 6   7    .rdata  ascii   r9&8-t
+44  0x00005540 0x180006f40 6   7    .rdata  ascii   at2Nt\t
+45  0x00005558 0x180006f58 5   6    .rdata  ascii   @t\fHt
+46  0x00005607 0x180007007 6   7    .rdata  ascii   aar\v@u
+47  0x00005610 0x180007010 4   5    .rdata  ascii   ^\vIu
+48  0x00005621 0x180007021 41  42   .rdata  ascii   NTLDR      \r\nRemove disks or other media.
+49  0x0000564b 0x18000704b 12  13   .rdata  ascii   \r\nDisk error
+50  0x00005658 0x180007058 28  29   .rdata  ascii   \r\nPress any key to restart\r\n
+51  0x00005683 0x180007083 8   9    .rdata  ascii   MSDOS5.0
+52  0x000056ab 0x1800070ab 22  25   .rdata  utf8    NO NAME    FAT16   3ɎѼ
+53  0x000056cf 0x1800070cf 6   7    .rdata  ascii   |8N$}$
+54  0x000056e3 0x1800070e3 6   7    .rdata  ascii   |&f;\a&
+55  0x00005731 0x180007131 6   7    .rdata  ascii   r9&8-t
+56  0x00005740 0x180007140 6   7    .rdata  ascii   at2Nt\t
+57  0x00005758 0x180007158 5   6    .rdata  ascii   @t\fHt
+58  0x00005807 0x180007207 6   7    .rdata  ascii   aar\v@u
+59  0x00005810 0x180007210 4   5    .rdata  ascii   ^\vIu
+60  0x00005821 0x180007221 41  42   .rdata  ascii   BOOTMGR    \r\nRemove disks or other media.
+61  0x0000584b 0x18000724b 12  13   .rdata  ascii   \r\nDisk error
+62  0x00005858 0x180007258 28  29   .rdata  ascii   \r\nPress any key to restart\r\n
+63  0x000058d0 0x1800072d0 49  50   .rdata  ascii   [%04d-%02d-%02d %02d:%02d:%02d:%03d] (T:%d/P:%d)
+64  0x00005908 0x180007308 7   8    .rdata  ascii   English
+65  0x00005910 0x180007310 11  12   .rdata  ascii   \EPMLOG.log
+66  0x00005920 0x180007320 43  44   .rdata  ascii   Date Generated: %02d/%02d/%d %02d:%02d:%02d
+67  0x00005950 0x180007350 30  31   .rdata  ascii   Failed to query memory status.
+68  0x00005970 0x180007370 14  15   .rdata  ascii   Memory status:
+69  0x00005980 0x180007380 67  68   .rdata  ascii   Total physical memory:%4I64d MB\tAvailable physical memory:%4I64d MB
+70  0x000059d0 0x1800073d0 67  68   .rdata  ascii   Total   page    files:%4I64d MB\tAvailable    page   files:%4I64d MB
+71  0x00005a18 0x180007418 20  21   .rdata  ascii   Microsoft Windows 11
+72  0x00005a30 0x180007430 25  26   .rdata  ascii   Microsoft Windows 11(Dev)
+73  0x00005a50 0x180007450 20  21   .rdata  ascii   Microsoft Windows 10
+74  0x00005a68 0x180007468 29  30   .rdata  ascii   Microsoft Windows Server 2016
+75  0x00005a88 0x180007488 29  30   .rdata  ascii   Microsoft Windows Server 2019
+76  0x00005aa8 0x1800074a8 29  30   .rdata  ascii   Microsoft Windows Server 2022
+77  0x00005ac8 0x1800074c8 25  26   .rdata  ascii   Unknown operating system!
+78  0x00005ae4 0x1800074e4 6   7    .rdata  ascii   64-bit
+79  0x00005aec 0x1800074ec 6   7    .rdata  ascii   32-bit
+80  0x00005af8 0x1800074f8 21  22   .rdata  ascii   Microsoft Windows 8.1
+81  0x00005b10 0x180007510 32  33   .rdata  ascii   Microsoft Windows Server 2012 R2
+82  0x00005b38 0x180007538 19  20   .rdata  ascii   Microsoft Windows 8
+83  0x00005b50 0x180007550 29  30   .rdata  ascii   Microsoft Windows Server 2012
+84  0x00005b70 0x180007570 19  20   .rdata  ascii   Microsoft Windows 7
+85  0x00005b88 0x180007588 32  33   .rdata  ascii   Microsoft Windows Server 2008 R2
+86  0x00005bb0 0x1800075b0 23  24   .rdata  ascii   Microsoft Windows Vista
+87  0x00005bc8 0x1800075c8 29  30   .rdata  ascii   Microsoft Windows Server 2008
+88  0x00005be8 0x1800075e8 32  33   .rdata  ascii   Microsoft Windows Server 2003 R2
+89  0x00005c10 0x180007610 37  38   .rdata  ascii   Microsoft Windows Storage Server 2003
+90  0x00005c38 0x180007638 20  21   .rdata  ascii   Microsoft Windows XP
+91  0x00005c50 0x180007650 29  30   .rdata  ascii   Microsoft Windows Server 2003
+92  0x00005c70 0x180007670 25  26   .rdata  ascii   for Itanium-based Systems
+93  0x00005c90 0x180007690 11  12   .rdata  ascii   x64 Edition
+94  0x00005ca0 0x1800076a0 12  13   .rdata  ascii   Professional
+95  0x00005cb0 0x1800076b0 23  24   .rdata  ascii   Compute Cluster Edition
+96  0x00005cc8 0x1800076c8 18  19   .rdata  ascii   Datacenter Edition
+97  0x00005ce0 0x1800076e0 18  19   .rdata  ascii   Enterprise Edition
+98  0x00005cf8 0x1800076f8 11  12   .rdata  ascii   Web Edition
+99  0x00005d08 0x180007708 16  17   .rdata  ascii   Standard Edition
+100 0x00005d20 0x180007720 12  13   .rdata  ascii   Home Edition
+101 0x00005d30 0x180007730 22  23   .rdata  ascii   Microsoft Windows 2000
+102 0x00005d48 0x180007748 17  18   .rdata  ascii   Datacenter Server
+103 0x00005d60 0x180007760 15  16   .rdata  ascii   Advanced Server
+104 0x00005d70 0x180007770 6   7    .rdata  ascii   Server
+105 0x00005d78 0x180007778 20  21   .rdata  ascii   Microsoft Windows NT
+106 0x00005d90 0x180007790 15  16   .rdata  ascii   WorkStation 4.0
+107 0x00005da0 0x1800077a0 30  31   .rdata  ascii   Server 4.0, Enterprise Edition
+108 0x00005dc0 0x1800077c0 10  11   .rdata  ascii   Server 4.0
+109 0x00005dd0 0x1800077d0 9   10   .rdata  ascii   ntdll.dll
+110 0x00005de0 0x1800077e0 22  23   .rdata  ascii   RtlGetNtVersionNumbers
+111 0x00005df8 0x1800077f8 19  20   .rdata  ascii   GetNativeSystemInfo
+112 0x00005e10 0x180007810 12  13   .rdata  ascii   kernel32.dll
+113 0x00005e20 0x180007820 28  29   .rdata  ascii   %s %s %s %s (%d.%d.%d.%d.%d)
+114 0x00005e40 0x180007840 6   7    .rdata  ascii   OS: %s
+115 0x00005e48 0x180007848 16  17   .rdata  ascii   OS Directory: %s
+116 0x00005e60 0x180007860 27  28   .rdata  ascii   Current Executable Path: %s
+117 0x00005e80 0x180007880 11  12   .rdata  ascii   \HD%03d.dpt
+118 0x00005e98 0x180007898 20  21   .rdata  ascii   %d/%d/%d %d:%d:%d %s
+119 0x00005eb0 0x1800078b0 14  15   .rdata  ascii   DPT BY BOOTICE
+120 0x00005ef8 0x1800078f8 9   10   .rdata  ascii   log_write
+121 0x00005f08 0x180007908 10  11   .rdata  ascii   fsclog.dll
+122 0x00005f18 0x180007918 51  52   .rdata  ascii   MemMonitorProc::CMemMonitorManager::StartMemMonitor
+123 0x00005f50 0x180007950 42  86   .rdata  utf16le [CMemMonitorManager]%S fail,last err : %d!
+124 0x0000648c 0x180007e8c 8   9    .rdata  ascii   RSDSyYVh
+125 0x000064a4 0x180007ea4 57  58   .rdata  ascii   I:\_drw_main\PartitionRecovery\Output\Release_x64\Log.pdb
+126 0x000064f4 0x180007ef4 4   5    .rdata  ascii   GCTL
+127 0x00006500 0x180007f00 8   9    .rdata  ascii   .text$di
+128 0x00006514 0x180007f14 8   9    .rdata  ascii   .text$mn
+129 0x00006528 0x180007f28 11  12   .rdata  ascii   .text$mn$00
+130 0x0000653c 0x180007f3c 7   8    .rdata  ascii   .text$x
+131 0x0000654c 0x180007f4c 8   9    .rdata  ascii   .text$yd
+132 0x00006560 0x180007f60 8   9    .rdata  ascii   .idata$5
+133 0x00006574 0x180007f74 6   7    .rdata  ascii   .00cfg
+134 0x00006584 0x180007f84 8   9    .rdata  ascii   .CRT$XCA
+135 0x00006598 0x180007f98 8   9    .rdata  ascii   .CRT$XCU
+136 0x000065ac 0x180007fac 8   9    .rdata  ascii   .CRT$XCZ
+137 0x000065c0 0x180007fc0 8   9    .rdata  ascii   .CRT$XIA
+138 0x000065d4 0x180007fd4 8   9    .rdata  ascii   .CRT$XIZ
+139 0x000065e8 0x180007fe8 8   9    .rdata  ascii   .CRT$XPA
+140 0x000065fc 0x180007ffc 8   9    .rdata  ascii   .CRT$XPZ
+141 0x00006610 0x180008010 8   9    .rdata  ascii   .CRT$XTA
+142 0x00006624 0x180008024 8   9    .rdata  ascii   .CRT$XTZ
+143 0x00006638 0x180008038 6   7    .rdata  ascii   .rdata
+144 0x00006648 0x180008048 8   9    .rdata  ascii   .rdata$r
+145 0x0000665c 0x18000805c 13  14   .rdata  ascii   .rdata$zzzdbg
+146 0x00006674 0x180008074 8   9    .rdata  ascii   .rtc$IAA
+147 0x00006688 0x180008088 8   9    .rdata  ascii   .rtc$IZZ
+148 0x0000669c 0x18000809c 8   9    .rdata  ascii   .rtc$TAA
+149 0x000066b0 0x1800080b0 8   9    .rdata  ascii   .rtc$TZZ
+150 0x000066c4 0x1800080c4 6   7    .rdata  ascii   .xdata
+151 0x000066d4 0x1800080d4 6   7    .rdata  ascii   .edata
+152 0x000066e4 0x1800080e4 8   9    .rdata  ascii   .idata$2
+153 0x000066f8 0x1800080f8 8   9    .rdata  ascii   .idata$3
+154 0x0000670c 0x18000810c 8   9    .rdata  ascii   .idata$4
+155 0x00006720 0x180008120 8   9    .rdata  ascii   .idata$6
+156 0x00006734 0x180008134 5   6    .rdata  ascii   .data
+157 0x00006744 0x180008144 7   8    .rdata  ascii   .data$r
+158 0x00006754 0x180008154 4   5    .rdata  ascii   .bss
+159 0x00006764 0x180008164 6   7    .rdata  ascii   .pdata
+160 0x00006774 0x180008174 8   9    .rdata  ascii   .rsrc$01
+161 0x00006788 0x180008188 8   9    .rdata  ascii   .rsrc$02
+162 0x0000684c 0x18000824c 6   7    .rdata  ascii   \fR\bp\a`
+163 0x000068db 0x1800082db 7   8    .rdata  ascii   p\r`\fP\v0
+164 0x0000703e 0x180008a3e 7   16   .rdata  utf16le \a\b\t\n\v\f\r
+165 0x00007070 0x180008a70 5   11   .rdata  utf16le  !"#$
+166 0x0000707b 0x180008a7b 5   6    .rdata  ascii   og.mo
+167 0x00007081 0x180008a81 26  27   .rdata  ascii   ??0CLogInBootICE@@QEAA@H@Z
+168 0x0000709c 0x180008a9c 27  28   .rdata  ascii   ??0IObject@@QEAA@$$QEAU0@@Z
+169 0x000070b8 0x180008ab8 25  26   .rdata  ascii   ??0IObject@@QEAA@AEBU0@@Z
+170 0x000070d2 0x180008ad2 19  20   .rdata  ascii   ??0IObject@@QEAA@XZ
+171 0x000070e6 0x180008ae6 25  26   .rdata  ascii   ??1CLogInBootICE@@QEAA@XZ
+172 0x00007100 0x180008b00 36  37   .rdata  ascii   ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+173 0x00007125 0x180008b25 35  36   .rdata  ascii   ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+174 0x00007149 0x180008b49 33  34   .rdata  ascii   ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+175 0x0000716b 0x180008b6b 33  34   .rdata  ascii   ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+176 0x0000718d 0x180008b8d 31  32   .rdata  ascii   ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+177 0x000071ad 0x180008bad 32  33   .rdata  ascii   ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+178 0x000071ce 0x180008bce 30  31   .rdata  ascii   ??4IObject@@QEAAAEAU0@AEBU0@@Z
+179 0x000071ed 0x180008bed 16  17   .rdata  ascii   ??_7IObject@@6B@
+180 0x000071fe 0x180008bfe 24  25   .rdata  ascii   ?AddRef@IObject@@QEBAKXZ
+181 0x00007217 0x180008c17 26  27   .rdata  ascii   ?AppPath@CLogWriter@@SAXXZ
+182 0x00007232 0x180008c32 27  28   .rdata  ascii   ?CheckMemOverloaded@@YA_NXZ
+183 0x0000724e 0x180008c4e 30  31   .rdata  ascii   ?CurrentDate@CLogWriter@@SAXXZ
+184 0x0000726d 0x180008c6d 21  22   .rdata  ascii   ?EndMemMonitor@@YAXXZ
+185 0x00007283 0x180008c83 41  42   .rdata  ascii   ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+186 0x000072ad 0x180008cad 85  86   .rdata  ascii   ?GetOS4MajorVersion10@CLogWriter@@CAXPEAD0AEAU_OSVERSIONINFOEXA@@AEAU_SYSTEM_INFO@@@Z
+187 0x00007303 0x180008d03 66  67   .rdata  ascii   ?GetOS4MajorVersion4@CLogWriter@@CAXPEAD0AEAU_OSVERSIONINFOEXA@@@Z
+188 0x00007346 0x180008d46 86  87   .rdata  ascii   ?GetOS4MajorVersion52@CLogWriter@@CAXPEAD00AEAU_OSVERSIONINFOEXA@@AEAU_SYSTEM_INFO@@@Z
+189 0x0000739d 0x180008d9d 85  86   .rdata  ascii   ?GetOS4MajorVersion5@CLogWriter@@CAXPEAD00AEAU_OSVERSIONINFOEXA@@AEAU_SYSTEM_INFO@@@Z
+190 0x000073f3 0x180008df3 84  85   .rdata  ascii   ?GetOS4MajorVersion6@CLogWriter@@CAXPEAD0AEAU_OSVERSIONINFOEXA@@AEAU_SYSTEM_INFO@@@Z
+191 0x00007448 0x180008e48 43  44   .rdata  ascii   ?GetOSVersionInfo@CLogWriter@@SAPEADPEADH@Z
+192 0x00007474 0x180008e74 24  25   .rdata  ascii   ?IsMemOverloaded@@YA_NXZ
+193 0x0000748d 0x180008e8d 26  27   .rdata  ascii   ?Log@CLogWriter@@SAXPEBDZZ
+194 0x000074a8 0x180008ea8 29  30   .rdata  ascii   ?MemoryInfo@CLogWriter@@SAXXZ
+195 0x000074c6 0x180008ec6 25  26   .rdata  ascii   ?OSPath@CLogWriter@@SAXXZ
+196 0x000074e0 0x180008ee0 32  33   .rdata  ascii   ?OSVersionInfo@CLogWriter@@SAXXZ
+197 0x00007501 0x180008f01 25  26   .rdata  ascii   ?PauseMemMonitor@@YAX_N@Z
+198 0x0000751b 0x180008f1b 37  38   .rdata  ascii   ?ProductVersion@CLogWriter@@SAXPEBD@Z
+199 0x00007541 0x180008f41 40  41   .rdata  ascii   ?RecDiskInfo@CLogInBootICE@@QEAA_NPEAD@Z
+200 0x0000756a 0x180008f6a 37  38   .rdata  ascii   ?RecFileHeader@CLogInBootICE@@IEAAXXZ
+201 0x00007590 0x180008f90 46  47   .rdata  ascii   ?RecSectorsInfo@CLogInBootICE@@QEAA_N_KPEADH@Z
+202 0x000075bf 0x180008fbf 25  26   .rdata  ascii   ?Release@IObject@@QEBAKXZ
+203 0x000075d9 0x180008fd9 42  43   .rdata  ascii   ?StartMemMonitor@@YA_N_K0P6A_NH00PEAX@Z1@Z
+204 0x0000799a 0x18000939a 14  15   .rdata  ascii   FindFirstFileA
+205 0x000079ac 0x1800093ac 18  19   .rdata  ascii   OutputDebugStringA
+206 0x000079c2 0x1800093c2 9   10   .rdata  ascii   FindClose
+207 0x000079ce 0x1800093ce 12  13   .rdata  ascii   CreateMutexA
+208 0x000079de 0x1800093de 19  20   .rdata  ascii   WaitForSingleObject
+209 0x000079f4 0x1800093f4 12  13   .rdata  ascii   ReleaseMutex
+210 0x00007a04 0x180009404 15  16   .rdata  ascii   UnmapViewOfFile
+211 0x00007a16 0x180009416 11  12   .rdata  ascii   CreateFileA
+212 0x00007a24 0x180009424 11  12   .rdata  ascii   CloseHandle
+213 0x00007a32 0x180009432 16  17   .rdata  ascii   SetFilePointerEx
+214 0x00007a46 0x180009446 18  19   .rdata  ascii   CreateFileMappingA
+215 0x00007a5c 0x18000945c 16  17   .rdata  ascii   OpenFileMappingA
+216 0x00007a70 0x180009470 13  14   .rdata  ascii   MapViewOfFile
+217 0x00007a80 0x180009480 18  19   .rdata  ascii   GetModuleFileNameA
+218 0x00007a96 0x180009496 9   10   .rdata  ascii   WriteFile
+219 0x00007aa2 0x1800094a2 14  15   .rdata  ascii   SetFilePointer
+220 0x00007ab4 0x1800094b4 18  19   .rdata  ascii   GetCurrentThreadId
+221 0x00007aca 0x1800094ca 16  17   .rdata  ascii   GetModuleHandleA
+222 0x00007ade 0x1800094de 19  20   .rdata  ascii   GetSystemDirectoryA
+223 0x00007af4 0x1800094f4 12  13   .rdata  ascii   LoadLibraryA
+224 0x00007b04 0x180009504 13  14   .rdata  ascii   GetVersionExA
+225 0x00007b14 0x180009514 13  14   .rdata  ascii   GetSystemInfo
+226 0x00007b24 0x180009524 12  13   .rdata  ascii   GetLocalTime
+227 0x00007b34 0x180009534 14  15   .rdata  ascii   GetProcAddress
+228 0x00007b46 0x180009546 19  20   .rdata  ascii   GetCurrentProcessId
+229 0x00007b5c 0x18000955c 20  21   .rdata  ascii   GlobalMemoryStatusEx
+230 0x00007b74 0x180009574 11  12   .rdata  ascii   FreeLibrary
+231 0x00007b82 0x180009582 16  17   .rdata  ascii   FlushFileBuffers
+232 0x00007b96 0x180009596 17  18   .rdata  ascii   GetCurrentProcess
+233 0x00007baa 0x1800095aa 5   6    .rdata  ascii   Sleep
+234 0x00007bb2 0x1800095b2 12  13   .rdata  ascii   GetLastError
+235 0x00007bc2 0x1800095c2 23  24   .rdata  ascii   K32GetProcessMemoryInfo
+236 0x00007bdc 0x1800095dc 23  24   .rdata  ascii   K32GetModuleInformation
+237 0x00007bf6 0x1800095f6 12  13   .rdata  ascii   CreateThread
+238 0x00007c06 0x180009606 18  19   .rdata  ascii   GlobalMemoryStatus
+239 0x00007c1a 0x18000961a 12  13   .rdata  ascii   KERNEL32.dll
+240 0x00007c2a 0x18000962a 16  17   .rdata  ascii   GetSystemMetrics
+241 0x00007c3c 0x18000963c 10  11   .rdata  ascii   USER32.dll
+242 0x00007c4a 0x18000964a 15  16   .rdata  ascii   NetWkstaGetInfo
+243 0x00007c5c 0x18000965c 16  17   .rdata  ascii   NetApiBufferFree
+244 0x00007c6e 0x18000966e 12  13   .rdata  ascii   NETAPI32.dll
+245 0x00007c7e 0x18000967e 13  14   .rdata  ascii   ImageNtHeader
+246 0x00007c8c 0x18000968c 11  12   .rdata  ascii   dbghelp.dll
+247 0x00007c9a 0x18000969a 18  19   .rdata  ascii   __CxxFrameHandler3
+248 0x00007cb0 0x1800096b0 9   10   .rdata  ascii   _purecall
+249 0x00007cbc 0x1800096bc 20  21   .rdata  ascii   __C_specific_handler
+250 0x00007cd4 0x1800096d4 7   8    .rdata  ascii   strrchr
+251 0x00007cde 0x1800096de 6   7    .rdata  ascii   memset
+252 0x00007ce8 0x1800096e8 28  29   .rdata  ascii   __std_type_info_destroy_list
+253 0x00007d06 0x180009706 16  17   .rdata  ascii   VCRUNTIME140.dll
+254 0x00007d1a 0x18000971a 9   10   .rdata  ascii   setlocale
+255 0x00007d26 0x180009726 25  26   .rdata  ascii   __stdio_common_vsprintf_s
+256 0x00007d42 0x180009742 8   9    .rdata  ascii   strcpy_s
+257 0x00007d4e 0x18000974e 23  24   .rdata  ascii   __stdio_common_vsprintf
+258 0x00007d68 0x180009768 15  16   .rdata  ascii   _seh_filter_dll
+259 0x00007d7a 0x18000977a 22  23   .rdata  ascii   _configure_narrow_argv
+260 0x00007d94 0x180009794 30  31   .rdata  ascii   _initialize_narrow_environment
+261 0x00007db6 0x1800097b6 24  25   .rdata  ascii   _initialize_onexit_table
+262 0x00007dd2 0x1800097d2 25  26   .rdata  ascii   _register_onexit_function
+263 0x00007dee 0x1800097ee 21  22   .rdata  ascii   _execute_onexit_table
+264 0x00007e06 0x180009806 11  12   .rdata  ascii   _crt_atexit
+265 0x00007e14 0x180009814 18  19   .rdata  ascii   _crt_at_quick_exit
+266 0x00007e2a 0x18000982a 6   7    .rdata  ascii   _cexit
+267 0x00007e34 0x180009834 9   10   .rdata  ascii   _initterm
+268 0x00007e40 0x180009840 11  12   .rdata  ascii   _initterm_e
+269 0x00007e4e 0x18000984e 9   10   .rdata  ascii   terminate
+270 0x00007e5a 0x18000985a 4   5    .rdata  ascii   free
+271 0x00007e60 0x180009860 32  33   .rdata  ascii   api-ms-win-crt-locale-l1-1-0.dll
+272 0x00007e82 0x180009882 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+273 0x00007ea2 0x1800098a2 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+274 0x00007ec4 0x1800098c4 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+275 0x00007ee6 0x1800098e6 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+276 0x00007f08 0x180009908 17  18   .rdata  ascii   RtlCaptureContext
+277 0x00007f1c 0x18000991c 22  23   .rdata  ascii   RtlLookupFunctionEntry
+278 0x00007f36 0x180009936 16  17   .rdata  ascii   RtlVirtualUnwind
+279 0x00007f4a 0x18000994a 24  25   .rdata  ascii   UnhandledExceptionFilter
+280 0x00007f66 0x180009966 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+281 0x00007f84 0x180009984 16  17   .rdata  ascii   TerminateProcess
+282 0x00007f98 0x180009998 25  26   .rdata  ascii   IsProcessorFeaturePresent
+283 0x00007fb4 0x1800099b4 17  18   .rdata  ascii   IsDebuggerPresent
+284 0x00007fc8 0x1800099c8 15  16   .rdata  ascii   GetStartupInfoW
+285 0x00007fda 0x1800099da 16  17   .rdata  ascii   GetModuleHandleW
+286 0x00007fee 0x1800099ee 23  24   .rdata  ascii   QueryPerformanceCounter
+287 0x00008008 0x180009a08 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+288 0x00008022 0x180009a22 25  26   .rdata  ascii   DisableThreadLibraryCalls
+289 0x0000803e 0x180009a3e 19  20   .rdata  ascii   InitializeSListHead
+290 0x00008054 0x180009a54 7   8    .rdata  ascii   memmove
+291 0x000082c0 0x18000a0c0 15  16   .data   ascii   .?AVtype_info@@
+292 0x000082e0 0x18000a0e0 12  13   .data   ascii   .?AVIEsLog@@
+293 0x00008300 0x18000a100 21  22   .data   ascii   .?AVCFileMappingLog@@
+294 0x00008328 0x18000a128 13  14   .data   ascii   .?AUIObject@@
+295 0x00008348 0x18000a148 39  40   .data   ascii   .?AVCMemMonitorManager@MemMonitorProc@@
+296 0x00008a60 0x18000c060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

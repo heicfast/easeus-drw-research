@@ -1,0 +1,13 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib             name                                      demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x000008e0 0x1800014e0 GLOBAL FUNC 0    CheckVersion.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x000008e0 0x1800014e0 GLOBAL FUNC 0    CheckVersion.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x000008e0 0x1800014e0 GLOBAL FUNC 0    CheckVersion.mo ??0IObject@@QEAA@XZ
+4   0x00000a20 0x180001620 GLOBAL FUNC 0    CheckVersion.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+5   0x00000a20 0x180001620 GLOBAL FUNC 0    CheckVersion.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+6   0x00014048 0x180015648 GLOBAL FUNC 0    CheckVersion.mo ??_7IObject@@6B@
+7   0x00000a30 0x180001630 GLOBAL FUNC 0    CheckVersion.mo ?AddRef@IObject@@QEBAKXZ
+8   0x00000a70 0x180001670 GLOBAL FUNC 0    CheckVersion.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+9   0x00000d10 0x180001910 GLOBAL FUNC 0    CheckVersion.mo ?Release@IObject@@QEBAKXZ
+10  0x0000cb00 0x18000d700 GLOBAL FUNC 0    CheckVersion.mo GetModule

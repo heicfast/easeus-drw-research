@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x180000000
+binsz    6168808
+bintype  pe
+bits     64
+canary   false
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x005eee76
+compiled Wed Dec 13 01:34:46 2034
+crypto   false
+dbg_file C:\Users\qt\work\qt\qtbase\lib\Qt5Core.pdb
+endian   little
+havecode true
+hdr.csum 0x005eee76
+guid     13C51F261753499CB36BCEB0889103FC1
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

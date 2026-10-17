@@ -1,0 +1,199 @@
+ERROR : Unable to initialize critical section in CAtlBaseModule
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+kernel32
+api-ms-
+ext-ms-
+(null)
+minkernel\crts\ucrt\inc\corecrt_internal_strtox.h
+__crt_strtox::floating_point_value::as_double
+_is_double
+__crt_strtox::floating_point_value::as_float
+!_is_double
+mscoree.dll
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+         (((((                  H
+         (((((                  H
+      (                          
+api-ms-win-core-datetime-l1-1-1
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-file-l1-2-2
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-synch-l1-2-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-winrt-l1-1-0
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+advapi32
+kernel32
+api-ms-win-appmodel-runtime-l1-1-2
+user32
+api-ms-
+ext-ms-
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+CONOUT$
+\Bcdedit.exe
+/enum 
+t%S fail!
+/create 
+/device
+/application osloader
+/application bootsector
+[CBcdEditProc]CreateBcdEntry fail,code : %d,%s
+,output : %S
+[CBcdEditProc]ExecAnyCommand fail,code : %d,%s
+,output : %S
+[CBcdEditProc]ExecAnyCommandW fail,code : %d,%s
+,output : %S
+[CBcdEditProc]ExecCommand fail,code : %d,%s
+,output : %S
+[CBcdEditProc]ExecCommandW fail,code : %d,%s
+,output : %S
+/deletevalue 
+/enum {default} /v
+[CBcdEditProc]DelKeyCommand fail,code : %d,%s
+,output : %S
+%S fail!
+/enum {current} /v
+Kernel32.dll
+%S fail!
+/default 
+/displayorder 
+ /addfirst
+ /addlast
+/delete 
+/displayorder 
+ /remove
+/store 
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+vatlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+eatlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+eatlTraceCache
+satlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+satlTraceSecurity
+satlTraceSync
+atlTraceISAPI
+ForceRemove
+NoRemove
+:Delete
+:CLSID
+Component Categories
+sFileType
+sInterface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+%s[%C:]
+%s[HarddiskVolume%d]
+partition=%C:
+partition=HarddiskVolume%d
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+ramdisk=
+Legacy
+Standard
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+[%s_%d]%s fail!
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_

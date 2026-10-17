@@ -1,0 +1,167 @@
+!This program cannot be run in DOS mode.
+h.rdata
+H.data
+.pdata
+.reloc
+L$ SWH
+t$ WATAUAVAWH
+L$A9D$@A
+A_A^A]A\_
+k VWATH
+L$0L9a
+t$ WATAUH
+VWATAUAWH
+A_A]A\_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+H!T$ E3
+[EPMNtDrv]DriverUnload called
+[GetDiskDeviceObejct] RtlStringCbPrintfW error ,0x%x
+[GetDiskDeviceObejct] %ws open error 0x%x,retry 
+[GetDiskDeviceObejct] RtlStringCbPrintfW 2 error ,0x%x
+[GetDiskDeviceObejct] %ws open error 0x%x,that's it!
+[GetVolumeDeviceObejct] RtlStringCbPrintfW error ,0x%x
+[GetVolumeDeviceObejct] %ws open error 0x%x,that's it!
+[FltReadWriteSectorsCompletion] Io error 0x%x,%p
+[GetDiskContextMode] para error %d,%d!
+[GetProcName] QueryInfo error 0x%x!
+[GetProcName] OpenProcess error 0x%x!
+[GetProcName] para error %d,%d!
+[GetFileObjName] ObReferenceObjectByHandle %d error 0x%x!
+[GetFileObjName] para error %d,%d!
+[epmntdrvDispatchWrite] Write error 0x%x,%u,%I64u,0x%x
+[EPMNtDrv]IoCreateDevice ret,0x%x,%wZ
+[EPMNtDrv]IoCreateSymbolicLink ret,0x%x,%wZ
+[EPMNtDrv]DriverEntry ret,0x%x
+(null)
+`h````
+xpxxpp
+d:\project_application\_epm_main_\mod.windiskaccessdriver\windiskaccessdriver\objfre_wlh_amd64\amd64\epmntdrv.pdb
+ExAllocatePoolWithTag
+IoGetLowerDeviceObject
+IoBuildDeviceIoControlRequest
+IoDeleteSymbolicLink
+ExFreePoolWithTag
+RtlInitUnicodeString
+IoDeleteDevice
+KeSetEvent
+KeInitializeEvent
+IoFreeMdl
+RtlFreeUnicodeString
+ObQueryNameString
+IoFileObjectType
+wcsstr
+MmMapLockedPagesSpecifyCache
+IoGetDeviceObjectPointer
+IoBuildAsynchronousFsdRequest
+ExAllocatePool
+ZwClose
+RtlAppendUnicodeStringToString
+IofCompleteRequest
+ObReferenceObjectByHandle
+KeWaitForSingleObject
+IoFreeIrp
+IoGetAttachedDeviceReference
+RtlCompareUnicodeString
+MmUnlockPages
+ZwQueryInformationProcess
+ObfReferenceObject
+IoCreateSymbolicLink
+PsGetCurrentProcessId
+ObfDereferenceObject
+RtlUnicodeStringToInteger
+IoCreateDevice
+NtOpenProcess
+RtlUpcaseUnicodeChar
+DbgPrint
+ObDereferenceObjectDeferDelete
+IofCallDriver
+KeBugCheckEx
+ntoskrnl.exe
+RtlAnsiCharToUnicodeChar
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Code Verification Root0
+110415194137Z
+210415195137Z0e1
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+ 0xAbMk^n
+DigiCert Inc1
+www.digicert.com1.0,
+%DigiCert Assured ID Code Signing CA-10
+190830000000Z
+221002120000Z0
+Sichuan1
+Chengdu100.
+'CHENGDU YIWO Tech Development Co., Ltd.100.
+'CHENGDU YIWO Tech Development Co., Ltd.0
+(J@clq
+*http://crl3.digicert.com/assured-cs-g1.crl00
+*http://crl4.digicert.com/assured-cs-g1.crl0L
+https://www.digicert.com/CPS0
+http://ocsp.digicert.com0L
+@http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+110211120000Z
+260210120000Z0o1
+DigiCert Inc1
+www.digicert.com1.0,
+%DigiCert Assured ID Code Signing CA-10
+.http://www.digicert.com/ssl-cps-repository.htm0
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+j-#O7;
+DigiCert Inc1
+www.digicert.com1.0,
+%DigiCert Assured ID Code Signing CA-1
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+131022120000Z
+281022120000Z0r1
+DigiCert Inc1
+www.digicert.com110/
+(DigiCert SHA2 Assured ID Code Signing CA0
+p1f3q>
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
+https://www.digicert.com/CPS0
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Code Verification Root0
+110415194137Z
+210415195137Z0e1
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+ 0xAbMk^n
+DigiCert Inc1
+www.digicert.com110/
+(DigiCert SHA2 Assured ID Code Signing CA0
+190830000000Z
+221002120000Z0
+Sichuan1
+Chengdu100.
+'CHENGDU YIWO Tech Development Co., Ltd.100.
+'CHENGDU YIWO Tech Development Co., Ltd.0
+(J@clq
+/http://crl3.digicert.com/sha2-assured-cs-g1.crl05
+/http://crl4.digicert.com/sha2-assured-cs-g1.crl0L
+https://www.digicert.com/CPS0
+http://ocsp.digicert.com0N
+Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
+DigiCert Inc1
+www.digicert.com110/
+(DigiCert SHA2 Assured ID Code Signing CA

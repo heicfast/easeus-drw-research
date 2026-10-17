@@ -1,0 +1,376 @@
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+L$ SWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWAUAVH
+A^A]_^]
+l$ AVH
+BOOTMGR H9
+@SUWATAWH
+Element
+DH9t$H
+Element
+pA_A\_][
+@SVWAVH
+Element
+HL9l$H
+xA^_^[
+@SVWAVH
+Element
+HL9l$H
+xA^_^[
+@USVWATAUAWH
+`A_A]A\_^[]
+t$ WAVAWH
+H9l$8tR
+L$ SVWH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+UUUUUUU
+0A_A^A]A\_^[
+|$ AVH
+UATAUAVAWH
+D$8H;X
+A_A^A]A\]
+t$ WATAUAVAW
+A_A^A]A\_
+t$ UWATAVAWH
+A_A^A\_]
+UATAUAVAWH
+t$8I;_
+W(I9W0t
+W(I9W0t
+A_A^A]A\]
+L$ SVWH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+H;Y t+f
+t$ WATAUAVAWH
+<)t2,0<	
+<)t2,0<	
+<)t,,0<	wq
+ A_A^A]A\_
+WAVAWH
+t"9l$0u
+9t$(t\L
+@USAUAWH
+A_A][]
+VWATAVAWH
+<)t2,0<	
+<)t2,0<	
+ A_A^A\_^
+<7(uPH
+<)t,,0<	w/
+ A_A^A\_^
+@UVWATAUAVAWH
+A_A^A]A\_^]
+H;_ tC
+@UVAVH
+D9|$`t
+SVWATAUAVAWH
+@A_A^A]A\_^[
+@VWAVH
+|$ AVH
+ H3E H3E
+Boot\BCD
+\BcdLog.txt
+\\.\PHYSICALDRIVE%d
+BCD00000000
+Query system partition GUID failed!
+bootmgr
+EFI\MICROSOFT\BOOT\BCD
+signature
+partition
+%s(%d)%s(%d)%s(%d)%s(%d)%s
+%s(%08x)%s(%d)%s(%d)%s(%d)%s
+vector<T> too long
+boot loader
+operating systems
+\\.\0:
+%s\EpmLog.log
+%s\EuCtrlLog.ini
+(%d-%02d-%02d %02d:%02d:%02d:%03d) 
+string too long
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+I:\_drw_main\PartitionRecovery\Output\Release_x64\Fixup.pdb
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.pdata
+.rsrc$01
+.rsrc$02
+Fixup.mo
+??0IObject@@QEAA@$$QEAU0@@Z
+??0IObject@@QEAA@AEBU0@@Z
+??0IObject@@QEAA@XZ
+??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+??4IObject@@QEAAAEAU0@AEBU0@@Z
+??_7IObject@@6B@
+?AddRef@IObject@@QEBAKXZ
+?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+?Release@IObject@@QEBAKXZ
+Bcd_BcdProcPartition
+Bcd_Init
+Bcd_IsBcdPartition
+Bcd_IsExistBcdFile
+Bcd_IsUsingBcdFile
+Bcd_IsVistaBoot
+Bcd_IsVistaBootManager
+Bcd_LockBcdFile
+Bcd_RestoreBcdFile
+Bcd_Uninit
+Bcd_UnlockBcdFile
+Bcd_UnlockBcdFileEx
+Bcd_UnlockBcdNewPos
+BootIni_ForceUpdated
+BootIni_GetErrorVector
+BootIni_Init
+BootIni_IsUpdated
+BootIni_SetArcAccess
+BootIni_UpdateFile
+Log_Init
+Log_Output
+Log_Uninit
+CreateFileA
+FlushFileBuffers
+GetFileAttributesA
+ReadFile
+SetFileAttributesA
+SetFilePointer
+WriteFile
+OutputDebugStringA
+CloseHandle
+GetLastError
+DeviceIoControl
+GetSystemWindowsDirectoryA
+GetVersionExA
+DeleteFileA
+GetLocalTime
+GetWindowsDirectoryA
+KERNEL32.dll
+RegUnLoadKeyA
+ADVAPI32.dll
+RtlInitUnicodeString
+ZwClose
+ZwOpenProcessToken
+ZwAdjustPrivilegesToken
+ZwUnloadKey
+RtlNtStatusToDosError
+ZwOpenSymbolicLinkObject
+ZwQuerySymbolicLinkObject
+ZwOpenDirectoryObject
+ZwQueryDirectoryObject
+ntdll.dll
+?Log@CLogWriter@@SAXPEBDZZ
+Log.mo
+?_Xlength_error@std@@YAXPEBD@Z
+MSVCP140.dll
+_purecall
+__CxxFrameHandler3
+memset
+_CxxThrowException
+memmove
+memcpy
+__C_specific_handler
+__std_terminate
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+_invalid_parameter_noinfo_noreturn
+wcsncmp
+wcstombs
+__stdio_common_vswprintf
+_stricmp
+_strnicmp
+_callnewh
+malloc
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+_initterm
+_initterm_e
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+EnterCriticalSection
+LeaveCriticalSection
+InitializeCriticalSectionAndSpinCount
+DeleteCriticalSection
+SetEvent
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+GetProcAddress
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+.?AUIObject@@
+.?AVCBcd@@
+.?AVCEFIFirstBcd@@
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+20261013061330Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013061330Z0+
+/1(0&0$0"
+tNeFDM

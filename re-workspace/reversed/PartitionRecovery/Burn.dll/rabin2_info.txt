@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x180000000
+binsz    165608
+bintype  pe
+bits     64
+canary   true
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x000375d6
+compiled Wed Mar  7 00:29:37 2040
+crypto   false
+dbg_file K:\_EPM_RE_main\Output\x64\Release_NoDriver\Burn.pdb
+endian   little
+havecode true
+hdr.csum 0x000375d6
+guid     4ACC843873144DEFA820D405AE1978A01
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

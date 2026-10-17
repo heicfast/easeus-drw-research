@@ -1,0 +1,277 @@
+Comctl32.dll
+kernel32.dll
+accParent
+accChildCount
+accChild
+accName
+accValue
+accDescription
+accRole
+accState
+accHelp
+accHelpTopic
+accKeyboardShortcut
+accFocus
+accSelection
+accDefaultAction
+accSelect
+accLocation
+accNavigate
+accHitTest
+accDoDefaultAction
+user32.dll
+hhctrl.ocx
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+comctl32.dll
+D2D1.dll
+DWrite.dll
+shell32.dll
+uxtheme.dll
+dwmapi.dll
+InprocServer32
+Comdlg32.dll
+PropertyList
+ControlPane
+WINDOW
+TOOLBAR
+BUTTON
+STATUS
+COMBOBOX
+PROGRESS
+HEADER
+SCROLLBAR
+EXPLORERBAR
+TREEVIEW
+STARTPANEL
+TASKBAND
+TASKBAR
+TOOLTIP
+TRACKBAR
+CMFCToolBarMenuButton
+RICHED20.DLL
+Button
+api-ms-win-core-synch-l1-2-0.dll
+ERROR : Unable to initialize critical section in CAtlBaseModule
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+kernel32
+api-ms-
+ext-ms-
+(null)
+minkernel\crts\ucrt\inc\corecrt_internal_strtox.h
+__crt_strtox::floating_point_value::as_double
+_is_double
+__crt_strtox::floating_point_value::as_float
+!_is_double
+mscoree.dll
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+         (((((                  H
+         (((((                  H
+      (                          
+api-ms-win-core-datetime-l1-1-1
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-file-l1-2-2
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-synch-l1-2-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-winrt-l1-1-0
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+advapi32
+kernel32
+api-ms-win-appmodel-runtime-l1-1-2
+user32
+api-ms-
+ext-ms-
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+CONOUT$
+POWERPNT.EXE
+TYPELIB(
+MS Shell Dlg
+VS_VERSION_INFO
+StringFileInfo
+040904e4
+CompanyName
+CHENGDU YIWO Tech Development Co., Ltd
+FileDescription
+EASEUS_OfficeViewer
+FileVersion
+12.6.0.0
+InternalName
+EASEUS_OfficeViewer
+LegalCopyright
+Copyright (c) 2004-2018 EaseUS. ALL RIGHTS RESERVED.
+OriginalFilename
+EUOfficeViewer.exe
+ProductName
+EASEUS_OfficeViewer
+ProductVersion
+12.6.0.0
+VarFileInfo
+Translation
+MS Shell Dlg
+Cancel
+MS Shell Dlg
+Save As
+All Files (*.*)
+Untitled
+an unnamed file
+No error message is available.#Attempted an unsupported operation.$A required resource was unavailable.
+Out of memory.
+An unknown error has occurred.!Encountered an improper argument.
+Incorrect filename.
+Failed to open document.
+Failed to save document.
+Save changes to %1? Failed to create empty document.
+The file is too large to open.
+Could not start print job.
+Failed to launch help.
+Internal application error.
+Command failed.)Insufficient memory to perform operation.PSystem registry entries have been removed and the INI file (if any) was deleted.BNot all of the system registry entries (or INI file) were removed.GThis program requires the file %Ts, which was not found on this system.wThis program is linked to the missing export %Ts in the file %Ts. This machine may have an incompatible version of %Ts.
+#Unable to read write-only property.#Unable to write read-only property.
+Unexpected file format.O%1
+Cannot find this file.
+Verify that the correct path and file name are given.
+Destination disk drive is full.5Unable to read from %1, it is opened by someone else.AUnable to write to %1, it is read-only or opened by someone else.1Encountered an unexpected error while reading %1.1Encountered an unexpected error while writing %1.
+Enter an integer.
+Enter a number.#Enter an integer between %1 and %2.!Enter a number between %1 and %2.!Enter no more than %1 characters.
+Select a button.#Enter an integer between 0 and 255.
+Enter a positive integer.
+Enter a date and/or time.
+Enter a currency.
+Enter a GUID.
+Enter a time.
+Enter a date.
+No error occurred.-An unknown error occurred while accessing %1.
+%1 was not found.
+%1 contains an incorrect path.8Could not open %1 because there are too many open files.
+Access to %1 was denied.0An incorrect file handle was associated with %1.8Could not remove %1 because it is the current directory.2Could not create %1 because the directory is full.
+Seek failed on %14Encountered a hardware I/O error while accessing %1.3Encountered a sharing violation while accessing %1.3Encountered a locking violation while accessing %1.
+Disk full while accessing %1.$Attempted to access %1 past its end.
+No error occurred.-An unknown error occurred while accessing %1.%Attempted to write to the reading %1.$Attempted to access %1 past its end.&Attempted to read from the writing %1.
+%1 has a bad format."%1 contained an unexpected object. %1 contains an incorrect schema.
+#Unable to load mail system support.
+Mail system DLL is invalid.!Send Mail failed to send message.
+pixels
+%1: %2
+Continue running script?
+Dispatch exception: %1
+Uncheck
+Mixed,One or more auto-saved documents were found.
+These are more recently saved than the currently open documents and contain changes that were made before the application closed.2Do you want to recover these auto-saved documents?
+Note that if you choose to recover the auto-saved documents, you must explicitly save them to overwrite the original documents.  If you choose to not recover the auto-saved versions, they will be deleted.fRecover the auto-saved documents
+Open the auto-saved versions instead of the explicitly saved versions^Don't recover the auto-saved documents
+Use the last explicitly saved versions of the documents
+%Ts [Recovered]

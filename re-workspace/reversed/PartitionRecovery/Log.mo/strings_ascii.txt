@@ -1,0 +1,387 @@
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+>9|$P@
+L$ SVWH
+L$ SUVWH
+L$ SVWAV
+@UVAVH
+@SVWAVH
+XA^_^[
+H9D$0r[
+t$ WAVAWH
+C(H9D$0r
+\$0H+\$@H+\$PH;w(
+D$0H+D$@H+D$PH
+D$H9D$ s"
+|$ AVH
+u0HcH<H
+ H3E H3E
+ H3E H3E
+EPM_{1E956C11-4D20-49d7-B4C7-016A342A2D39}
+EPMLOG_{1BFCF65F-0766-4a71-B7A3-2EB2CD1412DE}
+Failed to request the permission to write to log file!
+Failed to request the permission to write to buffer!
+Failed to create map file!
+Failed to map the map file!
+MSDOS5.0
+NO NAME    FAT12   3
+|8N$}$
+r9&8-t
+at2Nt	
+NTLDR      
+Remove disks or other media.
+Disk error
+Press any key to restart
+MSDOS5.0
+NO NAME    FAT32   3
+fXfXfXfX
+BOOTMGR    
+Remove disks or other media.
+Disk error
+Press any key to restart
+MSDOS5.0
+)uZv8NO NAME    FAT32   3
+fXfXfXfX
+NTLDR      
+NTLDR is missing
+Disk error
+Press any key to restart
+MSDOS5.0
+,NO NAME    FAT16   3
+|8N$}$
+r9&8-t
+at2Nt	
+NTLDR      
+Remove disks or other media.
+Disk error
+Press any key to restart
+MSDOS5.0
+NO NAME    FAT16   3
+|8N$}$
+r9&8-t
+at2Nt	
+BOOTMGR    
+Remove disks or other media.
+Disk error
+Press any key to restart
+[%04d-%02d-%02d %02d:%02d:%02d:%03d] (T:%d/P:%d) 
+English
+\EPMLOG.log
+Date Generated: %02d/%02d/%d %02d:%02d:%02d
+Failed to query memory status.
+Memory status:
+Total physical memory:%4I64d MB	Available physical memory:%4I64d MB
+Total   page    files:%4I64d MB	Available    page   files:%4I64d MB
+Microsoft Windows 11
+Microsoft Windows 11(Dev)
+Microsoft Windows 10
+Microsoft Windows Server 2016
+Microsoft Windows Server 2019
+Microsoft Windows Server 2022
+Unknown operating system!
+64-bit
+32-bit
+Microsoft Windows 8.1
+Microsoft Windows Server 2012 R2
+Microsoft Windows 8
+Microsoft Windows Server 2012
+Microsoft Windows 7
+Microsoft Windows Server 2008 R2
+Microsoft Windows Vista
+Microsoft Windows Server 2008
+Microsoft Windows Server 2003 R2
+Microsoft Windows Storage Server 2003
+Microsoft Windows XP
+Microsoft Windows Server 2003
+for Itanium-based Systems
+x64 Edition
+Professional
+Compute Cluster Edition
+Datacenter Edition
+Enterprise Edition
+Web Edition
+Standard Edition
+Home Edition
+Microsoft Windows 2000
+Datacenter Server
+Advanced Server
+Server
+Microsoft Windows NT
+WorkStation 4.0
+Server 4.0, Enterprise Edition
+Server 4.0
+ntdll.dll
+RtlGetNtVersionNumbers
+GetNativeSystemInfo
+kernel32.dll
+%s %s %s %s (%d.%d.%d.%d.%d)
+OS: %s
+OS Directory: %s
+Current Executable Path: %s
+\HD%03d.dpt
+%d/%d/%d %d:%d:%d %s
+DPT BY BOOTICE
+log_write
+fsclog.dll
+MemMonitorProc::CMemMonitorManager::StartMemMonitor
+RSDSyYVh
+I:\_drw_main\PartitionRecovery\Output\Release_x64\Log.pdb
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.xdata
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.pdata
+.rsrc$01
+.rsrc$02
+Log.mo
+??0CLogInBootICE@@QEAA@H@Z
+??0IObject@@QEAA@$$QEAU0@@Z
+??0IObject@@QEAA@AEBU0@@Z
+??0IObject@@QEAA@XZ
+??1CLogInBootICE@@QEAA@XZ
+??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+??4IObject@@QEAAAEAU0@AEBU0@@Z
+??_7IObject@@6B@
+?AddRef@IObject@@QEBAKXZ
+?AppPath@CLogWriter@@SAXXZ
+?CheckMemOverloaded@@YA_NXZ
+?CurrentDate@CLogWriter@@SAXXZ
+?EndMemMonitor@@YAXXZ
+?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+?GetOS4MajorVersion10@CLogWriter@@CAXPEAD0AEAU_OSVERSIONINFOEXA@@AEAU_SYSTEM_INFO@@@Z
+?GetOS4MajorVersion4@CLogWriter@@CAXPEAD0AEAU_OSVERSIONINFOEXA@@@Z
+?GetOS4MajorVersion52@CLogWriter@@CAXPEAD00AEAU_OSVERSIONINFOEXA@@AEAU_SYSTEM_INFO@@@Z
+?GetOS4MajorVersion5@CLogWriter@@CAXPEAD00AEAU_OSVERSIONINFOEXA@@AEAU_SYSTEM_INFO@@@Z
+?GetOS4MajorVersion6@CLogWriter@@CAXPEAD0AEAU_OSVERSIONINFOEXA@@AEAU_SYSTEM_INFO@@@Z
+?GetOSVersionInfo@CLogWriter@@SAPEADPEADH@Z
+?IsMemOverloaded@@YA_NXZ
+?Log@CLogWriter@@SAXPEBDZZ
+?MemoryInfo@CLogWriter@@SAXXZ
+?OSPath@CLogWriter@@SAXXZ
+?OSVersionInfo@CLogWriter@@SAXXZ
+?PauseMemMonitor@@YAX_N@Z
+?ProductVersion@CLogWriter@@SAXPEBD@Z
+?RecDiskInfo@CLogInBootICE@@QEAA_NPEAD@Z
+?RecFileHeader@CLogInBootICE@@IEAAXXZ
+?RecSectorsInfo@CLogInBootICE@@QEAA_N_KPEADH@Z
+?Release@IObject@@QEBAKXZ
+?StartMemMonitor@@YA_N_K0P6A_NH00PEAX@Z1@Z
+FindFirstFileA
+OutputDebugStringA
+FindClose
+CreateMutexA
+WaitForSingleObject
+ReleaseMutex
+UnmapViewOfFile
+CreateFileA
+CloseHandle
+SetFilePointerEx
+CreateFileMappingA
+OpenFileMappingA
+MapViewOfFile
+GetModuleFileNameA
+WriteFile
+SetFilePointer
+GetCurrentThreadId
+GetModuleHandleA
+GetSystemDirectoryA
+LoadLibraryA
+GetVersionExA
+GetSystemInfo
+GetLocalTime
+GetProcAddress
+GetCurrentProcessId
+GlobalMemoryStatusEx
+FreeLibrary
+FlushFileBuffers
+GetCurrentProcess
+GetLastError
+K32GetProcessMemoryInfo
+K32GetModuleInformation
+CreateThread
+GlobalMemoryStatus
+KERNEL32.dll
+GetSystemMetrics
+USER32.dll
+NetWkstaGetInfo
+NetApiBufferFree
+NETAPI32.dll
+ImageNtHeader
+dbghelp.dll
+__CxxFrameHandler3
+_purecall
+__C_specific_handler
+strrchr
+memset
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+setlocale
+__stdio_common_vsprintf_s
+strcpy_s
+__stdio_common_vsprintf
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_crt_at_quick_exit
+_cexit
+_initterm
+_initterm_e
+terminate
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+TerminateProcess
+IsProcessorFeaturePresent
+IsDebuggerPresent
+GetStartupInfoW
+GetModuleHandleW
+QueryPerformanceCounter
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+memmove
+.?AVtype_info@@
+.?AVIEsLog@@
+.?AVCFileMappingLog@@
+.?AUIObject@@
+.?AVCMemMonitorManager@MemMonitorProc@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+kT"~\4
+20261013061339Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013061339Z0+
+/1(0&0$0"
+89&		b

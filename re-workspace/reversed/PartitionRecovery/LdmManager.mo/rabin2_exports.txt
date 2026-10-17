@@ -1,0 +1,39 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib           name                                                         demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000950 0x180001550 GLOBAL FUNC 0    LdmManager.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00000950 0x180001550 GLOBAL FUNC 0    LdmManager.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x00000930 0x180001530 GLOBAL FUNC 0    LdmManager.mo ??0IObject@@QEAA@XZ
+4   0x0003cb80 0x18003d780 GLOBAL FUNC 0    LdmManager.mo ??0IPartitionDevice@@QEAA@AEBV0@@Z
+5   0x0003cb50 0x18003d750 GLOBAL FUNC 0    LdmManager.mo ??0IPartitionDevice@@QEAA@XZ
+6   0x00000a60 0x180001660 GLOBAL FUNC 0    LdmManager.mo ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+7   0x00000a60 0x180001660 GLOBAL FUNC 0    LdmManager.mo ??0IStorageDevice@@QEAA@AEBU0@@Z
+8   0x000009f0 0x1800015f0 GLOBAL FUNC 0    LdmManager.mo ??0IStorageDevice@@QEAA@XZ
+9   0x0003cb30 0x18003d730 GLOBAL FUNC 0    LdmManager.mo ??1IPartitionDevice@@UEAA@XZ
+10  0x0000aa10 0x18000b610 GLOBAL FUNC 0    LdmManager.mo ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+11  0x0000aa10 0x18000b610 GLOBAL FUNC 0    LdmManager.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+12  0x000007e0 0x1800013e0 GLOBAL FUNC 0    LdmManager.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+13  0x000007e0 0x1800013e0 GLOBAL FUNC 0    LdmManager.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+14  0x000007e0 0x1800013e0 GLOBAL FUNC 0    LdmManager.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+15  0x000007e0 0x1800013e0 GLOBAL FUNC 0    LdmManager.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+16  0x0003cbc0 0x18003d7c0 GLOBAL FUNC 0    LdmManager.mo ??4IPartitionDevice@@QEAAAEAV0@AEBV0@@Z
+17  0x00000ae0 0x1800016e0 GLOBAL FUNC 0    LdmManager.mo ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+18  0x00000ae0 0x1800016e0 GLOBAL FUNC 0    LdmManager.mo ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+19  0x000c2a50 0x1800c4050 GLOBAL FUNC 0    LdmManager.mo ??_7IObject@@6B@
+20  0x000c4018 0x1800c5618 GLOBAL FUNC 0    LdmManager.mo ??_7IPartitionDevice@@6B@
+21  0x000c2a80 0x1800c4080 GLOBAL FUNC 0    LdmManager.mo ??_7IStorageDevice@@6BIBlockDevice@@@
+22  0x000c29d0 0x1800c3fd0 GLOBAL FUNC 0    LdmManager.mo ??_7IStorageDevice@@6BIObject@@@
+23  0x00000910 0x180001510 GLOBAL FUNC 0    LdmManager.mo ?AddRef@IObject@@QEBAKXZ
+24  0x000009a0 0x1800015a0 GLOBAL FUNC 0    LdmManager.mo ?ConvertVolume@IStorageDevice@@UEAAHXZ
+25  0x00000970 0x180001570 GLOBAL FUNC 0    LdmManager.mo ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+26  0x000009a0 0x1800015a0 GLOBAL FUNC 0    LdmManager.mo ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+27  0x000009e0 0x1800015e0 GLOBAL FUNC 0    LdmManager.mo ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+28  0x00000990 0x180001590 GLOBAL FUNC 0    LdmManager.mo ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+29  0x000008c0 0x1800014c0 GLOBAL FUNC 0    LdmManager.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+30  0x000009a0 0x1800015a0 GLOBAL FUNC 0    LdmManager.mo ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+31  0x000008f0 0x1800014f0 GLOBAL FUNC 0    LdmManager.mo ?Release@IObject@@QEBAKXZ
+32  0x000007b0 0x1800013b0 GLOBAL FUNC 0    LdmManager.mo ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+33  0x000009d0 0x1800015d0 GLOBAL FUNC 0    LdmManager.mo ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+34  0x00000990 0x180001590 GLOBAL FUNC 0    LdmManager.mo ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+35  0x000009b0 0x1800015b0 GLOBAL FUNC 0    LdmManager.mo ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+36  0x000791b0 0x180079db0 GLOBAL FUNC 0    LdmManager.mo GetModule

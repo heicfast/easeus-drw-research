@@ -1,0 +1,34 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib                       name                                                         demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00005010 0x180005c10 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00005010 0x180005c10 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x00005030 0x180005c30 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??0IObject@@QEAA@XZ
+4   0x00005080 0x180005c80 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+5   0x00005080 0x180005c80 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@AEBU0@@Z
+6   0x000050e0 0x180005ce0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@XZ
+7   0x0000d440 0x18000e040 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+8   0x0000d440 0x18000e040 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+9   0x00000aa0 0x1800016a0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+10  0x00000aa0 0x1800016a0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+11  0x00000aa0 0x1800016a0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+12  0x00000aa0 0x1800016a0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+13  0x000055e0 0x1800061e0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+14  0x000055e0 0x1800061e0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+15  0x000480d8 0x1800494d8 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??_7IObject@@6B@
+16  0x000483d8 0x1800497d8 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??_7IStorageDevice@@6BIBlockDevice@@@
+17  0x00048358 0x180049758 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ??_7IStorageDevice@@6BIObject@@@
+18  0x000064b0 0x1800070b0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?AddRef@IObject@@QEBAKXZ
+19  0x000032d0 0x180003ed0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?ConvertVolume@IStorageDevice@@UEAAHXZ
+20  0x000069e0 0x1800075e0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+21  0x000032d0 0x180003ed0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+22  0x00006b10 0x180007710 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+23  0x000064f0 0x1800070f0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+24  0x00000e00 0x180001a00 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+25  0x000032d0 0x180003ed0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+26  0x00007560 0x180008160 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?Release@IObject@@QEBAKXZ
+27  0x00005530 0x180006130 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+28  0x00007580 0x180008180 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+29  0x000064f0 0x1800070f0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+30  0x00006af0 0x1800076f0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+31  0x000007c0 0x1800013c0 GLOBAL FUNC 0    RefsFileSystemAnalyser.mo GetModule

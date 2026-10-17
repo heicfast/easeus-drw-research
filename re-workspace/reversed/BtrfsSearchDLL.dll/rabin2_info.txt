@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x180000000
+binsz    150760
+bintype  pe
+bits     64
+canary   false
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x00032d81
+compiled Sun Sep  1 21:18:31 2041
+crypto   false
+dbg_file E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\BtrfsSearchDLL.pdb
+endian   little
+havecode true
+hdr.csum 0x00032d81
+guid     D6EE64E30A6A4BEE9743FB42E33D249C1
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

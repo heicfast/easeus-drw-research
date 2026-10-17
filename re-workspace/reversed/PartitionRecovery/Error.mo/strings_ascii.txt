@@ -1,0 +1,275 @@
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+SVWATAUAVAWH
+PA_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+WAVAWH
+H;8u?I
+PA_A^_
+WATAUAVAWH
+H;0u:H
+A_A^A]A\_
+SVWAVAWH
+0A_A^_^[
+0A_A^_^[
+0A_A^_^[
+@VWAVH
+\$XH9G0t
+\$XH9G
+@UVWATAUAVAWH
+wHH9wPtBH
+A_A^A]A\_^]
+UVWATAUAVAWH
+GHH+G@H
+`A_A^A]A\_^]
+@WATAUAVAWH
+0A_A^A]A\_
+WAVAWH
+0A_A^_
+SVWAVH
+8A^_^[
+WAVAWH
+|$ AVH
+ H3E H3E
+GetModule
+CErrorManager
+Thread
+CErrorModule
+vector<T> too long
+string too long
+map/set<T> too long
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+I:\_drw_main\PartitionRecovery\Output\Release_x64\Error.pdb
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.pdata
+.rsrc$01
+.rsrc$02
+Error.mo
+??0IObject@@QEAA@$$QEAU0@@Z
+??0IObject@@QEAA@AEBU0@@Z
+??0IObject@@QEAA@XZ
+??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+??4IObject@@QEAAAEAU0@AEBU0@@Z
+??_7IObject@@6B@
+?AddRef@IObject@@QEBAKXZ
+?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+?Release@IObject@@QEBAKXZ
+GetModule
+FreeLibrary
+GetProcAddress
+LoadLibraryA
+KERNEL32.dll
+?_Xlength_error@std@@YAXPEBD@Z
+MSVCP140.dll
+_purecall
+__std_type_info_name
+_CxxThrowException
+__CxxFrameHandler3
+memcmp
+memcpy
+memmove
+memset
+__C_specific_handler
+__std_terminate
+__std_type_info_destroy_list
+__std_exception_copy
+__std_exception_destroy
+VCRUNTIME140.dll
+_invalid_parameter_noinfo_noreturn
+terminate
+_callnewh
+malloc
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+_initterm
+_initterm_e
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+CloseHandle
+EnterCriticalSection
+LeaveCriticalSection
+InitializeCriticalSectionAndSpinCount
+DeleteCriticalSection
+SetEvent
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+InitializeSListHead
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+.?AUIErrorBase@@
+.?AUIErrorManager@@
+.?AUIErrorTrackManager@@
+.?AUIThreadBase@@
+.?AUIErrorModule@@
+.?AUIModule@@
+.?AUIErrorProc@@
+.?AUIObject@@
+.?AVCErrorTrackManager@@
+.?AVCErrorManager@@
+.?AVCErrorModule@@
+.?AV?$CMomStackObject@VCErrorManager@@@@
+.?AV?$CMomObject@VCErrorManager@@@@
+.?AU__MomObjectFlag@@
+.?AV?$CModuleImpl@VCErrorModule@@@@
+.?AV?$CMomEventObject@V?$CModuleImpl@VCErrorModule@@@@@@
+.?AV?$CMomObject@V?$CModuleImpl@VCErrorModule@@@@@@
+.?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCErrorModule@@@@@@@@
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+20261013061311Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013061311Z0+
+/1(0&0$0"

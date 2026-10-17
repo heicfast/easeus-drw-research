@@ -1,0 +1,836 @@
+ForceRemove
+NoRemove
+Delete
+[RefsBitmapProc] %s fail!
+RefsBitmapProc::CleanBitmapMarkProc
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceCOM
+RefsProc::CRefsBasePart::ReadBufByCluster
+[CRefsBasePart]%s fail!
+atlTraceQI
+[CRefsBasePart]%s fail!,cluster : %I64d,Length : %d
+atlTraceRegistrar
+RefsProc::CRefsBasePart::WriteBufByCluster
+atlTraceGeneral
+atlTraceRefcount
+[CRefsBasePart]%s fail!,cluster : %I64d,Length : %d
+atlTraceWindowing
+RefsProc::CRefsBasePart::ReadBufBySectors
+[CRefsBasePart]%s fail!
+atlTraceControls
+RefsProc::CRefsBasePart::WriteBufBySectors
+atlTraceHosting
+atlTraceDBClient
+[CRefsBasePart]Log file info invalid!
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+RefsProc::CRefsBasePart::IsBlockRefContinous
+[CRefsBasePart] %s fail!,%I64x --> %I64x
+[CRefsAnalyze]%s fail!
+atlTraceException
+RefsProc::CRefsBasePart::NotifyBlockRefItem
+atlTraceMap
+[CRefsBasePart] %s fail!,%I64x,%I64x --> %I64x
+[CRefsBasePart] ---- items overheap ,%d !!!
+atlTraceSecurity
+RefsProc::CRefsAnalyze::AnalyzeProc
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+RefsProc::CRefsAnalyze::IdentifyBitmapProc
+[CRefsAnalyze]%s fail!
+atlTraceString
+atlTraceUtil
+atlTraceSync
+RefsProc::CRefsAnalyze::MarkMsbUpdateProc
+[CRefsAnalyze]%s fail!
+atlTraceISAPI
+RefsProc::CRefsAnalyze::MergeBitmapProc
+[CRefsAnalyze]%s fail!
+[CRefsAnalyze]0x%x msb not found !
+RefsProc::CRefsAnalyze::AdditionalAnalyzeProc
+[CRefsAnalyze]%s fail!
+RefsProc::CRefsAnalyze::CollectDataRunsProc
+[CRefsAnalyze]%s fail!
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceCOM
+atlTraceGeneral
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+SYSTEMDRIVE
+refsutil
+fixboot
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+[CalcFileDataRuns]%s fail!
+RefsProc::CRefsFileDataRunItem::CalcFileDataRuns
+[CalcFileDataRuns]%s fail!
+RefsProc::CRefsFileDataRunItem::NotifyDataRunItem
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+[CRefsBasicMsbProc] !!! Modify msb not match,cluster : 0x%I64x,0x%I64x --> 0x%I64x !!!
+RefsProc::CRefsBasicMsbProc::SetEntryBlockDes
+[CRefsBasicMsbProc] %s fail!
+atlTraceHosting
+RefsProc::CRefsBasicMsbProc::SetEntryIds
+[CRefsBasicMsbProc] %s fail!
+atlTraceDBClient
+RefsProc::CRefsBasicMsbProc::SetEntryIds
+[CRefsBasicMsbProc] %s fail!
+atlTraceDBProvider
+RefsProc::CRefsBasicMsbProc::SetClusterIds
+[CRefsBasicMsbProc] %s fail!
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+RefsProc::CRefsBasicMsbProc::AddDupItemProc
+[CRefsBasicMsbProc] %s fail!
+atlTraceException
+RefsProc::CRefsBasicMsbProc::AddDupItemProc
+[CRefsBasicMsbProc] %s fail!
+atlTraceCache
+atlTraceStencil
+atlTraceMap
+RefsProc::CRefsBasicMsbProc::AddDupItemProc
+[CRefsBasicMsbProc] %s fail!
+atlTraceString
+atlTraceSecurity
+RefsProc::CRefsBasicMsbProc::ModifyMsbProc
+[CRefsBasicMsbProc] %s fail!
+atlTraceTime
+atlTraceISAPI
+RefsProc::CRefsBasicMsbProc::MoveTransferProc
+[CRefsBasicMsbProc] %s fail!
+RefsProc::CRefsBasicMsbProc::WriteToTgtVol
+[CRefsBasicMsbProc] %s fail!
+atlTraceUtil
+RefsProc::CRefsBasicMsbProc::WriteBufToTgtVol
+[CRefsBasicMsbProc] %s fail!
+atlTraceSync
+RefsProc::CRefsBasicMsbProc::ReadMsbBufProc
+[CRefsBasicMsbProc] %s fail!
+RefsProc::CRefsBasicMsbProc::ReadMsbToBufProc
+[CRefsBasicMsbProc] %s fail!
+RefsProc::CRefsBasicMsbProc::ReadMsbToBuf
+[CRefsBasicMsbProc] %s fail!
+RefsProc::CRefsBasicMsbProc::ParseBufProc
+[CRefsBasicMsbProc] %s fail!
+RefsProc::CRefsBasicMsbProc::IdentifyAndSetEntryId
+[CRefsBasicMsbProc] %s fail!
+RefsProc::CRefsChildMsbProc::ParseBufIoProc
+[CRefsChildMsbProc] %s fail!
+RefsProc::CRefsChildMsbDupProc::ParseBufProc
+[CRefsChildMsbDupProc] %s fail!
+RefsProc::CRefsChildMsbDupProc::ModifyMsbProc
+[CRefsChildMsbDupProc] %s fail!
+RefsProc::CRefsBasicMsbProc::AddChildMsbProc
+[CRefsBasicMsbProc] %s fail!
+RefsProc::CRefsObjectIdProc::ParseBufProc
+[CRefsObjectIdProc] %s fail!
+RefsProc::CRefsObjectIdProc::_processMetaObjProc
+[CRefsObjectIdProc] %s fail!
+RefsProc::CRefsObjectIdProc::_processOnlyVolInfo
+[CRefsObjectIdProc] %s fail!
+ForceRemove
+NoRemove
+Delete
+[CRefsLogFileProc] %s fail!
+[CRefsLogFileProc] %s fail!
+[CRefsObjectIdProc] Can't get child msb by id %I64x!
+RefsProc::CRefsObjIdDupProc::ParseBufProc
+[CRefsObjectIdProc] %s fail!
+[CRefsLogFileProc] %s fail!
+RefsProc::CRefsLogFileProc::PrepareAddDataProc
+RefsProc::CRefsLogFileProc::AppDataProc
+RefsProc::CRefsLogFileProc::ParseBufProc
+[CRefsVolumeInfoProc] %s fail!
+FileType
+RefsProc::CRefsVolumeInfoProc::ParseBufProc
+Component Categories
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+RefsProc::CRefsBasicMsbProc::AddChildMsbWithIdProc
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceMap
+RefsProc::CRefsCheckPointBlock::ParseBufDirectly
+atlTraceString
+atlTraceSecurity
+[CRefsCheckPointBlock] %s fail!
+atlTraceUtil
+atlTraceSync
+RefsProc::CRefsCheckPointBlock::ModifyMsbProc
+[CRefsCheckPointBlock] %s fail!
+atlTraceISAPI
+RefsProc::CRefsCheckPointBlock::WriteToTgtVol
+[CRefsCheckPointBlock] %s fail!
+[CRefsCheckPointBlock] IS Table too large!
+[CRefsSuperBlock] %s fail!
+RefsProc::CRefsCheckPointBlock::_parseProc
+[CRefsSuperBlock] %s fail!
+[CRefsCheckPointBlock] %s fail!
+RefsProc::CRefsCheckPointBlock::_parseContainerTable
+[CRefsCheckPointBlock] %s fail!
+RefsProc::CRefsCheckPointBlock::_parseContainerAlloc
+[CRefsCheckPointBlock] %s fail!
+RefsProc::CRefsCheckPointBlock::_parseSmallerAlloc
+[CRefsSuperBlock] %s fail!
+[CRefsCheckPointBlock] %s fail!
+RefsProc::CRefsCheckPointBlock::_parseBlockRefTable
+[CRefsCheckPointBlock] %s fail!
+RefsProc::CRefsSuperBlock::ParseBufDirectly
+RefsProc::CRefsSuperBlock::WriteToTgtVol
+RefsProc::CRefsSuperBlock::BakProc
+RefsProc::CRefsVolumeBootRecord::ParseBufDirectly
+[CRefsVolumeBootRecord] %s fail!
+RefsProc::CRefsVolumeBootRecord::WriteToTgtVol
+[CRefsVolumeBootRecord] %s fail!
+RefsProc::CRefsVolumeBootRecord::BakProc
+[CRefsVolumeBootRecord] %s fail!
+RefsProc::CRefsVolumeBootRecord::ModifyBufProc
+[CRefsVolumeBootRecord] %s fail!
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+[RefsBitmapProc] %s fail!
+RefsProc::CRefsAllocatorMgr::TurnOn2OfflineAllUsedProc
+[CRefsAllocatorMgr] %s fail!
+RefsProc::CRefsAllocatorMgr::TurnNoUseToOfflineProc
+[CRefsAllocatorMgr] %s fail!
+atlTraceGeneral
+atlTraceCOM
+RefsBitmapProc::CleanBitmapMarkProc
+atlTraceQI
+[CRefsAllocatorMgr] +++ meta data package : 0x%I64x
+atlTraceRegistrar
+[CRefsAllocatorMgr] +++ Total out of range : 0x%I64x,Total BR : 0x%I64x
+[CRefsAllocatorMgr] +++ Total InnerMeta : 0x%I64x,Total Orign : 0x%I64x
+[CRefsAllocatorMgr] +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+RefsProc::CRefsAllocatorMgr::SplitFileDataRunProc
+[CRefsAllocatorMgr] %s fail!
+atlTraceRefcount
+[CRefsAllocatorMgr] !!! Mark orign file fail ,spare : %d clusters !!!
+RefsProc::CRefsAllocatorMgr::OrignFileDataRunProc
+[CRefsAllocatorMgr] %s fail!
+atlTraceWindowing
+RefsProc::CRefsAllocatorMgr::SplitBRTransInfoProc
+[CRefsAllocatorMgr] %s fail!
+atlTraceControls
+RefsProc::CRefsAllocatorMgr::SplitDataRunProc
+[CRefsAllocatorMgr] %s fail!
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+RefsProc::CRefsAllocatorMgr::MergeBitmapProc
+[CRefsAllocatorMgr] %s fail!
+RefsProc::CRefsAllocatorMgr::CleanBitmapMarkInMgr
+[CRefsAllocatorMgr] %s fail!
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+RefsProc::CRefsAllocatorMgr::IsContinous
+[CRefsAllocatorMgr] %s fail!
+atlTraceException
+[CRefsAllocatorMgr] !!! Continous proc !!! cluster : %I64x,count : %I64x
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceMap
+[CRefsAllocatorMgr]! CA bmp cross! transfer to offline,cluster : 0x%I64x
+atlTraceString
+atlTraceSecurity
+RefsProc::CRefsAllocatorMgr::NotifyOnlineSpace
+[CRefsAllocatorMgr] %s fail! first cluster : 0x%I64x
+atlTraceUtil
+atlTraceSync
+atlTraceISAPI
+RefsProc::CRefsAllocatorMgr::MsbNotifyAddtionProc
+[CRefsAllocatorMgr] %s fail! first cluster : 0x%I64x
+RefsProc::CRefsAllocatorMgr::NotifyDataRunProc
+[CRefsAllocatorMgr] %s fail! size : %d,first cluster : 0x%I64x
+RefsProc::CRefsAllocatorMgr::NotifyDataRunProc2
+[CRefsAllocatorMgr] %s fail! size : %d,first cluster : 0x%I64x
+RefsProc::CRefsAllocatorMgr::AllocatorProc
+[CRefsAllocatorMgr] %s fail,count : %d,isMsb : %d!
+RefsProc::CRefsAllocatorMgr::AllocTransferRange
+[CRefsAllocatorMgr] %s fail!,data run : %I64x
+RefsProc::CRefsAllocatorMgr::MarkMsbUsedProc
+[CRefsAllocatorMgr] %s fail,data run empty!
+RefsProc::CRefsAllocatorMgr::MarkMsbUsedProc
+[CRefsAllocatorMgr] %s fail,cluster : 0x%x!
+RefsProc::CRefsAllocatorMgr::FreeSpareSpace
+[CRefsAllocatorMgr] %s fail!
+[CRefsAllocatorMgr] ----- online proc,ref : 0x%I64x
+[CRefsAllocatorMgr] ****** _adjustToTgtVolume,data border : 0x%I64x,0x%I64x ******
+[CRefsAllocatorMgr] +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[CRefsAllocatorMgr] +++ Total msb : 0x%I64x
+RefsProc::CRefsAllocatorMgr::_ClusterBitmap_Info_::_markClusterInfo
+[_ClusterBitmap_Info_] %s fail!,pos : 0x%I64x,ref : 0x%I64x
+RefsProc::CRefsAllocatorMgr::_ClusterBitmap_Info_::_freeClusterInfo
+[_ClusterBitmap_Info_] %s fail!,pos : 0x%I64x,ref : 0x%I64x
+[CRefsRMConflictMgr] --- conflict proc ----,src cluster : 0x%I64x,crc : 0x%I64x,confilict : 0x%I64x,already inserted : %d,Queue peak : %d,map vol : %d
+RefsRMProc::CRefsRMMgr::CleanAndMarkBlockRefTransferInfo
+[CRefsRMMgr]%s fail!
+RefsRMProc::CRefsRMConflictMgr::ConflictProc
+[CRefsRMConflictMgr]%s fail!
+RefsRMProc::CRefsRMMgr::_dataProc
+[CRefsRMMgr]%s fail!
+[CRefsRMMgr] *** msb over heap! last msb : 0x%I64x
+ForceRemove
+[CRefsRMMgr] *** Meta range over heap! 0x%I64x
+[CRefsRMMgr] *** Used space over heap! 0x%I64x
+RefsRMProc::CRefsRMMgr::_initOfflineDataRuns
+[CRefsRMMgr]%s fail!
+RefsRMProc::CRefsRMMgr::_turnOnAndMarkOfflineDataRuns
+[CRefsRMMgr]%s fail!
+NoRemove
+Delete
+FileType
+[CRefsRMConflictMgr] +++ _soloveConflict proc +++,src cluster : 0x%I64x,conflict vol : %d
+Interface
+[CRefsRMConflictMgr] --- conflict buffer is empty!!! ---
+Hardware
+[CRefsRMConflictMgr] ++++++ for match queue vol,do not pop,%d <-- > %d ++++++!
+[CRefsRMConflictMgr] ++++++ cluster : 0x%x poped,crc : 0x%I64x,vol : %d ++++++!
+RefsRMProc::CRefsRMConflictMgr::FinishProc
+[CRefsRMConflictMgr]%s fail!
+RefsRMProc::CRefsRMConflictMgr::ConflictFinishProc
+[CRefsRMConflictMgr]%s fail!
+Component Categories
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+ntdll.dll
+[CRefsRMMgr] **********************************************************************************
+[CRefsRMMgr] *** start r/m,fsversion: %d,%d,tgt pos: 0x%I64x,size: 0x%I64x sectors
+[CRefsRMMgr]%s fail!,0x%x
+[CRefsRMMgr] *** adv move: %d,offset: 0x%x cluster,expand: %d,scale: 0x%I64x sectors
+[CRefsRMMgr] *** bytespersector: 0x%x,sectorspercluster: 0x%x,container: 0x%x,msb move : %d
+[CRefsVirtualPart]%s fail!
+[CRefsRMMgr] **********************************************************************************
+[CRefsRMMgr] **********************************************************************************
+[CRefsRMMgr] *** end r/m : 0x%x
+[CRefsRMMgr] **********************************************************************************
+RefsRMProc::CRefsRMMgr::ProcessSrcDataRange
+[CRefsRMMgr]%s fail!
+RefsRMProc::CRefsRMMgr::RMProc
+[CRefsRMMgr]%s fail!,0x%x
+RefsRMProc::CRefsRMMgr::_buildMovedBRMaskInfo
+[CRefsRMMgr]%s fail!
+RefsRMProc::CRefsRMMgr::_constructBlockRefMaskInfo
+[CRefsRMMgr]%s fail!
+RefsRMProc::CRefsRMMgr::_constructBlockRefTransferInfo
+[CRefsRMMgr]%s fail!
+[CRefsRMMgr] !!! BR Proc alloc fail!!!
+RefsRMProc::CRefsRMMgr::_insertBlockRefTransferInfo
+[CRefsRMMgr]%s fail!
+RefsRMProc::CRefsRMMgr::MoveTransMsbProc
+[CRefsRMMgr]%s fail!
+RefsRMProc::CRefsVirtualContainerTable::ConstructSpacesProc
+[CRefsVirtualContainerTable]%s fail!
+RefsRMProc::CRefsRMMgr::BlockRefTableProc
+[CRefsRMMgr]%s fail!
+RefsRMProc::CRefsVirtualPart::PrepareRMProc
+RefsRMProc::CRefsRMMgr::BRPriorityTransferProc
+[CRefsRMMgr]%s fail!
+[CRefsRMConflictMgr]****** conflict not alloc, boundary : 0x%I64x,tgt right pos : 0x%I64x ****** 
+RefsRMProc::CRefsRMMgr::FileTransferProc
+[CRefsRMConflictMgr]****** conflict not alloc, boundary : 0x%I64x,tgt left pos : 0x%I64x ****** 
+RefsRMProc::CRefsRMMgr::ConstructFileTransferInfo
+[CRefsRMMgr]%s fail!
+[CRefsRMConflictMgr]****** conflict buf : 0x%I64x,src part ? %d ****** 
+RefsRMProc::CRefsRMConflictMgr::StartRMProc
+[CRefsRMConflictMgr]%s fail!
+[CRefsRMConflictMgr] ----- cluster : 0x%x insert to queue,vol : %d -----!
+RefsRMProc::CRefsRMMgr::ConstructOfflineTransferInfo
+[CRefsRMMgr]%s fail!
+[CRefsRMConflictMgr] ----- here come conflict cluster : 0x%x,vol : %d -----!
+[CRefsRMConflictMgr]vol not match!,%d --> %d
+RefsRMProc::CRefsRMConflictMgr::IntotheQueue
+[CRefsRMConflictMgr]%s fail!
+RefsProc::CRefsMetaFileDataRun::ParseBufProc
+[CRefsMetaFileDataRun] %s fail!
+RefsProc::CRefsMetaFileDataRun::VaryChildModifyBufProc
+[CRefsMetaDirectory] %s fail!
+RefsProc::CRefsMetaFileDataRun::ModifyLeafMsb
+[CRefsMetaFileDataRun] %s fail!
+ForceRemove
+NoRemove
+Delete
+FileType
+RefsProc::CRefsMetaFileDataRun::ModifyParentMsb
+[CRefsContainerTable] %s fail!
+Component Categories
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceCOM
+[CRefsMetaDirectory] file size is out of range! msb id : %I64x,offset : %d
+atlTraceGeneral
+atlTraceQI
+RefsProc::CRefsMetaDirectory::MarkMsbProc
+[CRefsMetaDirectory] %s fail!
+[CRefsContainerTable] %s fail!
+atlTraceRegistrar
+RefsProc::CRefsMetaDirectory::ParseBufProc
+[CRefsMetaDirectory] %s fail!
+atlTraceRefcount
+RefsProc::CRefsMetaDirectory::_parseBasicInfoProc
+[CRefsMetaDirectory] %s fail!
+atlTraceWindowing
+RefsProc::CRefsMetaDirectory::_parseReparsePoint
+[CRefsMetaDirectory] %s fail!
+atlTraceControls
+RefsProc::CRefsMetaDirectory::VaryChildModifyBufProc
+[CRefsMetaDirectory] %s fail!
+RefsProc::CRefsMetaDirectory::ModifyLeafMsb
+[CRefsMetaDirectory] %s fail!
+atlTraceHosting
+atlTraceDBClient
+RefsProc::CRefsMetaDirectory::ModifyParentMsb
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceMap
+RefsProc::CRefsMetaFileDirItem::MarkMsbProc
+atlTraceSecurity
+[CRefsMetaFileDirItem] %s fail!
+RefsProc::CRefsMetaFileDirItem::VaryChildModifyBufProc
+[CRefsMetaFileDirItem] %s fail!
+atlTraceString
+RefsProc::CRefsMetaFileDirItem::ParseBufProc
+[CRefsMetaFileDirItem] %s fail!
+atlTraceUtil
+RefsProc::CRefsMetaSymbolicDirItem::ParseBufProc
+atlTraceISAPI
+[CRefsMetaSymbolicDirItem] %s fail!
+atlTraceSync
+RefsProc::CRefsMetaFileDataRun::MarkMsbProc
+[CRefsMetaFileDataRun] %s fail!
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+[CRefsContainerTable] %s fail!
+atlTraceStencil
+atlTraceMap
+RefsProc::CRefsVaryChildMsbProc::ModifyMsbProc
+[CRefsVaryChildMsbProc] %s fail!
+atlTraceTime
+[CRefsContainerTable] %s fail!
+atlTraceSecurity
+RefsProc::CRefsVaryChildMsbProc::ModifyBufProc
+RefsProc::CRefsVaryChildMsbProc::ModifyDupBufProc
+atlTraceCache
+atlTraceString
+atlTraceUtil
+atlTraceSync
+atlTraceISAPI
+[CRefsContainerTable] %s fail!
+[CRefsBitmapProc] %s fail!
+[CRefsContainerTable] ContainerTable size not support!,0x%x
+[CRefsBitmapProc] %s fail!
+RefsProc::CRefsContainerTable::MarkMsbProc
+[CRefsBitmapProc] %s fail!
+RefsProc::CRefsContainerTable::ParseBufProc
+[CRefsContainerTable] %s fail!
+[CRefsBitmapProc] %s fail!
+[CRefsContainerTable] Container item invalid, base ad : %I64x,flag : %x
+RefsProc::CRefsContainerTable::VaryChildModifyBufProc
+[CRefsContainerTable] %s fail!
+RefsProc::CRefsContainerTable::ModifyLeafMsb
+[CRefsContainerTable] %s fail!
+RefsProc::CRefsContainerTable::ModifyParentMsb
+[CRefsContainerTable] %s fail!
+RefsProc::CRefsBitmapProc::MarkMsbProc
+RefsProc::CRefsBitmapProc::_markOnlineProc
+[CRefsBitmapProc] %s fail!
+RefsProc::CRefsBitmapProc::OnlineProcMarkProc
+RefsProc::CRefsBitmapProc::AddOfflineMarkProc
+RefsProc::CRefsBitmapProc::DecAnyItemMarkProc
+RefsProc::CRefsBitmapProc::AdjustLastLeafProc
+[CRefsBitmapProc] %s fail!
+[CRefsBitmapProc] %s fail!
+RefsProc::CRefsBitmapProc::VaryChildModifyBufProc
+[CRefsBitmapProc] %s fail!
+RefsProc::CRefsBitmapProc::ModifyMedLeafMsb
+[CRefsBitmapProc] %s fail!
+RefsProc::CRefsBitmapProc::ModifyLeafMsb
+[CRefsBitmapProc] %s fail!
+RefsProc::CRefsBitmapProc::ModifyParentMsb
+[CRefsBitmapProc] %s fail!
+RefsProc::CRefsBitmapProc::_childMsbProc
+[CRefsBitmapProc] %s fail!
+[CRefsBitmapProc] bitmap describe over range,%I64x
+RefsProc::CRefsBitmapProc::ParseBufProc
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+[CRefsISTableProc] %s fail!
+RefsProc::CRefsISTableProc::VaryChildModifyBufProc
+RefsProc::CRefsBlockRefTableProc::ParseBufProc
+[CRefsBlockRefTableProc] %s fail!
+RefsProc::CRefsBlockRefTableProc::NoticeBlockRefItem
+[CRefsBlockRefTableProc] %s fail!
+RefsProc::CRefsBlockRefTableProc::VaryChildModifyBufProc
+[CRefsBlockRefTableProc] %s fail!
+RefsProc::CRefsBlockRefTableProc::ModifyParentMsb
+[CRefsBlockRefTableProc] %s fail!
+RefsRMProc::CRefsFileTransferProc::DataTransfer
+[CRefsFileTransferProc]%s fail!
+RefsRMProc::CRefsFileTransferProc::FinishProc
+[CRefsFileTransferProc]%s fail!
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+RefsProc::CRefsFileProc::FileDataRunItemsMarkProc
+[CRefsFileProc] %s fail!
+ForceRemove
+NoRemove
+Delete
+RefsProc::CRefsFileProc::UpdateDataRunItemProc
+[CRefsFileProc] %s fail!,Tree Header length : 0x%x
+[CRefsFileProc] %s fail!
+[CRefsFileProc] !!!! data run over range !!!!
+RefsProc::CRefsFileProc::UpdateDataRunsDes
+[CRefsFileProc] %s fail!
+RefsProc::CRefsFileProc::_processSubMinistore
+RefsProc::CRefsFileProc::ModifyDataRunInfoProc
+[CRefsFileProc] %s fail!,vcn : %d
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+frag_file
+RefsProc::CRefsFileItemEntry::_processDataRunNodeRecord
+[CRefsFileItemEntry] %s fail!
+RefsProc::CRefsFileItemEntry::ParseAttributeRecord
+[CRefsFileItemEntry] %s fail!
+[CRefsFileProc] %s fail!
+RefsProc::CRefsFileProc::MarkProc
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+ERROR : Unable to initialize critical section in CAtlBaseModule

@@ -1,0 +1,386 @@
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+H9D$Xs
+H9D$Xs
+D$(9D$ u	
+H9D$0s&H
+H9D$0s
+H+D$0H
+HcD$ H
+H9D$@tV3
+L$ H9Hhs
+D$HH9D$0v
+L$0H9Hhs
+H;D$Hv
+H9D$ s
+D$ H9D$(w
+H9D$(vf
+D$PH9D$8s>H
+H+D$HH
+H;D$Ht)H
+H9D$Xw[H
+H9D$`wZH
+H9D$`wZH
+H9D$pw~H
+H+D$0H
+H+D$0H;D$0s
+(HkD$@(H
+HkL$((H
+L$8H9H
+fffffff
+H;D$@~2H
+H+D$@H
+D$@H9D$ht
+H9D$8u
+H9D$hv
+H9D$hv
+H9D$hv
+H+D$8H;
+H9D$ v
+fffffff
+HkD$ (H
+fffffff
+H9D$ v
+H9D$ v
+H9D$ v
+D$0H9D$(t*H
+(HkD$@
+D$ H9D$@v
+H9D$(v
+D$ H9D$@v
+H9D$(v
+D$@H9D$ u
+H9D$`t
+D$PH9D$ w	H
+|$ AVH
+ H3E H3E
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+bad allocation
+bad array new length
+Unknown exception
+bad cast
+generic
+deque<T> too long
+invalid string position
+string too long
+RSDSkw
+I:\_drw_main\PartitionRecovery\Output\Release_x64\Logger.pdb
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCL
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.pdata
+.rsrc$01
+.rsrc$02
+Logger.dll
+??0Logger@@AEAA@XZ
+??1Logger@@AEAA@XZ
+?__autoclassinit2@Logger@@QEAAX_K@Z
+?checkLogFileSize@Logger@@AEAAXPEAX@Z
+?formatLogMessage@Logger@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@W4LogLevel@@V23@1_KKK@Z
+?getInstance@Logger@@SAAEAV1@XZ
+?log@Logger@@QEAAXW4LogLevel@@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@1_KKK@Z
+?processLogs@Logger@@AEAAXXZ
+?setLogFile@Logger@@QEAAXV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
+?setLogLevel@Logger@@QEAAXW4LogLevel@@@Z
+?start@Logger@@QEAAXXZ
+?stop@Logger@@QEAAXXZ
+?writeLog@Logger@@AEAAXV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
+getLoggerInstance
+CreateDirectoryW
+CreateFileW
+CloseHandle
+LockFileEx
+SetFilePointer
+WriteFile
+UnlockFileEx
+GetFileSizeEx
+ReadFile
+SetEndOfFile
+OpenProcess
+K32GetModuleBaseNameW
+KERNEL32.dll
+??0_Lockit@std@@QEAA@H@Z
+??1_Lockit@std@@QEAA@XZ
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?_Syserror_map@std@@YAPEBDH@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?_Throw_C_error@std@@YAXH@Z
+_Thrd_start
+_Thrd_join
+_Mtx_init
+_Mtx_lock
+_Mtx_unlock
+_Cnd_init
+_Cnd_wait
+_Cnd_signal
+_Cnd_destroy
+_Mtx_destroy
+?_Throw_Cpp_error@std@@YAXH@Z
+_Thrd_id
+_Mtx_init_in_situ
+_Mtx_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_destroy_in_situ
+?uncaught_exception@std@@YA_NXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
+?id@?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@2V0locale@2@A
+_Cnd_do_broadcast_at_thread_exit
+?_Getcat@?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?sputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAA_JPEB_W_J@Z
+?put@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@_W@Z
+?put@?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@QEBA?AV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@2@V32@AEAVios_base@2@_WPEBUtm@@PEB_W4@Z
+?widen@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBA_WD@Z
+?sputc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAG_W@Z
+?tie@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBAPEAV?$basic_ostream@_WU?$char_traits@_W@std@@@2@XZ
+??0?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
+?pbase@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+?setp@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXPEA_W0@Z
+?_Osfx@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAXXZ
+?flush@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@XZ
+?setstate@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
+?rdbuf@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBAPEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@2@XZ
+?fill@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBA_WXZ
+??0?$basic_ios@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
+?eback@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+?gptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+?pptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+?egptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+?gbump@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXH@Z
+?setg@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXPEA_W00@Z
+?epptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ
+?setp@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXPEA_W00@Z
+?_Pninc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAPEA_WXZ
+??0?$basic_iostream@_WU?$char_traits@_W@std@@@std@@QEAA@PEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@1@@Z
+??1?$basic_ios@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+?_Lock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAAXXZ
+?_Unlock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAAXXZ
+?showmanyc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JXZ
+?uflow@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAGXZ
+?xsgetn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEA_W_J@Z
+?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
+?setbuf@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAPEAV12@PEA_W_J@Z
+?sync@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAHXZ
+?imbue@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAXAEBVlocale@2@@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV01@K@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV01@_K@Z
+??1?$basic_iostream@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+?getloc@ios_base@std@@QEBA?AVlocale@2@XZ
+?width@ios_base@std@@QEAA_J_J@Z
+?width@ios_base@std@@QEBA_JXZ
+?flags@ios_base@std@@QEBAHXZ
+?good@ios_base@std@@QEBA_NXZ
+??Bid@locale@std@@QEAA_KXZ
+MSVCP140.dll
+__CxxFrameHandler3
+__std_terminate
+__std_exception_copy
+__std_exception_destroy
+__C_specific_handler
+_CxxThrowException
+memset
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+terminate
+_invalid_parameter_noinfo_noreturn
+_time64
+_localtime64_s
+_callnewh
+malloc
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+_initterm
+_initterm_e
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+EnterCriticalSection
+LeaveCriticalSection
+InitializeCriticalSectionAndSpinCount
+DeleteCriticalSection
+SetEvent
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+GetProcAddress
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+InitializeSListHead
+memmove
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8Logger@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8Logger@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
+.?AV_Pad@std@@
+.?AV_Generic_error_category@std@@
+.?AVerror_category@std@@
+.?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+.?AVios_base@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AVbad_cast@std@@
+.?AV_System_error@std@@
+.?AVsystem_error@std@@
+.?AVexception@std@@
+.?AVruntime_error@std@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+ @}7PjY
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+K?^_SUUn0h
+20261013061342Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013061342Z0+
+/1(0&0$0"
+*r!$%1)t
+rlE<fT
+3jAfEeW

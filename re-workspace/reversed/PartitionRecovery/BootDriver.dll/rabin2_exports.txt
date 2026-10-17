@@ -1,0 +1,11 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib            name                      demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00001280 0x180001e80 GLOBAL FUNC 0    BootDriver.dll BootDriverExcute
+2   0x000012e0 0x180001ee0 GLOBAL FUNC 0    BootDriver.dll BootDriverGetProgressInfo
+3   0x00001320 0x180001f20 GLOBAL FUNC 0    BootDriver.dll CheckFormat
+4   0x00001200 0x180001e00 GLOBAL FUNC 0    BootDriver.dll DeleteGetBootDriverImp
+5   0x000011a0 0x180001da0 GLOBAL FUNC 0    BootDriver.dll GetBootDriverImp
+6   0x00001230 0x180001e30 GLOBAL FUNC 0    BootDriver.dll SetBootDriverCallBack
+7   0x00001040 0x180001c40 GLOBAL FUNC 0    BootDriver.dll TBCanUnloadNow
+8   0x00001070 0x180001c70 GLOBAL FUNC 0    BootDriver.dll TBCreateObject

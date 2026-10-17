@@ -1,0 +1,32 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib                 name                                                      demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000400 0x180001000 GLOBAL FUNC 0    CallbackOperator.mo ??0CCallBackOperate@@QEAA@P6AKPEAUOC_PARAM@@PEAX@Z1@Z
+2   0x00000410 0x180001010 GLOBAL FUNC 0    CallbackOperator.mo ??0IObject@@QEAA@$$QEAU0@@Z
+3   0x00000410 0x180001010 GLOBAL FUNC 0    CallbackOperator.mo ??0IObject@@QEAA@AEBU0@@Z
+4   0x00000410 0x180001010 GLOBAL FUNC 0    CallbackOperator.mo ??0IObject@@QEAA@XZ
+5   0x00000440 0x180001040 GLOBAL FUNC 0    CallbackOperator.mo ??1CCallBackOperate@@QEAA@XZ
+6   0x00000450 0x180001050 GLOBAL FUNC 0    CallbackOperator.mo ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+7   0x00000450 0x180001050 GLOBAL FUNC 0    CallbackOperator.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+8   0x00000460 0x180001060 GLOBAL FUNC 0    CallbackOperator.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+9   0x00000460 0x180001060 GLOBAL FUNC 0    CallbackOperator.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+10  0x00000460 0x180001060 GLOBAL FUNC 0    CallbackOperator.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+11  0x00000460 0x180001060 GLOBAL FUNC 0    CallbackOperator.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+12  0x00003a60 0x180005260 GLOBAL FUNC 0    CallbackOperator.mo ??_7IObject@@6B@
+13  0x00000470 0x180001070 GLOBAL FUNC 0    CallbackOperator.mo ?AddRef@IObject@@QEBAKXZ
+14  0x00000480 0x180001080 GLOBAL FUNC 0    CallbackOperator.mo ?CallFunction@CCallBackOperate@@QEAAKPEAUOC_PARAM@@PEAX@Z
+15  0x000004a0 0x1800010a0 GLOBAL FUNC 0    CallbackOperator.mo ?DoMessageLoop@CCallBackOperate@@QEAAKXZ
+16  0x00000500 0x180001100 GLOBAL FUNC 0    CallbackOperator.mo ?EndCurChildOperation@CCallBackOperate@@QEAAKXZ
+17  0x00000560 0x180001160 GLOBAL FUNC 0    CallbackOperator.mo ?EndCurOperation@CCallBackOperate@@QEAAKXZ
+18  0x000005c0 0x1800011c0 GLOBAL FUNC 0    CallbackOperator.mo ?EndFileSystemOperation@CCallBackOperate@@QEAAKXZ
+19  0x00000620 0x180001220 GLOBAL FUNC 0    CallbackOperator.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+20  0x000009e0 0x1800015e0 GLOBAL FUNC 0    CallbackOperator.mo ?IncrementCurChildOperation@CCallBackOperate@@QEAAKK@Z
+21  0x00000a40 0x180001640 GLOBAL FUNC 0    CallbackOperator.mo ?LoadOperationName@@YAHKQEA_WAEAUOC_INFO@@@Z
+22  0x00002050 0x180002c50 GLOBAL FUNC 0    CallbackOperator.mo ?Release@IObject@@QEBAKXZ
+23  0x00002060 0x180002c60 GLOBAL FUNC 0    CallbackOperator.mo ?SetCurChildOperationValue@CCallBackOperate@@QEAAKK@Z
+24  0x000020c0 0x180002cc0 GLOBAL FUNC 0    CallbackOperator.mo ?SetEnableUserCancel@CCallBackOperate@@QEAAKH@Z
+25  0x00002120 0x180002d20 GLOBAL FUNC 0    CallbackOperator.mo ?SetLargeCounter@CCallBackOperate@@QEAAK_J@Z
+26  0x00002180 0x180002d80 GLOBAL FUNC 0    CallbackOperator.mo ?SetLargeCounterTotal@CCallBackOperate@@QEAAK_J@Z
+27  0x000021e0 0x180002de0 GLOBAL FUNC 0    CallbackOperator.mo ?StartChildOperation@CCallBackOperate@@QEAAKKKK@Z
+28  0x00002260 0x180002e60 GLOBAL FUNC 0    CallbackOperator.mo ?StartFileSystemOperation@CCallBackOperate@@QEAAKK@Z
+29  0x000022c0 0x180002ec0 GLOBAL FUNC 0    CallbackOperator.mo ?StartOperation@CCallBackOperate@@QEAAKKK@Z

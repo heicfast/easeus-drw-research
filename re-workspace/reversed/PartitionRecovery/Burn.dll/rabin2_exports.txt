@@ -1,0 +1,5 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib      name           demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x000004d7 0x1800010d7 GLOBAL FUNC 0    Burn.dll TBCanUnloadNow
+2   0x00000a45 0x180001645 GLOBAL FUNC 0    Burn.dll TBCreateObject

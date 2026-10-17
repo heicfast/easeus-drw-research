@@ -1,0 +1,248 @@
+[Exports]
+nth paddr      vaddr      bind   type size lib       name                            demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000a00 0x62e81400 GLOBAL FUNC 0    zlib1.dll adler32
+2   0x00000ce0 0x62e816e0 GLOBAL FUNC 0    zlib1.dll adler32_combine
+3   0x00000dc0 0x62e817c0 GLOBAL FUNC 0    zlib1.dll adler32_combine64
+4   0x00001070 0x62e81a70 GLOBAL FUNC 0    zlib1.dll compress
+5   0x00000f80 0x62e81980 GLOBAL FUNC 0    zlib1.dll compress2
+6   0x00001080 0x62e81a80 GLOBAL FUNC 0    zlib1.dll compressBound
+7   0x00001240 0x62e81c40 GLOBAL FUNC 0    zlib1.dll crc32
+8   0x00001550 0x62e81f50 GLOBAL FUNC 0    zlib1.dll crc32_combine
+9   0x00001560 0x62e81f60 GLOBAL FUNC 0    zlib1.dll crc32_combine64
+10  0x00002d90 0x62e83790 GLOBAL FUNC 0    zlib1.dll deflate
+11  0x00002c80 0x62e83680 GLOBAL FUNC 0    zlib1.dll deflateBound
+12  0x00004620 0x62e85020 GLOBAL FUNC 0    zlib1.dll deflateCopy
+13  0x00003f90 0x62e84990 GLOBAL FUNC 0    zlib1.dll deflateEnd
+14  0x000040a0 0x62e84aa0 GLOBAL FUNC 0    zlib1.dll deflateInit2_
+15  0x00004610 0x62e85010 GLOBAL FUNC 0    zlib1.dll deflateInit_
+16  0x00003e80 0x62e84880 GLOBAL FUNC 0    zlib1.dll deflateParams
+17  0x00002be0 0x62e835e0 GLOBAL FUNC 0    zlib1.dll deflatePrime
+18  0x00002a30 0x62e83430 GLOBAL FUNC 0    zlib1.dll deflateReset
+19  0x000028d0 0x62e832d0 GLOBAL FUNC 0    zlib1.dll deflateSetDictionary
+20  0x00002bb0 0x62e835b0 GLOBAL FUNC 0    zlib1.dll deflateSetHeader
+21  0x00002c30 0x62e83630 GLOBAL FUNC 0    zlib1.dll deflateTune
+22  0x00001230 0x62e81c30 GLOBAL FUNC 0    zlib1.dll get_crc_table
+23  0x00004c00 0x62e85600 GLOBAL FUNC 0    zlib1.dll gzbuffer
+24  0x00005040 0x62e85a40 GLOBAL FUNC 0    zlib1.dll gzclearerr
+25  0x00004880 0x62e85280 GLOBAL FUNC 0    zlib1.dll gzclose
+26  0x00006a10 0x62e87410 GLOBAL FUNC 0    zlib1.dll gzclose_r
+27  0x00007460 0x62e87e60 GLOBAL FUNC 0    zlib1.dll gzclose_w
+28  0x000069c0 0x62e873c0 GLOBAL FUNC 0    zlib1.dll gzdirect
+29  0x00004b80 0x62e85580 GLOBAL FUNC 0    zlib1.dll gzdopen
+30  0x00004f90 0x62e85990 GLOBAL FUNC 0    zlib1.dll gzeof
+31  0x00004ff0 0x62e859f0 GLOBAL FUNC 0    zlib1.dll gzerror
+32  0x00007300 0x62e87d00 GLOBAL FUNC 0    zlib1.dll gzflush
+33  0x000066c0 0x62e870c0 GLOBAL FUNC 0    zlib1.dll gzgetc
+34  0x00006850 0x62e87250 GLOBAL FUNC 0    zlib1.dll gzgets
+35  0x00004f70 0x62e85970 GLOBAL FUNC 0    zlib1.dll gzoffset
+36  0x00004f10 0x62e85910 GLOBAL FUNC 0    zlib1.dll gzoffset64
+37  0x00004b40 0x62e85540 GLOBAL FUNC 0    zlib1.dll gzopen
+38  0x00004b60 0x62e85560 GLOBAL FUNC 0    zlib1.dll gzopen64
+39  0x00007160 0x62e87b60 GLOBAL FUNC 0    zlib1.dll gzprintf
+40  0x00007040 0x62e87a40 GLOBAL FUNC 0    zlib1.dll gzputc
+41  0x00007100 0x62e87b00 GLOBAL FUNC 0    zlib1.dll gzputs
+42  0x000064c0 0x62e86ec0 GLOBAL FUNC 0    zlib1.dll gzread
+43  0x00004c50 0x62e85650 GLOBAL FUNC 0    zlib1.dll gzrewind
+44  0x00004e70 0x62e85870 GLOBAL FUNC 0    zlib1.dll gzseek
+45  0x00004cf0 0x62e856f0 GLOBAL FUNC 0    zlib1.dll gzseek64
+46  0x00007390 0x62e87d90 GLOBAL FUNC 0    zlib1.dll gzsetparams
+47  0x00004ef0 0x62e858f0 GLOBAL FUNC 0    zlib1.dll gztell
+48  0x00004ea0 0x62e858a0 GLOBAL FUNC 0    zlib1.dll gztell64
+49  0x00006730 0x62e87130 GLOBAL FUNC 0    zlib1.dll gzungetc
+50  0x00006e20 0x62e87820 GLOBAL FUNC 0    zlib1.dll gzwrite
+51  0x000098a0 0x62e8a2a0 GLOBAL FUNC 0    zlib1.dll inflate
+52  0x000076c0 0x62e880c0 GLOBAL FUNC 0    zlib1.dll inflateBack
+53  0x00008940 0x62e89340 GLOBAL FUNC 0    zlib1.dll inflateBackEnd
+54  0x000075c0 0x62e87fc0 GLOBAL FUNC 0    zlib1.dll inflateBackInit_
+55  0x0000b9b0 0x62e8c3b0 GLOBAL FUNC 0    zlib1.dll inflateCopy
+56  0x0000b5d0 0x62e8bfd0 GLOBAL FUNC 0    zlib1.dll inflateEnd
+57  0x0000b730 0x62e8c130 GLOBAL FUNC 0    zlib1.dll inflateGetHeader
+58  0x00009710 0x62e8a110 GLOBAL FUNC 0    zlib1.dll inflateInit2_
+59  0x00009810 0x62e8a210 GLOBAL FUNC 0    zlib1.dll inflateInit_
+60  0x0000bb70 0x62e8c570 GLOBAL FUNC 0    zlib1.dll inflateMark
+61  0x00009820 0x62e8a220 GLOBAL FUNC 0    zlib1.dll inflatePrime
+62  0x00009480 0x62e89e80 GLOBAL FUNC 0    zlib1.dll inflateReset
+63  0x00009540 0x62e89f40 GLOBAL FUNC 0    zlib1.dll inflateReset2
+64  0x0000b630 0x62e8c030 GLOBAL FUNC 0    zlib1.dll inflateSetDictionary
+65  0x0000b770 0x62e8c170 GLOBAL FUNC 0    zlib1.dll inflateSync
+66  0x0000b980 0x62e8c380 GLOBAL FUNC 0    zlib1.dll inflateSyncPoint
+67  0x0000bb40 0x62e8c540 GLOBAL FUNC 0    zlib1.dll inflateUndermine
+68  0x0000e910 0x62e8f310 GLOBAL FUNC 0    zlib1.dll uncompress
+69  0x0000ea10 0x62e8f410 GLOBAL FUNC 0    zlib1.dll zError
+70  0x0000ea00 0x62e8f400 GLOBAL FUNC 0    zlib1.dll zlibCompileFlags
+71  0x0000e9f0 0x62e8f3f0 GLOBAL FUNC 0    zlib1.dll zlibVersion
+0   0x00000600 0x62e81000 GLOBAL FUNC 0              pre_c_init
+1   0x00000650 0x62e81050 GLOBAL FUNC 0              _CRT_INIT
+2   0x00000870 0x62e81270 GLOBAL FUNC 0              __DllMainCRTStartup
+3   0x000009b0 0x62e813b0 GLOBAL FUNC 0              DllMainCRTStartup
+4   0x00000a00 0x62e81400 GLOBAL FUNC 0              adler32
+5   0x00000ce0 0x62e816e0 GLOBAL FUNC 0              adler32_combine
+6   0x00000dc0 0x62e817c0 GLOBAL FUNC 0              adler32_combine64
+7   0x00000e90 0x62e81890 GLOBAL FUNC 0              compress2.clone.0
+8   0x00000f80 0x62e81980 GLOBAL FUNC 0              compress2
+9   0x00001070 0x62e81a70 GLOBAL FUNC 0              compress
+10  0x00001080 0x62e81a80 GLOBAL FUNC 0              compressBound
+11  0x000010a0 0x62e81aa0 GLOBAL FUNC 0              crc32_combine_
+12  0x00001230 0x62e81c30 GLOBAL FUNC 0              get_crc_table
+13  0x00001240 0x62e81c40 GLOBAL FUNC 0              crc32
+14  0x00001550 0x62e81f50 GLOBAL FUNC 0              crc32_combine
+15  0x00001560 0x62e81f60 GLOBAL FUNC 0              crc32_combine64
+16  0x00001570 0x62e81f70 GLOBAL FUNC 0              longest_match
+17  0x000017f0 0x62e821f0 GLOBAL FUNC 0              flush_pending
+18  0x00001870 0x62e82270 GLOBAL FUNC 0              fill_window
+19  0x00001b50 0x62e82550 GLOBAL FUNC 0              deflate_slow
+20  0x00002160 0x62e82b60 GLOBAL FUNC 0              deflate_fast
+21  0x000025f0 0x62e82ff0 GLOBAL FUNC 0              deflate_stored
+22  0x000028d0 0x62e832d0 GLOBAL FUNC 0              deflateSetDictionary
+23  0x00002a30 0x62e83430 GLOBAL FUNC 0              deflateReset
+24  0x00002bb0 0x62e835b0 GLOBAL FUNC 0              deflateSetHeader
+25  0x00002be0 0x62e835e0 GLOBAL FUNC 0              deflatePrime
+26  0x00002c30 0x62e83630 GLOBAL FUNC 0              deflateTune
+27  0x00002c80 0x62e83680 GLOBAL FUNC 0              deflateBound
+28  0x00002d90 0x62e83790 GLOBAL FUNC 0              deflate
+29  0x00003e80 0x62e84880 GLOBAL FUNC 0              deflateParams
+30  0x00003f90 0x62e84990 GLOBAL FUNC 0              deflateEnd
+31  0x000040a0 0x62e84aa0 GLOBAL FUNC 0              deflateInit2_
+32  0x000043b0 0x62e84db0 GLOBAL FUNC 0              deflateInit2_.clone.1
+33  0x00004610 0x62e85010 GLOBAL FUNC 0              deflateInit_
+34  0x00004620 0x62e85020 GLOBAL FUNC 0              deflateCopy
+35  0x00004880 0x62e85280 GLOBAL FUNC 0              gzclose
+36  0x000048c0 0x62e852c0 GLOBAL FUNC 0              gz_error.clone.0
+37  0x00004900 0x62e85300 GLOBAL FUNC 0              gz_open
+38  0x00004b40 0x62e85540 GLOBAL FUNC 0              gzopen
+39  0x00004b60 0x62e85560 GLOBAL FUNC 0              gzopen64
+40  0x00004b80 0x62e85580 GLOBAL FUNC 0              gzdopen
+41  0x00004c00 0x62e85600 GLOBAL FUNC 0              gzbuffer
+42  0x00004c50 0x62e85650 GLOBAL FUNC 0              gzrewind
+43  0x00004cf0 0x62e856f0 GLOBAL FUNC 0              gzseek64
+44  0x00004e70 0x62e85870 GLOBAL FUNC 0              gzseek
+45  0x00004ea0 0x62e858a0 GLOBAL FUNC 0              gztell64
+46  0x00004ef0 0x62e858f0 GLOBAL FUNC 0              gztell
+47  0x00004f10 0x62e85910 GLOBAL FUNC 0              gzoffset64
+48  0x00004f70 0x62e85970 GLOBAL FUNC 0              gzoffset
+49  0x00004f90 0x62e85990 GLOBAL FUNC 0              gzeof
+50  0x00004ff0 0x62e859f0 GLOBAL FUNC 0              gzerror
+51  0x00005040 0x62e85a40 GLOBAL FUNC 0              gzclearerr
+52  0x00005080 0x62e85a80 GLOBAL FUNC 0              gz_error
+53  0x00005180 0x62e85b80 GLOBAL FUNC 0              gz_load
+54  0x00005200 0x62e85c00 GLOBAL FUNC 0              gz_head
+55  0x00005c70 0x62e86670 GLOBAL FUNC 0              gz_next4
+56  0x00006040 0x62e86a40 GLOBAL FUNC 0              gz_decomp
+57  0x00006270 0x62e86c70 GLOBAL FUNC 0              gz_make
+58  0x00006380 0x62e86d80 GLOBAL FUNC 0              gz_skip
+59  0x000064c0 0x62e86ec0 GLOBAL FUNC 0              gzread
+60  0x000066c0 0x62e870c0 GLOBAL FUNC 0              gzgetc
+61  0x00006730 0x62e87130 GLOBAL FUNC 0              gzungetc
+62  0x00006850 0x62e87250 GLOBAL FUNC 0              gzgets
+63  0x000069c0 0x62e873c0 GLOBAL FUNC 0              gzdirect
+64  0x00006a10 0x62e87410 GLOBAL FUNC 0              gzclose_r
+65  0x00006aa0 0x62e874a0 GLOBAL FUNC 0              gz_init
+66  0x00006bb0 0x62e875b0 GLOBAL FUNC 0              gz_comp
+67  0x00006d80 0x62e87780 GLOBAL FUNC 0              gz_zero
+68  0x00006e20 0x62e87820 GLOBAL FUNC 0              gzwrite
+69  0x00007040 0x62e87a40 GLOBAL FUNC 0              gzputc
+70  0x00007100 0x62e87b00 GLOBAL FUNC 0              gzputs
+71  0x00007160 0x62e87b60 GLOBAL FUNC 0              gzprintf
+72  0x00007300 0x62e87d00 GLOBAL FUNC 0              gzflush
+73  0x00007390 0x62e87d90 GLOBAL FUNC 0              gzsetparams
+74  0x00007460 0x62e87e60 GLOBAL FUNC 0              gzclose_w
+75  0x000075c0 0x62e87fc0 GLOBAL FUNC 0              inflateBackInit_
+76  0x000076c0 0x62e880c0 GLOBAL FUNC 0              inflateBack
+77  0x00008940 0x62e89340 GLOBAL FUNC 0              inflateBackEnd
+78  0x00008990 0x62e89390 GLOBAL FUNC 0              inflate_fast
+79  0x00009300 0x62e89d00 GLOBAL FUNC 0              updatewindow
+80  0x00009480 0x62e89e80 GLOBAL FUNC 0              inflateReset
+81  0x00009540 0x62e89f40 GLOBAL FUNC 0              inflateReset2
+82  0x00009610 0x62e8a010 GLOBAL FUNC 0              inflateInit2_.clone.0
+83  0x00009710 0x62e8a110 GLOBAL FUNC 0              inflateInit2_
+84  0x00009810 0x62e8a210 GLOBAL FUNC 0              inflateInit_
+85  0x00009820 0x62e8a220 GLOBAL FUNC 0              inflatePrime
+86  0x000098a0 0x62e8a2a0 GLOBAL FUNC 0              inflate
+87  0x0000b5d0 0x62e8bfd0 GLOBAL FUNC 0              inflateEnd
+88  0x0000b630 0x62e8c030 GLOBAL FUNC 0              inflateSetDictionary
+89  0x0000b730 0x62e8c130 GLOBAL FUNC 0              inflateGetHeader
+90  0x0000b770 0x62e8c170 GLOBAL FUNC 0              inflateSync
+91  0x0000b980 0x62e8c380 GLOBAL FUNC 0              inflateSyncPoint
+92  0x0000b9b0 0x62e8c3b0 GLOBAL FUNC 0              inflateCopy
+93  0x0000bb40 0x62e8c540 GLOBAL FUNC 0              inflateUndermine
+94  0x0000bb70 0x62e8c570 GLOBAL FUNC 0              inflateMark
+95  0x0000bbd0 0x62e8c5d0 GLOBAL FUNC 0              inflate_table
+96  0x0000c450 0x62e8ce50 GLOBAL FUNC 0              pqdownheap
+97  0x0000c580 0x62e8cf80 GLOBAL FUNC 0              build_tree
+98  0x0000cc40 0x62e8d640 GLOBAL FUNC 0              send_tree
+99  0x0000d310 0x62e8dd10 GLOBAL FUNC 0              compress_block
+100 0x0000d7d0 0x62e8e1d0 GLOBAL FUNC 0              copy_block.clone.0
+101 0x0000d8e0 0x62e8e2e0 GLOBAL FUNC 0              _tr_init
+102 0x0000d9f0 0x62e8e3f0 GLOBAL FUNC 0              _tr_stored_block
+103 0x0000daa0 0x62e8e4a0 GLOBAL FUNC 0              _tr_align
+104 0x0000de50 0x62e8e850 GLOBAL FUNC 0              _tr_flush_block
+105 0x0000e860 0x62e8f260 GLOBAL FUNC 0              _tr_tally
+106 0x0000e910 0x62e8f310 GLOBAL FUNC 0              uncompress
+107 0x0000e9f0 0x62e8f3f0 GLOBAL FUNC 0              zlibVersion
+108 0x0000ea00 0x62e8f400 GLOBAL FUNC 0              zlibCompileFlags
+109 0x0000ea10 0x62e8f410 GLOBAL FUNC 0              zError
+110 0x0000ea30 0x62e8f430 GLOBAL FUNC 0              zcalloc
+111 0x0000ea50 0x62e8f450 GLOBAL FUNC 0              zcfree
+112 0x0000ea60 0x62e8f460 GLOBAL FUNC 0              mingw_onexit
+113 0x0000eb10 0x62e8f510 GLOBAL FUNC 0              atexit
+114 0x0000eb30 0x62e8f530 GLOBAL FUNC 0              __dyn_tls_dtor
+115 0x0000eb60 0x62e8f560 GLOBAL FUNC 0              __dyn_tls_init
+116 0x0000ebd0 0x62e8f5d0 GLOBAL FUNC 0              __tlregdtor
+117 0x0000ebe0 0x62e8f5e0 GLOBAL FUNC 0              _decode_pointer
+118 0x0000ebf0 0x62e8f5f0 GLOBAL FUNC 0              _encode_pointer
+119 0x0000ec00 0x62e8f600 GLOBAL FUNC 0              __report_error
+120 0x0000ec60 0x62e8f660 GLOBAL FUNC 0              __write_memory
+121 0x0000eda0 0x62e8f7a0 GLOBAL FUNC 0              _pei386_runtime_relocator
+122 0x0000f030 0x62e8fa30 GLOBAL FUNC 0              DllMain
+123 0x0000f040 0x62e8fa40 GLOBAL FUNC 0              __do_global_dtors
+124 0x0000f0b0 0x62e8fab0 GLOBAL FUNC 0              __do_global_ctors
+125 0x0000f1b0 0x62e8fbb0 GLOBAL FUNC 0              __main
+126 0x0000f1e0 0x62e8fbe0 GLOBAL FUNC 0              DllEntryPoint
+127 0x0000f1f0 0x62e8fbf0 GLOBAL FUNC 0              __security_init_cookie
+128 0x0000f2f0 0x62e8fcf0 GLOBAL FUNC 0              __report_gsfailure
+129 0x0000f3f0 0x62e8fdf0 GLOBAL FUNC 0              __mingw_SEH_error_handler
+130 0x0000f590 0x62e8ff90 GLOBAL FUNC 0              __mingw_init_ehandler
+131 0x0000f6c0 0x62e900c0 GLOBAL FUNC 0              __mingwthr_run_key_dtors
+132 0x0000f780 0x62e90180 GLOBAL FUNC 0              ___w64_mingwthr_add_key_dtor
+133 0x0000f820 0x62e90220 GLOBAL FUNC 0              ___w64_mingwthr_remove_key_dtor
+134 0x0000f8c0 0x62e902c0 GLOBAL FUNC 0              __mingw_TLScallback
+135 0x0000f940 0x62e90340 GLOBAL FUNC 0              _fpreset
+136 0x0000f940 0x62e90340 GLOBAL FUNC 0              fpreset
+137 0x0000f950 0x62e90350 GLOBAL FUNC 0              _ValidateImageBase
+138 0x0000f990 0x62e90390 GLOBAL FUNC 0              _FindPESection
+139 0x0000f9f0 0x62e903f0 GLOBAL FUNC 0              _FindPESectionByName
+140 0x0000fab0 0x62e904b0 GLOBAL FUNC 0              _FindPESectionExec
+141 0x0000fb30 0x62e90530 GLOBAL FUNC 0              _GetPEImageBase
+142 0x0000fb70 0x62e90570 GLOBAL FUNC 0              _IsNonwritableInCurrentImage
+143 0x0000fbf0 0x62e905f0 GLOBAL FUNC 0              __mingwthr_remove_key_dtor
+144 0x0000fc00 0x62e90600 GLOBAL FUNC 0              __mingwthr_key_dtor
+145 0x0000fc50 0x62e90650 GLOBAL FUNC 0              strcpy
+146 0x0000fc80 0x62e90680 GLOBAL FUNC 0              strerror
+147 0x0000fca0 0x62e906a0 GLOBAL FUNC 0              _lock
+148 0x0000fcc0 0x62e906c0 GLOBAL FUNC 0              __iob_func
+149 0x0000fc40 0x62e90640 GLOBAL FUNC 0              memcpy
+150 0x0000fc20 0x62e90620 GLOBAL FUNC 0              malloc
+151 0x0000fd78 0x62e90778 GLOBAL FUNC 0              RtlLookupFunctionEntry
+152 0x0000fcd0 0x62e906d0 GLOBAL FUNC 0              abort
+153 0x0000fce0 0x62e906e0 GLOBAL FUNC 0              calloc
+154 0x0000fbe8 0x62e905e8 GLOBAL FUNC 0              write
+155 0x0000fc70 0x62e90670 GLOBAL FUNC 0              strcat
+156 0x0000fc88 0x62e90688 GLOBAL FUNC 0              memchr
+157 0x0000fcd8 0x62e906d8 GLOBAL FUNC 0              signal
+158 0x0000fbd8 0x62e905d8 GLOBAL FUNC 0              read
+159 0x0000fce8 0x62e906e8 GLOBAL FUNC 0              strncmp
+160 0x0000fc58 0x62e90658 GLOBAL FUNC 0              _lseeki64
+161 0x0000fc48 0x62e90648 GLOBAL FUNC 0              memset
+162 0x0000fd80 0x62e90780 GLOBAL FUNC 0              RtlVirtualUnwind
+163 0x0000fc60 0x62e90660 GLOBAL FUNC 0              sprintf
+164 0x0000fc28 0x62e90628 GLOBAL FUNC 0              _amsg_exit
+165 0x0000fc30 0x62e90630 GLOBAL FUNC 0              _initterm
+166 0x0000fcb8 0x62e906b8 GLOBAL FUNC 0              fwrite
+167 0x0000fc68 0x62e90668 GLOBAL FUNC 0              strlen
+168 0x0000fbd0 0x62e905d0 GLOBAL FUNC 0              open
+169 0x0000fca8 0x62e906a8 GLOBAL FUNC 0              __dllonexit
+170 0x0000fcb0 0x62e906b0 GLOBAL FUNC 0              _unlock
+171 0x0000fbe0 0x62e905e0 GLOBAL FUNC 0              close
+172 0x0000fcc8 0x62e906c8 GLOBAL FUNC 0              vfprintf
+173 0x0000fc38 0x62e90638 GLOBAL FUNC 0              free

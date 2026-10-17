@@ -1,0 +1,12 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib       name                                      demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x004916f0 0x1404922f0 GLOBAL FUNC 0    DRWUI.exe ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x004916e0 0x1404922e0 GLOBAL FUNC 0    DRWUI.exe ??0IObject@@QEAA@AEBU0@@Z
+3   0x004916d0 0x1404922d0 GLOBAL FUNC 0    DRWUI.exe ??0IObject@@QEAA@XZ
+4   0x00491710 0x140492310 GLOBAL FUNC 0    DRWUI.exe ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+5   0x00491700 0x140492300 GLOBAL FUNC 0    DRWUI.exe ??4IObject@@QEAAAEAU0@AEBU0@@Z
+6   0x0188b1a8 0x14188c7a8 GLOBAL FUNC 0    DRWUI.exe ??_7IObject@@6B@
+7   0x004916c0 0x1404922c0 GLOBAL FUNC 0    DRWUI.exe ?AddRef@IObject@@QEBAKXZ
+8   0x004916a0 0x1404922a0 GLOBAL FUNC 0    DRWUI.exe ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+9   0x004916b0 0x1404922b0 GLOBAL FUNC 0    DRWUI.exe ?Release@IObject@@QEBAKXZ

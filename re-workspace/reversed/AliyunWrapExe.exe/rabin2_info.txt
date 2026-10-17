@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x140000000
+binsz    224272
+bintype  pe
+bits     64
+canary   true
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x00043042
+compiled Mon Nov 12 00:45:06 2040
+crypto   false
+dbg_file H:\AWork\UserInfoCollect\x64\Release\AliyunWrapExe.pdb
+endian   little
+havecode true
+hdr.csum 0x00043042
+guid     817B77BD783A495A980882711AEE8D701
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

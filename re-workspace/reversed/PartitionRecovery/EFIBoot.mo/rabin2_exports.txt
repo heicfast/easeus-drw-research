@@ -1,0 +1,13 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib        name                                      demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000430 0x180001030 GLOBAL FUNC 0    EFIBoot.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00000430 0x180001030 GLOBAL FUNC 0    EFIBoot.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x00000430 0x180001030 GLOBAL FUNC 0    EFIBoot.mo ??0IObject@@QEAA@XZ
+4   0x00000440 0x180001040 GLOBAL FUNC 0    EFIBoot.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+5   0x00000440 0x180001040 GLOBAL FUNC 0    EFIBoot.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+6   0x00006c50 0x180008450 GLOBAL FUNC 0    EFIBoot.mo ??_7IObject@@6B@
+7   0x00000420 0x180001020 GLOBAL FUNC 0    EFIBoot.mo ?AddRef@IObject@@QEBAKXZ
+8   0x00000400 0x180001000 GLOBAL FUNC 0    EFIBoot.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+9   0x00000410 0x180001010 GLOBAL FUNC 0    EFIBoot.mo ?Release@IObject@@QEBAKXZ
+10  0x00001290 0x180001e90 GLOBAL FUNC 0    EFIBoot.mo GetModule

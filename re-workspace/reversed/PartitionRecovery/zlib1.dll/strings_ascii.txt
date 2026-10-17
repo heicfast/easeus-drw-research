@@ -1,0 +1,2682 @@
+!This program cannot be run in DOS mode.
+P`.data
+.rdata
+`@.bss
+.edata
+0@.idata
+.reloc
+@B/102
+ffffff.
+ATUWVL
+ [^_]A\
+[^_]A\
+[^_]A\
+ffffff.
+fffff.
+fffff.
+ffffff.
+AWAVE1
+AUATUWVSH
+H+l$HH
+X[^_]A\A]A^A_
+[^_]A\
+AWAVAUATUWVSH
+8[^_]A\A]A^A_
+([^_]A\A]
+ffffff.
+ffffff.
+ffffff.
+|$`u5H
+ffffff.
+ffffff.
+fffff.
+fffff.
+[^_]A\
+[^_]A\
+[^_]A\
+[^_]A\
+ [^_]A\
+[^_]A\
+t$`u(H
+C0H;C(t]H
+|$pu91
+fffff.
+9yXtED
+E,D9D$D
+U,9U0L
+D+D$DH
+MPtnA9
+fffff.
+AVAUATUWVSH
+[^_]A\A]A^A_
+D+t$x;l$xD
+D$xH;l$h@
+D+T$<D;|$<H
+D;t$xr
+7H;|$xu
+ffffff.
+fffff.
+ffffff.
+D9\$Pt
+d$HD)MHD
+MH;H8s
+MH;H(s
+D)MHE)
+D+D$HH
+D;L$HI
+ffffff.
+AVAUATUWV
+D$pt!A
+[^_]A\A]A^A_
+D$^tGL
+AVAUATUWVSH
+[^_]A\A]A^A_
+AUATUWVSH
+T$$+T$(
+X[^_]A\A]A^A_
+T$$+T$(
+fffff.
+AVAUATUWVSH
+[^_]A\A]A^A_
+AUATUWVS
+[^_]A\A]
+ffffff.
+AUATUD
+([^_]A\A]
+d$Pt'H
+fffff.
+fffff.
+ffffff.
+@' t	H
+Qkkbal
+[-&LMb#{'
+w+OQvr
+)\ZEo^m/
+H*0"ZOW
+l!;b	F
+mj>zjZ
+IiGM>nw
+ewh/?y
+OZw3(?
+V_:X1:
+ deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
+<fd:%d>
+out of memory
+out of memory
+unknown compression method
+unknown header flags set
+compressed data error
+unexpected end of file
+internal error: inflate stream corrupt
+incorrect data check
+incorrect length check
+requested length does not fit in int
+out of room to push characters
+out of memory
+internal error: deflate stream corrupt
+requested length does not fit in int
+invalid block type
+invalid stored block lengths
+too many length or distance symbols
+invalid code lengths set
+invalid bit length repeat
+invalid code -- missing end-of-block
+invalid literal/lengths set
+invalid distances set
+invalid literal/length code
+invalid distance code
+invalid distance too far back
+invalid distance too far back
+invalid distance code
+invalid literal/length code
+incorrect header check
+unknown compression method
+invalid window size
+unknown header flags set
+header crc mismatch
+invalid block type
+invalid stored block lengths
+too many length or distance symbols
+invalid code lengths set
+invalid bit length repeat
+invalid code -- missing end-of-block
+invalid literal/lengths set
+invalid distances set
+invalid literal/length code
+invalid distance code
+invalid distance too far back
+incorrect data check
+incorrect length check
+ inflate 1.2.5 Copyright 1995-2010 Mark Adler 
+								
+need dictionary
+stream end
+file error
+stream error
+data error
+insufficient memory
+buffer error
+incompatible version
+Mingw-w64 runtime failure:
+  VirtualQuery failed for %d bytes at address %p
+  Unknown pseudo relocation protocol version %d.
+  Unknown pseudo relocation bit size %d.
+msvcr80.dll
+msvcr70.dll
+msvcrt.dll
+longjmp
+.pdata
+zlib1.dll
+adler32
+adler32_combine
+adler32_combine64
+compress
+compress2
+compressBound
+crc32_combine
+crc32_combine64
+deflate
+deflateBound
+deflateCopy
+deflateEnd
+deflateInit2_
+deflateInit_
+deflateParams
+deflatePrime
+deflateReset
+deflateSetDictionary
+deflateSetHeader
+deflateTune
+get_crc_table
+gzbuffer
+gzclearerr
+gzclose
+gzclose_r
+gzclose_w
+gzdirect
+gzdopen
+gzerror
+gzflush
+gzgetc
+gzgets
+gzoffset
+gzoffset64
+gzopen
+gzopen64
+gzprintf
+gzputc
+gzputs
+gzread
+gzrewind
+gzseek
+gzseek64
+gzsetparams
+gztell
+gztell64
+gzungetc
+gzwrite
+inflate
+inflateBack
+inflateBackEnd
+inflateBackInit_
+inflateCopy
+inflateEnd
+inflateGetHeader
+inflateInit2_
+inflateInit_
+inflateMark
+inflatePrime
+inflateReset
+inflateReset2
+inflateSetDictionary
+inflateSync
+inflateSyncPoint
+inflateUndermine
+uncompress
+zError
+zlibCompileFlags
+zlibVersion
+DeleteCriticalSection
+EnterCriticalSection
+FreeLibrary
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetLastError
+GetModuleHandleA
+GetProcAddress
+GetSystemTimeAsFileTime
+GetTickCount
+InitializeCriticalSection
+LeaveCriticalSection
+LoadLibraryA
+QueryPerformanceCounter
+RtlAddFunctionTable
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+SetUnhandledExceptionFilter
+TerminateProcess
+TlsGetValue
+UnhandledExceptionFilter
+VirtualProtect
+VirtualQuery
+_close
+_write
+__dllonexit
+__iob_func
+_amsg_exit
+_errno
+_initterm
+_lseeki64
+_onexit
+_unlock
+_vsnprintf
+calloc
+fwrite
+malloc
+memchr
+memcpy
+memset
+signal
+sprintf
+strcat
+strcpy
+strerror
+strlen
+strncmp
+vfprintf
+KERNEL32.dll
+msvcrt.dll
+msvcrt.dll
+_CRT_INIT
+DllMainCRTStartup
+pcinit
+mingw_onexit
+atexit
+__onexitbegin
+__onexitend
+__native_startup_state
+__native_startup_lock
+__native_dllmain_reason
+__native_vcclrit_reason
+__xi_a
+__xi_z
+__xc_a
+__xc_z
+__dyn_tls_init
+__tlregdtor
+_tls_index
+_tls_start
+_tls_end
+__xl_a
+__xl_z
+_tls_used
+__dyn_tls_init_callback
+__xl_c
+__xl_d
+mingw_initltsdrot_force
+mingw_initltsdyn_force
+mingw_initltssuo_force
+_decode_pointer
+_encode_pointer
+mingw_app_type
+_pei386_runtime_relocator
+DllMain
+__do_global_dtors
+__do_global_ctors
+__main
+fctMsvcrtLongJmp
+DllEntryPoint
+__security_init_cookie
+__report_gsfailure
+__security_cookie
+__security_cookie_complement
+__mingw_SEH_error_handler
+__mingw_init_ehandler
+___w64_mingwthr_add_key_dtor
+___w64_mingwthr_remove_key_dtor
+__mingw_TLScallback
+__RUNTIME_PSEUDO_RELOC_LIST_END__
+__RUNTIME_PSEUDO_RELOC_LIST__
+_fpreset
+_ValidateImageBase
+_FindPESection
+_FindPESectionByName
+_FindPESectionExec
+_GetPEImageBase
+_IsNonwritableInCurrentImage
+__CTOR_LIST__
+__DTOR_LIST__
+__mingwthr_remove_key_dtor
+__mingwthr_key_dtor
+_CRT_MT
+WINBOOL
+LPVOID
+LONG_PTR
+DWORD64
+HANDLE
+_NT_TIB
+NT_TIB
+PNT_TIB
+PIMAGE_TLS_CALLBACK
+VARENUM
+__enative_startup_state
+__enative_startup_state
+_onexit_t
+VARENUM
+VARENUM
+__enative_startup_state
+__enative_startup_state
+VARENUM
+WINBOOL
+LPVOID
+HANDLE
+ULONGLONG
+PIMAGE_TLS_CALLBACK
+_IMAGE_TLS_DIRECTORY64
+IMAGE_TLS_DIRECTORY64
+VARENUM
+VARENUM
+__gnuc_va_list
+va_list
+size_t
+ptrdiff_t
+ULONG_PTR
+SIZE_T
+_MEMORY_BASIC_INFORMATION
+MEMORY_BASIC_INFORMATION
+runtime_pseudo_reloc_item_v1
+runtime_pseudo_reloc_item_v2
+runtime_pseudo_reloc_v2
+WINBOOL
+LPVOID
+HANDLE
+ptrdiff_t
+_SETJMP_FLOAT128
+SETJMP_FLOAT128
+_JBTYPE
+HINSTANCE__
+HINSTANCE
+HMODULE
+VARENUM
+func_ptr
+flongjmp
+WINBOOL
+LPVOID
+HANDLE
+UINT_PTR
+ULONG_PTR
+ULONG64
+DWORD64
+LONGLONG
+ULONGLONG
+_LARGE_INTEGER
+LARGE_INTEGER
+_M128A
+_XMM_SAVE_AREA32
+XMM_SAVE_AREA32
+_CONTEXT
+CONTEXT
+PCONTEXT
+_RUNTIME_FUNCTION
+PRUNTIME_FUNCTION
+_EXCEPTION_RECORD
+EXCEPTION_RECORD
+PEXCEPTION_RECORD
+_EXCEPTION_POINTERS
+EXCEPTION_POINTERS
+_FILETIME
+FILETIME
+VARENUM
+NTSTATUS
+size_t
+LPBYTE
+ULONG_PTR
+DWORD64
+LONGLONG
+ULONGLONG
+_M128A
+_XMM_SAVE_AREA32
+XMM_SAVE_AREA32
+_CONTEXT
+_RUNTIME_FUNCTION
+RUNTIME_FUNCTION
+_EXCEPTION_RECORD
+_IMAGE_SECTION_HEADER
+PIMAGE_SECTION_HEADER
+VARENUM
+__p_sig_fn_t
+_UNWIND_INFO
+UNWIND_INFO
+WINBOOL
+LPVOID
+ULONG_PTR
+HANDLE
+_LIST_ENTRY
+LIST_ENTRY
+_RTL_CRITICAL_SECTION_DEBUG
+PRTL_CRITICAL_SECTION_DEBUG
+_RTL_CRITICAL_SECTION
+RTL_CRITICAL_SECTION
+CRITICAL_SECTION
+__mingwthr_key_t
+__mingwthr_key
+size_t
+WINBOOL
+LONG_PTR
+ULONG_PTR
+DWORD_PTR
+ULONGLONG
+_IMAGE_DOS_HEADER
+IMAGE_DOS_HEADER
+PIMAGE_DOS_HEADER
+_IMAGE_FILE_HEADER
+IMAGE_FILE_HEADER
+_IMAGE_DATA_DIRECTORY
+IMAGE_DATA_DIRECTORY
+_IMAGE_OPTIONAL_HEADER64
+IMAGE_OPTIONAL_HEADER64
+PIMAGE_OPTIONAL_HEADER64
+PIMAGE_OPTIONAL_HEADER
+_IMAGE_NT_HEADERS64
+IMAGE_NT_HEADERS64
+PIMAGE_NT_HEADERS64
+IMAGE_NT_HEADERS
+PIMAGE_NT_HEADERS
+_IMAGE_SECTION_HEADER
+PIMAGE_SECTION_HEADER
+ix86_tune_indices
+ix86_arch_indices
+VARENUM
+func_ptr
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/crtdll.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+WINBOOL
+LPVOID
+signed char
+short int
+LONG_PTR
+DWORD64
+HANDLE
+double
+long double
+	FiberData
+	Version
+_NT_TIB
+ExceptionList
+StackBase
+StackLimit
+SubSystemTib
+ArbitraryUserPointer
+_EXCEPTION_REGISTRATION_RECORD
+NT_TIB
+PNT_TIB
+PIMAGE_TLS_CALLBACK
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+__uninitialized
+__initializing
+__initialized
+__readgsqword
+Offset
+NtCurrentTeb
+_InterlockedCompareExchangePointer
+Destination
+ExChange
+Comperand
+_InterlockedExchangePointer
+Target
+pre_c_init
+_CRT_INIT
+$onexitend
+$fiberid
+$nested
+__DllMainCRTStartup
+$retcode
++i__leave
+DllMainCRTStartup
+0__xi_a
+0__xi_z
+0__xc_a
+0__xc_z
+2__proc_attached
+0__xi_a
+0__xi_z
+0__xc_a
+0__xc_z
+3pcinit
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/atonexit.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+signed char
+short int
+_onexit_t
+double
+long double
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+mingw_onexit
+onexitbegin
+onexitend
+retval
+atexit
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/natstart.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+signed char
+short int
+double
+long double
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+__uninitialized
+__initializing
+__initialized
+__native_startup_state
+__native_startup_lock
+__native_dllmain_reason
+__native_vcclrit_reason
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/cinitexe.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+signed char
+short int
+double
+long double
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+__xi_a
+__xi_z
+__xc_a
+__xc_z
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/tlssup.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+WINBOOL
+LPVOID
+signed char
+short int
+HANDLE
+ULONGLONG
+double
+long double
+PIMAGE_TLS_CALLBACK
+_IMAGE_TLS_DIRECTORY64
+StartAddressOfRawData
+EndAddressOfRawData
+AddressOfIndex
+AddressOfCallBacks
+SizeOfZeroFill
+Characteristics
+IMAGE_TLS_DIRECTORY64
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+__dyn_tls_dtor
+__dyn_tls_init
+__tlregdtor
+__xl_a
+__xd_a
+__xd_z
+_CRT_MT
+__xl_a
+__xl_z
+_tls_used
+_CRT_MT
+__dyn_tls_init_callback
+__xl_c
+__xl_d
+mingw_initltsdrot_force
+mingw_initltsdyn_force
+mingw_initltssuo_force
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/mingw_helpers.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+signed char
+short int
+double
+long double
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+_decode_pointer
+codedptr
+_encode_pointer
+mingw_app_type
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/pseudo-reloc.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+__gnuc_va_list
+__builtin_va_list
+va_list
+size_t
+long long int
+ptrdiff_t
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+signed char
+short int
+ULONG_PTR
+SIZE_T
+double
+long double
+	_MEMORY_BASIC_INFORMATION
+BaseAddress
+AllocationBase
+AllocationProtect
+RegionSize
+Protect
+MEMORY_BASIC_INFORMATION
+addend
+target
+runtime_pseudo_reloc_item_v1
+target
+runtime_pseudo_reloc_item_v2
+magic1
+magic2
+version
+runtime_pseudo_reloc_v2
+do_pseudo_reloc
+addr_imp
+reldata
+reloc_target
+v2_hdr
+newval
+__report_error
+__write_memory
+oldprot
+_pei386_runtime_relocator
+was_init
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/dllmain.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+WINBOOL
+LPVOID
+signed char
+short int
+HANDLE
+double
+long double
+DllMain
+hDllHandle
+dwReason
+lpreserved
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/gccmain.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+ptrdiff_t
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+signed char
+short int
+_SETJMP_FLOAT128
+SETJMP_FLOAT128
+_JBTYPE
+double
+long double
+HINSTANCE__
+unused
+HINSTANCE
+HMODULE
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+func_ptr
+flongjmp
+__do_global_dtors
+__do_global_ctors
+__main
+hMsvcrt
+free_Msvcrt
+initialized
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/dllentry.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+WINBOOL
+LPVOID
+signed char
+short int
+HANDLE
+double
+long double
+DllEntryPoint
+hDllHandle
+dwReason
+lpreserved
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/gs_support.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+_EXCEPTION_RECORD
+ExceptionCode
+ExceptionFlags
+ExceptionAddress
+NumberParameters
+ExceptionInformation
+_CONTEXT
+P1Home
+P2Home
+P3Home
+P4Home
+P5Home
+P6Home
+ContextFlags
+EFlags
+VectorRegister
+VectorControl
+DebugControl
+LastBranchToRip
+LastBranchFromRip
+LastExceptionToRip
+LastExceptionFromRip
+signed char
+short int
+UINT_PTR
+ULONG_PTR
+ULONG64
+DWORD64
+LONGLONG
+ULONGLONG
+LowPart
+LowPart
+_LARGE_INTEGER
+QuadPart
+LARGE_INTEGER
+double
+long double
+_M128A
+_XMM_SAVE_AREA32
+ControlWord
+StatusWord
+TagWord
+Reserved1
+ErrorOpcode
+ErrorOffset
+ErrorSelector
+Reserved2
+DataOffset
+DataSelector
+Reserved3
+MxCsr_Mask
+FloatRegisters
+XmmRegisters
+Reserved4
+XMM_SAVE_AREA32
+Header
+Legacy
+FltSave
+FloatSave
+CONTEXT
+PCONTEXT
+_RUNTIME_FUNCTION
+BeginAddress
+EndAddress
+UnwindData
+PRUNTIME_FUNCTION
+EXCEPTION_RECORD
+PEXCEPTION_RECORD
+_EXCEPTION_POINTERS
+ContextRecord
+EXCEPTION_POINTERS
+_FILETIME
+dwLowDateTime
+dwHighDateTime
+FILETIME
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+NTSTATUS
+ft_scalar
+ft_struct
+__security_init_cookie
+cookie
+systime
+perfctr
+__report_gsfailure
+StackCookie
+cookie
+controlPC
+imgBase
+establisherFrame
+fctEntry
+hndData
+GS_ExceptionRecord
+GS_ContextRecord
+GS_ExceptionPointers
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/crt_handler.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+size_t
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+_EXCEPTION_RECORD
+ExceptionCode
+ExceptionFlags
+ExceptionAddress
+NumberParameters
+ExceptionInformation
+_CONTEXT
+P1Home
+P2Home
+P3Home
+P4Home
+P5Home
+P6Home
+ContextFlags
+EFlags
+VectorRegister
+VectorControl
+DebugControl
+LastBranchToRip
+LastBranchFromRip
+LastExceptionToRip
+LastExceptionFromRip
+LPBYTE
+signed char
+short int
+ULONG_PTR
+DWORD64
+LONGLONG
+ULONGLONG
+double
+long double
+_M128A
+_XMM_SAVE_AREA32
+ControlWord
+StatusWord
+TagWord
+Reserved1
+ErrorOpcode
+ErrorOffset
+ErrorSelector
+Reserved2
+DataOffset
+DataSelector
+Reserved3
+MxCsr_Mask
+FloatRegisters
+XmmRegisters
+Reserved4
+XMM_SAVE_AREA32
+Header
+Legacy
+FltSave
+FloatSave
+_RUNTIME_FUNCTION
+BeginAddress
+EndAddress
+UnwindData
+RUNTIME_FUNCTION
+PhysicalAddress
+VirtualSize
+_IMAGE_SECTION_HEADER
+VirtualAddress
+SizeOfRawData
+PointerToRawData
+PointerToRelocations
+PointerToLinenumbers
+NumberOfRelocations
+NumberOfLinenumbers
+Characteristics
+PIMAGE_SECTION_HEADER
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+__p_sig_fn_t
+_UNWIND_INFO
+VersionAndFlags
+PrologSize
+CountOfUnwindCodes
+FrameRegisterAndOffset
+AddressOfExceptionHandler
+UNWIND_INFO
+__mingw_SEH_error_handler
+EstablisherFrame
+ContextRecord
+DispatcherContext
+action
+old_handler
+reset_fpu
+__mingw_init_ehandler
+was_here
+_ImageBase
+emu_pdata
+emu_xdata
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/libsrc/dummy_mingwthrd.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+WINBOOL
+LPVOID
+signed char
+short int
+ULONG_PTR
+HANDLE
+_LIST_ENTRY
+LIST_ENTRY
+double
+long double
+_RTL_CRITICAL_SECTION_DEBUG
+CreatorBackTraceIndex
+CriticalSection
+ProcessLocksList
+EntryCount
+ContentionCount
+_RTL_CRITICAL_SECTION
+DebugInfo
+LockCount
+RecursionCount
+OwningThread
+LockSemaphore
+SpinCount
+PRTL_CRITICAL_SECTION_DEBUG
+RTL_CRITICAL_SECTION
+CRITICAL_SECTION
+__mingwthr_key_t
+__mingwthr_key
+__mingwthr_run_key_dtors
+___w64_mingwthr_add_key_dtor
+new_key
+___w64_mingwthr_remove_key_dtor
+prev_key
+cur_key
+__mingw_TLScallback
+hDllHandle
+reason
+reserved
+__mingwthr_cs
+__mingwthr_cs_init
+key_dtor_list
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/pseudo-reloc-list.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__RUNTIME_PSEUDO_RELOC_LIST_END__
+__RUNTIME_PSEUDO_RELOC_LIST__
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/CRT_fp10.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+_fpreset
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/crt/pesect.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+size_t
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+WINBOOL
+signed char
+short int
+LONG_PTR
+ULONG_PTR
+DWORD_PTR
+ULONGLONG
+double
+long double
+_IMAGE_DOS_HEADER
+	e_magic
+	e_cblp
+	e_crlc
+	e_cparhdr
+	e_minalloc
+	e_maxalloc
+	e_csum
+	e_lfarlc
+	e_ovno
+	e_res
+	e_oemid
+#$	e_oeminfo
+#&	e_res2
+#(	e_lfanew
+IMAGE_DOS_HEADER
+PIMAGE_DOS_HEADER
+_IMAGE_FILE_HEADER
+	Machine
+	NumberOfSections
+	TimeDateStamp
+	PointerToSymbolTable
+	NumberOfSymbols
+	SizeOfOptionalHeader
+IMAGE_FILE_HEADER
+_IMAGE_DATA_DIRECTORY
+IMAGE_DATA_DIRECTORY
+_IMAGE_OPTIONAL_HEADER64
+	Magic
+	MajorLinkerVersion
+	MinorLinkerVersion
+	SizeOfCode
+	SizeOfInitializedData
+	SizeOfUninitializedData
+	AddressOfEntryPoint
+	BaseOfCode
+	ImageBase
+	SectionAlignment
+# 	FileAlignment
+#$	MajorOperatingSystemVersion
+#(	MinorOperatingSystemVersion
+#*	MajorImageVersion
+#,	MinorImageVersion
+#.	MajorSubsystemVersion
+#0	MinorSubsystemVersion
+#2	Win32VersionValue
+#4	SizeOfImage
+#8	SizeOfHeaders
+#<	CheckSum
+#@	Subsystem
+#D	DllCharacteristics
+#F	SizeOfStackReserve
+#H	SizeOfStackCommit
+#P	SizeOfHeapReserve
+#X	SizeOfHeapCommit
+#`	LoaderFlags
+#h	NumberOfRvaAndSizes
+#l	DataDirectory
+IMAGE_OPTIONAL_HEADER64
+PIMAGE_OPTIONAL_HEADER64
+PIMAGE_OPTIONAL_HEADER
+_IMAGE_NT_HEADERS64
+	Signature
+	FileHeader
+	OptionalHeader
+IMAGE_NT_HEADERS64
+PIMAGE_NT_HEADERS64
+IMAGE_NT_HEADERS
+PIMAGE_NT_HEADERS
+PhysicalAddress
+VirtualSize
+_IMAGE_SECTION_HEADER
+	SizeOfRawData
+	PointerToRawData
+	PointerToRelocations
+	PointerToLinenumbers
+	NumberOfRelocations
+# 	NumberOfLinenumbers
+PIMAGE_SECTION_HEADER
+_ValidateImageBase
+pDOSHeader
+pOptHeader
+_FindPESection
+_FindPESectionByName
+_FindPESectionExec
+_GetPEImageBase
+_IsNonwritableInCurrentImage
+pTarget
+rvaTarget
+GNU C 4.5.1 20100702 (prerelease)
+../../../../../build/gcc/gcc/libgcc/../gcc/libgcc2.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\gcc\obj\x86_64-w64-mingw32\libgcc
+long long int
+long long unsigned int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+double
+long double
+short int
+ix86_tune_indices
+X86_TUNE_USE_LEAVE
+X86_TUNE_PUSH_MEMORY
+X86_TUNE_ZERO_EXTEND_WITH_AND
+X86_TUNE_UNROLL_STRLEN
+X86_TUNE_DEEP_BRANCH_PREDICTION
+X86_TUNE_BRANCH_PREDICTION_HINTS
+X86_TUNE_DOUBLE_WITH_ADD
+X86_TUNE_USE_SAHF
+X86_TUNE_MOVX
+X86_TUNE_PARTIAL_REG_STALL
+X86_TUNE_PARTIAL_FLAG_REG_STALL
+X86_TUNE_USE_HIMODE_FIOP
+X86_TUNE_USE_SIMODE_FIOP
+X86_TUNE_USE_MOV0
+X86_TUNE_USE_CLTD
+X86_TUNE_USE_XCHGB
+X86_TUNE_SPLIT_LONG_MOVES
+X86_TUNE_READ_MODIFY_WRITE
+X86_TUNE_READ_MODIFY
+X86_TUNE_PROMOTE_QIMODE
+X86_TUNE_FAST_PREFIX
+X86_TUNE_SINGLE_STRINGOP
+X86_TUNE_QIMODE_MATH
+X86_TUNE_HIMODE_MATH
+X86_TUNE_PROMOTE_QI_REGS
+X86_TUNE_PROMOTE_HI_REGS
+X86_TUNE_ADD_ESP_4
+X86_TUNE_ADD_ESP_8
+X86_TUNE_SUB_ESP_4
+X86_TUNE_SUB_ESP_8
+X86_TUNE_INTEGER_DFMODE_MOVES
+X86_TUNE_PARTIAL_REG_DEPENDENCY
+X86_TUNE_SSE_PARTIAL_REG_DEPENDENCY
+X86_TUNE_SSE_UNALIGNED_MOVE_OPTIMAL
+X86_TUNE_SSE_SPLIT_REGS
+X86_TUNE_SSE_TYPELESS_STORES
+X86_TUNE_SSE_LOAD0_BY_PXOR
+X86_TUNE_MEMORY_MISMATCH_STALL
+X86_TUNE_PROLOGUE_USING_MOVE
+X86_TUNE_EPILOGUE_USING_MOVE
+X86_TUNE_SHIFT1
+X86_TUNE_USE_FFREEP
+X86_TUNE_INTER_UNIT_MOVES
+X86_TUNE_INTER_UNIT_CONVERSIONS
+X86_TUNE_FOUR_JUMP_LIMIT
+X86_TUNE_SCHEDULE
+X86_TUNE_USE_BT
+X86_TUNE_USE_INCDEC
+X86_TUNE_PAD_RETURNS
+X86_TUNE_EXT_80387_CONSTANTS
+X86_TUNE_SHORTEN_X87_SSE
+X86_TUNE_AVOID_VECTOR_DECODE
+X86_TUNE_PROMOTE_HIMODE_IMUL
+X86_TUNE_SLOW_IMUL_IMM32_MEM
+X86_TUNE_SLOW_IMUL_IMM8
+X86_TUNE_MOVE_M1_VIA_OR
+X86_TUNE_NOT_UNPAIRABLE
+X86_TUNE_NOT_VECTORMODE
+X86_TUNE_USE_VECTOR_FP_CONVERTS
+X86_TUNE_USE_VECTOR_CONVERTS
+X86_TUNE_FUSE_CMP_AND_BRANCH
+X86_TUNE_OPT_AGU
+X86_TUNE_LAST
+ix86_arch_indices
+X86_ARCH_CMOVE
+X86_ARCH_CMPXCHG
+X86_ARCH_CMPXCHG8B
+X86_ARCH_XADD
+X86_ARCH_BSWAP
+X86_ARCH_LAST
+signed char
+VARENUM
+VT_EMPTY
+VT_NULL
+VT_DATE
+VT_BSTR
+VT_DISPATCH
+VT_ERROR
+VT_BOOL
+VT_VARIANT
+VT_UNKNOWN
+VT_DECIMAL
+VT_UI1
+VT_UI2
+VT_UI4
+VT_UI8
+VT_INT
+VT_UINT
+VT_VOID
+VT_HRESULT
+VT_PTR
+VT_SAFEARRAY
+VT_CARRAY
+VT_USERDEFINED
+VT_LPSTR
+VT_LPWSTR
+VT_RECORD
+VT_INT_PTR
+VT_UINT_PTR
+VT_FILETIME
+VT_BLOB
+VT_STREAM
+VT_STORAGE
+VT_STREAMED_OBJECT
+VT_STORED_OBJECT
+VT_BLOB_OBJECT
+VT_CLSID
+VT_VERSIONED_STREAM
+VT_BSTR_BLOB
+VT_VECTOR
+VT_ARRAY
+VT_BYREF
+VT_RESERVED
+VT_ILLEGAL
+VT_ILLEGALMASKED
+VT_TYPEMASK
+complex float
+complex double
+complex long double
+__float128
+	func_ptr
+__CTOR_LIST__
+__DTOR_LIST__
+GNU C 4.5.1 20100702 (prerelease)
+../../../build/mingw/mingw-w64-crt/libsrc/mingwthrd_nomt.c
+c:\bb\vista64-mingw32\mingw-x86-x86_64\build\build\mingw\obj
+__unknown__
+long long unsigned int
+long long int
+short unsigned int
+long int
+unsigned int
+long unsigned int
+unsigned char
+signed char
+short int
+double
+long double
+__mingwthr_remove_key_dtor
+__mingwthr_key_dtor
+_CRT_MT
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+../../../build/mingw/mingw-w64-crt/include
+crtdll.c
+winnt.h
+windef.h
+basetsd.h
+internal.h
+process.h
+wtypes.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+../../../build/mingw/mingw-w64-crt/include
+atonexit.c
+stdlib.h
+internal.h
+wtypes.h
+ZZV>YWuYWuZ
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+../../../build/mingw/mingw-w64-crt/include
+natstart.c
+wtypes.h
+internal.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+../../../build/mingw/mingw-w64-crt/include
+cinitexe.c
+wtypes.h
+internal.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+../../../build/mingw/mingw-w64-crt/include
+tlssup.c
+windef.h
+winnt.h
+internal.h
+wtypes.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+mingw_helpers.c
+wtypes.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+pseudo-reloc.c
+vadefs.h
+_mingw.h
+windef.h
+basetsd.h
+winnt.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+dllmain.c
+windef.h
+winnt.h
+process.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+gccmain.c
+_mingw.h
+setjmp.h
+windef.h
+wtypes.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+dllentry.c
+windef.h
+winnt.h
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+gs_support.c
+winnt.h
+windef.h
+basetsd.h
+wtypes.h
+0hV-1bZ
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+crt_handler.c
+winnt.h
+_mingw.h
+windef.h
+basetsd.h
+signal.h
+wtypes.h
+M@EK/>YI:?
+../../../build/mingw/mingw-w64-crt/libsrc
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+dummy_mingwthrd.c
+windef.h
+basetsd.h
+winnt.h
+winbase.h
+"W^q/LhwrsMg
+../../../build/mingw/mingw-w64-crt/crt
+pseudo-reloc-list.c
+../../../build/mingw/mingw-w64-crt/crt
+CRT_fp10.c
+../../../build/mingw/mingw-w64-crt/crt
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+pesect.c
+_mingw.h
+windef.h
+basetsd.h
+winnt.h
+=;=YZ=IY
+../../../../../build/gcc/gcc/libgcc/../gcc/config/i386
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/x86_64-w64-mingw32/include
+../../../../../build/gcc/gcc/libgcc/../gcc
+i386.h
+wtypes.h
+libgcc2.c
+gbl-ctors.h
+../../../build/mingw/mingw-w64-crt/libsrc
+c:/bb/vista64-mingw32/mingw-x86-x86_64/build/build/root/lib/gcc/../../x86_64-w64-mingw32/include
+mingwthrd_nomt.c
+windef.h
+__native_startup_lock
+onexitbegin
+__onexitend
+__dyn_tls_init_callback
+lock_free
+__enative_startup_state
+hDllHandle
+__native_startup_state
+__native_dllmain_reason
+lpreserved
+mingw_app_type
+__onexitbegin
+dwReason
+__onexitend
+__onexitbegin
+__imp__onexit
+__enative_startup_state
+lpreserved
+_tls_index
+hDllHandle
+_tls_start
+dwReason
+_tls_end
+__RUNTIME_PSEUDO_RELOC_LIST_END__
+__RUNTIME_PSEUDO_RELOC_LIST__
+__image_base__
+__CTOR_LIST__
+__DTOR_LIST__
+fctMsvcrtLongJmp
+HighPart
+__security_cookie
+ExceptionRecord
+__security_cookie_complement
+ExceptionRecord
+Characteristics
+__image_base__
+pSection
+pNTHeader
+pImageBase
+VirtualAddress
+iSection
+__unknown__
+crtdll.c
+crtbegin.c
+adler32.c
+adler32
+compress.c
+compressp
+.rdata
+crc32.c
+.rdata
+deflate.c
+deflate
+.rdata
+gzclose.c
+gzclose
+gzlib.c
+gz_open
+gzopen
+gzopen64`E
+gzdopen
+gzbuffer
+gzrewindPF
+gzseek64
+gzseek
+gztell64
+gztell
+gzoffsetpI
+gzerror
+gz_error
+.rdata
+gzread.c
+gz_load
+gz_head
+gz_next4pV
+gz_make
+gz_skip
+gzread
+gzgetc
+gzungetc0a
+gzgets
+gzdirect
+.rdata
+gzwrite.c
+gz_init
+gz_comp
+gz_zero
+gzwrite
+gzputc
+gzputs
+gzprintf`k
+gzflush
+.rdata
+infback.c
+.rdata
+inffast.c
+.rdata
+inflate.c
+inflate
+.rdata
+inftrees.c
+.rdata
+trees.c
+_tr_init
+bl_order`B
+.rdata
+uncompr.c
+.rdata
+zutil.c
+zError
+zcalloc
+zcfree
+.rdata
+atonexit.c
+atexit
+natstart.c
+cinitexe.c
+.CRT$XIA
+.CRT$XIZ 
+.CRT$XCA
+.CRT$XCZ
+tlssup.c
+__xd_a
+__xd_z
+.tls$AAA@
+.tls$ZZZD
+.CRT$XLA(
+.CRT$XLZ@
+.CRT$XLC0
+.CRT$XLD8
+.CRT$XDAH
+.CRT$XDZP
+mingw_helpers.c
+pseudo-reloc.c
+.rdata
+dllmain.c
+DllMain
+gccmain.c
+p.60177
+hMsvcrt
+__main
+.rdata
+dllentry.c
+gs_support.c
+crt_handler.c
+.rdata
+dummy_mingwthrd.c
+CRT_fp10.c
+_fpreset@
+fpreset
+pesect.c
+libgcc2.c
+.idata$7
+.idata$5
+.idata$40
+.idata$6$
+.idata$7
+.idata$5
+.idata$48
+.idata$6,
+.idata$7
+.idata$5
+.idata$4(
+.idata$6
+.idata$7
+.idata$5
+.idata$4@
+.idata$64
+fthunk
+.idata$2
+.idata$4(
+.idata$5
+.idata$4H
+.idata$5 
+.idata$7
+mingwthrd_nomt.c
+.idata$7 
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$58
+.idata$4`
+.idata$6Z
+.idata$7
+.idata$5H
+.idata$4p
+.idata$6r
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7(
+.idata$5
+.idata$4
+.idata$6
+.idata$7,
+.idata$5
+.idata$4
+.idata$6
+.idata$7<
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5X
+.idata$4
+.idata$6
+.idata$74
+.idata$5
+.idata$4
+.idata$6
+.idata$7D
+.idata$5
+.idata$4
+.idata$64
+.idata$78
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5@
+.idata$4h
+.idata$6h
+.idata$7@
+.idata$5
+.idata$4
+.idata$6(
+.idata$7$
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5p
+.idata$4
+.idata$6
+.idata$7
+.idata$5`
+.idata$4
+.idata$6
+.idata$7
+.idata$5P
+.idata$4x
+.idata$6~
+.idata$7
+.idata$5(
+.idata$4P
+.idata$6>
+.idata$7
+.idata$5h
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$50
+.idata$4X
+.idata$6L
+.idata$7L
+.idata$5
+.idata$4
+.idata$6H
+.idata$7
+.idata$5x
+.idata$4
+.idata$6
+.idata$70
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7H
+.idata$5
+.idata$4
+.idata$6>
+fthunk
+.idata$2(
+.idata$4P
+.idata$5(
+.idata$4 
+.idata$5
+.idata$7P
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7\
+.idata$58
+.idata$4`
+.idata$60
+.idata$7p
+.idata$5`
+.idata$4
+.idata$6
+.idata$7t
+.idata$5h
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7x
+.idata$5p
+.idata$4
+.idata$6
+.idata$7d
+.idata$5H
+.idata$4p
+.idata$6R
+.idata$7h
+.idata$5P
+.idata$4x
+.idata$6h
+.idata$7|
+.idata$5x
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6"
+.idata$7
+.idata$5
+.idata$4
+.idata$6R
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7`
+.idata$5@
+.idata$4h
+.idata$6>
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6f
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6<
+.idata$7X
+.idata$50
+.idata$4X
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7l
+.idata$5X
+.idata$4
+.idata$6~
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+.idata$7T
+.idata$5(
+.idata$4P
+.idata$6
+.idata$7
+.idata$5
+.idata$4
+.idata$6
+fthunk
+.idata$2
+.idata$4P
+.idata$5(
+.idata$4 
+.idata$5
+.idata$7
+crtend.c
+__xc_z
+strcpy
+strerror
+__xl_a
+__xl_d
+_tls_endD
+memcpy
+malloc
+_CRT_MT
+__dll__
+calloc
+strcat
+memchr
+__xi_z
+pcinit
+signal
+strncmp
+memset
+__xl_z
+__end__
+z_errmsg
+__xi_a
+__xc_a
+sprintf
+__xl_c
+fwrite
+_onexit
+_errno
+strlen
+_unlock
+vfprintf
+.debug_aranges
+.debug_pubnames
+.debug_pubtypes
+.debug_info
+.debug_abbrev
+.debug_line
+.debug_frame
+.debug_str
+.debug_loc
+.debug_ranges
+pre_c_init
+_CRT_INIT
+__proc_attached
+__DllMainCRTStartup
+DllMainCRTStartup
+.debug_abbrev
+.debug_info
+.debug_line
+.CRT$XIAA
+.debug_frame
+.debug_loc
+.debug_pubnames
+.debug_pubtypes
+.debug_aranges
+.debug_ranges
+.debug_str
+adler32_combine
+adler32_combine64
+compress2.clone.0
+compress2
+compressBound
+crc32_combine_
+get_crc_table
+crc_table
+crc32_combine
+crc32_combine64
+longest_match
+flush_pending
+fill_window
+deflate_slow
+deflate_fast
+deflate_stored
+deflateSetDictionary
+deflateReset
+configuration_table
+deflateSetHeader
+deflatePrime
+deflateTune
+deflateBound
+deflateParams
+deflateEnd
+deflateInit2_
+deflateInit2_.clone.1
+deflateInit_
+deflateCopy
+gz_error.clone.0
+gzoffset64
+gzclearerr
+gz_decomp
+gzclose_r
+gzsetparams
+gzclose_w
+inflateBackInit_
+inflateBack
+order.3184
+lenfix.3162
+distfix.3163
+inflateBackEnd
+inflate_fast
+updatewindow
+inflateReset
+inflateReset2
+inflateInit2_.clone.0
+inflateInit2_
+inflateInit_
+inflatePrime
+order.3219
+lenfix.3190
+distfix.3191
+inflateEnd
+inflateSetDictionary
+inflateGetHeader
+inflateSync
+inflateSyncPoint
+inflateCopy
+inflateUndermine
+inflateMark
+inflate_table
+dext.3110
+dbase.3109
+lext.3108
+lbase.3107
+pqdownheap
+build_tree
+send_tree
+compress_block
+extra_lbits
+base_length
+extra_dbits
+base_dist
+copy_block.clone.0
+static_l_desc
+static_d_desc
+static_bl_desc
+_tr_stored_block
+_tr_align
+static_ltree
+_tr_flush_block
+static_dtree
+_tr_tally
+extra_blbits
+uncompress
+zlibVersion
+zlibCompileFlags
+mingw_onexit
+__dyn_tls_dtor
+__dyn_tls_init
+__tlregdtor
+_decode_pointer
+_encode_pointer
+__report_error
+__write_memory
+_pei386_runtime_relocator
+was_init.60701
+__do_global_dtors
+free_Msvcrt
+__do_global_ctors
+initialized
+DllEntryPoint
+__security_init_cookie
+.data$__security_cookie
+.data$__security_cookie_complement
+__report_gsfailure
+GS_ContextRecord
+GS_ExceptionRecord
+GS_ExceptionPointers
+__mingw_SEH_error_handler
+__mingw_init_ehandler
+was_here.60676
+emu_pdata
+emu_xdata
+__mingwthr_run_key_dtors
+__mingwthr_cs_init
+__mingwthr_cs
+key_dtor_list
+___w64_mingwthr_add_key_dtor
+___w64_mingwthr_remove_key_dtor
+__mingw_TLScallback
+pseudo-reloc-list.c
+_ValidateImageBase
+_FindPESection
+_FindPESectionByName
+_FindPESectionExec
+_GetPEImageBase
+_IsNonwritableInCurrentImage
+__mingwthr_remove_key_dtor
+__mingwthr_key_dtor
+fctMsvcrtLongJmp
+___RUNTIME_PSEUDO_RELOC_LIST__
+__imp__vsnprintf
+__imp_abort
+__lib64_libkernel32_a_iname
+__data_start__
+___DTOR_LIST__
+__imp__lock
+__imp_RtlVirtualUnwind
+SetUnhandledExceptionFilter
+_vsnprintf
+__imp_calloc
+___tls_start__
+__ImageBase
+GetLastError
+GetSystemTimeAsFileTime
+mingw_initltssuo_force
+__imp___dllonexit
+__dll_characteristics__
+__size_of_stack_commit__
+_length_code
+__iob_func
+__size_of_stack_reserve__
+__major_subsystem_version__
+___crt_xl_start__
+__imp_DeleteCriticalSection
+VirtualQuery
+___crt_xi_start__
+__imp__amsg_exit
+___crt_xi_end__
+__imp__errno
+_tls_start
+__imp_GetCurrentThreadId
+GetCurrentProcessId
+TlsGetValue
+TerminateProcess
+__imp_read
+__bss_start__
+___RUNTIME_PSEUDO_RELOC_LIST_END__
+RtlLookupFunctionEntry
+__size_of_heap_commit__
+__imp_GetLastError
+__imp_free
+LoadLibraryA
+__imp_RtlLookupFunctionEntry
+VirtualProtect
+mingw_app_type
+___crt_xp_start__
+__imp_LeaveCriticalSection
+__imp_GetTickCount
+__imp_memchr
+___crt_xp_end__
+__minor_os_version__
+__imp_GetSystemTimeAsFileTime
+EnterCriticalSection
+__image_base__
+__imp_write
+RtlCaptureContext
+__section_alignment__
+__native_dllmain_reason
+__imp_strcpy
+_tls_used
+__imp_memset
+UnhandledExceptionFilter
+__imp_memcpy
+__RUNTIME_PSEUDO_RELOC_LIST__
+__imp_RtlAddFunctionTable
+__imp_strerror
+__data_end__
+__imp_fwrite
+__CTOR_LIST__
+_head_lib64_libkernel32_a
+GetModuleHandleA
+__bss_end__
+GetTickCount
+_head_lib64_libmsvcrt_a
+__native_vcclrit_reason
+___crt_xc_end__
+RtlAddFunctionTable
+__imp_EnterCriticalSection
+__imp_open
+_tls_index
+__native_startup_state
+___crt_xc_start__
+__onexitbegin
+__imp_GetCurrentProcessId
+__imp_TerminateProcess
+__imp_GetProcAddress
+___CTOR_LIST__
+__imp_signal
+__imp_GetModuleHandleA
+__imp_QueryPerformanceCounter
+_lseeki64
+deflate_copyright
+_dist_code
+__imp_strlen
+__imp_malloc
+__file_alignment__
+__imp_InitializeCriticalSection
+InitializeCriticalSection
+__major_os_version__
+__imp_vfprintf
+__imp_strcat
+__imp_UnhandledExceptionFilter
+__imp_SetUnhandledExceptionFilter
+__imp__onexit
+GetProcAddress
+__DTOR_LIST__
+RtlVirtualUnwind
+__imp_Sleep
+LeaveCriticalSection
+__size_of_heap_reserve__
+___crt_xt_start__
+__subsystem__
+_amsg_exit
+__security_cookie_complement
+__imp_TlsGetValue
+GetCurrentProcess
+__imp_FreeLibrary
+__lib64_libmoldname_a_iname
+__imp_VirtualProtect
+___tls_end__
+__onexitend
+QueryPerformanceCounter
+__imp_VirtualQuery
+__imp__initterm
+mingw_initltsdyn_force
+__imp___iob_func
+__dyn_tls_init_callback
+_initterm
+__imp_strncmp
+__major_image_version__
+__loader_flags__
+inflate_copyright
+__imp_close
+__native_startup_lock
+GetCurrentThreadId
+__minor_subsystem_version__
+__minor_image_version__
+__imp__unlock
+mingw_initltsdrot_force
+__imp_sprintf
+__imp_LoadLibraryA
+FreeLibrary
+__imp__lseeki64
+DeleteCriticalSection
+__imp_RtlCaptureContext
+__RUNTIME_PSEUDO_RELOC_LIST_END__
+_head_lib64_libmoldname_a
+__dllonexit
+__imp_GetCurrentProcess
+___crt_xt_end__
+__lib64_libmsvcrt_a_iname
+__security_cookie
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+20261013061427Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013061427Z0+
+/1(0&0$0"

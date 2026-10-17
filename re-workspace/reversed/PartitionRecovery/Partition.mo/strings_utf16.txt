@@ -1,0 +1,16 @@
+FirmwareBootDevice
+System\CurrentControlSet\Control
+%*[^r]rdisk(%d)
+SystemBootDevice
+%*[^r]rdisk(%d)
+BCD00000000\Objects\{9dea862c-5cdd-4e70-acc1-f32b344d4795}\Elements\12000002
+Element
+bootmgfw.efi
+Loadd %S err=%u
+Loadd %S err=%u
+[WritePartChainToDisk] can not found target part info!!!
+[WritePartChainToDisk] ReadDiskDriveLayout error,%d
+[WritePartChainToDisk] WriteDiskDriveLayout error,%d
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+ !"#$%&'()*+,-.

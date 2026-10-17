@@ -1,0 +1,42 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib         name                                                         demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00001f76 0x180002b76 GLOBAL FUNC 0    UILogic.dll ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00000dec 0x1800019ec GLOBAL FUNC 0    UILogic.dll ??0IObject@@QEAA@AEBU0@@Z
+3   0x00002665 0x180003265 GLOBAL FUNC 0    UILogic.dll ??0IObject@@QEAA@XZ
+4   0x00004816 0x180005416 GLOBAL FUNC 0    UILogic.dll ??0IPartitionDevice@@QEAA@AEBV0@@Z
+5   0x000028fe 0x1800034fe GLOBAL FUNC 0    UILogic.dll ??0IPartitionDevice@@QEAA@XZ
+6   0x000048a2 0x1800054a2 GLOBAL FUNC 0    UILogic.dll ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+7   0x00004b8b 0x18000578b GLOBAL FUNC 0    UILogic.dll ??0IStorageDevice@@QEAA@AEBU0@@Z
+8   0x00001c4c 0x18000284c GLOBAL FUNC 0    UILogic.dll ??0IStorageDevice@@QEAA@XZ
+9   0x0000337b 0x180003f7b GLOBAL FUNC 0    UILogic.dll ??1IPartitionDevice@@UEAA@XZ
+10  0x00003150 0x180003d50 GLOBAL FUNC 0    UILogic.dll ??4CCallBackOperate@@QEAAAEAV0@AEBV0@@Z
+11  0x000010d0 0x180001cd0 GLOBAL FUNC 0    UILogic.dll ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+12  0x0000476c 0x18000536c GLOBAL FUNC 0    UILogic.dll ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+13  0x000018e6 0x1800024e6 GLOBAL FUNC 0    UILogic.dll ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+14  0x0000167f 0x18000227f GLOBAL FUNC 0    UILogic.dll ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+15  0x00001503 0x180002103 GLOBAL FUNC 0    UILogic.dll ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+16  0x0000456e 0x18000516e GLOBAL FUNC 0    UILogic.dll ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+17  0x00000d3d 0x18000193d GLOBAL FUNC 0    UILogic.dll ??4IObject@@QEAAAEAU0@AEBU0@@Z
+18  0x000048e8 0x1800054e8 GLOBAL FUNC 0    UILogic.dll ??4IPartitionDevice@@QEAAAEAV0@AEBV0@@Z
+19  0x0000424e 0x180004e4e GLOBAL FUNC 0    UILogic.dll ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+20  0x0000211f 0x180002d1f GLOBAL FUNC 0    UILogic.dll ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+21  0x000d6600 0x1800d7600 GLOBAL FUNC 0    UILogic.dll ??_7IObject@@6B@
+22  0x000df188 0x1800e0188 GLOBAL FUNC 0    UILogic.dll ??_7IPartitionDevice@@6B@
+23  0x000d6738 0x1800d7738 GLOBAL FUNC 0    UILogic.dll ??_7IStorageDevice@@6BIBlockDevice@@@
+24  0x000d6698 0x1800d7698 GLOBAL FUNC 0    UILogic.dll ??_7IStorageDevice@@6BIObject@@@
+25  0x00000513 0x180001113 GLOBAL FUNC 0    UILogic.dll ?AddRef@IObject@@QEBAKXZ
+26  0x00003f74 0x180004b74 GLOBAL FUNC 0    UILogic.dll ?ConvertVolume@IStorageDevice@@UEAAHXZ
+27  0x000022b4 0x180002eb4 GLOBAL FUNC 0    UILogic.dll ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+28  0x0000567b 0x18000627b GLOBAL FUNC 0    UILogic.dll ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+29  0x00001cab 0x1800028ab GLOBAL FUNC 0    UILogic.dll ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+30  0x00000cfc 0x1800018fc GLOBAL FUNC 0    UILogic.dll ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+31  0x00000c0c 0x18000180c GLOBAL FUNC 0    UILogic.dll ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+32  0x000020ca 0x180002cca GLOBAL FUNC 0    UILogic.dll ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+33  0x00002016 0x180002c16 GLOBAL FUNC 0    UILogic.dll ?Release@IObject@@QEBAKXZ
+34  0x000007ed 0x1800013ed GLOBAL FUNC 0    UILogic.dll ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+35  0x00000eff 0x180001aff GLOBAL FUNC 0    UILogic.dll ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+36  0x00001e72 0x180002a72 GLOBAL FUNC 0    UILogic.dll ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+37  0x000044d8 0x1800050d8 GLOBAL FUNC 0    UILogic.dll ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+38  0x00004ab9 0x1800056b9 GLOBAL FUNC 0    UILogic.dll CreateObject
+39  0x00004735 0x180005335 GLOBAL FUNC 0    UILogic.dll GetModule

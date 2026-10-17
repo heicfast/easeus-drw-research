@@ -1,0 +1,502 @@
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+ERROR : Unable to initialize critical section in CAtlBaseModule
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\diskmanageritemproc.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\diskmanageritemproc.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+found MSR partition in GPT,disk : %d, pos : 0x%I64x!
+found ESP partition in GPT,,disk : %d, pos : 0x%I64x!
+found OEM partition in MBR,disk : %d, pos : 0x%I64x!
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+\Device\Harddisk%d
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+\device\harddisk%d
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+\device\harddisk%d
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+{4FB6BB00-3347-11D0-B40A-00AA005FF586}
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+\Device\Harddisk%d
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+\Device\Harddisk%d
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\dmrpvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+efile: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+di:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+ki:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2applyconfig.cpp
+sfile: %s, line: %d, error = %d, lasterror = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletedisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+dfile: %s, line: %d, error = %d, lasterror = 0x%x 
+di:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2deletevolume.cpp
+[EditLdm2MoveResizeVol] *********************** MergeVolume ***********************
+[EditLdm2MoveResizeVol]MergeVolume failure,invalid parameter!,0x%x,0x%x
+[EditLdm2MoveResizeVol] ------------------------ Source ------------------------
+[EditLdm2MoveResizeVol]GetMapDisk in MergeVolume failure,use def,%d,%d!
+[EditLdm2MoveResizeVol] ------------------------ Source ------------------------
+[EditLdm2MoveResizeVol] disk : %d, part info : 0x%I64x,0x%I64x, bytesPersectors : 0x%x
+[EditLdm2MoveResizeVol] ------------------------ Target ------------------------
+[EditLdm2MoveResizeVol]MergeVolume failure 1!
+[EditLdm2MoveResizeVol] ------------------------ Target ------------------------
+[EditLdm2MoveResizeVol] disk : %d, part info : 0x%I64x,0x%I64x
+[EditLdm2MoveResizeVol] physical drive , old : 0x%I64x,%d , New : 0x%I64x,%d ,Stripe size : %d
+[EditLdm2MoveResizeVol] Old : 0x%I64x,0x%I64x , New : 0x%I64x,0x%I64x ,HidderSector : 0x%I64x
+[EditLdm2MoveResizeVol] disk : %d
+[EditLdm2MoveResizeVol] Init new vol , 0x%I64x,0x%I64x,0x%I64x , Vol type : %d,Stripe spare : %d
+[EditLdm2MoveResizeVol] Raid vol need to correct idx,%d,%d
+[EditLdm2MoveResizeVol] part info : 0x%I64x,0x%I64x
+[EditLdm2MoveResizeVol] disk : %d, part info : 0x%I64x,0x%I64x
+[EditLdm2MoveResizeVol] ------------------------ InterMedia ------------------------
+[EditLdm2MoveResizeVol] *********************** MergeVolume ***********************
+[EditLdm2MoveResizeVol] ------------------------ InterMedia ------------------------
+[EditLdm2MoveResizeVol] ExtendToIntermediaVol fail 1
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+dfile: %s, line: %d, error = %d, lasterror = 0x%x 
+[EditLdm2MoveResizeVol] -------------------- disk %d --------------------
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+[EditLdm2MoveResizeVol] sink into disk %d,bytes : %d,result : %d,%d
+[EditLdm2MoveResizeVol] ExtendToIntermediaVol fail 2
+[EditLdm2MoveResizeVol] Not found intermedia vol,%d,info : disk %d,offset %I64d
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2moveresizevol.cpp
+[EditLdm2MoveResizeVol] ++++++++++++++++++++++++ ShrinkBack ++++++++++++++++++++++
+[EditLdm2MoveResizeVol] -------------------- disk %d --------------------
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+[EditLdm2MoveResizeVol] sink into disk %d,bytes : %d,result : %d,%d
+[EditLdm2MoveResizeVol] ShrinkTgt fail 2
+[EditLdm2MoveResizeVol] Not found shrink tgt vol,%d,info : disk %d,offset %I64d
+[EditLdm2MoveResizeVol]RecoverLdmData disk count : %d
+[EditLdm2MoveResizeVol] ---------------------------- ShrinkBack ----------------------------
+[EditLdm2MoveResizeVol]ProhibitModifyLdmInDisk fail : %d,error : 0x%x
+[EditLdm2MoveResizeVol] ProcAddDiskExtent fail 2
+[EditLdm2MoveResizeVol] ProcAddDiskExtent fail 1
+[EditLdm2MoveResizeVol] ProcDelDiskExtent fail %d
+[EditLdm2MoveResizeVol] ProcUpdateDiskExtent fail %d
+[EditLdm2MoveResizeVol] DelPartition fail 2
+[EditLdm2MoveResizeVol] DelPartition fail 1
+[EditLdm2MoveResizeVol] AddPartition fail 1
+[EditLdm2MoveResizeVol] DelPartition fail 3
+[EditLdm2MoveResizeVol] AddPartition fail 4
+[EditLdm2MoveResizeVol] AddPartition fail 2
+[EditLdm2MoveResizeVol] UpdatePartition fail 1
+[EditLdm2MoveResizeVol] AddPartition fail 3
+[EditLdm2MoveResizeVol] UpdatePartition fail 3
+[EditLdm2MoveResizeVol] UpdatePartition fail 2
+[EditLdm2MoveResizeVol]UpdatePartition,need correct idx! %d 
+[EditLdm2MoveResizeVol]UpdatePartition,need correct idx! %d 
+[EditLdm2MoveResizeVol]              offset : %I64x,%I64x,size : %I64x,%I64x
+[EditLdm2MoveResizeVol]UpdatePartition,disk : %d,part idx : %d,start : %I64x
+[EditLdm2MoveResizeVol]UpdateComponents,size : %I64x
+[EditLdm2MoveResizeVol] Vmdb status : %x,%d
+[EditLdm2MoveResizeVol] CreatePartition fail 1
+[EditLdm2MoveResizeVol] CommittedSequence : %d,LocalTs: 0x%I64x
+[EditLdm2MoveResizeVol] CreatePartition fail 3
+[EditLdm2MoveResizeVol] CreatePartition fail 2
+[EditLdm2MoveResizeVol] CreatePartition fail 5
+[EditLdm2MoveResizeVol] CreatePartition fail 4
+[EditLdm2MoveResizeVol] UpdatePartitionByExtent fail 2
+[EditLdm2MoveResizeVol] UpdatePartitionByExtent fail 1
+[EditLdm2MoveResizeVol] UpdatePartitionByExtent fail 3
+[EditLdm2MoveResizeVol] *** UpdatePartitionByExtent %I64x,%I64x --> %I64x,%I64x ***
+[EditLdm2MoveResizeVol] DelPartitionByExtent fail 2
+[EditLdm2MoveResizeVol] DelPartitionByExtent fail 1
+[EditLdm2MoveResizeVol]UpdateVolumeInfo,size : %I64x,Commit log ID : %I64d
+[EditLdm2MoveResizeVol] DelPartitionByExtent fail 3
+[EditLdm2MoveResizeVol]Target vol need adjust to cluster aligned ! 0x%I64x,%d,0x%x
+[EditLdm2MoveResizeVol]Source vol need adjust to cluster aligned ! 0x%I64x,%d,0x%x
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2updateldmdata.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2updateldmdata.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\editldm2updateldmdata.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\ldmmanager.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\nativemodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\policyofvolresizemove.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\policyofvolresizemove.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\policyofvolresizemove.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+ei:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+SystemPartition
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+mi:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+	Volume type: %s
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+	Unit size: %d
+	Label: %s
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+\Registry\Machine\SYSTEM\Setup
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+	Drive letter: %C
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+Unknown
+	Disk count: %d
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+Unformatted
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+Create dynamic volume
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\utility.cpp
+	FS type: %s
+		DiskIndex: %d, size: %I64u
+	Volume size: %I64u
+Stripe
+Simple
+Raid-5
+Mirror
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsdisk.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+ei:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+ei:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+{9C38ED61-D565-4728-AEEE-C80952F0ECDE}
+%s con't CreateInstance of vdsLoad, hr = 0x%x
+VdsModule::ReConnectComInstance
+%s con't got the vdsLoad's clsid, hr = 0x%x
+VdsModule::ReConnectComInstance
+file: %s, line: %d, error = %d, hr = 0x%x 
+\\?\PhysicalDrive%d
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+%s con't load vds service, hr = 0x%x
+VdsModule::ReConnectComInstance
+%s WaitForServiceReady failed, hr = 0x%x
+VdsModule::ReConnectComInstance
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+ci:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, cnt : %d,hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsmodule.cpp
+bi:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsnotify.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+\\?\GLOBALROOT
+\\?\GLOBALROOT
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+efile: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+ei:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 
+file: %s, line: %d, error = %d, lasterror = 0x%x 
+i:\_drw_main\partitionrecovery\legacy_mod\mod.ldmmanager\vdsvolume.cpp
+file: %s, line: %d, error = %d, hr = 0x%x 

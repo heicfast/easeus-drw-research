@@ -1,0 +1,32 @@
+arch     x86
+baddr    0x62e80000
+binsz    203840
+bintype  pe
+bits     64
+canary   false
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x0003a8c6
+compiled Tue Jul  8 02:36:15 2025
+crypto   false
+endian   little
+havecode true
+hdr.csum 0x0003a8c6
+laddr    0x0
+lang     c
+linenum  true
+lsyms    false
+machine  AMD 64
+nx       false
+os       windows
+overlay  true
+cc       ms
+pic      false
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows CUI
+va       true

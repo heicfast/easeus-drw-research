@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x140000000
+binsz    3088104
+bintype  pe
+bits     64
+canary   true
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x002fb2a5
+compiled Wed Jan 30 18:02:01 2041
+crypto   false
+dbg_file E:\AWork\_drw_main\DRWIntelligentScan\bin\Release\x64\EUOfficeViewer.pdb
+endian   little
+havecode true
+hdr.csum 0x002fb2a5
+guid     7047294657C84E08920BD2329CFF32C91
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

@@ -1,0 +1,426 @@
+zh-CHS
+Mbg-BG
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+DriveLetter
+FileSystemLabel
+FileSystemType
+SizeRemaining
+DriveType
+DriveLetter
+FileSystemLabel
+FileSystemType
+SizeRemaining
+lDriveType
+Number
+BusType
+PartitionStyle
+Initialize
+PartitionStyle
+ReturnValue
+[CStorageDisk]InitProc fail!!!,0x%x,%d
+Select * from MSFT_DiskToPartition where Disk="%s"
+Partition
+[CStorageDisk]GetVolumes fail!!!,0x%x
+Number
+BusType
+PartitionStyle
+lSelect * from MSFT_VirtualDiskToDisk where Disk="%s"
+VirtualDisk
+Select * from MSFT_VirtualDisk where ObjectId="%s"
+[CStorageDisk]GetOwnerVirtualDisk fail!!!,0x%x
+Select * from MSFT_PartitionToVolume where Partition="%s"
+Volume
+Select * from MSFT_Volume where ObjectId="%s"
+BusType
+IsPartial
+DeviceId
+CanPool
+SetUsage
+ReturnValue
+[CStoragePhysicalDisk]RetireDisk fail!!!,0x%x,%d
+Select * from MSFT_Disk where Number=%d
+IsBoot
+NumberOfPartitions
+BusType
+IsPartial
+DeviceId
+CanPool
+ResiliencySettingName
+PhysicalDiskRedundancy
+ParityLayout
+ResiliencySettingName
+PhysicalDiskRedundancy
+ParityLayout
+[CStorageVirtualDisk]InitVirtualDisk fail!!! Can not get internal disk.
+DeleteObject
+ReturnValue
+[CStorageVirtualDisk]DeleteVirtualDisk fail!!!,0x%x,%d
+Resize
+ReturnValue
+[CStorageVirtualDisk]ResizeVirtualDisk fail!!!,0x%x,%d
+Repair
+ReturnValue
+[CStorageVirtualDisk]RepairVirtualDisk fail!!!,0x%x,%d
+CreateClone
+FriendlyName
+ReturnValue
+CreatedVirtualDisk
+[CStorageVirtualDisk]CloneVirtualDisk fail!!!,0x%x,%d
+RemovePhysicalDisk
+PhysicalDisks
+RunAsJob
+ReturnValue
+[CStorageVirtualDisk]RemovePhysicalDisk fail!!!,0x%x,%d
+Select * from MSFT_StoragePoolToVirtualDisk where VirtualDisk="%s"
+StoragePool
+Select * from MSFT_StoragePool where ObjectId="%s"
+[CStorageVirtualDisk]GetOwnerPool fail!!!,0x%x
+Select * from MSFT_VirtualDiskToDisk where VirtualDisk="%s"
+Select * from MSFT_Disk where ObjectId="%s"
+[CStorageVirtualDisk]GetInsideDisk fail!!!,0x%x
+Objectid
+FriendlyName
+Objectid
+FriendlyName
+l%s.objectid="%s"
+M.objectid=
+AllocatedSize
+HealthStatus
+AllocatedSize
+HealthStatus
+Description
+NumberOfDataCopiesDefault
+lNumberOfColumnsDefault
+PhysicalDiskRedundancyDefault
+MInterleaveDefault
+ParityLayout
+Description
+NumberOfDataCopiesDefault
+NumberOfColumnsDefault
+PhysicalDiskRedundancyDefault
+InterleaveDefault
+ParityLayout
+IsPrimordial
+IsPrimordial
+AddPhysicalDisk
+PhysicalDisks
+ReturnValue
+[CStoragePool]AddPhysicalDisk fail!!!,0x%x,%d
+RemovePhysicalDisk
+PhysicalDisks
+ReturnValue
+[CStoragePool]RemovePhysicalDisk fail!!!,0x%x,%d
+DeleteObject
+ReturnValue
+[CStoragePool]DeleteEmptyPool fail!!!,0x%x,%d
+CreateVirtualDisk
+MSFT_StoragePool
+FriendlyName
+ResiliencySettingName
+ProvisioningType
+ReturnValue
+CreatedVirtualDisk
+[CStoragePool]CreateVirtualDisk fail!!!,0x%x,%d
+CreateVolume
+FriendlyName
+ProvisioningType
+ResiliencySettingName
+FileSystem
+AccessPath
+ReturnValue
+CreatedVolume
+[CStoragePool]CreateVirtualDisk fail!!!,0x%x,%d
+GetSupportedSize
+ResiliencySettingName
+ReturnValue
+VirtualDiskSizeMin
+VirtualDiskSizeMax
+VirtualDiskSizeDivisor
+[CStoragePool]GetSupportVirtualSize fail!!!,0x%x,%d
+Select * from MSFT_StoragePoolToVirtualDisk where StoragePool="%s"
+VirtualDisk
+Select * from MSFT_VirtualDisk where ObjectId="%s"
+[CStoragePool]GetVirtualDisks fail!!!,0x%x
+Select * from MSFT_StoragePoolToPhysicalDisk where StoragePool="%s"
+PhysicalDisk
+Select * from MSFT_PhysicalDisk where ObjectId="%s"
+[CStoragePool]GetPhySicalDisks fail!!!,0x%x
+ResiliencySetting
+Select * from MSFT_StoragePoolToResiliencySetting where StoragePool="%s"
+Select * from MSFT_ResiliencySetting where ObjectId="%s"
+[CStoragePool]GetResiliencySetting fail!!!,0x%x
+SupportsAutomaticStoragePoolSelection
+SupportsAutomaticStoragePoolSelection
+CreateStoragePool
+FriendlyName
+PhysicalDisks
+ResiliencySettingNameDefault
+ReturnValue
+CreatedStoragePool
+[CStorageSubSystem]CreateStoragePool fail!!!,0x%x,%d
+root\microsoft\windows\storage
+[StorageSpaces]There aren't storage pools!
+[StorageSpaces]CoSetProxyBlanket fail!!!,0x%x
+[StorageSpaces]InitProc fail!!!,0x%x,0x%x,0x%x
+[StorageSpaces]InitProc done
+Select * from MSFT_StorageSubSystem
+[StorageSpaces]GetStorageProc fail!!!,0x%x
+Select * from MSFT_StoragePool Where IsPrimordial=1
+[StorageSpaces]GetPrimordialPool fail!!!,0x%x
+Select * from MSFT_StoragePool Where IsPrimordial=0
+[StorageSpaces]GetStoragePools fail!!!,0x%x
+Select * from MSFT_Disk Where Number=%d
+[StorageSpaces]GetDiskProc %d fail 0x%x!!!
+[StorageSpaces]GetPhySicalDisks fail!!!
+[StorageSpaces]GetUsedPhysicalDisks fail!!!
+[StorageSpaces]GetResiliencySetting fail!!!
+Select * from MSFT_VirtualDisk
+[StorageSpaces]GetVDs fail 0x%x!!!
+Global\20230920-VIRTUAL-DISK-NOTIFY-EVENT
+SOFTWARE\EASEUS\EPM\VMDK
+xdigit
+Failed to Load lib (Err=0x%x) %S
+zh-CHS
+Mbg-BG
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+\\?\PhysicalDrive%d
+\\?\PhysicalDrive%d
+{CA7DE14F-5BC8-48fd-93DE-A19527B0459E}
+{A86AE501-EF73-4C8D-827E-98BA5046B05F}
+{CA7DE14F-5BC8-48fd-93DE-A19527B0459E}
+{A86AE501-EF73-4C8D-827E-98BA5046B05F}
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+gWriteSector %d ,%d
+WriteSector %d ,%d
+WriteSector %d ,%d
+WriteSector %d ,%d
+WriteSector %d ,%d
+WriteSector %d ,%I64d,%I64d,%d
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+ERROR : Unable to initialize critical section in CAtlBaseModule
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll

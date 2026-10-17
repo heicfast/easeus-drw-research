@@ -1,0 +1,35 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib                   name                                                         demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00000ba0 0x1800017a0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x00000ba0 0x1800017a0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x00000bc0 0x1800017c0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??0IObject@@QEAA@XZ
+4   0x00000be0 0x1800017e0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+5   0x00000be0 0x1800017e0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??0IStorageDevice@@QEAA@AEBU0@@Z
+6   0x00000c40 0x180001840 GLOBAL FUNC 0    PartitionRecoveryD.mo ??0IStorageDevice@@QEAA@XZ
+7   0x00000c90 0x180001890 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+8   0x00000cc0 0x1800018c0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+9   0x00000cc0 0x1800018c0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+10  0x00000cc0 0x1800018c0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+11  0x00000cc0 0x1800018c0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+12  0x00000cc0 0x1800018c0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+13  0x00000cc0 0x1800018c0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+14  0x00000cd0 0x1800018d0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+15  0x00000cd0 0x1800018d0 GLOBAL FUNC 0    PartitionRecoveryD.mo ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+16  0x0002a220 0x18002b420 GLOBAL FUNC 0    PartitionRecoveryD.mo ??_7IObject@@6B@
+17  0x0002a318 0x18002b518 GLOBAL FUNC 0    PartitionRecoveryD.mo ??_7IStorageDevice@@6BIBlockDevice@@@
+18  0x0002a298 0x18002b498 GLOBAL FUNC 0    PartitionRecoveryD.mo ??_7IStorageDevice@@6BIObject@@@
+19  0x00000d20 0x180001920 GLOBAL FUNC 0    PartitionRecoveryD.mo ?AddRef@IObject@@QEBAKXZ
+20  0x00000d40 0x180001940 GLOBAL FUNC 0    PartitionRecoveryD.mo ?ConvertVolume@IStorageDevice@@UEAAHXZ
+21  0x00000d50 0x180001950 GLOBAL FUNC 0    PartitionRecoveryD.mo ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+22  0x00000d40 0x180001940 GLOBAL FUNC 0    PartitionRecoveryD.mo ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+23  0x00000d70 0x180001970 GLOBAL FUNC 0    PartitionRecoveryD.mo ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+24  0x00000d80 0x180001980 GLOBAL FUNC 0    PartitionRecoveryD.mo ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+25  0x00000d90 0x180001990 GLOBAL FUNC 0    PartitionRecoveryD.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+26  0x00000d40 0x180001940 GLOBAL FUNC 0    PartitionRecoveryD.mo ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+27  0x00000dc0 0x1800019c0 GLOBAL FUNC 0    PartitionRecoveryD.mo ?Release@IObject@@QEBAKXZ
+28  0x00000de0 0x1800019e0 GLOBAL FUNC 0    PartitionRecoveryD.mo ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+29  0x00000df0 0x1800019f0 GLOBAL FUNC 0    PartitionRecoveryD.mo ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+30  0x00000d80 0x180001980 GLOBAL FUNC 0    PartitionRecoveryD.mo ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+31  0x00000e40 0x180001a40 GLOBAL FUNC 0    PartitionRecoveryD.mo ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+32  0x000165e0 0x1800171e0 GLOBAL FUNC 0    PartitionRecoveryD.mo GetModule

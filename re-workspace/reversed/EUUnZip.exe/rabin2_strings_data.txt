@@ -1,0 +1,737 @@
+WARN: Warning: read (delay import directory)
+[Strings]
+nth paddr      vaddr      len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x000282bc 0x004294bc 7   8    .rdata  ascii   CWinApp
+1   0x000282c4 0x004294c4 8   18   .rdata  utf16le Settings
+2   0x000282d8 0x004294d8 12  26   .rdata  utf16le PreviewPages
+3   0x00028378 0x00429578 16  17   .rdata  ascii   DeactivateActCtx
+4   0x0002838c 0x0042958c 14  15   .rdata  ascii   ActivateActCtx
+5   0x0002839c 0x0042959c 13  14   .rdata  ascii   ReleaseActCtx
+6   0x000283ac 0x004295ac 13  14   .rdata  ascii   CreateActCtxW
+7   0x000283bc 0x004295bc 8   18   .rdata  utf16le KERNEL32
+8   0x000283d0 0x004295d0 59  120  .rdata  utf16le Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+9   0x00028448 0x00429648 5   12   .rdata  utf16le NoRun
+10  0x00028454 0x00429654 8   18   .rdata  utf16le NoDrives
+11  0x00028468 0x00429668 11  24   .rdata  utf16le RestrictRun
+12  0x00028480 0x00429680 22  46   .rdata  utf16le NoNetConnectDisconnect
+13  0x000284b0 0x004296b0 19  40   .rdata  utf16le NoRecentDocsHistory
+14  0x000284d8 0x004296d8 7   16   .rdata  utf16le NoClose
+15  0x000284e8 0x004296e8 58  118  .rdata  utf16le Software\Microsoft\Windows\CurrentVersion\Policies\Network
+16  0x00028560 0x00429760 15  32   .rdata  utf16le NoEntireNetwork
+17  0x00028580 0x00429780 59  120  .rdata  utf16le Software\Microsoft\Windows\CurrentVersion\Policies\Comdlg32
+18  0x000285f8 0x004297f8 11  24   .rdata  utf16le NoPlacesBar
+19  0x00028610 0x00429810 12  26   .rdata  utf16le NoBackButton
+20  0x0002862c 0x0042982c 9   20   .rdata  utf16le NoFileMru
+21  0x00028648 0x00429848 9   20   .rdata  utf16le ntdll.dll
+22  0x0002865c 0x0042985c 26  27   .rdata  ascii   GetSystemDefaultUILanguage
+23  0x00028678 0x00429878 24  25   .rdata  ascii   GetUserDefaultUILanguage
+24  0x00028694 0x00429894 12  26   .rdata  utf16le kernel32.dll
+25  0x000286b0 0x004298b0 8   18   .rdata  utf16le %s%s.dll
+26  0x00028782 0x00429982 11  24   .rdata  utf16le @%s (%s:%d)
+27  0x0002879c 0x0042999c 13  28   .rdata  utf16le %s (%s:%d)\n%s
+28  0x000287b8 0x004299b8 30  62   .rdata  utf16le Exception thrown in destructor
+29  0x000287f8 0x004299f8 53  108  .rdata  utf16le f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\appcore.cpp
+30  0x00028864 0x00429a64 4   10   .rdata  utf16le .INI
+31  0x00028870 0x00429a70 4   10   .rdata  utf16le .HLP
+32  0x0002887c 0x00429a7c 4   10   .rdata  utf16le .CHM
+33  0x00028888 0x00429a88 14  15   .rdata  ascii   NotifyWinEvent
+34  0x00028898 0x00429a98 10  22   .rdata  utf16le user32.dll
+35  0x000288b0 0x00429ab0 13  14   .rdata  ascii   COleException
+36  0x000288f8 0x00429af8 20  21   .rdata  ascii   CInvalidArgException
+37  0x00028910 0x00429b10 22  23   .rdata  ascii   CNotSupportedException
+38  0x00028928 0x00429b28 16  17   .rdata  ascii   CMemoryException
+39  0x0002893c 0x00429b3c 16  17   .rdata  ascii   CSimpleException
+40  0x00028950 0x00429b50 10  11   .rdata  ascii   CException
+41  0x00028a70 0x00429c70 9   10   .rdata  ascii   CFileFind
+42  0x00028ae8 0x00429ce8 7   8    .rdata  ascii   file://
+43  0x00028af0 0x00429cf0 7   8    .rdata  ascii   CObject
+44  0x00028af8 0x00429cf8 6   14   .rdata  utf16le Delete
+45  0x00028b08 0x00429d08 8   18   .rdata  utf16le NoRemove
+46  0x00028b1c 0x00429d1c 11  24   .rdata  utf16le ForceRemove
+47  0x00028b3c 0x00429d3c 4   20   .rdata  utf32le BDMS
+48  0x00028b88 0x00429d88 10  11   .rdata  ascii   CWinThread
+49  0x00028c30 0x00429e30 10  11   .rdata  ascii   CCmdTarget
+50  0x00028d32 0x00429f32 9   20   .rdata  utf16le @software
+51  0x00028d76 0x00429f76 13  28   .rdata  utf16le @comctl32.dll
+52  0x00028d9a 0x00429f9a 13  28   .rdata  utf16le @comdlg32.dll
+53  0x00028dbe 0x00429fbe 12  26   .rdata  utf16le @shell32.dll
+54  0x00028de0 0x00429fe0 10  11   .rdata  ascii   CGdiObject
+55  0x00028df0 0x00429ff0 14  15   .rdata  ascii   CUserException
+56  0x00028e00 0x0042a000 18  19   .rdata  ascii   CResourceException
+57  0x00028f50 0x0042a150 53  108  .rdata  utf16le f:\dd\vctools\vc7libs\ship\atlmfc\include\afxwin1.inl
+58  0x00028fc2 0x0042a1c2 18  38   .rdata  utf16le @Software\Classes\
+59  0x00028fe8 0x0042a1e8 9   20   .rdata  utf16le Software\
+60  0x00028ffc 0x0042a1fc 4   5    .rdata  ascii   CWnd
+61  0x0002900c 0x0042a20c 10  22   .rdata  utf16le AfxWnd90su
+62  0x00029024 0x0042a224 17  36   .rdata  utf16le AfxControlBar90su
+63  0x00029048 0x0042a248 15  32   .rdata  utf16le AfxMDIFrame90su
+64  0x00029068 0x0042a268 18  38   .rdata  utf16le AfxFrameOrView90su
+65  0x00029090 0x0042a290 17  36   .rdata  utf16le AfxOleControl90su
+66  0x000290b4 0x0042a2b4 16  34   .rdata  utf16le AfxOldWndProc423
+67  0x000290fc 0x0042a2fc 15  16   .rdata  ascii   GetMonitorInfoA
+68  0x0002910c 0x0042a30c 15  16   .rdata  ascii   GetMonitorInfoW
+69  0x0002911c 0x0042a31c 19  20   .rdata  ascii   EnumDisplayDevicesW
+70  0x00029130 0x0042a330 19  20   .rdata  ascii   EnumDisplayMonitors
+71  0x00029144 0x0042a344 16  17   .rdata  ascii   MonitorFromPoint
+72  0x00029158 0x0042a358 15  16   .rdata  ascii   MonitorFromRect
+73  0x00029168 0x0042a368 17  18   .rdata  ascii   MonitorFromWindow
+74  0x0002917c 0x0042a37c 16  17   .rdata  ascii   GetSystemMetrics
+75  0x00029190 0x0042a390 6   14   .rdata  utf16le USER32
+76  0x000291a0 0x0042a3a0 7   8    .rdata  ascii   DISPLAY
+77  0x000291a8 0x0042a3a8 9   20   .rdata  utf16le accParent
+78  0x000291bc 0x0042a3bc 13  28   .rdata  utf16le accChildCount
+79  0x000291d8 0x0042a3d8 8   18   .rdata  utf16le accChild
+80  0x000291ec 0x0042a3ec 7   16   .rdata  utf16le accName
+81  0x000291fc 0x0042a3fc 8   18   .rdata  utf16le accValue
+82  0x00029210 0x0042a410 14  30   .rdata  utf16le accDescription
+83  0x00029230 0x0042a430 7   16   .rdata  utf16le accRole
+84  0x00029240 0x0042a440 8   18   .rdata  utf16le accState
+85  0x00029254 0x0042a454 7   16   .rdata  utf16le accHelp
+86  0x00029264 0x0042a464 12  26   .rdata  utf16le accHelpTopic
+87  0x00029280 0x0042a480 19  40   .rdata  utf16le accKeyboardShortcut
+88  0x000292a8 0x0042a4a8 8   18   .rdata  utf16le accFocus
+89  0x000292bc 0x0042a4bc 12  26   .rdata  utf16le accSelection
+90  0x000292d8 0x0042a4d8 16  34   .rdata  utf16le accDefaultAction
+91  0x000292fc 0x0042a4fc 9   20   .rdata  utf16le accSelect
+92  0x00029310 0x0042a510 11  24   .rdata  utf16le accLocation
+93  0x00029328 0x0042a528 11  24   .rdata  utf16le accNavigate
+94  0x00029340 0x0042a540 10  22   .rdata  utf16le accHitTest
+95  0x00029358 0x0042a558 18  38   .rdata  utf16le accDoDefaultAction
+96  0x0002957b 0x0042a77b 4   6    .rdata  utf8    qϝ}z
+97  0x0002958c 0x0042a78c 18  19   .rdata  ascii   InitCommonControls
+98  0x000295a0 0x0042a7a0 20  21   .rdata  ascii   InitCommonControlsEx
+99  0x000296bb 0x0042a8bb 10  11   .rdata  ascii   FHtmlHelpW
+100 0x000296c8 0x0042a8c8 10  11   .rdata  ascii   hhctrl.ocx
+101 0x000296d4 0x0042a8d4 6   14   .rdata  utf16le #32768
+102 0x000296e8 0x0042a8e8 53  108  .rdata  utf16le f:\dd\vctools\vc7libs\ship\atlmfc\include\afxwin2.inl
+103 0x00029a30 0x0042ac30 20  42   .rdata  utf16le commctrl_DragListMsg
+104 0x00029a60 0x0042ac60 53  108  .rdata  utf16le f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\auxdata.cpp
+105 0x00029acc 0x0042accc 17  18   .rdata  ascii   CArchiveException
+106 0x00029b24 0x0042ad24 5   6    .rdata  ascii   CMenu
+107 0x00029b60 0x0042ad60 12  13   .rdata  ascii   CMapPtrToPtr
+108 0x00029bb0 0x0042adb0 6   14   .rdata  utf16le \CLSID
+109 0x00029bc8 0x0042adc8 11  24   .rdata  utf16le \Insertable
+110 0x00029be8 0x0042ade8 33  68   .rdata  utf16le %2\protocol\StdFileEditing\verb\0
+111 0x00029c2c 0x0042ae2c 5   12   .rdata  utf16le &Edit
+112 0x00029c38 0x0042ae38 33  68   .rdata  utf16le %2\protocol\StdFileEditing\server
+113 0x00029c84 0x0042ae84 8   18   .rdata  utf16le CLSID\%1
+114 0x00029ca0 0x0042aea0 13  28   .rdata  utf16le SID\%1\ProgID
+115 0x00029cc8 0x0042aec8 24  50   .rdata  utf16le CLSID\%1\InprocHandler32
+116 0x00029cfa 0x0042aefa 9   20   .rdata  utf16le ole32.dll
+117 0x00029d10 0x0042af10 22  46   .rdata  utf16le CLSID\%1\LocalServer32
+118 0x00029d48 0x0042af48 13  28   .rdata  utf16le SID\%1\Verb\0
+119 0x00029d64 0x0042af64 9   20   .rdata  utf16le &Edit,0,2
+120 0x00029d78 0x0042af78 15  32   .rdata  utf16le CLSID\%1\Verb\1
+121 0x00029d98 0x0042af98 9   20   .rdata  utf16le &Open,0,2
+122 0x00029dac 0x0042afac 19  40   .rdata  utf16le CLSID\%1\Insertable
+123 0x00029dd8 0x0042afd8 22  46   .rdata  utf16le CLSID\%1\AuxUserType\2
+124 0x00029e10 0x0042b010 20  42   .rdata  utf16le SID\%1\AuxUserType\3
+125 0x00029e44 0x0042b044 18  38   .rdata  utf16le SID\%1\DefaultIcon
+126 0x00029e6a 0x0042b06a 5   12   .rdata  utf16le %3,%7
+127 0x00029e78 0x0042b078 19  40   .rdata  utf16le CLSID\%1\MiscStatus
+128 0x00029ea8 0x0042b0a8 23  48   .rdata  utf16le CLSID\%1\InProcServer32
+129 0x00029ee0 0x0042b0e0 18  38   .rdata  utf16le CLSID\%1\DocObject
+130 0x00029f0c 0x0042b10c 12  26   .rdata  utf16le %2\DocObject
+131 0x00029f2c 0x0042b12c 18  38   .rdata  utf16le CLSID\%1\Printable
+132 0x00029f58 0x0042b158 25  52   .rdata  utf16le CLSID\%1\DefaultExtension
+133 0x00029f8c 0x0042b18c 6   14   .rdata  utf16le %9, %8
+134 0x0002a120 0x0042b320 10  11   .rdata  ascii   CByteArray
+135 0x0002a14c 0x0042b34c 9   10   .rdata  ascii   CPtrArray
+136 0x0002a184 0x0042b384 8   9    .rdata  ascii   CObArray
+137 0x0002a19e 0x0042b39e 4   10   .rdata  utf16le A +
+138 0x0002a1dc 0x0042b3dc 17  18   .rdata  ascii   Unknown exception
+139 0x0002a1f0 0x0042b3f0 14  15   .rdata  ascii   CorExitProcess
+140 0x0002a200 0x0042b400 11  24   .rdata  utf16le mscoree.dll
+141 0x0002a238 0x0042b438 20  21   .rdata  ascii   HeapQueryInformation
+142 0x0002a264 0x0042b464 13  14   .rdata  ascii   EncodePointer
+143 0x0002a274 0x0042b474 12  26   .rdata  utf16le KERNEL32.DLL
+144 0x0002a290 0x0042b490 13  14   .rdata  ascii   DecodePointer
+145 0x0002a2a0 0x0042b4a0 7   8    .rdata  ascii   FlsFree
+146 0x0002a2a8 0x0042b4a8 11  12   .rdata  ascii   FlsSetValue
+147 0x0002a2b4 0x0042b4b4 11  12   .rdata  ascii   FlsGetValue
+148 0x0002a2c0 0x0042b4c0 8   9    .rdata  ascii   FlsAlloc
+149 0x0002a2cc 0x0042b4cc 14  15   .rdata  ascii   runtime error
+150 0x0002a2e0 0x0042b4e0 13  14   .rdata  ascii   TLOSS error\r\n
+151 0x0002a2f0 0x0042b4f0 12  13   .rdata  ascii   SING error\r\n
+152 0x0002a300 0x0042b500 14  15   .rdata  ascii   DOMAIN error\r\n
+153 0x0002a310 0x0042b510 154 155  .rdata  ascii   R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
+154 0x0002a3b0 0x0042b5b0 246 247  .rdata  ascii   R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+155 0x0002a4a8 0x0042b6a8 50  51   .rdata  ascii   R6032\r\n- not enough space for locale information\r\n
+156 0x0002a4e0 0x0042b6e0 98  99   .rdata  ascii   R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+157 0x0002a544 0x0042b744 30  31   .rdata  ascii   R6030\r\n- CRT not initialized\r\n
+158 0x0002a564 0x0042b764 36  37   .rdata  ascii   R6028\r\n- unable to initialize heap\r\n
+159 0x0002a58c 0x0042b78c 52  53   .rdata  ascii   R6027\r\n- not enough space for lowio initialization\r\n
+160 0x0002a5c4 0x0042b7c4 52  53   .rdata  ascii   R6026\r\n- not enough space for stdio initialization\r\n
+161 0x0002a5fc 0x0042b7fc 37  38   .rdata  ascii   R6025\r\n- pure virtual function call\r\n
+162 0x0002a624 0x0042b824 52  53   .rdata  ascii   R6024\r\n- not enough space for _onexit/atexit table\r\n
+163 0x0002a65c 0x0042b85c 40  41   .rdata  ascii   R6019\r\n- unable to open console device\r\n
+164 0x0002a688 0x0042b888 32  33   .rdata  ascii   R6018\r\n- unexpected heap error\r\n
+165 0x0002a6ac 0x0042b8ac 44  45   .rdata  ascii   R6017\r\n- unexpected multithread lock error\r\n
+166 0x0002a6dc 0x0042b8dc 43  44   .rdata  ascii   R6016\r\n- not enough space for thread data\r\n
+167 0x0002a708 0x0042b908 149 150  .rdata  ascii   \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
+168 0x0002a7a0 0x0042b9a0 43  44   .rdata  ascii   R6009\r\n- not enough space for environment\r\n
+169 0x0002a7cc 0x0042b9cc 41  42   .rdata  ascii   R6008\r\n- not enough space for arguments\r\n
+170 0x0002a7f8 0x0042b9f8 44  45   .rdata  ascii   R6002\r\n- floating point support not loaded\r\n
+171 0x0002a828 0x0042ba28 36  37   .rdata  ascii   Microsoft Visual C++ Runtime Library
+172 0x0002a858 0x0042ba58 22  23   .rdata  ascii   <program name unknown>
+173 0x0002a870 0x0042ba70 25  26   .rdata  ascii   Runtime Error!\n\nProgram:
+174 0x0002a896 0x0042ba96 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+175 0x0002a8af 0x0042baaf 95  96   .rdata  ascii    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+176 0x0002a9a0 0x0042bba0 13  14   .rdata  ascii   bad exception
+177 0x0002a9b0 0x0042bbb0 21  22   .rdata  ascii   SunMonTueWedThuFriSat
+178 0x0002a9c8 0x0042bbc8 36  37   .rdata  ascii   JanFebMarAprMayJunJulAugSepOctNovDec
+179 0x0002a9f4 0x0042bbf4 5   6    .rdata  ascii   e+000
+180 0x0002aa0e 0x0042bc0e 27  28   .rdata  ascii   GAIsProcessorFeaturePresent
+181 0x0002aa2c 0x0042bc2c 8   9    .rdata  ascii   KERNEL32
+182 0x0002aa38 0x0042bc38 6   14   .rdata  utf16le (null)
+183 0x0002aa48 0x0042bc48 6   7    .rdata  ascii   (null)
+184 0x0002aa71 0x0042bc71 7   8    .rdata  ascii   ( 8PX\a\b
+185 0x0002aa79 0x0042bc79 6   7    .rdata  ascii   700WP\a
+186 0x0002aa88 0x0042bc88 7   8    .rdata  ascii   \b`h````
+187 0x0002aa91 0x0042bc91 9   10   .rdata  ascii   xpxxxx\b\a\b
+188 0x0002aad5 0x0042bcd5 5   6    .rdata  ascii   ('8PW
+189 0x0002aade 0x0042bcde 5   6    .rdata  ascii   700PP
+190 0x0002aaf0 0x0042bcf0 17  18   .rdata  ascii   `h`hhh\b\b\axppwpp\b\b
+191 0x0002ab0c 0x0042bd0c 25  26   .rdata  ascii    Complete Object Locator'
+192 0x0002ab28 0x0042bd28 28  29   .rdata  ascii    Class Hierarchy Descriptor'
+193 0x0002ab48 0x0042bd48 18  19   .rdata  ascii    Base Class Array'
+194 0x0002ab5c 0x0042bd5c 27  28   .rdata  ascii    Base Class Descriptor at (
+195 0x0002ab78 0x0042bd78 17  18   .rdata  ascii    Type Descriptor'
+196 0x0002ab8c 0x0042bd8c 27  28   .rdata  ascii   `local static thread guard'
+197 0x0002aba8 0x0042bda8 42  43   .rdata  ascii   `managed vector copy constructor iterator'
+198 0x0002abd4 0x0042bdd4 40  41   .rdata  ascii   `vector vbase copy constructor iterator'
+199 0x0002ac00 0x0042be00 34  35   .rdata  ascii   `vector copy constructor iterator'
+200 0x0002ac24 0x0042be24 32  33   .rdata  ascii   `dynamic atexit destructor for '
+201 0x0002ac48 0x0042be48 26  27   .rdata  ascii   `dynamic initializer for '
+202 0x0002ac64 0x0042be64 43  44   .rdata  ascii   `eh vector vbase copy constructor iterator'
+203 0x0002ac90 0x0042be90 37  38   .rdata  ascii   `eh vector copy constructor iterator'
+204 0x0002acb8 0x0042beb8 36  37   .rdata  ascii   `managed vector destructor iterator'
+205 0x0002ace0 0x0042bee0 37  38   .rdata  ascii   `managed vector constructor iterator'
+206 0x0002ad08 0x0042bf08 28  29   .rdata  ascii   `placement delete[] closure'
+207 0x0002ad28 0x0042bf28 26  27   .rdata  ascii   `placement delete closure'
+208 0x0002ad44 0x0042bf44 14  15   .rdata  ascii   `omni callsig'
+209 0x0002ad54 0x0042bf54 9   10   .rdata  ascii    delete[]
+210 0x0002ad60 0x0042bf60 6   7    .rdata  ascii    new[]
+211 0x0002ad68 0x0042bf68 35  36   .rdata  ascii   `local vftable constructor closure'
+212 0x0002ad8c 0x0042bf8c 15  16   .rdata  ascii   `local vftable'
+213 0x0002ad9c 0x0042bf9c 5   6    .rdata  ascii   `RTTI
+214 0x0002ada8 0x0042bfa8 15  16   .rdata  ascii   `udt returning'
+215 0x0002adb8 0x0042bfb8 26  27   .rdata  ascii   `copy constructor closure'
+216 0x0002add4 0x0042bfd4 38  39   .rdata  ascii   `eh vector vbase constructor iterator'
+217 0x0002adfc 0x0042bffc 31  32   .rdata  ascii   `eh vector destructor iterator'
+218 0x0002ae1c 0x0042c01c 32  33   .rdata  ascii   `eh vector constructor iterator'
+219 0x0002ae40 0x0042c040 26  27   .rdata  ascii   `virtual displacement map'
+220 0x0002ae5c 0x0042c05c 35  36   .rdata  ascii   `vector vbase constructor iterator'
+221 0x0002ae80 0x0042c080 28  29   .rdata  ascii   `vector destructor iterator'
+222 0x0002aea0 0x0042c0a0 29  30   .rdata  ascii   `vector constructor iterator'
+223 0x0002aec0 0x0042c0c0 28  29   .rdata  ascii   `scalar deleting destructor'
+224 0x0002aee0 0x0042c0e0 29  30   .rdata  ascii   `default constructor closure'
+225 0x0002af00 0x0042c100 28  29   .rdata  ascii   `vector deleting destructor'
+226 0x0002af20 0x0042c120 18  19   .rdata  ascii   `vbase destructor'
+227 0x0002af34 0x0042c134 8   9    .rdata  ascii   `string'
+228 0x0002af40 0x0042c140 20  21   .rdata  ascii   `local static guard'
+229 0x0002af58 0x0042c158 8   9    .rdata  ascii   `typeof'
+230 0x0002af64 0x0042c164 7   8    .rdata  ascii   `vcall'
+231 0x0002af6c 0x0042c16c 9   10   .rdata  ascii   `vbtable'
+232 0x0002af78 0x0042c178 9   10   .rdata  ascii   `vftable'
+233 0x0002afb4 0x0042c1b4 10  44   .rdata  utf32le |^~⤨,㴾>㴼<%
+234 0x0002afe0 0x0042c1e0 7   32   .rdata  utf32le &+-ⴭ⬫*㸭
+235 0x0002b000 0x0042c200 4   5    .rdata  ascii   ator
+236 0x0002b020 0x0042c220 7   8    .rdata  ascii    delete
+237 0x0002b028 0x0042c228 4   5    .rdata  ascii    new
+238 0x0002b030 0x0042c230 11  12   .rdata  ascii   __unaligned
+239 0x0002b03c 0x0042c23c 10  11   .rdata  ascii   __restrict
+240 0x0002b048 0x0042c248 7   8    .rdata  ascii   __ptr64
+241 0x0002b050 0x0042c250 9   10   .rdata  ascii   __clrcall
+242 0x0002b05c 0x0042c25c 10  11   .rdata  ascii   __fastcall
+243 0x0002b068 0x0042c268 10  11   .rdata  ascii   __thiscall
+244 0x0002b074 0x0042c274 9   10   .rdata  ascii   __stdcall
+245 0x0002b080 0x0042c280 8   9    .rdata  ascii   __pascal
+246 0x0002b08c 0x0042c28c 7   8    .rdata  ascii   __cdecl
+247 0x0002b094 0x0042c294 8   9    .rdata  ascii   __based(
+248 0x0002b220 0x0042c420 23  24   .rdata  ascii   GetProcessWindowStation
+249 0x0002b238 0x0042c438 25  26   .rdata  ascii   GetUserObjectInformationA
+250 0x0002b254 0x0042c454 18  19   .rdata  ascii   GetLastActivePopup
+251 0x0002b268 0x0042c468 15  16   .rdata  ascii   GetActiveWindow
+252 0x0002b278 0x0042c478 11  12   .rdata  ascii   MessageBoxA
+253 0x0002b284 0x0042c484 10  11   .rdata  ascii   USER32.DLL
+254 0x0002b398 0x0042c598 33  68   .rdata  utf16le          (((((                  H
+255 0x0002b59a 0x0042c79a 33  68   .rdata  utf16le          h((((                  H
+256 0x0002b698 0x0042c898 34  70   .rdata  utf16le                                  H
+257 0x0002b827 0x0042ca27 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+258 0x0002b840 0x0042ca40 95  96   .rdata  ascii    !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+259 0x0002b9a7 0x0042cba7 7   8    .rdata  ascii   \a\b\t\n\v\f\r
+260 0x0002b9c0 0x0042cbc0 95  96   .rdata  ascii    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+261 0x0002baa0 0x0042cca0 8   9    .rdata  ascii   HH:mm:ss
+262 0x0002baac 0x0042ccac 19  20   .rdata  ascii   dddd, MMMM dd, yyyy
+263 0x0002bac0 0x0042ccc0 8   9    .rdata  ascii   MM/dd/yy
+264 0x0002bad4 0x0042ccd4 8   9    .rdata  ascii   December
+265 0x0002bae0 0x0042cce0 8   9    .rdata  ascii   November
+266 0x0002baec 0x0042ccec 7   8    .rdata  ascii   October
+267 0x0002baf4 0x0042ccf4 9   10   .rdata  ascii   September
+268 0x0002bb00 0x0042cd00 6   7    .rdata  ascii   August
+269 0x0002bb08 0x0042cd08 4   5    .rdata  ascii   July
+270 0x0002bb10 0x0042cd10 4   5    .rdata  ascii   June
+271 0x0002bb18 0x0042cd18 5   6    .rdata  ascii   April
+272 0x0002bb20 0x0042cd20 5   6    .rdata  ascii   March
+273 0x0002bb28 0x0042cd28 8   9    .rdata  ascii   February
+274 0x0002bb34 0x0042cd34 7   8    .rdata  ascii   January
+275 0x0002bb6c 0x0042cd6c 8   9    .rdata  ascii   Saturday
+276 0x0002bb78 0x0042cd78 6   7    .rdata  ascii   Friday
+277 0x0002bb80 0x0042cd80 8   9    .rdata  ascii   Thursday
+278 0x0002bb8c 0x0042cd8c 9   10   .rdata  ascii   Wednesday
+279 0x0002bb98 0x0042cd98 7   8    .rdata  ascii   Tuesday
+280 0x0002bba0 0x0042cda0 6   7    .rdata  ascii   Monday
+281 0x0002bba8 0x0042cda8 6   7    .rdata  ascii   Sunday
+282 0x0002bbcc 0x0042cdcc 6   7    .rdata  ascii   1#QNAN
+283 0x0002bbd4 0x0042cdd4 5   6    .rdata  ascii   1#INF
+284 0x0002bbdc 0x0042cddc 5   6    .rdata  ascii   1#IND
+285 0x0002bbe4 0x0042cde4 6   7    .rdata  ascii   1#SNAN
+286 0x0002bbec 0x0042cdec 7   8    .rdata  ascii   CONOUT$
+287 0x0002bc44 0x0042ce44 15  16   .rdata  ascii   string too long
+288 0x0002bc54 0x0042ce54 23  24   .rdata  ascii   invalid string position
+289 0x0002bc7d 0x0042ce7d 5   6    .rdata  ascii   =L9o<
+290 0x0002bc90 0x0042ce90 10  11   .rdata  ascii   OLEACC.dll
+291 0x0002bca0 0x0042cea0 39  80   .rdata  utf16le Fatal Error: MFC initialization failed\n
+292 0x0002bcfc 0x0042cefc 14  15   .rdata  ascii   bad allocation
+293 0x0002bd0c 0x0042cf0c 20  21   .rdata  ascii   incompatible version
+294 0x0002bd24 0x0042cf24 12  13   .rdata  ascii   buffer error
+295 0x0002bd34 0x0042cf34 19  20   .rdata  ascii   insufficient memory
+296 0x0002bd48 0x0042cf48 10  11   .rdata  ascii   data error
+297 0x0002bd54 0x0042cf54 12  13   .rdata  ascii   stream error
+298 0x0002bd64 0x0042cf64 10  11   .rdata  ascii   file error
+299 0x0002bd70 0x0042cf70 10  11   .rdata  ascii   stream end
+300 0x0002bd7c 0x0042cf7c 15  16   .rdata  ascii   need dictionary
+301 0x0002be58 0x0042d058 14  60   .rdata  utf32le \a\a\b\b\t\t\n\n\v\v\f\f\r\r
+302 0x0002bf35 0x0042d135 5   6    .rdata  ascii   0\aw,a
+303 0x0002bf94 0x0042d194 4   6    .rdata  utf8    (kdz
+304 0x0002bfb1 0x0042d1b1 4   5    .rdata  ascii    n;^
+305 0x0002c003 0x0042d203 4   6    .rdata  utf8    !#ĳV
+306 0x0002c064 0x0042d264 4   5    .rdata  ascii   -=m\b
+307 0x0002c071 0x0042d271 6   7    .rdata  ascii   Qkkbal
+308 0x0002c0a9 0x0042d2a9 4   6    .rdata  utf8    |ӌeL
+309 0x0002c0e7 0x0042d2e7 4   5    .rdata  ascii   3_L\n
+310 0x0002c13d 0x0042d33d 4   6    .rdata  utf8    ұt9G
+311 0x0002c158 0x0042d358 4   5    .rdata  ascii   >jm\r
+312 0x0002c15d 0x0042d35d 4   5    .rdata  ascii   Zjz\v
+313 0x0002c17f 0x0042d37f 4   5    .rdata  ascii   i]Wb
+314 0x0002c18e 0x0042d38e 4   5    .rdata  ascii   knv\e
+315 0x0002c195 0x0042d395 4   6    .rdata  utf8    +ӉZz
+316 0x0002c236 0x0042d436 5   8    .rdata  utf8    c윣ju\n
+317 0x0002c2bf 0x0042d4bf 4   5    .rdata  ascii   9a&g
+318 0x0002c2c8 0x0042d4c8 4   5    .rdata  ascii   MGiI
+319 0x0002c2cd 0x0042d4cd 6   8    .rdata  utf8    wn>JjѮ
+320 0x0002c30f 0x0042d50f 4   5    .rdata  ascii   #.zf
+321 0x0002c31d 0x0042d51d 4   5    .rdata  ascii   +o*7
+322 0x0002d4ec 0x0042e6ec 46  47   .rdata  ascii    inflate 1.1.3 Copyright 1995-1998 Mark Adler
+323 0x0002d530 0x0042e730 6   28   .rdata  utf32le \a\b\t\n\v\r
+324 0x0002d560 0x0042e760 8   36   .rdata  utf32le #+3;CScs
+325 0x0002d648 0x0042e848 4   20   .rdata  utf32le !1Aa
+326 0x0002d6d8 0x0042e8d8 14  60   .rdata  utf32le \a\a\b\b\t\t\n\n\v\v\f\f\r\r
+327 0x0002d715 0x0042e915 5   6    .rdata  ascii   0\aw,a
+328 0x0002d774 0x0042e974 4   6    .rdata  utf8    (kdz
+329 0x0002d791 0x0042e991 4   5    .rdata  ascii    n;^
+330 0x0002d7e3 0x0042e9e3 4   6    .rdata  utf8    !#ĳV
+331 0x0002d844 0x0042ea44 4   5    .rdata  ascii   -=m\b
+332 0x0002d851 0x0042ea51 6   7    .rdata  ascii   Qkkbal
+333 0x0002d889 0x0042ea89 4   6    .rdata  utf8    |ӌeL
+334 0x0002d8c7 0x0042eac7 4   5    .rdata  ascii   3_L\n
+335 0x0002d91d 0x0042eb1d 4   6    .rdata  utf8    ұt9G
+336 0x0002d938 0x0042eb38 4   5    .rdata  ascii   >jm\r
+337 0x0002d93d 0x0042eb3d 4   5    .rdata  ascii   Zjz\v
+338 0x0002d95f 0x0042eb5f 4   5    .rdata  ascii   i]Wb
+339 0x0002d96e 0x0042eb6e 4   5    .rdata  ascii   knv\e
+340 0x0002d975 0x0042eb75 4   6    .rdata  utf8    +ӉZz
+341 0x0002da16 0x0042ec16 5   8    .rdata  utf8    c윣ju\n
+342 0x0002da9f 0x0042ec9f 4   5    .rdata  ascii   9a&g
+343 0x0002daa8 0x0042eca8 4   5    .rdata  ascii   MGiI
+344 0x0002daad 0x0042ecad 6   8    .rdata  utf8    wn>JjѮ
+345 0x0002daef 0x0042ecef 4   5    .rdata  ascii   #.zf
+346 0x0002dafd 0x0042ecfd 4   5    .rdata  ascii   +o*7
+347 0x0002db0f 0x0042ed0f 43  44   .rdata  ascii   - unzip 0.15 Copyright 1998 Gilles Vollant
+348 0x0002db3c 0x0042ed3c 27  28   .rdata  ascii   invalid literal/length code
+349 0x0002db58 0x0042ed58 21  22   .rdata  ascii   invalid distance code
+350 0x0002db70 0x0042ed70 18  19   .rdata  ascii   invalid block type
+351 0x0002db84 0x0042ed84 28  29   .rdata  ascii   invalid stored block lengths
+352 0x0002dba4 0x0042eda4 35  36   .rdata  ascii   too many length or distance symbols
+353 0x0002dbc8 0x0042edc8 25  26   .rdata  ascii   invalid bit length repeat
+354 0x0002dbe4 0x0042ede4 39  40   .rdata  ascii   oversubscribed dynamic bit lengths tree
+355 0x0002dc0c 0x0042ee0c 35  36   .rdata  ascii   incomplete dynamic bit lengths tree
+356 0x0002dc30 0x0042ee30 34  35   .rdata  ascii   oversubscribed literal/length tree
+357 0x0002dc54 0x0042ee54 30  31   .rdata  ascii   incomplete literal/length tree
+358 0x0002dc74 0x0042ee74 28  29   .rdata  ascii   oversubscribed distance tree
+359 0x0002dc94 0x0042ee94 24  25   .rdata  ascii   incomplete distance tree
+360 0x0002dcb0 0x0042eeb0 32  33   .rdata  ascii   empty distance tree with lengths
+361 0x0002dcd4 0x0042eed4 26  27   .rdata  ascii   unknown compression method
+362 0x0002dcf0 0x0042eef0 19  20   .rdata  ascii   invalid window size
+363 0x0002dd04 0x0042ef04 22  23   .rdata  ascii   incorrect header check
+364 0x0002dd1c 0x0042ef1c 20  21   .rdata  ascii   incorrect data check
+365 0x0002dd44 0x0042ef44 4   10   .rdata  utf16le \../
+366 0x0002dd50 0x0042ef50 4   10   .rdata  utf16le /../
+367 0x0002dd5c 0x0042ef5c 4   10   .rdata  utf16le /..\
+368 0x0002dd6c 0x0042ef6c 4   10   .rdata  utf16le %s%s
+369 0x0002dd78 0x0042ef78 6   14   .rdata  utf16le %s%s%s
+370 0x0002dd94 0x0042ef94 18  19   .rdata  ascii   vector<T> too long
+371 0x0002ddf0 0x0042eff0 4   5    .rdata  ascii   RSDS
+372 0x0002de08 0x0042f008 55  72   .rdata  utf8    \\192.168.0.242\公司交换区\L_吕天宇\EUUnZip\Release\EUUnZip.pdb
+373 0x0002ee54 0x00430054 4   9    .rdata  utf16le XCdC
+374 0x00030ae6 0x00431ce6 25  26   .rdata  ascii   CreateStdAccessibleObject
+375 0x00030b02 0x00431d02 17  18   .rdata  ascii   LresultFromObject
+376 0x00030fe2 0x004321e2 15  16   .rdata  ascii   GetCommandLineW
+377 0x00030ff4 0x004321f4 16  17   .rdata  ascii   GetModuleHandleW
+378 0x00031008 0x00432208 14  15   .rdata  ascii   SizeofResource
+379 0x0003101a 0x0043221a 12  13   .rdata  ascii   LockResource
+380 0x0003102a 0x0043222a 12  13   .rdata  ascii   LoadResource
+381 0x0003103a 0x0043223a 13  14   .rdata  ascii   FindResourceW
+382 0x0003104a 0x0043224a 14  15   .rdata  ascii   SetFilePointer
+383 0x0003105c 0x0043225c 20  21   .rdata  ascii   SystemTimeToFileTime
+384 0x00031074 0x00432274 16  17   .rdata  ascii   CreateDirectoryW
+385 0x00031088 0x00432288 11  12   .rdata  ascii   SetFileTime
+386 0x00031096 0x00432296 9   10   .rdata  ascii   WriteFile
+387 0x000310a2 0x004322a2 19  20   .rdata  ascii   WideCharToMultiByte
+388 0x000310b8 0x004322b8 18  19   .rdata  ascii   GetFileAttributesW
+389 0x000310ce 0x004322ce 8   9    .rdata  ascii   ReadFile
+390 0x000310da 0x004322da 11  12   .rdata  ascii   CreateFileW
+391 0x000310e8 0x004322e8 19  20   .rdata  ascii   MultiByteToWideChar
+392 0x000310fe 0x004322fe 20  21   .rdata  ascii   GetCurrentDirectoryW
+393 0x00031116 0x00432316 11  12   .rdata  ascii   CloseHandle
+394 0x00031124 0x00432324 23  24   .rdata  ascii   LocalFileTimeToFileTime
+395 0x0003113e 0x0043233e 15  16   .rdata  ascii   UnmapViewOfFile
+396 0x00031150 0x00432350 12  13   .rdata  ascii   GetTickCount
+397 0x00031160 0x00432360 20  21   .rdata  ascii   FileTimeToSystemTime
+398 0x00031178 0x00432378 14  15   .rdata  ascii   FindFirstFileW
+399 0x0003118a 0x0043238a 9   10   .rdata  ascii   FindClose
+400 0x00031196 0x00432396 14  15   .rdata  ascii   GetProcAddress
+401 0x000311a8 0x004323a8 11  12   .rdata  ascii   FreeLibrary
+402 0x000311b6 0x004323b6 11  12   .rdata  ascii   GlobalAlloc
+403 0x000311c4 0x004323c4 8   9    .rdata  ascii   lstrcmpW
+404 0x000311d0 0x004323d0 10  11   .rdata  ascii   GlobalLock
+405 0x000311de 0x004323de 19  20   .rdata  ascii   InterlockedExchange
+406 0x000311f4 0x004323f4 14  15   .rdata  ascii   CompareStringA
+407 0x00031206 0x00432406 12  13   .rdata  ascii   LoadLibraryW
+408 0x00031216 0x00432416 14  15   .rdata  ascii   GetLocaleInfoW
+409 0x00031228 0x00432428 8   9    .rdata  ascii   lstrcmpA
+410 0x00031234 0x00432434 18  19   .rdata  ascii   GetModuleFileNameW
+411 0x0003124a 0x0043244a 22  23   .rdata  ascii   EnumResourceLanguagesW
+412 0x00031264 0x00432464 20  21   .rdata  ascii   ConvertDefaultLocale
+413 0x0003127c 0x0043247c 18  19   .rdata  ascii   GetCurrentThreadId
+414 0x00031292 0x00432492 16  17   .rdata  ascii   GetCurrentThread
+415 0x000312a6 0x004324a6 16  17   .rdata  ascii   GlobalDeleteAtom
+416 0x000312ba 0x004324ba 8   9    .rdata  ascii   lstrlenW
+417 0x000312c6 0x004324c6 12  13   .rdata  ascii   SetErrorMode
+418 0x000312d6 0x004324d6 9   10   .rdata  ascii   LocalFree
+419 0x000312e2 0x004324e2 14  15   .rdata  ascii   FormatMessageW
+420 0x000312f4 0x004324f4 12  13   .rdata  ascii   GlobalUnlock
+421 0x00031304 0x00432504 10  11   .rdata  ascii   GlobalFree
+422 0x00031312 0x00432512 12  13   .rdata  ascii   SetLastError
+423 0x00031322 0x00432522 12  13   .rdata  ascii   GetLastError
+424 0x00031332 0x00432532 13  14   .rdata  ascii   FindNextFileW
+425 0x00031342 0x00432542 23  24   .rdata  ascii   FileTimeToLocalFileTime
+426 0x0003135c 0x0043255c 26  27   .rdata  ascii   WritePrivateProfileStringW
+427 0x0003137a 0x0043257a 20  21   .rdata  ascii   InterlockedDecrement
+428 0x00031392 0x00432592 16  17   .rdata  ascii   GetModuleHandleA
+429 0x000313a6 0x004325a6 11  12   .rdata  ascii   GlobalFlags
+430 0x000313b4 0x004325b4 14  15   .rdata  ascii   CompareStringW
+431 0x000313c6 0x004325c6 10  11   .rdata  ascii   LocalAlloc
+432 0x000313d4 0x004325d4 20  21   .rdata  ascii   LeaveCriticalSection
+433 0x000313ec 0x004325ec 11  12   .rdata  ascii   TlsGetValue
+434 0x000313fa 0x004325fa 20  21   .rdata  ascii   EnterCriticalSection
+435 0x00031412 0x00432612 13  14   .rdata  ascii   GlobalReAlloc
+436 0x00031422 0x00432622 12  13   .rdata  ascii   GlobalHandle
+437 0x00031432 0x00432632 25  26   .rdata  ascii   InitializeCriticalSection
+438 0x0003144e 0x0043264e 8   9    .rdata  ascii   TlsAlloc
+439 0x0003145a 0x0043265a 11  12   .rdata  ascii   TlsSetValue
+440 0x00031468 0x00432668 12  13   .rdata  ascii   LocalReAlloc
+441 0x00031478 0x00432678 21  22   .rdata  ascii   DeleteCriticalSection
+442 0x00031490 0x00432690 7   8    .rdata  ascii   TlsFree
+443 0x0003149a 0x0043269a 20  21   .rdata  ascii   InterlockedIncrement
+444 0x000314b2 0x004326b2 14  15   .rdata  ascii   GlobalAddAtomW
+445 0x000314c4 0x004326c4 19  20   .rdata  ascii   GetCurrentProcessId
+446 0x000314da 0x004326da 13  14   .rdata  ascii   GetVersionExA
+447 0x000314ea 0x004326ea 12  13   .rdata  ascii   LoadLibraryA
+448 0x000314fa 0x004326fa 15  16   .rdata  ascii   GlobalFindAtomW
+449 0x0003150c 0x0043270c 8   9    .rdata  ascii   lstrlenA
+450 0x00031518 0x00432718 16  17   .rdata  ascii   FlushFileBuffers
+451 0x0003152c 0x0043272c 17  18   .rdata  ascii   GetCurrentProcess
+452 0x00031540 0x00432740 16  17   .rdata  ascii   GetFullPathNameW
+453 0x00031554 0x00432754 8   9    .rdata  ascii   HeapFree
+454 0x00031560 0x00432760 9   10   .rdata  ascii   HeapAlloc
+455 0x0003156c 0x0043276c 16  17   .rdata  ascii   TerminateProcess
+456 0x00031580 0x00432780 24  25   .rdata  ascii   UnhandledExceptionFilter
+457 0x0003159c 0x0043279c 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+458 0x000315ba 0x004327ba 17  18   .rdata  ascii   IsDebuggerPresent
+459 0x000315ce 0x004327ce 9   10   .rdata  ascii   RtlUnwind
+460 0x000315da 0x004327da 5   6    .rdata  ascii   Sleep
+461 0x000315e2 0x004327e2 11  12   .rdata  ascii   ExitProcess
+462 0x000315f0 0x004327f0 14  15   .rdata  ascii   RaiseException
+463 0x00031602 0x00432802 11  12   .rdata  ascii   HeapReAlloc
+464 0x00031610 0x00432810 8   9    .rdata  ascii   HeapSize
+465 0x0003161c 0x0043281c 10  11   .rdata  ascii   HeapCreate
+466 0x0003162a 0x0043282a 11  12   .rdata  ascii   VirtualFree
+467 0x00031638 0x00432838 12  13   .rdata  ascii   VirtualAlloc
+468 0x00031648 0x00432848 12  13   .rdata  ascii   GetStdHandle
+469 0x00031658 0x00432858 18  19   .rdata  ascii   GetModuleFileNameA
+470 0x0003166e 0x0043286e 9   10   .rdata  ascii   GetCPInfo
+471 0x0003167a 0x0043287a 6   7    .rdata  ascii   GetACP
+472 0x00031684 0x00432884 8   9    .rdata  ascii   GetOEMCP
+473 0x00031690 0x00432890 15  16   .rdata  ascii   IsValidCodePage
+474 0x000316a2 0x004328a2 23  24   .rdata  ascii   FreeEnvironmentStringsW
+475 0x000316bc 0x004328bc 22  23   .rdata  ascii   GetEnvironmentStringsW
+476 0x000316d6 0x004328d6 14  15   .rdata  ascii   SetHandleCount
+477 0x000316e8 0x004328e8 11  12   .rdata  ascii   GetFileType
+478 0x000316f6 0x004328f6 15  16   .rdata  ascii   GetStartupInfoA
+479 0x00031708 0x00432908 23  24   .rdata  ascii   QueryPerformanceCounter
+480 0x00031722 0x00432922 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+481 0x0003173c 0x0043293c 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+482 0x00031764 0x00432964 22  23   .rdata  ascii   GetTimeZoneInformation
+483 0x0003177e 0x0043297e 12  13   .rdata  ascii   GetConsoleCP
+484 0x0003178e 0x0043298e 14  15   .rdata  ascii   GetConsoleMode
+485 0x000317a0 0x004329a0 12  13   .rdata  ascii   LCMapStringA
+486 0x000317b0 0x004329b0 12  13   .rdata  ascii   LCMapStringW
+487 0x000317c0 0x004329c0 14  15   .rdata  ascii   GetStringTypeA
+488 0x000317d2 0x004329d2 14  15   .rdata  ascii   GetStringTypeW
+489 0x000317e4 0x004329e4 14  15   .rdata  ascii   GetLocaleInfoA
+490 0x000317f6 0x004329f6 20  21   .rdata  ascii   GetCurrentDirectoryA
+491 0x0003180e 0x00432a0e 13  14   .rdata  ascii   GetDriveTypeA
+492 0x0003181e 0x00432a1e 12  13   .rdata  ascii   SetStdHandle
+493 0x0003182e 0x00432a2e 13  14   .rdata  ascii   WriteConsoleA
+494 0x0003183e 0x00432a3e 18  19   .rdata  ascii   GetConsoleOutputCP
+495 0x00031854 0x00432a54 13  14   .rdata  ascii   WriteConsoleW
+496 0x00031864 0x00432a64 11  12   .rdata  ascii   CreateFileA
+497 0x00031872 0x00432a72 23  24   .rdata  ascii   SetEnvironmentVariableA
+498 0x0003188a 0x00432a8a 12  13   .rdata  ascii   KERNEL32.dll
+499 0x0003189a 0x00432a9a 9   10   .rdata  ascii   wsprintfW
+500 0x000318a6 0x00432aa6 15  16   .rdata  ascii   PostQuitMessage
+501 0x000318b8 0x00432ab8 12  13   .rdata  ascii   PostMessageW
+502 0x000318c8 0x00432ac8 10  11   .rdata  ascii   GetSubMenu
+503 0x000318d6 0x00432ad6 16  17   .rdata  ascii   GetMenuItemCount
+504 0x000318ea 0x00432aea 13  14   .rdata  ascii   GetMenuItemID
+505 0x000318fa 0x00432afa 12  13   .rdata  ascii   GetMenuState
+506 0x0003190a 0x00432b0a 12  13   .rdata  ascii   ValidateRect
+507 0x0003191a 0x00432b1a 12  13   .rdata  ascii   GetCursorPos
+508 0x0003192a 0x00432b2a 12  13   .rdata  ascii   PeekMessageW
+509 0x0003193a 0x00432b3a 11  12   .rdata  ascii   GetKeyState
+510 0x00031948 0x00432b48 12  13   .rdata  ascii   SendMessageW
+511 0x00031958 0x00432b58 15  16   .rdata  ascii   IsWindowVisible
+512 0x0003196a 0x00432b6a 15  16   .rdata  ascii   GetActiveWindow
+513 0x0003197c 0x00432b7c 16  17   .rdata  ascii   DispatchMessageW
+514 0x00031990 0x00432b90 16  17   .rdata  ascii   TranslateMessage
+515 0x000319a4 0x00432ba4 11  12   .rdata  ascii   GetMessageW
+516 0x000319b2 0x00432bb2 14  15   .rdata  ascii   CallNextHookEx
+517 0x000319c4 0x00432bc4 17  18   .rdata  ascii   SetWindowsHookExW
+518 0x000319d8 0x00432bd8 13  14   .rdata  ascii   CheckMenuItem
+519 0x000319e8 0x00432be8 14  15   .rdata  ascii   EnableMenuItem
+520 0x000319fa 0x00432bfa 11  12   .rdata  ascii   ModifyMenuW
+521 0x00031a08 0x00432c08 9   10   .rdata  ascii   GetParent
+522 0x00031a14 0x00432c14 8   9    .rdata  ascii   GetFocus
+523 0x00031a20 0x00432c20 11  12   .rdata  ascii   LoadBitmapW
+524 0x00031a2e 0x00432c2e 26  27   .rdata  ascii   GetMenuCheckMarkDimensions
+525 0x00031a4c 0x00432c4c 18  19   .rdata  ascii   SetMenuItemBitmaps
+526 0x00031a62 0x00432c62 9   10   .rdata  ascii   SetCursor
+527 0x00031a6e 0x00432c6e 19  20   .rdata  ascii   UnhookWindowsHookEx
+528 0x00031a84 0x00432c84 14  15   .rdata  ascii   TabbedTextOutW
+529 0x00031a96 0x00432c96 9   10   .rdata  ascii   DrawTextW
+530 0x00031aa2 0x00432ca2 11  12   .rdata  ascii   DrawTextExW
+531 0x00031ab0 0x00432cb0 11  12   .rdata  ascii   GrayStringW
+532 0x00031abe 0x00432cbe 14  15   .rdata  ascii   ClientToScreen
+533 0x00031ad0 0x00432cd0 5   6    .rdata  ascii   GetDC
+534 0x00031ad8 0x00432cd8 9   10   .rdata  ascii   ReleaseDC
+535 0x00031ae4 0x00432ce4 11  12   .rdata  ascii   GetSysColor
+536 0x00031af2 0x00432cf2 14  15   .rdata  ascii   SetWindowTextW
+537 0x00031b04 0x00432d04 14  15   .rdata  ascii   GetWindowTextW
+538 0x00031b16 0x00432d16 8   9    .rdata  ascii   PtInRect
+539 0x00031b22 0x00432d22 13  14   .rdata  ascii   GetClassNameW
+540 0x00031b32 0x00432d32 14  15   .rdata  ascii   GetWindowLongW
+541 0x00031b44 0x00432d44 13  14   .rdata  ascii   GetWindowRect
+542 0x00031b54 0x00432d54 12  13   .rdata  ascii   GetDlgCtrlID
+543 0x00031b64 0x00432d64 9   10   .rdata  ascii   GetWindow
+544 0x00031b70 0x00432d70 11  12   .rdata  ascii   MessageBoxW
+545 0x00031b7e 0x00432d7e 12  13   .rdata  ascii   EnableWindow
+546 0x00031b8e 0x00432d8e 15  16   .rdata  ascii   IsWindowEnabled
+547 0x00031ba0 0x00432da0 18  19   .rdata  ascii   GetLastActivePopup
+548 0x00031bb6 0x00432db6 24  25   .rdata  ascii   GetWindowThreadProcessId
+549 0x00031bd2 0x00432dd2 16  17   .rdata  ascii   GetSystemMetrics
+550 0x00031be6 0x00432de6 18  19   .rdata  ascii   GetWindowPlacement
+551 0x00031bfc 0x00432dfc 8   9    .rdata  ascii   IsIconic
+552 0x00031c08 0x00432e08 21  22   .rdata  ascii   SystemParametersInfoA
+553 0x00031c20 0x00432e20 12  13   .rdata  ascii   SetWindowPos
+554 0x00031c30 0x00432e30 14  15   .rdata  ascii   SetWindowLongW
+555 0x00031c42 0x00432e42 7   8    .rdata  ascii   GetMenu
+556 0x00031c4c 0x00432e4c 8   9    .rdata  ascii   CopyRect
+557 0x00031c58 0x00432e58 15  16   .rdata  ascii   CallWindowProcW
+558 0x00031c6a 0x00432e6a 14  15   .rdata  ascii   DefWindowProcW
+559 0x00031c7c 0x00432e7c 18  19   .rdata  ascii   AdjustWindowRectEx
+560 0x00031c92 0x00432e92 14  15   .rdata  ascii   RegisterClassW
+561 0x00031ca4 0x00432ea4 13  14   .rdata  ascii   GetClassInfoW
+562 0x00031cb4 0x00432eb4 15  16   .rdata  ascii   GetClassInfoExW
+563 0x00031cc6 0x00432ec6 15  16   .rdata  ascii   CreateWindowExW
+564 0x00031cd8 0x00432ed8 13  14   .rdata  ascii   GetClientRect
+565 0x00031ce8 0x00432ee8 19  20   .rdata  ascii   SetForegroundWindow
+566 0x00031cfe 0x00432efe 7   8    .rdata  ascii   SetMenu
+567 0x00031d08 0x00432f08 15  16   .rdata  ascii   MapWindowPoints
+568 0x00031d1a 0x00432f1a 13  14   .rdata  ascii   GetMessagePos
+569 0x00031d2a 0x00432f2a 14  15   .rdata  ascii   GetMessageTime
+570 0x00031d3c 0x00432f3c 13  14   .rdata  ascii   DestroyWindow
+571 0x00031d4c 0x00432f4c 12  13   .rdata  ascii   GetTopWindow
+572 0x00031d5c 0x00432f5c 10  11   .rdata  ascii   GetDlgItem
+573 0x00031d6a 0x00432f6a 19  20   .rdata  ascii   GetForegroundWindow
+574 0x00031d80 0x00432f80 8   9    .rdata  ascii   IsWindow
+575 0x00031d8c 0x00432f8c 11  12   .rdata  ascii   RemovePropW
+576 0x00031d9a 0x00432f9a 8   9    .rdata  ascii   GetPropW
+577 0x00031da6 0x00432fa6 8   9    .rdata  ascii   SetPropW
+578 0x00031db2 0x00432fb2 13  14   .rdata  ascii   GetClassLongW
+579 0x00031dc2 0x00432fc2 10  11   .rdata  ascii   GetCapture
+580 0x00031dd0 0x00432fd0 8   9    .rdata  ascii   WinHelpW
+581 0x00031ddc 0x00432fdc 9   10   .rdata  ascii   LoadIconW
+582 0x00031de8 0x00432fe8 22  23   .rdata  ascii   RegisterWindowMessageW
+583 0x00031e02 0x00433002 16  17   .rdata  ascii   GetSysColorBrush
+584 0x00031e16 0x00433016 11  12   .rdata  ascii   LoadCursorW
+585 0x00031e24 0x00433024 10  11   .rdata  ascii   ShowWindow
+586 0x00031e32 0x00433032 11  12   .rdata  ascii   DestroyMenu
+587 0x00031e3e 0x0043303e 10  11   .rdata  ascii   USER32.dll
+588 0x00031e4c 0x0043304c 13  14   .rdata  ascii   GetDeviceCaps
+589 0x00031e5c 0x0043305c 12  13   .rdata  ascii   CreateBitmap
+590 0x00031e6c 0x0043306c 6   7    .rdata  ascii   SaveDC
+591 0x00031e76 0x00433076 9   10   .rdata  ascii   RestoreDC
+592 0x00031e82 0x00433082 10  11   .rdata  ascii   SetBkColor
+593 0x00031e90 0x00433090 12  13   .rdata  ascii   SetTextColor
+594 0x00031ea0 0x004330a0 10  11   .rdata  ascii   SetMapMode
+595 0x00031eae 0x004330ae 10  11   .rdata  ascii   GetClipBox
+596 0x00031ebc 0x004330bc 12  13   .rdata  ascii   DeleteObject
+597 0x00031ecc 0x004330cc 9   10   .rdata  ascii   PtVisible
+598 0x00031ed8 0x004330d8 11  12   .rdata  ascii   RectVisible
+599 0x00031ee6 0x004330e6 8   9    .rdata  ascii   TextOutW
+600 0x00031ef2 0x004330f2 11  12   .rdata  ascii   ExtTextOutW
+601 0x00031f00 0x00433100 6   7    .rdata  ascii   Escape
+602 0x00031f0a 0x0043310a 12  13   .rdata  ascii   SelectObject
+603 0x00031f1a 0x0043311a 16  17   .rdata  ascii   SetViewportOrgEx
+604 0x00031f2e 0x0043312e 19  20   .rdata  ascii   OffsetViewportOrgEx
+605 0x00031f44 0x00433144 16  17   .rdata  ascii   SetViewportExtEx
+606 0x00031f58 0x00433158 18  19   .rdata  ascii   ScaleViewportExtEx
+607 0x00031f6e 0x0043316e 14  15   .rdata  ascii   SetWindowExtEx
+608 0x00031f80 0x00433180 16  17   .rdata  ascii   ScaleWindowExtEx
+609 0x00031f94 0x00433194 8   9    .rdata  ascii   DeleteDC
+610 0x00031fa0 0x004331a0 14  15   .rdata  ascii   GetStockObject
+611 0x00031fb0 0x004331b0 9   10   .rdata  ascii   GDI32.dll
+612 0x00031fbc 0x004331bc 12  13   .rdata  ascii   ClosePrinter
+613 0x00031fcc 0x004331cc 19  20   .rdata  ascii   DocumentPropertiesW
+614 0x00031fe2 0x004331e2 12  13   .rdata  ascii   OpenPrinterW
+615 0x00031ff0 0x004331f0 12  13   .rdata  ascii   WINSPOOL.DRV
+616 0x00032000 0x00433200 11  12   .rdata  ascii   RegCloseKey
+617 0x0003200e 0x0043320e 16  17   .rdata  ascii   RegQueryValueExW
+618 0x00032022 0x00433222 13  14   .rdata  ascii   RegOpenKeyExW
+619 0x00032032 0x00433232 15  16   .rdata  ascii   RegCreateKeyExW
+620 0x00032044 0x00433244 14  15   .rdata  ascii   RegSetValueExW
+621 0x00032056 0x00433256 13  14   .rdata  ascii   RegDeleteKeyW
+622 0x00032066 0x00433266 11  12   .rdata  ascii   RegEnumKeyW
+623 0x00032074 0x00433274 11  12   .rdata  ascii   RegOpenKeyW
+624 0x00032082 0x00433282 14  15   .rdata  ascii   RegQueryValueW
+625 0x00032092 0x00433292 12  13   .rdata  ascii   ADVAPI32.dll
+626 0x000320a2 0x004332a2 18  19   .rdata  ascii   CommandLineToArgvW
+627 0x000320b6 0x004332b6 11  12   .rdata  ascii   SHELL32.dll
+628 0x000320c4 0x004332c4 18  19   .rdata  ascii   PathFindExtensionW
+629 0x000320da 0x004332da 17  18   .rdata  ascii   PathFindFileNameW
+630 0x000320ec 0x004332ec 11  12   .rdata  ascii   SHLWAPI.dll
+631 0x000320f8 0x004332f8 12  13   .rdata  ascii   OLEAUT32.dll
+632 0x00032298 0x00434098 13  14   .data   ascii   .?AVCWinApp@@
+633 0x000322b0 0x004340b0 16  17   .data   ascii   .?AVCWinThread@@
+634 0x000322cc 0x004340cc 16  17   .data   ascii   .?AVCCmdTarget@@
+635 0x000322e8 0x004340e8 13  14   .data   ascii   .?AVCObject@@
+636 0x00032300 0x00434100 16  17   .data   ascii   .PAVCException@@
+637 0x0003231c 0x0043411c 19  20   .data   ascii   .?AVCOleException@@
+638 0x00032338 0x00434138 16  17   .data   ascii   .?AVCException@@
+639 0x00032354 0x00434154 19  20   .data   ascii   .PAVCOleException@@
+640 0x00032370 0x00434170 13  14   .data   ascii   .PAVCObject@@
+641 0x00032388 0x00434188 4   5    .data   ascii   .PAX
+642 0x00032398 0x00434198 22  23   .data   ascii   .PAVCMemoryException@@
+643 0x000323b8 0x004341b8 22  23   .data   ascii   .PAVCSimpleException@@
+644 0x000323d8 0x004341d8 28  29   .data   ascii   .PAVCNotSupportedException@@
+645 0x00032400 0x00434200 26  27   .data   ascii   .PAVCInvalidArgException@@
+646 0x00032424 0x00434224 22  23   .data   ascii   .?AVCSimpleException@@
+647 0x00032444 0x00434244 22  23   .data   ascii   .?AVCMemoryException@@
+648 0x00032464 0x00434264 28  29   .data   ascii   .?AVCNotSupportedException@@
+649 0x0003248c 0x0043428c 26  27   .data   ascii   .?AVCInvalidArgException@@
+650 0x000327f8 0x004345f8 19  20   .data   ascii   .?AVCAfxStringMgr@@
+651 0x00032814 0x00434614 23  24   .data   ascii   .?AUIAtlStringMgr@ATL@@
+652 0x00032834 0x00434634 15  16   .data   ascii   .?AVCFileFind@@
+653 0x00032858 0x00434658 12  13   .data   ascii   .?AVCCmdUI@@
+654 0x00032870 0x00434670 23  24   .data   ascii   .?AV_AFX_THREAD_STATE@@
+655 0x00032890 0x00434690 20  21   .data   ascii   .?AVCNoTrackObject@@
+656 0x000328b0 0x004346b0 29  30   .data   ascii   .?AVAFX_MODULE_THREAD_STATE@@
+657 0x000328d8 0x004346d8 22  23   .data   ascii   .?AVAFX_MODULE_STATE@@
+658 0x000328f8 0x004346f8 30  31   .data   ascii   .?AVCDllIsolationWrapperBase@@
+659 0x00032920 0x00434720 20  21   .data   ascii   .?AVCComCtlWrapper@@
+660 0x00032940 0x00434740 21  22   .data   ascii   .?AVCCommDlgWrapper@@
+661 0x00032960 0x00434760 19  20   .data   ascii   .?AVCShellWrapper@@
+662 0x0003297c 0x0043477c 28  29   .data   ascii   .?AV_AFX_BASE_MODULE_STATE@@
+663 0x000329a4 0x004347a4 20  21   .data   ascii   .PAVCUserException@@
+664 0x000329c4 0x004347c4 24  25   .data   ascii   .?AVCResourceException@@
+665 0x000329e8 0x004347e8 20  21   .data   ascii   .?AVCUserException@@
+666 0x00032a08 0x00434808 16  17   .data   ascii   .?AVCGdiObject@@
+667 0x00032a24 0x00434824 9   10   .data   ascii   .?AVCDC@@
+668 0x00032a38 0x00434838 17  18   .data   ascii   .?AUCThreadData@@
+669 0x00032af4 0x004348f4 22  23   .data   ascii   .?AVXAccessible@CWnd@@
+670 0x00032b14 0x00434914 28  29   .data   ascii   .?AVXAccessibleServer@CWnd@@
+671 0x00032b3c 0x0043493c 10  11   .data   ascii   .?AVCWnd@@
+672 0x00032b50 0x00434950 25  26   .data   ascii   .?AV_AFX_HTMLHELP_STATE@@
+673 0x00032b74 0x00434974 16  17   .data   ascii   .?AVCTestCmdUI@@
+674 0x00032b90 0x00434990 56  57   .data   ascii   .?AV?$IAccessibleProxyImpl@VCAccessibleProxy@ATL@@@ATL@@
+675 0x00032bd4 0x004349d4 17  18   .data   ascii   .?AUIAccessible@@
+676 0x00032bf0 0x004349f0 15  16   .data   ascii   .?AUIDispatch@@
+677 0x00032c08 0x00434a08 14  15   .data   ascii   .?AUIUnknown@@
+678 0x00032c20 0x00434a20 22  23   .data   ascii   .?AUIAccessibleProxy@@
+679 0x00032c40 0x00434a40 45  46   .data   ascii   .?AV?$CMFCComObject@VCAccessibleProxy@ATL@@@@
+680 0x00032c78 0x00434a78 26  27   .data   ascii   .?AVCAccessibleProxy@ATL@@
+681 0x00032ca0 0x00434aa0 57  58   .data   ascii   .?AV?$CComObjectRootEx@VCComSingleThreadModel@ATL@@@ATL@@
+682 0x00032ce4 0x00434ae4 28  29   .data   ascii   .?AVCComObjectRootBase@ATL@@
+683 0x00032d0c 0x00434b0c 16  17   .data   ascii   .?AUIOleWindow@@
+684 0x00032d28 0x00434b28 23  24   .data   ascii   .PAVCArchiveException@@
+685 0x00032d48 0x00434b48 23  24   .data   ascii   .?AVCArchiveException@@
+686 0x00032d68 0x00434b68 16  17   .data   ascii   .?AVCHandleMap@@
+687 0x00032d84 0x00434b84 11  12   .data   ascii   .?AVCMenu@@
+688 0x00032d98 0x00434b98 18  19   .data   ascii   .?AVCMapPtrToPtr@@
+689 0x00032dac 0x00434bac 9   20   .data   utf16le Apartment
+690 0x00032dc0 0x00434bc0 4   10   .data   utf16le Both
+691 0x00032dcc 0x00434bcc 4   10   .data   utf16le Free
+692 0x00032dfc 0x00434bfc 16  17   .data   ascii   .?AVCByteArray@@
+693 0x00032e60 0x00434c60 51  52   .data   ascii   .?AV?$CArray@W4LoadArrayObjType@CArchive@@ABW412@@@
+694 0x00032e9c 0x00434c9c 14  15   .data   ascii   .?AVCObArray@@
+695 0x00032ec4 0x00434cc4 15  16   .data   ascii   .?AVCPtrArray@@
+696 0x00032efc 0x00434cfc 15  16   .data   ascii   .?AVtype_info@@
+697 0x00032f4c 0x00434d4c 12  52   .data   utf32le \t\a\f\b\f\t\f\n\a\v\b\f
+698 0x00032fd0 0x00434dd0 5   24   .data   utf32le R\rS\rW
+699 0x00032fe8 0x00434de8 7   32   .data   utf32le Y\vl\rm p
+700 0x0003305c 0x00434e5c 4   20   .data   utf32le \v§\r·
+701 0x000335ae 0x004353ae 26  27   .data   ascii
+702 0x0003368e 0x0043548e 26  27   .data   ascii   abcdefghijklmnopqrstuvwxyz
+703 0x000336ae 0x004354ae 26  27   .data   ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZ
+704 0x000337b2 0x004355b2 26  27   .data   ascii
+705 0x00033899 0x00435699 26  27   .data   ascii   abcdefghijklmnopqrstuvwxyz
+706 0x000338b9 0x004356b9 26  27   .data   ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZ
+707 0x00033bac 0x004359ac 23  24   .data   ascii   .?AVbad_exception@std@@
+708 0x00033e58 0x00435c58 4   20   .data   utf32le 5\v@Ͽ
+709 0x00033f52 0x00435d52 4   5    .data   ascii   kU'9
+710 0x00033fa2 0x00435da2 8   11   .data   utf8    HMXB䧓9;5
+711 0x00033fdc 0x00435ddc 5   8    .data   utf8    ]݀nLɛ
+712 0x00033ffb 0x00435dfb 9   12   .data   utf8    ?q=\nףp=\nף
+713 0x00034007 0x00435e07 4   5    .data   ascii   ?Zd;
+714 0x0003404f 0x00435e4f 4   5    .data   ascii   ?/L[
+715 0x0003405e 0x00435e5e 4   5    .data   ascii   S;uD
+716 0x00034071 0x00435e71 4   6    .data   utf8    ϔ?$#
+717 0x00034077 0x00435e77 4   7    .data   utf8    ⼺;1a
+718 0x0003407e 0x00435e7e 5   6    .data   ascii   z?aUY
+719 0x00034096 0x00435e96 4   5    .data   ascii   D?$?
+720 0x000340ae 0x00435eae 4   5    .data   ascii   U>c{
+721 0x000340c0 0x00435ec0 8   10   .data   utf8    zc%C1,<!
+722 0x000340d3 0x00435ed3 5   7    .data   utf8    ;܈X\b\e
+723 0x000340df 0x00435edf 5   7    .data   utf8    ;ƄEB\a
+724 0x000340ea 0x00435eea 4   5    .data   ascii   .:3q
+725 0x00034113 0x00435f13 5   6    .data   ascii   -64OS
+726 0x00034134 0x00435f34 4   5    .data   ascii   NKeb
+727 0x0003427c 0x0043607c 22  23   .data   ascii   .?AVout_of_range@std@@
+728 0x000342a0 0x004360a0 19  20   .data   ascii   .?AVexception@std@@
+729 0x000342bc 0x004360bc 21  22   .data   ascii   .?AVlogic_error@std@@
+730 0x000342dc 0x004360dc 22  23   .data   ascii   .?AVlength_error@std@@
+731 0x000342fc 0x004360fc 19  20   .data   ascii   .?AVbad_alloc@std@@
+732 0x0003446e 0x0043a06e 8   18   .rsrc   utf16le \aEUUnZip

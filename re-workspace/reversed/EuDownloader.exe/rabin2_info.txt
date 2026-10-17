@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x400000
+binsz    1381608
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x00156413
+compiled Wed Sep  2 00:35:33 2037
+crypto   false
+dbg_file E:\AWork\DRW15.8AB3\sharelib\EuDownloadPublicLibrary\x86\exe\EuDownload.pdb
+endian   little
+havecode true
+hdr.csum 0x00156413
+guid     B29451CA5D6342588CE6CFC27E7C6E961
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows CUI
+va       true

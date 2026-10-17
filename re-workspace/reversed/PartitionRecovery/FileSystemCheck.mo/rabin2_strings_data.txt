@@ -1,0 +1,408 @@
+[Strings]
+nth paddr      vaddr       len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x0000bb88 0x18000c788 10  11   .rdata  ascii     Checking
+1   0x0000bba0 0x18000c7a0 74  75   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\mod.filesystemcheck\checkfat.cpp
+2   0x0000bbf0 0x18000c7f0 33  34   .rdata  ascii   Call ReadSector() failed! (%s,%d)
+3   0x0000bc18 0x18000c818 14  15   .rdata  ascii     Checking DBR
+4   0x0000bc28 0x18000c828 14  15   .rdata  ascii     Checking FAT
+5   0x0000bc38 0x18000c838 15  16   .rdata  ascii     Comparing FAT
+6   0x0000bc48 0x18000c848 24  25   .rdata  ascii     Checking Cluster Chain
+7   0x0000bc68 0x18000c868 19  20   .rdata  ascii     Checking Finished
+8   0x0000bc7c 0x18000c87c 5   6    .rdata  ascii   FAT12
+9   0x0000bc84 0x18000c884 5   6    .rdata  ascii   FAT16
+10  0x0000bc8c 0x18000c88c 5   6    .rdata  ascii   FAT32
+11  0x0000bc98 0x18000c898 8   9    .rdata  ascii   Name: %s
+12  0x0000bca4 0x18000c8a4 5   6    .rdata  ascii   %s\%s
+13  0x0000bcb0 0x18000c8b0 11  12   .rdata  ascii   Name: %s\%s
+14  0x0000bcc1 0x18000c8c1 8   9    .rdata  ascii   bLUUUu@"
+15  0x0000bf50 0x18000cb50 101 102  .rdata  ascii   Call m_ntfsMft.ReadFileRecord(FILE_Bitmap,fileRecord) in CCheckNTFSVolume::LoadVolumeBitmap() failed!
+16  0x0000bfc0 0x18000cbc0 70  71   .rdata  ascii   The $Bitmap file have 0x20 attribute! Currently, we do not support it!
+17  0x0000c010 0x18000cc10 71  72   .rdata  ascii   The $Bitmap::$DATA stream is resident! Currently, we do not support it!
+18  0x0000c060 0x18000cc60 88  89   .rdata  ascii   Call attribute.GetDataRunList() in CCheckNTFSVolume::LoadVolumeBitmap() failed!(Line:%d)
+19  0x0000c0c0 0x18000ccc0 75  76   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\mod.filesystemcheck\checkntfs.cpp
+20  0x0000c110 0x18000cd10 30  31   .rdata  ascii   allocate memory failed!(%s,%d)
+21  0x0000c130 0x18000cd30 32  33   .rdata  ascii   Call ReadSector() failed!(%s,%d)
+22  0x0000c158 0x18000cd58 37  38   .rdata  ascii   Call CreateBitmap(%lu) failed!(%s,%d)
+23  0x0000c180 0x18000cd80 53  54   .rdata  ascii   Call m_ntfsNewBitmap.CreateBitmap() failed!(size:%lu)
+24  0x0000c1b8 0x18000cdb8 30  31   .rdata  ascii   Call Read_MFT_Bitmap() failed!
+25  0x0000c1d8 0x18000cdd8 32  33   .rdata  ascii   ReadFileRecord failed(Index:%lu)
+26  0x0000c200 0x18000ce00 55  56   .rdata  ascii   Call fileRecord.GetFileRecordHeader() failed(Index:%lu)
+27  0x0000c238 0x18000ce38 59  60   .rdata  ascii   Call GetDataRunList() for attribute:0x%x failed!(Index:%lu)
+28  0x0000c280 0x18000ce80 98  99   .rdata  ascii   The location of attribute 0x%x of file record%lu is illegal!!!! Bitmap mark it as free!!!(LCN:%lu)
+29  0x0000c2f0 0x18000cef0 101 102  .rdata  ascii   The location of attribute 0x%x of file record%lu is illegal!!!! Please use 'Chkdsk' first!!!(LCN:%lu)
+30  0x0000c358 0x18000cf58 55  56   .rdata  ascii   file: %s, line: %d, error = 0x%I64x, lasterror = 0x%x \n
+31  0x0000c390 0x18000cf90 21  22   .rdata  ascii     NTFS Volume Loading
+32  0x0000c3a8 0x18000cfa8 42  43   .rdata  ascii   Call m_ntfsVolume.LoadNtfsVolume() failed!
+33  0x0000c3d8 0x18000cfd8 15  16   .rdata  ascii     Checking $MFT
+34  0x0000c3e8 0x18000cfe8 4   10   .rdata  utf16le $MFT
+35  0x0000c3f8 0x18000cff8 19  20   .rdata  ascii     Checking $MFTMirr
+36  0x0000c410 0x18000d010 29  30   .rdata  ascii   Call m_ntfsMft.Init() failed!
+37  0x0000c430 0x18000d030 23  24   .rdata  ascii     Checking NTFS Version
+38  0x0000c448 0x18000d048 18  19   .rdata  ascii     Checking $Bitmap
+39  0x0000c460 0x18000d060 38  39   .rdata  ascii   Call LoadVolumeBitmap() failed!(%s,%d)
+40  0x0000c488 0x18000d088 58  59   .rdata  ascii   The return value of CollectTheLocationOfData() is FALSE!!!
+41  0x0000c4d0 0x18000d0d0 81  82   .rdata  ascii   The volume have some errors,please use Chkdsk to check, and use Chkdsk /F to fix!
+42  0x0000c528 0x18000d128 18  19   .rdata  ascii   vector<T> too long
+43  0x0000ca88 0x18000d688 9   10   .rdata  ascii   GetModule
+44  0x0000cb64 0x18000d764 4   5    .rdata  ascii   NTFS
+45  0x0000cb70 0x18000d770 15  16   .rdata  ascii   FileSystemCheck
+46  0x0000cb80 0x18000d780 22  23   .rdata  ascii   CFileSystemCheckModule
+47  0x0000cc58 0x18000d858 6   7    .rdata  ascii   Thread
+48  0x0000cc60 0x18000d860 15  16   .rdata  ascii   string too long
+49  0x0000cc70 0x18000d870 19  20   .rdata  ascii   map/set<T> too long
+50  0x0000cca0 0x18000d8a0 6   7    .rdata  ascii   Common
+51  0x0000cca8 0x18000d8a8 6   7    .rdata  ascii   Stage:
+52  0x0000ccb0 0x18000d8b0 24  25   .rdata  ascii   Stage: %d%%; Total: %d%%
+53  0x0000ccd8 0x18000d8d8 23  24   .rdata  ascii   DEBUG : Msg ID (0x%08x)
+54  0x0000ccf0 0x18000d8f0 14  15   .rdata  ascii   IsWow64Process
+55  0x0000cd00 0x18000d900 8   9    .rdata  ascii   kernel32
+56  0x0000cd10 0x18000d910 13  14   .rdata  ascii   WinChkdsk.exe
+57  0x0000cd20 0x18000d920 17  18   .rdata  ascii   x64\WinChkdsk.exe
+58  0x0000cd80 0x18000d980 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+59  0x0000cdc8 0x18000d9c8 12  26   .rdata  utf16le kernel32.dll
+60  0x0000cde8 0x18000d9e8 27  28   .rdata  ascii   InitializeConditionVariable
+61  0x0000ce08 0x18000da08 24  25   .rdata  ascii   SleepConditionVariableCS
+62  0x0000ce28 0x18000da28 24  25   .rdata  ascii   WakeAllConditionVariable
+63  0x0000ce68 0x18000da68 17  18   .rdata  ascii   Unknown exception
+64  0x0000ce98 0x18000da98 14  15   .rdata  ascii   bad allocation
+65  0x0000cec0 0x18000dac0 20  21   .rdata  ascii   bad array new length
+66  0x0000cee4 0x18000dae4 4   5    .rdata  ascii   \n}`j
+67  0x0000cf00 0x18000db00 4   5    .rdata  ascii   \n}`j
+68  0x0000cf1c 0x18000db1c 4   5    .rdata  ascii   \n}`j
+69  0x0000dbcc 0x18000e7cc 4   5    .rdata  ascii   RSDS
+70  0x0000dbe4 0x18000e7e4 69  70   .rdata  ascii   I:\_drw_main\PartitionRecovery\Output\Release_x64\FileSystemCheck.pdb
+71  0x0000dc4c 0x18000e84c 8   9    .rdata  ascii   .text$mn
+72  0x0000dc60 0x18000e860 11  12   .rdata  ascii   .text$mn$00
+73  0x0000dc74 0x18000e874 7   8    .rdata  ascii   .text$x
+74  0x0000dc84 0x18000e884 8   9    .rdata  ascii   .text$yd
+75  0x0000dc98 0x18000e898 8   9    .rdata  ascii   .idata$5
+76  0x0000dcac 0x18000e8ac 6   7    .rdata  ascii   .00cfg
+77  0x0000dcbc 0x18000e8bc 8   9    .rdata  ascii   .CRT$XCA
+78  0x0000dcd0 0x18000e8d0 8   9    .rdata  ascii   .CRT$XCZ
+79  0x0000dce4 0x18000e8e4 8   9    .rdata  ascii   .CRT$XIA
+80  0x0000dcf8 0x18000e8f8 8   9    .rdata  ascii   .CRT$XIC
+81  0x0000dd0c 0x18000e90c 8   9    .rdata  ascii   .CRT$XIZ
+82  0x0000dd20 0x18000e920 8   9    .rdata  ascii   .CRT$XLA
+83  0x0000dd34 0x18000e934 8   9    .rdata  ascii   .CRT$XLZ
+84  0x0000dd48 0x18000e948 8   9    .rdata  ascii   .CRT$XPA
+85  0x0000dd5c 0x18000e95c 8   9    .rdata  ascii   .CRT$XPZ
+86  0x0000dd70 0x18000e970 8   9    .rdata  ascii   .CRT$XTA
+87  0x0000dd84 0x18000e984 8   9    .rdata  ascii   .CRT$XTZ
+88  0x0000dd98 0x18000e998 6   7    .rdata  ascii   .rdata
+89  0x0000dda8 0x18000e9a8 8   9    .rdata  ascii   .rdata$T
+90  0x0000ddbc 0x18000e9bc 8   9    .rdata  ascii   .rdata$r
+91  0x0000ddd0 0x18000e9d0 13  14   .rdata  ascii   .rdata$zzzdbg
+92  0x0000dde8 0x18000e9e8 8   9    .rdata  ascii   .rtc$IAA
+93  0x0000ddfc 0x18000e9fc 8   9    .rdata  ascii   .rtc$IZZ
+94  0x0000de10 0x18000ea10 8   9    .rdata  ascii   .rtc$TAA
+95  0x0000de24 0x18000ea24 8   9    .rdata  ascii   .rtc$TZZ
+96  0x0000de38 0x18000ea38 4   5    .rdata  ascii   .tls
+97  0x0000de48 0x18000ea48 5   6    .rdata  ascii   .tls$
+98  0x0000de58 0x18000ea58 8   9    .rdata  ascii   .tls$ZZZ
+99  0x0000de6c 0x18000ea6c 6   7    .rdata  ascii   .xdata
+100 0x0000de7c 0x18000ea7c 8   9    .rdata  ascii   .xdata$x
+101 0x0000de90 0x18000ea90 6   7    .rdata  ascii   .edata
+102 0x0000dea0 0x18000eaa0 8   9    .rdata  ascii   .idata$2
+103 0x0000deb4 0x18000eab4 8   9    .rdata  ascii   .idata$3
+104 0x0000dec8 0x18000eac8 8   9    .rdata  ascii   .idata$4
+105 0x0000dedc 0x18000eadc 8   9    .rdata  ascii   .idata$6
+106 0x0000def0 0x18000eaf0 5   6    .rdata  ascii   .data
+107 0x0000df00 0x18000eb00 7   8    .rdata  ascii   .data$r
+108 0x0000df10 0x18000eb10 4   5    .rdata  ascii   .bss
+109 0x0000df20 0x18000eb20 6   7    .rdata  ascii   .pdata
+110 0x0000df30 0x18000eb30 8   9    .rdata  ascii   .rsrc$01
+111 0x0000df44 0x18000eb44 8   9    .rdata  ascii   .rsrc$02
+112 0x0000e64a 0x18000f24a 4   5    .rdata  ascii   \bp\a`
+113 0x0000e816 0x18000f416 4   5    .rdata  ascii   \bp\a`
+114 0x0000e856 0x18000f456 4   5    .rdata  ascii   \bp\a`
+115 0x0000e888 0x18000f488 6   7    .rdata  ascii   \fR\bp\a`
+116 0x0000eb9a 0x18000f79a 7   8    .rdata  ascii   \rp\f`\vP&
+117 0x0000ec83 0x18000f883 6   7    .rdata  ascii   p\r`\fP&
+118 0x0000edac 0x18000f9ac 5   6    .rdata  ascii   \fp\v`&
+119 0x0000ef88 0x18000fb88 5   6    .rdata  ascii   \fp\v`!
+120 0x0000f6a6 0x1800102a6 4   5    .rdata  ascii   \bp\a`
+121 0x0000f724 0x180010324 4   5    .rdata  ascii   \vB\aP
+122 0x0000f9f8 0x1800105f8 4   5    .rdata  ascii   \bp\a`
+123 0x0000fc21 0x180010821 4   5    .rdata  ascii   2\vpV
+124 0x0001016e 0x180010d6e 7   16   .rdata  utf16le \a\b\t\n\v\f\r
+125 0x000101a0 0x180010da0 81  163  .rdata  utf16le  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnop
+126 0x00010243 0x180010e43 17  18   .rdata  ascii   ileSystemCheck.mo
+127 0x00010255 0x180010e55 80  81   .rdata  ascii   ??0?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAA@XZ
+128 0x000102a6 0x180010ea6 108 109  .rdata  ascii   ??0?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAA@XZ
+129 0x00010313 0x180010f13 111 112  .rdata  ascii   ??0?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAA@AEBV01@@Z
+130 0x00010383 0x180010f83 30  31   .rdata  ascii   ??0CHardDriveIO@@QEAA@AEBV0@@Z
+131 0x000103a2 0x180010fa2 37  38   .rdata  ascii   ??0CHardDriveIOSetting@@QEAA@AEBV0@@Z
+132 0x000103c8 0x180010fc8 30  31   .rdata  ascii   ??0CNtfsRunList@@QEAA@AEBV0@@Z
+133 0x000103e7 0x180010fe7 29  30   .rdata  ascii   ??0CNtfsVolume@@IEAA@AEAV0@@Z
+134 0x00010405 0x180011005 29  30   .rdata  ascii   ??0CNtfsVolume@@IEAA@PEAV0@@Z
+135 0x00010423 0x180011023 27  28   .rdata  ascii   ??0IObject@@QEAA@$$QEAU0@@Z
+136 0x0001043f 0x18001103f 25  26   .rdata  ascii   ??0IObject@@QEAA@AEBU0@@Z
+137 0x00010459 0x180011059 19  20   .rdata  ascii   ??0IObject@@QEAA@XZ
+138 0x0001046d 0x18001106d 34  35   .rdata  ascii   ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+139 0x00010490 0x180011090 32  33   .rdata  ascii   ??0IStorageDevice@@QEAA@AEBU0@@Z
+140 0x000104b1 0x1800110b1 26  27   .rdata  ascii   ??0IStorageDevice@@QEAA@XZ
+141 0x000104cc 0x1800110cc 80  81   .rdata  ascii   ??1?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAA@XZ
+142 0x0001051d 0x18001111d 108 109  .rdata  ascii   ??1?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAA@XZ
+143 0x0001058a 0x18001118a 104 105  .rdata  ascii   ??1?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAA@XZ
+144 0x000105f3 0x1800111f3 117 118  .rdata  ascii   ??4?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAAEAV01@AEBV01@@Z
+145 0x00010669 0x180011269 35  36   .rdata  ascii   ??4CHardDriveIO@@QEAAAEAV0@AEBV0@@Z
+146 0x0001068d 0x18001128d 42  43   .rdata  ascii   ??4CHardDriveIOSetting@@QEAAAEAV0@AEBV0@@Z
+147 0x000106b8 0x1800112b8 36  37   .rdata  ascii   ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+148 0x000106dd 0x1800112dd 35  36   .rdata  ascii   ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+149 0x00010701 0x180011301 33  34   .rdata  ascii   ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+150 0x00010723 0x180011323 33  34   .rdata  ascii   ??4CNTFSLib@@QEAAAEAV0@$$QEAV0@@Z
+151 0x00010745 0x180011345 31  32   .rdata  ascii   ??4CNTFSLib@@QEAAAEAV0@AEBV0@@Z
+152 0x00010765 0x180011365 31  32   .rdata  ascii   ??4CNtfsMFT@@QEAAAEAV0@AEAV0@@Z
+153 0x00010785 0x180011385 35  36   .rdata  ascii   ??4CNtfsRunList@@QEAAAEAV0@AEBV0@@Z
+154 0x000107a9 0x1800113a9 32  33   .rdata  ascii   ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+155 0x000107ca 0x1800113ca 30  31   .rdata  ascii   ??4IObject@@QEAAAEAU0@AEBU0@@Z
+156 0x000107e9 0x1800113e9 39  40   .rdata  ascii   ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+157 0x00010811 0x180011411 37  38   .rdata  ascii   ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+158 0x00010837 0x180011437 84  85   .rdata  ascii   ??A?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAAEAIH@Z
+159 0x0001088c 0x18001148c 126 127  .rdata  ascii   ??A?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAAAEAUSECTOR_RANGE@@H@Z
+160 0x0001090b 0x18001150b 120 121  .rdata  ascii   ??A?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAAEAUtagDataRun@@H@Z
+161 0x00010984 0x180011584 120 121  .rdata  ascii   ??A?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEBAAEBUtagDataRun@@H@Z
+162 0x000109fd 0x1800115fd 162 163  .rdata  ascii   ??A?$CSimpleArray@VCNtfsFileRecordAttribute@@V?$CSimpleArrayEqualHelper@VCNtfsFileRecordAttribute@@@MyTemplate@@@MyTemplate@@QEAAAEAVCNtfsFileRecordAttribute@@H@Z
+163 0x00010aa0 0x1800116a0 21  22   .rdata  ascii   ??_7CHardDriveIO@@6B@
+164 0x00010ab6 0x1800116b6 28  29   .rdata  ascii   ??_7CHardDriveIOSetting@@6B@
+165 0x00010ad3 0x1800116d3 20  21   .rdata  ascii   ??_7CNtfsVolume@@6B@
+166 0x00010ae8 0x1800116e8 16  17   .rdata  ascii   ??_7IObject@@6B@
+167 0x00010af9 0x1800116f9 37  38   .rdata  ascii   ??_7IStorageDevice@@6BIBlockDevice@@@
+168 0x00010b1f 0x18001171f 32  33   .rdata  ascii   ??_7IStorageDevice@@6BIObject@@@
+169 0x00010b40 0x180011740 86  87   .rdata  ascii   ?Add@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAHAEBI@Z
+170 0x00010b97 0x180011797 128 129  .rdata  ascii   ?Add@?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAAHAEBUSECTOR_RANGE@@@Z
+171 0x00010c18 0x180011818 122 123  .rdata  ascii   ?Add@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAHAEBUtagDataRun@@@Z
+172 0x00010c93 0x180011893 24  25   .rdata  ascii   ?AddRef@IObject@@QEBAKXZ
+173 0x00010cac 0x1800118ac 38  39   .rdata  ascii   ?ConvertVolume@IStorageDevice@@UEAAHXZ
+174 0x00010cd3 0x1800118d3 52  53   .rdata  ascii   ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+175 0x00010d08 0x180011908 57  58   .rdata  ascii   ?GetAttributeHeaderSize@CNtfsFileRecordAttribute@@QEAAJXZ
+176 0x00010d42 0x180011942 54  55   .rdata  ascii   ?GetAttributeLength@CNtfsFileRecordAttribute@@QEBA_JXZ
+177 0x00010d79 0x180011979 59  60   .rdata  ascii   ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+178 0x00010db5 0x1800119b5 43  44   .rdata  ascii   ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+179 0x00010de1 0x1800119e1 43  44   .rdata  ascii   ?GetBytesPerFileRecord@CNtfsVolume@@QEBAJXZ
+180 0x00010e0d 0x180011a0d 39  40   .rdata  ascii   ?GetBytesPerSector@CNtfsVolume@@QEBAJXZ
+181 0x00010e35 0x180011a35 57  58   .rdata  ascii   ?GetCompressionUnitSize@CNtfsFileRecordAttribute@@QEBAGXZ
+182 0x00010e6f 0x180011a6f 58  59   .rdata  ascii   ?GetDataAllocatedLength@CNtfsFileRecordAttribute@@QEBA_JXZ
+183 0x00010eaa 0x180011aaa 58  59   .rdata  ascii   ?GetDataInitiatedLength@CNtfsFileRecordAttribute@@QEBA_JXZ
+184 0x00010ee5 0x180011ae5 53  54   .rdata  ascii   ?GetDataRealLength@CNtfsFileRecordAttribute@@QEBA_JXZ
+185 0x00010f1b 0x180011b1b 43  44   .rdata  ascii   ?GetFlags@CNtfsFileRecordAttribute@@QEBAGXZ
+186 0x00010f47 0x180011b47 50  51   .rdata  ascii   ?GetHardDriveIO@CNtfsMFT@@QEAAAEAVCHardDriveIO@@XZ
+187 0x00010f7a 0x180011b7a 40  41   .rdata  ascii   ?GetHardDriveNumber@CNtfsVolume@@QEBAJXZ
+188 0x00010fa3 0x180011ba3 40  41   .rdata  ascii   ?GetID@CNtfsFileRecordAttribute@@QEBAKXZ
+189 0x00010fcc 0x180011bcc 50  51   .rdata  ascii   ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+190 0x00010fff 0x180011bff 41  42   .rdata  ascii   ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+191 0x00011029 0x180011c29 46  47   .rdata  ascii   ?GetLastVCN@CNtfsFileRecordAttribute@@QEBA_JXZ
+192 0x00011058 0x180011c58 55  56   .rdata  ascii   ?GetLdmVolumeAsDisk@CNtfsVolume@@QEBAPEAUILdmVolume@@XZ
+193 0x00011090 0x180011c90 39  40   .rdata  ascii   ?GetMftLcnAddress@CNtfsVolume@@QEBA_JXZ
+194 0x000110b8 0x180011cb8 45  46   .rdata  ascii   ?GetMftMirrorLcnAddress@CNtfsVolume@@QEBA_JXZ
+195 0x000110e6 0x180011ce6 47  48   .rdata  ascii   ?GetName@CNtfsFileRecordAttribute@@QEBAHPEAGJ@Z
+196 0x00011116 0x180011d16 48  49   .rdata  ascii   ?GetNameLength@CNtfsFileRecordAttribute@@QEBAJXZ
+197 0x00011147 0x180011d47 48  49   .rdata  ascii   ?GetSectorAddressFromLCN@CNtfsVolume@@QEBA_J_J@Z
+198 0x00011178 0x180011d78 42  43   .rdata  ascii   ?GetSectorsPerCluster@CNtfsVolume@@QEBAJXZ
+199 0x000111a3 0x180011da3 46  47   .rdata  ascii   ?GetSectorsPerIndexRecord@CNtfsVolume@@QEBAJXZ
+200 0x000111d2 0x180011dd2 86  87   .rdata  ascii   ?GetSize@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEBAHXZ
+201 0x00011229 0x180011e29 114 115  .rdata  ascii   ?GetSize@?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEBAHXZ
+202 0x0001129c 0x180011e9c 110 111  .rdata  ascii   ?GetSize@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEBAHXZ
+203 0x0001130b 0x180011f0b 138 139  .rdata  ascii   ?GetSize@?$CSimpleArray@VCNtfsFileRecordAttribute@@V?$CSimpleArrayEqualHelper@VCNtfsFileRecordAttribute@@@MyTemplate@@@MyTemplate@@QEBAHXZ
+204 0x00011396 0x180011f96 52  53   .rdata  ascii   ?GetSourceFileRecord@CNtfsFileRecord@@QEAAPEAEAEAJ@Z
+205 0x000113cb 0x180011fcb 70  71   .rdata  ascii   ?GetSourceFileRecordAttribute@CNtfsFileRecordAttribute@@QEBAPEAEAEAJ@Z
+206 0x00011412 0x180012012 47  48   .rdata  ascii   ?GetStartVCN@CNtfsFileRecordAttribute@@QEBA_JXZ
+207 0x00011442 0x180012042 42  43   .rdata  ascii   ?GetType@CNtfsFileRecordAttribute@@QEBAKXZ
+208 0x0001146d 0x18001206d 44  45   .rdata  ascii   ?GetVolumeClusterCount@CNtfsVolume@@QEBA_JXZ
+209 0x0001149a 0x18001209a 52  53   .rdata  ascii   ?GetVolumeNewStartSectorNumber@CNtfsVolume@@QEBA_JXZ
+210 0x000114cf 0x1800120cf 44  45   .rdata  ascii   ?GetVolumeSerialNumber@CNtfsVolume@@QEBA_JXZ
+211 0x000114fc 0x1800120fc 49  50   .rdata  ascii   ?GetVolumeStartSectorNumber@CNtfsVolume@@QEBA_JXZ
+212 0x0001152e 0x18001212e 49  50   .rdata  ascii   ?GetVolumeTotalSectorNumber@CNtfsVolume@@QEBA_JXZ
+213 0x00011560 0x180012160 26  27   .rdata  ascii   ?Has0X20@CNtfsMFT@@QEAAHXZ
+214 0x0001157b 0x18001217b 102 103  .rdata  ascii   ?InternalSetAtIndex@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAXHAEBI@Z
+215 0x000115e2 0x1800121e2 144 145  .rdata  ascii   ?InternalSetAtIndex@?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAAXHAEBUSECTOR_RANGE@@@Z
+216 0x00011673 0x180012273 138 139  .rdata  ascii   ?InternalSetAtIndex@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAXHAEBUtagDataRun@@@Z
+217 0x000116fe 0x1800122fe 42  43   .rdata  ascii   ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+218 0x00011729 0x180012329 47  48   .rdata  ascii   ?IsCompressed@CNtfsFileRecordAttribute@@QEBAHXZ
+219 0x00011759 0x180012359 30  31   .rdata  ascii   ?IsInitiated@CNtfsMFT@@QEAAHXZ
+220 0x00011778 0x180012378 42  43   .rdata  ascii   ?IsNamed@CNtfsFileRecordAttribute@@QEBAHXZ
+221 0x000117a3 0x1800123a3 45  46   .rdata  ascii   ?IsResident@CNtfsFileRecordAttribute@@QEBAHXZ
+222 0x000117d1 0x1800123d1 47  48   .rdata  ascii   ?IsSparseFile@CNtfsFileRecordAttribute@@QEBAHXZ
+223 0x00011801 0x180012401 25  26   .rdata  ascii   ?Release@IObject@@QEBAKXZ
+224 0x0001181b 0x18001241b 41  42   .rdata  ascii   ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+225 0x00011845 0x180012445 88  89   .rdata  ascii   ?RemoveAll@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAXXZ
+226 0x0001189e 0x18001249e 116 117  .rdata  ascii   ?RemoveAll@?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@QEAAXXZ
+227 0x00011913 0x180012513 112 113  .rdata  ascii   ?RemoveAll@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAXXZ
+228 0x00011984 0x180012584 88  89   .rdata  ascii   ?RemoveAt@?$CSimpleArray@IV?$CSimpleArrayEqualHelper@I@MyTemplate@@@MyTemplate@@QEAAHH@Z
+229 0x000119dd 0x1800125dd 112 113  .rdata  ascii   ?RemoveAt@?$CSimpleArray@UtagDataRun@@V?$CSimpleArrayEqualHelper@UtagDataRun@@@MyTemplate@@@MyTemplate@@QEAAHH@Z
+230 0x00011a4e 0x18001264e 44  45   .rdata  ascii   ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+231 0x00011a7b 0x18001267b 60  61   .rdata  ascii   ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+232 0x00011ab8 0x1800126b8 59  60   .rdata  ascii   ?SetDataAllocatedLength@CNtfsFileRecordAttribute@@QEAAH_J@Z
+233 0x00011af4 0x1800126f4 59  60   .rdata  ascii   ?SetDataInitiatedLength@CNtfsFileRecordAttribute@@QEAAH_J@Z
+234 0x00011b30 0x180012730 54  55   .rdata  ascii   ?SetDataRealLength@CNtfsFileRecordAttribute@@QEAAH_J@Z
+235 0x00011b67 0x180012767 41  42   .rdata  ascii   ?SetID@CNtfsFileRecordAttribute@@QEAAXG@Z
+236 0x00011b91 0x180012791 47  48   .rdata  ascii   ?SetLastVCN@CNtfsFileRecordAttribute@@QEAAH_J@Z
+237 0x00011bc1 0x1800127c1 46  47   .rdata  ascii   ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+238 0x00011bf0 0x1800127f0 48  49   .rdata  ascii   ?SetStartVCN@CNtfsFileRecordAttribute@@QEAAH_J@Z
+239 0x00011c21 0x180012821 9   10   .rdata  ascii   GetModule
+240 0x0001215a 0x180012d5a 31  32   .rdata  ascii   ??1CHardDriveIOSetting@@UEAA@XZ
+241 0x0001217c 0x180012d7c 24  25   .rdata  ascii   ??1CHardDriveIO@@UEAA@XZ
+242 0x00012198 0x180012d98 36  37   .rdata  ascii   ?GetSectorSize@CHardDriveIO@@UEAAKXZ
+243 0x000121c0 0x180012dc0 40  41   .rdata  ascii   ?ReadSector@CHardDriveIO@@UEAAHPEAE_J1@Z
+244 0x000121ec 0x180012dec 41  42   .rdata  ascii   ?WriteSector@CHardDriveIO@@UEAAHPEAE_J1@Z
+245 0x00012218 0x180012e18 38  39   .rdata  ascii   ?VerifySector@CHardDriveIO@@UEAAH_J0@Z
+246 0x00012242 0x180012e42 32  33   .rdata  ascii   ?OpenDisk@CHardDriveIO@@UEAAHH@Z
+247 0x00012266 0x180012e66 32  33   .rdata  ascii   ?CloseDisk@CHardDriveIO@@UEAAHXZ
+248 0x0001228a 0x180012e8a 60  61   .rdata  ascii   ?GetGeometryInfo@CHardDriveIO@@UEAAHPEAUtagGEOMETRY_INFO@@@Z
+249 0x000122ca 0x180012eca 49  50   .rdata  ascii   ?GetDevice@CHardDriveIO@@UEAAPEAUIBlockDevice@@XZ
+250 0x000122fe 0x180012efe 45  46   .rdata  ascii   ?GetHardDriveNumber@CHardDriveIO@@UEAAHAEAH@Z
+251 0x0001232e 0x180012f2e 19  20   .rdata  ascii   ??0TBitmap@@QEAA@XZ
+252 0x00012344 0x180012f44 19  20   .rdata  ascii   ??1TBitmap@@QEAA@XZ
+253 0x0001235a 0x180012f5a 32  33   .rdata  ascii   ?CreateBitmap@TBitmap@@QEAAH_J@Z
+254 0x0001237e 0x180012f7e 28  29   .rdata  ascii   ?SetBit@TBitmap@@QEAAH_JHH@Z
+255 0x0001239e 0x180012f9e 26  27   .rdata  ascii   ?GetBit@TBitmap@@QEAAH_J@Z
+256 0x000123bc 0x180012fbc 38  39   .rdata  ascii   ?GetNTFSVersion@CNTFSLib@@SAHH_JAEAK@Z
+257 0x000123e6 0x180012fe6 24  25   .rdata  ascii   ??0CNtfsRunList@@QEAA@XZ
+258 0x00012402 0x180013002 24  25   .rdata  ascii   ??1CNtfsRunList@@QEAA@XZ
+259 0x0001241e 0x18001301e 23  24   .rdata  ascii   ??0CNtfsVolume@@QEAA@XZ
+260 0x00012438 0x180013038 23  24   .rdata  ascii   ??1CNtfsVolume@@UEAA@XZ
+261 0x00012452 0x180013052 56  57   .rdata  ascii   ?LoadNtfsVolume@CNtfsVolume@@UEAAHJ_J0PEAUILdmVolume@@@Z
+262 0x0001248e 0x18001308e 51  52   .rdata  ascii   ?LoadLdmProc@CNtfsVolume@@UEAAHPEAUILdmVolume@@_J@Z
+263 0x000124c4 0x1800130c4 34  35   .rdata  ascii   ??4CNtfsVolume@@QEAAAEBV0@AEAV0@@Z
+264 0x000124ea 0x1800130ea 36  37   .rdata  ascii   ??0CNtfsFileRecordAttribute@@QEAA@XZ
+265 0x00012512 0x180013112 36  37   .rdata  ascii   ??1CNtfsFileRecordAttribute@@QEAA@XZ
+266 0x0001253a 0x18001313a 57  58   .rdata  ascii   ?GetResidentData@CNtfsFileRecordAttribute@@QEAA_JPEAE_J@Z
+267 0x00012576 0x180013176 67  68   .rdata  ascii   ?GetDataRunList@CNtfsFileRecordAttribute@@QEAAHAEAVCNtfsRunList@@@Z
+268 0x000125bc 0x1800131bc 47  48   .rdata  ascii   ??4CNtfsFileRecordAttribute@@QEAAAEBV0@AEBV0@@Z
+269 0x000125ee 0x1800131ee 27  28   .rdata  ascii   ??0CNtfsFileRecord@@QEAA@XZ
+270 0x0001260c 0x18001320c 27  28   .rdata  ascii   ??1CNtfsFileRecord@@QEAA@XZ
+271 0x0001262a 0x18001322a 55  56   .rdata  ascii   ?InitFromSourceFileRecord@CNtfsFileRecord@@QEAAHPEAEJ@Z
+272 0x00012664 0x180013264 64  65   .rdata  ascii   ?GetFileRecordHeader@CNtfsFileRecord@@QEAAHAEAUtagFILERECORD@@@Z
+273 0x000126a8 0x1800132a8 48  49   .rdata  ascii   ?IsAttributeListPresent@CNtfsFileRecord@@QEAAHXZ
+274 0x000126dc 0x1800132dc 31  32   .rdata  ascii   ?DestroyBitmap@TBitmap@@QEAAHXZ
+275 0x000126fe 0x1800132fe 33  34   .rdata  ascii   ?GetMaxBitIndex@TBitmap@@QEAA_JXZ
+276 0x00012722 0x180013322 31  32   .rdata  ascii   ?GetBitmapSize@TBitmap@@QEAAHXZ
+277 0x00012744 0x180013344 34  35   .rdata  ascii   ?GetBitmapData@TBitmap@@QEAAPEAEXZ
+278 0x0001276a 0x18001336a 20  21   .rdata  ascii   ??0CNtfsMFT@@QEAA@XZ
+279 0x00012782 0x180013382 20  21   .rdata  ascii   ??1CNtfsMFT@@UEAA@XZ
+280 0x0001279a 0x18001339a 38  39   .rdata  ascii   ?GetFileRecordCount@CNtfsMFT@@QEAA_JXZ
+281 0x000127c4 0x1800133c4 36  37   .rdata  ascii   ?Get0XB0AllocSize@CNtfsMFT@@QEAA_JXZ
+282 0x000127ec 0x1800133ec 57  58   .rdata  ascii   ?Get0XB0FileRecord@CNtfsMFT@@QEAAHAEAVCNtfsFileRecord@@@Z
+283 0x00012828 0x180013428 51  52   .rdata  ascii   ?Get0XB0DataRun@CNtfsMFT@@QEAAHAEAVCNtfsRunList@@@Z
+284 0x0001285e 0x18001345e 91  92   .rdata  ascii   ?ConvertPartitionDevice2DiskDevice@CNTFSLib@@SAHPEAUIManager@@PEAUIManagerItem@@AEAHAEA_J@Z
+285 0x000128bc 0x1800134bc 63  64   .rdata  ascii   ??0CHardDriveIOSetting@@QEAA@PEAUIManager@@PEAUIBlockDevice@@@Z
+286 0x000128fe 0x1800134fe 24  25   .rdata  ascii   ??0CHardDriveIO@@QEAA@XZ
+287 0x0001291a 0x18001351a 57  58   .rdata  ascii   ?LoadSetting@CHardDriveIO@@SAXAEAVCHardDriveIOSetting@@@Z
+288 0x00012954 0x180013554 10  11   .rdata  ascii   NTFSLib.mo
+289 0x00012962 0x180013562 26  27   .rdata  ascii   ?Log@CLogWriter@@SAXPEBDZZ
+290 0x0001297e 0x18001357e 6   7    .rdata  ascii   Log.mo
+291 0x00012988 0x180013588 18  19   .rdata  ascii   OutputDebugStringA
+292 0x0001299e 0x18001359e 12  13   .rdata  ascii   GetLastError
+293 0x000129ae 0x1800135ae 21  22   .rdata  ascii   GetVolumeInformationA
+294 0x000129c6 0x1800135c6 11  12   .rdata  ascii   FreeLibrary
+295 0x000129d4 0x1800135d4 14  15   .rdata  ascii   GetProcAddress
+296 0x000129e6 0x1800135e6 12  13   .rdata  ascii   LoadLibraryA
+297 0x000129f6 0x1800135f6 8   9    .rdata  ascii   ReadFile
+298 0x00012a02 0x180013602 9   10   .rdata  ascii   WriteFile
+299 0x00012a0e 0x18001360e 11  12   .rdata  ascii   CloseHandle
+300 0x00012a1c 0x18001361c 15  16   .rdata  ascii   DuplicateHandle
+301 0x00012a2e 0x18001362e 10  11   .rdata  ascii   CreatePipe
+302 0x00012a3c 0x18001363c 13  14   .rdata  ascii   PeekNamedPipe
+303 0x00012a4c 0x18001364c 8   9    .rdata  ascii   SetEvent
+304 0x00012a58 0x180013658 19  20   .rdata  ascii   WaitForSingleObject
+305 0x00012a6e 0x18001366e 12  13   .rdata  ascii   CreateEventA
+306 0x00012a7e 0x18001367e 5   6    .rdata  ascii   Sleep
+307 0x00012a86 0x180013686 17  18   .rdata  ascii   GetCurrentProcess
+308 0x00012a9a 0x18001369a 16  17   .rdata  ascii   TerminateProcess
+309 0x00012aae 0x1800136ae 18  19   .rdata  ascii   GetExitCodeProcess
+310 0x00012ac4 0x1800136c4 14  15   .rdata  ascii   CreateProcessA
+311 0x00012ad6 0x1800136d6 18  19   .rdata  ascii   GetModuleFileNameA
+312 0x00012aec 0x1800136ec 16  17   .rdata  ascii   GetModuleHandleA
+313 0x00012afe 0x1800136fe 12  13   .rdata  ascii   KERNEL32.dll
+314 0x00012b0e 0x18001370e 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+315 0x00012b2e 0x18001372e 12  13   .rdata  ascii   MSVCP140.dll
+316 0x00012b3e 0x18001373e 9   10   .rdata  ascii   _purecall
+317 0x00012b4a 0x18001374a 18  19   .rdata  ascii   __CxxFrameHandler3
+318 0x00012b60 0x180013760 6   7    .rdata  ascii   memcpy
+319 0x00012b6a 0x18001376a 7   8    .rdata  ascii   memmove
+320 0x00012b74 0x180013774 6   7    .rdata  ascii   memset
+321 0x00012b7e 0x18001377e 18  19   .rdata  ascii   _CxxThrowException
+322 0x00012b94 0x180013794 20  21   .rdata  ascii   __std_type_info_name
+323 0x00012bac 0x1800137ac 6   7    .rdata  ascii   memcmp
+324 0x00012bb6 0x1800137b6 6   7    .rdata  ascii   strstr
+325 0x00012bc0 0x1800137c0 20  21   .rdata  ascii   __C_specific_handler
+326 0x00012bd8 0x1800137d8 15  16   .rdata  ascii   __std_terminate
+327 0x00012bea 0x1800137ea 28  29   .rdata  ascii   __std_type_info_destroy_list
+328 0x00012c0a 0x18001380a 20  21   .rdata  ascii   __std_exception_copy
+329 0x00012c22 0x180013822 23  24   .rdata  ascii   __std_exception_destroy
+330 0x00012c3a 0x18001383a 16  17   .rdata  ascii   VCRUNTIME140.dll
+331 0x00012c4e 0x18001384e 4   5    .rdata  ascii   free
+332 0x00012c56 0x180013856 6   7    .rdata  ascii   malloc
+333 0x00012c60 0x180013860 23  24   .rdata  ascii   __stdio_common_vsprintf
+334 0x00012c7a 0x18001387a 25  26   .rdata  ascii   __stdio_common_vsprintf_s
+335 0x00012c96 0x180013896 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+336 0x00012cbc 0x1800138bc 7   8    .rdata  ascii   strncat
+337 0x00012cc6 0x1800138c6 7   8    .rdata  ascii   strncpy
+338 0x00012cd0 0x1800138d0 22  23   .rdata  ascii   __stdio_common_vsscanf
+339 0x00012cea 0x1800138ea 9   10   .rdata  ascii   terminate
+340 0x00012cf6 0x1800138f6 9   10   .rdata  ascii   _callnewh
+341 0x00012d02 0x180013902 15  16   .rdata  ascii   _seh_filter_dll
+342 0x00012d14 0x180013914 22  23   .rdata  ascii   _configure_narrow_argv
+343 0x00012d2e 0x18001392e 30  31   .rdata  ascii   _initialize_narrow_environment
+344 0x00012d50 0x180013950 24  25   .rdata  ascii   _initialize_onexit_table
+345 0x00012d6c 0x18001396c 25  26   .rdata  ascii   _register_onexit_function
+346 0x00012d88 0x180013988 21  22   .rdata  ascii   _execute_onexit_table
+347 0x00012da0 0x1800139a0 11  12   .rdata  ascii   _crt_atexit
+348 0x00012dae 0x1800139ae 6   7    .rdata  ascii   _cexit
+349 0x00012db8 0x1800139b8 9   10   .rdata  ascii   _initterm
+350 0x00012dc4 0x1800139c4 11  12   .rdata  ascii   _initterm_e
+351 0x00012dd2 0x1800139d2 5   6    .rdata  ascii   _ltoa
+352 0x00012dd8 0x1800139d8 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+353 0x00012df8 0x1800139f8 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+354 0x00012e18 0x180013a18 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+355 0x00012e3a 0x180013a3a 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+356 0x00012e5c 0x180013a5c 33  34   .rdata  ascii   api-ms-win-crt-convert-l1-1-0.dll
+357 0x00012e80 0x180013a80 17  18   .rdata  ascii   RtlCaptureContext
+358 0x00012e94 0x180013a94 22  23   .rdata  ascii   RtlLookupFunctionEntry
+359 0x00012eae 0x180013aae 16  17   .rdata  ascii   RtlVirtualUnwind
+360 0x00012ec2 0x180013ac2 24  25   .rdata  ascii   UnhandledExceptionFilter
+361 0x00012ede 0x180013ade 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+362 0x00012efc 0x180013afc 25  26   .rdata  ascii   IsProcessorFeaturePresent
+363 0x00012f18 0x180013b18 20  21   .rdata  ascii   EnterCriticalSection
+364 0x00012f30 0x180013b30 20  21   .rdata  ascii   LeaveCriticalSection
+365 0x00012f48 0x180013b48 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+366 0x00012f70 0x180013b70 21  22   .rdata  ascii   DeleteCriticalSection
+367 0x00012f88 0x180013b88 10  11   .rdata  ascii   ResetEvent
+368 0x00012f96 0x180013b96 21  22   .rdata  ascii   WaitForSingleObjectEx
+369 0x00012fae 0x180013bae 12  13   .rdata  ascii   CreateEventW
+370 0x00012fbe 0x180013bbe 16  17   .rdata  ascii   GetModuleHandleW
+371 0x00012fd2 0x180013bd2 19  20   .rdata  ascii   InitializeSListHead
+372 0x00012fe8 0x180013be8 17  18   .rdata  ascii   IsDebuggerPresent
+373 0x00012ffc 0x180013bfc 23  24   .rdata  ascii   QueryPerformanceCounter
+374 0x00013016 0x180013c16 19  20   .rdata  ascii   GetCurrentProcessId
+375 0x0001302c 0x180013c2c 18  19   .rdata  ascii   GetCurrentThreadId
+376 0x00013042 0x180013c42 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+377 0x0001305c 0x180013c5c 25  26   .rdata  ascii   DisableThreadLibraryCalls
+378 0x00013260 0x180014060 13  14   .data   ascii   .?AUIObject@@
+379 0x00013280 0x180014080 25  26   .data   ascii   .?AVCHardDriveIOSetting@@
+380 0x000132b0 0x1800140b0 18  19   .data   ascii   .?AVCHardDriveIO@@
+381 0x000132d8 0x1800140d8 15  16   .data   ascii   .?AVCFatChain@@
+382 0x00013300 0x180014100 102 103  .data   ascii   .?AV?$CSimpleArray@USECTOR_RANGE@@V?$CSimpleArrayEqualHelper@USECTOR_RANGE@@@MyTemplate@@@MyTemplate@@
+383 0x00013378 0x180014178 15  16   .data   ascii   .?AVCCheckFAT@@
+384 0x00013398 0x180014198 17  18   .data   ascii   .?AVCNtfsVolume@@
+385 0x000133c0 0x1800141c0 22  23   .data   ascii   .?AVCCheckNTFSVolume@@
+386 0x000133e8 0x1800141e8 26  27   .data   ascii   .?AVCFileAllocationTable@@
+387 0x00013418 0x180014218 20  21   .data   ascii   .?AUIStorageDevice@@
+388 0x00013440 0x180014240 26  27   .data   ascii   .?AUIFileSystemPartition@@
+389 0x00013470 0x180014270 21  22   .data   ascii   .?AUIPartitionEntry@@
+390 0x00013498 0x180014298 28  29   .data   ascii   .?AUIFileSystemCheckModule@@
+391 0x000134c8 0x1800142c8 13  14   .data   ascii   .?AUIModule@@
+392 0x000134e8 0x1800142e8 17  18   .data   ascii   .?AUIThreadBase@@
+393 0x00013510 0x180014310 21  22   .data   ascii   .?AU__MomObjectFlag@@
+394 0x00013538 0x180014338 18  19   .data   ascii   .?AUIBlockDevice@@
+395 0x00013560 0x180014360 28  29   .data   ascii   .?AVCFileSystemCheckModule@@
+396 0x00013590 0x180014390 45  46   .data   ascii   .?AV?$CModuleImpl@VCFileSystemCheckModule@@@@
+397 0x000135d0 0x1800143d0 66  67   .data   ascii   .?AV?$CMomEventObject@V?$CModuleImpl@VCFileSystemCheckModule@@@@@@
+398 0x00013630 0x180014430 61  62   .data   ascii   .?AV?$CMomObject@V?$CModuleImpl@VCFileSystemCheckModule@@@@@@
+399 0x00013680 0x180014480 87  88   .data   ascii   .?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCFileSystemCheckModule@@@@@@@@
+400 0x000136e8 0x1800144e8 15  16   .data   ascii   .?AVtype_info@@
+401 0x00013708 0x180014508 19  20   .data   ascii   .?AVbad_alloc@std@@
+402 0x00013730 0x180014530 19  20   .data   ascii   .?AVexception@std@@
+403 0x00013758 0x180014558 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+404 0x00014260 0x180017060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

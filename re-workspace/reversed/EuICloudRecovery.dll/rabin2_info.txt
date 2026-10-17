@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x180000000
+binsz    7187688
+bintype  pe
+bits     64
+canary   false
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x006dcabc
+compiled Mon Aug 12 21:56:22 2041
+crypto   false
+dbg_file H:\VS_SPACE\es_icloud_recovery\build\Release\EuICloudRecovery.pdb
+endian   little
+havecode true
+hdr.csum 0x006dcabc
+guid     2AE63A2948944DF6AFD5C5E7FCAD84CA1
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows CUI
+va       true

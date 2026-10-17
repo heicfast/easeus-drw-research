@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x400000
+binsz    37608
+bintype  pe
+bits     32
+canary   true
+injprot  false
+retguard false
+class    PE32
+cmp.csum 0x0000d87a
+compiled Tue Nov 16 17:17:28 2038
+crypto   false
+dbg_file e:\AWork\share_lib\99_PublicLibrary\EUSetWebCtrlIEVersion\x86\EUinApp.pdb
+endian   little
+havecode true
+hdr.csum 0x0000d87a
+guid     632DBECD8E73422F8E513732AE43D8261
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  i386
+nx       true
+os       windows
+overlay  true
+cc       cdecl
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows CUI
+va       true

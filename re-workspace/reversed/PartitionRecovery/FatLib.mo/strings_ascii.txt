@@ -1,0 +1,378 @@
+!This program cannot be run in DOS mode.
+iH=Rich
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+L$ SWH
+|$ ATAVAWH
+ A_A^A\
+SUVWATAUAVAWH
+A_A^A]A\_^][
+D$(D9<
+SUVWATAUAVAWH
+xA_A^A]A\_^][
+ATAVAWH
+0A_A^A\
+0A_A^A\
+ATAVAWH
+0A_A^A\
+0A_A^A\
+@UVWATAUAVAWH
+L$`H+L$XH
+A_A^A]A\_^]
+WAVAWH
+@A_A^_
+SVWATAUAVAWH
+0A_A^A]A\_^[
+t$ WAVAWH
+|$@H9S
+t$@H9S
+|$@H9S
+t$@H9S
+ A_A^_
+SVWATAVAWH
+XA_A^A\_^[
+XA_A^A\_^[
+|$ ATAVAWH
+ A_A^A\
+WAVAWH
+ A_A^_
+SUVWATAUAVAWH
+8A_A^A]A\_^][
+|$ fA1
+t$ AWH
+rr;\$hslH
+t$ AVH
+rK;\$`sEH
+WAVAWH
+ A_A^_
+SVWATAUAVAWH
+@A_A^A]A\_^[
+WAVAWH
+H;8u?I
+PA_A^_
+WATAUAVAWH
+H;0u:H
+A_A^A]A\_
+@VWAVH
+@UVWATAUAVAWH
+wHH9wPtBH
+A_A^A]A\_^]
+UVWATAUAVAWH
+GHH+G@H
+`A_A^A]A\_^]
+@VWAVH
+SVWAVH
+8A^_^[
+WAVAWH
+|$ AVH
+ H3E H3E
+FDT is Error current dir item.
+FDT is Error parent dir item.
+FAT32   
+read sector error.start:%I64d,count:%d, ERROR: %d
+write sector error.start:%I64d,count:%d, ERROR: %d
+vector<T> too long
+Error!.Fat has cycle item.
+Fat table item is zero.
+fat table item has bad cluster.
+fat table item has invalid item.
+Has bad cluster.
+GetModule
+FatLib
+CFatLibModule
+Thread
+string too long
+map/set<T> too long
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+I:\_drw_main\PartitionRecovery\Output\Release_x64\FatLib.pdb
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.pdata
+.rsrc$01
+.rsrc$02
+FatLib.mo
+??0IObject@@QEAA@$$QEAU0@@Z
+??0IObject@@QEAA@AEBU0@@Z
+??0IObject@@QEAA@XZ
+??0IPartitionDevice@@QEAA@AEBV0@@Z
+??0IPartitionDevice@@QEAA@XZ
+??0IStorageDevice@@QEAA@$$QEAU0@@Z
+??0IStorageDevice@@QEAA@AEBU0@@Z
+??0IStorageDevice@@QEAA@XZ
+??1IPartitionDevice@@UEAA@XZ
+??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+??4IObject@@QEAAAEAU0@AEBU0@@Z
+??4IPartitionDevice@@QEAAAEAV0@AEBV0@@Z
+??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+??_7IObject@@6B@
+??_7IPartitionDevice@@6B@
+??_7IStorageDevice@@6BIBlockDevice@@@
+??_7IStorageDevice@@6BIObject@@@
+?AddRef@IObject@@QEBAKXZ
+?CalcAllFatLogicalCluster@@YAKAEBUFATXDBR@@_KK@Z
+?CalcAllFatLogicalOffset@@YA_KAEBUFATXDBR@@KKK@Z
+?CalcFileAllocationTableSize@@YAK_K0KKKMK@Z
+?CalcPartitionTotalCluster@@YAK_K0KKKKK@Z
+?ConvertVolume@IStorageDevice@@UEAAHXZ
+?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+?GetDirectoryEntryInstance@@YAPEAVIDirectoryEntry@@XZ
+?GetEstimateFatPartitionNeedMinSector@@YA_KKKKKKK@Z
+?GetFat16MaxSectorsLimitBySectorSize@@YAKK@Z
+?GetFatAllocateTableInstance@@YAPEAVIFileAllocateTable@@XZ
+?GetFatDataAreaUsedSector@@YA_KK_KK0K@Z
+?GetFatPartitionNeedMinSector@@YA_KK_KKK@Z
+?GetFatPartitionUsedSpace@@YA_NPEAVIPartitionDevice@@AEAU_FAT_PAR_USED_INFO@@K@Z
+?GetFatResizeMoveLimit@@YA_NKKKKKPEAU_PAR_MAX_MIN_LIMIT@@K@Z
+?GetFatSystemNeedMinUsedSector@@YA_KK_KKK@Z
+?GetFatSystemUsedSector@@YA_KKKK@Z
+?GetFatSystemUsedSector@@YA_KK_KKK@Z
+?GetFatTotalUsedSector@@YA_KKK_K0KK0KK@Z
+?GetFileSystemDefaultClusterSize@@YAKKKK@Z
+?GetFileSystemDefaultClusterSizeNotChangeFileSystemType@@YAK_KKK@Z
+?GetFileSystemType@@YAKPEAE@Z
+?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+?GetPartitionLimitSize@@YA_KKK_NK@Z
+?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+?MyReadSector@@YA_NPEAUIBlockDevice@@PEAE_K2@Z
+?MyWriteSector@@YA_NPEAUIBlockDevice@@PEAE_K2@Z
+?Release@IObject@@QEBAKXZ
+?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+?SetFatPartitionLable@@YA_NPEAVIPartitionDevice@@PEAE@Z
+?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+?SupportedClusterSize@@YA_NK_KKK@Z
+?SupportedClusterSizeList@@YA_N_K0KAEAKKKKK@Z
+?SupportedPartitionSize@@YA_NAEAK_KK@Z
+?SupportedPartitionSizeNotChangeFileSystemType@@YA_NK_KK@Z
+?VerifyFatPartitionDBR@@YA_NPEAVIPartitionDevice@@@Z
+GetModule
+?Log@CLogWriter@@SAXPEBDZZ
+Log.mo
+OutputDebugStringA
+GetLastError
+GetLocalTime
+FreeLibrary
+GetProcAddress
+LoadLibraryA
+KERNEL32.dll
+?_Xlength_error@std@@YAXPEBD@Z
+MSVCP140.dll
+_purecall
+__CxxFrameHandler3
+memset
+_CxxThrowException
+memcmp
+memcpy
+memmove
+__std_type_info_name
+__C_specific_handler
+__std_terminate
+__std_type_info_destroy_list
+__std_exception_copy
+__std_exception_destroy
+VCRUNTIME140.dll
+__stdio_common_vsprintf_s
+_invalid_parameter_noinfo_noreturn
+terminate
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+_callnewh
+malloc
+_initterm
+_initterm_e
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+CloseHandle
+EnterCriticalSection
+LeaveCriticalSection
+InitializeCriticalSectionAndSpinCount
+DeleteCriticalSection
+SetEvent
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+InitializeSListHead
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+.?AUIObject@@
+.?AUIBlockDevice@@
+.?AUIStorageDevice@@
+.?AVIPartitionDevice@@
+.?AVIDirectoryEntry@@
+.?AVCDirectoryEntry@@
+.?AVIFileAllocateTable@@
+.?AVCFileAllocateTable@@
+.?AUIFatLibModule@@
+.?AUIModule@@
+.?AUIThreadBase@@
+.?AVCFatLibModule@@
+.?AV?$CModuleImpl@VCFatLibModule@@@@
+.?AV?$CMomEventObject@V?$CModuleImpl@VCFatLibModule@@@@@@
+.?AV?$CMomObject@V?$CModuleImpl@VCFatLibModule@@@@@@
+.?AU__MomObjectFlag@@
+.?AV?$CMomStackObject@V?$CMomEventObject@V?$CModuleImpl@VCFatLibModule@@@@@@@@
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+/P}vl"T
+20261013061322Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013061322Z0+
+/1(0&0$0"

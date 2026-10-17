@@ -1,0 +1,1467 @@
+[Strings]
+nth  paddr      vaddr       len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0    0x000783f0 0x1800797f0 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+1    0x00078438 0x180079838 12  26   .rdata  utf16le kernel32.dll
+2    0x00078458 0x180079858 27  28   .rdata  ascii   InitializeConditionVariable
+3    0x00078478 0x180079878 24  25   .rdata  ascii   SleepConditionVariableCS
+4    0x00078498 0x180079898 24  25   .rdata  ascii   WakeAllConditionVariable
+5    0x00078500 0x180079900 14  15   .rdata  ascii   bad allocation
+6    0x00078528 0x180079928 20  21   .rdata  ascii   bad array new length
+7    0x00078540 0x180079940 17  18   .rdata  ascii   Unknown exception
+8    0x00078560 0x180079960 13  14   .rdata  ascii   ASSERT FAILED
+9    0x00078650 0x180079a50 5   6    .rdata  ascii   trace
+10   0x00078658 0x180079a58 5   6    .rdata  ascii   debug
+11   0x00078660 0x180079a60 4   5    .rdata  ascii   info
+12   0x00078668 0x180079a68 7   8    .rdata  ascii   warning
+13   0x00078670 0x180079a70 5   6    .rdata  ascii   error
+14   0x00078678 0x180079a78 8   9    .rdata  ascii   critical
+15   0x00078688 0x180079a88 7   32   .rdata  utf32le TDIWECO
+16   0x000786cc 0x180079acc 6   7    .rdata  ascii   Sunday
+17   0x000786d4 0x180079ad4 6   7    .rdata  ascii   Monday
+18   0x000786e0 0x180079ae0 7   8    .rdata  ascii   Tuesday
+19   0x000786e8 0x180079ae8 9   10   .rdata  ascii   Wednesday
+20   0x000786f4 0x180079af4 6   7    .rdata  ascii   Friday
+21   0x00078700 0x180079b00 8   9    .rdata  ascii   Thursday
+22   0x00078710 0x180079b10 8   9    .rdata  ascii   Saturday
+23   0x00078730 0x180079b30 4   5    .rdata  ascii   Sept
+24   0x00078748 0x180079b48 7   8    .rdata  ascii   January
+25   0x00078750 0x180079b50 8   9    .rdata  ascii   February
+26   0x0007875c 0x180079b5c 5   6    .rdata  ascii   March
+27   0x00078764 0x180079b64 5   6    .rdata  ascii   April
+28   0x0007876c 0x180079b6c 4   5    .rdata  ascii   June
+29   0x00078774 0x180079b74 4   5    .rdata  ascii   July
+30   0x0007877c 0x180079b7c 6   7    .rdata  ascii   August
+31   0x00078788 0x180079b88 9   10   .rdata  ascii   September
+32   0x00078798 0x180079b98 7   8    .rdata  ascii   October
+33   0x000787a0 0x180079ba0 8   9    .rdata  ascii   November
+34   0x000787ac 0x180079bac 5   6    .rdata  ascii   {:02}
+35   0x000787b8 0x180079bb8 8   9    .rdata  ascii   December
+36   0x000787c8 0x180079bc8 36  37   .rdata  ascii   ExFAT UpcaseTable found sectorId:{}\n
+37   0x000787f0 0x180079bf0 27  28   .rdata  ascii   ExFATFixer::FixByScanSector
+38   0x00078810 0x180079c10 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+39   0x00078848 0x180079c48 32  33   .rdata  ascii   ExFAT RootDir found sectorId:{}\n
+40   0x00078870 0x180079c70 27  28   .rdata  ascii   ExFATFixer::FixByScanSector
+41   0x00078890 0x180079c90 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+42   0x000788c8 0x180079cc8 25  52   .rdata  utf16le System Volume Information
+43   0x00078900 0x180079d00 18  19   .rdata  ascii   WriteSector failed
+44   0x00078918 0x180079d18 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+45   0x00078950 0x180079d50 20  21   .rdata  ascii   ExFATFixer::CheckDBR
+46   0x00078968 0x180079d68 9   10   .rdata  ascii   Enter {}
+47   0x00078978 0x180079d78 20  21   .rdata  ascii   ExFATFixer::CheckDBR
+48   0x00078990 0x180079d90 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+49   0x000789c8 0x180079dc8 19  20   .rdata  ascii   ExFAT DBR is valid\n
+50   0x000789e0 0x180079de0 20  21   .rdata  ascii   ExFATFixer::CheckDBR
+51   0x000789f8 0x180079df8 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+52   0x00078a30 0x180079e30 36  37   .rdata  ascii   ExFAT UpcaseTable found sectorId:{}\n
+53   0x00078a58 0x180079e58 23  24   .rdata  ascii   ExFATFixer::CheckSector
+54   0x00078a70 0x180079e70 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+55   0x00078aa8 0x180079ea8 32  33   .rdata  ascii   ExFAT RootDir found sectorId:{}\n
+56   0x00078acc 0x180079ecc 5   6    .rdata  ascii   trace
+57   0x00078ad8 0x180079ed8 23  24   .rdata  ascii   ExFATFixer::CheckSector
+58   0x00078af0 0x180079ef0 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+59   0x00078b28 0x180079f28 25  52   .rdata  utf16le System Volume Information
+60   0x00078b60 0x180079f60 22  23   .rdata  ascii   ExFATFixer::FixFromDBR
+61   0x00078b78 0x180079f78 9   10   .rdata  ascii   Enter {}
+62   0x00078b88 0x180079f88 22  23   .rdata  ascii   ExFATFixer::FixFromDBR
+63   0x00078ba0 0x180079fa0 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+64   0x00078bd8 0x180079fd8 19  20   .rdata  ascii   ExFAT DBR is valid\n
+65   0x00078bf0 0x180079ff0 22  23   .rdata  ascii   ExFATFixer::FixFromDBR
+66   0x00078c08 0x18007a008 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+67   0x00078c40 0x18007a040 44  45   .rdata  ascii   ExFAT Backup DBR is invalid, activating DBR\n
+68   0x00078c70 0x18007a070 22  23   .rdata  ascii   ExFATFixer::FixFromDBR
+69   0x00078c88 0x18007a088 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+70   0x00078cc0 0x18007a0c0 21  22   .rdata  ascii   ExFAT FixDBR succeed\n
+71   0x00078cd8 0x18007a0d8 22  23   .rdata  ascii   ExFATFixer::FixFromDBR
+72   0x00078cf0 0x18007a0f0 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+73   0x00078d28 0x18007a128 27  28   .rdata  ascii   ExFAT FixBackupDBR succeed\n
+74   0x00078d48 0x18007a148 22  23   .rdata  ascii   ExFATFixer::FixFromDBR
+75   0x00078d60 0x18007a160 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+76   0x00078d98 0x18007a198 21  22   .rdata  ascii   ExFATFixer::CheckRoot
+77   0x00078db0 0x18007a1b0 9   10   .rdata  ascii   Enter {}
+78   0x00078dc0 0x18007a1c0 21  22   .rdata  ascii   ExFATFixer::CheckRoot
+79   0x00078dd8 0x18007a1d8 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+80   0x00078e10 0x18007a210 23  24   .rdata  ascii   ExFATFixer::ReadCluster
+81   0x00078e28 0x18007a228 9   10   .rdata  ascii   Enter {}
+82   0x00078e38 0x18007a238 23  24   .rdata  ascii   ExFATFixer::ReadCluster
+83   0x00078e50 0x18007a250 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+84   0x00078e88 0x18007a288 23  24   .rdata  ascii   ExFATFixer::ChecksumDBR
+85   0x00078ea0 0x18007a2a0 9   10   .rdata  ascii   Enter {}
+86   0x00078eb0 0x18007a2b0 23  24   .rdata  ascii   ExFATFixer::ChecksumDBR
+87   0x00078ec8 0x18007a2c8 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+88   0x00078f00 0x18007a300 18  19   .rdata  ascii   headerSectorCount:
+89   0x00078f18 0x18007a318 15  16   .rdata  ascii   dbrStartSector:
+90   0x00078f28 0x18007a328 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+91   0x00078f60 0x18007a360 15  16   .rdata  ascii   dbrStartSector:
+92   0x00078f70 0x18007a370 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+93   0x00078fa8 0x18007a3a8 23  24   .rdata  ascii   ExFATFixer::CopySectors
+94   0x00078fc0 0x18007a3c0 9   10   .rdata  ascii   Enter {}
+95   0x00078fd0 0x18007a3d0 23  24   .rdata  ascii   ExFATFixer::CopySectors
+96   0x00078fe8 0x18007a3e8 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+97   0x00079020 0x18007a420 12  13   .rdata  ascii   sectorCount:
+98   0x00079030 0x18007a430 10  11   .rdata  ascii   srcSector:
+99   0x00079040 0x18007a440 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+100  0x00079078 0x18007a478 12  13   .rdata  ascii   sectorCount:
+101  0x00079088 0x18007a488 11  12   .rdata  ascii   destSector:
+102  0x00079098 0x18007a498 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+103  0x000790d0 0x18007a4d0 18  19   .rdata  ascii   ExFATFixer::FixDBR
+104  0x000790e8 0x18007a4e8 9   10   .rdata  ascii   Enter {}
+105  0x000790f8 0x18007a4f8 18  19   .rdata  ascii   ExFATFixer::FixDBR
+106  0x00079110 0x18007a510 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+107  0x00079148 0x18007a548 15  16   .rdata  ascii   dbrStartSector:
+108  0x00079158 0x18007a558 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+109  0x00079190 0x18007a590 27  28   .rdata  ascii   ExFATFixer::CheckMustBeZero
+110  0x000791b0 0x18007a5b0 9   10   .rdata  ascii   Enter {}
+111  0x000791bc 0x18007a5bc 6   7    .rdata  ascii   Sunday
+112  0x000791c8 0x18007a5c8 27  28   .rdata  ascii   ExFATFixer::CheckMustBeZero
+113  0x000791e8 0x18007a5e8 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+114  0x00079220 0x18007a620 16  17   .rdata  ascii   fatSectorOffset:
+115  0x00079234 0x18007a634 5   6    .rdata  ascii   debug
+116  0x0007923c 0x18007a63c 6   7    .rdata  ascii   Monday
+117  0x00079248 0x18007a648 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+118  0x00079280 0x18007a680 35  36   .rdata  ascii   UpdateDBR succeed but check Failed\n
+119  0x000792a8 0x18007a6a8 39  40   .rdata  ascii   ExFATFixer::TryFixFromSectorsPerCluster
+120  0x000792d0 0x18007a6d0 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+121  0x00079308 0x18007a708 17  18   .rdata  ascii   UpdateDBR Failed\n
+122  0x0007931c 0x18007a71c 6   7    .rdata  ascii   Friday
+123  0x00079328 0x18007a728 39  40   .rdata  ascii   ExFATFixer::TryFixFromSectorsPerCluster
+124  0x00079350 0x18007a750 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+125  0x00079388 0x18007a788 21  22   .rdata  ascii   ExFATFixer::UpdateDBR
+126  0x000793a0 0x18007a7a0 9   10   .rdata  ascii   Enter {}
+127  0x000793b0 0x18007a7b0 21  22   .rdata  ascii   ExFATFixer::UpdateDBR
+128  0x000793c8 0x18007a7c8 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+129  0x00079400 0x18007a800 44  45   .rdata  ascii   SearchFatTable failed bitmapSectorOffset:{}\n
+130  0x00079430 0x18007a830 21  22   .rdata  ascii   ExFATFixer::UpdateDBR
+131  0x00079448 0x18007a848 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+132  0x00079480 0x18007a880 17  18   .rdata  ascii   ReadSector failed
+133  0x00079498 0x18007a898 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+134  0x000794d0 0x18007a8d0 18  19   .rdata  ascii   WriteSector failed
+135  0x000794e8 0x18007a8e8 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+136  0x00079520 0x18007a920 18  19   .rdata  ascii   WriteSector failed
+137  0x00079538 0x18007a938 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+138  0x00079570 0x18007a970 26  27   .rdata  ascii   ExFAT Rebuild DBR succeed\n
+139  0x00079590 0x18007a990 21  22   .rdata  ascii   ExFATFixer::UpdateDBR
+140  0x000795a8 0x18007a9a8 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+141  0x000795e0 0x18007a9e0 13  14   .rdata  ascii   sectorOffset:
+142  0x000795f0 0x18007a9f0 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+143  0x00079628 0x18007aa28 13  14   .rdata  ascii   ASSERT FAILED
+144  0x00079638 0x18007aa38 22  23   .rdata  ascii   string pointer is null
+145  0x00079650 0x18007aa50 18  19   .rdata  ascii   argument not found
+146  0x00079668 0x18007aa68 19  20   .rdata  ascii   invalid digit count
+147  0x00079680 0x18007aa80 19  20   .rdata  ascii   invalid digit count
+148  0x00079694 0x18007aa94 4   5    .rdata  ascii   {}{}
+149  0x0007969c 0x18007aa9c 4   5    .rdata  ascii   {}{}
+150  0x000796a4 0x18007aaa4 5   6    .rdata  ascii   error
+151  0x000796ac 0x18007aaac 6   7    .rdata  ascii   August
+152  0x000796b8 0x18007aab8 20  21   .rdata  ascii   cannot write to file
+153  0x000796d0 0x18007aad0 11  12   .rdata  ascii   {} [{}({})]
+154  0x000796e0 0x18007aae0 11  12   .rdata  ascii   {} [{}({})]
+155  0x000796f0 0x18007aaf0 22  23   .rdata  ascii   string pointer is null
+156  0x00079708 0x18007ab08 17  18   .rdata  ascii   number is too big
+157  0x00079720 0x18007ab20 17  18   .rdata  ascii   number is too big
+158  0x00079738 0x18007ab38 17  18   .rdata  ascii   number is too big
+159  0x00079750 0x18007ab50 11  12   .rdata  ascii   {} [{}({})]
+160  0x00079760 0x18007ab60 11  12   .rdata  ascii   {} [{}({})]
+161  0x00079770 0x18007ab70 11  12   .rdata  ascii   {} [{}({})]
+162  0x00079780 0x18007ab80 12  13   .rdata  ascii   empty buffer
+163  0x00079790 0x18007ab90 17  18   .rdata  ascii   value is negative
+164  0x000797a8 0x18007aba8 14  15   .rdata  ascii   n is too large
+165  0x000797b8 0x18007abb8 14  15   .rdata  ascii   n is too large
+166  0x0007980e 0x18007ac0e 7   16   .rdata  utf16le \a\b\t\n\v\f\r
+167  0x00079840 0x18007ac40 95  192  .rdata  utf16le  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+168  0x0007a825 0x18007bc25 15  16   .rdata  ascii    \a \b \t \n \v \f \r
+169  0x0007a857 0x18007bc57 191 192  .rdata  ascii      ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~
+170  0x0007aa25 0x18007be25 15  16   .rdata  ascii   !\a!\b!\t!\n!\v!\f!\r!
+171  0x0007aa57 0x18007be57 193 194  .rdata  ascii   ! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!2!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!
+172  0x0007ab6b 0x18007bf6b 15  16   .rdata  ascii   ,\a,\b,\t,\n,\v,\f,\r,
+173  0x0007ab9d 0x18007bf9d 95  96   .rdata  ascii   , ,!,",#,$,%,&,',(,),*,+,,,-,.,_,`,`,b,c,d,e,f,g,g,i,i,k,k,m,n,o,p,q,r,s,t,u,u,w,x,y,z,{,|,},~,
+174  0x0007afb3 0x18007c3b3 8   9    .rdata  ascii   MSDOS5.0
+175  0x0007aff2 0x18007c3f2 27  30   .rdata  utf8    )xbRjNO NAME    FAT32   3ɎѼ
+176  0x0007b0d0 0x18007c4d0 8   9    .rdata  ascii   fXfXfXfX
+177  0x0007b0d9 0x18007c4d9 4   5    .rdata  ascii   3f;F
+178  0x0007b117 0x18007c517 4   5    .rdata  ascii   f@Iu
+179  0x0007b11d 0x18007c51d 11  12   .rdata  ascii   BOOTMGR
+180  0x0007b15c 0x18007c55c 12  13   .rdata  ascii   \r\nDisk error
+181  0x0007b169 0x18007c569 28  29   .rdata  ascii   \r\nPress any key to restart\r\n
+182  0x0007b1c8 0x18007c5c8 4   5    .rdata  ascii   info
+183  0x0007b1d0 0x18007c5d0 7   8    .rdata  ascii   warning
+184  0x0007b1d8 0x18007c5d8 8   9    .rdata  ascii   critical
+185  0x0007b1e4 0x18007c5e4 5   6    .rdata  ascii   March
+186  0x0007b1f0 0x18007c5f0 7   8    .rdata  ascii   Tuesday
+187  0x0007b1f8 0x18007c5f8 9   10   .rdata  ascii   Wednesday
+188  0x0007b208 0x18007c608 8   9    .rdata  ascii   Thursday
+189  0x0007b214 0x18007c614 5   6    .rdata  ascii   April
+190  0x0007b220 0x18007c620 8   9    .rdata  ascii   Saturday
+191  0x0007b22c 0x18007c62c 4   5    .rdata  ascii   Sept
+192  0x0007b234 0x18007c634 5   6    .rdata  ascii   {:02}
+193  0x0007b240 0x18007c640 7   8    .rdata  ascii   January
+194  0x0007b248 0x18007c648 8   9    .rdata  ascii   February
+195  0x0007b254 0x18007c654 4   5    .rdata  ascii   June
+196  0x0007b25c 0x18007c65c 4   5    .rdata  ascii   July
+197  0x0007b264 0x18007c664 5   6    .rdata  ascii   trace
+198  0x0007b270 0x18007c670 9   10   .rdata  ascii   September
+199  0x0007b280 0x18007c680 7   8    .rdata  ascii   October
+200  0x0007b288 0x18007c688 8   9    .rdata  ascii   November
+201  0x0007b294 0x18007c694 5   6    .rdata  ascii   debug
+202  0x0007b2a0 0x18007c6a0 8   9    .rdata  ascii   December
+203  0x0007b2ac 0x18007c6ac 5   6    .rdata  ascii   error
+204  0x0007b2b8 0x18007c6b8 20  21   .rdata  ascii   FATFixer::FixFromDBR
+205  0x0007b2d0 0x18007c6d0 9   10   .rdata  ascii   Enter {}
+206  0x0007b2e0 0x18007c6e0 20  21   .rdata  ascii   FATFixer::FixFromDBR
+207  0x0007b2f8 0x18007c6f8 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+208  0x0007b330 0x18007c730 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+209  0x0007b368 0x18007c768 18  19   .rdata  ascii   FATFixer::CheckDBR
+210  0x0007b380 0x18007c780 9   10   .rdata  ascii   Enter {}
+211  0x0007b390 0x18007c790 18  19   .rdata  ascii   FATFixer::CheckDBR
+212  0x0007b3a8 0x18007c7a8 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+213  0x0007b3e0 0x18007c7e0 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+214  0x0007b418 0x18007c818 23  24   .rdata  ascii   FAT1_FOUND sectorId:{}\n
+215  0x0007b430 0x18007c830 21  22   .rdata  ascii   FATFixer::CheckSector
+216  0x0007b448 0x18007c848 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+217  0x0007b480 0x18007c880 23  24   .rdata  ascii   FAT2_FOUND sectorId:{}\n
+218  0x0007b498 0x18007c898 21  22   .rdata  ascii   FATFixer::CheckSector
+219  0x0007b4b0 0x18007c8b0 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+220  0x0007b4e8 0x18007c8e8 27  28   .rdata  ascii   FAT ROOT_FOUND sectorId:{}\n
+221  0x0007b508 0x18007c908 21  22   .rdata  ascii   FATFixer::CheckSector
+222  0x0007b520 0x18007c920 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+223  0x0007b558 0x18007c958 23  24   .rdata  ascii   FAT1_FOUND sectorId:{}\n
+224  0x0007b570 0x18007c970 25  26   .rdata  ascii   FATFixer::FixByScanSector
+225  0x0007b590 0x18007c990 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+226  0x0007b5c8 0x18007c9c8 23  24   .rdata  ascii   FAT2_FOUND sectorId:{}\n
+227  0x0007b5e0 0x18007c9e0 25  26   .rdata  ascii   FATFixer::FixByScanSector
+228  0x0007b5fc 0x18007c9fc 6   7    .rdata  ascii   Sunday
+229  0x0007b608 0x18007ca08 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+230  0x0007b640 0x18007ca40 27  28   .rdata  ascii   FAT ROOT_FOUND sectorId:{}\n
+231  0x0007b660 0x18007ca60 25  26   .rdata  ascii   FATFixer::FixByScanSector
+232  0x0007b67c 0x18007ca7c 6   7    .rdata  ascii   Monday
+233  0x0007b688 0x18007ca88 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+234  0x0007b6c0 0x18007cac0 14  15   .rdata  ascii   FATFixer::Undo
+235  0x0007b6d0 0x18007cad0 9   10   .rdata  ascii   Enter {}
+236  0x0007b6dc 0x18007cadc 6   7    .rdata  ascii   Friday
+237  0x0007b6e8 0x18007cae8 14  15   .rdata  ascii   FATFixer::Undo
+238  0x0007b6f8 0x18007caf8 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+239  0x0007b730 0x18007cb30 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+240  0x0007b768 0x18007cb68 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+241  0x0007b7a0 0x18007cba0 19  20   .rdata  ascii   FATFixer::UpdateDBR
+242  0x0007b7b8 0x18007cbb8 9   10   .rdata  ascii   Enter {}
+243  0x0007b7c8 0x18007cbc8 19  20   .rdata  ascii   FATFixer::UpdateDBR
+244  0x0007b7e0 0x18007cbe0 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+245  0x0007b818 0x18007cc18 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+246  0x0007b850 0x18007cc50 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+247  0x0007b888 0x18007cc88 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+248  0x0007b8c0 0x18007ccc0 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+249  0x0007b8f8 0x18007ccf8 18  19   .rdata  ascii   UpdateDBR succeed\n
+250  0x0007b910 0x18007cd10 19  20   .rdata  ascii   FATFixer::UpdateDBR
+251  0x0007b928 0x18007cd28 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+252  0x0007b960 0x18007cd60 24  25   .rdata  ascii   FATFixer::CheckBackupDBR
+253  0x0007b980 0x18007cd80 9   10   .rdata  ascii   Enter {}
+254  0x0007b990 0x18007cd90 24  25   .rdata  ascii   FATFixer::CheckBackupDBR
+255  0x0007b9ac 0x18007cdac 5   6    .rdata  ascii   March
+256  0x0007b9b8 0x18007cdb8 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+257  0x0007b9f0 0x18007cdf0 20  21   .rdata  ascii   FATFixer::IsValidDBR
+258  0x0007ba08 0x18007ce08 9   10   .rdata  ascii   Enter {}
+259  0x0007ba14 0x18007ce14 6   7    .rdata  ascii   August
+260  0x0007ba20 0x18007ce20 20  21   .rdata  ascii   FATFixer::IsValidDBR
+261  0x0007ba38 0x18007ce38 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+262  0x0007ba70 0x18007ce70 22  23   .rdata  ascii   FATFixer::CheckCluster
+263  0x0007ba88 0x18007ce88 9   10   .rdata  ascii   Enter {}
+264  0x0007ba98 0x18007ce98 22  23   .rdata  ascii   FATFixer::CheckCluster
+265  0x0007bab0 0x18007ceb0 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+266  0x0007bae8 0x18007cee8 23  24   .rdata  ascii   FATFixer::CheckFatTable
+267  0x0007bb00 0x18007cf00 9   10   .rdata  ascii   Enter {}
+268  0x0007bb10 0x18007cf10 23  24   .rdata  ascii   FATFixer::CheckFatTable
+269  0x0007bb28 0x18007cf28 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+270  0x0007bb60 0x18007cf60 21  22   .rdata  ascii   dbr->dwSectorsPerFat:
+271  0x0007bb78 0x18007cf78 20  21   .rdata  ascii   backupFatStartSector
+272  0x0007bb90 0x18007cf90 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+273  0x0007bbc8 0x18007cfc8 21  22   .rdata  ascii   dbr->dwSectorsPerFat:
+274  0x0007bbe0 0x18007cfe0 25  26   .rdata  ascii   dbr->wFatTableStartSector
+275  0x0007bc00 0x18007d000 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+276  0x0007bc38 0x18007d038 25  52   .rdata  utf16le System Volume Information
+277  0x0007bc6e 0x18007d06e 12  26   .rdata  utf16le F$RECYCLEBIN
+278  0x0007bc88 0x18007d088 22  23   .rdata  ascii   FATFixer::CheckRootDir
+279  0x0007bca0 0x18007d0a0 9   10   .rdata  ascii   Enter {}
+280  0x0007bcb0 0x18007d0b0 22  23   .rdata  ascii   FATFixer::CheckRootDir
+281  0x0007bcc8 0x18007d0c8 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+282  0x0007bd00 0x18007d100 17  18   .rdata  ascii   bytesPerCluster:
+283  0x0007bd18 0x18007d118 11  12   .rdata  ascii   rootStart:
+284  0x0007bd28 0x18007d128 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+285  0x0007bd60 0x18007d160 25  52   .rdata  utf16le System Volume Information
+286  0x0007bd98 0x18007d198 11  24   .rdata  utf16le $RECYCLEBIN
+287  0x0007bdb0 0x18007d1b0 30  31   .rdata  ascii   root directory can't be found\n
+288  0x0007bdd0 0x18007d1d0 22  23   .rdata  ascii   FATFixer::CheckRootDir
+289  0x0007bde8 0x18007d1e8 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+290  0x0007be20 0x18007d220 22  23   .rdata  ascii   string pointer is null
+291  0x0007be38 0x18007d238 18  19   .rdata  ascii   argument not found
+292  0x0007be50 0x18007d250 19  20   .rdata  ascii   invalid digit count
+293  0x0007be68 0x18007d268 19  20   .rdata  ascii   invalid digit count
+294  0x0007be7c 0x18007d27c 4   5    .rdata  ascii   {}{}
+295  0x0007be84 0x18007d284 4   5    .rdata  ascii   {}{}
+296  0x0007be8c 0x18007d28c 5   6    .rdata  ascii   April
+297  0x0007be98 0x18007d298 20  21   .rdata  ascii   cannot write to file
+298  0x0007beb0 0x18007d2b0 11  12   .rdata  ascii   {} [{}({})]
+299  0x0007bec0 0x18007d2c0 11  12   .rdata  ascii   {} [{}({})]
+300  0x0007bed0 0x18007d2d0 22  23   .rdata  ascii   string pointer is null
+301  0x0007bee8 0x18007d2e8 17  18   .rdata  ascii   number is too big
+302  0x0007bf00 0x18007d300 17  18   .rdata  ascii   number is too big
+303  0x0007bf18 0x18007d318 17  18   .rdata  ascii   number is too big
+304  0x0007bf30 0x18007d330 11  12   .rdata  ascii   {} [{}({})]
+305  0x0007bf40 0x18007d340 11  12   .rdata  ascii   {} [{}({})]
+306  0x0007bf50 0x18007d350 12  13   .rdata  ascii   empty buffer
+307  0x0007bf60 0x18007d360 17  18   .rdata  ascii   value is negative
+308  0x0007bf78 0x18007d378 14  15   .rdata  ascii   n is too large
+309  0x0007bf88 0x18007d388 14  15   .rdata  ascii   n is too large
+310  0x0007bf98 0x18007d398 4   5    .rdata  ascii   $MFT
+311  0x0007bfa0 0x18007d3a0 8   9    .rdata  ascii   $MFTMirr
+312  0x0007bfac 0x18007d3ac 5   6    .rdata  ascii   {:02}
+313  0x0007c0b8 0x18007d4b8 4   5    .rdata  ascii   info
+314  0x0007c0c0 0x18007d4c0 7   8    .rdata  ascii   warning
+315  0x0007c0c8 0x18007d4c8 8   9    .rdata  ascii   critical
+316  0x0007c0d4 0x18007d4d4 5   6    .rdata  ascii   Latin
+317  0x0007c0e0 0x18007d4e0 7   8    .rdata  ascii   Tuesday
+318  0x0007c0e8 0x18007d4e8 9   10   .rdata  ascii   Wednesday
+319  0x0007c0f8 0x18007d4f8 8   9    .rdata  ascii   Thursday
+320  0x0007c104 0x18007d504 5   6    .rdata  ascii   debug
+321  0x0007c110 0x18007d510 8   9    .rdata  ascii   Saturday
+322  0x0007c11c 0x18007d51c 4   5    .rdata  ascii   Sept
+323  0x0007c124 0x18007d524 5   6    .rdata  ascii   trace
+324  0x0007c130 0x18007d530 7   8    .rdata  ascii   January
+325  0x0007c138 0x18007d538 8   9    .rdata  ascii   February
+326  0x0007c144 0x18007d544 4   5    .rdata  ascii   June
+327  0x0007c14c 0x18007d54c 4   5    .rdata  ascii   July
+328  0x0007c154 0x18007d554 5   6    .rdata  ascii   error
+329  0x0007c160 0x18007d560 9   10   .rdata  ascii   September
+330  0x0007c170 0x18007d570 7   8    .rdata  ascii   October
+331  0x0007c178 0x18007d578 8   9    .rdata  ascii   November
+332  0x0007c184 0x18007d584 6   7    .rdata  ascii   Monday
+333  0x0007c190 0x18007d590 8   9    .rdata  ascii   December
+334  0x0007c19c 0x18007d59c 6   7    .rdata  ascii   Sunday
+335  0x0007c1a8 0x18007d5a8 21  22   .rdata  ascii   NTFSFixer::FixFromDBR
+336  0x0007c1c0 0x18007d5c0 9   10   .rdata  ascii   Enter {}
+337  0x0007c1cc 0x18007d5cc 6   7    .rdata  ascii   Friday
+338  0x0007c1d8 0x18007d5d8 21  22   .rdata  ascii   NTFSFixer::FixFromDBR
+339  0x0007c1f0 0x18007d5f0 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+340  0x0007c228 0x18007d628 10  11   .rdata  ascii   MFT found\n
+341  0x0007c238 0x18007d638 22  23   .rdata  ascii   NTFSFixer::CheckSector
+342  0x0007c250 0x18007d650 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+343  0x0007c288 0x18007d688 22  23   .rdata  ascii   NTFSFixer::CheckSector
+344  0x0007c2a0 0x18007d6a0 63  64   .rdata  ascii   mainMFTCluster:{} _sectorsPerCluster:{} _mainMFTSectorOffset:{}
+345  0x0007c2e0 0x18007d6e0 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+346  0x0007c318 0x18007d718 14  15   .rdata  ascii   MFTMirr found\n
+347  0x0007c328 0x18007d728 22  23   .rdata  ascii   NTFSFixer::CheckSector
+348  0x0007c340 0x18007d740 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+349  0x0007c378 0x18007d778 23  24   .rdata  ascii   MFTMirr dataruns found\n
+350  0x0007c390 0x18007d790 22  23   .rdata  ascii   NTFSFixer::CheckSector
+351  0x0007c3a8 0x18007d7a8 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+352  0x0007c3e0 0x18007d7e0 25  26   .rdata  ascii   MFT Invalid cluster size\n
+353  0x0007c400 0x18007d800 22  23   .rdata  ascii   NTFSFixer::CheckSector
+354  0x0007c418 0x18007d818 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+355  0x0007c450 0x18007d850 63  64   .rdata  ascii   mainMFTSectorOffset:{} _mainMFTCluster:{} _sectorsPerCluster:{}
+356  0x0007c490 0x18007d890 22  23   .rdata  ascii   NTFSFixer::CheckSector
+357  0x0007c4a8 0x18007d8a8 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+358  0x0007c4e0 0x18007d8e0 10  11   .rdata  ascii   MFT found\n
+359  0x0007c4f0 0x18007d8f0 26  27   .rdata  ascii   NTFSFixer::FixByScanSector
+360  0x0007c510 0x18007d910 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+361  0x0007c548 0x18007d948 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+362  0x0007c580 0x18007d980 63  64   .rdata  ascii   mainMFTCluster:{} _sectorsPerCluster:{} _mainMFTSectorOffset:{}
+363  0x0007c5c0 0x18007d9c0 26  27   .rdata  ascii   NTFSFixer::FixByScanSector
+364  0x0007c5e0 0x18007d9e0 14  15   .rdata  ascii   MFTMirr found\n
+365  0x0007c5f0 0x18007d9f0 26  27   .rdata  ascii   NTFSFixer::FixByScanSector
+366  0x0007c610 0x18007da10 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+367  0x0007c648 0x18007da48 23  24   .rdata  ascii   MFTMirr dataruns found\n
+368  0x0007c660 0x18007da60 26  27   .rdata  ascii   NTFSFixer::FixByScanSector
+369  0x0007c680 0x18007da80 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+370  0x0007c6b8 0x18007dab8 25  26   .rdata  ascii   MFT Invalid cluster size\n
+371  0x0007c6d8 0x18007dad8 26  27   .rdata  ascii   NTFSFixer::FixByScanSector
+372  0x0007c6f8 0x18007daf8 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+373  0x0007c730 0x18007db30 63  64   .rdata  ascii   mainMFTSectorOffset:{} _mainMFTCluster:{} _sectorsPerCluster:{}
+374  0x0007c770 0x18007db70 26  27   .rdata  ascii   NTFSFixer::FixByScanSector
+375  0x0007c790 0x18007db90 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+376  0x0007c7c8 0x18007dbc8 15  16   .rdata  ascii   NTFSFixer::Undo
+377  0x0007c7d8 0x18007dbd8 9   10   .rdata  ascii   Enter {}
+378  0x0007c7e4 0x18007dbe4 6   7    .rdata  ascii   August
+379  0x0007c7f0 0x18007dbf0 15  16   .rdata  ascii   NTFSFixer::Undo
+380  0x0007c800 0x18007dc00 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+381  0x0007c838 0x18007dc38 20  21   .rdata  ascii   Undo Mirr MFT failed
+382  0x0007c850 0x18007dc50 15  16   .rdata  ascii   NTFSFixer::Undo
+383  0x0007c860 0x18007dc60 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+384  0x0007c898 0x18007dc98 15  16   .rdata  ascii   Undo DBR failed
+385  0x0007c8a8 0x18007dca8 15  16   .rdata  ascii   NTFSFixer::Undo
+386  0x0007c8b8 0x18007dcb8 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+387  0x0007c8f0 0x18007dcf0 22  23   .rdata  ascii   Undo Backup DBR failed
+388  0x0007c908 0x18007dd08 15  16   .rdata  ascii   NTFSFixer::Undo
+389  0x0007c918 0x18007dd18 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+390  0x0007c950 0x18007dd50 20  21   .rdata  ascii   NTFSFixer::UpdateDBR
+391  0x0007c968 0x18007dd68 9   10   .rdata  ascii   Enter {}
+392  0x0007c978 0x18007dd78 20  21   .rdata  ascii   NTFSFixer::UpdateDBR
+393  0x0007c990 0x18007dd90 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+394  0x0007c9c8 0x18007ddc8 13  14   .rdata  ascii   ASSERT FAILED
+395  0x0007c9d8 0x18007ddd8 36  37   .rdata  ascii   Read DBR failed,please close WinHex\n
+396  0x0007ca00 0x18007de00 20  21   .rdata  ascii   NTFSFixer::UpdateDBR
+397  0x0007ca18 0x18007de18 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+398  0x0007ca50 0x18007de50 36  37   .rdata  ascii   Read DBR failed,please close WinHex\n
+399  0x0007ca78 0x18007de78 20  21   .rdata  ascii   NTFSFixer::UpdateDBR
+400  0x0007ca90 0x18007de90 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+401  0x0007cac8 0x18007dec8 37  38   .rdata  ascii   Write DBR failed,please close WinHex\n
+402  0x0007caf0 0x18007def0 20  21   .rdata  ascii   NTFSFixer::UpdateDBR
+403  0x0007cb08 0x18007df08 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+404  0x0007cb40 0x18007df40 37  38   .rdata  ascii   Write DBR failed,please close WinHex\n
+405  0x0007cb68 0x18007df68 20  21   .rdata  ascii   NTFSFixer::UpdateDBR
+406  0x0007cb80 0x18007df80 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+407  0x0007cbb8 0x18007dfb8 20  21   .rdata  ascii   Rebuild DBR succeed\n
+408  0x0007cbd0 0x18007dfd0 20  21   .rdata  ascii   NTFSFixer::UpdateDBR
+409  0x0007cbe8 0x18007dfe8 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+410  0x0007cc20 0x18007e020 19  20   .rdata  ascii   NTFSFixer::CheckDBR
+411  0x0007cc38 0x18007e038 9   10   .rdata  ascii   Enter {}
+412  0x0007cc48 0x18007e048 19  20   .rdata  ascii   NTFSFixer::CheckDBR
+413  0x0007cc60 0x18007e060 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+414  0x0007cc98 0x18007e098 17  18   .rdata  ascii   NTFSFixer::FixDBR
+415  0x0007ccb0 0x18007e0b0 9   10   .rdata  ascii   Enter {}
+416  0x0007ccc0 0x18007e0c0 17  18   .rdata  ascii   NTFSFixer::FixDBR
+417  0x0007ccd8 0x18007e0d8 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+418  0x0007cd10 0x18007e110 19  20   .rdata  ascii   NTFSFixer::CheckMFT
+419  0x0007cd28 0x18007e128 9   10   .rdata  ascii   Enter {}
+420  0x0007cd38 0x18007e138 19  20   .rdata  ascii   NTFSFixer::CheckMFT
+421  0x0007cd50 0x18007e150 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+422  0x0007cd88 0x18007e188 25  26   .rdata  ascii   NTFSFixer::IsValidRootDir
+423  0x0007cda8 0x18007e1a8 9   10   .rdata  ascii   Enter {}
+424  0x0007cdb8 0x18007e1b8 25  26   .rdata  ascii   NTFSFixer::IsValidRootDir
+425  0x0007cdd8 0x18007e1d8 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+426  0x0007ce10 0x18007e210 8   9    .rdata  ascii   NTFS
+427  0x0007ce1c 0x18007e21c 5   6    .rdata  ascii   March
+428  0x0007ce28 0x18007e228 22  23   .rdata  ascii   string pointer is null
+429  0x0007ce40 0x18007e240 18  19   .rdata  ascii   argument not found
+430  0x0007ce58 0x18007e258 19  20   .rdata  ascii   invalid digit count
+431  0x0007ce70 0x18007e270 19  20   .rdata  ascii   invalid digit count
+432  0x0007ce84 0x18007e284 4   5    .rdata  ascii   {}{}
+433  0x0007ce8c 0x18007e28c 4   5    .rdata  ascii   {}{}
+434  0x0007ce94 0x18007e294 5   6    .rdata  ascii   April
+435  0x0007cea0 0x18007e2a0 20  21   .rdata  ascii   cannot write to file
+436  0x0007ceb8 0x18007e2b8 11  12   .rdata  ascii   {} [{}({})]
+437  0x0007cec8 0x18007e2c8 11  12   .rdata  ascii   {} [{}({})]
+438  0x0007ced8 0x18007e2d8 22  23   .rdata  ascii   string pointer is null
+439  0x0007cef0 0x18007e2f0 17  18   .rdata  ascii   number is too big
+440  0x0007cf08 0x18007e308 17  18   .rdata  ascii   number is too big
+441  0x0007cf20 0x18007e320 17  18   .rdata  ascii   number is too big
+442  0x0007cf38 0x18007e338 11  12   .rdata  ascii   {} [{}({})]
+443  0x0007cf48 0x18007e348 11  12   .rdata  ascii   {} [{}({})]
+444  0x0007cf58 0x18007e358 11  12   .rdata  ascii   {} [{}({})]
+445  0x0007cf68 0x18007e368 12  13   .rdata  ascii   empty buffer
+446  0x0007cf78 0x18007e378 17  18   .rdata  ascii   value is negative
+447  0x0007cf8c 0x18007e38c 6   7    .rdata  ascii   Sunday
+448  0x0007cf98 0x18007e398 14  15   .rdata  ascii   n is too large
+449  0x0007cfa8 0x18007e3a8 14  15   .rdata  ascii   n is too large
+450  0x0007d0b8 0x18007e4b8 9   10   .rdata  ascii   Local8Bit
+451  0x0007d0c4 0x18007e4c4 4   5    .rdata  ascii   Utf8
+452  0x0007d0cc 0x18007e4cc 5   6    .rdata  ascii   {:02}
+453  0x0007d0d4 0x18007e4d4 6   7    .rdata  ascii   Monday
+454  0x0007d0e0 0x18007e4e0 7   8    .rdata  ascii   warning
+455  0x0007d0e8 0x18007e4e8 4   5    .rdata  ascii   info
+456  0x0007d0f0 0x18007e4f0 8   9    .rdata  ascii   critical
+457  0x0007d0fc 0x18007e4fc 5   6    .rdata  ascii   trace
+458  0x0007d104 0x18007e504 6   7    .rdata  ascii   Friday
+459  0x0007d110 0x18007e510 9   10   .rdata  ascii   Wednesday
+460  0x0007d120 0x18007e520 7   8    .rdata  ascii   Tuesday
+461  0x0007d128 0x18007e528 8   9    .rdata  ascii   Thursday
+462  0x0007d134 0x18007e534 5   6    .rdata  ascii   debug
+463  0x0007d140 0x18007e540 8   9    .rdata  ascii   Saturday
+464  0x0007d14c 0x18007e54c 4   5    .rdata  ascii   Sept
+465  0x0007d154 0x18007e554 5   6    .rdata  ascii   error
+466  0x0007d160 0x18007e560 7   8    .rdata  ascii   January
+467  0x0007d168 0x18007e568 8   9    .rdata  ascii   February
+468  0x0007d174 0x18007e574 4   5    .rdata  ascii   July
+469  0x0007d17c 0x18007e57c 4   5    .rdata  ascii   June
+470  0x0007d188 0x18007e588 9   10   .rdata  ascii   September
+471  0x0007d198 0x18007e598 8   9    .rdata  ascii   November
+472  0x0007d1a8 0x18007e5a8 7   8    .rdata  ascii   October
+473  0x0007d1b0 0x18007e5b0 8   9    .rdata  ascii   December
+474  0x0007d1c0 0x18007e5c0 12  13   .rdata  ascii   Fix success\n
+475  0x0007d1d0 0x18007e5d0 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\rawfixer.cpp
+476  0x0007d208 0x18007e608 10  11   .rdata  ascii   FixFromDBR
+477  0x0007d218 0x18007e618 15  16   .rdata  ascii   FixByScanSector
+478  0x0007d228 0x18007e628 23  24   .rdata  ascii   User cancel SectorId {}
+479  0x0007d240 0x18007e640 12  13   .rdata  ascii   Fix success\n
+480  0x0007d250 0x18007e650 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\rawfixer.cpp
+481  0x0007d288 0x18007e688 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\rawfixer.cpp
+482  0x0007d2c0 0x18007e6c0 15  16   .rdata  ascii   FixByScanSector
+483  0x0007d2d0 0x18007e6d0 15  16   .rdata  ascii   FixByScanSector
+484  0x0007d2e0 0x18007e6e0 35  36   .rdata  ascii   Fix failed, key features not found.
+485  0x0007d308 0x18007e708 10  11   .rdata  ascii   LdmManager
+486  0x0007d318 0x18007e718 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\rawfixer.cpp
+487  0x0007d350 0x18007e750 13  14   .rdata  ascii   ASSERT FAILED
+488  0x0007d360 0x18007e760 12  13   .rdata  ascii   RawFixer.log
+489  0x0007d370 0x18007e770 16  17   .rdata  ascii   CRawFixer::Start
+490  0x0007d384 0x18007e784 5   6    .rdata  ascii   April
+491  0x0007d38c 0x18007e78c 6   7    .rdata  ascii   August
+492  0x0007d398 0x18007e798 15  16   .rdata  ascii   Fix failed: {}\n
+493  0x0007d3a8 0x18007e7a8 13  14   .rdata  ascii   ASSERT FAILED
+494  0x0007d3b8 0x18007e7b8 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\rawfixer.cpp
+495  0x0007d3f0 0x18007e7f0 25  26   .rdata  ascii   CRawFixer::CheckPartition
+496  0x0007d410 0x18007e810 15  16   .rdata  ascii   Fix failed: {}\n
+497  0x0007d420 0x18007e820 13  14   .rdata  ascii   Raw fix error
+498  0x0007d430 0x18007e830 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\rawfixer.cpp
+499  0x0007d468 0x18007e868 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+500  0x0007d4a8 0x18007e8a8 17  18   .rdata  ascii   EUE_UNKNOWNEXCEPT
+501  0x0007d4c0 0x18007e8c0 58  59   .rdata  ascii   i:\_drw_main\partitionrecovery\legacy_mod\include\momnew.h
+502  0x0007d500 0x18007e900 22  23   .rdata  ascii   string pointer is null
+503  0x0007d518 0x18007e918 18  19   .rdata  ascii   argument not found
+504  0x0007d530 0x18007e930 19  20   .rdata  ascii   invalid digit count
+505  0x0007d544 0x18007e944 4   5    .rdata  ascii   {}{}
+506  0x0007d54c 0x18007e94c 5   6    .rdata  ascii   March
+507  0x0007d558 0x18007e958 19  20   .rdata  ascii   invalid digit count
+508  0x0007d570 0x18007e970 20  21   .rdata  ascii   cannot write to file
+509  0x0007d588 0x18007e988 4   5    .rdata  ascii   {}{}
+510  0x0007d590 0x18007e990 11  12   .rdata  ascii   {} [{}({})]
+511  0x0007d5a0 0x18007e9a0 11  12   .rdata  ascii   {} [{}({})]
+512  0x0007d5b0 0x18007e9b0 22  23   .rdata  ascii   string pointer is null
+513  0x0007d5c8 0x18007e9c8 17  18   .rdata  ascii   number is too big
+514  0x0007d5e0 0x18007e9e0 17  18   .rdata  ascii   number is too big
+515  0x0007d5f8 0x18007e9f8 17  18   .rdata  ascii   number is too big
+516  0x0007d610 0x18007ea10 11  12   .rdata  ascii   {} [{}({})]
+517  0x0007d620 0x18007ea20 11  12   .rdata  ascii   {} [{}({})]
+518  0x0007d630 0x18007ea30 12  13   .rdata  ascii   empty buffer
+519  0x0007d640 0x18007ea40 14  15   .rdata  ascii   n is too large
+520  0x0007d650 0x18007ea50 17  18   .rdata  ascii   value is negative
+521  0x0007d668 0x18007ea68 14  15   .rdata  ascii   n is too large
+522  0x0007d778 0x18007eb78 4   5    .rdata  ascii   info
+523  0x0007d780 0x18007eb80 7   8    .rdata  ascii   warning
+524  0x0007d788 0x18007eb88 8   9    .rdata  ascii   critical
+525  0x0007d794 0x18007eb94 5   6    .rdata  ascii   {:02}
+526  0x0007d7a0 0x18007eba0 7   8    .rdata  ascii   Tuesday
+527  0x0007d7a8 0x18007eba8 8   9    .rdata  ascii   Thursday
+528  0x0007d7b4 0x18007ebb4 5   6    .rdata  ascii   trace
+529  0x0007d7c0 0x18007ebc0 9   10   .rdata  ascii   Wednesday
+530  0x0007d7d0 0x18007ebd0 8   9    .rdata  ascii   Saturday
+531  0x0007d7dc 0x18007ebdc 4   5    .rdata  ascii   Sept
+532  0x0007d7e4 0x18007ebe4 5   6    .rdata  ascii   debug
+533  0x0007d7f0 0x18007ebf0 8   9    .rdata  ascii   February
+534  0x0007d7fc 0x18007ebfc 5   6    .rdata  ascii   error
+535  0x0007d804 0x18007ec04 6   7    .rdata  ascii   Sunday
+536  0x0007d810 0x18007ec10 7   8    .rdata  ascii   January
+537  0x0007d818 0x18007ec18 4   5    .rdata  ascii   June
+538  0x0007d820 0x18007ec20 4   5    .rdata  ascii   July
+539  0x0007d828 0x18007ec28 7   8    .rdata  ascii   October
+540  0x0007d830 0x18007ec30 9   10   .rdata  ascii   September
+541  0x0007d83c 0x18007ec3c 6   7    .rdata  ascii   Monday
+542  0x0007d848 0x18007ec48 8   9    .rdata  ascii   December
+543  0x0007d854 0x18007ec54 6   7    .rdata  ascii   Friday
+544  0x0007d860 0x18007ec60 8   9    .rdata  ascii   November
+545  0x0007d870 0x18007ec70 7   8    .rdata  ascii   InitLog
+546  0x0007d878 0x18007ec78 47  48   .rdata  ascii   Logger initialized and configured successfully.
+547  0x0007d8a8 0x18007eca8 30  31   .rdata  ascii   Logger initialization failed:
+548  0x0007d8c8 0x18007ecc8 55  56   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\rawfixerlog.cpp
+549  0x0007d900 0x18007ed00 22  23   .rdata  ascii   string pointer is null
+550  0x0007d918 0x18007ed18 18  19   .rdata  ascii   argument not found
+551  0x0007d930 0x18007ed30 19  20   .rdata  ascii   invalid digit count
+552  0x0007d944 0x18007ed44 4   5    .rdata  ascii   {}{}
+553  0x0007d950 0x18007ed50 19  20   .rdata  ascii   invalid digit count
+554  0x0007d968 0x18007ed68 20  21   .rdata  ascii   cannot write to file
+555  0x0007d980 0x18007ed80 4   5    .rdata  ascii   {}{}
+556  0x0007d988 0x18007ed88 11  12   .rdata  ascii   {} [{}({})]
+557  0x0007d998 0x18007ed98 11  12   .rdata  ascii   {} [{}({})]
+558  0x0007d9a8 0x18007eda8 22  23   .rdata  ascii   string pointer is null
+559  0x0007d9c0 0x18007edc0 17  18   .rdata  ascii   number is too big
+560  0x0007d9d8 0x18007edd8 17  18   .rdata  ascii   number is too big
+561  0x0007d9f0 0x18007edf0 17  18   .rdata  ascii   number is too big
+562  0x0007da08 0x18007ee08 12  13   .rdata  ascii   empty buffer
+563  0x0007da18 0x18007ee18 14  15   .rdata  ascii   n is too large
+564  0x0007da28 0x18007ee28 17  18   .rdata  ascii   value is negative
+565  0x0007da40 0x18007ee40 14  15   .rdata  ascii   n is too large
+566  0x0007da50 0x18007ee50 4   5    .rdata  ascii   info
+567  0x0007da58 0x18007ee58 7   8    .rdata  ascii   warning
+568  0x0007da60 0x18007ee60 8   9    .rdata  ascii   critical
+569  0x0007da6c 0x18007ee6c 5   6    .rdata  ascii   April
+570  0x0007da74 0x18007ee74 6   7    .rdata  ascii   August
+571  0x0007da80 0x18007ee80 7   8    .rdata  ascii   Tuesday
+572  0x0007da88 0x18007ee88 8   9    .rdata  ascii   Thursday
+573  0x0007da94 0x18007ee94 5   6    .rdata  ascii   March
+574  0x0007daa0 0x18007eea0 9   10   .rdata  ascii   Wednesday
+575  0x0007dab0 0x18007eeb0 8   9    .rdata  ascii   Saturday
+576  0x0007dabc 0x18007eebc 4   5    .rdata  ascii   Sept
+577  0x0007dad0 0x18007eed0 8   9    .rdata  ascii   February
+578  0x0007dae0 0x18007eee0 7   8    .rdata  ascii   January
+579  0x0007dae8 0x18007eee8 4   5    .rdata  ascii   June
+580  0x0007daf0 0x18007eef0 4   5    .rdata  ascii   July
+581  0x0007daf8 0x18007eef8 7   8    .rdata  ascii   October
+582  0x0007db00 0x18007ef00 9   10   .rdata  ascii   September
+583  0x0007db10 0x18007ef10 8   9    .rdata  ascii   December
+584  0x0007db1c 0x18007ef1c 5   6    .rdata  ascii   {:02}
+585  0x0007db28 0x18007ef28 8   9    .rdata  ascii   November
+586  0x0007db38 0x18007ef38 29  30   .rdata  ascii   Failed to get executable path
+587  0x0007db58 0x18007ef58 29  60   .rdata  utf16le Failed to get executable path
+588  0x0007db98 0x18007ef98 60  61   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\rawinfocollector.cpp
+589  0x0007dbd8 0x18007efd8 12  13   .rdata  ascii   %Y%m%d%H%M%S
+590  0x0007dbe8 0x18007efe8 21  22   .rdata  ascii   Collect sector {}: {}
+591  0x0007dc00 0x18007f000 22  23   .rdata  ascii   string pointer is null
+592  0x0007dc18 0x18007f018 18  19   .rdata  ascii   argument not found
+593  0x0007dc30 0x18007f030 19  20   .rdata  ascii   invalid digit count
+594  0x0007dc48 0x18007f048 19  20   .rdata  ascii   invalid digit count
+595  0x0007dc5c 0x18007f05c 4   5    .rdata  ascii   {}{}
+596  0x0007dc64 0x18007f064 4   5    .rdata  ascii   {}{}
+597  0x0007dc70 0x18007f070 20  21   .rdata  ascii   cannot write to file
+598  0x0007dc88 0x18007f088 11  12   .rdata  ascii   {} [{}({})]
+599  0x0007dc98 0x18007f098 11  12   .rdata  ascii   {} [{}({})]
+600  0x0007dca8 0x18007f0a8 22  23   .rdata  ascii   string pointer is null
+601  0x0007dcc0 0x18007f0c0 17  18   .rdata  ascii   number is too big
+602  0x0007dcd8 0x18007f0d8 17  18   .rdata  ascii   number is too big
+603  0x0007dcf0 0x18007f0f0 17  18   .rdata  ascii   number is too big
+604  0x0007dd08 0x18007f108 12  13   .rdata  ascii   empty buffer
+605  0x0007dd18 0x18007f118 17  18   .rdata  ascii   value is negative
+606  0x0007dd30 0x18007f130 14  15   .rdata  ascii   n is too large
+607  0x0007dd40 0x18007f140 14  15   .rdata  ascii   n is too large
+608  0x0007dd50 0x18007f150 11  12   .rdata  ascii   {} [{}({})]
+609  0x0007de60 0x18007f260 24  25   .rdata  ascii   ct_init: 256+dist != 512
+610  0x0007de80 0x18007f280 21  22   .rdata  ascii   \nbit length overflow\n
+611  0x0007de98 0x18007f298 22  23   .rdata  ascii   ct_init: length != 256
+612  0x0007deb0 0x18007f2b0 20  21   .rdata  ascii   ct_init: dist != 256
+613  0x0007dec8 0x18007f2c8 24  25   .rdata  ascii   \ngen_codes: max_code %d
+614  0x0007dee4 0x18007f2e4 5   6    .rdata  ascii    3_6?
+615  0x0007def0 0x18007f2f0 20  21   .rdata  ascii   code %d bits %d->%d\n
+616  0x0007df08 0x18007f308 23  24   .rdata  ascii   inconsistent bit counts
+617  0x0007df20 0x18007f320 14  15   .rdata  ascii   too many codes
+618  0x0007df30 0x18007f330 12  13   .rdata  ascii   \nbl counts:
+619  0x0007df40 0x18007f340 29  30   .rdata  ascii   \ndyn trees: dyn %ld, stat %ld
+620  0x0007df60 0x18007f360 16  17   .rdata  ascii   not enough codes
+621  0x0007df78 0x18007f378 19  20   .rdata  ascii   \nlit tree: sent %ld
+622  0x0007df90 0x18007f390 20  21   .rdata  ascii   \ndist tree: sent %ld
+623  0x0007dfa8 0x18007f3a8 13  14   .rdata  ascii   \nbl code %2d
+624  0x0007dfb8 0x18007f3b8 18  19   .rdata  ascii   \nbl tree: sent %ld
+625  0x0007dfd0 0x18007f3d0 54  55   .rdata  ascii   \nopt %lu(%lu) stat %lu(%lu) stored %lu lit %u dist %u
+626  0x0007e008 0x18007f408 19  20   .rdata  ascii   bad compressed size
+627  0x0007e020 0x18007f420 28  29   .rdata  ascii   \nlit data: dyn %ld, stat %ld
+628  0x0007e040 0x18007f440 29  30   .rdata  ascii   \ndist data: dyn %ld, stat %ld
+629  0x0007e060 0x18007f460 52  53   .rdata  ascii   \nlast_lit %u, last_dist %u, in %ld, out ~%ld(%ld%%)
+630  0x0007e098 0x18007f498 10  11   .rdata  ascii   bad d_code
+631  0x0007e0a8 0x18007f4a8 19  20   .rdata  ascii   ct_tally: bad match
+632  0x0007e0c0 0x18007f4c0 14  15   .rdata  ascii   bad pack level
+633  0x0007e0d0 0x18007f4d0 15  16   .rdata  ascii   Code too clever
+634  0x0007e0e0 0x18007f4e0 14  15   .rdata  ascii   invalid length
+635  0x0007e0f0 0x18007f4f0 49  50   .rdata  ascii   output buffer too small for in-memory compression
+636  0x0007e128 0x18007f528 9   10   .rdata  ascii   wild scan
+637  0x0007e138 0x18007f538 8   9    .rdata  ascii   more < 2
+638  0x0007e148 0x18007f548 22  23   .rdata  ascii   insufficient lookahead
+639  0x0007e160 0x18007f560 9   10   .rdata  ascii   no future
+640  0x0007e16c 0x18007f56c 4   5    .rdata  ascii   .zip
+641  0x0007e174 0x18007f574 4   5    .rdata  ascii   .zoo
+642  0x0007e180 0x18007f580 41  42   .rdata  ascii   Call UPDATE_HASH() MIN_MATCH-3 more times
+643  0x0007e1ac 0x18007f5ac 4   5    .rdata  ascii   .arj
+644  0x0007e1b4 0x18007f5b4 4   5    .rdata  ascii   .arc
+645  0x0007e1bc 0x18007f5bc 4   5    .rdata  ascii   .lzh
+646  0x0007e1c4 0x18007f5c4 4   5    .rdata  ascii   .tgz
+647  0x0007e1d0 0x18007f5d0 24  25   .rdata  ascii   Culdn't duplicate handle
+648  0x0007e1f0 0x18007f5f0 25  26   .rdata  ascii   Couldn't create/open file
+649  0x0007e210 0x18007f610 23  24   .rdata  ascii   unknown zip result code
+650  0x0007e228 0x18007f628 7   8    .rdata  ascii   Success
+651  0x0007e230 0x18007f630 29  30   .rdata  ascii   File not found in the zipfile
+652  0x0007e250 0x18007f650 24  25   .rdata  ascii   Still more data to unzip
+653  0x0007e270 0x18007f670 25  26   .rdata  ascii   Failed to allocate memory
+654  0x0007e290 0x18007f690 21  22   .rdata  ascii   Error writing to file
+655  0x0007e2a8 0x18007f6a8 24  25   .rdata  ascii   Caller: faulty arguments
+656  0x0007e2c8 0x18007f6c8 52  53   .rdata  ascii   Caller: the file had already been partially unzipped
+657  0x0007e300 0x18007f700 35  36   .rdata  ascii   Zipfile is corrupt or not a zipfile
+658  0x0007e328 0x18007f728 18  19   .rdata  ascii   Error reading file
+659  0x0007e340 0x18007f740 34  35   .rdata  ascii   Caller: there was a previous error
+660  0x0007e368 0x18007f768 52  53   .rdata  ascii   Caller: additions to the zip have already been ended
+661  0x0007e3a0 0x18007f7a0 47  48   .rdata  ascii   Caller: can only get memory of a memory zipfile
+662  0x0007e3d0 0x18007f7d0 53  54   .rdata  ascii   Caller: not enough space allocated for memory zipfile
+663  0x0007e408 0x18007f808 38  39   .rdata  ascii   Zip-bug: trying to seek the unseekable
+664  0x0007e430 0x18007f830 46  47   .rdata  ascii   Zip-bug: the anticipated size turned out wrong
+665  0x0007e460 0x18007f860 42  43   .rdata  ascii   Caller: mixing creation and opening of zip
+666  0x0007e490 0x18007f890 46  47   .rdata  ascii   Zip-bug: internal initialisation not completed
+667  0x0007e4c0 0x18007f8c0 46  47   .rdata  ascii   Zip-bug: tried to change mind, but not allowed
+668  0x0007e4f0 0x18007f8f0 41  42   .rdata  ascii   Zip-bug: an internal error during flation
+669  0x0007e630 0x18007fa30 14  60   .rdata  utf32le \a\a\b\b\t\t\n\n\v\v\f\f\r\r
+670  0x0007e6c0 0x18007fac0 15  16   .rdata  ascii   string too long
+671  0x0007e855 0x18007fc55 6   7    .rdata  ascii   ./?\]_
+672  0x0007e872 0x18007fc72 10  11   .rdata  ascii   )147:;=IJ]
+673  0x0007e890 0x18007fc90 12  13   .rdata  ascii   )14:;EFIJ^de
+674  0x0007e8a5 0x18007fca5 6   7    .rdata  ascii   )EIWde
+675  0x0007e8b9 0x18007fcb9 4   5    .rdata  ascii   EIde
+676  0x0007e8db 0x18007fcdb 7   8    .rdata  ascii   INOWY^_
+677  0x0007e90f 0x18007fd0f 9   10   .rdata  ascii   FGNOXZ\^~
+678  0x0007e927 0x18007fd27 5   6    .rdata  ascii   /_&./
+679  0x0007e93f 0x18007fd3f 6   7    .rdata  ascii   NOZ[\a\b
+680  0x0007e94b 0x18007fd4b 7   8    .rdata  ascii   no7=?BE
+681  0x0007ea73 0x18007fe73 4   5    .rdata  ascii   ]xEc
+682  0x0007eca0 0x1800800a0 6   7    .rdata  ascii   \f';>NO
+683  0x0007ecab 0x1800800ab 6   7    .rdata  ascii   \a\t6=>V
+684  0x0007ecb7 0x1800800b7 4   5    .rdata  ascii   67VW
+685  0x0007eccc 0x1800800cc 13  14   .rdata  ascii   )14:EFIJNOde\
+686  0x0007ecdd 0x1800800dd 4   5    .rdata  ascii   \a\b\n\v
+687  0x0007ecef 0x1800800ef 6   7    .rdata  ascii   \a\n;>fi
+688  0x0007ed12 0x180080112 4   5    .rdata  ascii   :?EQ
+689  0x0007ed1e 0x18008011e 4   5    .rdata  ascii   "%>?
+690  0x0007ed25 0x180080125 27  28   .rdata  ascii    #%&(38:HJLPSUVXZ\^`cefksx}
+691  0x0007eed3 0x1800802d3 24  25   .rdata  ascii   \a\a\a\a\b\b\b\t\t\t\n\n\n\n\v\v\v\f\f\f\r\r\r\r
+692  0x0007f070 0x180080470 4   5    .rdata  ascii   -;eU
+693  0x0007f0a2 0x1800804a2 7   10   .rdata  utf8    U1(\Qӵɦ
+694  0x0007f0b8 0x1800804b8 4   5    .rdata  ascii   mSx@
+695  0x0007f0bd 0x1800804bd 6   9    .rdata  utf8    I̮Wζ]y
+696  0x0007f0d2 0x1800804d2 4   7    .rdata  utf8    H8oꖐ
+697  0x0007f0ed 0x1800804ed 5   8    .rdata  utf8    \n45*
+698  0x0007f112 0x180080512 4   5    .rdata  ascii   b}$l
+699  0x0007f11a 0x18008051a 4   5    .rdata  ascii   _\rXf
+700  0x0007f149 0x180080549 5   6    .rdata  ascii   ~)p$w
+701  0x0007f171 0x180080571 5   6    .rdata  ascii   11eU%
+702  0x0007f1a0 0x1800805a0 5   8    .rdata  utf8    ̈Po\t̼
+703  0x0007f1fa 0x1800805fa 4   7    .rdata  utf8    Ȍ8eް
+704  0x0007f2d1 0x1800806d1 5   7    .rdata  utf8    ϧz^KD
+705  0x0007f44b 0x18008084b 4   5    .rdata  ascii   ]xEc
+706  0x0007f45d 0x18008085d 10  12   .rdata  utf8    #Ǌbad cast
+707  0x0007f498 0x180080898 5   6    .rdata  ascii   false
+708  0x0007f4a0 0x1800808a0 4   5    .rdata  ascii   true
+709  0x0007f4c8 0x1800808c8 7   8    .rdata  ascii   generic
+710  0x0007f588 0x180080988 7   16   .rdata  utf16le \\.\%c:
+711  0x0007f598 0x180080998 11  12   .rdata  ascii   rawtest.txt
+712  0x0007f5c0 0x1800809c0 22  23   .rdata  ascii   Failed to open volume.
+713  0x0007f5d8 0x1800809d8 26  27   .rdata  ascii   Failed to dismount volume.
+714  0x0007f620 0x180080a20 200 201  .rdata  ascii   00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+715  0x0007f6f0 0x180080af0 17  18   .rdata  ascii   number is too big
+716  0x0007f708 0x180080b08 24  25   .rdata  ascii   invalid number of digits
+717  0x0007f728 0x180080b28 17  18   .rdata  ascii   unaligned bigints
+718  0x0007f758 0x180080b58 4   5    .rdata  ascii   {}{}
+719  0x0007f760 0x180080b60 18  19   .rdata  ascii   too large exponent
+720  0x0007f778 0x180080b78 17  18   .rdata  ascii   k is out of range
+721  0x0007f790 0x180080b90 23  24   .rdata  ascii   shifting error detected
+722  0x0007f7e8 0x180080be8 4   5    .rdata  ascii   S;uD
+723  0x0007f80c 0x180080c0c 4   7    .rdata  utf8    d\b弦a
+724  0x0007f848 0x180080c48 5   8    .rdata  utf8    ̈Po\t̼
+725  0x0007f863 0x180080c63 4   5    .rdata  ascii   6A_p
+726  0x0007f898 0x180080c98 6   9    .rdata  utf8    \vףp=\nף
+727  0x0007f93a 0x180080d3a 5   6    .rdata  ascii   @v:k\v
+728  0x0007f973 0x180080d73 4   5    .rdata  ascii   @aQY
+729  0x0007f9a3 0x180080da3 4   5    .rdata  ascii   E@|o
+730  0x0007fa50 0x180080e50 30  31   .rdata  ascii   Failed getting timezone info.
+731  0x0007fa70 0x180080e70 5   6    .rdata  ascii   {:02}
+732  0x0007fa80 0x180080e80 64  65   .rdata  ascii
+733  0x0007fae8 0x180080ee8 11  12   .rdata  ascii   {} [{}({})]
+734  0x0007fb10 0x180080f10 38  39   .rdata  ascii   Rethrowing unknown exception in logger
+735  0x0007fb38 0x180080f38 17  18   .rdata  ascii   %Y-%m-%d %H:%M:%S
+736  0x0007fb50 0x180080f50 40  41   .rdata  ascii   [*** LOG ERROR #%04zu ***] [%s] [%s] %s\n
+737  0x0007fb80 0x180080f80 8   9    .rdata  ascii   Leave {}
+738  0x0007fb90 0x180080f90 76  77   .rdata  ascii   ExFATFixer::CheckDBR::<lambda_bd1b398cf345625fad865b7fb2aea6d9>::operator ()
+739  0x0007fbe0 0x180080fe0 54  55   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\exfatfixer.cpp
+740  0x0007fc70 0x180081070 78  79   .rdata  ascii   ExFATFixer::FixFromDBR::<lambda_95b7644361ddbe959de929d35216b3e5>::operator ()
+741  0x0007fcd0 0x1800810d0 77  78   .rdata  ascii   ExFATFixer::CheckRoot::<lambda_0094c38be8c929ced4a22accbe9be431>::operator ()
+742  0x0007fd20 0x180081120 79  80   .rdata  ascii   ExFATFixer::ReadCluster::<lambda_40f239c0ac2d8ed03374bb953fb39368>::operator ()
+743  0x0007fd70 0x180081170 79  80   .rdata  ascii   ExFATFixer::ChecksumDBR::<lambda_38bcd9859f63c7c1c7afa6ef0bbb9c04>::operator ()
+744  0x0007fdc0 0x1800811c0 79  80   .rdata  ascii   ExFATFixer::CopySectors::<lambda_b1b799a586dcc9a445064e4a1da0af39>::operator ()
+745  0x0007fe10 0x180081210 74  75   .rdata  ascii   ExFATFixer::FixDBR::<lambda_0169031c272c6a22e24a2c9600afd3a9>::operator ()
+746  0x0007fe60 0x180081260 83  84   .rdata  ascii   ExFATFixer::CheckMustBeZero::<lambda_ddf3b9d8a334e7bf53e865f890c68cbe>::operator ()
+747  0x0007fec0 0x1800812c0 77  78   .rdata  ascii   ExFATFixer::UpdateDBR::<lambda_116a0106186ed1a28f2833241dc46f46>::operator ()
+748  0x0007ff40 0x180081340 18  19   .rdata  ascii   vector<T> too long
+749  0x0007ff58 0x180081358 23  24   .rdata  ascii   invalid string position
+750  0x0007ff70 0x180081370 14  15   .rdata  ascii   negative value
+751  0x0007ff80 0x180081380 18  19   .rdata  ascii   argument not found
+752  0x0007ff98 0x180081398 28  29   .rdata  ascii   missing '}' in format string
+753  0x0007ffc0 0x1800813c0 56  57   .rdata  ascii   cannot switch from automatic to manual argument indexing
+754  0x00080000 0x180081400 56  57   .rdata  ascii   cannot switch from manual to automatic argument indexing
+755  0x00080040 0x180081440 30  31   .rdata  ascii   unmatched '}' in format string
+756  0x00080060 0x180081460 21  22   .rdata  ascii   invalid format string
+757  0x00080078 0x180081478 24  25   .rdata  ascii   unknown format specifier
+758  0x00080098 0x180081498 22  23   .rdata  ascii   invalid type specifier
+759  0x000800b0 0x1800814b0 26  27   .rdata  ascii   invalid fill character '{'
+760  0x000800d0 0x1800814d0 42  43   .rdata  ascii   format specifier requires numeric argument
+761  0x00080118 0x180081518 41  42   .rdata  ascii   format specifier requires signed argument
+762  0x00080148 0x180081548 12  13   .rdata  ascii   invalid fill
+763  0x00080158 0x180081558 27  28   .rdata  ascii   missing precision specifier
+764  0x00080178 0x180081578 33  34   .rdata  ascii   invalid format specifier for char
+765  0x000801d0 0x1800815d0 44  45   .rdata  ascii   precision not allowed for this argument type
+766  0x00080200 0x180081600 16  17   .rdata  ascii   list<T> too long
+767  0x00080248 0x180081648 16  17   .rdata  ascii   0123456789ABCDEF
+768  0x00080260 0x180081660 16  17   .rdata  ascii   0123456789abcdef
+769  0x00080278 0x180081678 14  15   .rdata  ascii   negative width
+770  0x00080288 0x180081688 18  19   .rdata  ascii   negative precision
+771  0x000802a0 0x1800816a0 21  22   .rdata  ascii   exponent out of range
+772  0x000802d0 0x1800816d0 20  21   .rdata  ascii   width is not integer
+773  0x000802e8 0x1800816e8 24  25   .rdata  ascii   precision is not integer
+774  0x000805e8 0x1800819e8 6   7    .rdata  ascii   error
+775  0x00080633 0x180081a33 4   5    .rdata  ascii   -!=\n
+776  0x00080664 0x180081a64 4   6    .rdata  utf8    $֭;v
+777  0x0008067a 0x180081a7a 4   5    .rdata  ascii   NdP#
+778  0x00080694 0x180081a94 4   6    .rdata  utf8    j\nB̽
+779  0x00080708 0x180081b08 4   6    .rdata  utf8    &ϫ\t^
+780  0x0008074b 0x180081b4b 4   5    .rdata  ascii   TfAX
+781  0x00080757 0x180081b57 6   8    .rdata  utf8    \$~sީq
+782  0x00080874 0x180081c74 4   5    .rdata  ascii   %_ m
+783  0x000808bb 0x180081cbb 5   6    .rdata  ascii   <\a8\b+
+784  0x00080906 0x180081d06 5   6    .rdata  ascii   8\bF\b\f
+785  0x00080e86 0x180082286 4   5    .rdata  ascii   (\b4\v
+786  0x00080e97 0x180082297 4   5    .rdata  ascii   c\b\t0
+787  0x00080ea9 0x1800822a9 7   8    .rdata  ascii   \n\a\t\a@ '
+788  0x00080eba 0x1800822ba 12  13   .rdata  ascii   \f\aPI73\r3\a.\b\n
+789  0x00080ec7 0x1800822c7 7   8    .rdata  ascii   &RN(\b*V
+790  0x00080edc 0x1800822dc 9   10   .rdata  ascii   H\b'\tu\v?A*
+791  0x00080efa 0x1800822fa 5   6    .rdata  ascii   ^"E\v\n
+792  0x00080f02 0x180082302 5   6    .rdata  ascii   9\a\n6,
+793  0x00080f0b 0x18008230b 13  14   .rdata  ascii   <dS\fH\t\nFE\eH\bS
+794  0x00080f4b 0x18008234b 6   7    .rdata  ascii   `&\nF\n(
+795  0x00080f80 0x180082380 4   5    .rdata  ascii   \ns\bn
+796  0x00080fc3 0x1800823c3 4   5    .rdata  ascii   d\fV\n
+797  0x00080fdc 0x1800823dc 5   6    .rdata  ascii   t\fY\a\f
+798  0x00080fe8 0x1800823e8 4   5    .rdata  ascii   (\b"N
+799  0x00081290 0x180082690 76  77   .rdata  ascii   FATFixer::FixFromDBR::<lambda_8f14f57c36d13680f4d4dec841e15f01>::operator ()
+800  0x000812e0 0x1800826e0 52  53   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\fatfixer.cpp
+801  0x00081320 0x180082720 74  75   .rdata  ascii   FATFixer::CheckDBR::<lambda_c4d4a1ea9ac8079c751507370422bbd1>::operator ()
+802  0x00081370 0x180082770 70  71   .rdata  ascii   FATFixer::Undo::<lambda_8b3f1c255db48e70912f0e41f93ed7e8>::operator ()
+803  0x000813c0 0x1800827c0 75  76   .rdata  ascii   FATFixer::UpdateDBR::<lambda_519a54bcd0abab7f76f391413faac4ca>::operator ()
+804  0x00081410 0x180082810 80  81   .rdata  ascii   FATFixer::CheckBackupDBR::<lambda_a8229764c998df5585ce8379d56c566b>::operator ()
+805  0x00081470 0x180082870 76  77   .rdata  ascii   FATFixer::IsValidDBR::<lambda_ad2e2b26a79ff48384db523c95d8feb8>::operator ()
+806  0x000814c0 0x1800828c0 78  79   .rdata  ascii   FATFixer::CheckCluster::<lambda_5631d4ee6eb9ca67a5f483fa1bfa47f7>::operator ()
+807  0x00081510 0x180082910 79  80   .rdata  ascii   FATFixer::CheckFatTable::<lambda_7e25935b1f33977e2bc0673cde8db6be>::operator ()
+808  0x00081560 0x180082960 78  79   .rdata  ascii   FATFixer::CheckRootDir::<lambda_bb10aadacfa6586b02be7a2d756d1609>::operator ()
+809  0x00081780 0x180082b80 77  78   .rdata  ascii   NTFSFixer::FixFromDBR::<lambda_7d6840995ecb69a093c22f9b6c2ab11b>::operator ()
+810  0x000817d0 0x180082bd0 53  54   .rdata  ascii   i:\_drw_main\partitionrecovery\rawfixer\ntfsfixer.cpp
+811  0x00081810 0x180082c10 71  72   .rdata  ascii   NTFSFixer::Undo::<lambda_bca7539f2d1097fdf583238f77385577>::operator ()
+812  0x00081860 0x180082c60 76  77   .rdata  ascii   NTFSFixer::UpdateDBR::<lambda_54433fa846c6872e209188e6cd1838c5>::operator ()
+813  0x000818b0 0x180082cb0 75  76   .rdata  ascii   NTFSFixer::CheckDBR::<lambda_d189ae72df13580b92b494d47487741f>::operator ()
+814  0x00081900 0x180082d00 73  74   .rdata  ascii   NTFSFixer::FixDBR::<lambda_f1e82f8c267f86befdf0ecaa8b3d0411>::operator ()
+815  0x00081950 0x180082d50 75  76   .rdata  ascii   NTFSFixer::CheckMFT::<lambda_d11f7fc3dbc88c5a98e7856dfa4435af>::operator ()
+816  0x000819a0 0x180082da0 81  82   .rdata  ascii   NTFSFixer::IsValidRootDir::<lambda_c72036f5cc04a4a0d70fb8e0cd53257b>::operator ()
+817  0x000819f8 0x180082df8 19  20   .rdata  ascii   map/set<T> too long
+818  0x00081a80 0x180082e80 9   10   .rdata  ascii   GetModule
+819  0x00081b58 0x180082f58 16  17   .rdata  ascii   ' already exists
+820  0x00081b70 0x180082f70 18  19   .rdata  ascii   logger with name '
+821  0x00081b90 0x180082f90 12  13   .rdata  ascii    for writing
+822  0x00081ba0 0x180082fa0 20  21   .rdata  ascii   Failed opening file
+823  0x00081bb8 0x180082fb8 21  22   .rdata  ascii   Failed flush to file
+824  0x00081bd0 0x180082fd0 23  24   .rdata  ascii   Failed writing to file
+825  0x00086f04 0x180088304 4   5    .rdata  ascii   )\tcj
+826  0x00086f20 0x180088320 4   5    .rdata  ascii   )\tcj
+827  0x00086f3c 0x18008833c 4   5    .rdata  ascii   )\tcj
+828  0x00086f58 0x180088358 4   5    .rdata  ascii   )\tcj
+829  0x0008c27c 0x18008d67c 4   5    .rdata  ascii   RSDS
+830  0x0008c294 0x18008d694 62  63   .rdata  ascii   I:\_drw_main\PartitionRecovery\Output\Release_x64\RawFixer.pdb
+831  0x0008c2d8 0x18008d6d8 4   20   .rdata  utf32le **\n
+832  0x0008c2f4 0x18008d6f4 8   9    .rdata  ascii   .text$di
+833  0x0008c308 0x18008d708 8   9    .rdata  ascii   .text$mn
+834  0x0008c31c 0x18008d71c 11  12   .rdata  ascii   .text$mn$00
+835  0x0008c330 0x18008d730 7   8    .rdata  ascii   .text$x
+836  0x0008c340 0x18008d740 8   9    .rdata  ascii   .text$yd
+837  0x0008c354 0x18008d754 8   9    .rdata  ascii   .idata$5
+838  0x0008c368 0x18008d768 6   7    .rdata  ascii   .00cfg
+839  0x0008c378 0x18008d778 8   9    .rdata  ascii   .CRT$XCA
+840  0x0008c38c 0x18008d78c 8   9    .rdata  ascii   .CRT$XCL
+841  0x0008c3a0 0x18008d7a0 8   9    .rdata  ascii   .CRT$XCU
+842  0x0008c3b4 0x18008d7b4 8   9    .rdata  ascii   .CRT$XCZ
+843  0x0008c3c8 0x18008d7c8 8   9    .rdata  ascii   .CRT$XIA
+844  0x0008c3dc 0x18008d7dc 8   9    .rdata  ascii   .CRT$XIC
+845  0x0008c3f0 0x18008d7f0 8   9    .rdata  ascii   .CRT$XIZ
+846  0x0008c404 0x18008d804 8   9    .rdata  ascii   .CRT$XLA
+847  0x0008c418 0x18008d818 8   9    .rdata  ascii   .CRT$XLZ
+848  0x0008c42c 0x18008d82c 8   9    .rdata  ascii   .CRT$XPA
+849  0x0008c440 0x18008d840 8   9    .rdata  ascii   .CRT$XPZ
+850  0x0008c454 0x18008d854 8   9    .rdata  ascii   .CRT$XTA
+851  0x0008c468 0x18008d868 8   9    .rdata  ascii   .CRT$XTZ
+852  0x0008c47c 0x18008d87c 6   7    .rdata  ascii   .rdata
+853  0x0008c48c 0x18008d88c 8   9    .rdata  ascii   .rdata$T
+854  0x0008c4a0 0x18008d8a0 8   9    .rdata  ascii   .rdata$r
+855  0x0008c4b4 0x18008d8b4 13  14   .rdata  ascii   .rdata$zzzdbg
+856  0x0008c4cc 0x18008d8cc 8   9    .rdata  ascii   .rtc$IAA
+857  0x0008c4e0 0x18008d8e0 8   9    .rdata  ascii   .rtc$IZZ
+858  0x0008c4f4 0x18008d8f4 8   9    .rdata  ascii   .rtc$TAA
+859  0x0008c508 0x18008d908 8   9    .rdata  ascii   .rtc$TZZ
+860  0x0008c51c 0x18008d91c 4   5    .rdata  ascii   .tls
+861  0x0008c52c 0x18008d92c 5   6    .rdata  ascii   .tls$
+862  0x0008c53c 0x18008d93c 8   9    .rdata  ascii   .tls$ZZZ
+863  0x0008c550 0x18008d950 6   7    .rdata  ascii   .xdata
+864  0x0008c560 0x18008d960 8   9    .rdata  ascii   .xdata$x
+865  0x0008c574 0x18008d974 6   7    .rdata  ascii   .edata
+866  0x0008c584 0x18008d984 8   9    .rdata  ascii   .idata$2
+867  0x0008c598 0x18008d998 8   9    .rdata  ascii   .idata$3
+868  0x0008c5ac 0x18008d9ac 8   9    .rdata  ascii   .idata$4
+869  0x0008c5c0 0x18008d9c0 8   9    .rdata  ascii   .idata$6
+870  0x0008c5d4 0x18008d9d4 5   6    .rdata  ascii   .data
+871  0x0008c5e4 0x18008d9e4 7   8    .rdata  ascii   .data$r
+872  0x0008c5f4 0x18008d9f4 4   5    .rdata  ascii   .bss
+873  0x0008c604 0x18008da04 6   7    .rdata  ascii   .pdata
+874  0x0008c614 0x18008da14 8   9    .rdata  ascii   .rsrc$01
+875  0x0008c628 0x18008da28 8   9    .rdata  ascii   .rsrc$02
+876  0x0008cbe1 0x18008dfe1 5   6    .rdata  ascii   b\vp\n`
+877  0x0008cf78 0x18008e378 4   5    .rdata  ascii   \vp\n`
+878  0x0008d236 0x18008e636 4   5    .rdata  ascii   \fp\v`
+879  0x0008d2ae 0x18008e6ae 4   5    .rdata  ascii   \fp\v`
+880  0x0008d2e5 0x18008e6e5 5   6    .rdata  ascii   b\fp\v`
+881  0x0008d2f1 0x18008e6f1 5   6    .rdata  ascii   b\fp\v`
+882  0x0008d478 0x18008e878 4   5    .rdata  ascii   \fp\v`
+883  0x0008d482 0x18008e882 4   5    .rdata  ascii   \vp\n`
+884  0x0008d4a6 0x18008e8a6 4   5    .rdata  ascii   \vp\n`
+885  0x0008d4c6 0x18008e8c6 4   5    .rdata  ascii   \fp\v`
+886  0x0008d700 0x18008eb00 4   5    .rdata  ascii   \fp\v`
+887  0x0008d8d4 0x18008ecd4 6   7    .rdata  ascii   \fR\bp\a`
+888  0x0008d9e4 0x18008ede4 6   7    .rdata  ascii   \fR\bp\a`
+889  0x0008da0c 0x18008ee0c 4   5    .rdata  ascii   \fp\v`
+890  0x0008dd88 0x18008f188 4   5    .rdata  ascii   \fp\v`
+891  0x0008dfd0 0x18008f3d0 4   5    .rdata  ascii   \vp\n`
+892  0x0008e060 0x18008f460 4   5    .rdata  ascii   \vp\n`
+893  0x0008e16c 0x18008f56c 4   5    .rdata  ascii   \fp\v`
+894  0x0008ee3e 0x18009023e 4   5    .rdata  ascii   \fp\v`
+895  0x0008ee4a 0x18009024a 4   5    .rdata  ascii   \fp\v`
+896  0x0008ee8a 0x18009028a 4   5    .rdata  ascii   \fp\v`
+897  0x0008ef46 0x180090346 4   5    .rdata  ascii   \fp\v`
+898  0x0008f50c 0x18009090c 6   28   .rdata  utf32le  𠂣!𠃂 𠃐
+899  0x000910c8 0x1800924c8 4   5    .rdata  ascii   \fp\v`
+900  0x00091104 0x180092504 4   5    .rdata  ascii   \fp\v`
+901  0x00091136 0x180092536 4   5    .rdata  ascii   \fp\v`
+902  0x0009116e 0x18009256e 4   5    .rdata  ascii   \fp\v`
+903  0x0009119e 0x18009259e 4   5    .rdata  ascii   \fp\v`
+904  0x000911ce 0x1800925ce 4   5    .rdata  ascii   \fp\v`
+905  0x000911fe 0x1800925fe 4   5    .rdata  ascii   \fp\v`
+906  0x0009122e 0x18009262e 4   5    .rdata  ascii   \fp\v`
+907  0x0009125e 0x18009265e 4   5    .rdata  ascii   \fp\v`
+908  0x0009128e 0x18009268e 4   5    .rdata  ascii   \fp\v`
+909  0x000912be 0x1800926be 4   5    .rdata  ascii   \fp\v`
+910  0x000912ee 0x1800926ee 4   5    .rdata  ascii   \fp\v`
+911  0x0009131e 0x18009271e 4   5    .rdata  ascii   \fp\v`
+912  0x0009134e 0x18009274e 4   5    .rdata  ascii   \fp\v`
+913  0x0009137e 0x18009277e 4   5    .rdata  ascii   \fp\v`
+914  0x000913ae 0x1800927ae 4   5    .rdata  ascii   \fp\v`
+915  0x000913de 0x1800927de 4   5    .rdata  ascii   \fp\v`
+916  0x0009140e 0x18009280e 4   5    .rdata  ascii   \fp\v`
+917  0x0009143e 0x18009283e 4   5    .rdata  ascii   \fp\v`
+918  0x0009146e 0x18009286e 4   5    .rdata  ascii   \fp\v`
+919  0x0009149e 0x18009289e 4   5    .rdata  ascii   \fp\v`
+920  0x000914ce 0x1800928ce 4   5    .rdata  ascii   \fp\v`
+921  0x000914fe 0x1800928fe 4   5    .rdata  ascii   \fp\v`
+922  0x0009152e 0x18009292e 4   5    .rdata  ascii   \fp\v`
+923  0x0009155e 0x18009295e 4   5    .rdata  ascii   \fp\v`
+924  0x0009158e 0x18009298e 4   5    .rdata  ascii   \fp\v`
+925  0x000915be 0x1800929be 4   5    .rdata  ascii   \fp\v`
+926  0x000915ee 0x1800929ee 4   5    .rdata  ascii   \fp\v`
+927  0x0009161e 0x180092a1e 4   5    .rdata  ascii   \fp\v`
+928  0x0009164e 0x180092a4e 4   5    .rdata  ascii   \fp\v`
+929  0x00091686 0x180092a86 4   5    .rdata  ascii   \fp\v`
+930  0x000916b6 0x180092ab6 4   5    .rdata  ascii   \fp\v`
+931  0x000916e6 0x180092ae6 4   5    .rdata  ascii   \fp\v`
+932  0x00091716 0x180092b16 4   5    .rdata  ascii   \fp\v`
+933  0x00091746 0x180092b46 4   5    .rdata  ascii   \fp\v`
+934  0x00091776 0x180092b76 4   5    .rdata  ascii   \fp\v`
+935  0x000917a6 0x180092ba6 4   5    .rdata  ascii   \fp\v`
+936  0x000917d6 0x180092bd6 4   5    .rdata  ascii   \fp\v`
+937  0x00091836 0x180092c36 4   5    .rdata  ascii   \fp\v`
+938  0x00091866 0x180092c66 4   5    .rdata  ascii   \fp\v`
+939  0x00091896 0x180092c96 4   5    .rdata  ascii   \fp\v`
+940  0x000918c6 0x180092cc6 4   5    .rdata  ascii   \fp\v`
+941  0x000918f6 0x180092cf6 4   5    .rdata  ascii   \fp\v`
+942  0x00091926 0x180092d26 4   5    .rdata  ascii   \fp\v`
+943  0x00091956 0x180092d56 4   5    .rdata  ascii   \fp\v`
+944  0x00091986 0x180092d86 4   5    .rdata  ascii   \fp\v`
+945  0x000919b6 0x180092db6 4   5    .rdata  ascii   \fp\v`
+946  0x000919e6 0x180092de6 4   5    .rdata  ascii   \fp\v`
+947  0x00091a16 0x180092e16 4   5    .rdata  ascii   \fp\v`
+948  0x00091a46 0x180092e46 4   5    .rdata  ascii   \fp\v`
+949  0x00091a76 0x180092e76 4   5    .rdata  ascii   \fp\v`
+950  0x00091aa6 0x180092ea6 4   5    .rdata  ascii   \fp\v`
+951  0x00091ad6 0x180092ed6 4   5    .rdata  ascii   \fp\v`
+952  0x00091b06 0x180092f06 4   5    .rdata  ascii   \fp\v`
+953  0x00091b36 0x180092f36 4   5    .rdata  ascii   \fp\v`
+954  0x00091b66 0x180092f66 4   5    .rdata  ascii   \fp\v`
+955  0x00091b96 0x180092f96 4   5    .rdata  ascii   \fp\v`
+956  0x00091bc6 0x180092fc6 4   5    .rdata  ascii   \fp\v`
+957  0x00091bf6 0x180092ff6 4   5    .rdata  ascii   \fp\v`
+958  0x00091c26 0x180093026 4   5    .rdata  ascii   \fp\v`
+959  0x00091c56 0x180093056 4   5    .rdata  ascii   \fp\v`
+960  0x00091c86 0x180093086 4   5    .rdata  ascii   \fp\v`
+961  0x00091cb6 0x1800930b6 4   5    .rdata  ascii   \fp\v`
+962  0x00091ce6 0x1800930e6 4   5    .rdata  ascii   \fp\v`
+963  0x00091d16 0x180093116 4   5    .rdata  ascii   \fp\v`
+964  0x00091d46 0x180093146 4   5    .rdata  ascii   \fp\v`
+965  0x00091d76 0x180093176 4   5    .rdata  ascii   \fp\v`
+966  0x00091da6 0x1800931a6 4   5    .rdata  ascii   \fp\v`
+967  0x00091dd6 0x1800931d6 4   5    .rdata  ascii   \fp\v`
+968  0x00091e06 0x180093206 4   5    .rdata  ascii   \fp\v`
+969  0x00091e36 0x180093236 4   5    .rdata  ascii   \fp\v`
+970  0x00091e66 0x180093266 4   5    .rdata  ascii   \fp\v`
+971  0x00091e96 0x180093296 4   5    .rdata  ascii   \fp\v`
+972  0x00091ec6 0x1800932c6 4   5    .rdata  ascii   \fp\v`
+973  0x00091ef6 0x1800932f6 4   5    .rdata  ascii   \fp\v`
+974  0x00091f26 0x180093326 4   5    .rdata  ascii   \fp\v`
+975  0x00091f56 0x180093356 4   5    .rdata  ascii   \fp\v`
+976  0x00091f86 0x180093386 4   5    .rdata  ascii   \fp\v`
+977  0x00091fb6 0x1800933b6 4   5    .rdata  ascii   \fp\v`
+978  0x00091fe6 0x1800933e6 4   5    .rdata  ascii   \fp\v`
+979  0x000922d4 0x1800936d4 6   7    .rdata  ascii   \fR\bp\a`
+980  0x00092404 0x180093804 6   7    .rdata  ascii   \fR\bp\a`
+981  0x00092534 0x180093934 6   7    .rdata  ascii   \fR\bp\a`
+982  0x00092646 0x180093a46 4   5    .rdata  ascii   \fp\v`
+983  0x0009267e 0x180093a7e 4   5    .rdata  ascii   \fp\v`
+984  0x000929e6 0x180093de6 4   5    .rdata  ascii   \vp\n`
+985  0x00092d0a 0x18009410a 4   5    .rdata  ascii   \fp\v`
+986  0x00092d70 0x180094170 4   5    .rdata  ascii   \rp\f`
+987  0x00092fb6 0x1800943b6 4   5    .rdata  ascii   \vp\n`
+988  0x0009306c 0x18009446c 4   5    .rdata  ascii   \rp\f`
+989  0x00093078 0x180094478 4   5    .rdata  ascii   \rp\f`
+990  0x00093748 0x180094b48 4   5    .rdata  ascii   \vp\n`
+991  0x000937c0 0x180094bc0 4   5    .rdata  ascii   \fp\v`
+992  0x00093840 0x180094c40 4   5    .rdata  ascii   \fp\v`
+993  0x000938b0 0x180094cb0 4   5    .rdata  ascii   \fp\v`
+994  0x00093a60 0x180094e60 4   5    .rdata  ascii   \fp\v`
+995  0x000945a0 0x1800959a0 4   5    .rdata  ascii   \fp\v`
+996  0x00094650 0x180095a50 4   5    .rdata  ascii   \fp\v`
+997  0x00094728 0x180095b28 4   5    .rdata  ascii   \fp\v`
+998  0x00094920 0x180095d20 4   5    .rdata  ascii   \fp\v`
+999  0x00094b1e 0x180095f1e 4   5    .rdata  ascii   \fp\v`
+1000 0x00094ec4 0x1800962c4 6   7    .rdata  ascii   \fR\bp\a`
+1001 0x00094ff4 0x1800963f4 6   7    .rdata  ascii   \fR\bp\a`
+1002 0x0009573c 0x180096b3c 6   7    .rdata  ascii   \fR\bp\a`
+1003 0x0009580c 0x180096c0c 6   7    .rdata  ascii   \fR\bp\a`
+1004 0x00095915 0x180096d15 5   6    .rdata  ascii   B\fp\v`
+1005 0x00096764 0x180097b64 6   7    .rdata  ascii   \fR\bp\a`
+1006 0x00096813 0x180097c13 4   5    .rdata  ascii   p.8\a
+1007 0x000968d1 0x180097cd1 6   7    .rdata  ascii   2\vp.8\a
+1008 0x0009690b 0x180097d0b 4   5    .rdata  ascii   `.8\a
+1009 0x00096dbe 0x1800981be 7   16   .rdata  utf16le \a\b\t\n\v\f\r
+1010 0x00097bea 0x180098fea 53  54   .rdata  ascii   ?SetCurChildOperationValue@CCallBackOperate@@QEAAKK@Z
+1011 0x00097c22 0x180099022 47  48   .rdata  ascii   ?EndCurChildOperation@CCallBackOperate@@QEAAKXZ
+1012 0x00097c54 0x180099054 49  50   .rdata  ascii   ?StartChildOperation@CCallBackOperate@@QEAAKKKK@Z
+1013 0x00097c88 0x180099088 40  41   .rdata  ascii   ?DoMessageLoop@CCallBackOperate@@QEAAKXZ
+1014 0x00097cb4 0x1800990b4 28  29   .rdata  ascii   ??1CCallBackOperate@@QEAA@XZ
+1015 0x00097cd4 0x1800990d4 53  54   .rdata  ascii   ??0CCallBackOperate@@QEAA@P6AKPEAUOC_PARAM@@PEAX@Z1@Z
+1016 0x00097d0a 0x18009910a 19  20   .rdata  ascii   CallbackOperator.mo
+1017 0x00097d20 0x180099120 26  27   .rdata  ascii   GetConsoleScreenBufferInfo
+1018 0x00097d3e 0x18009913e 23  24   .rdata  ascii   SetConsoleTextAttribute
+1019 0x00097d58 0x180099158 12  13   .rdata  ascii   GetStdHandle
+1020 0x00097d68 0x180099168 13  14   .rdata  ascii   WriteConsoleA
+1021 0x00097d78 0x180099178 9   10   .rdata  ascii   WriteFile
+1022 0x00097d84 0x180099184 15  16   .rdata  ascii   DeviceIoControl
+1023 0x00097d96 0x180099196 29  30   .rdata  ascii   GetDynamicTimeZoneInformation
+1024 0x00097db6 0x1800991b6 11  12   .rdata  ascii   CreateFileW
+1025 0x00097dc4 0x1800991c4 18  19   .rdata  ascii   GetCurrentThreadId
+1026 0x00097dda 0x1800991da 14  15   .rdata  ascii   GetConsoleMode
+1027 0x00097dec 0x1800991ec 11  12   .rdata  ascii   DeleteFileA
+1028 0x00097dfa 0x1800991fa 11  12   .rdata  ascii   CloseHandle
+1029 0x00097e08 0x180099208 19  20   .rdata  ascii   GetCurrentProcessId
+1030 0x00097e1e 0x18009921e 19  20   .rdata  ascii   WideCharToMultiByte
+1031 0x00097e34 0x180099234 12  13   .rdata  ascii   LoadLibraryA
+1032 0x00097e44 0x180099244 14  15   .rdata  ascii   GetProcAddress
+1033 0x00097e56 0x180099256 11  12   .rdata  ascii   FreeLibrary
+1034 0x00097e64 0x180099264 5   6    .rdata  ascii   Sleep
+1035 0x00097e6c 0x18009926c 18  19   .rdata  ascii   GetFileAttributesA
+1036 0x00097e82 0x180099282 17  18   .rdata  ascii   GetCurrentProcess
+1037 0x00097e94 0x180099294 12  13   .rdata  ascii   KERNEL32.dll
+1038 0x00097ea4 0x1800992a4 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+1039 0x00097ec6 0x1800992c6 11  12   .rdata  ascii   _Cnd_signal
+1040 0x00097ed4 0x1800992d4 23  24   .rdata  ascii   ??1_Lockit@std@@QEAA@XZ
+1041 0x00097eee 0x1800992ee 24  25   .rdata  ascii   ??0_Lockit@std@@QEAA@H@Z
+1042 0x00097f0a 0x18009930a 60  61   .rdata  ascii   ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
+1043 0x00097f4a 0x18009934a 29  30   .rdata  ascii   ?_Throw_Cpp_error@std@@YAXH@Z
+1044 0x00097f6a 0x18009936a 49  50   .rdata  ascii   ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+1045 0x00097f9e 0x18009939e 40  41   .rdata  ascii   ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+1046 0x00097fca 0x1800993ca 31  32   .rdata  ascii   ?uncaught_exception@std@@YA_NXZ
+1047 0x00097fec 0x1800993ec 23  24   .rdata  ascii   ?_Xbad_alloc@std@@YAXXZ
+1048 0x00098006 0x180099406 30  31   .rdata  ascii   ?_Xout_of_range@std@@YAXPEBD@Z
+1049 0x00098028 0x180099428 56  57   .rdata  ascii   ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+1050 0x00098064 0x180099464 31  32   .rdata  ascii   ?_Xbad_function_call@std@@YAXXZ
+1051 0x00098086 0x180099486 35  36   .rdata  ascii   ?id@?$numpunct@D@std@@2V0locale@2@A
+1052 0x000980ac 0x1800994ac 27  28   .rdata  ascii   ?_Throw_C_error@std@@YAXH@Z
+1053 0x000980ca 0x1800994ca 47  48   .rdata  ascii   ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+1054 0x000980fc 0x1800994fc 36  37   .rdata  ascii   ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+1055 0x00098124 0x180099524 29  30   .rdata  ascii   ?_Syserror_map@std@@YAPEBDH@Z
+1056 0x00098144 0x180099544 20  21   .rdata  ascii   _Mtx_destroy_in_situ
+1057 0x0009815c 0x18009955c 9   10   .rdata  ascii   _Mtx_lock
+1058 0x00098168 0x180099568 17  18   .rdata  ascii   _Mtx_init_in_situ
+1059 0x0009817c 0x18009957c 8   9    .rdata  ascii   _Thrd_id
+1060 0x00098188 0x180099588 16  17   .rdata  ascii   _Xtime_get_ticks
+1061 0x0009819c 0x18009959c 10  11   .rdata  ascii   _Thrd_join
+1062 0x000981aa 0x1800995aa 11  12   .rdata  ascii   _Mtx_unlock
+1063 0x000981b8 0x1800995b8 20  21   .rdata  ascii   _Cnd_destroy_in_situ
+1064 0x000981d0 0x1800995d0 64  65   .rdata  ascii   ?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1065 0x00098214 0x180099614 98  99   .rdata  ascii   ?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ
+1066 0x0009827a 0x18009967a 59  60   .rdata  ascii   ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+1067 0x000982b8 0x1800996b8 102 103  .rdata  ascii   ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+1068 0x00098322 0x180099722 54  55   .rdata  ascii   ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ
+1069 0x0009835c 0x18009975c 68  69   .rdata  ascii   ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+1070 0x000983a4 0x1800997a4 62  63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+1071 0x000983e6 0x1800997e6 62  63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+1072 0x00098428 0x180099828 63  64   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+1073 0x0009846a 0x18009986a 64  65   .rdata  ascii   ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+1074 0x000984ae 0x1800998ae 65  66   .rdata  ascii   ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+1075 0x000984f2 0x1800998f2 74  75   .rdata  ascii   ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+1076 0x00098540 0x180099940 56  57   .rdata  ascii   ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+1077 0x0009857c 0x18009997c 57  58   .rdata  ascii   ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+1078 0x000985b8 0x1800999b8 73  74   .rdata  ascii   ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+1079 0x00098604 0x180099a04 62  63   .rdata  ascii   ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+1080 0x00098646 0x180099a46 51  52   .rdata  ascii   ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+1081 0x0009867c 0x180099a7c 65  66   .rdata  ascii   ?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z
+1082 0x000986c0 0x180099ac0 61  62   .rdata  ascii   ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+1083 0x00098700 0x180099b00 76  77   .rdata  ascii   ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z
+1084 0x00098750 0x180099b50 105 106  .rdata  ascii   ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+1085 0x000987bc 0x180099bbc 105 106  .rdata  ascii   ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+1086 0x00098828 0x180099c28 73  74   .rdata  ascii   ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+1087 0x00098874 0x180099c74 61  62   .rdata  ascii   ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+1088 0x000988b4 0x180099cb4 64  65   .rdata  ascii   ?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1089 0x000988f8 0x180099cf8 63  64   .rdata  ascii   ?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1090 0x0009893a 0x180099d3a 63  64   .rdata  ascii   ?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1091 0x0009897c 0x180099d7c 64  65   .rdata  ascii   ?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1092 0x000989c0 0x180099dc0 62  63   .rdata  ascii   ?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+1093 0x00098a02 0x180099e02 66  67   .rdata  ascii   ?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z
+1094 0x00098a48 0x180099e48 64  65   .rdata  ascii   ?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+1095 0x00098a8c 0x180099e8c 65  66   .rdata  ascii   ?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+1096 0x00098ad0 0x180099ed0 65  66   .rdata  ascii   ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+1097 0x00098b14 0x180099f14 65  66   .rdata  ascii   ?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ
+1098 0x00098b58 0x180099f58 62  63   .rdata  ascii   ?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+1099 0x00098b9a 0x180099f9a 66  67   .rdata  ascii   ?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z
+1100 0x00098be0 0x180099fe0 65  66   .rdata  ascii   ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+1101 0x00098c24 0x18009a024 65  66   .rdata  ascii   ?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ
+1102 0x00098c68 0x18009a068 80  81   .rdata  ascii   ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+1103 0x00098cbc 0x18009a0bc 81  82   .rdata  ascii   ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+1104 0x00098d10 0x18009a110 51  52   .rdata  ascii   ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1105 0x00098d46 0x18009a146 57  58   .rdata  ascii   ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1106 0x00098d82 0x18009a182 61  62   .rdata  ascii   ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+1107 0x00098dc2 0x18009a1c2 63  64   .rdata  ascii   ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+1108 0x00098e04 0x18009a204 66  67   .rdata  ascii   ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+1109 0x00098e4a 0x18009a24a 61  62   .rdata  ascii   ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+1110 0x00098e8a 0x18009a28a 69  70   .rdata  ascii   ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+1111 0x00098ed2 0x18009a2d2 69  70   .rdata  ascii   ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+1112 0x00098f1a 0x18009a31a 74  75   .rdata  ascii   ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+1113 0x00098f68 0x18009a368 60  61   .rdata  ascii   ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+1114 0x00098fa8 0x18009a3a8 74  75   .rdata  ascii   ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+1115 0x00098ff6 0x18009a3f6 55  56   .rdata  ascii   ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1116 0x00099030 0x18009a430 55  56   .rdata  ascii   ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1117 0x0009906a 0x18009a46a 80  81   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+1118 0x000990be 0x18009a4be 32  33   .rdata  ascii   ?c_str@?$_Yarn@D@std@@QEBAPEBDXZ
+1119 0x000990e2 0x18009a4e2 31  32   .rdata  ascii   ?width@ios_base@std@@QEAA_J_J@Z
+1120 0x00099104 0x18009a504 29  30   .rdata  ascii   ?width@ios_base@std@@QEBA_JXZ
+1121 0x00099124 0x18009a524 28  29   .rdata  ascii   ?flags@ios_base@std@@QEBAHXZ
+1122 0x00099144 0x18009a544 28  29   .rdata  ascii   ?good@ios_base@std@@QEBA_NXZ
+1123 0x00099164 0x18009a564 41  42   .rdata  ascii   ?always_noconv@codecvt_base@std@@QEBA_NXZ
+1124 0x00099190 0x18009a590 28  29   .rdata  ascii   ??1facet@locale@std@@MEAA@XZ
+1125 0x000991b0 0x18009a5b0 30  31   .rdata  ascii   ??0facet@locale@std@@IEAA@_K@Z
+1126 0x000991d2 0x18009a5d2 51  52   .rdata  ascii   ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+1127 0x00099208 0x18009a608 34  35   .rdata  ascii   ?_Incref@facet@locale@std@@UEAAXXZ
+1128 0x0009922e 0x18009a62e 26  27   .rdata  ascii   ??Bid@locale@std@@QEAA_KXZ
+1129 0x0009924c 0x18009a64c 34  35   .rdata  ascii   ?_Gettrue@_Locinfo@std@@QEBAPEBDXZ
+1130 0x00099272 0x18009a672 35  36   .rdata  ascii   ?_Getfalse@_Locinfo@std@@QEBAPEBDXZ
+1131 0x00099298 0x18009a698 42  43   .rdata  ascii   ?_Getlconv@_Locinfo@std@@QEBAPEBUlconv@@XZ
+1132 0x000992c6 0x18009a6c6 41  42   .rdata  ascii   ?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ
+1133 0x000992f2 0x18009a6f2 24  25   .rdata  ascii   ??1_Locinfo@std@@QEAA@XZ
+1134 0x0009930e 0x18009a70e 28  29   .rdata  ascii   ??0_Locinfo@std@@QEAA@PEBD@Z
+1135 0x0009932e 0x18009a72e 62  63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
+1136 0x00099370 0x18009a770 35  36   .rdata  ascii   ?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+1137 0x00099396 0x18009a796 55  56   .rdata  ascii   ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAADD@Z
+1138 0x000993d0 0x18009a7d0 88  89   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+1139 0x0009942c 0x18009a82c 29  30   .rdata  ascii   ?setf@ios_base@std@@QEAAHHH@Z
+1140 0x0009944a 0x18009a84a 12  13   .rdata  ascii   MSVCP140.dll
+1141 0x0009945a 0x18009a85a 18  19   .rdata  ascii   __CxxFrameHandler3
+1142 0x00099470 0x18009a870 23  24   .rdata  ascii   __std_exception_destroy
+1143 0x0009948a 0x18009a88a 20  21   .rdata  ascii   __std_exception_copy
+1144 0x000994a2 0x18009a8a2 9   10   .rdata  ascii   _purecall
+1145 0x000994ae 0x18009a8ae 15  16   .rdata  ascii   __std_terminate
+1146 0x000994c0 0x18009a8c0 7   8    .rdata  ascii   strrchr
+1147 0x000994ca 0x18009a8ca 20  21   .rdata  ascii   __std_type_info_name
+1148 0x000994e2 0x18009a8e2 20  21   .rdata  ascii   __C_specific_handler
+1149 0x000994fa 0x18009a8fa 28  29   .rdata  ascii   __std_type_info_destroy_list
+1150 0x0009951a 0x18009a91a 18  19   .rdata  ascii   _CxxThrowException
+1151 0x00099530 0x18009a930 6   7    .rdata  ascii   memset
+1152 0x00099538 0x18009a938 16  17   .rdata  ascii   VCRUNTIME140.dll
+1153 0x0009954c 0x18009a94c 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+1154 0x00099572 0x18009a972 5   6    .rdata  ascii   fputc
+1155 0x0009957a 0x18009a97a 6   7    .rdata  ascii   calloc
+1156 0x00099584 0x18009a984 26  27   .rdata  ascii   __stdio_common_vswprintf_s
+1157 0x000995a2 0x18009a9a2 6   7    .rdata  ascii   _dtest
+1158 0x000995ac 0x18009a9ac 11  12   .rdata  ascii   _gmtime64_s
+1159 0x000995ba 0x18009a9ba 15  16   .rdata  ascii   __acrt_iob_func
+1160 0x000995cc 0x18009a9cc 6   7    .rdata  ascii   _dsign
+1161 0x000995d6 0x18009a9d6 14  15   .rdata  ascii   _localtime64_s
+1162 0x000995e8 0x18009a9e8 6   7    .rdata  ascii   fflush
+1163 0x000995f2 0x18009a9f2 6   7    .rdata  ascii   fclose
+1164 0x000995fc 0x18009a9fc 8   9    .rdata  ascii   strftime
+1165 0x00099608 0x18009aa08 5   6    .rdata  ascii   fgetc
+1166 0x00099610 0x18009aa10 23  24   .rdata  ascii   __stdio_common_vfprintf
+1167 0x0009962a 0x18009aa2a 26  27   .rdata  ascii   __stdio_common_vsnprintf_s
+1168 0x00099648 0x18009aa48 9   10   .rdata  ascii   terminate
+1169 0x00099654 0x18009aa54 12  13   .rdata  ascii   _unlock_file
+1170 0x00099664 0x18009aa64 10  11   .rdata  ascii   _lock_file
+1171 0x00099672 0x18009aa72 6   7    .rdata  ascii   fwrite
+1172 0x0009967c 0x18009aa7c 7   8    .rdata  ascii   _ldtest
+1173 0x00099686 0x18009aa86 6   7    .rdata  ascii   _errno
+1174 0x00099690 0x18009aa90 7   8    .rdata  ascii   _fdtest
+1175 0x0009969a 0x18009aa9a 7   8    .rdata  ascii   fgetpos
+1176 0x000996a4 0x18009aaa4 7   8    .rdata  ascii   setvbuf
+1177 0x000996ae 0x18009aaae 4   5    .rdata  ascii   free
+1178 0x000996b6 0x18009aab6 6   7    .rdata  ascii   ungetc
+1179 0x000996c0 0x18009aac0 7   8    .rdata  ascii   fsetpos
+1180 0x000996ca 0x18009aaca 7   8    .rdata  ascii   isdigit
+1181 0x000996d4 0x18009aad4 5   6    .rdata  ascii   fread
+1182 0x000996dc 0x18009aadc 9   10   .rdata  ascii   _fseeki64
+1183 0x000996e8 0x18009aae8 27  28   .rdata  ascii   _get_stream_buffer_pointers
+1184 0x00099706 0x18009ab06 4   5    .rdata  ascii   log2
+1185 0x0009970e 0x18009ab0e 7   8    .rdata  ascii   _fsopen
+1186 0x00099718 0x18009ab18 6   7    .rdata  ascii   _mkdir
+1187 0x00099722 0x18009ab22 9   10   .rdata  ascii   _callnewh
+1188 0x0009972e 0x18009ab2e 6   7    .rdata  ascii   malloc
+1189 0x00099738 0x18009ab38 15  16   .rdata  ascii   _seh_filter_dll
+1190 0x0009974a 0x18009ab4a 22  23   .rdata  ascii   _configure_narrow_argv
+1191 0x00099764 0x18009ab64 30  31   .rdata  ascii   _initialize_narrow_environment
+1192 0x00099786 0x18009ab86 24  25   .rdata  ascii   _initialize_onexit_table
+1193 0x000997a2 0x18009aba2 25  26   .rdata  ascii   _register_onexit_function
+1194 0x000997be 0x18009abbe 21  22   .rdata  ascii   _execute_onexit_table
+1195 0x000997d6 0x18009abd6 11  12   .rdata  ascii   _crt_atexit
+1196 0x000997e4 0x18009abe4 6   7    .rdata  ascii   _cexit
+1197 0x000997ee 0x18009abee 9   10   .rdata  ascii   _initterm
+1198 0x000997fa 0x18009abfa 11  12   .rdata  ascii   _initterm_e
+1199 0x00099806 0x18009ac06 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+1200 0x00099828 0x18009ac28 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+1201 0x00099848 0x18009ac48 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+1202 0x00099868 0x18009ac68 30  31   .rdata  ascii   api-ms-win-crt-math-l1-1-0.dll
+1203 0x00099888 0x18009ac88 30  31   .rdata  ascii   api-ms-win-crt-time-l1-1-0.dll
+1204 0x000998a8 0x18009aca8 36  37   .rdata  ascii   api-ms-win-crt-filesystem-l1-1-0.dll
+1205 0x000998ce 0x18009acce 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+1206 0x000998f2 0x18009acf2 20  21   .rdata  ascii   EnterCriticalSection
+1207 0x0009990a 0x18009ad0a 20  21   .rdata  ascii   LeaveCriticalSection
+1208 0x00099922 0x18009ad22 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+1209 0x0009994a 0x18009ad4a 21  22   .rdata  ascii   DeleteCriticalSection
+1210 0x00099962 0x18009ad62 8   9    .rdata  ascii   SetEvent
+1211 0x0009996e 0x18009ad6e 10  11   .rdata  ascii   ResetEvent
+1212 0x0009997c 0x18009ad7c 21  22   .rdata  ascii   WaitForSingleObjectEx
+1213 0x00099994 0x18009ad94 12  13   .rdata  ascii   CreateEventW
+1214 0x000999a4 0x18009ada4 16  17   .rdata  ascii   GetModuleHandleW
+1215 0x000999b8 0x18009adb8 19  20   .rdata  ascii   InitializeSListHead
+1216 0x000999ce 0x18009adce 17  18   .rdata  ascii   RtlCaptureContext
+1217 0x000999e2 0x18009ade2 22  23   .rdata  ascii   RtlLookupFunctionEntry
+1218 0x000999fc 0x18009adfc 16  17   .rdata  ascii   RtlVirtualUnwind
+1219 0x00099a10 0x18009ae10 24  25   .rdata  ascii   UnhandledExceptionFilter
+1220 0x00099a2c 0x18009ae2c 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+1221 0x00099a4a 0x18009ae4a 16  17   .rdata  ascii   TerminateProcess
+1222 0x00099a5e 0x18009ae5e 25  26   .rdata  ascii   IsProcessorFeaturePresent
+1223 0x00099a7a 0x18009ae7a 17  18   .rdata  ascii   IsDebuggerPresent
+1224 0x00099a8e 0x18009ae8e 23  24   .rdata  ascii   QueryPerformanceCounter
+1225 0x00099aa8 0x18009aea8 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+1226 0x00099ac2 0x18009aec2 25  26   .rdata  ascii   DisableThreadLibraryCalls
+1227 0x00099ade 0x18009aede 6   7    .rdata  ascii   memchr
+1228 0x00099ae8 0x18009aee8 6   7    .rdata  ascii   memcmp
+1229 0x00099af2 0x18009aef2 7   8    .rdata  ascii   memmove
+1230 0x00099afc 0x18009aefc 4   5    .rdata  ascii   ceil
+1231 0x00099c43 0x18009b043 8   9    .data   ascii   EXFAT
+1232 0x00099cb8 0x18009b0b8 5   10   .data   utf8    3ɎюNټ
+1233 0x00099d0f 0x18009b10f 4   5    .data   ascii   @|f@
+1234 0x00099d1e 0x18009b11e 4   5    .data   ascii   fXf@
+1235 0x00099d47 0x18009b147 5   6    .data   ascii   @t\fHt
+1236 0x00099d5f 0x18009b15f 4   5    .data   ascii   f`fj
+1237 0x00099d7a 0x18009b17a 11  12   .data   ascii   fXfXfXfXfar
+1238 0x00099d89 0x18009b189 4   5    .data   ascii   f@Iu
+1239 0x00099d9e 0x18009b19e 7   16   .data   utf16le BOOTMGR
+1240 0x00099dae 0x18009b1ae 28  29   .data   ascii   Remove disks or other media.
+1241 0x00099dcb 0x18009b1cb 12  13   .data   ascii   \r\nDisk error
+1242 0x00099dd8 0x18009b1d8 28  29   .data   ascii   \r\nPress any key to restart\r\n
+1243 0x00099f2c 0x18009b32c 5   6    .data   ascii   fHfSf
+1244 0x00099f43 0x18009b343 4   5    .data   ascii   <\auA
+1245 0x00099f50 0x18009b350 8   9    .data   ascii   u6fPfSfW
+1246 0x00099f6b 0x18009b36b 8   9    .data   ascii   f_f[fXfW
+1247 0x00099f80 0x18009b380 4   5    .data   ascii   f^f_
+1248 0x00099f97 0x18009b397 5   6    .data   ascii   fXf@N
+1249 0x00099fa0 0x18009b3a0 8   9    .data   ascii   fXfRfSf3
+1250 0x00099faf 0x18009b3af 4   5    .data   ascii   f[fZ
+1251 0x0009a0aa 0x18009b4aa 5   6    .data   ascii   fYfIu
+1252 0x0009a0b0 0x18009b4b0 6   7    .data   ascii   fXfSfR
+1253 0x0009a0c4 0x18009b4c4 4   5    .data   ascii   fZf[
+1254 0x0009a0d6 0x18009b4d6 5   7    .data   utf8    Fأ\v|f
+1255 0x0009a107 0x18009b507 4   5    .data   ascii   f@fJ
+1256 0x0009a12e 0x18009b52e 5   6    .data   ascii   f[f;F
+1257 0x0009a169 0x18009b569 4   5    .data   ascii   fZfR
+1258 0x0009b243 0x18009c643 8   9    .data   ascii   NTFS
+1259 0x0009b2af 0x18009c6af 5   6    .data   ascii   NTFSu
+1260 0x0009b323 0x18009c723 6   7    .data   ascii   TCPAu$
+1261 0x0009b33b 0x18009c73b 6   7    .data   ascii   fSfSfU
+1262 0x0009b387 0x18009c787 8   9    .data   ascii   fY[ZfYfY
+1263 0x0009b3ca 0x18009c7ca 28  29   .data   ascii   \r\nA disk read error occurred
+1264 0x0009b3e7 0x18009c7e7 23  24   .data   ascii   \r\nBOOTMGR is compressed
+1265 0x0009b3ff 0x18009c7ff 33  34   .data   ascii   \r\nPress Ctrl+Alt+Del to restart\r\n
+1266 0x0009b500 0x18009c900 15  16   .data   ascii   .?AVtype_info@@
+1267 0x0009b520 0x18009c920 19  20   .data   ascii   .?AVbad_alloc@std@@
+1268 0x0009b548 0x18009c948 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+1269 0x0009b578 0x18009c978 18  19   .data   ascii   .?AVRawException@@
+1270 0x0009b5a0 0x18009c9a0 20  21   .data   ascii   .?AUIStorageDevice@@
+1271 0x0009b5c8 0x18009c9c8 18  19   .data   ascii   .?AUIBlockDevice@@
+1272 0x0009b5f0 0x18009c9f0 13  14   .data   ascii   .?AUIObject@@
+1273 0x0009b610 0x18009ca10 19  20   .data   ascii   .?AVexception@std@@
+1274 0x0009b640 0x18009ca40 66  67   .data   ascii   .?AV?$e_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1275 0x0009b6a0 0x18009caa0 47  48   .data   ascii   .?AV<lambda_95b7644361ddbe959de929d35216b3e5>@@
+1276 0x0009b6e0 0x18009cae0 49  50   .data   ascii   .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+1277 0x0009b728 0x18009cb28 23  24   .data   ascii   .?AVruntime_error@std@@
+1278 0x0009b750 0x18009cb50 35  36   .data   ascii   .?AVfull_formatter@details@spdlog@@
+1279 0x0009b790 0x18009cb90 47  48   .data   ascii   .?AV<lambda_40f239c0ac2d8ed03374bb953fb39368>@@
+1280 0x0009b7d0 0x18009cbd0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_38bcd9859f63c7c1c7afa6ef0bbb9c04>@@X$$V@std@@
+1281 0x0009b840 0x18009cc40 79  80   .data   ascii   .?AV?$short_filename_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1282 0x0009b8a0 0x18009cca0 66  67   .data   ascii   .?AV?$C_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1283 0x0009b900 0x18009cd00 66  67   .data   ascii   .?AV?$b_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1284 0x0009b958 0x18009cd58 19  20   .data   ascii   .?AVlogger@spdlog@@
+1285 0x0009b980 0x18009cd80 81  82   .data   ascii   .?AV?$short_level_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1286 0x0009b9f0 0x18009cdf0 130 131  .data   ascii   .?AV?$elapsed_formatter@Unull_scoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@@details@spdlog@@
+1287 0x0009ba90 0x18009ce90 50  51   .data   ascii   .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+1288 0x0009bae0 0x18009cee0 71  72   .data   ascii   .?AV?$H_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1289 0x0009bb40 0x18009cf40 71  72   .data   ascii   .?AV?$e_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1290 0x0009bba0 0x18009cfa0 47  48   .data   ascii   .?AV<lambda_38bcd9859f63c7c1c7afa6ef0bbb9c04>@@
+1291 0x0009bbe0 0x18009cfe0 22  23   .data   ascii   .?AVformatter@spdlog@@
+1292 0x0009bc10 0x18009d010 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_95b7644361ddbe959de929d35216b3e5>@@X$$V@std@@
+1293 0x0009bc80 0x18009d080 71  72   .data   ascii   .?AV?$r_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1294 0x0009bce0 0x18009d0e0 66  67   .data   ascii   .?AV?$r_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1295 0x0009bd38 0x18009d138 41  42   .data   ascii   .?AVcolor_stop_formatter@details@spdlog@@
+1296 0x0009bd80 0x18009d180 71  72   .data   ascii   .?AV?$D_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1297 0x0009bde0 0x18009d1e0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_40f239c0ac2d8ed03374bb953fb39368>@@X$$V@std@@
+1298 0x0009be50 0x18009d250 71  72   .data   ascii   .?AV?$t_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1299 0x0009beb0 0x18009d2b0 123 124  .data   ascii   .?AV?$elapsed_formatter@Vscoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@std@@@details@spdlog@@
+1300 0x0009bf40 0x18009d340 74  75   .data   ascii   .?AV?$name_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1301 0x0009bfa0 0x18009d3a0 68  69   .data   ascii   .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1302 0x0009c000 0x18009d400 47  48   .data   ascii   .?AV<lambda_bd1b398cf345625fad865b7fb2aea6d9>@@
+1303 0x0009c040 0x18009d440 47  48   .data   ascii   .?AV<lambda_0169031c272c6a22e24a2c9600afd3a9>@@
+1304 0x0009c080 0x18009d480 71  72   .data   ascii   .?AV?$A_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1305 0x0009c0d8 0x18009d4d8 18  19   .data   ascii   .?AVios_base@std@@
+1306 0x0009c100 0x18009d500 71  72   .data   ascii   .?AV?$T_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1307 0x0009c158 0x18009d558 25  26   .data   ascii   .?AVformat_error@v9@fmt@@
+1308 0x0009c188 0x18009d588 24  25   .data   ascii   .?AVerror_category@std@@
+1309 0x0009c1c0 0x18009d5c0 79  80   .data   ascii   .?AV?$source_linenum_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1310 0x0009c220 0x18009d620 22  23   .data   ascii   .?AVsystem_error@std@@
+1311 0x0009c250 0x18009d650 71  72   .data   ascii   .?AV?$p_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1312 0x0009c2b0 0x18009d6b0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_116a0106186ed1a28f2833241dc46f46>@@X$$V@std@@
+1313 0x0009c318 0x18009d718 33  34   .data   ascii   .?AVch_formatter@details@spdlog@@
+1314 0x0009c350 0x18009d750 128 129  .data   ascii   .?AV?$elapsed_formatter@Unull_scoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@std@@@details@spdlog@@
+1315 0x0009c3f0 0x18009d7f0 85  86   .data   ascii   .?AV?$source_location_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1316 0x0009c460 0x18009d860 80  81   .data   ascii   .?AV?$source_funcname_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1317 0x0009c4d0 0x18009d8d0 71  72   .data   ascii   .?AV?$M_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1318 0x0009c530 0x18009d930 84  85   .data   ascii   .?AV?$short_filename_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1319 0x0009c5a0 0x18009d9a0 70  71   .data   ascii   .?AV?$level_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1320 0x0009c600 0x18009da00 71  72   .data   ascii   .?AV?$f_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1321 0x0009c658 0x18009da58 21  22   .data   ascii   .?AV_Facet_base@std@@
+1322 0x0009c680 0x18009da80 66  67   .data   ascii   .?AV?$Y_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1323 0x0009c6e0 0x18009dae0 71  72   .data   ascii   .?AV?$a_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1324 0x0009c740 0x18009db40 66  67   .data   ascii   .?AV?$a_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1325 0x0009c7a0 0x18009dba0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_bd1b398cf345625fad865b7fb2aea6d9>@@X$$V@std@@
+1326 0x0009c808 0x18009dc08 33  34   .data   ascii   .?AV_Generic_error_category@std@@
+1327 0x0009c840 0x18009dc40 25  26   .data   ascii   .?AU_Crt_new_delete@std@@
+1328 0x0009c870 0x18009dc70 71  72   .data   ascii   .?AV?$I_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1329 0x0009c8c8 0x18009dcc8 19  20   .data   ascii   .?AV?$_Iosb@H@std@@
+1330 0x0009c8f0 0x18009dcf0 71  72   .data   ascii   .?AV?$E_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1331 0x0009c950 0x18009dd50 62  63   .data   ascii   .?AV?$basic_memory_buffer@H$0BPE@V?$allocator@H@std@@@v9@fmt@@
+1332 0x0009c9a0 0x18009dda0 120 121  .data   ascii   .?AV?$elapsed_formatter@Vscoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$00@std@@@chrono@std@@@details@spdlog@@
+1333 0x0009ca30 0x18009de30 40  41   .data   ascii   .?AVaggregate_formatter@details@spdlog@@
+1334 0x0009ca70 0x18009de70 50  51   .data   ascii   .?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+1335 0x0009cab8 0x18009deb8 22  23   .data   ascii   .?AV?$numpunct@D@std@@
+1336 0x0009cae0 0x18009dee0 47  48   .data   ascii   .?AV<lambda_ddf3b9d8a334e7bf53e865f890c68cbe>@@
+1337 0x0009cb20 0x18009df20 97  98   .data   ascii   .?AV?$_Ref_count_obj@V?$wincolor_stdout_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@@std@@
+1338 0x0009cba0 0x18009dfa0 71  72   .data   ascii   .?AV?$z_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1339 0x0009cc00 0x18009e000 73  74   .data   ascii   .?AV?$wincolor_stdout_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@
+1340 0x0009cc60 0x18009e060 51  52   .data   ascii   .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+1341 0x0009ccb0 0x18009e0b0 71  72   .data   ascii   .?AV?$S_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1342 0x0009cd08 0x18009e108 42  43   .data   ascii   .?AVcolor_start_formatter@details@spdlog@@
+1343 0x0009cd50 0x18009e150 47  48   .data   ascii   .?AV<lambda_0094c38be8c929ced4a22accbe9be431>@@
+1344 0x0009cd90 0x18009e190 72  73   .data   ascii   .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1345 0x0009cdf0 0x18009e1f0 66  67   .data   ascii   .?AV?$p_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1346 0x0009ce50 0x18009e250 125 126  .data   ascii   .?AV?$elapsed_formatter@Unull_scoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$00@std@@@chrono@std@@@details@spdlog@@
+1347 0x0009cee0 0x18009e2e0 71  72   .data   ascii   .?AV?$C_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1348 0x0009cf40 0x18009e340 133 134  .data   ascii   .?AV?$elapsed_formatter@Unull_scoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@@details@spdlog@@
+1349 0x0009cfd8 0x18009e3d8 18  19   .data   ascii   .?AVbad_cast@std@@
+1350 0x0009d000 0x18009e400 66  67   .data   ascii   .?AV?$R_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1351 0x0009d060 0x18009e460 71  72   .data   ascii   .?AV?$v_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1352 0x0009d0c0 0x18009e4c0 71  72   .data   ascii   .?AV?$c_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1353 0x0009d120 0x18009e520 85  86   .data   ascii   .?AV?$source_filename_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1354 0x0009d190 0x18009e590 71  72   .data   ascii   .?AV?$F_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1355 0x0009d1f0 0x18009e5f0 69  70   .data   ascii   .?AV?$name_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1356 0x0009d250 0x18009e650 62  63   .data   ascii   .?AV?$basic_memory_buffer@D$0BPE@V?$allocator@D@std@@@v9@fmt@@
+1357 0x0009d2a0 0x18009e6a0 71  72   .data   ascii   .?AV?$B_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1358 0x0009d300 0x18009e700 80  81   .data   ascii   .?AV?$source_location_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1359 0x0009d370 0x18009e770 80  81   .data   ascii   .?AV?$source_filename_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1360 0x0009d3d8 0x18009e7d8 27  28   .data   ascii   .?AV?$_Func_base@X$$V@std@@
+1361 0x0009d410 0x18009e810 47  48   .data   ascii   .?AV<lambda_b1b799a586dcc9a445064e4a1da0af39>@@
+1362 0x0009d450 0x18009e850 49  50   .data   ascii   .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+1363 0x0009d4a0 0x18009e8a0 66  67   .data   ascii   .?AV?$A_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1364 0x0009d4f8 0x18009e8f8 22  23   .data   ascii   .?AVspdlog_ex@spdlog@@
+1365 0x0009d520 0x18009e920 125 126  .data   ascii   .?AV?$elapsed_formatter@Vscoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@@details@spdlog@@
+1366 0x0009d5b0 0x18009e9b0 45  46   .data   ascii   .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+1367 0x0009d5f0 0x18009e9f0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_b1b799a586dcc9a445064e4a1da0af39>@@X$$V@std@@
+1368 0x0009d660 0x18009ea60 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_0094c38be8c929ced4a22accbe9be431>@@X$$V@std@@
+1369 0x0009d6c8 0x18009eac8 22  23   .data   ascii   .?AVfacet@locale@std@@
+1370 0x0009d6f0 0x18009eaf0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_ddf3b9d8a334e7bf53e865f890c68cbe>@@X$$V@std@@
+1371 0x0009d760 0x18009eb60 66  67   .data   ascii   .?AV?$m_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1372 0x0009d7c0 0x18009ebc0 128 129  .data   ascii   .?AV?$elapsed_formatter@Vscoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@@details@spdlog@@
+1373 0x0009d860 0x18009ec60 66  67   .data   ascii   .?AV?$S_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1374 0x0009d8c0 0x18009ecc0 85  86   .data   ascii   .?AV?$source_funcname_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1375 0x0009d928 0x18009ed28 25  26   .data   ascii   .?AV_Ref_count_base@std@@
+1376 0x0009d960 0x18009ed60 61  62   .data   ascii   .?AV?$basic_memory_buffer@I$0CA@V?$allocator@I@std@@@v9@fmt@@
+1377 0x0009d9b0 0x18009edb0 84  85   .data   ascii   .?AV?$source_linenum_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1378 0x0009da20 0x18009ee20 66  67   .data   ascii   .?AV?$F_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1379 0x0009da78 0x18009ee78 15  16   .data   ascii   .?AVIRawFixer@@
+1380 0x0009daa0 0x18009eea0 66  67   .data   ascii   .?AV?$wincolor_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@
+1381 0x0009db00 0x18009ef00 66  67   .data   ascii   .?AV?$z_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1382 0x0009db60 0x18009ef60 71  72   .data   ascii   .?AV?$R_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1383 0x0009dbc0 0x18009efc0 66  67   .data   ascii   .?AV?$D_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1384 0x0009dc18 0x18009f018 43  44   .data   ascii   .?AV?$_Ref_count_obj@Vlogger@spdlog@@@std@@
+1385 0x0009dc58 0x18009f058 30  31   .data   ascii   .?AVpattern_formatter@spdlog@@
+1386 0x0009dc90 0x18009f090 66  67   .data   ascii   .?AV?$H_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1387 0x0009dcf0 0x18009f0f0 49  50   .data   ascii   .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+1388 0x0009dd38 0x18009f138 30  31   .data   ascii   .?AV?$buffer@D@detail@v9@fmt@@
+1389 0x0009dd70 0x18009f170 71  72   .data   ascii   .?AV?$m_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1390 0x0009ddd0 0x18009f1d0 66  67   .data   ascii   .?AV?$E_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1391 0x0009de28 0x18009f228 30  31   .data   ascii   .?AV?$buffer@I@detail@v9@fmt@@
+1392 0x0009de58 0x18009f258 23  24   .data   ascii   .?AV_System_error@std@@
+1393 0x0009de80 0x18009f280 47  48   .data   ascii   .?AV<lambda_116a0106186ed1a28f2833241dc46f46>@@
+1394 0x0009dec0 0x18009f2c0 66  67   .data   ascii   .?AV?$M_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1395 0x0009df20 0x18009f320 66  67   .data   ascii   .?AV?$d_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1396 0x0009df78 0x18009f378 23  24   .data   ascii   .?AVsink@sinks@spdlog@@
+1397 0x0009dfa0 0x18009f3a0 16  17   .data   ascii   .?AVExFATFixer@@
+1398 0x0009dfd0 0x18009f3d0 73  74   .data   ascii   .?AV?$pid_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1399 0x0009e030 0x18009f430 68  69   .data   ascii   .?AV?$pid_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1400 0x0009e090 0x18009f490 76  77   .data   ascii   .?AV?$short_level_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1401 0x0009e0f0 0x18009f4f0 71  72   .data   ascii   .?AV?$b_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1402 0x0009e150 0x18009f550 71  72   .data   ascii   .?AV?$d_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1403 0x0009e1b0 0x18009f5b0 66  67   .data   ascii   .?AV?$T_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1404 0x0009e210 0x18009f610 66  67   .data   ascii   .?AV?$f_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1405 0x0009e270 0x18009f670 66  67   .data   ascii   .?AV?$t_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1406 0x0009e2d0 0x18009f6d0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_0169031c272c6a22e24a2c9600afd3a9>@@X$$V@std@@
+1407 0x0009e340 0x18009f740 66  67   .data   ascii   .?AV?$c_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1408 0x0009e3a0 0x18009f7a0 66  67   .data   ascii   .?AV?$v_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1409 0x0009e400 0x18009f800 71  72   .data   ascii   .?AV?$Y_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1410 0x0009e460 0x18009f860 75  76   .data   ascii   .?AV?$level_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@
+1411 0x0009e4c0 0x18009f8c0 30  31   .data   ascii   .?AV?$buffer@H@detail@v9@fmt@@
+1412 0x0009e4f0 0x18009f8f0 61  62   .data   ascii   .?AV?$basic_memory_buffer@D$0PK@V?$allocator@D@std@@@v9@fmt@@
+1413 0x0009e540 0x18009f940 66  67   .data   ascii   .?AV?$B_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1414 0x0009e598 0x18009f998 35  36   .data   ascii   .?AVflag_formatter@details@spdlog@@
+1415 0x0009e5d0 0x18009f9d0 66  67   .data   ascii   .?AV?$I_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@
+1416 0x0009e630 0x18009fa30 157 158  .data   ascii   .?AV?$iterator_buffer@V?$back_insert_iterator@V?$basic_memory_buffer@D$0PK@V?$allocator@D@std@@@v9@fmt@@@std@@DUbuffer_traits@detail@v9@fmt@@@detail@v9@fmt@@
+1417 0x0009e6e0 0x18009fae0 47  48   .data   ascii   .?AV<lambda_8b3f1c255db48e70912f0e41f93ed7e8>@@
+1418 0x0009e720 0x18009fb20 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_8f14f57c36d13680f4d4dec841e15f01>@@X$$V@std@@
+1419 0x0009e790 0x18009fb90 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_ad2e2b26a79ff48384db523c95d8feb8>@@X$$V@std@@
+1420 0x0009e800 0x18009fc00 47  48   .data   ascii   .?AV<lambda_7e25935b1f33977e2bc0673cde8db6be>@@
+1421 0x0009e840 0x18009fc40 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_7e25935b1f33977e2bc0673cde8db6be>@@X$$V@std@@
+1422 0x0009e8b0 0x18009fcb0 47  48   .data   ascii   .?AV<lambda_ad2e2b26a79ff48384db523c95d8feb8>@@
+1423 0x0009e8f0 0x18009fcf0 47  48   .data   ascii   .?AV<lambda_a8229764c998df5585ce8379d56c566b>@@
+1424 0x0009e930 0x18009fd30 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_bb10aadacfa6586b02be7a2d756d1609>@@X$$V@std@@
+1425 0x0009e9a0 0x18009fda0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_c4d4a1ea9ac8079c751507370422bbd1>@@X$$V@std@@
+1426 0x0009ea10 0x18009fe10 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_8b3f1c255db48e70912f0e41f93ed7e8>@@X$$V@std@@
+1427 0x0009ea80 0x18009fe80 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_a8229764c998df5585ce8379d56c566b>@@X$$V@std@@
+1428 0x0009eaf0 0x18009fef0 47  48   .data   ascii   .?AV<lambda_5631d4ee6eb9ca67a5f483fa1bfa47f7>@@
+1429 0x0009eb30 0x18009ff30 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_519a54bcd0abab7f76f391413faac4ca>@@X$$V@std@@
+1430 0x0009eba0 0x18009ffa0 47  48   .data   ascii   .?AV<lambda_519a54bcd0abab7f76f391413faac4ca>@@
+1431 0x0009ebe0 0x18009ffe0 47  48   .data   ascii   .?AV<lambda_bb10aadacfa6586b02be7a2d756d1609>@@
+1432 0x0009ec20 0x1800a0020 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_5631d4ee6eb9ca67a5f483fa1bfa47f7>@@X$$V@std@@
+1433 0x0009ec90 0x1800a0090 47  48   .data   ascii   .?AV<lambda_8f14f57c36d13680f4d4dec841e15f01>@@
+1434 0x0009ecd0 0x1800a00d0 14  15   .data   ascii   .?AVFATFixer@@
+1435 0x0009ecf0 0x1800a00f0 47  48   .data   ascii   .?AV<lambda_c4d4a1ea9ac8079c751507370422bbd1>@@
+1436 0x0009ed30 0x1800a0130 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_bca7539f2d1097fdf583238f77385577>@@X$$V@std@@
+1437 0x0009ed98 0x1800a0198 15  16   .data   ascii   .?AVNTFSFixer@@
+1438 0x0009edc0 0x1800a01c0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_54433fa846c6872e209188e6cd1838c5>@@X$$V@std@@
+1439 0x0009ee30 0x1800a0230 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_f1e82f8c267f86befdf0ecaa8b3d0411>@@X$$V@std@@
+1440 0x0009eea0 0x1800a02a0 47  48   .data   ascii   .?AV<lambda_54433fa846c6872e209188e6cd1838c5>@@
+1441 0x0009eee0 0x1800a02e0 47  48   .data   ascii   .?AV<lambda_f1e82f8c267f86befdf0ecaa8b3d0411>@@
+1442 0x0009ef20 0x1800a0320 47  48   .data   ascii   .?AV<lambda_c72036f5cc04a4a0d70fb8e0cd53257b>@@
+1443 0x0009ef60 0x1800a0360 47  48   .data   ascii   .?AV<lambda_d11f7fc3dbc88c5a98e7856dfa4435af>@@
+1444 0x0009efa0 0x1800a03a0 47  48   .data   ascii   .?AV<lambda_bca7539f2d1097fdf583238f77385577>@@
+1445 0x0009efe0 0x1800a03e0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_7d6840995ecb69a093c22f9b6c2ab11b>@@X$$V@std@@
+1446 0x0009f050 0x1800a0450 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_d189ae72df13580b92b494d47487741f>@@X$$V@std@@
+1447 0x0009f0c0 0x1800a04c0 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_c72036f5cc04a4a0d70fb8e0cd53257b>@@X$$V@std@@
+1448 0x0009f130 0x1800a0530 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_d11f7fc3dbc88c5a98e7856dfa4435af>@@X$$V@std@@
+1449 0x0009f1a0 0x1800a05a0 47  48   .data   ascii   .?AV<lambda_d189ae72df13580b92b494d47487741f>@@
+1450 0x0009f1e0 0x1800a05e0 47  48   .data   ascii   .?AV<lambda_7d6840995ecb69a093c22f9b6c2ab11b>@@
+1451 0x0009f220 0x1800a0620 21  22   .data   ascii   .?AUIPartitionEntry@@
+1452 0x0009f250 0x1800a0650 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_3c22a3b5c1f2152c6067073f4cb96212>@@X$$V@std@@
+1453 0x0009f2c0 0x1800a06c0 47  48   .data   ascii   .?AV<lambda_3c22a3b5c1f2152c6067073f4cb96212>@@
+1454 0x0009f300 0x1800a0700 47  48   .data   ascii   .?AV<lambda_67a5628d93f4afa5afde2d92a70eb311>@@
+1455 0x0009f340 0x1800a0740 16  17   .data   ascii   .?AUIDiskEntry@@
+1456 0x0009f368 0x1800a0768 19  20   .data   ascii   .?AUIDiskGeometry@@
+1457 0x0009f390 0x1800a0790 80  81   .data   ascii   .?AV?$_Func_impl_no_alloc@V<lambda_67a5628d93f4afa5afde2d92a70eb311>@@X$$V@std@@
+1458 0x0009f3f8 0x1800a07f8 21  22   .data   ascii   .?AUIDiskDeviceType@@
+1459 0x0009f420 0x1800a0820 22  23   .data   ascii   .?AUIVolumeEntryInfo@@
+1460 0x0009f450 0x1800a0850 73  74   .data   ascii   .?AV?$_Ref_count_obj@V?$basic_file_sink@Vmutex@std@@@sinks@spdlog@@@std@@
+1461 0x0009f4b0 0x1800a08b0 49  50   .data   ascii   .?AV?$basic_file_sink@Vmutex@std@@@sinks@spdlog@@
+1462 0x0009f4f8 0x1800a08f8 43  44   .data   ascii   .?AV?$base_sink@Vmutex@std@@@sinks@spdlog@@
+1463 0x000a8c60 0x1800ac060 638 639  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n  <dependency>\r\n    <dependentAssembly>\r\n      <assemblyIdentity type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*' />\r\n    </dependentAssembly>\r\n  </dependency>\r\n</assembly>\r\n

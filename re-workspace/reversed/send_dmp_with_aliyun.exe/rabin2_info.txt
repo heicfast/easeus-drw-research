@@ -1,0 +1,34 @@
+arch     x86
+baddr    0x140000000
+binsz    107456
+bintype  pe
+bits     64
+canary   true
+injprot  false
+retguard false
+class    PE32+
+cmp.csum 0x00021a4e
+compiled Tue Feb 14 21:17:52 2040
+crypto   false
+dbg_file d:\svn\Tools\SendDmpWithAliyun\x64\Release\send_dmp_with_aliyun.pdb
+endian   little
+havecode true
+hdr.csum 0x00021a4e
+guid     F6E82E2DB9224FCF9E99100ABFE32EE52
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows CUI
+va       true

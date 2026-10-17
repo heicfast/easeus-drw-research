@@ -1,0 +1,33 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib                      name                                                         demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x000004e0 0x1800010e0 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??0IObject@@QEAA@$$QEAU0@@Z
+2   0x000004e0 0x1800010e0 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??0IObject@@QEAA@AEBU0@@Z
+3   0x000004e0 0x1800010e0 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??0IObject@@QEAA@XZ
+4   0x000004f0 0x1800010f0 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@$$QEAU0@@Z
+5   0x000004f0 0x1800010f0 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@AEBU0@@Z
+6   0x000004f0 0x1800010f0 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??0IStorageDevice@@QEAA@XZ
+7   0x00000510 0x180001110 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??4CLogInBootICE@@QEAAAEAV0@AEBV0@@Z
+8   0x00000520 0x180001120 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??4CLogWriter@@QEAAAEAV0@$$QEAV0@@Z
+9   0x00000520 0x180001120 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??4CLogWriter@@QEAAAEAV0@AEBV0@@Z
+10  0x00000520 0x180001120 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??4IObject@@QEAAAEAU0@$$QEAU0@@Z
+11  0x00000520 0x180001120 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??4IObject@@QEAAAEAU0@AEBU0@@Z
+12  0x00000520 0x180001120 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??4IStorageDevice@@QEAAAEAU0@$$QEAU0@@Z
+13  0x00000520 0x180001120 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??4IStorageDevice@@QEAAAEAU0@AEBU0@@Z
+14  0x00006e88 0x180008288 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??_7IObject@@6B@
+15  0x00006f38 0x180008338 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??_7IStorageDevice@@6BIBlockDevice@@@
+16  0x00006eb8 0x1800082b8 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ??_7IStorageDevice@@6BIObject@@@
+17  0x00000530 0x180001130 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?AddRef@IObject@@QEBAKXZ
+18  0x00000540 0x180001140 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?ConvertVolume@IStorageDevice@@UEAAHXZ
+19  0x00000540 0x180001140 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?DeviceIoControl@IStorageDevice@@UEAAHKPEAXK0KPEAK@Z
+20  0x00000540 0x180001140 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?GetBitlockerInfo@IStorageDevice@@UEAAPEAUBitlockerInfo@@XZ
+21  0x00000550 0x180001150 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?GetBitlockerStatus@IStorageDevice@@UEAAHXZ
+22  0x00000540 0x180001140 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?GetInformationOffset@IStorageDevice@@UEAAHQEA_K@Z
+23  0x00000560 0x180001160 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?GetInterfaceEx@IObject@@QEBAPEAU1@PEBD@Z
+24  0x00000540 0x180001140 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?IsBitlockerVolume@IStorageDevice@@UEAAHXZ
+25  0x00000570 0x180001170 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?Release@IObject@@QEBAKXZ
+26  0x00000580 0x180001180 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?ReleaseBitlocker@IStorageDevice@@UEAAXXZ
+27  0x00000540 0x180001140 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?SetBitlockerEnable@IStorageDevice@@UEAAHH@Z
+28  0x00000540 0x180001140 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?SetBitlockerInfo@IStorageDevice@@UEAAHPEAUBitlockerInfo@@@Z
+29  0x00000540 0x180001140 GLOBAL FUNC 0    FATFileSystemAnalyser.mo ?SetMetaFilePos@IStorageDevice@@UEAAHQEA_K_K@Z
+30  0x00004c90 0x180005890 GLOBAL FUNC 0    FATFileSystemAnalyser.mo GetModule

@@ -1,0 +1,555 @@
+!This program cannot be run in DOS mode.
+Richnc
+`.rdata
+@.data
+.pdata
+@.rsrc
+HcD$4H
+D$(H9D$8
+D$8H9D$0t$H
+D$(H9D$0t$H
+H9D$8r
+H;D$8s
+H9D$ t8H
+H;D$Ps
+H+D$PH
+D$ H9D$Xs
+D$HH9D$@u7H
+L$XH9H
+H;D$`s
+H+D$`H
+H;D$Hs
+L$HH9H s
+H9D$Hs
+H;D$(s
+H9D$(s
+H;D$(s
+L$pH9A w!3
+H9D$8r
+H;D$8w
+L$8H9H
+H9D$8v
+t$PH= 
+L$ SWH
+D$8t#A
+WATAUH
+PA]A\_
+l$ WATAUAVAWH
+ A_A^A]A\_
+ A_A^A]A\_
+l$ VWATAUAVH
+ A^A]A\_^
+WATAUH
+t)IcL$
+ A]A\_
+WATAUH
+MZu_Hc
+WATAUAVAWH
+D$8A9}
+A_A^A]A\_
+@UVWATAVAWH
+|$`t>H
+|$`t:H
+|$hD+|$PD+
+A_A^A\_^]
+|$ ATH
+@SUVWH
+@8l$&H
+ATAUAVH
+0A^A]A\
+|$ ATAUAVH
+ A^A]A\
+D$Xt&A
+@UATAUAVAWH
+e A_A^A]A\]
+D$PH;5
+SVWATAUAVAWH
+0A_A^A]A\_^[
+B(I9A(u
+l$pD92
+@SVWATAUAVAWH
+D$0L9gXt+
+D$8HcH
+pA_A^A]A\_^[
+ATAUAVH
+0A^A]A\
+VATAVAWH
+xA_A^A\^
+SUWATAUAVAWH
+A_A^A]A\_][
+|$ ATH
+ATAUAVH
+ A^A]A\
+WATAUH
+0A]A\_
+|$ ATAUAVH
+< t[<	tW
+ A^A]A\
+Hct$@H
+shHcD$HH
+d$ AUAVAWH
+A_A^A]
+LcA<E3
+|$ ATH
+|$ ATH
+ATAUAVH
+0A^A]A\
+WATAUH
+ A]A\_
+|$ ATH
+L$ VWATAUH
+hA]A\_^
+hA]A\_^
+hA]A\_^
+|$ ATH
+@UVWATAVAWH
+|$`t>H
+|$`t:H
+|$hD+|$PD+
+A_A^A\_^]
+VWATAUAVH
+0A^A]A\_^
+@SUVWATAVH
+|$Hfff
+f;D$@uhA
+f;D$@u:A
+t2HcD$DH
+t2HcD$DH
+A^A\_^][
+VWATAUAVH
+0A^A]A\_^
+L$ UATAUAVAWH
+A_A^A]A\]
+D$@H;5^
+D$Ht#A
+u"8D$Xt
+@USVWATAUAVAWH
+eHA_A^A]A\_^[]
+WATAUAVAWH
+@A_A^A]A\_
+|$ ATH
+UVWAUAVH
+PA^A]_^]
+ATAUAVH
+PA^A]A\
+@8t$Ht
+PA^A]A\
+d$ AUH
+D$8t#A
+SYSTEM\CurrentControlSet\Control\SafeBoot\Minimal
+SYSTEM\CurrentControlSet\Control\SafeBoot\Network
+Boot File System
+CreateService failed!  Error = %d 
+SYSTEM\CurrentControlSet\Services\%s
+OpenService failed!  Error = %d 
+StartService failure! Error = %d 
+OpenService failed!  Error = %d 
+ControlService failed!  Error = %d 
+\SystemRoot
+system32
+bad allocation
+\System32\Drivers\%s.sys
+SYSTEM\CurrentControlSet\Services\%s
+\SystemRoot\System32\drivers\%s.sys
+ErrorControl
+DisplayName
+ImagePath
+PnP Filter
+PnP Filter
+UpperFilters
+SYSTEM\CurrentControlSet\Control\Class\{71A27CDD-812A-11D0-BEC7-08002BE2092F}
+UpperFilters
+SYSTEM\CurrentControlSet\Control\Class\{4D36E967-E325-11CE-BFC1-08002BE10318}
+UpperFilters
+SYSTEM\CurrentControlSet\Control\Class\{71A27CDD-812A-11D0-BEC7-08002BE2092F}
+UpperFilters
+SYSTEM\CurrentControlSet\Control\Class\{4D36E967-E325-11CE-BFC1-08002BE10318}
+SYSTEM\CurrentControlSet\Services\%s
+%s\System32\Drivers\%s.sys
+%s\System32\Drivers\%s%d.sys
+%s\System32\Drivers\%s%d.sys
+bad allocation
+DiskFlt
+VolFlt
+-Uninstall
+start process!
+list<T> too long
+vector<T> too long
+bad allocation
+Unknown exception
+(null)
+`h````
+xpxxxx
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+.mixcrt
+EncodePointer
+KERNEL32.DLL
+DecodePointer
+bad exception
+CorExitProcess
+mscoree.dll
+runtime error 
+TLOSS error
+SING error
+DOMAIN error
+An application has made an attempt to load the C runtime library incorrectly.
+Please contact the application's support team for more information.
+- Attempt to use MSIL code from this assembly during native code initialization
+This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+- not enough space for locale information
+- Attempt to initialize the CRT more than once.
+This indicates a bug in your application.
+- CRT not initialized
+- unable to initialize heap
+- not enough space for lowio initialization
+- not enough space for stdio initialization
+- pure virtual function call
+- not enough space for _onexit/atexit table
+- unable to open console device
+- unexpected heap error
+- unexpected multithread lock error
+- not enough space for thread data
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+- not enough space for environment
+- not enough space for arguments
+- floating point support not loaded
+Microsoft Visual C++ Runtime Library
+<program name unknown>
+Runtime Error!
+Program: 
+`h`hhh
+xppwpp
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+ Complete Object Locator'
+ Class Hierarchy Descriptor'
+ Base Class Array'
+ Base Class Descriptor at (
+ Type Descriptor'
+`local static thread guard'
+`managed vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`vector copy constructor iterator'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector vbase copy constructor iterator'
+`eh vector copy constructor iterator'
+`managed vector destructor iterator'
+`managed vector constructor iterator'
+`placement delete[] closure'
+`placement delete closure'
+`omni callsig'
+ delete[]
+ new[]
+`local vftable constructor closure'
+`local vftable'
+`udt returning'
+`copy constructor closure'
+`eh vector vbase constructor iterator'
+`eh vector destructor iterator'
+`eh vector constructor iterator'
+`virtual displacement map'
+`vector vbase constructor iterator'
+`vector destructor iterator'
+`vector constructor iterator'
+`scalar deleting destructor'
+`default constructor closure'
+`vector deleting destructor'
+`vbase destructor'
+`string'
+`local static guard'
+`typeof'
+`vcall'
+`vbtable'
+`vftable'
+operator
+ delete
+__unaligned
+__restrict
+__ptr64
+__clrcall
+__fastcall
+__thiscall
+__stdcall
+__pascal
+__cdecl
+__based(
+InitializeCriticalSectionAndSpinCount
+kernel32.dll
+GetProcessWindowStation
+GetUserObjectInformationA
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+USER32.DLL
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+CONOUT$
+string too long
+invalid string position
+D:\Project_Application\_EPM_Main_\mod.WinDiskAccessDriverSetup\setupempdrv03\x64\Release\setupempdrvx64.pdb
+GetVersionExA
+GetLastError
+GetSystemWindowsDirectoryA
+FindClose
+FindFirstFileA
+MoveFileA
+DeleteFileA
+GetPrivateProfileIntA
+GetPrivateProfileStringA
+GetModuleFileNameA
+KERNEL32.dll
+RegCloseKey
+RegCreateKeyExA
+RegOpenKeyExA
+CloseServiceHandle
+CreateServiceA
+RegDeleteValueW
+RegSetValueExW
+OpenSCManagerA
+DeleteService
+OpenServiceA
+StartServiceA
+ControlService
+RegSetValueExA
+RegQueryValueExA
+ADVAPI32.dll
+SHDeleteKeyA
+SHLWAPI.dll
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlUnwindEx
+RaiseException
+RtlPcToFileHeader
+GetCommandLineA
+HeapFree
+HeapAlloc
+GetProcessHeap
+GetStartupInfoA
+RtlVirtualUnwind
+EnterCriticalSection
+LeaveCriticalSection
+GetCPInfo
+GetACP
+GetOEMCP
+IsValidCodePage
+GetModuleHandleA
+GetProcAddress
+FlsGetValue
+FlsSetValue
+TlsFree
+FlsFree
+SetLastError
+GetCurrentThreadId
+FlsAlloc
+LCMapStringA
+WideCharToMultiByte
+MultiByteToWideChar
+LCMapStringW
+ExitProcess
+WriteFile
+GetStdHandle
+FreeEnvironmentStringsA
+GetEnvironmentStrings
+FreeEnvironmentStringsW
+GetEnvironmentStringsW
+SetHandleCount
+GetFileType
+DeleteCriticalSection
+HeapSetInformation
+HeapCreate
+QueryPerformanceCounter
+GetTickCount
+GetCurrentProcessId
+GetSystemTimeAsFileTime
+SetFilePointer
+GetConsoleCP
+GetConsoleMode
+GetStringTypeA
+GetStringTypeW
+GetLocaleInfoA
+HeapSize
+LoadLibraryA
+InitializeCriticalSection
+HeapReAlloc
+FlushFileBuffers
+SetStdHandle
+WriteConsoleA
+GetConsoleOutputCP
+WriteConsoleW
+CloseHandle
+CreateFileA
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVexception@std@@
+.?AVbad_alloc@std@@
+.?AVtype_info@@
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+.?AVbad_exception@std@@
+.?AVout_of_range@std@@
+wwwwwwwwwwwwwwwpx
+pxwwwwwwwwwwwwwxpx
+pxDDDDDDDDD@
+pxDDDDDDDDDH
+pxDDDDDDDDDH
+pxDDDDDDDDDDDDDDpx
+pwwwwwwwwwwwwwwwp
+wwwwwwwpx
+pxwwwwwwpxDDD
+pxDDDDDDpx
+pwwwwwwww
+63[4]5mm]5\]m]mm5\mm5555555\\\5\\\5m\55\\5ed:
+cOXY/P.Z0.0.QR00/ZPP0000000/0PPZR.BI@/DE0,
+WkV21TSav^8{
+}>qooggggggg1`_fhsnHK
+Nw~ytMMMMMMUbbrrrrrxxxxxxxxrriUMMMMMMMMMUuzt
+I3')+*+)))*))()*+++,6J!54 CBA
+jYPQTVTSkllZTTXRTUiHceWda/
+}zy|yx~
+{|yvrrwsqpon
+PPPPPPPPPPPPPPPPPKMNNNNNNNNNNOLO
+JHHGGGGGGGGHI
+JEEEEEEEEEEFC
+JEEEEEEEEEEFC
+JEEEEEEEEEEFD
+JEFEEEEEEEEEB
+O%JEEEEEEEEEFFB
+JJIIIIJIIIIJJ
+O(@>=77A779?<8;$O' 
+)O6530./21+*-,4#4PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+wwwwwwwwwwwwwwwpx
+pxwwwwwwwwwwwwwxpx
+pxDDDDDDDDD@
+pxDDDDDDDDDH
+pxDDDDDDDDDH
+pxDDDDDDDDDDDDDDpx
+pwwwwwwwwwwwwwwwp
+wwwwwwwpx
+pxwwwwwwpxDDD
+pxDDDDDDpx
+pwwwwwwww
+63[4]5mm]5\]m]mm5\mm5555555\\\5\\\5m\55\\5ed:
+cOXY/P.Z0.0.QR00/ZPP0000000/0PPZR.BI@/DE0,
+WkV21TSav^8{
+}>qooggggggg1`_fhsnHK
+Nw~ytMMMMMMUbbrrrrrxxxxxxxxrriUMMMMMMMMMUuzt
+I3')+*+)))*))()*+++,6J!54 CBA
+jYPQTVTSkllZTTXRTUiHceWda/
+}zy|yx~
+{|yvrrwsqpon
+PPPPPPPPPPPPPPPPPKMNNNNNNNNNNOLO
+JHHGGGGGGGGHI
+JEEEEEEEEEEFC
+JEEEEEEEEEEFC
+JEEEEEEEEEEFD
+JEFEEEEEEEEEB
+O%JEEEEEEEEEFFB
+JJIIIIJIIIIJJ
+O(@>=77A779?<8;$O' 
+)O6530./21+*-,4#4PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+PA<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+210429000000Z
+360428235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+[K]taM?
+SA|X=G
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+jj@0HK4
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+240709000000Z
+270709235959Z0
+Sichuan1
+Wuhou District1
+Private Organization1
+91510107765360104N1
+Sichuan1
+Chengdu100.
+'CHENGDU YIWO Tech Development Co., Ltd.100.
+'CHENGDU YIWO Tech Development Co., Ltd.0
+http://www.digicert.com/CPS0
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+http://ocsp.digicert.com0\
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0	
+]]<l_%
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+OA&in9
+20240903102912Z
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+230714000000Z
+341013235959Z0H1
+DigiCert, Inc.1 0
+DigiCert Timestamp 20230
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+http://ocsp.digicert.com0X
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+l2|X/gGe
+(f*^[0
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+220323000000Z
+370322235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+240903102912Z0+
+/1(0&0$0"
+@WhA6o
+/gS6?AiJ

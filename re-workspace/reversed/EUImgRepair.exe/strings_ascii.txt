@@ -1,0 +1,659 @@
+!This program cannot be run in DOS mode.
+=(JeyI$6yI$6yI$6p1
+6iI$6+! 7uI$6+!'7}I$6+!!7fI$6+!%7}I$6
+-%7pI$6yI%6
+  7cI$6
+ -7sI$6
+ &7xI$6RichyI$6
+`.rdata
+@.data
+@.reloc
+<,tz<;te
+Wu QPV
+L$$_^[3
+Fx;F`s
+Fx;F`r
+tH;N`r
+_][;F$|
+T$ 9T$
+l$8;T$
+9P$u+9P|u&9
+C4_^][
+T$(^]_
+l$<VW3
+|$,;\$
+L$@SUV
+\$@9~<~r
+l$89C$
+9D$Xs'
+D$$+D$,
+D$X;D$h
+l$<;C$
+|$$E;l$ 
+E;l$D~
+E;T$D|
+9D$$~<
+\$(UVW
+\$ UVW
+9n$~;S
+\$,;\$
+{0;D$$u
+D$$SVW
+t$ vs+
+D$ 9x$~I
+D$8SVW
+t$ ;Xd
+D$ 9{d
+\$P)\$LUQj
+D$,;D$D
+C;\$$|
+D$ SUV
+D$0F;t$
+D$4_^]
+|$@i|$<
++|$@+|$ 
+L$()D$8
+\$4)T$4
+uJf9E uDf9E0u>f9E@u8f9EPu2f9E`u,f9Epu&
+iL$0Tb
+iL$ 1'
+iL$,1'
+L$$iL$D1'
+t$HiL$L1'
+0iL$X1'
+iL$(1'
+t$,iL$41'
+iL$<1'
+D$HSUV
+uDf9E u>f9E0u8f9E@u2f9EPu,f9E`u&f9Epu 
+iL$$Tb
+D$HiL$Hq
+D$LiL$Lq
+D$PiL$Pq
+D$4iL$4q
+D$DiL$Dq
+L$ iL$8\
+D$LSUV
+iD$@1'
+t$8+t$
+iD$T1'
+D$ +D$8+D$
+t$T+t$X
+D$,+D$T+D$X
+D$0+D$\+
+iD$d1'
+t$8+t$<
+iD$p1'
++D$8+D$<
+t$@+t$D
+iD$|1'
+D$ +D$@+D$D
+iD$|A-
+iD$4A-
+iD$,A-
+uJf9E uDf9E0u>f9E@u8f9EPu2f9E`u,f9Epu&
+iL$8Tb
+uIf9F uCf9F0u=f9F@u7f9FPu1f9F`u+f9Fpu%
+uVf9Y uPf9Y0uJf9Y@uDf9YPu>f9Y`u8f9Ypu2
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+BKbhTb~XBK!;
+Z@&LHA'
+MQC,ARD
+/TF<)VGy#WH
+Da\">c]$8c^
+VeaFOfb
+Ahd=<c]^7if1Rjg
+Lkh9Fgc^A
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+EUImgRepair_Classname
+IMGRepair_Mutex
+EUImgRepair_Wndname
+string too long
+IMGRepair_ShareMemory_ClickFile
+IMGRepair_Mutex_ClickFile
+IMGRepair_DRWUIWriteOver_ClickFile
+IMGRepair_DRWReadOver_ClickFile
+DRWUI.exe
+IMGRepair_Rised_Event
+vector<T> too long
+PlainTextExtension
+offset:%x size:%x block:%s
+graphic control extension
+CommentExtension
+ApplicationExtension
+image data
+invalid string position
+map/set<T> too long
+EaseUS_PreivewDialog
+%sConfig.dat
+DamageProportion
+register
+EUImageEnhance.dll
+EnhanceMemData
+EUCalcDamageProportion
+EUbeSimilarPictures
+ffffff
+D:\WorkSpace\_drw_main_code\DRWIntelligentScan\bin\Release\Win32\EUImgRepair.pdb
+.text$di
+.text$mn
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$sxdata
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.rsrc$01
+.rsrc$02
+SetErrorMode
+CreateMutexA
+ReleaseMutex
+CloseHandle
+CreateThread
+WaitForSingleObject
+InitializeCriticalSection
+DeleteCriticalSection
+EnterCriticalSection
+LeaveCriticalSection
+UnmapViewOfFile
+CreateFileMappingA
+MapViewOfFile
+CreateEventA
+GetExitCodeThread
+SetEvent
+ResetEvent
+CreateToolhelp32Snapshot
+Process32Next
+WaitForMultipleObjects
+GetModuleFileNameA
+GetPrivateProfileIntA
+LoadLibraryA
+GetProcAddress
+FreeLibrary
+MultiByteToWideChar
+GetModuleFileNameW
+CreateProcessW
+GetExitCodeProcess
+GetTickCount
+KERNEL32.dll
+LoadIconA
+LoadCursorA
+RegisterClassExA
+CreateWindowExA
+ShowWindow
+UpdateWindow
+GetMessageA
+TranslateMessage
+DispatchMessageA
+DestroyWindow
+PostQuitMessage
+DefWindowProcA
+PostMessageA
+SendMessageA
+FindWindowExA
+USER32.dll
+GetStockObject
+GDI32.dll
+RegOpenKeyExW
+RegCreateKeyExW
+RegSetValueExW
+RegCloseKey
+ADVAPI32.dll
+?_Xlength_error@std@@YAXPBD@Z
+?_Xout_of_range@std@@YAXPBD@Z
+MSVCP140.dll
+__CxxFrameHandler3
+_purecall
+longjmp
+wcsrchr
+memset
+memcpy
+__std_exception_copy
+__std_exception_destroy
+_CxxThrowException
+_except_handler4_common
+VCRUNTIME140.dll
+_invalid_parameter_noinfo_noreturn
+_errno
+_invalid_parameter_noinfo
+_wfopen_s
+fread_s
+fclose
+__acrt_iob_func
+__stdio_common_vfprintf
+_wsplitpath_s
+_wcsicmp
+toupper
+_splitpath_s
+__stdio_common_vsprintf_s
+_strnicmp
+strncmp
+fwrite
+__stdio_common_vswprintf_s
+__stdio_common_vsprintf
+strncpy
+getenv
+__stdio_common_vsscanf
+malloc
+_callnewh
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_crt_atexit
+_cexit
+_seh_filter_exe
+_set_app_type
+__setusermatherr
+_get_initial_narrow_environment
+_initterm
+_initterm_e
+_set_fmode
+__p___argc
+__p___argv
+_c_exit
+_register_thread_local_exe_atexit_callback
+_configthreadlocale
+_set_new_mode
+__p__commode
+terminate
+_controlfp_s
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+InitializeCriticalSectionAndSpinCount
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+InitializeSListHead
+_setjmp3
+memmove
+Bogus message code %d
+ALIGN_TYPE is wrong, please fix
+MAX_ALLOC_CHUNK is wrong, please fix
+Bogus buffer control mode
+Invalid component ID %d in SOS
+Invalid crop request
+DCT coefficient out of range
+DCT scaled block size %dx%d not supported
+Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
+Bogus Huffman table definition
+Bogus input colorspace
+Bogus JPEG colorspace
+Bogus marker length
+Wrong JPEG library version: library is %d, caller expects %d
+Sampling factors too large for interleaved scan
+Invalid memory pool code %d
+Unsupported JPEG data precision %d
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Invalid progressive parameters at scan script entry %d
+Bogus sampling factors
+Invalid scan script at entry %d
+Improper call to JPEG library in state %d
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+Bogus virtual array access
+Buffer passed to JPEG library is too small
+Suspension not allowed here
+CCIR601 sampling not implemented yet
+Too many color components: %d, max %d
+Unsupported color conversion request
+Bogus DAC index %d
+Bogus DAC value 0x%x
+Bogus DHT index %d
+Bogus DQT index %d
+Empty JPEG image (DNL not supported)
+Read from EMS failed
+Write to EMS failed
+Didn't expect more than one scan
+Input file read error
+Output file write error --- out of disk space?
+Fractional sampling not implemented yet
+Huffman code size table out of bounds
+Missing Huffman code table entry
+Maximum supported image dimension is %u pixels
+Empty input file
+Premature end of input file
+Cannot transcode due to multiple use of quantization table %d
+Scan script does not transmit all data
+Invalid color quantization mode change
+Not implemented yet
+Requested feature was omitted at compile time
+Arithmetic table 0x%02x was not defined
+Backing store not supported
+Huffman table 0x%02x was not defined
+JPEG datastream contains no image
+Quantization table 0x%02x was not defined
+Not a JPEG file: starts with 0x%02x 0x%02x
+Insufficient memory (case %d)
+Cannot quantize more than %d color components
+Cannot quantize to fewer than %d colors
+Cannot quantize to more than %d colors
+Invalid JPEG file structure: %s before SOF
+Invalid JPEG file structure: two SOF markers
+Invalid JPEG file structure: missing SOS marker
+Unsupported JPEG process: SOF type 0x%02x
+Invalid JPEG file structure: two SOI markers
+Failed to create temporary file %s
+Read failed on temporary file
+Seek failed on temporary file
+Write failed on temporary file --- out of disk space?
+Application transferred too few scanlines
+Unsupported marker type 0x%02x
+Virtual array controller messed up
+Image too wide for this implementation
+Read from XMS failed
+Write to XMS failed
+Copyright (C) 2022, Thomas G. Lane, Guido Vollbeding
+9e  16-Jan-2022
+Caution: quantization tables are too coarse for baseline JPEG
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Unknown APP0 marker (not JFIF), length %u
+Unknown APP14 marker (not Adobe), length %u
+Define Arithmetic Table 0x%02x: 0x%02x
+Define Huffman Table 0x%02x
+Define Quantization Table %d  precision %d
+Define Restart Interval %u
+Freed EMS handle %u
+Obtained EMS handle %u
+End Of Image
+        %3d %3d %3d %3d %3d %3d %3d %3d
+JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+Warning: thumbnail image size does not match data length %u
+JFIF extension marker: type 0x%02x, length %u
+    with %d x %d thumbnail image
+Miscellaneous marker 0x%02x, length %u
+Unexpected marker 0x%02x
+        %4u %4u %4u %4u %4u %4u %4u %4u
+Quantizing to %d = %d*%d*%d colors
+Quantizing to %d colors
+Selected %d colors for quantization
+At marker 0x%02x, recovery action %d
+Smoothing not supported with nonstandard sampling ratios
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+    Component %d: %dhx%dv q=%d
+Start of Image
+Start Of Scan: %d components
+    Component %d: dc=%d ac=%d
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+Closed temporary file %s
+Opened temporary file %s
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: RGB thumbnail image, length %u
+Unrecognized component IDs %d %d %d, assuming YCbCr
+Freed XMS handle %u
+Obtained XMS handle %u
+Unknown Adobe color transform code %d
+Corrupt JPEG data: bad arithmetic code
+Inconsistent progression sequence for component %d coefficient %d
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: bad Huffman code
+Warning: unknown JFIF revision number %d.%02d
+Premature end of JPEG file
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Invalid SOS parameters for sequential JPEG
+Application transferred too many scanlines
+JPEGMEM
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVCGIFAnalyzer@@
+.?AVIImgAnalyzer@@
+.?AVCJPGAnalyzer@@
+.?AVCRAWAnalyzer@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+0&0+0@0I0O0X0^0h0r0
+1%141@1H1U1
+2/2>2R2W2a2
+3"3:3J3^3e3l3s3
+4%42494C4I4N4U4b4k4t4
+5$585=5
+5<6p6v6
+6<7H7W7c7
+8#8)8?8Y8x8}8
+=%=F=T=g=s=y=
+>'>->7>A>x>
+?#?2?N?
+1+121V1b1
+989F9V9
+>,>=>K>[>e>s>~>
+?*?V?f?
+0+0s0}0
+1B1f1x1g2
+9&:3:Z:
+8F9X9&;8;
+1(162x2
+7"747m7
+8,9E9^9w9
+9j;-=9=I=U=&>8>
+>:?W?b?p?{?
+G0Q0a0
+1P2T2X2\2`2d2
+3p4t4x4|4
+495@5L6P6T6X6\6
+8*898M8
+;&<8<V=b=
+f0x0F2X2
+868C8^8
+:V:b:{:
+;!;/;:;?;M;X;];m;~;
+; <9<N<
+8L8^8q8z8
+=(=B>h>s><?A?a?u?
+4*4Z4n4
+6%6O6c6
+;'<D<v=&>4>
+162G2P3
+868B8[8h8v8
+;w>~><?@?D?H?L?
+0'1O1W1
+2W6\6a6i6w6|6
+:0:O:n:
+>#>9>@>
+j1q1p4t4x4|4
+0S0\0w0
+0!393o3
+9+95<J<
+7&7B9I9`;
+<1A1M1R1I2N2B3I3
+5 5$5(5,50545
+7$7,747<7
+8*848>8H8i8s8}8
+9=9G9Q9[9
+0i2w2~2
+7,737@7T7E8s8
+8;9\9`9d9h9l9p9t9x9|9
+16O6V6n6w6
+>?>K>S>0?
+1*1?1F1L1^1h1
+3#3(31363?3S3[3a3o3{3
+4"4.4?4F4n4v4
+5&535C5f5
+8 8&8,82888?8F8M8T8[8b8i8q8y8
+9%9+91979=9D9K9R9Y9`9g9n9v9~9
+;8;A;J;X;a;z;
+<I<f<|<
+=B>Q>n>
+?W?`?m?s?
+0+01070=0C0I0O0U0[0a0g0m0s0y0
+4'464k4
+8"8B8b8
+9"9B9u9
+:B:Q:h:
+<:<Q<n<
+1.1Z1u1
+2O2Y2c2j2v2
+2/373<3C3L3R3c3k3r3{3
+40494L4U4h4
+@2H2L2P2T2`2d2h2
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+4044484
+8,9094989<9@9l=p=x=
+>,><>@>P>T>\>t>
+? ?(?@?D?\?l?|?
+0(080<0@5`5h5p5|5
+6(60686D6d6p6x6
+7$707P7X7d7
+8$8,848<8H8h8p8|8
+989@9H9T9t9|9
+:$:,:4:<:D:L:T:\:d:l:t:|:
+; ;,;L;X;`;
+<D<T<`<h<
+=L=\=h=p=
+> >T>d>p>x>
+? ?@?H?X?`?
+0 0(040T0\0h0
+1@1P1\1d1
+2H2X2d2l2
+343@3`3l3
+4$4,444<4D4L4T4\4d4l4x4
+5$5,545@5d5l5t5|5
+6<6H6h6t6
+7<7`7l7t7
+@4X4t4
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+Pg,%MV
+_4[Qh1c
+JmZ6,/
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+&https://www.globalsign.com/repository/0
+8i_A@g
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+&https://www.globalsign.com/repository/0
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+U5@D<Y</
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+p666#i`,{
+>{]v??
+20261013060535Z
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+kxXgMt
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+:U|r*C
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+v=Y]Bv
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+~qj#k"
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+261013060535Z0+
+/1(0&0$0"
+~pG$f!

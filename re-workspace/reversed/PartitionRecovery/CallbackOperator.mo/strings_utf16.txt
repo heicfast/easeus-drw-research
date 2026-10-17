@@ -1,0 +1,142 @@
+Language
+../res/langind.ini
+../multi/%s/language.ini
+Clone disk initialization
+COPYDISK_INITIAL_OP_NAME
+EPMUIOper
+Clone disk finalization
+COPYDISK_FINAL_OP_NAME
+Clone Disk
+DISKCOPY_OP_NAME
+Clone Partition
+COPY_OP_NAME
+Clone Volume
+COPYVOLUME_OP_NAME
+Creating Partition
+CREATE_OP_NAME
+Deleting Partition
+DELETE_OP_NAME
+Deleting volume
+DELETE_VOLUME_NAME
+Deleting All Partitions
+DELETEALL_OP_NAME
+Deleting All volumes
+DELETEALL_VOLUME_NAME
+Formatting Partition
+FORMAT_OP_NAME
+Formatting volume
+FORMAT_VOLUME
+Resizing/Moving Partition
+MOVE_OP_NAME
+Smart Resize
+SMART_RM_OP_NAME
+Smart Space Adjustment
+SMART_DISK_RM_OP_NAME
+Adjust Disk Layout
+ADJUST_DISK_RM_OP_NAME
+Convert Partition
+CONVERT_OP_NAME
+Change Cluster Size
+CLUSTER_SIZE_CHANGE_NAME
+Smart Create
+SMART_CREATE_OP_NAME
+Quick Partition
+DISK_REPARTITION_OP_NAME
+Allocate Space
+ALLOCATE_SPACE_OP_NAME
+Resizing Partition
+SUB_RESIZE_OP_NAME
+Setting Label
+LABEL_OP_NAME
+Changing Drive Letter
+LETTER_OP_NAME
+Setting Active
+ACTVIE_OP_NAME
+Hiding Partition
+HIDE_OP_NAME
+Preparing Operation
+PREPARE_OP_NAME
+Locking Volume
+LOCK_VOLUME_NAME
+Unlocking Volume
+UNLOCK_VOLUME_NAME
+Updating System Information
+UPDATE_SYSTEMINFO_NAME
+SUB_FORMAT_OP_NAME
+Checking Partition
+INIT_RESIZE_MOVE_OP_NAME
+CHECK_FILESYSTEM_OP_NAME
+Moving Data
+MOVE_DATA_OP_NAME
+Writing Metadata
+UPDATE_FILESYSTEM_INFO_OP_NAME
+Checking Source Partition
+COPY_PREPARE_SRC_OP_NAME
+Checking Target Partition
+COPY_PREPARE_TGT_OP_NAME
+Clone Source Partition
+SUB_COPY_OP_NAME
+Commit Clone to Target Partition
+SUB_COMMIT_COPY_OP_NAME
+SUB_CNVFAT_OP_NAME
+Wiping Disk Data
+ERASE_DISK_OP_NAME
+Wiping Partition Data
+ERASE_PART_OP_NAME
+Wiping Data
+ERASE_OP_NAME
+Rebuild MBR
+REBUILD_MBR_OP_NAME
+Convert to basic disk
+CONV_LDM_OP_NAME
+Initialize To MBR Disk
+INIT_TO_MBR_OP_NAME
+Initialize To GPT Disk
+INIT_TO_GPT_OP_NAME
+Align the target Disk
+PART_ALIGN_OP_NAME
+Recovery Paritions
+PART_RECOVERY_OP_NAME
+Rebuild Partition Table
+SUB_RECOVERY_PART_OP_NAME
+Convert Primary To Logical Partition
+CONV_PRILOG_OP_NAME
+Convert Logical To Primary Partition
+CONV_LOGPRI_OP_NAME
+Calculating Sectors to move
+CALC_SECTORS_2_MOVE_NAME
+Updataing file records
+UPDATA_FILE_RECORED_NAME
+Updataing fat table
+UPDATA_FAT_NAME
+Dumplicating fat table
+DUMPLICATE_FAT_NAME
+Merge Partition
+MERGE_PARTITION_NAME
+Move files
+COPY_FILE_NAME
+Resize volume
+RESIZE_LDM_VOLUME_NAME
+Repaire RAID5
+REPAIR_RAID5_NAME
+Convert to Dynamic Disk
+CONVERT_2_LDM_NAME
+Convert GPT to MBR
+CONVERT_GPT_2_MBR
+Convert MBR to GPT
+CONVERT_MBR_2_GPT
+SSD 4K Align
+PARTITION_ALIGN
+Create volume
+CREATE_VOLUME
+Refresh volume and disk
+REFRESH_VOLUME_AND_DISK
+Set driver letter
+SET_DRIVER_LETTER
+Analyzing source volume
+EXT_ANALYZE_SRC_NAME
+Moving data
+EXT_MOVEDATA_NAME
+Turn offing Bitlocker volume
+BITLOCKER_TURNOFF_NAME
+CHANGE_CLUSTER_SIZE_NAME

@@ -1,0 +1,97 @@
+pSettings
+PreviewPages
+KERNEL32
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoDrives
+RestrictRun
+NoNetConnectDisconnect
+NoRecentDocsHistory
+NoClose
+Software\Microsoft\Windows\CurrentVersion\Policies\Network
+NoEntireNetwork
+Software\Microsoft\Windows\CurrentVersion\Policies\Comdlg32
+NoPlacesBar
+NoBackButton
+NoFileMru
+ntdll.dll
+kernel32.dll
+%s%s.dll
+@%s (%s:%d)
+%s (%s:%d)
+Exception thrown in destructor
+f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\appcore.cpp
+user32.dll
+tDelete
+NoRemove
+ForceRemove
+@software
+@comctl32.dll
+@comdlg32.dll
+@shell32.dll
+f:\dd\vctools\vc7libs\ship\atlmfc\include\afxwin1.inl
+@Software\Classes\
+Software\
+AfxWnd90su
+AfxControlBar90su
+AfxMDIFrame90su
+AfxFrameOrView90su
+AfxOleControl90su
+AfxOldWndProc423
+USER32
+YaccParent
+accChildCount
+accChild
+accName
+accValue
+accDescription
+accRole
+accState
+accHelp
+accHelpTopic
+accKeyboardShortcut
+accFocus
+accSelection
+accDefaultAction
+accSelect
+accLocation
+accNavigate
+accHitTest
+accDoDefaultAction
+#32768
+f:\dd\vctools\vc7libs\ship\atlmfc\include\afxwin2.inl
+commctrl_DragListMsg
+f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\auxdata.cpp
+%2\CLSID
+%2\Insertable
+%2\protocol\StdFileEditing\verb\0
+%2\protocol\StdFileEditing\server
+CLSID\%1
+CLSID\%1\ProgID
+CLSID\%1\InprocHandler32
+ole32.dll
+CLSID\%1\LocalServer32
+CLSID\%1\Verb\0
+&Edit,0,2
+CLSID\%1\Verb\1
+&Open,0,2
+CLSID\%1\Insertable
+CLSID\%1\AuxUserType\2
+CLSID\%1\AuxUserType\3
+CLSID\%1\DefaultIcon
+CLSID\%1\MiscStatus
+CLSID\%1\InProcServer32
+CLSID\%1\DocObject
+%2\DocObject
+CLSID\%1\Printable
+CLSID\%1\DefaultExtension
+%9, %8
+mscoree.dll
+KERNEL32.DLL
+(null)
+         (((((                  H
+         h((((                  H
+                                 H
+Fatal Error: MFC initialization failed
+%s%s%s
+Apartment
+EUUnZip

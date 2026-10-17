@@ -1,0 +1,7 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib               name             demangled
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x0002a500 0x18002b100 GLOBAL FUNC 0    cloud_session.dll create_con
+2   0x0002a8b0 0x18002b4b0 GLOBAL FUNC 0    cloud_session.dll getLastError
+3   0x0002aa20 0x18002b620 GLOBAL FUNC 0    cloud_session.dll readLastError
+4   0x0002a880 0x18002b480 GLOBAL FUNC 0    cloud_session.dll recordCloudError
