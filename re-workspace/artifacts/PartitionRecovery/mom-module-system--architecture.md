@@ -21,6 +21,36 @@ CErrorObject(+Impl)         — error propagation objects
 ```
 Plus a registry: each module exposes factory functions that the engine calls to instantiate module classes. This is essentially an in-house COM/XPCOM — "MOM" = Module Object Model.
 
+### 1.1 The module loading contract (DECODED — PartitionRecovery_decompiled.c, line-cited)
+
+The exact load sequence (verified in decompilation):
+
+```
+FUN_1800017f0("DeviceManager")               // engine requests module BY NAME (string)
+  └─ FUN_180001d50("Device")                 // name → filename
+       appends '.', 'm', 'o'  → "Device.mo"  // literal char appends at 0x180001d80+40
+  └─ FUN_180001cd0("Device.mo")
+       h = LoadLibraryA("Device.mo")
+       p = GetProcAddress(h, "GetModule")    // line 571 — REQUIRED export
+       if (!p) { FreeLibrary(h); fail; }
+       p(h)                                   // GetModule(HMODULE) — module self-registration
+```
+
+- **`GetModule`** (verified exported from Device.mo @427, DeviceManager.mo @22461): stores
+  the HMODULE into the module's global slot then runs the module's class registration
+  (FUN_180023130 in PartitionRecovery.dll's own case).
+- **`CreateObject`** (GetProcAddress site @11162, exported by Device.mo): the per-class
+  object factory — the RecoveryModule.dll host loads the same way: path resolution tries
+  `<exe_dir>\RecoveryModule.dll`, falls back to `<exe_dir>\PartitionRecovery\RecoveryModule.dll`;
+  `CreateObject()` returns the root object; callbacks registered via vtable+8 with a
+  `CCallBackOperate` list; engine registers each callback (vtable+0x38 loop @11170-11190).
+- **On-demand + cached**: module requests appear at call sites as
+  `FUN_1800017f0("DeviceManager") / ("LdmManager") / ("Device") / ("Thread")` — loaded
+  lazily on first use, singleton-cached in DAT_ globals.
+- **Host DLLs are modules too**: RecoveryModule/MainModule/ToolsModule/UILogic are plain
+  DLLs of the same object model (exports: PartitionRecovery.dll = 59 IObject-family
+  symbols; MainModule.dll = 268 mangled C++ operation-class symbols — inventory-verified).
+
 Module inventory (all decompiled, see reversed/ghidra-mo/):
 | Module | Lines | Role |
 |---|---|---|
