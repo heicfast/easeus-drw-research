@@ -67,6 +67,11 @@ The `FUN_004c3e00(percent, 0, 0, "analysis data", 0xD)` call is the UI progress 
 
 ## 7. Remaining open items
 
+> **Resolved**: "GIF/BMP/TIFF/SVG AnalysisData walks" — now fully decoded (byte-exact, line-cited)
+> in `image-repair--gif-bmp-svg-tiff-walks.md` (DIB header taxonomy 12/40/108/124, GIF extent
+> RB-tree re-chain, SVG envelope injection + render validation, TIFF endian arbitration by IFD
+> count + tail backward scan). This section's other items remain open.
+
 - WebP/AVIF stage-percent maps (no trace strings in this binary — the stages live in EUImgRepair.exe's orchestration, queued for its decompilation pass)
 - Per-RAW-vendor Check* method field schemas (X3f's 6 Section checkers are the deepest — each needs a dedicated walk)
 - CHeicWork::CreateSrcFileByPsFile exact transplant rules (PSD linkage contract)
