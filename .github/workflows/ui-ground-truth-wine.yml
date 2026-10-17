@@ -58,6 +58,8 @@ jobs:
           (DISPLAY=:99 matchbox-window-manager > /tmp/mwm.log 2>&1 &) || true
           sleep 2
           cd og-codebase
+          GTDIR="$GITHUB_WORKSPACE/gtcap"
+          mkdir -p "$GTDIR"
           wineserver -k 2>/dev/null
           echo "=== EXPERIMENT: ${{ matrix.tag }} (${{ matrix.launch }}) ==="
           (wine ${{ matrix.launch }} > /tmp/wine_out.log 2>&1 &)
@@ -66,21 +68,21 @@ jobs:
           for t in 8 20 35 50 70 90; do
             if [ "$t" -gt "${{ inputs.wait_seconds }}" ]; then break; fi
             sleep $(( t - prev ))
-            { wmctrl -l; echo "--- xwininfo children ---"; xwininfo -root -children 2>/dev/null | head -40; } > "census_t${t}.txt" 2>&1
+            { wmctrl -l; echo "--- xwininfo children ---"; xwininfo -root -children 2>/dev/null | head -40; } > "$GTDIR/census_t${t}.txt" 2>&1
             # screenshot: capture errors visibly, then fall back through xwd
-            import -window root "screen_t${t}.png" || {
+            ( cd "$GITHUB_WORKSPACE" && import -window root "$GTDIR/screen_t${t}.png" ) || {
               echo "import-t${t} failed: $?"
-              xwd -root -display :99 -out "/tmp/r${t}.xwd" && convert "/tmp/r${t}.xwd" "screen_t${t}.png" || echo "xwd-t${t} failed: $?"
+              xwd -root -display :99 -out "/tmp/r${t}.xwd" && convert "/tmp/r${t}.xwd" "$GTDIR/screen_t${t}.png" || echo "xwd-t${t} failed: $?"
             }
             # capture the DRWUI window itself if mapped
             WID=$(wmctrl -l 2>/dev/null | awk '/DRWUI/{print $1; exit}')
-            if [ -n "$WID" ]; then import -window "$WID" "drwwin_t${t}.png" 2>&1 | head -2 || true; fi
-            echo "===== census at t=${t}s ====="; cat "census_t${t}.txt"
+            if [ -n "$WID" ]; then import -window "$WID" "$GTDIR/drwwin_t${t}.png" || echo "winshot-t${t} failed: $?"; fi
+            echo "===== census at t=${t}s ====="; cat "$GTDIR/census_t${t}.txt"
             prev=$t
           done
           echo "=== alive check ==="
-          ps aux | grep -iE 'wine|DRW' | grep -v grep | head -20 > alive.txt 2>&1
-          cat alive.txt
+          ps aux | grep -iE 'wine|DRW' | grep -v grep | head -20 > "$GITHUB_WORKSPACE/gtcap/alive.txt" 2>&1
+          cat "$GITHUB_WORKSPACE/gtcap/alive.txt"
           echo "=== wine stdout/stderr (tail 80) ==="
           tail -80 /tmp/wine_out.log
 
@@ -101,6 +103,8 @@ jobs:
           # new logs the app may have written into its own tree or prefix
           find "$HOME/.wine32prefix/drive_c" -name "*.log" -newer /tmp/wine_out.log -exec cp {} ./prefix_newlog_$(basename {}) \; 2>/dev/null
           ls -la 2>/dev/null | grep -E '\.(log|txt|png)$' || true
+          cp -r "$GITHUB_WORKSPACE/gtcap/"* . 2>/dev/null || true
+          ls -la gtcap/ 2>/dev/null || true
           exit 0
 
       - name: Upload ground truth
