@@ -131,16 +131,21 @@ model for plain Linux boxes / RAID).
   (internal product codename "FoxitRestore"; cf. registry key
   `SOFTWARE\Foxit Software\FoxitRestore\Foxit Information`).
 
-### 3.4 Data path (end-to-end)
+### 3.4 Data path (end-to-end) — corrected with connect.exe role
 ```
-[DRWUI] SSH (libssh2, port 22, root) ──push connect.zip──> /tmp/EaseUS/ (agent)
-[DRWUI] SSH local forward 127.0.0.1:<port> <─────────────> agent SMB-ish endpoint
-[DRWUI] opens \\.\EuRdrDN; configures session slots; maps drive letter X:
+[DRWUI]  downloads connect.zip (CLinuxDownloadConnectZipThread) → EUUnZip.exe → NasConfig\connect.exe
+[connect.exe (runtime-downloaded, loads libssh2.dll)] SSH (port 22, root)
+   ──push agent──> /tmp/EaseUS/ (NAS side)
+   ──libssh2 direct-tcpip local forward──> 127.0.0.1 ↔ NAS agent endpoint (port internal to connect.exe)
+[DRWUI]  opens \\.\EuRdrDN; configures session slots; maps drive letter X:
 [Win FS] X:\EuShare.com\...  open/read/dir
-   └─> EuMrx.sys (RDBSS) rewrites to \\127.0.0.1\... ──> tunnel ──> NAS agent ──> disk
+   └─> EuMrx.sys (static RDBSS, LanmanWorkStation-tuned) presents names as \\127.0.0.1\...
+        ──> loopback endpoint (connect.exe tunnel) ──> NAS agent ──> disk
 [*SearchDLL] scans X: like any local volume (IOCTL/raw where applicable)
 [recovery] writes recovered files out through the same redirector path
 ```
+(NB: the agent-side version callback `productname=FoxitRestore` is the NAS agent's own
+HTTP check — the "SSH (libssh2, port 22, root)" actor is connect.exe, not DRWUI itself.)
 
 ## 4. Why This Design (engineering analysis)
 
@@ -172,6 +177,50 @@ model for plain Linux boxes / RAID).
 - All driver claims: direct reads of Ghidra decompilation (function addresses cited).
 - All DRWUI/UI claims: RTTI class names + exact UI strings from DRWUI Qt tables.
 - Config claims: literal file contents (ssh_config.ini, NasModel.xml, install.bat).
-- "SSH tunnel" inference: the ONLY network-transport-capable component in the chain is
-  libssh2 (userspace); EuMrx provably rewrites to `\\127.0.0.1\`; no WSK/TDI anywhere.
-  The exact forwarded port/protocol is pending DRWUI decompilation (CI batch running).
+
+### 6.1 SSH-forward port — RESOLVED as "not in shipped codebase" (verified)
+
+The earlier open item ("exact forwarded port/protocol pending DRWUI decompilation") is now
+closed with a definitive negative + architecture correction:
+
+1. **DRWUI contains NO libssh2 usage at all** — zero `ssh2_*` symbols across all 119,182
+   decompiled functions; no `libssh2.dll` string; no ws2_32 tunnel sockets besides the
+   media-preview bridge (127.0.0.1:20171/20172 = VAPreviewListener/VideoViewer subsystem,
+   verified separate).
+2. **The SSH client is `connect.exe`, which is NOT SHIPPED** — it is downloaded at
+   runtime and extracted: `CLinuxDownloadConnectZipThread` (vftable @ DRWUI 1298630)
+   fetches `connect.zip` to `%AppData%\EaseUS\DRW\connect.zip`, then `EUUnZip.exe`
+   (shipped, generic child-process launcher FUN_1408161c0/FUN_1401434f0:
+   `"%s%s%s \"%s\" \"%s\""` = appdir + dir + exe + two quoted args, CreateProcessW with
+   hidden window + wait) extracts it to `NasConfig\connect.exe`. Version management via
+   the `[VERSION] connectver` ini key (QSettings UTF-8) vs. remote `value_connect`.
+   Neither `connect.exe` nor `connect.zip` nor `EuMrxnp.dll` exists in og-codebase or
+   BUILDPE — `NasConfig/` ships only `NasModel.xml` + `ssh_config.ini`.
+3. `libssh2.dll` (SSH-2.0-libssh2_1.11.0, 135 exports incl. `libssh2_channel_direct_tcpip_ex`)
+   ships in the app dir and BUILDPE **solely as connect.exe's runtime dependency** — which
+   also explains why no in-tree binary imports it (verified via PE import-table scan of
+   every binary: 0 importers).
+4. Therefore the tunnel's local forward port is a **connect.exe-internal constant** that
+   cannot be recovered from this codebase. What IS established: EuMrx presents the
+   tunnel as `\\127.0.0.1\` (FileNameInformation rewrite, EuMrx line 2530), and EuMrx
+   tunes itself from `LanmanWorkStation\Parameters` (`RxReadRegistryParameters` reads
+   `DisableByteRangeLockingOnReadOnlyFiles` + `ReadAheadGranularity`, capped at 0x1000
+   then <<12) — i.e. the loopback endpoint speaks SMB semantics, consistent with
+   connect.exe forwarding 127.0.0.1:SMB ↔ NAS:445 over a libssh2 `direct-tcpip` channel
+   (the shipped export `libssh2_channel_direct_tcpip_ex` is exactly this facility).
+
+### 6.2 RDBSS internals evidence (this session, line-cited)
+
+- EuMrx is a **statically-linked RDBSS mini-redirector**: Ghidra library matches for
+  `RxReadRegistryParameters`, `RxPrefixTableLookupName`, `RxpUnregisterMinirdr`,
+  `RxTearDownDispatcher`, `RxUnload`, `RxDereference`, `FsRtlRegisterUncProvider`,
+  VS2019 rdbss.lib — the ONLY networking-capable surface is the local SMB stack.
+- Canonical prefix built by memcpy immediate: `\;0:\EuShare.com\` (0x24 bytes, line 337);
+  prefix-table entries typed 0xEB10/0xEB11/0xEB12 (lines 363-381).
+- Session/letter mapping re-verified at function @ 0x11224: the session-lookup loop
+  bound is **`while (idx < 8)` → exactly 8 session slots** (0x180 bytes each at +0x6d8;
+  server name compared case-insensitively at session+0x110 via _wcsnicmp); 26-byte
+  drive-letter tables at +0x688 (active) and +0x6a2 (slot index); failure status
+  0xC00000CC (STATUS_BAD_NETWORK_NAME) when no slot matches.
+- UNC acceptance requires a `\EuShare.com` server component + `X:` drive-letter suffix
+  (chars 'A'-'Z' = 0x41-0x5A bounds check, lines 199-204).
