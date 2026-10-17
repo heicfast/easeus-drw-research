@@ -85,6 +85,20 @@ URLs dispatched from the menu family: `url_videotutorial`, `url_onlinedoc`, `url
 
 ---
 
+## 4b. The Activate dialog (CEnterLicenceDlg — buy/cart click, dynamically captured)
+
+Dialog bounds ≈ x 222–781, y 130–509 (centered modal); **close X at (770, 150)** (ESC rejected).
+
+- Title: "Activate EaseUS Data Recovery Wizard" + app icon (medical kit)
+- Body: "Enter your license code to enjoy full features and unlimited recovery."
+- License input field + floating blue **Paste** button + blue **Activate** button
+- Note: "Note: No reinstallation or rescan required after activation."
+- Footer: "Don't have a license?" + **Buy a License Now** (yellow/gold CTA → web store)
+
+The buy/cart title-bar icon opens THIS dialog (dynamic proof, round-4); the activate icon opens the same dialog. QSS family: `TitleGiftDlgRightFrame`, `Activate/*` assets.
+
+---
+
 ## 5. Landing page layout (complete map)
 
 Left sidebar (text rows pixel-verified):
@@ -163,7 +177,7 @@ Bottom bar: checkmark-circle icon (18–74, 618–712) + "Scan Completed, Files 
 
 **Row-selection dynamics** (dynamic-verified): single-click → checkbox fills blue + details pane updates (name/size/path) + bottom CTA changes "Recover All ..." → "Recover ..." + view-toggle icon state; double-click → live preview panel (below).
 
-**Right-click context menu** (CShowContextMenu; captured open):
+**Right-click context menu** (CShowContextMenu; captured ×3 runs):
 
 | # | Label | Icon |
 |---|---|---|
@@ -174,7 +188,7 @@ Bottom bar: checkmark-circle icon (18–74, 618–712) + "Scan Completed, Files 
 | 5 | Smart select best files | magic wand |
 | 6 | Clear selection | ✕ |
 
-(Static ctor strings were the short keys: Smart/Select/Recover/Preview/Location/Clear — the visible labels are the full forms above.)
+Menu geometry (measured): panel x 300–734, y 375–636 for a mid-list right-click at (600,350) — items ≈ 43.5 px tall → item centers ≈ (517, 396/440/482/526/568/612). The menu anchors below-right of the click; geometry varies with click point/row (round-4 saw a different anchor). Static ctor keys were the short names (Smart/Select/Recover/Preview/Location/Clear); the visible labels are the full forms above. **Dynamic caution**: clicking "Recover" with the whole 1.1M-file set → the retention gate fires (not the destination dialog).
 
 ---
 
@@ -201,6 +215,7 @@ Bottom bar: checkmark-circle icon (18–74, 618–712) + "Scan Completed, Files 
 - **Save** button (gray/disabled until a destination selected) — center **(707, 613)** (x 647–767)
 - Coaching (static): "Data might be OVERWRITTEN and LOST PERMANENTLY if you save files to original drive (where you lost data)." + "Do not save data to this drive" + insufficient-space gate ("Need additional %1 of space. Please free up space or select another drive." + Manage Storage) + cloud re-auth gate ("Login Failed" / Re-authorize / Reselect cloud)
 - Cloud tab: "You can select a Cloud drive to save the found data."
+- **Insufficient-space gate** (dynamically captured): "Insufficient Disk Space" + folder/warning icon + "Need an additional 146.41 GB of space. Please free up space or select another drive." + **Continue** (white/blue) / **Reselect** (blue primary)
 
 **Retention gates** (Free tier):
 1. On **Recover All** with large result sets → "Wait! You are at risk of losing data!" + **Get Up to 40% Off / Online Service / Quit** (`RetentionExitDlg` family)
@@ -230,6 +245,10 @@ Bottom bar: checkmark-circle icon (18–74, 618–712) + "Scan Completed, Files 
 8. **Contextual CTA**: bottom-right button text/enable-state tracks selection ("Recover All ..." ⇄ "Recover ...").
 9. **Progressive disclosure**: results fill during scan (3-pane visible mid-scan); pause/stop always available; Recover All active even mid-scan.
 10. **Modal dialogs dim the main window**; clicks outside are swallowed (no click-through).
+11. **The Activate dialog rejects ESC** — close only via its X (770,150). (The AI-panel web options also spawn Edge, which then blocks all app clicks — kill msedge between steps.)
+12. **The main window can spontaneously minimize** (census: rect −32000,−32000) — a restore-resilient driver (ShowWindow SW_RESTORE + SetForegroundWindow before every shot/click) is mandatory.
+13. **Context-menu Recover on huge selections → retention gate**, not destination dialog — select a single row for the real destination flow.
+14. **Space check precedes recovery**: Save with insufficient destination → the space gate (Continue = proceed anyway / Reselect = back).
 
 ---
 
@@ -244,13 +263,15 @@ Bottom bar: checkmark-circle icon (18–74, 618–712) + "Scan Completed, Files 
 | Celebration modal | ✓ `04-scan-complete/` | complete |
 | Results baseline / filter bar / tabs / row select | ✓ `05-results/` | complete |
 | Context menu (6 items) | ✓ `05-results/` | open state |
-| Icon (grid) view | round-3 | pending |
-| Filter dropdown CONTENTS | round-3 | pending (static list §9 ready) |
-| Search active state | round-3 | pending |
-| PreviewMainDialog | round-3 | pending (trigger mapped) |
-| Destination dialog + Cloud tab + folder picker + repair toggle | round-3 | pending (positions §10 mapped) |
-| Recovery progress dialog | round-3 | pending |
-| Hamburger menu open + Settings/About/Language/Theme dialogs | round-3 | pending (inventory §4 ready) |
+| Icon (grid) view | round-5 | pending |
+| Filter dropdown CONTENTS | round-5 | pending (static list §9 ready) |
+| Search active state | round-5 | pending |
+| PreviewMainDialog | round-5 | pending (menu item mapped at (517,440)) |
+| Destination dialog + Cloud tab + folder picker + repair toggle | ✓ `07-recovery/` | complete (round-4) |
+| Insufficient-space gate | ✓ `07-recovery/` | captured |
+| Recovery progress dialog | round-5 | pending (single-folder C: flow) |
+| Activate dialog (CEnterLicenceDlg) | ✓ `02-landing/` | captured |
+| Hamburger menu open + Settings/About/Language/Theme dialogs | round-5 | pending (inventory §4 ready) |
 | Repair wizard pages | future | entry mapped (sidebar + AI option 2) |
 | NAS / BitLocker / lost-disk flows | static only | artifacts 15 |
 | Dark theme variants | future | Theme submenu mapped (§4) |
