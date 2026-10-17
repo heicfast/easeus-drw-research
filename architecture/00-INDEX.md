@@ -113,6 +113,13 @@
 - [x] EUEDKEPM dispatch fully decoded (see artifacts/PartitionRecovery/eudcpepm-euedkepm--hook-drivers.md §EUEDKEPM; residual checklist item from doc-2, resolved by 10d9bfd)
 - [x] Full .rsf record-1/2/3 field schemas DECODED from `CSaveAndRestoreResult::SaveResult` writer (§5 of rsf artifact): record IDs = .rdata GUID constants; record 1 = counts+flags (12B); record 2 = 0x7F sig + name[100] + devtype + SYSTEMTIME + 2 stat qwords + flags (147B exact arithmetic; timestamp correction: 2026-10-14 23:13:21.774); record 3 = [count][1781B partition struct][5400B volume-device blob = disk identity + 512B boot-sector snapshot] (7,185B exact); filename sanitizer `/ * : ? " < > |`→`_`
 
+- [x] IFileProperties per-FS walkthroughs parts 1-3 (23-slot vtable interface, census-backed NTFS/FAT semantics, Btrfs dual-runlist, ZFS ZfsDataRunlist; 2 corrections to rsf 5.4.5)
+- [x] Kernel-driver internals v2 wave: epmntdrv completion-engine + identity IOCTLs; trio runtime device-naming + PID-token handshake (byte-exact both sides); EUDCPEPM DrvHK hook framework + urgent COW cache; EuMrx RDBSS w7rtm linkage + MINIRDR_DISPATCH decoded
+- [x] Engine ALGORITHMS v2 wave (all 9): NTFS deleted-viability scoring, FAT table polymorphism + cycle-guard, exFAT InUse-mask triples, EXT4/HFS+ gates, ReFS refs:: MSB, Btrfs generation-select, ZFS txg uberblock walk
+- [x] MOM module wave2: LDM VMDB/TOCBLOCK parser, RegLib hive read+WRITE engine, CTbFile
+- [x] RAWSearchDLL dual registry (u16 magic-key table + analyser IDs)
+- [x] Deepening batch 3 (8 stubs) + per-engine function-map census
+
 ## Worklog
 
 See `worklog.md` (root) for chronological progress stages 0→5.
