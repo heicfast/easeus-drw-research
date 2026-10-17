@@ -18,10 +18,10 @@
 
 ## Decompilation census
 
-- Ghidra batch: `ghidra-misc`
+- Ghidra batch: `ghidra-repair`
 - Functions: **7,154**
 - Decompiled lines: **164,316**
-- Raw output: `re-workspace/reversed/ghidra-misc/EUVideoRepair_decompiled.c` (+ `_functions.txt`, `_imports.txt`, `_blocks.txt`)
+- Raw output: `re-workspace/reversed/ghidra-repair/EUVideoRepair_decompiled.c` (+ `_functions.txt`, `_imports.txt`, `_blocks.txt`)
 
 ## Exports
 

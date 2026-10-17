@@ -9,12 +9,8 @@ REW = f"{WS}/re-workspace"
 INV = json.load(open(f"{REW}/inventory.json"))
 INV_BY_REL = {it["rel"]: it for it in INV}
 
-# ---- gather decompilation stats from all ghidra batches ----
-batches = {
-    "ghidra-drwui": "DRWUI.exe", "ghidra-core": None, "ghidra-searchdll": None,
-    "ghidra-drivers": None, "ghidra-mo": None, "ghidra-partition": None,
-    "ghidra-repair": None, "ghidra-misc": None, "ghidra-local": None,
-}
+# ---- gather decompilation stats from all ghidra batches (dynamic) ----
+batches = {d: None for d in os.listdir(f"{REW}/reversed") if d.startswith("ghidra-")}
 decomp = {}  # basename -> (batch, functions, lines, path_in_og)
 for batch in batches:
     d = f"{REW}/reversed/{batch}"

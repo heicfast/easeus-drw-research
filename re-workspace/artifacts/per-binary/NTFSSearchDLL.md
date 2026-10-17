@@ -18,10 +18,10 @@
 
 ## Decompilation census
 
-- Ghidra batch: `ghidra-local`
+- Ghidra batch: `ghidra-searchdll`
 - Functions: **1,931**
 - Decompiled lines: **62,394**
-- Raw output: `re-workspace/reversed/ghidra-local/NTFSSearchDLL_decompiled.c` (+ `_functions.txt`, `_imports.txt`, `_blocks.txt`)
+- Raw output: `re-workspace/reversed/ghidra-searchdll/NTFSSearchDLL_decompiled.c` (+ `_functions.txt`, `_imports.txt`, `_blocks.txt`)
 - capa capabilities (10): create or open file, interact with driver via IOCTL, contain loop, get memory capacity, read .ini file, resolve function by parsing PE exports, clear file content, check if file exists, delete file, contains PDB path
 
 ## Exports
