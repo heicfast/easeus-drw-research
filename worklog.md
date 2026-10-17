@@ -765,3 +765,43 @@ Stage Summary:
   destination dialog internals, retention gates, 10 interaction rules
 - Round-3 in flight for: menu open state, Settings/About/Language dialogs, icon view,
   filter dropdown contents, PreviewMainDialog, recovery progress
+
+---
+Task ID: uiux-6b (atlas rounds 4-8 + consolidation)
+Agent: UI/UX Specialist Session (heicfast repo)
+
+Work Log:
+- Round-4 (v6 restore-resilience): results-context captured destination-dialog internals
+  (Local row selected, Cloud tab, Choose-folder picker, repair toggle OFF, D selected) + Save ->
+  INSUFFICIENT-SPACE GATE ("Need an additional 146.41 GB" + Continue/Reselect = statically-decoded
+  gate dynamically proven); landing captured CEnterLicenceDlg via buy/cart click (X-close (770,150),
+  ESC rejected)
+- Round-5 (v7-v8): hamburger menu OPEN captured (panel x 748-972, 13 items + 3 separators:
+  Language/Help submenus, Activate, Check Updates, Share submenu, Refer, File Repair, Todo Backup,
+  ChatPDF, Settings submenu, User Survey +red-dot, About; items 42px, centers x=860); results:
+  filter bar (Show/File Type/Date Modified/File Size + AI Recommend toggle) + Path dropdown (location
+  tree) + search active ("Search results for system" + removable chip) + preview panel rendering
+  HTML SOURCE (index.html inline = RtfTxt stub path live)
+- KEY DISCOVERY: RetentionActiveDlg = PERIODIC nag on Free (fires ~10-60s during ANY activity, any
+  page incl. landing pre-scan; full copy decoded; X at (809,135); dialog x 183-820 y 111-528) -
+  explains all blocked captures in rounds 3-8
+- Round-6 (v9): ALL 5 SIDEBAR PAGES captured + decoded (SD Card: 3 repair tiles + coaching links;
+  More Recovery Tools: 6 tool cards Crashed PC/NAS+Linux/RAID/Cloud/Image/Disk Health; File Repair:
+  3 repair options + Start; Lost Partition: 3 scenario cards + Start; ChronoSnap: "Time Machine
+  for Windows" + 3 feature cards + Start); menu-item clicks failed (focus-loss: 1st click on
+  unfocused window only activates)
+- Rounds 7-8 (v10-v11 gate-aware + RestoreWin): menu items Language/CheckUpdates/About opened
+  BEHIND the retention gate (gate re-fires faster than dismiss); Help/Settings submenus + dark
+  theme switch blocked by gate+focus interplay; sidebar pages re-confirmed
+- objectname_loop_v3: 1547/1710 = 90.4% (UTF-16LE xrefs + QSS-context); artifact 35 updated to v5
+  (5 revisions); screenshot library 63 shots across 7 areas; master doc §13 added; atlas workflow
+  v11 (11 revisions, all lessons embedded)
+
+Stage Summary:
+- 16 commits pushed this session segment; the redesign reference is complete-enough: every major
+  page/state/dialog captured or statically inventoried, 15 interaction rules, complete coordinate
+  atlas, periodic-retention behavioral discovery
+- Remaining (future sessions): Language/Help/Settings submenu contents + About/CheckUpdates dialogs
+  (need a gate-dismiss-then-immediate-click driver with sub-10s windows), dark-theme walk (menu
+  Theme submenu), PreviewMainDialog visual (exec-flow decoded; blocked by gate), clean recovery-
+  progress (single-folder flow mapped), repair-wizard deep walk
