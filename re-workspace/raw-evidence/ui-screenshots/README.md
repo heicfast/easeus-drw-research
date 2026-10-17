@@ -19,6 +19,7 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `landing-solution-wizard-2of3.png` — Solution wizard step 2/3 (Next walked)
 - `landing-solution-wizard-3of3.png` — Solution wizard step 3/3
 - `landing-solution-wizard-closed.png` — After wizard close (Next x3) - back to landing state
+- `landing-buy-activate-dialog.png` — CEnterLicenceDlg (buy/cart click): "Enter your license code to enjoy full features" + input + Paste/Activate + "Buy a License Now" (yellow) + "No reinstallation or rescan required" note
 
 ## 03-scan-phase
 
@@ -46,6 +47,8 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `results-row-selected-gate-dismissed.png` — Row selected after retention gate dismissed (search-click hit gate X)
 - `results-context-menu-open-v2.png` — Context menu on app: 6 items, panel x 300-734 y 375-636, items 43.5px (Preview = item 2 center (517,440))
 - `results-baseline-v2.png` — Results baseline (round-3 run)
+- `results-row-selected-round4.png` — Row selected (round-4 clean capture)
+- `results-context-menu-round4.png` — Context menu (round-4 variant geometry)
 
 ## 06-preview
 
@@ -59,4 +62,11 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `recovery-destdlg-early-state.png` — Destination dialog early state
 - `recovery-destination-dialog.png` — ChooseDestinationPathDialog: Local/Cloud tabs, drive list w/ space stats, Enable-file-repair toggle (ON), Save button (disabled)
 - `recovery-exit-retention-gate.png` — EXIT-RETENTION GATE (2nd ESC from results = exit attempt): "Wait! You are at risk of losing data!" + Get-Up-to-40%-Off / Online-Service / Quit
+- `recovery-destination-dialog-clean.png` — Destination dialog clean state (round-4)
+- `recovery-destdlg-local-selected.png` — Destination: Windows(C:) row selected (radio + highlight)
+- `recovery-destdlg-cloud-tab.png` — Destination: Cloud tab active (cloud drive list / sign-in state)
+- `recovery-destdlg-choosefolder.png` — Destination: Choose folder clicked (native folder picker or folder browse)
+- `recovery-destdlg-repair-off.png` — Destination: Enable-file-repair toggle OFF state
+- `recovery-insufficient-space-gate.png` — INSUFFICIENT SPACE GATE (Save with 146GB need on 3.9GB-free D:): "Need an additional 146.41 GB" + Continue/Reselect
+- `recovery-retention-gate-v2.png` — Retention gate via context-menu Recover on 1.1M files (round-4 variant)
 

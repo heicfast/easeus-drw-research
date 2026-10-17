@@ -94,6 +94,27 @@ MANIFEST = [
      'Results baseline (round-3 run)'),
     ('/tmp/atlas-results3/shot_10_complete_modal.png', '04-scan-complete', 'complete-celebration-modal-v2.png',
      'Celebration modal (round-3 run)'),
+    # ---- round-4 atlas captures (activate dialog, destination internals, space gate) ----
+    ('/tmp/atlas-landing4/shot_06_buy.png', '02-landing', 'landing-buy-activate-dialog.png',
+     'CEnterLicenceDlg (buy/cart click): "Enter your license code to enjoy full features" + input + Paste/Activate + "Buy a License Now" (yellow) + "No reinstallation or rescan required" note'),
+    ('/tmp/atlas-results4/shot_29_destination_dialog.png', '07-recovery', 'recovery-destination-dialog-clean.png',
+     'Destination dialog clean state (round-4)'),
+    ('/tmp/atlas-results4/shot_30_destdlg_localrow_selected.png', '07-recovery', 'recovery-destdlg-local-selected.png',
+     'Destination: Windows(C:) row selected (radio + highlight)'),
+    ('/tmp/atlas-results4/shot_31_destdlg_cloud_tab.png', '07-recovery', 'recovery-destdlg-cloud-tab.png',
+     'Destination: Cloud tab active (cloud drive list / sign-in state)'),
+    ('/tmp/atlas-results4/shot_32_destdlg_choosefolder_picker.png', '07-recovery', 'recovery-destdlg-choosefolder.png',
+     'Destination: Choose folder clicked (native folder picker or folder browse)'),
+    ('/tmp/atlas-results4/shot_33_destdlg_repair_off.png', '07-recovery', 'recovery-destdlg-repair-off.png',
+     'Destination: Enable-file-repair toggle OFF state'),
+    ('/tmp/atlas-results4/shot_35_recovery_progress.png', '07-recovery', 'recovery-insufficient-space-gate.png',
+     'INSUFFICIENT SPACE GATE (Save with 146GB need on 3.9GB-free D:): "Need an additional 146.41 GB" + Continue/Reselect'),
+    ('/tmp/atlas-results4/shot_23_icon_view.png', '07-recovery', 'recovery-retention-gate-v2.png',
+     'Retention gate via context-menu Recover on 1.1M files (round-4 variant)'),
+    ('/tmp/atlas-results4/shot_28_row_selected.png', '05-results', 'results-row-selected-round4.png',
+     'Row selected (round-4 clean capture)'),
+    ('/tmp/atlas-results4/shot_21_context_menu.png', '05-results', 'results-context-menu-round4.png',
+     'Context menu (round-4 variant geometry)'),
 ]
 
 def main():
