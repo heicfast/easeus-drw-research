@@ -67,3 +67,26 @@
   - architecture/01-build-tree, 02-kernel-drivers, 03-winpe
 - TOTAL DECOMPILED SO FAR: ~1.74M lines of C across 50 binaries
 - Key decoded: DRWLoader watchdog loop, EPMNtDrv IOCTLs, MOM plugin system, RAWSearchDLL 190+ analysers, WinPE boot chain, repair algorithms
+
+### Stage 4 — Session resume + mass decompilation mining [IN PROGRESS, resumed 08:25 UTC]
+- Session recovered from context summary; token verified; CI state checked
+- Fixed artifact downloader (Azure redirect auth-strip) → scripts/download_artifacts.py
+- multitool searchdll batch ingested (capa digest: all engines IOCTL driver access, Btrfs=ZLIB+RC4, exFAT=XOR+FNV)
+- DRWUI.exe FULLY DECOMPILED via CI: 119,182 functions / 2.38M lines (56MB)
+- misc batch ingested: 2.82M lines (AliyunWrap, EUinApp, EuDownloader, viewers, unins000, send_dmp_with_aliyun)
+- repair batch ingested: 4.02M lines / 17 binaries (EuOfficeRepairFile 42K fns, EUImgRepairFile 20K fns, EUImageEnhance=OpenCV2.4 static)
+- TOTAL DECOMPILED NOW: ~10M+ lines across ~90 binaries
+- Artifacts written this session:
+  - artifacts/DRWUI-exe--main-ui-architecture.md (+§9 decompiled confirmations: 41 embedded source paths, factory dispatchers, EuRdr IOCTL protocol 0x140320-0x140644)
+  - artifacts/EuShare/eumrx-nas-architecture.md (EuMrx=static RDBSS self-contained, \Device\EuRdr, 8 session slots, 127.0.0.1 loopback rewrite, SSH agent push /tmp/EaseUS, Synology model DB, libssh2 1.11.0)
+  - artifacts/FileRepair/repair-architecture.md (+decompiled update: video repair algorithm from 125 trace points, Fixo source tree, HWPX OpenSSL, 7zNextHeader)
+  - artifacts/Cloud/cloud-recovery-architecture.md (OAuth2 loopback, esicloud full client, PCS/ADP, firebase config)
+- KEY INTELLIGENCE:
+  - DRWUI embeds DRWIntelligentScan statically (hfspluslib x8, eushare/mrxioctl, filerecover.cpp, genericrecoverycontroller.cpp)
+  - EuPEMaker = WinPE builder inside DRWUI (20 source files)
+  - Internal codename "FoxitRestore" (registry SOFTWARE\Foxit Software\FoxitRestore + agent version URL)
+  - FS-type codes: 0-2=FAT, 3=NTFS, 4-5=EXT2, 7=exFAT, 8=HFS, 9=EXT4, 10=ReFS, 13=ZFS
+  - Advanced scan = all full searchers + RAWSearcher (gated by settings+0x60) w/ filename callback
+  - Fixo builds from D:\Fixo\01_Project; video repair from e:\drw monorepo; EuOfficeRepairWin32 from Azure DevOps agent
+- CI: 3 multitool batches (core/partition/repair) still running at last check
+- NEXT: filerecover.cpp deep-dive, tree/classify/filter internals, top-level architecture docs 04-06, second CI wave for missed binaries
