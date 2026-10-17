@@ -121,3 +121,29 @@ Session deliverables (this agent, alongside parallel UIUX/DOC sessions):
 - KEY DECODES this session: EuRdr IOCTL protocol (7 codes), FS-type→factory codes, EuPEMaker in DRWUI, FoxitRestore codename, EPM shared engine (40+ pending ops), LDM/RegLib/CTbFile in .mo layer, XCrashReport identity, euactiveonline + activation.easeus.com[.cn], DRWUI embeds hfspluslib statically, mrxioctl.cpp in DRWUI
 - Corrections synced from parallel session: .rsf = zlib-chunked (not CryptoAPI)
 - NEXT: multitool partition/repair ingestion when CI completes, deeper per-FS engine artifacts (FAT/exFAT/ext4/ReFS), EUDCPEPM hook driver deep-dive, DRWLoader DRWReport interop verification at instruction level
+
+### Stage 5 — Documentation enhancement & verification session [IN PROGRESS, doc-agent]
+- Role: verification + deepening + cross-linking of artifacts only (parallel with RE agents)
+- MAJOR CORRECTIONS (verified against decompilation):
+  - .rsf is NOT CryptoAPI-encrypted: format fully reversed = zlib-chunked stream
+    (2-byte chunk headers bit15=compressed/(len-1), CZlibCompressor/czlibdecompressor,
+    level 5, windowBits 15) inside 36-byte record chains (magic+id+chain). Working parser
+    scripts/rsf_parser.py validated on all 3 shipped samples (36MB tree extracted from
+    8.99MB record; 374K strings incl. real QA scan data "Local Disk (I:)" 2026-10-03).
+  - DRWCfg.bin = AES-256-CBC with HARDCODED key XZJE151628AED2A6ABF7158809CF4F3C IV
+    XZJ2030405060708 (class AES_CBC256, FUN_1404f4a90) — new artifact.
+  - DRWService: service name "Read FVE Server", AUTO_START (not demand); pipe wire format
+    decoded (message-mode, 0x138 stride: 50-char GUID + 256B key, 100-cap, count-first);
+    service is pipe CLIENT, DRWUI is server.
+  - VAPreviewListener IPC: TCP 127.0.0.1:20171/20172 (0x4ECB+flag) + zmq REP channel;
+    ws2_32 imported by ordinal; child helper launched with port on cmdline.
+  - EUDCPEPM IRP-hook semantics RESOLVED: all 28 major slots = generic hook, CREATE/PNP/
+    POWER overridden, IoctlBase-relative custom IOCTLs (0x800C2B00+), VolSnap hooked.
+  - LM-hash DES ("KGS!@#$%") identified in DRWUI (NAS auth), CryptoAPI crypto map complete.
+- New/rewritten artifacts: rsf-format (full rewrite + corrections register),
+  drwcfg-bin--aes-config-cache (new), ntfs-engine--deep-dive (new, line-cited),
+  rawsearch-carving--deep-dive (new), DRWService (deep rewrite), DRW launcher (deep
+  rewrite), DRWUI §8/§9.5/§9.6 updates, EUDCPEPM per-binary deep-dive addition,
+  architecture/02 §7 all rows resolved.
+- Method: every claim re-verified by direct read of ghidra-decompiled C with line citations;
+  conflict avoidance via pull --rebase before every push.
