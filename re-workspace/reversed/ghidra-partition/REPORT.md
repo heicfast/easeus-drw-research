@@ -1,0 +1,22 @@
+# Ghidra batch: partition
+Generated: 2026-10-17 08:10 UTC
+
+- **PartitionRecovery/PartitionRecovery.dll**: 3182 functions, 70706 lines decompiled (1.7M)
+- **PartitionRecovery/MainModule.dll**: 9420 functions, 173477 lines decompiled (3.7M)
+- **PartitionRecovery/RecoveryModule.dll**: 8811 functions, 91972 lines decompiled (2.0M)
+- **PartitionRecovery/ToolsModule.dll**: 17876 functions, 187572 lines decompiled (3.9M)
+- **PartitionRecovery/UILogic.dll**: 9516 functions, 103011 lines decompiled (2.2M)
+- **PartitionRecovery/RawFixer.dll**: 3446 functions, 86575 lines decompiled (2.3M)
+- **PartitionRecovery/Boot.dll**: 843 functions, 33066 lines decompiled (908K)
+- **PartitionRecovery/BootDriver.dll**: 457 functions, 10723 lines decompiled (264K)
+- **PartitionRecovery/BitLockerLib.dll**: 2320 functions, 83772 lines decompiled (2.3M)
+- **PartitionRecovery/CloneModule.dll**: 15273 functions, 169891 lines decompiled (3.7M)
+- **PartitionRecovery/Win32Bcd.dll**: 996 functions, 38357 lines decompiled (1.1M)
+- **PartitionRecovery/libvmdk.dll**: 1352 functions, 47690 lines decompiled (1.3M)
+- **PartitionRecovery/AutoUpdate.dll**: 506 functions, 22678 lines decompiled (608K)
+- **PartitionRecovery/GetDriverInfo.dll**: 207 functions, 3865 lines decompiled (84K)
+- **PartitionRecovery/Logger.dll**: 498 functions, 9720 lines decompiled (240K)
+- **PartitionRecovery/peformat.dll**: 207 functions, 4058 lines decompiled (100K)
+- **PartitionRecovery/WinChkdsk.exe**: 289 functions, 6188 lines decompiled (156K)
+- **PartitionRecovery/Burn.dll**: 1029 functions, 9707 lines decompiled (188K)
+- **PartitionRecovery/setupdrvx64.exe**: 436 functions, 15028 lines decompiled (372K)
