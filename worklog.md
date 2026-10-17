@@ -52,3 +52,18 @@
 - English.qm parsed: 1537 UI strings
 - Running: 5 Ghidra CI batches (core/partition/repair/mo-modules/misc) + 4 multitool CI batches + local Ghidra (DRW.exe, DRWService.exe, InfoForSetup.exe)
 - Artifacts so far: architecture/01-03, artifacts/PartitionRecovery/eprdtdrv-sys, artifacts/SearchDLL/searchdll-family
+
+### Stage 3 — Mass decompilation + engine analysis [IN PROGRESS]
+- Ghidra CI batches completed: core (659K lines incl DRWReport 612K!), mo-modules (689K lines, 31/31 modules), drivers (42K), searchdll (349K)
+- DRWUI batch triggered (30MB, expect hours)
+- multitool batches: searchdll/core/partition/repair still running
+- Artifacts written:
+  - artifacts/DRW-exe--launcher.md (full supervisor loop decoded)
+  - artifacts/DRWService-exe--bitlocker-service.md
+  - artifacts/FileRepair/repair-architecture.md (Fixo chain: video moov regroup, PDF xref, HWPX, OOXML, 7z)
+  - artifacts/PartitionRecovery/mom-module-system--architecture.md (MOM = in-house COM)
+  - artifacts/SearchDLL/searchdll-family--architecture.md
+  - artifacts/PartitionRecovery/eprdtdrv-sys--driver-internals.md
+  - architecture/01-build-tree, 02-kernel-drivers, 03-winpe
+- TOTAL DECOMPILED SO FAR: ~1.74M lines of C across 50 binaries
+- Key decoded: DRWLoader watchdog loop, EPMNtDrv IOCTLs, MOM plugin system, RAWSearchDLL 190+ analysers, WinPE boot chain, repair algorithms
