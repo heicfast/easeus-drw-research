@@ -102,8 +102,13 @@ DRWUI.exe / PartitionRecovery modules (user mode)
   └── WinPE path: BUILDPE auto.bat launches DRW.exe with drivers preloaded
 ```
 
-## 7. Open questions (tracked for decompilation round)
-- Exact IOCTL codes EPMNtDrv handles (need Ghidra decompile of its 35 functions — queued in CI 'drivers' batch)
-- How EPMNtDrv maps `EPRDTDRV\{d}\{p}` requests to underlying devices (device-extension layout)
-- EuMrx wire protocol (does it speak SMB itself or rely on native redirector?)
-- EUDCPEPM IRP-hook semantics (which IRP major functions are filtered)
+## 7. Open questions — status (updated after drivers decompilation batch)
+
+| Question (original) | Status | Answer (evidence) |
+|---|---|---|
+| Exact IOCTL codes EPMNtDrv handles | **RESOLVED** | 0x60002400 (set/resolve global target), 0x60002404 (GetFileObjName: handle→name, ≥0x208 out), 0x60002408 (GetDiskContextMode: 4-byte mode); all other codes pass through to the disk stack (transparent IOCTL proxy). See `artifacts/PartitionRecovery/eprdtdrv-sys--driver-internals.md` §4. |
+| How EPMNtDrv maps `EPRDTDRV\{d}\{p}` to devices | **RESOLVED** | `\Volume\{N}` → `IoGetDeviceObjectPointer(\Device\HarddiskVolume{N})` + top-of-stack; `{d}\{p}` → `\Device\Harddisk{d}\Partition0` with `\Device\Harddisk{d}\DR{p}` fallback, then walk-down (`IoGetLowerDeviceObject`) to the disk-class device. 16-byte "esdr" context in FsContext2. §2 of the same artifact. |
+| EuMrx wire protocol | **PARTIALLY RESOLVED** | EuMrx is RDBSS-only (no wire protocol itself); the userspace side tunnels via libssh2 (agent on NAS at /tmp/EaseUS) and EuMrx rewrites opens to `\\127.0.0.1\...` (FileNameInformation handler). Data-channel ports for the *preview* subsystem are 20171/20172 (DRWUI VAPreviewListener — different subsystem). See `artifacts/EuShare/eumrx-nas-architecture.md`. |
+| EUDCPEPM IRP-hook semantics | **RESOLVED (doc-session)** | EUDCPEPM (176 fns, 10,057 lines decompiled) overwrites **ALL 28 MajorFunction slots** with generic hook stub FUN_000120c4, then overrides IRP_MJ_CREATE (FUN_00011f94), IRP_MJ_PNP (FUN_00012f88), IRP_MJ_POWER (FUN_00013170); DriverExtension->AddDevice = FUN_00012014 (the DrvHK attach); DriverUnload = FUN_00011fb4. The stub routes IOCTL-class requests through a decoder that subtracts the registry `IoctlBase` (0x10000 per regdrv.reg) and dispatches a custom code range (0x800C2B00+; trace `"MainDispatch %d code=0x%X"`); non-IOCTL IRPs take the forward path (FUN_00012b70). **Additionally hooks `\Driver\VolSnap`** (VSS volume-snapshot driver — FUN_00018bd0 with `L"\\Driver\\VolSnap"`) for snapshot/volume-lock coordination. |
+
+Remaining open items are tracked in the worklog and the per-driver artifacts.

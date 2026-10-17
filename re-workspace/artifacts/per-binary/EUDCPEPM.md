@@ -28,7 +28,45 @@
 
 **Kernel: disk-copy hook.** epmdiskcopydrv - disk-class UpperFilter (BOOT_START) in WinPE.
 
+## Deep-dive additions (doc-session — dispatch table decoded, line-cited)
+
+**Hook installation (FUN_0001155c):**
+```
+for (i = 0; i < 28; i++)  DriverObject->MajorFunction[i] = FUN_000120c4;  // ALL IRPs hooked
+MajorFunction[IRP_MJ_CREATE] = FUN_00011f94        // +0x70
+MajorFunction[IRP_MJ_PNP]    = FUN_00012f88        // +0x148 (index 27)
+MajorFunction[IRP_MJ_POWER]  = FUN_00013170        // +0x120 (index 22)
+DriverExtension->AddDevice   = FUN_00012014        // the DrvHK attach
+DriverObject->DriverUnload   = FUN_00011fb4        // +0x68
+```
+**VolSnap hook**: after install it also attaches to **`\Driver\VolSnap`** (VSS volume-snapshot
+driver — FUN_00018bd0(param, L"\\Driver\\VolSnap", …)) — coordinates volume locks with
+shadow copies during disk copy.
+
+**Generic stub (FUN_000120c4)** routes by driver-state flag:
+- IOCTL-class path (FUN_000120f8): reads the IOCTL code, subtracts the
+  **registry-configured `IoctlBase`** (read at DriverEntry via ZwQueryValueKey on
+  `…\Services\…\Parameters` — `DeviceName` + `IoctlBase` values, stored in DAT_00020144;
+  regdrv.reg sets DeviceName=epmdiskcopydrv, IoctlBase=0x10000), then dispatches a custom
+  range **0x800C2B00+** (volume lock/dismount-class); trace `"MainDispatch %d code=0x%X"` @0x244.
+- Non-IOCTL path (FUN_00012b70): forward/pass-through with hook bookkeeping.
+
+**Attach-time traces (exact strings)**: `"DrvHKSetNewHookFuns type=%d pfn=0x%x"`,
+`"DrvHKSelfAddDevice eHKNotHOOK return"`, `"DrvHKSelfAddDevice"`,
+`"DrvHookNextAddDevice driver=0x%x"`, `"DrvHookNextAddDevice 2 dev 0x%x"`,
+`"?DrvHKHookSelfNewDevice@@…"`, `"?DrvHookSelfAddDeviceWithHookVersion@@…"`,
+`"InitSectorSize m_pTargetDeviceObject=%I64u pDisk=%I64u"` (geometry normalization
+between hook device and target).
+
+**Interpretation**: this is the EPM "dc" (disk-copy) sharelib filter used to gain
+exclusive-ish access to in-use volumes during disk copy/clone — intercept ALL IRPs,
+special-case CREATE/PNP/POWER, recognize its own IoctlBase-relative control codes, and
+suppress/queue foreign IO via the volume-lock path; VolSnap hook keeps VSS consistent.
+
 ## Cross-links
 
 - Master workflow: `architecture/04-recovery-workflow.md`
 - Index: `architecture/00-INDEX.md`
+- Driver family: `architecture/02-kernel-driver-architecture.md` (§3, §7 resolved rows)
+- Raw evidence: `re-workspace/reversed/ghidra-drivers/EUDCPEPM_decompiled.c` (lines 167-260,
+  5500-5650, 65-230)
