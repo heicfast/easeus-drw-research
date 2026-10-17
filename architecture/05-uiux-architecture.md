@@ -77,10 +77,12 @@ Raw evidence: `re-workspace/reversed/ui-resources/` (extracted themes, translati
   **CRightContent (82 methods)** — decoded in artifact 22 §4.
 - ~~QSS full property census per objectName~~ — **RESOLVED (artifact 21)**: 2,805 rules / 11,929
   declarations / 1,677 targets / 777 image assets; section map, color/state/widget censuses.
-- Dynamic confirmation via Wine/Windows screenshot run of DRWUI — **in progress** (parallel session
-  owns the redesigned workflows: Windows-native + Wine loader/direct matrix; 4 runs dispatched,
-  iterating on failures — DRWUI exits early after Firebase Remote-Config init under Wine, so
-  captures are staged early).
+- ~~Dynamic confirmation via Wine/Windows screenshot run~~ — **RESOLVED (artifact 24)**: the Wine
+  **loader** path (DRW.exe supervising) renders the real maximized DRWUI window (1600×1000 title
+  "DRWUI" with tile-row children at y≈185 + 640×480 central child); the **direct** path verified
+  negative (standalone exit — strongest confirmation of the supervisor architecture). New runtime
+  facts: i18n-aware NAS firewall prep (netsh EN + GBK 网络发现 rule groups), optional remote-COM
+  probes, WMI corroboration, shipped dev-config JSON (19.3 / 视频重组 / 19.2回退分支).
 - ~~EUinApp purchase-host page-flow RE~~ — **RESOLVED with role correction (artifact 23)**:
   EUinApp is not a host — it is the shared-library `EUSetWebCtrlIEVersion` registry bootstrapper
   (HKCU FEATURE_BROWSER_EMULATION = 9000/10000/11000 by IE version), and it is **orphaned** in
@@ -151,3 +153,7 @@ view are exactly as documented — only the containing function for page 3 diffe
 - New tooling: `scripts/{moc_slot_decoder,moc_stringdata_extract,qss_property_census,rtti_class_census}.py`
   (all validated against CDetailPage ground truth); raw evidence:
   `re-workspace/reversed/ui-resources/{moc_slot_decodes,moc_stringdata,qss_property_census,rtti_class_census}.json`.
+- **24 — Dynamic ground-truth ingestion**: first successful runs ingested — loader-path DRWUI
+  renders maximized with real child geometry (tiles row + central 640×480); direct-path verified
+  negative (supervisor necessity); NAS firewall prep i18n-aware (netsh EN+GBK); shipped
+  dev-config JSON provenance (19.3, 视频重组, 19.2回退分支).
