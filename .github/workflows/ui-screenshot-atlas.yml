@@ -233,17 +233,20 @@ jobs:
               @{n='14_about';       x=860; y=607}
             )
             foreach ($it in $items) {
-              [AH2]::Esc(); Start-Sleep -Milliseconds 700   # SINGLE ESC only
+              # gate-aware: dismiss the periodic RetentionActiveDlg first (X at (809,135))
+              ClickAt 809 135; Start-Sleep -Milliseconds 700
+              [AH2]::Esc(); Start-Sleep -Milliseconds 500   # single ESC for any residual dialog
               KillBrowsers
-              RestoreWin                                     # re-focus (1st click on unfocused window only activates!)
+              RestoreWin
               ClickAt 874 20; Start-Sleep -Milliseconds 1500 # open menu
               RestoreWin
               ClickAt $it.x $it.y; Start-Sleep -Seconds 3    # click item
               Shot $it.n
-              $log += "menu item $($it.n) clicked"
+              $log += "menu item $($it.n) clicked (gate-aware)"
             }
-            # ---- THEME: Settings submenu -> Dark ----
-            [AH2]::Esc(); Start-Sleep -Milliseconds 700
+            # ---- THEME: Settings submenu -> Dark (gate-aware) ----
+            ClickAt 809 135; Start-Sleep -Milliseconds 700
+            [AH2]::Esc(); Start-Sleep -Milliseconds 500
             KillBrowsers
             RestoreWin
             ClickAt 874 20; Start-Sleep -Milliseconds 1500   # open menu
@@ -257,11 +260,16 @@ jobs:
             $log += "Dark theme selected -> dark landing"
             Start-Sleep -Seconds 2
             Shot "17_dark_theme_late"
-            # sidebar pages in dark
+            # sidebar pages in dark (gate-dismiss before each)
+            ClickAt 809 135; Start-Sleep -Milliseconds 500
             ClickAt 135 226; Start-Sleep -Seconds 3; Shot "18_dark_moretools"
+            ClickAt 809 135; Start-Sleep -Milliseconds 500
             ClickAt 135 322; Start-Sleep -Seconds 3; Shot "19_dark_filerepair"
+            ClickAt 809 135; Start-Sleep -Milliseconds 500
             ClickAt 135 120; Start-Sleep -Seconds 2; Shot "20_dark_back_home"
-            # back to light via menu again
+            # back to light via menu again (gate-aware)
+            ClickAt 809 135; Start-Sleep -Milliseconds 700
+            [AH2]::Esc(); Start-Sleep -Milliseconds 500
             RestoreWin
             ClickAt 874 20; Start-Sleep -Milliseconds 1500
             RestoreWin
