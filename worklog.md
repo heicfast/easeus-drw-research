@@ -472,3 +472,29 @@ Stage Summary:
 - 247 artifacts total; dynamic ground truth spans splash->landing->scan(9%)->scan(34%, 7min)
 - All work committed to heicfast/easeus-drw-research (single active session now)
 - Next: results-interaction capture, engine cross-verification matrix, deeper per-binary passes
+
+---
+Task ID: resume-4 (forensics + config wave)
+Agent: Main RE Session
+Task: Vendor QA-log forensics, config stores, verification artifacts
+
+Work Log:
+- VENDOR QA-NIGHT FORENSICS (3 artifacts): EPMLOG/Eaolog/strutureReg (root) + log/ DRWUI/CalcPartition/
+  DefaultLog — SHIPPED BUILD GIT COMMIT 40504ccb1923e316c9c9a1ffb06907c8307930de, build Oct 13 2026
+  13:33:43 (3-way consistent w/ version.ini SetupBuildTime=1013); the .rsf sample's scan session
+  identified end-to-end (I: NTFS 22:57:57, Seagate ST500DM002, quick+deep StartSector 705794048);
+  CalcPartition real partition-search output (15+ overlapping NTFS candidates + AdjustPartitionInfoOrder
+  fileCount scoring); DefaultLog 'create 3 new file system tree' + 223M-item incremental BuildTree;
+  developer attribution #3 [Liaolanjun]; video-repair 19.2 rollback-branch JSON
+- EUUserData (111 custom signatures, user-extensible carving) + remote_config_data (~600 Firebase
+  flags, __abroad/__free suffix segmentation) artifact
+- Engine cross-verification matrix (9/9 factory uniformity, dual-source verified)
+- EUinApp IE-bootstrapper (corroborates UIUX correction), Burn IMAPI2 + real-time mode,
+  GetDriverInfo TB-module, EPMNtDrv trio byte-diff, DRWUI 45-thread architecture, X3f walk,
+  SetupUE/InfoForSetup installer pair, HWP path-checker, DiskHealth CrystalDiskInfo lineage
+
+Stage Summary:
+- 253 artifacts total; scan-complete dynamic capture run in flight (880s)
+- Forensics: the shipped tree carries the vendor's own QA session — every shipped 'data' file now
+  decoded as either product config or vendor forensics
+- Next: scan-complete capture ingest, then per-binary deepening wave 2
