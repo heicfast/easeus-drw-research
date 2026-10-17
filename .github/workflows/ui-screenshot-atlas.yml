@@ -278,60 +278,50 @@ jobs:
             Start-Sleep -Seconds 5
             Shot "20_results_baseline"
             $log += "results baseline (after Go to Recover)"
-            # ---- context menu + PreviewMainDialog ----
-            RClickAt 600 350; Start-Sleep -Seconds 2
-            Shot "21_context_menu"
-            $log += "right-click context menu captured"
-            # click 'Preview' item (2nd item, measured center (517,440)) -> PreviewMainDialog
-            RestoreWin
-            ClickAt 517 440; Start-Sleep -Seconds 6
-            Shot "22_preview_main_dialog"
-            $log += "context-menu Preview clicked -> PreviewMainDialog"
-            [AH2]::Esc(); Start-Sleep -Milliseconds 800   # SINGLE ESC (2nd ESC triggers exit-retention!)
-            RestoreWin
-            # ---- view toggle ----
-            ClickAt 667 80; Start-Sleep -Seconds 2; Shot "23_icon_view"
-            $log += "view toggle clicked (icon view)"
-            ClickAt 667 80; Start-Sleep -Seconds 2; Shot "23b_back_to_list"
-            # ---- filter bar + dropdowns ----
-            ClickAt 737 80; Start-Sleep -Seconds 2; Shot "24_filter_bar"
+            # dismiss the AI-recommend toast if present (click its X ~ (966,120))
+            ClickAt 966 120; Start-Sleep -Milliseconds 800
+            # ---- filter bar + dropdown contents (clean sequence, single-ESC discipline) ----
+            ClickAt 737 80; Start-Sleep -Seconds 2; Shot "21_filter_bar"
             $log += "filter bar toggled"
-            ClickAt 72 160; Start-Sleep -Seconds 2; Shot "25_filter_path_dropdown"
+            ClickAt 72 160; Start-Sleep -Seconds 2; Shot "22_filter_path_dropdown"
             $log += "filter Path dropdown open"
-            [AH2]::Esc(); Start-Sleep -Milliseconds 800
-            ClickAt 200 160; Start-Sleep -Seconds 2; Shot "26_filter_type_dropdown"
+            [AH2]::Esc(); Start-Sleep -Milliseconds 900
+            ClickAt 200 160; Start-Sleep -Seconds 2; Shot "23_filter_type_dropdown"
             $log += "filter Type dropdown open"
-            [AH2]::Esc(); Start-Sleep -Milliseconds 800
+            [AH2]::Esc(); Start-Sleep -Milliseconds 900
             # ---- search ----
             ClickAt 886 80; Start-Sleep -Milliseconds 800
             [System.Windows.Forms.SendKeys]::SendWait('system')
-            Start-Sleep -Seconds 3; Shot "27_search_typed"
+            Start-Sleep -Seconds 3; Shot "24_search_typed"
             $log += "search typed 'system'"
             [System.Windows.Forms.SendKeys]::SendWait('{ESC}')
             Start-Sleep -Seconds 2
-            # ---- row select + destination dialog internals ----
-            ClickAt 600 350; Start-Sleep -Seconds 2; Shot "28_row_selected"
-            $log += "row selected"
-            ClickAt 892 668; Start-Sleep -Seconds 5; Shot "29_destination_dialog"
+            # ---- view toggle (icon view) ----
+            ClickAt 667 80; Start-Sleep -Seconds 3; Shot "25_icon_view"
+            $log += "view toggle clicked (icon view)"
+            ClickAt 667 80; Start-Sleep -Seconds 2; Shot "25b_back_to_list"
+            # ---- single-folder recovery (small set -> real progress, not space gate) ----
+            ClickAt 600 350; Start-Sleep -Seconds 2; Shot "26_row_selected"
+            $log += "single row selected"
+            ClickAt 892 668; Start-Sleep -Seconds 5; Shot "27_destination_dialog"
             $log += "Recover clicked -> destination dialog"
-            # dialog internals (pixel-verified): tabs y~222, rows y 279/333/404, toggle (255,613), Save (707,613)
-            ClickAt 511 279; Start-Sleep -Seconds 2; Shot "30_destdlg_localrow_selected"
-            $log += "destination: Windows(C:) row selected"
-            ClickAt 510 222; Start-Sleep -Seconds 3; Shot "31_destdlg_cloud_tab"
-            $log += "destination: Cloud tab"
-            ClickAt 480 222; Start-Sleep -Seconds 2; Shot "31b_destdlg_local_tab_back"
-            ClickAt 357 404; Start-Sleep -Seconds 3; Shot "32_destdlg_choosefolder_picker"
-            $log += "destination: Choose folder clicked (native picker)"
-            [AH2]::Esc(); Start-Sleep -Seconds 1
-            ClickAt 255 613; Start-Sleep -Seconds 1; Shot "33_destdlg_repair_off"
-            $log += "destination: Enable file repair toggled OFF"
-            ClickAt 255 613; Start-Sleep -Milliseconds 800   # toggle back ON
-            # select D: row then Save -> recovery progress!
-            ClickAt 511 333; Start-Sleep -Seconds 2; Shot "34_destdlg_d_selected"
-            ClickAt 707 613; Start-Sleep -Seconds 6; Shot "35_recovery_progress"
-            $log += "Save clicked -> recovery progress dialog"
-            Start-Sleep -Seconds 20; Shot "36_recovery_late"
-            Start-Sleep -Seconds 40; Shot "37_recovery_later"
+            # select Windows(C:) (118GB free - enough for one folder) then Save
+            ClickAt 511 279; Start-Sleep -Seconds 2; Shot "28_destdlg_c_selected"
+            $log += "destination: Windows(C:) selected"
+            ClickAt 707 613; Start-Sleep -Seconds 8; Shot "29_recovery_progress"
+            $log += "Save clicked -> recovery progress"
+            Start-Sleep -Seconds 15; Shot "30_recovery_late"
+            Start-Sleep -Seconds 30; Shot "31_recovery_later"
+            # ---- context menu last (its Recover-on-1.1M triggers retention: known) ----
+            RClickAt 600 350; Start-Sleep -Seconds 2
+            Shot "32_context_menu"
+            $log += "right-click context menu captured"
+            [AH2]::Esc(); Start-Sleep -Milliseconds 900
+            # double-click preview panel (proven from prior runs)
+            ClickAt 600 350; Start-Sleep -Milliseconds 150
+            ClickAt 600 350; Start-Sleep -Seconds 5
+            Shot "33_preview_panel"
+            $log += "double-click preview panel"
           }
 
           # ---------------- SCAN PHASE ----------------
