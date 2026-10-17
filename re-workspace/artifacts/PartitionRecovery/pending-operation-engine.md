@@ -79,3 +79,13 @@ All class names RTTI-ground-truth (typo "Alloacte" preserved as evidence of auth
 Composition semantics (Controller→Operation→PendingOperation) evident from class triads +
 COperationManager/PendingOperationComposition. Usage scenarios cross-referenced with DRWUI
 flows (RTTI windows/threads) and CloneModule source-file names.
+
+### capa corroboration (ci-multitool partition batch, newly ingested)
+
+MainModule, CloneModule and PartitionRecovery.dll all match **"delete drive layout via
+IOCTL"** (IOCTL_DISK_DELETE_DRIVE_LAYOUT) — independent capa-level confirmation of the
+destructive partition-operation surface documented above. CloneModule additionally shows
+"resume thread" (worker orchestration). RawFixer: file read/write/exists + "resolve
+function by parsing PE exports" (dynamic API resolution). libvmdk's "validate payment
+card number using luhn algorithm" is a capa pattern false-positive on a VMDK checksum
+loop — preserved here as a documented disambiguation, not an actual payment capability.

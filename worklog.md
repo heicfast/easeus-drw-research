@@ -207,3 +207,66 @@ Work Log:
 Stage Summary:
 - UI/UX research COMPLETE statically (19 artifacts, all phases, verified via 4 independent evidence channels: QM/tr-strings, RTTI vtables, moc tables, QSS/RCC assets)
 - PENDING: dynamic Wine ground-truth — workflow ready, blocked by account Actions-minutes exhaustion; re-dispatch when minutes available
+
+---
+Task ID: doc-3
+Agent: Documentation Enhancement & Verification Agent (session 3)
+Task: Resolve tracked open items, deepen artifacts, verify parallel-agent output, ingest pending CI data
+
+Work Log:
+- Synced with main (33→77 commits incl. parallel UIUX session: 19 artifacts + 05-uiux-architecture.md)
+- EUEDKEPM RESOLVED (INDEX open item): full driver internals decoded from ghidra-drivers —
+  identity = EuDskAcs.sys "Disk Access Driver" (Todo Backup 5.8 lineage, rebuilt 2024-02-04),
+  dispatch table (CREATE=PID-token gate + \Device\Harddisk%u\Partition0 binding + \Driver\Disk
+  walk-down; READ/WRITE async FSD sector forward len<<9; IOCTL clean pass-through, IoctlBase
+  unused; CLEANUP/CLOSE/Unload), regdrv.reg evidence (SYSTEM_START, DeviceName=EUDKEPM),
+  /GS bugcheck 0xF7, pool tag esdr, NO in-tree opener (dormant deployment); corrected wrong
+  "EDK=EaseUS Deploy Kit / smaller hook variant" claims in doc 02 + hook-driver artifact
+- .rsf record-1/2/3 field schemas FULLY DECODED (INDEX open item) from writer
+  CSaveAndRestoreResult::SaveResult (DRWUI 440936-441210): all 4 record IDs byte-extracted
+  from .rdata and matched to samples; rec1 = counts+flags (12B arithmetic exact); rec2 = 0x7F
+  sig + name[100] + devtype + SYSTEMTIME + 2 stat qwords + 4 flags (147B exact; TIMESTAMP
+  CORRECTION: 2026-10-14 23:13:21.774 matches filename — prior 10-03 reading was wrong
+  field order; stat2/stat1 = 3.431GHz → tick counter); rec3 = [count][1781B partition struct
+  (FS code 3=NTFS, disk model @+0x389)][5400B volume-device blob (model/serial/firmware/USB +
+  512B MBR snapshot @+0x518)] = 7185B exact; new script scripts/rsf_dump_records.py
+- EuShare SSH-forward port RESOLVED (verified negative): DRWUI has ZERO ssh2 symbols across
+  119,182 fns; SSH client = connect.exe which is runtime-DOWNLOADED
+  (CLinuxDownloadConnectZipThread → EUUnZip.exe → NasConfig\connect.exe, connectver-gated) —
+  not shipped; libssh2.dll ships solely as its dependency (0 in-tree importers verified by PE
+  import scan); port lives in connect.exe — not recoverable from this codebase; added RDBSS
+  internals evidence (static rdbss.lib, \;0:\EuShare.com\ prefix, 8 session slots re-verified
+  (<8 loop), 26 drive-letter tables, STATUS_BAD_NETWORK_NAME, LanmanWorkStation tuning);
+  corrected data-flow diagram (connect.exe is the SSH actor, not DRWUI)
+- ImageRepair per-format grammar deep-dive (NEW artifact FileRepair/image-repair--format-grammar.md):
+  37-file Fixo source tree, 29 C<Format>Info classes (IImageInfo base, 20 RAW vendors),
+  JPEG repair skeleton FFD8/FF01/FFD9 + LibRaw ljpeg_start marker state machine, JXL libjxl
+  event walk (0x40 basic-info, 1 error), AVIF ffmpeg.exe shell-out + buildpitm/buildhdlr
+  atom reconstruction, 560-export LibRaw static link, gpr SDK, XMP metadata reattachment,
+  window-IPC invocation chain (EUImgRepair_Wndname + registry key), EasyLogging++ census
+- UIUX verification (parallel agent's 19 artifacts): independent spot-checks ALL PASS —
+  view manager pages/landing idx 2 (FUN_1408351a0 + 140835910), QSize(0x4D8,0x348)=1240x840
+  @1312170, themdark.ini slot 6 #0560fd, 195 telemetry events (literals in binary),
+  VideoPreviewWnd QTimer::start(15000)+timeout() @1507357; one precision note (CDetailPage
+  inserted in FUN_140835910 not 1408351a0) — verification addendum written as §10 of
+  05-uiux-architecture.md
+- Stale claims swept: .rsf "CryptoAPI" references corrected in doc 04 (2 sites) + DRWUI
+  artifact §4.8; cross-links added 00-INDEX (05u row, image-repair row, ci-multitool row) +
+  docs 04/06/07 → UIUX master + image-repair grammar
+- multitool partition+repair CI batches INGESTED (worklog pending item): repair (10 bins,
+  EUVideoRepair 161K retdec lines) + partition (13 bins incl MainModule/CloneModule/RawFixer/
+  libvmdk) — 18 convention files each; capa digests mined ("delete drive layout via IOCTL"
+  confirms destructive partition ops; libvmdk luhn = documented false-positive)
+
+Stage Summary:
+- ALL 4 tracked open items RESOLVED (EUEDKEPM, .rsf schema, SSH port, ImageRepair grammar);
+  2 corrections of prior wrong claims (EuDskAcs role, rsf timestamp), 1 verified-negative
+  with full architecture correction (connect.exe is the SSH actor)
+- 6 commits pushed conflict-free (pull --rebase before every push)
+- New: image-repair--format-grammar.md + rsf_dump_records.py; deepened: eudcpepm-euedkepm
+  (EUEDKEPM section), rsf-format (§5 schemas), eumrx (§6.1/6.2), pending-operation (capa),
+  05-uiux (§10 verification), docs 02/04/06/07 + 00-INDEX
+- Remaining for next sessions: DRWUI RTTI class-by-class depth (980 classes), record-4
+  per-node tree grammar, .rsf stat-qword semantics naming, ImageRepair per-format
+  AnalysisData case-by-case walks (PNG/WebP/HEIC state machines), UI dynamic ground-truth
+  re-dispatch when CI minutes replenish
