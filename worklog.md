@@ -147,3 +147,26 @@ Session deliverables (this agent, alongside parallel UIUX/DOC sessions):
   architecture/02 §7 all rows resolved.
 - Method: every claim re-verified by direct read of ghidra-decompiled C with line citations;
   conflict avoidance via pull --rebase before every push.
+
+### Stage 5 — Documentation enhancement & verification session [CLOSED for this batch]
+Session deliverables (all committed & pushed, conflict-free via pull --rebase):
+- 9 engine deep-dives (NTFS/RAW/FAT/exFAT/HFS+/EXT4/ReFS/Btrfs/ZFS) — every FS engine
+  now documented at algorithm level with line-cited verification ledgers
+- .rsf format FULLY REVERSED (corrections register; zlib-chunked, not CryptoAPI) +
+  scripts/rsf_parser.py (validated on all 3 shipped samples)
+- DRWCfg.bin AES-256-CBC hardcoded-key artifact (new)
+- DRWService (pipe wire format + AUTO_START + "Read FVE Server") + DRW launcher
+  (exact GUIDs/telemetry/restart guard) deep rewrites
+- EUDCPEPM IRP-hook semantics RESOLVED (all-28-slots + VolSnap) — doc 02 §7 all rows
+- VAPreviewListener IPC decoded (ports 20171/20172 + zmq REP)
+- SRP-6a handshake instruction-level verified (Cloud artifact §8)
+- MOM loading contract decoded; RawFixer 31-method complete inventory
+- config counts byte-verified (139/46/8/1489; Dict corrected to 228 entries/2742B)
+- 00-INDEX: all new artifacts indexed; coverage refreshed; stale items cleared
+- Verification discipline: every enhancement re-checked against decompiled C with
+  exact line/function citations; vendor typos preserved (Complate/Proerties/roged/
+  rollbakc/IDirecotryTreeBuilder/Fuction/Enumming)
+- Remaining open items (for next sessions): EUEDKEPM dispatch enumeration, .rsf
+  record-1/3 bitfield mapping, FileRepair/repair-architecture per-engine deep-dives
+  (ImageRepair per-format grammar walks), EuShare exact SSH-forward port from
+  libssh2 dynamic call sites, DRWUI RTTI-class-by-class documentation depth
