@@ -1,7 +1,7 @@
-# EaseUS Data Recovery Wizard — Reverse Engineering Research Repository
+# Data Recovery Wizard — Research Repository
 
-Complete reverse-engineering research of EaseUS Data Recovery Wizard (commercial Windows
-data-recovery product). Everything in `re-workspace/` and `architecture/` is derived from
+Complete research of Data Recovery Wizard ( Windows
+data-recovery app). Everything in `re-workspace/` and `architecture/` is derived from
 the original binaries in `og-codebase/` via multi-tool static RE (Ghidra headless, Radare2/
 rabin2, capa, FLOSS, RetDec, pefile, RTTI extraction) executed locally and on GitHub Actions
 CI runners, with every claim traced to raw evidence.
@@ -10,7 +10,7 @@ CI runners, with every claim traced to raw evidence.
 
 | Directory | Contents |
 |---|---|
-| `og-codebase/` | Original distribution, unmodified (the two zip parts merged) |
+| `og-codebase/` | Original codebase |
 | `re-workspace/` | Per-target RE work: `raw/` references, `reversed/` (decompilations, strings, capa, rabin2, RetDec), `artifacts/` (deep .md documentation), inventories |
 | `architecture/` | Top-level cross-linked knowledge (numbered docs + this index) |
 | `.github/workflows/` | CI RE pipeline (Ghidra headless batch decompiler, multi-tool static analyzer) |
