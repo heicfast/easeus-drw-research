@@ -12,14 +12,14 @@ then dump the null-separated string sequence as the method table.
 
 Usage: python3 moc_stringdata_extract.py ClassName [ClassName ...]
 """
-import sys, re, json, struct
+import sys, re, json, struct, os
 
 try:
     import pefile
 except ImportError:
     sys.exit('pip install pefile first')
 
-EXE = '/home/z/my-project/repo/og-codebase/DRWUI.exe'
+EXE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'og-codebase', 'DRWUI.exe')
 
 def load_sections():
     pe = pefile.PE(EXE, fast_load=True)
@@ -106,7 +106,7 @@ def main():
             print(f"=== {classname} @ {r['va']} ({len(r['strings'])} strings) ===")
             for i, s in enumerate(r['strings'][:60]):
                 print(f'   [{i:2d}] {s!r}')
-    json.dump(out, open('/home/z/my-project/repo/re-workspace/reversed/ui-resources/moc_stringdata.json', 'w'), indent=1)
+    json.dump(out, open('/home/z/my-project/easeus-drw-research/re-workspace/reversed/ui-resources/moc_stringdata.json', 'w'), indent=1)
     print('[+] wrote moc_stringdata.json')
 
 if __name__ == '__main__':

@@ -157,3 +157,48 @@ view are exactly as documented — only the containing function for page 3 diffe
   renders maximized with real child geometry (tiles row + central 640×480); direct-path verified
   negative (supervisor necessity); NAS firewall prep i18n-aware (netsh EN+GBK); shipped
   dev-config JSON provenance (19.3, 视频重组, 19.2回退分支).
+
+## 12. Fifth wave — interaction driver, filter chain, repair rows, objectName loop (session 5)
+
+All three wave-4 "suggested next steps" executed, plus the workflow hardening:
+
+- **25 — Post-scan-complete interaction ground truth**: `ui-interaction-driver.yml` (2-variant
+  Windows matrix, pixel-verified click coordinates, per-step screenshots) captured the last two
+  dynamic cells. The completion celebration is a **standalone 540×380 OS child window** (own
+  hwnd, no reject-on-Escape — blocks all toolbar clicks until dismissed). **"Go to Recover" →
+  results browse + "AI Recommend available." toast + AI FAB** (not a destination dialog);
+  **"Recover All" (1.1M files, Free) → the RETENTION GATE** ("Wait! You are at risk of losing
+  data!" + Get-Up-to-40%-Off / Online-Service / Quit rows — the RetentionExitDlg family);
+  ESC dismisses the retention gate. Telemetry goldmine: the completion pipeline verbatim with
+  vendor source paths — cache-reset cascade → **Freeze → auto_<Volume>_<timestamp>.rsf auto-save
+  → Unfreeze** → CScanMgr::ScanFinished:636 → bottomarea.cpp:838/856 (nStatus=4, m_iScanType 3→4)
+  → quick-scan + recoverability passes (CCheckNodeThread, re-fires on Go-to-Recover).
+- **26 — Filter system decode (CFilterButton family → CFilterBar → CRightContent::onFilterChanged
+  → CSetFilterThread)**: 5 filter buttons share ONE moc surface (template-sibling pattern);
+  onActionChanged special action-IDs 0x1a/0x105/0x1006; **TWO CFilterBar instances (Path mode /
+  Type mode)**, hidden until mode switch; CFilterBar::onValueChanged aggregates 4 buttons + AI
+  button "state" property → **0x48-byte AdvanceFilterCondition** → sigFilterChange →
+  CRightContent::onFilterChanged (FUN_14072b730) spawns **CSetFilterThread**; run() resolves the
+  view-indexed model via the global singleton switch (path/type/search) and calls the model's
+  SetFilter virtual (+0x10) or NULL to clear; empty-condition checker = 7 enable-bits.
+  Filter→scan interplay telemetry-verified (CDoScanPartition::PushFolderFilter:84 at scan start).
+- **27 — Repair item-row dispatchers**: CRepairVideoItem/CRepairPDFItem = identical 22-method moc
+  blobs (template siblings); the row contract (Repair/Preview/Save/Stop/Advanced-Repair[bFromChange]/
+  Change/FeedBack + progress); FileRepairWidgetsMgr page flow (Home→Add→List, switchToPage(N));
+  FileRepairAddThread @ **TimeCriticalPriority**; FileRepairDataMgr task queue (sigDoNextRepairTask
+  / sigFinishRepairTasks); **priority-7 worker fleet confirmed cross-line** (filter/check/repair).
+- **28 — objectName loop closure**: QSS census v2 (bug fix — every #name indexed: 1,677→**1,710
+  targets**) + binary-level lea-xref scanner + 2-hop caller attribution → **1,432/1,710 (83.9%)
+  attributed** (261 exact-name + 95 direct + 23 caller-hop + 1,053 Qt-kind context) across **304
+  owning classes**; the 278 unmatched are mostly runtime-composed numbered names (231 have binary
+  prefixes) + type-selectors needing no setObjectName.
+- New tooling: `scripts/objectname_loop.py` (+ census v2); raw evidence:
+  `re-workspace/raw-evidence/ui-interaction-{recovery-flow,results-interactions}/`,
+  `re-workspace/reversed/ui-resources/objectname_loop.json`.
+- Corrections recorded: completion modal = OS window not overlay; "Go to Recover" lands in results
+  (destination dialog only via sub-selection under the free limit); 1,677→1,710 QSS targets.
+
+Open for next session: scripted clicks INSIDE the results view (post-Go-to-Recover) for filter
+dropdown / Type-tab switch / preview-window captures; the 304-owner loop can extend the remaining
+Qt-kind-context attributions via enclosing-ctor analysis; repair-wizard dynamic capture (separate
+launch path EUFileRepair).

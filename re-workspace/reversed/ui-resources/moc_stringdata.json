@@ -1,13 +1,192 @@
 {
- "CUISink": [],
- "CPEUISink": [
+ "FileRepairListItem": [
   {
-   "va": "0x140f01c90",
-   "file_off": "0xf00690",
+   "va": "0x140f07788",
+   "file_off": "0xf06188",
    "strings": [
-    "CPEUISink",
-    "sigPercentChange",
-    "sigDeviceChange"
+    "FileRepairListItem",
+    "sigTranslate",
+    "sigRemove",
+    "sigRepair",
+    "sigRepairEx",
+    "sigPreview",
+    "sigSave",
+    "sigStop",
+    "sigUpdateIcon",
+    "retranslate",
+    "slotUpdateRepairProgress",
+    "nProgress"
+   ]
+  }
+ ],
+ "CRepairVideoItem": [
+  {
+   "va": "0x140f352d8",
+   "file_off": "0xf33cd8",
+   "strings": [
+    "CRepairVideoItem",
+    "sigRemove",
+    "sigStartRepair",
+    "sigClickedAdvancedRepair",
+    "sigStartAdvancedRepair",
+    "sigStopRepair",
+    "sigStartSave",
+    "bPreview",
+    "sigPreview",
+    "sigSaveActivateSuccess",
+    "retranslate",
+    "onClickedRemove",
+    "onClickedPreview",
+    "onClickedSave",
+    "onClickedAdvancedRepair",
+    "bFromChange",
+    "onClickedFeedBack",
+    "onClickedChange",
+    "onUpdateRepairProgress",
+    "onClickedRepair",
+    "onClickedStopRepair",
+    "bForce"
+   ]
+  }
+ ],
+ "CRepairPDFItem": [
+  {
+   "va": "0x140efb178",
+   "file_off": "0xef9b78",
+   "strings": [
+    "CRepairPDFItem",
+    "sigRemove",
+    "sigStartRepair",
+    "sigClickedAdvancedRepair",
+    "sigStartAdvancedRepair",
+    "sigStopRepair",
+    "sigStartSave",
+    "bPreview",
+    "sigPreview",
+    "sigSaveActivateSuccess",
+    "retranslate",
+    "onClickedRemove",
+    "onClickedPreview",
+    "onClickedSave",
+    "onClickedAdvancedRepair",
+    "bFromChange",
+    "onClickedFeedBack",
+    "onClickedChange",
+    "onUpdateRepairProgress",
+    "onClickedRepair",
+    "onClickedStopRepair",
+    "bForce"
+   ]
+  }
+ ],
+ "FileRepairDataMgr": [
+  {
+   "va": "0x140f06548",
+   "file_off": "0xf04f48",
+   "strings": [
+    "FileRepairDataMgr",
+    "sigStopSave",
+    "sigFinishRepairTasks",
+    "sigDoNextRepairTask",
+    "sigUpdateRepairProgress",
+    "slotSaveRet"
+   ]
+  }
+ ],
+ "FileRepairWidgetsMgr": [
+  {
+   "va": "0x140f072c0",
+   "file_off": "0xf05cc0",
+   "strings": [
+    "FileRepairWidgetsMgr",
+    "slotHomePageClickedStart",
+    "slotGoHome",
+    "slotAddFiles",
+    "QVector<QString>",
+    "vecFiles",
+    "slotGoListView",
+    "slotRepairRet",
+    "strPath",
+    "bRet",
+    "pix"
+   ]
+  }
+ ],
+ "FileRepairHomePage": [
+  {
+   "va": "0x140f06ad0",
+   "file_off": "0xf054d0",
+   "strings": [
+    "FileRepairHomePage",
+    "sigTranslate",
+    "sigBtnStartClicked",
+    "retranslate",
+    "slotBtnStartClicked"
+   ]
+  }
+ ],
+ "FileRepairAddPage": [
+  {
+   "va": "0x140f05ed0",
+   "file_off": "0xf048d0",
+   "strings": [
+    "FileRepairAddPage",
+    "sigTranslate",
+    "sigGoHome",
+    "sigAddFiles",
+    "QVector<QString>",
+    "retranslate",
+    "slotBtnAddClicked",
+    "slotDragFilesIn",
+    "fileList"
+   ]
+  }
+ ],
+ "FileRepairScanItem": [
+  {
+   "va": "0x140f08d40",
+   "file_off": "0xf07740",
+   "strings": [
+    "FileRepairScanItem",
+    "sigRemove",
+    "sigPreview",
+    "sigRepair",
+    "sigRepairEx",
+    "sigStop",
+    "retranslate",
+    "slotUpdateRepairProgress",
+    "nProgress",
+    "a",
+    "t",
+    "l",
+    "T",
+    "r",
+    "a",
+    "c",
+    "e",
+    "H",
+    "o",
+    "s",
+    "t",
+    "i",
+    "n",
+    "g",
+    "a",
+    "t",
+    "l",
+    "T",
+    "r",
+    "a",
+    "c",
+    "e",
+    "D",
+    "B",
+    "C",
+    "l",
+    "i",
+    "e",
+    "n",
+    "t"
    ]
   }
  ]

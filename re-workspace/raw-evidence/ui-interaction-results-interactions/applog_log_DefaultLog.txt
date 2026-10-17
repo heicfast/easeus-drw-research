@@ -1,0 +1,32 @@
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree start computer file count : 990031
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree end computer file count : 990046
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree prepart to remove file sytem node: 990046
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 990046
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 990062
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 990062
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 990062
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish to remove file sytem node: 990062
+CDirectoryTreeBuilder::FinishSearch prepare to create 3 new file system tree
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:990062
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:990062
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:990062
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:990062
+CDirectoryTreeBuilder::FinishSearch finish to create new file system tree
+CDirectoryTreeBuilder::BuildTree begin build raw file node:991531
+CDirectoryTreeBuilder::BuildTree finish build raw file node:991531
+CDirectoryTreeBuilder::BuildTree begin show file system node:991531
+CDirectoryTreeBuilder::BuildTree finish show file system node:991578
+CDirectoryTreeBuilder::BuildTree begin build raw file node:991578
+CDirectoryTreeBuilder::BuildTree finish build raw file node:991578
+CDirectoryTreeBuilder::BuildTree begin show file system node:991578
+CDirectoryTreeBuilder::BuildTree finish show file system node:991578

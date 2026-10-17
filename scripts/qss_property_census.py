@@ -16,8 +16,8 @@ Output: re-workspace/reversed/ui-resources/qss_property_census.json + digest to 
 import re, json, sys
 from collections import defaultdict, Counter
 
-SRC = '/home/z/my-project/repo/og-codebase/style.css'
-OUT = '/home/z/my-project/repo/re-workspace/reversed/ui-resources/qss_property_census.json'
+SRC = '/home/z/my-project/easeus-drw-research/og-codebase/style.css'
+OUT = '/home/z/my-project/easeus-drw-research/re-workspace/reversed/ui-resources/qss_property_census.json'
 
 PSEUDO_RE = re.compile(r':(hover|pressed|checked|unchecked|disabled|enabled|focus|selected|default|on|off|indeterminate|open|closed|editable|read-only|focus.*)?\b')
 ATTR_RE = re.compile(r"\[([^\]=\s]+)\s*=\s*'([^']+)'\]|\[([^\]=\s]+)\s*=\s*\"([^\"]+)\"\]")
@@ -74,20 +74,23 @@ def main():
             attrs = [(a or c, b or d) for a, b, c, d in ATTR_RE.findall(one)]
             widgets = WIDGET_RE.findall(one)
             for p in pseudos: pseudo_census[p] += 1
-            for a in attr_state_census: pass
             for k, v in attrs: attr_state_census[(k, v)] += 1
             for w in widgets: widget_census[w] += 1
-            key = names[0] if names else (widgets[0] if widgets else one)
-            ent = by_name[key]
-            ent['rules'].append({'line': r['line'], 'selector': one, 'props': r['props']})
-            for k, v in r['props'].items():
-                ent['props'][k] += 1
-                prop_type_census[k] += 1
-                for c in COLOR_VAL.findall(v): color_census[c] += 1
-                for u in URL_VAL.findall(v): image_refs[u] += 1
-            if names: ent['states'].update(pseudos)
-            ent['attrs'].update(f'{k}={v}' for k, v in attrs)
-            ent['widgets'].update(widgets)
+            # v2: index EVERY #name in the selector (loop-closure fix — child
+            # objectNames like savePushButton were previously lost under the
+            # first-name key)
+            keys = names if names else ([widgets[0]] if widgets else [one])
+            for key in keys:
+                ent = by_name[key]
+                ent['rules'].append({'line': r['line'], 'selector': one, 'props': r['props']})
+                for k, v in r['props'].items():
+                    ent['props'][k] += 1
+                    prop_type_census[k] += 1
+                    for c in COLOR_VAL.findall(v): color_census[c] += 1
+                    for u in URL_VAL.findall(v): image_refs[u] += 1
+                if names: ent['states'].update(pseudos)
+                ent['attrs'].update(f'{k}={v}' for k, v in attrs)
+                ent['widgets'].update(widgets)
 
     # ---- package ----
     out = {

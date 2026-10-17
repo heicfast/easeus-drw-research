@@ -1,0 +1,32 @@
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree start computer file count : 1074062
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree end computer file count : 1074078
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree prepart to remove file sytem node: 1074078
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 1074078
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 1074093
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 1074093
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 1074093
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish to remove file sytem node: 1074093
+CDirectoryTreeBuilder::FinishSearch prepare to create 3 new file system tree
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:1074093
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:1074093
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:1074093
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:1074093
+CDirectoryTreeBuilder::FinishSearch finish to create new file system tree
+CDirectoryTreeBuilder::BuildTree begin build raw file node:1075781
+CDirectoryTreeBuilder::BuildTree finish build raw file node:1075781
+CDirectoryTreeBuilder::BuildTree begin show file system node:1075781
+CDirectoryTreeBuilder::BuildTree finish show file system node:1075828
+CDirectoryTreeBuilder::BuildTree begin build raw file node:1075828
+CDirectoryTreeBuilder::BuildTree finish build raw file node:1075828
+CDirectoryTreeBuilder::BuildTree begin show file system node:1075828
+CDirectoryTreeBuilder::BuildTree finish show file system node:1075828

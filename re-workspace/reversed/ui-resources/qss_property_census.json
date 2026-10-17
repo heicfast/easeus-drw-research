@@ -3,8 +3,8 @@
   "source": "og-codebase/style.css",
   "lines": 20802,
   "rules": 2805,
-  "unique_targets": 1677,
-  "declarations": 11929
+  "unique_targets": 1710,
+  "declarations": 12093
  },
  "sections": [
   {
@@ -159,31 +159,31 @@
   }
  ],
  "prop_type_census": {
-  "min-height": 1239,
-  "max-height": 1118,
-  "min-width": 1036,
-  "color": 921,
-  "max-width": 847,
-  "font-size": 752,
-  "background-color": 594,
-  "background": 579,
-  "border-radius": 472,
-  "border": 430,
-  "font-family": 381,
-  "font-weight": 376,
+  "min-height": 1250,
+  "max-height": 1129,
+  "min-width": 1041,
+  "color": 940,
+  "max-width": 851,
+  "font-size": 767,
+  "background-color": 605,
+  "background": 591,
+  "border-radius": 482,
+  "border": 433,
+  "font-family": 394,
+  "font-weight": 380,
+  "image": 311,
   "background-image": 290,
-  "image": 287,
   "border-image": 201,
   "padding-left": 177,
   "qproperty-alignment": 157,
-  "qproperty-wordWrap": 149,
+  "qproperty-wordWrap": 151,
   "margin-right": 120,
   "padding-right": 118,
   "margin-left": 96,
   "margin-top": 90,
-  "height": 65,
+  "height": 68,
+  "margin-bottom": 65,
   "text-align": 65,
-  "margin-bottom": 64,
   "border-bottom-right-radius": 56,
   "qproperty-iconSize": 54,
   "border-top-left-radius": 51,
@@ -195,18 +195,18 @@
   "padding-bottom": 38,
   "background-position": 37,
   "width": 35,
-  "qproperty-normalIcon": 26,
+  "qproperty-normalIcon": 29,
   "qproperty-techSupportStyle": 26,
+  "qproperty-disableIcon": 25,
   "line-height": 24,
   "qproperty-layoutContentMargins": 22,
-  "qproperty-disableIcon": 22,
+  "qproperty-hoverIcon": 22,
+  "qproperty-pressedIcon": 22,
   "qproperty-windowDropShadowPix": 21,
   "qproperty-dropShadowBlur": 21,
   "font-style": 19,
-  "qproperty-hoverIcon": 19,
-  "qproperty-pressedIcon": 19,
+  "text-decoration": 19,
   "padding": 18,
-  "text-decoration": 18,
   "border-right": 15,
   "qproperty-iconAlign": 13,
   "qproperty-placeTextColor": 10,
@@ -218,23 +218,24 @@
   "qproperty-iconPath": 9,
   "qproperty-reverse3": 8,
   "subcontrol-position": 8,
+  "*/\n\tbackground": 8,
   "qproperty-textLeftMargin": 8,
-  "*/\n\tbackground": 7,
   "qproperty-textRightMargin": 7,
   "image-position": 7,
   "qproperty-button_text_width_reduce": 7,
   "border-style": 6,
   "qproperty-checkable": 6,
+  "/*background": 6,
   "/*min-width": 6,
   "selection-color": 6,
   "subcontrol-origin": 5,
   "/*background-image": 5,
-  "/*background": 5,
   "/*border-image": 5,
   "qproperty-techSupportStyle1": 5,
   "qproperty-menuOffset": 5,
   "/*background-color": 5,
   "qproperty-direction": 4,
+  "border-color": 4,
   "icon": 4,
   "*/\n\tcolor": 4,
   "qproperty-RecoverLabelStyle": 4,
@@ -248,7 +249,6 @@
   "qproperty-content_padding": 3,
   "qproperty-minSize": 3,
   "qproperty-content_title": 3,
-  "border-color": 3,
   "/*border": 3,
   "qproperty-iconTextSpacing": 3,
   "qproperty-rightMargin": 3,
@@ -463,65 +463,66 @@
  },
  "color_census": {
   "#ffffff": 206,
-  "#1a1a1a": 158,
-  "#0560fd": 107,
-  "#616777": 92,
+  "#1a1a1a": 160,
+  "#0560fd": 108,
+  "#616777": 94,
   "#e7e7e7": 82,
   "#2978ff": 59,
   "#ffffffff": 55,
   "#a0a6b1": 50,
-  "#1b212b": 47,
-  "#596680": 37,
+  "#1b212b": 49,
+  "#596680": 38,
   "#2c385a": 32,
   "#c1ccdf": 32,
   "#dee1ed": 32,
   "#1B212B": 29,
   "#272e4e": 25,
-  "#1A1A1A": 22,
+  "#1A1A1A": 23,
   "#8c94be": 21,
-  "#0560FD": 18,
+  "#0560FD": 20,
   "#ebedf7": 18,
   "#8794b3": 16,
   "rgba(5,96,253,0.2)": 15,
   "rgba(0,0,0,0.05)": 15,
+  "#FFCE76": 15,
+  "#FFB025": 15,
   "#5895ff": 14,
   "#0f62f0": 14,
   "#0d000000": 13,
-  "#FFCE76": 13,
-  "#FFB025": 13,
   "rgba(255,255,255,0)": 12,
+  "#E7E7E7": 12,
+  "#9faac1": 12,
   "rgba(5,96,253,1.0)": 12,
   "#e0eaff": 11,
   "#4b9cff": 11,
   "#0448be": 11,
   "#4488fe": 11,
   "#e9edf5": 11,
-  "#9faac1": 11,
   "#c4d7ff": 10,
   "#84acff": 10,
   "#ff3c3c": 10,
   "rgba(5,96,253,0.1)": 10,
+  "#FFE9EDF5": 10,
   "rgba(5,96,253,1.00)": 9,
   "#171e34": 9,
+  "rgba(0,0,0,0.1)": 9,
+  "rgba(255,255,255,1)": 9,
   "#2572fd": 9,
   "rgba(160,200,255,0.3)": 9,
   "#f2f7ff": 9,
   "#CCD8ED": 9,
-  "rgba(0,0,0,0.1)": 8,
   "#f72c2c": 8,
-  "#E7E7E7": 8,
   "#d5e5fe": 8,
   "#D2E2FE": 8,
   "#353843": 8,
+  "#9FAAC1": 8,
+  "#FFFFFF": 8,
   "#cfd2e2": 8,
   "#141c42": 8,
   "#c0d7fe": 8,
   "#a8c8ff": 8,
   "rgba(255, 255, 255, 1.00)": 8,
-  "#FFE9EDF5": 8,
   "#F6F9FD": 7,
-  "rgba(255,255,255,1)": 7,
-  "#FFFFFF": 7,
   "#FFCD74": 7,
   "#FFAD1A": 7,
   "#CDDFFF": 7,
@@ -530,20 +531,21 @@
   "#8ec0ff": 6,
   "#2e87f6": 6,
   "rgba(0,0,0,0.88)": 6,
+  "#ff413b34": 6,
   "#dfe6ed": 6,
   "#ffc10e": 6,
   "rgba(235,237,245,1)": 6,
-  "#9FAAC1": 6,
   "rgba(0,0,0,0.64)": 6,
   "#4390ff": 6,
   "#dae7ff": 6,
   "#1c1e27": 6,
   "#ccd8ed": 6,
+  "#472fff": 6,
   "#a5a8b0": 5,
-  "#ff413b34": 5,
   "#dbe9ff": 5,
   "#d2e2fe": 5,
   "#f6f9fd": 5,
+  "#f1f5ff": 5,
   "#f7f7f7": 5,
   "#f2f2f2": 5,
   "#DBE9FF": 5,
@@ -551,6 +553,7 @@
   "#d6d6d6": 5,
   "#edeff8": 5,
   "#31385d": 5,
+  "#A0A6B1": 5,
   "#edeaff": 5,
   "#abbdff": 5,
   "#E9EDF5": 5,
@@ -567,20 +570,20 @@
   "#0b0d12": 4,
   "rgba(235,237,245,0.4)": 4,
   "#edd1a5": 4,
-  "#f1f5ff": 4,
   "#a3a5af": 4,
   "rgba(5,96,253,0.12)": 4,
   "#e5eefb": 4,
   "rgba( 5, 95, 253, 0.2)": 4,
-  "#A0A6B1": 4,
   "#dfe3fc": 4,
   "#e4e7f5": 4,
   "rgba(112,139,178,0.3)": 4,
   "#FCFDFF": 4,
+  "#4488FE": 4,
+  "#DFEBFD": 4,
+  "#0448BE": 4,
   "#536077": 4,
   "#cfd7e5": 4,
   "#E74F4F": 4,
-  "#472fff": 4,
   "rgba(5,96,253,0.9)": 3,
   "#ff9426": 3,
   "#ffcd83": 3,
@@ -614,11 +617,13 @@
   "#3E32E8": 3,
   "#472FFF": 3,
   "#E6E6FD": 3,
-  "#4488FE": 3,
-  "#0448BE": 3,
   "#b4cffe": 3,
   "#50b4ffc7": 3,
   "#50b4ff00": 3,
+  "rgba(255, 255, 255, 1)": 3,
+  "#ffCDDFFF": 3,
+  "#E6EFFF": 3,
+  "#B4CFFE": 3,
   "rgba(255, 255, 255, 0.7)": 2,
   "#e3efee": 2,
   "#89c6ff": 2,
@@ -662,7 +667,9 @@
   "#F5F5F5": 2,
   "#413b34": 2,
   "#f5be33": 2,
-  "#DFEBFD": 2,
+  "#ffF2F2F2": 2,
+  "#FFF3D1": 2,
+  "#FFF6F9FD": 2,
   "#a85900": 2,
   "#ffe369": 2,
   "rgba(5, 96, 253, 0.1)": 2,
@@ -676,10 +683,7 @@
   "#89c5da": 2,
   "#edf2fa": 2,
   "#ffedf2fa": 2,
-  "rgba(255, 255, 255, 1)": 2,
-  "#ffCDDFFF": 2,
-  "#E6EFFF": 2,
-  "#B4CFFE": 2,
+  "#4388FE": 2,
   "#66ccff": 2,
   "rgb(242, 247, 255)": 2,
   "#d9d9d9": 2,
@@ -806,9 +810,6 @@
   "#fdcaca": 1,
   "#fcb5b5": 1,
   "#b0b5c0": 1,
-  "#ffF2F2F2": 1,
-  "#FFF3D1": 1,
-  "#FFF6F9FD": 1,
   "#413b43": 1,
   "#148dbdff": 1,
   "#ff413B34": 1,
@@ -854,7 +855,6 @@
   "#220BCF": 1,
   "#33472fff": 1,
   "#ff472fff": 1,
-  "#4388FE": 1,
   "#ffccd8ed": 1,
   "#FFDC9D": 1,
   "#FFC357": 1,
@@ -876,6 +876,9 @@
  "image_refs": {
   "Resource/WndShadow/shadow.png": 21,
   "none": 6,
+  "Resource/nav/NAS_nor.svg": 5,
+  "Resource/nav/RAID_nor.svg": 5,
+  "Resource/nav/Crashed_nor.svg": 5,
   "Resource/SDCard/ico_SD_camrea.png": 5,
   "Resource/gift/BG_inbuy.png": 5,
   "Resource/btn_close_nor.svg": 4,
@@ -883,16 +886,16 @@
   "Resource/btn_close_pre.svg": 4,
   "Resource/btn_close_dis.svg": 4,
   "Resource/Preview/previewloading": 4,
-  "Resource/nav/NAS_nor.svg": 4,
-  "Resource/nav/RAID_nor.svg": 4,
-  "Resource/nav/Crashed_nor.svg": 4,
   "Resource/SDCard/ico_SD_tachograph.png": 4,
   "Resource/Home/HD/ico_HD_open_hov.svg": 4,
   "\"Resource/file repair/ico_Advanced_Repair.svg\"": 4,
   "Resource/BuildTree/Organize": 3,
   "Resource/nav/PCwin_nor.svg": 3,
   "Resource/nav/SD_nor.svg": 3,
+  "Resource/nav/NAS_sel.svg": 3,
+  "Resource/nav/RAID_sel.svg": 3,
   "Resource/file repair/Nav/file_nor.svg": 3,
+  "Resource/nav/Crashed_sel.svg": 3,
   "Resource/nav/Partition_nor.svg": 3,
   "Resource/nav/PE_nor.svg": 3,
   "Resource/RaidView/radiobutton/ico_RadioButton_sel_nor.svg": 3,
@@ -930,9 +933,6 @@
   "Resource/PanelView/Details_right_hov.png": 2,
   "Resource/PanelView/Details_left_hov.png": 2,
   "Resource/Filter/ok_select.png": 2,
-  "Resource/nav/NAS_sel.svg": 2,
-  "Resource/nav/RAID_sel.svg": 2,
-  "Resource/nav/Crashed_sel.svg": 2,
   "Resource/PopWnd/popwnd-ico-ok.png": 2,
   "Resource/NAS_linux/ico_ssh_icon.png": 2,
   "Resource/NAS_linux/ico_ssh_icon_ch.png": 2,
@@ -959,12 +959,30 @@
   "Resource/Home/HD/ico_HD_close_hov.svg": 2,
   "Resource/Home/Bitlocker/bitlocker_copy_hov.png": 2,
   "Resource/PopWnd/save/popwnd_icloud.png": 2,
+  "Resource/Rkey/Rkey_ico_Recover.svg": 2,
+  "Resource/Rkey/Rkey_ico_Recover0.svg": 2,
+  "Resource/Rkey/Rkey_ico_Preview.svg": 2,
+  "Resource/Rkey/Rkey_ico_Preview0.svg": 2,
+  "Resource/Rkey/Rkey_ico_location.svg": 2,
+  "Resource/Rkey/Rkey_ico_location0.svg": 2,
+  "Resource/Rkey/Rkey_ico_unrecovered.svg": 2,
+  "Resource/Rkey/Rkey_ico_unrecovered0.svg": 2,
+  "Resource/Rkey/menu_SmartSelect.svg": 2,
+  "Resource/Rkey/menu_SmartSelect0.svg": 2,
+  "Resource/Rkey/Rkey_ico_Clear Selection.svg": 2,
+  "Resource/Rkey/Rkey_ico_Clear Selection0.svg": 2,
   "Resource/LeftTree/leftree_ico_root_parti_existing.svg": 2,
   "\"Resource/file repair/ico_add.png\"": 2,
   "Resource/file repair/Menu/menu_ico_false.svg": 2,
   "Resource/file repair/Menu/menu_ico_success.svg": 2,
   "Resource/file repair/Menu/menu_ico_wite.svg": 2,
   "Resource/Disk Backup/DiskBackup_ico_Filepath_nor.png": 2,
+  "Resource/nav/iCloud_nor.svg": 2,
+  "Resource/nav/iCloud_sel.svg": 2,
+  "Resource/nav/Image_nor.svg": 2,
+  "Resource/nav/Image_sel.svg": 2,
+  "Resource/nav/health_nor.svg": 2,
+  "Resource/nav/health_sel.svg": 2,
   "\"Resource/AiAssistant/Duplicates.png\"": 2,
   "Resource/Tips/tips_sharp.png": 1,
   "Resource/CheckBox/checkbox_unchecked_nor.svg": 1,
@@ -1513,18 +1531,6 @@
   "Resource/Tips/tips_home_bg.png": 1,
   "Resource/Tips/tips": 1,
   "\"Resource/Preview/Recommended_bg.png\"": 1,
-  "Resource/Rkey/Rkey_ico_Recover.svg": 1,
-  "Resource/Rkey/Rkey_ico_Recover0.svg": 1,
-  "Resource/Rkey/Rkey_ico_Preview.svg": 1,
-  "Resource/Rkey/Rkey_ico_Preview0.svg": 1,
-  "Resource/Rkey/Rkey_ico_location.svg": 1,
-  "Resource/Rkey/Rkey_ico_location0.svg": 1,
-  "Resource/Rkey/Rkey_ico_unrecovered.svg": 1,
-  "Resource/Rkey/Rkey_ico_unrecovered0.svg": 1,
-  "Resource/Rkey/menu_SmartSelect.svg": 1,
-  "Resource/Rkey/menu_SmartSelect0.svg": 1,
-  "Resource/Rkey/Rkey_ico_Clear Selection.svg": 1,
-  "Resource/Rkey/Rkey_ico_Clear Selection0.svg": 1,
   "Resource/Preview/Prorepair_nor.svg": 1,
   "Resource/Preview/Prorepair_hov.svg": 1,
   "Resource/Preview/Prorepair_pre.svg": 1,
@@ -1613,12 +1619,6 @@
   "Resource/Search/search_ico_Filepath_pre.png": 1,
   "Resource/nav/tools_BG_nor.png": 1,
   "Resource/nav/tools_BG_sel.png": 1,
-  "Resource/nav/iCloud_nor.svg": 1,
-  "Resource/nav/iCloud_sel.svg": 1,
-  "Resource/nav/Image_nor.svg": 1,
-  "Resource/nav/Image_sel.svg": 1,
-  "Resource/nav/health_nor.svg": 1,
-  "Resource/nav/health_sel.svg": 1,
   "Resource/Path/back_btn_nor.svg": 1,
   "Resource/Path/back_btn_pre.svg": 1,
   "Resource/Path/back_btn_hov.svg": 1,
@@ -3995,6 +3995,121 @@
      "props": {
       "background": "transparent",
       "border-image": "url(Resource/DriveTypes/drivetype_ico_usb_existing.png)"
+     }
+    }
+   ]
+  },
+  "MoreToolIndexWidgetItemIcon": {
+   "n_rules": 13,
+   "props": {
+    "image": 12,
+    "min-width": 1,
+    "max-width": 1,
+    "min-height": 1,
+    "max-height": 1,
+    "margin-bottom": 1
+   },
+   "states": [],
+   "attrs": [
+    "state=sel"
+   ],
+   "widgets": [
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 19490,
+     "selector": "QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "min-width": "24px",
+      "max-width": "24px",
+      "min-height": "24px",
+      "max-height": "24px",
+      "margin-bottom": "8px"
+     }
+    },
+    {
+     "line": 19499,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem0 QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/Crashed_nor.svg)"
+     }
+    },
+    {
+     "line": 19505,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem0[state=\"sel\"] QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/Crashed_sel.svg)"
+     }
+    },
+    {
+     "line": 19510,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem1 QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/NAS_nor.svg)"
+     }
+    },
+    {
+     "line": 19515,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem1[state=\"sel\"] QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/NAS_sel.svg)"
+     }
+    },
+    {
+     "line": 19520,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem2 QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/RAID_nor.svg)"
+     }
+    },
+    {
+     "line": 19525,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem2[state=\"sel\"] QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/RAID_sel.svg)"
+     }
+    },
+    {
+     "line": 19530,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem3 QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/iCloud_nor.svg)"
+     }
+    },
+    {
+     "line": 19535,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem3[state=\"sel\"] QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/iCloud_sel.svg)"
+     }
+    },
+    {
+     "line": 19540,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem4 QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/Image_nor.svg)"
+     }
+    },
+    {
+     "line": 19545,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem4[state=\"sel\"] QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/Image_sel.svg)"
+     }
+    },
+    {
+     "line": 19550,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem5 QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/health_nor.svg)"
+     }
+    },
+    {
+     "line": 19555,
+     "selector": "MoreToolIndexWidgetItem#MoreToolIndexWidgetItem5[state=\"sel\"] QLabel#MoreToolIndexWidgetItemIcon",
+     "props": {
+      "image": "url(Resource/nav/health_sel.svg)"
      }
     }
    ]
@@ -16751,6 +16866,68 @@
     }
    ]
   },
+  "savePushButton": {
+   "n_rules": 4,
+   "props": {
+    "background": 3,
+    "color": 3,
+    "min-height": 1,
+    "max-height": 1,
+    "min-width": 1,
+    "max-width": 1,
+    "border-radius": 1,
+    "font-size": 1,
+    "font-family": 1
+   },
+   "states": [
+    "hover"
+   ],
+   "attrs": [
+    "state=dark"
+   ],
+   "widgets": [
+    "QPushButton"
+   ],
+   "rules": [
+    {
+     "line": 14377,
+     "selector": "#ChooseDestinationPathDialog QPushButton#savePushButton",
+     "props": {
+      "min-height": "32px",
+      "max-height": "32px",
+      "min-width": "120px",
+      "max-width": "120px",
+      "background": "#0560fd",
+      "border-radius": "6px",
+      "font-size": "14px",
+      "color": "#FFFFFF",
+      "font-family": "SEMIBOLD_FONT_FAMILY"
+     }
+    },
+    {
+     "line": 14390,
+     "selector": "#ChooseDestinationPathDialog QPushButton#savePushButton[state=\"dark\"]",
+     "props": {
+      "color": "#f1f5ff"
+     }
+    },
+    {
+     "line": 14394,
+     "selector": "#ChooseDestinationPathDialog QPushButton#savePushButton:hover",
+     "props": {
+      "background": "#4488FE"
+     }
+    },
+    {
+     "line": 14398,
+     "selector": "#ChooseDestinationPathDialog QPushButton#savePushButton:!enabled",
+     "props": {
+      "background": "#E7E7E7",
+      "color": "#A0A6B1"
+     }
+    }
+   ]
+  },
   "CPEDeviceItem": {
    "n_rules": 4,
    "props": {
@@ -17943,6 +18120,122 @@
      "props": {
       "background-color": "#FFE9EDF5",
       "color": "#9FAAC1"
+     }
+    }
+   ]
+  },
+  "TitleGiftDlgRightBtn3": {
+   "n_rules": 4,
+   "props": {
+    "background-color": 4,
+    "color": 2,
+    "height": 1,
+    "border-radius": 1,
+    "font-family": 1,
+    "font-size": 1
+   },
+   "states": [
+    "disabled",
+    "hover",
+    "pressed"
+   ],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QPushButton",
+    "TitleGiftDlgRightFrame"
+   ],
+   "rules": [
+    {
+     "line": 19066,
+     "selector": "QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn3",
+     "props": {
+      "height": "40px",
+      "border-radius": "6px",
+      "background-color": "#ffCDDFFF",
+      "font-family": "SEMIBOLD_FONT_FAMILY",
+      "color": "#0560FD",
+      "font-size": "14px"
+     }
+    },
+    {
+     "line": 19076,
+     "selector": "QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn3:hover",
+     "props": {
+      "background-color": "#E6EFFF"
+     }
+    },
+    {
+     "line": 19081,
+     "selector": "QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn3:pressed",
+     "props": {
+      "background-color": "#B4CFFE"
+     }
+    },
+    {
+     "line": 19085,
+     "selector": "QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn3:disabled",
+     "props": {
+      "color": "#9FAAC1",
+      "background-color": "#FFE9EDF5"
+     }
+    }
+   ]
+  },
+  "TitleGiftDlgRightBtn4": {
+   "n_rules": 4,
+   "props": {
+    "background-color": 4,
+    "color": 2,
+    "height": 1,
+    "border-radius": 1,
+    "font-family": 1,
+    "font-size": 1
+   },
+   "states": [
+    "disabled",
+    "hover",
+    "pressed"
+   ],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QPushButton",
+    "TitleGiftDlgRightFrame"
+   ],
+   "rules": [
+    {
+     "line": 19090,
+     "selector": "QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn4",
+     "props": {
+      "height": "40px",
+      "border-radius": "6px",
+      "background-color": "#0560FD",
+      "font-family": "SEMIBOLD_FONT_FAMILY",
+      "color": "rgba(255, 255, 255, 1)",
+      "font-size": "14px"
+     }
+    },
+    {
+     "line": 19101,
+     "selector": "QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn4:hover",
+     "props": {
+      "background-color": "#4388FE"
+     }
+    },
+    {
+     "line": 19105,
+     "selector": "QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn4:pressed",
+     "props": {
+      "background-color": "#0448BE"
+     }
+    },
+    {
+     "line": 19109,
+     "selector": "QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn4:disabled",
+     "props": {
+      "color": "#9FAAC1",
+      "background-color": "#FFE9EDF5"
      }
     }
    ]
@@ -21791,6 +22084,59 @@
      "selector": "QPushButton#PreviewShadowBtnUnlock:pressed",
      "props": {
       "background-color": "#FFAD1A"
+     }
+    }
+   ]
+  },
+  "TablePushButton": {
+   "n_rules": 3,
+   "props": {
+    "background": 2,
+    "border": 1,
+    "min-height": 1,
+    "max-height": 1,
+    "border-radius": 1,
+    "font-family": 1,
+    "font-weight": 1,
+    "color": 1,
+    "font-size": 1
+   },
+   "states": [
+    "checked",
+    "hover"
+   ],
+   "attrs": [],
+   "widgets": [
+    "QPushButton",
+    "TablePushButton"
+   ],
+   "rules": [
+    {
+     "line": 14335,
+     "selector": "#ChooseDestinationPathDialog QPushButton#TablePushButton",
+     "props": {
+      "border": "none",
+      "min-height": "28px",
+      "max-height": "28px",
+      "border-radius": "6px",
+      "font-family": "SEMIBOLD_FONT_FAMILY",
+      "font-weight": "SEMIBOLD_FONT_WEIGHT",
+      "color": "#1a1a1a",
+      "font-size": "14px"
+     }
+    },
+    {
+     "line": 14347,
+     "selector": "#ChooseDestinationPathDialog QPushButton#TablePushButton:hover",
+     "props": {
+      "background": "rgba(255,255,255,1)"
+     }
+    },
+    {
+     "line": 14352,
+     "selector": "#ChooseDestinationPathDialog QPushButton#TablePushButton:checked",
+     "props": {
+      "background": "rgba(255,255,255,1)"
      }
     }
    ]
@@ -29675,6 +30021,71 @@
     }
    ]
   },
+  "itemFrame": {
+   "n_rules": 2,
+   "props": {
+    "background": 2,
+    "border-radius": 1,
+    "border-color": 1
+   },
+   "states": [],
+   "attrs": [
+    "state=selected"
+   ],
+   "widgets": [
+    "QFrame"
+   ],
+   "rules": [
+    {
+     "line": 14443,
+     "selector": "#ChooseDestinationPathDialog QFrame#itemFrame",
+     "props": {
+      "background": "transparent"
+     }
+    },
+    {
+     "line": 14462,
+     "selector": "#ChooseDestinationPathDialog QFrame#itemFrame[state='selected']",
+     "props": {
+      "background": "#DFEBFD",
+      "border-radius": "8px",
+      "border-color": "#DFEBFD"
+     }
+    }
+   ]
+  },
+  "destinationPathItemFrame": {
+   "n_rules": 2,
+   "props": {
+    "background": 1,
+    "background-color": 1,
+    "border-radius": 1
+   },
+   "states": [],
+   "attrs": [
+    "state=selected"
+   ],
+   "widgets": [
+    "QFrame"
+   ],
+   "rules": [
+    {
+     "line": 14469,
+     "selector": "#ChooseDestinationPathDialog QFrame#destinationPathItemFrame",
+     "props": {
+      "background": "transparent"
+     }
+    },
+    {
+     "line": 14474,
+     "selector": "#ChooseDestinationPathDialog QFrame#destinationPathItemFrame[state='selected']",
+     "props": {
+      "background-color": "#FFF3D1",
+      "border-radius": "8px"
+     }
+    }
+   ]
+  },
   "RecoverNoFreeTipLabel": {
    "n_rules": 2,
    "props": {
@@ -29818,6 +30229,192 @@
      "selector": "#treelistitemlabel_nametext[state=\"recovered\"]",
      "props": {
       "color": "#5faa61"
+     }
+    }
+   ]
+  },
+  "CShadowMenu_btn_1": {
+   "n_rules": 2,
+   "props": {
+    "image": 2
+   },
+   "states": [
+    "disabled"
+   ],
+   "attrs": [],
+   "widgets": [
+    "CShowContextMenuMenu",
+    "IconCustomButton",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 16565,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_1 QLabel",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_Recover.svg)"
+     }
+    },
+    {
+     "line": 16569,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_1 QLabel:disabled",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_Recover0.svg)"
+     }
+    }
+   ]
+  },
+  "CShadowMenu_btn_2": {
+   "n_rules": 2,
+   "props": {
+    "image": 2
+   },
+   "states": [
+    "disabled"
+   ],
+   "attrs": [],
+   "widgets": [
+    "CShowContextMenuMenu",
+    "IconCustomButton",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 16573,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_2 QLabel",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_Preview.svg)"
+     }
+    },
+    {
+     "line": 16577,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_2 QLabel:disabled",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_Preview0.svg)"
+     }
+    }
+   ]
+  },
+  "CShadowMenu_btn_3": {
+   "n_rules": 2,
+   "props": {
+    "image": 2
+   },
+   "states": [
+    "disabled"
+   ],
+   "attrs": [],
+   "widgets": [
+    "CShowContextMenuMenu",
+    "IconCustomButton",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 16581,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_3 QLabel",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_location.svg)"
+     }
+    },
+    {
+     "line": 16585,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_3 QLabel:disabled",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_location0.svg)"
+     }
+    }
+   ]
+  },
+  "CShadowMenu_btn_4": {
+   "n_rules": 2,
+   "props": {
+    "image": 2
+   },
+   "states": [
+    "disabled"
+   ],
+   "attrs": [],
+   "widgets": [
+    "CShowContextMenuMenu",
+    "IconCustomButton",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 16589,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_4 QLabel",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_unrecovered.svg)"
+     }
+    },
+    {
+     "line": 16593,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_4 QLabel:disabled",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_unrecovered0.svg)"
+     }
+    }
+   ]
+  },
+  "CShadowMenu_btn_5": {
+   "n_rules": 2,
+   "props": {
+    "image": 2
+   },
+   "states": [
+    "disabled"
+   ],
+   "attrs": [],
+   "widgets": [
+    "CShowContextMenuMenu",
+    "IconCustomButton",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 16597,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_5 QLabel",
+     "props": {
+      "image": "url(Resource/Rkey/menu_SmartSelect.svg)"
+     }
+    },
+    {
+     "line": 16602,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_5 QLabel:disabled",
+     "props": {
+      "image": "url(Resource/Rkey/menu_SmartSelect0.svg)"
+     }
+    }
+   ]
+  },
+  "CShadowMenu_btn_6": {
+   "n_rules": 2,
+   "props": {
+    "image": 2
+   },
+   "states": [
+    "disabled"
+   ],
+   "attrs": [],
+   "widgets": [
+    "CShowContextMenuMenu",
+    "IconCustomButton",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 16606,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_6 QLabel",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_Clear Selection.svg)"
+     }
+    },
+    {
+     "line": 16611,
+     "selector": "#CShowContextMenuMenu IconCustomButton#CShadowMenu_btn_6 QLabel:disabled",
+     "props": {
+      "image": "url(Resource/Rkey/Rkey_ico_Clear Selection0.svg)"
      }
     }
    ]
@@ -54003,6 +54600,229 @@
     }
    ]
   },
+  "TitelFrame": {
+   "n_rules": 1,
+   "props": {
+    "min-height": 1,
+    "max-height": 1,
+    "background": 1,
+    "border-radius": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "TitelFrame"
+   ],
+   "rules": [
+    {
+     "line": 14318,
+     "selector": "#ChooseDestinationPathDialog QFrame#TitelFrame",
+     "props": {
+      "min-height": "32px",
+      "max-height": "32px",
+      "background": "rgba(0,0,0,0.1)",
+      "border-radius": "6px"
+     }
+    }
+   ]
+  },
+  "titelSaveImageLabel": {
+   "n_rules": 1,
+   "props": {
+    "min-height": 1,
+    "max-height": 1,
+    "min-width": 1,
+    "max-width": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 14326,
+     "selector": "#ChooseDestinationPathDialog QLabel#titelSaveImageLabel",
+     "props": {
+      "min-height": "80px",
+      "max-height": "80px",
+      "min-width": "80px",
+      "max-width": "80px"
+     }
+    }
+   ]
+  },
+  "CenterFrame": {
+   "n_rules": 1,
+   "props": {
+    "background": 1,
+    "border": 1,
+    "border-radius": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "CenterFrame",
+    "QFrame"
+   ],
+   "rules": [
+    {
+     "line": 14357,
+     "selector": "#ChooseDestinationPathDialog QFrame#CenterFrame",
+     "props": {
+      "background": "#ffF2F2F2",
+      "border": "none",
+      "border-radius": "8px"
+     }
+    }
+   ]
+  },
+  "titelLabel": {
+   "n_rules": 1,
+   "props": {
+    "font-size": 1,
+    "color": 1,
+    "font-family": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 14365,
+     "selector": "#ChooseDestinationPathDialog QLabel#titelLabel",
+     "props": {
+      "font-size": "16px",
+      "color": "#1A1A1A",
+      "font-family": "SEMIBOLD_FONT_FAMILY"
+     }
+    }
+   ]
+  },
+  "centerLabel": {
+   "n_rules": 1,
+   "props": {
+    "font-size": 1,
+    "color": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 14372,
+     "selector": "#ChooseDestinationPathDialog QLabel#centerLabel",
+     "props": {
+      "font-size": "14px",
+      "color": "#616777"
+     }
+    }
+   ]
+  },
+  "diskNameLabel": {
+   "n_rules": 1,
+   "props": {
+    "font-size": 1,
+    "font-family": 1,
+    "font-weight": 1,
+    "color": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 14448,
+     "selector": "#ChooseDestinationPathDialog QLabel#diskNameLabel",
+     "props": {
+      "font-size": "14px",
+      "font-family": "SEMIBOLD_FONT_FAMILY",
+      "font-weight": "SEMIBOLD_FONT_WEIGHT",
+      "color": "#1a1a1a"
+     }
+    }
+   ]
+  },
+  "diskDtailLabel": {
+   "n_rules": 1,
+   "props": {
+    "font-size": 1,
+    "color": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 14456,
+     "selector": "#ChooseDestinationPathDialog QLabel#diskDtailLabel",
+     "props": {
+      "font-size": "12px",
+      "color": "#616777"
+     }
+    }
+   ]
+  },
+  "lineFrame": {
+   "n_rules": 1,
+   "props": {
+    "background-color": 1,
+    "min-height": 1,
+    "max-height": 1,
+    "min-width": 1,
+    "max-width": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame"
+   ],
+   "rules": [
+    {
+     "line": 14480,
+     "selector": "#ChooseDestinationPathDialog QFrame#lineFrame",
+     "props": {
+      "background-color": "#E7E7E7",
+      "min-height": "1px",
+      "max-height": "1px",
+      "min-width": "480px",
+      "max-width": "480px"
+     }
+    }
+   ]
+  },
+  "StackWidget": {
+   "n_rules": 1,
+   "props": {
+    "background": 1,
+    "border-radius": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QWidget",
+    "StackWidget"
+   ],
+   "rules": [
+    {
+     "line": 14489,
+     "selector": "#ChooseDestinationPathDialog QWidget#StackWidget",
+     "props": {
+      "background": "#FFF6F9FD",
+      "border-radius": "8px"
+     }
+    }
+   ]
+  },
   "logOutPushButton": {
    "n_rules": 1,
    "props": {
@@ -57141,6 +57961,37 @@
     }
    ]
   },
+  "ArchivePreviewWindowTitleVLine": {
+   "n_rules": 1,
+   "props": {
+    "min-width": 1,
+    "max-width": 1,
+    "max-height": 1,
+    "min-height": 1,
+    "background": 1,
+    "border": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 16117,
+     "selector": "QFrame#ArchivePreviewWindowTitle QLabel#ArchivePreviewWindowTitleVLine",
+     "props": {
+      "min-width": "1px",
+      "max-width": "1px",
+      "max-height": "15.43px",
+      "min-height": "15.43px",
+      "background": "#E7E7E7",
+      "border": "1px solid blue"
+     }
+    }
+   ]
+  },
   "ArchivePreviewDelegateIcon": {
    "n_rules": 1,
    "props": {
@@ -57878,6 +58729,32 @@
       "font-family": "NORMAL_FONT_FAMILY",
       "color": "#1a1a1a",
       "qproperty-alignment": "AlignCenter"
+     }
+    }
+   ]
+  },
+  "CShadowMenu_divider_1": {
+   "n_rules": 1,
+   "props": {
+    "min-height": 1,
+    "max-height": 1,
+    "margin-bottom": 1,
+    "background-color": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "CShowContextMenuMenu"
+   ],
+   "rules": [
+    {
+     "line": 16545,
+     "selector": "#CShowContextMenuMenu #CShadowMenu_divider_1",
+     "props": {
+      "min-height": "1px",
+      "max-height": "1px",
+      "margin-bottom": "4px",
+      "background-color": "#E7E7E7"
      }
     }
    ]
@@ -62223,6 +63100,220 @@
     }
    ]
   },
+  "TitleGiftDiscountFrame_3_1_now": {
+   "n_rules": 1,
+   "props": {
+    "color": 1,
+    "font-family": 1,
+    "font-weight": 1,
+    "font-size": 1,
+    "max-height": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 18998,
+     "selector": "QFrame#TitleGiftDiscountFrame_3_frame QLabel#TitleGiftDiscountFrame_3_1_now",
+     "props": {
+      "color": "#472fff",
+      "font-family": "NORMAL_FONT_FAMILY",
+      "font-weight": "SEMIBOLD_FONT_WEIGHT",
+      "font-size": "30px",
+      "max-height": "40px"
+     }
+    }
+   ]
+  },
+  "TitleGiftDiscountFrame_3_1_old": {
+   "n_rules": 1,
+   "props": {
+    "font-family": 1,
+    "color": 1,
+    "max-height": 1,
+    "min-height": 1,
+    "font-size": 1,
+    "text-decoration": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 19007,
+     "selector": "QFrame#TitleGiftDiscountFrame_3_frame QLabel#TitleGiftDiscountFrame_3_1_old",
+     "props": {
+      "font-family": "SEMIBOLD_FONT_FAMILY",
+      "color": "#9faac1",
+      "max-height": "19px",
+      "min-height": "19px",
+      "font-size": "14px",
+      "text-decoration": "line-through"
+     }
+    }
+   ]
+  },
+  "TitleGiftDiscountFrame_3_1_discount": {
+   "n_rules": 1,
+   "props": {
+    "font-family": 1,
+    "color": 1,
+    "font-size": 1,
+    "max-height": 1,
+    "min-height": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QLabel"
+   ],
+   "rules": [
+    {
+     "line": 19017,
+     "selector": "QFrame#TitleGiftDiscountFrame_3_frame QLabel#TitleGiftDiscountFrame_3_1_discount",
+     "props": {
+      "font-family": "SEMIBOLD_FONT_FAMILY",
+      "color": "#472fff",
+      "font-size": "14px",
+      "max-height": "19px",
+      "min-height": "19px"
+     }
+    }
+   ]
+  },
+  "TitleGiftDiscountFrame_3_2_btn": {
+   "n_rules": 1,
+   "props": {
+    "font-family": 1,
+    "color": 1,
+    "font-size": 1,
+    "height": 1,
+    "min-width": 1,
+    "border-radius": 1,
+    "/*background": 1,
+    "*/\n\tbackground": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QPushButton"
+   ],
+   "rules": [
+    {
+     "line": 19027,
+     "selector": "QFrame#TitleGiftDiscountFrame_3_frame QPushButton#TitleGiftDiscountFrame_3_2_btn",
+     "props": {
+      "font-family": "SEMIBOLD_FONT_FAMILY",
+      "color": "#ff413b34",
+      "font-size": "14px",
+      "height": "40px",
+      "min-width": "120px",
+      "border-radius": "6px",
+      "/*background": "linear-gradient(180deg, #FFCE76 0%, #FFB025 100%)",
+      "*/\n\tbackground": "qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #FFCE76, stop: 1.0 #FFB025)"
+     }
+    }
+   ]
+  },
+  "TitleGiftDlgRightLabel1": {
+   "n_rules": 1,
+   "props": {
+    "color": 1,
+    "font-size": 1,
+    "font-family": 1,
+    "font-weight": 1,
+    "min-height": 1,
+    "qproperty-wordWrap": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QLabel",
+    "TitleGiftDlgRightFrame"
+   ],
+   "rules": [
+    {
+     "line": 19047,
+     "selector": "QFrame#TitleGiftDlgRightFrame QLabel#TitleGiftDlgRightLabel1",
+     "props": {
+      "color": "#1b212b",
+      "font-size": "20px",
+      "font-family": "NORMAL_FONT_FAMILY",
+      "font-weight": "SEMIBOLD_FONT_WEIGHT",
+      "min-height": "54px",
+      "qproperty-wordWrap": "true"
+     }
+    }
+   ]
+  },
+  "TitleGiftDlgRightLabel2": {
+   "n_rules": 1,
+   "props": {
+    "font-family": 1,
+    "color": 1,
+    "font-size": 1,
+    "qproperty-wordWrap": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QFrame",
+    "QLabel",
+    "TitleGiftDlgRightFrame"
+   ],
+   "rules": [
+    {
+     "line": 19057,
+     "selector": "QFrame#TitleGiftDlgRightFrame QLabel#TitleGiftDlgRightLabel2",
+     "props": {
+      "font-family": "NORMAL_FONT_FAMILY",
+      "color": "#596680",
+      "font-size": "13px",
+      "qproperty-wordWrap": "true"
+     }
+    }
+   ]
+  },
+  "TitleGiftDlgRightDontShowCheckBox": {
+   "n_rules": 1,
+   "props": {
+    "min-height": 1,
+    "max-height": 1,
+    "color": 1,
+    "font-family": 1,
+    "font-size": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "QCheckBox",
+    "QFrame",
+    "TitleGiftDlgRightFrame"
+   ],
+   "rules": [
+    {
+     "line": 19114,
+     "selector": "QFrame#TitleGiftDlgRightFrame QCheckBox#TitleGiftDlgRightDontShowCheckBox",
+     "props": {
+      "min-height": "19px",
+      "max-height": "19px",
+      "color": "#1b212b",
+      "font-family": "NORMAL_FONT_FAMILY",
+      "font-size": "14px"
+     }
+    }
+   ]
+  },
   "SorryDlgTitleFrameLabel": {
    "n_rules": 1,
    "props": {
@@ -62510,6 +63601,90 @@
     }
    ]
   },
+  "ShareDlgShareItemsFrame_btn_1": {
+   "n_rules": 1,
+   "props": {
+    "qproperty-normalIcon": 1,
+    "qproperty-hoverIcon": 1,
+    "qproperty-pressedIcon": 1,
+    "qproperty-disableIcon": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "CSVGPushButton",
+    "QFrame",
+    "ShareDlgShareItemsFrame"
+   ],
+   "rules": [
+    {
+     "line": 19333,
+     "selector": "QFrame#ShareDlgShareItemsFrame CSVGPushButton#ShareDlgShareItemsFrame_btn_1",
+     "props": {
+      "qproperty-normalIcon": "\"Resource/gift/16ico_in.svg\"",
+      "qproperty-hoverIcon": "\"Resource/gift/16ico_in.svg\"",
+      "qproperty-pressedIcon": "\"Resource/gift/16ico_in.svg\"",
+      "qproperty-disableIcon": "\"Resource/gift/16ico_in.svg\""
+     }
+    }
+   ]
+  },
+  "ShareDlgShareItemsFrame_btn_2": {
+   "n_rules": 1,
+   "props": {
+    "qproperty-normalIcon": 1,
+    "qproperty-hoverIcon": 1,
+    "qproperty-pressedIcon": 1,
+    "qproperty-disableIcon": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "CSVGPushButton",
+    "QFrame",
+    "ShareDlgShareItemsFrame"
+   ],
+   "rules": [
+    {
+     "line": 19340,
+     "selector": "QFrame#ShareDlgShareItemsFrame CSVGPushButton#ShareDlgShareItemsFrame_btn_2",
+     "props": {
+      "qproperty-normalIcon": "\"Resource/gift/16ico_facebook.svg\"",
+      "qproperty-hoverIcon": "\"Resource/gift/16ico_facebook.svg\"",
+      "qproperty-pressedIcon": "\"Resource/gift/16ico_facebook.svg\"",
+      "qproperty-disableIcon": "\"Resource/gift/16ico_facebook.svg\""
+     }
+    }
+   ]
+  },
+  "ShareDlgShareItemsFrame_btn_3": {
+   "n_rules": 1,
+   "props": {
+    "qproperty-normalIcon": 1,
+    "qproperty-hoverIcon": 1,
+    "qproperty-pressedIcon": 1,
+    "qproperty-disableIcon": 1
+   },
+   "states": [],
+   "attrs": [],
+   "widgets": [
+    "CSVGPushButton",
+    "QFrame",
+    "ShareDlgShareItemsFrame"
+   ],
+   "rules": [
+    {
+     "line": 19347,
+     "selector": "QFrame#ShareDlgShareItemsFrame CSVGPushButton#ShareDlgShareItemsFrame_btn_3",
+     "props": {
+      "qproperty-normalIcon": "\"Resource/gift/16ico_X.svg\"",
+      "qproperty-hoverIcon": "\"Resource/gift/16ico_X.svg\"",
+      "qproperty-pressedIcon": "\"Resource/gift/16ico_X.svg\"",
+      "qproperty-disableIcon": "\"Resource/gift/16ico_X.svg\""
+     }
+    }
+   ]
+  },
   "FileRepairTipIconLabel": {
    "n_rules": 1,
    "props": {
@@ -62700,34 +63875,6 @@
       "*/\n\tqproperty-wordWrap": "true",
       "/* height": "47px",
       "*/\n\t/* border": "1px solid red"
-     }
-    }
-   ]
-  },
-  "MoreToolIndexWidgetItemIcon": {
-   "n_rules": 1,
-   "props": {
-    "min-width": 1,
-    "max-width": 1,
-    "min-height": 1,
-    "max-height": 1,
-    "margin-bottom": 1
-   },
-   "states": [],
-   "attrs": [],
-   "widgets": [
-    "QLabel"
-   ],
-   "rules": [
-    {
-     "line": 19490,
-     "selector": "QLabel#MoreToolIndexWidgetItemIcon",
-     "props": {
-      "min-width": "24px",
-      "max-width": "24px",
-      "min-height": "24px",
-      "max-height": "24px",
-      "margin-bottom": "8px"
      }
     }
    ]

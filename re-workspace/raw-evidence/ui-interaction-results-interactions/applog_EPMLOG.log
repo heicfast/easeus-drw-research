@@ -1,0 +1,151 @@
+[2026-10-14 22:57:10:630] (T:14564/P:2116) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries start.
+[2026-10-14 22:57:10:638] (T:14564/P:2116) CDiskEnumerator : Storage space init start.
+[2026-10-14 22:57:11:258] (T:14564/P:2116) CDiskEnumerator : Storage space init end.
+[2026-10-14 22:57:11:296] (T:14564/P:2116) CDiskEnumerator : Storage space GetUsedPhysicalDisks end.
+[2026-10-14 22:57:15:992] (T:14564/P:2116) CDiskEnumerator : Vds loadservice end.
+[2026-10-14 22:57:16:343] (T:14564/P:2116) CDiskEnumerator : disk enumerate end.
+[2026-10-14 22:57:16:344] (T:14564/P:2116) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries end.,4
+[2026-10-14 22:57:16:721] (T:14564/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-14 22:57:16:721] (T:14564/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-14 22:57:16:734] (T:14564/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-14 22:57:16:734] (T:14564/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-14 22:57:16:735] (T:14564/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-14 22:57:16:735] (T:14564/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-14 22:57:16:895] (T:14564/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-14 22:57:16:895] (T:14564/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-14 22:57:16:898] (T:14564/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-14 22:57:16:898] (T:14564/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-14 22:57:16:906] (T:14564/P:2116) CDeviceManagerBuilder : CreateDiskManagerItem end.
+[2026-10-14 22:57:16:907] (T:14564/P:2116) CDeviceManagerBuilder : CalcDriveLetter end.
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CDeviceManagerBuilder : UpdatePartitionInformation start.
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x11, Unavailable : 1
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API start.
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API end.
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API end 2.
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x3, Unavailable : 1
+[2026-10-14 22:57:16:929] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0xff, Unavailable : 1
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x11, Unavailable : 1
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API start.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API end.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API end 2.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:931] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-14 22:57:16:932] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-14 22:57:16:933] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-14 22:57:16:933] (T:14564/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-14 22:57:16:933] (T:14564/P:2116) CDeviceManagerBuilder : UpdatePartitionInformation end.
+[2026-10-15 01:20:53:055] (T:14032/P:2116) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries start.
+[2026-10-15 01:20:53:055] (T:14032/P:2116) CDiskEnumerator : Storage space init start.
+[2026-10-15 01:20:53:560] (T:14032/P:2116) CDiskEnumerator : Storage space init end.
+[2026-10-15 01:20:53:592] (T:14032/P:2116) CDiskEnumerator : Storage space GetUsedPhysicalDisks end.
+[2026-10-15 01:20:53:634] (T:14032/P:2116) CDiskEnumerator : Vds loadservice end.
+[2026-10-15 01:20:55:972] (T:14032/P:2116) CDiskEnumerator : disk enumerate end.
+[2026-10-15 01:20:55:972] (T:14032/P:2116) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries end.,4
+[2026-10-15 01:20:55:985] (T:14032/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-15 01:20:55:985] (T:14032/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-15 01:20:55:985] (T:14032/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-15 01:20:55:985] (T:14032/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-15 01:20:55:985] (T:14032/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-15 01:20:55:985] (T:14032/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-15 01:20:56:201] (T:14032/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-15 01:20:56:201] (T:14032/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-15 01:20:56:207] (T:14032/P:2116) [CRefsVolumeBootRecord] RefsProc::CRefsVolumeBootRecord::ParseBufDirectly fail!
+[2026-10-15 01:20:56:207] (T:14032/P:2116) [CRefsAnalyze]RefsProc::CRefsAnalyze::AnalyzeProc fail!
+[2026-10-15 01:20:56:216] (T:14032/P:2116) CDeviceManagerBuilder : CreateDiskManagerItem end.
+[2026-10-15 01:20:56:217] (T:14032/P:2116) CDeviceManagerBuilder : CalcDriveLetter end.
+[2026-10-15 01:20:56:225] (T:14032/P:2116) CDeviceManagerBuilder : UpdatePartitionInformation start.
+[2026-10-15 01:20:56:226] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x11, Unavailable : 1
+[2026-10-15 01:20:56:226] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:226] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API start.
+[2026-10-15 01:20:56:226] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API end.
+[2026-10-15 01:20:56:226] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API end 2.
+[2026-10-15 01:20:56:226] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:226] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x3, Unavailable : 1
+[2026-10-15 01:20:56:226] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0xff, Unavailable : 1
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x11, Unavailable : 1
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API start.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API end.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : GetSpaceInformationByWin32API end 2.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:228] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:229] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartition fs : 0x4, Unavailable : 1
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace start.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation start.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : CNTFSLib::GetSpaceInformation end.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CUpdatePartitionUsedSpaceName : UpdatePartitionUsedSpace end.
+[2026-10-15 01:20:56:230] (T:14032/P:2116) CDeviceManagerBuilder : UpdatePartitionInformation end.
+[2026-10-15 01:20:57:332] (T:18884/P:2116) START!DiskNum=3,enumSearchMethod=1,s64StartSector=0x0,s64SectorCount=0x749b3fb
+[2026-10-15 01:20:57:339] (T:18884/P:2116)   END!DiskNum=3,enumSearchMethod=1,s64StartSector=0x0,s64SectorCount=0x749b3fb nUsedTime=00000000
+[2026-10-17 16:13:47:348] (T:8836/P:2568) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries start.
+[2026-10-17 16:13:47:350] (T:8836/P:2568) CDiskEnumerator : Storage space init start.
+[2026-10-17 16:13:47:492] (T:8836/P:2568) CDiskEnumerator : Storage space init end.
+[2026-10-17 16:13:47:501] (T:8836/P:2568) CDiskEnumerator : Storage space GetUsedPhysicalDisks end.
+[2026-10-17 16:13:48:641] (T:8836/P:2568) CDiskEnumerator : Vds loadservice end.
+[2026-10-17 16:13:48:714] (T:8836/P:2568) CDiskEnumerator : disk enumerate end.
+[2026-10-17 16:13:48:714] (T:8836/P:2568) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries end.,0
+[2026-10-17 16:13:48:714] (T:8836/P:2568) CDeviceManagerBuilder : CreateDiskManagerItem end.
+[2026-10-17 16:13:48:714] (T:8836/P:2568) CDeviceManagerBuilder : CalcDriveLetter end.
+[2026-10-17 16:13:48:779] (T:8836/P:2568) CDeviceManagerBuilder : UpdatePartitionInformation start.
+[2026-10-17 16:13:48:779] (T:8836/P:2568) CDeviceManagerBuilder : UpdatePartitionInformation end.
