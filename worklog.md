@@ -41,3 +41,14 @@
   - DRWUI classes: IScanMgr/CScanMgr, CDoScan{Partition,LostPartition,CloudDevice,RemoteDevice}, tree builders (CDirectoryTreeBuilder, IRawDirectoryTreeBuilder, CBtrfsQuickTreeBuilder), classify controllers, preview controllers
   - NTFSSearchDLL RTTI: CNTFSSearchController (0x940 bytes), CNTFSQuickSearch, CNTFSBuildVolumeBitmap, MFT record attribute classes, IFileSystemSearchController interface family
 - Artifacts written: architecture/01-build-tree-intelligence.md, architecture/02-kernel-driver-architecture.md
+
+### Stage 2 — Deep RE rounds [IN PROGRESS]
+- CI Ghidra searchdll batch v2 SUCCESS: all 9 engines decompiled (349K lines) -> re-workspace/reversed/ghidra-searchdll/
+- CI Ghidra drivers batch v2 SUCCESS: all 7 drivers decompiled -> re-workspace/reversed/ghidra-drivers/
+- EPMNtDrv internals artifact DONE (IOCTLs 0x60002400/04/08, sector<<9 contract, path parsing, pool tag esdr)
+- SearchDLL family artifact DONE (plugin contract, interface hierarchy, RAW engine 190+ analysers, signature maps 0xFFD8FFE0...)
+- WinPE architecture artifact DONE (winpeshl.ini flow, regdrv.reg decoded: EUDCPEPM=epmdiskcopydrv disk-class UpperFilter, WAIK ISO carving via dlconfig.xml)
+- FileFilter.xml parsed: 8 categories, 1489 extensions
+- English.qm parsed: 1537 UI strings
+- Running: 5 Ghidra CI batches (core/partition/repair/mo-modules/misc) + 4 multitool CI batches + local Ghidra (DRW.exe, DRWService.exe, InfoForSetup.exe)
+- Artifacts so far: architecture/01-03, artifacts/PartitionRecovery/eprdtdrv-sys, artifacts/SearchDLL/searchdll-family
