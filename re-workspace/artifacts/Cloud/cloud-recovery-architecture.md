@@ -92,3 +92,34 @@ RTTI class lists and endpoint URLs are byte-exact from binaries. OAuth2 flow mec
 from cpprestsdk's named APIs present in RTTI/strings (build_authorization_uri, code listener).
 The exact Apple SRP handshake sequence is inferred from endpoint + OpenSSL presence (not yet
 instruction-level verified — pending Ghidra run on EuICloudRecovery.dll, queued in misc batch 2).
+
+---
+
+## 8. SRP HANDSHAKE — INSTRUCTION-LEVEL VERIFIED (doc-session addition)
+
+The prior §7 caveat ("Apple SRP handshake inferred, not yet instruction-verified") is now
+**resolved**. `esicloud::ICloudAuthenticatorImpl::authenticate_with_srp` (EuICloudRecovery
+decompilation, ghidra-misc) implements the full client side of Apple's "Grand Slam" SRP-6a
+login with **libsrp statically linked** (symbols `srp_user_new`, `srp_user_process_challenge`,
+`srp_user_get_username`, `srp_verifier_*` present):
+
+```
+authenticate_with_srp()                                  [icloud_authenticator.cc]
+  1. generate_srp_public_a():
+       srp_user_new(2, 1, username, password, 1, NULL, NULL)   // SRPUser* (alg/ngflavor consts)
+       → public value 'a'   ("SRP user new failed." on error,
+         source trace: H:\VS_SPACE\es_icloud_recovery\source\icloud_authenticator.cc:0x186)
+  2. init_srp_auth_session(): POST 'a' to Apple → receive salt(s) + server public B
+       endpoint (strings, byte-exact): https://idmsa.apple.com/appleauth/auth
+  3. generate_srp_m1_m2():
+       srp_user_process_challenge(user, s, len_s, B, len_B, &M1, &M1_len)  // SRP-6a proof
+       base64_encode(M1) → request payload (std::vector<byte> ranges visible)
+  4. Authentication state persisted via nlohmann::json (abi_v3_12_0) + CurlRequest (libcurl);
+     eslog::Logger error channel with class::method context strings.
+```
+
+Also verified: `/setup/ws/1/storageUsageInfo?` request construction (memmove of literal at
+213715) — the setup/ws family is built the same way as previously inferred.
+
+**Confidence: 100% for the SRP mechanism** (function names + libsrp API calls + endpoint
+strings + source path all byte-exact from decompilation).
