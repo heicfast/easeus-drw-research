@@ -1,0 +1,116 @@
+[
+ {
+  "context": "QObject",
+  "source": "%1 %2 is up to date",
+  "comment": "",
+  "translation": "%1已是最新版: %2"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 Byte(s)",
+  "comment": "",
+  "translation": "%1 字节"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 GB",
+  "comment": "",
+  "translation": "%1 GB"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 KB",
+  "comment": "",
+  "translation": "%1 KB"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 MB",
+  "comment": "",
+  "translation": "%1 MB"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 TB",
+  "comment": "",
+  "translation": "%1 TB"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 files",
+  "comment": "",
+  "translation": "%1个文件"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 files (%2)",
+  "comment": "",
+  "translation": "%1个文件（%2）"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 files | %2",
+  "comment": "",
+  "translation": "%1个文件 | %2"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 free recovery capacity.",
+  "comment": "",
+  "translation": "%1免费恢复量"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 to see if it could be opended (may be corrupted)",
+  "comment": "",
+  "translation": "%1后查看是否能打开（可能已损坏）"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 to see if it could be opened",
+  "comment": "",
+  "translation": "%1后查看是否能打开"
+ },
+ {
+  "context": "QObject",
+  "source": "%1%",
+  "comment": "",
+  "translation": "%1%"
+ },
+ {
+  "context": "QObject",
+  "source": "%1% downloaded",
+  "comment": "",
+  "translation": "已下载 %1%"
+ },
+ {
+  "context": "QObject",
+  "source": "(%1 files / %2 failed; for details, you may check the recovery log)",
+  "comment": "",
+  "translation": "（保存失败：%1个文件/%2；您可查看恢复日志了解详情）"
+ },
+ {
+  "context": "QObject",
+  "source": "(%1s)",
+  "comment": "",
+  "translation": "(%1s)"
+ },
+ {
+  "context": "QObject",
+  "source": "1) Access the 'Control Panel' of NAS Management Panel for enabling; or",
+  "comment": "",
+  "translation": "1) 访问NAS管理面板下的“控制面板”去开启；或"
+ },
+ {
+  "context": "QObject",
+  "source": "1) Click 'Control Panel'",
+  "comment": "",
+  "translation": "1) 点击“控制面板”"
+ },
+ {
+  "context": "QObject",
+  "source": "1) Click 'Control Panel' on target nas server",
+  "comment": "",
+  "translation": "1) 在目标NAS上，点击“控制面板”"
+ }
+]

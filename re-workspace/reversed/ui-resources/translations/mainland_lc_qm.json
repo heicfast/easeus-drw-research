@@ -1,0 +1,5564 @@
+[
+ {
+  "context": "QObject",
+  "source": "%1 %2 is up to date",
+  "comment": "",
+  "translation": "%1已是最新版: %2"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 Byte(s)",
+  "comment": "",
+  "translation": "%1 字节"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 Detected:",
+  "comment": "",
+  "translation": "%1 已检测到："
+ },
+ {
+  "context": "QObject",
+  "source": "%1 GB",
+  "comment": "",
+  "translation": "%1 GB"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 KB",
+  "comment": "",
+  "translation": "%1 KB"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 MB",
+  "comment": "",
+  "translation": "%1 MB"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 TB",
+  "comment": "",
+  "translation": "%1 TB"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 files",
+  "comment": "",
+  "translation": "%1个文件"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 files (%2)",
+  "comment": "",
+  "translation": "%1个文件（%2）"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 files | %2",
+  "comment": "",
+  "translation": "%1个文件 | %2"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 free recovery capacity.",
+  "comment": "",
+  "translation": "%1免费恢复量"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 to see if it could be opended (may be corrupted)",
+  "comment": "",
+  "translation": "%1后查看是否能打开（可能已损坏）"
+ },
+ {
+  "context": "QObject",
+  "source": "%1 to see if it could be opened",
+  "comment": "",
+  "translation": "%1后查看是否能打开"
+ },
+ {
+  "context": "QObject",
+  "source": "%1%",
+  "comment": "",
+  "translation": "%1%"
+ },
+ {
+  "context": "QObject",
+  "source": "%1% downloaded",
+  "comment": "",
+  "translation": "已下载 %1%"
+ },
+ {
+  "context": "QObject",
+  "source": "(%1 files / %2 failed; for details, you may check the recovery log)",
+  "comment": "",
+  "translation": "（保存失败：%1个文件/%2；您可查看恢复日志了解详情）"
+ },
+ {
+  "context": "QObject",
+  "source": "(%1s)",
+  "comment": "",
+  "translation": "(%1s)"
+ },
+ {
+  "context": "QObject",
+  "source": "*.vmdk *.vhd *.vhdx *.edisk *.dmg *.img",
+  "comment": "",
+  "translation": "*.vmdk *.vhd *.vhdx *.edisk *.dmg *.img"
+ },
+ {
+  "context": "QObject",
+  "source": "1) Access the 'Control Panel' of NAS Management Panel for enabling; or",
+  "comment": "",
+  "translation": "1) 访问NAS管理面板下的“控制面板”去开启；或"
+ },
+ {
+  "context": "QObject",
+  "source": "1) Click 'Control Panel'",
+  "comment": "",
+  "translation": "1) 点击“控制面板”"
+ },
+ {
+  "context": "QObject",
+  "source": "1) Click 'Control Panel' on target nas server",
+  "comment": "",
+  "translation": "1) 在目标NAS上，点击“控制面板”"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Forver",
+  "comment": "",
+  "translation": "1-Forver"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Get VIP,enjoy unlimited recovery and more.",
+  "comment": "",
+  "translation": "1-Get VIP,enjoy unlimited recovery and more."
+ },
+ {
+  "context": "QObject",
+  "source": "1-Import Scan Result",
+  "comment": "",
+  "translation": "1-Import Scan Result"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Log Out",
+  "comment": "",
+  "translation": "1-Log Out"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Login",
+  "comment": "",
+  "translation": "1-Login"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Menu",
+  "comment": "",
+  "translation": "1-Menu"
+ },
+ {
+  "context": "QObject",
+  "source": "1-My Order",
+  "comment": "",
+  "translation": "1-My Order"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Open VIP",
+  "comment": "",
+  "translation": "1-Open VIP"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Renew",
+  "comment": "",
+  "translation": "1-Renew"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Save Scan Result",
+  "comment": "",
+  "translation": "1-Save Scan Result"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Support",
+  "comment": "",
+  "translation": "1-Support"
+ },
+ {
+  "context": "QObject",
+  "source": "1-User Center",
+  "comment": "",
+  "translation": "1-User Center"
+ },
+ {
+  "context": "QObject",
+  "source": "1-VIP",
+  "comment": "",
+  "translation": "1-VIP"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Vip Service",
+  "comment": "",
+  "translation": "1-Vip Service"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Welcome to EaseUS Enterprise VIP. Your VIP expiration date:%1",
+  "comment": "",
+  "translation": "1-Welcome to EaseUS Enterprise VIP. Your VIP expiration date:%1"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Welcome to EaseUS Professional VIP. Your VIP expiration date::%1",
+  "comment": "",
+  "translation": "1-Welcome to EaseUS Professional VIP. Your VIP expiration date::%1"
+ },
+ {
+  "context": "QObject",
+  "source": "1-Your VIP expired, Please renew and enjoy unlimit recovery capcity.",
+  "comment": "",
+  "translation": "1-Your VIP expired, Please renew and enjoy unlimit recovery capcity."
+ },
+ {
+  "context": "QObject",
+  "source": "1. Insert USB bootable drive created to the crashed computer",
+  "comment": "",
+  "translation": "1. 将刚创建的USB启动盘，插到崩溃的电脑上"
+ },
+ {
+  "context": "QObject",
+  "source": "1.Deleted partitions\n2.Formatted partitions\n3.Resized partitions, etc.",
+  "comment": "",
+  "translation": "1.误删除的分区\n2.误格式化的分区\n3.分区调整等"
+ },
+ {
+  "context": "QObject",
+  "source": "1.Group by Type",
+  "comment": "",
+  "translation": "1.按类型分组"
+ },
+ {
+  "context": "QObject",
+  "source": "1.Insufficient storage space.",
+  "comment": "",
+  "translation": "1.存储空间不足。"
+ },
+ {
+  "context": "QObject",
+  "source": "1.Try less specific keywords",
+  "comment": "",
+  "translation": "1. 试试不太具体的关键字"
+ },
+ {
+  "context": "QObject",
+  "source": "1.Try to find files by %1",
+  "comment": "",
+  "translation": "1. 试试用%1来找文件"
+ },
+ {
+  "context": "QObject",
+  "source": "100 M+",
+  "comment": "",
+  "translation": "上亿+"
+ },
+ {
+  "context": "QObject",
+  "source": "18 Years+",
+  "comment": "",
+  "translation": "18年+"
+ },
+ {
+  "context": "QObject",
+  "source": "1MB~512MB",
+  "comment": "",
+  "translation": "1 MB ~ 512 MB"
+ },
+ {
+  "context": "QObject",
+  "source": "2) Search in Google for 'How to Enable SSH'; or",
+  "comment": "",
+  "translation": "2) Google中搜索“如何开启SSH”；或"
+ },
+ {
+  "context": "QObject",
+  "source": "2) Select 'Telnet/SSH' at 'Network & File Services'",
+  "comment": "",
+  "translation": "2) 在“网络与文件服务”下选择“远程登录/SSH”"
+ },
+ {
+  "context": "QObject",
+  "source": "2) Select 'Terminal & SNMP'",
+  "comment": "",
+  "translation": "2) 选择“终端机和SNMP”"
+ },
+ {
+  "context": "QObject",
+  "source": "2. Enter BIOS and set it to boot up from USB bootable drive created just now",
+  "comment": "",
+  "translation": "2. 进入电脑的BIOS，设置从刚刚制作的USB盘启动"
+ },
+ {
+  "context": "QObject",
+  "source": "2.Ensure words are spelled correctly",
+  "comment": "",
+  "translation": "2. 确保输入的搜索词，单词拼写正确"
+ },
+ {
+  "context": "QObject",
+  "source": "2.Group by Date Modified",
+  "comment": "",
+  "translation": "2.按修改日期分组"
+ },
+ {
+  "context": "QObject",
+  "source": "2.The recovery path is too long.",
+  "comment": "",
+  "translation": "2. 还原路径太长。"
+ },
+ {
+  "context": "QObject",
+  "source": "2.Wait to filter again after scan completes",
+  "comment": "",
+  "translation": "2. 等待扫描完成后，再尝试过滤"
+ },
+ {
+  "context": "QObject",
+  "source": "24/7 Customer Support",
+  "comment": "",
+  "translation": "7x24小时客服"
+ },
+ {
+  "context": "QObject",
+  "source": "3) Check 'Allow SSH connection'",
+  "comment": "",
+  "translation": "3) 勾选“允许SSH连接”"
+ },
+ {
+  "context": "QObject",
+  "source": "3) Check 'Enable SSH Service' box",
+  "comment": "",
+  "translation": "3) 勾选“启动SSH功能”"
+ },
+ {
+  "context": "QObject",
+  "source": "3) Check 'Enable SSH service' box",
+  "comment": "",
+  "translation": "3) 勾选“启动SSH功能”"
+ },
+ {
+  "context": "QObject",
+  "source": "3) Contact NAS manufacturer to ask 'How to Enable SSH'; or",
+  "comment": "",
+  "translation": "3) 联系NAS厂家，询问“如何开启SSH”；或"
+ },
+ {
+  "context": "QObject",
+  "source": "3.Group by Tag",
+  "comment": "",
+  "translation": "3. 按标签分组"
+ },
+ {
+  "context": "QObject",
+  "source": "3.If none of the above helps, please %1",
+  "comment": "",
+  "translation": "3. 如果上述方法都没用，请%1"
+ },
+ {
+  "context": "QObject",
+  "source": "3.The file name contains garbage characters.",
+  "comment": "",
+  "translation": "3. 文件名有乱码。"
+ },
+ {
+  "context": "QObject",
+  "source": "3.Wait to search again scan completes",
+  "comment": "",
+  "translation": "3. 等待扫描完成后，再尝试进行搜索"
+ },
+ {
+  "context": "QObject",
+  "source": "30 Days",
+  "comment": "",
+  "translation": "30天"
+ },
+ {
+  "context": "QObject",
+  "source": "4) Contact EaseUS for technical assistance in enabling SSH?",
+  "comment": "",
+  "translation": "4) 联系EaseUS获取技术支持，帮您“开启SSH”"
+ },
+ {
+  "context": "QObject",
+  "source": "4) View and remember the port for remote access",
+  "comment": "",
+  "translation": "4) 查看并记住远程访问的端口号"
+ },
+ {
+  "context": "QObject",
+  "source": "4) View and remember the port remote access in next step",
+  "comment": "",
+  "translation": "4) 查看并记住远程访问的端口号"
+ },
+ {
+  "context": "QObject",
+  "source": "4.The file name is most likely lost. Try to find files %1",
+  "comment": "",
+  "translation": "4. 可能文件名丢失了，%1找文件"
+ },
+ {
+  "context": "QObject",
+  "source": "4.The sector reading location exceeds total sector number of the source partition.",
+  "comment": "",
+  "translation": "4. 扇区读取位置超过源分区的总扇区数。"
+ },
+ {
+  "context": "QObject",
+  "source": "5) Need technical assistance in enabling SSH service?",
+  "comment": "",
+  "translation": "5) 还是无法开启SSH服务？"
+ },
+ {
+  "context": "QObject",
+  "source": "5.If None of the above helps, please %1",
+  "comment": "",
+  "translation": "5. 如果上面的方法都没有帮助，请%1"
+ },
+ {
+  "context": "QObject",
+  "source": "5.The correct storage sector location cannot be found.",
+  "comment": "",
+  "translation": "5. 无法找到正确的存储扇区位置。"
+ },
+ {
+  "context": "QObject",
+  "source": "512KB~1MB",
+  "comment": "",
+  "translation": "512 KB ~ 1 MB"
+ },
+ {
+  "context": "QObject",
+  "source": "512MB~1GB",
+  "comment": "",
+  "translation": "512 MB ~ 1 GB"
+ },
+ {
+  "context": "QObject",
+  "source": "6.The data amount you want to recover has exceeded the free quota.",
+  "comment": "",
+  "translation": "6. 你要恢复的数据量已经超过了免费额度。"
+ },
+ {
+  "context": "QObject",
+  "source": "7*24 Hour",
+  "comment": "",
+  "translation": "7*24小时"
+ },
+ {
+  "context": "QObject",
+  "source": "7.Other unknown reasons.",
+  "comment": "",
+  "translation": "7. 其他未知原因。"
+ },
+ {
+  "context": "QObject",
+  "source": "< 512KB",
+  "comment": "",
+  "translation": "< 512 KB"
+ },
+ {
+  "context": "QObject",
+  "source": "> 1GB",
+  "comment": "",
+  "translation": ">  1GB"
+ },
+ {
+  "context": "QObject",
+  "source": ">=%1h",
+  "comment": "",
+  "translation": "%1小时以上"
+ },
+ {
+  "context": "QObject",
+  "source": "AI Deduplication",
+  "comment": "",
+  "translation": "AI 智能去重"
+ },
+ {
+  "context": "QObject",
+  "source": "AI Recommend",
+  "comment": "",
+  "translation": "AI 已推荐"
+ },
+ {
+  "context": "QObject",
+  "source": "AI Recommend avaliable.",
+  "comment": "",
+  "translation": "AI 推荐功能已启用。"
+ },
+ {
+  "context": "QObject",
+  "source": "AI Recommend is on. Showing %1 recommended files.",
+  "comment": "",
+  "translation": "AI 推荐已开启，正在显示 %1 个推荐文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "AI Recommendations",
+  "comment": "",
+  "translation": "AI 推荐"
+ },
+ {
+  "context": "QObject",
+  "source": "AI Recovery Insight:",
+  "comment": "",
+  "translation": "AI 恢复洞察："
+ },
+ {
+  "context": "QObject",
+  "source": "AI recommeded %1 files",
+  "comment": "",
+  "translation": "AI 已推荐 %1 个文件"
+ },
+ {
+  "context": "QObject",
+  "source": "APEMAN Dash Cam",
+  "comment": "",
+  "translation": "APEMAN 行车记录仪"
+ },
+ {
+  "context": "QObject",
+  "source": "About",
+  "comment": "",
+  "translation": "关于"
+ },
+ {
+  "context": "QObject",
+  "source": "About EaseUS:",
+  "comment": "",
+  "translation": "关于来橙："
+ },
+ {
+  "context": "QObject",
+  "source": "Access restricted",
+  "comment": "",
+  "translation": "访问受限"
+ },
+ {
+  "context": "QObject",
+  "source": "Access the 'Settings' on target NAS server",
+  "comment": "",
+  "translation": "在目标NAS上，点击“设置”"
+ },
+ {
+  "context": "QObject",
+  "source": "Account without sufficient permission. Try with your Administrator account. ",
+  "comment": "",
+  "translation": "账号权限不足，请使用管理员账号。"
+ },
+ {
+  "context": "QObject",
+  "source": "Acknowledgments:",
+  "comment": "",
+  "translation": "致谢："
+ },
+ {
+  "context": "QObject",
+  "source": "Activate",
+  "comment": "",
+  "translation": "激活"
+ },
+ {
+  "context": "QObject",
+  "source": "Activate Manually",
+  "comment": "",
+  "translation": "手动激活"
+ },
+ {
+  "context": "QObject",
+  "source": "Activate Now",
+  "comment": "",
+  "translation": "立即激活"
+ },
+ {
+  "context": "QObject",
+  "source": "Activate Offline",
+  "comment": "",
+  "translation": "离线激活"
+ },
+ {
+  "context": "QObject",
+  "source": "Activate Successful",
+  "comment": "",
+  "translation": "激活成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Activate failed.",
+  "comment": "",
+  "translation": "激活失败。"
+ },
+ {
+  "context": "QObject",
+  "source": "Activate to Unlock Full Version!",
+  "comment": "",
+  "translation": "激活解锁完整版！"
+ },
+ {
+  "context": "QObject",
+  "source": "Add Driver",
+  "comment": "",
+  "translation": "添加驱动器"
+ },
+ {
+  "context": "QObject",
+  "source": "Add File",
+  "comment": "",
+  "translation": "添加文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Administrator account required",
+  "comment": "",
+  "translation": "需要输入管理员账号"
+ },
+ {
+  "context": "QObject",
+  "source": "Advanced Filter",
+  "comment": "",
+  "translation": "高级过滤"
+ },
+ {
+  "context": "QObject",
+  "source": "Advanced Recovery",
+  "comment": "",
+  "translation": "高级恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Advanced Scan can find more files - many users recover their data after a full scan.",
+  "comment": "",
+  "translation": "深度扫描可找到更多文件——许多用户在完整扫描后成功恢复数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Advanced Scanning",
+  "comment": "",
+  "translation": "高级扫描"
+ },
+ {
+  "context": "QObject",
+  "source": "Advanced features",
+  "comment": "",
+  "translation": "高级功能"
+ },
+ {
+  "context": "QObject",
+  "source": "Advanced:",
+  "comment": "",
+  "translation": "高级："
+ },
+ {
+  "context": "QObject",
+  "source": "All",
+  "comment": "",
+  "translation": "所有的"
+ },
+ {
+  "context": "QObject",
+  "source": "All Files",
+  "comment": "",
+  "translation": "所有文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Already have had license?",
+  "comment": "",
+  "translation": "已经有激活码了？"
+ },
+ {
+  "context": "QObject",
+  "source": "An alphabet from A to Z that is assigned to a partition. A default partition is usually assigned to a C:drive letter.",
+  "comment": "",
+  "translation": "分配给分区的A-Z中的某个字母。默认分区的盘符通常为C："
+ },
+ {
+  "context": "QObject",
+  "source": "Analyzing",
+  "comment": "",
+  "translation": "分析中"
+ },
+ {
+  "context": "QObject",
+  "source": "Analyzing %1%",
+  "comment": "",
+  "translation": "分析中：%1%"
+ },
+ {
+  "context": "QObject",
+  "source": "Analyzing...",
+  "comment": "",
+  "translation": "分析中..."
+ },
+ {
+  "context": "QObject",
+  "source": "And then click 'Refresh'.",
+  "comment": "",
+  "translation": "然后再点击“刷新”。"
+ },
+ {
+  "context": "QObject",
+  "source": "Any unrecovered files risk being permantently overwritten by continued computer use.",
+  "comment": "",
+  "translation": "任何未恢复的文件都可能因继续使用电脑而被永久覆盖。"
+ },
+ {
+  "context": "QObject",
+  "source": "ApowerRecover",
+  "comment": "",
+  "translation": "ApowerRecover"
+ },
+ {
+  "context": "QObject",
+  "source": "As a worldwide renowned professional software developer, EaseUS always takes the responsibility for better serving great users to protect their data security as its mission and never stops moving forward on the path of solving troublesome data cases over 160 countries and areas.",
+  "comment": "",
+  "translation": "来橙科技作为世界知名的软件技术开发商，一直以保护用户的数据安全为己任，为全球160多个国家与地区的用户解决了数据安全问题。"
+ },
+ {
+  "context": "QObject",
+  "source": "Ascending",
+  "comment": "",
+  "translation": "升序"
+ },
+ {
+  "context": "QObject",
+  "source": "Audio",
+  "comment": "",
+  "translation": "音频"
+ },
+ {
+  "context": "QObject",
+  "source": "Audios",
+  "comment": "",
+  "translation": "音频"
+ },
+ {
+  "context": "QObject",
+  "source": "Auto Recover settings",
+  "comment": "",
+  "translation": "自动恢复设置"
+ },
+ {
+  "context": "QObject",
+  "source": "Auto-Activation Successful",
+  "comment": "",
+  "translation": "自动激活成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Auto-Recover OFF!",
+  "comment": "",
+  "translation": "自动恢复已关闭！"
+ },
+ {
+  "context": "QObject",
+  "source": "Auto-Recover after Advanced Scan Completed",
+  "comment": "",
+  "translation": "高级扫描完成后，自动恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Auto-recover",
+  "comment": "",
+  "translation": "自动功能"
+ },
+ {
+  "context": "QObject",
+  "source": "Automatic activation failed after payment.",
+  "comment": "",
+  "translation": "付款后，自动激活失败。"
+ },
+ {
+  "context": "QObject",
+  "source": "Automatically Activating",
+  "comment": "",
+  "translation": "自动激活中"
+ },
+ {
+  "context": "QObject",
+  "source": "Automatically Decrypting",
+  "comment": "",
+  "translation": "正在自动解密"
+ },
+ {
+  "context": "QObject",
+  "source": "Available after full scan",
+  "comment": "",
+  "translation": "完整扫描完成后可用"
+ },
+ {
+  "context": "QObject",
+  "source": "Available automatically once the 100% full scan is complete.",
+  "comment": "",
+  "translation": "100% 完整扫描完成后自动启用。"
+ },
+ {
+  "context": "QObject",
+  "source": "Average",
+  "comment": "",
+  "translation": "一般"
+ },
+ {
+  "context": "QObject",
+  "source": "B",
+  "comment": "",
+  "translation": "B"
+ },
+ {
+  "context": "QObject",
+  "source": "Back",
+  "comment": "",
+  "translation": "返回"
+ },
+ {
+  "context": "QObject",
+  "source": "Before auto-recovery, you may also",
+  "comment": "",
+  "translation": "开始自动恢复前，您仍可以"
+ },
+ {
+  "context": "QObject",
+  "source": "Being repaired by EaseUS as original file was accidentally damaged.",
+  "comment": "",
+  "translation": "源文件误损坏，正在努力为您修复中"
+ },
+ {
+  "context": "QObject",
+  "source": "Below are files failed to be recovered:",
+  "comment": "",
+  "translation": "以下是恢复失败的文件："
+ },
+ {
+  "context": "QObject",
+  "source": "Bitlocker",
+  "comment": "",
+  "translation": "BitLocker"
+ },
+ {
+  "context": "QObject",
+  "source": "Bitlocker Automatically Decrypt Failed",
+  "comment": "",
+  "translation": "BitLocker 自动解密失败"
+ },
+ {
+  "context": "QObject",
+  "source": "Bitlocker key",
+  "comment": "",
+  "translation": "BitLocker 密钥"
+ },
+ {
+  "context": "QObject",
+  "source": "Blue/Black Screen of Death",
+  "comment": "",
+  "translation": "死机蓝屏/黑屏"
+ },
+ {
+  "context": "QObject",
+  "source": "Boot Failure",
+  "comment": "",
+  "translation": "电脑无法启动"
+ },
+ {
+  "context": "QObject",
+  "source": "Boot up crashed system",
+  "comment": "",
+  "translation": "启动崩溃的系统"
+ },
+ {
+  "context": "QObject",
+  "source": "Browse",
+  "comment": "",
+  "translation": "浏览"
+ },
+ {
+  "context": "QObject",
+  "source": "Browse For Folder",
+  "comment": "",
+  "translation": "浏览文件夹"
+ },
+ {
+  "context": "QObject",
+  "source": "Browse...",
+  "comment": "",
+  "translation": "浏览..."
+ },
+ {
+  "context": "QObject",
+  "source": "But this file is likely recoverable based on its structure.",
+  "comment": "",
+  "translation": "但此文件结构完整，很可能可恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "Buy A License Now",
+  "comment": "",
+  "translation": "立即购买激活码"
+ },
+ {
+  "context": "QObject",
+  "source": "Buy Now",
+  "comment": "",
+  "translation": "立即购买"
+ },
+ {
+  "context": "QObject",
+  "source": "By file path",
+  "comment": "",
+  "translation": "按文件路径"
+ },
+ {
+  "context": "QObject",
+  "source": "By file type",
+  "comment": "",
+  "translation": "按文件类型"
+ },
+ {
+  "context": "QObject",
+  "source": "Can't find location?",
+  "comment": "",
+  "translation": "找不到扫描位置?"
+ },
+ {
+  "context": "QObject",
+  "source": "Can't fix Windows automatic repair loop",
+  "comment": "",
+  "translation": "Windows一直在自动循坏修复"
+ },
+ {
+  "context": "QObject",
+  "source": "Cancel",
+  "comment": "",
+  "translation": "取消"
+ },
+ {
+  "context": "QObject",
+  "source": "Cancel Connecting",
+  "comment": "",
+  "translation": "取消连接"
+ },
+ {
+  "context": "QObject",
+  "source": "Cancel Creating",
+  "comment": "",
+  "translation": "取消创建"
+ },
+ {
+  "context": "QObject",
+  "source": "Cancel Searching",
+  "comment": "",
+  "translation": "取消查找"
+ },
+ {
+  "context": "QObject",
+  "source": "Canon",
+  "comment": "",
+  "translation": "佳能"
+ },
+ {
+  "context": "QObject",
+  "source": "Change",
+  "comment": "",
+  "translation": "切换"
+ },
+ {
+  "context": "QObject",
+  "source": "Change Location 1",
+  "comment": "",
+  "translation": "更换位置"
+ },
+ {
+  "context": "QObject",
+  "source": "Change Scan",
+  "comment": "",
+  "translation": "切换扫描位置"
+ },
+ {
+  "context": "QObject",
+  "source": "Change Scan Location",
+  "comment": "",
+  "translation": "正在切换扫描位置"
+ },
+ {
+  "context": "QObject",
+  "source": "Change Settings >>",
+  "comment": "",
+  "translation": "更改设置 >>"
+ },
+ {
+  "context": "QObject",
+  "source": "Chat",
+  "comment": "",
+  "translation": "咨询"
+ },
+ {
+  "context": "QObject",
+  "source": "Chat with us",
+  "comment": "",
+  "translation": "与我们聊天"
+ },
+ {
+  "context": "QObject",
+  "source": "Check 'Allow SSH connection'",
+  "comment": "",
+  "translation": "勾选“允许SSH连接”"
+ },
+ {
+  "context": "QObject",
+  "source": "Check 'Enable SSH service' box",
+  "comment": "",
+  "translation": "勾选“启动SSH功能”"
+ },
+ {
+  "context": "QObject",
+  "source": "Check Disk Management Myself",
+  "comment": "",
+  "translation": "自己检查磁盘管理"
+ },
+ {
+  "context": "QObject",
+  "source": "Check Update Failed",
+  "comment": "",
+  "translation": "检查更新失败"
+ },
+ {
+  "context": "QObject",
+  "source": "Check and recover found data right now.",
+  "comment": "",
+  "translation": "立即查看并恢复已找到的数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Check disk before recovery.",
+  "comment": "",
+  "translation": "恢复前请检查磁盘。"
+ },
+ {
+  "context": "QObject",
+  "source": "Check for Updates",
+  "comment": "",
+  "translation": "检查更新"
+ },
+ {
+  "context": "QObject",
+  "source": "Check network and make sure NAS is on. Then try again.",
+  "comment": "",
+  "translation": "检查网络连接，并确保网络服务器处于开关状态。"
+ },
+ {
+  "context": "QObject",
+  "source": "Check your network and try again.",
+  "comment": "",
+  "translation": "请检查网络连接后再重试。"
+ },
+ {
+  "context": "QObject",
+  "source": "Check your network to make sure the %1 server is accessible and then retry.",
+  "comment": "",
+  "translation": "请检查网络，确保 %1 服务器可访问，然后重试。"
+ },
+ {
+  "context": "QObject",
+  "source": "Check your network to make sure the NAS server is accessible and then retry.",
+  "comment": "",
+  "translation": "检查网络连接，确保NAS可访问，再重试。"
+ },
+ {
+  "context": "QObject",
+  "source": "Checking Update",
+  "comment": "",
+  "translation": "检查更新中"
+ },
+ {
+  "context": "QObject",
+  "source": "Click 'Control Panel'",
+  "comment": "",
+  "translation": "点击“控制面板”"
+ },
+ {
+  "context": "QObject",
+  "source": "Click 'Control Panel' on target nas server",
+  "comment": "",
+  "translation": "在目标NAS上，点击“控制面板”"
+ },
+ {
+  "context": "QObject",
+  "source": "Click to try again",
+  "comment": "",
+  "translation": "点击重试"
+ },
+ {
+  "context": "QObject",
+  "source": "Close",
+  "comment": "",
+  "translation": "关闭"
+ },
+ {
+  "context": "QObject",
+  "source": "Common Solutions >>",
+  "comment": "",
+  "translation": "常见解决方案 >>"
+ },
+ {
+  "context": "QObject",
+  "source": "Completed",
+  "comment": "",
+  "translation": "已完成"
+ },
+ {
+  "context": "QObject",
+  "source": "Confirm",
+  "comment": "",
+  "translation": "确认"
+ },
+ {
+  "context": "QObject",
+  "source": "Congrats, Auto-Recover Enabled!",
+  "comment": "",
+  "translation": "恭喜您，自动恢复已开启！"
+ },
+ {
+  "context": "QObject",
+  "source": "Congrats, your auto data recovery completed!",
+  "comment": "",
+  "translation": "恭喜您，自动恢复已完成！"
+ },
+ {
+  "context": "QObject",
+  "source": "Congratulations! You have successfully unlocked full version.",
+  "comment": "",
+  "translation": "恭喜！您已经成功解锁完整版。"
+ },
+ {
+  "context": "QObject",
+  "source": "Congratulations! You have successfully upgraded to unlimited recovery.",
+  "comment": "",
+  "translation": "恭喜！您已经成功升级，可享受无限量恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "Congratulations! Your data had been successfully saved by Auto-Recover on %1/%2/%3. Go and check your valuable data right now.",
+  "comment": "",
+  "translation": "恭喜！您于%1/%2/%3执行的数据已自动恢复完成。赶快去如下保存的路径查看您宝贵的数据吧！"
+ },
+ {
+  "context": "QObject",
+  "source": "Congratulations! Your host has been successfully restored. Restart program and try to activate again.",
+  "comment": "",
+  "translation": "恭喜！已经成功还原hosts设置。重启程序去尝试激活吧！"
+ },
+ {
+  "context": "QObject",
+  "source": "Connect Manually",
+  "comment": "",
+  "translation": "手动连接"
+ },
+ {
+  "context": "QObject",
+  "source": "Connect Now",
+  "comment": "",
+  "translation": "立即连接"
+ },
+ {
+  "context": "QObject",
+  "source": "Connect Your Memory Card to Recover Lost Photos & Videos",
+  "comment": "",
+  "translation": "连接存储卡，恢复丢失的照片和视频"
+ },
+ {
+  "context": "QObject",
+  "source": "Connect to Linux...",
+  "comment": "",
+  "translation": "连接到Linux..."
+ },
+ {
+  "context": "QObject",
+  "source": "Connect to nas server...",
+  "comment": "",
+  "translation": "连接到NAS服务器"
+ },
+ {
+  "context": "QObject",
+  "source": "Connect your SD card to PC/Laptop with a card reader to recover the deleted, formatted and other lost photos and vidoes from cameras, UAV, dash cams and monitors, etc.",
+  "comment": "",
+  "translation": "通过读卡器，将SD卡连接到台式机/笔记本电脑，恢复相机、无人机、行车记录和监控器等设备中，删除、格式化或其他丢失的图片和视频。"
+ },
+ {
+  "context": "QObject",
+  "source": "Connect your drive to the USB port on the back of computer.",
+  "comment": "",
+  "translation": "换到电脑背后的USB接口来连接您的硬盘。"
+ },
+ {
+  "context": "QObject",
+  "source": "Connect your drive with another USB cable or insert it to another card reader.",
+  "comment": "",
+  "translation": "换根USB连接线或读卡器来连接设备。"
+ },
+ {
+  "context": "QObject",
+  "source": "Connected",
+  "comment": "",
+  "translation": "已连接"
+ },
+ {
+  "context": "QObject",
+  "source": "Connection canceled. ",
+  "comment": "",
+  "translation": "连接已取消"
+ },
+ {
+  "context": "QObject",
+  "source": "Connection failed, please check your network and retry.",
+  "comment": "",
+  "translation": "连接失败，检查网络连接再重试。"
+ },
+ {
+  "context": "QObject",
+  "source": "Connection failed, please check your network and retry. ",
+  "comment": "",
+  "translation": "连接失败，检查网络连接再重试。"
+ },
+ {
+  "context": "QObject",
+  "source": "Contact EaseUS",
+  "comment": "",
+  "translation": "联系EaseUS"
+ },
+ {
+  "context": "QObject",
+  "source": "Contact EaseUS support",
+  "comment": "",
+  "translation": "联系我们的客服，"
+ },
+ {
+  "context": "QObject",
+  "source": "Contact Support",
+  "comment": "",
+  "translation": "联系技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Contact Technical Support",
+  "comment": "",
+  "translation": "联系技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Contact support",
+  "comment": "",
+  "translation": "联系技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Continue last scanning",
+  "comment": "",
+  "translation": "继续上一次扫描"
+ },
+ {
+  "context": "QObject",
+  "source": "Continue recovering",
+  "comment": "",
+  "translation": "继续恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Correct source device contributes to the targeted and precise recovery, significantly improving the recovery quality",
+  "comment": "",
+  "translation": "选择正确的源设备，可进行针对性的精准恢复，显著提升恢复质量"
+ },
+ {
+  "context": "QObject",
+  "source": "Corrupted Repair",
+  "comment": "",
+  "translation": "破损文件修复"
+ },
+ {
+  "context": "QObject",
+  "source": "Crashed PC Recovery",
+  "comment": "",
+  "translation": "系统崩溃数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Create",
+  "comment": "",
+  "translation": "创建"
+ },
+ {
+  "context": "QObject",
+  "source": "Create a bootable drive to boot up system for data recovery",
+  "comment": "",
+  "translation": "创建启动盘，启动系统恢复数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Create a password and click 'OK'",
+  "comment": "",
+  "translation": "创建密码并点击“确认”"
+ },
+ {
+  "context": "QObject",
+  "source": "Create bootable drive",
+  "comment": "",
+  "translation": "创建启动盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Create to Recover Now",
+  "comment": "",
+  "translation": "立即创建去恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Creating Bootable Drive unavailable.",
+  "comment": "",
+  "translation": "创建启动盘功能不可用。"
+ },
+ {
+  "context": "QObject",
+  "source": "Creating bootable drive...",
+  "comment": "",
+  "translation": "创建启动盘中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Creation Failed",
+  "comment": "",
+  "translation": "创建失败"
+ },
+ {
+  "context": "QObject",
+  "source": "Current scan may fail to be resumed if you change.",
+  "comment": "",
+  "translation": "切换扫描位置可能无法继续当前的扫描"
+ },
+ {
+  "context": "QObject",
+  "source": "Custom",
+  "comment": "",
+  "translation": "自定义"
+ },
+ {
+  "context": "QObject",
+  "source": "DJI",
+  "comment": "",
+  "translation": "大疆"
+ },
+ {
+  "context": "QObject",
+  "source": "Data Recovery",
+  "comment": "",
+  "translation": "数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Data might be %1 and %2 if you save files to original drive (where you lost data). %3",
+  "comment": "",
+  "translation": "保存可能会导致数据被%1，%2。建议更换目标位置，将数据恢复至其它不同的磁盘或分区。%3"
+ },
+ {
+  "context": "QObject",
+  "source": "Data might be LOST PERMANENTLY if not recover now.",
+  "comment": "",
+  "translation": "如果不立即恢复，数据有可能会永久性丢失。"
+ },
+ {
+  "context": "QObject",
+  "source": "Date Modified",
+  "comment": "",
+  "translation": "修改日期"
+ },
+ {
+  "context": "QObject",
+  "source": "Date:",
+  "comment": "",
+  "translation": "日期："
+ },
+ {
+  "context": "QObject",
+  "source": "Dear Valued User,",
+  "comment": "",
+  "translation": "尊敬的用户，"
+ },
+ {
+  "context": "QObject",
+  "source": "Decrypt",
+  "comment": "",
+  "translation": "解密"
+ },
+ {
+  "context": "QObject",
+  "source": "Decrypt with Bitlocker Key",
+  "comment": "",
+  "translation": "用 BitLocker 密钥解密"
+ },
+ {
+  "context": "QObject",
+  "source": "Deep Video Reconstruct",
+  "comment": "",
+  "translation": "深度视频重建"
+ },
+ {
+  "context": "QObject",
+  "source": "Deleted",
+  "comment": "",
+  "translation": "删除的"
+ },
+ {
+  "context": "QObject",
+  "source": "Deleted Files",
+  "comment": "",
+  "translation": "删除文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Descending",
+  "comment": "",
+  "translation": "降序"
+ },
+ {
+  "context": "QObject",
+  "source": "Desktop",
+  "comment": "",
+  "translation": "桌面"
+ },
+ {
+  "context": "QObject",
+  "source": "Details",
+  "comment": "",
+  "translation": "详细信息"
+ },
+ {
+  "context": "QObject",
+  "source": "Device didn't show up",
+  "comment": "",
+  "translation": "设备识别"
+ },
+ {
+  "context": "QObject",
+  "source": "Device from",
+  "comment": "",
+  "translation": "源设备"
+ },
+ {
+  "context": "QObject",
+  "source": "Devices",
+  "comment": "",
+  "translation": "设备"
+ },
+ {
+  "context": "QObject",
+  "source": "Directory Intact",
+  "comment": "",
+  "translation": "目录信息完整的"
+ },
+ {
+  "context": "QObject",
+  "source": "Disable",
+  "comment": "",
+  "translation": "禁用"
+ },
+ {
+  "context": "QObject",
+  "source": "Disable My Auto-Recover Plan",
+  "comment": "",
+  "translation": "关闭我的自动恢复计划"
+ },
+ {
+  "context": "QObject",
+  "source": "Disconnect",
+  "comment": "",
+  "translation": "断开"
+ },
+ {
+  "context": "QObject",
+  "source": "Disconnect with Linux",
+  "comment": "",
+  "translation": "与 Linux 断开连接"
+ },
+ {
+  "context": "QObject",
+  "source": "Disconnect with NAS",
+  "comment": "",
+  "translation": "NAS连接断开"
+ },
+ {
+  "context": "QObject",
+  "source": "Disconnected",
+  "comment": "",
+  "translation": "断开连接"
+ },
+ {
+  "context": "QObject",
+  "source": "Disk %1",
+  "comment": "",
+  "translation": "磁盘 %1"
+ },
+ {
+  "context": "QObject",
+  "source": "Disk Health",
+  "comment": "",
+  "translation": "磁盘健康状态"
+ },
+ {
+  "context": "QObject",
+  "source": "Disk failure or other physical issues",
+  "comment": "",
+  "translation": "磁盘故障或其他硬件问题"
+ },
+ {
+  "context": "QObject",
+  "source": "Disks and Partitions",
+  "comment": "",
+  "translation": "磁盘和分区"
+ },
+ {
+  "context": "QObject",
+  "source": "Documents",
+  "comment": "",
+  "translation": "文档"
+ },
+ {
+  "context": "QObject",
+  "source": "Don't have a license?",
+  "comment": "",
+  "translation": "还没有激活码？"
+ },
+ {
+  "context": "QObject",
+  "source": "Don't recover any more",
+  "comment": "",
+  "translation": "不再恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Don't remind me again",
+  "comment": "",
+  "translation": "不再提醒我"
+ },
+ {
+  "context": "QObject",
+  "source": "Don't show this again",
+  "comment": "",
+  "translation": "不再显示此内容"
+ },
+ {
+  "context": "QObject",
+  "source": "Download Failed",
+  "comment": "",
+  "translation": "下载失败"
+ },
+ {
+  "context": "QObject",
+  "source": "Download Offline",
+  "comment": "",
+  "translation": "离线下载"
+ },
+ {
+  "context": "QObject",
+  "source": "Download failed. Please download offline and then copy it to",
+  "comment": "",
+  "translation": "下载失败。请离线下载后拷贝到"
+ },
+ {
+  "context": "QObject",
+  "source": "Downloading essential components...",
+  "comment": "",
+  "translation": "下载组件中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Downloading essential module...",
+  "comment": "",
+  "translation": "正在下载必需模块..."
+ },
+ {
+  "context": "QObject",
+  "source": "Drive ",
+  "comment": "",
+  "translation": "磁盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Drive Disconnected",
+  "comment": "",
+  "translation": "磁盘断开"
+ },
+ {
+  "context": "QObject",
+  "source": "Drive Not Show Up",
+  "comment": "",
+  "translation": "磁盘没有列出来"
+ },
+ {
+  "context": "QObject",
+  "source": "Drive disconnected",
+  "comment": "",
+  "translation": "磁盘断开"
+ },
+ {
+  "context": "QObject",
+  "source": "Drive not show up",
+  "comment": "",
+  "translation": "磁盘没有列出来"
+ },
+ {
+  "context": "QObject",
+  "source": "Due to techinical limitation, Windows 8.1/8/7 or previous are not supported for Linux.",
+  "comment": "",
+  "translation": "由于技术限制，Windows8.1/8/7及以下的操作系统暂不支持Linux数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Due to techinical limitation, Windows 8.1/8/7 or previous are not supported for nas recovery.",
+  "comment": "",
+  "translation": "由于技术限制，Windows8.1/8/7及以下的操作系统暂不支持NAS数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Duplicates",
+  "comment": "",
+  "translation": "重复文件"
+ },
+ {
+  "context": "QObject",
+  "source": "EaseUS Data Recovery Wizard",
+  "comment": "",
+  "translation": "来橙数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "EaseUS Data Recovery Wizard has encountered a memory problem and needs to close.\nWe are sorry for the inconvenience.\nYou can enlarge your virtual memory and try again.",
+  "comment": "",
+  "translation": "来橙数据恢复遇到了内存问题需要关闭。\n给您带来的不便，请谅解。\n您可以扩大您的虚拟内存然后重试。"
+ },
+ {
+  "context": "QObject",
+  "source": "EaseUS Manual Recovery Service | Since 2004",
+  "comment": "",
+  "translation": "EaseUS 手工恢复服务 | 创建于 2004"
+ },
+ {
+  "context": "QObject",
+  "source": "EaseUS Todo Backup Free",
+  "comment": "",
+  "translation": "来橙电脑迁移"
+ },
+ {
+  "context": "QObject",
+  "source": "Easy Never Before!",
+  "comment": "",
+  "translation": "超级快捷简单！"
+ },
+ {
+  "context": "QObject",
+  "source": "Email notification(optional)",
+  "comment": "",
+  "translation": "邮件通知（可选)"
+ },
+ {
+  "context": "QObject",
+  "source": "Emails",
+  "comment": "",
+  "translation": "邮件"
+ },
+ {
+  "context": "QObject",
+  "source": "Enable",
+  "comment": "",
+  "translation": "开启"
+ },
+ {
+  "context": "QObject",
+  "source": "Enable My Auto-Recover Plan",
+  "comment": "",
+  "translation": "开启我的自动恢复计划"
+ },
+ {
+  "context": "QObject",
+  "source": "Enable SSH",
+  "comment": "",
+  "translation": "开启SSH"
+ },
+ {
+  "context": "QObject",
+  "source": "Enable SSH or check port on nas server",
+  "comment": "",
+  "translation": "在NAS上，开启SSH服务或查看端口号"
+ },
+ {
+  "context": "QObject",
+  "source": "Enabling SSH service is required for remote access. You may DISABLE it once recovery is completed.",
+  "comment": "",
+  "translation": "只有开启SSH服务后，才能实现远程访问。数据恢复完成后，您即可关闭SSH服务。"
+ },
+ {
+  "context": "QObject",
+  "source": "Enjoy extra %1 recovery for free.",
+  "comment": "",
+  "translation": "您即可额外免费恢复%1数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Enter Key",
+  "comment": "",
+  "translation": "输入密钥"
+ },
+ {
+  "context": "QObject",
+  "source": "Enter License",
+  "comment": "",
+  "translation": "输入激活码"
+ },
+ {
+  "context": "QObject",
+  "source": "Enter license code \"XXXXX-XXXXX-XXXXX-XXXXX-XXXXX\" here.",
+  "comment": "",
+  "translation": "已有激活码，可在此输入。激活码格式如：\"XXXXX-XXXXX-XXXXX-XXXXX-XXXXX\""
+ },
+ {
+  "context": "QObject",
+  "source": "Enter the file type suffix, such as *.doc; *.xlsx; *.ppt",
+  "comment": "",
+  "translation": "例如：*.doc; *.xlsx; *.ppt"
+ },
+ {
+  "context": "QObject",
+  "source": "Enter user with root permission to start connecting",
+  "comment": "",
+  "translation": "输入具有Root权限的账号进行连接"
+ },
+ {
+  "context": "QObject",
+  "source": "Enter your verification code in the box below on this computer. Then click 'Activate Now' button.",
+  "comment": "",
+  "translation": "在下面的输入框中输入您的验证码，再点击“立即激活”按钮。"
+ },
+ {
+  "context": "QObject",
+  "source": "Estimated Time for Advanced Scan:",
+  "comment": "",
+  "translation": "高级扫描预计还需："
+ },
+ {
+  "context": "QObject",
+  "source": "Exceed max size: 100 MB",
+  "comment": "",
+  "translation": "预览最大支持：100 MB"
+ },
+ {
+  "context": "QObject",
+  "source": "Existing",
+  "comment": "",
+  "translation": "存在的"
+ },
+ {
+  "context": "QObject",
+  "source": "Existing Files",
+  "comment": "",
+  "translation": "存在文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Exit",
+  "comment": "",
+  "translation": "退出"
+ },
+ {
+  "context": "QObject",
+  "source": "Expired",
+  "comment": "",
+  "translation": "过期的"
+ },
+ {
+  "context": "QObject",
+  "source": "Expired license code.",
+  "comment": "",
+  "translation": "许可码已过期。"
+ },
+ {
+  "context": "QObject",
+  "source": "Expired on %1",
+  "comment": "",
+  "translation": "%1已过期"
+ },
+ {
+  "context": "QObject",
+  "source": "External drives (%1)",
+  "comment": "",
+  "translation": "外置盘（%1）"
+ },
+ {
+  "context": "QObject",
+  "source": "Facebook",
+  "comment": "",
+  "translation": "Facebook"
+ },
+ {
+  "context": "QObject",
+  "source": "Fail to boot computer after unexpeceted updates or unknown reasons",
+  "comment": "",
+  "translation": "因意外更新或未知原因，导致电脑无法启动"
+ },
+ {
+  "context": "QObject",
+  "source": "Failed:",
+  "comment": "",
+  "translation": "失败："
+ },
+ {
+  "context": "QObject",
+  "source": "Faster Recovery",
+  "comment": "",
+  "translation": "快速恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Feedback",
+  "comment": "",
+  "translation": "反馈"
+ },
+ {
+  "context": "QObject",
+  "source": "File Name Lost",
+  "comment": "",
+  "translation": "文件名丢失的"
+ },
+ {
+  "context": "QObject",
+  "source": "File Path Lost",
+  "comment": "",
+  "translation": "文件路径丢失的"
+ },
+ {
+  "context": "QObject",
+  "source": "File Size",
+  "comment": "",
+  "translation": "文件大小"
+ },
+ {
+  "context": "QObject",
+  "source": "File System",
+  "comment": "",
+  "translation": "文件系统"
+ },
+ {
+  "context": "QObject",
+  "source": "File Type",
+  "comment": "",
+  "translation": "文件类型"
+ },
+ {
+  "context": "QObject",
+  "source": "File name or some directory might be lost. Try to find files in this way.",
+  "comment": "",
+  "translation": "这可能是文件名或部分目录信息丢失了。您可以试试这样找文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Files Lost Location",
+  "comment": "",
+  "translation": "丢失路径的文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Files Lost Name",
+  "comment": "",
+  "translation": "丢失文件名的文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Files we found with Advanced Scan, but the file path was fully or partially missing. Although the file path is incomplete, it's possible that they are the lost files you want to recover.",
+  "comment": "",
+  "translation": "我们通过高级扫描找到的文件,他们的文件路径部分或全部丢失了。虽然文件路径不完整，但它们可能正是你想要恢复的文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Files we found with Advanced Scan, but the filename was missing. Although they don't have file names, it's possible that they are the lost files you want to recover.",
+  "comment": "",
+  "translation": "我们通过高级扫描找到的文件，但文件名丢失了。虽然没有文件名，但有可能它们正是你想要恢复的丢失文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Files with Extracted Tags",
+  "comment": "",
+  "translation": "提取到标签的文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Filter",
+  "comment": "",
+  "translation": "筛选"
+ },
+ {
+  "context": "QObject",
+  "source": "Filter your desired files by file type, size and date modified, etc.",
+  "comment": "",
+  "translation": "通过文件类型、大小、修改时间等维度，筛选您想要的文件；"
+ },
+ {
+  "context": "QObject",
+  "source": "Filtered nothing...",
+  "comment": "",
+  "translation": "未过滤到文件..."
+ },
+ {
+  "context": "QObject",
+  "source": "Filtering",
+  "comment": "",
+  "translation": "正在过滤"
+ },
+ {
+  "context": "QObject",
+  "source": "Filters duplicates to show only the single best file per area.",
+  "comment": "",
+  "translation": "过滤重复项，每类仅显示最佳的一个文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Finish",
+  "comment": "",
+  "translation": "完成"
+ },
+ {
+  "context": "QObject",
+  "source": "Fix SD card access",
+  "comment": "",
+  "translation": "修复SD卡访问"
+ },
+ {
+  "context": "QObject",
+  "source": "Fix damaged or unreadable files.",
+  "comment": "",
+  "translation": "修复损坏或无法读取的文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Follow us",
+  "comment": "",
+  "translation": "关注公众号"
+ },
+ {
+  "context": "QObject",
+  "source": "Formatting will erase all data save in USB drive. Please back up important data before creating.",
+  "comment": "",
+  "translation": "格式化将抹除U盘的所有数据。请先备份重要的数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Found:",
+  "comment": "",
+  "translation": "共找到文件："
+ },
+ {
+  "context": "QObject",
+  "source": "Found: %1 files, %2",
+  "comment": "",
+  "translation": "找到：%1个文件，%2"
+ },
+ {
+  "context": "QObject",
+  "source": "Found: %1 files, %2  |  Scanned: %3",
+  "comment": "",
+  "translation": "找到：%1个文件，%2 | 已扫描：%3"
+ },
+ {
+  "context": "QObject",
+  "source": "Free",
+  "comment": "",
+  "translation": "免费版"
+ },
+ {
+  "context": "QObject",
+  "source": "Free Online Video Repair",
+  "comment": "",
+  "translation": "免费在线视频修复"
+ },
+ {
+  "context": "QObject",
+  "source": "Free Tech Support",
+  "comment": "",
+  "translation": "免费技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Free version recovers up to %1 data.",
+  "comment": "",
+  "translation": "您正在使用的免费版最多只能免费恢复%1数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Fujifilm",
+  "comment": "",
+  "translation": "富士"
+ },
+ {
+  "context": "QObject",
+  "source": "Full",
+  "comment": "",
+  "translation": "完整"
+ },
+ {
+  "context": "QObject",
+  "source": "Full Preview",
+  "comment": "",
+  "translation": "完整预览"
+ },
+ {
+  "context": "QObject",
+  "source": "Further Assistance",
+  "comment": "",
+  "translation": "更多帮助"
+ },
+ {
+  "context": "QObject",
+  "source": "GB",
+  "comment": "",
+  "translation": "GB"
+ },
+ {
+  "context": "QObject",
+  "source": "Get Help",
+  "comment": "",
+  "translation": "获取帮助"
+ },
+ {
+  "context": "QObject",
+  "source": "Get Pro Version to Recover Files without Any Limit!",
+  "comment": "",
+  "translation": "获取VIP，享用无限制恢复！"
+ },
+ {
+  "context": "QObject",
+  "source": "Get Pro to Enjoy Unlimited Recovery",
+  "comment": "",
+  "translation": "获取专业版，畅享无限制恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Give Up",
+  "comment": "",
+  "translation": "狠心放弃"
+ },
+ {
+  "context": "QObject",
+  "source": "Give us feedback",
+  "comment": "",
+  "translation": "反馈给我们"
+ },
+ {
+  "context": "QObject",
+  "source": "Go to Recover",
+  "comment": "",
+  "translation": "立即去恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "GoPro",
+  "comment": "",
+  "translation": "GoPro"
+ },
+ {
+  "context": "QObject",
+  "source": "Good News! Partition Recoverable",
+  "comment": "",
+  "translation": "好消息！分区可恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Good news - some files are recoverable, you can try recovery or scan deeper.",
+  "comment": "",
+  "translation": "好消息——部分文件可恢复，您可尝试恢复或进行深度扫描。"
+ },
+ {
+  "context": "QObject",
+  "source": "Got it",
+  "comment": "",
+  "translation": "知道了"
+ },
+ {
+  "context": "QObject",
+  "source": "Great news - many files are highly recoverable, start recovery now.",
+  "comment": "",
+  "translation": "好消息——大量文件高度可恢复，立即开始恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "Great news:",
+  "comment": "",
+  "translation": "好消息："
+ },
+ {
+  "context": "QObject",
+  "source": "Great news: Your files are highly recoverable",
+  "comment": "",
+  "translation": "好消息：您的文件极有可能被恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Group by modified date",
+  "comment": "",
+  "translation": "按修改日期分组"
+ },
+ {
+  "context": "QObject",
+  "source": "Group by tag",
+  "comment": "",
+  "translation": "按标签分组"
+ },
+ {
+  "context": "QObject",
+  "source": "Group by type",
+  "comment": "",
+  "translation": "按类型分组"
+ },
+ {
+  "context": "QObject",
+  "source": "Hard Disk Drivers",
+  "comment": "",
+  "translation": "硬盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Help",
+  "comment": "",
+  "translation": "帮助"
+ },
+ {
+  "context": "QObject",
+  "source": "Here are some files whose original name cannot be found, but are more likely to be your desired data.",
+  "comment": "",
+  "translation": "这些是原始名无法找到的文件，但是更有可能是您要找的目标文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Hide 0KB Files",
+  "comment": "",
+  "translation": "隐藏0KB文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Hide Browser Cache",
+  "comment": "",
+  "translation": "隐藏浏览器缓存"
+ },
+ {
+  "context": "QObject",
+  "source": "Hide System Files",
+  "comment": "",
+  "translation": "隐藏系统文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Hide Temp Files",
+  "comment": "",
+  "translation": "隐藏临时文件"
+ },
+ {
+  "context": "QObject",
+  "source": "High",
+  "comment": "",
+  "translation": "高"
+ },
+ {
+  "context": "QObject",
+  "source": "Highlights files most worth recovering.",
+  "comment": "",
+  "translation": "突出显示最值得恢复的文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Highlights files most worth recpvering.",
+  "comment": "",
+  "translation": "高亮显示最值得恢复的文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Homepage: %1",
+  "comment": "",
+  "translation": "主页：%1"
+ },
+ {
+  "context": "QObject",
+  "source": "Host",
+  "comment": "",
+  "translation": "Hosts"
+ },
+ {
+  "context": "QObject",
+  "source": "How to Restore Myself",
+  "comment": "",
+  "translation": "如何还原"
+ },
+ {
+  "context": "QObject",
+  "source": "How to check whether Windows Disk Management detect my drive/device?",
+  "comment": "",
+  "translation": "如何检查Windows磁盘管理器是否识别到我的设备/分区？"
+ },
+ {
+  "context": "QObject",
+  "source": "How to enable SSH service or view port on my nas server?",
+  "comment": "",
+  "translation": "怎么在我的NAS存储服务器上开启SSH服务或查看端口？"
+ },
+ {
+  "context": "QObject",
+  "source": "How to enter BIOS to set boot order?",
+  "comment": "",
+  "translation": "如何进入BIOS， 设置从USB启动？"
+ },
+ {
+  "context": "QObject",
+  "source": "How to find files if it searched nothing",
+  "comment": "",
+  "translation": "未搜索到文件，怎么办"
+ },
+ {
+  "context": "QObject",
+  "source": "IP",
+  "comment": "",
+  "translation": "IP"
+ },
+ {
+  "context": "QObject",
+  "source": "IP Address/Name",
+  "comment": "",
+  "translation": "IP地址/名称"
+ },
+ {
+  "context": "QObject",
+  "source": "IP Address: ",
+  "comment": "",
+  "translation": "IP地址："
+ },
+ {
+  "context": "QObject",
+  "source": "Icons",
+  "comment": "",
+  "translation": "图标查看"
+ },
+ {
+  "context": "QObject",
+  "source": "If none of the above works, please try another card reader or computer.",
+  "comment": "",
+  "translation": "如果上述方法都没用，可尝试换个读卡器或电脑试试。"
+ },
+ {
+  "context": "QObject",
+  "source": "If the card reader was not detected, please try another USB port or connect it to the back port of mainframe.",
+  "comment": "",
+  "translation": "如果读卡器未被识别，可尝试换个USB接口，或连接到主机背后的接口。"
+ },
+ {
+  "context": "QObject",
+  "source": "If your digital camera didn't show up, take SD card out and insert it into a card reader.",
+  "comment": "",
+  "translation": "如相机未列出来，请将SD卡取出并插到读卡器。"
+ },
+ {
+  "context": "QObject",
+  "source": "In the case of damaged RAID hardware structure or other extreme cases, you may cancel searching and turn to technicians for further assistance.",
+  "comment": "",
+  "translation": "如果RAID硬件结构被破坏或其他极端情况，您可以取消搜索，寻求技术人员的专业支持。"
+ },
+ {
+  "context": "QObject",
+  "source": "In the case of long time searching without response, you may try to mannually connect to your desired nas server for data recovery",
+  "comment": "",
+  "translation": "如果长时间搜索或没有响应，您可以尝试手动连接到NAS服务器恢复数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Incorrect Bitlocker key.",
+  "comment": "",
+  "translation": "BitLocker 密钥错误"
+ },
+ {
+  "context": "QObject",
+  "source": "Incorrect IP",
+  "comment": "",
+  "translation": "IP错误"
+ },
+ {
+  "context": "QObject",
+  "source": "Incorrect IP or port or disabled SSH service",
+  "comment": "",
+  "translation": "SSH连接端口号错误"
+ },
+ {
+  "context": "QObject",
+  "source": "Incorrect IP or port or disabled SSH service. ",
+  "comment": "",
+  "translation": "IP或端口错误或未开启SSH服务。"
+ },
+ {
+  "context": "QObject",
+  "source": "Incorrect password or user",
+  "comment": "",
+  "translation": "用户名或密码错误。"
+ },
+ {
+  "context": "QObject",
+  "source": "Incorrect password or user. ",
+  "comment": "",
+  "translation": "用户名或密码错误。"
+ },
+ {
+  "context": "QObject",
+  "source": "Incorrect port for SSH connection",
+  "comment": "",
+  "translation": "SSH连接端口号错误"
+ },
+ {
+  "context": "QObject",
+  "source": "Install & start SSH service on target Linux",
+  "comment": "",
+  "translation": "请在目标Linux上，安装并启动SSH"
+ },
+ {
+  "context": "QObject",
+  "source": "Instantly restore recoverable lost partitions without waiting for the scan to finish.",
+  "comment": "",
+  "translation": "无需等待扫描完成，立即恢复可恢复的丢失分区。"
+ },
+ {
+  "context": "QObject",
+  "source": "Insufficient permission. Try another account with root permission.",
+  "comment": "",
+  "translation": "权限不足，请使用具有Root权限的账号。"
+ },
+ {
+  "context": "QObject",
+  "source": "Internal drives (%1)",
+  "comment": "",
+  "translation": "内置盘（%1）"
+ },
+ {
+  "context": "QObject",
+  "source": "Invalid license code.",
+  "comment": "",
+  "translation": "无效激活码"
+ },
+ {
+  "context": "QObject",
+  "source": "Invalid mailbox!",
+  "comment": "",
+  "translation": "无效邮箱！"
+ },
+ {
+  "context": "QObject",
+  "source": "Invalid path to Recover",
+  "comment": "",
+  "translation": "保存路径无效"
+ },
+ {
+  "context": "QObject",
+  "source": "Is it secure for me to enabel SSH service?",
+  "comment": "",
+  "translation": "开启SSH服务安全吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "It has been detected that your host settings have been maliciously tampered, resulting in failure to activate. Do you want to restore the settings with one click to activate normally?",
+  "comment": "",
+  "translation": "检测到您的hosts设置已被恶意篡改，导致无法激活。立即还原hosts设置以激活程序？"
+ },
+ {
+  "context": "QObject",
+  "source": "It is another version of the file in the same directory. You can view different versions of the file respectively to help you easily locate your desired data.",
+  "comment": "",
+  "translation": "它是同一目录下文件的其他版本。您可以分别查看不同的版本，以便更轻松的定位到目标文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "It may take a while to filter desired files for you",
+  "comment": "",
+  "translation": "筛选目标文件可能需要一些时间。"
+ },
+ {
+  "context": "QObject",
+  "source": "It may take a while to refresh drive information.",
+  "comment": "",
+  "translation": "刷新磁盘信息可能需要一些时间。"
+ },
+ {
+  "context": "QObject",
+  "source": "Just 3 steps for you to eaily create a bootable drive for data recovery of crashed system",
+  "comment": "",
+  "translation": "只需三步，即可轻松创建启动盘，恢复崩溃系统中的所有数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Just 3 steps to easily recover all data from unbootable computer for any reason.",
+  "comment": "",
+  "translation": "只需三步，即可轻松恢复无法启动的电脑中的所有数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Just connect to your NAS to start recovering",
+  "comment": "",
+  "translation": "一键连接NAS，立即开始恢复数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Just create to boot up crashed computer for data recoery",
+  "comment": "",
+  "translation": "创建启动盘，启动崩溃电脑，即可轻松恢复所有数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Just remotely connect to start recovering, absolutely no labelling pull-out disks",
+  "comment": "",
+  "translation": "直接远程连接恢复数据，不需要拆盘贴标签"
+ },
+ {
+  "context": "QObject",
+  "source": "KB",
+  "comment": "",
+  "translation": "KB"
+ },
+ {
+  "context": "QObject",
+  "source": "Keep Password",
+  "comment": "",
+  "translation": "记住密码"
+ },
+ {
+  "context": "QObject",
+  "source": "Keep Scanning",
+  "comment": "",
+  "translation": "继续扫描"
+ },
+ {
+  "context": "QObject",
+  "source": "LOST PERMANENTLY",
+  "comment": "",
+  "translation": "永久性丢失"
+ },
+ {
+  "context": "QObject",
+  "source": "Language",
+  "comment": "",
+  "translation": "语言"
+ },
+ {
+  "context": "QObject",
+  "source": "Last 1 month",
+  "comment": "",
+  "translation": "最近一个月"
+ },
+ {
+  "context": "QObject",
+  "source": "Last 7 days",
+  "comment": "",
+  "translation": "最近7天"
+ },
+ {
+  "context": "QObject",
+  "source": "Later",
+  "comment": "",
+  "translation": "稍后再说"
+ },
+ {
+  "context": "QObject",
+  "source": "Learn More",
+  "comment": "",
+  "translation": "了解更多"
+ },
+ {
+  "context": "QObject",
+  "source": "Learn more",
+  "comment": "",
+  "translation": "了解更多"
+ },
+ {
+  "context": "QObject",
+  "source": "License code:",
+  "comment": "",
+  "translation": "激活码："
+ },
+ {
+  "context": "QObject",
+  "source": "Lifetime",
+  "comment": "",
+  "translation": "终身"
+ },
+ {
+  "context": "QObject",
+  "source": "Limited recovery",
+  "comment": "",
+  "translation": "有限恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Linux",
+  "comment": "",
+  "translation": "Linux"
+ },
+ {
+  "context": "QObject",
+  "source": "Linux Recovery",
+  "comment": "",
+  "translation": "Linux数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Live Chat",
+  "comment": "",
+  "translation": "在线咨询"
+ },
+ {
+  "context": "QObject",
+  "source": "Load",
+  "comment": "",
+  "translation": "加载"
+ },
+ {
+  "context": "QObject",
+  "source": "Load Driver %1 Success",
+  "comment": "",
+  "translation": "加载驱动器%1成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Load Driver failed,Error Message:%1",
+  "comment": "",
+  "translation": "添加驱动器失败。错误信息：%1"
+ },
+ {
+  "context": "QObject",
+  "source": "Load Failed",
+  "comment": "",
+  "translation": "导入扫描结果失败"
+ },
+ {
+  "context": "QObject",
+  "source": "Load Scan Session",
+  "comment": "",
+  "translation": "导入扫描结果"
+ },
+ {
+  "context": "QObject",
+  "source": "Load Scan Session Successful",
+  "comment": "",
+  "translation": "导入扫描结果成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Load Successful",
+  "comment": "",
+  "translation": "导入扫描结果成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Load last scan session to save your time for rescanning.",
+  "comment": "",
+  "translation": "导入上次扫描结果，节约重新扫描的时间"
+ },
+ {
+  "context": "QObject",
+  "source": "Loading Scan Session",
+  "comment": "",
+  "translation": "导入扫描结果中"
+ },
+ {
+  "context": "QObject",
+  "source": "Loading device information",
+  "comment": "",
+  "translation": "加载设备信息中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Loading, Please wait a moment...",
+  "comment": "",
+  "translation": "加载中，请稍等..."
+ },
+ {
+  "context": "QObject",
+  "source": "Loading...",
+  "comment": "",
+  "translation": "加载中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Local AI | Secure",
+  "comment": "",
+  "translation": "本地 AI｜安全"
+ },
+ {
+  "context": "QObject",
+  "source": "Local Disk",
+  "comment": "",
+  "translation": "本地磁盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Locations",
+  "comment": "",
+  "translation": "位置"
+ },
+ {
+  "context": "QObject",
+  "source": "Locked",
+  "comment": "",
+  "translation": "已锁定"
+ },
+ {
+  "context": "QObject",
+  "source": "Locked license code.",
+  "comment": "",
+  "translation": "许可码已被锁定。"
+ },
+ {
+  "context": "QObject",
+  "source": "Looks good!",
+  "comment": "",
+  "translation": "看起来没问题"
+ },
+ {
+  "context": "QObject",
+  "source": "Losing filenames makes it very difficult to find the files you want to recover. Therefore, we extracted some residual attribute information as \"Tags\" (such as the camera that took the photo, artist of the song, creator of Office document, etc.) to help you locate these files without filename but with some residual attributes.",
+  "comment": "",
+  "translation": "文件名丢失后使得查找想要恢复的文件，变得非常困难。所以我们提取了部分残留的属性信息作为“标签”（比如拍摄照片的相机、歌曲的演唱者、Office文档的创建者等），帮助您更快地定位这部分文件名丢失但部分属性信息仍在的文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Lost",
+  "comment": "",
+  "translation": "丢失的"
+ },
+ {
+  "context": "QObject",
+  "source": "Lost Files",
+  "comment": "",
+  "translation": "丢失文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Lost Files Only",
+  "comment": "",
+  "translation": "仅显示丢失文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Lost Name File",
+  "comment": "",
+  "translation": "丢失文件名的文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Lost Partition",
+  "comment": "",
+  "translation": "丢失的分区"
+ },
+ {
+  "context": "QObject",
+  "source": "Lost key?",
+  "comment": "",
+  "translation": "忘记密钥？"
+ },
+ {
+  "context": "QObject",
+  "source": "Low",
+  "comment": "",
+  "translation": "低"
+ },
+ {
+  "context": "QObject",
+  "source": "MB",
+  "comment": "",
+  "translation": "MB"
+ },
+ {
+  "context": "QObject",
+  "source": "Machine code:",
+  "comment": "",
+  "translation": "机器码"
+ },
+ {
+  "context": "QObject",
+  "source": "Manual-Activation Successful",
+  "comment": "",
+  "translation": "手动激活成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Manufacturer: ",
+  "comment": "",
+  "translation": "制造商："
+ },
+ {
+  "context": "QObject",
+  "source": "Max",
+  "comment": "",
+  "translation": "最大化"
+ },
+ {
+  "context": "QObject",
+  "source": "Meet your recovery assistant. I'm here to help you find, repair, or clean up duplicates.",
+  "comment": "",
+  "translation": "认识您的恢复助手。我将协助您查找、修复或清理重复文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Menu",
+  "comment": "",
+  "translation": "菜单"
+ },
+ {
+  "context": "QObject",
+  "source": "Might be invalid path to save.",
+  "comment": "",
+  "translation": "可能您选择的保存路径无效"
+ },
+ {
+  "context": "QObject",
+  "source": "Min",
+  "comment": "",
+  "translation": "最小化"
+ },
+ {
+  "context": "QObject",
+  "source": "Model: ",
+  "comment": "",
+  "translation": "型号："
+ },
+ {
+  "context": "QObject",
+  "source": "More",
+  "comment": "",
+  "translation": "更多"
+ },
+ {
+  "context": "QObject",
+  "source": "More recovery options",
+  "comment": "",
+  "translation": "更多恢复选项"
+ },
+ {
+  "context": "QObject",
+  "source": "More than 50% of %1 occurs because unrecovered files get overwritten by continued computer use.",
+  "comment": "",
+  "translation": "超过 50% 的 %1 发生原因是未恢复的文件因计算机持续使用而被覆盖。"
+ },
+ {
+  "context": "QObject",
+  "source": "More than 50% of permanent data loss occurs because unrecovered files get overwritten by continued computer use.",
+  "comment": "",
+  "translation": "超过50%的永久性数据丢失，是因为未恢复的文件在继续使用电脑时被覆盖。"
+ },
+ {
+  "context": "QObject",
+  "source": "NAS",
+  "comment": "",
+  "translation": "NAS"
+ },
+ {
+  "context": "QObject",
+  "source": "NAS Connection",
+  "comment": "",
+  "translation": "NAS连接"
+ },
+ {
+  "context": "QObject",
+  "source": "NAS Disconnected",
+  "comment": "",
+  "translation": "网络存储服务器连接断开"
+ },
+ {
+  "context": "QObject",
+  "source": "NAS NOT Detected",
+  "comment": "",
+  "translation": "NAS未识别"
+ },
+ {
+  "context": "QObject",
+  "source": "NAS Recovery",
+  "comment": "",
+  "translation": "NAS数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "NAS Recovery, SUPER Easy",
+  "comment": "",
+  "translation": "NAS恢复，超级容易"
+ },
+ {
+  "context": "QObject",
+  "source": "NAS search from local network failed",
+  "comment": "",
+  "translation": "未能在局域网中找到NAS"
+ },
+ {
+  "context": "QObject",
+  "source": "NAS searching from local network",
+  "comment": "",
+  "translation": "正在局域网中查找NAS"
+ },
+ {
+  "context": "QObject",
+  "source": "NO",
+  "comment": "",
+  "translation": "没有"
+ },
+ {
+  "context": "QObject",
+  "source": "Name",
+  "comment": "",
+  "translation": "名称"
+ },
+ {
+  "context": "QObject",
+  "source": "Network anomaly",
+  "comment": "",
+  "translation": "网络问题"
+ },
+ {
+  "context": "QObject",
+  "source": "Network connection exception, loading failed",
+  "comment": "",
+  "translation": "网络连接异常，加载失败。"
+ },
+ {
+  "context": "QObject",
+  "source": "Network errors or other unexpected cases.",
+  "comment": "",
+  "translation": "网络错误或其他意外情况等"
+ },
+ {
+  "context": "QObject",
+  "source": "Next",
+  "comment": "",
+  "translation": "下一步"
+ },
+ {
+  "context": "QObject",
+  "source": "Nikon",
+  "comment": "",
+  "translation": "尼康"
+ },
+ {
+  "context": "QObject",
+  "source": "No Data Back, No Charge",
+  "comment": "",
+  "translation": "0恢复，0付费"
+ },
+ {
+  "context": "QObject",
+  "source": "No Data, No Charge",
+  "comment": "",
+  "translation": "无数据，不收费"
+ },
+ {
+  "context": "QObject",
+  "source": "No Downtime Required",
+  "comment": "",
+  "translation": "不宕机"
+ },
+ {
+  "context": "QObject",
+  "source": "No Extension",
+  "comment": "",
+  "translation": "无后缀"
+ },
+ {
+  "context": "QObject",
+  "source": "No Pull-Disk Out",
+  "comment": "",
+  "translation": "不拆盘"
+ },
+ {
+  "context": "QObject",
+  "source": "No RAID Reconstruction",
+  "comment": "",
+  "translation": "不重构"
+ },
+ {
+  "context": "QObject",
+  "source": "No auto renewal",
+  "comment": "",
+  "translation": "不自动续订"
+ },
+ {
+  "context": "QObject",
+  "source": "No file limits",
+  "comment": "",
+  "translation": "无文件数量限制"
+ },
+ {
+  "context": "QObject",
+  "source": "No free recovery remaining",
+  "comment": "",
+  "translation": "没有免费可恢复量"
+ },
+ {
+  "context": "QObject",
+  "source": "No.",
+  "comment": "",
+  "translation": "编号"
+ },
+ {
+  "context": "QObject",
+  "source": "None",
+  "comment": "",
+  "translation": "无"
+ },
+ {
+  "context": "QObject",
+  "source": "Normally, a default port is 22 and you may view it from 'Terminal & SNMP' for enabling SSH service.",
+  "comment": "",
+  "translation": "端口一般默认为22，您可以在“终端机和SSH”下开启SSH服务进行查看。"
+ },
+ {
+  "context": "QObject",
+  "source": "Not Enough Space to Recover",
+  "comment": "",
+  "translation": "保存数据空间不足"
+ },
+ {
+  "context": "QObject",
+  "source": "Not sure which drive to scan",
+  "comment": "",
+  "translation": "选择位置"
+ },
+ {
+  "context": "QObject",
+  "source": "Note: Before creating, all the data saved in USB drive will be wiped by formatting.",
+  "comment": "",
+  "translation": "注意：创建启动盘前，将格式化删除U盘上的所有数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Note: Detailed steps are as shown in figure below.",
+  "comment": "",
+  "translation": "注：详细的步骤如下图所示。"
+ },
+ {
+  "context": "QObject",
+  "source": "Note: disk scan may take much longer time but it is the most effective way to retrieve all your valuable data when needed.",
+  "comment": "",
+  "translation": "注意：全盘扫描耗时会相对更长，但必要时，这是恢复您宝贵数据的最有效的方法。"
+ },
+ {
+  "context": "QObject",
+  "source": "Note: if your device was accidentally damaged and couldn't be detected by Windows Disk Management, no any software could be helpful to you in such extreme cases.",
+  "comment": "",
+  "translation": "注意：某些极端情况下，如您的设备意外损坏且无法被Windows磁盘管理识别到，那很遗憾任何软件都无法帮您恢复数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Notification",
+  "comment": "",
+  "translation": "通知"
+ },
+ {
+  "context": "QObject",
+  "source": "Notification for Completed Auto-Recover",
+  "comment": "",
+  "translation": "自动恢复完成通知"
+ },
+ {
+  "context": "QObject",
+  "source": "Number: %1",
+  "comment": "",
+  "translation": "版本号：%1"
+ },
+ {
+  "context": "QObject",
+  "source": "Number: %1 (Build %2)",
+  "comment": "",
+  "translation": "版本号：%1 （创建于 %2）"
+ },
+ {
+  "context": "QObject",
+  "source": "OK",
+  "comment": "",
+  "translation": "确定"
+ },
+ {
+  "context": "QObject",
+  "source": "OVERWRITTEN",
+  "comment": "",
+  "translation": "被覆盖"
+ },
+ {
+  "context": "QObject",
+  "source": "Offline activation failed.",
+  "comment": "",
+  "translation": "离线激活失败。"
+ },
+ {
+  "context": "QObject",
+  "source": "Offline-Activation Successful",
+  "comment": "",
+  "translation": "离线激活成功"
+ },
+ {
+  "context": "QObject",
+  "source": "One-time Purchase",
+  "comment": "",
+  "translation": "一次性购买"
+ },
+ {
+  "context": "QObject",
+  "source": "One-time Purchase - NO SUBSCIPTION",
+  "comment": "",
+  "translation": "一次性购买 - 无需订阅"
+ },
+ {
+  "context": "QObject",
+  "source": "Online Help",
+  "comment": "",
+  "translation": "软件图文教程"
+ },
+ {
+  "context": "QObject",
+  "source": "Open",
+  "comment": "",
+  "translation": "打开"
+ },
+ {
+  "context": "QObject",
+  "source": "Open in Explorer",
+  "comment": "",
+  "translation": "在资源管理器中打开"
+ },
+ {
+  "context": "QObject",
+  "source": "Optional Type",
+  "comment": "",
+  "translation": "选择类型"
+ },
+ {
+  "context": "QObject",
+  "source": "Order",
+  "comment": "",
+  "translation": "排序"
+ },
+ {
+  "context": "QObject",
+  "source": "Organizing Found Files",
+  "comment": "",
+  "translation": "正在整理找到的文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Original",
+  "comment": "",
+  "translation": "修复前"
+ },
+ {
+  "context": "QObject",
+  "source": "Other",
+  "comment": "",
+  "translation": "其他"
+ },
+ {
+  "context": "QObject",
+  "source": "Other Lost Files",
+  "comment": "",
+  "translation": "其他丢失文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Other deleted files",
+  "comment": "",
+  "translation": "其他删除文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Others",
+  "comment": "",
+  "translation": "其他"
+ },
+ {
+  "context": "QObject",
+  "source": "PAPAGO Dash Cam",
+  "comment": "",
+  "translation": "PAPAGO 行车记录仪"
+ },
+ {
+  "context": "QObject",
+  "source": "PC Recovery",
+  "comment": "",
+  "translation": "本机数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "PRO",
+  "comment": "",
+  "translation": "PRO"
+ },
+ {
+  "context": "QObject",
+  "source": "Paid successfully and it may take a while for activation.",
+  "comment": "",
+  "translation": "付费成功，正在激活，请稍等。"
+ },
+ {
+  "context": "QObject",
+  "source": "Partition Recover",
+  "comment": "",
+  "translation": "分区恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Partition Recoverable",
+  "comment": "",
+  "translation": "分区可恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Partition Recovery",
+  "comment": "",
+  "translation": "分区恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Partitions without drive letter and couldn't be listed in Windows Explorer.",
+  "comment": "",
+  "translation": "分区没有盘符且在Windows资源管理器下无法显示。"
+ },
+ {
+  "context": "QObject",
+  "source": "Password",
+  "comment": "",
+  "translation": "密码"
+ },
+ {
+  "context": "QObject",
+  "source": "Password has expired. Please refer to common solutions for how to change password of NAS.",
+  "comment": "",
+  "translation": "密码已过期。查看常见解决方案，了解如何更改NAS密码。"
+ },
+ {
+  "context": "QObject",
+  "source": "Password of Administrator",
+  "comment": "",
+  "translation": "管理员账号的密码"
+ },
+ {
+  "context": "QObject",
+  "source": "Path",
+  "comment": "",
+  "translation": "路径"
+ },
+ {
+  "context": "QObject",
+  "source": "Perparing...",
+  "comment": "",
+  "translation": "准备中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Photos that open",
+  "comment": "",
+  "translation": "可正常打开的照片"
+ },
+ {
+  "context": "QObject",
+  "source": "Pictures",
+  "comment": "",
+  "translation": "图片"
+ },
+ {
+  "context": "QObject",
+  "source": "Pirate license code.",
+  "comment": "",
+  "translation": "盗版许可码"
+ },
+ {
+  "context": "QObject",
+  "source": "Please choose a location to save your data 1",
+  "comment": "",
+  "translation": "请选择一个目标位置来保存您的数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Please connect an external USB drive",
+  "comment": "",
+  "translation": "请连接一个USB外置盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Please follow steps below to activate offline when this computer is disconnected from network.",
+  "comment": "",
+  "translation": "当此台电脑没有网络时，请按如下步骤进行离线激活："
+ },
+ {
+  "context": "QObject",
+  "source": "Please select a USB drive before creating",
+  "comment": "",
+  "translation": "请先选择一个USB外置盘，才能创建启动盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Port",
+  "comment": "",
+  "translation": "端口"
+ },
+ {
+  "context": "QObject",
+  "source": "Possible reasons for failed recovery:",
+  "comment": "",
+  "translation": "无法恢复原因可能为："
+ },
+ {
+  "context": "QObject",
+  "source": "Premium",
+  "comment": "",
+  "translation": "高级"
+ },
+ {
+  "context": "QObject",
+  "source": "Premium support",
+  "comment": "",
+  "translation": "高级支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Preparing",
+  "comment": "",
+  "translation": "准备中"
+ },
+ {
+  "context": "QObject",
+  "source": "Preparing...",
+  "comment": "",
+  "translation": "准备中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Preview",
+  "comment": "",
+  "translation": "预览"
+ },
+ {
+  "context": "QObject",
+  "source": "Preview %1",
+  "comment": "",
+  "translation": "预览%1"
+ },
+ {
+  "context": "QObject",
+  "source": "Preview %1 (%2/%3)",
+  "comment": "",
+  "translation": "预览 %1（%2/%3)"
+ },
+ {
+  "context": "QObject",
+  "source": "Preview Failed",
+  "comment": "",
+  "translation": "预览失败"
+ },
+ {
+  "context": "QObject",
+  "source": "Preview Only.",
+  "comment": "",
+  "translation": "仅能预览。"
+ },
+ {
+  "context": "QObject",
+  "source": "Preview full file",
+  "comment": "",
+  "translation": "完整预览"
+ },
+ {
+  "context": "QObject",
+  "source": "Professional",
+  "comment": "",
+  "translation": "专业版"
+ },
+ {
+  "context": "QObject",
+  "source": "Professional Expired",
+  "comment": "",
+  "translation": "专业版过期"
+ },
+ {
+  "context": "QObject",
+  "source": "Program Installation Directory,",
+  "comment": "",
+  "translation": "程序安装目录。"
+ },
+ {
+  "context": "QObject",
+  "source": "Program Running",
+  "comment": "",
+  "translation": "程序运行中"
+ },
+ {
+  "context": "QObject",
+  "source": "Program is trying to skip bad sectors to find data.",
+  "comment": "",
+  "translation": "程序正在努力跳过坏扇区查找数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Pushing service required",
+  "comment": "",
+  "translation": "推送所需服务中"
+ },
+ {
+  "context": "QObject",
+  "source": "Q1: How to get my drive detected when it didn't show up?",
+  "comment": "",
+  "translation": "疑问1：磁盘没有显示，怎么才能识别到我的设备？"
+ },
+ {
+  "context": "QObject",
+  "source": "Q1: Which drive should I scan?",
+  "comment": "",
+  "translation": "疑问1. 我该扫描什么位置？"
+ },
+ {
+  "context": "QObject",
+  "source": "Q2: How to check whether Windows Disk Management detect my drive/device?",
+  "comment": "",
+  "translation": "疑问2：怎么查看Windows磁盘管理器是否识别到了我的磁盘或设备？"
+ },
+ {
+  "context": "QObject",
+  "source": "Q2: What's Lost Partition?",
+  "comment": "",
+  "translation": "疑问2：什么是丢失分区？"
+ },
+ {
+  "context": "QObject",
+  "source": "QQ Online Help",
+  "comment": "",
+  "translation": "联系我们"
+ },
+ {
+  "context": "QObject",
+  "source": "Quick Scan Completed",
+  "comment": "",
+  "translation": "快速扫描完成"
+ },
+ {
+  "context": "QObject",
+  "source": "Quick Start Guide",
+  "comment": "",
+  "translation": "快速入门指南"
+ },
+ {
+  "context": "QObject",
+  "source": "Quick access",
+  "comment": "",
+  "translation": "快速访问"
+ },
+ {
+  "context": "QObject",
+  "source": "Quick scan: searching for deleted files.",
+  "comment": "",
+  "translation": "快速扫描：正在查找删除文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Quickly find what you are looking for by Grouping",
+  "comment": "",
+  "translation": "通过分组即可快速查找目标文件"
+ },
+ {
+  "context": "QObject",
+  "source": "RAW, partition loss and formatting, etc.",
+  "comment": "",
+  "translation": "RAW、分区丢失、格式化等"
+ },
+ {
+  "context": "QObject",
+  "source": "Rapid volume scan to cmpletely get rid of troublesome RAID reconstruction",
+  "comment": "",
+  "translation": "快速进行全卷扫描，彻底摆脱麻烦的RAID重构"
+ },
+ {
+  "context": "QObject",
+  "source": "Rate",
+  "comment": "",
+  "translation": "评价"
+ },
+ {
+  "context": "QObject",
+  "source": "Reading the disk information, please wait",
+  "comment": "",
+  "translation": "正在读取磁盘信息，请稍等"
+ },
+ {
+  "context": "QObject",
+  "source": "Ready",
+  "comment": "",
+  "translation": "就绪"
+ },
+ {
+  "context": "QObject",
+  "source": "Ready after scanning and analysis.",
+  "comment": "",
+  "translation": "扫描与分析完成后就绪。"
+ },
+ {
+  "context": "QObject",
+  "source": "Real-time recovery at any time without NAS server interruption",
+  "comment": "",
+  "translation": "随时进行实时数据恢复，NAS服务器不中断"
+ },
+ {
+  "context": "QObject",
+  "source": "Rebuild fragmented photos.",
+  "comment": "",
+  "translation": "重建碎片化照片。"
+ },
+ {
+  "context": "QObject",
+  "source": "Recduces clutter to find key files faster.",
+  "comment": "",
+  "translation": "减少杂乱，更快找到关键文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Reconstruct fragmented video.",
+  "comment": "",
+  "translation": "重建碎片化视频。"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover",
+  "comment": "",
+  "translation": "恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover All ...",
+  "comment": "",
+  "translation": "恢复全部"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover Complete",
+  "comment": "",
+  "translation": "恢复完成"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover Data from Crashed Computer",
+  "comment": "",
+  "translation": "从系统崩溃的电脑中恢复数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover Found Deleted %1 files %2",
+  "comment": "",
+  "translation": "恢复已找到的删除文件（%1个）%2"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover Now",
+  "comment": "",
+  "translation": "立即恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover Remaining",
+  "comment": "",
+  "translation": "继续恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover Repaired",
+  "comment": "",
+  "translation": "恢复修复后的文件，"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover Sooner for Better Chances:",
+  "comment": "",
+  "translation": "更快恢复，提高成功率："
+ },
+ {
+  "context": "QObject",
+  "source": "Recover data directly from camera. SDcard and USB drive ect.",
+  "comment": "",
+  "translation": "轻松恢复SD卡、U盘和移动硬盘中的宝贵数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover found files",
+  "comment": "",
+  "translation": "恢复已找到的文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover to:",
+  "comment": "",
+  "translation": "恢复到："
+ },
+ {
+  "context": "QObject",
+  "source": "Recover unlimited",
+  "comment": "",
+  "translation": "无限恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Recover/repair lost or repartitioned drive (the one that cannot be recovered by software)",
+  "comment": "",
+  "translation": "恢复/修复丢失分区或重新分区的磁盘（无法使用软件恢复数据的磁盘）"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovered",
+  "comment": "",
+  "translation": "来橙恢复文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovered to:",
+  "comment": "",
+  "translation": "保存路径："
+ },
+ {
+  "context": "QObject",
+  "source": "Recovered:",
+  "comment": "",
+  "translation": "已恢复文件："
+ },
+ {
+  "context": "QObject",
+  "source": "Recovered: %1 files (%2)",
+  "comment": "",
+  "translation": "已恢复：%1 个文件 （%2）"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovered: %1 of %2 files",
+  "comment": "",
+  "translation": "已恢复：%1个文件（%2）"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovered: %1/ %2 files",
+  "comment": "",
+  "translation": "已恢复： %1/ %2个文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovering",
+  "comment": "",
+  "translation": "正在恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovering:",
+  "comment": "",
+  "translation": "正在恢复："
+ },
+ {
+  "context": "QObject",
+  "source": "Recovery Chances",
+  "comment": "",
+  "translation": "恢复概率"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovery Not Completed",
+  "comment": "",
+  "translation": "恢复未完成"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovery Service",
+  "comment": "",
+  "translation": "手工恢复服务"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovery State File(*.rsf)|*.rsf||",
+  "comment": "",
+  "translation": "恢复状态文件(*.rsf)|*.rsf||"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovery Successful",
+  "comment": "",
+  "translation": "恢复成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Recovery experience",
+  "comment": "",
+  "translation": "恢复经验"
+ },
+ {
+  "context": "QObject",
+  "source": "Recycle Bin",
+  "comment": "",
+  "translation": "回收站"
+ },
+ {
+  "context": "QObject",
+  "source": "Reduces clutter to find key files fasters.",
+  "comment": "",
+  "translation": "减少杂乱，更快定位关键文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Refer Friends",
+  "comment": "",
+  "translation": "推荐好友"
+ },
+ {
+  "context": "QObject",
+  "source": "Refer to these files under the File Path, including \"File Name Lost\", \"File Path Lost\" and \"Tags Extracted\".",
+  "comment": "",
+  "translation": "检查文件路径下的这些文件，包括“文件名丢失的”，“文件路径丢失的”，“提取到标签的”。"
+ },
+ {
+  "context": "QObject",
+  "source": "Refresh",
+  "comment": "",
+  "translation": "刷新分区信息"
+ },
+ {
+  "context": "QObject",
+  "source": "Refreshing Drive Information",
+  "comment": "",
+  "translation": "刷新分区信息中"
+ },
+ {
+  "context": "QObject",
+  "source": "Refund guarantee",
+  "comment": "",
+  "translation": "退款保证"
+ },
+ {
+  "context": "QObject",
+  "source": "Reload",
+  "comment": "",
+  "translation": "重新加载"
+ },
+ {
+  "context": "QObject",
+  "source": "Remaining data can be rescanned and recovered anytime later, but continuing now save you time.",
+  "comment": "",
+  "translation": "剩余数据可随时重新扫描并恢复，但继续扫描可节省您的时间。"
+ },
+ {
+  "context": "QObject",
+  "source": "Remaining data can't be found if you stop.",
+  "comment": "",
+  "translation": "中止扫描会导致部分数据无法找到。"
+ },
+ {
+  "context": "QObject",
+  "source": "Remaining data can't be recovered if you stop.",
+  "comment": "",
+  "translation": "中止后无法恢复剩下的数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Remaining files are safe and can be recovered later, but we recommend finishing now for the best results.",
+  "comment": "",
+  "translation": "剩余文件安全，稍后仍可恢复，但我们建议现在完成以获得最佳效果。"
+ },
+ {
+  "context": "QObject",
+  "source": "Remaining files are safe and can be rescanned later, but we recommend letting the scan finish for the best result.",
+  "comment": "",
+  "translation": "剩余文件安全，稍后可重新扫描，但我们建议让扫描完成以获得最佳结果。"
+ },
+ {
+  "context": "QObject",
+  "source": "Remotely connect to Linux to start recovering",
+  "comment": "",
+  "translation": "远程连接到您的Linux，即刻开始恢复数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Remotely connect to nas server to start recovering",
+  "comment": "",
+  "translation": "远程连接到您的网络存储服务器，即刻开始恢复数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Remotely connecting...",
+  "comment": "",
+  "translation": "远程连接中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Remove All File",
+  "comment": "",
+  "translation": "删除所有文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Renew",
+  "comment": "",
+  "translation": "续费"
+ },
+ {
+  "context": "QObject",
+  "source": "Renew Pro to enjoy full features and unlimited recovery again.",
+  "comment": "",
+  "translation": "续费专业版，继续享受完整功能及无限量恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "Renew Successful",
+  "comment": "",
+  "translation": "续费成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Renew failed.",
+  "comment": "",
+  "translation": "续费失败。"
+ },
+ {
+  "context": "QObject",
+  "source": "Renew to Regain Recovery!",
+  "comment": "",
+  "translation": "续费即刻重新获得恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair",
+  "comment": "",
+  "translation": "修复"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair Loop",
+  "comment": "",
+  "translation": "循坏修复"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair SD card & restore access.",
+  "comment": "",
+  "translation": "修复 SD 卡并恢复访问权限。"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair Videos, Photos, Documents and Audio",
+  "comment": "",
+  "translation": "修复视频、照片、文档和音频"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair access when possible.",
+  "comment": "",
+  "translation": "在可能的情况下修复访问权限。"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair corrupted",
+  "comment": "",
+  "translation": "损坏修复"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair corrupted RAID structure",
+  "comment": "",
+  "translation": "修复损坏的RAID结构"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair corrupted virtual disk file (.vmdk,.vhd,.vhdx,etc.)",
+  "comment": "",
+  "translation": "修复损坏的虚拟盘文件如.vmdk,.vhd,.vhdx等"
+ },
+ {
+  "context": "QObject",
+  "source": "Repair inaccessible RAW drive needs to be reformatted",
+  "comment": "",
+  "translation": "修复无法访问的RAW磁盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Repaired",
+  "comment": "",
+  "translation": "修复的"
+ },
+ {
+  "context": "QObject",
+  "source": "Repaired by EaseUS as original file was accidentally damaged.",
+  "comment": "",
+  "translation": "源文件误损坏，已为您成功修复"
+ },
+ {
+  "context": "QObject",
+  "source": "Repaired files",
+  "comment": "",
+  "translation": "修复后的文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Repairing",
+  "comment": "",
+  "translation": "修复中"
+ },
+ {
+  "context": "QObject",
+  "source": "Repairing ...",
+  "comment": "",
+  "translation": "修复中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Reset Filter",
+  "comment": "",
+  "translation": "重置"
+ },
+ {
+  "context": "QObject",
+  "source": "Restore",
+  "comment": "",
+  "translation": "恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Restore Partition",
+  "comment": "",
+  "translation": "恢复分区"
+ },
+ {
+  "context": "QObject",
+  "source": "Restore Successful",
+  "comment": "",
+  "translation": "还原成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Restore failed",
+  "comment": "",
+  "translation": "还原失败"
+ },
+ {
+  "context": "QObject",
+  "source": "Restricted by performce,Windows 32-bit systems are supported for Linux.",
+  "comment": "",
+  "translation": "出于性能要求，32位的操作系统暂不支持Linux数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Restricted by performce,Windows 32-bit systems are supported for nas recovery.",
+  "comment": "",
+  "translation": "出于性能要求，32位的操作系统暂不支持NAS数据恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Retry",
+  "comment": "",
+  "translation": "重试"
+ },
+ {
+  "context": "QObject",
+  "source": "Return",
+  "comment": "",
+  "translation": "返回首页"
+ },
+ {
+  "context": "QObject",
+  "source": "Return to Home",
+  "comment": "",
+  "translation": "返回到主页"
+ },
+ {
+  "context": "QObject",
+  "source": "Returning to Home",
+  "comment": "",
+  "translation": "返回首页中"
+ },
+ {
+  "context": "QObject",
+  "source": "Rexing Dash Cam",
+  "comment": "",
+  "translation": "Rexing 行车记录仪"
+ },
+ {
+  "context": "QObject",
+  "source": "SD Card Recovery",
+  "comment": "",
+  "translation": "SD卡恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "SD Card Rescue",
+  "comment": "",
+  "translation": "SD卡救援"
+ },
+ {
+  "context": "QObject",
+  "source": "SD card connected but not dectected?",
+  "comment": "",
+  "translation": "SD卡已连接但未识别？"
+ },
+ {
+  "context": "QObject",
+  "source": "Save",
+  "comment": "",
+  "translation": "保存"
+ },
+ {
+  "context": "QObject",
+  "source": "Save 1",
+  "comment": "",
+  "translation": "保存"
+ },
+ {
+  "context": "QObject",
+  "source": "Save Data 1",
+  "comment": "",
+  "translation": "保存数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Save Failed",
+  "comment": "",
+  "translation": "导出扫描结果失败"
+ },
+ {
+  "context": "QObject",
+  "source": "Save Scan Session",
+  "comment": "",
+  "translation": "导出扫描结果"
+ },
+ {
+  "context": "QObject",
+  "source": "Save Successful",
+  "comment": "",
+  "translation": "保存扫描结果成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Save as",
+  "comment": "",
+  "translation": "保存为"
+ },
+ {
+  "context": "QObject",
+  "source": "Save to",
+  "comment": "",
+  "translation": "保存到"
+ },
+ {
+  "context": "QObject",
+  "source": "Save to 1",
+  "comment": "",
+  "translation": "保存至"
+ },
+ {
+  "context": "QObject",
+  "source": "Save:",
+  "comment": "",
+  "translation": "保存："
+ },
+ {
+  "context": "QObject",
+  "source": "Saving Scan Session",
+  "comment": "",
+  "translation": "保存扫描结果中"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan",
+  "comment": "",
+  "translation": "扫描"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan Disk",
+  "comment": "",
+  "translation": "扫描磁盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan Paused",
+  "comment": "",
+  "translation": "扫描停止"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan Stopped",
+  "comment": "",
+  "translation": "扫描中止"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan code to pay attention to official account and acquire more technical knowledge",
+  "comment": "",
+  "translation": "扫码关注公众号，获取更多技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan code to pay attention to official account and get",
+  "comment": "",
+  "translation": "扫码关注公众号，即可获取"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan completed",
+  "comment": "",
+  "translation": "扫描完成"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan completed and found %1 files.",
+  "comment": "",
+  "translation": "扫描完成， 找到%1个文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan disk:",
+  "comment": "",
+  "translation": "扫描磁盘："
+ },
+ {
+  "context": "QObject",
+  "source": "Scan entire disk if you are not sure which drive to scan in any of the following scenarios:",
+  "comment": "",
+  "translation": "如有以下情况，导致您不知道数据具体的存储位置，请扫描整块磁盘。"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan files:",
+  "comment": "",
+  "translation": "扫描文件数："
+ },
+ {
+  "context": "QObject",
+  "source": "Scan session might be corrupted. Please rescan to recover your data.",
+  "comment": "",
+  "translation": "扫描结果可能已损坏，请重新扫描再恢复数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan stopped and found %1 files.",
+  "comment": "",
+  "translation": "扫描中止， 找到%1个文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan the entire disk if you don't know where desired data was exactly saved.",
+  "comment": "",
+  "translation": "如您不知道数据具体的存储位置，请扫描整块磁盘。"
+ },
+ {
+  "context": "QObject",
+  "source": "Scan time:",
+  "comment": "",
+  "translation": "扫描时间："
+ },
+ {
+  "context": "QObject",
+  "source": "Scanned",
+  "comment": "",
+  "translation": "已扫描"
+ },
+ {
+  "context": "QObject",
+  "source": "Scanned:",
+  "comment": "",
+  "translation": "扫描位置："
+ },
+ {
+  "context": "QObject",
+  "source": "Scanning",
+  "comment": "",
+  "translation": "正在扫描"
+ },
+ {
+  "context": "QObject",
+  "source": "Scanning %1%",
+  "comment": "",
+  "translation": "正在扫描 %1%"
+ },
+ {
+  "context": "QObject",
+  "source": "Scanning Paused.",
+  "comment": "",
+  "translation": "扫描已暂停。"
+ },
+ {
+  "context": "QObject",
+  "source": "Scanning...",
+  "comment": "",
+  "translation": "扫描中..."
+ },
+ {
+  "context": "QObject",
+  "source": "Scenarios for lost partitions",
+  "comment": "",
+  "translation": "产生丢失分区的场景"
+ },
+ {
+  "context": "QObject",
+  "source": "Screen suddenly turns blue or no display with black screen",
+  "comment": "",
+  "translation": "电脑突然蓝屏或开机后黑屏"
+ },
+ {
+  "context": "QObject",
+  "source": "Search",
+  "comment": "",
+  "translation": "搜索"
+ },
+ {
+  "context": "QObject",
+  "source": "Search files or folders",
+  "comment": "",
+  "translation": "搜索文件或文件夹"
+ },
+ {
+  "context": "QObject",
+  "source": "Search results for %1",
+  "comment": "",
+  "translation": "%1搜索结果"
+ },
+ {
+  "context": "QObject",
+  "source": "Searched \"%1 files (%2)\" for \"%3\"",
+  "comment": "",
+  "translation": "搜索词： %3；搜索到：%1个文件 (%2)"
+ },
+ {
+  "context": "QObject",
+  "source": "Searched nothing...",
+  "comment": "",
+  "translation": "未搜索到文件..."
+ },
+ {
+  "context": "QObject",
+  "source": "Searched: %1 files, %2",
+  "comment": "",
+  "translation": "搜索到：%1个文件，%2"
+ },
+ {
+  "context": "QObject",
+  "source": "Searched: 0 file",
+  "comment": "",
+  "translation": "搜索到：0个文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Searching",
+  "comment": "",
+  "translation": "正在搜索"
+ },
+ {
+  "context": "QObject",
+  "source": "Select 'Network'",
+  "comment": "",
+  "translation": "选择“网络”"
+ },
+ {
+  "context": "QObject",
+  "source": "Select 'Telnet/SSH' at 'Network & File Services'",
+  "comment": "",
+  "translation": "在“网络与文件服务”下选择“远程登录/SSH”"
+ },
+ {
+  "context": "QObject",
+  "source": "Select 'Terminal & SNMP'",
+  "comment": "",
+  "translation": "选择“终端机和SNMP”"
+ },
+ {
+  "context": "QObject",
+  "source": "Select All",
+  "comment": "",
+  "translation": "全选"
+ },
+ {
+  "context": "QObject",
+  "source": "Select All (%1)",
+  "comment": "",
+  "translation": "全选 （%1）"
+ },
+ {
+  "context": "QObject",
+  "source": "Select All (%1/%2)",
+  "comment": "",
+  "translation": "选择全部（%1/%2)"
+ },
+ {
+  "context": "QObject",
+  "source": "Select Folder",
+  "comment": "",
+  "translation": "选择文件夹"
+ },
+ {
+  "context": "QObject",
+  "source": "Select a USB drive",
+  "comment": "",
+  "translation": "选择一个U盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Select a USB drive to create the bootable drive",
+  "comment": "",
+  "translation": "选择一个U盘，来创建启动盘"
+ },
+ {
+  "context": "QObject",
+  "source": "Select a location to start recovering",
+  "comment": "",
+  "translation": "选择一个扫描位置，开始恢复数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Select a memory card to start recovering",
+  "comment": "",
+  "translation": "选择一张SD卡，开始恢复数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Select a nas server to start recovering",
+  "comment": "",
+  "translation": "选择一个NAS服务器，即刻开始恢复数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Select file",
+  "comment": "",
+  "translation": "选择文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Select scan session",
+  "comment": "",
+  "translation": "选择扫描结果"
+ },
+ {
+  "context": "QObject",
+  "source": "Sender:",
+  "comment": "",
+  "translation": "发件人："
+ },
+ {
+  "context": "QObject",
+  "source": "Set Auto-Recover After Advanced Scan Completed>>",
+  "comment": "",
+  "translation": "设置高级扫描完成后，自动恢复 >>"
+ },
+ {
+  "context": "QObject",
+  "source": "Set it to boot up from USB bootabe drive on crashed computer",
+  "comment": "",
+  "translation": "在崩溃的电脑上，设置从USB启动盘启动"
+ },
+ {
+  "context": "QObject",
+  "source": "Settings",
+  "comment": "",
+  "translation": "设置"
+ },
+ {
+  "context": "QObject",
+  "source": "Share",
+  "comment": "",
+  "translation": "分享"
+ },
+ {
+  "context": "QObject",
+  "source": "Share EaseUS to:",
+  "comment": "",
+  "translation": "分享来橙到"
+ },
+ {
+  "context": "QObject",
+  "source": "Share this helpful tool with friends.",
+  "comment": "",
+  "translation": "向您的好友分享这款有用的软件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Show",
+  "comment": "",
+  "translation": "显示"
+ },
+ {
+  "context": "QObject",
+  "source": "Show:",
+  "comment": "",
+  "translation": "显示："
+ },
+ {
+  "context": "QObject",
+  "source": "Shows the best files to recover from each area.",
+  "comment": "",
+  "translation": "显示各区域中最佳的可恢复文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Size",
+  "comment": "",
+  "translation": "大小"
+ },
+ {
+  "context": "QObject",
+  "source": "Size:",
+  "comment": "",
+  "translation": "大小："
+ },
+ {
+  "context": "QObject",
+  "source": "Smart Reassembly",
+  "comment": "",
+  "translation": "智能重组"
+ },
+ {
+  "context": "QObject",
+  "source": "Smart Sector Rebuild",
+  "comment": "",
+  "translation": "智能扇区重建"
+ },
+ {
+  "context": "QObject",
+  "source": "Smart select best files",
+  "comment": "",
+  "translation": "智能选择最佳文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Smart video reorganization in progress... Some black screen and unplayable corrupted videos could be automatically repaired once it completes.",
+  "comment": "",
+  "translation": "正在进行智能视频重组...重组完成后可自动修复黑屏、无法播放的损坏视频。"
+ },
+ {
+  "context": "QObject",
+  "source": "Some core Python modules are required before connecting.",
+  "comment": "",
+  "translation": "连接需要下载部分Python核心组件"
+ },
+ {
+  "context": "QObject",
+  "source": "Some files might be incomplete while scanning, which are inaccessible after recovery.",
+  "comment": "",
+  "translation": "扫描中找到的部分文件可能不完整，这些文件恢复后可能无法打开。"
+ },
+ {
+  "context": "QObject",
+  "source": "Some unsorted data will not be displayed if you stop.",
+  "comment": "",
+  "translation": "若停止扫描，部分未分类的数据将不会显示。"
+ },
+ {
+  "context": "QObject",
+  "source": "Sony",
+  "comment": "",
+  "translation": "索尼"
+ },
+ {
+  "context": "QObject",
+  "source": "Sorry, you have reached the maximum number of recoverable files this month. (It can be restored up to %1 times a month) If you need to continue the restoration, please contact QQ online customer service.",
+  "comment": "",
+  "translation": "您已经超过最大恢复次数（每个月可恢复%1次）。如要继续恢复数据，请联系技术支持。"
+ },
+ {
+  "context": "QObject",
+  "source": "Source Drive! Change another one.",
+  "comment": "",
+  "translation": "不能保存回源盘，请更换位置！"
+ },
+ {
+  "context": "QObject",
+  "source": "Specify a location",
+  "comment": "",
+  "translation": "指定位置"
+ },
+ {
+  "context": "QObject",
+  "source": "Specify the folder you want to recover data from",
+  "comment": "",
+  "translation": "选择您想恢复数据的文件夹"
+ },
+ {
+  "context": "QObject",
+  "source": "Start Now",
+  "comment": "",
+  "translation": "立即开始"
+ },
+ {
+  "context": "QObject",
+  "source": "Start scanning after decryption.",
+  "comment": "",
+  "translation": "解密后开始扫描。"
+ },
+ {
+  "context": "QObject",
+  "source": "Starting service",
+  "comment": "",
+  "translation": "调用服务中"
+ },
+ {
+  "context": "QObject",
+  "source": "Step 1:",
+  "comment": "",
+  "translation": "第一步："
+ },
+ {
+  "context": "QObject",
+  "source": "Step 2:",
+  "comment": "",
+  "translation": "第二步："
+ },
+ {
+  "context": "QObject",
+  "source": "Steps to Activate Offline",
+  "comment": "",
+  "translation": "离线激活步骤"
+ },
+ {
+  "context": "QObject",
+  "source": "Still Save 1",
+  "comment": "",
+  "translation": "仍要保存"
+ },
+ {
+  "context": "QObject",
+  "source": "Still have problem?",
+  "comment": "",
+  "translation": "还是有问题？"
+ },
+ {
+  "context": "QObject",
+  "source": "Stop",
+  "comment": "",
+  "translation": "中止"
+ },
+ {
+  "context": "QObject",
+  "source": "Stop Recovering",
+  "comment": "",
+  "translation": "停止恢复："
+ },
+ {
+  "context": "QObject",
+  "source": "Stop Scanning",
+  "comment": "",
+  "translation": "扫描停止"
+ },
+ {
+  "context": "QObject",
+  "source": "Subject:",
+  "comment": "",
+  "translation": "邮件主题："
+ },
+ {
+  "context": "QObject",
+  "source": "Submit your license code and machine code to link below on another Network connected computer to get a verification code:",
+  "comment": "",
+  "translation": "打开离线激活页面，输入您的激活码和机器码，提交后即可获得一个验证码。"
+ },
+ {
+  "context": "QObject",
+  "source": "Successful recovery",
+  "comment": "",
+  "translation": "成功恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Suggested Recovery",
+  "comment": "",
+  "translation": "建议恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Support",
+  "comment": "",
+  "translation": "帮助"
+ },
+ {
+  "context": "QObject",
+  "source": "Supported Formats:\nVideos: MP4/MOV/MKV/AVI/INSV/3GP/MPG/MPEG/MTS/TS/M2TS/WMV/FLV/MXF/RSV/M4V/DAT/ASF/WEBM/BRAW/SWF/RMVB/RM/OGV/3G2/DIVX/DV/MJ2/PSP/MK3D/MKS\nPhotos: JPG/JPEG/JFIF/JPE/JIF/ARW/CR2/NEF/NRW/PNG/GIF/CR3/BMP/TIF/TIFF/GPR/DNG/HEIC/RAF/ORF/SR2/RW2/RAW/WEBP/SVG/AVIF/SRW/ERF/PEF/SRF/3FR/FFF\nDocuments: DOCX/DOCM/DOTM/DOTX/DOC/PAGES/NUMBERS/HWP/XLSX/XLSM/XLTM/XLTX/XLS/PPT/PPTX/PPTM/POTX/POTM/PDF/AI/PSB/PSD/ZIP/ZIPX/EXE/RAR/XML/hwpx\nAudios: MP3/AAC/M4A/WAV/WMA/FLAC/AIFF/AIF/OGG/OGA/M4B/MKA",
+  "comment": "",
+  "translation": "支持的格式：\n视频：MP4/MOV/MKV/AVI/INSV/3GP/MPG/MPEG/MTS/TS/M2TS/WMV/FLV/MXF/RSV/M4V/DAT/ASF/WEBM/BRAW/SWF/RMVB/RM/OGV/3G2/DIVX/DV/MJ2/PSP/MK3D/MKS\n照片：JPG/JPEG/JFIF/JPE/JIF/ARW/CR2/NEF/NRW/PNG/GIF/CR3/BMP/TIF/TIFF/GPR/DNG/HEIC/RAF/ORF/SR2/RW2/RAW/WEBP/SVG/AVIF/SRW/ERF/PEF/SRF/3FR/FFF\n文档：DOCX/DOCM/DOTM/DOTX/DOC/PAGES/NUMBERS/HWP/XLSX/XLSM/XLTM/XLTX/XLS/PPT/PPTX/PPTM/POTX/POTM/PDF/AI/PSB/PSD/ZIP/ZIPX/EXE/RAR/XML/hwpx\n音频：MP3/AAC/M4A/WAV/WMA/FLAC/AIFF/AIF/OGG/OGA/M4B/MKA"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure not to unlock Pro?",
+  "comment": "",
+  "translation": "确定要放弃专业版吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Change Scan Location?",
+  "comment": "",
+  "translation": "确认要切换扫描位置吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Disconnect and Return to Home?",
+  "comment": "",
+  "translation": "确定要断开连接返回首页吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Exit Program?",
+  "comment": "",
+  "translation": "确定要退出程序吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Format for Creating Bootable Drive?",
+  "comment": "",
+  "translation": "确定要格式化，以创建启动盘吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Return to Home?",
+  "comment": "",
+  "translation": "确定要返回首页吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Save Files That Might be Incomplete?",
+  "comment": "",
+  "translation": "文件可能不完整，确定要恢复吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Save to Original Drive?",
+  "comment": "",
+  "translation": "确定保存数据到源盘吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Stop Recovering?",
+  "comment": "",
+  "translation": "确定要中止恢复吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to Stop Scanning?",
+  "comment": "",
+  "translation": "确定要中止扫描吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to give up recovering remaining valuable files?",
+  "comment": "",
+  "translation": "确定要放弃恢复剩下宝贵的数据吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to give up recovering valuable data on crashed computer?",
+  "comment": "",
+  "translation": "确定要放弃恢复，崩溃系统中的数据吗?"
+ },
+ {
+  "context": "QObject",
+  "source": "Sure to restore host settings?",
+  "comment": "",
+  "translation": "确定要还原Hosts设置？"
+ },
+ {
+  "context": "QObject",
+  "source": "Switch views anytime to see all files.",
+  "comment": "",
+  "translation": "随时切换视图以查看所有文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "System not support for Linux",
+  "comment": "",
+  "translation": "操作系统暂不支持"
+ },
+ {
+  "context": "QObject",
+  "source": "System not support for nas recovery",
+  "comment": "",
+  "translation": "操作系统暂不支持"
+ },
+ {
+  "context": "QObject",
+  "source": "TRIM OFF",
+  "comment": "",
+  "translation": "TRIM功能已关闭"
+ },
+ {
+  "context": "QObject",
+  "source": "TRIM ON",
+  "comment": "",
+  "translation": "TRIM功能已开启"
+ },
+ {
+  "context": "QObject",
+  "source": "Tags Extracted",
+  "comment": "",
+  "translation": "提取到标签的"
+ },
+ {
+  "context": "QObject",
+  "source": "Take the final step now to safely secure your data.",
+  "comment": "",
+  "translation": "立即执行最后一步，安全保护您的数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Target location is confirmed. It looks nice! 1",
+  "comment": "",
+  "translation": "目标位置已确认，看起来不错！"
+ },
+ {
+  "context": "QObject",
+  "source": "Technical Assistance",
+  "comment": "",
+  "translation": "技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Technical Support",
+  "comment": "",
+  "translation": "技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Technical assistance",
+  "comment": "",
+  "translation": "技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Technician",
+  "comment": "",
+  "translation": "企业版"
+ },
+ {
+  "context": "QObject",
+  "source": "Technician Expired",
+  "comment": "",
+  "translation": "企业版过期"
+ },
+ {
+  "context": "QObject",
+  "source": "Tell us your problem so we can get you the right help and support.",
+  "comment": "",
+  "translation": "请告诉我们你的问题，以便为你提供正确的帮助和支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Thank you for choosing EaseUS as your data saver. Should you have any further questions, please feel free to contact us for technical assistance by",
+  "comment": "",
+  "translation": "非常感谢您使用易我拯救您的数据。如您还有其他任何问题，可联系我们通过"
+ },
+ {
+  "context": "QObject",
+  "source": "Thanks following warm-hearted users for their contributions to our multi-language version:",
+  "comment": "",
+  "translation": "感谢以下对我们产品多语言版本做出贡献的热心用户:"
+ },
+ {
+  "context": "QObject",
+  "source": "The corrupted videos will not be repaired if you stop.",
+  "comment": "",
+  "translation": "若停止扫描，损坏的视频将无法修复。"
+ },
+ {
+  "context": "QObject",
+  "source": "The network is abnormal. Please check the network and try again.",
+  "comment": "",
+  "translation": "请检查网络连接然后重试。"
+ },
+ {
+  "context": "QObject",
+  "source": "The selected location is the same as that where the lost data is located. Please choose another location. 1",
+  "comment": "",
+  "translation": "选定位置与丢失文件所在磁盘相同。保存可能会导致数据被覆盖，永久性丢失。建议更换目标位置，将数据恢复至其它不同的磁盘或分区。"
+ },
+ {
+  "context": "QObject",
+  "source": "There are some corrupted files that could be repaired in the recovery selected.",
+  "comment": "",
+  "translation": "您勾选要恢复数据中，有可修复的损坏文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "This folder is empty!",
+  "comment": "",
+  "translation": "此文件夹是空的。"
+ },
+ {
+  "context": "QObject",
+  "source": "This may take a while...but it is worthy.",
+  "comment": "",
+  "translation": "可能会花一点时间，但这是值得的。"
+ },
+ {
+  "context": "QObject",
+  "source": "This may take some time, please wait...",
+  "comment": "",
+  "translation": "这需要花点时间，请稍等..."
+ },
+ {
+  "context": "QObject",
+  "source": "Time:",
+  "comment": "",
+  "translation": "扫描耗时："
+ },
+ {
+  "context": "QObject",
+  "source": "Tips:",
+  "comment": "",
+  "translation": "小贴士："
+ },
+ {
+  "context": "QObject",
+  "source": "Tips: Advanced Scan is searching files sector bu sector to ensure data recovery as much as possible.",
+  "comment": "",
+  "translation": "小贴士：高级扫描正在逐扇区查找文件，以确保尽可能恢复所有的数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Tips: Advanced Scan is trying to find more other lost files for you while recovering",
+  "comment": "",
+  "translation": "小贴士：恢复的同时，高级扫描仍在继续查找更多丢失的数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Tips: DON'T work on the drive where you lost data before complete recovery. Or the data might be overwritten and lost permanently.",
+  "comment": "",
+  "translation": "小贴士：未100%确定数据已完全恢复前，请勿操作恢复中的分区，否则可能会造成数据被覆盖而永久丢失。"
+ },
+ {
+  "context": "QObject",
+  "source": "To",
+  "comment": "",
+  "translation": "至"
+ },
+ {
+  "context": "QObject",
+  "source": "To be notified timely",
+  "comment": "",
+  "translation": "及时获取邮件通知"
+ },
+ {
+  "context": "QObject",
+  "source": "To be recovered: %1 files",
+  "comment": "",
+  "translation": "待恢复：%1个文件"
+ },
+ {
+  "context": "QObject",
+  "source": "To ensure recover as many files as possible, we tried different scanning methods. Duplicate files may be found through different scans or under different file systems.",
+  "comment": "",
+  "translation": "为了尽可能恢复所有的文件，我们尝试了不同的扫描方式。重复文件可能是通过不同扫描方式找到的，也可能是在不同文件系统下找到的。"
+ },
+ {
+  "context": "QObject",
+  "source": "To find your files quickly and easily by \"Filter\"",
+  "comment": "",
+  "translation": "用过滤找文件，又快又方便"
+ },
+ {
+  "context": "QObject",
+  "source": "To help EaseUS better",
+  "comment": "",
+  "translation": "帮助易我做的更好"
+ },
+ {
+  "context": "QObject",
+  "source": "To recover data from digital camera, please remove the SD card and connect it to PC/Laptop via card readers.",
+  "comment": "",
+  "translation": "恢复数码相机的数据，请拔出SD卡，并通过读卡器将SD卡连接到台式机/笔记本电脑。"
+ },
+ {
+  "context": "QObject",
+  "source": "Today",
+  "comment": "",
+  "translation": "今天"
+ },
+ {
+  "context": "QObject",
+  "source": "Total Size",
+  "comment": "",
+  "translation": "总大小"
+ },
+ {
+  "context": "QObject",
+  "source": "Total:",
+  "comment": "",
+  "translation": "总容量："
+ },
+ {
+  "context": "QObject",
+  "source": "Trial",
+  "comment": "",
+  "translation": "专业版（试用版）"
+ },
+ {
+  "context": "QObject",
+  "source": "Trial version is preview-only.",
+  "comment": "",
+  "translation": "试用版只能预览。"
+ },
+ {
+  "context": "QObject",
+  "source": "Try Automatically Decrypt",
+  "comment": "",
+  "translation": "尝试自动解密"
+ },
+ {
+  "context": "QObject",
+  "source": "Try again later.",
+  "comment": "",
+  "translation": "请稍后再试。"
+ },
+ {
+  "context": "QObject",
+  "source": "Try another USB cable/card reader",
+  "comment": "",
+  "translation": "换根USB连接线或读卡器试试"
+ },
+ {
+  "context": "QObject",
+  "source": "Try another USB port on PC",
+  "comment": "",
+  "translation": "换个USB连接口试试"
+ },
+ {
+  "context": "QObject",
+  "source": "Try another location or check less files.",
+  "comment": "",
+  "translation": "更改保存路径或勾选少些文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Try another location.",
+  "comment": "",
+  "translation": "试试其他路径。"
+ },
+ {
+  "context": "QObject",
+  "source": "Try any one of the ways listed below and then scan it to retrieve your valuable data.",
+  "comment": "",
+  "translation": "尝试以下任一方式，再扫描恢复您珍贵的数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Try to Activate Manually Again!",
+  "comment": "",
+  "translation": "尝试手动激活！"
+ },
+ {
+  "context": "QObject",
+  "source": "Try to do as follows if SD card was not detected:",
+  "comment": "",
+  "translation": "SD未识别，试试如下方式："
+ },
+ {
+  "context": "QObject",
+  "source": "Try to insert SD card to card reader",
+  "comment": "",
+  "translation": "SD卡插到读卡器试试"
+ },
+ {
+  "context": "QObject",
+  "source": "Trying possible keys to decrypt Bitlocker drive.",
+  "comment": "",
+  "translation": "正在尝试可能的密钥为您解密 Bitlocker 分区。"
+ },
+ {
+  "context": "QObject",
+  "source": "Twitter",
+  "comment": "",
+  "translation": "Twitter"
+ },
+ {
+  "context": "QObject",
+  "source": "Type",
+  "comment": "",
+  "translation": "类型"
+ },
+ {
+  "context": "QObject",
+  "source": "Type:",
+  "comment": "",
+  "translation": "类型："
+ },
+ {
+  "context": "QObject",
+  "source": "UnScanned",
+  "comment": "",
+  "translation": "未扫描"
+ },
+ {
+  "context": "QObject",
+  "source": "Unable to continue scanning. Reconnect your drive and try again.",
+  "comment": "",
+  "translation": "无法继续扫描。重新连接您的磁盘然后重试。"
+ },
+ {
+  "context": "QObject",
+  "source": "Unanalysis",
+  "comment": "",
+  "translation": "未分析"
+ },
+ {
+  "context": "QObject",
+  "source": "Unavailable preview",
+  "comment": "",
+  "translation": "无法预览"
+ },
+ {
+  "context": "QObject",
+  "source": "Unfortunately, the propram could not restore hosts settings for you.",
+  "comment": "",
+  "translation": "很遗憾。您的hosts设置无法还原。"
+ },
+ {
+  "context": "QObject",
+  "source": "Unknown",
+  "comment": "",
+  "translation": "未知"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlimited",
+  "comment": "",
+  "translation": "不限"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlimited Recovery",
+  "comment": "",
+  "translation": "无限恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlimited recovery",
+  "comment": "",
+  "translation": "无限次恢复"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlock Full Recovery",
+  "comment": "",
+  "translation": "解锁完整恢复功能"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlock Pro Now",
+  "comment": "",
+  "translation": "立即解锁专业版"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlock Pro to View Full",
+  "comment": "",
+  "translation": "解锁专业版，查看完整文件"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlock Pro to enjoy exclusive benefits now!",
+  "comment": "",
+  "translation": "立即升级专业版，尽享您的卓越权益"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlock Pro to enjoy full features and unlimited recovery.",
+  "comment": "",
+  "translation": "解锁专业版，继续享受完整功能及无限量恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "Unlock Pro to enjoy:",
+  "comment": "",
+  "translation": "解锁即可享受："
+ },
+ {
+  "context": "QObject",
+  "source": "Unlock Pro. You're gonna enjoy more exclusive benefits!",
+  "comment": "",
+  "translation": "解锁专业版，即可享受更多专属权益！"
+ },
+ {
+  "context": "QObject",
+  "source": "Unsupported file format for Preview",
+  "comment": "",
+  "translation": "不支持的预览格式"
+ },
+ {
+  "context": "QObject",
+  "source": "Untitled",
+  "comment": "",
+  "translation": "无标题"
+ },
+ {
+  "context": "QObject",
+  "source": "Up to Date",
+  "comment": "",
+  "translation": "您已使用最新版"
+ },
+ {
+  "context": "QObject",
+  "source": "Update",
+  "comment": "",
+  "translation": "更新"
+ },
+ {
+  "context": "QObject",
+  "source": "Update Available",
+  "comment": "",
+  "translation": "更新可用"
+ },
+ {
+  "context": "QObject",
+  "source": "Upgrade",
+  "comment": "",
+  "translation": "升级"
+ },
+ {
+  "context": "QObject",
+  "source": "Upgrade Successful",
+  "comment": "",
+  "translation": "升级成功"
+ },
+ {
+  "context": "QObject",
+  "source": "Upgrade failed.",
+  "comment": "",
+  "translation": "升级失败。"
+ },
+ {
+  "context": "QObject",
+  "source": "Upgrade to Enjoy Unlimited Recovery!",
+  "comment": "",
+  "translation": "升级即刻享受无限量恢复！"
+ },
+ {
+  "context": "QObject",
+  "source": "Upgrade to Unlimited Recovery Now",
+  "comment": "",
+  "translation": "立即升级以恢复无限数据"
+ },
+ {
+  "context": "QObject",
+  "source": "Used license code.",
+  "comment": "",
+  "translation": "激活码已被使用。"
+ },
+ {
+  "context": "QObject",
+  "source": "Used:",
+  "comment": "",
+  "translation": "已使用："
+ },
+ {
+  "context": "QObject",
+  "source": "User ",
+  "comment": "",
+  "translation": "用户名"
+ },
+ {
+  "context": "QObject",
+  "source": "Username with root permission",
+  "comment": "",
+  "translation": "具有Root权限的账号"
+ },
+ {
+  "context": "QObject",
+  "source": "Valuable data might be LOST PERMANENTLY if not recover now.",
+  "comment": "",
+  "translation": "如不立即恢复，宝贵的数据可能会永久性丢失。"
+ },
+ {
+  "context": "QObject",
+  "source": "Valuable data might not be recovered if you disconnect.",
+  "comment": "",
+  "translation": "断开后，无法恢复您宝贵的数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Valuable data might not be recovered if you exit.",
+  "comment": "",
+  "translation": "退出程序后可能无法恢复您宝贵的数据。"
+ },
+ {
+  "context": "QObject",
+  "source": "Valuable data might not be recovered if you return.",
+  "comment": "",
+  "translation": "如果返回，珍贵的数据可能无法恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "Vantrue Dash Cam",
+  "comment": "",
+  "translation": "Vantrue 行车记录仪"
+ },
+ {
+  "context": "QObject",
+  "source": "Verification code:",
+  "comment": "",
+  "translation": "验证码"
+ },
+ {
+  "context": "QObject",
+  "source": "Verifying",
+  "comment": "",
+  "translation": "验证中"
+ },
+ {
+  "context": "QObject",
+  "source": "Version: %1",
+  "comment": "",
+  "translation": "版本：%1"
+ },
+ {
+  "context": "QObject",
+  "source": "Version: %1(%2 free recovery available.)",
+  "comment": "",
+  "translation": "版本：%1（免费恢复量还有%2。）"
+ },
+ {
+  "context": "QObject",
+  "source": "Video Tutorial",
+  "comment": "",
+  "translation": "联系技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "Video that play",
+  "comment": "",
+  "translation": "可正常播放的视频"
+ },
+ {
+  "context": "QObject",
+  "source": "Videos",
+  "comment": "",
+  "translation": "视频"
+ },
+ {
+  "context": "QObject",
+  "source": "View Details",
+  "comment": "",
+  "translation": "查看详细信息"
+ },
+ {
+  "context": "QObject",
+  "source": "View Recovered",
+  "comment": "",
+  "translation": "查看已恢复文件"
+ },
+ {
+  "context": "QObject",
+  "source": "View Results",
+  "comment": "",
+  "translation": "查看结果"
+ },
+ {
+  "context": "QObject",
+  "source": "View and remember the port for remote access",
+  "comment": "",
+  "translation": "查看并记住远程访问的端口号"
+ },
+ {
+  "context": "QObject",
+  "source": "View and remember the port remote access in next step",
+  "comment": "",
+  "translation": "查看并记住远程访问的端口号"
+ },
+ {
+  "context": "QObject",
+  "source": "Volume",
+  "comment": "",
+  "translation": "存储空间"
+ },
+ {
+  "context": "QObject",
+  "source": "Waiting...",
+  "comment": "",
+  "translation": "等待中……"
+ },
+ {
+  "context": "QObject",
+  "source": "Warning",
+  "comment": "",
+  "translation": "警告"
+ },
+ {
+  "context": "QObject",
+  "source": "Watch Video Tutorial",
+  "comment": "",
+  "translation": "观看视频指导"
+ },
+ {
+  "context": "QObject",
+  "source": "We are here to help...",
+  "comment": "",
+  "translation": "我们可随时提供帮助"
+ },
+ {
+  "context": "QObject",
+  "source": "We classify and organize the found files by extracted tags to help you easily locate desired data.",
+  "comment": "",
+  "translation": "通过提取的标签，我们分类并组织了找到的文件，以便让您能更轻松的定位到目标文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "We couldn't restore the partition, but no data was modifiled. You can continue recovering found files from the scan.",
+  "comment": "",
+  "translation": "我们无法恢复该分区，但未修改任何数据。您可以继续从扫描结果中恢复已找到的文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "Website purchase",
+  "comment": "",
+  "translation": "网页购买"
+ },
+ {
+  "context": "QObject",
+  "source": "What's Drive Letter?",
+  "comment": "",
+  "translation": "什么是盘符？"
+ },
+ {
+  "context": "QObject",
+  "source": "What's Lost Partition?",
+  "comment": "",
+  "translation": "什么是丢失分区？"
+ },
+ {
+  "context": "QObject",
+  "source": "Whats's \"File Name Lost\"?",
+  "comment": "",
+  "translation": "什么是\"文件名丢失的\"?"
+ },
+ {
+  "context": "QObject",
+  "source": "Whats's \"File Path Lost\"?",
+  "comment": "",
+  "translation": "什么是\"文件路径丢失的\"?"
+ },
+ {
+  "context": "QObject",
+  "source": "Whats's \"Tags Extracted\"?",
+  "comment": "",
+  "translation": "什么是\"提取到标签的\"?"
+ },
+ {
+  "context": "QObject",
+  "source": "When do you need Recovery Service?",
+  "comment": "",
+  "translation": "什么时候需要手工恢复服务？"
+ },
+ {
+  "context": "QObject",
+  "source": "Why Pro?",
+  "comment": "",
+  "translation": "为什么要专业版？"
+ },
+ {
+  "context": "QObject",
+  "source": "Why duplicate files exist?",
+  "comment": "",
+  "translation": "为什么会有重复文件？"
+ },
+ {
+  "context": "QObject",
+  "source": "WiFi 100M/s is too slow. Try to connect with a network cable(Expected to be increased by 500%).",
+  "comment": "",
+  "translation": "当前WiFi百兆网速太慢，建议更换为网线直连，预计扫描速度可提升500%。"
+ },
+ {
+  "context": "QObject",
+  "source": "WinPE",
+  "comment": "",
+  "translation": "WinPE"
+ },
+ {
+  "context": "QObject",
+  "source": "Windows 11 Update Checker",
+  "comment": "",
+  "translation": "检测PC是否能升级到Windows 11"
+ },
+ {
+  "context": "QObject",
+  "source": "Would You Like to Save Repaired File(s)?",
+  "comment": "",
+  "translation": "要保存修复后的文件吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Would you like to update now?",
+  "comment": "",
+  "translation": "您想要立即更新吗？"
+ },
+ {
+  "context": "QObject",
+  "source": "Yesterday",
+  "comment": "",
+  "translation": "昨天"
+ },
+ {
+  "context": "QObject",
+  "source": "You do not have permission to access. Click \"OK\" to exit.",
+  "comment": "",
+  "translation": "您没有权限访问，点击“确定”按钮退出。"
+ },
+ {
+  "context": "QObject",
+  "source": "You don't have to sit at the computer for hours.",
+  "comment": "",
+  "translation": "您大可不必一直等在电脑前。"
+ },
+ {
+  "context": "QObject",
+  "source": "You may directly load scan session for recovery next time to avoid rescanning.",
+  "comment": "",
+  "translation": "后续您可以可导入扫描结果直接恢复，无需再次扫描。"
+ },
+ {
+  "context": "QObject",
+  "source": "You may now",
+  "comment": "",
+  "translation": "您可先"
+ },
+ {
+  "context": "QObject",
+  "source": "You may try possible BitLocker keys to decryption again.",
+  "comment": "",
+  "translation": "您可以输入其他可能的 BitLocker 密钥，再进行解密。"
+ },
+ {
+  "context": "QObject",
+  "source": "Your files are high recoverable.",
+  "comment": "",
+  "translation": "您的文件高度可恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "Your files are highly recoverable - unlock full recovery now.",
+  "comment": "",
+  "translation": "您的文件高度可恢复——立即解锁完整恢复功能。"
+ },
+ {
+  "context": "QObject",
+  "source": "Your subscription has expired.",
+  "comment": "",
+  "translation": "您的订阅已过期。"
+ },
+ {
+  "context": "QObject",
+  "source": "audio: artist of the audio, such as Beyonce, Michael Jackson, etc.",
+  "comment": "",
+  "translation": "音频：歌曲的演唱者，如Beyonce，Michael Jackson等。"
+ },
+ {
+  "context": "QObject",
+  "source": "contact support.",
+  "comment": "",
+  "translation": "联系技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "corrupted photos, videos & documents",
+  "comment": "",
+  "translation": "受损照片、视频和文档"
+ },
+ {
+  "context": "QObject",
+  "source": "documents: who created the document, such as Admin, etc.",
+  "comment": "",
+  "translation": "文档：文档的创建者，如管理员等。"
+ },
+ {
+  "context": "QObject",
+  "source": "file extensions, such as JPG, PNG, MP4 adn MP3, etc.",
+  "comment": "",
+  "translation": "文件的扩展名，如JPG，PNG，MP4，MP3等。"
+ },
+ {
+  "context": "QObject",
+  "source": "for further assistance or",
+  "comment": "",
+  "translation": "获取更多帮助或"
+ },
+ {
+  "context": "QObject",
+  "source": "for technical assistance in enabling SSH?",
+  "comment": "",
+  "translation": "获取技术支持，帮您“开启SSH”"
+ },
+ {
+  "context": "QObject",
+  "source": "for technical assistance.",
+  "comment": "",
+  "translation": "获取技术支持。"
+ },
+ {
+  "context": "QObject",
+  "source": "free recovery remaining.",
+  "comment": "",
+  "translation": "免费可恢复量"
+ },
+ {
+  "context": "QObject",
+  "source": "has no drive letter (like C/D/E), which accidentally got lost by partition deletion, resize and so on.",
+  "comment": "",
+  "translation": "在分区删除或调整等操作中误丢失了盘符（如C、D、E等）的分区。"
+ },
+ {
+  "context": "QObject",
+  "source": "in this way",
+  "comment": "",
+  "translation": "试试这样"
+ },
+ {
+  "context": "QObject",
+  "source": "is active to restore your fragmented media.",
+  "comment": "",
+  "translation": "已启用，用于恢复您的碎片化媒体文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "load scan session",
+  "comment": "",
+  "translation": "导入扫描结果"
+ },
+ {
+  "context": "QObject",
+  "source": "loading failed,",
+  "comment": "",
+  "translation": "加载失败，"
+ },
+ {
+  "context": "QObject",
+  "source": "nas server failure or RAID hardware issues.",
+  "comment": "",
+  "translation": "网路存储服务器故障、RAID硬件问题等"
+ },
+ {
+  "context": "QObject",
+  "source": "or",
+  "comment": "",
+  "translation": "或"
+ },
+ {
+  "context": "QObject",
+  "source": "or sending an email to",
+  "comment": "",
+  "translation": "或邮件方式"
+ },
+ {
+  "context": "QObject",
+  "source": "others: not support for tag extraction yet, etc.",
+  "comment": "",
+  "translation": "其他：暂不支持标签提取。"
+ },
+ {
+  "context": "QObject",
+  "source": "picture and video: where you lost data, such as Canon, GoPro, etc.",
+  "comment": "",
+  "translation": "照片和视频：丢失数据的设备类型，如Canon, GoPro等。"
+ },
+ {
+  "context": "QObject",
+  "source": "preview without any interruptions",
+  "comment": "",
+  "translation": "预览文件，不被打断"
+ },
+ {
+  "context": "QObject",
+  "source": "recovery chances expected.",
+  "comment": "",
+  "translation": "预计恢复概率。"
+ },
+ {
+  "context": "QObject",
+  "source": "recovery from PC & NAS server",
+  "comment": "",
+  "translation": "恢复PC和NAS中的数据"
+ },
+ {
+  "context": "QObject",
+  "source": "recovery unavailable.",
+  "comment": "",
+  "translation": "不支持保存"
+ },
+ {
+  "context": "QObject",
+  "source": "starting a Chat",
+  "comment": "",
+  "translation": "在线咨询"
+ },
+ {
+  "context": "QObject",
+  "source": "support@easeus.com",
+  "comment": "",
+  "translation": "support@easeus.com"
+ },
+ {
+  "context": "QObject",
+  "source": "technical support from EaseUS",
+  "comment": "",
+  "translation": "易我技术支持"
+ },
+ {
+  "context": "QObject",
+  "source": "to recover other data or manually check the recovered file.",
+  "comment": "",
+  "translation": "恢复更多数据或手动检查确认已恢复的文件。"
+ },
+ {
+  "context": "QObject",
+  "source": "unavailable.",
+  "comment": "",
+  "translation": "不支持"
+ },
+ {
+  "context": "QObject",
+  "source": "when there are several lost partitions after formating or partition loss and you are sonfused.",
+  "comment": "",
+  "translation": "格式化或删除分区后，有多个丢失分区，让我很困惑。"
+ },
+ {
+  "context": "QObject",
+  "source": "when you are not sure which drive you lost data from; or",
+  "comment": "",
+  "translation": "我不确定数据是从哪个磁盘丢失的"
+ },
+ {
+  "context": "QObject",
+  "source": "when you lost data, such as today, yesterday, last week, etc.",
+  "comment": "",
+  "translation": "丢失数据的日期，如今天，昨天，上周等。"
+ },
+ {
+  "context": "QObject",
+  "source": "yet to be recovered.",
+  "comment": "",
+  "translation": "还未恢复。"
+ },
+ {
+  "context": "QObject",
+  "source": "you may directly",
+  "comment": "",
+  "translation": "您可直接"
+ },
+ {
+  "context": "QObject",
+  "source": "your files stay safe on your device.",
+  "comment": "",
+  "translation": "您的文件安全保存在您的设备上。"
+ }
+]
