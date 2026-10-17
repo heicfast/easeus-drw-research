@@ -1,0 +1,66 @@
+
+md5                     be9b8c73149636f576130ec8bbdd2e0c                        
+sha1                    983e2c3079f1b878b941d4721b562e1d684b7b8b                
+sha256                  efc36f2b7e87ece90833a7dcaa54bd590db304c1e4294dcc208963d…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 07:57:14.685674                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          899                                                     
+library function count  193                                                     
+total feature count     58399                                                   
+
+parse credit card information
+namespace  collection/credit-card
+scope      function              
+matches    0x180013940           
+
+encode data using XOR
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x180011180                   
+
+hash data using fnv
+namespace    data-manipulation/hashing/fnv                                      
+description  can be any Fowler-Noll-Vo (FNV) hash variant, including FNV-1,     
+             FNV-1a, FNV-0                                                      
+scope        function                                                           
+matches      0x180011160                                                        
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+read .ini file
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x1800022B0                      
+
+read file on Windows (2 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x1800269F0                      
+           0x18003A350                      
+
+write file on Windows (4 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x180007D00                       
+           0x180026910                       
+           0x180026FD0                       
+           0x180027320                       
+
+resolve function by parsing PE exports (2 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x180007550 
+           0x18001EC60 
+
+
+

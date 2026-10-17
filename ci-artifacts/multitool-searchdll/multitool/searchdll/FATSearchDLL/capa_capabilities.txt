@@ -1,0 +1,90 @@
+
+md5                     20fd6d3be4e8f270541e865bbed4f75d                        
+sha1                    40b1d80462ff24d1055ca794431f32c35bd1d973                
+sha256                  df10bd481377721fd701d5c8241274b49617490da1cf5bf339f266c…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 07:52:55.984794                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          905                                                     
+library function count  200                                                     
+total feature count     61488                                                   
+
+contain obfuscated stackstrings (2 matches)
+namespace  anti-analysis/obfuscation/string/stackstring
+scope      basic block                                 
+matches    0x180028833                                 
+           0x180036833                                 
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+interact with driver via IOCTL
+namespace  host-interaction/driver
+scope      instruction            
+matches    0x180043BED            
+
+delete file
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x180043DB0                        
+
+check if file exists
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x180043B00                        
+
+read .ini file (2 matches)
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x180005230                      
+           0x180020930                      
+
+read file on Windows
+namespace  host-interaction/file-system/read
+scope      function                         
+matches    0x1800195D0                      
+
+clear file content
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x180043B00                       
+
+write file on Windows (4 matches)
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x180005630                       
+           0x1800194F0                       
+           0x180019BB0                       
+           0x18001A5C0                       
+
+link function at runtime on Windows (6 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x18001325C            
+           0x1800132CB            
+           0x1800133C7            
+           0x180024F2C            
+           0x180024F9B            
+           0x180025097            
+
+parse PE header (2 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x1800245B0 
+           0x18002D920 
+
+resolve function by parsing PE exports
+namespace  load-code/pe
+scope      function    
+matches    0x180034170 
+
+
+

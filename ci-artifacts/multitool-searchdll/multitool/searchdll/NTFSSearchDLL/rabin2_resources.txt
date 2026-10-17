@@ -1,0 +1,8 @@
+WARN: Relocs has not been applied. Please use `-e bin.relocs.apply=true` or `-e bin.cache=true` next time
+Resource 0
+  name: 2
+  timestamp: Tue Jan  1 00:02:00 1980
+  vaddr: 0x18008e060
+  size: 381
+  type: MANIFEST
+  language: LANG_ENGLISH

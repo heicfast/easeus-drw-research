@@ -1,0 +1,82 @@
+
+md5                     a0c25d2dda25ff73ce295ba10e1e18d3                        
+sha1                    5674835de0a38194bef1c46475d9f550baa55453                
+sha256                  7e314d1511c605e5267fbfe72163023af12e9280e7a30b013b2a1d4…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 08:12:08.099079                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x180000000                                             
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          330                                                     
+library function count  94                                                      
+total feature count     20171                                                   
+
+compute adler32 checksum
+namespace  data-manipulation/checksum/adler32
+scope      function                          
+matches    0x180014C00                       
+
+hash data with CRC32
+namespace  data-manipulation/checksum/crc32
+scope      function                        
+matches    0x180014EE0                     
+
+compress data via ZLIB inflate or deflate
+namespace  data-manipulation/compression
+scope      function                     
+matches    0x180011550                  
+
+encode data using XOR (3 matches)
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x18000E0E0                   
+           0x180014F31                   
+           0x180015160                   
+
+encrypt data using RC4 PRGA
+namespace  data-manipulation/encryption/rc4
+scope      function                        
+matches    0x180012190                     
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+interact with driver via IOCTL
+namespace  host-interaction/driver
+scope      instruction            
+matches    0x1800152D1            
+
+delete file
+namespace  host-interaction/file-system/delete
+scope      function                           
+matches    0x180015470                        
+
+check if file exists
+namespace  host-interaction/file-system/exists
+scope      function                           
+matches    0x1800151E0                        
+
+clear file content
+namespace  host-interaction/file-system/write
+scope      function                          
+matches    0x1800151E0                       
+
+enumerate PE sections
+namespace  load-code/pe
+scope      function    
+matches    0x180013560 
+
+resolve function by parsing PE exports (2 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x18000ECC0 
+           0x1800111A0 
+
+
+

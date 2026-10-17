@@ -1,0 +1,5 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib              name                     demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x00010b50 0x180011750 GLOBAL FUNC 0    ZfsSearchDLL.dll EUCreateZFSQuickSearcher
+2   0x00010a60 0x180011660 GLOBAL FUNC 0    ZfsSearchDLL.dll EUCreateZFSSearcher

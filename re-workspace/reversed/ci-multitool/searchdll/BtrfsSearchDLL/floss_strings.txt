@@ -1,0 +1,2111 @@
+INFO: floss: extracting static strings
+.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing programfinding decoding function features:   0%|          | 0/424 [00:00<?, ? functions/s, skipped 0 library functions]finding decoding function features:   0%|          | 0/424 [00:00<?, ? functions/s, skipped 1 library functions (0%)]finding decoding function features:   0%|          | 0/424 [00:00<?, ? functions/s, skipped 2 library functions (0%)]finding decoding function features:   0%|          | 0/424 [00:00<?, ? functions/s, skipped 3 library functions (0%)]finding decoding function features:   0%|          | 0/424 [00:00<?, ? functions/s, skipped 4 library functions (0%)]finding decoding function features:   0%|          | 0/424 [00:00<?, ? functions/s, skipped 5 library functions (1%)]finding decoding function features:   0%|          | 0/424 [00:00<?, ? functions/s, skipped 6 library functions (1%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 6 library functions (1%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 7 library functions (1%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 8 library functions (1%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 9 library functions (2%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 10 library functions (2%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 11 library functions (2%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 12 library functions (2%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 13 library functions (3%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 14 library functions (3%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 15 library functions (3%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 16 library functions (3%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 17 library functions (4%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 18 library functions (4%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 19 library functions (4%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 20 library functions (4%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 21 library functions (4%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 22 library functions (5%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 23 library functions (5%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 24 library functions (5%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 25 library functions (5%)]finding decoding function features:  19%|█▉        | 80/424 [00:00<00:00, 779.06 functions/s, skipped 26 library functions (6%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 26 library functions (6%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 27 library functions (6%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 28 library functions (6%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 29 library functions (6%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 30 library functions (7%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 31 library functions (7%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 32 library functions (7%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 33 library functions (7%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 34 library functions (8%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 35 library functions (8%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 36 library functions (8%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 37 library functions (8%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 38 library functions (8%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 39 library functions (9%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 40 library functions (9%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 41 library functions (9%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 42 library functions (9%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 43 library functions (10%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 44 library functions (10%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 45 library functions (10%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 46 library functions (10%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 47 library functions (11%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 48 library functions (11%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 49 library functions (11%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 50 library functions (11%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 51 library functions (12%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 52 library functions (12%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 53 library functions (12%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 54 library functions (12%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 55 library functions (12%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 56 library functions (13%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 57 library functions (13%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 58 library functions (13%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 59 library functions (13%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 60 library functions (14%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 61 library functions (14%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 62 library functions (14%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 63 library functions (14%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 64 library functions (15%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 65 library functions (15%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 66 library functions (15%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 67 library functions (15%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 68 library functions (16%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 69 library functions (16%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 70 library functions (16%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 71 library functions (16%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 72 library functions (16%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 73 library functions (17%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 74 library functions (17%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 75 library functions (17%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 76 library functions (17%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 77 library functions (18%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 78 library functions (18%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 79 library functions (18%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 80 library functions (18%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 81 library functions (19%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 82 library functions (19%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 83 library functions (19%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 84 library functions (19%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 85 library functions (20%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 86 library functions (20%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 87 library functions (20%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 88 library functions (20%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 89 library functions (20%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 90 library functions (21%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 91 library functions (21%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 92 library functions (21%)]finding decoding function features:  54%|█████▍    | 230/424 [00:00<00:00, 1191.68 functions/s, skipped 93 library functions (21%)]finding decoding function features: 100%|██████████| 424/424 [00:00<00:00, 1452.09 functions/s, skipped 93 library functions (21%)]
+INFO: floss.stackstrings: extracting stackstrings from 285 functions
+extracting stackstrings:   0%|          | 0/285 [00:00<?, ? functions/s]extracting stackstrings:   1%|▏         | 4/285 [00:00<00:08, 34.17 functions/s]extracting stackstrings:   3%|▎         | 8/285 [00:00<00:08, 33.77 functions/s]extracting stackstrings:   4%|▍         | 12/285 [00:00<00:08, 33.25 functions/s]extracting stackstrings:   6%|▌         | 16/285 [00:00<00:08, 30.57 functions/s]extracting stackstrings:   7%|▋         | 20/285 [00:00<00:08, 30.18 functions/s]extracting stackstrings:   8%|▊         | 24/285 [00:00<00:08, 30.88 functions/s]extracting stackstrings:  10%|▉         | 28/285 [00:00<00:08, 29.87 functions/s]extracting stackstrings:  11%|█         | 32/285 [00:01<00:08, 30.92 functions/s]extracting stackstrings:  13%|█▎        | 36/285 [00:01<00:07, 31.28 functions/s]extracting stackstrings:  14%|█▍        | 40/285 [00:01<00:08, 29.98 functions/s]extracting stackstrings:  15%|█▌        | 44/285 [00:01<00:07, 30.69 functions/s]extracting stackstrings:  17%|█▋        | 48/285 [00:01<00:07, 30.26 functions/s]extracting stackstrings:  18%|█▊        | 52/285 [00:01<00:07, 30.10 functions/s]extracting stackstrings:  20%|█▉        | 56/285 [00:01<00:07, 29.09 functions/s]extracting stackstrings:  21%|██        | 60/285 [00:01<00:07, 29.23 functions/s]extracting stackstrings:  22%|██▏       | 63/285 [00:02<00:07, 28.82 functions/s]extracting stackstrings:  23%|██▎       | 66/285 [00:02<00:07, 27.46 functions/s]extracting stackstrings:  25%|██▍       | 70/285 [00:02<00:07, 28.52 functions/s]extracting stackstrings:  26%|██▌       | 74/285 [00:02<00:07, 29.48 functions/s]extracting stackstrings:  27%|██▋       | 78/285 [00:02<00:06, 30.21 functions/s]extracting stackstrings:  29%|██▉       | 82/285 [00:02<00:06, 29.56 functions/s]extracting stackstrings:  30%|███       | 86/285 [00:02<00:06, 30.77 functions/s]extracting stackstrings:  32%|███▏      | 90/285 [00:02<00:06, 31.44 functions/s]extracting stackstrings:  33%|███▎      | 94/285 [00:03<00:06, 29.44 functions/s]extracting stackstrings:  34%|███▍      | 98/285 [00:03<00:06, 30.45 functions/s]extracting stackstrings:  36%|███▌      | 102/285 [00:03<00:05, 31.19 functions/s]extracting stackstrings:  37%|███▋      | 106/285 [00:03<00:05, 31.36 functions/s]extracting stackstrings:  39%|███▊      | 110/285 [00:03<00:05, 30.45 functions/s]extracting stackstrings:  40%|████      | 114/285 [00:03<00:05, 31.39 functions/s]extracting stackstrings:  41%|████▏     | 118/285 [00:03<00:05, 31.63 functions/s]extracting stackstrings:  43%|████▎     | 122/285 [00:04<00:05, 30.42 functions/s]extracting stackstrings:  44%|████▍     | 126/285 [00:04<00:05, 31.22 functions/s]extracting stackstrings:  46%|████▌     | 130/285 [00:04<00:04, 31.69 functions/s]extracting stackstrings:  47%|████▋     | 134/285 [00:04<00:04, 30.30 functions/s]extracting stackstrings:  48%|████▊     | 138/285 [00:04<00:04, 31.40 functions/s]extracting stackstrings:  50%|████▉     | 142/285 [00:04<00:04, 32.30 functions/s]extracting stackstrings:  51%|█████     | 146/285 [00:04<00:04, 32.56 functions/s]extracting stackstrings:  53%|█████▎    | 150/285 [00:04<00:04, 31.25 functions/s]extracting stackstrings:  54%|█████▍    | 154/285 [00:05<00:04, 31.63 functions/s]extracting stackstrings:  55%|█████▌    | 158/285 [00:05<00:03, 31.85 functions/s]extracting stackstrings:  57%|█████▋    | 162/285 [00:05<00:04, 30.02 functions/s]extracting stackstrings:  58%|█████▊    | 166/285 [00:05<00:03, 30.80 functions/s]extracting stackstrings:  60%|█████▉    | 170/285 [00:05<00:03, 31.32 functions/s]extracting stackstrings:  61%|██████    | 174/285 [00:05<00:03, 31.28 functions/s]extracting stackstrings:  62%|██████▏   | 178/285 [00:05<00:04, 21.76 functions/s]extracting stackstrings:  64%|██████▍   | 182/285 [00:06<00:04, 23.92 functions/s]extracting stackstrings:  65%|██████▌   | 186/285 [00:06<00:03, 25.51 functions/s]extracting stackstrings:  66%|██████▋   | 189/285 [00:06<00:03, 25.14 functions/s]extracting stackstrings:  67%|██████▋   | 192/285 [00:06<00:03, 25.74 functions/s]extracting stackstrings:  69%|██████▉   | 196/285 [00:06<00:03, 27.80 functions/s]extracting stackstrings:  70%|███████   | 200/285 [00:06<00:02, 29.38 functions/s]extracting stackstrings:  72%|███████▏  | 204/285 [00:06<00:02, 29.06 functions/s]extracting stackstrings:  73%|███████▎  | 208/285 [00:06<00:02, 29.97 functions/s]extracting stackstrings:  74%|███████▍  | 212/285 [00:07<00:02, 29.64 functions/s]extracting stackstrings:  76%|███████▌  | 216/285 [00:07<00:02, 27.62 functions/s]extracting stackstrings:  77%|███████▋  | 219/285 [00:07<00:02, 27.90 functions/s]extracting stackstrings:  78%|███████▊  | 223/285 [00:07<00:02, 29.41 functions/s]extracting stackstrings:  80%|███████▉  | 227/285 [00:07<00:01, 30.55 functions/s]extracting stackstrings:  81%|████████  | 231/285 [00:07<00:01, 29.14 functions/s]extracting stackstrings:  82%|████████▏ | 235/285 [00:07<00:01, 30.25 functions/s]extracting stackstrings:  84%|████████▍ | 239/285 [00:08<00:01, 31.00 functions/s]extracting stackstrings:  85%|████████▌ | 243/285 [00:08<00:01, 29.92 functions/s]extracting stackstrings:  87%|████████▋ | 247/285 [00:08<00:01, 30.41 functions/s]extracting stackstrings:  88%|████████▊ | 251/285 [00:08<00:01, 31.24 functions/s]extracting stackstrings:  89%|████████▉ | 255/285 [00:08<00:00, 31.75 functions/s]extracting stackstrings:  91%|█████████ | 259/285 [00:08<00:00, 30.58 functions/s]extracting stackstrings:  92%|█████████▏| 263/285 [00:08<00:00, 31.26 functions/s]extracting stackstrings:  94%|█████████▎| 267/285 [00:08<00:00, 31.71 functions/s]extracting stackstrings:  95%|█████████▌| 271/285 [00:09<00:00, 30.16 functions/s]extracting stackstrings:  96%|█████████▋| 275/285 [00:09<00:00, 30.62 functions/s]extracting stackstrings:  98%|█████████▊| 279/285 [00:09<00:00, 31.12 functions/s]extracting stackstrings:  99%|█████████▉| 283/285 [00:09<00:00, 29.95 functions/s]extracting stackstrings: 100%|██████████| 285/285 [00:09<00:00, 29.89 functions/s]
+INFO: floss.tightstrings: extracting tightstrings from 26 functions...
+extracting tightstrings:   0%|          | 0/26 [00:00<?, ? functions/s]extracting tightstrings from function 0x180001b20:   0%|          | 0/26 [00:00<?, ? functions/s]extracting tightstrings from function 0x1800033d0:   0%|          | 0/26 [00:00<?, ? functions/s]extracting tightstrings from function 0x1800033d0:   8%|▊         | 2/26 [00:00<00:01, 19.09 functions/s]extracting tightstrings from function 0x180007340:   8%|▊         | 2/26 [00:00<00:01, 19.09 functions/s]extracting tightstrings from function 0x180008060:   8%|▊         | 2/26 [00:00<00:01, 19.09 functions/s]extracting tightstrings from function 0x180008060:  15%|█▌        | 4/26 [00:00<00:01, 16.45 functions/s]extracting tightstrings from function 0x180008410:  15%|█▌        | 4/26 [00:00<00:01, 16.45 functions/s]extracting tightstrings from function 0x1800085e0:  15%|█▌        | 4/26 [00:00<00:01, 16.45 functions/s]extracting tightstrings from function 0x180009180:  15%|█▌        | 4/26 [00:00<00:01, 16.45 functions/s]extracting tightstrings from function 0x180009180:  27%|██▋       | 7/26 [00:00<00:00, 21.02 functions/s]extracting tightstrings from function 0x180009320:  27%|██▋       | 7/26 [00:00<00:00, 21.02 functions/s]extracting tightstrings from function 0x1800094d0:  27%|██▋       | 7/26 [00:00<00:00, 21.02 functions/s]extracting tightstrings from function 0x1800095a0:  27%|██▋       | 7/26 [00:00<00:00, 21.02 functions/s]extracting tightstrings from function 0x1800095a0:  38%|███▊      | 10/26 [00:00<00:00, 22.51 functions/s]extracting tightstrings from function 0x18000a590:  38%|███▊      | 10/26 [00:00<00:00, 22.51 functions/s]extracting tightstrings from function 0x18000a6e0:  38%|███▊      | 10/26 [00:00<00:00, 22.51 functions/s]extracting tightstrings from function 0x18000abb0:  38%|███▊      | 10/26 [00:00<00:00, 22.51 functions/s]extracting tightstrings from function 0x18000abb0:  50%|█████     | 13/26 [00:00<00:00, 24.87 functions/s]extracting tightstrings from function 0x18000ad80:  50%|█████     | 13/26 [00:00<00:00, 24.87 functions/s]extracting tightstrings from function 0x18000afe0:  50%|█████     | 13/26 [00:00<00:00, 24.87 functions/s]extracting tightstrings from function 0x18000b4b0:  50%|█████     | 13/26 [00:00<00:00, 24.87 functions/s]extracting tightstrings from function 0x18000b570:  50%|█████     | 13/26 [00:00<00:00, 24.87 functions/s]extracting tightstrings from function 0x18000b570:  65%|██████▌   | 17/26 [00:00<00:00, 27.01 functions/s]extracting tightstrings from function 0x18000bab0:  65%|██████▌   | 17/26 [00:00<00:00, 27.01 functions/s]extracting tightstrings from function 0x18000ccb0:  65%|██████▌   | 17/26 [00:00<00:00, 27.01 functions/s]extracting tightstrings from function 0x18000cdc0:  65%|██████▌   | 17/26 [00:00<00:00, 27.01 functions/s]extracting tightstrings from function 0x18000cdc0:  77%|███████▋  | 20/26 [00:00<00:00, 24.31 functions/s]extracting tightstrings from function 0x18000cdf0:  77%|███████▋  | 20/26 [00:00<00:00, 24.31 functions/s]extracting tightstrings from function 0x18000f470:  77%|███████▋  | 20/26 [00:00<00:00, 24.31 functions/s]extracting tightstrings from function 0x1800103e0:  77%|███████▋  | 20/26 [00:00<00:00, 24.31 functions/s]extracting tightstrings from function 0x1800103e0:  88%|████████▊ | 23/26 [00:01<00:00, 21.07 functions/s]extracting tightstrings from function 0x180012190:  88%|████████▊ | 23/26 [00:01<00:00, 21.07 functions/s]extracting tightstrings from function 0x180012630:  88%|████████▊ | 23/26 [00:01<00:00, 21.07 functions/s]extracting tightstrings from function 0x180014220:  88%|████████▊ | 23/26 [00:01<00:00, 21.07 functions/s]extracting tightstrings from function 0x180014220: 100%|██████████| 26/26 [00:01<00:00, 15.59 functions/s]extracting tightstrings from function 0x180014220: 100%|██████████| 26/26 [00:01<00:00, 19.35 functions/s]
+INFO: floss.string_decoder: decoding strings
+decoding strings:   0%|          | 0/25 [00:00<?, ? functions/s]emulating function 0x180014ee0 (call 1/8):   0%|          | 0/25 [00:00<?, ? functions/s]emulating function 0x180014ee0 (call 2/8):   0%|          | 0/25 [00:00<?, ? functions/s]emulating function 0x180014ee0 (call 3/8):   0%|          | 0/25 [00:00<?, ? functions/s]emulating function 0x180014ee0 (call 4/8):   0%|          | 0/25 [00:00<?, ? functions/s]emulating function 0x180014ee0 (call 4/8):   4%|▍         | 1/25 [00:00<00:11,  2.07 functions/s]emulating function 0x180014780 (call 1/1):   4%|▍         | 1/25 [00:00<00:11,  2.07 functions/s]emulating function 0x180014780 (call 1/1):  12%|█▏        | 3/25 [00:00<00:05,  3.90 functions/s]emulating function 0x180007340 (call 1/1):  12%|█▏        | 3/25 [00:00<00:05,  3.90 functions/s]emulating function 0x180002f50 (call 1/1):  12%|█▏        | 3/25 [00:00<00:05,  3.90 functions/s]emulating function 0x180002f50 (call 1/1):  20%|██        | 5/25 [00:00<00:03,  6.19 functions/s]emulating function 0x180004de0 (call 1/1):  20%|██        | 5/25 [00:01<00:03,  6.19 functions/s]emulating function 0x180004de0 (call 1/1):  24%|██▍       | 6/25 [00:01<00:02,  6.68 functions/s]emulating function 0x180014c00 (call 1/1):  24%|██▍       | 6/25 [00:01<00:02,  6.68 functions/s]emulating function 0x180014c00 (call 1/1):  28%|██▊       | 7/25 [00:01<00:03,  5.34 functions/s]emulating function 0x18000a8c0 (call 1/2):  28%|██▊       | 7/25 [00:01<00:03,  5.34 functions/s]emulating function 0x18000a8c0 (call 2/2):  28%|██▊       | 7/25 [00:01<00:03,  5.34 functions/s]emulating function 0x18000b140 (call 1/2):  28%|██▊       | 7/25 [00:01<00:03,  5.34 functions/s]emulating function 0x18000b140 (call 2/2):  28%|██▊       | 7/25 [00:01<00:03,  5.34 functions/s]emulating function 0x18000b140 (call 2/2):  36%|███▌      | 9/25 [00:01<00:02,  6.81 functions/s]emulating function 0x180010090 (call 1/3):  36%|███▌      | 9/25 [00:01<00:02,  6.81 functions/s]emulating function 0x180010090 (call 2/3):  36%|███▌      | 9/25 [00:01<00:02,  6.81 functions/s]emulating function 0x180010090 (call 3/3):  36%|███▌      | 9/25 [00:01<00:02,  6.81 functions/s]emulating function 0x180010090 (call 3/3):  40%|████      | 10/25 [00:01<00:02,  6.63 functions/s]emulating function 0x1800049c0 (call 1/2):  40%|████      | 10/25 [00:01<00:02,  6.63 functions/s]emulating function 0x1800049c0 (call 2/2):  40%|████      | 10/25 [00:01<00:02,  6.63 functions/s]emulating function 0x1800049c0 (call 2/2):  44%|████▍     | 11/25 [00:01<00:02,  6.52 functions/s]emulating function 0x180009bd0 (call 1/1):  44%|████▍     | 11/25 [00:01<00:02,  6.52 functions/s]emulating function 0x180009bd0 (call 1/1):  52%|█████▏    | 13/25 [00:02<00:01,  8.97 functions/s]emulating function 0x180005af0 (call 1/1):  52%|█████▏    | 13/25 [00:02<00:01,  8.97 functions/s]emulating function 0x180006560 (call 1/3):  52%|█████▏    | 13/25 [00:02<00:01,  8.97 functions/s]emulating function 0x180006560 (call 2/3):  52%|█████▏    | 13/25 [00:02<00:01,  8.97 functions/s]emulating function 0x180006560 (call 3/3):  52%|█████▏    | 13/25 [00:02<00:01,  8.97 functions/s]emulating function 0x180006560 (call 3/3):  60%|██████    | 15/25 [00:02<00:01,  9.09 functions/s]emulating function 0x18000b800 (call 1/2):  60%|██████    | 15/25 [00:02<00:01,  9.09 functions/s]emulating function 0x18000b800 (call 2/2):  60%|██████    | 15/25 [00:02<00:01,  9.09 functions/s]emulating function 0x18000bbb0 (call 1/2):  60%|██████    | 15/25 [00:02<00:01,  9.09 functions/s]emulating function 0x18000bbb0 (call 2/2):  60%|██████    | 15/25 [00:02<00:01,  9.09 functions/s]emulating function 0x18000bbb0 (call 2/2):  68%|██████▊   | 17/25 [00:02<00:00,  9.07 functions/s]emulating function 0x18000be60 (call 1/2):  68%|██████▊   | 17/25 [00:02<00:00,  9.07 functions/s]emulating function 0x18000be60 (call 2/2):  68%|██████▊   | 17/25 [00:02<00:00,  9.07 functions/s]emulating function 0x18000be60 (call 2/2):  72%|███████▏  | 18/25 [00:02<00:00,  9.17 functions/s]emulating function 0x18000c1f0 (call 1/1):  72%|███████▏  | 18/25 [00:02<00:00,  9.17 functions/s]emulating function 0x180011550 (call 1/1):  72%|███████▏  | 18/25 [00:02<00:00,  9.17 functions/s]emulating function 0x180011550 (call 1/1):  80%|████████  | 20/25 [00:02<00:00, 10.75 functions/s]emulating function 0x1800094d0 (call 1/3):  80%|████████  | 20/25 [00:02<00:00, 10.75 functions/s]emulating function 0x1800094d0 (call 2/3):  80%|████████  | 20/25 [00:02<00:00, 10.75 functions/s]emulating function 0x1800094d0 (call 3/3):  80%|████████  | 20/25 [00:02<00:00, 10.75 functions/s]emulating function 0x18000b4b0 (call 1/1):  80%|████████  | 20/25 [00:02<00:00, 10.75 functions/s]emulating function 0x18000b4b0 (call 1/1):  88%|████████▊ | 22/25 [00:02<00:00,  9.32 functions/s]emulating function 0x18000b570 (call 1/3):  88%|████████▊ | 22/25 [00:02<00:00,  9.32 functions/s]emulating function 0x18000b570 (call 2/3):  88%|████████▊ | 22/25 [00:03<00:00,  9.32 functions/s]emulating function 0x18000b570 (call 3/3):  88%|████████▊ | 22/25 [00:03<00:00,  9.32 functions/s]emulating function 0x18000bab0 (call 1/2):  88%|████████▊ | 22/25 [00:03<00:00,  9.32 functions/s]emulating function 0x18000bab0 (call 2/2):  88%|████████▊ | 22/25 [00:03<00:00,  9.32 functions/s]emulating function 0x18000bab0 (call 2/2):  96%|█████████▌| 24/25 [00:03<00:00,  8.51 functions/s]emulating function 0x18000bab0 (call 2/2): 100%|██████████| 25/25 [00:03<00:00,  7.68 functions/s]
+INFO: floss: finished execution after 36.76 seconds
+INFO: floss: rendering results
+
+
+FLARE FLOSS RESULTS (version 3.2.0)
+
++------------------------+-----------------------------------------------------+
+| file path              | og-codebase/BtrfsSearchDLL.dll                      |
+| identified language    | unknown                                             |
+| extracted strings      |                                                     |
+|  static strings        | 2051 (14530 characters)                             |
+|   language strings     |    0 (    0 characters)                             |
+|  stack strings         | 0                                                   |
+|  tight strings         | 0                                                   |
+|  decoded strings       | 0                                                   |
++------------------------+-----------------------------------------------------+
+
+
+ ───────────────────────────── 
+  FLOSS STATIC STRINGS (2051)  
+ ───────────────────────────── 
+
++------------------------------------+
+| FLOSS STATIC STRINGS: ASCII (2047) |
++------------------------------------+
+
+!This program cannot be run in DOS mode.
+Rich
+.text
+`.rdata
+@.data
+.pdata
+@.rsrc
+@.reloc
+t$8H
+\$0H
+T$(H
+D$hH
+D$0L;
+K8H;
+L$hL
+D$0L;
+T$pI
+L$hH
+T$0H;
+t$hH
+T$pH
+T$pH;
+L$hH
+T$0H;
+t$8H
+\$0H
+\$0E3
+\$8H
+t$@H
+\$0H
+|$ AVH
+l$0H
+l$0H+
+\$8H
+t$@H
+|$HH
+D$0H9P
+D$0H
+WATAUAVAWH
+D$pH
+l$ M
+l$ M
+l$ M
+gfff
+t"Hc
+\$@I
+A_A^A]A\_
+@VWAVH
+\$XH
+l$`E
+D$PH
+D$PH
+@wlH
+u\tHc
+\$XH
+l$`H
+0A^_^
+UVWATAUAVAWH
+HcR.LcC*I
+|$8H
+|$@E3
+D$8H
+t$@H+
+t$@H
+t$@H+
+t$@H
+t$8H
+HcW.LcE.H
+D$ L
+H;]x
+PA_A^A]A\_^]
+@WATAUAVAWH
+\$`H
+l$hH
+t$pI
+D$ E3
+D$ H
+\$ H
+\$`H
+l$hH
+t$pH
+0A_A^A]A\_
+@UVWATAUAVAWH
+t$(H
+D$ L
+D$ L
+`A_A^A]A\_^]
+@SUVWATAUAVAWH
+H9N0
+VXH9P s
+A H9FXs
+q(E3
+D$0L
+t$8H
+T$0I
+D$ H
+T$0I
+l$0I
+L$0M
+|$0H
+hA_A^A]A\_^][
+D$@L
+l$PL
+D$@H
+\$@H;\$HtPff
+l$0H
+D$0H
+D$ L
+H;\$Hu
+D$@M
+|$HL;
+D$@H
+L$PI+
+L$ L
+D$PH
+t$HL
+L$@H
+l$`L
+l$XM
+|$pf
+<.Ic
+l$PH
+D$@L
+d$8H
+D$0N
+D$(L
+D$@H
+t$HD
+l$XH
+l$`H
+t$HI;
+|$pI
+\$0f
+l$0H
+|$8H
+|$8H
+l$0H+
+\$@H
+t;WH
+\$0I
+\$0H
+H;>u
+|$0H
+\$8H
+tFH;
+\$0H
+\$0H
+\$0H
+\$0H
+@VWATAVH
+l$`H
+|$ H
+\$XL
+J'H;
+L$PH
+L$PN
+l$`H
+\$XL
+|$ H
+(A^A\_^
+L$ SWH
+D$PE3
+|$ H
+\$PH
+t$XH
+\$HH
+\$HH
+\$HH
+\$HH
+\$HH
+\$HH
+\$HH
+\$HH
+\$HH
+\$HH
+\$PH
+t$XH
+\$@H
+\$@H
+T$0H
+\$HH
+t$PH
+T$@H
+\$HH
+t$PH
+|$ AVH
+\$0H
+l$8H
+w8H;w0t$fff
+H;_0u
+w(H;w t$fff
+H;_ u
+t9fff
+wXH;wPt&
+H;_Pu
+tpfff
+H;_`u
+wHH;w@t'
+H;_@u
+l$8H
+\$0H
+t$@H
+|$HH
+VWATAVAWH
+T$pH
+\$pH
+C\$pH
+L$pH
+CL$p3
+0rw+
+T$Xf
+D$hH
+L$`L
+L$HM
+L$Xf
+T$0I
+L$(I
+L$ M
+D$QH
+L$pH
+A_A^A\_^
+SVAVAWH
+F0E3
+d$PH
+XA_A^^[
+t6D8
+D$ H
+D$8I
+L$0H
+D$(I
+f;H,v
+XA_A^^[
+\$ WH
+D$pH
+L$`H
+L$aH
+D$0H
+D$8H
+H9G u
+L$ H
+L$XL
+D$0H
+T$8H
+T$8H
+L$PH
+D$0I
+D$0I
+D$0I
+tVE3
+D$@H
+T$0H
+(D$@f
+L$0H
+L$@H
+(D$@f
+L$pH3
+D$hH
+L$PL
+D$0H
+T$82
+B8f9Z0
+D$0M
+D$03
+D$@H
+D$HI
+D$0H
+D$0H
+t1E3
+D$@H
+T$0H
+(D$@f
+D$0H
+L$hH3
+UVWATAUAVAWH
+@ fH
+D$HH;
+L$AM;
+T$PI
+fA9r,w4H
+`A_A^A]A\_^]
+L$0M
+L$0H
+C8H+
+L$0H
+\$ AVH
+\$HH
+l$03
+t$8H
+H\tL;
+H\tL;
+t$8H
+l$0H
+\$HM
+VWAVH
+D$hI
+|$hH
+|$8H
+L$0H
+T$0H
+D$0H
+t$0H
+T$0L
+\$`H
+l$pH
+@A^_^
+|$ H
+\$@H
+t$HH
+|$PH
+L9B(t
+H9{(u$M
+\$ H
+K(A8ydtZI
+tGH+
+H9{(u!M
+\$ M
+K(A8ydu
+|$ AVH
+\$PL
+\$PH
+l$XH
+t$`H
+|$hH
+L9A(t)D
+L9s(u$M
+\$ H
+D8qdt\H
+L9s(u$L
+\$ H
+T$0H
+%L9rp
+D$0H
+|$0I
+|$0E
+\$8H
+\$8H
+\$82
+@USVWATAUAVAWH
+B0f;
+H0f;
+H9G u
+D$ L
+D$ H
+D$ M
+A_A^A]A\_^[]
+l$ VWAVH
+D$hL
+D$@H
+H9E u
+\$ E3
+L$PL
+D$@H
+D$HH
+D$PI9
+D$XA8@
+fA9X0v
+L$0H
+\$8L
+D$8f
+\$0H
+D$8M
+D$0f
+80ubA
+xu[D
+L$hH3
+\$pI
+A^_^
+\$0H
+@SVWAVH
+D$IM
+D$0H
+D$8H9B u
+D$ E3
+L$@L
+D$0H
+\$8H
+T$@L
+D$HH
+[\tM;
+C0fA
+D;[&u
+fD;S*t1A
+vzfD+
+L$XH3
+hA^_^[
+@UVWATAUAVAWH
+L$ H
+H;C&
+:C.uzf
+C/f;
+D$@H
+D$HH
+D$PH
+D$Xf
+s?E2
+)D$@
+L$@M
+|$ E3
+A_A^A]A\_^]
+@USVWATAUAVAWH
+L$PH
+D$PH
+D$@H
+D$HE3
+H9C u
+t$ E3
+D$@H
+\$HH
+fD9s0v-L
+C0f;
+t!fE9wfu
+OfL9u
+fA9OfD
+t$1t
+\$0L
+t$XI
+t$`M
+t$h3
+D$pH
+\$0L
+L$@M
+L$@H
+L$@u
+D$pH
+T$@I
+(D$pf
+D$@H
+D$PH9
+T$@I
+L$pH
+J0fA
+d$hH
+T$(H
+L$ M
+L$XH
+tTL+
+gfffffffI
+d$hI
+D$ H
+L$XH
+tTL+
+gfffffffI
+A_A^A]A\_^[]
+D$XH
+D$HTI
+H9s u
+L$@L
+D$0H
+\$8H
+T$@L
+D$HL
+[\tM;
+L$(H
+H9Q s
+\t@8q
+H;P s
+\$xH
+L$XH3
+L$XH3
+\$0H
+\$0H
+@UVWATAUAVAWH
+D$h`H
+D$0H
+D$8H
+H9C u
+|$ E3
+L$`L
+D$0H
+D$@H
+D$HH
+L$8H
+T$`H;
+T$h:
+D$iH9A\t
+D$0I
+D$0H
+D$0u
+M9xpt$E3
+D$@H
+T$0H
+(D$@f
+D$0H
+L$`H
+D$8H9
+L$hH
+D$88H
+D$8H
+D$0I
+D$@H
+D$0H
+D$0u
+tnE3
+D$@H
+T$0H
+(D$@f
+D$0H
+L$`H
+D$8H9
+D$@H
+M0H3
+A_A^A]A\_^]
+l$ VWAWH
+H9J s
+H;H s
+t$pI
+H9Q s
+H;P s
+T$0H
+D$0H
+T$0H
+D$ H
+t$pA
+D$(L
+\$PI
+A__^
+|$ AVH
+D$@H
+D$P3
+T$HD
+D$pH
+L$@D
+t$XH
+D$xH
+UATAUAVAWH
+t<I+
+gfffffffH
+$I;\$
+|98L
+P(Hc
+R(Hc
+(I;\$
+A_A^A]A\]
+t$8H
+|$ H
+H;~0t(H
+H;^0u
+|$ H
+t$8H
+@UVH
+\$@H
+t$P3
+|$ L
+|$HL
+t$PA
+|$ H
+\$@H
+UVWATAUAVAWH
+OXH9H s
+C H9GXs
+D$ H
+OXH9H s
+C H9GXs
+*<lu
+EPE3
+GbH9
+H9H s
+H;H s
+wjfff
+EofD
+D$(H
+D$ L
+D$ H
+I;<$H
+A_A^A]A\_^]
+T$0H
+T$0H
+@USVWAVAWH
+L$PA
+D$PH
+D$0H
+T$PH
+D$ H
+T$0I
+L$PL
+A_A^_^[]
+\$0H
+\$0H
+H9y s
+H;x s
+D$0H
+T$PH
+D$ H
+T$0H
+H9x s
+H;{ s
+VWAUAVAWH
+H0fH
+D$PH
+D$IM;
+D$XI;
+t9fff
+R(Hc
+R(Hc
+H9X t\H
+D$PL
+D$ H
+\$@H
+\$pI
+A_A^A]_^
+@SVWH
+l$@L
+t$HL
+H;^ u
+|$PL
+t$HH
+l$@H
+ _^[
+@UVWATAUAVAWH
+E@fD
+I9D$
+u2ff
+A_A^A]A\_^]
+\$@H
+l$HH
+t$PH
+\$@H
+l$HH
+t$PH
+\$@H
+l$HH
+t$PH
+\$@H
+l$HH
+t$PH
+gfffffffH+
+\$@H
+l$HH
+t$PH
+\$@H
+l$HH
+t$PH
+\$0f
+T$0M
+|$0H
+|$0H
+\$8H
+l$@H
+\$0H
+t$8H
+l$ VH
+|$0H
+T$8H
+|$0H
+\$@H
+l$HH
+\$0H
+t$8H
+\$0H
+t$8H
+VWAWH
+t$@H=
+t$@H
+l$PH
+\$HH
+ A__^
+@WAVAWH
+\$PH
+l$XH
+t$`I
+u8L;
+u+H;A
+\$PH
+l$XH
+t$`H
+0A_A^_
+@WAVAWH
+\$PH
+l$XH
+t$`I
+u6L;
+u+H;A
+\$PH
+l$XH
+t$`H
+0A_A^_
+u-H;C
+t$8I
+|$@I
+\$0H
+u;H;P
+l$03
+l$0H
+\$8H
+t$@H
+\$0H
+@UWATAUAVH
+gfffffffM+
+fffffff
+t$`H
+|$hH
+\$XH
+H'H;
+L$PA
+L$PM
+t$`H
+\$XL
+|$hH
+ A^A]A\_]
+@SVWATAUAVAWH
+H'H;
+t$0Hi
+D$ J
+|$(H
+t$@I
+\$HH
+t$PI;
+\$HH
+D$ H
+`A_A^A]A\_^[
+WATAUAVAWH
+\$hH
+t$pI
+tvI;>t
+6H;>u I
+\$hH
+t$pH
+0A_A^A]A\_
+@SVAVH
+l$@H
+|$XM
+|$HL
+d$PH=
+d$`M
+d$PH
+|$HH
+l$@L
+|$XH
+ A^^[
+\$PH
+t$XI
+L$(L
+L$0H
+L$8I;
+t-ff
+|$0H
+\$PH
+t$XH
+\$XH
+\$XH
+\$XH
+t$`I
+I;P A
+D$(H
+|$ A
+H9H s.
+D$(H
+|$ E
+T$PH
+\$XH
+t$`H
+\$XM
+H;P0s
+D$(L
+\$ A
+H9H0s.
+D$(L
+\$ E
+T$PH
+\$XH
+\$HI
+D$@H
+\$HH
+\$PI
+\$PH
+effffff
+\$0H
+t$8H
+|$@H
+\$XH
+t$`H
+|$hM
+I;P A
+D$pH
+D$(A
+H9C s*H
+D$pH
+D$(E
+T$PH
+\$XH
+t$`H
+|$hH
+\$HH
+D$@f
+\$HH
+@WAVAWH
+\$hH
+t$pM
+I;P A
+t$(A
+T$`H9C s L
+t$(E
+\$hH
+t$pH
+@A_A^_
+\$PH
+t$XH
+D$@f
+|$HH
+\$PH
+t$XH
+\$XH
+t$`H
+|$hM
+I;P A
+D$pH
+D$(A
+H9C s*H
+D$pH
+D$(E
+T$PH
+\$XH
+t$`H
+|$hH
+\$0H
+t$8H
+|$@H
+SVWATAVAWH
+8A_A^A\_^[
+\$HH
+L$@H
+\$HH
+\$HH
+L$@H
+\$HH
+\$0H
+\$0H
+t$8H
+\$0H
+T$0M
+\$8H
+TUUUUUU
+\$0H
+\$XI
+\$0H
+\$HH
+D$@f
+\$HH
+\$XM
+L;@ A
+D$pH
+D$(E
+\$XH
+\$0H
+\$XI
+\$0H
+\$0H
+\$XI
+\$0H
+\$0H
+\$XI
+\$0H
+VWATAVAWH
+\$pA
+t$hD
+\$pH
+0A_A^A\_^
+VWATAVAWH
+\$pA
+t$hD
+\$pH
+0A_A^A\_^
+\$PH
+t$XH
+D$@f
+|$HH
+\$PH
+t$XH
+\$0H
+\$0H
+t/SH
+\$0H
+t$8H
+\$0H
+|$8H
+|$8H
+\$0H
+l$@H
+@SVWH
+D$HH
+T$HH
+D$HH
+T$@H
+ _^[
+t)A8
+D$PH
+T$PH
+D$PH
+ _^[
+@SVWH
+T$HA
+D$H3
+Fuf;
+D$H3
+D$HH
+T$@A
+t$PH
+PpHc
+ _^[
+ _^[
+\$@H
+l$HH
+t$PH
+H;N t
+H;^ u
+\$@H
+l$HH
+t$PH
+\$@H
+l$HH
+t$PH
+H;N0t"
+H;^0u
+\$@H
+l$HH
+t$PH
+\$0L
+t$8H
+@SAVH
+P(Hc
+t$hH
+|$pL
+d$@L
+l$8L
+_BHRfS_MH
+P(Hc
+tpL9n@t
+GHH9FHv
+l$8H
+l$`L
+d$@H
+|$pH
+t$hu
+|$0H
+HA^[
+HA^[
+@UVWATAUAVAWH
+N`D8fd
+D;n`
+D1vH
+D1~H
+;~`r
+kC`!
+A_A^A]A\_^]
+@UVWATAVH
+|$`H
+\$XI
+J'H;
+L$PA
+D$ A
+L$0A
+L$PM
+|$`H
+\$XH
+ A^A\_^]
+\$0H
+t$8H
+D$0H
+D$0L
+\$8H
+t$8H
+\$0H
+|$@H
+t$(H
+|$ H
+J'H;
+L$XH
+\$PH
+|$`L
+d$0N
+L$XH
+L$XH
+d$0H
+|$`H
+\$PH
+|$ L
+t$(H
+\$0H
+\$0H
+\$0H
+WhH+
+\$0H
+\$0H
+\$0H
+l$8H
+t$@H
+UhH+
+@SWH
+T$`$
+D$`H
+L$XH
+T$PH
+L$XH
+T$PH
+T$$A
+L$XH
+T$PH
+L$hD
+D$ H
+T$ A
+T$!L
+D$!A
+T$"L
+L$"H
+@SWH
+T$PA
+D$PH
+D$PA
+T$PA
+T$ A
+T$XA
+L$`H
+0OsH
+D$83
+@s H
+@r2Cr$
+A0@rH
+@r2Cr$
+A2@rA
+2Cr$
+Pr2Sr
+2SrA
+ChfA
+ClfA
+@l2Sr
+2SrA
+CsA2@s$
+A0@s
+A2Hs
+A2HsA
+Hs2Ks
+2KsA
+2Cs$
+@s2Cs$
+2CsA
+@t2Ct$
+A0@tA
+Ht2KtI
+A0HtH
+As H
+\$0H
+\$0H
+|$ AVH
+\$0H
+l$8H
+t$@H
+|$HH
+@SWH
+T$HL
+L$tH
+D$HH
+D$PH
+D$XH
+D$`H
+T$HH
+t$DD
+l$<D
+l$8L
+t$0D
+D$ A
+L$(E
+CpA;
+D$ A
+L$(E
+L$xH3
+D$P3
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+L$PH3
+@VAVH
+D$PL
+|$`3
+L$8H
+T$(I
+T$ H+
+D$ I
+L$PH3
+hA^^
+@SAVH
+(A^[
+t$@H
+T$HA
+t$HI
+D$PI
+D$PH
+;t$Hr
+t$@H
+(A^[
+Gr2Cr$
+\$0H
+\$0H
+\$0H
+\$0H
+\$0H
+\$0H
+\$0H
+\$0H
+\$0H
+\$0H
+\$0H
+\$0H
+\$03
+UATAUAVAWH
+\$PI
+A_A^A]A\]
+\$0H
+t$8H
+L$ WAVAWH
+tlI;
+\$@H
+l$HH
+t$PH
+ A_A^_
+D$@H
+D$ f
+L$@H3
+D$ H
+D$(H
+D$0H
+D$82
+L$@H3
+UVWATAUAVAWH
+I9](
+I9E0t
+MXL9M
+UXL9M
+UXL9M
+PA_A^A]A\_^]
+@WAVAWH
+\$hH
+l$pH
+t$xH
+l$(H
+l$0E3
+D$(L
+D$(H
+D$`H
+D$`H
+D$`H
+D$(H
+D$(H
+l$0H
+D$(H;
+D$(H;
+D$(H
+l$0H
+D$(H;
+D$(H;
+D$`H
+\$hH
+l$pH
+t$xH
+@A_A^_
+\$PH
+t$XH
+\$PH
+t$XH
+t$@H
+T$@H
+PpHcL$@
+D$@H
+\$PH
+t$XH
+\$HH
+\$PH
+t$XH
+L$8H
+\$0H
+t$@H
+l$8H
+t$@H
+\$0H
+@UVATAVAWH
+\$XH
+|$`H
+L$PB
+L$PM
+|$`I
+\$XH
+ A_A^A\^]
+\$0H
+\$8H
+t$@H
+F H;
+N H9F0t
+\$0H
+|$@H
+t$8H
+|$ AVH
+D$0H
+T$0I
+G(H;
+\$8H
+t$@H
+|$HH
+@SUATAWH
+T$hH
+d$hI
+D9d$h
+t$`H
+|$xL
+D$pL
+C(;l$h
+t$0H
+|$xH
+t$`H
+8A_A\][
+\$0H
+t$8H
+\$0H
+t$8H
+\$0H
+\$0H
+UATAUAWH
+T$ H
+D$ H
+\$pH
+|$xL
+|$8H
+t$@H
+HA_A]A\]
+t$0H
+|$83
+I@H9{8u
+H9~P
+H9~`
+H9~h
+H9{0
+H9{8
+t$0H
+|$8H
+|$8H
+C()x(H
+\$0H
+C(H9p
+C09p<t)H
+S0H9r
+9C8sx
+u;9r<t#A;
+9C8r
+C09p<t'A;
+v"A+
+9C8uW
+C0H9p 
+C09p<t+A;
+v&A+
+C09p<t&A;
+v!A+
+C0H9p0
+C09p<t+A;
+v&A+
+C09p<t&A;
+v!A+
+guVH
+C09p<tF
+9s(t
+u\t9w
+t`Hc
+u!E3
+\$@H
+C,9s(@
+t$8H
+\$@H
+t$83
+\$@H
+t$8H
+\$@H
+\$0H
+|$ ATAUAVAWD
+\$(A;
+l$0H
+t$8D
+|$@A
+A_A^A]A\
+l$ VATAVH
+|$@L
+D#F|D
+|$HH
+|$@H
+\$PH
+l$XH
+ A^A\^
+\$ UATAWH
+t$@A;
+|$HD
+t$PD
+D9r(D
+Fr(E
+F(D)p(H
+N(9i(u
+CDD+
+D9r(D
+Fr(E
+F(D)p(H
+N(9i(u
+t$PH
+|$HH
+t$@H
+\$XH
+ A_A\]
+)p(H
+G(9h(u
+WATAUAVAWH
+K`D3
+D#C|
+CLL#
+CDA+
+SLI#
+K`D3
+D#C|H
+D#C|D
+F()h(H
+N(D9y(u
+\$PH
+l$XH
+t$`H
+ A_A^A]A\_
+)p(H
+G(D9x(u
+WATAUAVAWH
+SLI#
+K`D3
+D#C|H
+KLH#
+CDA+
+w+D9
+K`D3
+D#K|
+CLL#
+KLH#
+\$PH
+l$XH
+t$`H
+ A_A^A]A\_
+F()h(
+D9q(u
+G()p(H
+W(D9r(u
+}:Ic
+v4Ic
+\$ UVWAUAWH
+d$8H+
+L$0M
+t$@L
+d$8E
+tsLc\$0
+\$HA_A]_^]
+D$ A
+xEE3
+L$ H3
+|$ ATAVAWH
+t%Hc
+\$@H
+l$HH
+t$PH
+|$XH
+ A_A^A\
+|$ D
+toD;
+|$ H
+l$8H
+|$@A
+@(fA
+P(fA
+@(fA
+P(fA
+@(fA
+\t~PE
+P(fD
+@(fA
+|$@H
+l$8H
+\$0H
+K(fA
+K(fA
+K(fA
+\$0H
+t$8H
+P(fA
+|$ AVH
+fD9P
+uKfD9
+uCfD9P
+u7fD9P
+u+fD9P
+fD9P
+K(fA
+K(fA
+C(fD
+\$0H
+l$8H
+t$@H
+|$HH
+@SAWH
+l$0H
+t$8H
+@(fA
+@(fA
+|$@H
+t$8H
+VWAVH
+t$8H
+L$xH
+t$(H
+t$ E3
+D$HH
+\$ D
+t$ E3
+PA^_^
+H;Ohv
+PA^_^
+|$p3
+PA^_^
+tCE3
+H9y@tP@8yXtJH
+\$0H
+T$(H
+D$ L
+D$HH
+T$ H
+D$8H
+D$@H
+T$8H
+D$0H
+D$XH
+D$ H
+D$ H
+D$(H
+D$(H
+T$ H
+D$ H
+L$0H
+D$(H
+L$0H
+D$(H
+L$(H+
+H;D$Hs
+D$ H
+D$ H
+D$HH
+L$ H
+D$0H
+L$ L
+D$pH
+T$hH
+D$ H
+D$(H
+D$0H
+D$ H
+D$8L
+D$0H
+T$8H
+D$ H
+D$ H
+L$ H
+|$ AVH
+\$0H
+t$8H
+|$HH
+D$@@
+\$0H
+t$@H
+VWAVH
+\$xH
+@A^_^
+\$0H
+t$8H
+\$@H
+\$@H
+t$HH
+t!eH
+L$PH
+\$0H
+l$8H
+t$@H
+D$ H
+D$ H
+D$ H
+D$ H
+uyHc
+uTL+
+D$8H
+D$8H
+D$@H
+@SVWH
+T$`H
+L$hH
+T$`L
+L$0L
+L$pH
+L$(3
+@_^[
+\$ UH
+M H1E
+ H3E H3E
+\$HH
+L$0L
+L$(H
+L$ 3
+L$PH
+D$PH
+D$@H
+D$H3
+\$0H
+\$0H
+\$0H
+ntelA
+GenuD
+ineI
+t(=`
+t!=p
+ w$H
+T$ H
+D$ $
+\$(3
+t$0H
+D$x9D$0
+HcD$0H
+HcD$0H
+D$!H
+D$!HcL$0H
+T$pH
+D$ HcL$0H
+T$pH
+T$!H
+HcD$4H
+D$(H
+D$(H
+D$(H-
+HcD$(H
+L$(H#
+L$(H+
+L$(H#
+L$(H+
+L$(H#
+L$(H+
+D$XH
+D$XH
+D$8H
+D$(H
+L$@H
+L$8H
+D$8H
+L$PH
+D$8H
+L$HH
+T$8H
+D$(H
+L$@H
+D$@H
+D$HH
+L$PH
+x AVH
+\$0H
+l$8H
+t$@H
+|$HH
+SUVWAVAWH
+T$ L
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+@eaDir
+list<T> too long
+vector<T> too long
+\BtrfsCache.txt
+.\BtrfsCache.txt
+Found sys chunk Offset=%lld, Size=%lld, RootID=%lld, Type=%lld, NumStripes=%d, DevOffset=%lld
+Found chunk Offset=%lld, Size=%lld, RootID=%lld, Type=%lld, NumStripes=%d, DevOffset=%lld
+no INODE_ITEMs in tree %I64x
+Add Root ID = %lld, Address = %lld, Generation = %lld
+could not find chunk for %I64x in bootstrap
+couldn't find INODE_ITEM for root directory
+could not find item (%I64x,%x,%I64x)
+(%I64x,%x,%I64x) was %u bytes, expected at least %Iu
+DIR_ITEM is truncated
+found xattr %s
+xattr %s not found
+btrfs.compression
+Build datarun unknown type:%d
+Exist ParentID=%lld, ID=%lld, FileName=%s, Size=%lld
+could not find (%I64x,%x,%I64x) in root tree
+(%I64x,%x,%I64x) was %u bytes, expected %Iu
+root DIR_ITEM had same CRC32, but was not "default"
+default root has key (%I64x,%x,%I64x), expected subvolume
+could not find root %I64x, using default instead
+user.DOSATTRIB
+Lost ParentID=%lld, ID=%lld, FileName=%s, Size=%lld
+Begin Scan Lost Files
+Lost scan chunk address=%lld, size=%lld
+string too long
+map/set<T> too long
+default
+zlib
+zstd
+user.
+')uB
+*\t5|z
+lEd/
+6 PQ
+pCRF
+Yg:a
+JZJ{.
+#FLR
+_QS}
+1.2.3
+\t\t\t\t\t\t\t\t
+ n;^
+Qkkbal
+i]Wb
+9a&g
+MGiI
+wn>Jj
+#.zf
++o*7
+Z* ,\t
+H$6t
+52F*
+\t#jT$
+^6o}
+[-&LMb#{'
+w+OQvr
+R1h58
+SKyu
+)\ZEo^m/
+ru&o
+i8P/
+?(3w
+H*0"ZOW
+{kHw
+)T`D
+!AxU
+l!;b\tF
+:1X:
+y9*O
+kM`~
+Vc0a
+dQy/
+lDa>
+7~8A
+C-Yn
+gqr<
+$/o|
+f-=v
+mj>zjZ
+l6qnk
+IiGM>nw
+1A26b
+i91k
+ewh/?y
+*5KS
+6~_'
+F*.f
+1wsHp
+M8MF
+Pe6^
+#bML"
+`F(>
+vQO+t
+[h1R
+XsBI
+hPU3
+^oEZ_
+2%k_
+w3Xc
+/P8i
+OZw3(?
+Z"0*
+fP~V
+^GP~
+b;!l
+V_:X1:
+NJ2"v
+O*9y]
+fu`z
+/yQA
+&]|v
+deque<T> too long
+FAT12
+FAT16
+FAT32
+NTFS
+EXT2
+EXT3
+EXT4
+ReFS
+EXFAT
+HFSPLUS
+need dictionary
+stream end
+file error
+stream error
+data error
+insufficient memory
+buffer error
+incompatible version
+Exception occurred.GetErrorCode
+RSDS
+E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\BtrfsSearchDLL.pdb
+GCTL
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data
+.data$r
+.bss
+.pdata
+.rsrc$01
+.rsrc$02
+BtrfsSearchDLL.dll
+EUCreateBtrfsComplateSearcher
+EUCreateBtrfsQuickSearcher
+?_Xlength_error@std@@YAXPEBD@Z
+?_Throw_C_error@std@@YAXH@Z
+_Mtx_destroy_in_situ
+_Mtx_lock
+_Mtx_init_in_situ
+_Mtx_unlock
+MSVCP140.dll
+__CxxFrameHandler3
+_purecall
+__std_terminate
+__C_specific_handler
+__std_type_info_destroy_list
+memset
+__std_exception_copy
+__std_exception_destroy
+_CxxThrowException
+VCRUNTIME140.dll
+_invalid_parameter_noinfo_noreturn
+__acrt_iob_func
+__stdio_common_vfprintf
+strncpy
+free
+malloc
+_initterm
+_initterm_e
+_callnewh
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+CreateFileA
+CloseHandle
+EnterCriticalSection
+LeaveCriticalSection
+InitializeCriticalSectionAndSpinCount
+DeleteCriticalSection
+SetEvent
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+GetProcAddress
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+InitializeSListHead
+IsDebuggerPresent
+KERNEL32.dll
+memcpy
+PathFileExistsW
+SHLWAPI.dll
+DeviceIoControl
+SetEndOfFile
+CreateFileW
+UnmapViewOfFile
+DeleteFileW
+SetFilePointerEx
+CreateFileMappingW
+MapViewOfFile
+memcmp
+memmove
+.?AVtype_info@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVCBtrfsQuickSearch@@
+.?AVIFileSystemSearchController@@
+.?AVIQuickFileSystemSearchController@@
+.?AVCSearchedBtrfsPartitionInfo@@
+.?AVCSearchedPartitionInfo@@
+.?AVIFileProperties@@
+.?AVCBtrfsFileProerties@@
+.?AVIDataRunList@@
+.?AVCBtrfsNoResidentDataRunList@@
+.?AVCFileNode@@
+.?AVCFileSystemNode@@
+.?AVCNoneResidentNTFSDataRunList@@
+.?AVCResidentNTFSDataRunList@@
+.?AVbad_alloc@std@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+N0L0
+DW]G
+0L1 0
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+\t7=gl
+Bng~B
+tsg1z
+~FoM
+5WG~
+PvtY
+n0l0-
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+/0-0+
+%http://crl.globalsign.com/root-r3.crl0G
+@0>0<
+0402
+&https://www.globalsign.com/repository/0
+{Z3n
+9Pv7
+b wul
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+{hew
+Pg,%MV
+bL}}
+_4[Qh1c
+h8@>
+SgNc
+jPeNS
+RNjOT
+~rZ*{
+}UN"
+(y0E
+JmZ6,/
+!h'o
+!gdv
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+:0806
+0http://crl.globalsign.com/codesigningrootr45.crl0V
+O0M0A
+20402
+&https://www.globalsign.com/repository/0
+8i_A@g
+LG&e
+mKY,
+X67d
+_&P+
+r)5S
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 20200
+260520025500Z
+270521025500Z0
+Sichuan1
+Chengdu100.
+'Chengdu Yiwo Tech Development Co., Ltd.100.
+'Chengdu Yiwo Tech Development Co., Ltd.0
++IE~
+x-tU
+>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+O0M0A
+20402
+&https://www.globalsign.com/repository/0
+>0<0:
+4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+!gdv
+1^1k
+xEU/
+/.<o
+YI7xj
+QeAn
+Y\+w
+U5@D<Y</
+w:WI
+tW2)
+/*MU
+0i0Y1
+GlobalSign nv-sa1/0-
+&GlobalSign GCC R45 CodeSigning CA 2020
+kC/0
+t4@-P
+CW\^w
+JA"E5
+'so"
+%i#&,
+FJG6R)z
+0f\SG
+ U,>
+20261013060601Z
+3O~EN
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+260805000000Z
+371104235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+W3E)
+et~H
+?eq"
+wq}V
+lTl"
+, P|
+ms8B
+@!z\0%=
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+X0V0T
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+~}(@
+kxXgMt
+W!yi
+rDN6
+8m)Y
+=+lu
+:"A#
+j\t\t6
+.@C"
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+P]&G
+"9<x:
+|4^o
+q)5U
+h`i<
+TxF4
+k cS
+q]dL
+k0i0$
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+<0:08
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+Dwj|
+:U|r*C
+o84s[
+a:m1&
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+t;mq
+u]xf
+v=Y]Bv
+p,A`
+RQGt
+|Lu?c
+ Qko
+q]dL
+m0k0$
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+>0<0:
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Jz/-
+5FjiT
+wZ\T
+~qj#k"
+T-'~
+0}0i1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+3O~EN
+261013060601Z0+
+/1(0&0$0"
+PGm5N
+]lTi
+5J4x
+'zU"N
+H,'z.<
+
+
++------------------------------------+
+| FLOSS STATIC STRINGS: UTF-16LE (4) |
++------------------------------------+
+
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+#+3;CScs
+!1Aa
+
+
+ ───────────────────────── 
+  FLOSS STACK STRINGS (0)  
+ ───────────────────────── 
+
+
+
+ ───────────────────────── 
+  FLOSS TIGHT STRINGS (0)  
+ ───────────────────────── 
+
+
+
+ ─────────────────────────── 
+  FLOSS DECODED STRINGS (0)  
+ ─────────────────────────── 
+
+
+

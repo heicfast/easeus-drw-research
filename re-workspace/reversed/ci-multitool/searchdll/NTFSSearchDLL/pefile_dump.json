@@ -1,0 +1,189 @@
+{
+ "machine": "0x8664",
+ "timestamp": 1791869512,
+ "subsystem": 2,
+ "entrypoint_rva": "0x3e4b4",
+ "image_base": "0x180000000",
+ "sections": [
+  {
+   "name": ".text",
+   "vaddr": "0x1000",
+   "vsize": 303756,
+   "rawsize": 304128,
+   "entropy": 6.107,
+   "characteristics": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "vaddr": "0x4c000",
+   "vsize": 237476,
+   "rawsize": 237568,
+   "entropy": 6.683,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "vaddr": "0x86000",
+   "vsize": 9016,
+   "rawsize": 2048,
+   "entropy": 3.839,
+   "characteristics": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "vaddr": "0x89000",
+   "vsize": 18888,
+   "rawsize": 18944,
+   "entropy": 5.783,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "vaddr": "0x8e000",
+   "vsize": 480,
+   "rawsize": 512,
+   "entropy": 4.725,
+   "characteristics": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "vaddr": "0x8f000",
+   "vsize": 824,
+   "rawsize": 1024,
+   "entropy": 4.832,
+   "characteristics": "0x42000040"
+  }
+ ],
+ "imports": {
+  "PubLog.dll": [
+   "?LogInfo@@YAXPEBDZZ"
+  ],
+  "MSVCP140.dll": [
+   "_Mtx_destroy_in_situ",
+   "_Mtx_init_in_situ",
+   "?_Xinvalid_argument@std@@YAXPEBD@Z",
+   "?_Xlength_error@std@@YAXPEBD@Z",
+   "?_Xout_of_range@std@@YAXPEBD@Z"
+  ],
+  "SHLWAPI.dll": [
+   "PathFileExistsW"
+  ],
+  "VCRUNTIME140.dll": [
+   "_CxxThrowException",
+   "__RTDynamicCast",
+   "memchr",
+   "__CxxFrameHandler3",
+   "_purecall",
+   "__std_terminate",
+   "strstr",
+   "memmove",
+   "__C_specific_handler",
+   "memcpy",
+   "__std_type_info_destroy_list",
+   "memset",
+   "memcmp"
+  ],
+  "api-ms-win-crt-runtime-l1-1-0.dll": [
+   "_cexit",
+   "terminate",
+   "_initterm_e",
+   "_crt_atexit",
+   "_configure_narrow_argv",
+   "_errno",
+   "_seh_filter_dll",
+   "_initialize_narrow_environment",
+   "_initialize_onexit_table",
+   "_register_onexit_function",
+   "_invalid_parameter_noinfo_noreturn",
+   "_execute_onexit_table",
+   "_initterm"
+  ],
+  "api-ms-win-crt-string-l1-1-0.dll": [
+   "strncpy",
+   "strcpy_s",
+   "_strnicmp",
+   "wcslen",
+   "wcsncmp",
+   "_stricmp",
+   "strlen",
+   "strcmp",
+   "tolower",
+   "_wcsicmp"
+  ],
+  "api-ms-win-crt-stdio-l1-1-0.dll": [
+   "__stdio_common_vfprintf",
+   "__stdio_common_vsprintf_s",
+   "__stdio_common_vswprintf_s",
+   "__stdio_common_vsprintf",
+   "__acrt_iob_func"
+  ],
+  "api-ms-win-crt-filesystem-l1-1-0.dll": [
+   "_wsplitpath_s"
+  ],
+  "api-ms-win-crt-heap-l1-1-0.dll": [
+   "malloc",
+   "free"
+  ],
+  "KERNEL32.dll": [
+   "IsDebuggerPresent",
+   "InitializeSListHead",
+   "GetSystemTimeAsFileTime",
+   "GetCurrentThreadId",
+   "GetCurrentProcessId",
+   "QueryPerformanceCounter",
+   "IsProcessorFeaturePresent",
+   "OutputDebugStringW",
+   "GetLastError",
+   "InitializeCriticalSectionEx",
+   "MultiByteToWideChar",
+   "TerminateProcess",
+   "GetCurrentProcess",
+   "SetUnhandledExceptionFilter",
+   "UnhandledExceptionFilter",
+   "RtlVirtualUnwind",
+   "RtlLookupFunctionEntry",
+   "RtlCaptureContext",
+   "GetProcAddress",
+   "GetModuleHandleW",
+   "CreateEventW",
+   "WaitForSingleObjectEx",
+   "ResetEvent",
+   "SetEvent",
+   "InitializeCriticalSectionAndSpinCount",
+   "MapViewOfFile",
+   "CreateFileMappingW",
+   "SetFilePointerEx",
+   "CloseHandle",
+   "DeleteFileW",
+   "UnmapViewOfFile",
+   "CreateFileW",
+   "SetEndOfFile",
+   "DeviceIoControl",
+   "GlobalMemoryStatusEx",
+   "RaiseException",
+   "CompareFileTime",
+   "InitializeCriticalSection",
+   "WideCharToMultiByte",
+   "EnterCriticalSection",
+   "GetPrivateProfileIntW",
+   "GetModuleFileNameW",
+   "LeaveCriticalSection",
+   "DeleteCriticalSection"
+  ],
+  "api-ms-win-crt-math-l1-1-0.dll": [
+   "pow",
+   "log2"
+  ],
+  "api-ms-win-crt-convert-l1-1-0.dll": [
+   "strtoll"
+  ],
+  "USER32.dll": [
+   "LoadStringA"
+  ]
+ },
+ "exports": [
+  "EUCreateNTFSQuickSearcher",
+  "EUCreateNTFSSearcher"
+ ],
+ "imphash": "0f489efcc5768b0b8b413811ef09138b"
+}

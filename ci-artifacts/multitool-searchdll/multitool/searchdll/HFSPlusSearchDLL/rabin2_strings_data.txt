@@ -1,0 +1,313 @@
+[Strings]
+nth paddr      vaddr       len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x0001abb0 0x18001c3b0 32  66   .rdata  utf16le api-ms-win-core-synch-l1-2-0.dll
+1   0x0001abf8 0x18001c3f8 12  26   .rdata  utf16le kernel32.dll
+2   0x0001ac18 0x18001c418 27  28   .rdata  ascii   InitializeConditionVariable
+3   0x0001ac38 0x18001c438 24  25   .rdata  ascii   SleepConditionVariableCS
+4   0x0001ac58 0x18001c458 24  25   .rdata  ascii   WakeAllConditionVariable
+5   0x0001aca0 0x18001c4a0 17  18   .rdata  ascii   Unknown exception
+6   0x0001acd0 0x18001c4d0 14  15   .rdata  ascii   bad allocation
+7   0x0001acf8 0x18001c4f8 20  21   .rdata  ascii   bad array new length
+8   0x0001ad20 0x18001c520 64  130  .rdata  utf16le ERROR : Unable to initialize critical section in CAtlBaseModule\n
+9   0x0001af38 0x18001c738 15  16   .rdata  ascii   Return Error:0x
+10  0x0001af48 0x18001c748 6   7    .rdata  ascii   \tFile:
+11  0x0001af50 0x18001c750 6   7    .rdata  ascii   \tLine:
+12  0x0001af58 0x18001c758 9   10   .rdata  ascii   \tFuction:
+13  0x0001af68 0x18001c768 57  58   .rdata  ascii   CHFSPlusQuickFileSystemSearchController::QuickSearchFiles
+14  0x0001afb0 0x18001c7b0 92  93   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfsplussearch\hfsplusquickfilesystemsearchcontroller.cpp
+15  0x0001b010 0x18001c810 18  19   .rdata  ascii   vector<T> too long
+16  0x0001d338 0x18001eb38 34  35   .rdata  ascii   Warn:SectorsperCluster calc Error!
+17  0x0001d360 0x18001eb60 95  96   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfsplussearch\hfspluscompletefilesystemsearchcontroller.cpp
+18  0x0001d3c0 0x18001ebc0 32  33   .rdata  ascii    Can't Find Volume Start Sector!
+19  0x0001d3e8 0x18001ebe8 10  11   .rdata  ascii   ErrorLine:
+20  0x0001d3f8 0x18001ebf8 24  25   .rdata  ascii    Can't Find Volume Head!
+21  0x0001d414 0x18001ec14 6   7    .rdata  ascii   Error:
+22  0x0001d420 0x18001ec20 55  56   .rdata  ascii   CHFSPlusCompleteFileSystemSearchController::AnalyzeNode
+23  0x0001d458 0x18001ec58 17  18   .rdata  ascii   HFS+ Private Data
+24  0x0001d470 0x18001ec70 16  17   .rdata  ascii   list<T> too long
+25  0x0001d488 0x18001ec88 15  16   .rdata  ascii   string too long
+26  0x0001d498 0x18001ec98 19  20   .rdata  ascii   map/set<T> too long
+27  0x0001dc80 0x18001f480 17  18   .rdata  ascii   com.apple.decmpfs
+28  0x0001dc98 0x18001f498 10  11   .rdata  ascii    Attribute
+29  0x0001dca8 0x18001f4a8 23  24   .rdata  ascii   Warn:Can't find file 0x
+30  0x0001dcc0 0x18001f4c0 7   8    .rdata  ascii   HFSPlus
+31  0x0001dcc8 0x18001f4c8 17  18   .rdata  ascii   deque<T> too long
+32  0x0001dce0 0x18001f4e0 30  31   .rdata  ascii   CHFSPlusVolume::CHFSPlusVolume
+33  0x0001dd00 0x18001f500 64  65   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfsplusvolume.cpp
+34  0x0001dd44 0x18001f544 5   6    .rdata  ascii   Size:
+35  0x0001dd50 0x18001f550 8   9    .rdata  ascii   Location
+36  0x0001dd60 0x18001f560 34  35   .rdata  ascii   unsupported attribute node format\n
+37  0x0001dde0 0x18001f5e0 36  37   .rdata  ascii   CHFSPlusAttribute::CHFSPlusAttribute
+38  0x0001de10 0x18001f610 67  68   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfsplusattribute.cpp
+39  0x0001de58 0x18001f658 26  27   .rdata  ascii   CHFSPlusAttribute::ReadKey
+40  0x0001de78 0x18001f678 27  28   .rdata  ascii   CHFSPlusAttribute::ReadData
+41  0x0001de98 0x18001f698 10  11   .rdata  ascii   keyLength:
+42  0x0001dea8 0x18001f6a8 8   9    .rdata  ascii   \tfileID:
+43  0x0001deb4 0x18001f6b4 6   7    .rdata  ascii   \tName:
+44  0x0001dec0 0x18001f6c0 12  13   .rdata  ascii   \tstartBlock:
+45  0x0001df88 0x18001f788 32  33   .rdata  ascii   CHFSPlusCatalog::CHFSPlusCatalog
+46  0x0001dfb0 0x18001f7b0 65  66   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfspluscatalog.cpp
+47  0x0001dff8 0x18001f7f8 24  25   .rdata  ascii   CHFSPlusCatalog::ReadKey
+48  0x0001e018 0x18001f818 9   10   .rdata  ascii   ParentID:
+49  0x0001e028 0x18001f828 25  26   .rdata  ascii   CHFSPlusCatalog::ReadData
+50  0x0001e048 0x18001f848 12  13   .rdata  ascii   \tType:Folder
+51  0x0001e058 0x18001f858 10  11   .rdata  ascii   \tFolderID:
+52  0x0001e068 0x18001f868 10  11   .rdata  ascii   \tType:File
+53  0x0001e078 0x18001f878 10  11   .rdata  ascii   \tFileSize:
+54  0x0001e088 0x18001f888 8   9    .rdata  ascii   \tFileID:
+55  0x0001e098 0x18001f898 10  11   .rdata  ascii   \tParentID:
+56  0x0001e0a8 0x18001f8a8 32  33   .rdata  ascii   CHFSPlusExtents::CHFSPlusExtents
+57  0x0001e0d0 0x18001f8d0 65  66   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfsplusextents.cpp
+58  0x0001e118 0x18001f918 24  25   .rdata  ascii   CHFSPlusExtents::ReadKey
+59  0x0001e138 0x18001f938 25  26   .rdata  ascii   CHFSPlusExtents::ReadData
+60  0x0001e160 0x18001f960 64  65   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfsplusbtnode.cpp
+61  0x0001e1a8 0x18001f9a8 36  37   .rdata  ascii   CHFSPlusBTNode::TestNodeBelongToFile
+62  0x0001e1d0 0x18001f9d0 65  66   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfsplusrawfile.cpp
+63  0x0001e218 0x18001fa18 21  22   .rdata  ascii   CHFSPlusRawfile::Read
+64  0x0001e230 0x18001fa30 4   5    .rdata  ascii   Size
+65  0x0001e250 0x18001fa50 32  33   .rdata  ascii   CHFSPlusJournal::CHFSPlusJournal
+66  0x0001e280 0x18001fa80 65  66   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfsplusjournal.cpp
+67  0x0001e2c8 0x18001fac8 32  33   .rdata  ascii   CHFSPlusJournal::GetDeleteRecord
+68  0x0001e2f0 0x18001faf0 23  24   .rdata  ascii   Journal Start Offset:0x
+69  0x0001e378 0x18001fb78 48  49   .rdata  ascii   CHFSPlusBTreeOptionBase::CHFSPlusBTreeOptionBase
+70  0x0001e3b0 0x18001fbb0 69  70   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfsplusbtreeoption.cpp
+71  0x0001e3f8 0x18001fbf8 35  36   .rdata  ascii   CHFSPlusBTreeOptionBase::CreateNode
+72  0x0001e420 0x18001fc20 33  34   .rdata  ascii   CHFSPlusBTreeOptionBase::GetChild
+73  0x0001e448 0x18001fc48 21  22   .rdata  ascii   CHFSPlusBTree::Search
+74  0x0001e460 0x18001fc60 63  64   .rdata  ascii   e:\drw\_drw_main\drwintelligentscan\hfspluslib\hfsplusbtree.cpp
+75  0x0001e4a0 0x18001fca0 23  24   .rdata  ascii   CHFSPlusBTree::Traverse
+76  0x0001e4b8 0x18001fcb8 25  26   .rdata  ascii   CHFSPlusBTree::SearchNode
+77  0x0001e4d8 0x18001fcd8 27  28   .rdata  ascii   CHFSPlusBTree::TraverseNode
+78  0x0001e588 0x18001fd88 5   6    .rdata  ascii   FAT16
+79  0x0001e590 0x18001fd90 5   6    .rdata  ascii   FAT12
+80  0x0001e598 0x18001fd98 4   5    .rdata  ascii   NTFS
+81  0x0001e5a0 0x18001fda0 5   6    .rdata  ascii   FAT32
+82  0x0001e5a8 0x18001fda8 4   5    .rdata  ascii   EXT3
+83  0x0001e5b0 0x18001fdb0 4   5    .rdata  ascii   EXT2
+84  0x0001e5b8 0x18001fdb8 4   5    .rdata  ascii   ReFS
+85  0x0001e5c0 0x18001fdc0 4   5    .rdata  ascii   EXT4
+86  0x0001e5c8 0x18001fdc8 5   6    .rdata  ascii   EXFAT
+87  0x0001e5d8 0x18001fdd8 7   8    .rdata  ascii   HFSPLUS
+88  0x0001e700 0x18001ff00 32  33   .rdata  ascii   Exception occurred.GetErrorCode\n
+89  0x0001ebc8 0x1800203c8 5   6    .rdata  ascii   &amp;
+90  0x0001ebd0 0x1800203d0 4   5    .rdata  ascii   &gt;
+91  0x0001ebd8 0x1800203d8 4   5    .rdata  ascii   &lt;
+92  0x0001ebe0 0x1800203e0 6   7    .rdata  ascii   &apos;
+93  0x0001ebe8 0x1800203e8 6   7    .rdata  ascii   &quot;
+94  0x0001ebf0 0x1800203f0 8   9    .rdata  ascii   No error
+95  0x0001ec00 0x180020400 19  20   .rdata  ascii   Failed to open file
+96  0x0001ec14 0x180020414 5   6    .rdata  ascii   Error
+97  0x0001ec20 0x180020420 22  23   .rdata  ascii   Error parsing Element.
+98  0x0001ec38 0x180020438 25  26   .rdata  ascii   Memory allocation failed.
+99  0x0001ec58 0x180020458 28  29   .rdata  ascii   Error reading Element value.
+100 0x0001ec78 0x180020478 27  28   .rdata  ascii   Failed to read Element name
+101 0x0001ec98 0x180020498 17  18   .rdata  ascii   Error: empty tag.
+102 0x0001ecb0 0x1800204b0 25  26   .rdata  ascii   Error reading Attributes.
+103 0x0001ecd0 0x1800204d0 22  23   .rdata  ascii   Error parsing Unknown.
+104 0x0001ece8 0x1800204e8 22  23   .rdata  ascii   Error reading end tag.
+105 0x0001ed00 0x180020500 26  27   .rdata  ascii   Error parsing Declaration.
+106 0x0001ed20 0x180020520 22  23   .rdata  ascii   Error parsing Comment.
+107 0x0001ed38 0x180020538 55  56   .rdata  ascii   Error null (0) or unexpected EOF found in input stream.
+108 0x0001ed70 0x180020570 21  22   .rdata  ascii   Error document empty.
+109 0x0001ed90 0x180020590 90  91   .rdata  ascii   Error when TiXmlDocument added to document, because TiXmlDocument can only be at the root.
+110 0x0001edf0 0x1800205f0 20  21   .rdata  ascii   Error parsing CDATA.
+111 0x00021524 0x180022d24 4   5    .rdata  ascii   RSDS
+112 0x0002153c 0x180022d3c 72  73   .rdata  ascii   E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\HFSPlusSearchDLL.pdb
+113 0x0002159c 0x180022d9c 4   5    .rdata  ascii   GCTL
+114 0x000215a8 0x180022da8 8   9    .rdata  ascii   .text$di
+115 0x000215bc 0x180022dbc 8   9    .rdata  ascii   .text$mn
+116 0x000215d0 0x180022dd0 11  12   .rdata  ascii   .text$mn$00
+117 0x000215e4 0x180022de4 7   8    .rdata  ascii   .text$x
+118 0x000215f4 0x180022df4 8   9    .rdata  ascii   .text$yd
+119 0x00021608 0x180022e08 8   9    .rdata  ascii   .idata$5
+120 0x0002161c 0x180022e1c 6   7    .rdata  ascii   .00cfg
+121 0x0002162c 0x180022e2c 8   9    .rdata  ascii   .CRT$XCA
+122 0x00021640 0x180022e40 8   9    .rdata  ascii   .CRT$XCL
+123 0x00021654 0x180022e54 8   9    .rdata  ascii   .CRT$XCU
+124 0x00021668 0x180022e68 8   9    .rdata  ascii   .CRT$XCZ
+125 0x0002167c 0x180022e7c 8   9    .rdata  ascii   .CRT$XIA
+126 0x00021690 0x180022e90 8   9    .rdata  ascii   .CRT$XIC
+127 0x000216a4 0x180022ea4 8   9    .rdata  ascii   .CRT$XIZ
+128 0x000216b8 0x180022eb8 8   9    .rdata  ascii   .CRT$XLA
+129 0x000216cc 0x180022ecc 8   9    .rdata  ascii   .CRT$XLZ
+130 0x000216e0 0x180022ee0 8   9    .rdata  ascii   .CRT$XPA
+131 0x000216f4 0x180022ef4 8   9    .rdata  ascii   .CRT$XPZ
+132 0x00021708 0x180022f08 8   9    .rdata  ascii   .CRT$XTA
+133 0x0002171c 0x180022f1c 8   9    .rdata  ascii   .CRT$XTZ
+134 0x00021730 0x180022f30 6   7    .rdata  ascii   .rdata
+135 0x00021740 0x180022f40 8   9    .rdata  ascii   .rdata$T
+136 0x00021754 0x180022f54 8   9    .rdata  ascii   .rdata$r
+137 0x00021768 0x180022f68 13  14   .rdata  ascii   .rdata$zzzdbg
+138 0x00021780 0x180022f80 8   9    .rdata  ascii   .rtc$IAA
+139 0x00021794 0x180022f94 8   9    .rdata  ascii   .rtc$IZZ
+140 0x000217a8 0x180022fa8 8   9    .rdata  ascii   .rtc$TAA
+141 0x000217bc 0x180022fbc 8   9    .rdata  ascii   .rtc$TZZ
+142 0x000217d0 0x180022fd0 4   5    .rdata  ascii   .tls
+143 0x000217e0 0x180022fe0 5   6    .rdata  ascii   .tls$
+144 0x000217f0 0x180022ff0 8   9    .rdata  ascii   .tls$ZZZ
+145 0x00021804 0x180023004 6   7    .rdata  ascii   .xdata
+146 0x00021814 0x180023014 8   9    .rdata  ascii   .xdata$x
+147 0x00021828 0x180023028 6   7    .rdata  ascii   .edata
+148 0x00021838 0x180023038 8   9    .rdata  ascii   .idata$2
+149 0x0002184c 0x18002304c 8   9    .rdata  ascii   .idata$3
+150 0x00021860 0x180023060 8   9    .rdata  ascii   .idata$4
+151 0x00021874 0x180023074 8   9    .rdata  ascii   .idata$6
+152 0x00021888 0x180023088 5   6    .rdata  ascii   .data
+153 0x00021898 0x180023098 7   8    .rdata  ascii   .data$r
+154 0x000218a8 0x1800230a8 4   5    .rdata  ascii   .bss
+155 0x000218b8 0x1800230b8 6   7    .rdata  ascii   .pdata
+156 0x000218c8 0x1800230c8 8   9    .rdata  ascii   .rsrc$01
+157 0x000218dc 0x1800230dc 8   9    .rdata  ascii   .rsrc$02
+158 0x00021ea6 0x1800236a6 4   5    .rdata  ascii   \bp\a`
+159 0x00022076 0x180023876 4   5    .rdata  ascii   \bp\a`
+160 0x000223a4 0x180023ba4 4   5    .rdata  ascii   \bp\a`
+161 0x00022420 0x180023c20 6   7    .rdata  ascii   \tp\b`\a0
+162 0x000225c3 0x180023dc3 5   6    .rdata  ascii   p\r`\fP
+163 0x00022a48 0x180024248 5   6    .rdata  ascii   \fp\v`!
+164 0x00022a96 0x180024296 4   5    .rdata  ascii   \bp\a`
+165 0x000239f8 0x1800251f8 6   7    .rdata  ascii   \tp\b`\aP
+166 0x00023c64 0x180025464 4   5    .rdata  ascii   \vb\a`
+167 0x00023cf2 0x1800254f2 4   5    .rdata  ascii   \bp\a`
+168 0x0002402a 0x18002582a 4   5    .rdata  ascii   \bp\a`
+169 0x00024040 0x180025840 6   7    .rdata  ascii   \fr\bp\a`
+170 0x000240a0 0x1800258a0 4   5    .rdata  ascii   \fp\v`
+171 0x000240b4 0x1800258b4 5   6    .rdata  ascii   \fp\vP!
+172 0x00024218 0x180025a18 6   7    .rdata  ascii   \fr\bp\a`
+173 0x000242f4 0x180025af4 6   7    .rdata  ascii   \fr\bp\a`
+174 0x00024795 0x180025f95 4   5    .rdata  ascii   r\vp!
+175 0x00024a12 0x180026212 4   5    .rdata  ascii   \bp\a`
+176 0x0002505b 0x18002685b 5   6    .rdata  ascii   p\r`\fP
+177 0x000256cc 0x180026ecc 20  21   .rdata  ascii   HFSPlusSearchDLL.dll
+178 0x000256e1 0x180026ee1 24  25   .rdata  ascii   EUCreateHFSQuickSearcher
+179 0x000256fa 0x180026efa 19  20   .rdata  ascii   EUCreateHFSSearcher
+180 0x00025a72 0x180027272 56  57   .rdata  ascii   ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+181 0x00025aae 0x1800272ae 31  32   .rdata  ascii   ?uncaught_exception@std@@YA_NXZ
+182 0x00025ad0 0x1800272d0 36  37   .rdata  ascii   ?setbase@std@@YA?AU?$_Smanip@H@1@H@Z
+183 0x00025af8 0x1800272f8 30  31   .rdata  ascii   ?_Xlength_error@std@@YAXPEBD@Z
+184 0x00025b1a 0x18002731a 56  57   .rdata  ascii   ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+185 0x00025b56 0x180027356 68  69   .rdata  ascii   ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+186 0x00025b9e 0x18002739e 64  65   .rdata  ascii   ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+187 0x00025be2 0x1800273e2 62  63   .rdata  ascii   ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+188 0x00025c24 0x180027424 59  60   .rdata  ascii   ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+189 0x00025c62 0x180027462 65  66   .rdata  ascii   ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+190 0x00025ca6 0x1800274a6 61  62   .rdata  ascii   ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+191 0x00025ce6 0x1800274e6 80  81   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+192 0x00025d3a 0x18002753a 62  63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@J@Z
+193 0x00025d7c 0x18002757c 63  64   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z
+194 0x00025dbe 0x1800275be 62  63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+195 0x00025dfe 0x1800275fe 12  13   .rdata  ascii   MSVCP140.dll
+196 0x00025e0e 0x18002760e 18  19   .rdata  ascii   __CxxFrameHandler3
+197 0x00025e24 0x180027624 9   10   .rdata  ascii   _purecall
+198 0x00025e30 0x180027630 6   7    .rdata  ascii   strstr
+199 0x00025e3a 0x18002763a 20  21   .rdata  ascii   __C_specific_handler
+200 0x00025e52 0x180027652 15  16   .rdata  ascii   __std_terminate
+201 0x00025e64 0x180027664 28  29   .rdata  ascii   __std_type_info_destroy_list
+202 0x00025e84 0x180027684 6   7    .rdata  ascii   memset
+203 0x00025e8e 0x18002768e 20  21   .rdata  ascii   __std_exception_copy
+204 0x00025ea6 0x1800276a6 23  24   .rdata  ascii   __std_exception_destroy
+205 0x00025ec0 0x1800276c0 18  19   .rdata  ascii   _CxxThrowException
+206 0x00025ed4 0x1800276d4 16  17   .rdata  ascii   VCRUNTIME140.dll
+207 0x00025ee8 0x1800276e8 34  35   .rdata  ascii   _invalid_parameter_noinfo_noreturn
+208 0x00025f0e 0x18002770e 9   10   .rdata  ascii   _initterm
+209 0x00025f1a 0x18002771a 11  12   .rdata  ascii   _initterm_e
+210 0x00025f28 0x180027728 9   10   .rdata  ascii   _callnewh
+211 0x00025f34 0x180027734 6   7    .rdata  ascii   malloc
+212 0x00025f3e 0x18002773e 15  16   .rdata  ascii   _seh_filter_dll
+213 0x00025f50 0x180027750 22  23   .rdata  ascii   _configure_narrow_argv
+214 0x00025f6a 0x18002776a 30  31   .rdata  ascii   _initialize_narrow_environment
+215 0x00025f8c 0x18002778c 24  25   .rdata  ascii   _initialize_onexit_table
+216 0x00025fa8 0x1800277a8 25  26   .rdata  ascii   _register_onexit_function
+217 0x00025fc4 0x1800277c4 21  22   .rdata  ascii   _execute_onexit_table
+218 0x00025fdc 0x1800277dc 11  12   .rdata  ascii   _crt_atexit
+219 0x00025fea 0x1800277ea 6   7    .rdata  ascii   _cexit
+220 0x00025ff4 0x1800277f4 4   5    .rdata  ascii   free
+221 0x00025ffa 0x1800277fa 30  31   .rdata  ascii   api-ms-win-crt-heap-l1-1-0.dll
+222 0x0002601a 0x18002781a 33  34   .rdata  ascii   api-ms-win-crt-runtime-l1-1-0.dll
+223 0x0002603e 0x18002783e 11  12   .rdata  ascii   CloseHandle
+224 0x0002604c 0x18002784c 20  21   .rdata  ascii   EnterCriticalSection
+225 0x00026064 0x180027864 20  21   .rdata  ascii   LeaveCriticalSection
+226 0x0002607c 0x18002787c 37  38   .rdata  ascii   InitializeCriticalSectionAndSpinCount
+227 0x000260a4 0x1800278a4 21  22   .rdata  ascii   DeleteCriticalSection
+228 0x000260bc 0x1800278bc 8   9    .rdata  ascii   SetEvent
+229 0x000260c8 0x1800278c8 10  11   .rdata  ascii   ResetEvent
+230 0x000260d6 0x1800278d6 21  22   .rdata  ascii   WaitForSingleObjectEx
+231 0x000260ee 0x1800278ee 12  13   .rdata  ascii   CreateEventW
+232 0x000260fe 0x1800278fe 16  17   .rdata  ascii   GetModuleHandleW
+233 0x00026112 0x180027912 14  15   .rdata  ascii   GetProcAddress
+234 0x00026124 0x180027924 17  18   .rdata  ascii   RtlCaptureContext
+235 0x00026138 0x180027938 22  23   .rdata  ascii   RtlLookupFunctionEntry
+236 0x00026152 0x180027952 16  17   .rdata  ascii   RtlVirtualUnwind
+237 0x00026166 0x180027966 24  25   .rdata  ascii   UnhandledExceptionFilter
+238 0x00026182 0x180027982 27  28   .rdata  ascii   SetUnhandledExceptionFilter
+239 0x000261a0 0x1800279a0 17  18   .rdata  ascii   GetCurrentProcess
+240 0x000261b4 0x1800279b4 16  17   .rdata  ascii   TerminateProcess
+241 0x000261c8 0x1800279c8 25  26   .rdata  ascii   IsProcessorFeaturePresent
+242 0x000261e4 0x1800279e4 23  24   .rdata  ascii   QueryPerformanceCounter
+243 0x000261fe 0x1800279fe 19  20   .rdata  ascii   GetCurrentProcessId
+244 0x00026214 0x180027a14 18  19   .rdata  ascii   GetCurrentThreadId
+245 0x0002622a 0x180027a2a 23  24   .rdata  ascii   GetSystemTimeAsFileTime
+246 0x00026244 0x180027a44 19  20   .rdata  ascii   InitializeSListHead
+247 0x0002625a 0x180027a5a 17  18   .rdata  ascii   IsDebuggerPresent
+248 0x0002626c 0x180027a6c 12  13   .rdata  ascii   KERNEL32.dll
+249 0x0002627c 0x180027a7c 63  64   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+250 0x000262be 0x180027abe 62  63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
+251 0x00026300 0x180027b00 62  63   .rdata  ascii   ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+252 0x00026342 0x180027b42 20  21   .rdata  ascii   _Mtx_destroy_in_situ
+253 0x0002635a 0x180027b5a 17  18   .rdata  ascii   _Mtx_init_in_situ
+254 0x0002636e 0x180027b6e 7   8    .rdata  ascii   strncpy
+255 0x00026378 0x180027b78 15  16   .rdata  ascii   __acrt_iob_func
+256 0x0002638a 0x180027b8a 23  24   .rdata  ascii   __stdio_common_vfprintf
+257 0x000263a2 0x180027ba2 32  33   .rdata  ascii   api-ms-win-crt-string-l1-1-0.dll
+258 0x000263c4 0x180027bc4 31  32   .rdata  ascii   api-ms-win-crt-stdio-l1-1-0.dll
+259 0x000263e6 0x180027be6 19  20   .rdata  ascii   WideCharToMultiByte
+260 0x000263fc 0x180027bfc 12  13   .rdata  ascii   IsBadReadPtr
+261 0x0002640c 0x180027c0c 27  28   .rdata  ascii   InitializeCriticalSectionEx
+262 0x0002642a 0x180027c2a 12  13   .rdata  ascii   GetLastError
+263 0x0002643a 0x180027c3a 18  19   .rdata  ascii   OutputDebugStringW
+264 0x00026450 0x180027c50 7   8    .rdata  ascii   memmove
+265 0x0002645a 0x180027c5a 6   7    .rdata  ascii   memcpy
+266 0x00026464 0x180027c64 15  16   .rdata  ascii   __RTDynamicCast
+267 0x00026476 0x180027c76 6   7    .rdata  ascii   memcmp
+268 0x0002684e 0x18002824e 7   16   .data   utf16le \a\b\t\n\v\f\r
+269 0x00026880 0x180028280 95  192  .data   utf16le  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+270 0x0002744d 0x180028e4d 11  12   .data   ascii    \a \b \t \n \v
+271 0x0002747f 0x180028e7f 21  22   .data   ascii      ! " # $ % & ' ( )
+272 0x0002749e 0x180028e9e 118 119  .data   ascii   / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i
+273 0x00027520 0x180028f20 30  31   .data   ascii   p q r s t u v w x y z { | } ~
+274 0x0002764d 0x18002904d 15  16   .data   ascii   !\a!\b!\t!\n!\v!\f!\r!
+275 0x0002767f 0x18002907f 159 160  .data   ascii   ! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!N!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
+276 0x0002771f 0x18002911f 31  32   .data   ascii   !p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
+277 0x00027cb0 0x1800296b0 15  16   .data   ascii   .?AVtype_info@@
+278 0x00027cd0 0x1800296d0 19  20   .data   ascii   .?AVexception@std@@
+279 0x00027cf8 0x1800296f8 30  31   .data   ascii   .?AVbad_array_new_length@std@@
+280 0x00027d28 0x180029728 33  34   .data   ascii   .?AVIFileSystemSearchController@@
+281 0x00027d60 0x180029760 38  39   .data   ascii   .?AVIQuickFileSystemSearchController@@
+282 0x00027d98 0x180029798 45  46   .data   ascii   .?AVCHFSPlusQuickFileSystemSearchController@@
+283 0x00027dd8 0x1800297d8 28  29   .data   ascii   .?AVCSearchedPartitionInfo@@
+284 0x00027e08 0x180029808 27  28   .data   ascii   .?AVIDirecotryTreeBuilder@@
+285 0x00027e38 0x180029838 15  16   .data   ascii   .?AVCFileNode@@
+286 0x00027e58 0x180029858 41  42   .data   ascii   .?AVICompleteFileSystemSearchController@@
+287 0x00027ea0 0x1800298a0 48  49   .data   ascii   .?AVCHFSPlusCompleteFileSystemSearchController@@
+288 0x00027ee8 0x1800298e8 25  26   .data   ascii   .?AVDetourDirectoryTree@@
+289 0x00027f18 0x180029918 22  23   .data   ascii   .?AVCHFSPlusFileNode@@
+290 0x00027f40 0x180029940 28  29   .data   ascii   .?AUCompleteSearchPatition@@
+291 0x00027f70 0x180029970 35  36   .data   ascii   .?AVCPartitionVirtualVolumeDevice@@
+292 0x00027fa8 0x1800299a8 20  21   .data   ascii   .?AVIStorageDevice@@
+293 0x00027fd0 0x1800299d0 24  25   .data   ascii   .?AVHFSPlusFileDataRun@@
+294 0x00028000 0x180029a00 18  19   .data   ascii   .?AVIDataRunList@@
+295 0x00028028 0x180029a28 21  22   .data   ascii   .?AVIFileProperties@@
+296 0x00028050 0x180029a50 33  34   .data   ascii   .?AVHFSPlusSystemNodeProperties@@
+297 0x00028088 0x180029a88 27  28   .data   ascii   .?AVHFSPlusFileProperties@@
+298 0x000280b8 0x180029ab8 21  22   .data   ascii   .?AVCHFSPlusExtents@@
+299 0x000280e0 0x180029ae0 25  26   .data   ascii   .?AVIHFSPlusBTreeOption@@
+300 0x00028110 0x180029b10 29  30   .data   ascii   .?AVCHFSPlusBTreeOptionBase@@
+301 0x00028140 0x180029b40 23  24   .data   ascii   .?AVCHFSPlusAttribute@@
+302 0x00028168 0x180029b68 21  22   .data   ascii   .?AVCHFSPlusCatalog@@
+303 0x00028190 0x180029b90 21  22   .data   ascii   .?AVCHFSPlusRawfile@@
+304 0x000281b8 0x180029bb8 23  24   .data   ascii   .?AVCHFSPlusFileCache@@
+305 0x000281e0 0x180029be0 21  22   .data   ascii   .?AVCFileSystemNode@@
+306 0x00028208 0x180029c08 34  35   .data   ascii   .?AVCNoneResidentNTFSDataRunList@@
+307 0x00028240 0x180029c40 30  31   .data   ascii   .?AVCResidentNTFSDataRunList@@
+308 0x00028270 0x180029c70 19  20   .data   ascii   .?AVbad_alloc@std@@
+309 0x00029c60 0x18002d060 381 382  .rsrc   ascii   <?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\r\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>\r\n

@@ -1,0 +1,5 @@
+[Exports]
+nth paddr      vaddr       bind   type size lib               name                      demangled
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1   0x000004e0 0x1800010e0 GLOBAL FUNC 0    EXT4SearchDLL.dll EUCreateEXT4QuickSearcher
+2   0x00000430 0x180001030 GLOBAL FUNC 0    EXT4SearchDLL.dll EUCreateEXT4Searcher
