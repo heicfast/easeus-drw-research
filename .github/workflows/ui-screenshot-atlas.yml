@@ -204,10 +204,17 @@ jobs:
             # close the AI panel (robot toggle)
             ClickAt 700 17; Start-Sleep -Seconds 1
             # ---- top bar icons ----
-            ClickAt 753 20; Start-Sleep -Seconds 4; Shot "06_buy"; Esc2; KillBrowsers
-            $log += "buy/cart clicked"
-            ClickAt 794 20; Start-Sleep -Seconds 3; Shot "07_activate"; Esc2
-            $log += "activate clicked"
+            # buy/cart opens the CEnterLicenceDlg activate dialog (dynamic proof round-4)
+            ClickAt 753 20; Start-Sleep -Seconds 4; Shot "06_activate_dialog"
+            $log += "buy/cart -> CEnterLicenceDlg (Enter license code + Paste/Activate + Buy a License Now)"
+            # close it via its X (pixel-verified (770,150)); ESC does NOT close it
+            ClickAt 770 150; Start-Sleep -Seconds 2; Shot "06b_after_close"
+            # activate icon opens the SAME dialog - click inside it: the yellow Buy button -> web (skip);
+            # instead click the license input + Paste for the input-state capture
+            ClickAt 794 20; Start-Sleep -Seconds 3; Shot "07_activate_dialog_v2"
+            ClickAt 500 300; Start-Sleep -Milliseconds 600   # license input field state
+            Shot "07b_license_input_focus"
+            ClickAt 770 150; Start-Sleep -Seconds 2
             ClickAt 834 20; Start-Sleep -Seconds 2; Shot "08_savescan_landing"; Esc2
             $log += "save-scan clicked (landing, no session)"
             # ---- hamburger Drw_More_Menu ----
