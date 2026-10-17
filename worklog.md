@@ -498,3 +498,27 @@ Stage Summary:
 - Forensics: the shipped tree carries the vendor's own QA session — every shipped 'data' file now
   decoded as either product config or vendor forensics
 - Next: scan-complete capture ingest, then per-binary deepening wave 2
+
+---
+Task ID: resume-5 (final wave of this session)
+Agent: Main RE Session
+Task: Scan-complete capture, thin-binary deepening, session close-out
+
+Work Log:
+- SCAN-COMPLETE state captured (880s run): 'Congratulations! Scan Completed!' modal + 'Great news:
+  Your files are highly recoverable' verdict + 'Go to Recover' funnel; final 1,139,286 files /
+  147.12 GB on 149.45GB disk (~98.5% coverage). THE COMPLETE DYNAMIC USER-FLOW now pixel-evidenced:
+  splash -> landing -> scan 9% -> 34% (live carving 1->16) -> complete + celebration -> recover CTA
+- Thin-binary deepening batch 1: Japanese.dll = ja-JP resource satellite (lang 1041, zh-CN cursor
+  leftovers, PE-only); WinChkdsk = mod.winchkdsk (chkdsk + VSS snapshots); setupdrvx64 =
+  WinDiskAccessDriverSetup (D:\EPM PDB, SCM lifecycle, %s%d numbered driver variants — the
+  eprdtdrv live-Windows deployer); legacy.dll = embedded libtomcrypt
+- 6 workflow iterations hardened (PS here-string, capture-dir, matchbox WM, always-upload,
+  click-injection, scan-wait scaling)
+
+Stage Summary:
+- Session total: 175 -> 254 artifacts (+79), all committed/pushed to heicfast/easeus-drw-research
+- Dynamic ground truth: 6 capture stages (2 envs x loader/direct + 3 scan-time points + complete)
+- Forensics complete: build identity (git commit), QA-night timeline, vendor machine disks
+- Open for next session: deepening batches 2+, recovery-dialog click-capture, per-FS IFileProperties
+  per-field walkthroughs (validated table exists; field-by-field decode queued)
