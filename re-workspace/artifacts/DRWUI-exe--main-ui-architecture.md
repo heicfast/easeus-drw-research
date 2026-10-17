@@ -182,7 +182,7 @@ This is the contract DRWUI holds against `EUCreate<FS>Searcher` factories in the
 - Session files: `artifacts/SaveScan/`
 - Config data (categories/filters): `artifacts/config-files/config-data-reference.md`
 - Build tree (project layout): `architecture/01-build-tree-intelligence.md`
-- Full decompiled C (pending CI drwui batch): `re-workspace/reversed/ghidra-drwui/`
+- Full decompiled C (COMPLETE — 119,182 functions / 2.38M lines): `re-workspace/reversed/ghidra-drwui/`
 
 ## 8. Confidence & Verification
 
@@ -191,8 +191,9 @@ This is the contract DRWUI holds against `EUCreate<FS>Searcher` factories in the
 - All quoted UI strings: present in DRWUI Qt string tables (`qt_strings_english.txt`) or
   English.qm (`re-workspace/docs/` parse) — byte-exact quotes.
 - Interface families cross-checked against NTFSSearchDLL RTTI + exports (EUCreate factories).
-- Pending: Ghidra decompilation of DRWUI (30MB) — will confirm call graphs; conclusions above
-  are structural (RTTI + strings + imports), not speculative.
+- ~~Pending: Ghidra decompilation of DRWUI (30MB)~~ **COMPLETE** — §9 (below) adds the
+  decompiled confirmations; call-graph-level claims in §1-§7 are now backed by §9.2-9.5.
+  Cross-layer revisions from the decompilation are recorded in §9.6.
 
 ---
 
@@ -285,3 +286,44 @@ IOCTL protocol (CTL_CODE custom device 0x14, METHOD_BUFFERED):
 
 `FUN_1400b1f30()` returns a settings object; field +0x60 != 0 gates RAWSearcher creation —
 a user/config toggle ("Enable RAW/deep carving") consulted at complete-scan build time.
+
+### 9.5 VAPreviewListener IPC (ports decoded — doc-session additions)
+
+The media-preview subsystem (§3.5 `AVpreviewStub` / `VAPreviewListener` / `VideoPreviewWnd`)
+is now fully decoded (decompiled FUN_1403da0a0 / FUN_1403da4f0 / FUN_1403db*):
+
+- **TCP listener on `127.0.0.1:20171`** (constant 0x4ECB), or **20172** when the instance
+  flag at `obj+0x16` is set (second concurrent preview). WSAStartup(0x202) →
+  `socket(AF_INET, SOCK_STREAM, IPPROTO_TCP)` → `setsockopt(SO_REUSEADDR)` →
+  `bind(127.0.0.1:port)` → `listen(backlog=1)` → accept loop with 4 KB buffers.
+  (ws2_32 functions imported **by ordinal**: Ordinal_1=accept, 2=bind, 9=htons,
+  11=inet_addr, 13=listen, 21=setsockopt, 23=socket, 115=WSAStartup.)
+- **Child-process launch** (FUN_1403da4f0): DRWUI spawns the media helper
+  (EaseUS_VideoViewer.exe / preview stub) passing `0x4ecb + flag` as the port on its
+  command line (STARTUPINFOW + process handle kept at `obj+0x18`, exit-code polling
+  with STILL_ACTIVE 0x103 checks).
+- **ZeroMQ control channel**: `zmq_ctx_new` → `zmq_socket(ZMQ_REP=4)` bound to
+  `tcp://localhost:<port at obj+0x80>`; `zmq_recv` 0x28-byte command frames;
+  on EINTR-class error (0x9523dfb) it rebinds (zmq_unbind → close → ctx_destroy → new
+  ctx) — libzmq 4.3.5 static, matching the build-tree evidence.
+- Trace strings (exact): `"VAPreviewListener::SyncWait4DataBack"` — `"%s:%d failed got
+  socket"`, `"%s:%d failed send data to peer"`, `"VAPreviewListener::RecvThumbnailBmpData"`
+  — `"%s:%d failed recv MediaInfo"` (thumbnail BMP + MediaInfo streaming over the TCP
+  channel; commands over zmq).
+
+### 9.6 Crypto & serialization inventory (doc-session verification pass)
+
+Complete map of DRWUI's symmetric/hash primitives (each verified by call-site):
+
+| Primitive | Function | Consumer |
+|---|---|---|
+| AES-256-CBC, hardcoded key `XZJE151628AED2A6ABF7158809CF4F3C`, IV `XZJ2030405060708` | FUN_1404f4a90 (`AES_CBC256`) | **DRWCfg.bin** config cache — see `artifacts/config-files/drwcfg-bin--aes-config-cache.md` |
+| LM hash (DES CALG_DES, magic `"KGS!@#$%"`, 7→8-byte key expansion) | FUN_140c35150 + FUN_140c352a0 | network auth material (NAS flows) |
+| MD5→hex (CALG_MD5), SHA-256→hex (CALG_SHA_256 0x800C) | FUN_1401654c0 / @1868689 | licensing/machine-ID |
+| zlib port (`CZlibCompressor` / `czlibdecompressor`, windowBits 15, level 5) | FUN_1404cc6f0 region | **.rsf session files** (NOT encrypted — see corrected SaveScan artifact) |
+| libcurl-Schannel (TLS 1.3 suites) | FUN @1843150 | HTTPS transport |
+| OpenSSL AES-XTS (EVP imports) | BitLockerLib path | BitLocker volume content |
+
+**Corrections recorded** (prior artifact text vs. decompilation): (a) the .rsf
+"CryptoAPI-encrypted" claim — wrong, zlib-chunked; (b) "socket IPC to a media helper" —
+now exact ports/protocol; (c) §8 "Pending decompilation" — complete.
