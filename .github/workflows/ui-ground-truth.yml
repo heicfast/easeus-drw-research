@@ -14,6 +14,14 @@ on:
         description: 'Seconds to let the app run before capture'
         required: true
         default: '45'
+      click_scan:
+        description: 'Click Search-for-Lost-Data button (scan phase capture): yes | no'
+        required: true
+        default: 'no'
+      scan_wait:
+        description: 'Seconds to wait after the click'
+        required: true
+        default: '75'
 
 permissions:
   contents: read
@@ -48,6 +56,39 @@ jobs:
             Select-Object Id,ProcessName,MainWindowTitle,MainWindowHandle |
             Format-Table -AutoSize | Out-File processes.txt -Encoding utf8
           Get-Process | Out-File all_processes.txt -Encoding utf8
+
+      - name: Click Search-for-Lost-Data (scan phase)
+        if: inputs.click_scan == 'yes'
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Continue'
+          Add-Type -TypeDefinition @"
+          using System;
+          using System.Runtime.InteropServices;
+          public class ClickHelper {
+            [DllImport("user32.dll")] public static extern bool SetCursorPos(int x, int y);
+            [DllImport("user32.dll")] public static extern void mouse_event(uint dwFlags, uint dx, uint dy, uint dwData, UIntPtr dwExtraInfo);
+            [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr h, out RECT r);
+            [StructLayout(LayoutKind.Sequential)] public struct RECT { public int L, T, R, B; }
+            public static void Click(int x, int y) {
+              SetCursorPos(x, y);
+              mouse_event(0x0002, 0, 0, 0, UIntPtr.Zero); // LEFTDOWN
+              mouse_event(0x0004, 0, 0, 0, UIntPtr.Zero); // LEFTUP
+            }
+          }
+          "@
+          $drw = Get-Process DRWUI -ErrorAction SilentlyContinue | Where-Object {$_.MainWindowHandle -ne 0} | Select-Object -First 1
+          if ($drw) {
+            $r = New-Object ClickHelper+RECT
+            [ClickHelper]::GetWindowRect($drw.MainWindowHandle, [ref]$r) | Out-Null
+            $w = $r.R - $r.L; $h = $r.B - $r.T
+            # 'Search for Lost Data' = bottom-right of the landing page (~0.9w, 0.92h)
+            $cx = $r.L + [int]($w * 0.90); $cy = $r.T + [int]($h * 0.92)
+            "clicking at ($cx,$cy) window ${w}x${h}" | Write-Host
+            [ClickHelper]::Click($cx, $cy)
+            "clicked at ($cx,$cy)" | Out-File click.txt -Encoding utf8
+          } else { "no DRWUI window" | Out-File click.txt -Encoding utf8 }
+          Start-Sleep -Seconds ${{ inputs.scan_wait }}
 
       - name: Window census (user32)
         shell: pwsh
@@ -143,6 +184,7 @@ jobs:
           name: ui-ground-truth
           path: |
             launch.txt
+            click.txt
             processes.txt
             all_processes.txt
             windows_census.txt
