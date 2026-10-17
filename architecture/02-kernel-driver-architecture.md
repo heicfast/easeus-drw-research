@@ -64,6 +64,18 @@ Imports `PsGetCurrentProcessId`, `ObReferenceObjectByHandle`, `ZwQueryInformatio
 its true identity as an independent raw-disk access door, fully decompiled in
 `artifacts/PartitionRecovery/eudcpepm-euedkepm--hook-drivers.md`.)
 
+**Custom IOCTL protocol (decoded this session, full command table in the hook-drivers
+artifact §"EUDCPEPM — custom IOCTL protocol")**: MainDispatch (FUN_000120f8) normalizes
+codes as `IOCTL − IoctlBase(registry 0x10000)` and serves a 15-command private protocol
+in the 0x800C2AC8–0x800C2B38 range: GET_VERSION ("EASEUS Todo Backup Driver" v1.1.0),
+OpenSession/CloseSession (CSession = 0x840-byte bitmap-driven copy-engine state machine,
+magic 0x74534298), the asynchronous IOCTL_GETNEXTBLOCK data pump (IRP queued pending,
+completed by the read path, worker-kick budget 301), GET_PROGRESS
+(bytesDone×100/totalBytes), direct MDL sector read/write, sized transfers, and a
+CANCEL/ABORT state setter. All other IOCTLs (incl. SCSI/ATA/IDE PASS_THROUGH and
+STORAGE_MANAGE_DATA_SET_ATTRIBUTES/Trim) pass through to the disk stack and are traced.
+User-mode consumer: the EPM/Todo-Backup copy chain (CloneModule lineage), WinPE only.
+
 From strings:
 ```
 DrvHKSelfAddDevice eHKNotHOOK return
