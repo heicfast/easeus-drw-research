@@ -34,7 +34,7 @@
 | **`FileRepair/image-repair--format-grammar.md`** | EUImgRepairFile.exe | **per-format grammar deep-dive**: 37-file source tree, 29 C<Format>Info classes (20 RAW), JPEG skeleton FFD8/FF01/FFD9 + marker state machine, JXL libjxl event walk, AVIF ffmpeg shell-out, LibRaw 560-export static link, window-IPC + registry invocation chain, log-census pipeline evidence |
 | `EuShare/eumrx-nas-architecture.md` | EuMrx.sys + libssh2 + NasConfig | static-RDBSS redirector, EuRdrDN protocol, SSH agent push, Synology model DB, loopback bridge |
 | `Cloud/cloud-recovery-architecture.md` | cloud_session + EuICloudRecovery + firebase | OAuth2 loopback (Dropbox/GDrive/OneDrive), esicloud full iCloud client (idmsa/setup.ws/PCS), remote config |
-| **`SaveScan/rsf-format--scan-session.md`** | .rsf format | **FULLY REVERSED** (corrections register): record chains + zlib-chunked payload (NOT CryptoAPI-encrypted), CRSDataEx/CZlibCompressor classes, working parser `scripts/rsf_parser.py` |
+| **`SaveScan/rsf-format--scan-session.md`** | .rsf format | **FULLY REVERSED + record-4 tree grammar byte-exact-validated** (all 3 samples to EOF, 1.99M nodes): CFileNodeRS::Save/RestoreFileTree BFS algorithm, CFileNode(0x93)/CFileSystemNode(0x290) node classes + 34-byte base grammar, IFileProperties content family (10 per-FS classes), NTFS-style datarun persistence; parsers `rsf_parser.py` + `rsf_record4_grammar.py` |
 | `config-files/config-data-reference.md` | all data files | raw_signs.json (139 ext), EUUserData, Dict (brute-force dictionary), FileFilter.xml (8 cats/1489 ext), FilterFolder.ini, dlconfig.xml, NasModel.xml, ssh_config.ini |
 | **`config-files/drwcfg-bin--aes-config-cache.md`** | DRWCfg.bin | AES-256-CBC config cache with **hardcoded key** XZJE151628AED2A6ABF7158809CF4F3C / IV XZJ2030405060708 (AES_CBC256 class) + DRWUI crypto inventory |
 | `DRWReport-exe--crash-reporter.md` | DRWReport.exe | XCrashReport provenance, minidump + telemetry, Aliyun upload, supervisor chain |
@@ -79,7 +79,7 @@
 - [x] Per-binary artifacts generated for every in-tree binary (110+)
 - [x] wave2 CI batch (EuSendMessage, DiskHealth, VideoFileRepairer, MediaGraph, libssh2) ingested
 - [x] EuICloudRecovery SRP handshake instruction-level verified (authenticate_with_srp + libsrp + idmsa.apple.com/appleauth/auth)
-- [ ] EUEDKEPM dispatch enumeration (35 fns)
+- [x] EUEDKEPM dispatch fully decoded (see artifacts/PartitionRecovery/eudcpepm-euedkepm--hook-drivers.md §EUEDKEPM; residual checklist item from doc-2, resolved by 10d9bfd)
 - [x] Full .rsf record-1/2/3 field schemas DECODED from `CSaveAndRestoreResult::SaveResult` writer (§5 of rsf artifact): record IDs = .rdata GUID constants; record 1 = counts+flags (12B); record 2 = 0x7F sig + name[100] + devtype + SYSTEMTIME + 2 stat qwords + flags (147B exact arithmetic; timestamp correction: 2026-10-14 23:13:21.774); record 3 = [count][1781B partition struct][5400B volume-device blob = disk identity + 512B boot-sector snapshot] (7,185B exact); filename sanitizer `/ * : ? " < > |`→`_`
 
 ## Worklog

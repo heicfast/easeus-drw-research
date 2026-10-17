@@ -87,11 +87,18 @@ for slot in range(n_slots):
             if i > 500:
                 break
         if methods:
-            classes.setdefault(cls, {'vftables': [], 'methods': set()})
-            classes[cls]['vftables'].append(hex(vft_va))
-            classes[cls]['methods'].update(methods)
+            entry = classes.setdefault(cls, {'vftables': [], 'methods': []})
+            entry['vftables'].append(hex(vft_va))
+            # NOTE: keep SLOT ORDER — a method's vtable slot offset is semantic
+            # (e.g. CFileSystemNode +0x20=Serialize, +0x28=Deserialize). The prior
+            # set()-collection silently discarded slot order and produced wrong
+            # slot attributions (fixed 2026-10-17, see rsf artifact §5.4.1).
             for m in methods:
+                if m not in entry['methods']:
+                    entry['methods'].append(m)
                 method_to_class.setdefault(hex(m), cls)
+            # record per-vftable ordered slot lists too
+            entry.setdefault('slotmaps', {})[hex(vft_va)] = [hex(m) for m in methods]
 
 print(f'classes with vtables: {len(classes)}, total methods mapped: {len(method_to_class)}')
 
