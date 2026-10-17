@@ -1,0 +1,523 @@
+INFO: floss: extracting static strings
+.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing program..  analyzing program... analyzing program    analyzing program.   analyzing programfinding decoding function features:   0%|          | 0/39 [00:00<?, ? functions/s, skipped 0 library functions]finding decoding function features:   0%|          | 0/39 [00:00<?, ? functions/s, skipped 1 library functions (2%)]finding decoding function features:   0%|          | 0/39 [00:00<?, ? functions/s, skipped 2 library functions (5%)]finding decoding function features:   0%|          | 0/39 [00:00<?, ? functions/s, skipped 3 library functions (7%)]finding decoding function features:   0%|          | 0/39 [00:00<?, ? functions/s, skipped 4 library functions (10%)]finding decoding function features: 100%|██████████| 39/39 [00:00<00:00, 1962.00 functions/s, skipped 4 library functions (10%)]
+INFO: floss.stackstrings: extracting stackstrings from 31 functions
+extracting stackstrings:   0%|          | 0/31 [00:00<?, ? functions/s]extracting stackstrings:  13%|█▎        | 4/31 [00:00<00:00, 34.85 functions/s]extracting stackstrings:  29%|██▉       | 9/31 [00:00<00:00, 38.95 functions/s]extracting stackstrings:  42%|████▏     | 13/31 [00:00<00:00, 37.16 functions/s]extracting stackstrings:  55%|█████▍    | 17/31 [00:00<00:00, 31.41 functions/s]extracting stackstrings:  71%|███████   | 22/31 [00:00<00:00, 35.36 functions/s]extracting stackstrings:  84%|████████▍ | 26/31 [00:00<00:00, 36.30 functions/s]extracting stackstrings:  97%|█████████▋| 30/31 [00:00<00:00, 36.96 functions/s]extracting stackstrings: 100%|██████████| 31/31 [00:00<00:00, 36.27 functions/s]
+INFO: floss.tightstrings: extracting tightstrings from 2 functions...
+extracting tightstrings:   0%|          | 0/2 [00:00<?, ? functions/s]extracting tightstrings from function 0x128b0:   0%|          | 0/2 [00:00<?, ? functions/s]extracting tightstrings from function 0x13520:   0%|          | 0/2 [00:00<?, ? functions/s]extracting tightstrings from function 0x13520: 100%|██████████| 2/2 [00:00<00:00,  9.48 functions/s]extracting tightstrings from function 0x13520: 100%|██████████| 2/2 [00:00<00:00,  9.48 functions/s]
+INFO: floss.string_decoder: decoding strings
+decoding strings:   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x13520 (call 1/5):   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x13520 (call 2/5):   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x13520 (call 3/5):   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x13520 (call 4/5):   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x13520 (call 5/5):   0%|          | 0/20 [00:00<?, ? functions/s]emulating function 0x13520 (call 5/5):   5%|▌         | 1/20 [00:00<00:05,  3.65 functions/s]emulating function 0x129bc (call 1/5):   5%|▌         | 1/20 [00:00<00:05,  3.65 functions/s]emulating function 0x129bc (call 2/5):   5%|▌         | 1/20 [00:00<00:05,  3.65 functions/s]emulating function 0x129bc (call 3/5):   5%|▌         | 1/20 [00:00<00:05,  3.65 functions/s]emulating function 0x129bc (call 4/5):   5%|▌         | 1/20 [00:00<00:05,  3.65 functions/s]emulating function 0x129bc (call 5/5):   5%|▌         | 1/20 [00:00<00:05,  3.65 functions/s]emulating function 0x129bc (call 5/5):  10%|█         | 2/20 [00:00<00:03,  4.73 functions/s]emulating function 0x128b0 (call 1/3):  10%|█         | 2/20 [00:00<00:03,  4.73 functions/s]emulating function 0x128b0 (call 2/3):  10%|█         | 2/20 [00:00<00:03,  4.73 functions/s]emulating function 0x128b0 (call 3/3):  10%|█         | 2/20 [00:00<00:03,  4.73 functions/s]emulating function 0x128b0 (call 3/3):  20%|██        | 4/20 [00:00<00:02,  7.72 functions/s]emulating function 0x125b0 (call 1/2):  20%|██        | 4/20 [00:00<00:02,  7.72 functions/s]emulating function 0x125b0 (call 2/2):  20%|██        | 4/20 [00:00<00:02,  7.72 functions/s]emulating function 0x125b0 (call 2/2):  30%|███       | 6/20 [00:00<00:01, 10.51 functions/s]emulating function 0x12aec (call 1/1):  30%|███       | 6/20 [00:00<00:01, 10.51 functions/s]emulating function 0x11008 (call 1/3):  30%|███       | 6/20 [00:00<00:01, 10.51 functions/s]                                                                                             INFO: floss.results: esdr
+emulating function 0x11008 (call 1/3):  30%|███       | 6/20 [00:00<00:01, 10.51 functions/s]                                                                                             INFO: floss.results: Device\Harddisk
+emulating function 0x11008 (call 1/3):  30%|███       | 6/20 [00:00<00:01, 10.51 functions/s]emulating function 0x11008 (call 2/3):  30%|███       | 6/20 [00:00<00:01, 10.51 functions/s]emulating function 0x11008 (call 3/3):  30%|███       | 6/20 [00:00<00:01, 10.51 functions/s]                                                                                             INFO: floss.results: Device\HarddiskVolume
+emulating function 0x11008 (call 3/3):  30%|███       | 6/20 [00:01<00:01, 10.51 functions/s]emulating function 0x11008 (call 3/3):  45%|████▌     | 9/20 [00:01<00:01,  9.99 functions/s]emulating function 0x13498 (call 1/2):  45%|████▌     | 9/20 [00:01<00:01,  9.99 functions/s]emulating function 0x13498 (call 2/2):  45%|████▌     | 9/20 [00:01<00:01,  9.99 functions/s]emulating function 0x13498 (call 2/2):  55%|█████▌    | 11/20 [00:01<00:00, 11.62 functions/s]emulating function 0x12728 (call 1/1):  55%|█████▌    | 11/20 [00:01<00:00, 11.62 functions/s]emulating function 0x11908 (call 1/1):  55%|█████▌    | 11/20 [00:01<00:00, 11.62 functions/s]emulating function 0x11908 (call 1/1):  65%|██████▌   | 13/20 [00:01<00:00, 13.15 functions/s]emulating function 0x11a90 (call 1/2):  65%|██████▌   | 13/20 [00:01<00:00, 13.15 functions/s]emulating function 0x11a90 (call 2/2):  65%|██████▌   | 13/20 [00:01<00:00, 13.15 functions/s]emulating function 0x12a64 (call 1/2):  65%|██████▌   | 13/20 [00:01<00:00, 13.15 functions/s]emulating function 0x12a64 (call 2/2):  65%|██████▌   | 13/20 [00:01<00:00, 13.15 functions/s]emulating function 0x12a64 (call 2/2):  75%|███████▌  | 15/20 [00:01<00:00, 12.27 functions/s]emulating function 0x12614 (call 1/1):  75%|███████▌  | 15/20 [00:01<00:00, 12.27 functions/s]emulating function 0x1344c (call 1/1):  75%|███████▌  | 15/20 [00:01<00:00, 12.27 functions/s]emulating function 0x1344c (call 1/1):  85%|████████▌ | 17/20 [00:01<00:00,  8.08 functions/s]emulating function 0x12710 (call 1/1):  85%|████████▌ | 17/20 [00:01<00:00,  8.08 functions/s]emulating function 0x12710 (call 1/1): 100%|██████████| 20/20 [00:01<00:00, 10.14 functions/s]
+INFO: floss: finished execution after 7.97 seconds
+INFO: floss: rendering results
+
+
+FLARE FLOSS RESULTS (version 3.2.0)
+
++------------------------+-----------------------------------------------------+
+| file path              | og-codebase/PartitionRecovery/eprdtdrv.sys          |
+| identified language    | unknown                                             |
+| extracted strings      |                                                     |
+|  static strings        | 457 (5606 characters)                               |
+|   language strings     |   0 (   0 characters)                               |
+|  stack strings         | 0                                                   |
+|  tight strings         | 0                                                   |
+|  decoded strings       | 3                                                   |
++------------------------+-----------------------------------------------------+
+
+
+ ──────────────────────────── 
+  FLOSS STATIC STRINGS (457)  
+ ──────────────────────────── 
+
++-----------------------------------+
+| FLOSS STATIC STRINGS: ASCII (444) |
++-----------------------------------+
+
+!This program cannot be run in DOS mode.
+Rich
+.text
+h.rdata
+H.data
+.pdata
+HINIT
+.reloc
+L$ SWH
+L$`H
+D$hE3
+t$ WATAUAVAWH
+T$pD
+t$0A
+t$XE
+t$hI;
+h0M;
+t$8I;
+esdrD
+D$P3
+D$Hf
+D$8H
+L$A9D$@A
+L$P3
+|$pA
+D$hI;
+d$hfD
+d$`fD
+d$b3
+A_A^A]A\_
+esdr3
+D$P3
+D$JH
+D$0H
+L$0E3
+L$0H
+D$vL
+d$XL
+d$8fD
+L$0L
+T$xH
+L$XL
+D$8H
+L$H3
+t$XL
+\$8M
+esdr3
+D$hI;
+D$bIc
+D$0H
+t$8D
+t$@fD
+L$8L
+D$@H
+L$H3
+L$8L
+D$@H
+L$H3
+|$8L
+\$@M
+L$HI
+L$8A
+fD9u
+t$X3
+esdr
+T$HH
+\$0H
+t$83
+ t'3
+oG0H
+GHE3
+\$0H
+l$8H
+k VWATH
+D$@0
+esdrH
+A\_^
+VWATH
+L$0L9a
+esdrH
+L$0L
+L$xD
+T$0H
+\$`H
+@A\_^
+x ATH
+`uMD
+L$`E3
+D$`L
+\$PL
+\$@H
+D$(I
+L$`E3
+|$PH
+D$XH
+t$ WATAUH
+L$0E
+L$(H
+L$@E3
+D$@H
+L$@E3
+A]A\_
+t$ WH
+D$xH
+D$0H
+D$(H
+L$@E3
+D$@H
+L$@E3
+VWATAUAWH
+D$xM
+D$xL
+l$ H
+D$xM
+D$xL
+l$ H
+D$03
+A_A]A\_^
+x ATH
+L$PH
+\$0H
+l$8H
+t$@H
+\$(L;
+D$HB
+L$@H
+L$0H
+D$8L
+L$0M
+D$0H
+T$03
+T$03
+\$pH
+L$ E3
+\$0H
+\$0H
+l$8H
+t$@H
+\$0H
+l$8H
+t$@H
+UVWATAUAVAWH
+\$@D
+\$<D
+\$0H;
+\$8D
+\$hH
+9T$\
+|$0@
+t1Lc
+D$T3
+T$TH
+T$43
+D$p3
+\$pD
+|$0H
+D$`E
+\$DE
+L$4A
+T$4H
+L$<+
+t\tD8
+|$0D
+L$DA
+d$4D
+l$@E+
+D$HL
+D$HL
+L$8H
+L$DA
+D$HL
+ukD;
+L$XI
+L$XL
+|$HH
+|$HH
+|$HL
+L$8A
+d$83
+d$8L
+fA9M
+fA9E
+t[fA
+otSfA
+utKfA
+xtCfA
+Xt;3
+D$PL
+D$8I
+d$8D
+T$PL
+\$HD
+D$@D
+L$<fA
+A_A^A]A\_^]
+L$<}
+|$\D
+|$@D
+H!T$ E3
+t-L;
+L$8H
+D$8H+
+\$0H
+[EPMNtDrv]DriverUnload called
+[GetDiskDeviceObejct] RtlStringCbPrintfW error ,0x%x
+[GetDiskDeviceObejct] %ws open error 0x%x,retry 
+[GetDiskDeviceObejct] RtlStringCbPrintfW 2 error ,0x%x
+[GetDiskDeviceObejct] %ws open error 0x%x,that's it!
+[GetVolumeDeviceObejct] RtlStringCbPrintfW error ,0x%x
+[GetVolumeDeviceObejct] %ws open error 0x%x,that's it!
+[FltReadWriteSectorsCompletion] Io error 0x%x,%p
+[GetDiskContextMode] para error %d,%d!
+[GetProcName] QueryInfo error 0x%x!
+[GetProcName] OpenProcess error 0x%x!
+[GetProcName] para error %d,%d!
+[GetFileObjName] ObReferenceObjectByHandle %d error 0x%x!
+[GetFileObjName] para error %d,%d!
+[epmntdrvDispatchWrite] Write error 0x%x,%u,%I64u,0x%x
+[EPMNtDrv]IoCreateDevice ret,0x%x,%wZ
+[EPMNtDrv]IoCreateSymbolicLink ret,0x%x,%wZ
+[EPMNtDrv]DriverEntry ret,0x%x
+(null)
+( 8PP
+700WP
+`h````
+xpxxpp
+RSDS
+d:\project_application\_epm_main_\mod.windiskaccessdriver\windiskaccessdriver\objfre_wlh_amd64\amd64\epmntdrv.pdb
+ExAllocatePoolWithTag
+IoGetLowerDeviceObject
+IoBuildDeviceIoControlRequest
+IoDeleteSymbolicLink
+ExFreePoolWithTag
+RtlInitUnicodeString
+IoDeleteDevice
+KeSetEvent
+KeInitializeEvent
+IoFreeMdl
+RtlFreeUnicodeString
+ObQueryNameString
+IoFileObjectType
+wcsstr
+MmMapLockedPagesSpecifyCache
+IoGetDeviceObjectPointer
+IoBuildAsynchronousFsdRequest
+ExAllocatePool
+ZwClose
+RtlAppendUnicodeStringToString
+IofCompleteRequest
+ObReferenceObjectByHandle
+KeWaitForSingleObject
+IoFreeIrp
+IoGetAttachedDeviceReference
+RtlCompareUnicodeString
+MmUnlockPages
+ZwQueryInformationProcess
+ObfReferenceObject
+IoCreateSymbolicLink
+PsGetCurrentProcessId
+ObfDereferenceObject
+RtlUnicodeStringToInteger
+IoCreateDevice
+NtOpenProcess
+RtlUpcaseUnicodeChar
+DbgPrint
+ObDereferenceObjectDeferDelete
+IofCallDriver
+KeBugCheckEx
+ntoskrnl.exe
+RtlAnsiCharToUnicodeChar
+N0L0
+\}~wi
+3@o=
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 20140
+210909191559Z
+220901191559Z0
+Washington1
+Redmond1
+Microsoft Corporation1;09
+2Microsoft Windows Hardware Compatibility Publisher0
+xR;c#>+s
+<$\P
+EYHn
+VAcf
+~G1\t'
+ZN2NA
+E0C1)0'
+ Microsoft Operations Puerto Rico1
+232147+4674340
+m0k0i
+chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202014.crl0
+u0s0q
+ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202014.crt0
+Wx.yq
+GJ$2py
+mLE8
+>=8A
+(cVe
+'u>e
+(i:N=
+gqFv
+Washington1
+Redmond1
+Microsoft Corporation1200
+)Microsoft Root Certificate Authority 20100
+141015203127Z
+291015204127Z0
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 20140
+sk=(
+$,/9
+}c!F
+Ng\t7
+=)x(0t
+R'5s?
+I1s_
+\tuHD3I
+VV.$
+u"xo
+]0[0
+0A0?
+3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+O0M0K
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+N0L0J
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+t,7d
+iE'?s#2
+(Fx!
++YEz
+w*Uu'
+Ol:k
+UYd`3>.
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 2014
+mZd\
+(https://www.microsoft.com/en-us/windows 0
+VH7V
+20220519090638.294Z0
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Operations Puerto Rico1&0$
+Thales TSS ESN:C4BD-E37F-5FFC1%0#
+Microsoft Time-Stamp Service
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+220302185116Z
+230511185116Z0
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Operations Puerto Rico1&0$
+Thales TSS ESN:C4BD-E37F-5FFC1%0#
+Microsoft Time-Stamp Service0
+U 9#V
+~6+"
+YCZHOUg%
+ibS,
+?<8G
+X0V0T
+Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+`0^0\
+Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+%m~q
+Washington1
+Redmond1
+Microsoft Corporation1200
+)Microsoft Root Certificate Authority 20100
+210930182225Z
+300930183225Z0|1
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+`}jR
+q\Q17
+&S|9a
+0\O,
+s=CN
+!]_0t
+\RQ]
+<F5)
+U0S0Q
+0A0?
+3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+O0M0K
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+N0L0J
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+>NGdx
+fg:SM
+xSu$W
+as.,k{n?,\tx
+J>f;O
+ctH,
+WITd
+!TkjE
+Af=i
+AI~~
+$5g+
+'B=%
+tt[j
+pcSM
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Operations Puerto Rico1&0$
+Thales TSS ESN:C4BD-E37F-5FFC1%0#
+Microsoft Time-Stamp Service
+~0|1
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+20220519130056Z
+20220520130056Z0w0=
+1/0-0
+1(0&0
+hv{$b
+~S .
+QJyn
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 2010
+S>Is
+~0|1
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 2010
+q~T)p
+f5tf
+|n[a@W
+
+
++-------------------------------------+
+| FLOSS STATIC STRINGS: UTF-16LE (13) |
++-------------------------------------+
+
+Disk
+\Device\Harddisk
+\Device\Harddisk%u\DR%u
+\Device\Harddisk%u\Partition0
+\Device\HarddiskVolume%u
+\Device\
+\DosDevices\
+EPMNTDRV
+(null)
+\Volume
+SubC
+NCHENGDU YIWO Tech Development Co., Ltd
+SubC
+
+
+ ───────────────────────── 
+  FLOSS STACK STRINGS (0)  
+ ───────────────────────── 
+
+
+
+ ───────────────────────── 
+  FLOSS TIGHT STRINGS (0)  
+ ───────────────────────── 
+
+
+
+ ─────────────────────────── 
+  FLOSS DECODED STRINGS (3)  
+ ─────────────────────────── 
+
+esdr
+Device\Harddisk
+Device\HarddiskVolume
+
+

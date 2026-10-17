@@ -1,0 +1,109 @@
+# Kernel Driver Architecture — Raw Disk Access Subsystem
+
+**Evidence base**: rabin2 dumps + capa + FLOSS strings from CI (re-workspace/reversed/ci-multitool/), PDB paths (re-workspace/pdb_paths.json), inventory.json
+**Method**: cross-referencing driver imports, device-name strings, user-mode counterpart strings, WDK build paths
+**Confidence**: device names/paths = 100% (literal strings); behavioral roles = high (imports + capa + call-site strings)
+
+## 1. The Driver Family — 6 distinct binaries, 4 distinct roles
+
+| Binary | Size | Internal name (PDB) | Device | Role |
+|---|---|---|---|---|
+| `PartitionRecovery/eprdtdrv.sys` | 27,272 | **epmntdrv.pdb** (mod.windiskaccessdriver) | `\Device\EPMNTDRV` + `\\.\EPRDTDRV\…` namespace | Raw disk access proxy (production, Win8+) |
+| `PartitionRecovery/eprdtdrv_win7older.sys` | 27,272 | epmntdrv.pdb | same | Same driver built for Win7 and older |
+| `BUILDPE/.../system32/ebrntdrv.sys` | 27,272 | epmntdrv.pdb | same | Same driver, WinPE deployment, renamed "ebrntdrv" (E(u) BR NT DRV) |
+| `BUILDPE/.../system32/epmdkdrv.sys` | 27,272 | epmntdrv.pdb | same | Same driver, WinPE deployment, renamed "epmdkdrv" (EPM DK DRV) |
+| `BUILDPE/.../drivers/EUDCPEPM.sys` | 72,144 | `_epm_main_/sharelib/dc` (disk-copy sharelib) | `\Device\%s` dynamic | **Device-stack HOOK driver** (disk copy / volume lock) |
+| `BUILDPE/.../drivers/EUEDKEPM.sys` | 19,408 | same sharelib | `\Device\%s` dynamic | Smaller hook variant (EDK = EaseUS Deploy Kit) |
+| `EuShare/EuMrx.sys` | 248KB | EuMrx | `\Device\EuRdr` | **Network redirector mini-driver** (NAS access) |
+
+All are WDK `fre_wlh_amd64` (free/retail, Vista+ ABI, x64) builds, Authenticode-signed (EaseUS = "Chengdu Yiwo Tech Development Co., Ltd").
+
+## 2. EPMNtDrv — the WinDiskAccessDriver (core raw-disk engine)
+
+### 2.1 What it is
+One driver source (`mod.windiskaccessdriver` in the EPM/DRW shared codebase), shipped under 4 filenames depending on context:
+- `eprdtdrv.sys` — installed by DRW's `PartitionRecovery/setupdrvx64.exe` when the app runs on a live Windows system (DRW = Data Recovery Wizard)
+- `ebrntdrv.sys` / `epmdkdrv.sys` — preloaded inside the WinPE boot environment (BUILDPE) where no driver-signing enforcement issues exist
+- `eprdtdrv_win7older.sys` — legacy build for Windows 7-
+
+### 2.2 Device namespace (how user-mode finds it)
+From user-mode `Device.mo` (PartitionRecovery module) strings:
+```
+\\.\EPRDTDRV\%d\%d              <- disk index \ partition index   (e.g. \\.\EPRDTDRV\0\2)
+\\.\EPRDTDRV\%d\Volume\%d       <- disk index \ volume index
+regex: ^\\\\.\\EPRDTDRV\\(\d+)\\(\d+)$
+regex: ^\\\\.\\EPRDTDRV\\(\d+)\\Volume\\(\d+)$
+```
+The driver's main control device is `\Device\EPMNTDRV` with `\DosDevices\EPMNTDRV` symlink (from `IoCreateDevice`/`IoCreateSymbolicLink` strings). It then enumerates and opens physical device objects by name:
+```
+\Device\Harddisk%u\DR%u          <- physical disk N, device-revision R
+\Device\Harddisk%u\Partition0    <- whole-disk device (partition0 = raw disk)
+\Device\HarddiskVolume%u         <- mounted volume device
+```
+Its internal routines `GetDiskDeviceObejct` / `GetVolumeDeviceObejct` (sic — EaseUS's own typo) retry-open these devices.
+
+### 2.3 How a read flows (import-verified)
+1. User mode `CreateFile("\\\\..\\EPRDTDRV\\0\\2")` → IRP_MJ_CREATE dispatched to EPMNtDrv
+2. Driver resolves `\Device\Harddisk0\Partition2` (or `HarddiskVolume%u`) via `IoGetDeviceObjectPointer`
+3. Read IOCTL / IRP_MJ_READ: driver builds IRP via `IoBuildDeviceIoControlRequest` / `IoBuildAsynchronousFsdRequest`
+4. `MmMapLockedPagesSpecifyCache` + `IoFreeMdl` — direct I/O with MDL mapping (zero-copy user buffer)
+5. `IofCallDriver` sends down to disk stack; completion routine fires `KeSetEvent`; caller waits in `KeWaitForSingleObject`
+6. `IofCompleteRequest` completes the original user IRP
+
+### 2.4 Process-protection checks
+Imports `PsGetCurrentProcessId`, `ObReferenceObjectByHandle`, `ZwQueryInformationProcess`, `ObQueryNameString` — the driver validates which process is requesting access (anti-abuse: only the authorized DRW/EPM process may use the raw path).
+
+### 2.5 capa verification (CI, 35 functions)
+- "complete processing asynchronous IO request" (6 sites) — IRP completion paths
+- "create device object" (2 sites) — control device + per-target devices
+- "print debug messages" (9 sites) — DbgPrint trace logging
+
+## 3. EUDCPEPM / EUEDKEPM — device-stack hook drivers
+
+From strings:
+```
+DrvHKSelfAddDevice eHKNotHOOK return
+DrvHKHookNewDevice driver=0x%x
+?DrvHookNextAddDevice@@YAJPEAU_DRIVER_OBJECT@@PEAU_DEVICE_OBJECT@@@Z
+InitSectorSize m_pTargetDeviceObject=%I64u pDisk=%I64u
+```
+- "HK" = hook. `DrvHookNextAddDevice` attaches into the device stack when the PnP manager adds new disk devices.
+- Purpose (from EPM "dc"/disk-copy sharelib context): intercept/modify IRPs for **volume locking and disk copy** — when DRW/EPM needs exclusive access to an in-use volume (e.g. to fix a partition table or image a disk), the hook driver suppresses/queues foreign IO.
+- `InitSectorSize` — normalizes sector geometry between target device objects.
+- Deployed only in WinPE (BUILDPE/.../drivers/), where no signature-enforcement issues exist on locked-down systems.
+- These are NOT loaded during normal Windows operation of DRW — they are for the bootable environment (and EPM's disk-copy product).
+
+## 4. EuMrx — the NAS redirector
+
+- Device `\Device\EuRdr`; service params under `HKLM\SYSTEM\CurrentControlSet\Services\EuMrx\Parameters`
+- Imports/strings show a full **Windows Redirector (RDBSS) mini-redir**: `RxStopMinirdr`, `RxDereferenceAndDeleteRxContext`, FCB management, per-processor work queues (`RxDispatcher.NumberOfProcessors`, `PostedRequestCount`, `OverflowQueueCount`)
+- Role: lets DRW mount NAS shares (SMB/other protocols) as browsable file systems during NAS scan/recovery — the "NAS device" feature in the UI (`CDoScanRemoteDevice`, `CNasCancelConnectThread` classes in DRWUI confirm the user-mode side).
+- The user-mode counterpart is `cloud_session.dll` / `EuShare/` directory (EuMrx.sys lives in EuShare/).
+
+## 5. Driver installation lifecycle (user-mode orchestration)
+
+1. `PartitionRecovery/setupdrvx64.exe` (PDB: `mod.WinDiskAccessDriverSetup/setupempdrv03`) installs `eprdtdrv.sys`:
+   - copies to `%SystemRoot%\System32\Drivers\%s.sys` (strings confirmed)
+   - creates + starts the service (SCM APIs)
+2. `DRWService.exe` — a separate, on-demand service ("BitlockerReadFVEService") installed/uninstalled via `\DRWService.exe /install` / `/uninstall` (strings in DRWUI.exe)
+3. At app exit / driver uninstall, service is stopped and deleted.
+4. In WinPE (BUILDPE), drivers are pre-registered via `regdrv.reg` (BUILDPE/x64/regdrv.reg) — loaded at PE boot by winpeshl.ini shell launch of DRW.
+
+## 6. Who-opens-what map (verified by strings)
+
+```
+DRWUI.exe / PartitionRecovery modules (user mode)
+  ├── Device.mo  ──CreateFile──>  \\.\EPRDTDRV\{disk}\{part}   (raw partition/disk I/O)
+  │                                 served by: eprdtdrv.sys (EPMNTDRV)
+  ├── BitLockerLib.dll ──PowerShell──> manage-bde -unlock / Unlock-BitLocker
+  │                     ──registry──> HKLM\SYSTEM\...\FVEAutoUnlock
+  │                     via pipe \\.\Pipe\DRWBitlocker served by DRWService.exe
+  ├── EuShare/cloud_session.dll ──RDBSS──> EuMrx.sys → NAS shares
+  └── WinPE path: BUILDPE auto.bat launches DRW.exe with drivers preloaded
+```
+
+## 7. Open questions (tracked for decompilation round)
+- Exact IOCTL codes EPMNtDrv handles (need Ghidra decompile of its 35 functions — queued in CI 'drivers' batch)
+- How EPMNtDrv maps `EPRDTDRV\{d}\{p}` requests to underlying devices (device-extension layout)
+- EuMrx wire protocol (does it speak SMB itself or rely on native redirector?)
+- EUDCPEPM IRP-hook semantics (which IRP major functions are filtered)

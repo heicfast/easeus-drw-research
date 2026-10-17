@@ -21,3 +21,23 @@
   - External/ignore: ffmpeg (VideoViewer), pdfium.dll, Qt5*, VC++ runtimes, api-ms-win-* API sets, ImageMagick CORE_RL_*
 - Created GitHub repo, structured local repo (this one)
 - Next: tool install, binary classification, GitHub Actions workflows for heavy analysis
+
+### Stage 1 — Toolchain + CI + First Intelligence [DONE]
+- Local toolchain: r2, Ghidra 11.3.2 (+JDK21), RetDec 5.0, ilspycmd, capa (rules+sigs), FLOSS, pefile/dnfile/vivisect, diec (partial)
+- Ghidra CI workflow FIXED (script compile errors: decompileCompleted/isInitialized) — verified locally: NTFSSearchDLL = 1897 funcs decompiled (1.6MB C)
+- CI running: ghidra searchdll+drivers (re-triggered), multitool searchdll/core/partition/repair
+- multitool drivers batch DONE → artifacts in re-workspace/reversed/ci-multitool/
+- KEY FINDINGS:
+  - DRW.exe = DRWLoader (crash-monitor launcher, named events DRW_Crash_{GUID}, launches DRWUI + DRWReport)
+  - DRWService.exe = "BitlockerReadFVEService" — pipe \\.\Pipe\DRWBitlocker, reads FVEAutoUnlock registry
+  - Drivers: eprdtdrv/ebrntdrv/epmdkdrv = SAME "EPMNtDrv" (device \Device\EPMNTDRV, user path \\.\EPRDTDRV\{d}\{p})
+  - EUDCPEPM/EUEDKEPM = device-stack HOOK drivers (DrvHookNextAddDevice) for volume lock/disk copy
+  - EuMrx.sys = RDBSS network redirector mini-driver (\Device\EuRdr) for NAS scan
+  - raw_signs.json = 139 ext signatures (header/tail hex+confidence, min/max size)
+  - EUUserData = MIME/magic DB; Dict = password brute-force dictionary
+  - FileFilter.xml = category tree; FilterFolder.ini = junk filtering
+  - dlconfig.xml = WAIK ISO byte-range carver for WinPE media building
+  - PartitionRecovery .mo files = PE DLL plugins; MainModule = MOM module system + full partition op engine (shared w/ EPM)
+  - DRWUI classes: IScanMgr/CScanMgr, CDoScan{Partition,LostPartition,CloudDevice,RemoteDevice}, tree builders (CDirectoryTreeBuilder, IRawDirectoryTreeBuilder, CBtrfsQuickTreeBuilder), classify controllers, preview controllers
+  - NTFSSearchDLL RTTI: CNTFSSearchController (0x940 bytes), CNTFSQuickSearch, CNTFSBuildVolumeBitmap, MFT record attribute classes, IFileSystemSearchController interface family
+- Artifacts written: architecture/01-build-tree-intelligence.md, architecture/02-kernel-driver-architecture.md

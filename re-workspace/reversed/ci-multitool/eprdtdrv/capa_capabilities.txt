@@ -1,0 +1,55 @@
+
+md5                     cfd87935021b9f3e3287712106489de6                        
+sha1                    0f317742db983d8d9f634871b0c6ec0c5f9187f5                
+sha256                  0f21a48ebc8e1077dd4b2f57e7ab62f9b849132818d479f0a9d56e5…
+path                    /home/runner/work/easeus-drw-research/easeus-drw-resear…
+timestamp               2026-10-17 07:27:57.133387                              
+capa version            10.0.0                                                  
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x10000                                                 
+rules                   /home/runner/work/easeus-drw-research/easeus-drw-resear…
+function count          35                                                      
+library function count  4                                                       
+total feature count     2703                                                    
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file             
+
+complete processing asynchronous IO request (6 matches)
+namespace    host-interaction/driver                                            
+description  signals that driver has finished all processing for a given IRP    
+             (part of major function)                                           
+scope        basic block                                                        
+matches      0x11277                                                            
+             0x11817                                                            
+             0x11D88                                                            
+             0x11DBC                                                            
+             0x11FA5                                                            
+             0x12175                                                            
+
+create device object (2 matches)
+namespace  host-interaction/driver
+scope      function               
+matches    0x121A4                
+           0x17064                
+
+print debug messages (9 matches)
+namespace  host-interaction/log/debug/write-event
+scope      function                              
+matches    0x11060                               
+           0x110B0                               
+           0x11844                               
+           0x11908                               
+           0x11A90                               
+           0x11BCC                               
+           0x11DE4                               
+           0x121A4                               
+           0x17064                               
+
+
+

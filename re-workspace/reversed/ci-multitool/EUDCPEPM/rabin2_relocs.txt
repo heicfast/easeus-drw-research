@@ -1,0 +1,69 @@
+WARN: Relocs has not been applied. Please use `-e bin.relocs.apply=true` or `-e bin.cache=true` next time
+[Relocations]
+
+vaddr      paddr      type   ntype name
+―――――――――――――――――――――――――――――――――――――――
+0x00012280 0x0000e200 SET_64 3     ntoskrnl.exe_vsprintf
+0x0001228c 0x0000e208 SET_64 3     ntoskrnl.exe_ExFreePoolWithTag
+0x000122a0 0x0000e210 SET_64 3     ntoskrnl.exe_RtlInitUnicodeString
+0x000122b8 0x0000e218 SET_64 3     ntoskrnl.exe_RtlFreeUnicodeString
+0x000122d0 0x0000e220 SET_64 3     ntoskrnl.exe_ZwQueryValueKey
+0x000122e2 0x0000e228 SET_64 3     ntoskrnl.exe_ExAllocatePool
+0x000122f4 0x0000e230 SET_64 3     ntoskrnl.exe_ZwClose
+0x000122fe 0x0000e238 SET_64 3     ntoskrnl.exe_DbgPrint
+0x0001230a 0x0000e240 SET_64 3     ntoskrnl.exe_ZwOpenKey
+0x00012316 0x0000e248 SET_64 3     ntoskrnl.exe_IoDeleteSymbolicLink
+0x0001232e 0x0000e250 SET_64 3     ntoskrnl.exe_KeInitializeMutex
+0x00012342 0x0000e258 SET_64 3     ntoskrnl.exe_IoDeleteDevice
+0x00012354 0x0000e260 SET_64 3     ntoskrnl.exe_KeSetEvent
+0x00012362 0x0000e268 SET_64 3     ntoskrnl.exe_DbgBreakPointWithStatus
+0x0001237c 0x0000e270 SET_64 3     ntoskrnl.exe_KeReleaseMutex
+0x0001238e 0x0000e278 SET_64 3     ntoskrnl.exe_MmMapLockedPagesSpecifyCache
+0x000123ae 0x0000e280 SET_64 3     ntoskrnl.exe_IoGetCurrentProcess
+0x000123c4 0x0000e288 SET_64 3     ntoskrnl.exe_PoStartNextPowerIrp
+0x000123da 0x0000e290 SET_64 3     ntoskrnl.exe_IofCompleteRequest
+0x000123f0 0x0000e298 SET_64 3     ntoskrnl.exe_KeWaitForSingleObject
+0x00012408 0x0000e2a0 SET_64 3     ntoskrnl.exe_PoCallDriver
+0x00012418 0x0000e2a8 SET_64 3     ntoskrnl.exe_IoCreateSymbolicLink
+0x00012430 0x0000e2b0 SET_64 3     ntoskrnl.exe_IoCreateDevice
+0x00012442 0x0000e2b8 SET_64 3     ntoskrnl.exe_ExAllocatePoolWithTag
+0x0001245a 0x0000e2c0 SET_64 3     ntoskrnl.exe_IoBuildDeviceIoControlRequest
+0x0001247a 0x0000e2c8 SET_64 3     ntoskrnl.exe_KeInitializeEvent
+0x0001248e 0x0000e2d0 SET_64 3     ntoskrnl.exe_KeReleaseSpinLock
+0x000124a2 0x0000e2d8 SET_64 3     ntoskrnl.exe_KeDelayExecutionThread
+0x000124bc 0x0000e2e0 SET_64 3     ntoskrnl.exe_MmSizeOfMdl
+0x000124ca 0x0000e2e8 SET_64 3     ntoskrnl.exe_KeBugCheckEx
+0x000124da 0x0000e2f0 SET_64 3     ntoskrnl.exe_MmProbeAndLockPages
+0x000124f0 0x0000e2f8 SET_64 3     ntoskrnl.exe_KeReleaseSemaphore
+0x00012506 0x0000e300 SET_64 3     ntoskrnl.exe_MmUnlockPages
+0x00012516 0x0000e308 SET_64 3     ntoskrnl.exe_IofCallDriver
+0x00012526 0x0000e310 SET_64 3     ntoskrnl.exe_KeAcquireSpinLockRaiseToDpc
+0x00012544 0x0000e318 SET_64 3     ntoskrnl.exe_IoBuildSynchronousFsdRequest
+0x00012564 0x0000e320 SET_64 3     ntoskrnl.exe_IoGetRelatedDeviceObject
+0x00012580 0x0000e328 SET_64 3     ntoskrnl.exe_IoDetachDevice
+0x00012592 0x0000e330 SET_64 3     ntoskrnl.exe_IoFileObjectType
+0x000125a6 0x0000e338 SET_64 3     ntoskrnl.exe_IoGetDeviceObjectPointer
+0x000125c2 0x0000e340 SET_64 3     ntoskrnl.exe_ObReferenceObjectByHandle
+0x000125de 0x0000e348 SET_64 3     ntoskrnl.exe_IoAttachDeviceToDeviceStack
+0x000125fc 0x0000e350 SET_64 3     ntoskrnl.exe_ObfDereferenceObject
+0x00012614 0x0000e358 SET_64 3     ntoskrnl.exe_ProbeForRead
+0x00012624 0x0000e360 SET_64 3     ntoskrnl.exe_ZwCreateFile
+0x00012634 0x0000e368 SET_64 3     ntoskrnl.exe_PsTerminateSystemThread
+0x0001264e 0x0000e370 SET_64 3     ntoskrnl.exe_KeInitializeSemaphore
+0x00012666 0x0000e378 SET_64 3     ntoskrnl.exe_KeSetPriorityThread
+0x0001267c 0x0000e380 SET_64 3     ntoskrnl.exe_PsCreateSystemThread
+0x00012694 0x0000e388 SET_64 3     ntoskrnl.exe_KeWaitForMultipleObjects
+0x000126b0 0x0000e390 SET_64 3     ntoskrnl.exe_KeReleaseSpinLockFromDpcLevel
+0x000126d0 0x0000e398 SET_64 3     ntoskrnl.exe_IoDriverObjectType
+0x000126e6 0x0000e3a0 SET_64 3     ntoskrnl.exe_ObReferenceObjectByName
+0x00012700 0x0000e3a8 SET_64 3     ntoskrnl.exe_KeAcquireSpinLockAtDpcLevel
+0x0001271e 0x0000e3b0 SET_64 3     ntoskrnl.exe_IoFreeMdl
+0x0001272a 0x0000e3b8 SET_64 3     ntoskrnl.exe_IoFreeIrp
+0x00012736 0x0000e3c0 SET_64 3     ntoskrnl.exe_IoAllocateIrp
+0x00012746 0x0000e3c8 SET_64 3     ntoskrnl.exe_IoAllocateMdl
+0x00012756 0x0000e3d0 SET_64 3     ntoskrnl.exe_MmBuildMdlForNonPagedPool
+0x00012780 0x0000e3d8 SET_64 3     ntoskrnl.exe_RtlAnsiCharToUnicodeChar
+0x0001279c 0x0000e3e0 SET_64 3     ntoskrnl.exe___C_specific_handler
+
+
+61 relocations
