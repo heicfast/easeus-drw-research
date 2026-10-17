@@ -1,6 +1,6 @@
-# 26 — The Filter System Decode: CFilterButton Family → CFilterBar → CRightContent::onFilterChanged → CSetFilterThread
+# 31 — The Filter System Decode: CFilterButton Family → CFilterBar → CRightContent::onFilterChanged → CSetFilterThread
 
-**Sources**: moc stringdata blobs (rdata), moc slot decodes (vtable→qt_metacall→qt_static_metacall chains), decompiled slot bodies (FUN_ addresses), connect() string-site mining, ctor map, dynamic telemetry (artifact 25 §5)
+**Sources**: moc stringdata blobs (rdata), moc slot decodes (vtable→qt_metacall→qt_static_metacall chains), decompiled slot bodies (FUN_ addresses), connect() string-site mining, ctor map, dynamic telemetry (artifact 30 §5)
 **Role**: The complete filtering pipeline of the results view — the toolbar the user sees after a scan ("Filter" funnel button + Type/Time/Size/Advanced dropdown buttons), how a click becomes a `CSetFilterThread` that refilters the model, and the two-mode (Path/Type) filter-bar duplication.
 
 ---
@@ -24,7 +24,7 @@
 | CSetFilterThread | 12 | QThread | 1 (sigFinished) | The refilter worker |
 | CRecoveryFilter | 8 | IRecoveryFilter | — | Recovery-time filter (core side) |
 
-**Key structural finding (precision correction)**: CTypeFilterBtn/CTimeFilterBtn/CSizeFilterBtn/CAdvancedFilterBtn have **zero own moc metadata** — they are pure label/menu specializations of CFilterButton (one shared moc surface, static metacall `FUN_140b6eb20`, metacall `FUN_140b6e9b0`). The moc compiler emitted ONE QMetaObject for the family; each subclass only overrides `buildMenu()`-style virtuals. Same pattern as the repair items (artifact 27) — the codebase systematically uses template-sibling specialization instead of per-class moc.
+**Key structural finding (precision correction)**: CTypeFilterBtn/CTimeFilterBtn/CSizeFilterBtn/CAdvancedFilterBtn have **zero own moc metadata** — they are pure label/menu specializations of CFilterButton (one shared moc surface, static metacall `FUN_140b6eb20`, metacall `FUN_140b6e9b0`). The moc compiler emitted ONE QMetaObject for the family; each subclass only overrides `buildMenu()`-style virtuals. Same pattern as the repair items (artifact 32) — the codebase systematically uses template-sibling specialization instead of per-class moc.
 
 ## 2. CFilterButton — the shared moc surface (stringdata-validated)
 
@@ -73,7 +73,7 @@ The reset path: clears the 4 buttons, resets search, emits sigFilterChange with 
 
 ### 3.3 The AI Recommend button
 
-`onBtnAiRecommendClicked` (FUN_140704040) checks `QObject::sender` + `QWidget::isVisible` then funnels into the AI recommendation flow; `sigEnterLeaveAiRecommedBtn(enter)` feeds the toast/hover state. Dynamic ground truth (artifact 25 §2): the **"AI Recommend available." toast pops at results entry**, and the purple AI FAB persists — this bar is where that funnel is wired.
+`onBtnAiRecommendClicked` (FUN_140704040) checks `QObject::sender` + `QWidget::isVisible` then funnels into the AI recommendation flow; `sigEnterLeaveAiRecommedBtn(enter)` feeds the toast/hover state. Dynamic ground truth (artifact 30 §2): the **"AI Recommend available." toast pops at results entry**, and the purple AI FAB persists — this bar is where that funnel is wired.
 
 ## 4. TWO filter bars — one per tree mode (lazy, hidden until mode switch)
 
@@ -102,7 +102,7 @@ Decoded body:
 
 ### The sibling: onCheckFinished (FUN_14072b580)
 
-Spawns **CCheckNodeThread** (ctor FUN_140ad1100, 0x28 bytes) with `QThread::start(thread, 7)` = **TimeCriticalPriority**, connect `"2sigFinished(bool)" → "1onCheckFinished(bool)"`. This is the recoverability-grading pass — dynamically corroborated: "Recovery ability matched=0, total=127" + "Recoverability finish match.." fire on scan completion AND re-fire on Go-to-Recover (artifact 25 §5).
+Spawns **CCheckNodeThread** (ctor FUN_140ad1100, 0x28 bytes) with `QThread::start(thread, 7)` = **TimeCriticalPriority**, connect `"2sigFinished(bool)" → "1onCheckFinished(bool)"`. This is the recoverability-grading pass — dynamically corroborated: "Recovery ability matched=0, total=127" + "Recoverability finish match.." fire on scan completion AND re-fire on Go-to-Recover (artifact 30 §5).
 
 ## 6. CSetFilterThread::run() (FUN_14072f8c0) — the refilter worker
 
@@ -145,16 +145,17 @@ siblings: sigClearSearch / sigShowSearch / sigSwitchNavigate(bool,bool)
 
 Inherits `IAdvanceFileFilterSink`; owns **3 condition slots** (param_1[1..3], each delete-freed) — one per view mode (path/type/search), i.e. the persistent "last filter per mode" store that re-applies when the user switches tabs. Dynamic property `state` + the QSS `[state=...]` selectors complete the visual state machine.
 
-## 9. Dynamic corroboration (artifact 25)
+## 9. Dynamic corroboration (artifact 30)
 
 - Filter toolbar visible in all scan/results captures ([≡][Filter][Search files or folders] cluster at y≈70 — pixel cluster x=710-801).
 - Path/Type tabs at (140/234, 117) — the two filter bars' mode switch, one visible at a time.
-- The scripted Filter click hit the celebration window instead (§4 of artifact 25) — the toolbar is *under* the modal; post-dismiss the bar is live.
+- The scripted Filter click hit the celebration window instead (§4 of artifact 30) — the toolbar is *under* the modal; post-dismiss the bar is live.
 
 ## 10. Cross-links
 
+- **The complete connect() wiring graph (parallel-session artifact): `25-connect-wiring-graph.md`** — 722 signal→slot pairs fully resolved; the filter wiring in §7 is one subgraph of it, and its independent RVA-truncation resolution (`0x40ddfe68` → `0xddfe68`) cross-validates the method-string technique used in §4
 - Dispatcher-decode methodology + Sink architecture: `20-moc-surface-sink-architecture.md`
 - CRightContent census (82-method hub): `22-rtti-class-census.md` §CRightContent
 - Results-phase UX (filter surface inventory): `09-results-phase-deep-dive.md`; filtering config layer: `../config-files/filtering-priority--config-layer.md`
-- The recoverability pass runtime evidence: `25-interaction-driver-ground-truth.md` §5
-- Repair-row template-sibling pattern (same moc-sharing design): `27-repair-item-rows-decode.md`
+- The recoverability pass runtime evidence: `30-interaction-driver-ground-truth.md` §5
+- Repair-row template-sibling pattern (same moc-sharing design): `32-repair-item-rows-decode.md`

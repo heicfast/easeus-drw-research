@@ -1,192 +1,105 @@
 {
- "FileRepairListItem": [
+ "CNavigateBar": [
   {
-   "va": "0x140f07788",
-   "file_off": "0xf06188",
+   "va": "0x140eea1c8",
+   "file_off": "0xee8bc8",
    "strings": [
-    "FileRepairListItem",
-    "sigTranslate",
-    "sigRemove",
-    "sigRepair",
-    "sigRepairEx",
-    "sigPreview",
-    "sigSave",
-    "sigStop",
-    "sigUpdateIcon",
+    "CNavigateBar",
+    "sigListIconChanged",
+    "sigShowSearch",
+    "sigShowFilterBar",
+    "sigSwitchSearch",
+    "sigAddressChanged",
+    "sigClearSearch",
+    "sigClearSearchFilter",
+    "sigGetRightIndex",
+    "int&",
+    "sigSelectRightIndex",
+    "sigSearchResetSort",
+    "sigIconButonDefaltChange",
+    "isIcon",
+    "onAddressChanged",
     "retranslate",
-    "slotUpdateRepairProgress",
-    "nProgress"
+    "IsFilterBtnToggled",
+    "bool&",
+    "onSwitch2Search",
+    "resetSearchText",
+    "bSwitch2Search",
+    "onBeforeFreeze",
+    "onFilterChanged",
+    "AdvanceFilterCondition",
+    "clearSearchEdit",
+    "slotResizeFilterTips",
+    "onBtnClicked",
+    "id",
+    "onSearchBtnClicked",
+    "onSearchTextChanged",
+    "str",
+    "onSearchEditChanged",
+    "onReceiveData",
+    "type",
+    "onSearchFocusout",
+    "onIconListBtnClicked",
+    "onPageChange",
+    "bSearch",
+    "onBtnTranslate",
+    "onBtnMouseEnter",
+    "onCloseExpendFilterBtn",
+    "bClickTag",
+    "onFilterNltClickedSearch",
+    "onUpdateRootPathName",
+    "strNavigate",
+    "slotNasReconnectVolume",
+    "slotNasVolumeMenuClose",
+    "onDelayChangeIconListBtn",
+    "onChangeHomeBtnName",
+    "bShowSearch"
    ]
   }
  ],
- "CRepairVideoItem": [
+ "CBottomArea": [
   {
-   "va": "0x140f352d8",
-   "file_off": "0xf33cd8",
+   "va": "0x140dde1f8",
+   "file_off": "0xddcbf8",
    "strings": [
-    "CRepairVideoItem",
-    "sigRemove",
-    "sigStartRepair",
-    "sigClickedAdvancedRepair",
-    "sigStartAdvancedRepair",
-    "sigStopRepair",
-    "sigStartSave",
-    "bPreview",
-    "sigPreview",
-    "sigSaveActivateSuccess",
-    "retranslate",
-    "onClickedRemove",
-    "onClickedPreview",
-    "onClickedSave",
-    "onClickedAdvancedRepair",
-    "bFromChange",
-    "onClickedFeedBack",
-    "onClickedChange",
-    "onUpdateRepairProgress",
-    "onClickedRepair",
-    "onClickedStopRepair",
-    "bForce"
-   ]
-  }
- ],
- "CRepairPDFItem": [
-  {
-   "va": "0x140efb178",
-   "file_off": "0xef9b78",
-   "strings": [
-    "CRepairPDFItem",
-    "sigRemove",
-    "sigStartRepair",
-    "sigClickedAdvancedRepair",
-    "sigStartAdvancedRepair",
-    "sigStopRepair",
-    "sigStartSave",
-    "bPreview",
-    "sigPreview",
-    "sigSaveActivateSuccess",
-    "retranslate",
-    "onClickedRemove",
-    "onClickedPreview",
-    "onClickedSave",
-    "onClickedAdvancedRepair",
-    "bFromChange",
-    "onClickedFeedBack",
-    "onClickedChange",
-    "onUpdateRepairProgress",
-    "onClickedRepair",
-    "onClickedStopRepair",
-    "bForce"
-   ]
-  }
- ],
- "FileRepairDataMgr": [
-  {
-   "va": "0x140f06548",
-   "file_off": "0xf04f48",
-   "strings": [
-    "FileRepairDataMgr",
-    "sigStopSave",
-    "sigFinishRepairTasks",
-    "sigDoNextRepairTask",
-    "sigUpdateRepairProgress",
-    "slotSaveRet"
-   ]
-  }
- ],
- "FileRepairWidgetsMgr": [
-  {
-   "va": "0x140f072c0",
-   "file_off": "0xf05cc0",
-   "strings": [
-    "FileRepairWidgetsMgr",
-    "slotHomePageClickedStart",
-    "slotGoHome",
-    "slotAddFiles",
-    "QVector<QString>",
-    "vecFiles",
-    "slotGoListView",
-    "slotRepairRet",
-    "strPath",
-    "bRet",
-    "pix"
-   ]
-  }
- ],
- "FileRepairHomePage": [
-  {
-   "va": "0x140f06ad0",
-   "file_off": "0xf054d0",
-   "strings": [
-    "FileRepairHomePage",
-    "sigTranslate",
-    "sigBtnStartClicked",
-    "retranslate",
-    "slotBtnStartClicked"
-   ]
-  }
- ],
- "FileRepairAddPage": [
-  {
-   "va": "0x140f05ed0",
-   "file_off": "0xf048d0",
-   "strings": [
-    "FileRepairAddPage",
-    "sigTranslate",
-    "sigGoHome",
-    "sigAddFiles",
-    "QVector<QString>",
-    "retranslate",
-    "slotBtnAddClicked",
-    "slotDragFilesIn",
-    "fileList"
-   ]
-  }
- ],
- "FileRepairScanItem": [
-  {
-   "va": "0x140f08d40",
-   "file_off": "0xf07740",
-   "strings": [
-    "FileRepairScanItem",
-    "sigRemove",
-    "sigPreview",
-    "sigRepair",
-    "sigRepairEx",
-    "sigStop",
-    "retranslate",
-    "slotUpdateRepairProgress",
-    "nProgress",
-    "a",
-    "t",
-    "l",
-    "T",
-    "r",
-    "a",
-    "c",
-    "e",
-    "H",
-    "o",
-    "s",
-    "t",
-    "i",
-    "n",
-    "g",
-    "a",
-    "t",
-    "l",
-    "T",
-    "r",
-    "a",
-    "c",
-    "e",
+    "CBottomArea",
     "D",
+    "DetailPageWidget_Introduction",
+    "CBottomArea",
     "B",
-    "C",
-    "l",
-    "i",
-    "e",
-    "n",
-    "t"
+    "DetailPageWidget_Introduction",
+    "CBottomArea"
+   ]
+  },
+  {
+   "va": "0x140dde228",
+   "file_off": "0xddcc28",
+   "strings": [
+    "CBottomArea",
+    "B",
+    "DetailPageWidget_Introduction",
+    "CBottomArea"
+   ]
+  },
+  {
+   "va": "0x140ee3b30",
+   "file_off": "0xee2530",
+   "strings": [
+    "CBottomArea",
+    "sigMoveBuyGuideWnd",
+    "sigCloseBuyGuideWnd",
+    "sigShowOrHideGuideWnd",
+    "sigChangeRecoverBtnState",
+    "sigScanFinished",
+    "iScanTypeChanged",
+    "iScanType",
+    "slotBtnAutoRecover",
+    "slotDoAutoRecover",
+    "slotShowAutoRecover",
+    "slotLostPartitonBegin",
+    "slotShowBuyGuide",
+    "retranslate",
+    "TxtRecoverMargin"
    ]
   }
  ]

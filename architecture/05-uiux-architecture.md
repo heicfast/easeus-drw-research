@@ -160,9 +160,13 @@ view are exactly as documented — only the containing function for page 3 diffe
 
 ## 12. Fifth wave — interaction driver, filter chain, repair rows, objectName loop (session 5)
 
+(Note: artifacts renumbered 30-34 to resolve a numbering collision with the parallel session's
+`25-connect-wiring-graph.md` — the complete 722-pair connect() topology, which independently
+cross-validates the low-32 RVA truncation technique used for method-string resolution here.)
+
 All three wave-4 "suggested next steps" executed, plus the workflow hardening:
 
-- **25 — Post-scan-complete interaction ground truth**: `ui-interaction-driver.yml` (2-variant
+- **30 — Post-scan-complete interaction ground truth**: `ui-interaction-driver.yml` (2-variant
   Windows matrix, pixel-verified click coordinates, per-step screenshots) captured the last two
   dynamic cells. The completion celebration is a **standalone 540×380 OS child window** (own
   hwnd, no reject-on-Escape — blocks all toolbar clicks until dismissed). **"Go to Recover" →
@@ -173,7 +177,7 @@ All three wave-4 "suggested next steps" executed, plus the workflow hardening:
   vendor source paths — cache-reset cascade → **Freeze → auto_<Volume>_<timestamp>.rsf auto-save
   → Unfreeze** → CScanMgr::ScanFinished:636 → bottomarea.cpp:838/856 (nStatus=4, m_iScanType 3→4)
   → quick-scan + recoverability passes (CCheckNodeThread, re-fires on Go-to-Recover).
-- **26 — Filter system decode (CFilterButton family → CFilterBar → CRightContent::onFilterChanged
+- **31 — Filter system decode (CFilterButton family → CFilterBar → CRightContent::onFilterChanged
   → CSetFilterThread)**: 5 filter buttons share ONE moc surface (template-sibling pattern);
   onActionChanged special action-IDs 0x1a/0x105/0x1006; **TWO CFilterBar instances (Path mode /
   Type mode)**, hidden until mode switch; CFilterBar::onValueChanged aggregates 4 buttons + AI
@@ -182,15 +186,16 @@ All three wave-4 "suggested next steps" executed, plus the workflow hardening:
   view-indexed model via the global singleton switch (path/type/search) and calls the model's
   SetFilter virtual (+0x10) or NULL to clear; empty-condition checker = 7 enable-bits.
   Filter→scan interplay telemetry-verified (CDoScanPartition::PushFolderFilter:84 at scan start).
-- **27 — Repair item-row dispatchers**: CRepairVideoItem/CRepairPDFItem = identical 22-method moc
+- **32 — Repair item-row dispatchers**: CRepairVideoItem/CRepairPDFItem = identical 22-method moc
   blobs (template siblings); the row contract (Repair/Preview/Save/Stop/Advanced-Repair[bFromChange]/
   Change/FeedBack + progress); FileRepairWidgetsMgr page flow (Home→Add→List, switchToPage(N));
   FileRepairAddThread @ **TimeCriticalPriority**; FileRepairDataMgr task queue (sigDoNextRepairTask
   / sigFinishRepairTasks); **priority-7 worker fleet confirmed cross-line** (filter/check/repair).
-- **28 — objectName loop closure**: QSS census v2 (bug fix — every #name indexed: 1,677→**1,710
-  targets**) + binary-level lea-xref scanner + 2-hop caller attribution → **1,432/1,710 (83.9%)
-  attributed** (261 exact-name + 95 direct + 23 caller-hop + 1,053 Qt-kind context) across **304
-  owning classes**; the 278 unmatched are mostly runtime-composed numbered names (231 have binary
+- **33 — objectName loop closure (v2)**: QSS census v2 (bug fix — every #name indexed: 1,677→**1,710
+  targets**) + binary-level lea-xref scanner + 3-hop caller walk THROUGH Qt-base attributions +
+  parent-context inheritance → **1,330/1,710 (77.8%) attributed to OWNING app classes** (261 exact-name
+  + 95 direct + 52 caller-hop + 907 hop-owner + 15 parent-context; 107 widget-kind-only) across **313
+  owning classes**; the 273 unmatched are mostly runtime-composed numbered names (231 have binary
   prefixes) + type-selectors needing no setObjectName.
 - New tooling: `scripts/objectname_loop.py` (+ census v2); raw evidence:
   `re-workspace/raw-evidence/ui-interaction-{recovery-flow,results-interactions}/`,
@@ -202,3 +207,9 @@ Open for next session: scripted clicks INSIDE the results view (post-Go-to-Recov
 dropdown / Type-tab switch / preview-window captures; the 304-owner loop can extend the remaining
 Qt-kind-context attributions via enclosing-ctor analysis; repair-wizard dynamic capture (separate
 launch path EUFileRepair).
+- **34 — Results-view chrome contracts**: CNavigateBar (50-string toolbar surface: back/up/home
+  group, address breadcrumb, list⇄icon toggle, Filter funnel, 9-type search state machine, NAS
+  reconnect slots, onBeforeFreeze participation) + CBottomArea (15-string status-bar surface:
+  sigScanFinished(iScanTypeChanged,iScanType) = the telemetry-anchored bottomarea.cpp:838/856
+  emitter; Auto-Recover show/do slots decoded with state-property choreography; the moving
+  Buy-guide window family; slotLostPartitonBegin).

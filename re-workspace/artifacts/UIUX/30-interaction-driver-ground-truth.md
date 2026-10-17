@@ -1,4 +1,4 @@
-# 25 — Post-Scan-Complete Interaction Ground Truth (Go to Recover → Retention Gate; Filter/Tab/Preview click matrix)
+# 30 — Post-Scan-Complete Interaction Ground Truth (Go to Recover → Retention Gate; Filter/Tab/Preview click matrix)
 
 **Experiment**: `ui-interaction-driver.yml` run 39048461922 (2 parallel Windows-native variants, DRW.exe loader, 45s landing wait, click "Search for Lost Data" @ (922,662), 940s scan wait → scan-complete modal → scripted clicks with per-step screenshots)
 **Evidence**: `re-workspace/raw-evidence/ui-interaction-recovery-flow/` + `re-workspace/raw-evidence/ui-interaction-results-interactions/` (14 screenshots, 2 interaction logs, 2 window censuses, 6 app logs)
@@ -24,7 +24,7 @@ Click at (494,473) produced a full state transition (shot_20):
 
 1. **Celebration window closes; the app lands in the RESULTS browse view** — not directly into a destination dialog. The funnel's step-2 comes from "Recover All" (below).
 2. Results view at entry: tree = `Windows (C:) 1.1M` / `File Path Lost 4.3K` / **`Reconstructed 87`** (the carving branch grew 16→87 between the 34%-scan capture and completion — live-carving feed continues through the advanced pass), folder list (actionarchivecache…), right preview pane (folder icon, Open button, "Size: 284 MB").
-3. **"AI Recommend available." toast** pops bottom-right with a "View Details" button — the AI-assistant funnel surfaces exactly at results entry (matches `sigEnterLeaveAiRecommedBtn` / `onBtnAiRecommendClicked` in the static CFilterBar decode, artifact 26).
+3. **"AI Recommend available." toast** pops bottom-right with a "View Details" button — the AI-assistant funnel surfaces exactly at results entry (matches `sigEnterLeaveAiRecommedBtn` / `onBtnAiRecommendClicked` in the static CFilterBar decode, artifact 31).
 4. After ESC the toast is gone but the **AI floating action button** remains (purple/blue gradient circle, robot icon, red notification dot, bottom-right corner) — the persistent assistant entry point.
 5. Bottom bar: green check + "Scan Completed, Files Found: 1139261 (147.04 GB)" + active blue "Recover All ..." button.
 
@@ -88,12 +88,12 @@ Decoded pipeline (each step cross-verified against the static architecture):
 | Video-repair probe | `m_bNeedViedoRepair=0, m_pVideoRepair=1` | Repair-line availability check (artifact 12) |
 | Scan-finished chain | `CDoScanPartition::ScanThread:483 → UpdateScanFinishedInfo:498 → CScanMgr::ScanFinished:636` | DRWIntelligentScan PDB tree; CScanMgr completion path |
 | Status-bar state machine | `bottomarea.cpp:838/856, nStatus=4, m_iScanType=3→4` | **NEW**: bottomarea.cpp is the status-bar controller; m_iScanType 3→4 = the quick→advanced completion transition rendered live |
-| Recoverability pass | `Quick scan matched=0, total=64` + `Recovery ability matched=0, total=127` (runs 4×) then `Recoverability finish match..` | The CCheckNodeThread decode (artifact 26 §5) — the check-node pass that grades found files |
-| Re-check on Go to Recover | Same "Recovery ability matched=0, total=127" lines re-fire at 16:29-16:30 in the recovery-flow log AFTER the click | onCheckFinished → CCheckNodeThread spawn (decoded body, artifact 26) |
+| Recoverability pass | `Quick scan matched=0, total=64` + `Recovery ability matched=0, total=127` (runs 4×) then `Recoverability finish match..` | The CCheckNodeThread decode (artifact 31 §5) — the check-node pass that grades found files |
+| Re-check on Go to Recover | Same "Recovery ability matched=0, total=127" lines re-fire at 16:29-16:30 in the recovery-flow log AFTER the click | onCheckFinished → CCheckNodeThread spawn (decoded body, artifact 31) |
 
 ("matched=0" on the runner because the check grades *repairable-beyond-recovery* candidates — 0 of 127 needed grading on the runner's disk.)
 
-Also captured: `FilterPath=` + `CDoScanPartition::PushFolderFilter:84` + `AdvanceFilter current time is :2026-10-17 16:14:32` at scan START — the **advance-filter state carried into the scan controller** (filter → scan interplay, artifact 26 §7).
+Also captured: `FilterPath=` + `CDoScanPartition::PushFolderFilter:84` + `AdvanceFilter current time is :2026-10-17 16:14:32` at scan START — the **advance-filter state carried into the scan controller** (filter → scan interplay, artifact 31 §7).
 
 ## 6. The complete dynamic user flow — now closed end-to-end
 
@@ -121,6 +121,6 @@ Every stage now has pixel evidence + telemetry corroboration + static cross-link
 
 - Previous dynamic cells: `dynamic-ground-truth--scan-phase-captured.md` (splash/landing/scan/complete)
 - Retention/monetization static decode: `17-monetization-growth-surfaces.md`; recovery funnel: `11-recovery-phase-funnel.md`
-- Filter-bar static decode (AI button + freeze signals): `26-filterbar-family-decode.md`
+- Filter-bar static decode (AI button + freeze signals): `31-filterbar-family-decode.md`
 - Sink/Freeze protocol: `20-moc-surface-sink-architecture.md` §4
 - .rsf auto-save: `../SaveScan/rsf-format--scan-session.md`; CScanMgr/CDetailPage wiring: `13-ui-core-wiring-state.md`

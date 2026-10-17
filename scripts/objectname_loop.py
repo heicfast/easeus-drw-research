@@ -118,10 +118,12 @@ def attributed(fva):
     h = hex(fva)
     return fc.get(h) or scm.get(h) or m2c.get(h)
 
-def hop_class(fva, depth=2):
-    """walk callers up to depth hops to find an attributed ancestor"""
+def hop_class(fva, depth=3):
+    """walk callers up to depth hops; prefer an APP-class ancestor (skip past
+    Qt-base attributions to the composite owner), returning (class, kind)"""
     seen = {fva}
     frontier = [fva]
+    qt_kind = None
     for _ in range(depth):
         nxt = []
         for f in frontier:
@@ -131,11 +133,13 @@ def hop_class(fva, depth=2):
                     continue
                 seen.add(fn)
                 cls = attributed(fn)
-                if cls:
-                    return cls, fn
+                if cls and cls not in QT_BASES:
+                    return cls, qt_kind
+                if cls and qt_kind is None:
+                    qt_kind = cls
                 nxt.append(fn)
         frontier = nxt
-    return None, None
+    return None, qt_kind
 
 # build xref index: target VA -> set of func VAs (lea rip-rel scan)
 va2target = {}
@@ -177,10 +181,16 @@ for t in targets:
     for fn in sorted(fns)[:10]:
         cls = attributed(fn)
         src = 'direct'
-        if cls is None:
-            cls, hopfn = hop_class(fn)
-            src = f'caller-hop' if cls else 'none'
-        cand.append({'func': hex(fn), 'class': cls, 'src': src})
+        kind = None
+        if cls is None or cls in QT_BASES:
+            hop_cls, kind = hop_class(fn)
+            if hop_cls is not None and cls is None:
+                cls = hop_cls
+                src = 'caller-hop'
+            elif cls in QT_BASES and hop_cls is not None:
+                cls = hop_cls
+                src = 'hop-owner'
+        cand.append({'func': hex(fn), 'class': cls, 'src': src, 'kind': kind or (attributed(fn) if attributed(fn) in QT_BASES else None)})
         entry['funcs'].append(cand[-1])
     # pick best
     best = None
@@ -207,6 +217,33 @@ for t in targets:
         matched_cls += 1
     result[t] = entry
 
+# ---- pass 2: parent-context inheritance ----
+# child objectNames styled under '#Parent Child#child' selectors inherit the
+# parent target's class when their own attribution is Qt-base-only or missing
+qss = json.load(open(QSS))
+inherit_count = 0
+for t in targets:
+    e = result.get(t, {})
+    if e.get('best_src') in ('exact-name', 'direct', 'caller-hop', 'hop-owner'):
+        continue
+    ent = qss['by_target'].get(t)
+    if not ent:
+        continue
+    for r in ent.get('rules', []):
+        m = re.match(r'#([A-Za-z_][A-Za-z0-9_]*)\s', r['selector'] + ' ')
+        if not m:
+            continue
+        parent = m.group(1)
+        if parent == t:
+            continue
+        pe = result.get(parent, {})
+        pc = pe.get('best_class')
+        if pc and pc not in QT_BASES:
+            e['best_class'] = pc
+            e['best_src'] = 'parent-context'
+            inherit_count += 1
+            break
+
 stats = {
     'qss_targets': len(targets),
     'located_in_binary': len(name_vas),
@@ -214,6 +251,7 @@ stats = {
     'with_class_attribution': matched_cls,
     'total_xref_functions': sum(len(v) for v in xrefs.values()),
     'hop_attributed': hop_matches,
+    'parent_context_inherited': inherit_count,
 }
 print(json.dumps(stats, indent=1))
 json.dump({'stats': stats, 'targets': result}, open(OUT, 'w'), indent=1)

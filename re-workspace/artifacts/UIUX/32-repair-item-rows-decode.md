@@ -1,4 +1,4 @@
-# 27 — Repair Item-Row Dispatchers: FileRepair/CRepairVideo/CRepairPDF Row Contracts + WidgetsMgr Page Flow + DataMgr Task Queue
+# 32 — Repair Item-Row Dispatchers: FileRepair/CRepairVideo/CRepairPDF Row Contracts + WidgetsMgr Page Flow + DataMgr Task Queue
 
 **Sources**: moc stringdata blobs, moc slot decodes (static-metacall case tables), decompiled slot bodies (FUN_ addresses incl. emitter tracing), ctor map, RTTI census, repair-line architecture artifacts
 **Role**: The repair product line's UI spine — how each damaged-file row exposes its actions (Repair / Preview / Save / Stop / Advanced / Feedback / Change), how the page flow is driven (Home → Add → List), and how the task queue serializes repair work. Complements the repair-engine artifacts (EUVideoRepair/EUAdobeRepair/EUArchiveRepair/EuOfficeRepairFile) with the widget-side contracts.
@@ -13,7 +13,7 @@
 | Video-repair row | **CRepairVideoItem** | 21 (table `FUN_140bdaa80`) | CRepairVideoItemsWnd, CRepairVideoWidgetsMgr, CRepairVideoController |
 | PDF-repair row | **CRepairPDFItem** | 21 (table `FUN_140b87df0`) | CRepairPDFItemsWnd, CRepairPDFWidgetsMgr, CRepairPDFController |
 
-**CRepairVideoItem and CRepairPDFItem have IDENTICAL 22-string moc blobs** (byte-for-byte the same method list) — like the filter buttons (artifact 26 §1), the vendor built one row controller and specialized per line: identical interaction contract, different preview/repair backends. This is a codebase-wide design signature: *shared moc surface + virtual-specialized subclassing*.
+**CRepairVideoItem and CRepairPDFItem have IDENTICAL 22-string moc blobs** (byte-for-byte the same method list) — like the filter buttons (artifact 31 §1), the vendor built one row controller and specialized per line: identical interaction contract, different preview/repair backends. This is a codebase-wide design signature: *shared moc surface + virtual-specialized subclassing*.
 
 ## 2. The row contract (CRepairVideoItem/CRepairPDFItem, stringdata-validated)
 
@@ -58,7 +58,7 @@ slots:  slotHomePageClickedStart()      -> switchToPage(N)
 Decoded from the bodies:
 
 - **switchToPage(N)** (FUN_140b2a140 from slots 0/1): the QStackedWidget page index setter — pages: **0 = FileRepairHomePage, 1 = FileRepairAddPage, 2 = the list view** (confirmed by slot 3's `FUN_140b2a140(param_1, 2)` + the list-frame refresh trio FUN_1407a6670/71f7/aac30).
-- **slotAddFiles** (FUN_1407d2d60): `FileRepairAddThread` (0x18-byte object, ctor FUN_14079af40→FUN_1407d2570) created with the file vector, connected via the QThread `finished` PMF, then **`QThread::start(thread, 7)` = TimeCriticalPriority** — file-add/analysis runs at the same time-critical priority as the filter and check threads (artifact 26 §5). The finished handler auto-advances to the list page.
+- **slotAddFiles** (FUN_1407d2d60): `FileRepairAddThread` (0x18-byte object, ctor FUN_14079af40→FUN_1407d2570) created with the file vector, connected via the QThread `finished` PMF, then **`QThread::start(thread, 7)` = TimeCriticalPriority** — file-add/analysis runs at the same time-critical priority as the filter and check threads (artifact 31 §5). The finished handler auto-advances to the list page.
 - **slotRepairRet** (FUN_1407d2f10): the repair-completion sink — updates the row (FUN_1407a6e20), walks a page-flow helper chain (FUN_1407d42b0/d42d0 → FUN_1407c2850), then two manager cleanups (FUN_140795070/7954d0) — this is where a finished task hands off to the next queued item.
 - Drag-and-drop entry: FileRepairAddPage exposes `slotDragFilesIn(fileList)` + `slotBtnAddClicked()` → both funnel into slotAddFiles.
 
@@ -75,8 +75,8 @@ The queue pattern (from signal names + controller wiring): each row's sigStartRe
 
 | Thread | Line | Evidence |
 |---|---|---|
-| CSetFilterThread | results filter | `QThread::start(t,7)` (artifact 26) |
-| CCheckNodeThread | recoverability grading | `QThread::start(t,7)` (artifact 26 §5) |
+| CSetFilterThread | results filter | `QThread::start(t,7)` (artifact 31) |
+| CCheckNodeThread | recoverability grading | `QThread::start(t,7)` (artifact 31 §5) |
 | FileRepairAddThread | repair add/analyze | `QThread::start(t,7)` (this artifact §3) |
 | FileRepairThread / FileRepairSaveThread / PdfRepairThread / ArchiveRepairThread | repair execution | 12-vtable-method worker classes (same family) |
 
@@ -88,13 +88,13 @@ Row-level styling targets from the loop-closure census: `RepairViewPushButton` (
 
 ## 7. Dynamic/forensic corroboration
 
-- Runtime log (artifact 25 evidence): `m_bNeedViedoRepair=0, m_pVideoRepair=1` at scan completion — the main app probes video-repair availability exactly when results finalize, pre-wiring the "repair video" coaching entry on damaged-media rows.
+- Runtime log (artifact 30 evidence): `m_bNeedViedoRepair=0, m_pVideoRepair=1` at scan completion — the main app probes video-repair availability exactly when results finalize, pre-wiring the "repair video" coaching entry on damaged-media rows.
 - Vendor QA log (forensics artifact): video-repair regroup JSON + repair-row click telemetry in the QA-night session.
 - Repair-entry surface in the main UI: artifact 12 (repair wizards from the results view / home "Repair" tiles).
 
 ## 8. Cross-links
 
-- Filter-row template-sibling pattern: `26-filterbar-family-decode.md` §1
+- Filter-row template-sibling pattern: `31-filterbar-family-decode.md` §1
 - Repair engine internals: `../FileRepair/` family (EUVideoRepair box-parsing, EuOfficeRepairFile schema-driven repair, EUArchiveRepair 7z, EUAdobeRepair cloud client)
 - Preview compare window + repair preview: `10-preview-subsystem.md` + `18-preview-architecture.md`
 - Page-flow pattern sibling: DrwMainViewManagerWizard's 4-page stack (artifact 04) — same QStackedWidget-page discipline, different product line

@@ -20673,5 +20673,642 @@
     "thunk": true
    }
   ]
+ },
+ "CBottomArea": {
+  "qt_metacall": "140b68520",
+  "base_class": "QFrame",
+  "slot_count": 12,
+  "static_metacall": "140b68680",
+  "forward_only": false,
+  "trampolines": [],
+  "table": {
+   "invoke": {
+    "0": "140b68d40",
+    "1": "140b68dc0",
+    "2": "140b68df0",
+    "3": "140b68e40",
+    "4": "140b68e90",
+    "5": "140b68ec0",
+    "6": "1406a61f0",
+    "7": "1406a6260",
+    "8": "1406a6370",
+    "9": "1406a6460",
+    "10": "1406a64b0"
+   },
+   "signals": [],
+   "read_props": {},
+   "write_props": {},
+   "method_ptr_checks": [
+    "140b68d40",
+    "140b68dc0",
+    "140b68df0",
+    "140b68e40",
+    "140b68e90",
+    "140b68ec0"
+   ]
+  },
+  "slot_analysis": {
+   "0": {
+    "addr": "140b68d40",
+    "size": 642,
+    "lines": 42,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x14018f970"
+    ]
+   },
+   "1": {
+    "addr": "140b68dc0",
+    "size": 136,
+    "lines": 12,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": []
+   },
+   "2": {
+    "addr": "140b68df0",
+    "size": 329,
+    "lines": 26,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x140b61270"
+    ]
+   },
+   "3": {
+    "addr": "140b68e40",
+    "size": 329,
+    "lines": 26,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x140b61270"
+    ]
+   },
+   "4": {
+    "addr": "140b68e90",
+    "size": 136,
+    "lines": 12,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": []
+   },
+   "5": {
+    "addr": "140b68ec0",
+    "size": 328,
+    "lines": 26,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x14018f970"
+    ]
+   },
+   "6": {
+    "addr": "1406a61f0",
+    "size": 317,
+    "lines": 34,
+    "qt_calls": [],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x1400ec7b0",
+     "0x140111140",
+     "0x140111be0",
+     "0x140683080",
+     "0x1406838f0",
+     "0x140a0dd20"
+    ]
+   },
+   "7": {
+    "addr": "1406a6260",
+    "size": 680,
+    "lines": 40,
+    "qt_calls": [
+     "QVariant::QVariant",
+     "QWidget::setEnabled"
+    ],
+    "inline_strings": [
+     "disabled",
+     "state",
+     "state"
+    ],
+    "dat_strings": [],
+    "activates": 0,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x1409ff5e0"
+    ]
+   },
+   "8": {
+    "addr": "1406a6370",
+    "size": 670,
+    "lines": 42,
+    "qt_calls": [
+     "QVariant::QVariant",
+     "QWidget::isVisible",
+     "QWidget::setEnabled"
+    ],
+    "inline_strings": [
+     "state"
+    ],
+    "dat_strings": [],
+    "activates": 0,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x1400ec7b0",
+     "0x14012a8d0",
+     "0x1409ff5e0"
+    ]
+   },
+   "9": {
+    "addr": "1406a6460",
+    "size": 205,
+    "lines": 26,
+    "qt_calls": [],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x140683080",
+     "0x1406831f0",
+     "0x140a0dd20"
+    ]
+   },
+   "10": {
+    "addr": "1406a64b0",
+    "size": 653,
+    "lines": 64,
+    "qt_calls": [],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x140149c30",
+     "0x140683080",
+     "0x140685e70",
+     "0x140a0dd20"
+    ]
+   }
+  },
+  "signal_stubs": {
+   "140b68d40": {
+    "addr": "140b68d40",
+    "size": 642,
+    "lines": 42,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x14018f970"
+    ]
+   },
+   "140b68dc0": {
+    "addr": "140b68dc0",
+    "size": 136,
+    "lines": 12,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": []
+   },
+   "140b68df0": {
+    "addr": "140b68df0",
+    "size": 329,
+    "lines": 26,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x140b61270"
+    ]
+   },
+   "140b68e40": {
+    "addr": "140b68e40",
+    "size": 329,
+    "lines": 26,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x140b61270"
+    ]
+   },
+   "140b68e90": {
+    "addr": "140b68e90",
+    "size": 136,
+    "lines": 12,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": []
+   },
+   "140b68ec0": {
+    "addr": "140b68ec0",
+    "size": 328,
+    "lines": 26,
+    "qt_calls": [
+     "QMetaObject::activate"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 1,
+    "tr_calls": 0,
+    "calls_FUN": [
+     "0x14018f970"
+    ]
+   }
+  },
+  "vtable_overrides": [
+   {
+    "idx": 0,
+    "addr": "0x1406a6170",
+    "sig": "void FUN_1406a6170(longlong param_1,undefined8 param_2)",
+    "virtual": null,
+    "size": 186,
+    "qt_calls": [],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0
+   },
+   {
+    "idx": 1,
+    "addr": "0x1406a6560",
+    "sig": "void FUN_1406a6560(longlong param_1)",
+    "virtual": null,
+    "size": 323,
+    "qt_calls": [
+     "QObject::tr"
+    ],
+    "inline_strings": [
+     "Auto Recover settings"
+    ],
+    "dat_strings": [],
+    "activates": 0
+   },
+   {
+    "idx": 2,
+    "addr": "0x1406b6cd4",
+    "sig": "void FUN_1406b6cd4(longlong param_1)",
+    "virtual": null,
+    "size": 91,
+    "qt_calls": [],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0
+   },
+   {
+    "idx": 3,
+    "addr": "0x1406b70c0",
+    "sig": "void * FUN_1406b70c0(void *param_1,uint param_2)",
+    "virtual": null,
+    "size": 157,
+    "qt_calls": [],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0
+   },
+   {
+    "idx": 4,
+    "addr": "0x1406b79f0",
+    "sig": "void FUN_1406b79f0(QWidget *param_1,QEvent *param_2)",
+    "virtual": "event/eventFilter",
+    "size": 570,
+    "qt_calls": [
+     "QEvent::type",
+     "QFrame::changeEvent",
+     "QLocale::QLocale",
+     "QWidget::setLocale"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0
+   },
+   {
+    "idx": 5,
+    "addr": "0x140b68460",
+    "sig": "QMetaObject * FUN_140b68460(longlong param_1)",
+    "virtual": null,
+    "size": 403,
+    "qt_calls": [
+     "QObjectData::dynamicMetaObject"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0
+   },
+   {
+    "idx": 6,
+    "addr": "0x140b684c0",
+    "sig": "QFrame * FUN_140b684c0(QFrame *param_1,char *param_2)",
+    "virtual": null,
+    "size": 321,
+    "qt_calls": [
+     "QFrame::qt_metacast"
+    ],
+    "inline_strings": [
+     "CBottomArea"
+    ],
+    "dat_strings": [],
+    "activates": 0
+   },
+   {
+    "idx": 7,
+    "addr": "0x140b68520",
+    "sig": "int FUN_140b68520(QFrame *param_1,Call param_2,int param_3,void **param_4)",
+    "virtual": null,
+    "size": 1003,
+    "qt_calls": [
+     "QFrame::qt_metacall"
+    ],
+    "inline_strings": [],
+    "dat_strings": [],
+    "activates": 0
+   },
+   {
+    "idx": 8,
+    "addr": "0x140bdce4c",
+    "thunk": true
+   },
+   {
+    "idx": 9,
+    "addr": "0x140bdce52",
+    "thunk": true
+   },
+   {
+    "idx": 10,
+    "addr": "0x140bdce58",
+    "thunk": true
+   },
+   {
+    "idx": 11,
+    "addr": "0x140bdce5e",
+    "thunk": true
+   },
+   {
+    "idx": 12,
+    "addr": "0x140bdce64",
+    "thunk": true
+   },
+   {
+    "idx": 13,
+    "addr": "0x140bdce6a",
+    "thunk": true
+   },
+   {
+    "idx": 14,
+    "addr": "0x140bdea42",
+    "thunk": true
+   },
+   {
+    "idx": 15,
+    "addr": "0x140bdea84",
+    "thunk": true
+   },
+   {
+    "idx": 16,
+    "addr": "0x140bdeaa8",
+    "thunk": true
+   },
+   {
+    "idx": 17,
+    "addr": "0x140bdeaba",
+    "thunk": true
+   },
+   {
+    "idx": 18,
+    "addr": "0x140bdeac0",
+    "thunk": true
+   },
+   {
+    "idx": 19,
+    "addr": "0x140bdeacc",
+    "thunk": true
+   },
+   {
+    "idx": 20,
+    "addr": "0x140bdead2",
+    "thunk": true
+   },
+   {
+    "idx": 21,
+    "addr": "0x140bdead8",
+    "thunk": true
+   },
+   {
+    "idx": 22,
+    "addr": "0x140bdeade",
+    "thunk": true
+   },
+   {
+    "idx": 23,
+    "addr": "0x140bdeae4",
+    "thunk": true
+   },
+   {
+    "idx": 24,
+    "addr": "0x140bdeb14",
+    "thunk": true
+   },
+   {
+    "idx": 25,
+    "addr": "0x140bdeb20",
+    "thunk": true
+   },
+   {
+    "idx": 26,
+    "addr": "0x140bdeb32",
+    "thunk": true
+   },
+   {
+    "idx": 27,
+    "addr": "0x140bdeb38",
+    "thunk": true
+   },
+   {
+    "idx": 28,
+    "addr": "0x140bdeb44",
+    "thunk": true
+   },
+   {
+    "idx": 29,
+    "addr": "0x140bdeb50",
+    "thunk": true
+   },
+   {
+    "idx": 30,
+    "addr": "0x140bdeb56",
+    "thunk": true
+   },
+   {
+    "idx": 31,
+    "addr": "0x140bdeb5c",
+    "thunk": true
+   },
+   {
+    "idx": 32,
+    "addr": "0x140bdeb7a",
+    "thunk": true
+   },
+   {
+    "idx": 33,
+    "addr": "0x140bdeb80",
+    "thunk": true
+   },
+   {
+    "idx": 34,
+    "addr": "0x140bdeb92",
+    "thunk": true
+   },
+   {
+    "idx": 35,
+    "addr": "0x140bdebaa",
+    "thunk": true
+   },
+   {
+    "idx": 36,
+    "addr": "0x140bdebd4",
+    "thunk": true
+   },
+   {
+    "idx": 37,
+    "addr": "0x140bdebda",
+    "thunk": true
+   },
+   {
+    "idx": 38,
+    "addr": "0x140bdebec",
+    "thunk": true
+   },
+   {
+    "idx": 39,
+    "addr": "0x140bdec1c",
+    "thunk": true
+   },
+   {
+    "idx": 40,
+    "addr": "0x140bdec2e",
+    "thunk": true
+   },
+   {
+    "idx": 41,
+    "addr": "0x140bdec3a",
+    "thunk": true
+   },
+   {
+    "idx": 42,
+    "addr": "0x140bdec40",
+    "thunk": true
+   },
+   {
+    "idx": 43,
+    "addr": "0x140bdec46",
+    "thunk": true
+   },
+   {
+    "idx": 44,
+    "addr": "0x140bdec5e",
+    "thunk": true
+   },
+   {
+    "idx": 45,
+    "addr": "0x140bdec6a",
+    "thunk": true
+   },
+   {
+    "idx": 46,
+    "addr": "0x140bdecc4",
+    "thunk": true
+   },
+   {
+    "idx": 47,
+    "addr": "0x140bdecd0",
+    "thunk": true
+   },
+   {
+    "idx": 48,
+    "addr": "0x140bdecd6",
+    "thunk": true
+   },
+   {
+    "idx": 49,
+    "addr": "0x140bdecdc",
+    "thunk": true
+   },
+   {
+    "idx": 50,
+    "addr": "0x140bdece2",
+    "thunk": true
+   },
+   {
+    "idx": 51,
+    "addr": "0x140bded5a",
+    "thunk": true
+   },
+   {
+    "idx": 52,
+    "addr": "0x140bded66",
+    "thunk": true
+   },
+   {
+    "idx": 53,
+    "addr": "0x140bded6c",
+    "thunk": true
+   }
+  ]
  }
 }
