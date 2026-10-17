@@ -105,3 +105,34 @@ Same click protocol; ~7 minutes into the scan (raw evidence: `screen_main_long.p
 1. The **Reconstructed branch grows live** (1→16 during 6 minutes of advanced scanning) — direct runtime proof that RAW carving results stream into the tree as found (the incremental-scan architecture, architecture/04 §scan).
 2. The **remaining-time estimate** (7m43s at 34%) implies a linear sector-throughput model — matches the sector-based progress decoded in the engines (bitmap/sector progress objects).
 3. File Path Lost count is stable while Reconstructed grows — the structured-loss phase (deleted-file detection) finished early; the advanced scan's remaining work is RAW carving (consistent with the two-phase model).
+
+---
+
+## 8. SECOND ADDENDUM — SCAN-COMPLETE STATE (run 39037674773, 880s wait)
+
+The full scan finished (≈14.7 min for the runner's 149 GB disk). Capture (`screen_complete.png`):
+
+**The completion modal** (centered over the results):
+```
+┌──────────────────────────────────────┐
+│            [🛡 shield graphic]         │
+│    Congratulations! Scan Completed!   │
+│  ✓ Great news: Your files are         │
+│     highly recoverable                │
+│         [ Go to Recover ]  (blue)     │
+└──────────────────────────────────────┘
+```
+- Bottom status (verbatim): **"Scan Completed, Files Found: 1139286 (147.12 GB)"** + **"Recover All ..."** button active
+- The progress bar/time ticker replaced by the final summary; the celebratory shield + recoverability verdict complete the funnel into the recovery phase
+- The scan-complete → "Go to Recover" handoff is the last UI transition before the recovery dialog flow (CRecoveryMgr destination validation — architecture/04 §recovery)
+
+**The complete dynamic user-flow now captured with pixel evidence**:
+```
+splash ("Reading the disk information…")
+  → landing (sidebar + device cards + Assistant + "Search for Lost Data")
+    → click → scan 9% (browse-while-scanning; 3-branch tree building)
+      → 34% (Reconstructed growing 1→16 — live carving)
+        → SCAN COMPLETE modal ("highly recoverable" verdict + Go to Recover)
+          → [recovery dialog flow — the one stage not yet click-captured]
+```
+Final numbers: quick pass ≈21 s (matches vendor QA log's quick-scan timing), full session 14.7 min, 1,139,286 files / 147.12 GB on a 149.45 GB volume (≈98.5% of disk capacity enumerated — deep coverage).
