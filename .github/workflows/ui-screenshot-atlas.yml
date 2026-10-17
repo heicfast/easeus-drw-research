@@ -35,9 +35,9 @@ on:
         required: true
         default: '150'
       variants:
-        description: 'Comma list of variants to run (landing-menus,results-context,scan-phase-ui)'
+        description: 'JSON array of variants to run'
         required: true
-        default: 'landing-menus,results-context,scan-phase-ui'
+        default: '["landing-menus", "results-context", "scan-phase-ui"]'
 
 permissions:
   contents: read
@@ -46,14 +46,10 @@ jobs:
   atlas:
     runs-on: windows-latest
     timeout-minutes: 40
-    if: contains(inputs.variants, matrix.variant)
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - variant: "landing-menus"
-          - variant: "results-context"
-          - variant: "scan-phase-ui"
+        variant: ${{ fromJSON(inputs.variants) }}
     steps:
       - name: Checkout (sparse)
         uses: actions/checkout@v4
