@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>path_ico_Email</title>
+    <defs>
+        <linearGradient x1="0%" y1="-2.13717932e-13%" x2="90.9820557%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#51B2F8" offset="0%"></stop>
+            <stop stop-color="#03A5EE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="path_ico_Email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-33" transform="translate(2.000000, 2.000000)">
+            <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="20" height="20" rx="3.33333333"></rect>
+            <path d="M3.9631574,8.19 L9.79414467,10.6434015 C9.97272,10.718547 10.1747947,10.7188776 10.3536241,10.644317 L16.1853796,8.21222222 L16.1857096,12.9630892 C16.1857096,14.088044 15.2737536,15 14.1487988,15 L6.00115548,15 C4.87620069,15 3.96424464,14.088044 3.96424464,12.9630892 L3.9631574,8.19 Z M14.1487988,5 C15.1600781,5 15.9992303,5.73696352 16.1584952,6.70313023 L10.0759956,9.238 L3.99549755,6.67950135 C4.16444388,5.72497361 4.99813635,5 6.00115548,5 L14.1487988,5 Z" id="形状" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

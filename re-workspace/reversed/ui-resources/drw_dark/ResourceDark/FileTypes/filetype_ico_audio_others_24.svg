@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>filetype_ico_audio_others_24</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7926136%" id="linearGradient-1">
+            <stop stop-color="#FFEAEF" offset="0%"></stop>
+            <stop stop-color="#FFC6CE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="filetype_ico_audio_others_24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(2.000000, 2.000000)">
+            <rect id="矩形备份" fill="#F45668" x="0" y="0" width="20" height="20" rx="3"></rect>
+            <path d="M16,5 L16,5.57816579 C16,6.47003883 15.412241,7.23254237 14.5904196,7.4949425 L14.5903614,13.2112676 C14.5903614,14.4947462 13.5385003,15.5352113 12.2409639,15.5352113 C10.9434274,15.5352113 9.89156627,14.4947462 9.89156627,13.2112676 C9.89156627,11.9798411 10.85984,10.9721168 12.0843632,10.8924047 L12.0843373,7.7033662 L7.69879518,7.9548169 L7.69879518,13.6760563 C7.69879518,14.959535 6.64693405,16 5.34939759,16 C4.05186113,16 3,14.959535 3,13.6760563 C3,12.4446298 3.96827369,11.4369055 5.19279692,11.3571934 L5.19277361,6.18063493 C5.19277219,5.86578668 5.43843588,5.60563117 5.75276777,5.58760645 L16,5 L16,5 Z" id="路径" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
+</svg>

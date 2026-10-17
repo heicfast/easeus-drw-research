@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>leftree_ico_camera_nor</title>
+    <g id="leftree_ico_camera_nor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M5,2 L16,2 C17.1045695,2 18,2.8954305 18,4 L18,14 C18,15.1045695 17.1045695,16 16,16 L5,16 L5,16 L5,2 Z" id="矩形" fill="#AAB3C7"></path>
+        <path d="M2,2 L5,2 L5,2 L5,16 L2,16 C0.8954305,16 0,15.1045695 0,14 L0,4 C0,2.8954305 0.8954305,2 2,2 Z" id="矩形" fill="#C0C9DA"></path>
+        <g id="圆镜头" transform="translate(6.000000, 4.000000)">
+            <path d="M5,0 C7.76142375,0 10,2.23857625 10,5 C10,7.76142375 7.76142375,10 5,10 C2.23857625,10 0,7.76142375 0,5 C0,2.23857625 2.23857625,0 5,0 Z" id="路径" fill="#ECEDF1"></path>
+            <path d="M5,0.5 C7.48528137,0.5 9.5,2.51471863 9.5,5 C9.5,7.48528137 7.48528137,9.5 5,9.5 C2.51471863,9.5 0.5,7.48528137 0.5,5 C0.5,2.51471863 2.51471863,0.5 5,0.5 Z" id="路径" fill="#3D6BB1" fill-rule="nonzero"></path>
+            <circle id="椭圆形" fill="#0E3C83" cx="5" cy="5" r="3.5"></circle>
+            <circle id="椭圆形" fill="#092555" cx="5" cy="5" r="2"></circle>
+            <ellipse id="椭圆形" fill="#ECEDF1" cx="5" cy="1.5" rx="1" ry="1"></ellipse>
+            <circle id="椭圆形" fill="#031555" cx="5" cy="5" r="1"></circle>
+        </g>
+        <rect id="矩形" fill="#6D7486" x="3" y="1" width="3" height="1"></rect>
+        <rect id="矩形" fill="#8A92A3" x="4" y="2" width="1" height="14"></rect>
+    </g>
+</svg>

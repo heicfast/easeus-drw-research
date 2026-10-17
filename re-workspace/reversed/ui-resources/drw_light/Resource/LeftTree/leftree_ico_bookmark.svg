@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>leftree_ico_bookmark</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3EB558" offset="0%"></stop>
+            <stop stop-color="#4FCA6A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="leftree_ico_bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <path d="M2,0 L5.17157288,0 C5.70200585,4.4408921e-16 6.21071368,0.210713681 6.58578644,0.585786438 L7.41421356,1.41421356 C7.78928632,1.78928632 8.29799415,2 8.82842712,2 L16,2 C17.1045695,2 18,2.8954305 18,4 L18,16 C18,17.1045695 17.1045695,18 16,18 L2,18 C0.8954305,18 0,17.1045695 0,16 L0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+            <polygon id="星形" fill="#FFFFFF" points="9 13.5 6.06107374 15.045085 6.62235871 11.7725425 4.24471742 9.45491503 7.53053687 8.97745751 9 6 10.4694631 8.97745751 13.7552826 9.45491503 11.3776413 11.7725425 11.9389263 15.045085"></polygon>
+        </g>
+    </g>
+</svg>

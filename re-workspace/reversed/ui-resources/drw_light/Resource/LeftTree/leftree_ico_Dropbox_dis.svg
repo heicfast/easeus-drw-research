@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>leftree_ico_Dropbox_dis</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7FD3FD" offset="0%"></stop>
+            <stop stop-color="#7FB9FB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="leftree_ico_Dropbox_dis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.98638789,4.26279677 L4.84434244,6.86082082 L8.98638789,9.45884487 L4.84434244,12.0568689 L0.689745328,9.43418983 L4.84120452,6.83616579 L0.689745328,4.26279677 L4.84120452,1.66477273 L8.98638789,4.26279677 Z M4.81923913,12.8735669 L8.96128458,10.2755428 L13.10333,12.8735669 L8.96128458,15.4715909 L4.81923913,12.8735669 Z M8.98638789,9.43418983 L13.1284333,6.83616579 L8.98638789,4.25971489 L13.106468,1.66477273 L17.2579271,4.26279677 L13.106468,6.86082082 L17.2579271,9.45576299 L13.106468,12.053787 L8.98638789,9.43418983 Z" id="形状" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>path_ico_Google Drive</title>
+    <defs>
+        <linearGradient x1="0%" y1="9.41550722%" x2="100%" y2="90.5844928%" id="linearGradient-1">
+            <stop stop-color="#FFDE02" offset="0%"></stop>
+            <stop stop-color="#FFBA01" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="56.9947663%" x2="100%" y2="43.0052337%" id="linearGradient-2">
+            <stop stop-color="#4EBAFF" offset="0%"></stop>
+            <stop stop-color="#2684FD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="54.7470374%" y1="0%" x2="44.9423345%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#02D67D" offset="0%"></stop>
+            <stop stop-color="#01AC47" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="path_ico_Google-Drive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(1.500000, 2.000000)" fill-rule="nonzero">
+            <polygon id="路径" fill="url(#linearGradient-1)" points="20.5138831 12.0000004 13.8055355 0 7.19443582 0 13.9027835 12.0000004"></polygon>
+            <polygon id="路径" fill="url(#linearGradient-2)" points="8.2638766 12.9999998 4.95832678 19 17.6944092 19 21 12.9999998 8.2638766 12.9999998"></polygon>
+            <polygon id="路径" fill="url(#linearGradient-3)" points="0 12.9999998 3.30554982 19 9.7221945 7.50000661 6.3194172 1.50000638"></polygon>
+        </g>
+    </g>
+</svg>

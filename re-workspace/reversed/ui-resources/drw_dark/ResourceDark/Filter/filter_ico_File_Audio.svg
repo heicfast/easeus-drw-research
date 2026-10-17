@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>filter_ico_File_Audio</title>
+    <g id="filter_ico_File_Audio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4,9 C5.65685425,9 7,10.3431458 7,12 C7,13.6568542 5.65685425,15 4,15 C2.34314575,15 1,13.6568542 1,12 C1,10.3431458 2.34314575,9 4,9 Z M4,10 C2.8954305,10 2,10.8954305 2,12 C2,13.1045695 2.8954305,14 4,14 C5.1045695,14 6,13.1045695 6,12 C6,10.8954305 5.1045695,10 4,10 Z" id="椭圆形" fill="#F1F5FF" fill-rule="nonzero"></path>
+        <path d="M12,8 C13.6568542,8 15,9.34314575 15,11 C15,12.6568542 13.6568542,14 12,14 C10.3431458,14 9,12.6568542 9,11 C9,9.34314575 10.3431458,8 12,8 Z M12,9 C10.8954305,9 10,9.8954305 10,11 C10,12.1045695 10.8954305,13 12,13 C13.1045695,13 14,12.1045695 14,11 C14,9.8954305 13.1045695,9 12,9 Z" id="椭圆形" fill="#F1F5FF" fill-rule="nonzero"></path>
+        <rect id="矩形" fill="#F1F5FF" fill-rule="nonzero" x="6" y="3" width="1" height="9"></rect>
+        <rect id="矩形备份" fill="#F1F5FF" fill-rule="nonzero" x="14" y="2" width="1" height="9"></rect>
+        <polygon id="矩形" fill="#F1F5FF" fill-rule="nonzero" points="6 3 15 1 15 2 6 4"></polygon>
+    </g>
+</svg>

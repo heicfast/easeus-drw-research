@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>path_ico_Archive</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="252.099609%" id="linearGradient-1">
+            <stop stop-color="#0C99FF" offset="0%"></stop>
+            <stop stop-color="#5094FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3EB558" offset="0%"></stop>
+            <stop stop-color="#4FCA6A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="70.9798177%" y1="-90.8398438%" x2="70.9798177%" y2="158.800551%" id="linearGradient-3">
+            <stop stop-color="#F98FA0" offset="0%"></stop>
+            <stop stop-color="#EE4558" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFD877" offset="0%"></stop>
+            <stop stop-color="#FDAF42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="path_ico_Archive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="yasuobao-2备份" transform="translate(2.000000, 2.000000)">
+            <path d="M3,0 L17,0 C18.6568542,-4.4408921e-16 20,1.34314575 20,3 L20,7 L20,7 L0,7 L0,3 C0,1.34314575 1.34314575,0 3,0 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+            <path d="M3,13 L17,13 C18.6568542,13 20,14.3431458 20,16 L20,20 L20,20 L0,20 L0,16 C0,14.3431458 1.34314575,13 3,13 Z" id="矩形" fill="url(#linearGradient-2)" transform="translate(10.000000, 16.500000) scale(1, -1) translate(-10.000000, -16.500000) "></path>
+            <polygon id="路径" fill="url(#linearGradient-3)" fill-rule="nonzero" points="-4.13835632e-13 6.5 20 6.5 20 13.5 -4.13835632e-13 13.5"></polygon>
+            <polygon id="路径" fill="url(#linearGradient-4)" fill-rule="nonzero" points="7.2 0 12.8 0 12.8 20 7.2 20"></polygon>
+            <path d="M14,6 L14,14 L6,14 L6,6 L14,6 Z M12,8 L8,8 L8,12 L12,12 L12,8 Z" id="形状结合" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>path_ico_video_24</title>
+    <defs>
+        <linearGradient x1="40.8163265%" y1="-10.6628418%" x2="59.1836735%" y2="110.650635%" id="linearGradient-1">
+            <stop stop-color="#A161FA" offset="0%"></stop>
+            <stop stop-color="#6832F3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1.01446629e-12%" y1="-10.6628418%" x2="100%" y2="110.650635%" id="linearGradient-2">
+            <stop stop-color="#A161FA" offset="0%"></stop>
+            <stop stop-color="#6832F3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="path_ico_video_24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(1.000000, 3.000000)">
+            <path d="M16,4 L20.6837722,2.43874259 C21.2077156,2.26409482 21.7740355,2.5472548 21.9486833,3.07119812 C21.9826721,3.17316459 22,3.27994379 22,3.38742589 L22,14.6125741 C22,15.1648589 21.5522847,15.6125741 21,15.6125741 C20.8925179,15.6125741 20.7857387,15.5952462 20.6837722,15.5612574 L16,14 L16,14 L16,4 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+            <rect id="矩形" fill="url(#linearGradient-2)" x="0" y="0" width="18" height="18" rx="3"></rect>
+            <path d="M8.18677329,5.24742491 L12.117876,7.91780614 C12.7228488,8.32876155 12.8465828,9.1074658 12.3942438,9.65709075 C12.3241977,9.74220177 12.2424234,9.81879763 12.1509228,9.88500296 L8.21982011,12.7293564 C7.62893312,13.1568933 6.76843574,13.0682955 6.29784542,12.5314676 C6.10500276,12.3114815 6,12.038571 6,11.7573436 L6,6.24260892 C6,5.55633496 6.61235849,5 7.36774096,5 C7.66299033,5 7.95031317,5.08679856 8.18677329,5.24742491 Z" id="矩形备份-18" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

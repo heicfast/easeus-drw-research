@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ico_RAID_vg</title>
+    <defs>
+        <linearGradient x1="94.5820145%" y1="-1.16573418e-13%" x2="94.5820145%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#969EB2" offset="0%"></stop>
+            <stop stop-color="#595F6D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="94.5820145%" y1="-1.16573418e-13%" x2="94.5820145%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#CAD3E6" offset="0%"></stop>
+            <stop stop-color="#8B94A8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="67.4586777%" y1="-3.94129174e-13%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#8C97A8" offset="0%"></stop>
+            <stop stop-color="#4B5464" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="36.8422222%" y1="24.1923167%" x2="67.4586777%" y2="80.368891%" id="linearGradient-4">
+            <stop stop-color="#4C5568" offset="0%"></stop>
+            <stop stop-color="#7C8597" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#9EA6B7" offset="0%"></stop>
+            <stop stop-color="#7F8AA5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ico_RAID_vg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="url(#linearGradient-1)" cx="24" cy="24" r="23"></circle>
+        <circle id="椭圆形" fill="url(#linearGradient-2)" cx="24" cy="24" r="21"></circle>
+        <polygon id="矩形" fill="url(#linearGradient-3)" points="24 22 37 16 37 32 24 38"></polygon>
+        <polygon id="矩形备份" fill="url(#linearGradient-4)" transform="translate(17.500000, 27.000000) scale(-1, 1) translate(-17.500000, -27.000000) " points="11 22 24 16 24 32 11 38"></polygon>
+        <polygon id="矩形" fill="url(#linearGradient-5)" points="24 10 37 16 24 22 11 16"></polygon>
+    </g>
+</svg>

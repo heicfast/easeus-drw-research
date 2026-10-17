@@ -90,3 +90,22 @@
   - Fixo builds from D:\Fixo\01_Project; video repair from e:\drw monorepo; EuOfficeRepairWin32 from Azure DevOps agent
 - CI: 3 multitool batches (core/partition/repair) still running at last check
 - NEXT: filerecover.cpp deep-dive, tree/classify/filter internals, top-level architecture docs 04-06, second CI wave for missed binaries
+
+---
+Task ID: uiux-1
+Agent: UI/UX Research Agent (session 2)
+Task: UI/UX-focused deep RE: full userflow, pages, sizing, styling, UI-to-core wiring
+
+Work Log:
+- Recovered context from repo (fresh session); synced with main (wave2 + per-binary artifacts ingested by parallel agent)
+- Reversed Qt RCC v3 binary format from first principles + verified against Qt 5.15 rcc.cpp/qresource.cpp source
+- Wrote scripts/rcc_extract.py (header 24B, 22B nodes, names=len+hash+UTF16BE, blobs=size+content)
+- EXTRACTED ALL UI RESOURCES: drw_light.rcc = 3722 files (Home 435, Preview 340, Filter 221, LeftTree 199, ScanProgress 188, Evaluate 162, Titlebar 145, PopWnd 254, FileTypes 105 SVG, DriveTypes 60, AiAssistant 52, NAS 247, PEView 113, Repair 91...) → re-workspace/reversed/ui-resources/drw_light/
+- drw_dark.rcc = 3657 files → ui-resources/drw_dark/; DiskHealth.rcc = 125 files incl. 54 QML components → ui-resources/diskhealth/
+- DIN-Black.otf + DINCond-Black.otf fonts extracted; ImageResource.xml = device-type→icon map (50 drive types, tree icons, filetype SVGs at 24/48 with runtime scaling to 72/160)
+- KEY FINDINGS: FileTypes buckets include special classify folders "File Path Lost", "Tags Extracted", "Unimportant"; CUR hand/zoom cursors for preview; Ad/ + gift/ + Evaluate/ = monetization UI; Introduction/ = first-run tour
+
+Stage Summary:
+- Complete visual asset inventory recovered for both themes (7,500+ files) — the definitive "what the user sees" evidence base
+- Claiming ownership of: re-workspace/artifacts/UIUX/*, architecture/05-uiux-*.md, re-workspace/reversed/ui-resources/* (parallel agents: avoid these paths)
+- Next: QM translation parser (context→source→text), then DRWUI decompiled-code mining for view manager/geometry/userflow

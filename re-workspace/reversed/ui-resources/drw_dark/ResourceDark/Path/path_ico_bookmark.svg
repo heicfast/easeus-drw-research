@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>path_ico_bookmark</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3EB558" offset="0%"></stop>
+            <stop stop-color="#4FCA6A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="path_ico_bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4,2 L8.17157288,2 C8.70200585,2 9.21071368,2.21071368 9.58578644,2.58578644 L10.4142136,3.41421356 C10.7892863,3.78928632 11.2979941,4 11.8284271,4 L20,4 C21.1045695,4 22,4.8954305 22,6 L22,20 C22,21.1045695 21.1045695,22 20,22 L4,22 C2.8954305,22 2,21.1045695 2,20 L2,4 C2,2.8954305 2.8954305,2 4,2 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+        <g id="编组" transform="translate(6.000000, 7.000000)" fill="#FFFFFF">
+            <polygon id="星形" points="6 9 2.47328849 10.854102 3.14683045 6.92705098 0.293660902 4.14589803 4.23664424 3.57294902 6 0 7.76335576 3.57294902 11.7063391 4.14589803 8.85316955 6.92705098 9.52671151 10.854102"></polygon>
+        </g>
+    </g>
+</svg>

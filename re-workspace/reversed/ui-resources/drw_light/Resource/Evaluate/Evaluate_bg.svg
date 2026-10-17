@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="78px" viewBox="0 0 600 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Evaluate_bg</title>
+    <defs>
+        <linearGradient x1="3.05311332e-14%" y1="49.155%" x2="100%" y2="50.845%" id="linearGradient-1">
+            <stop stop-color="#ECF7FF" offset="0%"></stop>
+            <stop stop-color="#FBF0FF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="100%" cy="53.0733302%" fx="100%" fy="53.0733302%" r="122.410486%" gradientTransform="translate(1.000000,0.530733),scale(0.130000,1.000000),rotate(180.000000),scale(1.000000,15.759761),translate(-1.000000,-0.530733)" id="radialGradient-2">
+            <stop stop-color="#4376FF" stop-opacity="0.426819274" offset="0%"></stop>
+            <stop stop-color="#ABD0FF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <path d="M26,18 L594,18 C602.836556,18 610,25.163444 610,34 L610,96 L610,96 L10,96 L10,34 C10,25.163444 17.163444,18 26,18 Z" id="path-3"></path>
+    </defs>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="评价系统" transform="translate(-56.000000, -61.000000)">
+            <g id="Evaluate_bg" transform="translate(46.000000, 43.000000)">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

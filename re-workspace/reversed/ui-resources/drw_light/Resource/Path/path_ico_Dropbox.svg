@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>path_ico_Dropbox</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00AAFC" offset="0%"></stop>
+            <stop stop-color="#0071F8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="path_ico_Dropbox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12.0151515,6.19888393 L7.01515152,9.39776786 L12.0151515,12.5966518 L7.01515152,15.7955357 L2,12.5662946 L7.01136364,9.36741071 L2,6.19888393 L7.01136364,3 L12.0151515,6.19888393 Z M6.98484848,16.8011161 L11.9848485,13.6022321 L16.9848485,16.8011161 L11.9848485,20 L6.98484848,16.8011161 Z M12.0151515,12.5662946 L17.0151515,9.36741071 L12.0151515,6.19508929 L16.9886364,3 L22,6.19888393 L16.9886364,9.39776786 L22,12.5928571 L16.9886364,15.7917411 L12.0151515,12.5662946 Z" id="形状" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>
