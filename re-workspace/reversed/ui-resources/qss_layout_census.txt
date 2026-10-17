@@ -1,0 +1,1646 @@
+#ArchivePreviewDelegate_col_0	font-size:14px
+#ArchivePreviewDelegate_col_1	font-size:14px
+#ArchivePreviewDelegate_col_2	font-size:14px
+#ArchivePreviewDelegate_col_3	font-size:14px
+#CShowContextMenuMenu	min-width:264px | min-height:202px | max-height:202px | padding:0px
+#CShowContextMenuMenu #CShadowMenu_divider_1	min-height:1px | max-height:1px
+#CShowContextMenuMenu IconCustomButton	min-height:32px | max-height:32px | border-radius:4px | font-size:13px | margin:0px
+#CShowContextMenuMenu IconCustomButton QLabel	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+#CShowContextMenuMenu[state="long"]	min-width:-1px
+#ChooseDestinationPathDialog QFrame#CenterFrame	border-radius:8px
+#ChooseDestinationPathDialog QFrame#TitelFrame	min-height:32px | max-height:32px | border-radius:6px
+#ChooseDestinationPathDialog QFrame#destinationPathItemFrame[state='selected']	border-radius:8px
+#ChooseDestinationPathDialog QFrame#itemFrame[state='selected']	border-radius:8px
+#ChooseDestinationPathDialog QFrame#lineFrame	min-width:480px | max-width:480px | min-height:1px | max-height:1px
+#ChooseDestinationPathDialog QLabel#centerLabel	font-size:14px
+#ChooseDestinationPathDialog QLabel#diskDtailLabel	font-size:12px
+#ChooseDestinationPathDialog QLabel#diskNameLabel	font-size:14px
+#ChooseDestinationPathDialog QLabel#titelLabel	font-size:16px
+#ChooseDestinationPathDialog QLabel#titelSaveImageLabel	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+#ChooseDestinationPathDialog QPushButton#TablePushButton	min-height:28px | max-height:28px | border-radius:6px | font-size:14px
+#ChooseDestinationPathDialog QPushButton#savePushButton	min-width:120px | max-width:120px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+#ChooseDestinationPathDialog QRadioButton:indicator	width:18px | height:18px
+#ChooseDestinationPathDialog QWidget#StackWidget	border-radius:8px
+#TitleGiftDiscountFrameLB0	min-width:420px | max-width:420px | min-height:488px | max-height:488px
+#TitleGiftDiscountFrameLB1	min-width:420px | max-width:420px | min-height:352px | max-height:352px
+#backupTypeCombo	min-width:412px | max-width:412px | min-height:38px | border-radius:8px
+#backupTypeLabelText	min-width:440px | max-width:440px
+#diskBackUpsaveBtn	min-width:168px
+#diskBackupDlg	min-width:680px | max-width:680px | min-height:536px | max-height:730px | border-radius:20px
+#fromEdit ,#toEdit	min-width:150px | max-width:150px | min-height:38px | max-height:38px | border-radius:8px
+#fromError,#toError	min-width:120px | max-width:120px | min-height:30px | max-height:30px | font-size:12px | padding:2px
+#fromLabel,#toLabel	min-width:120px | max-width:120px | min-height:38px
+#hiddenArea	min-height:20px | max-height:20px
+#hiddenArea1,#hiddenArea2,#hiddenArea3	min-height:30px
+#imageSizeLabel	font-size:13px
+#imgBackDetailWidget	max-width:474 px
+#imgBackbuttomArea	min-height:68px
+#imgbackDescNorValue	font-size:14px
+#imgbackLocationValue	min-width:316px | max-width:316px
+#imgbackStaticLable	min-width:150px | max-width:150px | min-height:19px | font-size:14 px
+#infoArea	min-width:620px | max-width:620px | min-height:234px | max-height:428px | border-radius:12px
+#infoAreaLine	min-height:1px | max-height:1px
+#pathCombo	min-width:404px | max-width:444px | min-height:38px | border-radius:8px
+#pathCombo QAbstractItemView	min-width:100px | border-radius:8px
+#pathCombo QAbstractItemView::item	border-radius:8px
+#pathCombo[error="InvalidParam"]	min-width:404px | max-width:444px | min-height:38px | border-radius:8px
+#pathError	font-size:12px
+#saveAsEdit	min-width:444px | max-width:444px | min-height:38px | border-radius:8px
+#saveAsEdit[error="InvalidParam"]	min-width:444px | max-width:444px | min-height:38px | border-radius:8px
+#saveAsLabel, #saveAsEdit ,#pathLabel,#pathCombo	font-size:14px
+#saveAsLabel,#pathLabel,#imageType,#backupTypeLabel,#imageTypeDesc,#backupTypeLabelText	min-width:120px | max-width:120px | min-height:38px
+#topText	font-size:16px
+#treelistitemlabel_nametext	font-size:14px
+#treelistitemlabel_rightdefaulttext	min-height:21px | font-size:14px
+#treelistitemlabel_sizetext	font-size:14px
+*	font-size:14px
+.DiskListBottomExplainFrame	border-radius:4px | font-size:16px
+.GuideHelpItemCard	min-width:263px | max-width:263px | min-height:233px | max-height:233px | border-radius:8px
+.InternalDeviceItem	min-width:162px | max-width:162px | min-height:96px | max-height:96px | border-radius:8px | margin:1px
+.ManualRecoveryDescriptView	min-height:209px | max-height:209px | border-radius:4px
+.ManualRecoveryDescriptView QLabel	font-size:14px
+.ManualRecoveryHelpView QPushButton	min-width:200px | min-height:36px | max-height:36px | border-radius:4px | font-size:16px
+.NasDeviceListView QLabel	min-height:19px | max-height:19px | font-size:14px
+.NavigationTabItem	min-height:40px | max-height:40px | border-radius:6px | font-size:14px
+.NoDeviceGuideBottomTextFrame	font-size:14px
+.PRDeviceListView QLabel	font-size:14px
+.PeripheralDeviceItem	min-width:246px | max-width:246px | min-height:190px | max-height:190px | border-radius:4px | margin:1px | padding:20px
+.PeripheralSelectedView	border-radius:8px
+.RecoverPathTipDlg	min-width:640px | min-height:360px
+CSVGPushButton#RepairFrameAdvanceButton	min-width:158px | min-height:32px | max-height:32px | border-radius:7px
+CSVGPushButton#repairpopWndAdvanceBtn	min-width:32px | max-width:32px | min-height:24px | max-height:24px | border-radius:12px
+DoubleLayerTextLabel QLabel	min-width:220px
+InternalDeviceItem[state="Selected"]	margin:0px
+MoreToolIndexWidgetItem	border-radius:15px
+PeripheralDeviceItem[state="WSHover"], PeripheralDeviceItem[state="WSSelected"]	min-width:246px | max-width:246px | min-height:190px | max-height:190px | margin:0px
+QCalendarWidget#dateEidt_calendar	min-height:248px | border-radius:8px
+QCheckBox#NasLogonRemPsdCheckBox	min-height:18px | max-height:18px | font-size:13px
+QCheckBox#Preview_selectallbox	font-size:13px
+QCheckBox#filter_menu_item_checkbox,#filter_menu_item_checkbox_type	min-width:222px | max-width:222px | min-height:32px | border-radius:4px | font-size:13px
+QCheckBox#filter_menu_item_checkbox:hover,#filter_menu_item_checkbox_type:hover	border-radius:4px
+QCheckBox#filter_menu_item_checkbox[state="Polish"],#filter_menu_item_checkbox_type[state="Polish"]	min-width:278px | max-width:278px
+QCheckBox#filter_menu_item_checkbox[state="long_translation"],#filter_menu_item_checkbox_type[state="long_translation"]	min-width:268px | max-width:268px
+QCheckBox:indicator	width:16px | height:16px
+QComboBox::drop-down	min-width:24px | max-width:24px | min-height:38px | max-height:38px
+QDialog	border-radius:8px
+QDialog#ActivateResultDialog	min-width:578px | max-width:578px | min-height:308px | max-height:308px
+QDialog#AdToolPopWindow	min-width:420px | min-height:340px
+QDialog#BadSectorTipsDlg	min-width:540px | max-width:540px | min-height:460px | max-height:460px | border-radius:20px
+QDialog#BitLockerMSGuideDlg	min-width:374px | max-width:374px | min-height:527px | max-height:527px
+QDialog#BitlockerUnlockDialog	min-width:560px | max-width:560px | min-height:380px | max-height:380px
+QDialog#BitlockerUnlockRetDlg	min-width:480px | max-width:480px | min-height:202px | max-height:202px | border-radius:8px
+QDialog#BitlockerUnlockRetWithPwdDlg	min-width:540px | max-width:540px | min-height:380px | max-height:380px | border-radius:8px
+QDialog#CAboutApowerDlg	min-width:640px | max-width:640px | min-height:290px | max-height:290px
+QDialog#CAboutCisdemDlg	min-width:540px | max-width:540px | min-height:380px | max-height:380px
+QDialog#CAboutEaseUSDlg	min-width:640px | max-width:640px | min-height:477px | max-height:477px
+QDialog#CAboutOriginalDlg	min-width:812px | max-width:812px | min-height:575px | max-height:575px
+QDialog#CAbout_cn_fx_dlg	min-width:640px | max-width:640px | min-height:290px | max-height:290px
+QDialog#CAbout_cn_jz_dlg	min-width:640px | max-width:640px | min-height:290px | max-height:290px
+QDialog#CAbout_cn_lc_dlg	min-width:640px | max-width:640px | min-height:290px | max-height:290px
+QDialog#CAutoRecoverSettingWnd	min-width:670px | max-width:670px | min-height:540px | max-height:540px
+QDialog#CChinaMainlandActivateDlg	min-width:800px | min-height:666px
+QDialog#CEnterLicenceDlg	min-width:584px | max-width:584px | min-height:404px | max-height:404px
+QDialog#CExitHelpWnd	min-width:800px | max-width:800px | min-height:533px | max-height:533px
+QDialog#CFollowusDlg	min-width:460px | max-width:460px | min-height:420px | max-height:420px
+QDialog#CHomeCloudLoggingWnd	min-width:480px | max-width:480px | min-height:228px | max-height:228px | border-radius:8px
+QDialog#CLocalRecoverBuyDlg	min-width:922px | max-width:922px | min-height:712px | max-height:712px | font-size:14px
+QDialog#CNasHelpTipsWnd	min-height:30px | max-height:30px
+QDialog#CNasSSHPopWnd	min-width:600px | max-width:600px | min-height:660px | max-height:660px | font-size:14px
+QDialog#CPEBuyRetainWnd	min-width:600px | max-width:600px | min-height:540px | max-height:540px
+QDialog#CRecoverFinishBuyDlg	min-width:656px | max-width:656px | min-height:436px | max-height:436px
+QDialog#CRecoverLimitDlg	min-width:542px | max-width:542px | min-height:302px | max-height:302px
+QDialog#CRepairAddProgressWnd,CRepairPDFAddProgressWnd	min-width:540px | max-width:540px | min-height:210px | max-height:210px
+QDialog#CRepairPDFDecryptSuccessWnd	min-height:82px | max-height:82px
+QDialog#CRepairPDFDecryptWnd	min-width:640px | max-width:640px | min-height:240px | max-height:240px
+QDialog#CRepairPDFPreviewWnd	min-width:900px | max-width:900px | min-height:620px | max-height:620px
+QDialog#CRepairVideoAdvancedAddWnd	min-width:640px | max-width:640px | min-height:240px | max-height:240px | font-size:14px
+QDialog#CRepairVideoAdvancedAnalyzeWnd	min-width:740px | max-width:740px | min-height:595px | max-height:595px
+QDialog#CRepairVideoSaveWnd	min-width:540px | max-width:540px | min-height:210px | max-height:210px
+QDialog#CSDCardFeedBackSubmitWnd	min-width:700px | max-width:700px | min-height:230px | max-height:230px
+QDialog#CSDCardHelpPopWnd	min-width:600px | max-width:600px | min-height:540px | max-height:540px | font-size:14px
+QDialog#CScanCommonPopDlg	max-width:540px | max-height:380px
+QDialog#CSearchNltPopWnd	min-width:600px | max-width:600px | min-height:540px | max-height:540px
+QDialog#DiskBackupDialog	min-width:540px | max-width:540px | min-height:309px | max-height:309px | border-radius:20px
+QDialog#DrwNewMessageBox	min-width:560px | max-width:560px | min-height:240px | max-height:240px
+QDialog#ExitGuideChronoSnapDlg	min-width:700px | max-width:700px | min-height:558px | max-height:558px | border-radius:16px
+QDialog#FileRepairPreviewWnd	min-width:1000px | max-width:1000px | min-height:680px | max-height:680px | border-radius:16px | font-size:13px
+QDialog#FileRepairPreviewWnd[state="min"]	min-width:760px | max-width:760px | min-height:560px | max-height:560px
+QDialog#FreezeAnimalDialog	min-width:480px | max-width:480px | min-height:262px | max-height:262px | border-radius:8px
+QDialog#FreezeAnimalDialogWait	min-width:128px | max-width:128px | min-height:128px | max-height:128px
+QDialog#ICloudLoginViewer	font-size:12px
+QDialog#InnerBuyActivateDlg	min-width:880px | min-height:560px
+QDialog#PartitionCheckDialog	min-width:650px | max-width:650px | min-height:400px | max-height:400px | border-radius:16px
+QDialog#PartitionLostExplorer	min-width:1000px | max-width:1000px | min-height:680px | max-height:680px | border-radius:16px
+QDialog#RecoverProgressDlg	max-width:580px | max-height:340px | font-size:13px
+QDialog#RefreshHelpDialog	min-width:640px | max-width:640px | min-height:400px | max-height:400px | border-radius:16px
+QDialog#RetentionExitDlg	min-height:420px | max-height:420px | width:640px
+QDialog#ScaningRecoverMessage	min-width:580px | min-height:340px
+QDialog#ShareDlg	min-width:640px | max-width:640px | min-height:580px | max-height:580px | border-radius:16px
+QDialog#SorryDlg	min-width:700px | max-width:700px | min-height:558px | max-height:558px | border-radius:16px
+QDialog#TitleGiftDlg	min-width:700px | max-width:700px | min-height:558px | max-height:558px | border-radius:16px
+QDialog#UserRateDlg	min-width:620px | max-width:620px
+QDialog#UserRateSuccessDlg	min-width:370px | max-width:370px | min-height:148px | max-height:148px | border-radius:8px
+QDialog#VideoPreviewWnd	min-width:900px | max-width:900px | min-height:620px | max-height:620px | border-radius:4px | font-size:13px | font-size:13px
+QFrame#AIDeduplicationTipMenu	min-width:342px | max-width:342px
+QFrame#AIDeduplicationTipMenuInnerBackFrame	min-height:52px | border-radius:8px
+QFrame#AboutCisdemMain	min-width:540px | max-width:540px | min-height:380px | max-height:380px | border-radius:8px
+QFrame#AboutEaseUSMain	min-width:640px | max-width:640px | min-height:477px | max-height:477px | border-radius:8px
+QFrame#AccountPasswordBackgroundFrame	min-width:620px | max-width:620px | min-height:211px | border-radius:12px
+QFrame#ArchivePreviewWindow	min-width:940px | max-width:940px | min-height:450px | max-height:450px | border-radius:8px
+QFrame#ArchivePreviewWindowChildItem	min-width:932px | max-width:932px | min-height:44px | max-height:44px | border-radius:6px
+QFrame#ArchivePreviewWindowTitle	min-width:932px | max-width:932px | min-height:40px | max-height:40px
+QFrame#ArchivePreviewWindowTitle QLabel	min-height:24px | max-height:24px | font-size:15px
+QFrame#ArchivePreviewWindowTitle QLabel#ArchivePreviewWindowTitleVLine	min-width:1px | max-width:1px | min-height:15.43px | max-height:15.43px
+QFrame#AutoRecoverSettingFilePathFrame	min-width:232px | max-width:232px | min-height:32px | max-height:32px | border-radius:6px
+QFrame#AutoRecoverSettingMain	min-width:670px | max-width:670px | min-height:540px | max-height:540px | border-radius:8px
+QFrame#BitlockerUnlockMain	min-width:560px | max-width:560px | min-height:380px | max-height:380px | border-radius:8px
+QFrame#BitlockerUnlockRetFramePassword	min-width:500px | max-width:500px | min-height:32px | max-height:32px | border-radius:6px
+QFrame#BuyNowTipsMenu	min-width:266px | max-width:306px | min-height:332px | max-height:332px | border-radius:8px
+QFrame#BuyNowTipsMenu[state="width_view"]	min-width:306px | max-width:306px
+QFrame#CAutoRecoverEntryWnd,CAutoRecoverOpenWnd,CAutoRecoverCloseWnd	min-width:918px | max-width:918px | min-height:119px | max-height:119px | border-radius:4px
+QFrame#CBitlockerStartWnd	border-radius:8px
+QFrame#CBottomArea	min-height:68px | max-height:68px
+QFrame#CBuyGuideWnd	min-width:250px | max-width:250px | min-height:260px | max-height:260px
+QFrame#CCloudDriveItem	min-width:204px | max-width:204px | min-height:264px | max-height:264px | border-radius:8px
+QFrame#CFileExtensionGroupWnd	min-width:520px | min-height:50px | max-height:50px
+QFrame#CFileTypeFilterTabBar	min-width:500px | min-height:95px | max-height:97px
+QFrame#CFileTypeTagBarBottomBgWnd	min-width:500px | min-height:50px | max-height:50px
+QFrame#CFileTypeTagTabGroupWnd	min-width:500px | min-height:45px | max-height:45px
+QFrame#CFilterBar	min-height:32px | max-height:32px | border-radius:4px
+QFrame#CFilterCountFrame	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QFrame#CFilterGuideWnd	min-height:35px | max-height:35px
+QFrame#CHandleView	min-width:16px | max-width:16px
+QFrame#CHomeCloudDriveView	border-radius:8px
+QFrame#CHomeNewHelpContentView	min-width:916px | min-height:611px | border-radius:8px | font-size:14px
+QFrame#CHomeNewHelpContentViewBtnFrame	min-width:828px | min-height:40px | max-height:40px | border-radius:8px
+QFrame#CHomeNewHelpContentViewMainFrame	min-width:860px | min-height:469px | border-radius:8px
+QFrame#CHomeNewHelpView	border-radius:8px
+QFrame#CLoadScanRetMenu	min-width:311px | max-width:311px
+QFrame#CLostPartitionPopTipsWnd	min-width:514px | max-width:514px | min-height:351px | max-height:351px
+QFrame#CLostPartitionTipWnd	min-width:340px | max-width:340px | min-height:62px | border-radius:8px
+QFrame#CLostPartitionTipWndContentWnd	min-width:420px | max-width:420px | min-height:339px | max-height:339px | border-radius:4
+QFrame#CNASHelpItemView	min-width:910px | min-height:580px | border-radius:4px
+QFrame#CNASHelpItemView[state="type1"]	min-height:80px
+QFrame#CNasDownloadPage,CLinuxDownloadPage	font-size:13px | font-size:13px
+QFrame#CNasHelpTipsWndMain	min-height:30px | max-height:30px
+QFrame#CNasLogonPage,CLinuxLogonPage	font-size:14px
+QFrame#CNasNetErrorTipsWnd	min-height:33px | max-height:33px | width:950px | font-size:13px
+QFrame#CNasPortTipsWnd	min-width:343px | max-width:343px
+QFrame#CNasSSHInfoWnd	min-width:880px | max-width:880px | min-height:16px | max-height:16px
+QFrame#CNasSSHPage	font-size:13px
+QFrame#CNasSSHPopMain	min-width:600px | max-width:600px | min-height:660px | max-height:660px | border-radius:8px
+QFrame#CNasStartPage,CNasEnummingPage,CNasEnumFailedPage,CNasDevicePage,CNasSSHPage,CNasNoSystemPage,CNasLogonPage,CNasDownloadPage,CLinuxDownloadPage,CLinuxLogonPage,CLinuxNoSystemPage	border-radius:8px
+QFrame#CNavigateBar	min-height:50px | max-height:50px
+QFrame#CNormalLeftView	min-width:90px | max-width:912px
+QFrame#CPEConnectWnd	border-radius:4px | font-size:14px
+QFrame#CPEDeviceItem	min-width:426px | max-width:426px | min-height:60px | max-height:60px | border-radius:8px
+QFrame#CPEStartWnd	border-radius:4px
+QFrame#CPanelView	min-width:201px | max-width:201px
+QFrame#CPartitionEnumFailFrame,CPartitionListFrame,PartitionStartWnd	border-radius:12px | font-size:14px
+QFrame#CPartitionListItem	min-height:114px | max-height:114px | border-radius:12px
+QFrame#CPartitionListItem[state="selected"]	min-height:114px | max-height:114px
+QFrame#CPartitionPartitionItem	min-width:100px | min-height:57px | max-height:57px
+QFrame#CPartitionRecoverFrame,CPartitionRecoverRetFrame	border-radius:12px
+QFrame#CPartitionScanFrame	border-radius:12px | font-size:14px
+QFrame#CPartitionScanItem	min-width:800px | min-height:40px | max-height:40px
+QFrame#CPartitionScanPartitionItem	min-width:100px | min-height:59px | max-height:59px
+QFrame#CPreviewShadowWnd	min-width:500px | max-width:500px | min-height:277px | max-height:277px | border-radius:8px
+QFrame#CProgressBar	min-height:3px | max-height:3px
+QFrame#CQuickScanCompleteWnd	min-width:918px | max-width:918px | min-height:119px | max-height:119px | border-radius:4px
+QFrame#CRaidDeviceItem	min-height:96px | max-height:96px | border-radius:8px
+QFrame#CRaidHelpTipsWnd	min-height:40px | max-height:40px | width:900px | border-radius:6px | font-size:14px
+QFrame#CRaidNoDevicePage, QFrame#CRaidDeviceListPage, QFrame#CRaidDeviceListView	border-radius:8px
+QFrame#CRepairPDFItem	min-height:80px | max-height:80px | border-radius:4px
+QFrame#CRepairPDFItem[state="select"]	min-height:76px | max-height:76px
+QFrame#CRepairPDFSaveInforTipsWnd	min-width:450px | max-width:450px | border-radius:4px
+QFrame#CRepairVideoGetSampleWnd	min-width:700px | max-width:700px | min-height:350px | max-height:350px
+QFrame#CRepairVideoItem	min-height:92px | max-height:92px | border-radius:4px
+QFrame#CRepairVideoItem[state="select"]	min-height:88px | max-height:88px
+QFrame#CRightTagTipsWnd	min-width:920px | max-width:920px | border-radius:4px
+QFrame#CSBackupDownloadPage	border-radius:8px | font-size:13px | font-size:13px
+QFrame#CSBackupStartWnd	border-radius:12px
+QFrame#CSDCardDeviceItem	min-height:96px | max-height:96px | border-radius:8px
+QFrame#CSDCardDeviceItem[state="select"]	min-height:94px | max-height:94px
+QFrame#CSDCardDeviceListPage	border-radius:8px | font-size:14px
+QFrame#CSDCardFeedBackWnd	min-height:74px | max-height:74px | font-size:13px
+QFrame#CSDCardHelpPopMain	min-width:600px | max-width:600px | min-height:540px | max-height:540px | border-radius:8px
+QFrame#CSDCardHelpTipsWnd	min-height:40px | max-height:40px | width:900px | border-radius:6px | font-size:14px
+QFrame#CSDCardNoDevicePage	border-radius:8px | font-size:14px
+QFrame#CSDCardScanTipsWnd	min-width:900px | max-width:900px | min-height:80px | max-height:80px
+QFrame#CTagCaptionItem	min-width:412px | max-width:412px | min-height:21px
+QFrame#CUserDefineSortBar	min-width:210px | max-width:210px
+QFrame#CUserGuidTipWnd	min-width:500px | max-width:500px | min-height:532px | max-height:532px
+QFrame#CUserGuidTipWndContentWnd	min-width:500px | max-width:500px | min-height:532px | max-height:532px | border-radius:4
+QFrame#CUserGuidTopCoverWnd	min-width:706px | max-width:706px | min-height:42px | max-height:42px | border-radius:4px
+QFrame#CVideoPreviewTipsWnd	min-height:28px | max-height:28px | border-radius:14px | font-size:13px
+QFrame#CWeChatIEWnd	min-width:460px | max-width:460px | min-height:370px | max-height:370px
+QFrame#ChinaMainlandStackWnd	min-height:580px | max-height:580px
+QFrame#ChinaMainlandbuyBottomWnd	min-width:800px | max-width:800px | min-height:80px | max-height:80px
+QFrame#CloudDriveItemLogoutSpacing	min-height:22px | max-height:22px
+QFrame#DRWMainFrame	border-radius:8px
+QFrame#DetailPageScanFileNamesFrame	min-height:24px | max-height:24px
+QFrame#DevicePageItemHoverFrame	min-height:18px | max-height:18px
+QFrame#DiskListTabExternBGWidget	border-radius:8px
+QFrame#DrwNewMessageBoxMain	min-width:560px | max-width:560px | min-height:240px | max-height:240px | border-radius:8px
+QFrame#EnterLicenceMain	min-width:560px | max-width:560px | min-height:380px | max-height:380px | border-radius:8px
+QFrame#ExitGuideChronoSnapDlgRightBackFrame	min-width:420px | max-width:420px | min-height:488px | max-height:488px
+QFrame#ExitHelpMain	min-width:768px | max-width:768px | min-height:531px | max-height:531px | border-radius:4px
+QFrame#FileRepairAddFrameClickOrDrag	min-width:856px | border-radius:12px
+QFrame#FileRepairHomePage,FileRepairAddPage,FileRepairListFrame	border-radius:12px
+QFrame#FileRepairImgPreviewItem	min-width:136px | max-width:136px | min-height:104px | max-height:104px
+QFrame#FileRepairImgPreviewItemTopFrame	min-width:136px | max-width:136px | min-height:104px | max-height:104px | border-radius:8px
+QFrame#FileRepairImgPreviewItemTopFrame[state="select"]	min-width:134px | max-width:134px | min-height:102px | max-height:102px
+QFrame#FileRepairListItem	min-height:118px | max-height:118px | border-radius:12px
+QFrame#FileRepairListItemRepairing	min-width:102px
+QFrame#FileRepairListItem[state="selected"]	min-height:118px | max-height:118px
+QFrame#FileRepairPreviewLeftFrame	min-width:168px | max-width:168px | min-height:532px | max-height:532px
+QFrame#FileRepairPreviewRightFrame	min-width:792px | min-height:532px | max-height:532px | border-radius:8px
+QFrame#FileRepairPreviewVideoTipsFrame	min-height:30px | max-height:30px | border-radius:15px
+QFrame#FileRepairScanItem	min-width:254px | min-height:78px | max-height:78px | border-radius:12px
+QFrame#FilterGuideMain	min-height:30px | max-height:30px | border-radius:4px
+QFrame#HeaderViewBGWnd	min-height:40px | max-height:40px
+QFrame#HomeBtnSpacing	min-width:13px | max-width:13px | min-height:22px | max-height:22px
+QFrame#HomeBtnSpacingSpilit	min-width:1px | max-width:1px | min-height:22px | max-height:22px
+QFrame#HomeCloudDriveErrorFrame	min-width:201px | max-width:201px | min-height:52px | border-radius:8px
+QFrame#HomeCloudDriveErrorFrameMain	min-width:201px | max-width:201px | min-height:43px | border-radius:8px
+QFrame#IntroductionTipWidget,#IntroductionTipWidget_AutoRecover	border-radius:6px
+QFrame#LastScanRecordView	min-width:250px | max-width:250px | min-height:229px | max-height:229px | border-radius:4px
+QFrame#LoadScanRetMenuSep	min-height:1px | max-height:1px
+QFrame#LocalRecoverBuyLeft	min-width:460px | max-width:460px | min-height:410px | max-height:410px
+QFrame#LocalRecoverBuyRight	min-width:330px | max-width:330px | min-height:410px | max-height:410px
+QFrame#MoreToolIndexWidget	border-radius:12px
+QFrame#NasDeviceItem	min-width:204px | max-width:204x | min-height:264px | max-height:264px | border-radius:8px
+QFrame#NasDeviceItemSpecial	min-width:204px | max-width:204x | min-height:167px | max-height:167px | border-radius:8px
+QFrame#NasDeviceItemSpecial[state="WSHover"]	min-width:204px | max-width:204px | min-height:167px | max-height:167px
+QFrame#NasDeviceItem[state="WSHover"]	min-width:204px | max-width:204px | min-height:264px | max-height:264px
+QFrame#NavigationTabBar	min-width:280px
+QFrame#NavigationTabBar[state="LeftTreeView"]	min-width:90px | max-width:912px
+QFrame#NavigationTabBar[state="LeftTreeView_double"]	min-width:90px | max-width:912px
+QFrame#NavigationTabBar[state="PDFRepair"]	min-width:280px
+QFrame#NavigationTabBar[state="videoRepair"]	min-width:280px
+QFrame#NoResultCenterContent	min-height:198px
+QFrame#NoResultTipItem	min-height:19px | max-height:19px | font-size:14px
+QFrame#PEBuyRetainMain	min-width:600px | max-width:600px | min-height:540px | max-height:540px | border-radius:8px
+QFrame#PEConnectCreateScrollBG	min-width:450px | min-height:220px | max-height:220px
+QFrame#PEConnectCreateSuccessLinkWidget	min-width:900px | min-height:40px | max-height:40px | border-radius:6px
+QFrame#PEConnectFrameCreate	min-width:916px | max-height:587px | border-radius:4px
+QFrame#PartitionHomeBottom	min-height:36px | max-height:36px | border-radius:6px
+QFrame#PartitionItemFrame	min-height:76px | max-height:76px | border-radius:8px
+QFrame#PartitionItemFrameDisk	min-height:114px | max-height:114px | border-radius:8px
+QFrame#PartitionItemFrameDiskItem	min-width:116px | min-height:62px | max-height:62px | border-radius:8px
+QFrame#PartitionListFrameBottomFrame	min-height:68px | max-height:68px
+QFrame#PartitionLostSep	min-width:1px | max-width:1px
+QFrame#PartitionPartitionItemUnllocate	min-height:16px | max-height:16px
+QFrame#PartitionScanFrameDBClickTips	min-height:32px | max-height:32px
+QFrame#PartitionScanFrameDisk	min-height:90px | max-height:90px | border-radius:8px
+QFrame#PartitionScanFrameTable	min-height:240px | max-height:240px | border-radius:8px
+QFrame#PartitionScanFrameTableHeaderSep	min-width:1px | max-width:1px
+QFrame#PeripheralDeviceInnerWidget	min-width:246px | min-height:92px | max-height:92px | border-radius:10px
+QFrame#PeripheralSelectedSep	min-height:1px | max-height:1px
+QFrame#PreviewBottomArea	min-height:68px | max-height:68px
+QFrame#PreviewFailedCenterWidget	min-height:172px | max-height:172px
+QFrame#PreviewFailedTextDescCtrl	min-height:32px | max-height:32px
+QFrame#PreviewFailedWnd	min-height:450px | height:19px | height:19px | border-radius:8px | font-size:14px | font-size:14px
+QFrame#PreviewLoadingView	border-radius:8px
+QFrame#RateExpressionBtn	min-width:57px | max-width:57px | min-height:88px | max-height:88px | border-radius:8px
+QFrame#RecommendNodeItem	min-width:100px | max-width:100px | min-height:118px | max-height:118px
+QFrame#RecommendNodeItemBgFrame, RecommendNodeItemBgFrame[state="normal"]	min-width:100px | max-width:100px | min-height:100px | max-height:100px | border-radius:8px
+QFrame#RecommendNodeItemBgFrame[state="select"]	min-width:98px | max-width:98px | min-height:98px | max-height:98px
+QFrame#RecoverLimitMain	min-width:540px | max-width:540px | min-height:300px | max-height:300px | border-radius:4px
+QFrame#RecoverLimitTopFrame	min-width:580px | max-width:580px | min-height:100px | max-height:100px
+QFrame#RecoverProgressContentFrame	border-radius:8px
+QFrame#RecycleBinScanNoRltWnd	min-width:460px | max-width:460px | min-height:399px | max-height:399px
+QFrame#RepairAddProgressMain	min-width:538px | max-width:538px | min-height:208px | max-height:208px | border-radius:4px
+QFrame#RepairFailedWnd	height:19px | height:18px | border-radius:4px | font-size:14px | font-size:13px
+QFrame#RepairOriginalWnd	height:19px | height:19px | border-radius:8px | font-size:14px | font-size:14px
+QFrame#RepairPDFDecryptMain	min-width:638px | max-width:638px | min-height:238px | max-height:238px | border-radius:4px
+QFrame#RepairPDFDecryptSuccessMain	min-height:80px | max-height:80px | border-radius:4px
+QFrame#RepairPDFLeftListFrame	min-width:125px | max-width:125px | min-height:489px | max-height:489px
+QFrame#RepairPDFLeftListItemShadow	min-width:100px | max-width:100px | min-height:100px | max-height:100px
+QFrame#RepairPDFPreviewBottom	min-width:900px | max-width:900px | min-height:68px | max-height:68px
+QFrame#RepairPDFPreviewContent	min-width:880px | max-width:880px | min-height:490px | max-height:490px | border-radius:4px
+QFrame#RepairPDFPreviewMain	min-width:900px | max-width:900px | min-height:620px | max-height:620px | border-radius:4px
+QFrame#RepairPDFSaveInforTipsMain	border-radius:4px
+QFrame#RepairPreviewCompareBgFrame	border-radius:8px
+QFrame#RepairVideoAddMainFrame	min-width:670px | max-width:670px | min-height:440px | max-height:440px | border-radius:4px
+QFrame#RepairVideoAdvancedAddMain	min-width:638px | max-width:638px | min-height:238px | max-height:238px | border-radius:4px
+QFrame#RepairVideoAdvancedAddPathFrame	min-width:362px | max-width:362px | min-height:28px | max-height:28px | border-radius:4px
+QFrame#RepairVideoAdvancedAnalyzeContent	min-width:690px | max-width:690px | min-height:320px | max-height:320px | border-radius:4px
+QFrame#RepairVideoAdvancedAnalyzeMain	min-width:738px | max-width:738px | min-height:593px | max-height:593px | border-radius:4px
+QFrame#RepairVideoGetSampleMain	min-width:698px | max-width:698px | min-height:348px | max-height:348px | border-radius:4px
+QFrame#RepairVideoRightItemsFrameBottom	min-height:70px | max-height:70px
+QFrame#RepairVideoRightItemsFrameTips	min-height:33px | max-height:33px
+QFrame#RepairVideoSaveMain	min-width:538px | max-width:538px | min-height:208px | max-height:208px | border-radius:4px
+QFrame#RepairedBottomLayerWnd	min-width:450px | min-height:120px | max-height:120px | border-radius:4px
+QFrame#RepairedBottomWnd	min-height:70px | max-height:70px | height:19px | height:18px | border-radius:8px | font-size:14px | font-size:13px
+QFrame#RepairingWnd	min-width:450px | min-height:415px | border-radius:4px
+QFrame#RetentionActiveDlgDiscountFrame3DLabel DoubleLayerTextLabel	min-width:220px | min-height:170px | padding:0px
+QFrame#RetentionActiveDlgDiscountLabel	min-width:132px | max-width:132px | min-height:160px | max-height:160px
+QFrame#RetentionActiveDlgMainFrame	min-width:755px | max-width:755px | min-height:519px | max-height:519px | border-radius:12px
+QFrame#RetentionExitDlgExpandPage	min-width:198px | min-height:140px | border-radius:4px
+QFrame#RetentionExitDlgItemFrame1	height:56px | border-radius:6px
+QFrame#RetentionExitDlgItemFrame2	max-height:56px | border-radius:8px
+QFrame#RetentionExitDlgItemFrame3	max-height:56px | border-radius:8px
+QFrame#RetentionExitDlgMainFrame	min-height:418px | max-height:418px | border-radius:4px
+QFrame#RobotToolTipContent	border-radius:6px
+QFrame#RobotToolTipContent1	border-radius:12px
+QFrame#SDCardBottomGuidItem	min-width:280px
+QFrame#SDCardBottomGuidView	min-height:126px | max-height:126px
+QFrame#SDCardBottomGuidView[state="devices"]	border-radius:12px | margin:20px 16px
+QFrame#SDCardFeedBackSubmitMain	min-width:698px | max-width:698px | min-height:228px | max-height:228px | border-radius:8px
+QFrame#SDCardScanTipsContentFrame	min-height:72px | max-height:72px | border-radius:6px
+QFrame#SDCardScanTipsContentFrame[state="unspecialshape"]	min-height:80px | max-height:80px
+QFrame#ScanCDlgRecoverHighFrame	min-width:500px | max-width:500px | min-height:43px | max-height:43px | border-radius:8px
+QFrame#ScanStopContentChildFrame	min-width:240px | max-width:240px | min-height:80px | max-height:80px
+QFrame#ScanStopContentFrame	min-width:500px | max-width:500px | min-height:80px | max-height:80px | border-radius:8px
+QFrame#ScanStopMain	max-width:540px | max-height:380px | border-radius:8px
+QFrame#SearchNltPopMain	min-width:600px | max-width:600px | min-height:540px | max-height:540px | border-radius:8px
+QFrame#ShareDlgShareItemsFrame	width:420px | height:280px
+QFrame#ShareDlgShareItemsFrame CSVGPushButton	height:76px | border-radius:20px | font-size:16px
+QFrame#SorryDlgBottomBtnFrame QPushButton	min-width:80px
+QFrame#SorryDlgMainFrame	min-height:375px | max-height:375px | border-radius:12px
+QFrame#SorryDlgMainFrameAdvancedRepairFrame	min-width:372px | max-width:372px | max-height:263px | border-radius:12px
+QFrame#SorryDlgMainFrameAdvancedRepairFrameMultipleLabels CSVGLabel	min-height:20px | font-size:14px
+QFrame#TitleGiftDiscountFrame_1_frame	min-height:96px | max-height:101px
+QFrame#TitleGiftDiscountFrame_2_frame	min-height:75px | max-height:75px
+QFrame#TitleGiftDiscountFrame_2_frame QLabel	height:20px | font-size:14px
+QFrame#TitleGiftDiscountFrame_3_frame	min-height:92px
+QFrame#TitleGiftDiscountFrame_3_frame QLabel#TitleGiftDiscountFrame_3_1_discount	min-height:19px | max-height:19px | font-size:14px
+QFrame#TitleGiftDiscountFrame_3_frame QLabel#TitleGiftDiscountFrame_3_1_now	max-height:40px | font-size:30px
+QFrame#TitleGiftDiscountFrame_3_frame QLabel#TitleGiftDiscountFrame_3_1_old	min-height:19px | max-height:19px | font-size:14px
+QFrame#TitleGiftDiscountFrame_3_frame QPushButton#TitleGiftDiscountFrame_3_2_btn	min-width:120px | height:40px | border-radius:6px | font-size:14px
+QFrame#TitleGiftDlgRightFrame	min-width:200px | max-width:200px | min-height:488px | max-height:488px
+QFrame#TitleGiftDlgRightFrame QCheckBox#TitleGiftDlgRightDontShowCheckBox	min-height:19px | max-height:19px | font-size:14px
+QFrame#TitleGiftDlgRightFrame QLabel#TitleGiftDlgRightLabel1	min-height:54px | font-size:20px
+QFrame#TitleGiftDlgRightFrame QLabel#TitleGiftDlgRightLabel2	font-size:13px
+QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn3	height:40px | border-radius:6px | font-size:14px
+QFrame#TitleGiftDlgRightFrame QPushButton#TitleGiftDlgRightBtn4	height:40px | border-radius:6px | font-size:14px
+QFrame#TitleGiftDlgSubScribeFrame	height:120px | border-radius:12px
+QFrame#UserGuidTextBg	min-width:300px | max-width:300px | min-height:72px | max-height:72px
+QFrame#UserInformationView	min-width:322px | max-width:322px | min-height:379px | max-height:379px
+QFrame#UserInformationViewContentView	min-width:322px | max-width:322px | min-height:379px | max-height:379px | border-radius:8px
+QFrame#UserRateChooseFrame	min-width:620px | max-width:620px | border-radius:10px
+QFrame#UserRateTitleFrame	min-width:600px | max-width:600px | min-height:78px | max-height:78px
+QFrame#VideoPreviewBottomFrame	min-width:900px | max-width:900px | min-height:68px | max-height:68px
+QFrame#VideoPreviewMain	min-width:900px | max-width:900px | min-height:620px | max-height:620px | border-radius:4px
+QFrame#filterbarbottomframe	min-height:4px | max-height:4px
+QFrame#panelview_pixmap_frame	min-width:158px | max-width:158px | min-height:118px | max-height:118px | border-radius:8px
+QFrame#recoverLayerTipChildImgTextWnd	min-width:114px | max-width:114px | min-height:100px | max-height:100px
+QFrame#recoverLayerTipChildImgTextWnd[state='moreHeight']	min-height:110px | max-height:110px
+QFrame#repairpopWndClickArea	min-width:250px | max-width:250px | min-height:360px | max-height:360px | border-radius:12px
+QFrame#repairpopWndFrameLittleBtns	min-width:112px | max-width:112px | min-height:40px | max-height:40px
+QFrame#scanCircleProgressBackFrame	min-width:60px | max-width:60px | min-height:60px | max-height:60px
+QFrame#uilib_autoToolTips_content_widget_ext	border-radius:8px
+QFrame#uilib_autoToolTips_content_widget_ext[state="video_preview_timer"]	border-radius:8px
+QFrame#uilib_autoToolTips_content_widget_normal	min-height:25px | border-radius:8px
+QFrame#uilib_autoToolTips_content_widget_normal[state="video_preview_timer"]	min-height:24px | border-radius:8px
+QHeaderView#LostRightTableViewHeader::section	height:40px | font-size:13px
+QHeaderView::down-arrow	width:16px | height:16px
+QHeaderView::down-arrow:hover[state="new"]	width:24px | height:24px
+QHeaderView::down-arrow[state="new"]	width:24px | height:24px
+QHeaderView::section	height:40px | font-size:13px
+QHeaderView::up-arrow	width:16px | height:16px
+QHeaderView::up-arrow:hover[state="new"]	width:24px | height:24px
+QHeaderView::up-arrow[state="new"]	width:24px | height:24px
+QLabel#AIAssistantTipDialogIconLabel	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#AIDeduplicationTipMenuBottomText	min-height:17px | max-height:17px | font-size:13px
+QLabel#AIDeduplicationTipMenuContent	min-width:227px | max-width:227px | min-height:17px | max-height:17px | font-size:13px
+QLabel#AIDeduplicationTipMenuContent[state="long"]	min-height:34px | max-height:34px
+QLabel#AIDeduplicationTipMenuContent[state="longlong"]	min-height:51px | max-height:51px
+QLabel#AIDeduplicationTipMenuSubTitle	min-width:219px | max-width:219px | min-height:19px | max-height:19px | font-size:14px
+QLabel#AIDeduplicationTipMenuSubTitle[state="long"]	min-height:38px | max-height:38px
+QLabel#AIDeduplicationTipMenuTitleIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#AIDeduplicationTipMenuTitleStaus	font-size:14px
+QLabel#AIDeduplicationTipMenuTitleText	min-height:20px | max-height:20px | font-size:15px
+QLabel#AIRecoveryTipText	min-height:20px | font-size:14px
+QLabel#AboutBottomEaseUSIMG	min-width:65px | max-width:65px | min-height:25px | max-height:25px
+QLabel#AboutBottomItemText	min-height:16px | max-height:16px | font-size:12px
+QLabel#AboutBottomYiwoIMG	min-width:68px | max-width:68px | min-height:17px | max-height:17px
+QLabel#AboutCopyright	min-height:16px | max-height:16px | font-size:12px
+QLabel#AboutItemText	min-height:16px | font-size:12px
+QLabel#AboutOriginalTitle	font-size:18px
+QLabel#AboutTitle1MainText	min-height:17px | max-height:17px | font-size:13px
+QLabel#AboutTitleIconLabel	min-width:60px | max-width:60px | min-height:60px | max-height:60px
+QLabel#AboutTitleMainText	min-height:21px | max-height:21px | font-size:16px
+QLabel#ActivateButtonItemLabel	min-height:5px | max-height:5px
+QLabel#ActivateResultContentLabel	max-width:520px
+QLabel#ActivateResultNoteLabel	max-width:520px
+QLabel#ActivateResultTitleLabel	min-height:44px | max-height:44px | font-size:18px
+QLabel#AiAssistantDescLabel	font-size:12px
+QLabel#ApowerActivateContentLabel	min-width:180px | max-width:260px | min-height:51px | max-height:51px | font-size:16px
+QLabel#ApowerActivateTitleLabel	min-width:660px | max-width:660px | min-height:64px | max-height:64px | font-size:22px
+QLabel#ArchivePreviewDelegateIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#ArchivePreviewDelegateRow	border-radius:8px
+QLabel#ArchivePreviewWindowChildItemDate	min-width:182px | max-width:182px | font-size:13px
+QLabel#ArchivePreviewWindowChildItemIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#ArchivePreviewWindowChildItemName	min-width:298px | max-width:298px | font-size:14px
+QLabel#ArchivePreviewWindowChildItemSize	font-size:14px
+QLabel#ArchivePreviewWindowChildItemType	min-width:225px | max-width:225px | font-size:13px
+QLabel#ArchivePreviewWindowTitleDate	min-width:169px | max-width:169px
+QLabel#ArchivePreviewWindowTitleName	min-width:313px | max-width:313px
+QLabel#ArchivePreviewWindowTitleType	min-width:214px | max-width:214px
+QLabel#AutoRecoverEntryTitleIcon	min-width:64px | max-width:64px | min-height:64px | max-height:64px
+QLabel#AutoRecoverEntryTitleTime	min-height:24px | max-height:24px | font-size:18px
+QLabel#AutoRecoverSetLogo1	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#AutoRecoverSetLogo2	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#AutoRecoverSetLogo3	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#AutoRecoverSettingChoseLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#AutoRecoverSettingContent	min-height:17px | max-height:17px | font-size:13px
+QLabel#AutoRecoverSettingFilePath	min-width:165px | max-width:165px | min-height:19px | max-height:19px | font-size:14px
+QLabel#AutoRecoverSettingLeftContent	min-width:150px | max-width:150px | min-height:63px | font-size:16px
+QLabel#AutoRecoverSettingSWitchLabel	min-height:21px | font-size:16px
+QLabel#AutoRecoverSettingStateContent	min-height:18px | max-height:18px | font-size:13px
+QLabel#AutoRecoverSettingStateLabel	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#AutoRecovrCloseTitleIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#AutoRecovrOpenTitleIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#BadSectorTipsDlgImg1	min-width:540px | max-width:540px | min-height:260px | max-height:260px
+QLabel#BadSectorTipsDlgImg2	min-width:540px | max-width:540px | min-height:260px | max-height:260px
+QLabel#BitLockerMSGuideLabel	min-width:280px | max-width:280px | font-size:14px
+QLabel#BitUnlockerDecryptingLabel	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#BitlockerIconLabel	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#BitlockerRemainTime	font-size:13px
+QLabel#BitlockerStartChildIcon	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#BitlockerStartIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#BitlockerStartSubContent	min-width:380px | max-width:380px | font-size:14px
+QLabel#BitlockerStartSubTitle	min-width:380px | max-width:380px | font-size:16px
+QLabel#BitlockerUnlockAutoIcon	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#BitlockerUnlockContentLabel	height:17px | font-size:13px
+QLabel#BitlockerUnlockDialogNoKeyLabel	min-width:500px | max-width:500px | font-size:13px
+QLabel#BitlockerUnlockRetContent	font-size:13px
+QLabel#BitlockerUnlockRetIcon	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#BitlockerUnlockRetLabelPassword	font-size:14px
+QLabel#BitlockerUnlockRetTitle	font-size:16px
+QLabel#BitlockerUnlockTitleLabel	width:500px | height:19px | font-size:14px
+QLabel#BuyGuideContent	min-width:230px | max-width:230px | min-height:36px | max-height:36px | font-size:13px
+QLabel#BuyGuideTipsLabel	min-width:196px | max-width:196px | min-height:19px | max-height:19px | font-size:14px
+QLabel#BuyGuideTipsLogo	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#BuyGuideTitle	min-width:185px | max-width:185px | min-height:22px | max-height:22px | font-size:16px
+QLabel#BuyNowTipsMenuContentLabel	min-width:180px | min-height:33px | max-height:33px | font-size:13px
+QLabel#BuyNowTipsMenuContentLabel[state="width_view"]	min-width:220px
+QLabel#BuyNowTipsMenuContentLabel[type="subtitle"]	min-width:120px | min-height:37px | max-height:37px
+QLabel#BuyNowTipsMenuContentLabel[type="width_view_subtitle"]	min-width:160px | min-height:37px | max-height:37px
+QLabel#BuyNowTipsMenuListIconLabel	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#BuyNowTipsMenuTitleLabel	min-width:180px | font-size:14px
+QLabel#BuyNowTipsMenuTitleLabel[state="width_view"]	min-width:220px
+QLabel#CHomeNewHelpContentViewLabelContact	min-height:19px | max-height:19px
+QLabel#CNasSSHPopContent	min-height:51px | max-height:51px | font-size:13px
+QLabel#CNasSSHPopTitle	min-height:21px | max-height:21px | font-size:16px
+QLabel#CPartitionPartitionItemBitlocker	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#CPartitionPartitionItemName	font-size:14px
+QLabel#CRaidDeviceItemCheckBox	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#CRaidDeviceItemCheckBox[state="selected"]	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#CRaidDeviceItemCheckBox[state="unselected"]	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#CRaidDeviceItemCheckBox[state="unselectedDisable"]	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#CRaidDeviceItemIcon	min-width:42px | max-width:42px | min-height:42px | max-height:42px
+QLabel#CRaidDeviceItemSize	min-width:168px | max-width:168px | font-size:15px
+QLabel#CRaidDeviceItemText	min-width:100x | max-width:100px | font-size:15px
+QLabel#CRaidDeviceListViewDeviceIcon	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#CRaidDeviceListViewDeviceName	font-size:14px
+QLabel#CRepairVideoItemsCount	min-width:30px | max-width:30px | min-height:16px | max-height:16px | font-size:12px
+QLabel#CSBackupDownloadPageErrorLabel	font-size:14px
+QLabel#CSBackupDownloadPageIcon	min-width:120px | max-width:120px | min-height:120px | max-height:120px
+QLabel#CSBackupStartIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#CSBackupStartRightChildIcon	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#CSDCardBottomIcon	min-width:56px | max-width:56px | min-height:56px | max-height:56px
+QLabel#CScanCommonPopDlgAnimationLb	min-width:28px | max-width:28px | min-height:28px | max-height:28px
+QLabel#CThemeMenuTitleIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#ChooseDestinationPathItemSizeLabel	font-size:12px
+QLabel#CloudDriveItemIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#CloudDriveItemName	font-size:15px
+QLabel#CloudDriveItemRecover	min-width:200px | max-width:200px | font-size:12px
+QLabel#ComboBoxItemContent	min-width:525px | max-width:525px | min-height:17px | max-height:17px | font-size:13px
+QLabel#ComboBoxItemIcon	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#ComboBoxItemLine	min-width:524px | max-width:524px | min-height:1px | max-height:1px
+QLabel#ComboBoxItemTitle	min-width:525px | max-width:525px | min-height:19px | max-height:19px | font-size:14px
+QLabel#DetailPageScanFileNamesLabel	min-height:17px | max-height:17px | font-size:13px
+QLabel#DevicePageItemExernalLabel	min-width:22px | max-width:22px | min-height:18px | max-height:18px
+QLabel#DevicePageItemHoverLabel	min-height:18px | max-height:18px | font-size:11px
+QLabel#DevicePageItemSSDLabel	min-width:22px | max-width:22px | min-height:18px | max-height:18px
+QLabel#DevicePageItemSelectedLabel	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#DevicePageItemSystemLabel	min-width:22px | max-width:22px | min-height:18px | max-height:18px
+QLabel#DialogTopIconLabel	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#DiskListDecriptContentsLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#DiskListDecriptContentsLabel1	min-height:19px | max-height:40px | font-size:14px
+QLabel#DiskListDecriptLinkContentsLabel	min-height:19px | max-height:19px | font-size:15px
+QLabel#DiskListExplainTitleLabel	min-height:21px | max-height:21px | font-size:15px
+QLabel#DiskListNumberDecriptLabel	min-width:6px | max-width:6px | min-height:6px | max-height:6px | border-radius:3px | font-size:11px
+QLabel#DiskLostPartitonNameLabel	font-size:13px
+QLabel#DiskLostPartitonSizeLabel	font-size:13px
+QLabel#DiskRefushTitleLabel,QLabel#DeviceTagLabel	min-height:31px | max-height:31px | font-size:16px
+QLabel#DrwAIDedupWindowAnalyzingLabel	min-width:16px | max-width:16px | min-height:20px | max-height:20px
+QLabel#DrwAIDedupWindowDescLabel	min-width:254px | max-width:254px | min-height:17px | font-size:13px
+QLabel#DrwAIDedupWindowDescLabel[type="ai"]	min-height:34px
+QLabel#DrwAIDedupWindowItemLabel	min-width:20px | max-width:20px | min-height:20px | max-height:20px | border-radius:4px
+QLabel#DrwAIDedupWindowStatusLabel	min-width:222px | min-height:67px | max-height:67px | border-radius:12px | font-size:20px
+QLabel#DrwAIDedupWindowTypeLabel	min-width:14px | max-width:14px | min-height:14px | max-height:14px | border-radius:4px
+QLabel#DrwFlyoutWindow	font-size:15px
+QLabel#DrwMessageConfigPro	min-width:25px | max-width:25px | min-height:25px | max-height:25px
+QLabel#DrwMessageContentLabel	min-height:97px | max-height:97px | font-size:14px
+QLabel#DrwMessageIconLabel	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#DrwMessageTitleLabel	min-width:408px | max-width:408px | min-height:52px | max-height:52px | font-size:16px
+QLabel#DrwNewMessageBoxContent	min-width:410px | max-width:410px | font-size:14px
+QLabel#DrwNewMessageBoxIcon	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#DrwNewMessageBoxLoadFileInfo	font-size:16px
+QLabel#DrwNewMessageBoxTitle	min-height:20px | font-size:15px
+QLabel#DrwPartitionRecoverPreviewDiskLabel	min-height:16px | max-height:16px | font-size:12px
+QLabel#ElectricQuantityLabel	min-width:68px | max-width:68px | min-height:68px | max-height:68px | font-size:14px
+QLabel#ElectricQuantityLabel[state="hight"]	min-width:68px | max-width:68px | min-height:68px | max-height:68px | font-size:14px
+QLabel#EnterLicenceContent	min-width:512px | max-width:512px | min-height:34px | max-height:34px | font-size:13px
+QLabel#EnterLicenceIcon	min-width:60px | max-width:60px | min-height:60px | max-height:60px
+QLabel#EnterLicenceLicenceLabel	max-width:512px | min-height:17px | max-height:17px | font-size:13px
+QLabel#EnterLicenceTitle	max-width:512px | min-height:19px | max-height:19px | font-size:14px
+QLabel#ErrorTipsLabel	min-height:17px | max-height:17px | font-size:13px
+QLabel#ExitGuideChronoSnapDlgContent	min-width:200px | max-width:200px | font-size:13px
+QLabel#ExitGuideChronoSnapDlgRightContent	font-size:14px
+QLabel#ExitGuideChronoSnapDlgRightIcon	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#ExitGuideChronoSnapDlgRightTitle	min-width:360px | max-width:360px | font-size:24px
+QLabel#ExitGuideChronoSnapDlgTitle	min-width:200px | max-width:200px | font-size:20px
+QLabel#ExitHelpContent	min-width:740px | max-width:740px | min-height:19px | max-height:19px | font-size:14px
+QLabel#ExitHelpRegionContent	min-width:430px | max-width:430px | min-height:63px | max-height:63px | font-size:14px
+QLabel#ExitHelpRegionIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#ExitHelpRegionTitle	min-width:430px | max-width:430px | min-height:21px | max-height:21px | font-size:16px
+QLabel#ExitHelpTitle	min-width:740px | max-width:740px | min-height:27px | max-height:27px | font-size:20px
+QLabel#ExternActivateTipsLabel	font-size:12px
+QLabel#ExternalActivateContentLabel	max-width:560px | min-height:54px | max-height:54px | font-size:14px
+QLabel#ExternalActivateIconLabel	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#ExternalActivateTitleLabel	max-width:560px | min-height:42px | max-height:42px | font-size:18px
+QLabel#FailedErrorSHow	font-size:14px
+QLabel#FileRepairAddLabelContent	min-width:800px | max-width:800px | font-size:16px
+QLabel#FileRepairAddLabelContentEx	min-width:200px | max-width:200px | font-size:16px
+QLabel#FileRepairAddLabelIcon	min-width:64px | max-width:64px | min-height:54px | max-height:54px
+QLabel#FileRepairAddPopWndLabelIcon	min-width:64px | max-width:64px | min-height:54px | max-height:54px
+QLabel#FileRepairHomeChildIcon	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#FileRepairHomeIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#FileRepairHomeSubContent	min-width:400px | max-width:400px | font-size:14px
+QLabel#FileRepairHomeSubTitle	min-width:400px | max-width:400px | font-size:16px
+QLabel#FileRepairImgPreviewItemText	min-width:124px | max-width:124px | font-size:13px
+QLabel#FileRepairImgPreviewItemTopIcon	min-width:124px | max-width:124px | min-height:92px | max-height:92px | border-radius:6px
+QLabel#FileRepairListItemBigIcon	min-width:120px | max-width:120px | min-height:80px | max-height:80px | border-radius:6px
+QLabel#FileRepairListItemBigIcon[state="scan"]	min-width:100px | max-width:100px | min-height:70px | max-height:70px | border-radius:6px
+QLabel#FileRepairListItemDefaultIcon	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#FileRepairListItemPath	font-size:13px
+QLabel#FileRepairListItemRepairFailed	min-width:80px | font-size:13px
+QLabel#FileRepairListItemRepairSuccess	min-width:80px | font-size:13px
+QLabel#FileRepairListItemResolution	min-width:80px | font-size:13px
+QLabel#FileRepairListItemSize	min-width:80px | font-size:13px
+QLabel#FileRepairListItemTime	min-width:80px | font-size:13px
+QLabel#FileRepairListItemType	min-width:80px | font-size:13px
+QLabel#FileRepairListItemWait	min-width:80px | font-size:13px
+QLabel#FileRepairPreviewVideoTipsLabel	font-size:13px
+QLabel#FileRepairRepairingContentLabel	font-size:13px
+QLabel#FileRepairRepairingTitleLabel	min-width:90px | max-width:90px | font-size:14px
+QLabel#FileRepairRepairingTitleLabelEx	font-size:14px
+QLabel#FileRepairSaveTo	min-height:32px | max-height:32px | font-size:13px
+QLabel#FileRepairScanItemRepairFailed	min-width:20px | max-width:20px | min-height:20px | max-height:20px
+QLabel#FileRepairScanItemRepairSuccess	min-width:20px | max-width:20px | min-height:20px | max-height:20px
+QLabel#FileRepairScanItemWait	min-width:20px | max-width:20px | min-height:20px | max-height:20px
+QLabel#FileRepairSplitLabel	min-width:1px | max-width:1px | min-height:24px | max-height:24px
+QLabel#FileRepairTipIconLabel	min-width:16px | max-width:16px | min-height:16px | max-height:16px | border-radius:8px
+QLabel#FilterBtnDrawLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#FilterCountLabel	min-width:8px | min-height:12px | max-height:12px | font-size:14px
+QLabel#FilterGuideArrow	min-width:10px | max-width:10px | min-height:5px | max-height:5px
+QLabel#FilterGuideTips	min-height:20px | max-height:20px | font-size:14px
+QLabel#FilterNoResultIcon	min-width:160px | max-width:160px | min-height:160px | max-height:160px
+QLabel#FiterBtnInnerBackLabel	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#FollowusContentsLabel	min-width:380px | max-width:380px | min-height:51px | max-height:51px | font-size:16px
+QLabel#FreeRemainingLabel	border-radius:6px | font-size:13px
+QLabel#FreezeDlgContentLabel	min-width:420px | max-width:420px | font-size:13px
+QLabel#FreezeDlgTitleLabel	min-width:420px | max-width:420px | font-size:16px
+QLabel#GuideHelpItemIconLabel	min-width:160px | max-width:160px | min-height:90px | max-height:90px
+QLabel#HomeCloudDriveContent	min-width:850px | max-width:850px | font-size:16px
+QLabel#HomeCloudDriveErrorArrow	min-width:16px | max-width:16px | min-height:9px | max-height:9px
+QLabel#HomeCloudDriveErrorLabel	min-width:200px | max-width:200px | font-size:14px
+QLabel#HomeCloudDriveTitle	min-width:850px | max-width:850px | font-size:24px
+QLabel#HomeCloudLoggingContent	font-size:13px
+QLabel#HomeCloudLoggingTitle	font-size:16px
+QLabel#HorizontalSplitLabel	min-height:1px | max-height:1px
+QLabel#ICloudLoginErrorLabel	min-width:620px | max-width:620px
+QLabel#ICloudLoginErrorLabel1	min-width:480px | max-width:480px | min-height:40px | max-height:40px
+QLabel#ICloudLoginForgotIdLabel	min-height:16px | max-height:16px | font-size:12px
+QLabel#ICloudLoginIconLabel	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#ICloudLoginIdLabel	min-width:100px | min-height:38px | max-height:38px | font-size:14px
+QLabel#ICloudLoginSplitLineLabel	min-height:1px | max-height:1px
+QLabel#ICloudLoginStatementLabel	min-width:618px | max-width:618px | min-height:32px | font-size:12px
+QLabel#ICloudLoginTitleLabel	min-width:620px | max-width:620px | min-height:21px | max-height:21px | font-size:16px
+QLabel#ICloudVerifyCodeEdit	min-width:64px | max-width:64px | min-height:66px | max-height:66px | border-radius:12px | font-size:30px
+QLabel#ICloudVerifyViewerSplitLabel	min-width:1px | max-width:1px | min-height:20px | max-height:20px
+QLabel#IconListBtnInnerBackLabel	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#IconTextButtonIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#IconTextButtonText	font-size:13px
+QLabel#IconTextIconButtonEndIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#ImagePreviewRepairNumLabel	min-width:60px | max-width:60px | min-height:24px | max-height:24px | border-radius:10px
+QLabel#ImagePreviewRepairNumLabelIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#ImagePreviewRepairNumLabelText	font-size:12px
+QLabel#InnerBuyLicenseLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#InnerBuyTitleContentLabel	min-height:17px | max-height:17px | font-size:13px
+QLabel#InnerBuyTitleLabel	min-height:30px | max-height:30px | font-size:22px
+QLabel#IntroductionHelpTipLabel	min-width:56px | max-width:56px | min-height:56px | max-height:56px
+QLabel#IntroductionTextLabel	font-size:14px
+QLabel#LastScanIconLabel	min-width:64px | max-width:64px | min-height:64px | max-height:64px
+QLabel#LeftCapacitySizeLabel	min-width:215px | max-width:215px | font-size:15px
+QLabel#LeftCapacitySizeLabelEx	min-width:220px | max-width:220px | font-size:15px
+QLabel#LoadScanRetMenuTitle	min-width:281px | max-width:281px | min-height:51px | max-height:51px | font-size:13px
+QLabel#LocalAiSecureIconLabel	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#LocalRecoverBuyContent	max-width:450px | min-height:60px | max-height:60px | font-size:14px
+QLabel#LocalRecoverBuyEnterLicense	min-height:19px | max-height:19px | font-size:14px
+QLabel#LocalRecoverBuyLeftContent	min-width:380px | max-width:380px | min-height:42px | max-height:42px | font-size:16px
+QLabel#LocalRecoverBuyLeftIcon	min-width:12px | max-width:12px | min-height:12px | max-height:12px
+QLabel#LocalRecoverBuyLeftTitle	min-height:27px | max-height:27px | font-size:20px
+QLabel#LocalRecoverBuyMiddle	min-width:300px | max-width:300px | min-height:20px | max-height:20px | font-size:16px
+QLabel#LocalRecoverBuyRightContent	min-width:210px | max-width:210px | min-height:42px | max-height:42px | font-size:16px
+QLabel#LocalRecoverBuyRightIcon	min-width:12px | max-width:12px | min-height:12px | max-height:12px
+QLabel#LocalRecoverBuyRightTitle	min-height:20px | max-height:20px | font-size:15px
+QLabel#LocalRecoverBuyTitle	min-height:32px | max-height:32px | font-size:24px
+QLabel#LostDisksSubTitleLabel	min-height:26px | max-height:26px | font-size:16px
+QLabel#LostDisksTitleIconLabel	min-width:96px | max-width:96px | min-height:96px | max-height:96px
+QLabel#LostDisksTitleLabel	min-height:38px | max-height:38px | font-size:22px
+QLabel#LostDisksTrimOnLabel	font-size:14px
+QLabel#LostDisksTrimOnText	font-size:13px
+QLabel#LostPartItemIconLabel	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#LostPartItemTitleLabel	min-height:20px | max-height:20px | font-size:15px
+QLabel#LostPartitionTipContent	min-width:308px | max-width:308px | min-height:38px | font-size:14px
+QLabel#LostPartitionTipIcoLabel	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#LostPartitionTipLabel	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#LostPartitionTipLabel1	min-width:160px | min-height:24px | max-height:24px | font-size:16px
+QLabel#LostPartitionTipLabel2	min-width:160px | max-width:300px | min-height:20px | max-height:60px | font-size:14px
+QLabel#LostPartitionTipLabel3	min-width:160px | max-width:300px | min-height:18px | max-height:18px | font-size:13px
+QLabel#LostPartitionTipLabel4	min-width:300px | max-width:300px | min-height:70px | max-height:110px | font-size:13px
+QLabel#LostPartitionTipLabel5	min-width:300px | max-width:300px | min-height:60px | max-height:60px | font-size:13px
+QLabel#LostPartitionTipsContent	min-width:432px | max-width:432px | min-height:38px | max-height:38px | font-size:14px
+QLabel#LostPartitionTipsTitle	min-height:21px | max-height:21px | font-size:15px
+QLabel#MServiceDescrptyIconLabel	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#MServiceDescrptyTextLabel	min-height:27px | max-height:27px
+QLabel#MServiceTitleIconLabel	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QLabel#MServiceTitleTextLabel	min-height:54px | max-height:54px | font-size:22px
+QLabel#ManualRecoveryIconLabel	min-width:240px | max-width:240px | min-height:240px | max-height:240px
+QLabel#ManualRecoveryLiveChatMargin	min-width:100px | max-width:100px
+QLabel#ManualRecoveryManualTipsLabel	min-height:21px | max-height:2px | font-size:16px
+QLabel#ManualRecoveryNoDataLabel	min-height:30px | max-height:30px | font-size:22px
+QLabel#MoreToolIndexWidgetDescription	font-size:14px
+QLabel#MoreToolIndexWidgetItemDescription	font-size:13px
+QLabel#MoreToolIndexWidgetItemIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#MoreToolIndexWidgetItemTitle	height:21px | font-size:16px
+QLabel#MoreToolIndexWidgetTitle	font-size:24px
+QLabel#NasConnectErrorIcon	min-width:56px | max-width:56px | min-height:56px | max-height:56px
+QLabel#NasConnectErrorLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#NasConnectIPLabel	min-height:17px | max-height:17px | font-size:13px
+QLabel#NasConnectIcon	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#NasConnectLeftNasModel	min-height:17px | max-height:17px | font-size:13px
+QLabel#NasConnectLeftNasName	min-height:19px | max-height:19px | font-size:14px
+QLabel#NasConnectLogoBox	min-width:160px | max-width:160px | min-height:160px | max-height:160px
+QLabel#NasConnectLogoComputer	min-width:160px | max-width:160px | min-height:160px | max-height:160px
+QLabel#NasConnectNormalIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#NasConnectPortIconLabel	min-width:14px | max-width:14px | min-height:14px | max-height:14px
+QLabel#NasConnectStateSplitter	min-width:2px | max-width:2px | min-height:40px | max-height:40px
+QLabel#NasConnectTipsLeft	min-width:20px | max-width:20px | min-height:20px | max-height:20px | border-radius:10px | font-size:14px
+QLabel#NasConnectTipsRight	min-width:404px | max-width:404px | min-height:57px | max-height:57px | font-size:14px
+QLabel#NasConnectTitleIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#NasConnectTitleLabel	min-width:468px | max-width:468px | min-height:46px | max-height:100px | font-size:20px
+QLabel#NasConnectUserLabel	min-width:436px | max-width:436px | min-height:17px | max-height:17px | font-size:13px
+QLabel#NasDeviceTitle	min-height:27px | max-height:27px | font-size:20px
+QLabel#NasDisconnectsecondText	min-width:83px | min-height:16px | max-height:16px | font-size:12px
+QLabel#NasDownloadErrorLabel	min-width:810px | max-width:810px | font-size:14px | min-width:810px | max-width:810px | font-size:14px
+QLabel#NasDownloadPageContent	min-height:21px | max-height:21px | font-size:16px
+QLabel#NasDownloadPageIcon	min-width:120px | max-width:120px | min-height:120px | max-height:120px
+QLabel#NasDownloadPageProgressFileSize	min-height:22px | max-height:22px | font-size:16px
+QLabel#NasDownloadPageProgressPercent	min-height:43px | max-height:43px | font-size:32px
+QLabel#NasDownloadPageTitle	min-height:28px | max-height:28px | font-size:20px
+QLabel#NasEnumFailedTitleIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#NasEnummingLabelTips	min-width:436px | max-width:436px | min-height:60px | max-height:60px | font-size:15px
+QLabel#NasEnummingLabelTitle	min-width:436px | max-width:436px | min-height:27px | font-size:20px
+QLabel#NasHelpIconMain	min-width:870px | min-height:359px | max-height:359px
+QLabel#NasHelpNote	min-width:870px | min-height:17px | max-height:17px | font-size:13px
+QLabel#NasHelpTipLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#NasHelpTips	min-width:870px | min-height:20px | max-height:20px | font-size:14px
+QLabel#NasHelpTitleIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#NasHelpTitleText	min-height:21px | max-height:21px | font-size:16px
+QLabel#NasIPIcon	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QLabel#NasIPsecondText	min-width:58px | min-height:16px | max-height:16px | font-size:12px
+QLabel#NasItemContentLabel	min-height:16px | max-height:16px | font-size:12px
+QLabel#NasItemIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#NasItemLogo	min-width:68px | max-width:68px | min-height:14px | max-height:14px
+QLabel#NasItemSpecialDescribeLabel	min-width:172px | max-width:172px | min-height:63px | max-height:63px | font-size:16px
+QLabel#NasItemTitleNameLabel	min-height:20px | max-height:20px | font-size:15px
+QLabel#NasNavigateMenuItemPathIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#NasNavigateMenuItemSelectIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#NasNavigateMenuItemSystem	min-height:13px | max-height:13px | font-size:13px
+QLabel#NasNavigateMenuItemVolume	min-height:13px | max-height:13px | font-size:13px
+QLabel#NasNetErrorContent	min-height:17px | max-height:17px | font-size:13px
+QLabel#NasNetErrorIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#NasNetErrorLearnMore	min-height:17px | max-height:17px | font-size:13px
+QLabel#NasNoSystemIconLabel	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#NasNoSystemTitleLabel	min-width:436px | max-width:436px | min-height:27px | max-height:27px | font-size:20px
+QLabel#NasPortTipArrow	min-width:10px | max-width:10px | min-height:16px | max-height:16px
+QLabel#NasPortTipLabel	min-width:300px | max-width:300px | font-size:13px
+QLabel#NasSSHPopIcon1	min-width:540px | max-width:540px | min-height:150px | max-height:150px
+QLabel#NasSSHPopIcon2	min-width:540px | max-width:540px | min-height:150px | max-height:150px
+QLabel#NasSSHPopTipsLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#NasSSHPopTipsRight	min-height:19px | max-height:19px | font-size:14px
+QLabel#NasSSHPopTipsRight1	min-width:508px | max-width:508px | min-height:57px | max-height:57px | font-size:14px
+QLabel#NasSSHTipsLabel	min-width:570px | min-height:20px | max-height:20px | font-size:14px
+QLabel#NasSSHTitleIP	min-height:16px | max-height:16px | font-size:12px
+QLabel#NasSSHTitleIcon	min-width:911px | max-width:911px | min-height:394px | max-height:394px | border-radius:4px
+QLabel#NasSSHTitleLabel	min-height:24px | max-height:24px | font-size:18px
+QLabel#NasSSHTitleName	min-height:16px | max-height:16px | font-size:12px
+QLabel#NasStartLabelRightContent	min-width:380px | max-width:380px | min-height:57px | max-height:57px | font-size:14px
+QLabel#NasStartLabelRightIcon1	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#NasStartLabelRightIcon2	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#NasStartLabelRightIcon3	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#NasStartLabelRightTitle	min-width:380px | max-width:380px | min-height:21px | max-height:21px | font-size:16px
+QLabel#NasStartLeftContent	min-width:800px | max-width:800px | min-height:42px | max-height:42px | font-size:16px
+QLabel#NasStartLeftIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#NasStartLeftTitle	min-width:292px | min-height:32px | max-height:32px | font-size:24px
+QLabel#NavigationTabBarTitle	min-height:16px | max-height:16px | font-size:12px
+QLabel#NavigationTabItemCountLabel	min-width:4 | font-size:8px
+QLabel#NeddHelpTitelLabel	font-size:13px
+QLabel#NeedCenterHelpButtonText	font-size:14px
+QLabel#NeedHelpLabel	font-size:14px
+QLabel#NoDeviceGuideNoteLabel	min-height:34px | max-height:34px | font-size:13px
+QLabel#NoDeviceHelpCardContentLabel	min-width:230px | max-width:230px | min-height:51px | font-size:13px
+QLabel#NoDeviceHelpCardTitleLabel	min-width:230px | max-width:230px | min-height:42px | font-size:14px
+QLabel#NoResultIcon	min-width:200px | max-width:200px | min-height:200px | max-height:200px
+QLabel#NoResultTitle	height:20px | font-size:15px
+QLabel#OriginalVersionLogo	min-width:248px | max-width:248px | min-height:55px | max-height:55px
+QLabel#PEBuyContentLabel1	min-width:364px | max-width:364px | min-height:57px | max-height:57px | font-size:14px
+QLabel#PEBuyIcon	min-width:160px | max-width:160px | min-height:90px | max-height:90px
+QLabel#PEBuyTipsContentContent	min-height:48px | max-height:48px | font-size:12px
+QLabel#PEBuyTipsContentIcon	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#PEBuyTipsContentTitle	min-height:19px | max-height:19px | font-size:14px
+QLabel#PEBuyTitleLabel	min-width:540px | max-width:540px | min-height:42px | max-height:42px | font-size:16px
+QLabel#PEConnectCreateProgressLabel	min-height:43px | max-height:43px | font-size:32px
+QLabel#PEConnectCreateProgressLabelContent	min-height:21px | max-height:21px | font-size:16px
+QLabel#PEConnectCreateRightTitle	min-height:27px | max-height:27px | font-size:20px
+QLabel#PEConnectCreateSubTitle	min-height:20px | max-height:40px | font-size:15px
+QLabel#PEConnectCreateSuccessContent	min-width:404px | max-width:404px | min-height:57px | max-height:57px | font-size:14px
+QLabel#PEConnectCreateSuccessContentIcon	min-width:20px | max-width:20px | min-height:20px | max-height:20px | border-radius:10px | font-size:14px
+QLabel#PEConnectCreateSuccessIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#PEConnectCreateSuccessLinkLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#PEConnectCreateSuccessSubTitle	min-width:436px | max-width:436px | min-height:63px | max-height:63px | font-size:16px
+QLabel#PEConnectCreatingIcon	min-width:120px | max-width:120px | min-height:120px | max-height:120px
+QLabel#PEConnectCreatingIconEffect	min-width:120px | max-width:120px | min-height:120px | max-height:120px
+QLabel#PEConnectDashLine	min-width:44px | max-width:44px | min-height:2px | max-height:2px
+QLabel#PEConnectIcon1	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#PEConnectIcon2	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#PEConnectIcon3	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#PEDeviceItemContent	min-height:17px | max-height:17px | font-size:12px
+QLabel#PEDeviceItemIcon	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QLabel#PEDeviceItemIcon[state="kingston"]	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QLabel#PEDeviceItemIcon[state="sandisk"]	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QLabel#PEDeviceItemTitle	min-height:17px | max-height:17px | font-size:13px
+QLabel#PEStartContentLabel	min-height:21px | max-height:51px | font-size:16px
+QLabel#PEStartIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#PEStartRightChildIcon	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#PEStartRightContentLabel	min-width:380px | max-width:380px | min-height:76px | max-height:76px | font-size:14px
+QLabel#PEStartRightTitleLabel	min-width:380px | max-width:380px | min-height:19px | max-height:19px | font-size:14px
+QLabel#PEStartTitleLabel	min-height:30px | max-height:30px | font-size:22px
+QLabel#PRDeviceListViewTagSpacing	min-height:1px | max-height:1px
+QLabel#PartItemTitleNameLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#PartitionCapacityLabel	min-height:16px | font-size:12px
+QLabel#PartitionCapacityLabel[state="partition"]	min-height:19px | font-size:14px
+QLabel#PartitionCheckTitle	min-width:520px | max-width:520px | font-size:16px
+QLabel#PartitionDiskContent	font-size:12px
+QLabel#PartitionExternDisk	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#PartitionHomeContent	font-size:14px
+QLabel#PartitionHomeFrameBottomTips	min-width:800px | max-width:800px | font-size:13px
+QLabel#PartitionHomeIcon	min-width:200px | max-width:200px | min-height:200px | max-height:200px
+QLabel#PartitionHomeMiddleContent	font-size:14px
+QLabel#PartitionHomeMiddleTitle	font-size:16px
+QLabel#PartitionHomeTitle	font-size:24px
+QLabel#PartitionItemFrameCapactityLabel	min-height:16px | font-size:12px
+QLabel#PartitionItemFrameFsTypeLabel	min-height:20px | border-radius:10px
+QLabel#PartitionItemFrameIconLabel	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#PartitionItemFrameNameLabel	min-width:140px | max-width:140px | min-height:20px | max-height:20px | font-size:15px
+QLabel#PartitionItemFrameResInfoLabel	min-width:254px | max-width:254px | min-height:74px | font-size:14px
+QLabel#PartitionItemFrameSuccessIcon	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#PartitionLostExplorerTitle	min-height:40px | font-size:14px
+QLabel#PartitionRecoverSuccessTitle	min-width:254px | min-height:37px | max-height:37px | font-size:15px
+QLabel#PartitionScanDiskInfoLabel	font-size:12px
+QLabel#PartitionScanDiskSizeLabel	font-size:12px
+QLabel#PartitionScanFinish	min-width:58px | max-width:58px | min-height:58px | max-height:58px
+QLabel#PartitionScanFrameDBClickIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px | border-radius:8px | font-size:10px
+QLabel#PartitionScanFrameDBClickText	font-size:13px
+QLabel#PartitionScanFrameLabelTableHeader	min-height:36px | max-height:36px | font-size:13px
+QLabel#PartitionScanFrameLabelTableItem	font-size:13px
+QLabel#PartitionStartChildIcon	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#PartitionStartIcon	min-width:400px | max-width:400px | min-height:400px | max-height:400px
+QLabel#PartitionTitleLabel	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#PeripheralDeviceDescribeLabel	font-size:13px
+QLabel#PeripheralDeviceIconLabel	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#PeripheralDeviceNameLabel	font-size:16px
+QLabel#PeripheralDeviceSizeLabel	font-size:13px
+QLabel#PeripheralSelectedTitleLabel	font-size:20px
+QLabel#PopMenuItemIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#PopMenuItemLabel	min-width:60px | max-width:60px | min-height:30px | max-height:30px | font-size:11px
+QLabel#PreviewFailedAIRecoveryDescTips	font-size:12px
+QLabel#PreviewFailedExtra1Text	font-size:14px
+QLabel#PreviewFailedExtraText	font-size:14px
+QLabel#PreviewFailedIcon	min-width:140px | max-width:140px | min-height:140px | max-height:140px
+QLabel#PreviewFailedRecoverChances	font-size:12px
+QLabel#PreviewFailedSplitLine	min-width:1px | max-width:1px
+QLabel#PreviewFailedTitle	min-width:455px | max-width:455px | height:30px | font-size:22px
+QLabel#PreviewFailedTitleCaption	height:20px | font-size:15px
+QLabel#PreviewFileDetailLabel	height:17px | font-size:13px
+QLabel#PreviewImageLabel	border-radius:4px
+QLabel#PreviewLoadAnimalLabel	min-width:140px | min-height:140px
+QLabel#PreviewLoadTextLabel	font-size:14px
+QLabel#PreviewShadowBtnFix	min-width:78px | max-width:78px | min-height:15px | max-height:15px
+QLabel#PreviewShadowContent	min-height:19px | max-height:19px | font-size:14px
+QLabel#PreviewShadowIcon	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QLabel#PreviewShadowMiddleText	min-width:100px | max-width:110px | max-width:100px | min-height:32px | max-height:32px | font-size:12px
+QLabel#PreviewShadowTitle	min-width:250px | max-width:250px | min-height:20px | max-height:20px | font-size:15px
+QLabel#Preview_selectfiles	min-height:16px | font-size:13px
+QLabel#QuickScanCompleteContentLeft	min-height:19px | max-height:19px | font-size:14px
+QLabel#QuickScanCompleteTips	min-height:17px | max-height:17px | font-size:12px
+QLabel#QuickScanCompleteTitleLabel	min-height:24px | max-height:24px | font-size:18px
+QLabel#RaidDeviceListPageContent	min-height:63px | max-height:63px | font-size:14px
+QLabel#RaidDeviceListPageTitle	font-size:24px
+QLabel#RaidNoDevicePageIcon	min-width:800px | max-width:800px | min-height:400px | max-height:400px
+QLabel#RateExpressionGifIcon	min-width:44px | max-width:44px | min-height:44px | max-height:44px
+QLabel#RateExpressionIcon	min-width:44px | max-width:44px | min-height:44px | max-height:44px
+QLabel#RateExpressionNum	min-height:20px | max-height:20px | font-size:15px
+QLabel#RateExpressionUnderline	min-width:24px | max-width:24px | min-height:5px | max-height:5px | border-radius:3px
+QLabel#RecommendFileNodeViewTitle	min-height:44px | max-height:44px | font-size:13px
+QLabel#RecommendNodeItemNameLabel	max-width:100px | font-size:12px
+QLabel#RecommendNodeItemPixmap	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#RecoverContentLabel	font-size:13px
+QLabel#RecoverFinishBuyTipsContent	max-width:120px | font-size:13px
+QLabel#RecoverFinishBuyTipsContentEx	font-size:12px
+QLabel#RecoverFinishBuyTipsContentExEx	font-size:12px
+QLabel#RecoverFinishBuyTipsTitleIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#RecoverFinishBuyTipsTitleLabel	font-size:14px
+QLabel#RecoverFinishBuyTotalContent	font-size:13px
+QLabel#RecoverLeftCapacitionLabel	min-height:17px | font-size:14px
+QLabel#RecoverLeftCapacitionTipsLabel	min-width:225px | min-height:16px | font-size:12px
+QLabel#RecoverLimitButtonContent	min-width:160px | min-height:19px | max-height:19px | font-size:14px
+QLabel#RecoverLimitButtonIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#RecoverLimitContentIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#RecoverLimitContentLabel	min-width:32px | min-width:490px | max-width:32px | max-width:490px | font-size:12px
+QLabel#RecoverLimitLeftNumContent	min-width:232px | max-width:232px | min-height:19px | max-height:19px | font-size:14px
+QLabel#RecoverLimitProgressContent	min-width:540px | max-width:540px | min-height:16px | max-height:16px | font-size:12px
+QLabel#RecoverLimitTitle	font-size:16px
+QLabel#RecoverNoFreeTipLabel	font-size:14px
+QLabel#RecoverPathTipContentLabel	min-height:50px | font-size:14px
+QLabel#RecoverPathTipErrorLabel	font-size:14px
+QLabel#RecoverPathTipErrorTipsLabel	min-width:439px | max-width:439px | min-height:34px | max-height:34px | font-size:12px
+QLabel#RecoverPathTipTitleLabel	min-height:48px | font-size:20px
+QLabel#RecoverProcessLabel	font-size:22px
+QLabel#RecoverProgressSplitLable	min-width:10px | max-width:10px | min-height:12px | max-height:12px
+QLabel#RecoverResRightTitleLabel	min-height:49px | font-size:18px
+QLabel#RecoverResultIconLabel	min-width:200px | max-width:200px | min-height:200px | max-height:200px
+QLabel#RecoverRetLabelContent	min-width:450px | max-width:450px | font-size:14px
+QLabel#RecoverRetLabelIcon	min-width:92px | max-width:92px | min-height:92px | max-height:92px
+QLabel#RecoverRetLabelTitle	font-size:20px
+QLabel#RecoverTopMarginLabel	min-height:24px
+QLabel#RecoverViewRecovSpaceItem	min-height:28px
+QLabel#RecycleBinScanNoRltTitle	min-width:392px | max-width:392px | font-size:14px
+QLabel#RefreshHelpChat	min-width:282px | max-width:282px | font-size:13px
+QLabel#RefreshHelpContent	min-width:180px | max-width:282px | font-size:14px
+QLabel#RefreshHelpIcon	min-width:260px | max-width:260px | min-height:260px | max-height:260px
+QLabel#RefreshHelpTitle	min-width:580px | max-width:580px | min-height:70px | max-height:70px | font-size:16px
+QLabel#RepairAddProgressCount	min-height:17px | max-height:17px | font-size:14px
+QLabel#RepairAddProgressIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#RepairAddProgressTitle	min-height:22px | max-height:22px | font-size:16px
+QLabel#RepairOriginalIcon	min-width:160px | max-width:160px | min-height:160px | max-height:160px
+QLabel#RepairOriginalImg	min-width:160px | max-width:160px | min-height:160px | max-height:160px
+QLabel#RepairOriginalText	min-width:65px | max-width:355px | min-height:24px | max-height:48px | font-size:18px
+QLabel#RepairPDFAddIcon	min-width:160px | max-width:160px | min-height:120px | max-height:120px
+QLabel#RepairPDFAddProgressIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#RepairPDFDecryptContent	min-width:513px | max-width:513px | min-height:57px | max-height:57px | font-size:14px
+QLabel#RepairPDFDecryptError	min-height:24px | max-height:24px | font-size:12px
+QLabel#RepairPDFDecryptIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#RepairPDFDecryptSuccessText	min-height:40px | max-height:40px | font-size:16px
+QLabel#RepairPDFDecryptTitle	min-height:24px | max-height:24px | font-size:18px
+QLabel#RepairPDFHomeIcon	min-width:350px | max-width:350px | min-height:265px | max-height:265px
+QLabel#RepairPDFHomeRightIcon1	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#RepairPDFHomeRightIcon2	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#RepairPDFHomeRightIcon3	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#RepairPDFItemIcon	min-width:36px | max-width:36px | min-height:36px | max-height:36px
+QLabel#RepairPDFItemNormalPath	min-height:19px | max-height:19px | font-size:14px
+QLabel#RepairPDFItemNormalType	min-height:19px | max-height:19px | font-size:14px
+QLabel#RepairPDFLeftListItemLabel	min-width:68px | max-width:68px | min-height:96px | max-height:96px
+QLabel#RepairPDFLeftListItemUnlock	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QLabel#RepairPDFPreviewBottomText	min-width:640px | max-width:640px | min-height:38px | max-height:38px | font-size:13px
+QLabel#RepairPDFPreviewIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#RepairPDFPreviewRightPix	min-width:754px | max-width:754px | min-height:490px | max-height:490px
+QLabel#RepairPDFPreviewTitle	min-height:22px | max-height:22px | font-size:13px
+QLabel#RepairPDFSaveIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#RepairPDFSaveInforTipsArrow	min-width:14px | max-width:14px | min-height:8px | max-height:8px
+QLabel#RepairPDFSaveInforTipsTips	min-width:434px | max-width:434px | font-size:14px
+QLabel#RepairPDFSaveInformation	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#RepairRecoverLabelText	min-width:360px | min-height:41px | border-radius:8px 8px 0px 0px
+QLabel#RepairVideoAddContent	font-size:14px
+QLabel#RepairVideoAddIcon	min-width:160px | max-width:160px | min-height:120px | max-height:120px
+QLabel#RepairVideoAddTitle	font-size:19px
+QLabel#RepairVideoAdvancedAddContent	min-width:513px | max-width:513px | min-height:57px | max-height:57px | font-size:14px
+QLabel#RepairVideoAdvancedAddIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#RepairVideoAdvancedAddPath	min-width:332px | max-width:332px | min-height:20px | max-height:20px | font-size:14px
+QLabel#RepairVideoAdvancedAddTitle	min-height:24px | max-height:24px | font-size:18px
+QLabel#RepairVideoAdvancedAnalyzeContentLabel	min-height:17px | max-height:17px | font-size:13px
+QLabel#RepairVideoAdvancedAnalyzeIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#RepairVideoAdvancedAnalyzeState	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#RepairVideoAdvancedAnalyzeTitle	min-width:690px | min-height:75px | max-height:75px | font-size:18px
+QLabel#RepairVideoAdvancedAnalyzeTitleLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#RepairVideoGetSampleContent	min-width:180px | max-width:180px | min-height:95px | max-height:95px | font-size:14px
+QLabel#RepairVideoGetSampleIcon1	min-width:120px | max-width:120px | min-height:80px | max-height:80px
+QLabel#RepairVideoGetSampleIcon2	min-width:120px | max-width:120px | min-height:80px | max-height:80px
+QLabel#RepairVideoGetSampleIcon3	min-width:120px | max-width:120px | min-height:80px | max-height:80px
+QLabel#RepairVideoGetSampleTitle	min-height:24px | max-height:24px | font-size:18px
+QLabel#RepairVideoHomeContent	min-height:42px | max-height:42px | font-size:16px
+QLabel#RepairVideoHomeIcon	min-width:350px | max-width:350px | min-height:265px | max-height:265px
+QLabel#RepairVideoHomeRightContent	min-width:360px | max-width:360px | min-height:80px | max-height:80px | font-size:14px
+QLabel#RepairVideoHomeRightIcon1	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#RepairVideoHomeRightIcon2	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#RepairVideoHomeRightIcon3	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#RepairVideoHomeRightTitle	min-height:19px | max-height:19px | font-size:14px
+QLabel#RepairVideoHomeTitle	min-height:30px | max-height:30px | font-size:22px
+QLabel#RepairVideoItemAdvancedFailed	min-height:24px | max-height:24px | font-size:13px
+QLabel#RepairVideoItemAdvancedRepairing	min-height:24px | max-height:24px | font-size:13px
+QLabel#RepairVideoItemAdvancedSuccess	min-height:24px | max-height:24px | font-size:13px
+QLabel#RepairVideoItemIcon	min-width:120px | max-width:120px | min-height:68px | max-height:68px | border-radius:4px
+QLabel#RepairVideoItemNormalRect	min-height:24px | max-height:24px | font-size:14px
+QLabel#RepairVideoItemNormalSize	min-height:19px | max-height:19px | font-size:14px
+QLabel#RepairVideoItemNormalTime	min-height:19px | max-height:19px | font-size:14px
+QLabel#RepairVideoItemQuickFailed	min-height:24px | max-height:24px | font-size:13px
+QLabel#RepairVideoItemQuickSuccess	min-height:24px | max-height:24px | font-size:13px
+QLabel#RepairVideoItemRepairProgressLabel	min-height:17px | max-height:17px | font-size:13px
+QLabel#RepairVideoItemRepairing	min-height:24px | max-height:24px | font-size:13px
+QLabel#RepairVideoItemStop	min-height:24px | max-height:24px | font-size:13px
+QLabel#RepairVideoItemTitle	min-height:19px | max-height:19px | font-size:14px
+QLabel#RepairVideoItemWaiting	min-height:24px | max-height:24px | font-size:13px
+QLabel#RepairVideoRightItemsFrameTipsLabel	min-height:19px | max-height:19px | font-size:14px
+QLabel#RepairVideoRightItemsRepairingContent	min-height:21px | max-height:21px | font-size:16px
+QLabel#RepairVideoRightItemsRepairingIcon	min-width:36px | max-width:36px | min-height:36px | max-height:36px
+QLabel#RepairVideoSaveIcon	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#RepairVideoSaveProgressContent	min-height:17px | max-height:17px | font-size:13px
+QLabel#RepairVideoSaveProgressErrorContent	min-height:17px | max-height:17px | font-size:13px
+QLabel#RepairVideoSaveTitle	min-height:21px | max-height:21px | font-size:16px
+QLabel#RepairedWndProLabel	min-width:28px | min-height:18px | max-height:18px | border-radius:2px | font-size:12px
+QLabel#RepairingAnimationLabel	min-width:160px | max-width:160px | min-height:160px | max-height:160px
+QLabel#RepairingCaptionText	min-width:470px | max-width:470px | min-height:17px | max-height:51px | font-size:13px
+QLabel#RetentionActiveDlgCountdown	min-width:164px | max-width:164px | min-height:30px | max-height:30px
+QLabel#RetentionActiveDlgCountdown QLabel	min-width:30px | min-height:30px | font-size:16px | padding:0px
+QLabel#RetentionActiveDlgCountdownLeftLabel	min-height:19px | font-size:14px
+QLabel#RetentionActiveDlgDiscountLabel_Discount	height:56px | font-size:42px
+QLabel#RetentionActiveDlgDiscountLabel_Duration	min-height:27px | max-height:27px | width:81px | font-size:20px
+QLabel#RetentionActiveDlgDiscountLabel_Off	min-height:19px | max-height:19px | font-size:14px
+QLabel#RetentionActiveDlgDiscountLabel_Percent	min-width:18px | max-width:18px | min-height:27px | max-height:27px | font-size:20px
+QLabel#RetentionActiveDlgDiscountMainlandLabel	min-width:200px | max-width:200px | font-size:60px
+QLabel#RetentionActiveDlgIco	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#RetentionActiveDlgTitle1	font-size:14px
+QLabel#RetentionActiveDlgTitle2	font-size:20px
+QLabel#RetentionExitDlgIco	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#RetentionExitDlgItemLabel	height:20px | font-size:15px
+QLabel#RetentionExitDlgItemLabelPercent	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#RetentionExitDlgLabel3	min-height:19px | font-size:14px
+QLabel#RetentionExitDlgTitle1	min-height:21px | font-size:15px
+QLabel#RetentionExitDlgTitle2	min-height:57px | max-height:57px | font-size:14px
+QLabel#RightContentNoScanImage	min-width:200px | max-width:200px | min-height:200px | max-height:200px
+QLabel#RightContentNoScanRltContent	min-height:30px | border-radius:15px | font-size:14px
+QLabel#RightContentNoScanRltTitle	font-size:15px
+QLabel#RightTagTipsContent	min-width:811px | max-width:811px | font-size:14px
+QLabel#RightTagTipsIcon	min-width:64px | max-width:64px | min-height:64px | max-height:64px
+QLabel#RightTagTipsTitle	min-width:780px | max-width:780px | min-height:21px | max-height:21px | font-size:16px
+QLabel#RobotToolLevelText, QLabel#RobotToolLevelText[state="high"]	min-height:20px | max-height:20px | border-radius:10px | font-size:12px | padding:2px 8px
+QLabel#RobotToolTipIcon	min-width:56px | max-width:56px | min-height:56px | max-height:56px
+QLabel#RobotToolTipIconLabel	min-width:80px | max-width:80px | min-height:58px | max-height:58px
+QLabel#RobotToolTipText	font-size:14px
+QLabel#RobotToolTitleText	font-size:16px
+QLabel#SDCardBottomGuidItemContentLabel	min-width:216px | min-height:58px | max-height:58px | font-size:14px
+QLabel#SDCardBottomGuidItemContentLabel[state="long"]	min-height:38px | max-height:38px
+QLabel#SDCardBottomGuidItemIcon	min-width:50px | max-width:50px | min-height:50px | max-height:50px
+QLabel#SDCardBottomGuidItemLogo	min-width:33px | max-width:33px | min-height:20px | max-height:20px | border-radius:6px | font-size:12px
+QLabel#SDCardBottomGuidItemTitle	min-height:20px | max-height:20px | font-size:15px
+QLabel#SDCardBottomGuidItemTitle[state="long"]	min-height:40px | max-height:40px
+QLabel#SDCardDeviceItemCameraIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#SDCardDeviceItemIcon	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#SDCardDeviceItemLeftLabel	min-width:100px | font-size:15px
+QLabel#SDCardDeviceItemLoadingIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#SDCardDeviceItemModelLabel	min-width:12px | min-height:32px | font-size:14px
+QLabel#SDCardDeviceItemRightLabel	font-size:14px
+QLabel#SDCardDeviceListPageContent	min-width:860px | max-width:860px | font-size:16px
+QLabel#SDCardDeviceListPageTitle	min-width:820px | max-width:820px | font-size:24px
+QLabel#SDCardFeedBackContent	min-height:35px | max-height:35px | font-size:13px
+QLabel#SDCardFeedBackIcon	min-width:50px | max-width:50px | min-height:50px | max-height:50px
+QLabel#SDCardFeedBackSubmitContent	min-width:550px | max-width:550px | min-height:38px | max-height:38px | font-size:14px
+QLabel#SDCardFeedBackSubmitIcon	min-width:64px | max-width:64px | min-height:64px | max-height:64px
+QLabel#SDCardFeedBackSubmitTitle	min-height:24px | max-height:24px | font-size:18px
+QLabel#SDCardFeedBackTitle	min-height:20px | max-height:20px | font-size:14px
+QLabel#SDCardHelpPopContent	min-width:364px | max-width:364px | min-height:57px | max-height:57px | font-size:14px
+QLabel#SDCardHelpPopContentTips	min-width:500px | max-width:500px | font-size:14px
+QLabel#SDCardHelpPopIcon1	min-width:160px | max-width:160px | min-height:90px | max-height:90px
+QLabel#SDCardHelpPopIcon2	min-width:160px | max-width:160px | min-height:90px | max-height:90px
+QLabel#SDCardHelpPopIcon3	min-width:160px | max-width:160px | min-height:90px | max-height:90px
+QLabel#SDCardHelpPopIconTips	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#SDCardHelpPopTitle	min-width:540px | max-width:540px | min-height:42px | max-height:42px | font-size:16px
+QLabel#SDCardHelpTipsContent	min-width:560px | max-width:560px | font-size:14px
+QLabel#SDCardNoDevicePageContent	min-height:63px | max-height:63px | font-size:16px
+QLabel#SDCardNoDevicePageIcon	min-width:800px | max-width:800px | min-height:400px | max-height:400px
+QLabel#SDCardNoDevicePageTitle	font-size:24px
+QLabel#SDCardScanTipsContent	min-width:760px | max-width:760px | min-height:60px | max-height:60px | font-size:14px
+QLabel#SDCardScanTipsIcon	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#ScanButtonIconLabel	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#ScanCDlgRecoverHighIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#ScanCDlgRecoverHighTipText	min-width:500px | max-width:500px | min-height:43px | max-height:43px | font-size:14px
+QLabel#ScanRecordTipsLabel, QLabel#ScanRecordContentLabel, QLabel#ScanRecordNumContentLabel	font-size:12px
+QLabel#ScanRemainTimeSplitLabel	min-width:1px | max-width:1px | max-height:12px
+QLabel#ScanStopContentContent	min-height:17px | max-height:17px | font-size:13px
+QLabel#ScanStopContentSep	min-width:1px | max-width:1px | min-height:47px | max-height:47px
+QLabel#ScanStopContentTitle	min-height:30px | max-height:30px | font-size:22px
+QLabel#ScanStopTitle	min-width:450px | max-width:450px | min-height:20px | max-height:20px | font-size:15px
+QLabel#ScanStopWarn	min-width:500px | max-width:500px | min-height:51px | max-height:51px | font-size:13px
+QLabel#ScaningRecoverContentLabel	min-width:408px | max-width:408px | min-height:90px | max-height:90px
+QLabel#SearchNltPopContent	min-width:540px | max-width:540px | min-height:38px | max-height:38px | font-size:14px
+QLabel#SearchNltPopExplain	min-width:324px | max-width:324px | min-height:95px | max-height:95px | font-size:14px
+QLabel#SearchNltPopIconLeft	min-width:200px | max-width:200px | min-height:150px | max-height:150px
+QLabel#SearchNltPopIconRight	min-width:200px | max-width:200px | min-height:150px | max-height:150px
+QLabel#SearchNltPopTitleLabel	min-height:21px | max-height:21px | font-size:16px
+QLabel#ShareDlgDescribe	font-size:13px
+QLabel#ShareDlgTitle	height:27px | font-size:20px
+QLabel#ShareDlgTitleIcon	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#SharedContentLabel	min-height:34px | font-size:13px
+QLabel#SorryDlgMainFrameAdvancedRepairFrameTitle	font-size:16px
+QLabel#SorryDlgMainFrameTitle	font-size:16px
+QLabel#SorryDlgTitleFrameLabel	font-size:20px
+QLabel#SplashLoadTextLabel	font-size:12px
+QLabel#SplitLineLabel	min-height:1px | max-height:1px
+QLabel#StartWindowIconLabel	min-width:80px | max-width:80px | min-height:80px | max-height:80px
+QLabel#StartWindowTitelLabel	min-height:32px | font-size:24px
+QLabel#TipTitelLabel	font-size:16px
+QLabel#TitleGiftDiscountFrame_1_1_discount	min-width:66px | min-height:37px | max-height:37px | border-radius:18px | font-size:16px
+QLabel#TitleGiftDiscountFrame_1_1_drw	min-width:139px | min-height:21px | max-height:21px | font-size:16px
+QLabel#TitleGiftDiscountFrame_1_2_label	min-height:40px | font-size:30px
+QLabel#TitleGiftDiscountFrame_1_3_label	font-size:14px
+QLabel#TitleGiftDiscountFrame_1_mac_sign	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#TitleGiftDiscountFrame_1_mac_text	min-height:21px | max-height:21px | font-size:16px
+QLabel#TitleGiftDlgSubScribeFrameEaseusSign	min-height:40px | max-height:40px | width:40px
+QLabel#TitleGiftDlgSubScribeFrameFreeLabel	height:27px | font-size:20px
+QLabel#TitleGiftDlgSubScribeFrameSubScribeLabel	height:19px | font-size:14px
+QLabel#TitleIconLabel	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#TitleLoginInfoName	min-width:100px | max-width:100px | font-size:14px
+QLabel#TitleTextLabel	font-size:13px
+QLabel#TitleTextLabel[state="mainTitle"]	font-size:13px
+QLabel#TitleTextLabel[state="preview"]	min-width:900px
+QLabel#TitleUserHeadIcon	min-width:28px | max-width:28px | min-height:28px | max-height:28px
+QLabel#TitleVersionLabel	min-width:58px | max-width:58px | min-height:24px | max-height:24px
+QLabel#ToolTipTextLabel	font-size:14px
+QLabel#ToolTipTextLabel[state='warn']	font-size:15px
+QLabel#TrilateralStepLabel	min-width:40px | max-width:40px | min-height:20px | max-height:20px | border-radius:10px | font-size:14px
+QLabel#TrilateralTitelLabel	font-size:15px
+QLabel#TrimOnSpaceLabel	min-width:8px | max-width:8px
+QLabel#UserGuidTipIcoLabel	min-width:72px | max-width:72px | min-height:72px | max-height:72px
+QLabel#UserGuidTipSubTagDot	min-width:2px | max-width:2px | min-height:2px | max-height:2px
+QLabel#UserGuidTipSubTitle	min-width:412px | max-width:412px | min-height:21px | font-size:13px
+QLabel#UserGuidTipTitle	min-width:412px | max-width:412px | min-height:21px | font-size:15px
+QLabel#UserGuidTipTitle[state="title"]	min-width:300px | max-width:300px
+QLabel#UserInformationOpenVipInfoIcon	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QLabel#UserInformationOpenVipInfoTextLabel	font-size:16px
+QLabel#UserInformationOrderInfoIcon	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QLabel#UserInformationOrderTextLabel	font-size:16px
+QLabel#UserNameLabel	font-size:16px
+QLabel#UserRateIcon	min-width:96px | max-width:96px | min-height:96px | max-height:96px
+QLabel#UserRateSubTitleLabel	min-width:580px | max-width:580px | font-size:13px
+QLabel#UserRateSuccessIcon	min-width:54px | max-width:54px | min-height:54px | max-height:54px
+QLabel#UserRateSuccessText	min-width:350px | max-width:350px | font-size:14px
+QLabel#UserRateTitleLabel	min-width:440px | max-width:440px | font-size:16px
+QLabel#VersionTipsLabel	min-width:43px | max-width:43px | min-height:18px | max-height:18px
+QLabel#VideoPreviewBottomContent	min-width:640px | max-width:640px | min-height:34px | max-height:34px | font-size:13px
+QLabel#VideoPreviewBottomIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#VideoPreviewTipsLeft	min-height:18px | max-height:18px | font-size:13px
+QLabel#VideoPreviewTipsRight	min-height:18px | max-height:18px | font-size:13px
+QLabel#VideoPreviewTitle	min-height:22px | max-height:22px | font-size:13px
+QLabel#VipInformationTipsLabel	min-width:260px | max-width:260px | min-height:44px | font-size:14px
+QLabel#VipServiceLabel	font-size:14px
+QLabel#bottomSelectedInfo	font-size:14px
+QLabel#calendar_draw_label	font-size:12px
+QLabel#calendar_navigationbar_dateLabel	font-size:13px
+QLabel#descriptionText	font-size:14px
+QLabel#descriptionTitle	font-size:16px
+QLabel#diskStatusLabel	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QLabel#dotText_text	font-size:14px
+QLabel#failedFiledLabel	font-size:14px
+QLabel#failedFiledTipsLabel	font-size:14px
+QLabel#filterBarLostFilesBtnLabel	min-width:36px | max-width:36px | min-height:20px | max-height:20px
+QLabel#filterBarLostFilesBtnLockLabel	min-width:12px | max-width:12px | min-height:12px | max-height:12px
+QLabel#filterBarLostFilesBtnRightBgLabel	border-radius:10px
+QLabel#filterBarRightSpiliter	min-width:1px | max-width:1px | min-height:22px | max-height:22px
+QLabel#filter_custom_label_to	min-height:30px | font-size:13px
+QLabel#filter_item_count	min-width:4px | max-width:232px | min-height:32px | font-size:13px
+QLabel#filter_item_type_icon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#giflabel_text	font-size:13px
+QLabel#iconLabel	border-radius:8px
+QLabel#iconview_selectall_text	font-size:13px
+QLabel#iconviewitem_number_label	height:17px | font-size:13px
+QLabel#iconviewitem_pixmap	min-height:77px | border-radius:4px
+QLabel#iconviewitem_text	height:20px | font-size:13px
+QLabel#imgbackDescTitle	min-width:404px | max-width:404px | min-height:21px | max-height:21px | font-size:16px
+QLabel#imgbackpPercent	min-width:70px | max-width:70px | min-height:19px | max-height:19px | font-size:14px
+QLabel#imgbk_Desc	min-width:850px | max-width:850px | font-size:14px
+QLabel#imgbk_title	min-width:850px | max-width:850px | font-size:24px
+QLabel#loadRetBtnIcon	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QLabel#loadRetBtnTime	min-width:90px | max-width:90px | min-height:17px | max-height:17px | font-size:13px
+QLabel#loadRetBtnVolume	min-width:160px | max-width:160px | min-height:17px | max-height:17px | font-size:13px
+QLabel#mainwindow_labelmask	border-radius:8px
+QLabel#navigate_direction_address_space	min-width:15px | max-width:15px
+QLabel#networkSpeedLabel	font-size:14px
+QLabel#newTreeItemLine	min-width:2px | max-width:2px | min-height:22px | max-height:22px | border-radius:1px
+QLabel#originalBtn	min-width:206px | max-width:206px | min-height:46px | max-height:46px
+QLabel#panelview_pixmap	min-width:72px | max-width:72px | min-height:72px | max-height:72px | border-radius:8px
+QLabel#panelview_text_key	min-width:158px | max-width:158px | height:16px | font-size:12px
+QLabel#panelview_text_value	min-width:160px | max-width:160px | min-height:17px | font-size:13px
+QLabel#panelview_text_value_name	min-width:160px | max-width:160px | min-height:17px | font-size:13px
+QLabel#popwnd_labelmask	border-radius:16px
+QLabel#previewFileIconLabel	min-width:160px | max-width:160px | min-height:160px | max-height:160px
+QLabel#previewfailIcon	min-width:120px | max-width:120px | min-height:120px | max-height:120px
+QLabel#progressLightEffect	min-width:86px | max-width:86px | min-height:5px | max-height:5px
+QLabel#progress_remaintime_label	min-height:19px | max-height:19px | font-size:14px
+QLabel#progress_subtitle_text	min-width:0px | min-height:19px | max-height:19px | font-size:14px
+QLabel#progress_subtitle_text[lang="Arabic"]	min-width:512px
+QLabel#progress_title_text	min-height:21px | max-height:21px | font-size:16px
+QLabel#progress_title_text[lang="Arabic"]	min-width:560px | max-width:560px
+QLabel#recoverContentLabel	font-size:14px
+QLabel#recoverLayerBgLower	min-height:250px | max-height:250px
+QLabel#recoverLayerBgLower[state="pdf"]	min-height:150px | max-height:150px
+QLabel#recoverLayerNearBg	min-height:300px | max-height:300px
+QLabel#recoverLayerNearBg[state="pdf"]	min-height:300px | max-height:300px
+QLabel#recoverLayerTipBg	min-width:640px | max-width:640px | min-height:230px | max-height:230px
+QLabel#recoverLayerTipBg_LeftLine	min-width:40px | max-width:40px | min-height:2px | max-height:2px
+QLabel#recoverLayerTipBg_RightLine	min-width:40px | max-width:40px | min-height:2px | max-height:2px
+QLabel#recoverLayerTipText	max-width:480px | font-size:20px
+QLabel#recoverLayerTipTextCaptionImg1	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#recoverLayerTipTextCaptionImg2	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#recoverLayerTipTextCaptionImg3	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#recoverLayerTipTextCaptionImg4	min-width:48px | max-width:48px | min-height:48px | max-height:48px
+QLabel#recoverLayerTipTextCaptionText	min-width:114px | max-width:114px | min-height:20px | max-height:40px | font-size:14px
+QLabel#recoverLayerTipTextCaptionText[state='moreHeight']	max-height:50px
+QLabel#recoverProgressIcon	min-width:120px | max-width:120px | min-height:120px | max-height:120px
+QLabel#recoverProgressNum	font-size:30px
+QLabel#recoveredFileLabel	min-height:29px | font-size:14px
+QLabel#repairingText	min-width:80px | font-size:13px
+QLabel#repairpopWndTitle	font-size:16px
+QLabel#revoverPathLabel	font-size:14px
+QLabel#revoveringFileLabel	font-size:16px
+QLabel#right_navigate_btn_right_margin	min-width:12px | max-width:12px
+QLabel#scanCircleProgressBack	min-width:64px | max-width:64px | min-height:64px | max-height:64px
+QLabel#scanLabelQuickFinish	min-width:64px | max-width:64px | min-height:64px | max-height:64px
+QLabel#scanLabelStopped	min-width:64px | max-width:64px | min-height:64px | max-height:64px
+QLabel#scanLabelSuccess	min-width:64px | max-width:64px | min-height:64px | max-height:64px
+QLabel#scanProgressNum	min-height:30px | max-height:30px | font-size:16px
+QLabel#search_bar_label	min-height:30px | font-size:13px
+QLabel#size_spin_unit_label	min-width:22px | max-width:22px | min-height:28px | max-height:28px | font-size:14px
+QLabel#surveyMenuItemIcon	min-width:14px | max-width:14px | min-height:14px | max-height:14px
+QLabel#surveyMenuItemRightIcon	min-width:6px | max-width:6px | min-height:6px | max-height:6px | border-radius:3px
+QLabel#surveyMenuItemText	font-size:13px
+QLabel#themeMenuItemIcon	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#themeMenuItemSelect	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QLabel#themeMenuItemText	font-size:13px
+QLabel#treelistitemlabel	min-height:21px | font-size:13px
+QLabel#treelistitemlabelsort	min-height:21px | font-size:14px
+QLabel#treelistitemnumber	min-height:21px | font-size:12px
+QLabel#uilib_autoToolTips_label_ext	border-radius:4px | font-size:14px
+QLabel#uilib_autoToolTips_label_normal	font-size:14px
+QLabel#uilib_autoToolTips_label_normal[state="video_preview_timer"]	font-size:13px
+QLabel#uilib_autoToolTips_title	border-radius:4px | font-size:14px
+QLabel#warningLabel	font-size:14px
+QLineEdit#AutoRecoverSettingMailEdit	min-width:360px | max-width:360px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QLineEdit#BitUnlockerInputEdit	min-width:364px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QLineEdit#FileRepairSavePath	min-width:100px | min-height:32px | max-height:32px | border-radius:5px | font-size:13px
+QLineEdit#FileRepairSavePath[state="frame"]	min-width:260px
+QLineEdit#ICloudLoginUserPassEdit	min-height:36px | max-height:36px | border-radius:8px
+QLineEdit#InnerBuyLicenseInputEdit	min-width:364px | max-width:364px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QLineEdit#LicenseInputEdit	min-width:360px | min-height:28px | max-height:28px | border-radius:4px
+QLineEdit#NasConnectIPEdit	min-width:202px | max-width:202px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QLineEdit#NasConnectUserEdit	min-width:428px | max-width:428px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QLineEdit#RepairPDFDecryptPWDEdit	min-width:358px | max-width:358px | min-height:28px | max-height:28px | border-radius:4px | font-size:14px
+QLineEdit#SDCardFeedBackSubmitEdit	min-width:456px | max-width:456px | min-height:36px | max-height:36px | border-radius:4px | font-size:14px
+QLineEdit#dateEdit_from ,QLineEdit#dateEdit_to ,QLineEdit#filter_custom_size_from ,QLineEdit#filter_custom_size_to	min-width:90px | max-width:90px
+QLineEdit#filter_type_custom ,QLineEdit#dateEdit_from ,QLineEdit#dateEdit_to ,QLineEdit#filter_custom_size_from ,QLineEdit#filter_custom_size_to	min-height:32px | max-height:32px | border-radius:4px | font-size:13px
+QLineEdit#navigatebar_search_lineedit	min-width:190px | max-width:190px | min-height:32px | border-radius:6px | font-size:13px
+QLineEdit#navigatebar_search_lineedit[state="menu"]	border-radius:4px
+QListView#NavigateNasPathMenuList	min-width:298px | max-width:298px
+QListView#NavigateNasPathMenuList::item	min-width:298px | max-width:298px | min-height:36px | max-height:36px
+QListView#PopMenuList	min-width:205px | max-width:205px | min-height:360px | max-height:360px
+QListView#PopMenuList::item	min-width:200px | max-width:200px | min-height:30px | max-height:30px | font-size:14px
+QListView#PreviewIconView	min-width:920px | min-height:141px | max-height:141px
+QListView#RepairPDFLeftList	min-width:115px | max-width:115px | min-height:480px | max-height:480px
+QListView#RepairPDFLeftList::item	min-width:100px | max-width:100px | min-height:100px | max-height:100px
+QListView#RepairPDFLeftList::item::hover	min-width:98px | max-width:98px | min-height:98px | max-height:98px
+QListView#RepairPDFLeftList::item::selected	min-width:98px | max-width:98px | min-height:98px | max-height:98px
+QListView#SortPopMenuList	min-width:200px | max-width:200px | min-height:266px | max-height:266px
+QListView#SortPopMenuList::item	min-width:200px | max-width:200px | min-height:32px | max-height:32px | font-size:14px
+QMenu	border-radius:8px | padding:4px 0px
+QMenu#CThemeMenu	min-width:190px | border-radius:8px
+QMenu#MainWindowMenu::right-arrow	width:16px | height:16px
+QMenu#SharedWidget	min-width:240px | max-width:240px | min-height:110px | max-height:110px | border-radius:8px | padding:0px 0px
+QMenu#dateEdit_men	min-width:274px | min-height:302px
+QMenu#filter_menu	min-width:238px | max-width:238px
+QMenu#filter_menu[state="Polish"]	min-width:294px | max-width:294px
+QMenu#filter_menu[state="long_translation"]	min-width:284px | max-width:284px
+QMenu#licenseedit_menu	border-radius:4px
+QMenu#lineedit_menu	min-width:190px | max-width:190px | min-height:210px | max-height:210px | border-radius:4px
+QMenu#size_spin_menu	min-width:41px | max-width:41px
+QMenu::item	height:17px | border-radius:4px | font-size:13px
+QMenu::separator	height:1px
+QMenu:indicator	width:0px | height:0px
+QProgressBar	min-height:4px | max-height:4px | border-radius:2px
+QProgressBar#CRaidDeviceItemProgressBar	min-width:135px | max-width:135px
+QProgressBar#LostDiskCapacityBar	max-width:156px | max-height:4px
+QProgressBar#PartitionPartitionItemProgress	min-height:16px | max-height:16px | border-radius:3px
+QProgressBar#PartitionPartitionItemProgress::chunk	border-radius:3px
+QProgressBar#PreviewRepairProgressBar	min-width:220px | min-height:8px | max-height:8px
+QProgressBar#PreviewRepairProgressBar::chunk	border-radius:4px
+QProgressBar#RadiusProgressBar::chunk	border-radius:0px
+QProgressBar#RecoverLimitProgress	min-width:268px | max-width:268px | min-height:8px | max-height:8px
+QProgressBar#RecoverLimitProgress::chunk	border-radius:4px
+QProgressBar#RepairAddProgressBar	min-width:413px | max-width:413px | min-height:8px | max-height:8px | border-radius:4px
+QProgressBar#RepairAddProgressBar::chunk	border-radius:4px
+QProgressBar#RepairVideoItemRepairProgress	min-width:214px | max-width:214px | min-height:6px | max-height:6px | border-radius:3px
+QProgressBar#RepairVideoItemRepairProgress::chunk	border-radius:3px
+QProgressBar#RepairVideoSaveProgressBar	min-width:413px | max-width:413px | min-height:8px | max-height:8px | border-radius:4px
+QProgressBar#RepairVideoSaveProgressBar::chunk	border-radius:4px
+QProgressBar#SDCardDeviceItemModelIdentification	min-width:120px | max-width:120px | min-height:32px | max-height:32px | border-radius:8px
+QProgressBar#SDCardDeviceItemModelIdentification::chunk	min-width:28px | max-width:28px
+QProgressBar#ScanStopContentProgress	min-width:480px | max-width:480px | min-height:5px | max-height:5px | border-radius:2px
+QProgressBar#ScanStopContentProgress::chunk	border-radius:2px
+QProgressBar#imgbackProgress	height:4px
+QProgressBar#imgbackProgress[error="createFailed"]	height:4px
+QProgressBar::chunk	border-radius:2px
+QPushButton#AIAssistantTipDialogViewResBtn	min-width:108px | min-height:20px | max-height:20px | border-radius:6px | padding:6px 20px
+QPushButton#ApowerBuyNowBtn	min-width:260px | max-width:260px | min-height:38px | max-height:38px | border-radius:4px | font-size:18px
+QPushButton#AutoRecoverBtn	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#AutoRecoverSettingLostBtn	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QPushButton#AutoRecoverSettingSWitchBtn	min-width:30px | max-width:30px | min-height:16px | max-height:16px
+QPushButton#BadSectorTipsDlgBtnChange	min-width:10px | max-width:10px | min-height:10px | max-height:10px | border-radius:5px
+QPushButton#BitUnlockerCancelBtn	min-width:80px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#BitlockerScanBtn	min-width:184px | min-height:32px | max-height:32px | border-radius:6px | font-size:13px
+QPushButton#BitlockerUnlockAutoButton	height:17px | font-size:13px
+QPushButton#BitlockerUnlockRetBtnCopy	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#CAutoExpendBtn	min-width:140px | min-height:32px | border-radius:6px | font-size:14px
+QPushButton#CAutoExpendBtnEx	min-width:140px | min-height:40px | max-height:40px | border-radius:10px | font-size:14px
+QPushButton#CFileExtensionItem	min-width:50px | max-width:90px | min-height:24px | max-height:24px | font-size:14px
+QPushButton#CFileTypeFilterTabBarLineImg	min-width:12px | max-width:12px | min-height:16px | max-height:16px
+QPushButton#CFileTypeTagTabItem	min-width:55px | min-height:32px | max-height:32px | font-size:18px
+QPushButton#CFileTypeTagTabItem[state='checked']	font-size:18px
+QPushButton#CFilterButton	max-width:320px | min-height:28px | font-size:14px
+QPushButton#CFilterButton::menu-indicator	width:16px | height:16px
+QPushButton#CHomeNewHelpContentViewBtnGot	min-width:70px | min-height:36px | max-height:36px | border-radius:6px | font-size:16px
+QPushButton#CHomeNewHelpContentViewBtnSelect	min-width:402px | min-height:36px | max-height:36px | border-radius:6px | font-size:15px
+QPushButton#CHomeNewHelpContentViewBtnSelect2	min-width:402px | min-height:36px | max-height:36px | border-radius:6px | font-size:15px
+QPushButton#CLoadRetBtn	min-width:308px | max-width:308px | min-height:32px | max-height:32px | border-radius:4px
+QPushButton#CRecoveryBtn	min-width:150px | min-height:36px | font-size:14px
+QPushButton#CThemeMenuItem	min-width:182px | min-height:28px | max-height:28px | border-radius:4px
+QPushButton#CTreeListItem	min-height:48px | border-radius:4px
+QPushButton#CTreeListItem[state="treeview"]	min-height:37px
+QPushButton#CUserDefineSortBarItem	min-width:24px | min-height:24px | max-height:24px | font-size:14px
+QPushButton#CUserDefineSortBarItem[state='checked']	border-radius:4px
+QPushButton#CUserDefineSortBarItem[state='hover']	border-radius:4px
+QPushButton#CancelButton, QPushButton#DrwMessageBoxConfirmBtn	min-width:70px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#CloudDriveItemLogoutBtn	min-width:66px | min-height:22px | max-height:22px | font-size:12px
+QPushButton#CommonFirstLevelBtn1	min-width:110px | min-height:40px | max-height:40px | border-radius:6px | border-radius:10px | font-size:14px
+QPushButton#ConfirmButton, QPushButton#ActivateResViewRecordBtn	min-width:120px | max-width:120px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#DetailPageRepairBtn	min-width:48px | max-width:48px | min-height:78px | max-height:78px
+QPushButton#DeviceScanButton	min-width:92px | max-width:92px | min-height:82px | max-height:82px
+QPushButton#DiskBackup_createButton, QPushButton#DiskBackup_importButton	min-width:180px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#DiskRefreshButtonIntroduction,#DiskRefreshButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#DiskScanButton	min-width:155px | min-height:32px | border-radius:6px | font-size:14px
+QPushButton#DrwFlyoutMenuItem	border-radius:4px | font-size:14px
+QPushButton#DrwHomePageLostDiskBtn	max-height:24px | font-size:14px
+QPushButton#DrwMessageBoxCancelBtn	min-width:70px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#DrwMessageBoxNasOkBtn	min-width:121px | max-width:121px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#DrwNewMessageBoxBtnLeft	min-width:70px | min-height:32px | max-height:32px | border-radius:6px | font-size:13px
+QPushButton#EnterLicenceBtnPaste	min-height:24px | max-height:24px | border-radius:6px | font-size:14px
+QPushButton#EnterLicenceLicenceBtn	min-width:130px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#ExitGuideChronoSnapDlgBtnLater	min-width:80px | min-height:40px | max-height:40px | border-radius:6px | font-size:14px
+QPushButton#ExitGuideChronoSnapDlgRightBtnExit	min-width:180px | min-height:46px | max-height:46px | border-radius:12px | font-size:16px
+QPushButton#ExitHelpRegionBtn	min-width:148px | max-width:148px | min-height:36px | max-height:36px | border-radius:4px | font-size:14px
+QPushButton#ExternActivateBuyButton	min-width:257px | min-height:22px | max-height:22px | border-radius:12px | font-size:12px
+QPushButton#ExternalScanButton	min-height:40px | font-size:18px
+QPushButton#FileRepairAddBottomBtn	min-width:32px | max-width:32px | min-height:32px | max-height:32px | border-radius:6px
+QPushButton#FileRepairAddBottomBtnDel	min-width:32px | max-width:32px | min-height:32px | max-height:32px | border-radius:6px
+QPushButton#FileRepairAddBottomBtnDel[type="popwind"]	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QPushButton#FileRepairAddBottomBtn[type="popwind"]	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QPushButton#FileRepairListItemPreviewBtn	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QPushButton#FileRepairListItemRemoveBtn	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QPushButton#FilterGuideClose	min-width:16px | max-width:16px | min-height:16px | max-height:16px
+QPushButton#FreezeAnimalRefreshContactBtn	font-size:14px
+QPushButton#HomeBtn	min-width:32px | max-width:32px | min-height:32px | max-height:32px | border-radius:6px
+QPushButton#ICloudLoginButton	min-width:168px | max-width:168px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#ICloudVerifyViewerHelpBtn	min-width:130px | min-height:32px | max-height:32px | font-size:14px
+QPushButton#ICloudVerifyViewerSendBtn	min-width:108px | min-height:32px | max-height:32px | font-size:14px
+QPushButton#ICloudVerifyViewerTextMe	min-width:54px | min-height:32px | max-height:32px | font-size:14px
+QPushButton#ImagePreviewRepairLeftBtn	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QPushButton#ImagePreviewRepairRightBtn	min-width:40px | max-width:40px | min-height:40px | max-height:40px
+QPushButton#InnerBuyEnterLicenseBtn	min-height:24px | max-height:24px | font-size:14px
+QPushButton#InnerBuyErrBtn	min-width:116px | min-height:36px | max-height:36px | border-radius:2px | font-size:13px
+QPushButton#InnerBuyErrCloseBtn	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#InnerBuyErrTipImgWnd	min-width:240px | max-width:240px | min-height:240px | max-height:240px
+QPushButton#InnerbuyActButton	min-width:80px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#InnerbuySupportButton	min-width:27px | min-height:17px | max-height:17px | font-size:13px
+QPushButton#LeftPreviewBtn	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QPushButton#LeftTreeBtn	min-width:126px | max-width:126px | min-height:28px | max-height:28px | border-radius:6px | font-size:14px
+QPushButton#LeftTreeBtn[state="start"]	min-width:126px | max-width:126px | min-height:28px | max-height:28px | border-radius:6px
+QPushButton#LoadScanRetMenuSelectBtn	min-width:236px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#LocalRecoverBuyLeftBuy	min-width:180px | min-height:40px | max-height:40px | border-radius:6px | font-size:16px
+QPushButton#LostDisksSupportButton	min-width:24px | min-height:24px
+QPushButton#LostDisksTrimOnButton	min-width:40px | max-width:40px | min-height:24px | max-height:24px
+QPushButton#LostDisksTrimOnHelpBtn	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#LostPartitionTipLearnmoreBtn	min-width:67px | min-height:16px | max-height:16px
+QPushButton#MoreToolIndexWidgetItemBtn	min-height:32px | max-height:32px | border-radius:15px | font-size:14px
+QPushButton#NasConncetText	min-height:20px | max-height:20px | font-size:15px
+QPushButton#NasConnectingBtn	min-height:40px | max-height:40px
+QPushButton#NasDisconnectFirstText	min-width:71px | min-height:19px | max-height:19px | font-size:14px
+QPushButton#NasEnummingCancelBtn	min-width:110px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#NasEnummingConnectBtn	min-width:110px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#NasIPFirstText	min-width:88px | min-height:19px | max-height:19px | font-size:14px
+QPushButton#NasLogonPassBtn	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#NasScanButton	min-width:80px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#NasStartEnumBtn	min-width:118px | min-height:36px | max-height:36px | border-radius:6px | font-size:14px
+QPushButton#NavigationTabActivateBtn	min-width:210px | max-width:210px | height:36px | border-radius:4px | font-size:14px
+QPushButton#NeedCenterHelpButton	min-width:168px | max-width:168px | border-radius:6px
+QPushButton#NeedCenterHelpButton:hover	border-radius:6px
+QPushButton#NeedCenterHelpButton:pressed	border-radius:6px
+QPushButton#NeedHelpButton	border-radius:6px | font-size:14px
+QPushButton#PEConnectCreateRightFreshBtn	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#PartitionScanFrameLabelTableEye	min-width:18px | max-width:18px | min-height:18px | max-height:18px
+QPushButton#PeripheralSelectedBtnHelp	min-width:213px | min-height:19px | max-height:19px | border-radius:4px | font-size:14px
+QPushButton#PeripheralSelectedBtnHelp,#PeripheralSelectedBtnHelpIntroduction	min-width:213px | min-height:19px | max-height:19px | border-radius:4px | font-size:14px
+QPushButton#PeripheralSelectedViewBtnScan	min-width:160px | min-height:40px | max-height:40px | font-size:16px
+QPushButton#PopupMenuSharpBtn	min-width:27px | max-width:27px | min-height:16px | max-height:16px
+QPushButton#PreviewActiveRepairButtion	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QPushButton#PreviewShadowBtnUnlock	min-width:180px | min-height:36px | max-height:36px | border-radius:6px | font-size:16px
+QPushButton#QuickScanCompleteContentRight	min-width:300 | font-size:14px | padding:0
+QPushButton#RecommendViewJumpPathBtn	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#RecoverActivateButton	min-height:22px | max-height:22px | font-size:13px
+QPushButton#RecoverActivateButton, QPushButton#ExternActivateBuyButton	min-height:26px | max-height:26px | border-radius:12px | font-size:12px
+QPushButton#RecoverCancelButton	border-radius:6px | font-size:14px
+QPushButton#RecoverLimitButtonCancel	min-width:140px | max-width:140px | min-height:36px | max-height:36px | border-radius:4px | font-size:14px
+QPushButton#RecoverLimitButtonClose	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#RecoverLimitButtonUpgrade	min-width:220px | max-width:220px | min-height:36px | max-height:36px | border-radius:6px
+QPushButton#RecoverPathTipChangePosButton	min-width:86px | min-height:28px | font-size:12px
+QPushButton#RecoverPathTipChooseButton	min-width:30px | min-height:30px
+QPushButton#RecoverPathTipErrorIconLabel	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#RecoverResViewRecordBtn	min-width:198px | min-height:34px
+QPushButton#RecoverResViewRecordBtn,QPushButton#ContinueScanButton,QPushButton#DrwMessageBoxOkBtn	min-width:70px | min-height:26px | max-height:26px | border-radius:4px | font-size:13px
+QPushButton#RecoverUpgradeButton	min-width:215px | border-radius:6px | font-size:14px
+QPushButton#RecoverViewPushButton	min-width:70px | min-height:32px | max-height:32px | border-radius:6px | font-size:13px
+QPushButton#RecoverViewPushButton[state='cancel']	min-width:70px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#RepairPDFDecryptBtnDecrypt	min-width:141px | max-width:141px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#RepairPDFItemBtnPreview	min-width:40px | max-width:40px | min-height:32px | max-height:32px | border-radius:4px
+QPushButton#RepairPDFPreviewBottomBtnSave	min-width:101px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoAdvancedAddChangePath	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#RepairVideoAdvancedAddConfirm	min-width:141px | max-width:141px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoAdvancedAnalyzeRepair	min-width:101px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoAdvancedAnalyzeRepairFailed	min-width:101px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoHomeBtn	min-width:200px | max-width:200px | min-height:36px | max-height:36px | border-radius:4px | font-size:16px
+QPushButton#RepairVideoItemBtnAdvancedRepair	min-width:160px | min-height:32px | max-height:32px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoItemBtnChange	min-width:160px | min-height:32px | max-height:32px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoItemBtnFeedBack	min-width:40px | max-width:40px | min-height:32px | max-height:32px | border-radius:4px
+QPushButton#RepairVideoItemBtnPreview	min-width:40px | max-width:40px | min-height:32px | max-height:32px | border-radius:4px
+QPushButton#RepairVideoItemBtnRemove	min-width:40px | max-width:40px | min-height:32px | max-height:32px | border-radius:4px
+QPushButton#RepairVideoItemBtnRepair	min-width:160px | min-height:32px | max-height:32px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoItemBtnSave	min-width:160px | min-height:32px | max-height:32px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoItemPreviewBtn	min-width:36px | max-width:36px | min-height:36px | max-height:36px
+QPushButton#RepairVideoItemRepairStopBtn	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#RepairVideoRightItemsBtnAdd	min-width:96px | min-height:36px | max-height:36px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoRightItemsBtnRemove	min-width:96px | min-height:36px | max-height:36px | border-radius:4px | font-size:13px
+QPushButton#RepairVideoRightItemsBtnRepair	min-width:200px | max-width:200px | min-height:36px | max-height:36px | border-radius:4px | font-size:16px
+QPushButton#RepairVideoSaveBtnView	min-width:101px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#RetentionActiveDlgBtnClose	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#RetentionActiveDlgBtnGet	min-width:97px | height:40px | border-radius:6px | font-size:14px
+QPushButton#RetentionActiveDlgDiscountLabel_Buy	min-width:114px | max-width:114px | min-height:28px | max-height:28px | border-radius:14px | font-size:16px
+QPushButton#RetentionExitDlgBtnChildBtn	min-width:170px | min-height:36px | max-height:36px | border-radius:4px | font-size:14px
+QPushButton#RetentionExitDlgBtnChildBtnBtn	min-width:74px | height:28px | border-radius:4px
+QPushButton#RetentionExitDlgItemButton1	min-width:120px | height:32px | border-radius:6px | font-size:15px
+QPushButton#RetentionExitDlgItemButton2	width:160px | height:32px | border-radius:6px | font-size:13px
+QPushButton#RightPreviewBtn	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QPushButton#RobotToolTipArrow[state=bottom]	min-width:16px | max-width:16px | min-height:10px | max-height:10px
+QPushButton#RobotToolTipArrow[state=left]	min-width:10px | max-width:10px | min-height:16px | max-height:16px
+QPushButton#RobotToolTipArrow[state=right]	min-width:10px | max-width:10px | min-height:16px | max-height:16px
+QPushButton#RobotToolTipArrow[state=top]	min-width:16px | max-width:16px | min-height:10px | max-height:10px
+QPushButton#SDCardDeviceItemBtn	min-width:80px | min-height:36px | max-height:36px | border-radius:4px | font-size:15px
+QPushButton#SDCardFeedBackSubmitBtn	min-width:118px | min-height:36px | max-height:36px | border-radius:4px | font-size:15px
+QPushButton#SDCardScanTipsButtonClose	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#ScanStopBtnCancel	min-width:70px | min-height:32px | max-height:32px | border-radius:6px | font-size:13px
+QPushButton#ScanStopBtnStop	min-width:70px | min-height:32px | max-height:32px | border-radius:6px | font-size:13px
+QPushButton#SearchNltPopBtnLeft	min-width:80px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#SearchNltPopBtnRight	min-width:80px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#SorryDlgBottomBtnFrame_btn_1	height:40px | border-radius:6px | font-size:14px
+QPushButton#SorryDlgBottomBtnFrame_btn_2	height:40px | border-radius:6px | font-size:14px
+QPushButton#SupportButton	min-width:24px | min-height:24px
+QPushButton#TitleActivateButton	min-width:70px | min-height:28px | max-height:28px | border-radius:6px | font-size:12px
+QPushButton#TitleActivateButton[ver="mainland"]	font-size:14px
+QPushButton#TitleApplyCss	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleCloseButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleCloseButtonWhite	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleFollowusButton	min-width:80px | min-height:24px | max-height:24px | font-size:14px
+QPushButton#TitleGiftButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleGiftDlgSubScribeFrameSubScribeBtn	min-width:120px | max-width:120px | min-height:32px | max-height:32px | border-radius:16px | font-size:14px
+QPushButton#TitleHomeButton	min-width:70px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#TitleHomeBuyButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleHomeUnlockButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleLinkBtnHelp	min-width:40px | max-width:40px
+QPushButton#TitleLoadScanButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleLoginButton, QPushButton#TitleServiceButton, QPushButton#TitleMenuButton	border-radius:4px | font-size:14px
+QPushButton#TitleLoginInfoButton	min-width:28px | max-width:28px | min-height:28px | max-height:28px
+QPushButton#TitleLoginInfoButton:hover	border-radius:4px
+QPushButton#TitleMoreMenuButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleNasDisconnect	min-width:83px | max-width:83px | min-height:35px | max-height:35px
+QPushButton#TitleNasIP	min-width:124px | max-width:124px | min-height:35px | max-height:35px
+QPushButton#TitleNasSplitter	min-width:1px | max-width:1px | min-height:26px | max-height:26px
+QPushButton#TitleNeedHelpButton	min-width:46px | max-width:46px | min-height:40px | max-height:40px
+QPushButton#TitleNotifyMessageButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleOnlineHelpButton	min-width:80px | min-height:24px | max-height:24px | font-size:12px
+QPushButton#TitleSaveScanButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleSharedButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleShowMaxedButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleShowMinButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleShowNormalButton	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#TitleSurVeyButton	min-width:30px | max-width:30px | min-height:30px | max-height:30px
+QPushButton#TitleVipButton	font-size:16px
+QPushButton#TrilateralNextButton	min-width:80px | max-width:120px | min-height:28px | max-height:28px | border-radius:4px
+QPushButton#TypeDemoWidget	min-height:24px | max-height:24px | font-size:12px
+QPushButton#UpgradeVerifyButton	min-width:140px | min-height:26px | max-height:26px | border-radius:4px | font-size:13px
+QPushButton#UserGuidGotitBtn	min-width:146px | max-width:146px | min-height:32px | max-height:32px | border-radius:16px | font-size:14
+QPushButton#UserGuidTipWndSharpBtn	min-width:18px | max-width:18px | min-height:9px | max-height:9px
+QPushButton#UserInformationOpenVipBtn	min-width:260px | max-width:260px | min-height:54px | max-height:54px | border-radius:6px | font-size:16px
+QPushButton#UserInformationOrderBtn	min-width:260px | max-width:260px | min-height:54px | max-height:54px | border-radius:6px | font-size:16px
+QPushButton#UserInformationUserCenterBtn, QPushButton#UserInformationLogoutBtn	font-size:14px
+QPushButton#UserRateCloseBtn	min-width:20px | max-width:20px | min-height:20px | max-height:20px
+QPushButton#UserRateReasonBtn	min-width:106px | min-height:30px | max-height:30px | border-radius:6px | font-size:13px
+QPushButton#UserRateSubmitBtn	min-width:110px | min-height:40px | max-height:40px | border-radius:6px | font-size:16px
+QPushButton#VideoPreviewBottomBtnSave	min-width:101px | min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#animationBtnLeft	min-width:3px | max-width:3px | min-height:16px | max-height:16px | border-radius:1px
+QPushButton#calendar_navigationbar_next_year	width:24px | height:24px
+QPushButton#calendar_navigationbar_pre_year	width:24px | height:24px
+QPushButton#commonCheckBtn	min-width:30px | max-width:30px | min-height:16px | max-height:16px
+QPushButton#filterBarLostFilesBtn	min-width:112px | min-height:22px | border-radius:7px | font-size:13px
+QPushButton#filterBarResetBtn	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#iconviewitem_bginsidewidget	border-radius:8px
+QPushButton#iconviewitem_bginsidewidget[state="hover"]	border-radius:8px
+QPushButton#iconviewitem_bginsidewidget[state="selected"]	border-radius:8px
+QPushButton#iconviewitem_bginsidewidget_preview	border-radius:8px
+QPushButton#iconviewitem_bginsidewidget_preview[state="hover"]	border-radius:8px
+QPushButton#iconviewitem_bginsidewidget_preview[state="selected"]	border-radius:8px
+QPushButton#iconviewitem_bgwidget	border-radius:4px
+QPushButton#imgbackCancelBt,#diskBackUpsaveBtn	min-width:120px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#itemview_begin_item_normal,#itemview_end_item_normal,#itemview_center_item_normal	border-radius:0px
+QPushButton#itemview_both_item	border-radius:4px
+QPushButton#itemview_center_item	border-radius:0px
+QPushButton#itemview_center_item_normal	border-radius:0px
+QPushButton#itemview_end_item_normal	border-radius:0px
+QPushButton#licenseedit_menu_item	min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#lineedit_menu_item	min-height:28px | max-height:28px | border-radius:4px | font-size:13px
+QPushButton#lineedit_menu_top_item	min-height:33px | max-height:33px | font-size:13px
+QPushButton#logOutPushButton	min-width:105px | min-height:28px | max-height:28px | border-radius:14px | font-size:13px
+QPushButton#moreOptionBtn	min-width:102px | min-height:19px
+QPushButton#navigate_address_button	min-width:30px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QPushButton#navigate_address_button[state="0"]	min-width:38px
+QPushButton#navigate_address_button[state="nas"]	min-width:38px
+QPushButton#navigate_address_button[state="nas0"]	min-width:38px | min-height:30px | max-height:30px | border-radius:4px
+QPushButton#navigate_address_button[state="search"]	min-width:38px
+QPushButton#navigate_address_button[state="tag"]	min-width:38px
+QPushButton#navigate_direction_button	min-width:32px | max-width:32px | min-height:32px | max-height:32px | border-radius:6px | font-size:13px
+QPushButton#navigatebar_filter_button	min-width:32px | min-height:32px | border-radius:4px | font-size:14px
+QPushButton#navigatebar_iconlistswitch_button	min-width:32px | max-width:32px | min-height:32px | max-height:32px | border-radius:4px | font-size:13px
+QPushButton#navigatebar_search_button ,#filter_type_custom_handler	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#navigatebar_tip_sharp	min-width:14px | max-width:14px | min-height:7px | max-height:7px
+QPushButton#pathBrowse	min-width:32px | max-width:32px | min-height:32px | max-height:32px
+QPushButton#pause_button,#stop_button	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QPushButton#progress_btn_badsector	min-width:20px | max-width:20px | min-height:20px | max-height:20px
+QPushButton#repairpopWndAddBtn	min-width:70px | min-height:40px | max-height:40px | border-radius:10px | font-size:14px
+QPushButton#repairpopWndAddBtn[state="flyoutpop"]	min-width:120px
+QPushButton#repairpopWndCloseBtn	min-width:30px | max-width:30px | min-height:24px | max-height:24px
+QPushButton#size_spin_handler	min-width:36px | max-width:36px | min-height:26px | max-height:26px | border-radius:3px
+QPushButton#size_spin_menu_item	min-width:41px | max-width:41px | min-height:24px | max-height:24px | font-size:13px
+QPushButton#size_spin_up_button,QPushButton#size_spin_down_button	min-width:16px | max-width:16px | min-height:9px | max-height:9px
+QPushButton#surveyMenuItem	min-height:28px | border-radius:4px
+QPushButton#treelistitembranch_collapsed	min-width:16px | min-height:16px
+QPushButton#treelistitembranch_expanded	min-width:16px | min-height:16px
+QPushButton#uilib_autoToolTips_arrow_up,#uilib_autoToolTips_arrow_down	min-width:16px | max-width:16px | min-height:10px | max-height:10px
+QScrollArea#FileRepairScanPopWndScrollArea	min-height:360px | max-height:360px
+QScrollArea#FileRepairScanPopWndScrollArea QScrollBar:vertical	width:6px
+QScrollArea#PartitionItemFrameScrollArea	max-height:234px
+QScrollArea#PartitionItemFrameScrollArea QScrollBar:horizontal	height:6px | padding:0px
+QScrollArea#PartitionItemFrameScrollArea QScrollBar:vertical	width:6px
+QScrollArea#RepairVideoRightItemsScrollArea	min-height:670px | max-height:670px
+QScrollArea#recommendViewerScrollArea	min-width:150px | min-height:440px | max-height:440px
+QScrollBar::add-line:horizontal	width:0px
+QScrollBar::add-line:vertical	height:0px
+QScrollBar::handle:horizontal	min-width:50px | border-radius:3px
+QScrollBar::handle:vertical	min-height:50px | border-radius:3px
+QScrollBar::sub-line:horizontal	width:0px
+QScrollBar::sub-line:vertical	height:0px
+QScrollBar:horizontal	height:12px
+QScrollBar:vertical	width:10px
+QStackedWidget#CProgressState	min-width:60px | max-width:60px | min-height:60px | max-height:60px
+QStackedWidget#RepairPreviewCompareStackedWnd	min-height:352px | border-radius:8px
+QTabBar	font-size:18px
+QTabBar::tab	font-size:18px
+QTabBar[state="chi"]	font-size:22px
+QTableView#LostRightTableView::item	height:44px
+QTextBrowser#AboutDetailContent, QTextBrowser#AboutDetailContent:disabled	min-height:75px | max-height:75px | font-size:13px
+QTextBrowser#AboutOriginalDetailContent, QTextBrowser#AboutOriginalDetailContent:disabled	min-height:65px | max-height:65px | font-size:13px
+QTextBrowser#ICloudVerifyViewerTitle	min-width:480px | max-width:480px | min-height:66px | max-height:66px | font-size:16px
+QTextBrowser#LastScanTitleLabel, QTextBrowser#LastScanTitleLabel:disabled	min-height:51px | max-height:51px | font-size:16px
+QTextBrowser#ThanksContentsLabel, QTextBrowser#ThanksContentsLabel:disabled	min-height:1300px | max-height:2000px
+QTextBrowser#panelview_text_value_path	min-width:160px | max-width:160px | min-height:17px | font-size:13px
+QTextEdit#DrwHomePageTitleLabel, QTextEdit#DrwHomePageTitleLabel:disabled	min-width:286px | max-width:286px | min-height:127px | max-height:127px | font-size:22px
+QTextEdit#UserRateInputEdit	min-width:575px | max-width:575px | max-height:78px | border-radius:6px | font-size:14px
+QToolButton#MorePageBackButton	min-width:60px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QToolButton#NasEnummingBackButton	min-width:60px | min-height:32px | max-height:32px | border-radius:6px | font-size:14px
+QToolButton#RecoverFileToolButton	font-size:16px | padding:0
+QToolButton#qt_calendar_nextmonth	width:24px | height:24px
+QToolButton#qt_calendar_prevmonth	width:24px | height:24px
+QToolTip	max-width:400px | min-height:25px | border-radius:8px | font-size:14px | padding:2px
+QTreeView#ArchivePreviewView	min-width:932px | max-width:932px | height:450px | border-radius:8px | font-size:13px
+QTreeView#ArchivePreviewView QHeaderView	min-height:40px | max-height:40px | border-radius:8px
+QTreeView#ArchivePreviewView QHeaderView::section	height:20px | font-size:15px | padding:0px
+QTreeView#CLeftTreeView,CClassifyLeftTreeView	min-width:241px
+QTreeView#LostLeftTreeView::item	border-radius:4px
+QWidget#AboutApowerBottomBgWidget	min-height:50px | max-height:50px | border-radius:4px
+QWidget#AboutBottomBgWidget	min-width:640px | min-height:100px | max-height:100px
+QWidget#AboutCN_JZBottomBgWidget	min-height:50px | max-height:50px | border-radius:4px
+QWidget#AnalysisGridWidget	border-radius:8px
+QWidget#ApowerActivateDialog	min-width:728px | max-width:728px | min-height:450px | max-height:450px
+QWidget#AutoRecoverEntryTitleBar	min-height:24px | max-height:24px
+QWidget#AutoRecoverSettingLeftWidget	min-width:206px | max-width:206px | min-height:540px | max-height:540px
+QWidget#AutoRecoverSettingRightWidget	min-width:464px | max-width:464px | min-height:540px | max-height:540px
+QWidget#AutoRecoverWidget	min-width:24px | max-width:24px | min-height:24px | max-height:24px
+QWidget#BasicTitleBar, QWidget#BasicDialogTitleBar	min-height:32px | max-height:32px
+QWidget#BuyGuideTipsWidget	min-width:230px | max-width:230px | min-height:24px | max-height:24px
+QWidget#BuyGuideTitleWidget	min-height:22px | max-height:22px
+QWidget#CClassifyPopupMenu	min-width:210px | max-width:210px | min-height:399px | max-height:399px | border-radius:4px
+QWidget#CClassifyRightListView QScrollBar::vertical	width:6px
+QWidget#CLeftTreeView QScrollBar::handle:vertical	border-radius:4px
+QWidget#CLeftTreeView QScrollBar::vertical	width:8px
+QWidget#CNavigateNasPathMenu	min-width:298px | max-width:298px | border-radius:4px
+QWidget#CRightContent	min-width:1px | font-size:14px | font-size:22px
+QWidget#CRightIconView QScrollBar::vertical	width:6px
+QWidget#CRightListView QScrollBar::vertical	width:6px
+QWidget#CSortPopupMenu	min-width:208px | max-width:208px | min-height:292px | max-height:292px | border-radius:4px
+QWidget#ChinaMainlandbuyErrorWnd	min-height:580px | max-height:580px
+QWidget#ChinaMainlandbuyIeWnd	min-height:580px | max-height:580px
+QWidget#DiskListExplainFrame	font-size:16px
+QWidget#DiskScrollBarRightLine	min-width:1px | max-width:1px
+QWidget#DrwHomePage	min-height:400px | qproperty-layoutContMargins:"40px 45px 0px 48px"
+QWidget#DrwHomePage QScrollBar::vertical	width:12px
+QWidget#DrwHomePartListView	min-width:300px | max-width:899px
+QWidget#DrwLostDiskBtnBg	max-width:270px
+QWidget#DrwLostDiskPage	qproperty-layoutContMargins:"36px 48px 48px 24px"
+QWidget#DrwMainWindow	min-width:800px | min-height:600px | border-radius:8px
+QWidget#DrwMessageBox	min-width:578px | max-width:578px | min-height:302px | max-height:302px
+QWidget#EmbeddedPreviewWindow, QWidget#RichTextPreviewWindow	min-height:336px
+QWidget#ExitHelpContentWidget	min-width:430px | max-width:430px | min-height:112px | max-height:112px
+QWidget#ExitHelpRegionWidget	min-width:740px | max-width:740px | min-height:112px | max-height:112px | border-radius:4px
+QWidget#ExternalActivateDialog	min-width:738px | max-width:738px | min-height:338px | max-height:338px
+QWidget#FollowTitleBar	min-height:32px | max-height:32px
+QWidget#ICloudLoginViewerTitleBar	min-height:40px | max-height:40px
+QWidget#ImagePreviewWindow	min-height:352px | border-radius:8px
+QWidget#InnerBuyActWidget	min-height:34px | max-height:34px
+QWidget#InnerBuyErrorWidget	min-height:17px | max-height:17px
+QWidget#InnerBuyLicenseWidget	min-height:24px | max-height:24px
+QWidget#InnerBuyPurchaseDlg	min-width:752px | min-height:698px
+QWidget#InnerBuyTitleWidget	min-height:100px | max-height:100px
+QWidget#InnerWebWindow	min-width:880px | min-height:390px | max-height:390px
+QWidget#LeftSelectTreeWidget	min-width:256px | max-width:256px | min-height:32px | max-height:32px | border-radius:6px
+QWidget#LostDiskDiskItem	min-width:225px | max-width:225px | min-height:114px | max-height:114px
+QWidget#LostDiskPartItem	min-width:180px | max-width:180px | min-height:96px | max-height:96px
+QWidget#LostParitionGroup	min-height:114px | max-height:114px | border-radius:8px
+QWidget#MainWindowTitleBar	min-height:40px | max-height:40px
+QWidget#MsgBoxTitleBar	min-height:32px | max-height:32px | margin:1px
+QWidget#NasConnectErrorWidget	min-height:40px | max-height:40px | border-radius:6px
+QWidget#NasDownLoadtErrorWidget	min-height:58px | max-height:58px | border-radius:6px | min-height:58px | max-height:58px | border-radius:6px
+QWidget#NasEnummingBtnWidget	min-width:916px | min-height:32px | max-height:32px
+QWidget#NasHelpTipRightWidget	min-height:30px | max-height:30px | border-radius:6px
+QWidget#NasHelpTitleWidget	min-width:870px | max-width:870px | min-height:21px | max-height:21px
+QWidget#NasPortTipRightWidget	min-width:334px | max-width:334px | border-radius:4px
+QWidget#PEBuyTipsContentWidget	min-width:260px | max-width:260px | min-height:105px | max-height:105px | border-radius:8px
+QWidget#PEBuyTipsWidget	min-width:540px | max-width:540px | min-height:230px | max-height:230px
+QWidget#PeripheralSelectedTitleMargin	min-height:20px | max-height:20px
+QWidget#PreviewMainDialog	min-width:1000px | max-width:1000px | min-height:734px | max-height:734px | border-radius:8px
+QWidget#PreviewMainDialogPe	min-width:980px | max-width:980px | min-height:680px | max-height:680px
+QWidget#PreviewWindowStackedWidget	border-radius:8px
+QWidget#QuickScanCompleteTitleBottom	min-height:19px | max-height:19px
+QWidget#QuickScanCompleteTitleContent	min-height:45px | max-height:45px
+QWidget#QuickScanCompleteTitleWidget	min-height:64px | max-height:64px
+QWidget#RecoverFinishBuyTipsWidget	min-width:185px | max-width:185px | min-height:100px | max-height:100px | border-radius:8px
+QWidget#RecoverLimitButtonWidget	min-width:540px | max-width:540px | min-height:36px | max-height:36px
+QWidget#RecoverLimitProgressContentWidget	min-width:232px | max-width:232px | min-height:36px | max-height:36px | border-radius:18px
+QWidget#RecoverLimitWidgetContent	min-width:540px | max-width:540px | min-height:40px | max-height:40px
+QWidget#RecoverLimitWidgetProgress	min-width:36px | min-width:540px | max-width:36px | max-width:540px
+QWidget#RecoverProgressDlg	border-radius:4px
+QWidget#RecoverResultDlg	min-width:638px | min-height:278px | font-size:14px
+QWidget#RecoverResultDlg[freeVersion="true"]	min-height:328px
+QWidget#RecoveryOriginalTipDlg	min-width:580px | min-height:310px | font-size:14px | font-size:14px
+QWidget#RepairPDFItemNormalWidget	min-width:760px | max-width:760px | min-height:19px | max-height:19px
+QWidget#RepairPreviewCompareSpacingWnd	min-height:1px | max-height:1px
+QWidget#RepairPreviewCompareWnd	min-height:440px | border-radius:8px
+QWidget#RepairVideoItemNormalWidget	min-width:760px | max-width:760px | min-height:53px | max-height:53px
+QWidget#RightTagTipsContentWidget	min-width:811px | max-width:811px
+QWidget#SplashWindow	min-width:640px | max-width:640px | min-height:370px | max-height:370px | border-radius:20px
+QWidget#VideoPreviewVideoWidget	min-width:880px | max-width:880px | min-height:470px | max-height:470px | border-radius:4px
+QWidget#WeChatEmbedIeWnd	min-height:220px | max-height:220px
+QWidget#iconview_selectall_bg	min-height:30px
+QWidget#qt_calendar_navigationbar	margin:0px 0px 0px 0px
+QWidget#recoverLayerTipChildWnd	min-width:640px | max-width:640px | min-height:230px | max-height:230px
+RecoverPathTipDlg QLineEdit	min-height:28px
+SharedWidget QPushButton	min-height:28px | max-height:28px | border-radius:4px | font-size:13px
