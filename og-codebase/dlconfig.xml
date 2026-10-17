@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!-- Encode = ANSI -->
+<DOWNLOADER>
+	<SETTINGS>
+		<TRY times="3"/>
+		<!-- winpe3 x86 1,101  winpe3 amd64 2,101  winpe4 x86 3,101,401,10, winpe4 amd64 4,101,401,20, winpe5 amd64 4,101,401,21, win10pe x86 3,101,402,11, win10pe amd64 4,101,402,22 -->
+		<VALID id=""/>
+		<GRAPHICS ui="1"/>
+		<PROGRESS is_one="1"/>
+	</SETTINGS>
+	<OBJECTS>
+		<!-- x86 -->
+		<OBJECT id="1" name="BCD" path="Windows AIK\Tools\PETools\X86\EFI\MICROSOFT\BOOT" range="1352972288-1353234431" md5="1fe7f25994f3eddbfa8aaa9d8c56d667" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="WINPE.WIM" path="Windows AIK\Tools\PETools\X86" range="336336896-450673718" md5="32b2288d84959c879a5aa6af1caa9263" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="BCD" path="Windows AIK\Tools\PETools\X86\BOOT" range="450674688-450936831" md5="603c405372fae16a89ec9f3b92a1aae5" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="BOOT.SDI" path="Windows AIK\Tools\PETools\X86\BOOT" range="450936832-454107135" md5="22d9945b4aae36dd59620a918f2e65f4" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="BOOTFIX.BIN" path="Windows AIK\Tools\PETools\X86\BOOT" range="454107136-454108159" md5="eb145d5f87ddf43c8bd6f27e97db8bf2" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="ETFSBOOT.COM" path="Windows AIK\Tools\PETools\X86\BOOT" range="457058304-457062399" md5="d4befebf3cef129ac087422b9e912788" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="BOOTMGR" path="Windows AIK\Tools\PETools\X86" range="380928-764713" md5="259525cfb422e6ac8e87bc9777b1df73" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="WINPE-FONTSUPPORT-JA-JP.CAB" path="Windows AIK\Tools\PETools\X86\WINPE_FPS" range="813131776-822980873" md5="efe6f028b708c4e17356c619d077ac94" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="WINPE-FONTSUPPORT-ZH-CN.CAB" path="Windows AIK\Tools\PETools\X86\WINPE_FPS" range="829067264-863133456" md5="41aaaf67273a186aca604918ebf966a6" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="WINPE-FONTSUPPORT-ZH-HK.CAB" path="Windows AIK\Tools\PETools\X86\WINPE_FPS" range="863133696-897504884" md5="98f7e707ca35e8bcd5b9efaf962d07fc" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="WINPE-FONTSUPPORT-ZH-TW.CAB" path="Windows AIK\Tools\PETools\X86\WINPE_FPS" range="897505280-931871916" md5="85889969acef9a6dcfdff98a22b5959c" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="WINPE-FONTSUPPORT-KO-KR.CAB" path="Windows AIK\Tools\PETools\X86\WINPE_FPS" range="822982656-829065360" md5="117256f7b125c2f7a76d0b0f8dbba024" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="1" name="WINPE-WMI.CAB" path="Windows AIK\Tools\PETools\X86\WINPE_FPS" range="966963200-971178233" md5="025395c4dc43452d58ae861649154fb8" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<!-- x64 -->
+		<OBJECT id="2" name="BOOTX64.EFI" path="Windows AIK\Tools\PETools\AMD64\EFI\BOOT" range="983156736-983829375" md5="6098ba465fdf34f41e6de0baac24f084" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="BOOTMGR.EFI" path="Windows AIK\Tools\PETools\AMD64" range="765952-1435519" md5="c16350a5aa7f505f6d2ba3bc826ffd95" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="ETFSBOOT.COM" path="Windows AIK\Tools\PETools\AMD64\BOOT" range="457058304-457062399" md5="d4befebf3cef129ac087422b9e912788" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="EFISYS_NOPROMPT.BIN" path="Windows AIK\Tools\PETools\AMD64\BOOT" range="455583744-457058303" md5="dc33f04642b36ad868b67d6015f4a68f" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="EFISYS.BIN" path="Windows AIK\Tools\PETools\AMD64\BOOT" range="454109184-455583743" md5="e92240d0850f9807e78bbf016b742869" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="BOOTFIX.BIN" path="Windows AIK\Tools\PETools\AMD64\BOOT" range="454107136-454108159" md5="eb145d5f87ddf43c8bd6f27e97db8bf2" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="BOOT.SDI" path="Windows AIK\Tools\PETools\AMD64\BOOT" range="450936832-454107135" md5="22d9945b4aae36dd59620a918f2e65f4" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="BCD" path="Windows AIK\Tools\PETools\AMD64\BOOT" range="450674688-450936831" md5="603c405372fae16a89ec9f3b92a1aae5" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="BOOTMGR" path="Windows AIK\Tools\PETools\AMD64" range="380928-764713" md5="259525cfb422e6ac8e87bc9777b1df73" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="WINPE.WIM" path="Windows AIK\Tools\PETools\AMD64" range="1548288-137012333" md5="02d53a0a4f4a597a586a96d0a4bd2723" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="BCD" path="Windows AIK\Tools\PETools\AMD64\EFI\MICROSOFT\BOOT" range="1352972288-1353234431" md5="1fe7f25994f3eddbfa8aaa9d8c56d667" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="WINPE-FONTSUPPORT-JA-JP.CAB" path="Windows AIK\Tools\PETools\AMD64\WINPE_FPS" range="458295296-468145261" md5="72c9a12770328f1ff1cb304fa7ae123d" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="WINPE-FONTSUPPORT-ZH-CN.CAB" path="Windows AIK\Tools\PETools\AMD64\WINPE_FPS" range="474238976-508308146" md5="9cbb8f61bd058cb8643fa9352a882139" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="WINPE-FONTSUPPORT-ZH-HK.CAB" path="Windows AIK\Tools\PETools\AMD64\WINPE_FPS" range="508309504-542669226" md5="88c41bd693ea9583e5f6c3ac08182ad9" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="WINPE-FONTSUPPORT-ZH-TW.CAB" path="Windows AIK\Tools\PETools\AMD64\WINPE_FPS" range="542670848-577044006" md5="c0abb1bb048c1464fe6c2d6d1f828708" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="WINPE-FONTSUPPORT-KO-KR.CAB" path="Windows AIK\Tools\PETools\AMD64\WINPE_FPS" range="468146176-474237000" md5="3563cfe48e347a503ce4df0647d1c6ce" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="2" name="WINPE-WMI.CAB" path="Windows AIK\Tools\PETools\AMD64\WINPE_FPS" range="614891520-620209235" md5="13928c9b953cc7fa286890a04d10baeb" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<!-- public -->
+		<OBJECT id="101" name="BOOTSECT.EXE" path="Windows AIK\Tools\PETools\X86" range="336238592-336335871" md5="748e3755d83e56206f810be3626c88b2" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="101" name="BOOTSECT.EXE" path="Windows AIK\Tools\PETools\AMD64" range="1435648-1548287" md5="db94ece57be4a2722d2f439bb71e65d4" url="download.microsoft.com/download/0/4/C/04C805CC-4C04-4D76-BE80-7D67B951CF73/waik_supplement_en-us.iso"/>
+		<OBJECT id="101" name="Tools_1" path="" range="129740800-136032256" md5="6a5a4add0ee857165be829eede3b8a91" url="download.microsoft.com/download/8/E/9/8E9BBC64-E6F8-457C-9B8D-F6C9A16E6D6A/KB3AIK_EN.iso"/>
+		<OBJECT id="101" name="Tools_2" path="" range="1271859712-1278926651" md5="514384dcc61b5955950d7feefea1cb6d" url="download.microsoft.com/download/8/E/9/8E9BBC64-E6F8-457C-9B8D-F6C9A16E6D6A/KB3AIK_EN.iso"/>
+		<!-- winpe4 -->
+		<OBJECT id="401" name="DISM_x86_1" path="" range="0-913512" md5="f0e9dad11dd0a622a4447bda0dc0b8ce" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/eacac0698d5fa03569c86b25f90113b5.cab"/>
+		<OBJECT id="401" name="DISM_x86_2" path="" range="0-1654562" md5="1ece023c71811bd3ead17f73e7a20018" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/3b71855dfae6a44ab353293c119908b8.cab"/>
+		<OBJECT id="401" name="DISM_amd64_1" path="" range="0-1074066" md5="720b3da215e284105bc36721d332b98b" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/d2611745022d67cf9a7703eb131ca487.cab"/>
+		<OBJECT id="401" name="DISM_amd64_2" path="" range="0-1998306" md5="61070c79da2b002b98a517f76bf2c81c" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/a7eb3390a15bcd2c80a978c75f2dcc4f.cab"/>
+		<OBJECT id="401" name="BCDBoot_amd64" path="" range="0-330441" md5="b86c61b1a318ef3c39ca72bceaf1d6f2" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/630e2d20d5f2abcc3403b1d7783db037.cab"/>
+		<OBJECT id="401" name="BCDBoot_x86" path="" range="0-295360" md5="5214129ee2c54695c7d5b5e8a459c424" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/56dd07dea070851064af5d29cadfac56.cab"/>
+		<!-- winpe10 -->
+		<OBJECT id="402" name="DISM_x86_1" path="" range="0-913512" md5="f0e9dad11dd0a622a4447bda0dc0b8ce" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/eacac0698d5fa03569c86b25f90113b5.cab"/>		
+		<OBJECT id="402" name="DISM_x86_2" path="" range="0-1654562" md5="1ece023c71811bd3ead17f73e7a20018" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/3b71855dfae6a44ab353293c119908b8.cab"/>
+		<OBJECT id="402" name="DISM_amd64_1" path="" range="0-1074066" md5="720b3da215e284105bc36721d332b98b" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/d2611745022d67cf9a7703eb131ca487.cab"/>
+		<OBJECT id="402" name="DISM_amd64_2" path="" range="0-1998306" md5="61070c79da2b002b98a517f76bf2c81c" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/a7eb3390a15bcd2c80a978c75f2dcc4f.cab"/>
+		<OBJECT id="402" name="BCDBoot_amd64" path="" range="0-330441" md5="b86c61b1a318ef3c39ca72bceaf1d6f2" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/630e2d20d5f2abcc3403b1d7783db037.cab"/>
+		<OBJECT id="402" name="BCDBoot_x86" path="" range="0-295360" md5="5214129ee2c54695c7d5b5e8a459c424" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/56dd07dea070851064af5d29cadfac56.cab"/>
+		<!--  x86 -->
+		<OBJECT id="3" name="Oscdimg_x86" path="" range="0-1246309" md5="b58d68257b2f5ebfbe23855ddfc9d29b" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/5d984200acbde182fd99cbfbe9bad133.cab"/>		
+		<OBJECT id="3" name="Media_x86" path="" range="0-601068079" md5="1f0c7155f92da25ae445c81da6d7cee2" url="download.microsoft.com/download/D/7/E/D7E22261-D0B3-4ED6-8151-5E002C7F823D/adkwinpeaddons/Installers/a32918368eba6a062aaaaf73e3618131.cab"/>
+		<OBJECT id="10" name="winpe_x86" path="" range="0-197514710" md5="af7edbddd667827b62d724b913ff5ccd" url="download.microsoft.com/download/D/7/E/D7E22261-D0B3-4ED6-8151-5E002C7F823D/adkwinpeaddons/Installers/690b8ac88bc08254d351654d56805aea.cab"/>
+		<OBJECT id="10" name="WinPE_OCs_x86" path="" range="0-43284463,74662434-143735746,164205997-186082933,209470969-300928654,392051321-436536663,466703073-504055088" md5="a5405c1a0ad6f8497b129544fdf44b87" url="download.microsoft.com/download/9/9/F/99F5E440-5EB5-4952-9935-B99662C3DF70/adk/Installers/a32918368eba6a062aaaaf73e3618131.cab"/>
+		<OBJECT id="11" name="winpe_x86" path="" range="0-199401652" md5="245f1c469b5075c8e3a21a04395370ab" url="download.microsoft.com/download/3/c/2/3c2b23b2-96a0-452c-b9fd-6df72266e335/adkwinpeaddons/Installers/690b8ac88bc08254d351654d56805aea.cab"/>
+		<OBJECT id="11" name="WinPE_OCs_x86" path="" range="0-576678675" md5="15af918b01c3fc5bdff31296f5118044" url="download.microsoft.com/download/3/c/2/3c2b23b2-96a0-452c-b9fd-6df72266e335/adkwinpeaddons/Installers/a32918368eba6a062aaaaf73e3618131.cab"/>
+		<!-- amd64 -->
+		<OBJECT id="4" name="Oscdimg_amd64" path="" range="0-1372509" md5="7fd838217d37bbae8fefaac9ec2ba3db" url="download.microsoft.com/download/8/6/c/86c218f3-4349-4aa5-beba-d05e48bbc286/adk/Installers/bbf55224a0290f00676ddc410f004498.cab"/>		
+		<OBJECT id="4" name="Media_amd64_1" path="" range="0-1691559" md5="753f9874b90388e93f44c721ecbbb0d1" url="download.microsoft.com/download/D/7/E/D7E22261-D0B3-4ED6-8151-5E002C7F823D/adkwinpeaddons/Installers/aa25d18a5fcce134b0b89fb003ec99ff.cab"/>
+		<OBJECT id="4" name="Media_amd64_2" path="" range="0-755310276" md5="c22b2035e1eac972b28a01d732de34e4" url="download.microsoft.com/download/D/7/E/D7E22261-D0B3-4ED6-8151-5E002C7F823D/adkwinpeaddons/Installers/9722214af0ab8aa9dffb6cfdafd937b7.cab"/>
+		<OBJECT id="20" name="winpe_amd64" path="" range="0-262620337" md5="d87895ef85043f5c864778b82294dad2" url="download.microsoft.com/download/D/7/E/D7E22261-D0B3-4ED6-8151-5E002C7F823D/adkwinpeaddons/Installers/6d3c63e785ac9ac618ae3f1416062098.cab"/>
+		<OBJECT id="20" name="WinPE_OCs_amd64" path="" md5="17fda7abafb170062257a3c61853eb44" range="0-50579,14643568-42165445,112754883-155943079,160388958-195285089,246175324-277282951,301094864-395959834,551486963-583184929" url="download.microsoft.com/download/9/9/F/99F5E440-5EB5-4952-9935-B99662C3DF70/adk/Installers/9722214af0ab8aa9dffb6cfdafd937b7.cab"/>
+		<OBJECT id="21" name="winpe_amd64" path="" range="0-176038966" md5="27b633500c541b1300e36f52a85625f2" url="download.microsoft.com/download/6/A/E/6AEA92B0-A412-4622-983E-5B305D2EBE56/adk/Installers/6d3c63e785ac9ac618ae3f1416062098.cab"/>
+		<OBJECT id="21" name="WinPE_OCs_amd64" path="" md5="0f5ad0389e00ff4907193d1ae87c7d16" range="0-50579,5779855-44234227,120999137-187321203,192244041-204058720,256096598-279345418,301294683-401236307,560742502-582897150" url="download.microsoft.com/download/6/A/E/6AEA92B0-A412-4622-983E-5B305D2EBE56/adk/Installers/9722214af0ab8aa9dffb6cfdafd937b7.cab"/>	
+		<OBJECT id="22" name="winpe_amd64" path="" range="0-266840529" md5="492933aa5b4959779def0492b9cc46f5" url="download.microsoft.com/download/3/c/2/3c2b23b2-96a0-452c-b9fd-6df72266e335/adkwinpeaddons/Installers/6d3c63e785ac9ac618ae3f1416062098.cab"/>
+		<OBJECT id="22" name="WinPE_OCs_amd64" path="" range="0-634307231" md5="94d4ec44c69783fd03a7f761a9ab3510" url="download.microsoft.com/download/3/c/2/3c2b23b2-96a0-452c-b9fd-6df72266e335/adkwinpeaddons/Installers/9722214af0ab8aa9dffb6cfdafd937b7.cab"/>
+	</OBJECTS>
+</DOWNLOADER>

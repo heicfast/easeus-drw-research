@@ -1,0 +1,9 @@
+*.zip
+p1/
+p2/
+dl*.log
+__pycache__/
+*.pyc
+ghidra_projects/
+*.ghidra/
+tools/

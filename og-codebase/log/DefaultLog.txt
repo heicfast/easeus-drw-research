@@ -1,0 +1,573 @@
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree start computer file count : 223364468
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree end computer file count : 223364531
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree prepart to remove file sytem node: 223364531
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 223364531
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 223364531
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish to remove file sytem node: 223364531
+CDirectoryTreeBuilder::FinishSearch prepare to create 3 new file system tree
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:223364531
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:223364531
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:223364531
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:223364531
+CDirectoryTreeBuilder::FinishSearch finish to create new file system tree
+CDirectoryTreeBuilder::FinishSearch prepare to create 2 new file system tree
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:223364578
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:223364578
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:223364578
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:223364578
+CDirectoryTreeBuilder::FinishSearch finish to create new file system tree
+CDirectoryTreeBuilder::BuildTree begin build raw file node:223386781
+CDirectoryTreeBuilder::BuildTree finish build raw file node:223386781
+CDirectoryTreeBuilder::BuildTree begin show file system node:223386781
+CDirectoryTreeBuilder::BuildTree finish show file system node:223387656
+CDirectoryTreeBuilder::BuildTree begin build raw file node:223387656
+CDirectoryTreeBuilder::BuildTree finish build raw file node:223387656
+CDirectoryTreeBuilder::BuildTree begin show file system node:223387656
+CDirectoryTreeBuilder::BuildTree finish show file system node:223388531
+CDirectoryTreeBuilder::BuildTree begin build raw file node:223388531
+CDirectoryTreeBuilder::BuildTree finish build raw file node:223388531
+CDirectoryTreeBuilder::BuildTree begin show file system node:223388531
+CDirectoryTreeBuilder::BuildTree finish show file system node:223389390
+CDirectoryTreeBuilder::BuildTree begin build raw file node:223389390
+CDirectoryTreeBuilder::BuildTree finish build raw file node:223389390
+CDirectoryTreeBuilder::BuildTree begin show file system node:223389390
+CDirectoryTreeBuilder::BuildTree finish show file system node:223390296
+CDirectoryTreeBuilder::BuildTree begin build raw file node:223390296
+CDirectoryTreeBuilder::BuildTree finish build raw file node:223390296
+CDirectoryTreeBuilder::BuildTree begin show file system node:223390296
+CDirectoryTreeBuilder::BuildTree finish show file system node:223390296
+CDirectoryTreeBuilder::BuildTree begin build raw file node:223390296
+CDirectoryTreeBuilder::BuildTree finish build raw file node:223390296
+CDirectoryTreeBuilder::BuildTree begin show file system node:223390296
+CDirectoryTreeBuilder::BuildTree finish show file system node:223390296
+CDirectoryTreeBuilder::BuildTree begin build raw file node:223390296
+CDirectoryTreeBuilder::BuildTree finish build raw file node:223390296
+CDirectoryTreeBuilder::BuildTree begin show file system node:223390296
+CDirectoryTreeBuilder::BuildTree finish show file system node:223390296
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 15---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 7---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 55---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 71---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 39---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 31---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 23---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 47---------------
+-----------------Ldq:Read sector parameter error = 73---------------
+-----------------Ldq:Read sector parameter error = 63---------------
+bad sector:509011968, count:8192
+bad sector:509017088, count:2048
+bad sector:607037440, count:8192
+bad sector:607038464, count:2048
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree start computer file count : 224896968
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree end computer file count : 224897093
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree prepart to remove file sytem node: 224897093
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 224897093
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 224897093
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish to remove file sytem node: 224897093
+CDirectoryTreeBuilder::FinishSearch prepare to create 3 new file system tree
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:224897093
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:224897093
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:224897093
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:224897093
+CDirectoryTreeBuilder::FinishSearch finish to create new file system tree
+CDirectoryTreeBuilder::FinishSearch prepare to create 2 new file system tree
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:224897406
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:224897406
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:224897406
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:224897406
+CDirectoryTreeBuilder::FinishSearch finish to create new file system tree
+CDirectoryTreeBuilder::BuildTree begin build raw file node:225098453
+CDirectoryTreeBuilder::BuildTree finish build raw file node:225098453
+CDirectoryTreeBuilder::BuildTree begin show file system node:225098453
+CDirectoryTreeBuilder::BuildTree finish show file system node:225107968
+CDirectoryTreeBuilder::BuildTree begin build raw file node:225107968
+CDirectoryTreeBuilder::BuildTree finish build raw file node:225107968
+CDirectoryTreeBuilder::BuildTree begin show file system node:225107968
+CDirectoryTreeBuilder::BuildTree finish show file system node:225108000
+CDirectoryTreeBuilder::BuildTree begin build raw file node:225108000
+CDirectoryTreeBuilder::BuildTree finish build raw file node:225108000
+CDirectoryTreeBuilder::BuildTree begin show file system node:225108000
+CDirectoryTreeBuilder::BuildTree finish show file system node:225108000
+CDirectoryTreeBuilder::BuildTree begin build raw file node:225108000
+CDirectoryTreeBuilder::BuildTree finish build raw file node:225108000
+CDirectoryTreeBuilder::BuildTree begin show file system node:225108000
+CDirectoryTreeBuilder::BuildTree finish show file system node:225108000
+CDirectoryTreeBuilder::BuildTree begin build raw file node:225108000
+CDirectoryTreeBuilder::BuildTree finish build raw file node:225108000
+CDirectoryTreeBuilder::BuildTree begin show file system node:225108000
+CDirectoryTreeBuilder::BuildTree finish show file system node:225108015
+CDirectoryTreeBuilder::BuildTree begin build raw file node:225108015
+CDirectoryTreeBuilder::BuildTree finish build raw file node:225108015
+CDirectoryTreeBuilder::BuildTree begin show file system node:225108015
+CDirectoryTreeBuilder::BuildTree finish show file system node:225108015
+CDirectoryTreeBuilder::BuildTree begin build raw file node:225108015
+CDirectoryTreeBuilder::BuildTree finish build raw file node:225108015
+CDirectoryTreeBuilder::BuildTree begin show file system node:225108015
+CDirectoryTreeBuilder::BuildTree finish show file system node:225108015
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+Failed to write file! CFileRecoverWorker::ReadAndWriteDataRunList  1515
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree start computer file count : 228836796
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree end computer file count : 228836796
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree prepart to remove file sytem node: 228836796
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 228836796
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 228836812
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 228836812
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 228836812
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish to remove file sytem node: 228836812
+CDirectoryTreeBuilder::FinishSearch prepare to create 3 new file system tree
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:228836812
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:228836812
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:228836812
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:228836812
+CDirectoryTreeBuilder::FinishSearch finish to create new file system tree
+CDirectoryTreeBuilder::BuildTree begin build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree finish build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree begin show file system node:228841468
+CDirectoryTreeBuilder::BuildTree finish show file system node:228841468
+CDirectoryTreeBuilder::BuildTree begin build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree finish build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree begin show file system node:228841468
+CDirectoryTreeBuilder::BuildTree finish show file system node:228841468
+CDirectoryTreeBuilder::BuildTree begin build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree finish build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree begin show file system node:228841468
+CDirectoryTreeBuilder::BuildTree finish show file system node:228841468
+CDirectoryTreeBuilder::BuildTree begin build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree finish build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree begin show file system node:228841468
+CDirectoryTreeBuilder::BuildTree finish show file system node:228841468
+CDirectoryTreeBuilder::BuildTree begin build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree finish build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree begin show file system node:228841468
+CDirectoryTreeBuilder::BuildTree finish show file system node:228841468
+CDirectoryTreeBuilder::BuildTree begin build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree finish build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree begin show file system node:228841468
+CDirectoryTreeBuilder::BuildTree finish show file system node:228841468
+CDirectoryTreeBuilder::BuildTree begin build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree finish build raw file node:228841468
+CDirectoryTreeBuilder::BuildTree begin show file system node:228841468
+CDirectoryTreeBuilder::BuildTree finish show file system node:228841468
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+bad sector:122279871, count:65
+-----------------Ldq:Read sector parameter error = 2048---------------
+-----------------Ldq:Read sector parameter error = 2048---------------
+-----------------Ldq:Read sector parameter error = 2048---------------
