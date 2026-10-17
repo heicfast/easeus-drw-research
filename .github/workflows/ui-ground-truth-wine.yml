@@ -67,7 +67,14 @@ jobs:
             if [ "$t" -gt "${{ inputs.wait_seconds }}" ]; then break; fi
             sleep $(( t - prev ))
             { wmctrl -l; echo "--- xwininfo children ---"; xwininfo -root -children 2>/dev/null | head -40; } > "census_t${t}.txt" 2>&1
-            import -window root "screen_t${t}.png" 2>/dev/null || { xwd -root -out "/tmp/r${t}.xwd" 2>/dev/null && convert "/tmp/r${t}.xwd" "screen_t${t}.png" 2>/dev/null; }
+            # screenshot: capture errors visibly, then fall back through xwd
+            import -window root "screen_t${t}.png" || {
+              echo "import-t${t} failed: $?"
+              xwd -root -display :99 -out "/tmp/r${t}.xwd" && convert "/tmp/r${t}.xwd" "screen_t${t}.png" || echo "xwd-t${t} failed: $?"
+            }
+            # capture the DRWUI window itself if mapped
+            WID=$(wmctrl -l 2>/dev/null | awk '/DRWUI/{print $1; exit}')
+            if [ -n "$WID" ]; then import -window "$WID" "drwwin_t${t}.png" 2>&1 | head -2 || true; fi
             echo "===== census at t=${t}s ====="; cat "census_t${t}.txt"
             prev=$t
           done
@@ -103,6 +110,7 @@ jobs:
           name: ui-ground-truth-${{ matrix.tag }}
           path: |
             census_*.txt
+            drwwin_*.png
             screen_*.png
             windows_census.txt
             wine_out.log
