@@ -20,6 +20,9 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `landing-solution-wizard-3of3.png` — Solution wizard step 3/3
 - `landing-solution-wizard-closed.png` — After wizard close (Next x3) - back to landing state
 - `landing-buy-activate-dialog.png` — CEnterLicenceDlg (buy/cart click): "Enter your license code to enjoy full features" + input + Paste/Activate + "Buy a License Now" (yellow) + "No reinstallation or rescan required" note
+- `landing-hamburger-menu-open.png` — Drw_More_Menu OPEN: panel x 748-972, 13 items + 3 separators (Language/Help submenus, Activate, Check for Updates, Share submenu, Refer Friends, File Repair, Todo Backup, ChatPDF, Settings submenu, User Survey +red-dot, About)
+- `landing-after-activate-close.png` — Clean landing after activate-dialog X-close (return-to-state reference)
+- `landing-activate-input-focus.png` — Activate dialog with license input focused
 
 ## 03-scan-phase
 
@@ -49,10 +52,14 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `results-baseline-v2.png` — Results baseline (round-3 run)
 - `results-row-selected-round4.png` — Row selected (round-4 clean capture)
 - `results-context-menu-round4.png` — Context menu (round-4 variant geometry)
+- `results-filter-bar-open-clean.png` — Filter bar open (clean sequence): Show / File Type / Date Modified / File Size dropdowns + AI Recommend toggle
+- `results-filter-path-dropdown.png` — Path dropdown open + tree list (Windows C: 1.1M / File Path Lost...)
+- `results-search-active.png` — Search active: "Search results for system" + filter tag with X
 
 ## 06-preview
 
 - `preview-panel-live.png` — Live preview panel (double-click): thumbnail + "Recovery Chances: High" circular gauge
+- `preview-panel-html-content.png` — Live preview panel rendering TEXT/HTML content (index.html source) + Recovery Chances: High + Existing + full file details
 
 ## 07-recovery
 
@@ -69,4 +76,5 @@ Every captured UI state, organized by user-flow area. Coordinates are window-rel
 - `recovery-destdlg-repair-off.png` — Destination: Enable-file-repair toggle OFF state
 - `recovery-insufficient-space-gate.png` — INSUFFICIENT SPACE GATE (Save with 146GB need on 3.9GB-free D:): "Need an additional 146.41 GB" + Continue/Reselect
 - `recovery-retention-gate-v2.png` — Retention gate via context-menu Recover on 1.1M files (round-4 variant)
+- `recovery-retention-gate-recurrent.png` — RECURRENCE proof: retention gate re-fires during results browsing (timed nag behavior)
 

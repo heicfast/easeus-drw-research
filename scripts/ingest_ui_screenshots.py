@@ -115,6 +115,23 @@ MANIFEST = [
      'Row selected (round-4 clean capture)'),
     ('/tmp/atlas-results4/shot_21_context_menu.png', '05-results', 'results-context-menu-round4.png',
      'Context menu (round-4 variant geometry)'),
+    # ---- round-5 atlas captures (menu open, filter dropdowns, search, preview content) ----
+    ('/tmp/atlas-landing5/shot_09_menu_open.png', '02-landing', 'landing-hamburger-menu-open.png',
+     'Drw_More_Menu OPEN: panel x 748-972, 13 items + 3 separators (Language/Help submenus, Activate, Check for Updates, Share submenu, Refer Friends, File Repair, Todo Backup, ChatPDF, Settings submenu, User Survey +red-dot, About)'),
+    ('/tmp/atlas-landing5/shot_06b_after_close.png', '02-landing', 'landing-after-activate-close.png',
+     'Clean landing after activate-dialog X-close (return-to-state reference)'),
+    ('/tmp/atlas-landing5/shot_07b_license_input_focus.png', '02-landing', 'landing-activate-input-focus.png',
+     'Activate dialog with license input focused'),
+    ('/tmp/atlas-results5/shot_21_filter_bar.png', '05-results', 'results-filter-bar-open-clean.png',
+     'Filter bar open (clean sequence): Show / File Type / Date Modified / File Size dropdowns + AI Recommend toggle'),
+    ('/tmp/atlas-results5/shot_22_filter_path_dropdown.png', '05-results', 'results-filter-path-dropdown.png',
+     'Path dropdown open + tree list (Windows C: 1.1M / File Path Lost...)'),
+    ('/tmp/atlas-results5/shot_24_search_typed.png', '05-results', 'results-search-active.png',
+     'Search active: "Search results for system" + filter tag with X'),
+    ('/tmp/atlas-results5/shot_33_preview_panel.png', '06-preview', 'preview-panel-html-content.png',
+     'Live preview panel rendering TEXT/HTML content (index.html source) + Recovery Chances: High + Existing + full file details'),
+    ('/tmp/atlas-results5/shot_25_icon_view.png', '07-recovery', 'recovery-retention-gate-recurrent.png',
+     'RECURRENCE proof: retention gate re-fires during results browsing (timed nag behavior)'),
 ]
 
 def main():
