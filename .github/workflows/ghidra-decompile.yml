@@ -43,6 +43,8 @@ jobs:
             files: PE_Tools.dll PubLog.dll Japanese.dll legacy.dll archive.dll cloud_session.dll firebaseonlineconfig.dll AliyunWrap.dll AliyunWrapExe.exe EuDownloader.exe EuICloudRecovery.dll EuUserRate.dll EUinApp.exe firebasefetch.exe send_dmp_with_aliyun.exe EUHwpViewer.exe EuSendMessage.exe unins000.exe EUOfficeViewer.exe PDFViewer.exe EUVideoRepair.dll
           - batch: mo-modules
             files: PartitionRecovery/NTFSLib.mo PartitionRecovery/NTFSUtil.mo PartitionRecovery/FatLib.mo PartitionRecovery/FatFormat.mo PartitionRecovery/NTFSFileSystemAnalyser.mo PartitionRecovery/FATFileSystemAnalyser.mo PartitionRecovery/ExFatFileSystemAnalyser.mo PartitionRecovery/ExtFileSystemAnalyser.mo PartitionRecovery/RefsFileSystemAnalyser.mo PartitionRecovery/FileSystemAnalyser.mo PartitionRecovery/FileSystem.mo PartitionRecovery/FileSystemCheck.mo PartitionRecovery/Device.mo PartitionRecovery/DeviceManager.mo PartitionRecovery/DeviceAdapter.mo PartitionRecovery/Partition.mo PartitionRecovery/PartitionRecoveryD.mo PartitionRecovery/LdmManager.mo PartitionRecovery/Boot.mo PartitionRecovery/EFIBoot.mo PartitionRecovery/Common.mo PartitionRecovery/Config.mo PartitionRecovery/CallbackOperator.mo PartitionRecovery/CheckVersion.mo PartitionRecovery/Error.mo PartitionRecovery/Log.mo PartitionRecovery/Mom.mo PartitionRecovery/RegLib.mo PartitionRecovery/Thread.mo PartitionRecovery/Fixup.mo PartitionRecovery/bitlockerhelp.mo PartitionRecovery/Tool.mo
+          - batch: wave2
+            files: BUILDPE/EaseUS-x64/EuSendMessage.exe diskhealth/DiskHealth.exe VideoViewer/EaseUS_VideoViewer.exe VideoViewer/VideoFileRepairer.exe VideoViewer/EaseUS_MediaGraph.dll libssh2.dll
     env:
       GHIDRA_VERSION: "11.3.2_PUBLIC_20250415"
     steps:
