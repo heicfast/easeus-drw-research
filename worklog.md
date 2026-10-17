@@ -270,3 +270,25 @@ Stage Summary:
   per-node tree grammar, .rsf stat-qword semantics naming, ImageRepair per-format
   AnalysisData case-by-case walks (PNG/WebP/HEIC state machines), UI dynamic ground-truth
   re-dispatch when CI minutes replenish
+
+---
+Task ID: uiux-session-4
+Agent: UI/UX RE agent (session 4)
+Task: Continue UI/UX work on migrated repo (heicfast/easeus-drw-research) — resolve 05-uiux §7 open items + worklog remaining items
+
+Work Log:
+- Migration verified (new repo HEAD == old mirror); cloned 1.6GB with full ghidra-drwui (56MB/2.38M lines)
+- Rebased cleanly around parallel session's commits (3 syncs, 0 lost work); adopted THEIR ground-truth workflow redesign (Windows-native + Wine matrix), dropped my overlapping Wine v2 to avoid conflict
+- Built + validated moc tooling: moc_slot_decoder.py (qt_metacall chain/trampolines/if-chain case tables/IndexOfMethod signal ptrs/props; validated on CDetailPage 44 slots) + moc_stringdata_extract.py (Qt5 stringdata blobs from PE rdata)
+- PREMISE CORRECTION: "96/97-slot large moc dispatchers" were VTABLE sizes — ArchivePreviewView=0 own methods (forward-only), CClassifyLeftTreeView=0 (override-only subclass; IsTypeTree() polymorphism), real dispatcher CLeftTreeView=47 (13 sigs + 34 slots, stringdata-validated)
+- NEW ARCHITECTURE: CUISink app-lifetime singleton (QCoreApplication-parented, MSVC init-guard) + 13-class Sink/observer family; coordinated Freeze/Unfreeze protocol (7 methods/signals, 4-stage logged); async expand-on-scroll (QTimer 1s debounce + QThread@TimeCriticalPriority)
+- Discovered + decoded CRightContent = true largest dispatcher (82 methods, 24-signal right-pane contract incl. retranslate/sigAiRecommedBtnEnter)
+- RTTI census: 980 classes (900 app), Qt inheritance spine for 395 (QFrame 147/QDialog 58/QThread 42)
+- QSS full property census: 2,805 rules/11,929 decl/1,677 targets/777 assets; 30-section map; Apower vestige dialogs; 5-step blue tint ladder; layout-in-QSS finding (36% geometry)
+- EUinApp DECODED with role correction: orphaned EUSetWebCtrlIEVersion registry bootstrapper (HKCU FEATURE_BROWSER_EMULATION 9000/10000/11000; zero references corpus-wide ASCII+UTF-16) — NOT the purchase host
+- Ingested first SUCCESSFUL dynamic ground-truth runs: loader path renders REAL maximized DRWUI (1600×1000 + tile-row children y~185 + 640×480 central child), direct path verified negative (supervisor necessity), NAS firewall prep i18n-aware (netsh EN+GBK 网络发现), shipped dev-config JSON (19.3/视频重组/19.2回退分支); cross-linked with parallel session's process-tree artifact
+
+Stage Summary:
+- ALL 4 §7 open items RESOLVED (3 with premise/role corrections: moc dispatchers, EUinApp; 1 via ingestion: dynamic confirmation) + RTTI class census (worklog remaining item)
+- Artifacts 20-24 + 4 new tools + 4 evidence JSONs; master doc §7 resolved + §11 wave-4; INDEX updated; correction addenda in artifacts 03/09/13/17; 6 commits pushed conflict-free
+- Remaining for next sessions: mid-size dispatchers (CFilterButton family, repair item rows), PreviewDataSource/SearchDataSource non-Qt hierarchies, QSS-target↔class objectName closure (1,677↔900), scripted interaction driver (xdotool) for past-home ground truth
