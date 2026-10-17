@@ -83,3 +83,75 @@ Algorithm (from log strings, in repair-pipeline order):
 - Repairable formats overlap RAWSearchDLL analysers (both know MP4/MOV internals — RAW carving uses the same box knowledge to find headers)
 - EUImageEnhance.dll + ImageMagick stack (CORE_RL_*) enhance thumbnails of damaged images after repair
 - Fixo engines also ship in BUILDPE/EaseUS-x64 (same PDBs) — repair available in WinPE
+
+---
+
+## DECOMPILED UPDATE (Ghidra repair batch: 4.02M lines / 17 binaries — verified)
+
+### A. Internal source trees (embedded `__FILE__` paths)
+
+**Video repair** (`e:\drw\_drw_main\drwintelligentscan\videorepair\`, 26 files — part of the
+DRWIntelligentScan monorepo, NOT Fixo):
+box.cpp, ftypbox.cpp, hdlrbox.cpp, sample_entry_box.cpp, stcobox.cpp, stscbox.cpp,
+stsdbox.cpp, stszbox.cpp, movmp4repair.cpp, mp4binaryanalyse.cpp, regroupfile.cpp,
+integrationalg.cpp, avifilemanager.cpp, aviregroup.cpp, mtsrawfinder.cpp,
+mtsregstatus.cpp, mxfregroup.cpp, filemanager.cpp, cfilenodeextend.cpp, fshelper.cpp,
+iohelper.cpp, enhancebitmap.cpp, scanroundmanaegr.cpp [sic], utils.cpp, vrgfilestream.cpp,
+vrgtimer.cpp.
+
+**Fixo product line** (`D:\Fixo\01_Project\00_Source\_main\` — separate solution!):
+| Project | Files (selected) |
+|---|---|
+| ImageRepair | 37: bmp/, gif/, jpeg/, jxl/, png/, svg/, webp/, raw/{3fr,arw,avif,cr2,cr3,crw,dng,erf,gpr,heic,mrw,nef,orf,pef,raf,rw2,sr2,srf,srw,tiff,x3f}, common/libJpegOperation, net/client (cloud), commandLine/commandParser |
+| OfficeRepair | hwpxFileInfo, hwpxFileRepair, hwpxInfo/{contentsHeader,contentsHpf,metaContainer,metaContainerXml,metaManifest,mimetype,opXmlInfo,opensslHwpx,settings,version}, OldOfficeRepair/hwp/{hwp_FileHeader,hwp_FileRecord,hwp_Script,hwp_ViewText,hwp_file,repair_hwp}, common/{aesOperate,zlibOperate} |
+| ArchiveRepair | 7z/7zNextHeader, archive7z, client, commandParser |
+| AdobeRepair | AdobeRepair, client, commandParser |
+
+**EUImageEnhance.dll** = statically linked **OpenCV 2.4** (C:\builds\2_4_PackSlave-win32-vc12-static)
++ project glue — explains its 9,841 functions; used for photo enhancement of repaired images.
+**EuOfficeRepairWin32** built on an Azure DevOps agent (`d:\agent\_work\3\s\`) — outsourced/
+CI-built component; EuRepairHost = 50 functions (thin licensing bridge, activation.easeus.com).
+
+### B. Video repair algorithm (from 125 trace points, byte-level verified)
+
+**MP4/ISO-BMFF engine (movmp4repair.cpp + box classes):**
+1. **Weighted atom grammar**: static registry of top-level 4CCs each with float weight 1.0:
+   ftyp, pdin, moov, moof, mfra, mdat, free, skip, meta, meco, styp, sidx, ssix, prft —
+   box walker recognizes atoms in any order with confidence, tolerant to corruption.
+2. **Two-scan architecture**: "first scan use Time start" → scan 1 (locate atoms + bounds) →
+   "start calc blokc Bound" [sic] → "scan second start/end" → verification pass.
+3. **moov triage** (regroupfile.cpp): "file:%s be regroup,moov is raw:%d";
+   "file:%s has no full correct moov" / "%s is bad moov" → falls back to **sample-file moov**
+   (user supplies a healthy video from same device — CRepairVideoGetSampleWnd) and
+   "useOrgFsDatarun:%d usergedDatarun:%d" chooses between the ORIGINAL filesystem datarun
+   (from scan engine results) or the regrouped datarun carved from mdat extents.
+4. **Fragment tracking via self-built bitmap** (integrationalg.cpp): "bitmap create by self",
+   "%s be set to bmp:start sector %lld count: %lld"; enhancebitmap.cpp "file %s fill sectors:%lld-%lld"
+   — sector-granular coverage map of video fragments on disk.
+5. **mdat matching**: "file:%lld can not find suit able mdat"; "HD video one frag use rollbakc alg"
+   (rollback algorithm for fragmented HD videos).
+6. **Per-format regroup**: AVI (idx1-based: aviregroup.cpp "regroup :frag Size %d" + idx info
+   dev offset), MTS/M2TS (mtsrawfinder "find Mts Raw on device offset" — raw stream location on
+   DEVICE, not file), MXF (KLV regroup), all with fragment limits ("be limited with frag:%ld").
+
+### C. Archive repair (7z) — 7zNextHeader.cpp trace points confirm:
+Scans for the NEXT 7z header after corruption (compressed-structure recovery), using the
+7z.dll API + own header-walking logic.
+
+### D. HWPX/HWP office repair — layered:
+- HWPX (OOXML-like Korean format): parse container (contentsHeader/contentsHpf/metaContainer/
+  mimetype/settings/version), **opensslHwpx.cpp = OpenSSL-based CFB decryption** of
+  password-protected HWPX (matches DRWUI repair flow CRepairPDFDecrypt* analog + Dict
+  password dictionary for brute-force).
+- Legacy HWP 3.x/5.x: FileHeader/FileRecord/Script/ViewText record-level repair
+  (OldOfficeRepair — clearly older codebase generation).
+- Common: aesOperate + zlibOperate (AES-ECB/CBC + zlib stream repair).
+
+### E. Chain-of-custody (who builds what)
+| Component | Build tree | Build env |
+|---|---|---|
+| EUVideoRepair.dll | e:\drw\_drw_main (DRWIntelligentScan) | dev box (e:) |
+| DRWUI.exe | e:\drw\_drw_main | dev box |
+| Fixo repair EXEs (Img/Office/Archive/Adobe) | D:\Fixo\01_Project | Fixo solution (d:) |
+| EuOfficeRepairWin32.exe | ? | Azure DevOps agent d:\agent\_work\3\s |
+| euactiveonline (activation) | h:\awork\euactiveonline3.1 | separate activation product |
