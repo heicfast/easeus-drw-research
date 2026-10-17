@@ -375,6 +375,17 @@ IsCancelled) checked after every child; on cancel the writer tears down all 3 li
 returns 0 (writer @186644-186674, reader @187082-187099 — reader additionally calls
 `EndRecord` before aborting).
 
+
+> **CORRECTIONS (session of 2026-10-17, per-FS walkthrough parts 1-3 —
+> `ifileproperties-part{1,2,3}*.md`):** (a) CRAW `+0x1A` is the **file size**, not a
+> FILETIME — the timestamp survives only as the formatted +0x26 string (FUN_140c41aa0);
+> census values are jpg-sized (83,104 etc.). (b) ZFS grammar leads with **one** u64
+> (name length), not two — serializer FUN_140536430/reader FUN_140536570 pair is
+> authoritative (the two-u64 census branch was never exercised: 0 ZFS records in all
+> samples). (c) The +0x60/+0x64 NTFS ints decode as **type-registry ID** (feeds Type
+> column/filter) + secondary id; +0x40 is a parent/directory anchor (consecutive-per-dir
+> bands), not the FRN itself.
+
 #### 5.4.5 Content objects — the IFileProperties family (per-FS file metadata)
 
 Written as `[u32 type_code][class-specific fields]` (writer FUN_1400d6fa0 @188981:
