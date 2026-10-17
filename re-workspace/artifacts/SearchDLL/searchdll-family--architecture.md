@@ -97,12 +97,20 @@ Quick scan vs deep scan (class structure):
 3. Lost partitions: PartitionRecovery.dll (separate engine, .mo modules) finds candidate partitions; each is then scanned by the appropriate FS DLL
 4. RAW pass: RAWSearchDLL carves by signatures across unallocated clusters (volume bitmap from FS engine) + free space
 5. Results: CSearchedPartitionInfo / per-FS subclasses → DRWUI CDirectoryTreeBuilder / IRawDirectoryTreeBuilder builds the tree; CClassify* controllers build Type view; CAdvanceFileFilterMgr applies FileFilter.xml
-6. Session persistence: results serialized to SaveScan\*.rsf (encrypted/obfuscated format, magic 0xEAF4B31B)
+6. Session persistence: results serialized to SaveScan\*.rsf (**zlib-chunked compressed**,
+   magic 0xEAF4B31B — see corrected `artifacts/SaveScan/rsf-format--scan-session.md`;
+   NOT encrypted)
 
 ## 7. Verification checklist
 - [x] All 9 DLLs decompiled (CI, Ghidra 11.3.2) — REPORT.md per batch
 - [x] Factory exports cross-checked against DRWUI LoadLibrary strings
 - [x] RTTI class families enumerated (re-workspace/rtti_classes.json)
 - [x] Signature DBs (raw_signs.json + EUUserData) parsed and linked to engine
-- [ ] Per-engine artifact documents (in progress — see artifacts/SearchDLL/)
-- [ ] Algorithm deep-dives per engine (decompiled code walkthrough) — next rounds
+- [x] Per-engine deep-dive: **NTFS** — `ntfs-engine--deep-dive.md` (algorithm-level:
+      MFT bootstrap/ATTRIBUTE_LIST fork, record-walk filters, deleted-flag bitmap scoring,
+      runlist nibble math, quick-vs-complete, line-cited)
+- [x] Per-engine deep-dive: **RAW** — `rawsearch-carving--deep-dive.md` (registry RB-tree
+      construction, fourcc keys, ForCellTest harness, raw_signs.json istream tokenizer —
+      corrects CJsonObject attribution, PDF/JPEG grammar sites)
+- [ ] Per-engine deep-dive for FAT/exFAT/EXT4/HFS+/ReFS/Btrfs/ZFS — next rounds
+- [ ] Algorithm deep-dives per engine (decompiled code walkthrough) — partially covered by the two above
