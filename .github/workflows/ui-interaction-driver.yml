@@ -180,39 +180,45 @@ jobs:
             Shot "23_after_esc2"
             $log += "ESC after recover-all"
           } else {
-            # results-interactions: dismiss modal first
-            [ClickHelper2]::Esc()
-            Start-Sleep -Seconds 2
-            Shot "20_after_esc_modal"
-            $log += "ESC to dismiss complete modal"
-            # Filter button (toolbar cluster ~755,70)
+            # results-interactions v2: dismiss the celebration window via its
+            # primary CTA (Go to Recover) - ESC does NOT close it (wave-5 finding)
+            WClick 0.4824 0.6569
+            Start-Sleep -Seconds 5
+            Shot "20_after_go_to_recover"
+            $log += "clicked Go to Recover (dismiss celebration -> results)"
+            # Filter toolbar button (~755,70) -> toggles the filter bar
             WClick 0.7373 0.0972
             Start-Sleep -Seconds 2
             Shot "21_after_filter_click"
-            $log += "clicked Filter"
+            $log += "clicked Filter toolbar button"
+            # click first filter-bar dropdown button (bar appears under toolbar; Type btn ~x=600,y=118)
+            WClick 0.586 0.164
+            Start-Sleep -Seconds 2
+            Shot "22_after_filterbtn_click"
+            $log += "clicked filter-bar dropdown button"
             [ClickHelper2]::Esc()
             Start-Sleep -Seconds 1
             # Type tab (234,117)
             WClick 0.2285 0.1625
             Start-Sleep -Seconds 3
-            Shot "22_after_type_tab"
+            Shot "23_after_type_tab"
             $log += "clicked Type tab"
             # Path tab back (140,117)
             WClick 0.1367 0.1625
             Start-Sleep -Seconds 2
-            Shot "23_after_path_tab"
+            Shot "24_after_path_tab"
             $log += "clicked Path tab"
             # single-click a file row (list area ~600,200)
             WClick 0.5859 0.2778
             Start-Sleep -Seconds 2
-            Shot "24_after_row_click"
+            Shot "25_after_row_click"
             $log += "single-clicked file row"
             # double-click for preview window
             WClick 0.5859 0.2778
             Start-Sleep -Milliseconds 120
             WClick 0.5859 0.2778
             Start-Sleep -Seconds 5
-            Shot "25_after_row_dblclick"
+            Shot "26_after_row_dblclick"
             $log += "double-clicked file row (preview attempt)"
           }
           $log | Out-File interaction_log.txt -Encoding utf8
