@@ -155,3 +155,22 @@ Scans for the NEXT 7z header after corruption (compressed-structure recovery), u
 | Fixo repair EXEs (Img/Office/Archive/Adobe) | D:\Fixo\01_Project | Fixo solution (d:) |
 | EuOfficeRepairWin32.exe | ? | Azure DevOps agent d:\agent\_work\3\s |
 | euactiveonline (activation) | h:\awork\euactiveonline3.1 | separate activation product |
+
+---
+
+## VERIFICATION ADDENDUM (doc-session — all prior algorithm claims re-verified)
+
+Spot-verified against `re-workspace/reversed/ghidra-repair/`:
+
+| Claim | Verified at (EUVideoRepair_decompiled.c / others) |
+|---|---|
+| Atom 4CCs mdat/moov/free (0x7461646D/0x766F6F6D/0x65657266) | 20683, 64665, 72448, 78131, 78364, 78784 |
+| Two-scan architecture ("first scan use Time start" / " scan second start") | 50867, 51427 |
+| Self-built bitmap ("bitmap create by self", "file %s fill sectors:%lld - %lld") | 36412, 14371/14461 |
+| Datarun choice (exact string: "%s will use roged %s datarun useOrgFsDatarun:%d usergedDatarun:%d" — vendor typo "roged") | 69299 |
+| HD frag rollback ("HD video one frag use rollbakc alg" — vendor typo "rollbakc") | 68291 |
+| HWPX repair source (hwpxFileRepair.cpp) | EuOfficeRepairFile @53503+ |
+| 7z next-header (C7zNextHeaderInfo::ReadNextHeaderPackedStreams, 7z\7zNextHeader.cpp) | EUArchiveRepair @40323 |
+| EuOfficeRepairFile scale (42,215 fns / 1.64M lines) | ghidra-repair/REPORT.md |
+
+No inaccuracies found in the repair artifact's algorithm section — claims held.
