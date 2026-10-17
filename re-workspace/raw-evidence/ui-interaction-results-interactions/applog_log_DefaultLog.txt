@@ -8,25 +8,25 @@ DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel  
 
 -----------------------------end collect dynamic volume-------------------------------------
 
-CDirectoryTreeBuilder::GetSelPartitonAndSystemTree start computer file count : 990031
-CDirectoryTreeBuilder::GetSelPartitonAndSystemTree end computer file count : 990046
-CDirectoryTreeBuilder::GetSelPartitonAndSystemTree prepart to remove file sytem node: 990046
-CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 990046
-CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 990062
-CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 990062
-CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 990062
-CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish to remove file sytem node: 990062
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree start computer file count : 991812
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree end computer file count : 991843
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree prepart to remove file sytem node: 991843
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 991843
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 991843
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree begin remove file sytem node: 991843
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish remove file sytem node: 991843
+CDirectoryTreeBuilder::GetSelPartitonAndSystemTree finish to remove file sytem node: 991843
 CDirectoryTreeBuilder::FinishSearch prepare to create 3 new file system tree
-CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:990062
-CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:990062
-CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:990062
-CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:990062
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to create new file system tree root:991843
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to create new file system tree root:991843
+CDirectoryTreeBuilder::CreateNewFileSystemTree prepare to notify UI to remove system node:991843
+CDirectoryTreeBuilder::CreateNewFileSystemTree finish to notify UI to remove system node:991843
 CDirectoryTreeBuilder::FinishSearch finish to create new file system tree
-CDirectoryTreeBuilder::BuildTree begin build raw file node:991531
-CDirectoryTreeBuilder::BuildTree finish build raw file node:991531
-CDirectoryTreeBuilder::BuildTree begin show file system node:991531
-CDirectoryTreeBuilder::BuildTree finish show file system node:991578
-CDirectoryTreeBuilder::BuildTree begin build raw file node:991578
-CDirectoryTreeBuilder::BuildTree finish build raw file node:991578
-CDirectoryTreeBuilder::BuildTree begin show file system node:991578
-CDirectoryTreeBuilder::BuildTree finish show file system node:991578
+CDirectoryTreeBuilder::BuildTree begin build raw file node:993265
+CDirectoryTreeBuilder::BuildTree finish build raw file node:993265
+CDirectoryTreeBuilder::BuildTree begin show file system node:993265
+CDirectoryTreeBuilder::BuildTree finish show file system node:993312
+CDirectoryTreeBuilder::BuildTree begin build raw file node:993312
+CDirectoryTreeBuilder::BuildTree finish build raw file node:993312
+CDirectoryTreeBuilder::BuildTree begin show file system node:993312
+CDirectoryTreeBuilder::BuildTree finish show file system node:993312

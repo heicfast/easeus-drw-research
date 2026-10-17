@@ -138,14 +138,14 @@
 [2026-10-15 01:20:56:230] (T:14032/P:2116) CDeviceManagerBuilder : UpdatePartitionInformation end.
 [2026-10-15 01:20:57:332] (T:18884/P:2116) START!DiskNum=3,enumSearchMethod=1,s64StartSector=0x0,s64SectorCount=0x749b3fb
 [2026-10-15 01:20:57:339] (T:18884/P:2116)   END!DiskNum=3,enumSearchMethod=1,s64StartSector=0x0,s64SectorCount=0x749b3fb nUsedTime=00000000
-[2026-10-17 16:13:47:348] (T:8836/P:2568) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries start.
-[2026-10-17 16:13:47:350] (T:8836/P:2568) CDiskEnumerator : Storage space init start.
-[2026-10-17 16:13:47:492] (T:8836/P:2568) CDiskEnumerator : Storage space init end.
-[2026-10-17 16:13:47:501] (T:8836/P:2568) CDiskEnumerator : Storage space GetUsedPhysicalDisks end.
-[2026-10-17 16:13:48:641] (T:8836/P:2568) CDiskEnumerator : Vds loadservice end.
-[2026-10-17 16:13:48:714] (T:8836/P:2568) CDiskEnumerator : disk enumerate end.
-[2026-10-17 16:13:48:714] (T:8836/P:2568) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries end.,0
-[2026-10-17 16:13:48:714] (T:8836/P:2568) CDeviceManagerBuilder : CreateDiskManagerItem end.
-[2026-10-17 16:13:48:714] (T:8836/P:2568) CDeviceManagerBuilder : CalcDriveLetter end.
-[2026-10-17 16:13:48:779] (T:8836/P:2568) CDeviceManagerBuilder : UpdatePartitionInformation start.
-[2026-10-17 16:13:48:779] (T:8836/P:2568) CDeviceManagerBuilder : UpdatePartitionInformation end.
+[2026-10-17 16:40:16:062] (T:6396/P:8604) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries start.
+[2026-10-17 16:40:16:062] (T:6396/P:8604) CDiskEnumerator : Storage space init start.
+[2026-10-17 16:40:16:193] (T:6396/P:8604) CDiskEnumerator : Storage space init end.
+[2026-10-17 16:40:16:200] (T:6396/P:8604) CDiskEnumerator : Storage space GetUsedPhysicalDisks end.
+[2026-10-17 16:40:17:334] (T:6396/P:8604) CDiskEnumerator : Vds loadservice end.
+[2026-10-17 16:40:17:406] (T:6396/P:8604) CDiskEnumerator : disk enumerate end.
+[2026-10-17 16:40:17:406] (T:6396/P:8604) CDeviceManagerBuilder : pDiskEnumerator->GetDiskEntries end.,0
+[2026-10-17 16:40:17:406] (T:6396/P:8604) CDeviceManagerBuilder : CreateDiskManagerItem end.
+[2026-10-17 16:40:17:406] (T:6396/P:8604) CDeviceManagerBuilder : CalcDriveLetter end.
+[2026-10-17 16:40:17:490] (T:6396/P:8604) CDeviceManagerBuilder : UpdatePartitionInformation start.
+[2026-10-17 16:40:17:490] (T:6396/P:8604) CDeviceManagerBuilder : UpdatePartitionInformation end.

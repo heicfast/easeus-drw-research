@@ -689,104 +689,108 @@ CDoScanDeviceBase::DoStop:140
 01:31:29:889 m_nIdentifyThreadCount = 0
 01:31:29:904 EnumCollectPartition::RemoveCache 1065
 01:31:29:918 P[2116]:T[18688] run to EnumCollectPartition::~EnumCollectPartition:62
-16:13:42:365 COnlineConfigFirebase::init environment:abroad__free__easeus__21000__1013
-16:13:42:497 DRWUI [21.0.0.0_free easeus] build at[Oct 13 2026 13:33:43] [40504ccb1923e316c9c9a1ffb06907c8307930de],be x64[yes]
-16:13:43:020 P[2568]:T[4740] run to COnlineConfigFirebase::fetch:141
-16:13:46:301 P[2568]:T[2180] run to DrwMainWindow::doFirebaseFetchFinished:752
-16:13:46:301 P[2568]:T[2180] run to HolidayMgr::startDownloadHolidayRes:17
-16:13:46:301 startDownloadHolidayRes firebaseValue :{ 	"switch": false, 	"url": "https://download.easeus.com/download/DRW_Blackfriday.zip", 	"time": "202511100957" } 
-16:13:46:301 startDownloadHolidayRes valueSwitch isString : 0, isBool : 1, value : false 
-16:13:46:302 Nas Cache Temp = D:\a\easeus-drw-research\easeus-drw-research\og-codebase\NasCacheDirectory
-16:13:46:517 EnumCollectPartition::EnumDevice 100
-16:13:46:521 EnumCollectPartition::RemoveCache 1036
-16:13:46:521 EnumCollectPartition::RemoveCache 1046
-16:13:46:521 m_nIdentifyThreadCount = 0
-16:13:46:521 EnumCollectPartition::RemoveCache 1065
-16:13:46:521 Enum disk begin.EnumCollectPartition::EnumDevice 138
-16:13:46:525 Enum disk end.EnumCollectPartition::EnumDevice 142
-16:13:48:539 P[2568]:T[7264] run to EnumCollectPartition::EnumDevice:187
-16:13:48:540 P[2568]:T[7264] run to EnumCollectPartition::EnumDevice:284
-16:13:48:540 EnumCollectPartition::EnumDevice 285
-16:13:48:564 CameraDeviceManager::GetCameraDeviceCount 439
-16:14:27:432 P[2568]:T[2180] run to CScanMgr::doScan:254
-16:14:27:465 Scan drive:C 
+16:40:11:354 COnlineConfigFirebase::init environment:abroad__free__easeus__21000__1013
+16:40:11:461 DRWUI [21.0.0.0_free easeus] build at[Oct 13 2026 13:33:43] [40504ccb1923e316c9c9a1ffb06907c8307930de],be x64[yes]
+16:40:11:984 P[8604]:T[3600] run to COnlineConfigFirebase::fetch:141
+16:40:15:011 P[8604]:T[3388] run to DrwMainWindow::doFirebaseFetchFinished:752
+16:40:15:011 P[8604]:T[3388] run to HolidayMgr::startDownloadHolidayRes:17
+16:40:15:012 startDownloadHolidayRes firebaseValue :{ 	"switch": false, 	"url": "https://download.easeus.com/download/DRW_Blackfriday.zip", 	"time": "202511100957" } 
+16:40:15:012 startDownloadHolidayRes valueSwitch isString : 0, isBool : 1, value : false 
+16:40:15:012 Nas Cache Temp = D:\a\easeus-drw-research\easeus-drw-research\og-codebase\NasCacheDirectory
+16:40:15:352 EnumCollectPartition::EnumDevice 100
+16:40:15:352 EnumCollectPartition::RemoveCache 1036
+16:40:15:354 EnumCollectPartition::RemoveCache 1046
+16:40:15:354 m_nIdentifyThreadCount = 0
+16:40:15:354 EnumCollectPartition::RemoveCache 1065
+16:40:15:354 Enum disk begin.EnumCollectPartition::EnumDevice 138
+16:40:15:356 Enum disk end.EnumCollectPartition::EnumDevice 142
+16:40:17:372 P[8604]:T[4736] run to EnumCollectPartition::EnumDevice:187
+16:40:17:373 P[8604]:T[4736] run to EnumCollectPartition::EnumDevice:284
+16:40:17:373 EnumCollectPartition::EnumDevice 285
+16:40:17:398 CameraDeviceManager::GetCameraDeviceCount 439
+16:40:56:425 P[8604]:T[3388] run to CScanMgr::doScan:254
+16:40:56:453 Scan drive:C 
 Partition type:3
 strFolder:
 Scan Desktop:0
-16:14:27:468 P[2568]:T[2180] run to CDoScanPartition::PushScanDevice:58
-16:14:27:468 ScanDevice=Windows
-16:14:27:468 ScanDriverLetter=C
-16:14:27:468 FilterPath=
-16:14:27:468 P[2568]:T[2180] run to CDoScanPartition::PushFolderFilter:84
-16:14:27:468 P[2568]:T[2180] run to CDoScanPartition::DoScan:94
-16:14:27:469 AdvanceFilter current time is :2026-10-17 16:14:27
-16:14:27:469 P[2568]:T[2180] run to CDoScanPartition::DoScan:153
-16:14:27:471 Quick scan StartSector=1159168, TotalSector=313413598
-16:14:27:471 Deep scan StartSector=1159168, TotalSector=313413598
-16:14:27:475 Quick scan matched=0, total=0
-16:14:27:475 Recovery ability matched=0, total=0
-16:14:27:475 Quick scan matched=0, total=0
-16:14:27:475 Recovery ability matched=0, total=0
-16:14:27:477 OfficeTmp=D:\OfficeRepairTmp
-16:14:27:478 P[2568]:T[4968] run to CScanMgr::doStartLogic:950
-16:14:27:521 P[2568]:T[4968] run to CDoScanPartition::ScanThread:364
-16:14:27:521 ScanThread type=0
-16:14:59:983 P[2568]:T[4968] run to CDoScanPartition::ScanThread:483
-16:14:59:983 P[2568]:T[4968] run to CDoScanPartition::UpdateScanFinishedInfo:498
-16:15:07:561 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 838 nStatus=2, m_iScanType=1
-16:15:07:561 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 856 nStatus=2, m_iScanType=2
-16:15:07:561 Quick scan matched=0, total=64
-16:15:07:562 Quick scan matched=0, total=64
-16:15:07:573 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 477 m_iScanType=2
-16:15:07:573 Quick scan matched=0, total=64
-16:15:07:587 P[2568]:T[4968] run to CScanMgr::doStartLogic:950
-16:15:08:265 Quick scan matched=0, total=64
-16:15:08:297 P[2568]:T[4968] run to CDoScanPartition::ScanThread:364
-16:15:08:297 ScanThread type=1
-16:15:08:298 Insert lost partition e:\drw\_drw_main\drwintelligentscan\recoverycontroller\genericrecoverycontroller.cpp, 130, StartSector=0, TotalSector=313413598
-16:17:08:289 Quick scan matched=0, total=64
-16:25:33:955 Quick scan matched=0, total=64
-16:25:33:957 Recovery ability matched=0, total=127
-16:25:35:012 P[2568]:T[4968] run to ThumbnailFactory::ClearCache:78
-16:25:35:012 P[2568]:T[4968] run to ThumbnailFactory::ClearCache:92
-16:25:35:012 P[2568]:T[4968] run to ThumbnailFactory::ClearCache:105
-16:25:35:012 P[2568]:T[4968] run to SearchDataSource::ClearCache:563
-16:25:35:012 P[2568]:T[4968] run to PreviewDataSource::ClearCache:242
-16:25:35:012 P[2568]:T[4968] run to OfficePreviewStub::doKillAllOpenProcess:654
-16:25:35:012 P[2568]:T[4968] run to PreviewDataSource::ClearCache:250
-16:25:36:069 P[2568]:T[4968] run to ThumbnailFactory::ClearCache:78
-16:25:36:069 P[2568]:T[4968] run to ThumbnailFactory::ClearCache:92
-16:25:36:069 P[2568]:T[4968] run to ThumbnailFactory::ClearCache:105
-16:25:36:071 P[2568]:T[4968] run to SearchDataSource::ClearCache:563
-16:25:37:077 P[2568]:T[4968] run to SearchDataSource::ClearCache:580
-16:25:37:077 P[2568]:T[4968] run to PreviewDataSource::ClearCache:242
-16:25:37:077 P[2568]:T[4968] run to OfficePreviewStub::doKillAllOpenProcess:654
-16:25:37:077 P[2568]:T[4968] run to OfficePreviewStub::doKillAllOpenProcess:654
-16:25:37:077 P[2568]:T[4968] run to OfficePreviewStub::OnExitPreview:412
-16:25:37:077 P[2568]:T[4968] run to PreviewDataSource::ClearCache:250
-16:25:37:103 P[2568]:T[7684] run to FileNodeShareHelper::init:198
-16:25:37:105 P[2568]:T[7684] run to FileNodeShareHelper::init:215
-16:25:37:105 P[2568]:T[7684] run to FileNodeShareHelper::init:217
-16:25:37:161 -------------Start Freeze--------------
-16:25:39:082 Build tree finish.
-16:25:59:536 m_bImportResult=0
-16:25:59:536 SaveResultPath = D:\a\easeus-drw-research\easeus-drw-research\og-codebase\SaveScan\auto_Windows (C_)10_17_16_25_59.rsf16:26:03:114 m_nFreeze=0, bUnfreeze=1
-16:26:03:409 Send unfreeze msg.
-16:26:03:411 -------------------Unfreeze-----------------
-16:26:03:413 m_bNeedViedoRepair = 0
-16:26:03:413 m_pVideoRepair = 1
-16:26:03:413 P[2568]:T[4968] run to CDoScanPartition::ScanThread:483
-16:26:03:413 P[2568]:T[4968] run to CDoScanPartition::UpdateScanFinishedInfo:498
-16:26:03:413 P[2568]:T[4968] run to CScanMgr::ScanFinished:636
-16:26:03:415 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 838 nStatus=4, m_iScanType=3
-16:26:03:429 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 856 nStatus=4, m_iScanType=4
-16:26:03:466 Quick scan matched=0, total=64
-16:26:03:466 Recovery ability matched=0, total=127
-16:26:03:467 Quick scan matched=0, total=64
-16:26:03:467 Recovery ability matched=0, total=127
-16:26:03:477 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 477 m_iScanType=4
-16:26:03:491 Quick scan matched=0, total=64
-16:26:03:832 Quick scan matched=0, total=64
-16:26:05:148 Recoverability finish match..
-16:26:05:150 Quick scan matched=0, total=64
-16:26:05:150 Recovery ability matched=0, total=127
+16:40:56:456 P[8604]:T[3388] run to CDoScanPartition::PushScanDevice:58
+16:40:56:456 ScanDevice=Windows
+16:40:56:456 ScanDriverLetter=C
+16:40:56:456 FilterPath=
+16:40:56:456 P[8604]:T[3388] run to CDoScanPartition::PushFolderFilter:84
+16:40:56:456 P[8604]:T[3388] run to CDoScanPartition::DoScan:94
+16:40:56:458 AdvanceFilter current time is :2026-10-17 16:40:56
+16:40:56:458 P[8604]:T[3388] run to CDoScanPartition::DoScan:153
+16:40:56:459 Quick scan StartSector=1159168, TotalSector=313413598
+16:40:56:459 Deep scan StartSector=1159168, TotalSector=313413598
+16:40:56:464 Quick scan matched=0, total=0
+16:40:56:464 Recovery ability matched=0, total=0
+16:40:56:465 Quick scan matched=0, total=0
+16:40:56:465 Recovery ability matched=0, total=0
+16:40:56:476 OfficeTmp=D:\OfficeRepairTmp
+16:40:56:476 P[8604]:T[8172] run to CScanMgr::doStartLogic:950
+16:40:56:507 P[8604]:T[8172] run to CDoScanPartition::ScanThread:364
+16:40:56:508 ScanThread type=0
+16:41:28:098 P[8604]:T[8172] run to CDoScanPartition::ScanThread:483
+16:41:28:098 P[8604]:T[8172] run to CDoScanPartition::UpdateScanFinishedInfo:498
+16:41:35:139 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 838 nStatus=2, m_iScanType=1
+16:41:35:139 Quick scan matched=0, total=64
+can\qtdrwui\detailpage\bottomarea.cpp, 856 nStatus=2, m_iScanType=2
+16:41:35:140 Quick scan matched=0, total=64
+16:41:35:150 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 477 m_iScanType=2
+16:41:35:150 Quick scan matched=0, total=64
+16:41:35:166 P[8604]:T[8172] run to CScanMgr::doStartLogic:950
+16:41:35:297 Quick scan matched=0, total=64
+16:41:35:721 P[8604]:T[8172] run to CDoScanPartition::ScanThread:364
+16:41:35:721 ScanThread type=1
+16:41:35:723 Insert lost partition e:\drw\_drw_main\drwintelligentscan\recoverycontroller\genericrecoverycontroller.cpp, 130, StartSector=0, TotalSector=313413598
+16:43:35:308 Quick scan matched=0, total=64
+16:54:06:663 Quick scan matched=0, total=64
+16:54:06:663 Recovery ability matched=1, total=128
+16:54:07:976 P[8604]:T[8172] run to ThumbnailFactory::ClearCache:78
+16:54:07:976 P[8604]:T[8172] run to ThumbnailFactory::ClearCache:92
+16:54:07:976 P[8604]:T[8172] run to ThumbnailFactory::ClearCache:105
+16:54:07:976 P[8604]:T[8172] run to SearchDataSource::ClearCache:563
+16:54:07:976 P[8604]:T[8172] run to PreviewDataSource::ClearCache:242
+16:54:07:976 P[8604]:T[8172] run to OfficePreviewStub::doKillAllOpenProcess:654
+16:54:07:976 P[8604]:T[8172] run to PreviewDataSource::ClearCache:250
+16:54:09:031 P[8604]:T[8172] run to ThumbnailFactory::ClearCache:78
+16:54:09:031 P[8604]:T[8172] run to ThumbnailFactory::ClearCache:92
+16:54:09:031 P[8604]:T[8172] run to ThumbnailFactory::ClearCache:105
+16:54:09:031 P[8604]:T[8172] run to SearchDataSource::ClearCache:563
+16:54:10:039 P[8604]:T[8172] run to SearchDataSource::ClearCache:580
+16:54:10:039 P[8604]:T[8172] run to PreviewDataSource::ClearCache:242
+16:54:10:039 P[8604]:T[8172] run to OfficePreviewStub::doKillAllOpenProcess:654
+16:54:10:039 P[8604]:T[8172] run to OfficePreviewStub::doKillAllOpenProcess:654
+16:54:10:039 P[8604]:T[8172] run to OfficePreviewStub::OnExitPreview:412
+16:54:10:039 P[8604]:T[8172] run to PreviewDataSource::ClearCache:250
+16:54:10:060 P[8604]:T[10024] run to FileNodeShareHelper::init:198
+16:54:10:061 P[8604]:T[10024] run to FileNodeShareHelper::init:215
+16:54:10:061 P[8604]:T[10024] run to FileNodeShareHelper::init:217
+16:54:10:118 -------------Start Freeze--------------
+16:54:11:970 Build tree finish.
+16:54:31:875 m_bImportResult=0
+16:54:31:877 SaveResultPath = D:\a\easeus-drw-research\easeus-drw-research\og-codebase\SaveScan\auto_Windows (C_)10_17_16_54_31.rsf16:54:35:193 m_nFreeze=0, bUnfreeze=1
+16:54:35:515 Send unfreeze msg.
+16:54:35:515 -------------------Unfreeze-----------------
+16:54:35:519 m_bNeedViedoRepair = 0
+16:54:35:519 m_pVideoRepair = 1
+16:54:35:519 P[8604]:T[8172] run to CDoScanPartition::ScanThread:483
+16:54:35:519 P[8604]:T[8172] run to CDoScanPartition::UpdateScanFinishedInfo:498
+16:54:35:519 P[8604]:T[8172] run to CScanMgr::ScanFinished:636
+16:54:35:521 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 838 nStatus=4, m_iScanType=3
+16:54:35:534 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 856 nStatus=4, m_iScanType=4
+16:54:35:572 Quick scan matched=0, total=64
+16:54:35:573 Recovery ability matched=1, total=128
+16:54:35:573 Quick scan matched=0, total=64
+16:54:35:573 Recovery ability matched=1, total=128
+16:54:35:584 e:\drw\_drw_main\drwintelligentscan\qtdrwui\detailpage\bottomarea.cpp, 477 m_iScanType=4
+16:54:35:599 Quick scan matched=0, total=64
+16:54:35:934 Quick scan matched=0, total=64
+16:54:37:394 Recoverability finish match..
+16:54:37:394 Quick scan matched=0, total=64
+16:54:37:394 Recovery ability matched=1, total=128
+16:56:50:990 Quick scan matched=0, total=64
+16:56:53:034 Quick scan matched=0, total=64
+16:56:55:295 Quick scan matched=0, total=64
+16:56:55:358 Quick scan matched=0, total=64

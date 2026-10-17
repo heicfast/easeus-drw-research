@@ -124,3 +124,40 @@ Every stage now has pixel evidence + telemetry corroboration + static cross-link
 - Filter-bar static decode (AI button + freeze signals): `31-filterbar-family-decode.md`
 - Sink/Freeze protocol: `20-moc-surface-sink-architecture.md` §4
 - .rsf auto-save: `../SaveScan/rsf-format--scan-session.md`; CScanMgr/CDetailPage wiring: `13-ui-core-wiring-state.md`
+
+---
+
+## 9. SECOND RUN (v2, run 39050387183) — the results-phase interactions CAPTURED
+
+The v2 workflow fix (dismiss the celebration via its own CTA first) unlocked the full results-phase interaction matrix. 7 distinct UI states captured (`shot_20`–`shot_26`), each step hash-verified to change:
+
+| Step | Screenshot | State (VLM-decoded) |
+|---|---|---|
+| Go to Recover | shot_20 | Results view + "AI Recommend available." toast + AI FAB (identical to run-1 §2) |
+| Filter toolbar click | shot_21 | **Filter row appears below the toolbar** (funnel button active); the visible chrome = toggle cluster + address "Windows (C:)" + list-toggle + Filter + search field |
+| Filter-bar button click | shot_22 | No visible change (same hash as 21) — the (600,118) click landed between the bar's buttons or the menu opened and closed within the 2 s window |
+| **Type tab click** | shot_23 | **Type tab highlighted, tree STILL path-rooted** — the classify-tree rebuild is ASYNC (>3 s); captured mid-transition |
+| Path tab back | shot_24 | Path view restored |
+| File row single-click | shot_25 | Right pane: generic icon + "jpeg" + Open button + 546.72 KB + C:\ (pre-thumbnail state) |
+| **File row double-click** | shot_26 | **THE PREVIEW PANEL LIVE**: actual image thumbnail rendered (`video-001.221212.jpeg`, an 18.81 KB JPEG), file row highlighted with a blue border, metadata block + light-blue "Preview" button, **Status: "Existing"**, **Recovery Chances: "High" with a circular gauge** |
+
+### 9.1 The preview subsystem — first live capture
+
+The double-click preview loads **in the right pane** (no new top-level window — the census shows no additional hwnd), rendering the decoded image + the metadata stack:
+`Name / [Preview] / Size / Date Modified / Path / Status / Recovery Chances`.
+
+**"Recovery Chances: High" with a circular gauge is the CCheckNodeThread grading visualized** — the recoverability pass (telemetry §5) surfaces per-file in the preview pane. The standalone `PreviewMainDialog` window opens via the "Preview" BUTTON (not the double-click) — the panel-preview is the default double-click behavior.
+
+### 9.2 The async Type-tree switch (precision finding)
+
+`onTabGroupClicked(int)` switches the tab immediately, but the classify model (Type view, `FUN_1401d4930` model from artifact 31 §6) rebuilds asynchronously — the 3 s capture window caught the highlighted-tab + stale-tree state. The `slotListInsertFinish` / `onBindTabFileNode` slots (CRightContent) are the completion path that populates the switched tree.
+
+### 9.3 v2 telemetry deltas
+
+- `Recovery ability matched=1, total=128` (run-1 had matched=0 — one runner file graded this time)
+- Repeated `Quick scan matched=0, total=64` lines at 16:56:50–55 — **the quick-scan/recoverability matching re-fires during user browsing/selection** (async grading re-runs as rows are selected), not only at completion
+- Same completion pipeline verbatim: auto-rsf → Unfreeze → ScanFinished → bottomarea.cpp:838/856 (re-validated on a second runner disk: 1,139,250 files / 149.73 GB)
+
+## 10. Run-1 vs run-2 cross-validation
+
+Two independent Windows runners, same scripted flow, 6 hours apart: identical completion pipeline, identical funnel order (celebration → Go to Recover → results+toast → retention gate on Recover All), file-count variance only from runner disk state (1,139,261/147.04 GB vs 1,139,250/149.73 GB vs 1,139,275/149.85 GB). The flow decode is **runner-independent** — the user-flow claims are now double-verified dynamically.

@@ -203,6 +203,6 @@
 00:43:57:241 result 000002195F024DE0 FileSystem (3) StartSector:206848 DataAreaStart:206848 totalSector:434608120 fileCount:0 folderCount:0 dSuggestted0.632748
 00:43:57:241 result 000002195F0248D0 FileSystem (3) StartSector:2384 DataAreaStart:2384 totalSector:204792 fileCount:0 folderCount:0 dSuggestted0.632748
 00:43:57:241 result 000002195F024C30 FileSystem (3) StartSector:15144 DataAreaStart:15144 totalSector:204792 fileCount:0 folderCount:0 dSuggestted0.632748
-16:25:37:161 ******************* Total Recommend SearchedPartiton in (0-313413598) Sector ******************
-16:25:37:161 1.000002602F3573B0(NTFS) StartSec:0 DataAreaStart:0 EndSec:313413592 totalSec:313413592 files:0 folders:0 dSuggestted:1.000000
-16:25:37:161 result 000002602F3573B0 FileSystem (3) StartSector:0 DataAreaStart:0 totalSector:313413592 fileCount:0 folderCount:0 dSuggestted1.000000
+16:54:10:118 ******************* Total Recommend SearchedPartiton in (0-313413598) Sector ******************
+16:54:10:118 1.0000029C4A4E6950(NTFS) StartSec:0 DataAreaStart:0 EndSec:313413592 totalSec:313413592 files:0 folders:0 dSuggestted:1.000000
+16:54:10:118 result 0000029C4A4E6950 FileSystem (3) StartSector:0 DataAreaStart:0 totalSector:313413592 fileCount:0 folderCount:0 dSuggestted1.000000
