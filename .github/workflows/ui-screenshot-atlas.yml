@@ -143,14 +143,14 @@ jobs:
             return $r
           }
           # absolute click: measured pixel position offset from window origin
-          function AC($x, $y) {
+          function ClickAt($x, $y) {
             $r = Origin
             if ($r) {
               [AH2]::Click($r.L + $x, $r.T + $y)
               "click ($x,$y)+origin" | Write-Host
             } else { "AC: no window" | Write-Host }
           }
-          function ARClick($x, $y) {
+          function RClickAt($x, $y) {
             $r = Origin
             if ($r) { [AH2]::RClick($r.L + $x, $r.T + $y); "rclick ($x,$y)+origin" | Write-Host }
             else { "ARClick: no window" | Write-Host }
@@ -167,20 +167,38 @@ jobs:
           if ($V -eq 'landing-menus') {
             Shot "00_landing"
             $log += "landing baseline"
-            # AI robot avatar (700,30)
-            AC 700 30; Start-Sleep -Seconds 3; Shot "01_ai_robot_panel"; Esc2
-            $log += "AI robot avatar clicked"
-            # Buy / cart (754,30)
-            AC 754 30; Start-Sleep -Seconds 4; Shot "02_buy"; Esc2; KillBrowsers
+            # ---- AI assistant panel sequence (robot avatar toggles it) ----
+            ClickAt 700 17; Start-Sleep -Seconds 2; Shot "01_ai_panel"
+            $log += "AI robot avatar clicked (panel toggle)"
+            # panel option 1: Unable to find your hard drive?
+            ClickAt 780 130; Start-Sleep -Seconds 3; Shot "02_ai_opt1_nofind"
+            $log += "AI option 1 (unable to find hard drive)"
+            Esc2; KillBrowsers
+            ClickAt 700 17; Start-Sleep -Seconds 2   # reopen if closed
+            # panel option 2: Try Advanced File Repair
+            ClickAt 780 174; Start-Sleep -Seconds 3; Shot "03_ai_opt2_filerepair"
+            $log += "AI option 2 (advanced file repair)"
+            Esc2; KillBrowsers
+            ClickAt 700 17; Start-Sleep -Seconds 2
+            # panel option 3: Quick start guide
+            ClickAt 780 216; Start-Sleep -Seconds 3; Shot "04_ai_opt3_guide"
+            $log += "AI option 3 (quick start guide)"
+            Esc2; KillBrowsers
+            ClickAt 700 17; Start-Sleep -Seconds 2
+            # panel option 4: Chat with us
+            ClickAt 780 260; Start-Sleep -Seconds 3; Shot "05_ai_opt4_chat"
+            $log += "AI option 4 (chat with us)"
+            Esc2; KillBrowsers
+            ClickAt 700 17; Start-Sleep -Milliseconds 600; ClickAt 700 17  # ensure closed
+            # ---- top bar icons ----
+            ClickAt 753 20; Start-Sleep -Seconds 4; Shot "06_buy"; Esc2; KillBrowsers
             $log += "buy/cart clicked"
-            # Activate (794,30)
-            AC 794 30; Start-Sleep -Seconds 3; Shot "03_activate"; Esc2
+            ClickAt 794 20; Start-Sleep -Seconds 3; Shot "07_activate"; Esc2
             $log += "activate clicked"
-            # Save scan (834,30) - on landing with no session
-            AC 834 30; Start-Sleep -Seconds 2; Shot "04_savescan_landing"; Esc2
+            ClickAt 834 20; Start-Sleep -Seconds 2; Shot "08_savescan_landing"; Esc2
             $log += "save-scan clicked (landing, no session)"
-            # Hamburger menu open (874,30)
-            AC 874 30; Start-Sleep -Seconds 2; Shot "05_menu_open"
+            # ---- hamburger Drw_More_Menu ----
+            ClickAt 874 20; Start-Sleep -Seconds 2; Shot "09_menu_open"
             $log += "hamburger menu opened"
             Esc2
             # Menu row walk: menu anchored under hamburger, rows ~33px
@@ -189,44 +207,44 @@ jobs:
             foreach ($ry in $rows) {
               $i++
               Esc2; KillBrowsers
-              AC 874 30; Start-Sleep -Milliseconds 900   # open menu
-              AC 874 $ry; Start-Sleep -Seconds 3          # click row
+              ClickAt 874 20; Start-Sleep -Milliseconds 900   # open menu
+              ClickAt 874 $ry; Start-Sleep -Seconds 3          # click row
               Shot "06_menu_row_$i`_y$ry"
               $log += "menu row $i (y=$ry) clicked"
             }
             # after menu walk return to clean landing
             Esc2; KillBrowsers; Start-Sleep -Seconds 2
-            Shot "07_after_menu_walk"
+            Shot "22_after_menu_walk"
             # Sidebar pages
-            AC 135 112; Start-Sleep -Seconds 2; Shot "08_sidebar_harddisk"     # Hardware Disk (default)
+            ClickAt 135 120; Start-Sleep -Seconds 2; Shot "23_sidebar_harddisk"     # Hardware Disk (default)
             $log += "sidebar Hardware Disk"
-            AC 135 162; Start-Sleep -Seconds 3; Shot "09_sidebar_sdcard"      # SD Card
+            ClickAt 135 174; Start-Sleep -Seconds 3; Shot "24_sidebar_sdcard"      # SD Card
             $log += "sidebar SD Card"
-            AC 135 232; Start-Sleep -Seconds 3; Shot "10_sidebar_moretools"   # More Recovery Tools (14 tiles)
+            ClickAt 135 226; Start-Sleep -Seconds 3; Shot "25_sidebar_moretools"   # More Recovery Tools (14 tiles)
             $log += "sidebar More Recovery Tools"
-            AC 135 392; Start-Sleep -Seconds 4; Shot "11_sidebar_filerepair"  # File Repair page
+            ClickAt 135 322; Start-Sleep -Seconds 4; Shot "26_sidebar_filerepair"  # File Repair page
             $log += "sidebar File Repair"
             # repair page: blind click center (Add area) + two offsets
-            AC 512 300; Start-Sleep -Seconds 3; Shot "12_filerepair_centerclick"; Esc2
+            ClickAt 512 300; Start-Sleep -Seconds 3; Shot "27_filerepair_centerclick"; Esc2
             $log += "file-repair center click (add attempt)"
-            AC 135 470; Start-Sleep -Seconds 3; Shot "13_sidebar_lostpartition" # Lost Partition Rescue
+            ClickAt 135 374; Start-Sleep -Seconds 3; Shot "28_sidebar_lostpartition" # Lost Partition Rescue
             $log += "sidebar Lost Partition Rescue"
-            AC 135 618; Start-Sleep -Seconds 3; Shot "14_sidebar_chronosnap"   # ChronoSnap Backup
+            ClickAt 135 467; Start-Sleep -Seconds 3; Shot "29_sidebar_chronosnap"   # ChronoSnap Backup
             $log += "sidebar ChronoSnap"
             # back to home
-            AC 135 112; Start-Sleep -Seconds 2; Shot "15_back_home"
-            # Select Folder tile (400,645) -> native folder picker
-            AC 400 645; Start-Sleep -Seconds 3; Shot "16_selectfolder_picker"; Esc2
+            ClickAt 135 120; Start-Sleep -Seconds 2; Shot "30_back_home"
+            # Select Folder tile (~375,590 measured) -> native folder picker
+            ClickAt 375 590; Start-Sleep -Seconds 3; Shot "31_selectfolder_picker"; Esc2
             $log += "Select Folder tile clicked (folder picker)"
-            # Recycle Bin tile (400,490)
-            AC 400 490; Start-Sleep -Seconds 2; Shot "17_recyclebin_tile"; Esc2
-            $log += "Recycle Bin tile clicked"
+            # Desktop tile (566,513 measured)
+            ClickAt 566 513; Start-Sleep -Seconds 2; Shot "32_desktop_tile"; Esc2
+            $log += "Desktop tile clicked"
           }
 
           # ---------------- RESULTS + CONTEXT MENU ----------------
           if ($V -eq 'results-context') {
             # start scan (blue CTA at 897,678)
-            AC 897 678
+            ClickAt 897 678
             "scan clicked" | Write-Host
             Start-Sleep -Seconds ${{ inputs.scan_wait }}
             Shot "10_complete_modal"
@@ -241,51 +259,51 @@ jobs:
             Shot "20_results_baseline"
             $log += "results baseline (after Go to Recover)"
             # right-click a file row -> CShowContextMenu
-            ARClick 600 350; Start-Sleep -Seconds 2
+            RClickAt 600 350; Start-Sleep -Seconds 2
             Shot "21_context_menu"
             $log += "right-click context menu captured"
             Esc2
             # view toggle (list<->icon) at (667,80)
-            AC 667 80; Start-Sleep -Seconds 2; Shot "22_view_toggle_iconview"
+            ClickAt 667 80; Start-Sleep -Seconds 2; Shot "22_view_toggle_iconview"
             $log += "view toggle clicked (icon view)"
-            AC 667 80; Start-Sleep -Seconds 1   # toggle back
+            ClickAt 667 80; Start-Sleep -Seconds 1   # toggle back
             # Filter button (737,80) -> filter bar
-            AC 737 80; Start-Sleep -Seconds 2; Shot "23_filter_bar"
+            ClickAt 737 80; Start-Sleep -Seconds 2; Shot "23_filter_bar"
             $log += "filter bar toggled"
             # Path dropdown (72,160)
-            AC 72 160; Start-Sleep -Seconds 2; Shot "24_filter_path_dropdown"
+            ClickAt 72 160; Start-Sleep -Seconds 2; Shot "24_filter_path_dropdown"
             $log += "filter Path dropdown"
             Esc2
             # Type dropdown (200,160)
-            AC 200 160; Start-Sleep -Seconds 2; Shot "25_filter_type_dropdown"
+            ClickAt 200 160; Start-Sleep -Seconds 2; Shot "25_filter_type_dropdown"
             $log += "filter Type dropdown"
             Esc2
             # search box (886,80) - type text
-            AC 886 80; Start-Sleep -Milliseconds 800
+            ClickAt 886 80; Start-Sleep -Milliseconds 800
             [System.Windows.Forms.SendKeys]::SendWait('system')
             Start-Sleep -Seconds 3; Shot "26_search_typed"
             $log += "search typed 'system'"
             # clear search
             [AH2]::Esc(); Start-Sleep -Seconds 2
             # single-click a row -> selection + contextual Recover
-            AC 600 350; Start-Sleep -Seconds 2; Shot "27_row_selected"
+            ClickAt 600 350; Start-Sleep -Seconds 2; Shot "27_row_selected"
             $log += "row selected (contextual Recover button)"
             # Recover (bottom bar, ~892,668) -> ChooseDestinationPathDialog
-            AC 892 668; Start-Sleep -Seconds 5; Shot "28_destination_dialog"
+            ClickAt 892 668; Start-Sleep -Seconds 5; Shot "28_destination_dialog"
             $log += "Recover clicked -> destination dialog"
             # dialog internals: capture then blind-click browse-ish center-left
-            AC 430 300; Start-Sleep -Seconds 3; Shot "29_destdlg_browseclick"
+            ClickAt 430 300; Start-Sleep -Seconds 3; Shot "29_destdlg_browseclick"
             Esc2
             # second row selection lower in list
-            AC 600 500; Start-Sleep -Seconds 2; Shot "30_row2_selected"
+            ClickAt 600 500; Start-Sleep -Seconds 2; Shot "30_row2_selected"
             # tree: expand a Type-tree category
-            AC 200 200; Start-Sleep -Seconds 2; Shot "31_tree_click"
+            ClickAt 200 200; Start-Sleep -Seconds 2; Shot "31_tree_click"
             $log += "tree area clicked"
           }
 
           # ---------------- SCAN PHASE ----------------
           if ($V -eq 'scan-phase-ui') {
-            AC 897 678
+            ClickAt 897 678
             "scan clicked" | Write-Host
             Start-Sleep -Seconds ${{ inputs.midscan_wait }}
             Shot "00_midscan_150s"
@@ -293,16 +311,16 @@ jobs:
             Start-Sleep -Seconds 60
             Shot "01_midscan_210s"
             # PAUSE (104,698)
-            AC 104 698; Start-Sleep -Seconds 3; Shot "02_paused"
+            ClickAt 104 698; Start-Sleep -Seconds 3; Shot "02_paused"
             $log += "pause clicked"
             # resume
-            AC 104 698; Start-Sleep -Seconds 3; Shot "03_resumed"
+            ClickAt 104 698; Start-Sleep -Seconds 3; Shot "03_resumed"
             $log += "pause toggled (resume)"
             # STOP (127,698) -> confirm dialog
-            AC 127 698; Start-Sleep -Seconds 4; Shot "04_stop_confirm"
+            ClickAt 127 698; Start-Sleep -Seconds 4; Shot "04_stop_confirm"
             $log += "stop clicked - confirm dialog"
             # confirm the stop (center of dialog area)
-            AC 512 420; Start-Sleep -Seconds 4; Shot "05_after_stop_confirm"
+            ClickAt 512 420; Start-Sleep -Seconds 4; Shot "05_after_stop_confirm"
             $log += "stop confirmed (partial results state?)"
             Start-Sleep -Seconds 5
             Shot "06_late_after_stop"
