@@ -81,3 +81,10 @@ Raw evidence: `re-workspace/reversed/ui-resources/` (extracted themes, translati
 - **15 — Scenario flows**: NAS 13-window chain with verified signal contracts (Connect/Scan/Support row actions, connect/enum result codes, pixmap streaming); Linux mirror; BitLocker unlock chain; WinPE media flow.
 - **16 — Shell internals**: DrwMainWindow setup (accessible names, opacity effects, quint64 title-button IDs, currentChanged sync); AI layer ("Local AI | Secure" on-device recommend/dedup/insight/assistant).
 - **17 — Monetization growth map**: complete funnel stage→surface→copy→telemetry table; pressure-gradient copy analysis.
+
+## 9. Third wave + dynamic verification status
+
+- **18 — Preview architecture**: 41-class system with `IPreviewStub` plugin family (Mem/Office/Pdf/Image/RtfTxt/Archive/AV), tri-state views, `CPreviewController` contract, `VideoPreviewWnd::timeout()` = the 15s free cap.
+- **19 — DiskHealth Quick UI**: frameless 840×590 QML dashboard, S.M.A.R.T. table, tray-guarding model, shared EuS component library.
+- **QSS layout census** (`re-workspace/reversed/ui-resources/qss_layout_census.txt`): 1,646 selectors with dimensions (DiskBackup 680×536–730, TitleGift 420×488, context menu 264×202…).
+- **Dynamic ground-truth workflow** (`.github/workflows/ui-ground-truth.yml`): Wine+Xvfb screenshot & window-census run of DRWUI — prepared and dispatched, but GitHub Actions minutes on the account are exhausted (all jobs after 09:19 UTC rejected at allocation; verified across 4 dispatches incl. ubuntu fallback). Re-dispatch `ui-ground-truth` when minutes replenish to capture runtime window titles/geometry for final confirmation of the decoded flow.

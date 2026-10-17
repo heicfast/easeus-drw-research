@@ -187,3 +187,23 @@ Work Log:
 Stage Summary:
 - COMPLETE UI/UX documentation set: visual (7,400 assets), strings (1,556x25 langs + 18,939 binary strings), classes (141 windows), userflow (view manager + scan chain), styling (palette+geometry), dialogs (51 classes + 195 telemetry events), per-phase deep dives (home/scan/results/preview/recovery/repair), UI-to-core wiring (singletons, signals, threads, state)
 - All committed and pushed; scripts persisted in scripts/ for re-runs
+
+---
+Task ID: uiux-3 (verification + wave 3)
+Agent: UI/UX Research Agent (session 2)
+Task: ground-truth verification + remaining deep dives
+
+Work Log:
+- Decoded CDetailPage 42-slot dispatcher (view-mode stack + slot-27 rebinder + nested QEventLoop modal) → artifact 14
+- Extracted NAS/Linux/BitLocker/WinPE scenario signal contracts (Connect/Scan/Support row actions, connect/enum results, pixmap streaming) → artifact 15
+- Decoded DrwMainWindow shell internals (quint64 title-button IDs, accessible names, opacity effects, currentChanged sync) + AI layer ("Local AI | Secure") → artifact 16
+- Mapped complete monetization funnel (stage→surface→copy→telemetry) → artifact 17
+- Preview architecture: 41 classes, IPreviewStub plugin family → artifact 18
+- DiskHealth QML UI documented (840x590 frameless, SMART table, 32 strings) → artifact 19
+- QSS systematic census: 1,646 selectors w/ layout constraints → qss_layout_census.txt
+- Built ui-ground-truth.yml (Wine+Xvfb screenshots + window census); dispatched 4x — ALL rejected at job allocation: GitHub Actions minutes EXHAUSTED on account (jobs after 09:19 UTC never scheduled, no runner; verified windows-latest AND ubuntu-latest)
+- 19 artifacts + architecture/05 + toolchain committed
+
+Stage Summary:
+- UI/UX research COMPLETE statically (19 artifacts, all phases, verified via 4 independent evidence channels: QM/tr-strings, RTTI vtables, moc tables, QSS/RCC assets)
+- PENDING: dynamic Wine ground-truth — workflow ready, blocked by account Actions-minutes exhaustion; re-dispatch when minutes available
