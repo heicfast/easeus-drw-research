@@ -78,3 +78,30 @@ The click was injected via `user32 mouse_event` (SetCursorPos + LEFTDOWN/UP) at 
 - Static results-phase decode: `UIUX/09-results-phase-deep-dive.md`, tree building: `architecture/05-scan-engine-architecture.md` + `architecture/04-recovery-workflow.md` §organize
 - .rsf 3-root persistence: `SaveScan/rsf-format--scan-session.md` §5.4 (validated parser)
 - Quick→Advanced scan model: `architecture/04-recovery-workflow.md` §scan; engine factories: `05-scan-engine-architecture.md`
+
+---
+
+## 7. ADDENDUM — long-run capture (run 39036658913, 420s scan wait)
+
+Same click protocol; ~7 minutes into the scan (raw evidence: `screen_main_long.png`):
+
+| Metric | t=75s | t≈460s (7.6 min) |
+|---|---|---|
+| Progress | 9% | **34%** |
+| Files found | 11xx (truncated) | **1,139,157 (143.74 GB)** |
+| Windows (C:) branch | 1.11M | 1.11M (stable) |
+| File Path Lost | 4.4K | 4.3K (stable) |
+| **Reconstructed** | **1** | **16 — LIVE CARVING FEED: the RAW-scan branch grows during the advanced scan** |
+| Remaining-time estimate | — | **07m43s** shown |
+| Sector ticker | Searching: <file path> | **Reading sector: 134316032/31413598** |
+
+**New UI surfaces observed only in the long run**:
+- **Pause (❚❚) and Stop (■) controls** in the bottom bar — the scan-control surface
+- **"Recover All …" blue button** — bulk recovery directly from the scanning state (recover-before-scan-completes is offered)
+- **Icons decoded**: File Path Lost = folder + question mark; Reconstructed = folder + puzzle pieces
+- Status format (verbatim): `Advanced Scanning , Files Found: 1139157 (143.74 GB)` + `Remaining time: 07m43s | Reading sector: 134316032/31413598`
+
+**Verified behaviors**:
+1. The **Reconstructed branch grows live** (1→16 during 6 minutes of advanced scanning) — direct runtime proof that RAW carving results stream into the tree as found (the incremental-scan architecture, architecture/04 §scan).
+2. The **remaining-time estimate** (7m43s at 34%) implies a linear sector-throughput model — matches the sector-based progress decoded in the engines (bitmap/sector progress objects).
+3. File Path Lost count is stable while Reconstructed grows — the structured-loss phase (deleted-file detection) finished early; the advanced scan's remaining work is RAW carving (consistent with the two-phase model).
