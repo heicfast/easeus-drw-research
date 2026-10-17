@@ -217,21 +217,50 @@ jobs:
             ClickAt 770 150; Start-Sleep -Seconds 2
             ClickAt 834 20; Start-Sleep -Seconds 2; Shot "08_savescan_landing"; Esc2
             $log += "save-scan clicked (landing, no session)"
-            # ---- hamburger Drw_More_Menu ----
+            # ---- hamburger Drw_More_Menu (measured: panel x 748-972, items 42px) ----
             ClickAt 874 20; Start-Sleep -Seconds 2; Shot "09_menu_open"
             $log += "hamburger menu opened"
-            Esc2
-            # Menu row walk: menu anchored under hamburger, rows ~33px
-            $rows = 65,100,135,170,205,240,275,310,345,380,415,450,485
-            $i = 0
-            foreach ($ry in $rows) {
-              $i++
+            [AH2]::Esc(); Start-Sleep -Milliseconds 900
+            # precise item clicks (item centers from the captured menu):
+            # Language(860,87) Help(860,131) Activate(860,177) CheckUpdates(860,221)
+            # Share(860,275) Refer(860,319) FileRepair(860,375) TodoBackup(860,429)
+            # ChatPDF(860,473) Settings(860,529) Survey(860,573) About(860,607)
+            $items = @(
+              @{n='10_language';    x=860; y=87},
+              @{n='11_help';        x=860; y=131},
+              @{n='12_checkupdates';x=860; y=221},
+              @{n='13_settings';    x=860; y=529},
+              @{n='14_about';       x=860; y=607}
+            )
+            foreach ($it in $items) {
               Esc2; KillBrowsers
-              ClickAt 874 20; Start-Sleep -Milliseconds 900   # open menu
-              ClickAt 874 $ry; Start-Sleep -Seconds 3          # click row
-              Shot "06_menu_row_$i`_y$ry"
-              $log += "menu row $i (y=$ry) clicked"
+              ClickAt 874 20; Start-Sleep -Milliseconds 1200   # open menu
+              ClickAt $it.x $it.y; Start-Sleep -Seconds 3      # click item
+              Shot $it.n
+              $log += "menu item $($it.n) clicked"
             }
+            # ---- THEME: Settings submenu -> Dark (the grand prize: dark-mode app) ----
+            Esc2; KillBrowsers
+            ClickAt 874 20; Start-Sleep -Milliseconds 1200     # open menu
+            ClickAt 860 529; Start-Sleep -Milliseconds 1500    # Settings submenu
+            Shot "15_settings_submenu"
+            $log += "settings submenu open"
+            # submenu opens right of the menu (~x 975-1100 clipped): click Dark (~y 529)
+            ClickAt 1000 529; Start-Sleep -Seconds 3
+            Shot "16_dark_theme_landing"
+            $log += "Dark theme selected -> dark landing"
+            Start-Sleep -Seconds 2
+            Shot "17_dark_theme_late"
+            # sidebar pages in dark
+            ClickAt 135 226; Start-Sleep -Seconds 3; Shot "18_dark_moretools"
+            ClickAt 135 322; Start-Sleep -Seconds 3; Shot "19_dark_filerepair"
+            ClickAt 135 120; Start-Sleep -Seconds 2; Shot "20_dark_back_home"
+            # back to light via menu again
+            ClickAt 874 20; Start-Sleep -Milliseconds 1200
+            ClickAt 860 529; Start-Sleep -Milliseconds 1500
+            ClickAt 1000 490; Start-Sleep -Seconds 3   # Light option (~y 490)
+            Shot "21_back_to_light"
+            $log += "theme toggled back to light"
             # after menu walk return to clean landing
             Esc2; KillBrowsers; Start-Sleep -Seconds 2
             Shot "22_after_menu_walk"
